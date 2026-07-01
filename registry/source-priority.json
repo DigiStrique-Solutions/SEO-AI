@@ -1,0 +1,13 @@
+{
+  "version": "2026-07-01",
+  "priority": [
+    "run_context",
+    "brand_dna",
+    "brand_answers",
+    "connector",
+    "crawl",
+    "prompt_capture",
+    "safe_inference",
+    "hitl"
+  ]
+}

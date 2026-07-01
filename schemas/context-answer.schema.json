@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Context Answer",
+  "type": "object",
+  "required": ["field_id", "value", "source_type", "source_ref", "confidence", "scope", "updated_at"],
+  "properties": {
+    "field_id": { "type": "string" },
+    "value": {},
+    "source_type": { "type": "string" },
+    "source_ref": { "type": "string" },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+    "scope": { "type": "string" },
+    "updated_at": { "type": "string" },
+    "reason": { "type": "string" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "audit": "brands/strique/audits/ai-seo-aeo-geo-google-visible-audit.json",
+  "coverage_counts": {
+    "fail": 17,
+    "not_applicable": 17,
+    "not_checked_blocked": 73,
+    "pass": 26
+  },
+  "ok": true,
+  "provider_blocked_rows": 0,
+  "routed_rows": 133
+}

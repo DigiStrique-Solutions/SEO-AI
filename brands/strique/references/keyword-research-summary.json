@@ -1,0 +1,38 @@
+{
+  "blockers": [],
+  "brand_dir": "brands/strique",
+  "brand_name": "Strique",
+  "counts": {
+    "deduped_universe_rows": 228,
+    "existing_keywords": 150,
+    "gsc_rows": 0,
+    "keyword_planner_rows": 226,
+    "prioritized_rows": 150
+  },
+  "date_range": {
+    "end_date": "2026-06-27",
+    "start_date": "2025-03-04"
+  },
+  "generated_at": "2026-06-29T18:37:40+00:00",
+  "gsc_available_properties": [
+    "https://strique.io/",
+    "sc-domain:wohlig.in",
+    "sc-domain:strique.io",
+    "https://www.strique.io/"
+  ],
+  "gsc_property": "https://www.strique.io/",
+  "language": "languageConstants/1000",
+  "sources": {
+    "gsc": {
+      "row_count": 0,
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY"
+    },
+    "keyword_planner": {
+      "endpoint": "https://googleads.googleapis.com/v23/customers/2706929964:generateKeywordIdeas",
+      "row_count": 226
+    }
+  },
+  "target_country": "United States",
+  "target_country_source": "cli",
+  "website_url": "https://www.strique.io"
+}

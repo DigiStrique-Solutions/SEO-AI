@@ -1,0 +1,11 @@
+{
+  "providers": {
+    "analytics": ["posthog"],
+    "search_console": ["gsc"],
+    "keyword_demand": ["keyword_planner"],
+    "public_crawl": ["firecrawl"],
+    "rendered_browser": ["playwright"],
+    "performance_lab": ["lighthouse", "pagespeed"],
+    "performance_field": ["crux"]
+  }
+}

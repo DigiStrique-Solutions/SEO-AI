@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Strique SEO automation loop</title>
+  <desc id="desc">Diagram showing the Strique SEO automation loop from audit to learning.</desc>
+  <rect width="1400" height="760" fill="#f7f7f4"/>
+  <rect x="70" y="70" width="1260" height="620" rx="28" fill="#ffffff" stroke="#e4e4df"/>
+  <text x="120" y="140" fill="#111111" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700">SEO automation is a loop</text>
+  <text x="120" y="186" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="23">Audit, prioritize, ship, measure, and feed the next run.</text>
+  <g transform="translate(155 250)">
+    <circle cx="120" cy="120" r="82" fill="#f3f0ff" stroke="#6f4dff" stroke-width="3"/>
+    <text x="120" y="110" text-anchor="middle" fill="#171717" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Audit</text>
+    <text x="120" y="142" text-anchor="middle" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="17">crawl evidence</text>
+  </g>
+  <g transform="translate(365 250)">
+    <circle cx="120" cy="120" r="82" fill="#eef8f5" stroke="#20a67a" stroke-width="3"/>
+    <text x="120" y="110" text-anchor="middle" fill="#171717" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Map</text>
+    <text x="120" y="142" text-anchor="middle" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="17">query demand</text>
+  </g>
+  <g transform="translate(575 250)">
+    <circle cx="120" cy="120" r="82" fill="#fff7e6" stroke="#d99000" stroke-width="3"/>
+    <text x="120" y="110" text-anchor="middle" fill="#171717" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Prioritize</text>
+    <text x="120" y="142" text-anchor="middle" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="17">impact and risk</text>
+  </g>
+  <g transform="translate(785 250)">
+    <circle cx="120" cy="120" r="82" fill="#eef2ff" stroke="#4b6fff" stroke-width="3"/>
+    <text x="120" y="110" text-anchor="middle" fill="#171717" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Ship</text>
+    <text x="120" y="142" text-anchor="middle" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="17">with approval</text>
+  </g>
+  <g transform="translate(995 250)">
+    <circle cx="120" cy="120" r="82" fill="#f5f5f5" stroke="#111111" stroke-width="3"/>
+    <text x="120" y="110" text-anchor="middle" fill="#171717" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Learn</text>
+    <text x="120" y="142" text-anchor="middle" fill="#5c5c5c" font-family="Inter, Arial, sans-serif" font-size="17">measure results</text>
+  </g>
+  <g fill="none" stroke="#222222" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M357 370h70"/>
+    <path d="M427 370l-18 -12"/>
+    <path d="M427 370l-18 12"/>
+    <path d="M567 370h70"/>
+    <path d="M637 370l-18 -12"/>
+    <path d="M637 370l-18 12"/>
+    <path d="M777 370h70"/>
+    <path d="M847 370l-18 -12"/>
+    <path d="M847 370l-18 12"/>
+    <path d="M987 370h70"/>
+    <path d="M1057 370l-18 -12"/>
+    <path d="M1057 370l-18 12"/>
+    <path d="M1115 455c-80 145 -725 145 -840 0"/>
+    <path d="M275 455l24 2"/>
+    <path d="M275 455l10 22"/>
+  </g>
+  <rect x="120" y="590" width="1160" height="54" rx="27" fill="#111111"/>
+  <text x="700" y="625" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650">The win is not more pages. The win is fewer dropped fixes.</text>
+</svg>

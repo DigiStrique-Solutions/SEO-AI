@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Context Field Registry",
+  "type": "object",
+  "required": ["version", "fields"],
+  "properties": {
+    "version": { "type": "string" },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["field_id", "label", "scope", "data_type", "durability", "allowed_sources", "safe_to_infer", "used_by", "sensitive"],
+        "properties": {
+          "field_id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "label": { "type": "string" },
+          "scope": { "type": "string" },
+          "data_type": { "type": "string" },
+          "durability": { "type": "string" },
+          "allowed_sources": { "type": "array", "items": { "type": "string" } },
+          "safe_to_infer": { "type": "boolean" },
+          "used_by": { "type": "array", "items": { "type": "string" } },
+          "sensitive": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

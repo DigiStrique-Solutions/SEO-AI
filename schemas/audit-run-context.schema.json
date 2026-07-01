@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audit Run Context",
+  "type": "object",
+  "required": ["run_id", "brand_id", "work_type", "checklist_ids", "target_urls", "required_fields", "resolved", "assumptions", "blocked"],
+  "properties": {
+    "run_id": { "type": "string" },
+    "brand_id": { "type": "string" },
+    "work_type": { "type": "string" },
+    "checklist_ids": { "type": "array", "items": { "type": "string" } },
+    "target_urls": { "type": "array", "items": { "type": "string" } },
+    "required_fields": { "type": "array", "items": { "type": "string" } },
+    "resolved": { "type": "object" },
+    "assumptions": { "type": "object" },
+    "blocked": { "type": "array" }
+  }
+}

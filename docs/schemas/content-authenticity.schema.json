@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strique Content Authenticity Log",
+  "type": "object",
+  "required": ["metadata", "sources", "claims"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["target"],
+      "properties": {
+        "target": { "type": "string" },
+        "created_at": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "source_type", "source_ref", "extracted_facts"],
+        "properties": {
+          "source_id": { "type": "string", "minLength": 1 },
+          "source_type": { "type": "string", "minLength": 1 },
+          "source_ref": { "type": "string", "minLength": 1 },
+          "extracted_facts": { "type": "string", "minLength": 1 },
+          "used_in": { "type": "string" },
+          "assumptions": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "claim_type", "source_ids"],
+        "properties": {
+          "claim": { "type": "string", "minLength": 1 },
+          "claim_type": { "type": "string", "minLength": 1 },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "assumption": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "detector_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool": { "type": "string" },
+          "score": { "type": "string" },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

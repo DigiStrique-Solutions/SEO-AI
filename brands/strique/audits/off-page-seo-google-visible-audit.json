@@ -1,0 +1,5421 @@
+{
+  "metadata": {
+    "audit_type": "full",
+    "checklist_count": 1,
+    "created_at": "2026-06-30T15:57:38+00:00",
+    "evidence_manifest_path": "brands/strique/references/evidence/20260629T193943Z/manifest.json",
+    "evidence_run_id": "20260629T193943Z",
+    "item_count": 148,
+    "scope": "google-visible",
+    "site_checks_path": "brands/strique/exports/site-checks.csv",
+    "strict_evidence": true,
+    "target_url": "https://www.strique.io",
+    "url_inventory_path": "brands/strique/exports/url-inventory.csv"
+  },
+  "rows": [
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.ba962be9",
+      "item_text": "The off-page audit scope is defined: full domain, new site, migration, local visibility, reputation cleanup, PR campaign, affiliate program, partnership program, review program, or link-risk audit.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.8c6a172e",
+      "item_text": "Business type is identified: SaaS, ecommerce, local service, marketplace, app, publisher, healthcare, finance, legal, education, nonprofit, or enterprise.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.2fa6e2d3",
+      "item_text": "Risk level is set before recommendations: conservative, standard, or aggressive.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.cfa490f8",
+      "item_text": "YMYL exposure is identified and requires stronger trust, reputation, and compliance review.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.7694f47f",
+      "item_text": "Past SEO work is reviewed for paid links, link exchanges, guest post networks, expired domains, PBNs, widgets, scholarships, coupons, or mass directory submissions.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.8f63af00",
+      "item_text": "Manual actions, security issues, and major traffic drops are checked before link building recommendations.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:crm-sales",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.1-scope-and-risk-posture.0cd14161",
+      "item_text": "The goal is clear: authority, referral traffic, local prominence, brand trust, partnerships, PR reach, review growth, or recovery.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-risk-posture",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.920b07ca",
+      "item_text": "Export external links from GSC Links report.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.ebfe932d",
+      "item_text": "Export backlink data from Bing Webmaster Tools if available.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.48819421",
+      "item_text": "Pull GA4 referral traffic and conversions by source, medium, landing page, and campaign.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.5083f20b",
+      "item_text": "Pull branded query trends from GSC.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "performance_lab",
+          "providers": [
+            "lighthouse",
+            "pagespeed"
+          ],
+          "required": true,
+          "status": "connected"
+        },
+        {
+          "logical_source": "performance_field",
+          "providers": [
+            "crux"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "lighthouse",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.58386dac",
+      "item_text": "Pull local profile, review, and performance data from GBP where relevant.",
+      "logical_required_sources": [
+        "performance_lab",
+        "performance_field"
+      ],
+      "next_action": "Improve Core Web Vitals and Lighthouse performance bottlenecks.",
+      "provider_blockers": [],
+      "required_sources": [
+        "lighthouse",
+        "pagespeed",
+        "crux"
+      ],
+      "resolved_required_sources": [
+        "lighthouse",
+        "pagespeed",
+        "crux"
+      ],
+      "result": "47 of 63 public site checks failed for performance_score. Example: Performance score is 0.65.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.9ecdfed0",
+      "item_text": "Capture top brand SERPs for brand, product, founder, local, and review queries.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.f78966ca",
+      "item_text": "Capture key non-linked brand mentions from free search and alerts.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.5c100c2e",
+      "item_text": "Group external visibility by source type: editorial, directory, local citation, partner, affiliate, sponsorship, PR, review, forum/community, social, app marketplace, marketplace listing, or spam.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "public_crawl"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.2-baseline-off-page-inventory.f36d19ce",
+      "item_text": "Record which sources drive qualified traffic or conversions, not only links.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "2-baseline-off-page-inventory",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.2310c227",
+      "item_text": "Important backlinks come from topically relevant, trustworthy, crawlable pages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.75d559ca",
+      "item_text": "Linking pages have visible editorial context, not only footer, sidebar, profile, comment, or generated-list links.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.cc6905ab",
+      "item_text": "Linking pages are indexed or plausibly indexable when checked manually.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for indexable.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.056ddf1d",
+      "item_text": "Link placements make sense for users.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.bbc7f41d",
+      "item_text": "The linked destination matches the context of the mention.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.dea37476",
+      "item_text": "Important links point to live, canonical, indexable URLs.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Set canonical to the intended indexable URL.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "12 of 126 public site checks failed for canonical_match, indexable. Example: Canonical: https://www.strique.io/contact",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.ea230b7f",
+      "item_text": "Redirected backlink targets are reviewed after migrations or URL changes.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.873af362",
+      "item_text": "High-value links are not wasted on deleted pages, campaign URLs, tracking URLs, or non-canonical variants.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Set canonical to the intended indexable URL.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "12 of 63 public site checks failed for canonical_match. Example: Canonical: https://www.strique.io/contact",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.de24e814",
+      "item_text": "Referral traffic quality is checked before treating a link source as valuable.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.3-backlink-quality-and-relevance.11cbea15",
+      "item_text": "Links from irrelevant, spammy, hacked, scraped, adult, gambling, malware, or auto-generated pages are flagged for risk review.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "3-backlink-quality-and-relevance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.e25b5ced",
+      "item_text": "Anchor text profile is reviewed for unnatural exact-match concentration.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.02f34358",
+      "item_text": "Linking domain growth is reviewed for sudden spikes that match campaigns, spam attacks, migrations, or negative SEO concerns.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.93f078e0",
+      "item_text": "Sitewide links are reviewed separately from editorial links.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.3b66ca85",
+      "item_text": "Repeated links from the same templates or network are grouped as one pattern.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.f05f1f98",
+      "item_text": "Links from obvious paid guest post networks, PBNs, expired domain networks, or link farms are flagged.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.647f8d2d",
+      "item_text": "Foreign-language links are reviewed for relevance instead of automatically treated as bad.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.dd8717d6",
+      "item_text": "Scraper links, image hotlinks, and low-value auto-generated links are usually ignored unless they are part of a larger manipulative pattern.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Add useful alt text for meaningful images.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 of 63 public site checks failed for image_alt_text. Example: 7 images are missing alt text.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.4-link-profile-pattern-review.30a593ff",
+      "item_text": "Competitor link overlap is reviewed for legitimate opportunities, not copied link spam.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "4-link-profile-pattern-review",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.73288154",
+      "item_text": "Link acquisition is based on real value: useful content, original data, tools, partnerships, events, products, expertise, or news.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.f567e38a",
+      "item_text": "Paid links do not pass PageRank.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.77187a76",
+      "item_text": "Sponsored links use `rel=\"sponsored\"` or `rel=\"nofollow sponsored\"` where appropriate.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.beb114bd",
+      "item_text": "User-generated links use `rel=\"ugc\"` or `rel=\"nofollow ugc\"` where appropriate.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.fef1cdaa",
+      "item_text": "Affiliate links use `rel=\"sponsored\"` or equivalent nofollow treatment.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.1cc54147",
+      "item_text": "Product reviews, samples, creator campaigns, and sponsorships disclose material connections.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.9aac6c2e",
+      "item_text": "Guest posts are editorially justified and not mass-produced only for anchor text.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.8670c0c8",
+      "item_text": "Link exchanges are not used as a ranking manipulation tactic.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.5635fdd1",
+      "item_text": "Private blog networks, expired-domain link schemes, automated outreach spam, and paid insertion schemes are prohibited.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:crm-sales",
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.5-link-acquisition-compliance.6cb2e15c",
+      "item_text": "Campaign briefs prohibit exact-match anchor manipulation.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-link-acquisition-compliance",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.2973d36c",
+      "item_text": "PR angles are based on real news, original data, expert commentary, product launches, research, events, community work, or useful resources.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.ba1af24d",
+      "item_text": "Target publications match audience, geography, industry, and topical relevance.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.d1e93366",
+      "item_text": "Outreach is personalized and useful, not bulk spam.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.53365eb6",
+      "item_text": "Earned coverage is tracked by publication, URL, date, link status, anchor, landing page, referral traffic, conversions, and brand sentiment.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.5b1c3600",
+      "item_text": "Unlinked brand mentions are reviewed for polite attribution requests only when a link would help users.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.302a1418",
+      "item_text": "Press pages, newsroom pages, media kits, and expert bios make journalist verification easy.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.d58712c8",
+      "item_text": "Coverage quality is valued over raw link count.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.6-digital-pr-and-earned-media.14af924b",
+      "item_text": "PR wins are connected back to relevant on-site pages, case studies, assets, or conversion paths.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "6-digital-pr-and-earned-media",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.68dce663",
+      "item_text": "Brand, product, founder, executive, and key expert names are monitored.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.d647682c",
+      "item_text": "Brand SERPs show accurate owned profiles, reviews, knowledge panels, social profiles, app listings, marketplace pages, and press results.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.e40be1d7",
+      "item_text": "Negative or inaccurate results are triaged by accuracy, risk, visibility, and owner.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.17c8746f",
+      "item_text": "Reputable third-party descriptions of the brand are consistent with the preferred positioning.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.4620608d",
+      "item_text": "Important mentions use the correct brand name, product name, URL, location, and category.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.c096b963",
+      "item_text": "Entity signals are consistent across website, Organization schema, social profiles, Google Business Profile, directories, app stores, marketplaces, and press bios.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "manual:alerts-free-monitoring",
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.7-brand-mentions-and-entity-reputation.94c6022c",
+      "item_text": "Reputation for YMYL sites is checked against independent expert sources, not only company-owned content.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "7-brand-mentions-and-entity-reputation",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.e3701bbc",
+      "item_text": "Name, address, phone, website, hours, categories, service areas, and appointment URLs are consistent across major profiles.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.2bdd6834",
+      "item_text": "Google Business Profile primary and secondary categories match real services.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.d5d36293",
+      "item_text": "Location pages match GBP and Maps data.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.47863917",
+      "item_text": "Duplicate or outdated location listings are flagged.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.ae9dce28",
+      "item_text": "Closed, moved, merged, or rebranded locations have a cleanup plan.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.f6dc09d7",
+      "item_text": "Important industry citations are present and accurate.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.03dd5c6e",
+      "item_text": "Low-quality directory submissions are not recommended only to inflate citation count.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.31b25c9a",
+      "item_text": "Local landing pages, GBP, Maps, and citations agree on NAP and service details.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.8-local-citations-and-nap-consistency.2d603df1",
+      "item_text": "Multi-location brands have a process for updating citations after moves, phone changes, hours changes, or rebrands.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-local-citations-and-nap-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.3ee91c45",
+      "item_text": "Review strategy follows platform policies and applicable advertising law.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.45affa08",
+      "item_text": "Reviews are requested from real customers without incentives, pressure, gating, or scripts that distort sentiment.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.b4529ff1",
+      "item_text": "Employees, vendors, agencies, and owners do not post fake customer reviews.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "keyword_demand",
+          "providers": [
+            "keyword_planner"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "keyword_planner",
+      "item_id": "off-page-seo.9-reviews-and-ratings.d4e0de81",
+      "item_text": "Review requests do not ask customers to mention specific employees, keywords, locations, or services in a manipulative way.",
+      "logical_required_sources": [
+        "keyword_demand"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "keyword_planner"
+      ],
+      "resolved_required_sources": [
+        "keyword_planner"
+      ],
+      "result": "1 public site checks passed for keyword_demand_evidence_available.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.ce65b64e",
+      "item_text": "Review response process exists for positive, neutral, negative, and policy-violating reviews.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.b4d87298",
+      "item_text": "Policy-violating reviews are flagged through the proper platform process.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.72e69d0a",
+      "item_text": "Review themes are analyzed for product, service, local, trust, and content improvement opportunities.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.9-reviews-and-ratings.a0bd7f08",
+      "item_text": "Review snippets, testimonials, and ratings shown on-site are authentic and not cherry-picked in a misleading way.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for preview_controls_safe.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.9-reviews-and-ratings.7c12aa3b",
+      "item_text": "FTC disclosure and endorsement requirements are reviewed for testimonials, influencers, affiliates, and creator campaigns.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "9-reviews-and-ratings",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.0f263bfa",
+      "item_text": "Listings are prioritized by audience relevance, trust, and referral value.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "keyword_demand",
+          "providers": [
+            "keyword_planner"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.652db38c",
+      "item_text": "Profile descriptions are accurate and not stuffed with keywords.",
+      "logical_required_sources": [
+        "keyword_demand"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for meta_description_present.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.092625e3",
+      "item_text": "Categories, industries, locations, features, screenshots, prices, and contact details are accurate.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.05255744",
+      "item_text": "Marketplace and app store listings link to the best relevant website page.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.4fd061f2",
+      "item_text": "UTM usage is consistent where allowed.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.179bdd36",
+      "item_text": "Duplicate, abandoned, or inaccurate profiles are cleaned up.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.6fcdeeca",
+      "item_text": "Pay-to-play directories are evaluated for real audience value and disclosure risk.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.10-directories-listings-marketplaces-and-app-stores.ec753152",
+      "item_text": "Review solicitation on third-party marketplaces follows each platform's rules.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-directories-listings-marketplaces-and-app-stores",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.d3a05cbc",
+      "item_text": "Partner pages and integration directories are accurate and mutually useful.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.2d3fd8ec",
+      "item_text": "Affiliate and creator links use appropriate sponsored or nofollow treatment where required.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.bf159cb3",
+      "item_text": "Sponsored placements disclose the relationship.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.5c3a90be",
+      "item_text": "Partner claims, logos, badges, certifications, and awards are approved and current.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.71a10580",
+      "item_text": "Co-marketing pages link users to useful resources, not thin landing pages.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.cc2c1c84",
+      "item_text": "Sponsorships are tracked by traffic, leads, brand lift, and real audience fit, not link count.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.c2c565d4",
+      "item_text": "Expired partnerships and outdated logos are removed or updated.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:crm-sales",
+        "manual:cms-code",
+        "analytics",
+        "public_crawl",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "keyword_demand",
+          "providers": [
+            "keyword_planner"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.11-partnerships-affiliates-sponsorships-and-creators.f2e1a3c9",
+      "item_text": "Widgets, badges, embeds, and templates do not force keyword-rich followed links.",
+      "logical_required_sources": [
+        "keyword_demand"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "11-partnerships-affiliates-sponsorships-and-creators",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.81d2f838",
+      "item_text": "Search competitors are identified by query set, not only business category.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.b66ed70c",
+      "item_text": "Competitor mentions, directories, partner pages, awards, podcasts, events, and editorial coverage are reviewed manually.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.bca2790c",
+      "item_text": "Legitimate common sources are separated from spam networks.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.ec879b4a",
+      "item_text": "Competitor backlink gaps are translated into PR, partnership, content, or listing opportunities.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.87d678c8",
+      "item_text": "Competitor anchor manipulation is not copied.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "analytics",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.12-competitor-and-market-link-intelligence.25a9056a",
+      "item_text": "Market authority sources are prioritized: associations, standards bodies, trusted publications, universities, government, communities, podcasts, events, and credible directories.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "12-competitor-and-market-link-intelligence",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.8ddd9f6b",
+      "item_text": "Search Console Manual Actions report is checked before recommending disavow work.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.4a57ba6c",
+      "item_text": "Suspect links are grouped by pattern, source, intent, and acquisition history.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.bd8b03d4",
+      "item_text": "Disavow is treated as a last-resort tool, not routine backlink hygiene.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.1cde0d37",
+      "item_text": "Disavow is considered only when there are many spammy, artificial, or low-quality links and they caused or are likely to cause a manual action.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.e81be133",
+      "item_text": "Link removal outreach is attempted for links the business created or controlled where practical.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.295bbb05",
+      "item_text": "Disavow files are reviewed by a senior owner before upload.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.2da62529",
+      "item_text": "Negative SEO fears are not used to justify broad disavow files without evidence.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "manual:manual-free-serp",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.13-toxic-link-manual-action-and-disavow-handling.61824cab",
+      "item_text": "Recovery plans include reconsideration request preparation when a manual action exists.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "13-toxic-link-manual-action-and-disavow-handling",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.5d809c5a",
+      "item_text": "Social and community work is evaluated for audience, referral quality, brand discovery, and journalist/creator visibility.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.297fb8f7",
+      "item_text": "Community participation is helpful and disclosed when affiliated with the brand.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.e972cfca",
+      "item_text": "Social profiles use accurate URLs, names, bios, categories, and contact details.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.6a688abd",
+      "item_text": "Reused social bios and brand descriptions stay consistent with website positioning.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for meta_description_present.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.234ece2b",
+      "item_text": "Viral or campaign spikes are checked for branded search lift, referral traffic, links, mentions, and conversions.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-free-serp",
+        "analytics",
+        "manual:alerts-free-monitoring",
+        "manual:crm-sales",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.14-social-community-and-demand-signals.be5e8212",
+      "item_text": "Spammy forum drops, comment spam, fake accounts, and undisclosed promotion are prohibited.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "14-social-community-and-demand-signals",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.fd592393",
+      "item_text": "High-value external links point to pages that satisfy the visitor's intent.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.2892ea7d",
+      "item_text": "Campaign landing pages are indexable only when they should rank.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for indexable.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.2d0eb784",
+      "item_text": "Press, partner, review, and directory traffic has relevant next steps.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.7ce72aa6",
+      "item_text": "Top externally linked pages are maintained, redirected carefully, or preserved during migrations.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.1dc09aec",
+      "item_text": "Brand claims made off-site are supported on the website.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.2dd77927",
+      "item_text": "Partner and citation URLs do not point to outdated domains, HTTP URLs, tracking-only URLs, or dead pages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "public_crawl",
+        "manual:cms-code",
+        "rendered_browser",
+        "manual:human-context"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.15-off-page-to-on-site-alignment.4a0fe5ef",
+      "item_text": "UTM parameters do not create indexable duplicate URLs.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for indexable.",
+      "section_id": "15-off-page-to-on-site-alignment",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.bddaadbd",
+      "item_text": "Track GSC external links, top linked pages, top linking sites, and top linking text.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.06c46018",
+      "item_text": "Track GA4 referral sessions, engaged sessions, conversions, revenue or lead value, and assisted outcomes.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.d1e0b430",
+      "item_text": "Track branded queries, non-branded queries, and local visibility where relevant.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.60cfab1a",
+      "item_text": "Track review count, rating, review velocity, response rate, and major review themes.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.f00c463f",
+      "item_text": "Track new earned media, unlinked mentions, citations, partnerships, and directory changes.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.ed205d1a",
+      "item_text": "Track manual actions, security issues, and major spam-risk changes.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.07864074",
+      "item_text": "Track campaign outcomes by quality and business impact, not raw link count.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "analytics",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:bwt",
+        "manual:alerts-free-monitoring",
+        "manual:manual-free-serp"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "off-page-seo.16-monitoring-and-reporting.15f4d7a0",
+      "item_text": "Create alerts for brand, product, founders, key experts, and high-risk review platforms.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "16-monitoring-and-reporting",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.17-context-specific-checks.775b830c",
+      "item_text": "Ecommerce: reviews, product mentions, affiliate links, creator campaigns, marketplaces, shopping publications, return policy mentions, and Merchant Center consistency are reviewed.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "17-context-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.17-context-specific-checks.b64021ea",
+      "item_text": "Lead gen: local citations, review platforms, case studies, partner pages, comparison mentions, directory listings, and referral quality are reviewed.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.17-context-specific-checks.68c9a75c",
+      "item_text": "App installs: app store listings, review surfaces, product directories, integration marketplaces, launch platforms, creators, and platform badges are reviewed.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.17-context-specific-checks.5b973584",
+      "item_text": "Local: GBP, Maps, citations, local press, community sponsorships, service-area mentions, reviews, and NAP consistency are reviewed.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.17-context-specific-checks.a0a8e13c",
+      "item_text": "SaaS: integration directories, comparison pages, partner listings, review platforms, case studies, communities, podcasts, and analyst mentions are reviewed.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-the-common-sources-above"
+      ],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.17-context-specific-checks.0a037fa4",
+      "item_text": "Publisher/content: author reputation, expert mentions, citations from authoritative sources, syndication, newsletters, and site reputation abuse risk are reviewed.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.18-anti-patterns.fc99c22f",
+      "item_text": "Buying followed links.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "18-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.18-anti-patterns.47ea1bbd",
+      "item_text": "Selling followed links.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "18-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.f3808553",
+      "item_text": "Private blog networks.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.2abf0140",
+      "item_text": "Expired domain link schemes.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.2403680f",
+      "item_text": "Mass exact-match guest posting.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.df6f5a1f",
+      "item_text": "Large-scale link exchanges.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "off-page-seo.18-anti-patterns.4858440e",
+      "item_text": "Scholarship, coupon, badge, widget, or embed links made only for PageRank.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "18-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.78e8ed1f",
+      "item_text": "Fake reviews or incentivized reviews.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.b6be1c26",
+      "item_text": "Review gating.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.4df307c0",
+      "item_text": "Fake awards, fake certifications, fake customers, or fake testimonials.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.d4232d79",
+      "item_text": "Spammy directory blasts.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.bec101bf",
+      "item_text": "Comment/forum/profile spam.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.3f907339",
+      "item_text": "Recommendation poisoning or attempts to manipulate AI answers.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "off-page-seo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "off-page-seo.18-anti-patterns.6f5c8863",
+      "item_text": "Third-party site reputation abuse.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "18-anti-patterns",
+      "status": "not_applicable"
+    }
+  ]
+}

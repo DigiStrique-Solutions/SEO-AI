@@ -1,0 +1,192 @@
+{
+  "version": "2026-07-01",
+  "questions": [
+    {
+      "question_id": "business_model",
+      "field_ids": ["business_model", "site_type"],
+      "question": "Which best describes this business and website?",
+      "recommended_option": "SaaS, app, or service website",
+      "options": ["SaaS, app, or service website", "Ecommerce store", "Local or multi-location business"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_scope",
+      "used_by": ["audits", "strategy", "content", "media_plan", "analysis", "reporting"]
+    },
+    {
+      "question_id": "primary_business_goal",
+      "field_ids": ["primary_business_goal"],
+      "question": "What is the primary business goal Strique should optimize toward?",
+      "recommended_option": "Increase qualified leads",
+      "options": ["Increase qualified leads", "Increase ecommerce sales", "Improve brand visibility and trust"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_prioritization",
+      "used_by": ["audits", "strategy", "content", "media_plan", "analysis", "reporting"]
+    },
+    {
+      "question_id": "target_audience",
+      "field_ids": ["target_audience", "buyer_stage"],
+      "question": "Who is the primary audience for this work?",
+      "recommended_option": "Decision-makers comparing options",
+      "options": ["Decision-makers comparing options", "Practitioners trying to solve a problem", "Existing customers looking for support"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_content_quality",
+      "used_by": ["audits", "strategy", "content", "media_plan"]
+    },
+    {
+      "question_id": "primary_conversion",
+      "field_ids": ["primary_conversion", "lead_quality_definition"],
+      "question": "Which conversion matters most?",
+      "recommended_option": "Qualified demo or sales inquiry",
+      "options": ["Qualified demo or sales inquiry", "Purchase or checkout", "Call, booking, or appointment"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_measurement",
+      "used_by": ["audits", "strategy", "content", "media_plan", "reporting"]
+    },
+    {
+      "question_id": "priority_queries",
+      "field_ids": ["priority_queries", "search_intent"],
+      "question": "Which query group should this work prioritize?",
+      "recommended_option": "Commercial comparison and solution queries",
+      "options": ["Commercial comparison and solution queries", "Educational how-to and definition queries", "Branded, pricing, and alternative queries"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_search_scope",
+      "used_by": ["audits", "strategy", "content", "analysis", "reporting"]
+    },
+    {
+      "question_id": "priority_pages",
+      "field_ids": ["priority_pages", "page_type"],
+      "question": "Which page group should be treated as highest priority?",
+      "recommended_option": "Product, service, or conversion pages",
+      "options": ["Product, service, or conversion pages", "Blog, guide, or resource pages", "Category, collection, or listing pages"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_prioritization",
+      "used_by": ["audits", "strategy", "content", "analysis"]
+    },
+    {
+      "question_id": "competitors",
+      "field_ids": ["competitors"],
+      "question": "Which competitors should Strique compare against?",
+      "recommended_option": "Direct product or service competitors",
+      "options": ["Direct product or service competitors", "Search competitors currently ranking or cited", "Review, marketplace, or directory competitors"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_competitor_analysis",
+      "used_by": ["audits", "strategy", "content", "analysis"]
+    },
+    {
+      "question_id": "markets_languages",
+      "field_ids": ["target_countries", "target_languages"],
+      "question": "Which market and language should this work target first?",
+      "recommended_option": "Primary current market in English",
+      "options": ["Primary current market in English", "Multiple countries in English", "Multiple languages or localized markets"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_locale_scope",
+      "used_by": ["audits", "strategy", "content", "media_plan"]
+    },
+    {
+      "question_id": "ymyl_compliance",
+      "field_ids": ["ymyl_exposure", "compliance_rules", "legal_review_required"],
+      "question": "Does this brand or topic require stronger compliance or expert review?",
+      "recommended_option": "No special compliance review required",
+      "options": ["No special compliance review required", "Healthcare, finance, legal, safety, or other YMYL review required", "Unsure, ask legal or an expert before publishing"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_risk_review",
+      "used_by": ["audits", "strategy", "content", "media_plan"]
+    },
+    {
+      "question_id": "claims_policy",
+      "field_ids": ["approved_claims", "restricted_claims"],
+      "question": "Which claim policy should Strique follow?",
+      "recommended_option": "Use only claims visible on the website or supplied by the team",
+      "options": ["Use only claims visible on the website or supplied by the team", "Use approved sales claims from internal material", "Do not make comparative or performance claims"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_content_risk",
+      "used_by": ["content", "media_plan", "ai_seo", "strategy"]
+    },
+    {
+      "question_id": "brand_voice",
+      "field_ids": ["brand_voice"],
+      "question": "Which voice should generated content follow?",
+      "recommended_option": "Direct, practical, and evidence-led",
+      "options": ["Direct, practical, and evidence-led", "Warm, educational, and beginner-friendly", "Premium, concise, and brand-led"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_content_quality",
+      "used_by": ["content", "media_plan", "strategy"]
+    },
+    {
+      "question_id": "ecommerce_context",
+      "field_ids": ["ecommerce_platform", "priority_product_groups", "catalog_source_of_truth"],
+      "question": "What is the ecommerce source of truth?",
+      "recommended_option": "Shopify store and product feed",
+      "options": ["Shopify store and product feed", "Custom or headless catalog", "Marketplace, ERP, or another system"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_ecommerce_scope",
+      "used_by": ["ecommerce_seo", "content", "media_plan", "reporting"]
+    },
+    {
+      "question_id": "local_context",
+      "field_ids": ["locations", "local_service_area", "primary_local_conversion"],
+      "question": "What local outcome matters most?",
+      "recommended_option": "Calls, bookings, or appointments",
+      "options": ["Calls, bookings, or appointments", "Directions and walk-ins", "Local form leads or quote requests"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_local_scope",
+      "used_by": ["local_seo", "content", "reporting"]
+    },
+    {
+      "question_id": "ai_search_scope",
+      "field_ids": ["ai_target_platforms", "ai_visibility_goal", "ai_prompt_set"],
+      "question": "Which AI search outcome should Strique track?",
+      "recommended_option": "Brand citations or mentions in ChatGPT, Perplexity, and Google AI results",
+      "options": ["Brand citations or mentions in ChatGPT, Perplexity, and Google AI results", "Product recommendations and comparison visibility", "Support or documentation answers"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_ai_scope",
+      "used_by": ["ai_seo", "content", "reporting"]
+    },
+    {
+      "question_id": "ai_crawler_policy",
+      "field_ids": ["ai_crawler_policy"],
+      "question": "How should Strique treat AI crawler access?",
+      "recommended_option": "Allow search and citation crawlers unless legal says otherwise",
+      "options": ["Allow search and citation crawlers unless legal says otherwise", "Block training crawlers but allow search/citation crawlers", "Block AI crawlers until policy is reviewed"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_ai_risk",
+      "used_by": ["ai_seo", "content"]
+    },
+    {
+      "question_id": "off_page_scope",
+      "field_ids": ["off_page_goal", "off_page_risk_posture", "past_link_work"],
+      "question": "What off-page posture should Strique use?",
+      "recommended_option": "Conservative authority and reputation growth",
+      "options": ["Conservative authority and reputation growth", "Standard PR, partnerships, and review growth", "Recovery or cleanup after risky past SEO work"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_off_page_risk",
+      "used_by": ["off_page_seo", "strategy", "reporting"]
+    },
+    {
+      "question_id": "platform_constraints",
+      "field_ids": ["platform_constraints", "current_pain"],
+      "question": "What constraint should Strique account for?",
+      "recommended_option": "CMS or engineering constraints limit implementation",
+      "options": ["CMS or engineering constraints limit implementation", "Legacy URLs, migration, or routing risk", "No major implementation constraint known"],
+      "allow_custom": true,
+      "store_scope": "brand",
+      "blocking_level": "blocks_implementation_planning",
+      "used_by": ["site_architecture", "generic_on_page", "strategy"]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "brand_id": "strique",
+  "fields": {
+    "brand_name": {
+      "confidence": "medium",
+      "field_id": "brand_name",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": "Strique"
+    },
+    "brand_voice": {
+      "confidence": "medium",
+      "field_id": "brand_voice",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": "Direct, confident, operator-centric, and plain-spoken. Prefer specific workflows, measurable results, and clear business stakes. Avoid generic AI hype."
+    },
+    "business_description": {
+      "confidence": "medium",
+      "field_id": "business_description",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. It runs marketing work through one agent loop: plan the work, ship it, measure outcomes, and feed learnings back into the next run."
+    },
+    "business_model": {
+      "confidence": "medium",
+      "field_id": "business_model",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "saas",
+        "agentic marketing platform",
+        "hybrid growth operating system"
+      ]
+    },
+    "competitors": {
+      "confidence": "medium",
+      "field_id": "competitors",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "AdRoll, framed as a retargeting network compared with Strique's broader growth-agent loop.",
+        "Jasper, framed as a content-generation tool compared with Strique's campaign execution and measurement loop.",
+        "Agencies and freelancers.",
+        "Point solutions for paid media, SEO/content, lifecycle, analytics, and creative production.",
+        "Dashboards and reporting tools that require humans to coordinate the work."
+      ]
+    },
+    "primary_business_goal": {
+      "confidence": "medium",
+      "field_id": "primary_business_goal",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "increase qualified leads",
+        "improve growth team execution",
+        "show measurable marketing outcomes"
+      ]
+    },
+    "primary_conversion": {
+      "confidence": "medium",
+      "field_id": "primary_conversion",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "demo request",
+        "sales contact",
+        "product trial or platform adoption"
+      ]
+    },
+    "site_type": {
+      "confidence": "medium",
+      "field_id": "site_type",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "saas marketing site",
+        "product-led website",
+        "hybrid solutions and content site"
+      ]
+    },
+    "target_audience": {
+      "confidence": "medium",
+      "field_id": "target_audience",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": [
+        "ecommerce and DTC brands",
+        "growth teams",
+        "D2C founders",
+        "marketing managers",
+        "CMOs and VPs of Marketing",
+        "paid media specialists",
+        "freelancers and agencies",
+        "founders and solopreneurs"
+      ]
+    },
+    "website_url": {
+      "confidence": "medium",
+      "field_id": "website_url",
+      "scope": "brand",
+      "source_ref": "brands/strique/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": "https://www.strique.io"
+    }
+  },
+  "generated_at": "2026-06-30T19:36:22+00:00",
+  "open_questions": [
+    "Confirm exact brand hex values and typography from design source files or CSS tokens.",
+    "Confirm the canonical logo asset for reuse beyond the public favicon and header mark.",
+    "Confirm whether ecommerce/DTC should remain the primary audience or whether the broader \"growth teams\" positioning should lead.",
+    "Confirm the complete competitor set beyond AdRoll and Jasper.",
+    "Confirm which security and compliance claims are approved for sales and SEO copy."
+  ],
+  "source_ref": "brands/strique/brand-dna.md"
+}

@@ -1,0 +1,5135 @@
+{
+  "metadata": {
+    "audit_type": "full",
+    "checklist_count": 1,
+    "created_at": "2026-06-30T15:57:38+00:00",
+    "evidence_manifest_path": "brands/strique/references/evidence/20260629T193943Z/manifest.json",
+    "evidence_run_id": "20260629T193943Z",
+    "item_count": 133,
+    "scope": "google-visible",
+    "site_checks_path": "brands/strique/exports/site-checks.csv",
+    "strict_evidence": true,
+    "target_url": "https://www.strique.io",
+    "url_inventory_path": "brands/strique/exports/url-inventory.csv"
+  },
+  "rows": [
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.a14f5792",
+      "item_text": "The target experience is defined: Google AI Overviews, Google AI Mode, ChatGPT Search, Perplexity, Claude, Gemini, Copilot, vertical AI search, or agentic browsing.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        },
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        },
+        {
+          "logical_source": "keyword_demand",
+          "providers": [
+            "keyword_planner"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.58a75018",
+      "item_text": "The business goal is defined: citations, brand mentions, product recommendations, local visibility, referral traffic, lead quality, ecommerce sales, support deflection, or reputation.",
+      "logical_required_sources": [
+        "public_crawl",
+        "search_console",
+        "keyword_demand"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl",
+        "gsc",
+        "keyword_planner"
+      ],
+      "resolved_required_sources": [
+        "firecrawl",
+        "gsc",
+        "keyword_planner"
+      ],
+      "result": "3 public site checks passed for public_crawl_evidence_available, gsc_measurement_coverage, keyword_demand_evidence_available.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.f4a41203",
+      "item_text": "Priority query set is defined by topic, buyer stage, platform, location, and language.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "keyword_planner",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.18ce321f",
+      "item_text": "Query types are grouped: definition, how-to, comparison, best-of, troubleshooting, local, product, pricing, review, alternative, and branded.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "keyword_planner"
+      ],
+      "resolved_required_sources": [
+        "keyword_planner"
+      ],
+      "result": "1 public site checks passed for keyword_intent_grouping.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.8d210274",
+      "item_text": "Competitors currently cited or recommended by AI systems are recorded.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.77b29e6d",
+      "item_text": "The site type and business model are identified: ecommerce, lead gen, app installs, local, SaaS, publisher, docs, marketplace, or hybrid.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:human-context",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.1-scope-and-platform-targets.9e50116a",
+      "item_text": "YMYL exposure is identified before recommendations are made.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "1-scope-and-platform-targets",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.956862dd",
+      "item_text": "A repeatable prompt set exists for priority topics and buyer stages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.40da2cac",
+      "item_text": "Each prompt run records platform, date, location, language, account state, device, prompt wording, answer summary, cited URLs, mentioned brands, and sentiment.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.81ecf82b",
+      "item_text": "The audit records whether the brand is cited, mentioned without citation, omitted, or described inaccurately.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.36c8cd57",
+      "item_text": "Competitor citation frequency and cited source types are tracked.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.7c275465",
+      "item_text": "Cited page types are classified: brand page, third-party review, directory, documentation, news, forum, video, marketplace, app store, local profile, or research source.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.7740b340",
+      "item_text": "Google AI results are compared with normal Google organic visibility.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.cb393266",
+      "item_text": "Bing Webmaster Tools AI Performance is checked where available.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.34a8b7fa",
+      "item_text": "GA4 referral traffic from AI/search assistants is monitored where identifiable.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.2-baseline-ai-visibility-measurement.2b43ed46",
+      "item_text": "Logs are reviewed for AI/search crawler activity when crawler access matters.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "2-baseline-ai-visibility-measurement",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.87e31555",
+      "item_text": "Priority pages are crawlable, indexable, canonical, and included in relevant sitemaps.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Set canonical to the intended indexable URL.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "24 of 189 public site checks failed for canonical_match, sitemap_inclusion, indexable. Example: Canonical: https://www.strique.io/contact",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.e4adcb2a",
+      "item_text": "Important content renders in HTML and is visible without fragile client-only behavior.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "126 public site checks passed for content_visible, resource_rendering_not_blocked.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.63fd5e22",
+      "item_text": "Pages return stable 200 responses and do not intermittently fail with 4xx, 5xx, 429, timeout, DNS, TLS, or WAF errors.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "rendered_browser",
+          "providers": [
+            "playwright"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.c8a899d2",
+      "item_text": "Mobile and desktop render equivalent primary content.",
+      "logical_required_sources": [
+        "rendered_browser"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "1 public site checks passed for rendered_browser_evidence_available.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.47c1a8f4",
+      "item_text": "Titles, meta descriptions, headings, canonicals, robots directives, hreflang, and structured data are available after rendering.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Use one clear H1 on the page.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "59 of 315 public site checks failed for title_present, meta_description_present, single_h1, canonical_match, schema_present. Example: H1 count is 2.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.f8f673b3",
+      "item_text": "Page experience problems do not block users or agents from consuming the content.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.3-foundational-seo-readiness.688e2d12",
+      "item_text": "Content satisfies Search Essentials and helpful content guidance before any AI-specific optimization.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "3-foundational-seo-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.0293c448",
+      "item_text": "`nosnippet`, `max-snippet`, `max-image-preview`, `max-video-preview`, and `data-nosnippet` settings are intentional.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Add useful alt text for meaningful images.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 of 127 public site checks failed for non_production_canonical, image_alt_text, preview_controls_safe. Example: 7 images are missing alt text.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.c8fc386c",
+      "item_text": "Snippet controls are reviewed for their impact on normal Google snippets and Google AI features.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for preview_controls_safe.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.da84a479",
+      "item_text": "`Google-Extended` is not treated as an opt-out for Google AI Overviews or AI Mode.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.c08583b8",
+      "item_text": "Sensitive content that should not appear in search snippets is handled with preview controls, access control, or publishing policy.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for non_production_canonical, preview_controls_safe.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.c57ba718",
+      "item_text": "Content that should not be indexed uses `noindex` or access control rather than relying on AI crawler blocks alone.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for indexable.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.4-ai-feature-controls-and-preview-policy.cca7a066",
+      "item_text": "Paywalled, gated, or member content has an explicit policy for what is public, indexable, and citable.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for indexable.",
+      "section_id": "4-ai-feature-controls-and-preview-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.d05a68e9",
+      "item_text": "Robots.txt is reviewed for Googlebot, Bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, Claude-SearchBot, Claude-User, and other relevant agents.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.236d86f9",
+      "item_text": "Crawler roles are separated where the provider supports it: search/indexing, training, and user-triggered fetches.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.42d62038",
+      "item_text": "The business decision to allow or block AI training crawlers is documented separately from the decision to allow AI search or citation crawlers.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.bf9053d2",
+      "item_text": "WAF, CDN, bot protection, rate limits, geo blocks, and JavaScript challenges do not accidentally block required search or AI crawlers.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.68ff5415",
+      "item_text": "Crawler verification uses official IP ranges, reverse DNS, provider docs, or verified bot tooling where available.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.a0343984",
+      "item_text": "Logs are sampled for blocked, throttled, redirected, or challenged AI/search crawler requests.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "manual:logs-cdn-waf",
+        "public_crawl",
+        "rendered_browser",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.5-ai-crawler-access-and-robots-policy.6e7f812f",
+      "item_text": "Blocking a crawler is documented with expected visibility tradeoffs.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "5-ai-crawler-access-and-robots-policy",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.84efa566",
+      "item_text": "Each priority page gives a direct answer to its main question early.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.da985728",
+      "item_text": "Definitions, steps, comparisons, recommendations, constraints, and examples are self-contained enough to quote accurately.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.3b060885",
+      "item_text": "Important sections start with the answer, then provide context and proof.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "keyword_demand",
+          "providers": [
+            "keyword_planner"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.c8b58755",
+      "item_text": "Headings match real user questions and tasks without becoming keyword spam.",
+      "logical_required_sources": [
+        "keyword_demand"
+      ],
+      "next_action": "Use one clear H1 on the page.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "47 of 126 public site checks failed for single_h1, heading_not_keyword_stuffed. Example: H1 count is 2.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.4950ee41",
+      "item_text": "Comparison content uses tables or clearly labeled criteria where useful.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.93daf841",
+      "item_text": "Procedural content uses ordered steps where useful.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.0122e4e6",
+      "item_text": "Product or service pages expose concrete facts: use cases, pricing, limits, integrations, requirements, availability, support, and alternatives where relevant.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.0ff7863e",
+      "item_text": "Pages avoid vague marketing copy that cannot be cited or summarized.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.6-answerability-and-extractable-content.20b6593e",
+      "item_text": "Content is not chopped into unnatural AI-bait fragments.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "13 public site checks passed for fragment_deep_links.",
+      "section_id": "6-answerability-and-extractable-content",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.de9cfdf2",
+      "item_text": "Important claims are supported by primary sources, product data, screenshots, examples, customer evidence, research, or expert review.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.ff6b3bc2",
+      "item_text": "Statistics include source, date, unit, and context.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.816a7715",
+      "item_text": "Original research, benchmarks, surveys, public data analysis, product data, or methodology are included where the brand can add real information gain.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.5b563484",
+      "item_text": "Expert quotes include name, role, organization, and relevant credentials.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.592e718d",
+      "item_text": "Recommendations explain tradeoffs, not only conclusions.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.e27716c2",
+      "item_text": "Content distinguishes facts, assumptions, opinions, and product claims.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.9b6b014d",
+      "item_text": "Pages avoid unsupported superlatives such as \"best\", \"number one\", and \"guaranteed\".",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "public_crawl",
+        "rendered_browser",
+        "manual:manual-ai-serp",
+        "manual:human-context",
+        "manual:cms-code",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.7-evidence-citations-and-originality.edeb21d7",
+      "item_text": "AI-assisted drafts are fact checked and edited by a human with topical knowledge.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "7-evidence-citations-and-originality",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.64b3a4d2",
+      "item_text": "Brand name, product names, organization details, founders, authors, locations, categories, and social profiles are consistent.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.1572d6e9",
+      "item_text": "Organization, WebSite, Person, Product, LocalBusiness, Article, BreadcrumbList, and other relevant structured data match visible content.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.e38fca9c",
+      "item_text": "`sameAs` and profile links point to real, maintained official profiles.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.1466a36d",
+      "item_text": "Brand and product descriptions are consistent across website, GBP, app stores, marketplaces, review sites, directories, social profiles, and press bios.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for meta_description_present.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.dc1a8728",
+      "item_text": "Author and expert entities have credible bios and external corroboration where topical trust matters.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.cccac053",
+      "item_text": "Local entities align across website, GBP, Maps, reviews, citations, and local pages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "manual:cms-code",
+        "manual:gbp",
+        "manual:gmc",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.8-entity-brand-and-knowledge-graph-consistency.22a651d4",
+      "item_text": "Product entities align across website, Product schema, Merchant Center, marketplaces, reviews, and comparison pages.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "8-entity-brand-and-knowledge-graph-consistency",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.a213922e",
+      "item_text": "Priority topics are mapped to parent questions, follow-up questions, comparisons, objections, constraints, and adjacent tasks.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.2f0a7718",
+      "item_text": "Query fan-out variants are covered by the page or by linked supporting pages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.b4687db0",
+      "item_text": "Topic clusters connect definitions, how-to content, comparisons, product pages, case studies, reviews, docs, and conversion pages.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.a1f54532",
+      "item_text": "Content gaps are identified from AI answers that cite competitors but omit the brand.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.5ce59eb4",
+      "item_text": "Searcher intent is not split across too many thin pages.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.5c26a90a",
+      "item_text": "The site avoids creating many near-duplicate pages for tiny prompt variants.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:bwt",
+        "keyword_demand",
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "public_crawl",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.9-topical-coverage-and-query-fan-out.fd2db934",
+      "item_text": "Important answers are reachable through internal links, hubs, navigation, and sitemaps.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Add canonical public URLs to the XML sitemap.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "12 of 63 public site checks failed for sitemap_inclusion. Example: Sitemap inclusion is no.",
+      "section_id": "9-topical-coverage-and-query-fan-out",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.1d1f935c",
+      "item_text": "AI systems cite or mention the brand from credible third-party sources where relevant.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.a67c505a",
+      "item_text": "Review platforms, marketplaces, app stores, directories, partner pages, industry publications, podcasts, communities, and local citations are accurate.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.6c1d0092",
+      "item_text": "Third-party descriptions match the brand's actual category, use cases, pricing, locations, and audience.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.ff72e2a8",
+      "item_text": "Review and rating strategies follow platform policies and advertising law.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.57cb8990",
+      "item_text": "Reddit, Wikipedia, Quora, forums, and communities are not spammed or manipulated for AI visibility.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.a32838b4",
+      "item_text": "Digital PR and earned media target sources AI systems are likely to trust and users are likely to value.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:off-page",
+        "analytics",
+        "search_console",
+        "manual:gbp",
+        "manual:gmaps",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.10-third-party-presence-and-corroboration.75ca9a0e",
+      "item_text": "Unlinked brand mentions are reviewed for accuracy and possible attribution only when useful.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "10-third-party-presence-and-corroboration",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.04b97777",
+      "item_text": "Structured data is valid, accurate, and visible-content aligned.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.ecf2a489",
+      "item_text": "Standard schema is used where appropriate: Organization, WebSite, Person, Article, Product, Offer, Review, LocalBusiness, FAQPage, HowTo, VideoObject, SoftwareApplication, BreadcrumbList.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.2e4ffea2",
+      "item_text": "Schema does not invent facts, ratings, reviews, prices, FAQs, authors, or business details.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.84cb6888",
+      "item_text": "Merchant Center feeds are current for ecommerce products.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks were not applicable for non_html_asset_inventory. Example: No non-HTML public assets were included in the crawl inventory.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.7415a54f",
+      "item_text": "Google Business Profile data is current for local businesses.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.ca4e907c",
+      "item_text": "App store, marketplace, integration, and product directory data are current where those surfaces matter.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.1a7e4d71",
+      "item_text": "Optional files such as `llms.txt`, `pricing.md`, `products.md`, docs indexes, or changelog feeds are treated as experimental convenience for non-Google systems and agents, not a Google requirement.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks were not applicable for non_html_asset_inventory. Example: No non-HTML public assets were included in the crawl inventory.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:cms-code",
+        "public_crawl",
+        "rendered_browser",
+        "search_console",
+        "manual:gmc",
+        "manual:gbp",
+        "manual:oss"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.11-structured-data-feeds-and-machine-readable-context.3ea43816",
+      "item_text": "Optional machine-readable files are public, accurate, maintained, linked from relevant pages, and consistent with visible page content.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks passed for public_crawl_evidence_available.",
+      "section_id": "11-structured-data-feeds-and-machine-readable-context",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "rendered_browser",
+          "providers": [
+            "playwright"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.95090924",
+      "item_text": "Important pages work for a browser agent that renders, clicks, reads the DOM, and uses the accessibility tree.",
+      "logical_required_sources": [
+        "rendered_browser"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "1 public site checks passed for rendered_browser_evidence_available.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.8a3d76dc",
+      "item_text": "Semantic HTML is used for landmarks, headings, buttons, links, lists, tables, forms, and navigation.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Use one clear H1 on the page.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "47 of 63 public site checks failed for single_h1. Example: H1 count is 2.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.7ac627a7",
+      "item_text": "Interactive controls have accessible names and predictable behavior.",
+      "logical_required_sources": [],
+      "next_action": "Add text, aria-label, or labelledby values to interactive controls.",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "11 of 63 public site checks failed for inaccessible_controls. Example: 10 visible controls lack accessible names.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "rendered_browser",
+          "providers": [
+            "playwright"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.84bd23dd",
+      "item_text": "Pricing, contact, product specs, shipping, returns, limits, requirements, and support details are visible when needed for evaluation.",
+      "logical_required_sources": [
+        "rendered_browser"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "1 public site checks passed for rendered_browser_evidence_available.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.92e85c6c",
+      "item_text": "Key information is not locked behind login, popups, heavy JavaScript, broken accordions, images of text, or PDFs only.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "Remove or reduce blocking overlays on first render, especially on mobile.",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl",
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "firecrawl",
+        "playwright"
+      ],
+      "result": "63 of 127 public site checks failed for non_html_asset_inventory, resource_rendering_not_blocked, blocking_popups_interstitials. Example: 2 large fixed, modal, or interstitial elements may block main content. 2 large fixed, modal, or interstitial elements may block main content.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "rendered_browser",
+          "providers": [
+            "playwright"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.88e6f0ff",
+      "item_text": "Tables use real table markup for comparisons and specs.",
+      "logical_required_sources": [
+        "rendered_browser"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "1 public site checks passed for rendered_browser_evidence_available.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.3bf0800e",
+      "item_text": "Forms and conversion flows are usable by keyboard and screen-reader style navigation.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "rendered_browser",
+        "public_crawl",
+        "manual:cms-code",
+        "manual:oss",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "rendered_browser",
+          "providers": [
+            "playwright"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "playwright",
+      "item_id": "ai-seo-aeo-geo.12-agentic-browsing-and-accessibility-readiness.b71a0746",
+      "item_text": "Agent-facing shortcuts do not replace normal user-facing usability.",
+      "logical_required_sources": [
+        "rendered_browser"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "playwright"
+      ],
+      "resolved_required_sources": [
+        "playwright"
+      ],
+      "result": "1 public site checks passed for rendered_browser_evidence_available.",
+      "section_id": "12-agentic-browsing-and-accessibility-readiness",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.f8a521e0",
+      "item_text": "Google AI: page follows normal SEO, helpful content, crawlability, preview controls, structured data, and spam policies.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "126 public site checks passed for non_production_canonical, schema_present, crawl_status.",
+      "section_id": "13-platform-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.cd518c26",
+      "item_text": "Google AI: no special AI markup or `llms.txt` is required or treated as a ranking shortcut.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-platform-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.842fbfec",
+      "item_text": "ChatGPT/OpenAI: OAI-SearchBot and GPTBot access policy is intentional; ChatGPT-User behavior is understood as user-triggered fetching.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "13-platform-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.54c59d30",
+      "item_text": "Perplexity: PerplexityBot access policy is intentional if Perplexity visibility matters.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-platform-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.08bf76a8",
+      "item_text": "Anthropic/Claude: ClaudeBot, Claude-SearchBot, and Claude-User policies are reviewed separately where relevant.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-platform-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.b1865557",
+      "item_text": "Microsoft Copilot/Bing: Bing indexability and Bing Webmaster Tools AI Performance are checked where available.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "13-platform-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.3e11a648",
+      "item_text": "Gemini: Google Search and entity data quality are treated as the foundation.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "13-platform-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:manual-ai-serp",
+        "manual:prompt-set",
+        "search_console",
+        "manual:bwt",
+        "analytics",
+        "manual:logs-cdn-waf"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.13-platform-specific-checks.7dabbf3b",
+      "item_text": "Vertical assistants or marketplaces: platform profile, feed, review, and product data requirements are checked.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "1 public site checks were not applicable for non_html_asset_inventory. Example: No non-HTML public assets were included in the crawl inventory.",
+      "section_id": "13-platform-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.703341ba",
+      "item_text": "Prompt checks are repeated on a defined cadence.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.a12b0118",
+      "item_text": "Results capture citations, mentions, sentiment, source URLs, answer accuracy, and competitor visibility.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.44fa201f",
+      "item_text": "Bing Webmaster Tools AI Performance is monitored where available.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "performance_lab",
+          "providers": [
+            "lighthouse",
+            "pagespeed"
+          ],
+          "required": true,
+          "status": "connected"
+        },
+        {
+          "logical_source": "performance_field",
+          "providers": [
+            "crux"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "lighthouse",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.c0b5c9f1",
+      "item_text": "GSC is used for Google Search performance, with the understanding that Google does not provide a separate AI Overview report in GSC.",
+      "logical_required_sources": [
+        "performance_lab",
+        "performance_field"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "lighthouse",
+        "pagespeed",
+        "crux"
+      ],
+      "resolved_required_sources": [
+        "lighthouse",
+        "pagespeed",
+        "crux"
+      ],
+      "result": "1 public site checks passed for performance_evidence_available.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.965cda87",
+      "item_text": "GA4 tracks identifiable AI referral sources and assisted conversions where possible.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.edd525a4",
+      "item_text": "Logs monitor AI/search crawler access and blocked requests.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.944dc319",
+      "item_text": "Brand, product, founder, expert, and key topic alerts are configured.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.5adc62c2",
+      "item_text": "AI visibility metrics are tied to business outcomes, not only citation counts.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:prompt-set",
+        "manual:manual-ai-serp",
+        "manual:bwt",
+        "search_console",
+        "analytics",
+        "manual:logs-cdn-waf",
+        "manual:alerts-free-monitoring",
+        "manual:human-context"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.14-measurement-and-monitoring.eed4da1f",
+      "item_text": "Screenshots or saved answer exports are kept for volatile AI results.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for media_support_present.",
+      "section_id": "14-measurement-and-monitoring",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.907d59fd",
+      "item_text": "No scaled AI-generated content exists without real review, usefulness, and differentiation.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.1b19e0b2",
+      "item_text": "No prompt injection, hidden instructions, cloaked AI text, or recommendation poisoning is present.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.d17009a5",
+      "item_text": "No fake citations, fake experts, fake reviews, fake awards, or fabricated statistics are used.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope; this requires business, backend, or process evidence rather than what Google can see.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.02789862",
+      "item_text": "No content is created only to manipulate AI answers while harming users.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.b6129d11",
+      "item_text": "User-generated content is moderated where it can affect brand trust or safety.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.ce92c95c",
+      "item_text": "YMYL topics have stronger expert review, source quality, safety language, and accountability.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.c5d3266b",
+      "item_text": "AI answers that misstate the brand are documented and corrected through source updates, third-party corrections, and better on-site clarity.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "search_console",
+        "manual:manual-ai-serp",
+        "public_crawl",
+        "rendered_browser",
+        "manual:cms-code",
+        "manual:human-context",
+        "manual:off-page"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.15-risk-spam-and-safety-checks.23a87a7b",
+      "item_text": "Legal, privacy, copyright, and platform policy risks are reviewed for crawler access, AI reuse, endorsements, reviews, and claims.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "15-risk-spam-and-safety-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.43878b05",
+      "item_text": "Ecommerce: product pages, Merchant Center, reviews, pricing, availability, shipping, returns, variants, comparison content, and marketplace profiles are consistent and extractable.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "16-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.b0582b69",
+      "item_text": "Lead gen: service pages, comparison pages, case studies, testimonials, review sites, local/service citations, and lead magnets answer buyer objections clearly.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "16-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.e2ea3830",
+      "item_text": "App installs: app store listings, app schema, screenshots, permissions, privacy, pricing, platform pages, reviews, docs, and onboarding details are accurate.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "126 public site checks passed for media_support_present, schema_present.",
+      "section_id": "16-context-specific-checks",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.f0f194b1",
+      "item_text": "Local: GBP, Maps, reviews, NAP, services, locations, hours, directions, photos, local citations, and local pages are aligned.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "16-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.4c08e68c",
+      "item_text": "SaaS: pricing, integrations, security, docs, changelog, case studies, alternatives, reviews, and partner directories are accessible and current.",
+      "logical_required_sources": [],
+      "next_action": "Add useful alt text for meaningful images.",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "63 of 63 public site checks failed for image_alt_text. Example: 7 images are missing alt text.",
+      "section_id": "16-context-specific-checks",
+      "status": "fail"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [
+        "manual:use-relevant-connectors-plus-common-sources-above"
+      ],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.16-context-specific-checks.749312c3",
+      "item_text": "Docs/support: troubleshooting, prerequisites, versioning, examples, API references, changelogs, and support paths are direct and extractable.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks were not applicable for docs_content_extractable. Example: This is not a docs or support URL.",
+      "section_id": "16-context-specific-checks",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.0bb1387b",
+      "item_text": "Writing separate worse content \"for AI\".",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.3a40db1a",
+      "item_text": "Creating thin prompt-variant pages.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for thin_prompt_variant_pages.",
+      "section_id": "17-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.f4a42a01",
+      "item_text": "Treating `llms.txt` as required for Google AI features.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.4ea91c68",
+      "item_text": "Treating `Google-Extended` as an AI Overviews opt-out.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.3f65d2b4",
+      "item_text": "Blocking all AI/search crawlers without understanding visibility tradeoffs.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.0661b5b4",
+      "item_text": "Hiding the answer behind vague marketing copy.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for content_visible.",
+      "section_id": "17-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.65b4b165",
+      "item_text": "Gating all useful evidence.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for content_visible.",
+      "section_id": "17-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.c3a2b499",
+      "item_text": "Using unsupported statistics or fake citations.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.cd3f1e7b",
+      "item_text": "Spamming Reddit, Wikipedia, Quora, review sites, or forums.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "public_crawl",
+          "providers": [
+            "firecrawl"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "firecrawl",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.db78d89a",
+      "item_text": "Stuffing schema with invisible or false content.",
+      "logical_required_sources": [
+        "public_crawl"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "firecrawl"
+      ],
+      "resolved_required_sources": [
+        "firecrawl"
+      ],
+      "result": "63 public site checks passed for schema_present.",
+      "section_id": "17-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [
+        {
+          "logical_source": "search_console",
+          "providers": [
+            "gsc"
+          ],
+          "required": true,
+          "status": "connected"
+        }
+      ],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "gsc",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.0d854afa",
+      "item_text": "Measuring only rankings when AI answers absorb the click.",
+      "logical_required_sources": [
+        "search_console"
+      ],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [
+        "gsc"
+      ],
+      "resolved_required_sources": [
+        "gsc"
+      ],
+      "result": "1 public site checks passed for gsc_measurement_coverage.",
+      "section_id": "17-anti-patterns",
+      "status": "pass"
+    },
+    {
+      "artifact_ref": "brands/strique/references/evidence/20260629T193943Z/site-checks.json",
+      "blocker": "",
+      "candidate_sources": [],
+      "checklist_id": "ai-seo-aeo-geo",
+      "evidence_artifacts": [],
+      "evidence_plan": [],
+      "evidence_run_id": "20260629T193943Z",
+      "evidence_source": "scope",
+      "item_id": "ai-seo-aeo-geo.17-anti-patterns.f4536d4e",
+      "item_text": "Optimizing for citation while ignoring conversion quality.",
+      "logical_required_sources": [],
+      "next_action": "",
+      "provider_blockers": [],
+      "required_sources": [],
+      "resolved_required_sources": [],
+      "result": "Not applicable to google-visible scope or no deterministic public signal exists for this checklist wording.",
+      "section_id": "17-anti-patterns",
+      "status": "not_applicable"
+    }
+  ]
+}

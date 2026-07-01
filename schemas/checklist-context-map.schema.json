@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Checklist Context Map",
+  "type": "object",
+  "required": ["generated_at", "source", "item_count", "entries"],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "source": { "type": "string" },
+    "item_count": { "type": "integer" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["checklist_id", "section_id", "item_id", "item_text", "requires", "evidence_sources", "preferred_source_order", "can_infer", "on_missing", "blocked_status"],
+        "properties": {
+          "checklist_id": { "type": "string" },
+          "section_id": { "type": "string" },
+          "item_id": { "type": "string" },
+          "item_text": { "type": "string" },
+          "requires": { "type": "array", "items": { "type": "string" } },
+          "question_ids": { "type": "array", "items": { "type": "string" } },
+          "evidence_sources": { "type": "array", "items": { "type": "string" } },
+          "preferred_source_order": { "type": "array", "items": { "type": "string" } },
+          "can_infer": { "type": "boolean" },
+          "on_missing": { "type": "string" },
+          "blocked_status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

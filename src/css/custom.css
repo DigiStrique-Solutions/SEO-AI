@@ -1,0 +1,32 @@
+:root {
+  --ifm-color-primary: #255f85;
+  --ifm-color-primary-dark: #215577;
+  --ifm-color-primary-darker: #1f5070;
+  --ifm-color-primary-darkest: #1a425c;
+  --ifm-color-primary-light: #296993;
+  --ifm-color-primary-lighter: #2b6e9a;
+  --ifm-color-primary-lightest: #317cad;
+  --ifm-code-font-size: 95%;
+}
+
+.home-main {
+  min-height: calc(100vh - 60px);
+  display: grid;
+  place-items: center;
+  padding: 4rem 1rem;
+}
+
+.home-section {
+  width: min(760px, 100%);
+}
+
+.home-section h1 {
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  letter-spacing: 0;
+}
+
+.home-section p {
+  max-width: 56rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}

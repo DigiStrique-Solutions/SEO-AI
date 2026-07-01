@@ -1,0 +1,19 @@
+{
+  "brand_id": "kaya-clinic",
+  "fields": {
+    "brand_name": {
+      "confidence": "medium",
+      "field_id": "brand_name",
+      "scope": "brand",
+      "source_ref": "brands/kaya-clinic/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-06-30T19:36:22+00:00",
+      "value": "Kaya Clinic"
+    }
+  },
+  "generated_at": "2026-06-30T19:36:22+00:00",
+  "open_questions": [
+    "Website URL."
+  ],
+  "source_ref": "brands/kaya-clinic/brand-dna.md"
+}

@@ -1,0 +1,166 @@
+{
+  "questions": [
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_ai_scope",
+      "field_ids": [
+        "ai_target_platforms",
+        "ai_visibility_goal",
+        "ai_prompt_set"
+      ],
+      "options": [
+        "Brand citations or mentions in ChatGPT, Perplexity, and Google AI results",
+        "Product recommendations and comparison visibility",
+        "Support or documentation answers"
+      ],
+      "question": "Which AI search outcome should Strique track?",
+      "question_id": "ai_search_scope",
+      "recommended_option": "Brand citations or mentions in ChatGPT, Perplexity, and Google AI results",
+      "store_scope": "brand",
+      "used_by": [
+        "ai_seo",
+        "content",
+        "reporting"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_content_risk",
+      "field_ids": [
+        "approved_claims",
+        "restricted_claims"
+      ],
+      "options": [
+        "Use only claims visible on the website or supplied by the team",
+        "Use approved sales claims from internal material",
+        "Do not make comparative or performance claims"
+      ],
+      "question": "Which claim policy should Strique follow?",
+      "question_id": "claims_policy",
+      "recommended_option": "Use only claims visible on the website or supplied by the team",
+      "store_scope": "brand",
+      "used_by": [
+        "content",
+        "media_plan",
+        "ai_seo",
+        "strategy"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_content_quality",
+      "field_ids": [
+        "target_audience",
+        "buyer_stage"
+      ],
+      "options": [
+        "Decision-makers comparing options",
+        "Practitioners trying to solve a problem",
+        "Existing customers looking for support"
+      ],
+      "question": "Who is the primary audience for this work?",
+      "question_id": "target_audience",
+      "recommended_option": "Decision-makers comparing options",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "media_plan"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_risk_review",
+      "field_ids": [
+        "ymyl_exposure",
+        "compliance_rules",
+        "legal_review_required"
+      ],
+      "options": [
+        "No special compliance review required",
+        "Healthcare, finance, legal, safety, or other YMYL review required",
+        "Unsure, ask legal or an expert before publishing"
+      ],
+      "question": "Does this brand or topic require stronger compliance or expert review?",
+      "question_id": "ymyl_compliance",
+      "recommended_option": "No special compliance review required",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "media_plan"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_implementation_planning",
+      "field_ids": [
+        "platform_constraints",
+        "current_pain"
+      ],
+      "options": [
+        "CMS or engineering constraints limit implementation",
+        "Legacy URLs, migration, or routing risk",
+        "No major implementation constraint known"
+      ],
+      "question": "What constraint should Strique account for?",
+      "question_id": "platform_constraints",
+      "recommended_option": "CMS or engineering constraints limit implementation",
+      "store_scope": "brand",
+      "used_by": [
+        "site_architecture",
+        "generic_on_page",
+        "strategy"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_search_scope",
+      "field_ids": [
+        "priority_queries",
+        "search_intent"
+      ],
+      "options": [
+        "Commercial comparison and solution queries",
+        "Educational how-to and definition queries",
+        "Branded, pricing, and alternative queries"
+      ],
+      "question": "Which query group should this work prioritize?",
+      "question_id": "priority_queries",
+      "recommended_option": "Commercial comparison and solution queries",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_locale_scope",
+      "field_ids": [
+        "target_countries",
+        "target_languages"
+      ],
+      "options": [
+        "Primary current market in English",
+        "Multiple countries in English",
+        "Multiple languages or localized markets"
+      ],
+      "question": "Which market and language should this work target first?",
+      "question_id": "markets_languages",
+      "recommended_option": "Primary current market in English",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "media_plan"
+      ]
+    }
+  ]
+}

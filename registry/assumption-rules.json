@@ -1,0 +1,41 @@
+{
+  "version": "2026-07-01",
+  "rules": [
+    {
+      "field_id": "business_model",
+      "allowed": true,
+      "requires_evidence": ["brand_dna", "website_crawl"],
+      "user_can_override": true
+    },
+    {
+      "field_id": "site_type",
+      "allowed": true,
+      "requires_evidence": ["brand_dna", "website_crawl"],
+      "user_can_override": true
+    },
+    {
+      "field_id": "ymyl_exposure",
+      "allowed": true,
+      "requires_evidence": ["brand_dna", "website_crawl"],
+      "user_can_override": true
+    },
+    {
+      "field_id": "primary_business_goal",
+      "allowed": false,
+      "requires_evidence": ["human_context"],
+      "user_can_override": true
+    },
+    {
+      "field_id": "approved_claims",
+      "allowed": false,
+      "requires_evidence": ["human_context", "legal"],
+      "user_can_override": true
+    },
+    {
+      "field_id": "ai_crawler_policy",
+      "allowed": false,
+      "requires_evidence": ["human_context", "legal", "cms_code"],
+      "user_can_override": true
+    }
+  ]
+}

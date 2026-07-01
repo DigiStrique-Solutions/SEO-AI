@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "claim": "The Strique keyword universe contains a commercial SEO automation cluster with 13,320 directional monthly volume.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_universe"
+      ]
+    },
+    {
+      "claim": "The Strique audit workspace crawl inventory covered 63 public URLs.",
+      "claim_type": "audit_evidence",
+      "source_ids": [
+        "url_inventory",
+        "site_checks"
+      ]
+    },
+    {
+      "claim": "The audit rows used for this brief include repeated failures for single H1, image alt text, sitemap inclusion, canonical matching, duplicate metadata, inaccessible controls, blocking overlays, and PostHog evidence availability.",
+      "claim_type": "audit_evidence",
+      "source_ids": [
+        "generic_audit",
+        "content_audit",
+        "ai_search_audit",
+        "site_checks"
+      ]
+    },
+    {
+      "claim": "Strique is positioned as an agentic AI marketing platform that plans, executes, measures, and learns across marketing work.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-01T10:21:23+00:00",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/strique/blogs/drafts/seo-automation-agent-loop.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports. Brand voice is direct, confident, operator-centric, and plain-spoken."
+    },
+    {
+      "source_id": "keyword_universe",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/exports/keyword-universe.csv",
+      "extracted_facts": "Keyword Planner rows show commercial demand for SEO automation terms. The SEO automation cluster includes 13 keywords with 13,320 directional monthly volume, including seo automation, automated seo optimization, automatic seo optimization, seo automation platform, and auto seo. The content creation cluster has 73,490 directional monthly volume, and the AI ad generation cluster has 11,460."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io, target country United States, with 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes 63 public URLs from the Strique crawl. Existing blog coverage includes AI ad analytics, AI ad optimization, brand context extraction, closing the loop, reducing CAC with AI, and what an AI marketing agent is."
+    },
+    {
+      "source_id": "site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks show public crawl, rendered browser, performance, keyword demand, GSC SERP expectation, and GSC measurement coverage evidence as available. PostHog evidence is blocked. HSTS is missing. URL Inspection found https://www.strique.io/blog as Not found in the GSC artifact."
+    },
+    {
+      "source_id": "generic_audit",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/audits/generic-on-page-google-visible-audit.json",
+      "extracted_facts": "Generic on-page audit failures include sitemap inclusion gaps on 12 of 63 public site checks, 47 of 63 public site checks failed for single H1, 63 of 63 failed for image alt text, 13 duplicate canonical groups for contact URL variants, 11 of 63 failed for inaccessible controls, and 63 of 63 failed for blocking popups or interstitials."
+    },
+    {
+      "source_id": "content_audit",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/audits/content-seo-google-visible-audit.json",
+      "extracted_facts": "Content SEO audit failures repeat single-H1, image alt text, media support, semantic structure, readability, and content refresh workflow issues. The checklist requires clear purpose, direct search intent match, useful headings, evidence-backed claims, useful media, internal links, schema, conversion fit, and AI search readiness."
+    },
+    {
+      "source_id": "ai_search_audit",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/audits/ai-seo-aeo-geo-google-visible-audit.json",
+      "extracted_facts": "AI SEO audit failures include foundational SEO readiness issues, answerability and heading issues, internal answer reachability through sitemap coverage, inaccessible controls, blocked or heavy rendered experiences, and SaaS context image alt text failures. The checklist says normal SEO, helpful content, crawlability, preview controls, and structured data are the foundation for Google AI visibility."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content checklist requires one primary purpose, search intent match, natural keyword coverage, originality, evidence, useful headings, direct language, media with useful alt text, internal links, external references where useful, structured data, conversion fit, and no AI slop."
+    },
+    {
+      "source_id": "onpage_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/generic-on-page-seo-checklist.md",
+      "extracted_facts": "The on-page checklist requires image relevance, descriptive alt text, explicit dimensions, efficient formats, Article or other appropriate structured data, one clear H1, crawlability, indexability, internal links, and AI search readiness through normal SEO foundations."
+    }
+  ]
+}

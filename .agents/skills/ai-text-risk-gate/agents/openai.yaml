@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Text Risk Gate"
+  short_description: "Gate SEO drafts for AI-pattern risk"
+  default_prompt: "Use $ai-text-risk-gate to check a blog draft before publishing."

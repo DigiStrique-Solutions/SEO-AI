@@ -1,0 +1,12 @@
+{
+  "audit": "brands/strique/audits/generic-on-page-google-visible-audit.json",
+  "coverage_counts": {
+    "fail": 67,
+    "not_applicable": 73,
+    "not_checked_blocked": 79,
+    "pass": 162
+  },
+  "ok": true,
+  "provider_blocked_rows": 0,
+  "routed_rows": 11
+}

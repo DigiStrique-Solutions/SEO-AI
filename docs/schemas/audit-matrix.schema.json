@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strique SEO Audit Matrix",
+  "type": "object",
+  "required": ["metadata", "rows"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["target_url", "audit_type", "item_count"],
+      "properties": {
+        "target_url": { "type": "string" },
+        "audit_type": { "enum": ["partial", "full"] },
+        "created_at": { "type": "string" },
+        "checklist_count": { "type": "integer", "minimum": 0 },
+        "item_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "checklist_id",
+          "section_id",
+          "item_id",
+          "item_text",
+          "status",
+          "evidence_source",
+          "artifact_ref",
+          "result",
+          "blocker",
+          "next_action"
+        ],
+        "properties": {
+          "checklist_id": { "type": "string", "minLength": 1 },
+          "section_id": { "type": "string", "minLength": 1 },
+          "item_id": { "type": "string", "minLength": 1 },
+          "item_text": { "type": "string", "minLength": 1 },
+          "status": {
+            "enum": ["pass", "fail", "not_applicable", "not_checked_blocked"]
+          },
+          "evidence_source": { "type": "string" },
+          "artifact_ref": { "type": "string" },
+          "candidate_sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "required_sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "logical_required_sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "resolved_required_sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "evidence_plan": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
+          "provider_blockers": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
+          "evidence_run_id": { "type": "string" },
+          "evidence_artifacts": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "result": { "type": "string" },
+          "blocker": { "type": "string" },
+          "next_action": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
