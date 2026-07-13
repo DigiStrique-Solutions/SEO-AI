@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Sampled 4 templates: homepage, product (strata-01), collection (men-running-shoes), blog (styling-sneakers).",
+  "score": 0.71,
+  "counts": { "items": 7, "pass": 5, "fail": 2, "not_applicable": 0, "not_checked_blocked": 0 },
+  "rows": [
+    { "item_id": "title-present", "section_id": "titles-meta", "status": "fail", "result": "Titles are present and unique on every template, but product titles (the largest template, ~1,516 URLs) are non-descriptive: e.g. 'STRATA-01 - DARK BEIGE/NAVY' (27 chars) with no product type, keyword, or brand. Homepage (63) and collection (65) run slightly over 60. Collection/blog titles are well-optimized.", "next_action": "Rewrite the product title-tag pattern to '{Product} – {Type} for {Men/Women} | Off Limits' (e.g. 'STRATA-01 Beige/Navy – Running & Gym Shoes for Men | Off Limits'); trim homepage/collection titles to ≤60 chars.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "meta-description", "section_id": "titles-meta", "status": "pass", "result": "All 4 sampled templates have unique, in-range meta descriptions (141–157 chars), descriptive and not stuffed.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "single-h1", "section_id": "headings", "status": "pass", "result": "Exactly one H1 on all four templates (homepage, PDP, collection, blog).", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "heading-order", "section_id": "headings", "status": "pass", "result": "No skipped heading levels on content templates. Homepage is H3-heavy (76 H3s under 8 H2s) from product cards, which is acceptable for a storefront grid.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "image-alt", "section_id": "media-links", "status": "fail", "result": "Systemic alt-text gap. Homepage 55/113 images missing alt (51% coverage), collection 27/38 missing (29% coverage), PDP 9/27 missing (67% coverage). Blog was clean (1/20). Well below the 95% threshold on storefront templates.", "next_action": "Populate alt text on product/collection imagery — map Shopify product image alt to '{Product name} {color} – {type}'; audit theme/banner images for empty alt.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "canonical", "section_id": "media-links", "status": "pass", "result": "Every sampled page declares a self-referencing canonical that resolves 200; single host (non-www, https).", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" },
+    { "item_id": "status-200", "section_id": "media-links", "status": "pass", "result": "Key pages return HTTP 200; nonexistent paths return a genuine 404 (no soft-404).", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" }
+  ]
+}

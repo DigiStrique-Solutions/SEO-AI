@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 0.71,
+  "counts": {
+    "items": 7,
+    "pass": 5,
+    "fail": 2,
+    "not_applicable": 0,
+    "not_checked_blocked": 0
+  },
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "Commercial templates (PDP/PLP) have a clear single sell intent; home is a clear category hub.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "Product/collection format matches transactional SERP intent. Note: quantitative keyword-demand validation pending (Keyword Planner platform-id unset; GSC not connected).",
+      "next_action": "Connect GSC/Keyword Planner to validate intent against real demand.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "status": "fail",
+      "result": "Blog content is thin AND broken: ~456 words, contains literal lorem-ipsum sections and wrong 'JSW Defence' copy. Collection pages carry no editorial/intro copy.",
+      "next_action": "Replace placeholder blog content with real, brand-relevant articles; add 100-200 word intros + buying guidance to top collections.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "Primary keywords appear in title/H1/intro on commercial pages (cotton, linen, pants). Over-optimization risk on collection titles (stuffing).",
+      "next_action": "De-stuff collection titles; keep one primary + one secondary term.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "Blog posts dated 2026-04-28; product/collection freshness not date-sensitive.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "status": "fail",
+      "result": "Weak E-E-A-T: blog author exists in schema (Person 'Abuhurerah Shaikh') but no visible bio/credentials, and the content itself is placeholder. PDPs carry no reviews/ratings.",
+      "next_action": "Add visible author bios; enable product reviews/ratings; show first-hand/brand-heritage signals (Est. 1987).",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "Strong internal linking: 401 internal links on home, 134 nav links, collections->products.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

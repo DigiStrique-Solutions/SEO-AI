@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": 0.82,
+  "counts": { "items": 7, "pass": 6, "fail": 1, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "robots-txt", "section_id": "crawlability", "status": "pass", "result": "robots.txt present, valid Shopify config. Declares sitemap, does not block key templates (/collections/, /pages/, /products/), and disallows crawl traps (sort_by, multi-filter, +/%2B, preview params, cart/checkout/admin).", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#robots_txt" },
+    { "item_id": "sitemap", "section_id": "crawlability", "status": "pass", "result": "sitemap.xml index reachable (200), valid, referenced in robots.txt; children cover products (x2), pages, collections, blogs, plus sitemap_agentic_discovery.xml. No lastmod in the index (normal for Shopify).", "next_action": "Confirm submission + coverage status in GSC (Sitemaps report) via Composio.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#sitemap" },
+    { "item_id": "url-structure", "section_id": "structure", "status": "pass", "result": "URLs are clean, lowercase, hyphenated (/collections/<handle>, /products/<handle>). Exceptions: dated operational handles (creative-31-10-2023) and one malformed blog slug with an embedded URL ('https-inc5shop-com-blogs-blog-top-4-best-mens-formal-shoes').", "next_action": "Fix/redirect the malformed blog slug; retire dated handles as part of index cleanup.", "evidence_ref": "blogs/summary.md" },
+    { "item_id": "internal-linking", "section_id": "structure", "status": "pass", "result": "Key categories reachable within 2-3 clicks via mega-nav (Women/Men/Handbags), and store pages are linked in the footer. Priority collections are shallow.", "next_action": "Add contextual cross-links from high-impression blogs to matching category pages to pass authority (e.g. heel guides -> /collections/womens-heels).", "evidence_ref": "logs/web_data/raw/20260713T094521Z-brand-dna-crawl.json" },
+    { "item_id": "redirects", "section_id": "structure", "status": "pass", "result": "Examined pages resolve directly with 200 (no chains observed). Legacy domain inc5shoes.co.in is referenced in policy copy; its redirect relationship to inc5shop.com is unverified.", "next_action": "Verify inc5shoes.co.in -> inc5shop.com is a single-hop 301; audit for broken internal links after collection cleanup.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#robots_txt" },
+    { "item_id": "canonical-consistency", "section_id": "indexation", "status": "pass", "result": "Single canonical host/protocol (https://inc5shop.com). Collection and PDP emit self-referencing canonicals; no conflicting host signals found.", "next_action": "Spot-verify homepage canonical (not captured in extraction).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "indexation-coverage", "section_id": "indexation", "status": "fail", "result": "Index bloat: 150+ collections discovered, including many dated/operational 'dark' collections (testnew, test, put-in-draft-22-11-2023, zero-stock-25-09, full-fresh-aug-2023, creative-*, inventory-active-from-draft, shoot selections). robots.txt allows /collections/, so these thin/duplicate collections are crawlable and likely indexable, diluting crawl budget and competing with canonical shoppable collections.", "next_action": "Noindex or unpublish operational/seasonal-dead collections; keep the XML sitemap scoped to canonical shoppable collections; validate coverage in GSC Pages/Indexing report.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#index_hygiene" }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "run_id": "inc5shop-phase4-20260713",
+  "run_date": "2026-07-13",
+  "target_url": "https://inc5shop.com",
+  "evidence_inputs": [
+    "logs/web_data/raw/20260713T094521Z-brand-dna-crawl.json",
+    "logs/keywords/raw/20260713T095008Z-gsc-search-analytics.json"
+  ],
+  "providers_used": ["firecrawl", "gsc", "web"],
+  "providers_missing": ["crux", "pagespeed", "lighthouse", "manual_ai_answer_testing"],
+  "pages_examined": {
+    "homepage": {
+      "url": "https://inc5shop.com/",
+      "status": 200,
+      "title": "Exclusive Fashion Footwear Online - Inc 5 Shoes",
+      "title_len": 47,
+      "meta_description": "Inc.5 Shoes is an exclusive fashion footwear brand. From classy boots for men to trendy heels for the ladies... (present, ~200 chars, slightly long)",
+      "canonical": "not detected in extraction — Shopify default likely present; VERIFY",
+      "h1_count": 2,
+      "h1_texts": ["NEW ARRIVALS", "WOMEN"],
+      "h1_note": "Navigation category labels rendered as <h1> -> multiple H1s",
+      "jsonld_present": false,
+      "jsonld_types": [],
+      "org_website_schema": false,
+      "og_image": true,
+      "twitter_card": true,
+      "content_images": 11,
+      "images_missing_alt": 8
+    },
+    "collection_womens_heels": {
+      "url": "https://inc5shop.com/collections/womens-heels",
+      "status": 200,
+      "title": "Womens Heels - Buy Stylish Heels for Women Online | Inc5",
+      "title_len": 56,
+      "meta_description": "Women's Heels - Shop heel sandals for women online at Inc5. Explore ... block heels, kitten heels, platform heels, wedge heels & more. (present, good)",
+      "canonical": "https://inc5shop.com/collections/womens-heels (self-referencing)",
+      "robots_meta": "index, follow",
+      "h1_count": 1,
+      "h1_texts": ["Collection: Heels"],
+      "intro_body_copy": {"present": true, "word_count": 149},
+      "jsonld_types": ["CollectionPage"],
+      "breadcrumb_nav": true,
+      "breadcrumb_schema": false,
+      "pagination": "rel=next/prev",
+      "content_images": 146,
+      "images_missing_alt": 17
+    },
+    "product_cream_flats": {
+      "url": "https://inc5shop.com/products/women-cream-open-toe-flats-with-bows-101689-cream",
+      "status": 200,
+      "title": "Buy Now Women Cream Open Toe Flats With Bows",
+      "meta_description": "present, good",
+      "canonical": "self-referencing",
+      "h1_count": 1,
+      "product_jsonld": {"exists": true, "offers": true, "price": "INR 1504", "availability": true, "aggregateRating": true, "reviewCount": true, "brand": true},
+      "breadcrumb_schema": false,
+      "product_description": true,
+      "reviews_present": true,
+      "images_missing_alt": 0
+    }
+  },
+  "robots_txt": {
+    "url": "https://inc5shop.com/robots.txt",
+    "status": 200,
+    "sitemap_declared": "https://inc5shop.com/sitemap.xml",
+    "key_templates_blocked": false,
+    "collections_pages_allowed": true,
+    "crawl_traps_disallowed": ["*sort_by*", "*filter*&*filter*", "*+*", "*%2B*", "*?*ls=*", "*preview_theme_id*", "/cart", "/checkout", "/admin"],
+    "ai_crawler_directives": "none (GPTBot/ClaudeBot/CCBot/PerplexityBot/Google-Extended not referenced -> default allow)"
+  },
+  "sitemap": {
+    "url": "https://inc5shop.com/sitemap.xml",
+    "status": 200,
+    "type": "Shopify sitemap index",
+    "children": ["sitemap_agentic_discovery.xml", "sitemap_products_1.xml", "sitemap_products_2.xml", "sitemap_pages_1.xml", "sitemap_collections_1.xml", "sitemap_blogs_1.xml"],
+    "notable": "sitemap_agentic_discovery.xml present (AI/agentic-commerce discovery feed) -> positive AEO/GEO signal",
+    "lastmod_in_index": false
+  },
+  "llms_txt": {
+    "url": "https://inc5shop.com/llms.txt",
+    "status": 200,
+    "valid": true,
+    "notes": "Shopify UCP (Universal Commerce Protocol) llms.txt with read-only browsing endpoints, store policies, and agent guidance (no payment without buyer consent). Strong AI-visibility posture."
+  },
+  "index_hygiene": {
+    "collections_discovered": "150+ via firecrawl_map",
+    "dark_operational_collections_examples": ["testnew", "test", "put-in-draft-22-11-2023", "zero-stock-25-09", "full-fresh-aug-2023", "creative-31-10-2023", "creative-27-10-2023", "mix-creative-shoot-oct", "inventory-active-from-draft", "sa-shoot-selection"],
+    "risk": "Large number of dated/operational collections reachable and potentially indexable -> index bloat, thin/duplicate collections, crawl-budget dilution."
+  },
+  "cwv": {
+    "field_crux": "NOT CONNECTED",
+    "lab_pagespeed": "NOT CONNECTED",
+    "lab_lighthouse": "NOT CONNECTED",
+    "crawl_observation": "Hero banners served as large PNGs (e.g. Women_Banner/Men_Banner width up to 3840) via Shopify CDN; next-gen format/lazy-load not confirmed. Shopify CDN does serve responsive width params."
+  },
+  "gsc_signals_for_audit": {
+    "homepage_impr": 587282,
+    "biggest_ctr_gap": "shoulder bags for women: 79401 impr / 31 clicks / pos 7.75",
+    "size_chart_page": "https://inc5shop.com/pages/women-size-chart 824060 impr / 613 clicks / pos 8.56",
+    "weak_rank_high_impr": ["boots for women pos 8.75 / 180266 impr", "footwear for women pos 9.36 / 132617 impr", "womens-mules page pos 9.49"]
+  }
+}

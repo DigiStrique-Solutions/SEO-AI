@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.57,
+  "counts": { "items": 6, "pass": 3, "fail": 3, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "lcp", "section_id": "loading", "status": "fail", "result": "LCP is 3.1s at the 75th percentile (threshold 2.5s).", "next_action": "Preload the hero image and reduce main-thread work to cut LCP.", "evidence_ref": "evidence/20260713/crux.json#lcp" },
+    { "item_id": "ttfb", "section_id": "loading", "status": "pass", "result": "TTFB is 0.6s (threshold 0.8s).", "next_action": "", "evidence_ref": "evidence/20260713/lighthouse.json#ttfb" },
+    { "item_id": "inp", "section_id": "interactivity", "status": "pass", "result": "INP is 180ms at the 75th percentile (threshold 200ms).", "next_action": "", "evidence_ref": "evidence/20260713/crux.json#inp" },
+    { "item_id": "render-blocking", "section_id": "interactivity", "status": "fail", "result": "Two large render-blocking scripts in the critical path (~210KB).", "next_action": "Defer/async non-critical JS and inline critical CSS.", "evidence_ref": "evidence/20260713/lighthouse.json#render_blocking" },
+    { "item_id": "cls", "section_id": "stability", "status": "pass", "result": "CLS is 0.05 at the 75th percentile (threshold 0.1).", "next_action": "", "evidence_ref": "evidence/20260713/crux.json#cls" },
+    { "item_id": "image-optimization", "section_id": "stability", "status": "fail", "result": "Hero and logo images served as PNG/JPG without WebP/AVIF or responsive sizes.", "next_action": "Serve WebP/AVIF with responsive srcset and lazy-load below the fold.", "evidence_ref": "evidence/20260713/lighthouse.json#images" }
+  ]
+}

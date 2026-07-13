@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.73,
+  "counts": { "items": 6, "pass": 3, "fail": 2, "not_applicable": 1 },
+  "rows": [
+    { "item_id": "direct-answers", "section_id": "answerability", "status": "pass", "result": "Blog posts open with clear, extractable answers to their target questions.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#direct_answers" },
+    { "item_id": "structured-answers", "section_id": "answerability", "status": "pass", "result": "Posts use lists, tables, and definitions that AI engines can quote.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#structured_answers" },
+    { "item_id": "entity-clarity", "section_id": "entity-authority", "status": "pass", "result": "Brand name, description, and sameAs are consistent across site and schema.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#entity" },
+    { "item_id": "citations-sources", "section_id": "entity-authority", "status": "fail", "result": "Posts rarely cite external sources; limited third-party citations of the brand.", "next_action": "Add credible outbound citations and pursue mentions on authoritative sites.", "evidence_ref": "evidence/20260713/public-crawl.json#citations" },
+    { "item_id": "ai-crawler-access", "section_id": "ai-visibility", "status": "fail", "result": "No llms.txt found; AI user-agents are allowed but undirected.", "next_action": "Publish an llms.txt describing key pages and allowed use.", "evidence_ref": "evidence/20260713/public-crawl.json#llms_txt" },
+    { "item_id": "ai-mentions", "section_id": "ai-visibility", "status": "not_applicable", "result": "Requires manual/LLM checks against priority prompts; not supplied this run.", "next_action": "Run AI-visibility checks for the priority prompt set.", "evidence_ref": "" }
+  ]
+}

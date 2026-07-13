@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "generic-on-page",
+  "title": "Generic On-Page SEO",
+  "description": "Baseline on-page hygiene every indexable page should pass: titles, meta descriptions, headings, media, canonicals, and status codes.",
+  "applies_to": "per_url",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "titles-meta",
+      "title": "Titles & Meta",
+      "items": [
+        { "item_id": "title-present", "check": "Page has a unique <title> tag.", "pass_criteria": "Present, 30-60 chars, unique across the site.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "meta-description", "check": "Page has a meta description.", "pass_criteria": "Present, 70-160 chars, unique, not keyword-stuffed.", "severity": "medium", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "headings",
+      "title": "Headings",
+      "items": [
+        { "item_id": "single-h1", "check": "Page has exactly one H1.", "pass_criteria": "H1 count == 1.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "heading-order", "check": "Headings follow a logical order.", "pass_criteria": "No skipped levels (H1 -> H2 -> H3).", "severity": "low", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "media-links",
+      "title": "Media, Canonicals & Status",
+      "items": [
+        { "item_id": "image-alt", "check": "Meaningful images have alt text.", "pass_criteria": ">= 95% of content images have non-empty alt.", "severity": "medium", "required_evidence": ["public_crawl"] },
+        { "item_id": "canonical", "check": "Page declares a valid canonical.", "pass_criteria": "Self-referencing or intentional canonical, resolves 200.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "status-200", "check": "Page returns HTTP 200.", "pass_criteria": "Final status 200, no soft-404.", "severity": "high", "required_evidence": ["public_crawl"] }
+      ]
+    }
+  ]
+}

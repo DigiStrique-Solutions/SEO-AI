@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "run_date": "2026-07-13",
+  "target_url": "https://cottonworld.net",
+  "platform": "Shopify",
+  "overall_score": 0.59,
+  "scoring_note": "weighted_pass_ratio over ASSESSED items; 4 items not_checked_blocked (excluded) pending GSC + field-performance access; audit is therefore PARTIAL.",
+  "totals": {
+    "items": 38,
+    "pass": 20,
+    "fail": 14,
+    "not_applicable": 0,
+    "not_checked_blocked": 4
+  },
+  "audits": [
+    {
+      "audit_id": "site-architecture",
+      "title": "Site Architecture & Technical SEO",
+      "score": 1.0,
+      "items": 7,
+      "pass": 6,
+      "fail": 0,
+      "not_applicable": 0,
+      "not_checked_blocked": 1,
+      "file": "site-architecture.json"
+    },
+    {
+      "audit_id": "content-seo",
+      "title": "Content SEO",
+      "score": 0.71,
+      "items": 7,
+      "pass": 5,
+      "fail": 2,
+      "not_applicable": 0,
+      "not_checked_blocked": 0,
+      "file": "content-seo.json"
+    },
+    {
+      "audit_id": "structured-data",
+      "title": "Structured Data & Schema",
+      "score": 0.64,
+      "items": 5,
+      "pass": 3,
+      "fail": 2,
+      "not_applicable": 0,
+      "not_checked_blocked": 0,
+      "file": "structured-data.json"
+    },
+    {
+      "audit_id": "core-web-vitals",
+      "title": "Core Web Vitals & Performance",
+      "score": 0.5,
+      "items": 6,
+      "pass": 2,
+      "fail": 2,
+      "not_applicable": 0,
+      "not_checked_blocked": 2,
+      "file": "core-web-vitals.json"
+    },
+    {
+      "audit_id": "generic-on-page",
+      "title": "Generic On-Page SEO",
+      "score": 0.47,
+      "items": 7,
+      "pass": 3,
+      "fail": 4,
+      "not_applicable": 0,
+      "not_checked_blocked": 0,
+      "file": "generic-on-page.json"
+    },
+    {
+      "audit_id": "ai-seo-aeo-geo",
+      "title": "AI SEO / AEO / GEO",
+      "score": 0.09,
+      "items": 6,
+      "pass": 1,
+      "fail": 4,
+      "not_applicable": 0,
+      "not_checked_blocked": 1,
+      "file": "ai-seo-aeo-geo.json"
+    }
+  ],
+  "top_fixes": [
+    {
+      "audit_id": "content-seo",
+      "item_id": "content-depth",
+      "severity": "critical",
+      "action": "Blog posts render placeholder lorem-ipsum and unrelated 'JSW Defence' copy live. Unpublish or rewrite all 4 posts immediately \u2014 this is brand-damaging and non-indexable-quality content."
+    },
+    {
+      "audit_id": "generic-on-page",
+      "item_id": "single-h1",
+      "severity": "high",
+      "action": "Add a single H1 to the blog/article and page templates (all currently render 0 H1)."
+    },
+    {
+      "audit_id": "generic-on-page",
+      "item_id": "meta-description",
+      "severity": "high",
+      "action": "Fix blog template metas: 2/4 posts have none, others carry wrong 320-char JSW boilerplate. Generate correct 70-160 char per-post descriptions."
+    },
+    {
+      "audit_id": "generic-on-page",
+      "item_id": "title-present",
+      "severity": "high",
+      "action": "Rewrite keyword-stuffed ~130-char collection titles to 50-60 chars; sentence-case ALL-CAPS blog titles."
+    },
+    {
+      "audit_id": "core-web-vitals",
+      "item_id": "cls",
+      "severity": "high",
+      "action": "Fix CLS (lab 0.155): reserve width/height/aspect-ratio for hero, promo banners, and above-fold images."
+    },
+    {
+      "audit_id": "structured-data",
+      "item_id": "org-website-schema",
+      "severity": "high",
+      "action": "Add WebSite schema + Organization.sameAs (social profiles) on the homepage; also strengthens AI entity clarity."
+    },
+    {
+      "audit_id": "core-web-vitals",
+      "item_id": "image-optimization",
+      "severity": "medium",
+      "action": "Serve WebP/AVIF with responsive srcset (0/340 images are modern-format; ~4.7MB image payload)."
+    },
+    {
+      "audit_id": "structured-data",
+      "item_id": "rich-result-eligible",
+      "severity": "medium",
+      "action": "Add product aggregateRating/review to unlock star rich results (also lifts E-E-A-T)."
+    },
+    {
+      "audit_id": "structured-data",
+      "item_id": "breadcrumb-schema",
+      "severity": "medium",
+      "action": "Emit BreadcrumbList on PDP/PLP and ItemList/CollectionPage on collections."
+    },
+    {
+      "audit_id": "ai-seo-aeo-geo",
+      "item_id": "direct-answers",
+      "severity": "medium",
+      "action": "Add front-loaded answers + FAQPage (fabric care, sizing, sustainability) for AEO/GEO extraction."
+    }
+  ],
+  "blocked_items": [
+    {
+      "audit_id": "site-architecture",
+      "item_id": "indexation-coverage",
+      "needs": "Google Search Console (Composio)"
+    },
+    {
+      "audit_id": "core-web-vitals",
+      "item_id": "lcp",
+      "needs": "PSI API key or GSC field CWV"
+    },
+    {
+      "audit_id": "core-web-vitals",
+      "item_id": "inp",
+      "needs": "CrUX/GSC field data"
+    },
+    {
+      "audit_id": "ai-seo-aeo-geo",
+      "item_id": "ai-mentions",
+      "needs": "manual AI-engine prompt testing"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": 0.86,
+  "counts": { "items": 7, "pass": 6, "fail": 1, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "page-purpose", "section_id": "purpose-intent", "status": "pass", "result": "Each template has one dominant intent: collections = sell/browse a category, PDPs = sell a product, blog posts = educate/style. No purpose ambiguity.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "intent-match", "section_id": "purpose-intent", "status": "pass", "result": "Commercial category keywords (e.g. 'heels for women', 385k+ impr) map to category collection pages with product grids + intro copy — matches SERP intent. Blog informational queries map to blog posts. Confirmed against keywords/keywords.csv.", "next_action": "", "evidence_ref": "keywords/keywords.csv" },
+    { "item_id": "content-depth", "section_id": "depth-quality", "status": "pass", "result": "Priority collections carry descriptive intro copy (womens-heels ~149 words) plus product grids; PDPs have descriptions + customer reviews; blogs are in-depth. Note: many secondary/occasion and dated collections have little or no intro copy.", "next_action": "Add 100-150 word intent-rich intros to priority collections that lack them (boots, mules, men's sandals) to support weak-ranking head terms.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.collection_womens_heels" },
+    { "item_id": "keyword-coverage", "section_id": "depth-quality", "status": "pass", "result": "Primary keyword appears in title/H1/intro on category pages; meta descriptions carry secondaries (block, kitten, platform, wedge heels). No stuffing observed. Matches clusters in keywords/clusters.json.", "next_action": "", "evidence_ref": "keywords/clusters.json" },
+    { "item_id": "freshness", "section_id": "depth-quality", "status": "pass", "result": "Blog is active (20 tracked posts dated 2026-02 to 2026-07 of 89 total); collections are evergreen. Content is current.", "next_action": "", "evidence_ref": "blogs/summary.md" },
+    { "item_id": "author-eeat", "section_id": "eeat", "status": "fail", "result": "Product-level E-E-A-T is strong (real Judge.me reviews + aggregateRating + 25-year brand legacy). However blog posts lack visible author bylines/credentials, weakening topical expertise signals for informational content.", "next_action": "Add author bylines with short bios/expertise to blog posts; surface brand-legacy (since 1998) trust signals on category pages.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.product_cream_flats" },
+    { "item_id": "internal-links", "section_id": "eeat", "status": "pass", "result": "Collections and PDPs contain multiple contextual internal links (nav categories, related products, breadcrumbs, blog cross-links). >=2 relevant links per page.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" }
+  ]
+}

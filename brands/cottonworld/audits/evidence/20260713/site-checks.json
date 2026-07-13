@@ -1,0 +1,163 @@
+{
+  "brand_id": "cottonworld",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "platform": "Shopify (Cloudflare-fronted, edge BOM/India, content-language en-IN)",
+  "collection_method": "public_crawl (curl Googlebot UA) + rendered_browser (Playwright) + performance_lab (Playwright PerformanceObserver)",
+  "field_data": "UNAVAILABLE \u2014 PageSpeed/CrUX keyless quota exhausted; Google Search Console not connected",
+  "scale": {
+    "products": 892,
+    "collections": 157,
+    "pages": 101,
+    "blog_urls": 5
+  },
+  "pages_sampled": {
+    "home": "https://cottonworld.net/",
+    "pdp": "https://cottonworld.net/products/l-pants-11273-20536-white",
+    "plp": "https://cottonworld.net/collections/linen",
+    "blog": "https://cottonworld.net/blogs/blog/the-story-of-natural-cotton-why-fabric-matters-more-than-fashion",
+    "blog_others": [
+      "slow-living-everyday-style...",
+      "timeless-wardrobes...",
+      "comfort-meets-style..."
+    ],
+    "page": "https://cottonworld.net/pages/about-us"
+  },
+  "http": {
+    "http_to_https": "301 -> https://cottonworld.net/",
+    "www_to_nonwww": "301 -> https://cottonworld.net/",
+    "home_status": 200,
+    "not_found_status": 404,
+    "soft_404": false
+  },
+  "on_page": {
+    "home": {
+      "title": "Cottonworld: Natural Cotton & Linen Clothes for Men & Women in India",
+      "title_len": 67,
+      "meta_desc_len": 146,
+      "canonical": "self",
+      "h1": 1,
+      "h1_text": "Cottonworld (visually-hidden)"
+    },
+    "pdp": {
+      "title_len": 75,
+      "meta_desc_len": 152,
+      "canonical": "self",
+      "h1": 1,
+      "h1_text": "Women's Cotton Lycra White Regular Fit Pant"
+    },
+    "plp": {
+      "title": "Linen - Men Clothing | Women Clothing | Shirts | Pants | T-Shirts | Tops | Leggings Online at Best Price in India- Cottonworld.net",
+      "title_len": 130,
+      "note": "keyword-stuffed, far over 60 chars",
+      "meta_desc_len": 155,
+      "canonical": "self",
+      "h1": 1,
+      "h1_text": "Linen"
+    },
+    "blog": {
+      "title_len": 86,
+      "title_case": "ALL CAPS",
+      "meta_desc": "WRONG/UNRELATED boilerplate about 'JSW Defence / Indian Armed Forces', 320 chars, duplicated",
+      "h1": 0,
+      "body_words": 456,
+      "lorem_ipsum_present": true,
+      "note": "rendered H2 headings literally read 'WHAT IS LOREM IPSUM?'; body text is wrong JSW copy, duplicated"
+    },
+    "blog_others": {
+      "h1": 0,
+      "meta_desc": "2 of 3 missing entirely; 1 has same wrong JSW boilerplate",
+      "titles": "ALL CAPS on 2 of 3"
+    },
+    "about_page": {
+      "h1": 0,
+      "meta_desc_len": 143,
+      "title": "About Cottonworld: Our Legacy of Pure Cotton & Comfort"
+    }
+  },
+  "images": {
+    "home_total": 340,
+    "home_missing_alt": 7,
+    "home_modern_format": 0,
+    "home_lazy": 218,
+    "note": ">=95% alt coverage overall; 0/340 WebP-AVIF; ~4.7MB image payload on home"
+  },
+  "schema": {
+    "home": {
+      "types": [
+        "Organization"
+      ],
+      "org_keys": [
+        "@context",
+        "@type",
+        "name",
+        "logo",
+        "url"
+      ],
+      "has_website_schema": false,
+      "has_sameAs": false
+    },
+    "pdp": {
+      "types": [
+        "Organization",
+        "ProductGroup"
+      ],
+      "product_has_variant_offers": true,
+      "offer_sample": {
+        "price": "490.00",
+        "priceCurrency": "INR",
+        "availability": "InStock"
+      },
+      "brand": "Cottonworld",
+      "aggregateRating": false,
+      "review": false
+    },
+    "plp": {
+      "types": [
+        "Organization"
+      ],
+      "has_collectionpage_or_itemlist": false,
+      "has_breadcrumb": false
+    },
+    "blog": {
+      "types": [
+        "Organization",
+        "Article"
+      ],
+      "article_valid": true,
+      "article_desc": "wrong JSW content",
+      "author": "Abuhurerah Shaikh (Person)",
+      "datePublished": "2026-04-28"
+    }
+  },
+  "site_arch": {
+    "robots_txt": "present, valid Shopify robots; sensible disallows (cart/checkout/filters); no key template blocked; sitemap referenced; agents.md + UCP/MCP referenced",
+    "sitemap": "valid sitemap index -> products(892)/collections(157)/pages(101)/blogs(5) + agentic_discovery; real-time",
+    "canonical_host": "single (non-www https); consistent",
+    "redirects": "single-hop 301s (http->https, www->non-www); no chains observed",
+    "url_structure": "lowercase, hyphenated, consistent; product slugs SKU-heavy (e.g. l-pants-11273-20536-white)",
+    "internal_links": "home 401 internal links, 134 nav links; collections link products; no obvious orphans (all in sitemap)",
+    "indexation_coverage": "NOT VERIFIABLE \u2014 Google Search Console not connected"
+  },
+  "performance_lab": {
+    "environment": "desktop, warm Cloudflare/Shopify CDN, datacenter connection \u2014 NOT representative of field/mobile-India",
+    "ttfb_ms": 81,
+    "fcp_ms": 376,
+    "lcp_ms_lab": 460,
+    "cls_lab": 0.155,
+    "transfer_kb": 4858,
+    "img_kb": 4717,
+    "resource_count": 611,
+    "render_blocking": "minimal (~20KB JS + 28KB CSS critical path)"
+  },
+  "ai_discovery": {
+    "llms_txt": "200 (Shopify-default, generic)",
+    "agents_md": "200",
+    "well_known_ucp": "200",
+    "ai_crawlers_blocked": false
+  },
+  "mobile": {
+    "render": "clean responsive layout, hamburger nav, hero renders; see mobile-home.jpeg",
+    "screenshot": "evidence/20260713/mobile-home.jpeg"
+  }
+}

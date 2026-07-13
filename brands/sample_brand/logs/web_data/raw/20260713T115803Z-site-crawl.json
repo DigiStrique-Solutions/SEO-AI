@@ -1,0 +1,15 @@
+{
+  "run_id": "20260713T115803Z",
+  "fetched_at": "2026-07-13T11:58:03Z",
+  "seed_url": "https://www.strique.io",
+  "provider": "firecrawl",
+  "page_count": 12,
+  "pages": [
+    { "url": "https://www.strique.io", "status": 200, "title": "Strique — Agentic AI Marketing Platform", "h1_count": 2, "meta_description_present": true, "images": 24, "images_missing_alt": 3, "canonical": "https://www.strique.io" },
+    { "url": "https://www.strique.io/product", "status": 200, "title": "Product — Strique", "h1_count": 2, "meta_description_present": true, "images": 31, "images_missing_alt": 5, "canonical": "https://www.strique.io/product" },
+    { "url": "https://www.strique.io/pricing", "status": 200, "title": "Pricing — Strique", "h1_count": 1, "meta_description_present": true, "images": 8, "images_missing_alt": 0, "canonical": "https://www.strique.io/pricing" },
+    { "url": "https://www.strique.io/contact", "status": 200, "title": "Contact — Strique", "h1_count": 1, "meta_description_present": false, "images": 4, "images_missing_alt": 0, "canonical": "https://www.strique.io/contact" }
+  ],
+  "aggregates": { "images_total": 126, "images_missing_alt": 16, "pages_multi_h1": 2, "pages_missing_meta": 1 },
+  "notes": "Truncated sample of the raw crawl payload; downstream: brands/sample_brand/audits/*.json (run 2026-07-13)."
+}

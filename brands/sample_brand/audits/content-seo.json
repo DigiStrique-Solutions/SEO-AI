@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.86,
+  "counts": { "items": 7, "pass": 6, "fail": 1, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "page-purpose", "section_id": "purpose-intent", "status": "pass", "result": "Key pages each carry one dominant intent (homepage=positioning, product=explain, blog=educate).", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#purpose" },
+    { "item_id": "intent-match", "section_id": "purpose-intent", "status": "pass", "result": "Blog posts match informational intent; product/solutions match commercial intent for their target keywords.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#intent" },
+    { "item_id": "content-depth", "section_id": "depth-quality", "status": "pass", "result": "Published blogs cover subtopics comparably to competing pages; no thin content found.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#depth" },
+    { "item_id": "keyword-coverage", "section_id": "depth-quality", "status": "pass", "result": "Primary keywords appear in title/H1/intro across mapped pages; no stuffing.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#keywords" },
+    { "item_id": "freshness", "section_id": "depth-quality", "status": "pass", "result": "All 7 blogs published within the last 5 months and carry visible dates.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#freshness" },
+    { "item_id": "author-eeat", "section_id": "eeat", "status": "fail", "result": "Blog posts have no visible author, bio, or credential signals.", "next_action": "Add author bylines with bios and expertise signals to blog posts.", "evidence_ref": "evidence/20260713/public-crawl.json#eeat" },
+    { "item_id": "internal-links", "section_id": "eeat", "status": "pass", "result": "Blog posts include 2+ relevant contextual internal links on average.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#internal_links" }
+  ]
+}

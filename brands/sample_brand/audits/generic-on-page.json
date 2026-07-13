@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.71,
+  "counts": { "items": 7, "pass": 5, "fail": 2, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "title-present", "section_id": "titles-meta", "status": "pass", "result": "All 12 crawled pages have unique titles within 30-60 chars.", "next_action": "", "evidence_ref": "evidence/20260713/site-checks.json#title_present" },
+    { "item_id": "meta-description", "section_id": "titles-meta", "status": "pass", "result": "11 of 12 pages have unique meta descriptions in range.", "next_action": "Add a meta description to /contact.", "evidence_ref": "evidence/20260713/site-checks.json#meta_description" },
+    { "item_id": "single-h1", "section_id": "headings", "status": "fail", "result": "2 templates render 2 H1s (homepage and product). Example: H1 count is 2.", "next_action": "Demote the secondary H1 to H2 on homepage and /product.", "evidence_ref": "evidence/20260713/site-checks.json#single_h1" },
+    { "item_id": "heading-order", "section_id": "headings", "status": "pass", "result": "No skipped heading levels detected.", "next_action": "", "evidence_ref": "evidence/20260713/site-checks.json#heading_order" },
+    { "item_id": "image-alt", "section_id": "media-links", "status": "fail", "result": "16 of 126 content images are missing alt text (87% coverage, below 95% threshold).", "next_action": "Add descriptive alt text to the 16 flagged images.", "evidence_ref": "evidence/20260713/site-checks.json#image_alt_text" },
+    { "item_id": "canonical", "section_id": "media-links", "status": "pass", "result": "All pages declare a self-referencing canonical that resolves 200.", "next_action": "", "evidence_ref": "evidence/20260713/site-checks.json#canonical" },
+    { "item_id": "status-200", "section_id": "media-links", "status": "pass", "result": "All crawled URLs return HTTP 200; no soft-404s.", "next_action": "", "evidence_ref": "evidence/20260713/site-checks.json#status" }
+  ]
+}

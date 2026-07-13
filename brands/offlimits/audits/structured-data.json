@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Schema parsed from rendered DOM on homepage, PDP, collection, and blog. Rich-result validity assessed against required-property presence (Google Rich Results Test not run — no error/warning report from Google directly).",
+  "score": 0.82,
+  "counts": { "items": 5, "pass": 4, "fail": 1, "not_applicable": 0, "not_checked_blocked": 0 },
+  "rows": [
+    { "item_id": "org-website-schema", "section_id": "coverage", "status": "pass", "result": "Homepage carries a rich OnlineStore entity: name, url, logo, description, 5× sameAs (IG/YouTube/FB/Pinterest/Twitter), PostalAddress (Faridabad HR), ContactPoint (phone/email/IN), and MerchantReturnPolicy. Strong machine-readable identity. GAP: no separate WebSite schema (and no SearchAction), and Instagram sameAs has a double-slash typo.", "next_action": "Add WebSite schema with a SearchAction (sitelinks searchbox); fix the Instagram sameAs URL; align schema name 'Offlimits' with the brand's canonical surface form.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#homepage_entity_schema" },
+    { "item_id": "breadcrumb-schema", "section_id": "coverage", "status": "pass", "result": "BreadcrumbList present on PDP, collection, and blog templates.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "content-type-schema", "section_id": "coverage", "status": "pass", "result": "Correct types per template: Product on PDP, FAQPage on collection and blog, Article on blog. This is above-average coverage for a Shopify store.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "schema-valid", "section_id": "validity", "status": "pass", "result": "All JSON-LD parsed without syntax errors across 4 templates. Product includes required offer props (price, priceCurrency INR, availability InStock, sku, mpn, itemCondition, priceValidUntil, shippingDetails, hasMerchantReturnPolicy) and brand/image. No blocking errors detected.", "next_action": "Confirm with Google Rich Results Test post-fix; note Article author is a placeholder ('SEO .') though schematically valid.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates.product" },
+    { "item_id": "rich-result-eligible", "section_id": "validity", "status": "fail", "result": "Product schema omits aggregateRating/review, so PDPs are NOT eligible for review-star rich results — the highest-CTR ecommerce enhancement — despite otherwise complete Product markup across ~1,516 products. FAQ, Breadcrumb, and Article are eligible; product review stars and sitelinks-searchbox are the missing wins.", "next_action": "Add aggregateRating + Review to Product schema (wire from a reviews app); add WebSite SearchAction for sitelinks searchbox.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates.product" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": null,
+  "counts": { "items": 6, "pass": 0, "fail": 0, "not_applicable": 6 },
+  "status_note": "BLOCKED — no field (CrUX) or lab (PageSpeed/Lighthouse) performance source is connected. Every item is not_applicable pending those providers; the audit is not scored and is excluded from overall_score. Do NOT read this as passing.",
+  "rows": [
+    { "item_id": "lcp", "section_id": "loading", "status": "not_applicable", "result": "Blocked: LCP requires field (CrUX) or lab (PageSpeed/Lighthouse) data; neither is connected.", "next_action": "Connect PageSpeed Insights/CrUX via Composio and measure LCP (75th pct field).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" },
+    { "item_id": "ttfb", "section_id": "loading", "status": "not_applicable", "result": "Blocked: TTFB requires lab performance data; PageSpeed/Lighthouse not connected.", "next_action": "Run PageSpeed/Lighthouse to capture TTFB (target <=0.8s).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" },
+    { "item_id": "inp", "section_id": "interactivity", "status": "not_applicable", "result": "Blocked: INP requires field (CrUX) data; not connected.", "next_action": "Pull CrUX INP (75th pct, target <=200ms).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" },
+    { "item_id": "render-blocking", "section_id": "interactivity", "status": "not_applicable", "result": "Blocked: render-blocking analysis requires lab data (Lighthouse); not connected.", "next_action": "Run Lighthouse to identify render-blocking JS/CSS (Shopify theme + third-party apps: GoKwik, LimeChat, Judge.me, Shiprocket).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" },
+    { "item_id": "cls", "section_id": "stability", "status": "not_applicable", "result": "Blocked: CLS requires field (CrUX) data; not connected.", "next_action": "Pull CrUX CLS (target <=0.1); watch banner/review widgets for shift.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" },
+    { "item_id": "image-optimization", "section_id": "stability", "status": "not_applicable", "result": "Blocked for a scored verdict (needs lab confirmation). Crawl observation: hero banners are large PNGs (width up to 3840) via Shopify CDN; next-gen format and lazy-load not confirmed, though Shopify CDN does serve responsive width params.", "next_action": "Confirm with Lighthouse; serve hero/banners as WebP/AVIF and lazy-load below-the-fold imagery.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#cwv" }
+  ]
+}

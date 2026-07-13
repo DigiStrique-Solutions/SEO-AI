@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Per-site. 1 item (ai-mentions) requires manual multi-engine prompt testing — not run — marked not_checked_blocked and excluded from the score denominator. Score reflects 5 verifiable items.",
+  "score": 0.82,
+  "partial": true,
+  "counts": { "items": 6, "pass": 4, "fail": 1, "not_applicable": 0, "not_checked_blocked": 1 },
+  "rows": [
+    { "item_id": "direct-answers", "section_id": "answerability", "status": "pass", "result": "Collections and blogs lead with intro copy and FAQ blocks that answer buyer questions directly and are extractable near the top of the page.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "structured-answers", "section_id": "answerability", "status": "pass", "result": "FAQPage schema on both collection and blog templates; scannable lists/steps in guides. Genuinely AI-friendly, quotable structure — a standout.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "entity-clarity", "section_id": "entity-authority", "status": "pass", "result": "Entity is well-defined in schema (name, logo, sameAs×5, address, contactPoint). GAP: the brand's surface name is inconsistent — 'Offlimits' (schema), 'OFF LIMITS' (title/og), 'Off Limits' (collection titles) — which can weaken entity resolution by AI engines.", "next_action": "Standardize one canonical brand spelling across title tags, og:site_name, schema name, and social profiles.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#homepage_entity_schema" },
+    { "item_id": "citations-sources", "section_id": "entity-authority", "status": "fail", "result": "Blog content is promotional and cites no credible outbound/authoritative sources (sampled blog: 8 internal links, 0 external citations) and uses a placeholder author ('SEO .'). Weak authority/citation signals for AI answer engines. Third-party citation footprint not yet measured.", "next_action": "Add credible outbound citations (materials, sizing, sports-science) and real author expertise; pursue third-party mentions/PR to earn citations.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates.blog" },
+    { "item_id": "ai-crawler-access", "section_id": "ai-visibility", "status": "pass", "result": "AI crawlers are not blocked in robots.txt, and an llms.txt IS present — plus a dedicated sitemap_agentic_discovery.xml and declared UCP/MCP agentic-commerce endpoints. Well ahead of typical D2C on AI-crawler readiness.", "next_action": "Keep llms.txt accurate as the catalog/pages evolve.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" },
+    { "item_id": "ai-mentions", "section_id": "ai-visibility", "status": "not_checked_blocked", "result": "Whether OFFLIMITS is cited/mentioned by ChatGPT, Perplexity, or Google AI Overviews for priority queries was not tested this run.", "next_action": "Run a manual AI-visibility prompt set (e.g. 'best running shoes under ₹X in India', 'plus-size men's shoes India') across engines and log mentions.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#evidence_gaps" }
+  ]
+}

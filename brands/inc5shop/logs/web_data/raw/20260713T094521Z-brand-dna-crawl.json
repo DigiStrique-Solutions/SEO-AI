@@ -1,0 +1,45 @@
+{
+  "run_id": "inc5shop-phase1-20260713",
+  "provider": "firecrawl",
+  "action": "crawl",
+  "fetched_at": "2026-07-13T09:45:21Z",
+  "pages": [
+    {
+      "url": "https://inc5shop.com/",
+      "status": 200,
+      "og_title": "Exclusive Fashion Footwear Online - Inc 5 Shoes",
+      "og_description": "Inc.5 Shoes is an exclusive fashion footwear brand. From classy boots for men to trendy heels for the ladies. Get your favourites delivered right to your doorstep. Women Western Wear. Ethnic Wear. Men Footwear. Men Casual Wear.",
+      "site_name": "INC.5 SHOES PVT LTD",
+      "favicon": "https://inc5shop.com/cdn/shop/files/Screenshot_2023-07-12_at_1.22.28_PM.png?crop=center&height=32&v=1689148366&width=32",
+      "logo": "https://inc5shop.com/cdn/shop/files/Screenshot_2023-07-12_at_1.22.28_PM.png?v=1689148366&width=600",
+      "platform": "Shopify (shopify-digital-wallet meta, /cdn/shop/ assets, shop_id 56488263854)",
+      "observations": [
+        "Nav taxonomy: NEW ARRIVALS, WOMEN (Heels, Transparent Heels, Sandals, Mules, Flats, Ethnic, Boots, Wedges, Platform, Pumps, Comfort, Mum & Daughter), MEN (Driving Shoes, Formal Shoes, Sandals, Slip-Ons, Boots, Large Size), HANDBAGS (Sling, Clutch, Shoulder, Wallets, Backpacks), CLEARANCE, BESTSELLERS",
+        "Currency INR (₹). India market.",
+        "Loyalty program: Club5 (1pt = 1Rs), points check by mobile number.",
+        "Sub-brands / labels observed: INC.5, Inc.6 (inc-6 collection), Privo (men's sandals), Barbie collaboration collection",
+        "Reviews via Judge.me: 'from 1758 reviews', heavy 'comfortable / true to size' language",
+        "Promo: 'Hot Stepper Sale is Live - Flat 50% Off', End of Season Sale (EOSS)",
+        "Support: WhatsApp (+91 9152646417), email customercare@inc5shoes.com, LimeChat, Shiprocket Engage",
+        "Order tracking via ClickPost (inc5shop.clickpost.in), returns via ClickPost, checkout via GoKwik",
+        "GST notice re: Gazette Notification No. 09/2025-Central Tax (Rate) dated 17 Sep 2025",
+        "Blog exists at /blogs/blog",
+        "Social: Facebook (inc5shoesofficial), Instagram (inc5official), Pinterest (inc5shoes), YouTube (@Inc.5ShoesOfficial), LinkedIn (inc.5-shoes-private-limited)",
+        "google-site-verification meta present (5 tokens) -> Search Console verified"
+      ]
+    },
+    {
+      "url": "https://inc5shop.com/pages/about-us",
+      "status": 200,
+      "og_title": "About INC5 - Leading Women's Fashion Footwear Brand India",
+      "content": "Established in 1998, Inc.5 is a legacy footwear brand that began its journey with a humble 100 sq. ft. store at Mumbai's iconic Heera Panna. Over the years, we have grown into a trusted name in fashion-forward footwear and bags, now present across 50+ cities, 20+ states, and 90+ stores nationwide. With a strong online and offline presence, Inc.5 continues to blend comfort, craftsmanship, and contemporary design. Alongside its exclusive stores, we are also available at leading retail destinations like Lifestyle, Centro, and Shoppers Stop, making premium footwear and bags accessible across India."
+    },
+    {
+      "url": "https://inc5shop.com/pages/contactus",
+      "status": 200,
+      "content": "EMAIL: customercare@inc5shoes.com. CALL or WHATSAPP: +91 9152646417."
+    }
+  ],
+  "collections_discovered": 150,
+  "notes": "Map returned 150+ collection URLs (many operational/dated dark collections). Legacy retail domain inc5shoes.co.in referenced in policy pages."
+}

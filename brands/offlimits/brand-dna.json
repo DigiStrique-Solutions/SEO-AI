@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "status": "partial — seeded from audit crawl 2026-07-13; not a full brand-setup run",
+  "name": "OFFLIMITS",
+  "name_variants_observed": ["OFF LIMITS", "Offlimits", "Off Limits"],
+  "website": "https://offlimits.co.in",
+  "platform": "Shopify",
+  "market": "India",
+  "category": "D2C footwear & athleisure apparel",
+  "product_lines_observed": ["running shoes", "gym/training shoes", "basketball shoes", "sneakers/lifestyle", "sandals/sliders", "boots", "big & tall / plus-size shoes", "tracksuits", "joggers/track pants", "hoodies/jackets", "sweatshirts", "graphic tees", "polos", "shorts", "Stussy (reseller line)"],
+  "audience_observed": "men & women; sport/athleisure buyers; explicit plus-size/big-and-tall segment (sizes 12–14)",
+  "positioning_observed": "performance x fashion; comfort tech (memory foam) messaging",
+  "contact": {
+    "phone": "9599297556",
+    "email": "support@offlimits.co.in",
+    "address": "Plot no 18, Sector 27C, Near NHPC Chowk, Faridabad, Haryana 121003, IN"
+  },
+  "social_profiles": {
+    "instagram": "https://www.instagram.com/offlimits_tribe/",
+    "youtube": "https://www.youtube.com/@offlimits4426",
+    "facebook": "https://www.facebook.com/offlimitsstore/",
+    "pinterest": "https://in.pinterest.com/offlimits0159/",
+    "twitter": "https://twitter.com/OfflimitsT"
+  },
+  "policies_observed": { "returns": "7-day exchange; return fee INR 100", "shipping": "free shipping messaging on PDPs" },
+  "open_questions": [
+    "Canonical brand spelling to standardize on (OFF LIMITS vs Offlimits vs Off Limits)?",
+    "Founding story / USP claims — needs a real source, not inferred from marketing copy.",
+    "Priority keyword targets & business goals (unverified — Keyword Planner platform-id unset, no GSC).",
+    "Analytics stack — GoKwik present but broken; is GA4/other configured?",
+    "Competitor set (not researched this run)."
+  ],
+  "provenance": "Facts extracted from rendered homepage schema + templates on 2026-07-13; see logs/. No facts invented — unknowns are in open_questions."
+}

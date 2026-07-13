@@ -1,0 +1,11 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+ai content creation,commercial,product,https://www.strique.io/product,18100,65,high,existing; keyword_planner,,,,new
+ai marketing platform,commercial,homepage,https://www.strique.io,8100,78,high,existing; keyword_planner,12,940,14.3,active
+agentic ai marketing,commercial,product,https://www.strique.io/product,1300,60,high,keyword_planner,,,,new
+marketing automation software,commercial,product,https://www.strique.io/product,22200,82,medium,keyword_planner,,,,new
+ai seo tool,commercial,solutions,https://www.strique.io/solutions,4400,58,high,existing; keyword_planner,3,210,22.1,active
+closed loop marketing measurement,informational,blog,https://www.strique.io/blog,320,30,medium,keyword_planner,,,,new
+best adroll alternative,commercial,comparison,https://www.strique.io/compare/adroll,590,35,high,keyword_planner,,,,new
+jasper alternative,commercial,comparison,https://www.strique.io/compare/jasper,2900,55,high,keyword_planner,,,,new
+marketing os,informational,homepage,https://www.strique.io,880,40,medium,keyword_planner,,,,new
+roas optimization software,commercial,solutions,https://www.strique.io/solutions,1000,62,medium,keyword_planner,,,,new

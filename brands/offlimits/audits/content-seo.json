@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Sampled collection (men-running-shoes) and blog (styling-sneakers) plus PDP. Keyword-demand data blocked (Keyword Planner platform-id unset; no GSC) — intent judged from on-page evidence, exact volumes unverified.",
+  "score": 0.86,
+  "counts": { "items": 7, "pass": 6, "fail": 1, "not_applicable": 0, "not_checked_blocked": 0 },
+  "rows": [
+    { "item_id": "page-purpose", "section_id": "purpose-intent", "status": "pass", "result": "Each template has a single dominant intent: PDP = transact, collection = browse/buy, blog = educate. No mixed-purpose pages observed.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "intent-match", "section_id": "purpose-intent", "status": "pass", "result": "Format matches intent: collection pairs a product grid with intro copy + FAQ (commercial intent); blog is a how-to guide (informational). Titles/H1s align to obvious target queries ('men's running shoes', 'how to style sneakers').", "next_action": "Confirm exact demand once Keyword Planner (platform-id) or GSC is connected; prioritize clusters accordingly.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "content-depth", "section_id": "depth-quality", "status": "pass", "result": "Sampled collection carries ~1,188 words (intro + FAQ), blog ~1,324 words, PDP ~829 words with a 1,591-char product description. No thin content on sampled pages.", "next_action": "Spot-check the long tail of ~68 blogs for thin/duplicative posts (several read as templated).", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "keyword-coverage", "section_id": "depth-quality", "status": "pass", "result": "Primary keyword appears in title, H1, and intro on collection and blog; secondary terms in body and FAQ. No obvious stuffing.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "freshness", "section_id": "depth-quality", "status": "pass", "result": "Sampled blog datePublished/dateModified 2025-11-03; catalog shows active 2025 content. No systemic staleness on sampled pages.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "author-eeat", "section_id": "eeat", "status": "fail", "result": "Blog Article schema lists author 'SEO .' — a placeholder, not a real named person. No author bios, credentials, or first-hand experience signals. This reads as machine-generated to both readers and E-E-A-T evaluation.", "next_action": "Replace with real named authors + short bios (e.g. an OFFLIMITS product/design lead); add author schema with a genuine Person and sameAs.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates.blog" },
+    { "item_id": "internal-links", "section_id": "eeat", "status": "pass", "result": "Sampled blog carries 8 contextual in-body links; collections deep-link to 86 products. Related internal content is reachable.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" }
+  ]
+}

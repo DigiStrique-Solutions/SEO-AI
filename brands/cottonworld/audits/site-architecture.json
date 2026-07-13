@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 1.0,
+  "counts": {
+    "items": 7,
+    "pass": 6,
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked_blocked": 1
+  },
+  "rows": [
+    {
+      "item_id": "robots-txt",
+      "section_id": "crawlability",
+      "status": "pass",
+      "result": "Valid Shopify robots.txt; disallows only cart/checkout/account/filter crawl-traps; no key template blocked; sitemap referenced.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "sitemap",
+      "section_id": "crawlability",
+      "status": "pass",
+      "result": "Valid real-time sitemap index -> products(892)/collections(157)/pages(101)/blogs(5)/agentic_discovery; lists canonical URLs; referenced in robots.txt. GSC submission status not verifiable (not connected).",
+      "next_action": "Confirm sitemap submission & coverage in Google Search Console.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "url-structure",
+      "section_id": "structure",
+      "status": "pass",
+      "result": "Clean, lowercase, hyphenated, stable. Minor: product slugs are SKU-heavy (l-pants-11273-20536-white) \u2014 readable but not keyword-led.",
+      "next_action": "Optional: include descriptive tokens in new product handles.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "internal-linking",
+      "section_id": "structure",
+      "status": "pass",
+      "result": "Key pages shallow (<=3 clicks); deep nav (134 links) + 401 home links; no orphans evident (all templates in sitemap).",
+      "next_action": "Verify orphan set with a full crawl once GSC is connected.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "redirects",
+      "section_id": "structure",
+      "status": "pass",
+      "result": "Single-hop 301s (http->https, www->non-www); no chains/loops observed.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "canonical-consistency",
+      "section_id": "indexation",
+      "status": "pass",
+      "result": "One canonical host/protocol (https non-www); self-referencing canonicals; no conflicting signals.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "indexation-coverage",
+      "section_id": "indexation",
+      "status": "not_checked_blocked",
+      "result": "Cannot verify indexed vs. submitted, or accidental noindex at scale, without Google Search Console (not connected).",
+      "next_action": "Connect GSC (via Composio) and review Pages/Coverage + URL Inspection for key templates.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "ai-seo-aeo-geo",
+  "title": "AI SEO / AEO / GEO",
+  "description": "How well the brand is understood and cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews): answer-ability, entity clarity, and AI visibility.",
+  "applies_to": "per_site",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "answerability",
+      "title": "Answer-ability",
+      "items": [
+        { "item_id": "direct-answers", "check": "Content answers key questions directly and concisely.", "pass_criteria": "Clear, extractable answers near the top of the page.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "structured-answers", "check": "Content uses AI-friendly structures (FAQs, definitions, lists, tables).", "pass_criteria": "Scannable, quotable blocks present.", "severity": "medium", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "entity-authority",
+      "title": "Entity & Authority",
+      "items": [
+        { "item_id": "entity-clarity", "check": "The brand entity is clearly and consistently defined.", "pass_criteria": "Consistent name, description, and sameAs across web + schema.", "severity": "high", "required_evidence": ["public_crawl", "rendered_browser"] },
+        { "item_id": "citations-sources", "check": "Content cites credible sources and earns citations.", "pass_criteria": "Outbound sources present; brand cited by third parties.", "severity": "medium", "required_evidence": ["public_crawl", "manual"] }
+      ]
+    },
+    {
+      "section_id": "ai-visibility",
+      "title": "AI Visibility",
+      "items": [
+        { "item_id": "ai-crawler-access", "check": "AI crawlers are allowed and an llms.txt exists.", "pass_criteria": "AI user-agents not blocked; llms.txt present and accurate.", "severity": "low", "required_evidence": ["public_crawl"] },
+        { "item_id": "ai-mentions", "check": "Brand appears in AI answers for target queries.", "pass_criteria": "Cited/mentioned by AI engines for priority prompts.", "severity": "medium", "required_evidence": ["manual"] }
+      ]
+    }
+  ]
+}

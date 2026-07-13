@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "run_date": "2026-07-13",
+  "target_url": "https://inc5shop.com",
+  "overall_score": 0.75,
+  "overall_score_note": "Average of the 5 scored audits. core-web-vitals is BLOCKED (all items not_applicable, no CrUX/PageSpeed/Lighthouse) and is excluded from the average — not counted as a pass.",
+  "totals": { "items": 38, "pass": 24, "fail": 7, "not_applicable": 7 },
+  "audits": [
+    { "audit_id": "content-seo", "title": "Content SEO", "score": 0.86, "items": 7, "pass": 6, "fail": 1, "not_applicable": 0, "file": "content-seo.json" },
+    { "audit_id": "site-architecture", "title": "Site Architecture & Technical SEO", "score": 0.82, "items": 7, "pass": 6, "fail": 1, "not_applicable": 0, "file": "site-architecture.json" },
+    { "audit_id": "ai-seo-aeo-geo", "title": "AI SEO / AEO / GEO", "score": 0.73, "items": 6, "pass": 4, "fail": 1, "not_applicable": 1, "file": "ai-seo-aeo-geo.json" },
+    { "audit_id": "generic-on-page", "title": "Generic On-Page SEO", "score": 0.71, "items": 7, "pass": 5, "fail": 2, "not_applicable": 0, "file": "generic-on-page.json" },
+    { "audit_id": "structured-data", "title": "Structured Data & Schema", "score": 0.64, "items": 5, "pass": 3, "fail": 2, "not_applicable": 0, "file": "structured-data.json" },
+    { "audit_id": "core-web-vitals", "title": "Core Web Vitals & Performance", "score": null, "items": 6, "pass": 0, "fail": 0, "not_applicable": 6, "file": "core-web-vitals.json" }
+  ],
+  "top_fixes": [
+    { "audit_id": "structured-data", "item_id": "org-website-schema", "severity": "high", "action": "Add Organization + WebSite JSON-LD (name, url, logo, sameAs to socials, SearchAction) to the homepage/theme." },
+    { "audit_id": "ai-seo-aeo-geo", "item_id": "entity-clarity", "severity": "high", "action": "Define the brand entity for AI: Organization schema + consistent 'Inc.5' naming to disambiguate from '5 inch' / 'inch 5' confusion." },
+    { "audit_id": "site-architecture", "item_id": "indexation-coverage", "severity": "high", "action": "Noindex/unpublish 100+ dated 'dark' collections; scope the sitemap to canonical shoppable collections to cut index bloat." },
+    { "audit_id": "generic-on-page", "item_id": "single-h1", "severity": "high", "action": "Fix multiple H1s on the homepage (nav category labels marked as <h1>); keep one descriptive H1." },
+    { "audit_id": "core-web-vitals", "item_id": "lcp", "severity": "high", "action": "Connect PageSpeed/CrUX to measure LCP/INP/CLS — Core Web Vitals are currently unmeasured (blocked)." },
+    { "audit_id": "generic-on-page", "item_id": "image-alt", "severity": "medium", "action": "Add alt text to homepage banner images (8/11 missing) and flagged collection images." },
+    { "audit_id": "content-seo", "item_id": "author-eeat", "severity": "medium", "action": "Add author bylines/bios to blog posts to strengthen topical E-E-A-T." },
+    { "audit_id": "structured-data", "item_id": "breadcrumb-schema", "severity": "low", "action": "Add BreadcrumbList schema to collection and product templates." },
+    { "audit_id": "core-web-vitals", "item_id": "image-optimization", "severity": "low", "action": "Serve hero banners as WebP/AVIF and lazy-load below-the-fold imagery." }
+  ]
+}

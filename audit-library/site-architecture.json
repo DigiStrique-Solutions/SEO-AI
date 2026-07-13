@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "site-architecture",
+  "title": "Site Architecture & Technical SEO",
+  "description": "Whether search engines can crawl, understand, and index the site: robots, sitemap, URL structure, internal linking, redirects, and indexation.",
+  "applies_to": "per_site",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "crawlability",
+      "title": "Crawlability",
+      "items": [
+        { "item_id": "robots-txt", "check": "robots.txt is valid and does not block important pages.", "pass_criteria": "Present, parseable, no disallow on key templates.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "sitemap", "check": "XML sitemap exists, is current, and is submitted.", "pass_criteria": "Reachable, valid, lists canonical URLs, referenced in robots.txt.", "severity": "high", "required_evidence": ["public_crawl", "search_console"] }
+      ]
+    },
+    {
+      "section_id": "structure",
+      "title": "Structure",
+      "items": [
+        { "item_id": "url-structure", "check": "URLs are clean, readable, and consistent.", "pass_criteria": "Lowercase, hyphenated, no needless params, stable pattern.", "severity": "low", "required_evidence": ["public_crawl"] },
+        { "item_id": "internal-linking", "check": "No orphan pages; important pages are shallow.", "pass_criteria": "Key pages reachable within 3 clicks; no orphans.", "severity": "medium", "required_evidence": ["public_crawl"] },
+        { "item_id": "redirects", "check": "No redirect chains or loops.", "pass_criteria": "Single-hop 301s; no chains/loops; no broken links.", "severity": "medium", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "indexation",
+      "title": "Indexation",
+      "items": [
+        { "item_id": "canonical-consistency", "check": "Canonicalization is consistent site-wide.", "pass_criteria": "One canonical host/protocol; no conflicting signals.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "indexation-coverage", "check": "Important pages are indexed; nothing is accidentally noindexed.", "pass_criteria": "Key pages indexed; no unintended noindex/blocked.", "severity": "high", "required_evidence": ["search_console"] }
+      ]
+    }
+  ]
+}

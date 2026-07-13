@@ -1,0 +1,18 @@
+{
+  "run_id": "20260713T113000Z",
+  "seed_url": "https://offlimits.co.in",
+  "provider": "firecrawl_map + playwright + curl",
+  "collected": "2026-07-13",
+  "platform": "Shopify",
+  "url_inventory": {
+    "sitemap_totals": { "products": 1516, "collections": 122, "blogs": 68, "pages": 17 },
+    "map_discovered": "~150 URLs (collections, pages, blogs, 1 product surfaced)",
+    "notable_sections": {
+      "collections_examples": ["men", "women", "men-running-shoes", "men-gym-training", "men-basketball", "women-running-shoes", "men-sandals-sliders", "men-track-suits", "men-hoodies-jackets", "big-tall", "stussy", "clearance-sale"],
+      "pages": ["about-us", "contact", "technology", "store-gallery", "return-exchange", "shipping-policy", "privacy-policy", "terms-conditions", "sitemap"],
+      "blog_handle": "/blogs/blogs/{slug} (doubled path from blog handle 'blogs')"
+    }
+  },
+  "templates_rendered": ["homepage", "product:strata-01-dark-beige-navy-orm-903-03", "collection:men-running-shoes", "blog:the-ultimate-guide-to-styling-sneakers-for-men-and-women"],
+  "note": "Full page-level measurements captured in logs/audits/raw/20260713T113500Z-site-checks.json. This record is the crawl/inventory provenance for the 2026-07-13 audit."
+}

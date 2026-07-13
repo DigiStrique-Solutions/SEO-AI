@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Per-site. 1 item (indexation-coverage) requires Search Console, which is not connected — marked not_checked_blocked and excluded from the score denominator. Score reflects 6 verifiable items.",
+  "score": 1.0,
+  "partial": true,
+  "counts": { "items": 7, "pass": 6, "fail": 0, "not_applicable": 0, "not_checked_blocked": 1 },
+  "rows": [
+    { "item_id": "robots-txt", "section_id": "crawlability", "status": "pass", "result": "Valid Shopify robots.txt. Blocks only checkout/cart/account/search and faceted sort/filter params — no key template (collections/products/blogs/pages) is disallowed. Nutch fully blocked; Ahrefs/MJ12 crawl-delayed. Sitemap declared.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical.robots_txt" },
+    { "item_id": "sitemap", "section_id": "crawlability", "status": "pass", "result": "XML sitemap index reachable and valid, referenced in robots.txt, 5 children (products 1,516 · collections 122 · blogs 68 · pages 17 · agentic-discovery). Lists canonical URLs. NOTE: GSC submission/coverage status could not be verified (not connected).", "next_action": "Verify sitemap submission + coverage in GSC once connected.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical.sitemap" },
+    { "item_id": "url-structure", "section_id": "structure", "status": "pass", "result": "Clean, lowercase, hyphenated, stable URLs (/collections/{slug}, /products/{slug}). Minor: blog path is doubled (/blogs/blogs/{slug}) from the blog handle 'blogs' — cosmetic, not harmful. Uppercase paths 404 rather than redirect (Shopify case-sensitivity).", "next_action": "Optional: rename the blog handle so the path reads /blogs/{slug} instead of /blogs/blogs/{slug} (weigh redirect cost vs. cosmetic gain).", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" },
+    { "item_id": "internal-linking", "section_id": "structure", "status": "pass", "result": "Homepage exposes 274 internal links; collections deep-link 86 products; global nav spans men/women × shoes/apparel. Key templates reachable within ~2–3 clicks. No orphans surfaced in the URL map.", "next_action": "Run a full-crawl orphan check once onboarded to confirm no isolated products/blogs (not fully verifiable from sampling).", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates" },
+    { "item_id": "redirects", "section_id": "structure", "status": "pass", "result": "http→https and www→non-www are each single-hop 301s to the canonical host. No chains or loops observed on sampled requests.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" },
+    { "item_id": "canonical-consistency", "section_id": "indexation", "status": "pass", "result": "One canonical host and protocol (https://offlimits.co.in, non-www); self-referencing canonicals; no conflicting host/protocol signals.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#technical" },
+    { "item_id": "indexation-coverage", "section_id": "indexation", "status": "not_checked_blocked", "result": "Requires Search Console. Not connected for this brand — indexed count, accidental noindex at scale, and 'Excluded' reasons cannot be verified. Sampled pages (home/PDP/collection/blog) all render indexable (robots meta 'max-image-preview:large', no noindex).", "next_action": "Connect GSC via Composio, then review Pages/Coverage report for excluded and non-indexed URLs.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#evidence_gaps" }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 0.09,
+  "counts": {
+    "items": 6,
+    "pass": 1,
+    "fail": 4,
+    "not_applicable": 0,
+    "not_checked_blocked": 1
+  },
+  "rows": [
+    {
+      "item_id": "direct-answers",
+      "section_id": "answerability",
+      "status": "fail",
+      "result": "Little extractable answer content: blog editorial is broken/placeholder, product pages lack concise Q&A, homepage has no FAQ. AI engines have little quotable substance.",
+      "next_action": "Add concise, front-loaded answers (fabric care, sizing, sustainability) and a real FAQ block.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "structured-answers",
+      "section_id": "answerability",
+      "status": "fail",
+      "result": "No FAQ, definition, comparison, or table structures for AI extraction.",
+      "next_action": "Add FAQPage-backed Q&A and comparison/size tables to key templates.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "entity-clarity",
+      "section_id": "entity-authority",
+      "status": "fail",
+      "result": "Brand name is consistent, but the entity graph is incomplete: no Organization.sameAs (social/Wikidata), no WebSite schema. Weakens disambiguation for AI engines.",
+      "next_action": "Add sameAs to social/official profiles and a complete Organization/WebSite entity block.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "citations-sources",
+      "section_id": "entity-authority",
+      "status": "fail",
+      "result": "Content cites no credible outbound sources; broken blog is not citation-worthy. Third-party citation footprint not manually assessed.",
+      "next_action": "Publish genuinely useful, sourced content (fabric/care/sustainability) to earn AI + third-party citations.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "ai-crawler-access",
+      "section_id": "ai-visibility",
+      "status": "pass",
+      "result": "AI crawlers not blocked in robots; llms.txt (200), agents.md (200), and .well-known/ucp (200) all present (Shopify-provided). Above baseline for AI access.",
+      "next_action": "Curate llms.txt/agents.md beyond Shopify defaults to spotlight hero collections.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "ai-mentions",
+      "section_id": "ai-visibility",
+      "status": "not_checked_blocked",
+      "result": "Whether the brand is surfaced/cited in ChatGPT/Perplexity/AI Overviews for target queries was not tested this run.",
+      "next_action": "Run priority-prompt checks across AI engines and log mention/citation share.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

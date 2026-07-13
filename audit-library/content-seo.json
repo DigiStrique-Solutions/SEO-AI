@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "content-seo",
+  "title": "Content SEO",
+  "description": "Whether a page's content earns the ranking: clear purpose, intent match, depth, keyword coverage, freshness, and E-E-A-T signals.",
+  "applies_to": "per_url",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "purpose-intent",
+      "title": "Purpose & Intent",
+      "items": [
+        { "item_id": "page-purpose", "check": "Page has one primary purpose (educate, compare, sell, support, onboard, retain).", "pass_criteria": "A single dominant intent is evident.", "severity": "high", "required_evidence": ["public_crawl"] },
+        { "item_id": "intent-match", "check": "Content matches the search intent of its target keyword.", "pass_criteria": "Format/angle matches SERP intent for the primary keyword.", "severity": "high", "required_evidence": ["public_crawl", "keyword_demand"] }
+      ]
+    },
+    {
+      "section_id": "depth-quality",
+      "title": "Depth & Quality",
+      "items": [
+        { "item_id": "content-depth", "check": "Page covers the topic comprehensively.", "pass_criteria": "Covers the subtopics competitors cover; no thin content.", "severity": "medium", "required_evidence": ["public_crawl"] },
+        { "item_id": "keyword-coverage", "check": "Primary and secondary keywords appear naturally.", "pass_criteria": "Primary in title/H1/intro; secondaries in body; no stuffing.", "severity": "medium", "required_evidence": ["public_crawl", "keyword_demand"] },
+        { "item_id": "freshness", "check": "Content is current and dated where relevant.", "pass_criteria": "Updated within an appropriate window for the topic.", "severity": "low", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "eeat",
+      "title": "E-E-A-T & Linking",
+      "items": [
+        { "item_id": "author-eeat", "check": "Experience/expertise signals are present.", "pass_criteria": "Author, credentials, first-hand evidence, or sources shown.", "severity": "medium", "required_evidence": ["public_crawl"] },
+        { "item_id": "internal-links", "check": "Page links to related internal content.", "pass_criteria": ">= 2 relevant contextual internal links.", "severity": "low", "required_evidence": ["public_crawl"] }
+      ]
+    }
+  ]
+}

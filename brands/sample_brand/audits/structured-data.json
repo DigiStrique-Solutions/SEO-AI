@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.91,
+  "counts": { "items": 5, "pass": 4, "fail": 1, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "org-website-schema", "section_id": "coverage", "status": "pass", "result": "Homepage has valid Organization + WebSite schema with name, url, logo, sameAs.", "next_action": "", "evidence_ref": "evidence/20260713/rendered.json#org_schema" },
+    { "item_id": "breadcrumb-schema", "section_id": "coverage", "status": "fail", "result": "No BreadcrumbList schema on blog or product templates.", "next_action": "Add BreadcrumbList schema to blog and product pages.", "evidence_ref": "evidence/20260713/rendered.json#breadcrumb" },
+    { "item_id": "content-type-schema", "section_id": "coverage", "status": "pass", "result": "Blog posts emit BlogPosting schema with required properties.", "next_action": "", "evidence_ref": "evidence/20260713/rendered.json#content_type" },
+    { "item_id": "schema-valid", "section_id": "validity", "status": "pass", "result": "No structured-data errors; 2 non-blocking warnings.", "next_action": "", "evidence_ref": "evidence/20260713/rendered.json#validation" },
+    { "item_id": "rich-result-eligible", "section_id": "validity", "status": "pass", "result": "Article markup meets Google's required properties for rich results.", "next_action": "", "evidence_ref": "evidence/20260713/gsc.json#rich_results" }
+  ]
+}

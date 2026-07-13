@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "updated_at": "2026-07-13",
+  "clusters": [
+    {
+      "cluster_id": "womens-heels",
+      "name": "Women's Heels",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-heels",
+      "pillar": true,
+      "keywords": ["heels for women", "heels", "women heels", "high heels for women", "block heels for women", "comfortable heels for women", "beige heels for women"],
+      "notes": "Highest-demand head cluster (~495k impr on 'heels for women'). Page ranks pos ~7-9 -> big upside from pushing to top 3. Pillar collection for women's footwear."
+    },
+    {
+      "cluster_id": "platform-transparent-heels",
+      "name": "Platform & Transparent Heels",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/platform-heels",
+      "pillar": false,
+      "keywords": ["platform heels for women", "platform heels", "transparent heels", "transparent heels for women", "platform sandals for women"],
+      "notes": "Already strong (pos 3.8-5.6). Transparent-heel keywords have their own page (transparent-heel-for-women); maintain and expand. Trend/party sub-cluster."
+    },
+    {
+      "cluster_id": "womens-sandals",
+      "name": "Women's Sandals",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-sandals",
+      "pillar": true,
+      "keywords": ["sandals for women", "women sandals", "ladies sandal", "flat sandals for women", "heels sandals for women", "sandals for women office wear", "sandals for women party wear", "sandals for women daily wear"],
+      "notes": "Top revenue cluster (2011 clicks, 421k impr on head term). Occasion modifiers (office/party/daily wear) are winnable long-tails at lower difficulty."
+    },
+    {
+      "cluster_id": "womens-flats",
+      "name": "Women's Flats",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-flats",
+      "pillar": true,
+      "keywords": ["flats for women", "women flats", "flat slippers for women", "casual flats for women", "open toe flats for women", "black flats for women"],
+      "notes": "253k impr head term at pos 5.45. Comfort + casual sub-intent; pair with 'comfortable footwear' messaging."
+    },
+    {
+      "cluster_id": "womens-wedges",
+      "name": "Women's Wedges",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-wedges",
+      "pillar": false,
+      "keywords": ["wedges for women", "wedges", "wedge heels for women", "wedges sandals for women", "wedges for women daily wear"],
+      "notes": "Strong performer (pos 5.27). 'daily wear' variant already ranks pos 3.8 - protect it."
+    },
+    {
+      "cluster_id": "womens-mules",
+      "name": "Women's Mules",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-mules",
+      "pillar": false,
+      "keywords": ["mules", "mules women", "mules shoes"],
+      "notes": "41k impr on 'mules' but page ranks pos 6-9.5 -> on-page + internal-link upside."
+    },
+    {
+      "cluster_id": "womens-boots",
+      "name": "Women's Boots",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/womens-boots",
+      "pillar": false,
+      "keywords": ["boots for women", "women boots", "boots women"],
+      "notes": "180k impr head term but weak rank (pos 8.75) -> priority on-page fix. Seasonal (winter) demand."
+    },
+    {
+      "cluster_id": "womens-footwear-pumps-ethnic",
+      "name": "Women's Footwear / Pumps / Ethnic",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/women-footwear",
+      "pillar": true,
+      "keywords": ["footwear for women", "women footwear", "ladies footwear", "comfortable footwear for women", "office footwear for women", "pumps for women", "ethnic footwear for women"],
+      "notes": "Broad category hub (132k impr) plus pumps and ethnic sub-collections. Ethnic ties to Indian occasion calendar (festive/wedding)."
+    },
+    {
+      "cluster_id": "mens-footwear",
+      "name": "Men's Footwear",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/mens-sandals",
+      "pillar": true,
+      "keywords": ["sandals for men", "men sandals", "leather sandals for men", "formal shoes for men", "slip on sandals for men", "branded sandals for men"],
+      "notes": "Large latent demand (196k impr on 'sandals for men', only 128 clicks -> huge CTR/rank gap). Formal shoes and Privo leather sandals are secondary growth lines."
+    },
+    {
+      "cluster_id": "handbags-accessories",
+      "name": "Handbags & Accessories",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://inc5shop.com/collections/all-bags",
+      "pillar": false,
+      "keywords": ["shoulder bags for women", "handbags", "stylish sling bag for women"],
+      "notes": "'shoulder bags for women' has 79k impr but only 31 clicks (pos 7.75) - biggest CTR gap on site. Distinct pages for sling/shoulder/clutch."
+    }
+  ]
+}

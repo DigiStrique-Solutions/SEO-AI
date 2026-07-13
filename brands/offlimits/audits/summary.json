@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "run_date": "2026-07-13",
+  "target_url": "https://offlimits.co.in",
+  "platform": "Shopify",
+  "overall_score": 0.81,
+  "overall_score_basis": "weighted pass ratio over verifiable items only; 5 items blocked (field CWV ×3, GSC indexation ×1, AI-mentions ×1) are excluded from the denominator — see partial audits.",
+  "totals": { "items": 38, "pass": 26, "fail": 7, "not_applicable": 0, "not_checked_blocked": 5 },
+  "audits": [
+    { "audit_id": "site-architecture", "title": "Site Architecture & Technical SEO", "score": 1.0, "partial": true, "items": 7, "pass": 6, "fail": 0, "not_checked_blocked": 1, "file": "site-architecture.json" },
+    { "audit_id": "content-seo", "title": "Content SEO", "score": 0.86, "items": 7, "pass": 6, "fail": 1, "not_checked_blocked": 0, "file": "content-seo.json" },
+    { "audit_id": "structured-data", "title": "Structured Data & Schema", "score": 0.82, "items": 5, "pass": 4, "fail": 1, "not_checked_blocked": 0, "file": "structured-data.json" },
+    { "audit_id": "ai-seo-aeo-geo", "title": "AI SEO / AEO / GEO", "score": 0.82, "partial": true, "items": 6, "pass": 4, "fail": 1, "not_checked_blocked": 1, "file": "ai-seo-aeo-geo.json" },
+    { "audit_id": "generic-on-page", "title": "Generic On-Page SEO", "score": 0.71, "items": 7, "pass": 5, "fail": 2, "not_checked_blocked": 0, "file": "generic-on-page.json" },
+    { "audit_id": "core-web-vitals", "title": "Core Web Vitals & Performance", "score": 0.4, "partial": true, "items": 6, "pass": 1, "fail": 2, "not_checked_blocked": 3, "file": "core-web-vitals.json" }
+  ],
+  "top_fixes": [
+    { "audit_id": "core-web-vitals", "item_id": "render-blocking", "severity": "high", "action": "Trim the app/JS bloat: 332 resources, 181 script requests, 40 stylesheets on the homepage. Audit Shopify apps, defer/async non-critical JS, consolidate + inline critical CSS." },
+    { "audit_id": "generic-on-page", "item_id": "title-present", "severity": "high", "action": "Rewrite the product title-tag pattern across ~1,516 PDPs to '{Product} – {Type} for {Men/Women} | Off Limits' (current PDP titles are ~27 chars, keyword-less)." },
+    { "audit_id": "generic-on-page", "item_id": "image-alt", "severity": "medium", "action": "Fix systemic missing alt text (~50% of storefront images) — map product-image alt to '{Product} {color} – {type}'." },
+    { "audit_id": "structured-data", "item_id": "rich-result-eligible", "severity": "medium", "action": "Add aggregateRating/Review to Product schema for review-star rich results; add WebSite SearchAction for sitelinks searchbox." },
+    { "audit_id": "content-seo", "item_id": "author-eeat", "severity": "medium", "action": "Replace placeholder blog author 'SEO .' with real named authors + bios and genuine expertise signals." },
+    { "audit_id": "ai-seo-aeo-geo", "item_id": "citations-sources", "severity": "medium", "action": "Add credible outbound citations to blogs and pursue third-party mentions to earn AI-engine citations." },
+    { "audit_id": "core-web-vitals", "item_id": "image-optimization", "severity": "low", "action": "Lazy-load below-the-fold images (only 2/113 lazy on homepage); confirm WebP/AVIF + responsive srcset." },
+    { "audit_id": "ai-seo-aeo-geo", "item_id": "entity-clarity", "severity": "low", "action": "Standardize one brand spelling ('OFF LIMITS' vs 'Offlimits' vs 'Off Limits') across titles, og:site_name, schema, and socials." }
+  ],
+  "blocked_items": [
+    { "audit_id": "core-web-vitals", "items": ["lcp", "inp", "cls"], "reason": "no CrUX/PSI API key (PageSpeed 429), no GSC — field metrics unavailable", "unblock": "add PageSpeed/CrUX key or connect GSC via Composio" },
+    { "audit_id": "site-architecture", "items": ["indexation-coverage"], "reason": "GSC not connected for this brand", "unblock": "connect Search Console via Composio" },
+    { "audit_id": "ai-seo-aeo-geo", "items": ["ai-mentions"], "reason": "manual multi-engine prompt testing not run", "unblock": "run AI-visibility prompt set across ChatGPT/Perplexity/AI Overviews" }
+  ],
+  "data_quality_notes": [
+    "Broken analytics: analytics.gokwik.co fails DNS (ERR_NAME_NOT_RESOLVED) — tracking may be dropping data.",
+    "Theme JS null-reference errors on blog template + Snapmint popup error — non-blocking but sloppy."
+  ]
+}

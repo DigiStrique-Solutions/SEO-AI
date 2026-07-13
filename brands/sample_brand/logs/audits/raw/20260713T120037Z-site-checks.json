@@ -1,0 +1,22 @@
+{
+  "run_id": "20260713T120037Z",
+  "generated_at": "2026-07-13T12:00:37Z",
+  "target_url": "https://www.strique.io",
+  "provider": "audit_engine",
+  "definitions_ref": "audit-library/",
+  "evidence_inputs": [
+    "logs/web_data/raw/20260713T115803Z-site-crawl.json",
+    "logs/keywords/raw/20260713T083244Z-gsc-queries.json"
+  ],
+  "checks": [
+    { "check": "single_h1", "passed": 10, "failed": 2, "example": "H1 count is 2 on / and /product" },
+    { "check": "image_alt_text", "passed": 110, "failed": 16, "example": "16 of 126 images missing alt" },
+    { "check": "title_present", "passed": 12, "failed": 0 },
+    { "check": "meta_description_present", "passed": 11, "failed": 1 },
+    { "check": "canonical_present", "passed": 12, "failed": 0 },
+    { "check": "lcp_threshold", "passed": 0, "failed": 1, "example": "LCP 3.1s > 2.5s" },
+    { "check": "orphan_pages", "passed": 9, "failed": 3, "example": "3 blog posts orphaned" }
+  ],
+  "totals": { "checks": 38, "pass": 27, "fail": 10, "not_applicable": 1 },
+  "notes": "Raw check output that the per-audit findings files were compiled from. Immutable snapshot."
+}

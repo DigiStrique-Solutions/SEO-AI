@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 0.64,
+  "counts": {
+    "items": 5,
+    "pass": 3,
+    "fail": 2,
+    "not_applicable": 0,
+    "not_checked_blocked": 0
+  },
+  "rows": [
+    {
+      "item_id": "org-website-schema",
+      "section_id": "coverage",
+      "status": "fail",
+      "result": "Homepage Organization schema present (name/logo/url) but NO WebSite schema and NO sameAs (no social profiles). Rendered-DOM confirmed.",
+      "next_action": "Add WebSite schema (with potentialAction SearchAction) and Organization.sameAs linking official social/profile URLs.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "breadcrumb-schema",
+      "section_id": "coverage",
+      "status": "fail",
+      "result": "No BreadcrumbList on PDP or PLP templates (PDP=Organization+ProductGroup, PLP=Organization only).",
+      "next_action": "Emit BreadcrumbList on product and collection templates.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "content-type-schema",
+      "section_id": "coverage",
+      "status": "pass",
+      "result": "Correct core types: PDP=ProductGroup (variants w/ Offer price INR + availability + brand), Blog=Article. Gap: collections carry no CollectionPage/ItemList.",
+      "next_action": "Add ItemList/CollectionPage to collection template.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "schema-valid",
+      "section_id": "validity",
+      "status": "pass",
+      "result": "Organization, ProductGroup, and Article JSON-LD all parse without errors in the rendered DOM. (Note: the Article's data is valid but its description text is wrong \u2014 a content bug, not a schema error.)",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "rich-result-eligible",
+      "section_id": "validity",
+      "status": "pass",
+      "result": "ProductGroup meets product-result required props (offers/price/priceCurrency/availability/brand); Article eligible. Gap: no aggregateRating/review, so no star rich-results. Actual serving unconfirmed (no GSC).",
+      "next_action": "Add aggregateRating/review to products to unlock star rich results.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

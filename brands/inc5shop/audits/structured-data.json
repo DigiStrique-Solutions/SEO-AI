@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": 0.64,
+  "counts": { "items": 5, "pass": 3, "fail": 2, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "org-website-schema", "section_id": "coverage", "status": "fail", "result": "Homepage has NO Organization or WebSite JSON-LD (extraction found no ld+json blocks). Missing name/url/logo/sameAs and no WebSite SearchAction, so the brand entity and sitelinks search box are not machine-declared.", "next_action": "Add Organization (name, url, logo, sameAs to FB/IG/Pinterest/YouTube/LinkedIn) + WebSite (SearchAction) JSON-LD to the homepage/theme.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.homepage" },
+    { "item_id": "breadcrumb-schema", "section_id": "coverage", "status": "fail", "result": "Breadcrumb navigation renders on collection pages, but no BreadcrumbList JSON-LD is emitted on collection or product templates (product breadcrumbList=false; collection types = [CollectionPage] only).", "next_action": "Add BreadcrumbList schema to collection and product templates.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "content-type-schema", "section_id": "coverage", "status": "pass", "result": "Correct types per template: PDP emits Product with offers/price(INR)/availability/brand/aggregateRating/reviewCount; collection emits CollectionPage; blog uses Shopify BlogPosting. Types match template purpose.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.product_cream_flats" },
+    { "item_id": "schema-valid", "section_id": "validity", "status": "pass", "result": "Product schema carries the required properties (name, offers, price, availability, brand, aggregateRating) with no missing-field errors observed in extraction.", "next_action": "Confirm zero errors in Google Rich Results Test / Schema validator across PDP, collection, blog templates.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.product_cream_flats" },
+    { "item_id": "rich-result-eligible", "section_id": "validity", "status": "pass", "result": "PDP Product markup includes offers + aggregateRating, meeting the core requirements for product rich results / merchant listings eligibility.", "next_action": "Monitor rich-result coverage/enhancements in GSC; add BreadcrumbList (above) to unlock breadcrumb rich results.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.product_cream_flats" }
+  ]
+}

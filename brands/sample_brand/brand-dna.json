@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "updated_at": "2026-07-13",
+  "brand_name": "Strique",
+  "website_url": "https://www.strique.io",
+  "logo": {
+    "description": "Purple geometric cube icon paired with a black 'Strique' wordmark, shown in the site header. Favicon/icon asset is served at https://www.strique.io/icon.svg. A canonical logo asset for reuse beyond the header mark and favicon is not yet confirmed.",
+    "icon_url": "https://www.strique.io/icon.svg"
+  },
+  "business_description": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. It runs marketing work through a single agent loop: plan the work, ship it, measure outcomes, and feed learnings back into the next run. The product spans paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and interactive Canvas reports. It is positioned as a replacement for fragmented dashboards, agencies, point tools, and manual coordination.",
+  "business_model": "B2B SaaS. Usage-based pricing with tiered plans, a credit wallet model, connectors, custom agents, custom MCPs, and enterprise positioning.",
+  "brand_colors": {
+    "description": "Palette observed from the public site; exact brand hex values were not present in scraped content and should be confirmed from design files or CSS tokens.",
+    "primary_background": "Off-white and light gray",
+    "primary_text": "Near-black",
+    "secondary_text": "Medium gray",
+    "primary_cta": "Black pill button with white text",
+    "brand_accent": "Purple / violet (cube logo)",
+    "supporting_accents": "Small platform colors surfaced through third-party icons (G2, Shopify, Meta, Google, HubSpot)"
+  },
+  "brand_aesthetic": "Minimal, spacious, product-led SaaS aesthetic with a strong operator feel. Large centered headlines, restrained grayscale surfaces, rounded pill navigation, black CTAs, and small proof points rather than decorative illustration. Visual hierarchy is quiet and confident: lots of white space, sharp typography, evidence blocks, customer logos, case-study cards, integration icons, and pricing tables. The brand feels modern, technical, and growth-focused without looking like an enterprise dashboard.",
+  "brand_voice": {
+    "description": "Direct, confident, operator-centric, and plain-spoken. Uses short declarative claims, concrete numbers, and pragmatic comparisons. Comfortable being opinionated but explains the tradeoff instead of sounding fluffy. Avoids generic AI hype in favor of specific workflows, measurable results, and clear business stakes.",
+    "voice_patterns": [
+      "Outcome-first headlines",
+      "Short sentences with a strategic edge",
+      "Metrics over adjectives",
+      "Crisp contrasts between agents, dashboards, agencies, and point tools",
+      "Occasional conversational lines such as 'That was a mouthful' or 'No slide deck'"
+    ]
+  },
+  "brand_values": [
+    "Opinionated execution: make a call, ship a recommendation, and refine from feedback.",
+    "Measurable outcomes: emphasis on ROAS, CAC, revenue, conversion, spend, and compounding learning.",
+    "Closed-loop learning: built around reading back results and improving future work.",
+    "Human control for high-stakes actions: ad launches, bulk email, and public posts require explicit approval by default.",
+    "Team fit over tool sprawl: meets teams in existing channels such as Slack, WhatsApp, email, and web.",
+    "Traceability and trust: versioning, checkpoints, audit logs, org isolation, encryption, and approval gates.",
+    "Practical autonomy: pushes autonomy but frames it as supervised execution rather than reckless automation."
+  ],
+  "target_audience": {
+    "primary": [
+      "Ecommerce and DTC brands that need paid media, creative, lifecycle, content, SEO, reporting, and optimization in one loop.",
+      "Growth teams that want more output without adding agencies, vendors, or headcount linearly."
+    ],
+    "roles": [
+      "D2C founders",
+      "Marketing managers",
+      "CMOs and VPs of Marketing",
+      "Paid media specialists",
+      "Freelancers and agencies",
+      "Founders and solopreneurs doing marketing themselves"
+    ],
+    "secondary_verticals": [
+      "B2B SaaS",
+      "Agencies and consultancies",
+      "Local services and restaurants"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "AdRoll",
+      "what_it_does": "Retargeting and prospecting ad network that helps ecommerce brands run display, social, and email retargeting campaigns across the web.",
+      "website": "https://www.adroll.com",
+      "how_it_competes": "Competes on the paid-media slice only. Strique positions AdRoll as a narrow retargeting network, whereas Strique runs a broader growth-agent loop that plans, ships, and measures across paid, SEO, content, and lifecycle rather than just serving retargeting ads."
+    },
+    {
+      "name": "Jasper",
+      "what_it_does": "AI content-generation platform for marketing copy, blog posts, and campaign creative.",
+      "website": "https://www.jasper.ai",
+      "how_it_competes": "Competes on the content-generation slice only. Strique frames Jasper as a copy tool that stops at generation, while Strique closes the loop by executing campaigns and measuring outcomes, not just producing content."
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Agencies and freelancers",
+    "Point solutions for paid media, SEO/content, lifecycle, analytics, and creative production",
+    "Dashboards and reporting tools that require humans to coordinate the work"
+  ],
+  "primary_business_goal": "Replace fragmented marketing dashboards, agencies, and point tools by giving growth teams more measurable output from a single agentic loop, driving compounding improvement in ROAS, CAC, revenue, and conversion.",
+  "primary_conversion": "Book a demo / start a trial from the public site (demo, sales, and sign-up intent surfaced through black CTA buttons and the contact page).",
+  "site_type": "Product-led SaaS marketing website (positioning, product, solutions, customers, pricing, integrations, security, and trust pages).",
+  "measurement_and_connected_sources": [
+    "Product and behavioral analytics: PostHog.",
+    "Google Analytics 4 is NOT used for Strique measurement.",
+    "Google Search Console is connected through Composio and should be used for search performance, indexing, page/query evidence, and SEO validation.",
+    "Google Ads Keyword Planner is available through Composio for keyword demand research."
+  ],
+  "open_questions": [
+    "Confirm exact brand hex values and typography from design source files or CSS tokens.",
+    "Confirm the canonical logo asset for reuse beyond the public favicon and header mark.",
+    "Confirm whether ecommerce/DTC should remain the primary audience or whether the broader 'growth teams' positioning should lead.",
+    "Confirm the complete competitor set beyond AdRoll and Jasper.",
+    "Confirm which security and compliance claims are approved for sales and SEO copy."
+  ]
+}

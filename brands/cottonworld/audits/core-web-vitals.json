@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 0.5,
+  "counts": {
+    "items": 6,
+    "pass": 2,
+    "fail": 2,
+    "not_applicable": 0,
+    "not_checked_blocked": 2
+  },
+  "rows": [
+    {
+      "item_id": "lcp",
+      "section_id": "loading",
+      "status": "not_checked_blocked",
+      "result": "Field p75 LCP unavailable (PSI/CrUX keyless quota exhausted; GSC not connected). Lab LCP was fast (~460ms) but on warm-CDN desktop \u2014 NOT representative of mobile-India field.",
+      "next_action": "Pull field LCP from PSI (API key) or GSC Core Web Vitals report.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "ttfb",
+      "section_id": "loading",
+      "status": "pass",
+      "result": "Lab TTFB 81ms (<< 0.8s) \u2014 Cloudflare/Shopify edge is fast from BOM.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "inp",
+      "section_id": "interactivity",
+      "status": "not_checked_blocked",
+      "result": "Field INP requires real-user data; unavailable (no PSI/CrUX/GSC access).",
+      "next_action": "Pull field INP from CrUX/GSC once connected.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "render-blocking",
+      "section_id": "interactivity",
+      "status": "pass",
+      "result": "Minimal render-blocking in critical path (~20KB JS + 28KB CSS); Shopify defers most scripts.",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "cls",
+      "section_id": "stability",
+      "status": "fail",
+      "result": "Lab CLS 0.155 > 0.10 threshold \u2014 measurable layout instability (hero/banner/image reflow). Field p75 unconfirmed but lab already exceeds.",
+      "next_action": "Reserve explicit width/height (aspect-ratio) for hero, promo banners, and above-fold images to eliminate shift.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "image-optimization",
+      "section_id": "stability",
+      "status": "fail",
+      "result": "0 of 340 home images use WebP/AVIF; image payload ~4.7MB of 4.86MB total. Lazy-loading is used (218/340).",
+      "next_action": "Serve WebP/AVIF via Shopify image_url filters with responsive srcset; compress hero/product imagery.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

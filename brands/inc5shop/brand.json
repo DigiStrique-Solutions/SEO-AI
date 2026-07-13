@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "display_name": "Inc.5",
+  "status": "active",
+  "primary_domain": "inc5shop.com",
+  "domains": ["inc5shop.com", "inc5shoes.co.in"],
+  "locale": "en-IN",
+  "market": "India",
+  "created_at": "2026-07-13T09:45:21Z",
+  "updated_at": "2026-07-13T10:00:00Z",
+  "pointers": {
+    "brand_dna": "brand-dna.json",
+    "knowledge": "knowledge.md",
+    "context": "context.md",
+    "keywords": "keywords/",
+    "blogs": "blogs/summary.md",
+    "audits": "audits/summary.json",
+    "logs": "logs/",
+    "checklist": "tasks/brand-setup.checklist.json"
+  },
+  "counts": {
+    "audits": 6,
+    "blogs_tracked": 20,
+    "blogs_total": 89,
+    "keywords_universe": 54,
+    "keywords_prioritized": 16,
+    "keyword_clusters": 10
+  },
+  "audit_overall_score": 0.75,
+  "platform": "Shopify",
+  "open_blockers": [
+    "keyword_planner_unavailable (GOOGLE_ADS_PLATFORM_ID env var unset)",
+    "core_web_vitals_blocked (no CrUX/PageSpeed/Lighthouse connected)",
+    "ai_mentions_not_tested (manual AI-answer testing not run)"
+  ]
+}

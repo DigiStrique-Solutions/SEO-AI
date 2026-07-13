@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": 0.71,
+  "counts": { "items": 7, "pass": 5, "fail": 2, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "title-present", "section_id": "titles-meta", "status": "pass", "result": "All 3 representative templates have unique titles in range: homepage 'Exclusive Fashion Footwear Online - Inc 5 Shoes' (47), collection 'Womens Heels - Buy Stylish Heels for Women Online | Inc5' (56), PDP 'Buy Now Women Cream Open Toe Flats With Bows'. Shopify template-driven, unique per handle.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "meta-description", "section_id": "titles-meta", "status": "pass", "result": "Collection and PDP have unique, keyword-relevant meta descriptions. Homepage description present but ~200 chars (slightly over the 160 target).", "next_action": "Trim homepage meta description to <=160 chars.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "single-h1", "section_id": "headings", "status": "fail", "result": "Homepage renders 2+ <h1> tags ('NEW ARRIVALS', 'WOMEN' — mobile nav category labels marked as H1). Collection and PDP correctly have exactly one H1.", "next_action": "Change homepage nav category labels from <h1> to <span>/<button>; keep a single descriptive H1 on the homepage template.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined.homepage" },
+    { "item_id": "heading-order", "section_id": "headings", "status": "pass", "result": "Content templates (collection, PDP) follow a logical H1->H2->H3 order. Homepage order is disrupted by the nav-label H1 issue captured under single-h1.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "image-alt", "section_id": "media-links", "status": "fail", "result": "Alt coverage below the 95% threshold sitewide: homepage 8/11 content images missing alt (27% coverage), collection 17/146 missing (88%). PDP was clean (0 missing).", "next_action": "Add descriptive alt text to homepage hero/banner images and the flagged collection images (Shopify theme + product image alts).", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "canonical", "section_id": "media-links", "status": "pass", "result": "Collection and PDP declare self-referencing canonicals that resolve 200. Homepage canonical was not captured in extraction (Shopify default typically present).", "next_action": "Spot-verify the homepage canonical tag in rendered HTML / GSC URL Inspection.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#pages_examined" },
+    { "item_id": "status-200", "section_id": "media-links", "status": "pass", "result": "All examined URLs (homepage, collection, PDP, robots, sitemap, llms.txt) return HTTP 200; no soft-404s observed.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json" }
+  ]
+}

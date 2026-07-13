@@ -6884,6 +6884,13 @@ def command_write_content(args):
     return 0 if result["ok"] else 1
 
 
+def command_zerogpt_check(args):
+    # Delegates to the standalone tools/zerogpt.py (lazy import avoids a cycle).
+    from zerogpt import run as run_zerogpt_check
+
+    return run_zerogpt_check(args)
+
+
 def command_firecrawl_scrape(args):
     result = firecrawl_scrape(
         args.url,
@@ -7187,6 +7194,26 @@ def build_parser():
     )
     write_content_parser.add_argument("--output", help="Output write report JSON path")
     write_content_parser.set_defaults(func=command_write_content)
+
+    zerogpt_parser = subparsers.add_parser(
+        "zerogpt-check",
+        help="Check text with the ZeroGPT AI detector and record it as a detector note (weak signal).",
+    )
+    zerogpt_source = zerogpt_parser.add_mutually_exclusive_group(required=True)
+    zerogpt_source.add_argument("--content-file", help="File whose text to check")
+    zerogpt_source.add_argument("--text", help="Inline text to check")
+    zerogpt_parser.add_argument(
+        "--authenticity",
+        help="Authenticity log JSON to append the ZeroGPT detector note to (in place).",
+    )
+    zerogpt_parser.add_argument(
+        "--max-ai-detector-score",
+        type=float,
+        default=20.0,
+        help="AI percentage at or above which the check fails (default 20).",
+    )
+    zerogpt_parser.add_argument("--output", help="Output result JSON path")
+    zerogpt_parser.set_defaults(func=command_zerogpt_check)
 
     firecrawl_parser = subparsers.add_parser("firecrawl-scrape")
     firecrawl_parser.add_argument("--url", required=True)

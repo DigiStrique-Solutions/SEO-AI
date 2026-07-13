@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://offlimits.co.in",
+  "run_date": "2026-07-13",
+  "scope_note": "Field metrics (LCP/INP/CLS p75) BLOCKED — no CrUX/PSI API key (PageSpeed returned HTTP 429) and no GSC. Lab evidence only, from a single warm Playwright sample. Score reflects 3 verifiable lab items; 3 field items excluded from denominator.",
+  "score": 0.4,
+  "partial": true,
+  "counts": { "items": 6, "pass": 1, "fail": 2, "not_applicable": 0, "not_checked_blocked": 3 },
+  "rows": [
+    { "item_id": "lcp", "section_id": "loading", "status": "not_checked_blocked", "result": "Field LCP (p75) unavailable — no CrUX/PSI key; PageSpeed API 429. Lab FCP was fast (~584ms warm), but LCP under mobile/cold conditions is unknown and likely pressured by heavy JS (see render-blocking).", "next_action": "Add a PageSpeed/CrUX API key (or connect GSC) and pull field LCP for home/PDP/collection.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#performance_field" },
+    { "item_id": "ttfb", "section_id": "loading", "status": "pass", "result": "Server responds quickly: HTTP/2 with 103 Early Hints + preconnects; lab TTFB ~482ms (≤0.8s). Shopify-hosted, CDN-fronted.", "next_action": "", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#performance_lab" },
+    { "item_id": "inp", "section_id": "interactivity", "status": "not_checked_blocked", "result": "Field INP (p75) unavailable — requires CrUX/RUM. Heavy script load (181 script requests) is a risk factor but INP itself is unverified.", "next_action": "Pull field INP once CrUX/PSI or GSC is connected.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#performance_field" },
+    { "item_id": "render-blocking", "section_id": "interactivity", "status": "fail", "result": "Homepage loads 332 resources including 181 script requests and 40 stylesheets — a very heavy, app-laden critical path (Shopify apps + third parties: GoKwik, Snapmint, flash-speed, cdnjs, googleapis). This is the primary performance risk and likely depresses field LCP/INP.", "next_action": "Audit installed Shopify apps; remove/defer unused ones; async/defer non-critical JS; consolidate CSS; inline critical CSS.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#performance_lab" },
+    { "item_id": "cls", "section_id": "stability", "status": "not_checked_blocked", "result": "Field CLS (p75) unavailable — requires CrUX/RUM. Not measurable from a single lab snapshot reliably.", "next_action": "Pull field CLS once CrUX/PSI or GSC is connected; verify image/ad slots are dimensioned.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#performance_field" },
+    { "item_id": "image-optimization", "section_id": "stability", "status": "fail", "result": "Lazy-loading is barely used — only 2 of 113 homepage images use loading=lazy, so below-the-fold imagery is fetched eagerly. Images are Shopify-CDN served (WebP-capable via params) but not deferred.", "next_action": "Add loading=lazy to below-the-fold images; ensure responsive srcset/sizes; confirm WebP/AVIF delivery via Shopify CDN params.", "evidence_ref": "../logs/audits/raw/20260713T113500Z-site-checks.json#sampled_templates.homepage" }
+  ]
+}

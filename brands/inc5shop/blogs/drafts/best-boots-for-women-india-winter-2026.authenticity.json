@@ -1,0 +1,62 @@
+{
+  "claims": [
+    {
+      "claim_id": "best-boots-selection",
+      "claim_type": "best_top",
+      "criteria": "Selected only from styles actually stocked on inc5shop.com/collections/womens-boots; grouped by real style types (Chelsea, round/pointed-toe ankle, block-heel, wedge-heel); judged on occasion suitability, all-day comfort ('true to size' brand promise + review sentiment), and colour versatility.",
+      "source_ids": [
+        "boots-collection",
+        "brand-dna",
+        "reviews"
+      ],
+      "statement": "The 'best' boots recommended are a curated selection from Inc.5's own live women's boots collection, chosen by real stated criteria (occasion fit, heel comfort, colour versatility for Indian winter styling) rather than asserted superiority over other brands."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-13T10:40:16+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 13.6,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-13T10:14:51+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://inc5shop.com/blogs/blog/best-boots-for-women-in-india-winter-styling-2026"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Real Inc.5 women's boots on the live collection. Styles actually stocked: Chelsea boots (Women Black Block-Heeled Chelsea Boots), round-toe ankle boots (Womens Navy Blue / Black Casual Solid Round Toe Ankle Boots), pointed-toe party ankle boots (Womens Brown Party Wear Solid Pointed Toe Block Heel Ankle Boots), block-heel boots (Women Chikoo Solid Block Heeled Boots, Block Formal Heel Boots-Black), wedge-heel boots (Women Black/Brown Wedge Heel Regular Boots), and a Block Heel Winter Wear Boots-Black. Colours available: chikoo (beige/tan), black, brown, navy blue. Filters on page: color, style, heel-type. Collection is discounted (compare-at prices shown, e.g. block-heel styles ~Rs 2,723 vs Rs 3,890 MRP; Chelsea Rs 1,347 vs Rs 4,490). Collection copy positions boots as style + confidence, not only warmth.",
+      "source_id": "boots-collection",
+      "source_ref": "https://inc5shop.com/collections/womens-boots (Firecrawl scrape, IN geo, 2026-07-13, scrapeId 019f5af7-86ca-74d8-8353-33b43dfc0dbd)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Inc.5: Indian fashion-footwear brand established 1998, 90+ stores across 50+ cities / 20+ states, D2C on inc5shop.com (Shopify), market India / currency INR. Positioning: comfort + craftsmanship + contemporary design. Voice: warm, aspirational, occasion- and edit-led (festive/wedding/party/everyday), comfort + 'true to size' reassurance, legacy/trust ('since 1998'), value/urgency. Women's footwear is the lead category. Club5 loyalty (1 point = 1 rupee).",
+      "source_id": "brand-dna",
+      "source_ref": "brands/inc5shop/brand-dna.json + knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "~1,758 Judge.me reviews; dominant customer sentiment is comfort, 'true to size', and value. Repeat-buyer signal: shoppers buy offline then reorder the size online.",
+      "source_id": "reviews",
+      "source_ref": "brands/inc5shop/knowledge.md (Judge.me reviews on inc5shop.com)",
+      "source_type": "review"
+    },
+    {
+      "extracted_facts": "womens-boots cluster: head term 'boots for women' ~180k impressions at avg position ~8.75 (weak rank, on-page upside). Cluster keywords: 'boots for women', 'women boots', 'boots women'. Noted as seasonal winter demand. Target URL https://inc5shop.com/collections/womens-boots. Absolute search volume unavailable (Keyword Planner blocked); GSC impressions used as demand proxy.",
+      "source_id": "boots-demand",
+      "source_ref": "brands/inc5shop/keywords/clusters.json + keywords/research-summary.json (GSC via Composio, 2026-04-12 to 2026-07-10)",
+      "source_type": "gsc"
+    }
+  ]
+}

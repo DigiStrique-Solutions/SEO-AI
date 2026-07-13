@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "brand_name": "Strique",
+  "website_url": "https://www.strique.io",
+  "generated_at": "2026-07-13T00:00:00+00:00",
+  "target_country": "United States",
+  "target_country_source": "cli",
+  "language": "languageConstants/1000",
+  "default_source": "Google Ads Keyword Planner via Composio",
+  "difficulty_scale": "0-100 (bands: LOW <=39, MEDIUM 40-69, HIGH >=70)",
+  "date_range": {
+    "start_date": "2025-03-04",
+    "end_date": "2026-06-27"
+  },
+  "counts": {
+    "deduped_universe_rows": 10,
+    "existing_keywords": 8,
+    "keyword_planner_rows": 10,
+    "gsc_rows": 3,
+    "prioritized_rows": 8,
+    "clusters": 5
+  },
+  "sources": {
+    "keyword_planner": {
+      "tool": "GOOGLE_ADS_KEYWORD_PLANNER",
+      "endpoint": "https://googleads.googleapis.com/v23/customers/2706929964:generateKeywordIdeas",
+      "row_count": 10
+    },
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "row_count": 3
+    }
+  },
+  "gsc_property": "https://www.strique.io/",
+  "gsc_available_properties": [
+    "https://strique.io/",
+    "https://www.strique.io/",
+    "sc-domain:strique.io"
+  ],
+  "blockers": []
+}

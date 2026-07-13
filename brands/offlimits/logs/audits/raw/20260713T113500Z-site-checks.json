@@ -1,0 +1,124 @@
+{
+  "run_id": "20260713T113500Z",
+  "target_url": "https://offlimits.co.in",
+  "platform": "Shopify",
+  "collected": "2026-07-13",
+  "tools": ["firecrawl_map", "playwright(navigate/evaluate/console)", "curl", "pagespeed_insights(429)"],
+  "sampled_templates": {
+    "homepage": {
+      "url": "https://offlimits.co.in/",
+      "http_status": 200,
+      "title": "OFF LIMITS - Sports Shoes, Sneakers & Athleisure Apparel Online",
+      "title_len": 63,
+      "meta_description_len": 146,
+      "canonical": "https://offlimits.co.in/",
+      "robots_meta": "max-image-preview:large",
+      "h1_count": 1,
+      "h1": "Sports Shoes, Sneakers & athleisure wear for Men & Women",
+      "h2": 8, "h3": 76,
+      "img_total": 113, "img_missing_alt": 55, "img_lazy": 2,
+      "jsonld_types": ["OnlineStore"],
+      "internal_links": 274,
+      "word_count": 691
+    },
+    "product": {
+      "url": "https://offlimits.co.in/products/strata-01-dark-beige-navy-orm-903-03",
+      "http_status": 200,
+      "title": "STRATA-01 - DARK BEIGE/NAVY",
+      "title_len": 27,
+      "meta_description_len": 141,
+      "canonical": "self",
+      "h1_count": 1,
+      "h1": "Beige/Sky Lace Up Running & Gym Shoe For Men",
+      "img_total": 27, "img_missing_alt": 9,
+      "jsonld_types": ["BreadcrumbList", "Product"],
+      "product_schema": {
+        "brand": "Offlimits", "sku": "8905185604734",
+        "offers": ["price", "priceCurrency:INR", "availability:InStock", "itemCondition", "mpn", "priceValidUntil", "hasMerchantReturnPolicy", "shippingDetails"],
+        "has_aggregateRating": false, "has_image": true, "description_len": 1591
+      },
+      "note": "Title is 27 chars, non-descriptive (no product type/keywords/brand); H1 color ('Beige/Sky') disagrees with title color ('DARK BEIGE/NAVY')."
+    },
+    "collection": {
+      "url": "https://offlimits.co.in/collections/men-running-shoes",
+      "http_status": 200,
+      "title": "Buy Men's Running Shoes Online Lightweight & Durable | Off Limits",
+      "title_len": 65,
+      "meta_description_len": 144,
+      "canonical": "self",
+      "h1_count": 1, "h1": "Men's Running Shoes",
+      "img_total": 38, "img_missing_alt": 27,
+      "jsonld_types": ["BreadcrumbList", "FAQPage"],
+      "product_links": 86,
+      "word_count": 1188,
+      "note": "Well-optimized: keyword-rich title/meta, intro copy + FAQPage schema."
+    },
+    "blog": {
+      "url": "https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women",
+      "http_status": 200,
+      "title": "How to Style Sneakers for Men and Women: The Complete Guide",
+      "title_len": 59,
+      "meta_description_len": 157,
+      "canonical": "self",
+      "h1_count": 1,
+      "img_total": 20, "img_missing_alt": 1,
+      "jsonld_types": ["BreadcrumbList", "FAQPage", "Article"],
+      "article_schema": {"author": "SEO .", "datePublished": "2025-11-03T17:04:59Z", "dateModified": "2025-11-03T17:07:20Z", "has_image": true},
+      "word_count": 1324, "contextual_links": 8,
+      "note": "Good structure/schema; author name is placeholder 'SEO .' (E-E-A-T gap)."
+    }
+  },
+  "homepage_entity_schema": {
+    "type": "OnlineStore", "name": "Offlimits", "logo": "present",
+    "sameAs": ["instagram(offlimits_tribe, double-slash typo)", "youtube(@offlimits4426)", "facebook(offlimitsstore)", "pinterest(offlimits0159)", "twitter(OfflimitsT)"],
+    "address": "Plot no 18 Sector 27C Near NHPC Chowk, Faridabad, Haryana 121003, IN",
+    "contactPoint": {"telephone": "9599297556", "email": "support@offlimits.co.in", "areaServed": "IN"},
+    "hasMerchantReturnPolicy": {"days": 7, "returnFees": "INR 100", "refundType": "ExchangeRefund"},
+    "missing": ["WebSite schema", "SearchAction (sitelinks searchbox)"],
+    "note": "Entity name appears as 'Offlimits' (schema), 'OFF LIMITS' (title/og), 'Off Limits' (collection titles) — inconsistent surface form."
+  },
+  "technical": {
+    "http_to_https": "301 -> https://offlimits.co.in/",
+    "www_to_nonwww": "301 -> https://offlimits.co.in/",
+    "protocol": "HTTP/2 with 103 Early Hints + preconnect (cdn.shopify.com, app.flash-speed.com, ajax.googleapis.com, cdnjs.cloudflare.com)",
+    "soft_404": "none (nonexistent path returns real 404)",
+    "uppercase_path": "404 (Shopify case-sensitive; no case-normalizing redirect)",
+    "x_frame_options": "DENY",
+    "robots_txt": "valid Shopify robots; blocks checkout/cart/account/search/faceted-sort params; Nutch fully blocked; Ahrefs/MJ12 crawl-delay; Sitemap declared",
+    "llms_txt": "present (declares Shop skill + UCP/MCP agentic-commerce endpoints)",
+    "sitemap": {
+      "index_children": 5,
+      "children": ["sitemap_agentic_discovery.xml", "sitemap_products_1.xml", "sitemap_pages_1.xml", "sitemap_collections_1.xml", "sitemap_blogs_1.xml"],
+      "url_counts": {"products": 1516, "collections": 122, "blogs": 68, "pages": 17},
+      "referenced_in_robots": true
+    }
+  },
+  "performance_lab": {
+    "source": "Playwright navigation + resource timing (single lab sample, warm)",
+    "ttfb_ms": 482,
+    "fcp_ms": 584,
+    "dom_content_loaded_ms": 922,
+    "load_complete_ms": 5244,
+    "resource_count": 332,
+    "script_requests": 181,
+    "stylesheet_requests": 40,
+    "note": "transferSize totals unreliable (cross-origin CDN reports 0); counts are reliable and indicate heavy third-party/app load."
+  },
+  "performance_field": {
+    "status": "not_checked_blocked",
+    "reason": "PageSpeed Insights API returned HTTP 429 (no GOOGLE_API_KEY / PSI key configured); CrUX field data (LCP/INP/CLS p75) unavailable. GSC/GA4 not connected for this brand."
+  },
+  "console_errors": [
+    "analytics.gokwik.co/analytics.js - ERR_NAME_NOT_RESOLVED (broken analytics/tracking script)",
+    "theme JS TypeError: null.click (blog template line ~4186)",
+    "theme JS TypeError: null.addEventListener (blog template line ~4250)",
+    "snapmint popup JS TypeError: null.addEventListener (third-party BNPL app)"
+  ],
+  "evidence_gaps": {
+    "search_console": "not connected — indexation coverage, sitemap submission status, query/impression data unavailable",
+    "ga4": "not connected — landing-page behavior/conversions unavailable",
+    "crux_psi": "no API key — field Core Web Vitals unavailable",
+    "keyword_demand": "GOOGLE_ADS_PLATFORM_ID unset (Keyword Planner blocked) and no GSC fallback — exact search volumes unverified",
+    "ai_visibility": "not tested — brand mention/citation in ChatGPT/Perplexity/AI Overviews not verified"
+  }
+}

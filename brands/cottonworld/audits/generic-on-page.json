@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://cottonworld.net",
+  "run_date": "2026-07-13",
+  "score": 0.47,
+  "counts": {
+    "items": 7,
+    "pass": 3,
+    "fail": 4,
+    "not_applicable": 0,
+    "not_checked_blocked": 0
+  },
+  "rows": [
+    {
+      "item_id": "title-present",
+      "section_id": "titles-meta",
+      "status": "fail",
+      "result": "Titles present & unique on all templates, but length is out of the 30-60 range on most: home 67, PDP 75, blog 86 (ALL CAPS), and collection titles are keyword-stuffed at ~130 chars (e.g. /collections/linen: 'Linen - Men Clothing | Women Clothing | Shirts | Pants | T-Shirts | Tops | Leggings Online at Best Price in India- Cottonworld.net').",
+      "next_action": "Rewrite collection titles to a 50-60 char '<Category> for Men & Women | Cottonworld' pattern; sentence-case blog titles.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "meta-description",
+      "section_id": "titles-meta",
+      "status": "fail",
+      "result": "Commercial templates OK (home 146, PDP 152, PLP 155, about 143). BUT blog posts are broken: 2 of 4 have NO meta description, and others carry unrelated 320-char boilerplate about 'JSW Defence / Indian Armed Forces'.",
+      "next_action": "Fix the blog/article template to emit a correct per-post meta description (70-160 chars); remove the JSW boilerplate.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "single-h1",
+      "section_id": "headings",
+      "status": "fail",
+      "result": "Home/PDP/PLP have exactly one H1. Blog posts (all 4) and the About page render ZERO H1 (confirmed in rendered DOM).",
+      "next_action": "Add a single H1 (the post/page title) to the article and page templates.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "heading-order",
+      "section_id": "headings",
+      "status": "fail",
+      "result": "Commercial pages order OK (H1->H2->H3). Blog pages start at H2 with no H1, and render placeholder H2s ('WHAT IS LOREM IPSUM?'), breaking hierarchy.",
+      "next_action": "Restore H1 then logical H2/H3 on article template; remove placeholder headings.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "image-alt",
+      "section_id": "media-links",
+      "status": "pass",
+      "result": "Alt coverage >=95% across sampled templates (home 333/340, PDP 141/141, PLP 64/65, blog 36/36).",
+      "next_action": "Add alt to the ~7 flagged home images.",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "canonical",
+      "section_id": "media-links",
+      "status": "pass",
+      "result": "All sampled pages declare a self-referencing canonical that resolves 200; host canonicalization consistent (www->non-www 301).",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    },
+    {
+      "item_id": "status-200",
+      "section_id": "media-links",
+      "status": "pass",
+      "result": "Key pages return 200; unknown URLs return a hard 404 (no soft-404).",
+      "next_action": "",
+      "evidence_ref": "evidence/20260713/site-checks.json"
+    }
+  ]
+}

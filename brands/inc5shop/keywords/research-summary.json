@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "brand_name": "Inc.5",
+  "website_url": "https://inc5shop.com",
+  "generated_at": "2026-07-13T09:50:08+00:00",
+  "target_country": "India",
+  "target_country_source": "brand-dna (INR / India market)",
+  "language": "en",
+  "default_source": "Google Search Console via Composio (real query performance)",
+  "difficulty_scale": "0-100 HEURISTIC ESTIMATE (bands: LOW <=39, MEDIUM 40-69, HIGH >=70). NOT from Keyword Planner - see blockers. Estimated from head/torso/long-tail shape and India marketplace competition.",
+  "date_range": {
+    "start_date": "2026-04-12",
+    "end_date": "2026-07-10"
+  },
+  "counts": {
+    "deduped_universe_rows": 54,
+    "prioritized_rows": 16,
+    "clusters": 10,
+    "keyword_planner_rows": 0,
+    "gsc_query_rows": 300,
+    "gsc_page_rows": 100
+  },
+  "sources": {
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "site_url": "https://inc5shop.com/",
+      "query_row_count": 300,
+      "page_row_count": 100,
+      "output_ref": "logs/keywords/raw/20260713T095008Z-gsc-search-analytics.json"
+    },
+    "keyword_planner": {
+      "tool": "mcp__google-ads__google_ads_generate_keyword_ideas",
+      "row_count": 0,
+      "status": "blocked"
+    }
+  },
+  "gsc_property": "https://inc5shop.com/",
+  "gsc_available_properties": [
+    "https://inc5shop.com/"
+  ],
+  "volume_note": "The 'volume' column is intentionally blank across all keyword files: Keyword Planner was unavailable. Use gsc_impressions (in universe.csv) as the demand proxy. Absolute search volume is a follow-up once Keyword Planner is wired.",
+  "blockers": [
+    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID env var not set; CLAUDE.md forbids hardcoding platform_id. No absolute search-volume or difficulty from Keyword Planner. next_action: set GOOGLE_ADS_PLATFORM_ID and re-run demand pull (geo=India / geoTargetConstants/2356).",
+    "semrush_not_used: SEMrush connection exists but paid SERP DBs are disallowed in v1 per CLAUDE.md; not used as a volume substitute."
+  ]
+}

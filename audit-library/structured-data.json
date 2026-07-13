@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "structured-data",
+  "title": "Structured Data & Schema",
+  "description": "Schema.org coverage and validity that powers rich results and feeds AI answer engines.",
+  "applies_to": "per_url",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "coverage",
+      "title": "Coverage",
+      "items": [
+        { "item_id": "org-website-schema", "check": "Homepage has Organization and WebSite schema.", "pass_criteria": "Valid Organization + WebSite with name, url, logo, sameAs.", "severity": "high", "required_evidence": ["public_crawl", "rendered_browser"] },
+        { "item_id": "breadcrumb-schema", "check": "Pages expose BreadcrumbList schema.", "pass_criteria": "Breadcrumbs present on templated pages.", "severity": "low", "required_evidence": ["public_crawl"] },
+        { "item_id": "content-type-schema", "check": "Content pages use the right type (Article/BlogPosting, Product, FAQPage).", "pass_criteria": "Correct type per template with required properties.", "severity": "medium", "required_evidence": ["public_crawl"] }
+      ]
+    },
+    {
+      "section_id": "validity",
+      "title": "Validity & Eligibility",
+      "items": [
+        { "item_id": "schema-valid", "check": "Structured data has no errors.", "pass_criteria": "No errors in schema validation; warnings acceptable.", "severity": "high", "required_evidence": ["rendered_browser"] },
+        { "item_id": "rich-result-eligible", "check": "Markup is eligible for rich results.", "pass_criteria": "Meets Google's required properties for the result type.", "severity": "medium", "required_evidence": ["rendered_browser", "search_console"] }
+      ]
+    }
+  ]
+}

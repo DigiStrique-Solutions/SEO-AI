@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://www.strique.io",
+  "run_date": "2026-07-13",
+  "score": 0.88,
+  "counts": { "items": 7, "pass": 6, "fail": 1, "not_applicable": 0 },
+  "rows": [
+    { "item_id": "robots-txt", "section_id": "crawlability", "status": "pass", "result": "robots.txt is valid and does not block key templates.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#robots" },
+    { "item_id": "sitemap", "section_id": "crawlability", "status": "pass", "result": "XML sitemap is reachable, valid, current, and referenced in robots.txt.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#sitemap" },
+    { "item_id": "url-structure", "section_id": "structure", "status": "pass", "result": "URLs are lowercase, hyphenated, and follow a stable pattern.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#urls" },
+    { "item_id": "internal-linking", "section_id": "structure", "status": "fail", "result": "3 blog posts are orphaned (reachable only via sitemap, not internal links).", "next_action": "Link the 3 orphan posts from the blog index and related posts.", "evidence_ref": "evidence/20260713/public-crawl.json#internal_linking" },
+    { "item_id": "redirects", "section_id": "structure", "status": "pass", "result": "No redirect chains or loops; no broken internal links found.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#redirects" },
+    { "item_id": "canonical-consistency", "section_id": "indexation", "status": "pass", "result": "Single canonical host (www, https); no conflicting signals.", "next_action": "", "evidence_ref": "evidence/20260713/public-crawl.json#canonical_consistency" },
+    { "item_id": "indexation-coverage", "section_id": "indexation", "status": "pass", "result": "All important pages are indexed per Search Console; no accidental noindex.", "next_action": "", "evidence_ref": "evidence/20260713/gsc.json#coverage" }
+  ]
+}

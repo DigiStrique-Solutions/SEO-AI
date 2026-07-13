@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "run_date": "2026-07-13",
+  "target_url": "https://www.strique.io",
+  "overall_score": 0.78,
+  "totals": { "items": 38, "pass": 27, "fail": 10, "not_applicable": 1 },
+  "audits": [
+    { "audit_id": "structured-data", "title": "Structured Data & Schema", "score": 0.91, "items": 5, "pass": 4, "fail": 1, "not_applicable": 0, "file": "structured-data.json" },
+    { "audit_id": "site-architecture", "title": "Site Architecture & Technical SEO", "score": 0.88, "items": 7, "pass": 6, "fail": 1, "not_applicable": 0, "file": "site-architecture.json" },
+    { "audit_id": "content-seo", "title": "Content SEO", "score": 0.86, "items": 7, "pass": 6, "fail": 1, "not_applicable": 0, "file": "content-seo.json" },
+    { "audit_id": "ai-seo-aeo-geo", "title": "AI SEO / AEO / GEO", "score": 0.73, "items": 6, "pass": 3, "fail": 2, "not_applicable": 1, "file": "ai-seo-aeo-geo.json" },
+    { "audit_id": "generic-on-page", "title": "Generic On-Page SEO", "score": 0.71, "items": 7, "pass": 5, "fail": 2, "not_applicable": 0, "file": "generic-on-page.json" },
+    { "audit_id": "core-web-vitals", "title": "Core Web Vitals & Performance", "score": 0.57, "items": 6, "pass": 3, "fail": 3, "not_applicable": 0, "file": "core-web-vitals.json" }
+  ],
+  "top_fixes": [
+    { "audit_id": "generic-on-page", "item_id": "single-h1", "severity": "high", "action": "Demote the secondary H1 to H2 on homepage and /product." },
+    { "audit_id": "core-web-vitals", "item_id": "lcp", "severity": "high", "action": "Preload the hero image and reduce main-thread work to cut LCP from 3.1s to under 2.5s." },
+    { "audit_id": "core-web-vitals", "item_id": "render-blocking", "severity": "medium", "action": "Defer/async non-critical JS and inline critical CSS." },
+    { "audit_id": "generic-on-page", "item_id": "image-alt", "severity": "medium", "action": "Add alt text to the 16 flagged images." },
+    { "audit_id": "content-seo", "item_id": "author-eeat", "severity": "medium", "action": "Add author bylines with bios and expertise signals to blog posts." },
+    { "audit_id": "ai-seo-aeo-geo", "item_id": "citations-sources", "severity": "medium", "action": "Add credible outbound citations and pursue third-party mentions." },
+    { "audit_id": "site-architecture", "item_id": "internal-linking", "severity": "medium", "action": "Link the 3 orphan blog posts from the index and related posts." },
+    { "audit_id": "core-web-vitals", "item_id": "image-optimization", "severity": "low", "action": "Serve WebP/AVIF with responsive srcset and lazy-load below the fold." },
+    { "audit_id": "ai-seo-aeo-geo", "item_id": "ai-crawler-access", "severity": "low", "action": "Publish an llms.txt describing key pages and allowed use." },
+    { "audit_id": "structured-data", "item_id": "breadcrumb-schema", "severity": "low", "action": "Add BreadcrumbList schema to blog and product templates." }
+  ]
+}

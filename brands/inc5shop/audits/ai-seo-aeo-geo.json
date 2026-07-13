@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://inc5shop.com",
+  "run_date": "2026-07-13",
+  "score": 0.73,
+  "counts": { "items": 6, "pass": 4, "fail": 1, "not_applicable": 1 },
+  "rows": [
+    { "item_id": "direct-answers", "section_id": "answerability", "status": "pass", "result": "Blog posts answer styling/care questions directly (e.g. 'how to choose comfortable heels', 'footwear for kurta pajama'), and PDPs/collections give clear product info near the top. Extractable answers present.", "next_action": "Add concise summary/answer blocks at the top of guide posts and a short FAQ to key category pages.", "evidence_ref": "blogs/summary.md" },
+    { "item_id": "structured-answers", "section_id": "answerability", "status": "pass", "result": "Content uses AI-friendly structures: blog listicles/steps, product spec blocks, a dedicated FAQ page, and customer-review Q&A. Scannable and quotable.", "next_action": "Mark up FAQ content as FAQPage schema so answer engines can lift it.", "evidence_ref": "logs/web_data/raw/20260713T094521Z-brand-dna-crawl.json" },
+    { "item_id": "entity-clarity", "section_id": "entity-authority", "status": "fail", "result": "No Organization schema/sameAs defines the brand entity for machines (see structured-data.org-website-schema). Compounded by heavy name-variant confusion in search demand ('inc 5', 'inc5', 'inc.5', 'inch 5', '5 inch heels'), which blurs the entity for AI engines.", "next_action": "Publish Organization schema with canonical name 'Inc.5' + sameAs to all social profiles; use consistent brand naming in titles/copy to disambiguate from '5 inch'.", "evidence_ref": "logs/keywords/raw/20260713T095008Z-gsc-search-analytics.json" },
+    { "item_id": "citations-sources", "section_id": "entity-authority", "status": "pass", "result": "Brand is an established entity (since 1998, 90+ stores, stocked at Lifestyle/Shoppers Stop/Centro) with ~1,758 first-party reviews as experience signals. Third-party retail presence supports off-site authority.", "next_action": "Pursue editorial mentions/citations (press, fashion roundups) and add source links in informational blogs.", "evidence_ref": "brand-dna.json" },
+    { "item_id": "ai-crawler-access", "section_id": "ai-visibility", "status": "pass", "result": "AI crawlers are not blocked in robots.txt, a valid llms.txt (200, Shopify UCP with browsing endpoints + policies) is published, and sitemap_agentic_discovery.xml is exposed. Strong AI-visibility foundation.", "next_action": "", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#llms_txt" },
+    { "item_id": "ai-mentions", "section_id": "ai-visibility", "status": "not_applicable", "result": "Not verified: manual AI-answer testing (ChatGPT/Perplexity/Google AI Overviews) for priority prompts was not run in this pass.", "next_action": "Run brand-visibility prompt checks in AI engines for head queries (e.g. 'best women's heels India', 'inc 5 shoes') and track share of voice.", "evidence_ref": "logs/audits/raw/20260713T095500Z-site-checks.json#providers_missing" }
+  ]
+}

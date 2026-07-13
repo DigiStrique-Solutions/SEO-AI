@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "core-web-vitals",
+  "title": "Core Web Vitals & Performance",
+  "description": "Google's page-experience signals plus supporting performance checks: loading, interactivity, and visual stability.",
+  "applies_to": "per_url",
+  "scoring": { "method": "weighted_pass_ratio", "severity_weights": { "high": 3, "medium": 2, "low": 1 } },
+  "sections": [
+    {
+      "section_id": "loading",
+      "title": "Loading",
+      "items": [
+        { "item_id": "lcp", "check": "Largest Contentful Paint is fast.", "pass_criteria": "LCP <= 2.5s (field, 75th percentile).", "severity": "high", "required_evidence": ["performance_field", "performance_lab"] },
+        { "item_id": "ttfb", "check": "Server responds quickly.", "pass_criteria": "TTFB <= 0.8s.", "severity": "medium", "required_evidence": ["performance_lab"] }
+      ]
+    },
+    {
+      "section_id": "interactivity",
+      "title": "Interactivity",
+      "items": [
+        { "item_id": "inp", "check": "Interaction to Next Paint is responsive.", "pass_criteria": "INP <= 200ms (field, 75th percentile).", "severity": "high", "required_evidence": ["performance_field"] },
+        { "item_id": "render-blocking", "check": "Render-blocking resources are minimized.", "pass_criteria": "No large blocking JS/CSS in the critical path.", "severity": "medium", "required_evidence": ["performance_lab"] }
+      ]
+    },
+    {
+      "section_id": "stability",
+      "title": "Stability & Assets",
+      "items": [
+        { "item_id": "cls", "check": "Layout is visually stable.", "pass_criteria": "CLS <= 0.1 (field, 75th percentile).", "severity": "high", "required_evidence": ["performance_field"] },
+        { "item_id": "image-optimization", "check": "Images are sized, compressed, and modern-format.", "pass_criteria": "Responsive sizes, lazy-loaded, WebP/AVIF where possible.", "severity": "low", "required_evidence": ["performance_lab", "public_crawl"] }
+      ]
+    }
+  ]
+}

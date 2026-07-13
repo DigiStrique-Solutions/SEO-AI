@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "updated_at": "2026-07-13",
+  "brand_name": "Inc.5",
+  "website_url": "https://inc5shop.com",
+  "logo": {
+    "description": "Header wordmark served from the Shopify CDN as 'INC.5 SHOES PVT LTD' image asset. No standalone vector/brand-guide logo asset was confirmed from the public site; favicon is the same raster file. Confirm a canonical logo from brand/design source.",
+    "icon_url": "https://inc5shop.com/cdn/shop/files/Screenshot_2023-07-12_at_1.22.28_PM.png?v=1689148366&width=600"
+  },
+  "business_description": "Inc.5 is an Indian fashion-footwear and accessories brand established in 1998, which began with a 100 sq. ft. store at Mumbai's Heera Panna and has grown into a nationwide legacy label present across 50+ cities, 20+ states, and 90+ stores. It designs and sells women's footwear (heels, sandals, mules, flats, ethnic, wedges, platforms, pumps, boots, comfort), men's footwear (driving shoes, formal shoes, sandals, slip-ons, boots), and handbags/wallets (sling, clutch, shoulder, backpacks). The brand blends comfort, craftsmanship, and contemporary design, and sells both through its own D2C store (inc5shop.com, on Shopify) and through leading retail chains such as Lifestyle, Centro, and Shoppers Stop. Inc5shop.com is the direct-to-consumer online storefront for the Indian market.",
+  "business_model": "D2C / ecommerce retail (Shopify) plus omnichannel distribution. Direct online sales in INR to Indian consumers, supported by 90+ exclusive brick-and-mortar stores and shop-in-shop presence at large-format retailers (Lifestyle, Centro, Shoppers Stop). Includes a Club5 loyalty/points program (1 point = 1 rupee) and sub-labels (Inc.6, Privo for men).",
+  "brand_colors": {
+    "description": "Palette observed on the public Shopify storefront; exact brand hex values were not present in scraped content and should be confirmed from theme settings / design files.",
+    "primary_background": "White / light neutral",
+    "primary_text": "Near-black",
+    "theme_color_meta": "#fff",
+    "product_palette_language": "Product taxonomy leans into warm/metallic fashion tones (beige, tan, brown, gold, rose gold, bronze, silver, peach, navy, black) used as color-filter collections",
+    "brand_accent": "Not confirmed from public CSS tokens"
+  },
+  "brand_aesthetic": "Fashion-forward, feminine-led Indian footwear ecommerce aesthetic. Large lifestyle hero banners segmented by Women / Men / Handbags, seasonal 'edit' merchandising (EOSS, festive, wedding, Raksha Bandhan, Navratri), shoppable video, and category tiles ('For Her', 'For Him', 'Shop Bags'). Heavy emphasis on occasion and styling (party, wedding, ethnic, casual, comfort) with prominent social proof (1,700+ Judge.me reviews) and promotional/sale framing.",
+  "brand_voice": {
+    "description": "Warm, aspirational, and style-led with a comfort-and-value promise. Speaks to Indian shoppers dressing for occasions (festive, wedding, party, everyday), balancing 'fashion-forward' and 'trusted legacy' with 'comfort' and 'true to size' reassurance. Promotional and benefit-driven rather than technical.",
+    "voice_patterns": [
+      "Occasion- and edit-led merchandising ('The Best of EOSS', 'The Gentleman Edit', 'Festive Classics')",
+      "Comfort + style reassurance ('comfortable', 'true to size', 'craftsmanship')",
+      "Legacy/trust framing ('Established in 1998', 'legacy footwear brand')",
+      "Value and urgency ('Flat 50% Off', 'Hot Stepper Sale is Live')",
+      "Customer-voice social proof pulled from reviews"
+    ]
+  },
+  "brand_values": [
+    "Comfort and craftsmanship: footwear that is stylish yet genuinely wearable ('true to size', 'absolute comfort').",
+    "Contemporary, occasion-ready fashion: trend-led edits for festive, wedding, party, and everyday looks.",
+    "Legacy and trust: a 25+ year Indian brand with nationwide retail presence.",
+    "Accessibility: available across price points, cities, and both online and offline channels.",
+    "Customer proof: leans on real reviews and repeat-buyer sentiment as a core trust signal."
+  ],
+  "target_audience": {
+    "primary": [
+      "Indian women shopping for fashion footwear for occasions (festive, wedding, party) and everyday comfort wear.",
+      "Value- and comfort-conscious Indian shoppers who want trend-led styles from a trusted legacy brand, online or in nearby stores."
+    ],
+    "roles": [
+      "Women shopping heels, flats, sandals, mules, wedges, ethnic and comfort footwear",
+      "Men shopping driving shoes, formal shoes, sandals, slip-ons, boots",
+      "Gift and occasion buyers (wedding, festive, Raksha Bandhan)",
+      "Handbag and accessory shoppers"
+    ],
+    "secondary_verticals": [
+      "Men's footwear (Privo and formal/casual lines)",
+      "Handbags, wallets, and accessories",
+      "Large-size / prime-fit footwear"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Metro Brands (Metro / Mochi)",
+      "what_it_does": "Large Indian multi-brand footwear retailer selling women's and men's fashion and formal footwear online and via a wide store network.",
+      "website": "https://www.metroshoes.com",
+      "how_it_competes": "Directly overlaps Inc.5 on Indian fashion footwear across women's and men's occasion and formal categories, with comparable omnichannel retail reach and price positioning."
+    },
+    {
+      "name": "Bata India (incl. Hush Puppies)",
+      "what_it_does": "Established mass-to-mid footwear brand and retailer in India covering formal, casual, and comfort footwear for the whole family.",
+      "website": "https://www.bata.in",
+      "how_it_competes": "Competes on trusted-legacy positioning and nationwide store + online presence, especially in men's formal/casual and everyday comfort footwear."
+    },
+    {
+      "name": "Mochi / Walkway",
+      "what_it_does": "Fashion footwear retail brands (Metro Brands group) focused on trend-led women's and men's styles.",
+      "website": "https://www.mochishoes.com",
+      "how_it_competes": "Targets the same fashion-forward, occasion-driven women's footwear shopper with similar heels/sandals/flats assortments and sale-led merchandising."
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Multi-brand fashion marketplaces (Myntra, Ajio, Amazon Fashion, Nykaa Fashion) carrying footwear",
+    "Large-format retail chains where Inc.5 also sells (Lifestyle, Shoppers Stop, Centro) and their private labels",
+    "Other D2C Indian footwear brands and ethnic/juttis specialists"
+  ],
+  "primary_business_goal": "Grow D2C revenue on inc5shop.com by converting occasion- and comfort-driven Indian footwear demand, while reinforcing the brand's legacy/trust position across its omnichannel (online + 90+ stores + large-format retail) presence.",
+  "primary_conversion": "Ecommerce purchase (add-to-cart -> checkout) on inc5shop.com, supported by Club5 loyalty sign-ups and WhatsApp-assisted sales.",
+  "site_type": "Shopify D2C ecommerce store (collections, product detail pages, policy/support pages, blog).",
+  "measurement_and_connected_sources": [
+    "Google Search Console is present (google-site-verification meta on the site) and should be connected via Composio for search performance, indexing, and query/page evidence.",
+    "Google Ads Keyword Planner available via Composio for keyword demand research (India market).",
+    "Analytics platform (GA4 / other) not confirmed from public source — [needs source]. Confirm the connected analytics before citing behavioral/conversion data.",
+    "Third-party stack observed: Shopify (store), GoKwik (checkout), ClickPost (tracking/returns), Judge.me (reviews), LimeChat + Shiprocket Engage (WhatsApp/chat), Club5 (loyalty)."
+  ],
+  "open_questions": [
+    "Confirm exact brand hex values, typography, and a canonical vector logo from theme settings / design files.",
+    "Confirm which analytics platform is connected (GA4 vs other) before referencing behavioral or conversion data.",
+    "Confirm the approved competitor set and primary positioning vs. Metro/Mochi/Bata and marketplaces.",
+    "Confirm whether men's (Privo), handbags, or women's footwear is the priority growth category for SEO.",
+    "Confirm handling of the large number of dated/operational 'dark' collections indexed on the Shopify store (crawl/index hygiene).",
+    "Confirm relationship and canonical between inc5shop.com and the legacy inc5shoes.co.in domain."
+  ]
+}

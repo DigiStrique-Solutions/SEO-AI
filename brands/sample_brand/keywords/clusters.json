@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "sample_brand",
+  "updated_at": "2026-07-13",
+  "clusters": [
+    {
+      "cluster_id": "ai-marketing-platform",
+      "name": "AI Marketing Platform",
+      "intent": "commercial",
+      "page_type": "homepage",
+      "target_url": "https://www.strique.io",
+      "pillar": true,
+      "keywords": [
+        "ai marketing platform",
+        "agentic ai marketing",
+        "marketing os"
+      ],
+      "notes": "Core category / head-term cluster mapped to the homepage."
+    },
+    {
+      "cluster_id": "ai-content-creation",
+      "name": "AI Content Creation",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://www.strique.io/product",
+      "pillar": true,
+      "keywords": [
+        "ai content creation",
+        "ai content creators",
+        "ai for content creation"
+      ],
+      "notes": "High-volume product cluster; supports generative content pillar."
+    },
+    {
+      "cluster_id": "ai-seo",
+      "name": "AI SEO",
+      "intent": "commercial",
+      "page_type": "solutions",
+      "target_url": "https://www.strique.io/solutions",
+      "pillar": false,
+      "keywords": [
+        "ai seo tool",
+        "roas optimization software"
+      ],
+      "notes": "Solutions-page cluster for SEO and optimization use cases."
+    },
+    {
+      "cluster_id": "competitor-comparisons",
+      "name": "Competitor Comparisons",
+      "intent": "commercial",
+      "page_type": "comparison",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "best adroll alternative",
+        "jasper alternative"
+      ],
+      "notes": "Conquesting cluster; each keyword maps to its own /compare/<competitor> page rather than one shared URL."
+    },
+    {
+      "cluster_id": "closed-loop-measurement",
+      "name": "Closed-Loop Measurement",
+      "intent": "informational",
+      "page_type": "blog",
+      "target_url": "https://www.strique.io/blog",
+      "pillar": false,
+      "keywords": [
+        "closed loop marketing measurement"
+      ],
+      "notes": "Top-of-funnel differentiator topic for blog content."
+    }
+  ]
+}

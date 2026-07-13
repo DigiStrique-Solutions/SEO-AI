@@ -1,0 +1,16 @@
+{
+  "run_id": "20260713T083015Z",
+  "fetched_at": "2026-07-13T08:30:15Z",
+  "provider": "keyword_planner",
+  "endpoint": "https://googleads.googleapis.com/v23/customers/2706929964:generateKeywordIdeas",
+  "request": { "seed_keywords": ["ai marketing platform", "ai content creation", "seo automation"], "geo": "United States", "language": "languageConstants/1000" },
+  "row_count": 10,
+  "rows": [
+    { "keyword": "ai content creation", "avg_monthly_searches": 18100, "competition": "MEDIUM", "competition_index": 65 },
+    { "keyword": "ai marketing platform", "avg_monthly_searches": 8100, "competition": "HIGH", "competition_index": 78 },
+    { "keyword": "agentic ai marketing", "avg_monthly_searches": 1300, "competition": "MEDIUM", "competition_index": 60 },
+    { "keyword": "marketing automation software", "avg_monthly_searches": 22200, "competition": "HIGH", "competition_index": 82 },
+    { "keyword": "ai seo tool", "avg_monthly_searches": 4400, "competition": "MEDIUM", "competition_index": 58 }
+  ],
+  "notes": "Truncated sample of the raw API response. Immutable snapshot."
+}

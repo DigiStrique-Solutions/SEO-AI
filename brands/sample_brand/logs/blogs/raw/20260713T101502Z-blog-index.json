@@ -1,0 +1,17 @@
+{
+  "run_id": "20260713T101502Z",
+  "fetched_at": "2026-07-13T10:15:02Z",
+  "source": "https://www.strique.io/blog",
+  "provider": "web",
+  "post_count": 7,
+  "posts": [
+    { "title": "AI analytics platforms that track ad waste and optimize ad performance", "url": "https://www.strique.io/blog/ai-ad-analytics-platform-optimize-ad-spend-reduce-waste", "category": "Product Use", "date": "2026-05-04" },
+    { "title": "How to improve ROAS using AI ad audit tools like Strique", "url": "https://www.strique.io/blog/how-to-improve-roas-using-ai-audit-tools", "category": "Product Use", "date": "2026-04-27" },
+    { "title": "What is an AI marketing agent? The 2026 complete guide", "url": "https://www.strique.io/blog/what-is-an-ai-marketing-agent", "category": "Strategy", "date": "2026-04-25" },
+    { "title": "The 2026 guide to AI ad optimization", "url": "https://www.strique.io/blog/ai-ad-optimization-guide", "category": "Paid media", "date": "2026-04-18" },
+    { "title": "How to reduce CAC by 30% using an AI marketing agent", "url": "https://www.strique.io/blog/how-to-reduce-cac-with-ai", "category": "Paid media", "date": "2026-04-10" },
+    { "title": "Closing the Loop in AI Marketing", "url": "https://www.strique.io/blog/closing-the-loop", "category": "Strategy", "date": "2026-04-02" },
+    { "title": "How Strique extracts your brand DNA from your website", "url": "https://www.strique.io/blog/brand-context-extraction", "category": "Product", "date": "2026-03-21" }
+  ],
+  "notes": "Raw blog-index snapshot. Immutable; re-fetch writes a new file with a new ts."
+}
