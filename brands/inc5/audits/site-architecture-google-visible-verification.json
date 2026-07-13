@@ -1,0 +1,10 @@
+{
+  "coverage_counts": {
+    "fail": 25,
+    "not_applicable": 10,
+    "not_checked_blocked": 10,
+    "pass": 173
+  },
+  "errors": [],
+  "ok": true
+}

@@ -28,10 +28,11 @@ python3 tools/seo_audit_harness.py verify-authenticity \
 ```
 
 2. Use `write-content` only when the final file should be written after all authenticity checks pass.
-3. Treat the returned `ai_text_risk.score` as a local AI-pattern risk percentage.
-4. Block publish-ready output when the score is `20` or higher.
-5. If an external detector result is available, record it in `detector_notes`, but do not treat it as proof.
-6. Never lower the score by adding errors, awkward phrasing, fake anecdotes, unsupported opinions, or unverifiable details.
+3. For a batch of blog drafts, run `verify-content-batch` with every draft file before publishing. Single-draft scores do not catch repeated outlines, template similarity, or collection-only specificity across the batch.
+4. Treat the returned `ai_text_risk.score` as a local AI-pattern risk percentage.
+5. Block publish-ready output when the score is `20` or higher.
+6. If an external detector result is available, record it in `detector_notes`, but do not treat it as proof.
+7. Never lower the score by adding errors, awkward phrasing, fake anecdotes, unsupported opinions, or unverifiable details.
 
 ## Review Signals
 

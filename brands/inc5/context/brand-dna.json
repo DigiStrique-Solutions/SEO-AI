@@ -1,0 +1,164 @@
+{
+  "brand_id": "inc5",
+  "fields": {
+    "brand_name": {
+      "confidence": "high",
+      "field_id": "brand_name",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "Inc5"
+    },
+    "brand_voice": {
+      "confidence": "medium",
+      "field_id": "brand_voice",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "firecrawl_plus_brand_dna",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "Retail-focused, direct, category-led, practical, and product-specific. Inc5 uses promotional ecommerce language, category labels, product-benefit copy, seasonal style guidance, care instructions, support FAQ language, and customer review language."
+    },
+    "business_description": {
+      "confidence": "high",
+      "field_id": "business_description",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "firecrawl_plus_brand_dna",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "Inc5 is an Indian fashion footwear and bags brand with an ecommerce storefront and offline retail presence. The brand says it was established in 1998, started from a 100 sq. ft. store at Mumbai's Heera Panna, and is now present across 50+ cities, 20+ states, and 90+ stores nationwide."
+    },
+    "business_model": {
+      "confidence": "high",
+      "field_id": "business_model",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "firecrawl_plus_brand_dna",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "ecommerce",
+        "fashion footwear",
+        "bags and accessories",
+        "offline retail",
+        "Shopify storefront"
+      ]
+    },
+    "firecrawl_evidence": {
+      "confidence": "high",
+      "field_id": "firecrawl_evidence",
+      "scope": "brand",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/",
+      "source_type": "firecrawl",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "home",
+        "about-us",
+        "women-footwear",
+        "men-footwear",
+        "all-bags",
+        "care-instructions",
+        "contactus",
+        "faq",
+        "store-locator",
+        "blog"
+      ]
+    },
+    "logo_asset": {
+      "confidence": "medium",
+      "field_id": "logo_asset",
+      "scope": "brand",
+      "source_ref": "brands/inc5/images/source/inc5-logo.png",
+      "source_type": "firecrawl_homepage_asset",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "Public storefront logo image saved from the homepage header. Confirm approved logo package before production use."
+    },
+    "platform": {
+      "confidence": "medium",
+      "field_id": "platform",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "public_html_and_firecrawl",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "Shopify storefront markers observed in public HTML. Firecrawl collected public storefront evidence. Shopify admin access is not confirmed."
+    },
+    "primary_business_goal": {
+      "confidence": "low",
+      "field_id": "primary_business_goal",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "brand_dna_markdown",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "increase ecommerce sales",
+        "improve organic category and product discovery",
+        "support store and catalog discovery"
+      ]
+    },
+    "primary_conversion": {
+      "confidence": "medium",
+      "field_id": "primary_conversion",
+      "scope": "brand",
+      "source_ref": "https://inc5shop.com/",
+      "source_type": "firecrawl",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "product purchase",
+        "cart and checkout",
+        "account login",
+        "store locator use",
+        "order tracking",
+        "return or exchange",
+        "Club5 point check"
+      ]
+    },
+    "site_type": {
+      "confidence": "high",
+      "field_id": "site_type",
+      "scope": "brand",
+      "source_ref": "https://inc5shop.com/",
+      "source_type": "firecrawl",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "ecommerce storefront",
+        "fashion catalog",
+        "Shopify storefront",
+        "retail store locator",
+        "style and care blog"
+      ]
+    },
+    "target_audience": {
+      "confidence": "high",
+      "field_id": "target_audience",
+      "scope": "brand",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "firecrawl_plus_brand_dna",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": [
+        "women shopping for heels, transparent heels, sandals, mules, flats, ethnic footwear, boots, wedges, platform heels, pumps, comfort footwear, and bags",
+        "men shopping for driving shoes, formal shoes, sandals, slip-ons, boots, and large-size footwear",
+        "shoppers looking for handbags, sling bags, clutches, shoulder bags, wallets, backpacks, and party or everyday bags",
+        "Indian ecommerce shoppers comparing comfort, style, sizing, store access, delivery, returns, exchanges, and product care",
+        "existing and repeat customers using account history, order tracking, Club5 points, reviews, and promotional updates"
+      ]
+    },
+    "website_url": {
+      "confidence": "high",
+      "field_id": "website_url",
+      "scope": "brand",
+      "source_ref": "user request on 2026-07-09",
+      "source_type": "user_supplied",
+      "updated_at": "2026-07-09T19:05:27+05:30",
+      "value": "https://inc5shop.com"
+    }
+  },
+  "generated_at": "2026-07-09T19:05:27+05:30",
+  "open_questions": [
+    "Confirm exact brand hex values, typography, and canonical logo assets.",
+    "Confirm whether national India targeting, city-level store targeting, or both should lead SEO work.",
+    "Confirm whether Google Search Console, analytics, Shopify admin, Merchant Center, and product feed access are available.",
+    "Confirm product/category priorities before keyword research.",
+    "Confirm approved claims for comfort, craftsmanship, store count, retail partnerships, reviews, shipping, returns, and discounts.",
+    "Confirm competitor set from SERP, marketplaces, and internal brand context."
+  ],
+  "source_ref": "brands/inc5/brand-dna.md"
+}

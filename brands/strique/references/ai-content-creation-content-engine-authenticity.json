@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "claim": "The Strique keyword file includes high-priority commercial demand for ai content creation and supporting content creation terms.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_file"
+      ]
+    },
+    {
+      "claim": "Strique is positioned as an agentic AI marketing platform and AI marketing OS for growth teams, with content, SEO, reporting, scheduled automations, approval gates, and closed-loop measurement.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The URL inventory includes a content engine playbook at /playbooks/content-engine-in-a-week and existing posts that support the topic cluster.",
+      "claim_type": "site_evidence",
+      "source_ids": [
+        "url_inventory",
+        "content_engine_site_checks"
+      ]
+    },
+    {
+      "claim": "The content checklist requires purpose, search intent match, natural keyword coverage, evidence-backed claims, useful headings, internal links, structured data, conversion fit, and no AI slop.",
+      "claim_type": "editorial_standard",
+      "source_ids": [
+        "content_checklist"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T12:57:06+00:00",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "status": "draft",
+    "target": "brands/strique/blogs/drafts/ai-content-creation-content-engine.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports. The brand voice is direct, confident, operator-centric, and plain-spoken. PostHog is the product and behavioral analytics source, and Google Search Console is connected for search evidence."
+    },
+    {
+      "source_id": "keyword_file",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "The keyword file lists ai content creation with 18,100 directional monthly volume, ai tools for content creation with 1,900, ai content creation tools with 1,600, ai content generation with 1,600, and content automation platform with 590. These rows are high priority and mapped mainly to the product page."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io in the United States. It includes 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes the product page, the blog index, the content engine playbook at https://www.strique.io/playbooks/content-engine-in-a-week, the brand context extraction article, the closing the loop article, the what is an AI marketing agent article, and customer story pages."
+    },
+    {
+      "source_id": "content_engine_site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks for https://www.strique.io/playbooks/content-engine-in-a-week show crawl status 200, indexable yes, title present, meta description present, one H1, canonical match, sitemap inclusion yes, rendered public text available, content not AI slop, and supported rich result properties for BreadcrumbList and Organization."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content SEO checklist requires one primary purpose, search intent match, natural keyword and entity coverage, originality, evidence-backed claims, useful headings, readable language, useful media, internal links, structured data, conversion fit, and cleanup of generic AI-style copy."
+    },
+    {
+      "source_id": "existing_seo_automation_draft",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing SEO automation draft uses Strique's operator-centric voice and frames useful automation as a loop that audits, prioritizes, briefs, ships with approval, measures, and learns."
+    }
+  ]
+}

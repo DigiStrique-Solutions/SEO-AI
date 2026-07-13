@@ -1,0 +1,16 @@
+description: SEO content pipeline v2 behavioral release suite
+
+prompts:
+  - file://../../prompts/seo-content-v2.txt
+
+providers:
+  - id: openai:chat:${SEO_EVAL_MODEL}
+
+tests: file://promptfoo-cases.yaml
+
+defaultTest:
+  assert:
+    - type: javascript
+      value: file://assertions/no-process-language.js
+    - type: llm-rubric
+      value: The article is factual, specific, useful, brand-appropriate, structurally natural, and does not add unsupported claims.

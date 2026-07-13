@@ -1,0 +1,101 @@
+{
+  "claims": [
+    {
+      "claim": "The Strique keyword file includes best ai marketing tools, best ai tools for marketing, top ai marketing platforms, and ai marketing tools free as commercial comparison or product-oriented terms.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_rows"
+      ]
+    },
+    {
+      "claim": "This article is an evaluation framework based on declared criteria, not a ranked market list, and it does not claim Strique is objectively best or objectively top.",
+      "claim_type": "best_top",
+      "source_ids": [
+        "keyword_rows",
+        "content_checklist",
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "Strique is positioned around an agent-loop system for paid media, SEO, content, lifecycle, reporting, research, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The Strique URL inventory includes product, integrations, pricing, security, comparison, and AI marketing agent pages that are natural internal links for this evaluation article.",
+      "claim_type": "site_evidence",
+      "source_ids": [
+        "url_inventory"
+      ]
+    },
+    {
+      "claim": "The content checklist warns against unsupported best/top claims and requires useful criteria, evidence-backed claims, conversion fit, and no visible AI artifacts.",
+      "claim_type": "editorial_standard",
+      "source_ids": [
+        "content_checklist"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T00:00:00+00:00",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "status": "draft",
+    "target": "brands/strique/blogs/drafts/ai-marketing-tools-evaluation-framework.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. It runs one agent loop: plan the work, ship it, measure outcomes, and feed learnings into the next run. Product coverage includes paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and interactive Canvas reports. Brand values include measurable outcomes, closed-loop learning, human control for high-stakes actions, traceability, and practical autonomy."
+    },
+    {
+      "source_id": "keyword_rows",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "Keyword rows include best ai marketing tools mapped to comparison intent with directional volume 480, best ai tools for marketing mapped to comparison intent with directional volume 480, top ai marketing platforms mapped to comparison intent with directional volume 40, and ai marketing tools free mapped to product intent with directional volume 70."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io, target country United States, with 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes 63 public Strique URLs. Relevant pages include /product, /integrations, /pricing, /security, /vs, /blog/what-is-an-ai-marketing-agent, /blog/closing-the-loop, and customer pages."
+    },
+    {
+      "source_id": "site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks show public crawl evidence, rendered browser evidence, performance evidence, keyword demand evidence, keyword intent grouping, GSC SERP expectation evidence, and GSC measurement coverage. PostHog evidence is blocked in this artifact."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content checklist requires one primary purpose, search intent match, natural keyword coverage, originality, evidence, useful headings, direct language, internal links, structured data, conversion fit, AI search readiness, and no visible AI artifacts. It requires claims to be backed by evidence and flags generic best or top claims without criteria, tradeoffs, or evidence."
+    },
+    {
+      "source_id": "seo_automation_draft",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing SEO automation draft uses the same Strique agent-loop framing: audit, map, prioritize, brief, ship with approval, measure, and learn. It avoids unsupported platform ranking claims and uses recommended internal links plus schema guidance."
+    },
+    {
+      "source_id": "seo_automation_authenticity",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/references/seo-automation-agent-loop-authenticity.json",
+      "extracted_facts": "The existing authenticity log records the required content-seo-authenticity skill metadata, source-backed claims, detector_notes as an empty list, and the same brand, keyword, URL inventory, site checks, audit, and checklist source pattern used for Strique blog drafts."
+    }
+  ]
+}

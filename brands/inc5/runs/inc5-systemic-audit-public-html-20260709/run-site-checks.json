@@ -1,0 +1,7 @@
+{
+  "check_count": 521,
+  "fail_count": 54,
+  "ok": true,
+  "site_checks_json_path": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/site-checks.json",
+  "site_checks_path": "brands/inc5/exports/site-checks.csv"
+}

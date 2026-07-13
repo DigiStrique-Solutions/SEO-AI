@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strique.ai/schemas/seo-content-pipeline-v2.json",
+  "title": "Strique SEO Content Pipeline V2",
+  "type": "object",
+  "required": ["schema_version", "website", "target_reader", "primary_query", "search_intent", "article_type", "desired_action", "sources", "claims"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "website": {"type": "string", "format": "uri"},
+    "target_reader": {"type": "string", "minLength": 1},
+    "primary_query": {"type": "string", "minLength": 1},
+    "search_intent": {"enum": ["informational", "commercial", "transactional", "mixed"]},
+    "article_type": {"enum": ["explainer", "how_to", "comparison", "list", "mistake_guide", "buyer_guide", "case_study"]},
+    "desired_action": {"type": "string", "minLength": 1},
+    "existing_target_url": {"type": ["string", "null"], "format": "uri"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "source_type", "source_ref", "extracted_facts"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "source_type": {"type": "string", "minLength": 1},
+          "source_ref": {"type": "string", "minLength": 1},
+          "extracted_facts": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "verified_url": {"type": "boolean"},
+          "concrete_attributes": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "text", "claim_type", "source_ids"],
+        "properties": {
+          "claim_id": {"type": "string", "minLength": 1},
+          "text": {"type": "string", "minLength": 1},
+          "claim_type": {"type": "string", "minLength": 1},
+          "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "commercially_material": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "restricted_claims": {"type": "array", "items": {"type": "string"}},
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "description", "blocking"],
+        "properties": {
+          "evidence_id": {"type": "string"},
+          "description": {"type": "string"},
+          "blocking": {"type": "boolean"},
+          "needed_for_claim_ids": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "internal_links": {"type": "array", "items": {"type": "string", "format": "uri-reference"}},
+    "approved_questions": {"type": "array", "items": {"type": "string"}},
+    "structure": {
+      "type": "object",
+      "properties": {
+        "quick_answer_required": {"type": "boolean"},
+        "toc_required": {"type": "boolean"},
+        "faq_allowed": {"type": "boolean"},
+        "media_required": {"type": "boolean"},
+        "user_requested_toc": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "prompt_version": {"type": "string"},
+    "gate_version": {"type": "string"}
+  },
+  "additionalProperties": true
+}

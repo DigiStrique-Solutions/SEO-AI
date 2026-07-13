@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "dimensions": {
+    "factuality": {"min": 1, "max": 5},
+    "specificity": {"min": 1, "max": 5},
+    "usefulness": {"min": 1, "max": 5},
+    "brand_voice": {"min": 1, "max": 5},
+    "structure": {"min": 1, "max": 5},
+    "edit_effort": {"values": ["none", "minor", "major", "rewrite"]}
+  },
+  "acceptance": {
+    "fabricated_claim_check_pass_rate": 1.0,
+    "process_leak_check_pass_rate": 1.0,
+    "publishable_minor_edits_rate": 0.85,
+    "zerogpt_below_20_rate": 0.8,
+    "detector_failure_routing_rate": 1.0
+  }
+}

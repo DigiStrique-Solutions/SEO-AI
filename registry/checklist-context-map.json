@@ -6538,6 +6538,1724 @@
     {
       "blocked_status": "not_checked_blocked",
       "can_infer": true,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:authenticity-log"
+      ],
+      "item_id": "blog-article-completeness.1-frontmatter-and-serp-promise.dcdb98f4",
+      "item_text": "The draft has `title`, `meta_description`, `slug`, `primary_keyword`, and `intent` frontmatter.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "priority_queries"
+      ],
+      "requires": [
+        "priority_queries",
+        "search_intent"
+      ],
+      "section_id": "1-frontmatter-and-serp-promise",
+      "section_title": "1. Frontmatter And SERP Promise",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:authenticity-log"
+      ],
+      "item_id": "blog-article-completeness.1-frontmatter-and-serp-promise.6fabe5bc",
+      "item_text": "The title, H1, meta description, and slug make the same promise.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "1-frontmatter-and-serp-promise",
+      "section_title": "1. Frontmatter And SERP Promise",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:authenticity-log"
+      ],
+      "item_id": "blog-article-completeness.1-frontmatter-and-serp-promise.c07340f8",
+      "item_text": "The slug is lowercase, hyphenated, readable, and stable.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "1-frontmatter-and-serp-promise",
+      "section_title": "1. Frontmatter And SERP Promise",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": true,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:authenticity-log"
+      ],
+      "item_id": "blog-article-completeness.1-frontmatter-and-serp-promise.d7b48cf8",
+      "item_text": "The primary keyword in frontmatter matches the requested blog keyword.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "priority_queries"
+      ],
+      "requires": [
+        "priority_queries",
+        "search_intent"
+      ],
+      "section_id": "1-frontmatter-and-serp-promise",
+      "section_title": "1. Frontmatter And SERP Promise",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": true,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:authenticity-log"
+      ],
+      "item_id": "blog-article-completeness.1-frontmatter-and-serp-promise.4781ce88",
+      "item_text": "The meta description is specific, honest, and not stuffed with keywords.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "priority_queries"
+      ],
+      "requires": [
+        "priority_queries",
+        "search_intent"
+      ],
+      "section_id": "1-frontmatter-and-serp-promise",
+      "section_title": "1. Frontmatter And SERP Promise",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.2-trust-and-editorial-identity.227613c9",
+      "item_text": "The draft has `author` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "2-trust-and-editorial-identity",
+      "section_title": "2. Trust And Editorial Identity",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.2-trust-and-editorial-identity.5be306ef",
+      "item_text": "The draft has `updated_at` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "2-trust-and-editorial-identity",
+      "section_title": "2. Trust And Editorial Identity",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.2-trust-and-editorial-identity.6d7c00e1",
+      "item_text": "The update date reflects a meaningful content state, not fake freshness.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "2-trust-and-editorial-identity",
+      "section_title": "2. Trust And Editorial Identity",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.2-trust-and-editorial-identity.e4de04e1",
+      "item_text": "Expert, reviewer, or editor context is included when the topic requires trust.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "2-trust-and-editorial-identity",
+      "section_title": "2. Trust And Editorial Identity",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief"
+      ],
+      "item_id": "blog-article-completeness.3-above-the-fold-usefulness.7caa5228",
+      "item_text": "The body has exactly one H1.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "3-above-the-fold-usefulness",
+      "section_title": "3. Above-The-Fold Usefulness",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief"
+      ],
+      "item_id": "blog-article-completeness.3-above-the-fold-usefulness.e3721f91",
+      "item_text": "The opening section answers the main query without generic setup.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "3-above-the-fold-usefulness",
+      "section_title": "3. Above-The-Fold Usefulness",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief"
+      ],
+      "item_id": "blog-article-completeness.3-above-the-fold-usefulness.771e2be7",
+      "item_text": "The draft includes `## TLDR` or `## Quick Answer` near the top.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "3-above-the-fold-usefulness",
+      "section_title": "3. Above-The-Fold Usefulness",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief"
+      ],
+      "item_id": "blog-article-completeness.3-above-the-fold-usefulness.b227cd39",
+      "item_text": "The draft avoids broad filler before the useful answer.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "3-above-the-fold-usefulness",
+      "section_title": "3. Above-The-Fold Usefulness",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.4-structure-and-navigation.416c2e2d",
+      "item_text": "H2 and H3 headings form a logical outline.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "platform_constraints"
+      ],
+      "requires": [
+        "platform_constraints",
+        "current_pain"
+      ],
+      "section_id": "4-structure-and-navigation",
+      "section_title": "4. Structure And Navigation",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.4-structure-and-navigation.bbe9d5b3",
+      "item_text": "A `## Table of Contents` section with anchor links exists when the article has four or more H2 sections.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope",
+        "platform_constraints"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work",
+        "platform_constraints",
+        "current_pain"
+      ],
+      "section_id": "4-structure-and-navigation",
+      "section_title": "4. Structure And Navigation",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.4-structure-and-navigation.20179e09",
+      "item_text": "The table of contents links match real sections.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope",
+        "platform_constraints"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work",
+        "platform_constraints",
+        "current_pain"
+      ],
+      "section_id": "4-structure-and-navigation",
+      "section_title": "4. Structure And Navigation",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.4-structure-and-navigation.6a1fc072",
+      "item_text": "Long sections are broken with lists, examples, tables, or short paragraphs.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "platform_constraints"
+      ],
+      "requires": [
+        "platform_constraints",
+        "current_pain"
+      ],
+      "section_id": "4-structure-and-navigation",
+      "section_title": "4. Structure And Navigation",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.4-structure-and-navigation.8e3e52fb",
+      "item_text": "Paragraphs stay readable on mobile.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "platform_constraints"
+      ],
+      "requires": [
+        "platform_constraints",
+        "current_pain"
+      ],
+      "section_id": "4-structure-and-navigation",
+      "section_title": "4. Structure And Navigation",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.5-media-and-explanation-assets.a71a1d87",
+      "item_text": "The draft has `hero_image` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "5-media-and-explanation-assets",
+      "section_title": "5. Media And Explanation Assets",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.5-media-and-explanation-assets.025d2c38",
+      "item_text": "The draft has `hero_image_alt` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "5-media-and-explanation-assets",
+      "section_title": "5. Media And Explanation Assets",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.5-media-and-explanation-assets.365d9cea",
+      "item_text": "Images, tables, video, screenshots, or examples help the reader understand the topic.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "5-media-and-explanation-assets",
+      "section_title": "5. Media And Explanation Assets",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.5-media-and-explanation-assets.e49b14af",
+      "item_text": "Informative images have useful alt text.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "5-media-and-explanation-assets",
+      "section_title": "5. Media And Explanation Assets",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.5-media-and-explanation-assets.353c2057",
+      "item_text": "Media claims are backed by source evidence when they show products, results, rankings, or comparisons.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims"
+      ],
+      "section_id": "5-media-and-explanation-assets",
+      "section_title": "5. Media And Explanation Assets",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:authenticity-log",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.6-source-evidence-and-claims.bda1275a",
+      "item_text": "The authenticity log has at least one concrete source.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims"
+      ],
+      "section_id": "6-source-evidence-and-claims",
+      "section_title": "6. Source Evidence And Claims",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:authenticity-log",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.6-source-evidence-and-claims.33df3457",
+      "item_text": "Product, ranking, comparison, price, performance, comfort, material, and customer claims are backed by source evidence.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy",
+        "ecommerce_context"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims",
+        "ecommerce_platform",
+        "catalog_source_of_truth",
+        "priority_product_groups"
+      ],
+      "section_id": "6-source-evidence-and-claims",
+      "section_title": "6. Source Evidence And Claims",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:authenticity-log",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.6-source-evidence-and-claims.0dd46330",
+      "item_text": "`best`, `top`, `leading`, and superiority claims have explicit claim records.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy",
+        "primary_conversion"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims",
+        "primary_conversion"
+      ],
+      "section_id": "6-source-evidence-and-claims",
+      "section_title": "6. Source Evidence And Claims",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:authenticity-log",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.6-source-evidence-and-claims.ff6ec1da",
+      "item_text": "External citations point to useful sources when public evidence is needed.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy",
+        "ai_search_scope"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims",
+        "ai_target_platforms",
+        "ai_prompt_set",
+        "ai_visibility_goal"
+      ],
+      "section_id": "6-source-evidence-and-claims",
+      "section_title": "6. Source Evidence And Claims",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:authenticity-log",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.6-source-evidence-and-claims.7ef89a28",
+      "item_text": "Missing evidence is labeled as a blocker, not smoothed over in copy.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "claims_policy"
+      ],
+      "requires": [
+        "approved_claims",
+        "restricted_claims"
+      ],
+      "section_id": "6-source-evidence-and-claims",
+      "section_title": "6. Source Evidence And Claims",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.7-internal-discovery.57192a26",
+      "item_text": "The article links to at least one relevant internal page.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work"
+      ],
+      "section_id": "7-internal-discovery",
+      "section_title": "7. Internal Discovery",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.7-internal-discovery.8661913e",
+      "item_text": "Internal links use descriptive anchor text.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work"
+      ],
+      "section_id": "7-internal-discovery",
+      "section_title": "7. Internal Discovery",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.7-internal-discovery.89c69122",
+      "item_text": "The article links to relevant parent, child, sibling, product, offer, or support pages.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work"
+      ],
+      "section_id": "7-internal-discovery",
+      "section_title": "7. Internal Discovery",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.7-internal-discovery.624c8b28",
+      "item_text": "The article includes a `## Related Reading` section with useful links.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work"
+      ],
+      "section_id": "7-internal-discovery",
+      "section_title": "7. Internal Discovery",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.7-internal-discovery.77daa490",
+      "item_text": "Related links are topical, not random archive filler.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "off_page_scope"
+      ],
+      "requires": [
+        "off_page_goal",
+        "off_page_risk_posture",
+        "past_link_work"
+      ],
+      "section_id": "7-internal-discovery",
+      "section_title": "7. Internal Discovery",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.8-conversion-path.ed5ca850",
+      "item_text": "The draft has `cta` frontmatter.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "primary_conversion"
+      ],
+      "requires": [
+        "primary_conversion"
+      ],
+      "section_id": "8-conversion-path",
+      "section_title": "8. Conversion Path",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.8-conversion-path.ac6f15e0",
+      "item_text": "The article includes a `## Next Step` section.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "primary_conversion"
+      ],
+      "requires": [
+        "primary_conversion"
+      ],
+      "section_id": "8-conversion-path",
+      "section_title": "8. Conversion Path",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.8-conversion-path.744c3d81",
+      "item_text": "The CTA or lead magnet fits the reader stage and article intent.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "primary_conversion"
+      ],
+      "requires": [
+        "primary_conversion"
+      ],
+      "section_id": "8-conversion-path",
+      "section_title": "8. Conversion Path",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "manual:brief",
+        "manual:human-context"
+      ],
+      "item_id": "blog-article-completeness.8-conversion-path.d20b84a2",
+      "item_text": "The CTA does not interrupt before the article earns the ask.",
+      "on_missing": "ask",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [
+        "primary_conversion"
+      ],
+      "requires": [
+        "primary_conversion"
+      ],
+      "section_id": "8-conversion-path",
+      "section_title": "8. Conversion Path",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:brief",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.9-faq-decision.6573b04c",
+      "item_text": "A `## FAQ` section exists when the brief, SERP notes, or People Also Ask research says FAQ is useful.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "9-faq-decision",
+      "section_title": "9. FAQ Decision",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:brief",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.9-faq-decision.8b292d7f",
+      "item_text": "FAQ answers are short, source-backed, and not duplicated from the main body.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "9-faq-decision",
+      "section_title": "9. FAQ Decision",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:brief",
+        "manual:markdown"
+      ],
+      "item_id": "blog-article-completeness.9-faq-decision.3b9a93fd",
+      "item_text": "FAQ is skipped when it would only add filler.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "9-faq-decision",
+      "section_title": "9. FAQ Decision",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.10-schema-and-publishing-metadata.8d6e90da",
+      "item_text": "The draft has `article_schema: true` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "10-schema-and-publishing-metadata",
+      "section_title": "10. Schema And Publishing Metadata",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.10-schema-and-publishing-metadata.ef0e0cc0",
+      "item_text": "The draft has `breadcrumb_schema: true` frontmatter.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "10-schema-and-publishing-metadata",
+      "section_title": "10. Schema And Publishing Metadata",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.10-schema-and-publishing-metadata.50bab51a",
+      "item_text": "Article schema fields match visible title, author, update date, and hero image.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "10-schema-and-publishing-metadata",
+      "section_title": "10. Schema And Publishing Metadata",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.10-schema-and-publishing-metadata.604b4f26",
+      "item_text": "Breadcrumb schema matches visible breadcrumb hierarchy after publishing.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "10-schema-and-publishing-metadata",
+      "section_title": "10. Schema And Publishing Metadata",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": false,
+      "checklist_id": "blog-article-completeness",
+      "checklist_title": "Blog Article Completeness Checklist",
+      "evidence_sources": [
+        "manual:markdown",
+        "playwright"
+      ],
+      "item_id": "blog-article-completeness.10-schema-and-publishing-metadata.a4885ad0",
+      "item_text": "Post-publish rendered checks use `collect-site-evidence` and `run-site-checks`.",
+      "on_missing": "evidence",
+      "preferred_source_order": [
+        "run_context",
+        "brand_dna",
+        "brand_answers",
+        "connector",
+        "crawl",
+        "prompt_capture",
+        "safe_inference",
+        "hitl"
+      ],
+      "question_ids": [],
+      "requires": [],
+      "section_id": "10-schema-and-publishing-metadata",
+      "section_title": "10. Schema And Publishing Metadata",
+      "used_for": [
+        "audit",
+        "strategy",
+        "content",
+        "media_plan",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "blocked_status": "not_checked_blocked",
+      "can_infer": true,
       "checklist_id": "content-seo",
       "checklist_title": "Content SEO Checklist",
       "evidence_sources": [
@@ -67159,7 +68877,7 @@
       ]
     }
   ],
-  "generated_at": "2026-06-30T19:36:49+00:00",
-  "item_count": 1418,
+  "generated_at": "2026-07-09T15:44:35+00:00",
+  "item_count": 1463,
   "source": "docs/checklists"
 }

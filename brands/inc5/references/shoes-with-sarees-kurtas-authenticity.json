@@ -1,0 +1,39 @@
+{
+  "claims": [],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T16:11:12+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/inc5/blogs/drafts/shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Inc5 is an Indian fashion footwear and bags brand with ecommerce and offline retail presence. Brand context supports practical category-led advice for women's footwear, comfort, craftsmanship, contemporary design, online shopping, stores, care, delivery, returns, and exchanges.",
+      "source_id": "inc5-brand-dna",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant high-priority India keywords include ethnic footwear for women with GKP volume 3600 and GSC visibility for https://inc5shop.com/collections/ethnic-footwear; party wear sandals for women with GKP volume 14800 and GSC visibility for women's sandals; bridal sandals with GKP volume 12100; wedding shoes for women with GKP volume 9900; golden heels with GKP volume 9900; heel sandals for women with GKP volume 33100; and sandals for women with GKP volume 201000.",
+      "source_id": "inc5-ethnic-festive-keywords",
+      "source_ref": "brands/inc5/keywords/keywords.csv",
+      "source_type": "gsc"
+    },
+    {
+      "extracted_facts": "Inc5 navigation and crawl evidence includes collection paths for women's heels, transparent heels, sandals, mules, flats, ethnic footwear, boots, wedges, platform heels, pumps, comfort footwear, and all women's footwear. These paths support internal links used in the festive outfit draft.",
+      "source_id": "inc5-festive-collection-paths",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/blog.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "YouTube search evidence for shoes to wear with sarees in India indicates audience interest in specific outfit-led footwear advice for sarees, comfort, and styling. Used only as topic-angle evidence, not as product, ranking, comfort, or medical proof.",
+      "source_id": "youtube-saree-shoe-angle",
+      "source_ref": "https://www.youtube.com/watch?v=XJLQB8hPIIA",
+      "source_type": "youtube_video"
+    }
+  ]
+}

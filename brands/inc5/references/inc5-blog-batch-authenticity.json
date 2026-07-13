@@ -1,0 +1,119 @@
+{
+  "claims": [
+    {
+      "claim": "Inc5 is an Indian fashion footwear and bags brand with ecommerce and offline retail presence.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "Inc5 public navigation includes women's heels, transparent heels, sandals, mules, flats, ethnic footwear, boots, wedges, platform heels, pumps, comfort footwear, men's sandals, men's formal shoes, men's driving shoes, handbags, sling bags, clutch bags, shoulder bags, wallets, and backpacks.",
+      "claim_type": "site_evidence",
+      "source_ids": [
+        "brand_dna",
+        "public_crawl"
+      ]
+    },
+    {
+      "claim": "Keyword demand for the selected Inc5 blog set is supported by Google Search Console and Google Ads Keyword Planner evidence in the Inc5 keyword universe.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_universe",
+        "ranking_summary"
+      ]
+    },
+    {
+      "claim": "The Inc5 content audit requires direct intent match, one clear H1, useful headings, source-backed claims, product-specific details, internal links, image alt text, and no unsupported best or top claims.",
+      "claim_type": "content_quality",
+      "source_ids": [
+        "content_audit",
+        "generic_audit"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/inc5/blogs/drafts/inc5-blog-batch"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "extracted_facts": "Inc5 is an Indian fashion footwear and bags brand with ecommerce and offline retail presence. The public storefront positions Inc5 around comfort, craftsmanship, contemporary design, accessible premium footwear and bags, care guidance, store discovery, order tracking, returns, exchanges, and Club5 points. The preferred tone is retail-focused, direct, category-led, practical, and product-specific."
+    },
+    {
+      "source_id": "keyword_universe",
+      "source_type": "gsc",
+      "source_ref": "brands/inc5/exports/keyword-universe.csv",
+      "extracted_facts": "The keyword universe includes GSC and Keyword Planner demand for shoes for women, heels for women, sandals for women, sandals for men, boots for women, flats for women, footwear for women, wedges for women, formal shoes for women, black heels for women, block heels for women, platform heels for women, transparent heels, flat slippers for women, party wear sandals for women, comfortable heels for women, casual flats for women, shoulder bags for women, and related India queries."
+    },
+    {
+      "source_id": "ranking_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/inc5/references/prioritized-keyword-ranking-summary.json",
+      "extracted_facts": "The long-range GSC summary shows large visibility opportunities in India: heels for women with 2,276,047 impressions at average position 6.72, sandals for women with 1,783,821 impressions at 5.81, flats for women with 1,493,009 impressions at 6.85, boots for women with 894,452 impressions at 8.11, and wedges for women with 411,649 impressions at 5.15."
+    },
+    {
+      "source_id": "current_ranking_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/inc5/references/prioritized-keyword-current-ranking-summary.json",
+      "extracted_facts": "The recent GSC summary covers June 9, 2026 to July 6, 2026 and highlights current India opportunities including casual flats for women, branded sandals for women, comfortable footwear for ladies, comfortable heels, and formal heels."
+    },
+    {
+      "source_id": "public_crawl",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/",
+      "extracted_facts": "Firecrawl evidence includes public pages for homepage, about us, women footwear, men footwear, all bags, care instructions, FAQ, store locator, contact page, and blog. The public navigation exposes category paths for women's heels, transparent heels, sandals, mules, flats, ethnic footwear, boots, wedges, platform heels, pumps, comfort footwear, men's driving shoes, formal shoes, sandals, slip-ons, boots, large size footwear, sling bags, clutch bags, shoulder bags, wallets, backpacks, clearance, order tracking, care tips, and social profiles."
+    },
+    {
+      "source_id": "blog_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/blog.json",
+      "extracted_facts": "Existing Inc5 blog coverage includes monsoon footwear and care, men's sandals outfit guide, types of heels, transparent heels, slip-on shoes for men, wedges for college girls, men's sandal strap styles, black heels outfit ideas, college footwear and bags, flats, men's formal shoes, women's sandals, shoulder bags, sling bags, clutch bags, handbags, platform versus pumps, jeans styling, Diwali footwear, Navratri flats, women's college and office footwear, women's boots, and sling bags versus wallets."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory confirms public crawlable Inc5 URLs and collection or product page evidence. It also shows recurring SEO issues such as repeated title text, pages with two H1s, missing image alt text on product media, and product schema on sampled product pages."
+    },
+    {
+      "source_id": "content_audit",
+      "source_type": "human_context",
+      "source_ref": "brands/inc5/audits/content-seo-google-visible-audit.json",
+      "extracted_facts": "The content SEO audit found that Inc5 pages need clearer H1 handling, useful headings, stronger source-backed content, media support, semantic tables and lists, image alt text, unique title and meta descriptions, structured data matching visible content, and improved content refresh workflows."
+    },
+    {
+      "source_id": "generic_audit",
+      "source_type": "human_context",
+      "source_ref": "brands/inc5/audits/generic-on-page-google-visible-audit.json",
+      "extracted_facts": "The generic on-page audit found template-level gaps around unique titles, one visible H1, meta descriptions, image alt text, schema, rendered evidence, and page experience checks. Drafts should avoid unsupported claims and use clear page identity."
+    },
+    {
+      "source_id": "care_page",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/care-instructions.json",
+      "extracted_facts": "Inc5 has a public care instructions page and public navigation to care tips. Care advice in content should stay practical and avoid unsupported material-specific promises unless the product page confirms the material."
+    },
+    {
+      "source_id": "faq_page",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/faq.json",
+      "extracted_facts": "Inc5 has public FAQ support content for account, order, payment, shipping, return, refund, and exchange questions. Blog content can point shoppers to product pages, FAQ, order tracking, and customer support instead of inventing policy details."
+    },
+    {
+      "source_id": "store_locator",
+      "source_type": "product_page",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/store-locator.json",
+      "extracted_facts": "Inc5 has a public store locator. Blog content may mention online shopping and store discovery, but city-specific availability should not be claimed without store-level evidence."
+    }
+  ]
+}

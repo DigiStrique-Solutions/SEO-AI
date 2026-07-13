@@ -1,0 +1,38 @@
+{
+  "blockers": [],
+  "brand_dir": "brands/inc5",
+  "brand_name": "Inc5",
+  "counts": {
+    "deduped_universe_rows": 740,
+    "existing_keywords": 0,
+    "gsc_rows": 500,
+    "keyword_planner_rows": 500,
+    "prioritized_rows": 150
+  },
+  "date_range": {
+    "end_date": "2026-07-06",
+    "start_date": "2025-03-13"
+  },
+  "generated_at": "2026-07-09T14:15:28+00:00",
+  "gsc_available_properties": [
+    "https://strique.io/",
+    "https://inc5shop.com/",
+    "https://www.strique.io/",
+    "https://www.imeuswe.in/"
+  ],
+  "gsc_property": "https://inc5shop.com/",
+  "language": "languageConstants/1000",
+  "sources": {
+    "gsc": {
+      "row_count": 500,
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY"
+    },
+    "keyword_planner": {
+      "endpoint": "https://googleads.googleapis.com/v23/customers/2706929964:generateKeywordIdeas",
+      "row_count": 500
+    }
+  },
+  "target_country": "India",
+  "target_country_source": "cli",
+  "website_url": "https://inc5shop.com"
+}

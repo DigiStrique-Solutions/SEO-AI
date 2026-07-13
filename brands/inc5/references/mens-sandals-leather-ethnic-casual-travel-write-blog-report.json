@@ -1,0 +1,234 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "examples": [
+            "Men's Sandals That Actually Look Good: Leather, Ethnic, Casual and Travel Styles A sandal ",
+            "A rugged travel sandal may feel secure on a long walk, but look heavy under narrow trouser",
+            "TLDR What you are wearing Sandal style to try What to check --- --- --- Jeans or chinos Wo",
+            "Choose a separate travel pair if your itinerary includes hours of walking.",
+            "Table of Contents Start With Shape, Not Hype Pick The Style For The Clothes And The Day Ho"
+          ],
+          "rate": 0.36
+        },
+        "name": "high_advice_sentence_density",
+        "points": 9.28
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 9.28,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1728
+  },
+  "authenticity_errors": [],
+  "blog_components": {
+    "external_link_count": 0,
+    "faq_required": false,
+    "frontmatter": {
+      "article_schema": true,
+      "author": "Inc5 Editorial Team",
+      "breadcrumb_schema": true,
+      "cta": "Shop Inc5 men's sandals",
+      "hero_image": "https://inc5shop.com/cdn/shop/articles/sandals-for-men-what-works-with-shorts-jeans-ethnic-wear_Blog-4.jpg?v=1780123850&width=1100",
+      "hero_image_alt": "Men's sandals styled with casual and ethnic outfits",
+      "intent": "commercial informational",
+      "meta_description": "Find sandals for men that suit jeans, kurtas, shorts and travel. Compare leather, ethnic, casual and walking styles, plus fit and care tips.",
+      "primary_keyword": "sandals for men",
+      "related_posts": [
+        "leather-sandals-for-men-style-fit-guide"
+      ],
+      "slug": "best-sandals-for-men-outfit-guide",
+      "title": "Men's Sandals That Actually Look Good: Leather, Ethnic, Casual and Travel Styles",
+      "updated_at": "2026-07-10"
+    },
+    "h1s": [
+      "Men's Sandals That Actually Look Good: Leather, Ethnic, Casual and Travel Styles"
+    ],
+    "h2_count": 8,
+    "h2s": [
+      "TLDR",
+      "Table of Contents",
+      "Start With Shape, Not Hype",
+      "Pick The Style For The Clothes And The Day",
+      "How Men's Sandals Should Fit",
+      "Outfit Formulas And Care",
+      "FAQ",
+      "Related Reading",
+      "Next Step"
+    ],
+    "has_faq": true,
+    "has_next_step": true,
+    "has_related_reading": true,
+    "has_supporting_media": true,
+    "has_tldr": true,
+    "has_toc": true,
+    "image_count": 0,
+    "internal_link_count": 8,
+    "long_mobile_paragraph_count": 0,
+    "primary_keyword_matches": true,
+    "related_link_count": 2,
+    "toc_anchor_count": 5,
+    "toc_required": true
+  },
+  "component_checks": [
+    {
+      "check_id": "frontmatter_title",
+      "next_action": "",
+      "result": "title is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_meta_description",
+      "next_action": "",
+      "result": "meta_description is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_slug",
+      "next_action": "",
+      "result": "slug is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_primary_keyword",
+      "next_action": "",
+      "result": "primary_keyword is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_intent",
+      "next_action": "",
+      "result": "intent is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_author",
+      "next_action": "",
+      "result": "author is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_updated_at",
+      "next_action": "",
+      "result": "updated_at is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_hero_image",
+      "next_action": "",
+      "result": "hero_image is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_hero_image_alt",
+      "next_action": "",
+      "result": "hero_image_alt is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_cta",
+      "next_action": "",
+      "result": "cta is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_related_posts",
+      "next_action": "",
+      "result": "related_posts is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_article_schema",
+      "next_action": "",
+      "result": "article_schema is True.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_breadcrumb_schema",
+      "next_action": "",
+      "result": "breadcrumb_schema is True.",
+      "status": "pass"
+    },
+    {
+      "check_id": "slug_clean",
+      "next_action": "",
+      "result": "Slug is best-sandals-for-men-outfit-guide.",
+      "status": "pass"
+    },
+    {
+      "check_id": "primary_keyword_matches_request",
+      "next_action": "",
+      "result": "Frontmatter primary_keyword was compared with the requested keyword.",
+      "status": "pass"
+    },
+    {
+      "check_id": "single_h1",
+      "next_action": "",
+      "result": "1 H1 headings found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "quick_answer_or_tldr",
+      "next_action": "",
+      "result": "TLDR or Quick Answer section is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "table_of_contents",
+      "next_action": "",
+      "result": "5 TOC anchor links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "supporting_media",
+      "next_action": "",
+      "result": "Hero image, body image, video, or table support was found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "internal_links",
+      "next_action": "",
+      "result": "8 internal links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "related_reading",
+      "next_action": "",
+      "result": "2 related reading links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "next_step_cta",
+      "next_action": "",
+      "result": "Next Step section and frontmatter CTA were checked.",
+      "status": "pass"
+    },
+    {
+      "check_id": "faq_when_required",
+      "next_action": "",
+      "result": "FAQ was not required by the brief.",
+      "status": "pass"
+    },
+    {
+      "check_id": "mobile_readability",
+      "next_action": "",
+      "result": "0 long paragraphs found.",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "ok": true,
+  "paths": {
+    "authenticity": "brands/inc5/references/mens-sandals-leather-ethnic-casual-travel-authenticity.json",
+    "brand_dir": "brands/inc5",
+    "brief_file": "brands/inc5/blogs/briefs/mens-sandals-leather-ethnic-casual-travel-styles.md",
+    "content_output": "brands/inc5/blogs/published/mens-sandals-leather-ethnic-casual-travel-styles.md",
+    "draft_file": "brands/inc5/blogs/drafts/mens-sandals-leather-ethnic-casual-travel-styles.md",
+    "run_id": "inc5-mens-sandals-styles-20260710"
+  },
+  "written": true,
+  "youtube_intake_errors": []
+}

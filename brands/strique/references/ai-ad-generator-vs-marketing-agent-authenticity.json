@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "created_at": "2026-07-09T00:00:00+00:00",
+    "target": "brands/strique/blogs/drafts/ai-ad-generator-vs-marketing-agent.md",
+    "status": "draft",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports. Brand voice is direct, confident, operator-centric, and plain-spoken."
+    },
+    {
+      "source_id": "keywords",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "The keyword file maps ai ad generator, ai advertisement generator, ai generated advertising, ai ad maker, and ai ad creator to commercial product intent for Strique. The same file maps ai marketing agent to commercial product intent."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io, target country United States, with 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes public Strique blog coverage for AI ad analytics, AI ad optimization, reducing CAC with AI, and what an AI marketing agent is. The inventory also includes the product, integrations, customers, and comparison pages as internal link targets."
+    },
+    {
+      "source_id": "site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks show public crawl evidence, rendered browser evidence, performance evidence, keyword demand evidence, and GSC measurement coverage are available. PostHog evidence is blocked in this artifact."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content checklist requires a clear page purpose, search intent match, useful headings, evidence-backed claims, natural keyword coverage, internal links, structured data, conversion fit, and cleanup of generic AI-style writing."
+    },
+    {
+      "source_id": "seo_automation_example",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing Strique blog draft uses the agent-loop framing: audit, map, prioritize, brief, ship with approval, measure, and learn. It positions Strique around fewer handoffs and more marketing work moving from insight to outcome."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The Strique keyword file maps ai ad generator and related ad-generation terms to commercial product intent.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keywords",
+        "keyword_summary"
+      ]
+    },
+    {
+      "claim": "The public Strique inventory already includes adjacent blog coverage for AI ad analytics, AI ad optimization, CAC reduction, and AI marketing agents.",
+      "claim_type": "site_context",
+      "source_ids": [
+        "url_inventory"
+      ]
+    },
+    {
+      "claim": "Strique is positioned around a marketing loop that covers paid media, generative content, approval gates, reporting, closed-loop measurement, reusable skills, persistent memory, and Canvas reports.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The draft should avoid unsupported performance numbers, fake customer quotes, generic tool rankings, and unsourced superiority claims.",
+      "claim_type": "editorial_rule",
+      "source_ids": [
+        "content_checklist",
+        "site_checks"
+      ]
+    },
+    {
+      "claim": "The agent-loop framing in this draft is consistent with the existing Strique SEO automation blog pattern.",
+      "claim_type": "editorial_context",
+      "source_ids": [
+        "seo_automation_example"
+      ]
+    }
+  ],
+  "detector_notes": []
+}

@@ -114,6 +114,37 @@ optional arguments:
 
 When `--rewrite-file` is present, output includes an `ai_text_risk` report with the local score and blocking signals.
 
+## verify-content-batch
+
+Purpose: Check a group of drafts for batch-level AI-pattern and specificity risk.
+
+```text
+usage: seo_audit_harness.py verify-content-batch [-h]
+                                                 --authenticity AUTHENTICITY
+                                                 --draft-file DRAFT_FILE
+                                                 [--max-ai-detector-score MAX_AI_DETECTOR_SCORE]
+                                                 [--max-template-similarity-score MAX_TEMPLATE_SIMILARITY_SCORE]
+                                                 [--min-brand-specificity-score MIN_BRAND_SPECIFICITY_SCORE]
+                                                 [--output OUTPUT]
+
+options:
+  -h, --help            show this help message and exit
+  --authenticity AUTHENTICITY
+  --draft-file DRAFT_FILE
+                        Draft Markdown file to verify. Repeat for multiple
+                        files.
+  --max-ai-detector-score MAX_AI_DETECTOR_SCORE
+                        Maximum recorded detector or local AI-pattern risk
+                        score allowed before verification fails.
+  --max-template-similarity-score MAX_TEMPLATE_SIMILARITY_SCORE
+                        Maximum batch outline similarity score allowed before
+                        verification fails.
+  --min-brand-specificity-score MIN_BRAND_SPECIFICITY_SCORE
+                        Minimum product or brand specificity score required
+                        for each draft.
+  --output OUTPUT       Output batch verification JSON path
+```
+
 ## write-content
 
 Purpose: Write publishable content only when the authenticity gate passes.
@@ -134,6 +165,112 @@ optional arguments:
                         Maximum recorded detector or local AI-pattern risk
                         score allowed before writing content.
   --output OUTPUT       Output write report JSON path
+```
+
+## record-authenticity-source
+
+Purpose: Add a concrete source and optional claim to an authenticity log.
+
+```text
+usage: seo_audit_harness.py record-authenticity-source [-h] --authenticity
+                                                       AUTHENTICITY --source-id
+                                                       SOURCE_ID --source-type
+                                                       SOURCE_TYPE --source-ref
+                                                       SOURCE_REF
+                                                       --extracted-facts
+                                                       EXTRACTED_FACTS
+                                                       [--claim CLAIM]
+                                                       [--claim-type CLAIM_TYPE]
+                                                       [--source-id-for-claim SOURCE_ID_FOR_CLAIM]
+                                                       [--output OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --authenticity AUTHENTICITY
+  --source-id SOURCE_ID
+  --source-type SOURCE_TYPE
+  --source-ref SOURCE_REF
+  --extracted-facts EXTRACTED_FACTS
+  --claim CLAIM
+  --claim-type CLAIM_TYPE
+  --source-id-for-claim SOURCE_ID_FOR_CLAIM
+  --output OUTPUT       Output recording JSON path
+```
+
+## write-blog
+
+Purpose: Write a blog only after blog structure and authenticity gates pass.
+
+```text
+usage: seo_audit_harness.py write-blog [-h] --brand-dir BRAND_DIR --keyword
+                                       KEYWORD --draft-file DRAFT_FILE
+                                       --content-output CONTENT_OUTPUT
+                                       --authenticity AUTHENTICITY
+                                       [--run-id RUN_ID]
+                                       [--brief-file BRIEF_FILE]
+                                       [--max-ai-detector-score MAX_AI_DETECTOR_SCORE]
+                                       [--output OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --brand-dir BRAND_DIR
+  --keyword KEYWORD
+  --draft-file DRAFT_FILE
+  --content-output CONTENT_OUTPUT
+  --authenticity AUTHENTICITY
+  --run-id RUN_ID
+  --brief-file BRIEF_FILE
+  --max-ai-detector-score MAX_AI_DETECTOR_SCORE
+                        Maximum recorded detector or local AI-pattern risk
+                        score allowed before writing content.
+  --output OUTPUT       Output blog write report JSON path
+```
+
+## ingest-content-source
+
+Purpose: Convert an approved content source into source-backed evidence for content briefs.
+
+```text
+usage: seo_audit_harness.py ingest-content-source [-h] --brand-dir BRAND_DIR
+                                                  --source {youtube} --url URL
+                                                  --run-id RUN_ID
+                                                  [--learnings-root LEARNINGS_ROOT]
+                                                  [--allow-whisper]
+                                                  [--output OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --brand-dir BRAND_DIR
+  --source {youtube}
+  --url URL
+  --run-id RUN_ID
+  --learnings-root LEARNINGS_ROOT
+                        Path to the learnings-from-youtube repo.
+  --allow-whisper
+  --output OUTPUT       Output ingestion JSON path
+```
+
+## build-content-brief
+
+Purpose: Build a content brief from approved intake sources and update the authenticity log.
+
+```text
+usage: seo_audit_harness.py build-content-brief [-h] --brand-dir BRAND_DIR
+                                                --run-id RUN_ID --keyword KEYWORD
+                                                --target TARGET --authenticity
+                                                AUTHENTICITY --output OUTPUT
+                                                [--report-output REPORT_OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --brand-dir BRAND_DIR
+  --run-id RUN_ID
+  --keyword KEYWORD
+  --target TARGET
+  --authenticity AUTHENTICITY
+  --output OUTPUT       Output brief Markdown path
+  --report-output REPORT_OUTPUT
+                        Output command report JSON path
 ```
 
 ## firecrawl-scrape

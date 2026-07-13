@@ -1,0 +1,25 @@
+name: SEO content release gate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-evaluation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run deterministic harness tests
+        run: python -m unittest tests.test_seo_audit_harness
+      - name: Verify complete 40-case manual release corpus
+        run: python evals/seo-content-v2/release_gate.py
+      - name: Run 40-case behavioral generation suite
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SEO_EVAL_MODEL: ${{ vars.SEO_EVAL_MODEL }}
+        run: npx --yes promptfoo@latest eval -c evals/seo-content-v2/promptfooconfig.yaml

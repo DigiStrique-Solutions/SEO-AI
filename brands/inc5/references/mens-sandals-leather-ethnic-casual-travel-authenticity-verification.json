@@ -1,0 +1,28 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "examples": [
+            "Men's Sandals That Actually Look Good: Leather, Ethnic, Casual and Travel Styles A sandal ",
+            "A rugged travel sandal may feel secure on a long walk, but look heavy under narrow trouser",
+            "TLDR What you are wearing Sandal style to try What to check --- --- --- Jeans or chinos Wo",
+            "Choose a separate travel pair if your itinerary includes hours of walking.",
+            "Table of Contents Start With Shape, Not Hype Pick The Style For The Clothes And The Day Ho"
+          ],
+          "rate": 0.36
+        },
+        "name": "high_advice_sentence_density",
+        "points": 9.28
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 9.28,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1728
+  },
+  "errors": [],
+  "ok": true
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "created_at": "2026-07-09T00:00:00+00:00",
+    "target": "brands/strique/blogs/drafts/ecommerce-marketing-automation-agent-loop.md",
+    "status": "draft",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports. Primary audiences include ecommerce and DTC brands, D2C founders, marketing managers, CMOs, paid media specialists, freelancers, and agencies."
+    },
+    {
+      "source_id": "keywords",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "The keyword file maps ecommerce marketing automation, shopify marketing automation, ecommerce automation software, ecommerce marketing automation software, ecommerce marketing automation platform, ecommerce marketing automation tools, d2c marketing automation, and dtc marketing automation to commercial solutions intent for Strique."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io, target country United States, with 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes https://www.strique.io/solutions/ecommerce, the product page, integrations page, customer stories, Meta Ads from zero playbook, reduce CAC playbook, and AI ad optimization guide as relevant internal link targets."
+    },
+    {
+      "source_id": "site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks show public crawl evidence, rendered browser evidence, performance evidence, keyword demand evidence, and GSC measurement coverage are available. PostHog evidence is blocked in this artifact."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content checklist requires a clear page purpose, explicit audience, search intent match, natural keyword coverage, useful headings, evidence-backed claims, internal links, structured data, conversion fit, and cleanup of generic AI-style writing."
+    },
+    {
+      "source_id": "seo_automation_example",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing Strique blog draft uses the agent-loop framing: audit, map, prioritize, brief, ship with approval, measure, and learn. It positions Strique around fewer handoffs and more marketing work moving from insight to outcome."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The Strique keyword file maps ecommerce marketing automation and related ecommerce automation terms to commercial solutions intent.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keywords",
+        "keyword_summary"
+      ]
+    },
+    {
+      "claim": "Strique identifies ecommerce and DTC brands as a primary audience and has a dedicated ecommerce solutions URL in the public inventory.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna",
+        "url_inventory"
+      ]
+    },
+    {
+      "claim": "Strique is positioned around paid media, SEO, content, lifecycle, reporting, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The draft should avoid fake Shopify implementation claims, invented revenue numbers, unsupported conversion claims, and unverified customer proof.",
+      "claim_type": "editorial_rule",
+      "source_ids": [
+        "content_checklist",
+        "site_checks"
+      ]
+    },
+    {
+      "claim": "The agent-loop framing in this draft is consistent with the existing Strique SEO automation blog pattern.",
+      "claim_type": "editorial_context",
+      "source_ids": [
+        "seo_automation_example"
+      ]
+    }
+  ],
+  "detector_notes": []
+}

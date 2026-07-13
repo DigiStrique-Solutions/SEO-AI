@@ -1,0 +1,220 @@
+{
+  "ai_text_risk": {
+    "features": [],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 0.0,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1240
+  },
+  "authenticity_errors": [],
+  "blog_components": {
+    "external_link_count": 0,
+    "faq_required": false,
+    "frontmatter": {
+      "article_schema": true,
+      "author": "Inc5 Editorial Team",
+      "breadcrumb_schema": true,
+      "cta": "Shop Inc5 ethnic footwear for women",
+      "hero_image": "https://inc5shop.com/cdn/shop/articles/diwali-2025-outfits-guide-stylish-footwear_acbc02a7-7864-47a0-b313-c8df7ac0d6e7.jpg?v=1760699026&width=1200",
+      "hero_image_alt": "Festive Indian outfit styled with occasion footwear",
+      "intent": "informational",
+      "meta_description": "A practical Inc5 guide to ethnic footwear for women across sarees, kurtas, festive days, wedding functions, color, lift, and comfort.",
+      "primary_keyword": "ethnic footwear for women",
+      "related_posts": [
+        "7-heel-mistakes-that-make-outfits-hurt-or-look-off",
+        "comfortable-heels-for-women-walkable-guide",
+        "heels-for-women-types-height-comfort-guide"
+      ],
+      "slug": "shoes-to-wear-with-sarees-kurtas-indian-festive-outfits",
+      "title": "What Shoes To Wear With Sarees, Kurtas And Indian Festive Outfits",
+      "updated_at": "2026-07-09"
+    },
+    "h1s": [
+      "What Shoes To Wear With Sarees, Kurtas And Indian Festive Outfits"
+    ],
+    "h2_count": 8,
+    "h2s": [
+      "TLDR",
+      "Table of Contents",
+      "The Hem Comes First",
+      "Sarees Need Shoes That Respect The Drape",
+      "Kurtas Depend On The Bottom",
+      "Color, Surface And Long Functions",
+      "Related Reading",
+      "FAQ",
+      "Next Step"
+    ],
+    "has_faq": true,
+    "has_next_step": true,
+    "has_related_reading": true,
+    "has_supporting_media": true,
+    "has_tldr": true,
+    "has_toc": true,
+    "image_count": 0,
+    "internal_link_count": 18,
+    "long_mobile_paragraph_count": 0,
+    "primary_keyword_matches": true,
+    "related_link_count": 4,
+    "toc_anchor_count": 7,
+    "toc_required": true
+  },
+  "component_checks": [
+    {
+      "check_id": "frontmatter_title",
+      "next_action": "",
+      "result": "title is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_meta_description",
+      "next_action": "",
+      "result": "meta_description is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_slug",
+      "next_action": "",
+      "result": "slug is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_primary_keyword",
+      "next_action": "",
+      "result": "primary_keyword is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_intent",
+      "next_action": "",
+      "result": "intent is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_author",
+      "next_action": "",
+      "result": "author is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_updated_at",
+      "next_action": "",
+      "result": "updated_at is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_hero_image",
+      "next_action": "",
+      "result": "hero_image is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_hero_image_alt",
+      "next_action": "",
+      "result": "hero_image_alt is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_cta",
+      "next_action": "",
+      "result": "cta is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_related_posts",
+      "next_action": "",
+      "result": "related_posts is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_article_schema",
+      "next_action": "",
+      "result": "article_schema is True.",
+      "status": "pass"
+    },
+    {
+      "check_id": "frontmatter_breadcrumb_schema",
+      "next_action": "",
+      "result": "breadcrumb_schema is True.",
+      "status": "pass"
+    },
+    {
+      "check_id": "slug_clean",
+      "next_action": "",
+      "result": "Slug is shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.",
+      "status": "pass"
+    },
+    {
+      "check_id": "primary_keyword_matches_request",
+      "next_action": "",
+      "result": "Frontmatter primary_keyword was compared with the requested keyword.",
+      "status": "pass"
+    },
+    {
+      "check_id": "single_h1",
+      "next_action": "",
+      "result": "1 H1 headings found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "quick_answer_or_tldr",
+      "next_action": "",
+      "result": "TLDR or Quick Answer section is present.",
+      "status": "pass"
+    },
+    {
+      "check_id": "table_of_contents",
+      "next_action": "",
+      "result": "7 TOC anchor links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "supporting_media",
+      "next_action": "",
+      "result": "Hero image, body image, video, or table support was found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "internal_links",
+      "next_action": "",
+      "result": "18 internal links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "related_reading",
+      "next_action": "",
+      "result": "4 related reading links found.",
+      "status": "pass"
+    },
+    {
+      "check_id": "next_step_cta",
+      "next_action": "",
+      "result": "Next Step section and frontmatter CTA were checked.",
+      "status": "pass"
+    },
+    {
+      "check_id": "faq_when_required",
+      "next_action": "",
+      "result": "FAQ was not required by the brief.",
+      "status": "pass"
+    },
+    {
+      "check_id": "mobile_readability",
+      "next_action": "",
+      "result": "0 long paragraphs found.",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "ok": true,
+  "paths": {
+    "authenticity": "brands/inc5/references/shoes-with-sarees-kurtas-authenticity.json",
+    "brand_dir": "brands/inc5",
+    "brief_file": "brands/inc5/blogs/briefs/shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.md",
+    "content_output": "brands/inc5/blogs/published/shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.md",
+    "draft_file": "brands/inc5/blogs/drafts/shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.md",
+    "run_id": "inc5-saree-kurta-festive-shoes-20260709"
+  },
+  "written": true
+}

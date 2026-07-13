@@ -1,0 +1,42 @@
+{
+  "claims": [],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T16:36:48+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/inc5/blogs/drafts/office-footwear-for-women-india-low-heels-flats-wedges-formal-shoes.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Inc5 is an Indian fashion footwear and bags brand with ecommerce and offline retail context. Brand values include comfort, craftsmanship, contemporary design, product care, and category-led women's footwear guidance.",
+      "source_id": "inc5-brand-dna",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant India keyword demand includes formal shoes for women with GKP volume 40500, flats for women with GKP volume 90500 plus GSC visibility for the women's flats collection, wedges for women with GKP volume 40500 plus GSC visibility for the women's wedges collection, ladies formal shoes with GKP volume 14800, formal footwear for women with GKP volume 8100 plus GSC visibility for women-footwear, formal heels for women with GKP volume 6600 plus GSC visibility for women's heels, and office shoes women with GKP volume 5400.",
+      "source_id": "inc5-office-formal-keywords",
+      "source_ref": "brands/inc5/exports/prioritized-keyword-rankings.csv",
+      "source_type": "gsc"
+    },
+    {
+      "extracted_facts": "Inc5 women-footwear crawl evidence includes collection links for women's heels, women's sandals, women's mules, women's flats, ethnic footwear, women's boots, women's wedges, platform heels, pumps, comfort, and women-footwear. These paths support internal links used in the office footwear draft.",
+      "source_id": "inc5-office-collection-paths",
+      "source_ref": "brands/inc5/references/brand-dna-firecrawl-20260709T133500Z/women-footwear.json",
+      "source_type": "product_page"
+    },
+    {
+      "channel": "Topbestshoes - Buy best shoes",
+      "extracted_facts": "Transcript evidence: [00:00:00] Wearing a suit is all about power, [00:00:02] style, and confidence. But let's be [00:00:05] honest, choosing the right shoes to [00:00:07] match your suit, that's where most women [00:00:26] women's wedge heel formal shoes. These [00:00:29] shoes are the perfect balance between [00:01:09] lightweight clogs. Now, let's talk about [00:01:12] comfort. Like real comfort. These are [00:00:35] mix of loafers, moccasins, and pump [00:00:38] style bellies, this is your pick. [00:03:02] women's ethnic flat sandal shoe. And [00:03:05] here's the surprise, an ethnic flat [00:00:31] classy, comfortable, and professional. [00:00:34] If you want something that looks like a [00:00:56] great for office, presentations, [00:00:58] meetings, or daily wear. If your suit",
+      "local_artifact_dir": "/Users/poojan/Desktop/projects-new/strique/learnings-from-youtube/videos/JsP4cVVlBAg",
+      "source_id": "youtube:JsP4cVVlBAg",
+      "source_ref": "https://www.youtube.com/watch?v=JsP4cVVlBAg",
+      "source_type": "youtube_video",
+      "title": "5 Best Shoes to Wear with Suits for Ladies | In India"
+    }
+  ]
+}

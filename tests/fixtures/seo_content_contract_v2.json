@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "website": "https://example.com",
+  "target_reader": "Office footwear shoppers",
+  "primary_query": "formal shoes for women",
+  "search_intent": "commercial",
+  "article_type": "buyer_guide",
+  "desired_action": "Browse office footwear",
+  "sources": [
+    {
+      "source_id": "product-1",
+      "source_type": "product_page",
+      "source_ref": "https://example.com/products/one",
+      "extracted_facts": ["Leather upper"],
+      "verified_url": true,
+      "concrete_attributes": ["material: leather"]
+    },
+    {
+      "source_id": "product-2",
+      "source_type": "shopify",
+      "source_ref": "gid://shopify/Product/2",
+      "extracted_facts": ["Rubber outsole"],
+      "verified_url": true,
+      "concrete_attributes": ["outsole: rubber"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-1",
+      "text": "The first shoe has a leather upper.",
+      "claim_type": "material",
+      "source_ids": ["product-1"],
+      "commercially_material": true
+    }
+  ],
+  "restricted_claims": [],
+  "missing_evidence": [],
+  "internal_links": ["https://example.com/collections/office"],
+  "approved_questions": [],
+  "structure": {
+    "quick_answer_required": false,
+    "toc_required": false,
+    "faq_allowed": false,
+    "media_required": false,
+    "user_requested_toc": false
+  },
+  "prompt_version": "seo-content-v1",
+  "gate_version": "seo-content-gates-v2"
+}

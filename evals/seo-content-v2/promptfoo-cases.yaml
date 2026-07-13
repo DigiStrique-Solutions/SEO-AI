@@ -1,0 +1,682 @@
+[
+  {
+    "description": "human_reference-01",
+    "vars": {
+      "case_id": "human_reference-01",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"7 heel mistakes that make outfits hurt or look off\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-02",
+    "vars": {
+      "case_id": "human_reference-02",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"office footwear for women india low heels flats wedges formal shoes\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-03",
+    "vars": {
+      "case_id": "human_reference-03",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"shoes to wear with sarees kurtas indian festive outfits\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-04",
+    "vars": {
+      "case_id": "human_reference-04",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai ad generator vs marketing agent\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-05",
+    "vars": {
+      "case_id": "human_reference-05",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai content creation content engine\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-06",
+    "vars": {
+      "case_id": "human_reference-06",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai marketing agent plans ships measures\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-07",
+    "vars": {
+      "case_id": "human_reference-07",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai marketing analytics close loop\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-08",
+    "vars": {
+      "case_id": "human_reference-08",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai marketing automation human review\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-09",
+    "vars": {
+      "case_id": "human_reference-09",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai marketing platform buyers guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "human_reference-10",
+    "vars": {
+      "case_id": "human_reference-10",
+      "task": "{\"task\": \"Score the existing article as a reference, do not regenerate it.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Explicit human approval and source packet must be attached before this is counted as an approved reference.\", \"evidence_id\": \"approval-evidence\"}], \"primary_query\": \"ai marketing tools evaluation framework\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-01",
+    "vars": {
+      "case_id": "weak_generated-01",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"7 heel mistakes that make outfits hurt or look off\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-02",
+    "vars": {
+      "case_id": "weak_generated-02",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"black shoes for women heels flats sandals boots\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-03",
+    "vars": {
+      "case_id": "weak_generated-03",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"boots for women india outfit weather guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-04",
+    "vars": {
+      "case_id": "weak_generated-04",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"comfortable heels for women walkable guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-05",
+    "vars": {
+      "case_id": "weak_generated-05",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"flats for women daily office travel guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-06",
+    "vars": {
+      "case_id": "weak_generated-06",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"formal shoes for women office footwear guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-07",
+    "vars": {
+      "case_id": "weak_generated-07",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"heels for women types height comfort guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-08",
+    "vars": {
+      "case_id": "weak_generated-08",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"leather sandals for men style fit guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-09",
+    "vars": {
+      "case_id": "weak_generated-09",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"office footwear for women india low heels flats wedges formal shoes\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "weak_generated-10",
+    "vars": {
+      "case_id": "weak_generated-10",
+      "task": "{\"task\": \"Regenerate from a verified packet and compare against this baseline draft.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [{\"blocking\": true, \"description\": \"Reconstruct evidence packet for baseline rerun.\", \"evidence_id\": \"rebuild-packet\"}], \"primary_query\": \"shoes to wear with sarees kurtas indian festive outfits\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-01",
+    "vars": {
+      "case_id": "source_rich_ecommerce-01",
+      "task": "{\"target_query\": \"office commute shoe guide\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes block heel boots.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes block transparent mules white 300385.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"office commute shoe guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [\"product name: block heel boots\"], \"extracted_facts\": [\"Product identity from current URL inventory: block heel boots\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/block-heel-boots\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: block transparent mules white 300385\"], \"extracted_facts\": [\"Product identity from current URL inventory: block transparent mules white 300385\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/block-transparent-mules-white-300385\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-02",
+    "vars": {
+      "case_id": "source_rich_ecommerce-02",
+      "task": "{\"target_query\": \"boots for mild Indian winters\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"buyer_guide\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes block transparent mules white 300385.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes driving shoes tan 069 1b.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"boots for mild Indian winters\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [\"product name: block transparent mules white 300385\"], \"extracted_facts\": [\"Product identity from current URL inventory: block transparent mules white 300385\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/block-transparent-mules-white-300385\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: driving shoes tan 069 1b\"], \"extracted_facts\": [\"Product identity from current URL inventory: driving shoes tan 069 1b\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/driving-shoes-tan-069-1b\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-03",
+    "vars": {
+      "case_id": "source_rich_ecommerce-03",
+      "task": "{\"target_query\": \"how to choose formal slip-ons\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"how_to\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes driving shoes tan 069 1b.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes driving shoes tan 763 13.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"how to choose formal slip-ons\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [{\"concrete_attributes\": [\"product name: driving shoes tan 069 1b\"], \"extracted_facts\": [\"Product identity from current URL inventory: driving shoes tan 069 1b\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/driving-shoes-tan-069-1b\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: driving shoes tan 763 13\"], \"extracted_facts\": [\"Product identity from current URL inventory: driving shoes tan 763 13\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/driving-shoes-tan-763-13\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-04",
+    "vars": {
+      "case_id": "source_rich_ecommerce-04",
+      "task": "{\"target_query\": \"lace-up shoes for long office days\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes driving shoes tan 763 13.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes formal slippons coffee 909 106b123.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"lace-up shoes for long office days\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [\"product name: driving shoes tan 763 13\"], \"extracted_facts\": [\"Product identity from current URL inventory: driving shoes tan 763 13\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/driving-shoes-tan-763-13\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: formal slippons coffee 909 106b123\"], \"extracted_facts\": [\"Product identity from current URL inventory: formal slippons coffee 909 106b123\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/formal-slippons-coffee-909-106b123\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-05",
+    "vars": {
+      "case_id": "source_rich_ecommerce-05",
+      "task": "{\"target_query\": \"black office shoes outfit guide\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"how_to\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes formal slippons coffee 909 106b123.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes formal slippons tan 909 106d88.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"black office shoes outfit guide\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [{\"concrete_attributes\": [\"product name: formal slippons coffee 909 106b123\"], \"extracted_facts\": [\"Product identity from current URL inventory: formal slippons coffee 909 106b123\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/formal-slippons-coffee-909-106b123\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: formal slippons tan 909 106d88\"], \"extracted_facts\": [\"Product identity from current URL inventory: formal slippons tan 909 106d88\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/formal-slippons-tan-909-106d88\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-06",
+    "vars": {
+      "case_id": "source_rich_ecommerce-06",
+      "task": "{\"target_query\": \"what to check before buying mules\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"list\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes formal slippons tan 909 106d88.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes office lace up black 7.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"what to check before buying mules\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [\"product name: formal slippons tan 909 106d88\"], \"extracted_facts\": [\"Product identity from current URL inventory: formal slippons tan 909 106d88\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/formal-slippons-tan-909-106d88\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: office lace up black 7\"], \"extracted_facts\": [\"Product identity from current URL inventory: office lace up black 7\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/office-lace-up-black-7\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-07",
+    "vars": {
+      "case_id": "source_rich_ecommerce-07",
+      "task": "{\"target_query\": \"driving shoes versus formal shoes\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes office lace up black 7.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes office lace up wine.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"driving shoes versus formal shoes\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [\"product name: office lace up black 7\"], \"extracted_facts\": [\"Product identity from current URL inventory: office lace up black 7\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/office-lace-up-black-7\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: office lace up wine\"], \"extracted_facts\": [\"Product identity from current URL inventory: office lace up wine\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/office-lace-up-wine\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-08",
+    "vars": {
+      "case_id": "source_rich_ecommerce-08",
+      "task": "{\"target_query\": \"shoe care mistakes\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"mistake_guide\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes office lace up wine.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes office shoes 14.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"shoe care mistakes\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [{\"concrete_attributes\": [\"product name: office lace up wine\"], \"extracted_facts\": [\"Product identity from current URL inventory: office lace up wine\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/office-lace-up-wine\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: office shoes 14\"], \"extracted_facts\": [\"Product identity from current URL inventory: office shoes 14\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/office-shoes-14\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-09",
+    "vars": {
+      "case_id": "source_rich_ecommerce-09",
+      "task": "{\"target_query\": \"building a small work shoe rotation\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes office shoes 14.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes suede boots.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"building a small work shoe rotation\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"mixed\", \"sources\": [{\"concrete_attributes\": [\"product name: office shoes 14\"], \"extracted_facts\": [\"Product identity from current URL inventory: office shoes 14\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/office-shoes-14\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: suede boots\"], \"extracted_facts\": [\"Product identity from current URL inventory: suede boots\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/suede-boots\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "source_rich_ecommerce-10",
+    "vars": {
+      "case_id": "source_rich_ecommerce-10",
+      "task": "{\"target_query\": \"when suede boots make sense\", \"task\": \"Generate a structurally distinct article from this packet.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"explainer\", \"claims\": [{\"claim_id\": \"claim-1\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-1\"], \"text\": \"The catalog includes suede boots.\"}, {\"claim_id\": \"claim-2\", \"claim_type\": \"catalog_identity\", \"commercially_material\": true, \"source_ids\": [\"product-2\"], \"text\": \"The catalog includes block heel boots.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"when suede boots make sense\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"informational\", \"sources\": [{\"concrete_attributes\": [\"product name: suede boots\"], \"extracted_facts\": [\"Product identity from current URL inventory: suede boots\"], \"source_id\": \"product-1\", \"source_ref\": \"https://inc5shop.com/products/suede-boots\", \"source_type\": \"product_page\", \"verified_url\": true}, {\"concrete_attributes\": [\"product name: block heel boots\"], \"extracted_facts\": [\"Product identity from current URL inventory: block heel boots\"], \"source_id\": \"product-2\", \"source_ref\": \"https://inc5shop.com/products/block-heel-boots\", \"source_type\": \"product_page\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      },
+      {
+        "type": "contains",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-01",
+    "vars": {
+      "case_id": "failure_case-01",
+      "task": "{\"expected_findings\": [\"no_sources\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"sparse evidence\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-02",
+    "vars": {
+      "case_id": "failure_case-02",
+      "task": "{\"expected_findings\": [\"unmapped_sensitive_claim\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"unsupported comparison\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-03",
+    "vars": {
+      "case_id": "failure_case-03",
+      "task": "{\"expected_findings\": [\"unsupported_best_top_claim\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"best top claim\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-04",
+    "vars": {
+      "case_id": "failure_case-04",
+      "task": "{\"expected_findings\": [\"process_language_leak\", \"unmapped_sensitive_claim\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"process leak\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-05",
+    "vars": {
+      "case_id": "failure_case-05",
+      "task": "{\"expected_findings\": [\"batch_similarity\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"repeated template\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-06",
+    "vars": {
+      "case_id": "failure_case-06",
+      "task": "{\"expected_findings\": [\"process_language_leak\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"adversarial source\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-07",
+    "vars": {
+      "case_id": "failure_case-07",
+      "task": "{\"expected_findings\": [\"sensitive_claim_source_type\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [{\"claim_id\": \"price-1\", \"claim_type\": \"price\", \"commercially_material\": true, \"source_ids\": [\"brand-1\"], \"text\": \"The price is INR 2,499.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"brand dna price\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [], \"extracted_facts\": [\"Premium positioning\"], \"source_id\": \"brand-1\", \"source_ref\": \"brands/inc5/brand-dna.md\", \"source_type\": \"brand_dna\", \"verified_url\": false}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-08",
+    "vars": {
+      "case_id": "failure_case-08",
+      "task": "{\"expected_findings\": [\"sensitive_claim_source_type\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [{\"claim_id\": \"material-1\", \"claim_type\": \"material\", \"commercially_material\": true, \"source_ids\": [\"video-1\"], \"text\": \"The upper is leather.\"}], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"video material\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [{\"concrete_attributes\": [], \"extracted_facts\": [\"A speaker discusses materials\"], \"source_id\": \"video-1\", \"source_ref\": \"https://youtube.com/watch?v=fixture\", \"source_type\": \"youtube_video\", \"verified_url\": true}], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-09",
+    "vars": {
+      "case_id": "failure_case-09",
+      "task": "{\"expected_findings\": [\"unsupported_faq\"], \"outline\": {\"schema_version\": 2, \"sections\": [{\"heading\": \"FAQ\", \"kind\": \"faq\", \"purpose\": \"Unsupported questions\", \"supported_claim_ids\": []}], \"title\": \"Guide\"}, \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"forced faq\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  },
+  {
+    "description": "failure_case-10",
+    "vars": {
+      "case_id": "failure_case-10",
+      "task": "{\"expected_findings\": [\"missing_internal_link\"], \"task\": \"Reject or correct the adversarial fixture.\"}",
+      "packet": "{\"approved_questions\": [], \"article_type\": \"comparison\", \"claims\": [], \"desired_action\": \"Browse the relevant Inc.5 collection\", \"gate_version\": \"seo-content-gates-v2\", \"internal_links\": [\"https://inc5shop.com/collections/women-footwear\"], \"missing_evidence\": [], \"primary_query\": \"missing internal link\", \"prompt_version\": \"seo-content-v1\", \"restricted_claims\": [\"best without criteria\", \"unverified comfort or durability\"], \"schema_version\": 2, \"search_intent\": \"commercial\", \"sources\": [], \"structure\": {\"faq_allowed\": false, \"media_required\": false, \"quick_answer_required\": false, \"toc_required\": false, \"user_requested_toc\": false}, \"target_reader\": \"Indian footwear shoppers\", \"website\": \"https://inc5shop.com\"}"
+    },
+    "assert": [
+      {
+        "type": "javascript",
+        "value": "file://assertions/no-process-language.js"
+      }
+    ]
+  }
+]

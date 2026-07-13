@@ -22,6 +22,7 @@ COMMANDS = [
     "summarize-audit",
     "init-authenticity",
     "verify-authenticity",
+    "verify-content-batch",
     "write-content",
     "firecrawl-scrape",
     "generate-keywords",
@@ -44,6 +45,7 @@ COMMAND_PURPOSES = {
     "summarize-audit": "Summarize audit coverage and unresolved findings after evidence is recorded.",
     "init-authenticity": "Create a source and claim log before publishing SEO content.",
     "verify-authenticity": "Check whether a rewrite has enough source evidence and claim support.",
+    "verify-content-batch": "Check a group of drafts for batch-level AI-pattern and specificity risk.",
     "write-content": "Write publishable content only when the authenticity gate passes.",
     "firecrawl-scrape": "Collect public page evidence through Firecrawl when configured.",
     "generate-keywords": "Build or update keyword tracker rows from available demand evidence.",
@@ -692,7 +694,17 @@ Claims such as `best`, `top`, `leading`, superiority, customer proof, performanc
 python3 tools/seo_audit_harness.py verify-authenticity --authenticity brands/inc5/references/example-authenticity.json --rewrite-file brands/inc5/blogs/drafts/example.md
 ```
 
+For batches, verify every draft together before publishing:
+
+```bash
+python3 tools/seo_audit_harness.py verify-content-batch --authenticity brands/inc5/references/example-authenticity.json --draft-file brands/inc5/blogs/drafts/one.md --draft-file brands/inc5/blogs/drafts/two.md
+```
+
 Use `write-content` when the output file should be written only after the gate passes.
+
+## Batch AI Pattern Gate
+
+`verify-content-batch` checks each draft with the single-draft authenticity gate, then adds batch checks for repeated H2 outlines, template similarity, unsupported sensitive product claims, and collection-only specificity. Use it for multi-blog runs because repeated headings and thin product evidence are often invisible when each draft is scored alone.
 
 ## Detector Notes
 

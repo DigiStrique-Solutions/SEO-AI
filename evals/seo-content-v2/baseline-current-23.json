@@ -1,0 +1,306 @@
+{
+  "schema_version": 2,
+  "captured_at": "2026-07-09",
+  "draft_count": 23,
+  "drafts": [
+    {
+      "path": "brands/inc5/blogs/drafts/7-heel-mistakes-that-make-outfits-hurt-or-look-off.md",
+      "draft_hash": "c9a6f46785bfbba69ea1192b137165bb08fe38d8b257c43e6a6fd9d98706702d",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/black-shoes-for-women-heels-flats-sandals-boots.md",
+      "draft_hash": "ac2fc70cabfa5e53332ea5fe35a56fee4c12c0bf5057eb32a9aa5eba6271b405",
+      "style_pattern_risk": {
+        "score": 5.0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/boots-for-women-india-outfit-weather-guide.md",
+      "draft_hash": "7af1efc7a99519cb9ed41cae307b7e6f8ac99ecc606c8b49ef9764e2094aa32c",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/comfortable-heels-for-women-walkable-guide.md",
+      "draft_hash": "811e03f2d0d88b159f319d0f93bebd6c27e35f1d498d5bcc4b20f2b94fa5ba7d",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/flats-for-women-daily-office-travel-guide.md",
+      "draft_hash": "3a249774f1a765dc8686879c9ac9d8a6cb1938daac2f5f093bc34bea5e6e51da",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/formal-shoes-for-women-office-footwear-guide.md",
+      "draft_hash": "ba263aa47ab2242d5d03c042e82ac77cc712d1db9af5e926a97cb3dd1fcfa8a8",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/heels-for-women-types-height-comfort-guide.md",
+      "draft_hash": "54c2d44a8ff49110ae5800cff4e64fae5ca4c5d3f636732b5c2257b56d5b3074",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/leather-sandals-for-men-style-fit-guide.md",
+      "draft_hash": "fd4f7bb4caf9f9b6859abfbd73d8c848572097c2700badb8cd6d2bdc98cf1bf3",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/office-footwear-for-women-india-low-heels-flats-wedges-formal-shoes.md",
+      "draft_hash": "38e0a8ea3524586761a80fc84feb38e77e7c8a1e1fda0eb8f5420228905b984b",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/shoes-to-wear-with-sarees-kurtas-indian-festive-outfits.md",
+      "draft_hash": "7e3ab1bedbba3989a9294c78331e3aabe17369d78d80ec212a085b5355bd8fd8",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/shoulder-bags-for-women-size-strap-occasion-guide.md",
+      "draft_hash": "c122178e499bbbaa19be19bbc8fa5b2c893bd44c8c858286d4f0e8d1b4716910",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/wedges-for-women-vs-heels-platforms.md",
+      "draft_hash": "7b9bb3dda75c155c3c8c1daebf06990d536134e0c399c3c31631678fa7dd2cc0",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/inc5/blogs/drafts/white-shoes-for-women-heels-sandals-flats.md",
+      "draft_hash": "e869a32e732e82b8f0a646bce46c888fbf7aa6eebc1c3ea1268146a5c0c4c7a4",
+      "style_pattern_risk": {
+        "score": 3.0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-ad-generator-vs-marketing-agent.md",
+      "draft_hash": "e0bf7cc1e3ba4180a9e7666b2e8531443effdd4610a11163113dbedaf4f29896",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-content-creation-content-engine.md",
+      "draft_hash": "0ed3c1ceea8ea67f968c82fa172493e9cbdc18ef7e2f518c3a02fddcd99e41b3",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-marketing-agent-plans-ships-measures.md",
+      "draft_hash": "64e7c48fc1c8cf5c26de773a2121428f53b623d13c8c96bfbc93a3c063f2dee0",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-marketing-analytics-close-loop.md",
+      "draft_hash": "814085783fab5054d9a400c8d68fb9075cd492ebc36e6fa450262718f6faeb7a",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-marketing-automation-human-review.md",
+      "draft_hash": "9f0ecbc2178b837abd9cee56aa823ce2d9fdc39adcf6180bb3da57e7c137ca52",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-marketing-platform-buyers-guide.md",
+      "draft_hash": "a5319894d63df839c463260e3c68e3b2c899a660e8edaedc7d3360f73e6a4e4d",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ai-marketing-tools-evaluation-framework.md",
+      "draft_hash": "7269bbf90df356f4367ea0c1ffd5d9cbda0b210d3d949274e3095c46e7f04e10",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/content-automation-platform-briefs-to-campaigns.md",
+      "draft_hash": "b1ff8cba3a7cc5051012aed00435d6112ab342f88158866ff55dc45971efac81",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/ecommerce-marketing-automation-agent-loop.md",
+      "draft_hash": "fa83d018082b93262b5429b4357e49dccca3574bdaa6c9daf430e663a148d015",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    },
+    {
+      "path": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "draft_hash": "d36c23cc019c4d63c86821fea217cc2e9c40a3724e79326e468e9d296309503b",
+      "style_pattern_risk": {
+        "score": 0,
+        "features": [],
+        "note": "Editorial style-pattern score; not an authorship probability."
+      },
+      "zerogpt": {
+        "score": null,
+        "status": "manual_measurement_required"
+      }
+    }
+  ]
+}

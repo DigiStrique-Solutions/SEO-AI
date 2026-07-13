@@ -1,0 +1,14 @@
+{
+  "audit": "brands/inc5/audits/generic-on-page-google-visible-audit.json",
+  "coverage_counts": {
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked_blocked": 0,
+    "pass": 0
+  },
+  "next_action": "Run the generic on-page audit after evidence collection.",
+  "ok": false,
+  "provider_blocked_rows": 0,
+  "routed_rows": 0,
+  "status": "not_run"
+}

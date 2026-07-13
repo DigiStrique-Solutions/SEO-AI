@@ -1,0 +1,499 @@
+{
+  "manifest": {
+    "brand_dir": "brands/inc5",
+    "crawl_manifest_path": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/manifest.json",
+    "generated_at": "2026-07-09T14:09:45+00:00",
+    "inventory_path": "brands/inc5/exports/url-inventory.csv",
+    "mode": "site",
+    "page_maps": {
+      "gsc": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/gsc-page-map.json",
+      "keyword_planner": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/keyword-page-map.json"
+    },
+    "pages": {
+      "https://inc5shop.com/": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/8e5a67d82bc4",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/8e5a67d82bc4/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/"
+      },
+      "https://inc5shop.com/agents.md": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/3c4d9bb37d00",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/3c4d9bb37d00/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/agents.md"
+      },
+      "https://inc5shop.com/products/block-heel-boots": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/3382a8d12f56",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/3382a8d12f56/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/block-heel-boots"
+      },
+      "https://inc5shop.com/products/block-transparent-mules-white-300385": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/0d5ad55b5bed",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/0d5ad55b5bed/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/block-transparent-mules-white-300385"
+      },
+      "https://inc5shop.com/products/driving-shoes-tan-069-1b": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/6d50dee6b57c",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/6d50dee6b57c/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/driving-shoes-tan-069-1b"
+      },
+      "https://inc5shop.com/products/driving-shoes-tan-763-13": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/1cd2980a67b1",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/1cd2980a67b1/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/driving-shoes-tan-763-13"
+      },
+      "https://inc5shop.com/products/flat-embroided-toe-post-1": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/10b0eea2f32e",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/10b0eea2f32e/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/flat-embroided-toe-post-1"
+      },
+      "https://inc5shop.com/products/formal-slippons-coffee-909-106b123": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/fa4d1acc18a6",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/fa4d1acc18a6/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/formal-slippons-coffee-909-106b123"
+      },
+      "https://inc5shop.com/products/formal-slippons-tan-909-106d88": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/a0fc13bff823",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/a0fc13bff823/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/formal-slippons-tan-909-106d88"
+      },
+      "https://inc5shop.com/products/formal-slippons-tan-a454-10": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/f04068f9260c",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/f04068f9260c/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/formal-slippons-tan-a454-10"
+      },
+      "https://inc5shop.com/products/mens-brown-formal-sandal-1": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/e8852fdb1d1a",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/e8852fdb1d1a/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/mens-brown-formal-sandal-1"
+      },
+      "https://inc5shop.com/products/office-lace-up-black-7": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/9bad01542ff0",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/9bad01542ff0/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-lace-up-black-7"
+      },
+      "https://inc5shop.com/products/office-lace-up-wine": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/db510b351b0f",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/db510b351b0f/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-lace-up-wine"
+      },
+      "https://inc5shop.com/products/office-shoes-14": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/ef3c72c7fca7",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/ef3c72c7fca7/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-14"
+      },
+      "https://inc5shop.com/products/office-shoes-15": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/437bad78a51f",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/437bad78a51f/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-15"
+      },
+      "https://inc5shop.com/products/office-shoes-26": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/6c3683045b46",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/6c3683045b46/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-26"
+      },
+      "https://inc5shop.com/products/office-shoes-27": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/e5ecb63d22c9",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/e5ecb63d22c9/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-27"
+      },
+      "https://inc5shop.com/products/office-shoes-4": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/be1997194329",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/be1997194329/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-4"
+      },
+      "https://inc5shop.com/products/office-shoes-6": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/9cf44afed74b",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/9cf44afed74b/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/office-shoes-6"
+      },
+      "https://inc5shop.com/products/suede-boots": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/48c846d828de",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/48c846d828de/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/suede-boots"
+      },
+      "https://inc5shop.com/products/transparent-block-heel-mules": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/864bbf00c812",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/864bbf00c812/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/transparent-block-heel-mules"
+      },
+      "https://inc5shop.com/products/transparent-block-heel-mules-1": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/69c1d891f79d",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/69c1d891f79d/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/transparent-block-heel-mules-1"
+      },
+      "https://inc5shop.com/products/tri-band-velcro-sandal-brown-1": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/31a693769d8f",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/31a693769d8f/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/tri-band-velcro-sandal-brown-1"
+      },
+      "https://inc5shop.com/products/vedge-heel-embroided-toe-post-600399ant-gold": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/126ebbac5e36",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/126ebbac5e36/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/vedge-heel-embroided-toe-post-600399ant-gold"
+      },
+      "https://inc5shop.com/products/vedge-heel-embroided-toe-post-600399sultan": {
+        "artifact_dir": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/pages/6d282cc4dc4f",
+        "sources": {
+          "firecrawl": {
+            "artifact": "brands/inc5/references/crawls/inc5-systemic-audit-public-html-20260709/pages/6d282cc4dc4f/firecrawl.json",
+            "blocker": "",
+            "next_action": "",
+            "source": "firecrawl",
+            "status": "success",
+            "summary": "Public HTML fallback crawl artifact linked."
+          }
+        },
+        "url": "https://inc5shop.com/products/vedge-heel-embroided-toe-post-600399sultan"
+      }
+    },
+    "provider_connections": {
+      "analytics": [
+        "ga4"
+      ],
+      "keyword_demand": [
+        "keyword_planner"
+      ],
+      "manual:performance-field": [
+        "crux"
+      ],
+      "manual:performance-lab": [
+        "lighthouse",
+        "pagespeed"
+      ],
+      "performance_field": [
+        "crux"
+      ],
+      "performance_lab": [
+        "lighthouse",
+        "pagespeed"
+      ],
+      "public_crawl": [
+        "firecrawl"
+      ],
+      "rendered_browser": [
+        "playwright"
+      ],
+      "search_console": [
+        "gsc"
+      ]
+    },
+    "provider_status": {
+      "analytics": [
+        {
+          "provider": "ga4",
+          "status": "blocked"
+        }
+      ],
+      "keyword_demand": [
+        {
+          "provider": "keyword_planner",
+          "status": "success"
+        }
+      ],
+      "manual:performance-field": [
+        {
+          "provider": "crux",
+          "status": "page_collected"
+        }
+      ],
+      "manual:performance-lab": [
+        {
+          "provider": "lighthouse",
+          "status": "page_collected"
+        },
+        {
+          "provider": "pagespeed",
+          "status": "page_collected"
+        }
+      ],
+      "performance_field": [
+        {
+          "provider": "crux",
+          "status": "page_collected"
+        }
+      ],
+      "performance_lab": [
+        {
+          "provider": "lighthouse",
+          "status": "page_collected"
+        },
+        {
+          "provider": "pagespeed",
+          "status": "page_collected"
+        }
+      ],
+      "public_crawl": [
+        {
+          "provider": "firecrawl",
+          "status": "page_collected"
+        }
+      ],
+      "rendered_browser": [
+        {
+          "provider": "playwright",
+          "status": "page_collected"
+        }
+      ],
+      "search_console": [
+        {
+          "provider": "gsc",
+          "status": "success"
+        }
+      ]
+    },
+    "run_id": "inc5-systemic-audit-public-html-20260709",
+    "sources": {
+      "ga4": {
+        "artifact": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/ga4.json",
+        "blocker": "GA4 evidence must be recorded from connector output.",
+        "next_action": "Attach normalized GA4 output with record-source-evidence.",
+        "source": "ga4",
+        "status": "blocked",
+        "summary": ""
+      },
+      "gsc": {
+        "artifact": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/gsc.json",
+        "blocker": "",
+        "next_action": "",
+        "source": "gsc",
+        "status": "success",
+        "summary": "GSC evidence copied from earlier partial collector run."
+      },
+      "keyword_planner": {
+        "artifact": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/keyword_planner.json",
+        "blocker": "",
+        "next_action": "",
+        "source": "keyword_planner",
+        "status": "success",
+        "summary": "Keyword Planner artifacts copied from earlier partial collector run."
+      },
+      "public_http": {
+        "artifact": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/public-http.json",
+        "blocker": "",
+        "next_action": "",
+        "source": "public_http",
+        "status": "success",
+        "summary": "Public HTTP/TLS evidence saved."
+      }
+    },
+    "target_url": "https://inc5shop.com"
+  },
+  "manifest_path": "brands/inc5/references/evidence/inc5-systemic-audit-public-html-20260709/manifest.json",
+  "ok": true,
+  "run_id": "inc5-systemic-audit-public-html-20260709"
+}

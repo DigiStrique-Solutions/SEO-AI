@@ -1,0 +1,26 @@
+name: SEO content deterministic checks
+
+on:
+  pull_request:
+    paths:
+      - "tools/seo_audit_harness.py"
+      - "tools/seo_content_pipeline_v2.py"
+      - "prompts/seo-content-v2.txt"
+      - ".agents/skills/**"
+      - "evals/seo-content-v2/**"
+      - "tests/**"
+
+jobs:
+  deterministic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install pytest
+      - run: python tools/check_seo_eval_change.py --base origin/${{ github.base_ref }}
+      - run: python -m unittest tests.test_seo_audit_harness
+      - run: pytest tests/test_seo_content_pipeline_v2.py

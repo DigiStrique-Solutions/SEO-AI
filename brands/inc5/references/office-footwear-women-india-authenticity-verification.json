@@ -1,0 +1,13 @@
+{
+  "ai_text_risk": {
+    "features": [],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 0.0,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1220
+  },
+  "errors": [],
+  "ok": true
+}

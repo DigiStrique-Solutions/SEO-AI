@@ -1,0 +1,93 @@
+{
+  "claims": [
+    {
+      "claim": "The keyword file lists ai marketing automation and related automation terms as high-priority demand.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_file"
+      ]
+    },
+    {
+      "claim": "Strique's brand DNA says the product includes scheduled automations, approval gates, closed-loop measurement, persistent memory, audit logs, org isolation, encryption, and human control for high-stakes actions.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The URL inventory includes product, integrations, security, closing the loop, AI marketing agent, and SEO automation content that can support internal linking.",
+      "claim_type": "site_evidence",
+      "source_ids": [
+        "url_inventory"
+      ]
+    },
+    {
+      "claim": "The existing SEO automation draft frames useful automation as a loop that audits, prioritizes, briefs, ships with approval, measures, and learns.",
+      "claim_type": "editorial_context",
+      "source_ids": [
+        "existing_seo_automation_draft"
+      ]
+    },
+    {
+      "claim": "The content checklist requires direct intent match, evidence-backed claims, clear headings, internal links, structured data, and cleanup of generic AI-style copy.",
+      "claim_type": "editorial_standard",
+      "source_ids": [
+        "content_checklist"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T12:57:06+00:00",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "status": "draft",
+    "target": "brands/strique/blogs/drafts/ai-marketing-automation-human-review.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and Canvas reports. Brand values include human control for high-stakes actions. The brand DNA states that ad launches, bulk email, and public posts require explicit approval by default. Security and trust language emphasizes versioning, checkpoints, audit logs, org isolation, encryption, and approval gates."
+    },
+    {
+      "source_id": "keyword_file",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "The keyword file lists ai marketing automation with 720 directional monthly volume, marketing automation ai with 720, ai marketing automation tools with 480, and ai powered marketing automation with 170. These rows are high priority."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io in the United States. It includes 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes https://www.strique.io/product, https://www.strique.io/integrations, https://www.strique.io/security, https://www.strique.io/blog/closing-the-loop, https://www.strique.io/blog/what-is-an-ai-marketing-agent, and existing SEO automation draft content in the repo."
+    },
+    {
+      "source_id": "site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks show public crawl evidence, rendered browser evidence, performance evidence, keyword demand evidence, GSC SERP expectation evidence, and GSC measurement coverage evidence as available. PostHog evidence is blocked in this artifact."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content SEO checklist requires one primary purpose, search intent match, natural keyword and entity coverage, originality, evidence-backed claims, useful headings, readable language, useful media, internal links, structured data, conversion fit, and cleanup of generic AI-style copy."
+    },
+    {
+      "source_id": "existing_seo_automation_draft",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing SEO automation draft states that useful automation crawls the site, finds repeatable issues, maps them to demand, drafts the next action, waits for approval where stakes are high, ships the fix, measures what changed, and feeds learning into the next run."
+    }
+  ]
+}

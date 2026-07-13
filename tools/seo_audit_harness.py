@@ -19,6 +19,16 @@ from pathlib import Path
 from urllib import error, request
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
+TOOLS_DIR = Path(__file__).resolve().parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
+from seo_content_pipeline_v2 import (  # noqa: E402
+    batch_similarity_report,
+    load_json as load_content_v2_json,
+    packet_hash as content_packet_hash,
+    validate_draft_v2,
+)
 
 FIRECRAWL_API_KEY_ENV = "FIRECRAWL_API_KEY"
 FIRECRAWL_SCRAPE_URL = "https://api.firecrawl.dev/v2/scrape"
@@ -142,6 +152,7 @@ CONCRETE_SOURCE_TYPES = {
     "serp",
     "competitor_page",
     "human_context",
+    "youtube_video",
 }
 CONTEXT_SOURCE_PRIORITY = [
     "run_context",
@@ -215,6 +226,9 @@ CONTENT_AUTHENTICITY_SKILL = "content-seo-authenticity"
 CONTENT_AUTHENTICITY_SKILL_REF = ".agents/skills/content-seo-authenticity/SKILL.md"
 AI_TEXT_RISK_SKILL = "ai-text-risk-gate"
 AI_TEXT_RISK_SKILL_REF = ".agents/skills/ai-text-risk-gate/SKILL.md"
+DEFAULT_YOUTUBE_LEARNINGS_ROOT = Path(
+    "/Users/poojan/Desktop/projects-new/strique/learnings-from-youtube"
+)
 AI_DETECTOR_TOOL_TOKENS = (
     "ai detector",
     "ai-pattern",
@@ -273,6 +287,100 @@ AI_TEXT_ABSTRACT_TERMS = (
     "dynamic",
     "strategic",
     "valuable",
+)
+CONTENT_BATCH_MIN_BRAND_SPECIFICITY_SCORE = 4.0
+CONTENT_BATCH_MAX_TEMPLATE_SIMILARITY_SCORE = 35.0
+BLOG_TOC_H2_THRESHOLD = 4
+BLOG_REQUIRED_FRONTMATTER = (
+    "title",
+    "meta_description",
+    "slug",
+    "primary_keyword",
+    "intent",
+    "author",
+    "updated_at",
+    "hero_image",
+    "hero_image_alt",
+    "cta",
+    "related_posts",
+    "article_schema",
+    "breadcrumb_schema",
+)
+BLOG_TRUE_FRONTMATTER = {"article_schema", "breadcrumb_schema"}
+CONTENT_BATCH_PRODUCT_CLAIM_SOURCE_TYPES = {
+    "product_page",
+    "shopify",
+    "merchant_center",
+    "review",
+    "customer_note",
+    "merchandiser_note",
+    "human_context",
+    "brand_dna",
+    "youtube_video",
+}
+CONTENT_BATCH_SENSITIVE_CLAIMS = {
+    "leather": ("leather",),
+    "suede": ("suede",),
+    "waterproof": (
+        "waterproof",
+        "water proof",
+        "water-resistant",
+        "water resistant",
+        "rainproof",
+        "rain proof",
+        "monsoon-proof",
+        "monsoon proof",
+    ),
+    "cushioning": (
+        "cushioned",
+        "cushioning",
+        "cushion",
+        "memory foam",
+        "arch support",
+        "padded footbed",
+        "comfort insole",
+    ),
+    "heel height": ("heel height", "inch heel", "in heel", "cm heel"),
+    "dimensions": (
+        "dimensions",
+        "dimension",
+        "strap drop",
+        "width",
+        "height",
+        "length",
+    ),
+    "closure": (
+        "closure",
+        "buckle",
+        "zip closure",
+        "zipper",
+        "magnetic closure",
+        "drawstring",
+        "clasp",
+    ),
+    "durability": ("durable", "long-lasting", "long lasting"),
+}
+CONTENT_BATCH_SPECIFICITY_TERMS = (
+    "material",
+    "leather",
+    "suede",
+    "heel height",
+    "strap",
+    "buckle",
+    "sole",
+    "footbed",
+    "closure",
+    "dimensions",
+    "size chart",
+    "sku",
+    "review",
+    "rating",
+    "price",
+    "availability",
+    "shipping",
+    "returns",
+    "variant",
+    "stock",
 )
 KEYWORD_ROW_FIELDS = [
     "keyword",
@@ -548,6 +656,11 @@ def write_text_file(path, text):
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(text, encoding="utf-8")
+
+
+def safe_path_segment(value):
+    segment = re.sub(r"[^A-Za-z0-9_-]+", "-", str(value or "")).strip("-")
+    return segment or "item"
 
 
 def load_local_env(paths=(".env.local", ".env")):
@@ -2365,6 +2478,102 @@ def ai_text_risk_report(text):
                 {"average_words": round(paragraph_average, 2), "variation": round(paragraph_variation, 2)},
             )
 
+    body_text = re.sub(r"(?s)\A---\s*.*?\s*---", "", text or "").strip()
+    h2_matches = list(
+        re.finditer(r"(?m)^\s{0,3}##\s+(.+?)\s*#*\s*$", body_text)
+    )
+    normalized_h2s = [
+        normalize_heading_text(match.group(1).strip()) for match in h2_matches
+    ]
+    utility_h2s = {
+        "tldr",
+        "tl dr",
+        "quick answer",
+        "table of contents",
+        "contents",
+        "related reading",
+        "related posts",
+        "faq",
+        "faqs",
+        "next step",
+        "next steps",
+    }
+    instructional_h2s = [
+        heading for heading in normalized_h2s if heading not in utility_h2s
+    ]
+    has_toc = any(heading in {"table of contents", "contents"} for heading in normalized_h2s)
+    has_faq = any(heading in {"faq", "faqs"} for heading in normalized_h2s)
+    if word_count >= 700 and len(instructional_h2s) >= 6 and has_toc and has_faq:
+        add_feature(
+            "seo_article_scaffold",
+            12,
+            {
+                "instructional_h2_count": len(instructional_h2s),
+                "has_toc": has_toc,
+                "has_faq": has_faq,
+                "examples": instructional_h2s[:6],
+            },
+        )
+
+    section_lengths = []
+    for index, match in enumerate(h2_matches):
+        heading = normalize_heading_text(match.group(1))
+        if heading in utility_h2s:
+            continue
+        end = h2_matches[index + 1].start() if index + 1 < len(h2_matches) else len(body_text)
+        section_text = body_text[match.end() : end]
+        section_lengths.append(len(re.findall(r"[A-Za-z][A-Za-z']*", section_text)))
+    if len(section_lengths) >= 5:
+        section_average = sum(section_lengths) / len(section_lengths)
+        section_variance = sum((length - section_average) ** 2 for length in section_lengths) / len(section_lengths)
+        section_variation = (section_variance ** 0.5) / section_average if section_average else 0
+        if 70 <= section_average <= 240 and section_variation < 0.58:
+            add_feature(
+                "uniform_advice_sections",
+                min(10, (0.58 - section_variation) * 28),
+                {
+                    "average_words": round(section_average, 2),
+                    "variation": round(section_variation, 2),
+                    "section_count": len(section_lengths),
+                },
+            )
+
+    advice_sentence_hits = []
+    advice_verbs = (
+        "choose",
+        "check",
+        "start",
+        "try",
+        "use",
+        "wear",
+        "match",
+        "avoid",
+        "ask",
+        "browse",
+        "keep",
+        "look",
+        "make",
+        "let",
+    )
+    for sentence in sentences:
+        sentence_lower = sentence.lower().strip()
+        if sentence_lower.startswith(("if ", "for ", "when ", "before ")):
+            advice_sentence_hits.append(sentence[:90])
+            continue
+        if any(re.search(r"(?<![a-z0-9]){}(?![a-z0-9])".format(verb), sentence_lower) for verb in advice_verbs):
+            advice_sentence_hits.append(sentence[:90])
+    if len(sentences) >= 20:
+        advice_sentence_rate = len(advice_sentence_hits) / len(sentences)
+        if advice_sentence_rate >= 0.34:
+            add_feature(
+                "high_advice_sentence_density",
+                min(24, (advice_sentence_rate - 0.28) * 110),
+                {
+                    "rate": round(advice_sentence_rate, 2),
+                    "examples": advice_sentence_hits[:5],
+                },
+            )
+
     abstract_hits = [
         word for word in words if word.lower() in AI_TEXT_ABSTRACT_TERMS
     ]
@@ -2399,7 +2608,8 @@ def ai_text_risk_report(text):
         if line.lstrip().startswith("#")
     ]
     ending_hits = [heading for heading in headings if heading in generic_endings]
-    add_feature("generic_conclusion_heading", 6, ending_hits)
+    if ending_hits:
+        add_feature("generic_conclusion_heading", 6, ending_hits)
 
     score = round(min(100, score), 2)
     status = "not_checked_blocked" if word_count < 120 else "pass"
@@ -2415,6 +2625,571 @@ def ai_text_risk_report(text):
         "note": (
             "Local AI-pattern risk score. This is an editorial signal, not proof of authorship."
         ),
+    }
+
+
+def strip_markdown_frontmatter(text):
+    return re.sub(r"(?s)\A---\s*.*?\s*---", "", text or "").strip()
+
+
+def parse_frontmatter_scalar(value):
+    value = str(value or "").strip()
+    if not value:
+        return ""
+    lower = value.lower()
+    if lower in {"true", "yes"}:
+        return True
+    if lower in {"false", "no"}:
+        return False
+    if value.startswith("[") and value.endswith("]"):
+        inner = value[1:-1].strip()
+        if not inner:
+            return []
+        return [item.strip().strip("\"'") for item in next(csv.reader([inner])) if item.strip()]
+    return value.strip("\"'")
+
+
+def parse_markdown_frontmatter(text):
+    lines = (text or "").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}, text or ""
+    end_index = None
+    for index, line in enumerate(lines[1:], 1):
+        if line.strip() == "---":
+            end_index = index
+            break
+    if end_index is None:
+        return {}, text or ""
+
+    frontmatter = {}
+    current_key = ""
+    for raw_line in lines[1:end_index]:
+        if not raw_line.strip() or raw_line.lstrip().startswith("#"):
+            continue
+        key_match = re.match(r"^\s*([A-Za-z0-9_-]+):\s*(.*?)\s*$", raw_line)
+        if key_match:
+            current_key = key_match.group(1).strip().replace("-", "_")
+            frontmatter[current_key] = parse_frontmatter_scalar(key_match.group(2))
+            continue
+        list_match = re.match(r"^\s*-\s+(.+?)\s*$", raw_line)
+        if current_key and list_match:
+            existing = frontmatter.get(current_key)
+            if not isinstance(existing, list):
+                existing = [] if existing == "" else [existing]
+            existing.append(parse_frontmatter_scalar(list_match.group(1)))
+            frontmatter[current_key] = existing
+
+    return frontmatter, "\n".join(lines[end_index + 1 :]).strip()
+
+
+def frontmatter_has_value(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, list):
+        return any(str(item).strip() for item in value)
+    return bool(str(value or "").strip())
+
+
+def normalize_heading_text(value):
+    value = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", value or "")
+    return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
+
+
+def markdown_links(text):
+    return [
+        match.group(1).strip()
+        for match in re.finditer(r"(?<!!)\[[^\]]+\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)", text or "")
+    ]
+
+
+def markdown_images(text):
+    return [
+        match.group(1).strip()
+        for match in re.finditer(r"!\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)", text or "")
+    ]
+
+
+def extract_h2_section(text, names):
+    normalized_names = {normalize_heading_text(name) for name in names}
+    matches = list(re.finditer(r"(?m)^\s{0,3}##\s+(.+?)\s*#*\s*$", text or ""))
+    for index, match in enumerate(matches):
+        heading = normalize_heading_text(match.group(1))
+        if heading not in normalized_names:
+            continue
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text or "")
+        return (text or "")[match.end() : end].strip()
+    return ""
+
+
+def internal_markdown_links(links):
+    internal = []
+    for link in links:
+        lower = link.lower()
+        if lower.startswith(("#", "mailto:", "tel:")):
+            continue
+        if re.match(r"^[a-z][a-z0-9+.-]*:", lower):
+            continue
+        internal.append(link)
+    return internal
+
+
+def markdown_has_table(text):
+    return bool(re.search(r"(?m)^\s*\|.+\|\s*\n\s*\|(?:\s*:?-+:?\s*\|)+", text or ""))
+
+
+def markdown_has_video(text):
+    return bool(re.search(r"\b(youtube\.com|youtu\.be|vimeo\.com|<video\b)", text or "", re.I))
+
+
+def brief_requires_faq(brief_text):
+    return bool(
+        re.search(
+            r"\b(faq\s*(?:required|needed|useful)|people also ask|paa|serp[^.\n]{0,80}faq)\b",
+            brief_text or "",
+            re.I,
+        )
+    )
+
+
+def long_mobile_paragraphs(body):
+    long_items = []
+    for paragraph in re.split(r"\n\s*\n", body or ""):
+        clean = strip_markdown_for_ai_text_risk(paragraph)
+        if len(clean) > 700:
+            long_items.append(clean[:80])
+    return long_items
+
+
+def extract_blog_components(text, keyword="", brief_text=""):
+    frontmatter, body = parse_markdown_frontmatter(text)
+    h1s = extract_markdown_headings(body, level=1)
+    h2s = extract_markdown_headings(body, level=2)
+    normalized_h2s = [normalize_heading_text(heading) for heading in h2s]
+    toc_section = extract_h2_section(body, ("Table of Contents", "Contents"))
+    related_section = extract_h2_section(body, ("Related Reading", "Related Posts"))
+    next_step_section = extract_h2_section(body, ("Next Step", "Next Steps"))
+    faq_section = extract_h2_section(body, ("FAQ", "FAQs", "Frequently Asked Questions"))
+    all_links = markdown_links(body)
+    image_links = markdown_images(body)
+    main_h2s = [
+        heading
+        for heading in normalized_h2s
+        if heading not in {"table of contents", "contents"}
+    ]
+    toc_links = [link for link in markdown_links(toc_section) if link.startswith("#")]
+    related_links = markdown_links(related_section)
+    internal_links = internal_markdown_links(all_links)
+    return {
+        "frontmatter": frontmatter,
+        "h1s": h1s,
+        "h2s": h2s,
+        "h2_count": len(main_h2s),
+        "has_tldr": any(heading in {"tldr", "tl dr", "quick answer"} for heading in normalized_h2s),
+        "has_toc": bool(toc_section),
+        "toc_required": len(main_h2s) >= BLOG_TOC_H2_THRESHOLD,
+        "toc_anchor_count": len(toc_links),
+        "has_faq": bool(faq_section),
+        "faq_required": brief_requires_faq(brief_text),
+        "has_related_reading": bool(related_section),
+        "related_link_count": len(related_links),
+        "has_next_step": bool(next_step_section),
+        "image_count": len(image_links),
+        "has_supporting_media": bool(
+            frontmatter_has_value(frontmatter.get("hero_image"))
+            or image_links
+            or markdown_has_video(body)
+            or markdown_has_table(body)
+        ),
+        "internal_link_count": len(internal_links),
+        "external_link_count": len([link for link in all_links if link.startswith(("http://", "https://"))]),
+        "long_mobile_paragraph_count": len(long_mobile_paragraphs(body)),
+        "primary_keyword_matches": (
+            not keyword
+            or str(frontmatter.get("primary_keyword", "")).strip().lower() == keyword.strip().lower()
+        ),
+    }
+
+
+def validate_blog_draft(text, keyword="", brief_text=""):
+    components = extract_blog_components(text, keyword=keyword, brief_text=brief_text)
+    frontmatter = components["frontmatter"]
+    checks = []
+
+    def add_check(check_id, passed, result, next_action, status=None):
+        check_status = status or ("pass" if passed else "fail")
+        checks.append(
+            {
+                "check_id": check_id,
+                "status": check_status,
+                "result": result,
+                "next_action": "" if check_status == "pass" else next_action,
+            }
+        )
+
+    for field in BLOG_REQUIRED_FRONTMATTER:
+        value = frontmatter.get(field)
+        if field in BLOG_TRUE_FRONTMATTER:
+            add_check(
+                "frontmatter_{}".format(field),
+                value is True,
+                "{} is {}.".format(field, value),
+                "Set {}: true in blog frontmatter.".format(field),
+            )
+        else:
+            add_check(
+                "frontmatter_{}".format(field),
+                frontmatter_has_value(value),
+                "{} is present.".format(field) if frontmatter_has_value(value) else "{} is missing.".format(field),
+                "Add {} to blog frontmatter.".format(field),
+            )
+
+    slug = str(frontmatter.get("slug", "")).strip()
+    add_check(
+        "slug_clean",
+        bool(re.match(r"^[a-z0-9]+(?:-[a-z0-9]+)*$", slug)),
+        "Slug is {}.".format(slug or "missing"),
+        "Use a lowercase hyphenated slug without dates, spaces, or IDs.",
+    )
+    add_check(
+        "primary_keyword_matches_request",
+        components["primary_keyword_matches"],
+        "Frontmatter primary_keyword was compared with the requested keyword.",
+        "Set primary_keyword to the requested keyword.",
+    )
+    add_check(
+        "single_h1",
+        len(components["h1s"]) == 1,
+        "{} H1 headings found.".format(len(components["h1s"])),
+        "Use exactly one H1 in the draft body.",
+    )
+    add_check(
+        "quick_answer_or_tldr",
+        components["has_tldr"],
+        "TLDR or Quick Answer section is present." if components["has_tldr"] else "No TLDR or Quick Answer section found.",
+        "Add a ## TLDR or ## Quick Answer section near the top.",
+    )
+    add_check(
+        "table_of_contents",
+        (not components["toc_required"]) or components["toc_anchor_count"] > 0,
+        "{} TOC anchor links found.".format(components["toc_anchor_count"]),
+        "Add a ## Table of Contents section with anchor links.",
+        status="not_applicable" if not components["toc_required"] else None,
+    )
+    add_check(
+        "supporting_media",
+        components["has_supporting_media"],
+        "Hero image, body image, video, or table support was found.",
+        "Add a hero image or a useful body image, video, table, or example asset.",
+    )
+    add_check(
+        "internal_links",
+        components["internal_link_count"] > 0,
+        "{} internal links found.".format(components["internal_link_count"]),
+        "Add at least one relevant internal link.",
+    )
+    add_check(
+        "related_reading",
+        components["has_related_reading"] and components["related_link_count"] > 0,
+        "{} related reading links found.".format(components["related_link_count"]),
+        "Add a ## Related Reading section with at least one link.",
+    )
+    add_check(
+        "next_step_cta",
+        components["has_next_step"] and frontmatter_has_value(frontmatter.get("cta")),
+        "Next Step section and frontmatter CTA were checked.",
+        "Add frontmatter cta and a ## Next Step section.",
+    )
+    if components["faq_required"]:
+        add_check(
+            "faq_when_required",
+            components["has_faq"],
+            "Brief indicates FAQ is useful.",
+            "Add a ## FAQ section because the brief or SERP intent asks for it.",
+        )
+    else:
+        add_check(
+            "faq_when_required",
+            True,
+            "FAQ was not required by the brief.",
+            "",
+            status="pass" if components["has_faq"] else "not_applicable",
+        )
+    add_check(
+        "mobile_readability",
+        components["long_mobile_paragraph_count"] == 0,
+        "{} long paragraphs found.".format(components["long_mobile_paragraph_count"]),
+        "Break long paragraphs into shorter mobile-readable blocks.",
+    )
+
+    errors = [
+        "{}: {}".format(check["check_id"], check["next_action"])
+        for check in checks
+        if check["status"] == "fail"
+    ]
+    return {
+        "ok": not errors,
+        "errors": errors,
+        "blog_components": components,
+        "component_checks": checks,
+    }
+
+
+def flatten_text_value(value):
+    if isinstance(value, dict):
+        return " ".join(flatten_text_value(item) for item in value.values())
+    if isinstance(value, (list, tuple, set)):
+        return " ".join(flatten_text_value(item) for item in value)
+    return str(value or "")
+
+
+def phrase_in_text(phrase, text):
+    pattern = r"(?<![a-z0-9]){}(?![a-z0-9])".format(
+        re.escape(phrase.lower()).replace(r"\ ", r"\s+")
+    )
+    return re.search(pattern, text.lower()) is not None
+
+
+def extract_markdown_headings(text, level=2):
+    hashes = "#" * level
+    pattern = r"(?m)^\s{{0,3}}{}\s+(.+?)\s*#*\s*$".format(re.escape(hashes))
+    return [match.group(1).strip() for match in re.finditer(pattern, text or "")]
+
+
+def normalize_batch_heading(heading):
+    heading = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", heading or "")
+    heading = re.sub(r"`([^`]+)`", r"\1", heading)
+    heading = re.sub(r"[^a-z0-9]+", " ", heading.lower())
+    return re.sub(r"\s+", " ", heading).strip()
+
+
+def authenticity_claim_support_text(log):
+    parts = []
+    for source in log.get("sources", []):
+        source_type = str(source.get("source_type", "")).strip()
+        if source_type not in CONTENT_BATCH_PRODUCT_CLAIM_SOURCE_TYPES:
+            continue
+        for field in (
+            "source_ref",
+            "extracted_facts",
+            "notes",
+            "quote",
+            "result",
+            "evidence",
+        ):
+            parts.append(flatten_text_value(source.get(field, "")))
+    for claim in log.get("claims", []):
+        for field in ("claim", "criteria", "evidence", "note"):
+            parts.append(flatten_text_value(claim.get(field, "")))
+    return " ".join(parts).lower()
+
+
+def sensitive_claim_report(log, text):
+    clean_text = strip_markdown_for_ai_text_risk(text).lower()
+    support_text = authenticity_claim_support_text(log)
+    present = []
+    unsupported = []
+
+    for claim_name, phrases in CONTENT_BATCH_SENSITIVE_CLAIMS.items():
+        hits = [phrase for phrase in phrases if phrase_in_text(phrase, clean_text)]
+        if not hits:
+            continue
+        present.append({"claim": claim_name, "terms": hits})
+        supported = any(phrase_in_text(phrase, support_text) for phrase in phrases)
+        if not supported:
+            unsupported.append({"claim": claim_name, "terms": hits})
+
+    errors = [
+        "unsupported sensitive claim '{}' needs product or human source evidence".format(
+            item["claim"]
+        )
+        for item in unsupported
+    ]
+    return {
+        "present": present,
+        "unsupported": unsupported,
+        "errors": errors,
+    }
+
+
+def brand_specificity_report(text):
+    clean_text = strip_markdown_for_ai_text_risk(text)
+    lower_text = clean_text.lower()
+    product_url_count = len(re.findall(r"/products/", text or "", re.IGNORECASE))
+    collection_url_count = len(re.findall(r"/collections/", text or "", re.IGNORECASE))
+    term_hits = [
+        term for term in CONTENT_BATCH_SPECIFICITY_TERMS if phrase_in_text(term, lower_text)
+    ]
+    numeric_detail_count = len(
+        re.findall(
+            r"(?:₹\s*\d|\b\d+(?:\.\d+)?\s*(?:cm|mm|inch|inches|in|%|rs|inr)\b)",
+            clean_text,
+            re.IGNORECASE,
+        )
+    )
+    score = (
+        product_url_count * 3.0
+        + min(collection_url_count, 2) * 0.5
+        + min(len(term_hits), 6) * 0.5
+        + min(numeric_detail_count, 4) * 0.75
+    )
+    if product_url_count == 0:
+        score = min(score, 3.5)
+    return {
+        "score": round(min(10.0, score), 2),
+        "product_url_count": product_url_count,
+        "collection_url_count": collection_url_count,
+        "specificity_terms": term_hits,
+        "numeric_detail_count": numeric_detail_count,
+        "note": "Collection-only drafts are capped below the publishable threshold.",
+    }
+
+
+def content_batch_ai_pattern_report(drafts):
+    heading_counts = Counter()
+    heading_doc_counts = Counter()
+    heading_sets = []
+    total_heading_count = 0
+
+    for draft in drafts:
+        headings = [
+            normalize_batch_heading(heading)
+            for heading in extract_markdown_headings(draft.get("text", ""), level=2)
+        ]
+        headings = [heading for heading in headings if heading]
+        total_heading_count += len(headings)
+        heading_counts.update(headings)
+        heading_doc_counts.update(set(headings))
+        heading_sets.append(set(headings))
+
+    draft_count = len(drafts)
+    repeated_doc_threshold = max(3, (draft_count + 1) // 2)
+    repeated_headings = [
+        {
+            "heading": heading,
+            "doc_count": doc_count,
+            "occurrences": heading_counts[heading],
+        }
+        for heading, doc_count in sorted(heading_doc_counts.items())
+        if doc_count >= repeated_doc_threshold
+    ]
+    repeated_occurrences = sum(
+        item["occurrences"] for item in repeated_headings
+    )
+    repeated_heading_ratio = (
+        repeated_occurrences / total_heading_count if total_heading_count else 0.0
+    )
+
+    pair_scores = []
+    for left_index, left_headings in enumerate(heading_sets):
+        for right_headings in heading_sets[left_index + 1 :]:
+            union = left_headings | right_headings
+            if not union:
+                continue
+            pair_scores.append(len(left_headings & right_headings) / len(union))
+    average_pairwise_heading_jaccard = (
+        sum(pair_scores) / len(pair_scores) if pair_scores else 0.0
+    )
+    score = min(
+        100.0,
+        repeated_heading_ratio * 70.0
+        + average_pairwise_heading_jaccard * 30.0,
+    )
+    return {
+        "score": round(score, 2),
+        "draft_count": draft_count,
+        "total_h2_count": total_heading_count,
+        "repeated_heading_ratio": round(repeated_heading_ratio, 2),
+        "average_pairwise_heading_jaccard": round(
+            average_pairwise_heading_jaccard, 2
+        ),
+        "repeated_heading_doc_threshold": repeated_doc_threshold,
+        "repeated_headings": repeated_headings,
+        "note": "Batch pattern score catches repeated outlines across a group of drafts.",
+    }
+
+
+def validate_content_batch(
+    log,
+    draft_files,
+    max_ai_detector_score=20.0,
+    max_template_similarity_score=CONTENT_BATCH_MAX_TEMPLATE_SIMILARITY_SCORE,
+    min_brand_specificity_score=CONTENT_BATCH_MIN_BRAND_SPECIFICITY_SCORE,
+    require_content_skill=False,
+):
+    errors = validate_authenticity(
+        log,
+        "",
+        max_ai_detector_score=max_ai_detector_score,
+        require_content_skill=require_content_skill,
+    )
+    draft_reports = []
+    drafts = []
+
+    for draft_file in draft_files:
+        path = Path(draft_file)
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError as exc:
+            errors.append("{}: {}".format(path, exc))
+            continue
+        drafts.append({"path": str(path), "text": text})
+        draft_errors = validate_authenticity(
+            log,
+            text,
+            max_ai_detector_score=max_ai_detector_score,
+            require_content_skill=False,
+        )
+        for error_text in draft_errors:
+            if error_text not in errors:
+                errors.append("{}: {}".format(path, error_text))
+
+        brand_specificity = brand_specificity_report(text)
+        if brand_specificity["score"] < min_brand_specificity_score:
+            errors.append(
+                "{}: brand specificity score {} is below minimum {}".format(
+                    path,
+                    brand_specificity["score"],
+                    min_brand_specificity_score,
+                )
+            )
+
+        sensitive_claims = sensitive_claim_report(log, text)
+        for error_text in sensitive_claims["errors"]:
+            errors.append("{}: {}".format(path, error_text))
+
+        draft_reports.append(
+            {
+                "path": str(path),
+                "ai_text_risk": ai_text_risk_report(text),
+                "brand_specificity": brand_specificity,
+                "sensitive_claims": sensitive_claims,
+            }
+        )
+
+    if not drafts:
+        errors.append("no readable draft files provided")
+
+    batch_report = content_batch_ai_pattern_report(drafts)
+    if batch_report["score"] >= max_template_similarity_score:
+        errors.append(
+            "batch template similarity score {} meets or exceeds max {}".format(
+                batch_report["score"],
+                max_template_similarity_score,
+            )
+        )
+    for item in batch_report["repeated_headings"]:
+        errors.append(
+            "repeated batch heading '{}' appears in {} drafts".format(
+                item["heading"],
+                item["doc_count"],
+            )
+        )
+
+    return {
+        "ok": not errors,
+        "errors": errors,
+        "drafts": draft_reports,
+        "batch_ai_pattern": batch_report,
     }
 
 
@@ -2565,6 +3340,632 @@ def write_content_with_authenticity(
         "output": str(content_output),
         "required_skill": CONTENT_AUTHENTICITY_SKILL,
         "ai_text_risk": ai_text_risk,
+    }
+
+
+def youtube_intake_errors(log):
+    for source in log.get("sources", []):
+        if str(source.get("source_type", "")).strip() != "youtube_video":
+            continue
+        facts = str(source.get("extracted_facts", ""))
+        if source.get("local_artifact_dir") and re.search(r"\[\d{2}:\d{2}:\d{2}\]", facts):
+            return []
+    return [
+        "blog write requires timestamped YouTube intake evidence; run ingest-content-source then build-content-brief"
+    ]
+
+
+def record_authenticity_source(
+    authenticity_file,
+    source_id,
+    source_type,
+    source_ref,
+    extracted_facts,
+    claim="",
+    claim_type="",
+    source_id_for_claim="",
+):
+    log = read_json(authenticity_file)
+    sources = log.setdefault("sources", [])
+    claims = log.setdefault("claims", [])
+    if not isinstance(sources, list):
+        raise RuntimeError("sources must be a list")
+    if not isinstance(claims, list):
+        raise RuntimeError("claims must be a list")
+
+    source = {
+        "source_id": source_id,
+        "source_type": source_type,
+        "source_ref": source_ref,
+        "extracted_facts": extracted_facts,
+    }
+    existing_ids = {str(item.get("source_id", "")).strip() for item in sources}
+    source_added = False
+    if source_id not in existing_ids:
+        sources.append(source)
+        source_added = True
+
+    claim_added = False
+    if str(claim or "").strip():
+        claim_record = {
+            "claim": claim,
+            "source_ids": [source_id_for_claim or source_id],
+        }
+        if str(claim_type or "").strip():
+            claim_record["claim_type"] = claim_type
+        claims.append(claim_record)
+        claim_added = True
+
+    write_json(log, authenticity_file)
+    return {
+        "ok": True,
+        "authenticity": str(authenticity_file),
+        "source_added": source_added,
+        "claim_added": claim_added,
+        "source": source,
+    }
+
+
+def write_blog_with_gates(
+    brand_dir,
+    keyword,
+    draft_file,
+    content_output,
+    authenticity_file,
+    run_id="",
+    brief_file="",
+    max_ai_detector_score=20.0,
+    legacy_compatibility=True,
+    content_packet_file="",
+    outline_file="",
+    claim_map_file="",
+    batch_files=None,
+):
+    if not legacy_compatibility:
+        return write_blog_v2_with_gates(
+            brand_dir,
+            draft_file,
+            content_output,
+            authenticity_file,
+            content_packet_file,
+            outline_file,
+            claim_map_file,
+            batch_files=batch_files or [],
+            max_ai_detector_score=max_ai_detector_score,
+        )
+    draft_text = Path(draft_file).read_text(encoding="utf-8")
+    brief_text = Path(brief_file).read_text(encoding="utf-8") if brief_file else ""
+    blog_result = validate_blog_draft(draft_text, keyword=keyword, brief_text=brief_text)
+    log = read_json(authenticity_file)
+    intake_errors = youtube_intake_errors(log)
+    authenticity_errors = validate_authenticity(
+        log,
+        draft_text,
+        max_ai_detector_score=max_ai_detector_score,
+        require_content_skill=True,
+    )
+    ai_text_risk = ai_text_risk_report(draft_text)
+    errors = list(blog_result["errors"]) + list(intake_errors) + list(authenticity_errors)
+    write_result = {"ok": False, "written": False, "errors": []}
+    if not errors:
+        write_result = write_content_with_authenticity(
+            draft_file,
+            content_output,
+            authenticity_file,
+            max_ai_detector_score=max_ai_detector_score,
+        )
+        errors.extend(write_result.get("errors", []))
+
+    return {
+        "ok": not errors and bool(write_result.get("written")),
+        "errors": errors,
+        "written": bool(write_result.get("written")),
+        "paths": {
+            "brand_dir": str(brand_dir),
+            "run_id": run_id,
+            "brief_file": str(brief_file or ""),
+            "draft_file": str(draft_file),
+            "content_output": str(content_output),
+            "authenticity": str(authenticity_file),
+        },
+        "blog_components": blog_result["blog_components"],
+        "component_checks": blog_result["component_checks"],
+        "youtube_intake_errors": intake_errors,
+        "authenticity_errors": authenticity_errors,
+        "ai_text_risk": write_result.get("ai_text_risk", ai_text_risk),
+    }
+
+
+def write_blog_v2_with_gates(
+    brand_dir,
+    draft_file,
+    content_output,
+    authenticity_file,
+    content_packet_file,
+    outline_file,
+    claim_map_file,
+    batch_files=None,
+    max_ai_detector_score=20.0,
+):
+    """Run schema-v2 single-draft and brand-batch gates without skill injection."""
+    required_paths = {
+        "content packet": content_packet_file,
+        "outline": outline_file,
+        "claim map": claim_map_file,
+    }
+    missing = [label for label, path in required_paths.items() if not path]
+    if missing:
+        return {
+            "ok": False,
+            "written": False,
+            "status": "source_blocked",
+            "errors": ["schema v2 requires {}".format(", ".join(missing))],
+        }
+    draft_text = Path(draft_file).read_text(encoding="utf-8")
+    packet = load_content_v2_json(content_packet_file)
+    outline = load_content_v2_json(outline_file)
+    claim_map = load_content_v2_json(claim_map_file)
+    report = validate_draft_v2(packet, outline, draft_text, claim_map)
+    recent_texts = []
+    errors = [item["message"] for item in report["findings"] if item["blocking"]]
+    for path in batch_files or []:
+        recent_texts.append(Path(path).read_text(encoding="utf-8"))
+    if not batch_files and brand_dir:
+        current = Path(draft_file).resolve()
+        candidates = []
+        for folder in ("drafts", "published"):
+            candidates.extend((Path(brand_dir) / "blogs" / folder).glob("*.md"))
+        candidates = [path for path in candidates if path.resolve() != current]
+        candidates.sort(key=lambda path: path.stat().st_mtime, reverse=True)
+        recent_texts.extend(
+            path.read_text(encoding="utf-8") for path in candidates[:5]
+        )
+    batch_report = batch_similarity_report([*recent_texts, draft_text])
+    if len(recent_texts) >= 1 and not batch_report["ok"]:
+        errors.append(
+            "batch template similarity score {} meets or exceeds max {}".format(
+                batch_report["score"], batch_report["threshold"]
+            )
+        )
+    authenticity = read_json(authenticity_file) if authenticity_file else {}
+    detector_results = []
+    for note in authenticity.get("detector_notes", []):
+        if not is_ai_detector_note(note):
+            continue
+        score = parse_detector_score_percent(note.get("score", note.get("note", "")))
+        if score is not None:
+            detector_results.append({"tool": note.get("tool", "unknown"), "score": score})
+    detector_review = any(
+        item["score"] >= max_ai_detector_score for item in detector_results
+    )
+    style_review = report["style_pattern_risk"]["score"] >= max_ai_detector_score
+    editorial = authenticity.get("editorial_decision", {})
+    editorial_approved = editorial.get("decision") == "approve" and editorial.get("editor_id")
+    review_required = (detector_review or style_review) and not editorial_approved
+    if review_required:
+        errors.append("external detector or style-pattern result requires editorial review")
+    written = not errors
+    if written:
+        write_text_file(content_output, draft_text)
+    status = "exported" if written else ("review_required" if review_required else "correcting")
+    return {
+        "schema_version": 2,
+        "ok": written,
+        "written": written,
+        "status": status,
+        "errors": errors,
+        "packet_hash": content_packet_hash(packet),
+        "prompt_version": packet.get("prompt_version", "seo-content-v1"),
+        "gate_version": packet.get("gate_version", "seo-content-gates-v2"),
+        "detector_results": detector_results,
+        "style_pattern_risk": report["style_pattern_risk"],
+        "gate_report": report,
+        "batch_similarity": batch_report,
+        "content_output": str(content_output),
+    }
+
+
+def content_intake_run_dir(brand_dir, run_id):
+    return Path(brand_dir) / "references" / "content-intake" / run_id
+
+
+def content_intake_sources_dir(brand_dir, run_id):
+    return content_intake_run_dir(brand_dir, run_id) / "sources"
+
+
+def youtube_process_script(learnings_root):
+    return Path(learnings_root) / "scripts" / "process_video.py"
+
+
+def youtube_python(learnings_root):
+    venv_python = Path(learnings_root) / ".venv" / "bin" / "python"
+    return venv_python if venv_python.exists() else Path(sys.executable)
+
+
+def run_youtube_process(learnings_root, args, runner=None):
+    root = Path(learnings_root)
+    script = youtube_process_script(root)
+    if runner is None and not script.exists():
+        raise RuntimeError("YouTube learnings script not found at {}".format(script))
+    process_runner = runner or subprocess.run
+    process = process_runner(
+        [str(youtube_python(root)), str(script)] + list(args),
+        cwd=str(root),
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if process.returncode != 0:
+        detail = (process.stderr or process.stdout or "").strip()[:1000]
+        raise RuntimeError("YouTube process failed: {}".format(detail))
+    return parse_json_output(process.stdout)
+
+
+def read_json_if_exists(path):
+    path = Path(path)
+    if not path.exists():
+        return {}
+    return read_json(path)
+
+
+def find_youtube_artifact_dir(learnings_root, video_id, source_ref):
+    videos_dir = Path(learnings_root) / "videos"
+    candidates = [videos_dir / video_id]
+    if videos_dir.exists():
+        for meta_path in videos_dir.glob("*/meta.json"):
+            try:
+                meta = read_json(meta_path)
+            except (OSError, json.JSONDecodeError):
+                continue
+            if meta.get("id") == video_id or meta.get("webpage_url") == source_ref:
+                candidates.append(meta_path.parent)
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return videos_dir / video_id
+
+
+def read_youtube_learning_docs(artifact_dir):
+    learning_dir = Path(artifact_dir) / "learnings"
+    docs = {}
+    for name in (
+        "01-summary.md",
+        "02-key-concepts.md",
+        "04-references.md",
+        "05-actionables.md",
+    ):
+        path = learning_dir / name
+        if path.exists():
+            docs[name] = path.read_text(encoding="utf-8")
+    return docs
+
+
+def text_excerpt(text, limit=1800):
+    text = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(text) <= limit:
+        return text
+    return text[: limit - 3].rstrip() + "..."
+
+
+def youtube_extracted_facts(transcript_text, learning_docs):
+    transcript_lines = [
+        line.strip()
+        for line in (transcript_text or "").splitlines()
+        if line.strip().startswith("[")
+    ]
+    selected_lines = []
+    seen_lines = set()
+
+    def add_transcript_line(line):
+        if line and line not in seen_lines:
+            selected_lines.append(line)
+            seen_lines.add(line)
+
+    def timestamp_seconds(line):
+        match = re.match(r"\[(\d{2}):(\d{2}):(\d{2})\]", line)
+        if not match:
+            return 0
+        hours, minutes, seconds = [int(part) for part in match.groups()]
+        return hours * 3600 + minutes * 60 + seconds
+
+    for line in transcript_lines[:4]:
+        add_transcript_line(line)
+
+    cue_patterns = (
+        r"\bwedge|\bheel",
+        r"\bclog|\bmule",
+        r"\bloafer",
+        r"\bflat|\bsandal",
+        r"\bcomfort|\bcushion|\bgrip|\banti-slip|\bcommute|\ball day",
+        r"\boffice|\bpresentation|\bmeeting|\bdaily wear|\btravel",
+        r"\bethnic|\bindo-western",
+    )
+    for pattern in cue_patterns:
+        fallback = None
+        for index, line in enumerate(transcript_lines):
+            if re.search(pattern, line, re.IGNORECASE):
+                fallback = fallback or (index, line)
+                if timestamp_seconds(line) < 20:
+                    continue
+                fallback = (index, line)
+                break
+        if fallback:
+            index, line = fallback
+            add_transcript_line(line)
+            if index + 1 < len(transcript_lines):
+                add_transcript_line(transcript_lines[index + 1])
+
+    parts = []
+    if selected_lines:
+        parts.append("Transcript evidence: " + " ".join(selected_lines))
+
+    if learning_docs:
+        for name, text in learning_docs.items():
+            clean = strip_markdown_for_ai_text_risk(text)
+            if clean:
+                parts.append("{}: {}".format(name, clean))
+
+    if parts:
+        return text_excerpt(" ".join(parts))
+    return ""
+
+
+def ingest_youtube_content_source(
+    brand_dir,
+    url,
+    run_id,
+    learnings_root=DEFAULT_YOUTUBE_LEARNINGS_ROOT,
+    allow_whisper=False,
+    runner=None,
+):
+    init_result = run_youtube_process(learnings_root, ["init", url], runner=runner)
+    video_id = safe_path_segment(
+        init_result.get("video_id") or init_result.get("id") or item_hash(url)
+    )
+    artifact_dir = find_youtube_artifact_dir(
+        learnings_root,
+        video_id,
+        init_result.get("webpage_url") or url,
+    )
+    transcript_result = run_youtube_process(
+        learnings_root, ["transcript", video_id], runner=runner
+    )
+    transcript_source = transcript_result.get("source", "")
+    usable = True
+    errors = []
+    blockers = []
+    if transcript_source == "whisper_needed":
+        if not allow_whisper:
+            usable = False
+            blockers.append("transcript requires Whisper; rerun with --allow-whisper")
+        else:
+            transcript_result = run_youtube_process(
+                learnings_root, ["transcribe", video_id], runner=runner
+            )
+            transcript_source = transcript_result.get("source", "whisper")
+
+    transcript_path = Path(artifact_dir) / "transcript.txt"
+    transcript_text = ""
+    if transcript_path.exists():
+        transcript_text = transcript_path.read_text(encoding="utf-8")
+    elif usable:
+        usable = False
+        blockers.append("transcript.txt was not created by YouTube ingestion")
+
+    meta = read_json_if_exists(Path(artifact_dir) / "meta.json")
+    learning_docs = read_youtube_learning_docs(artifact_dir)
+    extracted_facts = youtube_extracted_facts(transcript_text, learning_docs)
+    if usable and not extracted_facts:
+        usable = False
+        blockers.append("no timestamped facts were extracted from the video")
+
+    source_ref = meta.get("webpage_url") or init_result.get("webpage_url") or url
+    source_dir = content_intake_sources_dir(brand_dir, run_id) / video_id
+    source = {
+        "source_id": "youtube:{}".format(video_id),
+        "source_type": "youtube_video",
+        "source_ref": source_ref,
+        "title": meta.get("title") or init_result.get("title") or "",
+        "channel": meta.get("channel") or meta.get("uploader") or "",
+        "published_at": meta.get("upload_date") or "",
+        "duration": meta.get("duration") or init_result.get("duration") or "",
+        "transcript_source": transcript_source,
+        "local_artifact_dir": str(artifact_dir),
+        "extracted_facts": extracted_facts
+        or "Transcript was unavailable; do not use this source for claims.",
+        "risks": [
+            "third-party video requires editorial approval before copying claims",
+            "speaker authority is not verified by the harness",
+        ]
+        + blockers,
+        "usable": usable,
+        "learning_files": sorted(str(Path(artifact_dir) / "learnings" / name) for name in learning_docs),
+    }
+    write_json(source, source_dir / "source.json")
+    if transcript_text:
+        write_text_file(source_dir / "transcript.txt", transcript_text)
+
+    return {
+        "ok": usable and not errors,
+        "errors": errors + blockers,
+        "source": source,
+        "source_json": str(source_dir / "source.json"),
+        "transcript": str(source_dir / "transcript.txt") if transcript_text else "",
+    }
+
+
+def ingest_content_source(
+    brand_dir,
+    source,
+    url,
+    run_id,
+    learnings_root=DEFAULT_YOUTUBE_LEARNINGS_ROOT,
+    allow_whisper=False,
+    runner=None,
+):
+    if source != "youtube":
+        raise RuntimeError("unsupported content source {}".format(source))
+    return ingest_youtube_content_source(
+        brand_dir,
+        url,
+        run_id,
+        learnings_root=learnings_root,
+        allow_whisper=allow_whisper,
+        runner=runner,
+    )
+
+
+def load_content_intake_sources(brand_dir, run_id):
+    sources = []
+    for path in sorted(content_intake_sources_dir(brand_dir, run_id).glob("*/source.json")):
+        source = read_json(path)
+        if source.get("usable", True):
+            sources.append(source)
+    return sources
+
+
+def authenticity_source_from_intake(source):
+    return {
+        "source_id": source["source_id"],
+        "source_type": source["source_type"],
+        "source_ref": source["source_ref"],
+        "extracted_facts": source["extracted_facts"],
+        "title": source.get("title", ""),
+        "channel": source.get("channel", ""),
+        "local_artifact_dir": source.get("local_artifact_dir", ""),
+    }
+
+
+def merge_authenticity_sources(log, sources):
+    existing_ids = {
+        str(source.get("source_id", "")).strip()
+        for source in log.get("sources", [])
+    }
+    added = []
+    for source in sources:
+        source_id = source.get("source_id", "")
+        if source_id in existing_ids:
+            continue
+        auth_source = authenticity_source_from_intake(source)
+        log.setdefault("sources", []).append(auth_source)
+        existing_ids.add(source_id)
+        added.append(auth_source)
+    return added
+
+
+def collect_internal_links(brand_dir, keyword, limit=8):
+    inventory_path = Path(brand_dir) / "exports" / "url-inventory.csv"
+    if not inventory_path.exists():
+        return []
+    tokens = [
+        token
+        for token in re.findall(r"[a-z0-9]+", keyword.lower())
+        if len(token) > 2
+    ]
+    links = []
+    with open(inventory_path, "r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            url = row.get("url") or row.get("URL") or row.get("target_url") or ""
+            if not url:
+                continue
+            haystack = " ".join(str(value or "") for value in row.values()).lower()
+            if tokens and not any(token in haystack for token in tokens):
+                continue
+            links.append(url)
+            if len(links) >= limit:
+                break
+    return links
+
+
+def build_brief_markdown(brief_input):
+    lines = [
+        "# Content Brief: {}".format(brief_input["keyword"]),
+        "",
+        "Target: {}".format(brief_input["target"]),
+        "Run ID: {}".format(brief_input["run_id"]),
+        "",
+        "## Recommended Angle",
+        "",
+        brief_input["recommended_angle"],
+        "",
+        "## Evidence Sources",
+        "",
+    ]
+    for source in brief_input["approved_sources"]:
+        lines.append(
+            "- {}: {} ({})".format(
+                source.get("source_id", ""),
+                source.get("title", "") or source.get("source_ref", ""),
+                source.get("source_ref", ""),
+            )
+        )
+    lines.extend(["", "## Claims To Use Carefully", ""])
+    for claim in brief_input["claims"]:
+        lines.append("- {}".format(claim["claim"]))
+    lines.extend(["", "## Missing Evidence", ""])
+    for item in brief_input["missing_evidence"]:
+        lines.append("- {}".format(item))
+    lines.extend(["", "## Internal Links", ""])
+    for link in brief_input["internal_links"]:
+        lines.append("- {}".format(link))
+    lines.extend(
+        [
+            "",
+            "## Review Gate",
+            "",
+            "- Run `verify-authenticity` against the draft.",
+            "- Run `verify-content-batch` before publishing a batch.",
+            "- Do not write product-specific claims without product or approved source evidence.",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def build_content_brief(brand_dir, run_id, keyword, target, authenticity_file, output):
+    sources = load_content_intake_sources(brand_dir, run_id)
+    if not sources:
+        raise RuntimeError("no usable content intake sources found for run {}".format(run_id))
+
+    log = read_json(authenticity_file)
+    added_sources = merge_authenticity_sources(log, sources)
+    write_json(log, authenticity_file)
+
+    claims = [
+        {
+            "claim": text_excerpt(source.get("extracted_facts", ""), limit=420),
+            "source_ids": [source.get("source_id", "")],
+        }
+        for source in sources
+    ]
+    brief_input = {
+        "keyword": keyword,
+        "target": target,
+        "run_id": run_id,
+        "approved_sources": [
+            authenticity_source_from_intake(source) for source in sources
+        ],
+        "claims": claims,
+        "missing_evidence": [
+            "Add product_page or Shopify evidence for exact products, materials, price, availability, shipping, returns, and comfort claims.",
+            "Add GSC, keyword, or SERP evidence before claiming the angle matches search demand beyond the selected keyword.",
+        ],
+        "internal_links": collect_internal_links(brand_dir, keyword),
+        "recommended_angle": (
+            "Use the approved YouTube evidence to answer '{}' with timestamp-backed "
+            "advice, then add product-level Inc5 evidence before drafting."
+        ).format(keyword),
+    }
+    brief_input_path = content_intake_run_dir(brand_dir, run_id) / "brief-input.json"
+    write_json(brief_input, brief_input_path)
+    write_text_file(output, build_brief_markdown(brief_input))
+    return {
+        "ok": True,
+        "brief": str(output),
+        "brief_input": str(brief_input_path),
+        "authenticity": str(authenticity_file),
+        "sources_added": len(added_sources),
+        "approved_source_count": len(sources),
     }
 
 
@@ -2940,9 +4341,18 @@ def keyword_research_date_range(today=None):
     return start_date.isoformat(), end_date.isoformat()
 
 
-def fetch_gsc_keyword_rows(site_url, start_date, end_date, runner=None, row_limit=5000):
+def fetch_gsc_keyword_rows(
+    site_url,
+    start_date,
+    end_date,
+    runner=None,
+    row_limit=5000,
+    max_rows=None,
+):
     rows = []
     start_row = 0
+    if max_rows:
+        row_limit = min(row_limit, max_rows)
     while True:
         payload = {
             "site_url": site_url,
@@ -2957,6 +4367,8 @@ def fetch_gsc_keyword_rows(site_url, start_date, end_date, runner=None, row_limi
         response = composio_execute(GSC_SEARCH_ANALYTICS_TOOL, payload, runner=runner)
         batch = parse_gsc_rows(response, dimensions=payload["dimensions"])
         rows.extend(batch)
+        if max_rows and len(rows) >= max_rows:
+            return rows[:max_rows]
         if len(batch) < row_limit:
             break
         start_row += row_limit
@@ -3196,6 +4608,25 @@ def extract_brand_seed_keywords(brand_dna_text):
         "ai campaign optimization",
         "ai seo automation",
         "marketing agent platform",
+        "women footwear",
+        "women sandals",
+        "women heels",
+        "women flats",
+        "ethnic footwear",
+        "women boots",
+        "women wedges",
+        "platform heels",
+        "comfort footwear",
+        "men footwear",
+        "men formal shoes",
+        "men sandals",
+        "men driving shoes",
+        "men slip ons",
+        "handbags",
+        "sling bags",
+        "clutch bags",
+        "shoulder bags",
+        "wallets",
     ]
     seeds = []
     for phrase in phrase_bank:
@@ -3219,7 +4650,10 @@ def keyword_is_relevant(keyword, brand_name=""):
         r"\b(marketing|advertising|advertisement|ad|ads|seo|aso|content|copywriting|"
         r"email|lifecycle|automation|analytics|growth|campaign|creative|ecommerce|"
         r"e-commerce|dtc|d2c|shopify|meta|facebook|instagram|google ads|hubspot|"
-        r"posthog|platform|software|jasper|adroll)\b"
+        r"posthog|platform|software|jasper|adroll|footwear|shoe|shoes|sandal|sandals|"
+        r"heel|heels|flat|flats|bag|bags|handbag|handbags|wallet|wallets|boot|boots|"
+        r"wedge|wedges|pump|pumps|mule|mules|ethnic|slip-?on|slip-?ons|loafer|"
+        r"loafers|leather|comfort)\b"
     )
     if re.search(r"\b(ai|artificial intelligence|agentic|agent)\b", normalized):
         return bool(re.search(context_pattern, normalized))
@@ -3604,11 +5038,13 @@ def generate_keyword_research(
                 )
             )
         gsc_rows = fetch_gsc_keyword_rows(
-            gsc_site.get("siteUrl"), start_date, end_date, runner=runner
+            gsc_site.get("siteUrl"),
+            start_date,
+            end_date,
+            runner=runner,
+            max_rows=raw_limit,
         )
     except RuntimeError as exc:
-        if available_sites and not gsc_site:
-            raise
         blockers.append({"source": "gsc", "message": str(exc)})
 
     target_country, target_country_source = infer_target_country(
@@ -5048,12 +6484,18 @@ def markdown_headings(rendered_text):
 
 def harmful_preview_controls(*html_values):
     html = "\n".join(str(value or "").lower() for value in html_values)
+    html = re.sub(
+        r"<(script|style)\b[^>]*\bdata-nosnippet\b[^>]*(?:>.*?</\1\s*>|/?>)",
+        "",
+        html,
+        flags=re.S,
+    )
     return bool(
         re.search(
-            r"(name=[\"']robots[\"'][^>]+content=[\"'][^\"']*(nosnippet|max-snippet\s*:\s*0|max-image-preview\s*:\s*none|max-video-preview\s*:\s*0)"
-            r"|data-nosnippet)",
+            r"name=[\"']robots[\"'][^>]+content=[\"'][^\"']*(nosnippet|max-snippet\s*:\s*0|max-image-preview\s*:\s*none|max-video-preview\s*:\s*0)",
             html,
         )
+        or re.search(r"<(?!script|style)\w+[^>]*\bdata-nosnippet\b", html)
     )
 
 
@@ -6870,6 +8312,19 @@ def command_verify_authenticity(args):
     return 0 if not errors else 1
 
 
+def command_verify_content_batch(args):
+    log = read_json(args.authenticity)
+    result = validate_content_batch(
+        log,
+        args.draft_file,
+        max_ai_detector_score=args.max_ai_detector_score,
+        max_template_similarity_score=args.max_template_similarity_score,
+        min_brand_specificity_score=args.min_brand_specificity_score,
+    )
+    write_json(result, args.output)
+    return 0 if result["ok"] else 1
+
+
 def command_write_content(args):
     try:
         result = write_content_with_authenticity(
@@ -6882,6 +8337,81 @@ def command_write_content(args):
         result = {"ok": False, "errors": [str(exc)], "written": False}
     write_json(result, args.output)
     return 0 if result["ok"] else 1
+
+
+def command_record_authenticity_source(args):
+    try:
+        result = record_authenticity_source(
+            args.authenticity,
+            args.source_id,
+            args.source_type,
+            args.source_ref,
+            args.extracted_facts,
+            claim=args.claim,
+            claim_type=args.claim_type,
+            source_id_for_claim=args.source_id_for_claim,
+        )
+    except (RuntimeError, OSError, json.JSONDecodeError) as exc:
+        result = {"ok": False, "errors": [str(exc)]}
+    write_json(result, args.output)
+    return 0 if result.get("ok") else 1
+
+
+def command_write_blog(args):
+    try:
+        result = write_blog_with_gates(
+            args.brand_dir,
+            args.keyword,
+            args.draft_file,
+            args.content_output,
+            args.authenticity,
+            run_id=args.run_id,
+            brief_file=args.brief_file,
+            max_ai_detector_score=args.max_ai_detector_score,
+            legacy_compatibility=args.legacy_compatibility,
+            content_packet_file=args.content_packet,
+            outline_file=args.outline,
+            claim_map_file=args.claim_map,
+            batch_files=args.batch_file,
+        )
+    except (RuntimeError, OSError, json.JSONDecodeError) as exc:
+        result = {"ok": False, "errors": [str(exc)], "written": False}
+    write_json(result, args.output)
+    return 0 if result.get("ok") else 1
+
+
+def command_ingest_content_source(args):
+    try:
+        result = ingest_content_source(
+            args.brand_dir,
+            args.source,
+            args.url,
+            args.run_id,
+            learnings_root=args.learnings_root,
+            allow_whisper=args.allow_whisper,
+        )
+    except (RuntimeError, OSError, json.JSONDecodeError) as exc:
+        result = {"ok": False, "errors": [str(exc)]}
+    write_json(result, args.output)
+    return 0 if result.get("ok") else 1
+
+
+def command_build_content_brief(args):
+    try:
+        result = build_content_brief(
+            args.brand_dir,
+            args.run_id,
+            args.keyword,
+            args.target,
+            args.authenticity,
+            args.output,
+        )
+    except (RuntimeError, OSError, json.JSONDecodeError) as exc:
+        result = {"ok": False, "errors": [str(exc)]}
+        write_json(result, args.report_output)
+        return 1
+    write_json(result, args.report_output)
+    return 0
 
 
 def command_firecrawl_scrape(args):
@@ -7175,6 +8705,35 @@ def build_parser():
     verify_auth_parser.add_argument("--output", help="Output verification JSON path")
     verify_auth_parser.set_defaults(func=command_verify_authenticity)
 
+    verify_batch_parser = subparsers.add_parser("verify-content-batch")
+    verify_batch_parser.add_argument("--authenticity", required=True)
+    verify_batch_parser.add_argument(
+        "--draft-file",
+        action="append",
+        required=True,
+        help="Draft Markdown file to verify. Repeat for multiple files.",
+    )
+    verify_batch_parser.add_argument(
+        "--max-ai-detector-score",
+        type=float,
+        default=20.0,
+        help="Maximum recorded detector or local AI-pattern risk score allowed before verification fails.",
+    )
+    verify_batch_parser.add_argument(
+        "--max-template-similarity-score",
+        type=float,
+        default=CONTENT_BATCH_MAX_TEMPLATE_SIMILARITY_SCORE,
+        help="Maximum batch outline similarity score allowed before verification fails.",
+    )
+    verify_batch_parser.add_argument(
+        "--min-brand-specificity-score",
+        type=float,
+        default=CONTENT_BATCH_MIN_BRAND_SPECIFICITY_SCORE,
+        help="Minimum product or brand specificity score required for each draft.",
+    )
+    verify_batch_parser.add_argument("--output", help="Output batch verification JSON path")
+    verify_batch_parser.set_defaults(func=command_verify_content_batch)
+
     write_content_parser = subparsers.add_parser("write-content")
     write_content_parser.add_argument("--draft-file", required=True)
     write_content_parser.add_argument("--content-output", required=True)
@@ -7187,6 +8746,73 @@ def build_parser():
     )
     write_content_parser.add_argument("--output", help="Output write report JSON path")
     write_content_parser.set_defaults(func=command_write_content)
+
+    record_auth_source_parser = subparsers.add_parser("record-authenticity-source")
+    record_auth_source_parser.add_argument("--authenticity", required=True)
+    record_auth_source_parser.add_argument("--source-id", required=True)
+    record_auth_source_parser.add_argument("--source-type", required=True)
+    record_auth_source_parser.add_argument("--source-ref", required=True)
+    record_auth_source_parser.add_argument("--extracted-facts", required=True)
+    record_auth_source_parser.add_argument("--claim", default="")
+    record_auth_source_parser.add_argument("--claim-type", default="")
+    record_auth_source_parser.add_argument("--source-id-for-claim", default="")
+    record_auth_source_parser.add_argument("--output", help="Output recording JSON path")
+    record_auth_source_parser.set_defaults(func=command_record_authenticity_source)
+
+    write_blog_parser = subparsers.add_parser("write-blog")
+    write_blog_parser.add_argument("--brand-dir", required=True)
+    write_blog_parser.add_argument("--keyword", required=True)
+    write_blog_parser.add_argument("--draft-file", required=True)
+    write_blog_parser.add_argument("--content-output", required=True)
+    write_blog_parser.add_argument("--authenticity", required=True)
+    write_blog_parser.add_argument("--run-id", default="")
+    write_blog_parser.add_argument("--brief-file", default="")
+    write_blog_parser.add_argument(
+        "--legacy-compatibility",
+        action="store_true",
+        help="Use the original skill-backed article anatomy and authenticity log gates.",
+    )
+    write_blog_parser.add_argument("--content-packet", default="")
+    write_blog_parser.add_argument("--outline", default="")
+    write_blog_parser.add_argument("--claim-map", default="")
+    write_blog_parser.add_argument(
+        "--batch-file",
+        action="append",
+        default=[],
+        help="Recent same-brand article used by the schema-v2 batch similarity gate.",
+    )
+    write_blog_parser.add_argument(
+        "--max-ai-detector-score",
+        type=float,
+        default=20.0,
+        help="Maximum recorded detector or local AI-pattern risk score allowed before writing content.",
+    )
+    write_blog_parser.add_argument("--output", help="Output blog write report JSON path")
+    write_blog_parser.set_defaults(func=command_write_blog)
+
+    ingest_content_parser = subparsers.add_parser("ingest-content-source")
+    ingest_content_parser.add_argument("--brand-dir", required=True)
+    ingest_content_parser.add_argument("--source", choices=("youtube",), required=True)
+    ingest_content_parser.add_argument("--url", required=True)
+    ingest_content_parser.add_argument("--run-id", required=True)
+    ingest_content_parser.add_argument(
+        "--learnings-root",
+        default=str(DEFAULT_YOUTUBE_LEARNINGS_ROOT),
+        help="Path to the learnings-from-youtube repo.",
+    )
+    ingest_content_parser.add_argument("--allow-whisper", action="store_true")
+    ingest_content_parser.add_argument("--output", help="Output ingestion JSON path")
+    ingest_content_parser.set_defaults(func=command_ingest_content_source)
+
+    brief_parser = subparsers.add_parser("build-content-brief")
+    brief_parser.add_argument("--brand-dir", required=True)
+    brief_parser.add_argument("--run-id", required=True)
+    brief_parser.add_argument("--keyword", required=True)
+    brief_parser.add_argument("--target", required=True)
+    brief_parser.add_argument("--authenticity", required=True)
+    brief_parser.add_argument("--output", required=True, help="Output brief Markdown path")
+    brief_parser.add_argument("--report-output", help="Output command report JSON path")
+    brief_parser.set_defaults(func=command_build_content_brief)
 
     firecrawl_parser = subparsers.add_parser("firecrawl-scrape")
     firecrawl_parser.add_argument("--url", required=True)

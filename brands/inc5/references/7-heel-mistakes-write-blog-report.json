@@ -1,0 +1,26 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 99.38,
+          "section_count": 8,
+          "variation": 0.1
+        },
+        "name": "uniform_advice_sections",
+        "points": 10.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 10.0,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1194
+  },
+  "errors": [],
+  "ok": true,
+  "output": "brands/inc5/blogs/published/7-heel-mistakes-that-make-outfits-hurt-or-look-off.md",
+  "required_skill": "content-seo-authenticity",
+  "written": true
+}

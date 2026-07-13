@@ -1,0 +1,61 @@
+{
+  "audit_count": 5,
+  "ok": true,
+  "results": [
+    {
+      "audit": "brands/inc5/audits/ai-seo-aeo-geo-google-visible-audit.json",
+      "coverage_counts": {
+        "fail": 23,
+        "not_applicable": 17,
+        "not_checked_blocked": 11,
+        "pass": 82
+      },
+      "ok": true,
+      "resolved_rows": 133
+    },
+    {
+      "audit": "brands/inc5/audits/content-seo-google-visible-audit.json",
+      "coverage_counts": {
+        "fail": 49,
+        "not_applicable": 11,
+        "not_checked_blocked": 5,
+        "pass": 108
+      },
+      "ok": true,
+      "resolved_rows": 173
+    },
+    {
+      "audit": "brands/inc5/audits/ecommerce-seo-google-visible-audit.json",
+      "coverage_counts": {
+        "fail": 40,
+        "not_applicable": 16,
+        "not_checked_blocked": 5,
+        "pass": 108
+      },
+      "ok": true,
+      "resolved_rows": 169
+    },
+    {
+      "audit": "brands/inc5/audits/generic-on-page-google-visible-audit.json",
+      "coverage_counts": {
+        "fail": 107,
+        "not_applicable": 33,
+        "not_checked_blocked": 31,
+        "pass": 210
+      },
+      "ok": true,
+      "resolved_rows": 381
+    },
+    {
+      "audit": "brands/inc5/audits/site-architecture-google-visible-audit.json",
+      "coverage_counts": {
+        "fail": 25,
+        "not_applicable": 10,
+        "not_checked_blocked": 10,
+        "pass": 173
+      },
+      "ok": true,
+      "resolved_rows": 218
+    }
+  ]
+}

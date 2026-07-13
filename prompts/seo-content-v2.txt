@@ -1,0 +1,7 @@
+Evaluation case: {{case_id}}
+
+Task: {{task}}
+
+Schema-v2 content packet: {{packet}}
+
+Generate one Markdown article from the supplied packet and accepted outline. Use only supported claims. Return a separate claim map after the article using the evaluation harness response format. Do not mention prompts, agents, skills, tools, sources used for the article, or internal workflow. Vary article structure according to the packet instead of adding fixed sections.

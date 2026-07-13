@@ -38,8 +38,9 @@ Use the smallest set that can prove the claims being made:
 6. Rewrite or recommend edits using concrete observations from the sources. Preserve useful SEO structure while removing generic phrasing, repeated transitions, bloated summaries, keyword stuffing, and unsupported certainty.
 7. Run a specificity and rhythm pass: vary sentence rhythm, replace abstract benefits with page-specific details, keep vocabulary natural for the brand, and read the piece aloud for mechanical cadence.
 8. Run the local AI text risk gate through `verify-authenticity` or `write-content`; a score at or above 20 blocks publish-ready output.
-9. Record external detector output only when a detector or review artifact is available. Put it in `detector_notes`; do not treat it as proof.
-10. Save publishable content only through `python3 tools/seo_audit_harness.py write-content --draft-file <draft> --content-output <final> --authenticity <log> --max-ai-detector-score 20`. Use `verify-authenticity` for read-only checks when no file is being written.
+9. For multi-blog runs, run `verify-content-batch` with every draft file before publishing. This catches repeated outlines, template similarity, unsupported product claims, and collection-only specificity that a single-draft gate can miss.
+10. Record external detector output only when a detector or review artifact is available. Put it in `detector_notes`; do not treat it as proof.
+11. Save publishable content only through `python3 tools/seo_audit_harness.py write-content --draft-file <draft> --content-output <final> --authenticity <log> --max-ai-detector-score 20`. Use `verify-authenticity` for read-only checks when no file is being written.
 
 ## AI-Pattern Review
 

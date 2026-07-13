@@ -1,6 +1,7 @@
 import copy
 import importlib.util
 import io
+import json
 import subprocess
 import sys
 import tempfile
@@ -231,6 +232,23 @@ https://www.example.com
         compiled = self.compiled_fixture()
         audit = seo_audit_harness.init_audit(compiled, "https://example.com", "partial")
         self.assertEqual(seo_audit_harness.validate_audit(compiled, audit), [])
+
+    def test_preview_controls_ignore_script_data_nosnippet(self):
+        self.assertFalse(
+            seo_audit_harness.harmful_preview_controls(
+                "<script data-nosnippet>window.appConfig = {}</script>"
+            )
+        )
+        self.assertTrue(
+            seo_audit_harness.harmful_preview_controls(
+                '<meta name="robots" content="nosnippet">'
+            )
+        )
+        self.assertTrue(
+            seo_audit_harness.harmful_preview_controls(
+                "<p data-nosnippet>Do not use this snippet.</p>"
+            )
+        )
 
     def test_full_audit_fails_blocked_rows(self):
         compiled = self.compiled_fixture()
@@ -2779,6 +2797,141 @@ Evidence sources: `CMS/code`.
             "detector_notes": [],
         }
 
+    def make_draft_files(self, base, texts):
+        paths = []
+        for index, text in enumerate(texts, 1):
+            path = base / "draft-{}.md".format(index)
+            path.write_text(text, encoding="utf-8")
+            paths.append(path)
+        return paths
+
+    def blog_draft_text(self, extra_body="", title="AI Marketing Agent Guide"):
+        return """---
+title: "{title}"
+meta_description: "Learn how an AI marketing agent plans, ships, and measures content work."
+slug: ai-marketing-agent-guide
+primary_keyword: ai marketing agent
+intent: informational
+author: Strique Editorial
+updated_at: 2026-07-09
+hero_image: /images/ai-marketing-agent.png
+hero_image_alt: AI marketing agent workflow board
+cta: Book a Strique demo
+related_posts:
+  - /blog/content-automation-platform
+article_schema: true
+breadcrumb_schema: true
+---
+# AI Marketing Agent Guide
+
+## TLDR
+
+An AI marketing agent is useful when it connects sources, planned work, and review gates before a draft is published.
+
+## Table of Contents
+
+- [How the agent plans work](#how-the-agent-plans-work)
+- [What the editor checks](#what-the-editor-checks)
+- [Where evidence fits](#where-evidence-fits)
+- [Common mistakes](#common-mistakes)
+
+## How the agent plans work
+
+Strique starts with brand context, keyword evidence, and source notes. The workflow keeps the reader, claim source, and next action visible before the article moves forward. Read the [content automation guide](/blog/content-automation-platform) for the broader workflow.
+
+## What the editor checks
+
+The editor checks that the article answers the query, links to useful pages, and avoids unsupported claims.
+
+## Where evidence fits
+
+Source evidence gives the writer concrete facts instead of broad claims. It also gives the reviewer a clear path back to the source log.
+
+## Common mistakes
+
+Teams get into trouble when they draft before collecting sources, repeat the same outline across a batch, or add a CTA before the reader gets value.
+
+## FAQ
+
+### Does every article need FAQ?
+
+No. FAQ is useful when the brief or SERP shows repeated follow-up questions.
+
+## Related Reading
+
+- [Content automation platform](/blog/content-automation-platform)
+
+## Next Step
+
+Use Strique when the blog workflow needs source logs, review gates, and measurable next actions.
+{extra_body}
+""".format(title=title, extra_body=extra_body)
+
+    def youtube_runner(self, learnings_root, transcript_source="youtube-transcript-api"):
+        root = Path(learnings_root)
+
+        def runner(command, cwd=None, capture_output=True, text=True, check=False):
+            action = command[-2]
+            value = command[-1]
+            video_dir = root / "videos" / "abc123"
+            if action == "init":
+                video_dir.mkdir(parents=True, exist_ok=True)
+                (video_dir / "meta.json").write_text(
+                    json.dumps(
+                        {
+                            "id": "abc123",
+                            "title": "How to choose comfortable heels",
+                            "channel": "Style Channel",
+                            "upload_date": "20260701",
+                            "duration": 120,
+                            "webpage_url": value,
+                        }
+                    ),
+                    encoding="utf-8",
+                )
+                stdout = json.dumps(
+                    {
+                        "video_id": "abc123",
+                        "dir": str(video_dir),
+                        "title": "How to choose comfortable heels",
+                        "duration": 120,
+                    }
+                )
+                return subprocess.CompletedProcess(command, 0, stdout, "")
+            if action == "transcript":
+                if transcript_source == "whisper_needed":
+                    return subprocess.CompletedProcess(
+                        command,
+                        0,
+                        json.dumps({"source": "whisper_needed", "reason": "no_captions"}),
+                        "",
+                    )
+                (video_dir / "transcript.txt").write_text(
+                    "[00:00:03] Check the heel base before choosing office heels.\n"
+                    "[00:00:12] A secure ankle strap can reduce slipping.\n",
+                    encoding="utf-8",
+                )
+                return subprocess.CompletedProcess(
+                    command,
+                    0,
+                    json.dumps({"source": transcript_source, "lines": 2}),
+                    "",
+                )
+            if action == "transcribe":
+                (video_dir / "transcript.txt").write_text(
+                    "[00:00:03] Whisper transcript says block heels feel steadier.\n",
+                    encoding="utf-8",
+                )
+                return subprocess.CompletedProcess(
+                    command,
+                    0,
+                    json.dumps({"source": "whisper", "lines": 1}),
+                    "",
+                )
+            return subprocess.CompletedProcess(command, 1, "", "unexpected command")
+
+        return runner
+
     def test_authenticity_passes_detector_note_below_threshold(self):
         log = self.authenticity_log_with_source()
         log["detector_notes"].append(
@@ -2849,6 +3002,210 @@ Evidence sources: `CMS/code`.
         self.assertLess(report["score"], 20)
         self.assertEqual(seo_audit_harness.validate_authenticity(log, draft), [])
 
+    def test_ai_text_risk_flags_template_heavy_seo_article(self):
+        section_body = (
+            "Choose the shoe after checking the outfit length and the event floor. "
+            "When the trouser is narrow, use a cleaner sandal and keep the strap line simple. "
+            "Start with the hem, then match the finish to the jewellery and bag. "
+            "Avoid a heavy sole if the outfit already has dense embroidery near the ankle. "
+            "Look for a pair that makes walking steady and does not pull attention from the outfit. "
+        ) * 3
+        sections = [
+            "Start With The Hem",
+            "Shoes To Wear With Sarees",
+            "Shoes To Wear With Kurtas",
+            "When Heels Make Sense",
+            "When Flats Look Better",
+            "How To Pick Color",
+            "Comfort Checks",
+        ]
+        draft = "# Festive Shoe Guide\n\n## Table of Contents\n\n- Start with the hem\n"
+        for heading in sections:
+            draft += "\n## {}\n\n{}".format(heading, section_body)
+        draft += (
+            "\n## FAQ\n\n### What shoes work with festive outfits?\n\n"
+            "Choose the shoe after checking the hem, the floor, and the outfit weight."
+        )
+
+        report = seo_audit_harness.ai_text_risk_report(draft)
+        feature_names = {feature["name"] for feature in report["features"]}
+
+        self.assertGreaterEqual(report["score"], 20)
+        self.assertIn("seo_article_scaffold", feature_names)
+        self.assertIn("uniform_advice_sections", feature_names)
+
+    def test_youtube_video_counts_as_concrete_authenticity_source(self):
+        log = {
+            "metadata": {"target": "draft.md"},
+            "sources": [
+                {
+                    "source_id": "youtube:abc123",
+                    "source_type": "youtube_video",
+                    "source_ref": "https://www.youtube.com/watch?v=abc123",
+                    "extracted_facts": "[00:00:03] Block heels can feel steadier.",
+                }
+            ],
+            "claims": [],
+            "detector_notes": [],
+        }
+
+        self.assertEqual(seo_audit_harness.validate_authenticity(log), [])
+
+    def test_ingest_content_source_records_youtube_artifacts(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        brand_dir = base / "brand"
+        learnings_root = base / "learnings"
+
+        result = seo_audit_harness.ingest_content_source(
+            brand_dir,
+            "youtube",
+            "https://www.youtube.com/watch?v=abc123",
+            "run-1",
+            learnings_root=learnings_root,
+            runner=self.youtube_runner(learnings_root),
+        )
+
+        self.assertTrue(result["ok"], result["errors"])
+        source = seo_audit_harness.read_json(result["source_json"])
+        self.assertEqual(source["source_id"], "youtube:abc123")
+        self.assertEqual(source["source_type"], "youtube_video")
+        self.assertEqual(source["transcript_source"], "youtube-transcript-api")
+        self.assertTrue(Path(result["transcript"]).exists())
+        self.assertIn("[00:00:03]", source["extracted_facts"])
+
+    def test_ingest_content_source_blocks_whisper_without_flag(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        brand_dir = base / "brand"
+        learnings_root = base / "learnings"
+
+        result = seo_audit_harness.ingest_content_source(
+            brand_dir,
+            "youtube",
+            "https://www.youtube.com/watch?v=abc123",
+            "run-1",
+            learnings_root=learnings_root,
+            runner=self.youtube_runner(learnings_root, transcript_source="whisper_needed"),
+        )
+
+        self.assertFalse(result["ok"])
+        self.assertTrue(any("--allow-whisper" in error for error in result["errors"]))
+
+    def test_ingest_content_source_allows_whisper_with_flag(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        brand_dir = base / "brand"
+        learnings_root = base / "learnings"
+
+        result = seo_audit_harness.ingest_content_source(
+            brand_dir,
+            "youtube",
+            "https://www.youtube.com/watch?v=abc123",
+            "run-1",
+            learnings_root=learnings_root,
+            allow_whisper=True,
+            runner=self.youtube_runner(learnings_root, transcript_source="whisper_needed"),
+        )
+
+        self.assertTrue(result["ok"], result["errors"])
+        self.assertEqual(result["source"]["transcript_source"], "whisper")
+
+    def test_build_content_brief_updates_authenticity_sources(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        brand_dir = base / "brand"
+        run_dir = seo_audit_harness.content_intake_sources_dir(brand_dir, "run-1") / "abc123"
+        run_dir.mkdir(parents=True)
+        seo_audit_harness.write_json(
+            {
+                "source_id": "youtube:abc123",
+                "source_type": "youtube_video",
+                "source_ref": "https://www.youtube.com/watch?v=abc123",
+                "title": "How to choose comfortable heels",
+                "channel": "Style Channel",
+                "local_artifact_dir": str(base / "learnings" / "videos" / "abc123"),
+                "extracted_facts": "[00:00:03] Check heel base and strap hold.",
+                "usable": True,
+            },
+            run_dir / "source.json",
+        )
+        authenticity = base / "auth.json"
+        log = self.authenticity_log_with_source()
+        seo_audit_harness.write_json(log, authenticity)
+        brief = brand_dir / "blogs" / "briefs" / "comfortable-heels.md"
+
+        result = seo_audit_harness.build_content_brief(
+            brand_dir,
+            "run-1",
+            "comfortable heels for women",
+            "brands/inc5/blogs/drafts/comfortable-heels.md",
+            authenticity,
+            brief,
+        )
+
+        self.assertTrue(result["ok"])
+        self.assertTrue(brief.exists())
+        updated = seo_audit_harness.read_json(authenticity)
+        self.assertEqual(updated["sources"][0]["source_id"], "b1")
+        self.assertTrue(
+            any(source["source_id"] == "youtube:abc123" for source in updated["sources"])
+        )
+        self.assertTrue(
+            (seo_audit_harness.content_intake_run_dir(brand_dir, "run-1") / "brief-input.json").exists()
+        )
+
+    def test_youtube_evidence_does_not_relax_unsupported_sensitive_claims(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        log = {
+            "metadata": {"target": "batch"},
+            "sources": [
+                {
+                    "source_id": "youtube:abc123",
+                    "source_type": "youtube_video",
+                    "source_ref": "https://www.youtube.com/watch?v=abc123",
+                    "extracted_facts": "[00:00:03] Block heels can feel steadier.",
+                }
+            ],
+            "claims": [],
+            "detector_notes": [],
+        }
+        drafts = self.make_draft_files(
+            base,
+            [
+                "# Leather Sandal\n\n## Fit Notes\n\n[Pair A](https://example.com/products/a) has leather straps and a secure fit.",
+            ],
+        )
+
+        result = seo_audit_harness.validate_content_batch(log, drafts)
+
+        self.assertFalse(result["ok"])
+        self.assertTrue(
+            any("unsupported sensitive claim 'leather'" in error for error in result["errors"])
+        )
+
+    def test_ai_text_risk_only_flags_generic_conclusion_heading_when_present(self):
+        specific = "# Content Engine\n\n## Where Strique Fits\n\nA sourced draft keeps the owner, evidence, and next action visible."
+        generic = "# Content Engine\n\n## In Summary\n\nA sourced draft keeps the owner, evidence, and next action visible."
+
+        specific_names = {
+            feature["name"]
+            for feature in seo_audit_harness.ai_text_risk_report(specific)["features"]
+        }
+        generic_names = {
+            feature["name"]
+            for feature in seo_audit_harness.ai_text_risk_report(generic)["features"]
+        }
+
+        self.assertNotIn("generic_conclusion_heading", specific_names)
+        self.assertIn("generic_conclusion_heading", generic_names)
+
     def test_ai_text_risk_flags_repeated_contrastive_reframes(self):
         plain = "SEO automation is not a button that writes 50 articles and hopes Google sorts it out."
         patterned = (
@@ -2863,6 +3220,462 @@ Evidence sources: `CMS/code`.
 
         self.assertNotIn("contrastive_reframe", plain_names)
         self.assertIn("contrastive_reframe", patterned_names)
+
+    def test_content_batch_flags_repeated_batch_headings(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        log = {
+            "metadata": {"target": "batch"},
+            "sources": [
+                {
+                    "source_id": "p1",
+                    "source_type": "product_page",
+                    "source_ref": "https://example.com/products/a",
+                    "extracted_facts": "Leather upper. Buckle closure. 2 inch heel.",
+                }
+            ],
+            "claims": [],
+            "detector_notes": [],
+        }
+        drafts = self.make_draft_files(
+            base,
+            [
+                "# Draft A\n\n## Quick Answer\n\n[Pair A](https://example.com/products/a) has leather, buckle closure, and a 2 inch heel.\n\n## Care Notes\n\nUse a dry cloth.",
+                "# Draft B\n\n## Quick Answer\n\n[Pair B](https://example.com/products/b) has leather, buckle closure, and a 2 inch heel.\n\n## Care Notes\n\nUse a dry cloth.",
+                "# Draft C\n\n## Quick Answer\n\n[Pair C](https://example.com/products/c) has leather, buckle closure, and a 2 inch heel.\n\n## Care Notes\n\nUse a dry cloth.",
+            ],
+        )
+
+        result = seo_audit_harness.validate_content_batch(log, drafts)
+
+        self.assertFalse(result["ok"])
+        self.assertTrue(
+            any("batch template similarity" in error for error in result["errors"])
+        )
+        self.assertTrue(
+            any("quick answer" in error for error in result["errors"])
+        )
+
+    def test_content_batch_flags_sensitive_claim_without_source(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        log = {
+            "metadata": {"target": "batch"},
+            "sources": [
+                {
+                    "source_id": "p1",
+                    "source_type": "product_page",
+                    "source_ref": "https://example.com/products/a",
+                    "extracted_facts": "Buckle closure. 2 inch heel.",
+                }
+            ],
+            "claims": [],
+            "detector_notes": [],
+        }
+        drafts = self.make_draft_files(
+            base,
+            [
+                "# Leather Sandal\n\n## Fit Notes\n\n[Pair A](https://example.com/products/a) has leather straps, buckle closure, and a 2 inch heel.",
+            ],
+        )
+
+        result = seo_audit_harness.validate_content_batch(log, drafts)
+
+        self.assertFalse(result["ok"])
+        self.assertTrue(
+            any("unsupported sensitive claim 'leather'" in error for error in result["errors"])
+        )
+
+    def test_content_batch_flags_collection_only_specificity(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        log = self.authenticity_log_with_source()
+        drafts = self.make_draft_files(
+            base,
+            [
+                "# Flats Guide\n\n## Daily Picks\n\nBrowse the [flats collection](https://example.com/collections/flats) for office, travel, and everyday wear.",
+            ],
+        )
+
+        result = seo_audit_harness.validate_content_batch(log, drafts)
+
+        self.assertFalse(result["ok"])
+        self.assertTrue(
+            any("brand specificity score" in error for error in result["errors"])
+        )
+
+    def test_content_batch_passes_varied_specific_drafts(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        log = self.authenticity_log_with_source()
+        drafts = self.make_draft_files(
+            base,
+            [
+                "# Office Flats\n\n## Fit Notes\n\n[Pair A](https://example.com/products/a) links to the size chart, price ₹2490, stock, returns, and shipping notes.",
+                "# Travel Sandals\n\n## Packing Notes\n\n[Pair B](https://example.com/products/b) links to the size chart, price ₹2990, stock, returns, and shipping notes.",
+                "# Work Bags\n\n## Capacity Notes\n\n[Bag A](https://example.com/products/c) links to the size chart, price ₹3990, stock, returns, and shipping notes.",
+            ],
+        )
+
+        result = seo_audit_harness.validate_content_batch(log, drafts)
+
+        self.assertTrue(result["ok"], result["errors"])
+        self.assertLess(
+            result["batch_ai_pattern"]["score"],
+            seo_audit_harness.CONTENT_BATCH_MAX_TEMPLATE_SIMILARITY_SCORE,
+        )
+
+    def test_verify_content_batch_parser_exists(self):
+        parser = seo_audit_harness.build_parser()
+        args = parser.parse_args(
+            [
+                "verify-content-batch",
+                "--authenticity",
+                "auth.json",
+                "--draft-file",
+                "draft.md",
+            ]
+        )
+
+        self.assertEqual(args.func, seo_audit_harness.command_verify_content_batch)
+
+    def test_ingest_content_source_parser_exists(self):
+        parser = seo_audit_harness.build_parser()
+        args = parser.parse_args(
+            [
+                "ingest-content-source",
+                "--brand-dir",
+                "brands/inc5",
+                "--source",
+                "youtube",
+                "--url",
+                "https://www.youtube.com/watch?v=abc123",
+                "--run-id",
+                "run-1",
+            ]
+        )
+
+        self.assertEqual(args.func, seo_audit_harness.command_ingest_content_source)
+
+    def test_build_content_brief_parser_exists(self):
+        parser = seo_audit_harness.build_parser()
+        args = parser.parse_args(
+            [
+                "build-content-brief",
+                "--brand-dir",
+                "brands/inc5",
+                "--run-id",
+                "run-1",
+                "--keyword",
+                "comfortable heels for women",
+                "--target",
+                "brands/inc5/blogs/drafts/comfortable-heels.md",
+                "--authenticity",
+                "brands/inc5/references/auth.json",
+                "--output",
+                "brands/inc5/blogs/briefs/comfortable-heels.md",
+            ]
+        )
+
+        self.assertEqual(args.func, seo_audit_harness.command_build_content_brief)
+
+    def test_blog_component_extraction_passes_complete_draft(self):
+        result = seo_audit_harness.validate_blog_draft(
+            self.blog_draft_text(),
+            keyword="ai marketing agent",
+            brief_text="FAQ useful for People Also Ask.",
+        )
+
+        self.assertTrue(result["ok"], result["errors"])
+        components = result["blog_components"]
+        self.assertTrue(components["has_tldr"])
+        self.assertTrue(components["has_toc"])
+        self.assertGreaterEqual(components["toc_anchor_count"], 4)
+        self.assertEqual(components["internal_link_count"], 2)
+        self.assertTrue(components["has_faq"])
+
+    def test_blog_component_extraction_flags_missing_required_parts(self):
+        draft = """---
+title: "Draft"
+meta_description: "A short draft."
+slug: draft
+primary_keyword: ai marketing agent
+intent: informational
+updated_at: 2026-07-09
+hero_image: /image.png
+hero_image_alt: Image
+related_posts:
+  - /blog/related
+article_schema: true
+breadcrumb_schema: true
+---
+# Draft
+
+## Why It Matters
+
+This draft has no quick answer, no author, no CTA, and no internal link.
+"""
+
+        result = seo_audit_harness.validate_blog_draft(
+            draft,
+            keyword="ai marketing agent",
+        )
+
+        self.assertFalse(result["ok"])
+        joined = "\n".join(result["errors"])
+        self.assertIn("frontmatter_author", joined)
+        self.assertIn("frontmatter_cta", joined)
+        self.assertIn("quick_answer_or_tldr", joined)
+        self.assertIn("internal_links", joined)
+
+    def test_record_authenticity_source_appends_source_and_claim(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        authenticity = Path(tmpdir.name) / "auth.json"
+        seo_audit_harness.write_json(seo_audit_harness.init_authenticity("draft.md"), authenticity)
+
+        result = seo_audit_harness.record_authenticity_source(
+            authenticity,
+            "brand-dna",
+            "brand_dna",
+            "brands/strique/brand-dna.md",
+            "Strique connects evidence to content work.",
+            claim="Best for teams that need review gates.",
+            claim_type="best_top",
+        )
+
+        self.assertTrue(result["ok"])
+        updated = seo_audit_harness.read_json(authenticity)
+        self.assertEqual(updated["sources"][0]["source_id"], "brand-dna")
+        self.assertEqual(updated["claims"][0]["source_ids"], ["brand-dna"])
+        self.assertEqual(updated["claims"][0]["claim_type"], "best_top")
+
+    def test_write_blog_fails_without_blog_and_source_requirements(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        draft = base / "draft.md"
+        output = base / "published.md"
+        authenticity = base / "auth.json"
+        draft.write_text("# Draft\n\n## Why It Matters\n\nNo source-backed blog package.", encoding="utf-8")
+        seo_audit_harness.write_json(seo_audit_harness.init_authenticity(str(draft)), authenticity)
+
+        result = seo_audit_harness.write_blog_with_gates(
+            base,
+            "ai marketing agent",
+            draft,
+            output,
+            authenticity,
+        )
+
+        self.assertFalse(result["ok"])
+        self.assertFalse(output.exists())
+        joined = "\n".join(result["errors"])
+        self.assertIn("quick_answer_or_tldr", joined)
+        self.assertIn("internal_links", joined)
+        self.assertIn("no concrete source", joined)
+
+    def test_write_blog_saves_after_blog_and_authenticity_pass(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        draft = base / "draft.md"
+        output = base / "published.md"
+        authenticity = base / "auth.json"
+        draft_text = self.blog_draft_text()
+        draft.write_text(draft_text, encoding="utf-8")
+        log = seo_audit_harness.init_authenticity(str(draft))
+        log["sources"].append(
+            {
+                "source_id": "brand-dna",
+                "source_type": "brand_dna",
+                "source_ref": "brands/strique/brand-dna.md",
+                "extracted_facts": "Strique connects evidence to content workflows.",
+            }
+        )
+        log["sources"].append(
+            {
+                "source_id": "youtube:abc123",
+                "source_type": "youtube_video",
+                "source_ref": "https://www.youtube.com/watch?v=abc123",
+                "local_artifact_dir": str(base / "learnings" / "videos" / "abc123"),
+                "extracted_facts": "[00:00:03] Editors should check source logs before publishing.",
+            }
+        )
+        seo_audit_harness.write_json(log, authenticity)
+
+        result = seo_audit_harness.write_blog_with_gates(
+            base,
+            "ai marketing agent",
+            draft,
+            output,
+            authenticity,
+        )
+
+        self.assertTrue(result["ok"], result["errors"])
+        self.assertTrue(result["written"])
+        self.assertEqual(output.read_text(encoding="utf-8"), draft_text)
+
+    def test_write_blog_requires_youtube_intake_evidence(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        draft = base / "draft.md"
+        output = base / "published.md"
+        authenticity = base / "auth.json"
+        draft.write_text(self.blog_draft_text(), encoding="utf-8")
+        log = seo_audit_harness.init_authenticity(str(draft))
+        log["sources"].append(
+            {
+                "source_id": "brand-dna",
+                "source_type": "brand_dna",
+                "source_ref": "brands/strique/brand-dna.md",
+                "extracted_facts": "Strique connects evidence to content workflows.",
+            }
+        )
+        seo_audit_harness.write_json(log, authenticity)
+
+        result = seo_audit_harness.write_blog_with_gates(
+            base,
+            "ai marketing agent",
+            draft,
+            output,
+            authenticity,
+        )
+
+        self.assertFalse(result["ok"])
+        self.assertFalse(output.exists())
+        self.assertTrue(any("YouTube intake" in error for error in result["errors"]))
+
+    def test_youtube_intake_requires_local_artifact(self):
+        log = {
+            "sources": [
+                {
+                    "source_id": "youtube:abc123",
+                    "source_type": "youtube_video",
+                    "source_ref": "https://www.youtube.com/watch?v=abc123",
+                    "extracted_facts": "[00:00:03] This was typed by hand.",
+                }
+            ]
+        }
+
+        self.assertTrue(seo_audit_harness.youtube_intake_errors(log))
+
+    def test_youtube_extracted_facts_samples_later_transcript_cues(self):
+        transcript = "\n".join(
+            [
+                "[00:00:00] Choosing shoes for suits can be confusing.",
+                "[00:00:02] The right pair should look polished.",
+                "[00:00:05] Start with the workday first.",
+                "[00:00:08] A neat shoe makes the outfit feel complete.",
+                "[00:00:11] Keep the colour easy to repeat.",
+                "[00:00:14] Avoid anything too loud for office.",
+                "[00:00:28] Wedge heels give height without feeling sharp.",
+                "[00:01:17] Mules work when comfort matters.",
+                "[00:01:53] Loafers are useful for daily office runs.",
+                "[00:03:02] Ethnic flat sandals can suit Indo-western outfits.",
+            ]
+        )
+
+        facts = seo_audit_harness.youtube_extracted_facts(transcript, {})
+
+        self.assertIn("[00:00:28] Wedge heels", facts)
+        self.assertIn("[00:01:53] Loafers", facts)
+        self.assertIn("[00:03:02] Ethnic flat sandals", facts)
+
+    def test_ai_text_risk_blocks_high_advice_density(self):
+        sentences = [
+            "Choose the pair after checking the workday.",
+            "If the commute is long, wear flats.",
+            "For meetings, keep a polished pump nearby.",
+            "When the hem is long, use a wedge.",
+            "Avoid a thin heel on outdoor paths.",
+        ] * 5
+
+        report = seo_audit_harness.ai_text_risk_report(" ".join(sentences))
+
+        self.assertEqual(report["status"], "fail")
+        self.assertTrue(
+            any(feature["name"] == "high_advice_sentence_density" for feature in report["features"])
+        )
+
+    def test_write_blog_keeps_best_top_authenticity_gate(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        base = Path(tmpdir.name)
+        draft = base / "draft.md"
+        output = base / "published.md"
+        authenticity = base / "auth.json"
+        draft.write_text(
+            self.blog_draft_text(extra_body="\n\nThis is the best AI marketing agent for review gates.\n"),
+            encoding="utf-8",
+        )
+        log = seo_audit_harness.init_authenticity(str(draft))
+        log["sources"].append(
+            {
+                "source_id": "brand-dna",
+                "source_type": "brand_dna",
+                "source_ref": "brands/strique/brand-dna.md",
+                "extracted_facts": "Strique connects evidence to content workflows.",
+            }
+        )
+        seo_audit_harness.write_json(log, authenticity)
+
+        result = seo_audit_harness.write_blog_with_gates(
+            base,
+            "ai marketing agent",
+            draft,
+            output,
+            authenticity,
+        )
+
+        self.assertFalse(result["ok"])
+        self.assertFalse(output.exists())
+        self.assertTrue(any("best/top" in error for error in result["authenticity_errors"]))
+
+    def test_record_authenticity_source_parser_exists(self):
+        parser = seo_audit_harness.build_parser()
+        args = parser.parse_args(
+            [
+                "record-authenticity-source",
+                "--authenticity",
+                "auth.json",
+                "--source-id",
+                "brand-dna",
+                "--source-type",
+                "brand_dna",
+                "--source-ref",
+                "brands/strique/brand-dna.md",
+                "--extracted-facts",
+                "Brand facts.",
+            ]
+        )
+
+        self.assertEqual(args.func, seo_audit_harness.command_record_authenticity_source)
+
+    def test_write_blog_parser_exists(self):
+        parser = seo_audit_harness.build_parser()
+        args = parser.parse_args(
+            [
+                "write-blog",
+                "--brand-dir",
+                "brands/strique",
+                "--keyword",
+                "ai marketing agent",
+                "--draft-file",
+                "brands/strique/blogs/drafts/ai-marketing-agent.md",
+                "--content-output",
+                "brands/strique/blogs/published/ai-marketing-agent.md",
+                "--authenticity",
+                "brands/strique/references/ai-marketing-agent-authenticity.json",
+            ]
+        )
+
+        self.assertEqual(args.func, seo_audit_harness.command_write_blog)
 
     def test_write_content_requires_content_authenticity_skill(self):
         tmpdir = tempfile.TemporaryDirectory()
@@ -2920,6 +3733,7 @@ Evidence sources: `CMS/code`.
         self.assertIn("name: content-seo-authenticity", text)
         self.assertIn("AI detector scores are weak editorial signals", text)
         self.assertIn("verify-authenticity", text)
+        self.assertIn("verify-content-batch", text)
         self.assertIn("write-content", text)
 
     def test_ai_text_risk_gate_skill_exists(self):
@@ -2929,6 +3743,7 @@ Evidence sources: `CMS/code`.
         self.assertIn("name: ai-text-risk-gate", text)
         self.assertIn("AI-pattern risk", text)
         self.assertIn("not proof of authorship", text)
+        self.assertIn("verify-content-batch", text)
         self.assertIn("write-content", text)
         self.assertIn("Brand DNA", text)
         self.assertIn("GSC queries", text)
@@ -3276,6 +4091,107 @@ Example is an AI marketing agent for ecommerce marketing automation.
         self.assertTrue(seo_audit_harness.keyword_csv_path(brand_dir).exists())
         self.assertTrue(seo_audit_harness.keyword_universe_path(brand_dir).exists())
         self.assertTrue(any(call[1] == "proxy" for call in calls))
+
+    def test_fetch_gsc_keyword_rows_respects_max_rows(self):
+        payloads = []
+
+        def fake_runner(command, capture_output, text, check):
+            payload = seo_audit_harness.json.loads(command[-1])
+            payloads.append(payload)
+            rows = [
+                {
+                    "keys": [
+                        "women sandals {}".format(payload["start_row"] + index),
+                        "https://inc5shop.com/collections/women-footwear",
+                        "ind",
+                    ]
+                }
+                for index in range(payload["row_limit"])
+            ]
+            stdout = seo_audit_harness.json.dumps(
+                {"successful": True, "data": {"rows": rows}}
+            )
+            return subprocess.CompletedProcess(command, 0, stdout, "")
+
+        rows = seo_audit_harness.fetch_gsc_keyword_rows(
+            "https://inc5shop.com/",
+            "2026-01-01",
+            "2026-01-31",
+            runner=fake_runner,
+            row_limit=2,
+            max_rows=3,
+        )
+
+        self.assertEqual(len(rows), 3)
+        self.assertEqual([payload["start_row"] for payload in payloads], [0, 2])
+        self.assertEqual([payload["row_limit"] for payload in payloads], [2, 2])
+
+    def test_generate_keywords_continues_without_matching_gsc_for_footwear(self):
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        brand_dir = Path(tmpdir.name)
+        (brand_dir / "keywords").mkdir(parents=True)
+        (brand_dir / "brand-dna.md").write_text(
+            """# Brand DNA
+
+### Name
+
+Inc5
+
+### Website URL
+
+https://inc5shop.com
+
+### Business Description
+
+Inc5 is an Indian ecommerce footwear and handbags brand.
+""",
+            encoding="utf-8",
+        )
+
+        def fake_runner(command, capture_output, text, check):
+            if command[1:3] == ["execute", seo_audit_harness.GSC_LIST_SITES_TOOL]:
+                stdout = seo_audit_harness.json.dumps(
+                    {
+                        "successful": True,
+                        "data": {"siteEntry": [{"siteUrl": "sc-domain:strique.io"}]},
+                    }
+                )
+            elif command[1] == "proxy":
+                stdout = seo_audit_harness.json.dumps(
+                    {
+                        "results": [
+                            {
+                                "text": "women sandals",
+                                "keywordIdeaMetrics": {
+                                    "avgMonthlySearches": "1000",
+                                    "competition": "MEDIUM",
+                                    "competitionIndex": "55",
+                                },
+                            }
+                        ]
+                    }
+                )
+            else:
+                stdout = "{}"
+            return subprocess.CompletedProcess(command, 0, stdout, "")
+
+        result = seo_audit_harness.generate_keyword_research(
+            brand_dir,
+            "1234567890",
+            country="India",
+            max_prioritized=10,
+            raw_limit=10,
+            runner=fake_runner,
+        )
+        _, keyword_rows = seo_audit_harness.read_csv_dict_rows(
+            seo_audit_harness.keyword_csv_path(brand_dir)
+        )
+
+        self.assertTrue(result["ok"])
+        self.assertEqual(keyword_rows[0]["keyword"], "women sandals")
+        self.assertTrue(result["summary"]["blockers"])
+        self.assertEqual(result["summary"]["blockers"][0]["source"], "gsc")
 
     def test_context_system_registry_validates(self):
         result = seo_audit_harness.validate_context_system(

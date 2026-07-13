@@ -1,0 +1,124 @@
+{
+  "blocked": [],
+  "questions": [
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_search_scope",
+      "field_ids": [
+        "priority_categories",
+        "priority_queries",
+        "search_intent"
+      ],
+      "options": [
+        "Women's footwear category and product pages",
+        "Men's footwear category and product pages",
+        "Bags, wallets, and accessories"
+      ],
+      "question": "Which Inc5 product area should keyword research prioritize first?",
+      "question_id": "priority_product_area",
+      "recommended_option": "Women's footwear category and product pages",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "analysis",
+        "reporting"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_locale_scope",
+      "field_ids": [
+        "target_countries",
+        "target_languages",
+        "priority_locations"
+      ],
+      "options": [
+        "India in English",
+        "India with city-level store visibility",
+        "Multiple countries or localized markets"
+      ],
+      "question": "Which market and language should Inc5 SEO target first?",
+      "question_id": "markets_languages",
+      "recommended_option": "India in English",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "media_plan"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_source_quality",
+      "field_ids": [
+        "connected_sources",
+        "product_feed_access",
+        "analytics_access"
+      ],
+      "options": [
+        "Use public website evidence only",
+        "Use GSC, analytics, Shopify, and Merchant Center when connected",
+        "Use internal product feed and merchandising notes"
+      ],
+      "question": "Which evidence sources are available for Inc5?",
+      "question_id": "available_sources",
+      "recommended_option": "Use public website evidence only",
+      "store_scope": "brand",
+      "used_by": [
+        "audits",
+        "strategy",
+        "content",
+        "reporting"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_content_risk",
+      "field_ids": [
+        "approved_claims",
+        "restricted_claims"
+      ],
+      "options": [
+        "Use only claims visible on the website or supplied by the team",
+        "Use approved brand and merchandising claims from internal material",
+        "Do not make comparative or performance claims"
+      ],
+      "question": "Which claim policy should Inc5 follow?",
+      "question_id": "claims_policy",
+      "recommended_option": "Use only claims visible on the website or supplied by the team",
+      "store_scope": "brand",
+      "used_by": [
+        "content",
+        "media_plan",
+        "ai_seo",
+        "strategy"
+      ]
+    },
+    {
+      "allow_custom": true,
+      "blocking_level": "blocks_implementation_planning",
+      "field_ids": [
+        "platform_constraints",
+        "current_pain"
+      ],
+      "options": [
+        "Shopify theme or app constraints limit implementation",
+        "Catalog, variants, redirects, or filters create SEO risk",
+        "No major implementation constraint known"
+      ],
+      "question": "What Shopify or catalog constraint should Inc5 account for?",
+      "question_id": "platform_constraints",
+      "recommended_option": "Shopify theme or app constraints limit implementation",
+      "store_scope": "brand",
+      "used_by": [
+        "site_architecture",
+        "generic_on_page",
+        "ecommerce_seo",
+        "strategy"
+      ]
+    }
+  ]
+}

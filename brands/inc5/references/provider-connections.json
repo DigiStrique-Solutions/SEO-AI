@@ -1,0 +1,33 @@
+{
+  "notes": {
+    "analytics": "Use existing Composio CLI auth as poojan@strique.io. User reports GA4 access for Inc5 is available through that auth.",
+    "merchant_center": "Not confirmed.",
+    "search_console": "Use existing Composio CLI auth as poojan@strique.io. User reports GSC access for Inc5 is available through that auth.",
+    "shopify_admin": "Not confirmed.",
+    "storefront_platform": "Shopify storefront markers observed in public HTML on 2026-07-09."
+  },
+  "providers": {
+    "analytics": [
+      "ga4"
+    ],
+    "keyword_demand": [
+      "keyword_planner"
+    ],
+    "performance_field": [
+      "crux"
+    ],
+    "performance_lab": [
+      "lighthouse",
+      "pagespeed"
+    ],
+    "public_crawl": [
+      "firecrawl"
+    ],
+    "rendered_browser": [
+      "playwright"
+    ],
+    "search_console": [
+      "gsc"
+    ]
+  }
+}

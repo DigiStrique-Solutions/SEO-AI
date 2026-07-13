@@ -1,0 +1,62 @@
+{
+  "claims": [
+    {
+      "claim": "The legacy slug best-sandals-for-men-outfit-guide is retained because it is the existing published URL, not as a superiority or ranking claim in the article.",
+      "claim_type": "best_top",
+      "source_ids": [
+        "inc5-existing-sandals-page-audit"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T18:54:03+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/inc5/blogs/drafts/mens-sandals-leather-ethnic-casual-travel-styles.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Inc5 is an Indian fashion footwear and bags brand. Brand guidance calls for direct, category-led, practical copy grounded in material, fit, occasion, comfort, size, availability, care, and customer support.",
+      "source_id": "inc5-brand-dna",
+      "source_ref": "brands/inc5/brand-dna.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Inc5 search evidence records sandals for men at 380936 GSC impressions and 926 clicks, leather sandals for men at 122035 impressions and 749 clicks, stylish sandals for men at 33445 impressions and 133 clicks, casual sandals for men at 22376 impressions and 96 clicks, and formal sandals for men at 53032 impressions and 257 clicks. The observed ranking page is the men's sandals collection.",
+      "source_id": "inc5-mens-sandals-keywords",
+      "source_ref": "brands/inc5/exports/keyword-universe.csv",
+      "source_type": "gsc"
+    },
+    {
+      "extracted_facts": "Live collection checked 2026-07-10. Inc5 presents men's casual sandals and men's sandals with sizes 39 to 46 and filters including black, blue, brown, cherry, green, tan, backstrap, buckle, open back, slip-on, Velcro, flat heel, round toe, square toe, leather, casual, and formal. Product names include one-toe slip-ons, backstrap sandals, woven-strap sandals, and round-toe sandals.",
+      "source_id": "inc5-live-mens-sandals-collection",
+      "source_ref": "https://inc5shop.com/collections/mens-sandals",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page checked 2026-07-10. Inc5 identifies this brown woven-strap men's sandal as leather with a heel under one inch, suggests it for weekends or relaxed evenings, advises wide-foot shoppers to consider one size larger, and lists leather care including wiping, conditioning, avoiding excess moisture, dry storage, and occasional polish.",
+      "source_id": "inc5-woven-leather-sandal",
+      "source_ref": "https://inc5shop.com/products/atesber-brown-woven-strap-sandal-for-mens-15293-brown",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The existing Inc5 page at /blogs/blog/best-sandals-for-men-outfit-guide already targets the broad sandals outfit intent. Its audit recommends retaining and rewriting the URL, removing unsupported best claims, improving decision criteria, and adding collection-level links rather than creating a competing page.",
+      "source_id": "inc5-existing-sandals-page-audit",
+      "source_ref": "brands/inc5/audits/best-sandals-for-men-outfit-guide-audit-and-rewrite.md",
+      "source_type": "competitor_page"
+    },
+    {
+      "channel": "Vaibhav Keswani",
+      "extracted_facts": "Transcript evidence: [00:00:00] What happens because of chunky and bulky sandals is [00:00:01] that whatever your bottom wear is, I [00:00:03] personally have no dislike for clogs and Crocs. [00:00:06] And that is primarily because they [00:04:06] great because they have a heel of around 1 1/2 inches. [00:04:08] Which is something that you [00:05:35] difficult to style. I personally have no liking for clogs and crocs [00:05:37] and that is primarily because they [00:00:29] show you five budget sandals that will make [00:00:31] you look stylish and provide you with [00:00:22] designs are meant only for comfort and not [00:00:26] for style. That's why they become a bit boring.",
+      "local_artifact_dir": "/Users/poojan/Desktop/projects-new/strique/learnings-from-youtube/videos/B3ZRiMBX8IA",
+      "source_id": "youtube:B3ZRiMBX8IA",
+      "source_ref": "https://www.youtube.com/watch?v=B3ZRiMBX8IA",
+      "source_type": "youtube_video",
+      "title": "BEST SANDALS FOR MEN 2025 | Best Summer Footwear Picks You Shouldn\u2019t Miss"
+    }
+  ]
+}

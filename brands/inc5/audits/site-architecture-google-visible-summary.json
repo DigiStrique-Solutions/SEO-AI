@@ -1,0 +1,11 @@
+{
+  "audit_type": "partial",
+  "coverage_counts": {
+    "fail": 25,
+    "not_applicable": 10,
+    "not_checked_blocked": 10,
+    "pass": 173
+  },
+  "item_count": 218,
+  "target_url": "https://inc5shop.com"
+}

@@ -1,0 +1,24 @@
+{
+  "errors": [],
+  "ok": true,
+  "source": {
+    "channel": "Topbestshoes - Buy best shoes",
+    "duration": 264,
+    "extracted_facts": "Transcript evidence: [00:00:00] Wearing a suit is all about power, [00:00:02] style, and confidence. But let's be [00:00:05] honest, choosing the right shoes to [00:00:07] match your suit, that's where most women [00:00:26] women's wedge heel formal shoes. These [00:00:29] shoes are the perfect balance between [00:01:09] lightweight clogs. Now, let's talk about [00:01:12] comfort. Like real comfort. These are [00:00:35] mix of loafers, moccasins, and pump [00:00:38] style bellies, this is your pick. [00:03:02] women's ethnic flat sandal shoe. And [00:03:05] here's the surprise, an ethnic flat [00:00:31] classy, comfortable, and professional. [00:00:34] If you want something that looks like a [00:00:56] great for office, presentations, [00:00:58] meetings, or daily wear. If your suit",
+    "learning_files": [],
+    "local_artifact_dir": "/Users/poojan/Desktop/projects-new/strique/learnings-from-youtube/videos/JsP4cVVlBAg",
+    "published_at": "20251210",
+    "risks": [
+      "third-party video requires editorial approval before copying claims",
+      "speaker authority is not verified by the harness"
+    ],
+    "source_id": "youtube:JsP4cVVlBAg",
+    "source_ref": "https://www.youtube.com/watch?v=JsP4cVVlBAg",
+    "source_type": "youtube_video",
+    "title": "5 Best Shoes to Wear with Suits for Ladies | In India",
+    "transcript_source": "youtube",
+    "usable": true
+  },
+  "source_json": "brands/inc5/references/content-intake/inc5-office-footwear-women-india-20260709/sources/JsP4cVVlBAg/source.json",
+  "transcript": "brands/inc5/references/content-intake/inc5-office-footwear-women-india-20260709/sources/JsP4cVVlBAg/transcript.txt"
+}

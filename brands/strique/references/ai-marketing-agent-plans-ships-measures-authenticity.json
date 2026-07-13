@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "claim": "The keyword file lists ai marketing agent as a high-priority term with supporting terms around AI in marketing automation, agentic AI marketing, and AI marketing platform.",
+      "claim_type": "keyword_demand",
+      "source_ids": [
+        "keyword_file"
+      ]
+    },
+    {
+      "claim": "Strique's brand DNA defines the product around the loop of planning, shipping, measuring, and learning across marketing work.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "brand_dna"
+      ]
+    },
+    {
+      "claim": "The URL inventory includes an existing AI marketing agent guide, a closing the loop article, brand context extraction, product, integrations, and security pages.",
+      "claim_type": "site_evidence",
+      "source_ids": [
+        "url_inventory",
+        "agent_site_checks"
+      ]
+    },
+    {
+      "claim": "The content checklist requires direct intent match, evidence-backed claims, clear headings, internal links, structured data, and cleanup of generic AI-style copy.",
+      "claim_type": "editorial_standard",
+      "source_ids": [
+        "content_checklist"
+      ]
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-09T12:57:06+00:00",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "status": "draft",
+    "target": "brands/strique/blogs/drafts/ai-marketing-agent-plans-ships-measures.md"
+  },
+  "sources": [
+    {
+      "source_id": "brand_dna",
+      "source_type": "brand_dna",
+      "source_ref": "brands/strique/brand-dna.md",
+      "extracted_facts": "Strique is an agentic AI marketing platform and AI marketing OS for growth teams. It runs marketing work through one agent loop: plan the work, ship it, measure outcomes, and feed learnings back into the next run. The product covers paid media, SEO, content, lifecycle, reporting, research, generative content, scheduled automations, approval gates, closed-loop measurement, reusable skills, persistent memory, and interactive Canvas reports."
+    },
+    {
+      "source_id": "keyword_file",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/keywords/keywords.csv",
+      "extracted_facts": "The keyword file lists ai marketing agent with 1,600 directional monthly volume, ai in marketing automation with 720, ai marketing platform with 1,300, and agentic ai marketing with 70. These rows are high priority."
+    },
+    {
+      "source_id": "keyword_summary",
+      "source_type": "gsc",
+      "source_ref": "brands/strique/references/keyword-research-summary.json",
+      "extracted_facts": "The keyword research summary was generated on 2026-06-29 for https://www.strique.io in the United States. It includes 228 deduped universe rows, 150 prioritized rows, 226 Keyword Planner rows, and 0 GSC query rows in that summary artifact."
+    },
+    {
+      "source_id": "url_inventory",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/url-inventory.csv",
+      "extracted_facts": "The URL inventory includes https://www.strique.io/product, https://www.strique.io/blog/what-is-an-ai-marketing-agent, https://www.strique.io/blog/closing-the-loop, https://www.strique.io/blog/brand-context-extraction, https://www.strique.io/integrations, and https://www.strique.io/security."
+    },
+    {
+      "source_id": "agent_site_checks",
+      "source_type": "product_page",
+      "source_ref": "brands/strique/exports/site-checks.csv",
+      "extracted_facts": "Site checks for https://www.strique.io/blog/what-is-an-ai-marketing-agent show crawl status 200, indexable yes, title present, meta description present, one H1, canonical match, sitemap inclusion yes, rendered public text available, content not AI slop, and Article schema among the detected schema types."
+    },
+    {
+      "source_id": "content_checklist",
+      "source_type": "human_context",
+      "source_ref": "docs/checklists/content-seo-checklist.md",
+      "extracted_facts": "The content SEO checklist requires one primary purpose, search intent match, natural keyword and entity coverage, originality, evidence-backed claims, useful headings, readable language, useful media, internal links, structured data, conversion fit, and cleanup of generic AI-style copy."
+    },
+    {
+      "source_id": "existing_seo_automation_draft",
+      "source_type": "human_context",
+      "source_ref": "brands/strique/blogs/drafts/seo-automation-agent-loop.md",
+      "extracted_facts": "The existing SEO automation draft frames Strique workflows as an agent loop that audits, prioritizes, briefs, ships with approval, measures, and learns."
+    }
+  ]
+}
