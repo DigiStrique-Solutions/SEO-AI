@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "brand_name": "OFFLIMITS",
+  "website_url": "https://offlimits.co.in",
+  "generated_at": "2026-07-13T11:45:00+00:00",
+  "target_country": "India",
+  "target_country_source": "brand_dna (market=India)",
+  "language": "languageConstants/1000",
+  "default_source": "site_taxonomy + brand_dna seeds (demand providers unavailable this run)",
+  "difficulty_scale": "0-100 (bands: LOW <=39, MEDIUM 40-69, HIGH >=70) — NOT populated this run (no demand provider)",
+  "date_range": { "start_date": null, "end_date": null },
+  "counts": {
+    "deduped_universe_rows": 28,
+    "prioritized_rows": 14,
+    "clusters": 10,
+    "keyword_planner_rows": 0,
+    "gsc_rows": 0
+  },
+  "sources": {
+    "keyword_planner": { "tool": "GOOGLE_ADS_KEYWORD_PLANNER", "row_count": 0, "status": "blocked" },
+    "gsc": { "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY", "row_count": 0, "status": "not_connected" },
+    "site_taxonomy": { "tool": "firecrawl_map + collection URLs", "row_count": 28, "status": "ok" }
+  },
+  "gsc_property": null,
+  "gsc_available_properties": [],
+  "blockers": [
+    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID unset — no demand/volume/difficulty pulled (Keyword Planner requires the platform-id parameter).",
+    "gsc_not_connected: brand runs its own GSC (site-verification tokens present) but the property is not connected to this workspace — no clicks/impressions/position fallback.",
+    "consequence: volume, difficulty, and gsc_* columns are intentionally blank; priorities are business-value judgments, not measured demand. Re-run once a demand source is connected to populate numbers and re-rank."
+  ]
+}

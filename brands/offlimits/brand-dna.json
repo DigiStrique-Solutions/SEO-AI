@@ -1,35 +1,66 @@
 {
   "schema_version": "1.0.0",
   "brand_id": "offlimits",
-  "status": "partial — seeded from audit crawl 2026-07-13; not a full brand-setup run",
-  "name": "OFFLIMITS",
-  "name_variants_observed": ["OFF LIMITS", "Offlimits", "Off Limits"],
-  "website": "https://offlimits.co.in",
-  "platform": "Shopify",
-  "market": "India",
-  "category": "D2C footwear & athleisure apparel",
-  "product_lines_observed": ["running shoes", "gym/training shoes", "basketball shoes", "sneakers/lifestyle", "sandals/sliders", "boots", "big & tall / plus-size shoes", "tracksuits", "joggers/track pants", "hoodies/jackets", "sweatshirts", "graphic tees", "polos", "shorts", "Stussy (reseller line)"],
-  "audience_observed": "men & women; sport/athleisure buyers; explicit plus-size/big-and-tall segment (sizes 12–14)",
-  "positioning_observed": "performance x fashion; comfort tech (memory foam) messaging",
-  "contact": {
-    "phone": "9599297556",
-    "email": "support@offlimits.co.in",
-    "address": "Plot no 18, Sector 27C, Near NHPC Chowk, Faridabad, Haryana 121003, IN"
+  "updated_at": "2026-07-13",
+  "brand_name": "OFFLIMITS",
+  "website_url": "https://offlimits.co.in",
+  "logo": {
+    "description": "Wordmark 'OFFLIMITS' with a two-upward-arrows mark called 'The Untold' — left arrow = the gear provided to athletes, right arrow = the athlete's motivation/belief; aligned, they represent limitless potential. Primary red brand color.",
+    "icon_url": "https://offlimits.co.in/cdn/shop/files/logo-red_1200x1200.png?v=1634801955"
   },
-  "social_profiles": {
-    "instagram": "https://www.instagram.com/offlimits_tribe/",
-    "youtube": "https://www.youtube.com/@offlimits4426",
-    "facebook": "https://www.facebook.com/offlimitsstore/",
-    "pinterest": "https://in.pinterest.com/offlimits0159/",
-    "twitter": "https://twitter.com/OfflimitsT"
+  "business_description": "Indian D2C sports and athleisure brand selling performance footwear and apparel — running, gym/training, basketball and lifestyle shoes, plus tracksuits, hoodies, sweatshirts, sweatpants and tees — at value-for-money price points. Products are designed for Indian weather and lifestyles and built with in-house comfort/performance technologies (Advance Memory Foam, Athlite®, Flexinit®, Glovefit®, Wiktech®). Launched by Gurukirpa Lifestyle Company, a large Indian sportswear manufacturer/exporter; OFFLIMITS produces ~2M apparel pieces and ~1M pairs of shoes a year, sold via its own site, leading multi-brand stores, exclusive branded stores (Zirakpur, Ambala) and exported to the US, Europe, Australia and UAE.",
+  "business_model": "D2C ecommerce (Shopify) on offlimits.co.in, plus wholesale/multi-brand retail distribution and company-owned exclusive stores; backed by owned manufacturing (Gurukirpa Lifestyle Company).",
+  "brand_colors": { "primary": "#cd232c", "primary_name": "OFFLIMITS red", "note": "theme-color meta = #cd232c; logo is red-on-white." },
+  "brand_aesthetic": "Bold, energetic, streetwear-meets-performance. Motivational, athlete-first tone; 'push beyond limits' visual language.",
+  "brand_voice": {
+    "description": "Motivational, gutsy, inclusive, and value-conscious. Speaks to everyday athletes and fitness enthusiasts ('the OFF LIMITS Tribe'), emphasizing defying limits, affordability of high performance, and made-in-India credibility.",
+    "voice_patterns": [
+      "'Push limits, not excuses' / 'beyond limits' framing",
+      "'OFF LIMITS Tribe' community language",
+      "Value + performance together ('International standards at value-for-money price points')",
+      "Made-in-India, built-for-Indian-conditions pride",
+      "Inclusivity cues (plus-size / big & tall sizing 12–14)"
+    ]
   },
-  "policies_observed": { "returns": "7-day exchange; return fee INR 100", "shipping": "free shipping messaging on PDPs" },
-  "open_questions": [
-    "Canonical brand spelling to standardize on (OFF LIMITS vs Offlimits vs Off Limits)?",
-    "Founding story / USP claims — needs a real source, not inferred from marketing copy.",
-    "Priority keyword targets & business goals (unverified — Keyword Planner platform-id unset, no GSC).",
-    "Analytics stack — GoKwik present but broken; is GA4/other configured?",
-    "Competitor set (not researched this run)."
+  "brand_values": [
+    "Accessible high performance (affordable performance gear for athletes who can't buy premium brands)",
+    "Made in India, designed for Indian conditions",
+    "Inclusivity (extended/plus sizes)",
+    "Innovation via proprietary comfort/performance tech",
+    "Defiance / self-belief ('go OFFLIMITS')"
   ],
-  "provenance": "Facts extracted from rendered homepage schema + templates on 2026-07-13; see logs/. No facts invented — unknowns are in open_questions."
+  "target_audience": {
+    "primary": ["Value-seeking Indian fitness enthusiasts and everyday athletes (men & women)", "Runners, gym-goers, and basketball/sport players wanting performance shoes without premium prices"],
+    "roles": ["Students/young athletes", "Recreational runners & gym-goers", "Athleisure/streetwear buyers"],
+    "secondary_verticals": ["Plus-size / big-and-tall shoppers (sizes 12–14)", "Streetwear/Stussy resale buyers", "Gifting (Diwali/festive, Father's Day)"]
+  },
+  "competitors": [
+    { "name": "Campus Activewear", "what_it_does": "Listed Indian sports & lifestyle footwear brand", "website": "https://www.campusshoes.com", "how_it_competes": "Direct value-performance footwear rival with strong D2C + retail distribution and mass-market pricing" },
+    { "name": "Sparx (Relaxo Footwears)", "what_it_does": "Mass-market Indian sports/casual footwear", "website": "https://www.relaxofootwear.com", "how_it_competes": "Competes on affordable sports shoes and wide availability across India" },
+    { "name": "HRX (by Hrithik Roshan)", "what_it_does": "Indian activewear & footwear brand (Myntra-owned)", "website": "https://www.myntra.com/hrx", "how_it_competes": "Affordable performance + athleisure apparel and shoes targeting the same aspirational-value segment" },
+    { "name": "Decathlon India", "what_it_does": "Multi-sport retailer with in-house performance brands", "website": "https://www.decathlon.in", "how_it_competes": "Value-priced performance footwear/apparel across every sport category" }
+  ],
+  "competitor_alternative_categories": [
+    "Premium global brands (Nike, Adidas, Puma) — aspirational alternatives OFFLIMITS positions against on price",
+    "Marketplace private labels & unbranded/PVC sports shoes (the low end the brand aims to upgrade buyers from)",
+    "Athleisure/streetwear labels for apparel and Stussy-style lifestyle sneakers"
+  ],
+  "primary_business_goal": "Grow D2C revenue on offlimits.co.in by acquiring value-conscious Indian athletes/fitness buyers via organic search for shoe/apparel category and buying-guide queries.",
+  "primary_conversion": "Product purchase (add-to-cart → Shopify checkout; UPI/COD supported via GoKwik).",
+  "site_type": "Shopify ecommerce storefront (collections + products + editorial blog).",
+  "measurement_and_connected_sources": [
+    "On-site Google Search Console verification tokens present (brand runs its own GSC) — NOT connected to this Strique/Composio workspace, so query/indexation data is unavailable here.",
+    "Facebook domain-verification present (Meta ads/catalog).",
+    "GoKwik checkout/analytics integrated — but analytics.gokwik.co currently fails DNS on-site (tracking may be dropping data).",
+    "Snapmint (BNPL/EMI) integrated.",
+    "GA4/PostHog status unconfirmed."
+  ],
+  "open_questions": [
+    "Canonical brand spelling to standardize on — schema uses 'Offlimits', titles use 'OFF LIMITS', collections use 'Off Limits'.",
+    "Which competitors the brand itself considers direct (list above is analyst-inferred from market position, not brand-stated).",
+    "Confirmed priority keyword targets & revenue goals (Keyword Planner platform-id unset; GSC not connected — demand unverified).",
+    "Is GA4 (or another analytics stack) configured, and is the broken GoKwik analytics affecting reporting?",
+    "Current best-selling categories/SKUs (no analytics access)."
+  ],
+  "provenance": "Extracted from rendered pages on 2026-07-13: homepage OnlineStore schema, /pages/about-us (brand story, tech, scale, distribution), and sampled templates. No facts invented — competitors are labeled inferred; unknowns are in open_questions. See logs/."
 }

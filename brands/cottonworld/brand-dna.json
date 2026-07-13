@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "updated_at": "2026-07-13",
+  "brand_name": "Cottonworld",
+  "website_url": "https://cottonworld.net",
+  "logo": {
+    "description": "Wordmark 'COTTON WORLD' stacked in two lines beside a small leaf/plant mark, rendered in the site header on a light background. Tagline used in hero imagery: 'The Natural Clothing Co. | Est. 1987'. A canonical standalone logo asset URL was not confirmed from the public crawl.",
+    "icon_url": "[needs source]"
+  },
+  "business_description": "Cottonworld is an Indian apparel brand (Est. 1987) selling clothing made from natural fabrics — cotton, linen, and bamboo — for men and women. The range spans top wear (t-shirts, shirts, kurtas, jackets, tops, vests), bottom wear (pants, shorts, skirts, leggings, culottes), dresses/jumpsuits, lounge wear, sleep wear, and co-ords, organized by fabric and by occasion collections (Work, Travel, Brunch, Summer, Bestsellers). Positioning centers on comfortable, breathable, climate-appropriate, long-lasting natural clothing — 'Made with care. Worn for years.' Sold online at cottonworld.net (Shopify) and through physical retail stores across India (omnichannel).",
+  "business_model": "B2C direct-to-consumer apparel retail (omnichannel: e-commerce + physical stores across India). Shopify storefront. Revenue from single-item and multi-item apparel purchases; promotions/sitewide sales (e.g. 'Go Green Sale – up to 50% off') are a recurring lever.",
+  "brand_colors": {
+    "description": "Palette observed from the public storefront; exact brand hex tokens were not present in the crawl and should be confirmed from theme CSS/design files.",
+    "primary_background": "White / off-white",
+    "primary_text": "Near-black / charcoal",
+    "brand_accent": "Natural green (leaf mark; 'Go Green' sustainability framing)",
+    "supporting": "Earthy, muted, natural tones drawn from product photography (olive, beige, white, natural linen)"
+  },
+  "brand_aesthetic": "Warm, natural, lifestyle-led fashion e-commerce aesthetic. Editorial hero photography of models in natural outdoor settings, muted earthy palette, large product grids, occasion- and fabric-based merchandising. Communicates comfort, sustainability, and everyday timeless style rather than fast-fashion trend churn.",
+  "brand_voice": {
+    "description": "Warm, reassuring, and value-led. Emphasizes comfort, natural materials, care, and longevity over hype or discounts-first messaging. Plain, human sentences ('Made with care. Worn for years.', 'Because the best clothing isn't worn once. It's worn often.'). Sustainability and heritage (Est. 1987) are recurring proof points.",
+    "voice_patterns": [
+      "Comfort- and fabric-first claims ('natural materials that feel comfortable, breathe well, age beautifully')",
+      "Longevity and care framing over trend/newness",
+      "Heritage cues ('Est. 1987', 'Our journey began')",
+      "Sustainability framing ('Go Green', natural fabrics)",
+      "Short, declarative, reassuring lines"
+    ]
+  },
+  "brand_values": [
+    "Natural materials first — cotton, linen, and bamboo chosen for comfort, breathability, and India's climate.",
+    "Longevity over disposability — 'Worn for years'; clothing meant to age well and be worn often.",
+    "Comfort and everyday wearability as the core product promise.",
+    "Sustainability framing — natural fabrics and 'Go Green' positioning.",
+    "Heritage and trust — an established Indian clothing company since 1987 with omnichannel retail."
+  ],
+  "target_audience": {
+    "primary": [
+      "Indian men and women seeking comfortable, natural-fabric everyday clothing (cotton/linen/bamboo).",
+      "Value-conscious but quality-oriented shoppers who prefer breathable, climate-appropriate, long-lasting apparel over fast fashion."
+    ],
+    "roles": [
+      "Working professionals dressing for work, travel, and weekends",
+      "Comfort- and sustainability-minded shoppers",
+      "Repeat/loyal customers of an established heritage brand"
+    ],
+    "secondary_verticals": [
+      "Loungewear / sleepwear buyers",
+      "Occasion/collection shoppers (Work, Travel, Brunch, Summer)",
+      "Gifting"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "FabIndia",
+      "what_it_does": "Large Indian retailer of natural-fabric ethnic and casual apparel, home, and wellness products.",
+      "website": "https://www.fabindia.com",
+      "how_it_competes": "Overlaps strongly on natural-fabric (cotton/linen) apparel, heritage positioning, and omnichannel retail in India. [analyst-identified category peer — not named by the brand]"
+    },
+    {
+      "name": "Linen Club",
+      "what_it_does": "Aditya Birla linen apparel and fabric brand for men (and expanding).",
+      "website": "https://www.linenclub.com",
+      "how_it_competes": "Direct competitor on the premium linen/natural-fabric positioning. [analyst-identified category peer — not named by the brand]"
+    },
+    {
+      "name": "W for Woman / Global Desi (TCNS)",
+      "what_it_does": "Indian women's apparel brands spanning casual and fusion wear.",
+      "website": "https://www.wforwoman.com",
+      "how_it_competes": "Competes for the women's natural/comfortable everyday-wear segment. [analyst-identified category peer — not named by the brand]"
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Natural-fabric ethnic/casual apparel retailers (FabIndia, Anokhi)",
+    "Linen specialists (Linen Club)",
+    "Women's fusion/casual apparel (W, Global Desi, Biba)",
+    "Marketplace listings (Myntra, Ajio, Amazon Fashion) for the same cotton/linen categories"
+  ],
+  "primary_business_goal": "Grow online apparel revenue (cotton/linen/bamboo) and blend it with physical-store retail across India.",
+  "primary_conversion": "Product purchase / add-to-cart → checkout on the Shopify store.",
+  "site_type": "E-commerce (Shopify apparel storefront), omnichannel with physical stores.",
+  "measurement_and_connected_sources": [
+    "Shopify (native store platform / analytics) — observed via platform headers",
+    "Shopify Web Pixel / analytics cookies (_shopify_y, _shopify_s) present",
+    "Google Search Console — NOT connected (blocked this run)",
+    "GA4 / analytics platform — [needs source; not confirmed from crawl]"
+  ],
+  "open_questions": [
+    "Exact store count and customer count — homepage shows animated counters ('0+ Stores', '0 Lakhs+ customers') that render 0 in raw HTML; real figures needed [needs source].",
+    "Founding/heritage details beyond 'Est. 1987' (company history, ownership).",
+    "The brand's own named competitive set (competitors above are analyst-identified category peers, not stated by the brand).",
+    "Analytics stack (GA4? Shopify analytics only?) and whether GSC is verified for cottonworld.net.",
+    "Contact page and order-tracking: /pages/contact and /pages/track-order return 404 — confirm the correct customer-support/track-order URLs.",
+    "Canonical logo asset URL and exact brand color tokens.",
+    "Price range / positioning tier (entry vs premium) across categories."
+  ]
+}

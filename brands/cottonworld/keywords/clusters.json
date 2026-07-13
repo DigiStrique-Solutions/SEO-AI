@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "updated_at": "2026-07-13",
+  "clusters": [
+    {
+      "cluster_id": "fabric-cotton",
+      "name": "Cotton apparel",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "/collections/cotton",
+      "pillar": true,
+      "keywords": [
+        "cotton clothing for men",
+        "cotton clothing for women",
+        "cotton kurtas for women",
+        "cotton t-shirts men",
+        "cotton shorts men"
+      ],
+      "notes": "Core fabric pillar; map to /collections/cotton with fabric intro copy."
+    },
+    {
+      "cluster_id": "fabric-linen",
+      "name": "Linen apparel",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "/collections/linen",
+      "pillar": true,
+      "keywords": [
+        "linen clothing for men",
+        "linen clothing for women",
+        "linen shirts for men",
+        "linen pants for men",
+        "linen culottes women"
+      ],
+      "notes": "High-value premium fabric pillar."
+    },
+    {
+      "cluster_id": "fabric-bamboo",
+      "name": "Bamboo apparel",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "/collections/bamboo",
+      "pillar": true,
+      "keywords": [
+        "bamboo clothing india",
+        "bamboo t-shirts"
+      ],
+      "notes": "Differentiator fabric; thin catalog \u2014 expand."
+    },
+    {
+      "cluster_id": "cat-topwear",
+      "name": "Top wear",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "mens shirts online india",
+        "womens tops online",
+        "cotton kurtas men"
+      ],
+      "notes": "Each maps to its own category collection."
+    },
+    {
+      "cluster_id": "cat-bottomwear",
+      "name": "Bottom wear",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "mens pants online india",
+        "womens leggings cotton",
+        "linen culottes women",
+        "cotton shorts men"
+      ],
+      "notes": "Per-category collection pages."
+    },
+    {
+      "cluster_id": "occasion",
+      "name": "Occasion collections",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "work wear cotton india",
+        "travel clothing breathable",
+        "summer cotton clothing",
+        "brunch outfits women india"
+      ],
+      "notes": "Existing Work/Travel/Brunch/Summer collections; add editorial intros."
+    },
+    {
+      "cluster_id": "brand",
+      "name": "Brand & store",
+      "intent": "navigational",
+      "page_type": "home",
+      "target_url": "/",
+      "pillar": false,
+      "keywords": [
+        "cottonworld",
+        "cottonworld online",
+        "cottonworld store near me"
+      ],
+      "notes": "Protect brand SERP; add WebSite schema + sitelinks."
+    },
+    {
+      "cluster_id": "edu-fabric",
+      "name": "Fabric education (AEO)",
+      "intent": "informational",
+      "page_type": "blog",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "cotton vs linen clothing",
+        "benefits of natural fabrics",
+        "how to care for linen clothes",
+        "is bamboo fabric sustainable",
+        "best breathable fabrics for indian summer",
+        "cotton clothing care tips"
+      ],
+      "notes": "Highest-value content gap \u2014 real fabric-education articles + FAQPage for AEO/GEO. Replace the current broken/placeholder blog."
+    },
+    {
+      "cluster_id": "edu-style",
+      "name": "Styling & slow fashion (AEO)",
+      "intent": "informational",
+      "page_type": "blog",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "how to build a capsule wardrobe",
+        "what is slow fashion",
+        "how to style linen shirts",
+        "how to style"
+      ],
+      "notes": "Aligns with brand's 'slow living / timeless wardrobe' voice."
+    },
+    {
+      "cluster_id": "commercial-compare",
+      "name": "Category comparison",
+      "intent": "commercial",
+      "page_type": "blog",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "best cotton clothing brands india",
+        "sustainable clothing brands india"
+      ],
+      "notes": "Bottom-funnel informational-commercial; brand can rank as a listed option."
+    }
+  ]
+}

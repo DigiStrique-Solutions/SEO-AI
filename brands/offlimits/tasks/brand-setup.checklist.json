@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "started_at": "2026-07-13T11:30:00Z",
+  "updated_at": "2026-07-13T11:50:00Z",
+  "status": "done_with_soft_blockers",
+  "phases": [
+    { "phase": "0-init", "status": "done", "items": [
+      { "id": "p0.skeleton", "status": "done", "severity": "high", "note": "brands/offlimits/ skeleton + logs categories created", "log_ref": "" }
+    ] },
+    { "phase": "1-crawl-brand-dna", "status": "done", "items": [
+      { "id": "p1.crawl-ok", "status": "done", "severity": "high", "note": "Home/PDP/collection/blog + about-us crawled 200", "log_ref": "logs/web_data/activity.jsonl#20260713T113000Z" },
+      { "id": "p1.brand-name", "status": "done", "severity": "high", "note": "OFFLIMITS / offlimits.co.in", "log_ref": "" },
+      { "id": "p1.core-fields", "status": "done", "severity": "medium", "note": "business_description, model, audience, voice all filled from about-us + schema", "log_ref": "" },
+      { "id": "p1.competitors", "status": "done", "severity": "medium", "note": "4 competitors (Campus, Sparx, HRX, Decathlon) — labeled analyst-inferred, not brand-stated", "log_ref": "" },
+      { "id": "p1.dna-valid", "status": "done", "severity": "high", "note": "brand-dna.json parses, matches schema", "log_ref": "" },
+      { "id": "p1.knowledge", "status": "done", "severity": "low", "note": "knowledge.md written with positioning/tech/rules/competitors", "log_ref": "" }
+    ] },
+    { "phase": "2-keyword-research", "status": "done", "note": "p2.demand-pull is a documented SOFT-fail per ref-02 (continue with seeds); no hard blocker — all outputs valid.", "items": [
+      { "id": "p2.demand-pull", "status": "failed", "severity": "high", "soft_fail": true, "note": "Keyword Planner blocked: GOOGLE_ADS_PLATFORM_ID unset. Per ref-02 failure handling this is continue-not-block; volumes left blank.", "log_ref": "logs/keywords/activity.jsonl#20260713T114500Z" },
+      { "id": "p2.universe", "status": "done", "severity": "high", "note": "universe.csv 28 rows, 12-col header valid", "log_ref": "" },
+      { "id": "p2.keywords", "status": "done", "severity": "medium", "note": "keywords.csv 14 curated rows", "log_ref": "" },
+      { "id": "p2.clusters", "status": "done", "severity": "medium", "note": "clusters.json 10 clusters, valid", "log_ref": "" },
+      { "id": "p2.gsc", "status": "failed", "severity": "low", "note": "GSC not connected to our workspace; gsc_* left blank", "log_ref": "" },
+      { "id": "p2.summary", "status": "done", "severity": "medium", "note": "research-summary.json valid; counts match; blockers recorded", "log_ref": "" }
+    ] },
+    { "phase": "3-blogs", "status": "done", "items": [
+      { "id": "p3.index", "status": "done", "severity": "medium", "note": "Blog index /blogs/blogs; 68 posts in sitemap", "log_ref": "logs/blogs/activity.jsonl#20260713T114000Z" },
+      { "id": "p3.discovery", "status": "done", "severity": "medium", "note": "20 of 68 discovered (cap); 0 skipped", "log_ref": "" },
+      { "id": "p3.references", "status": "done", "severity": "medium", "note": "20/20 reference files written", "log_ref": "" },
+      { "id": "p3.summary", "status": "done", "severity": "low", "note": "blogs/summary.md index + coverage notes (20/68 tracked)", "log_ref": "" }
+    ] },
+    { "phase": "4-audits", "status": "done", "items": [
+      { "id": "p4.audits-run", "status": "done", "severity": "high", "note": "6 audits, overall 0.81 verifiable; 5 items blocked", "log_ref": "logs/audits/activity.jsonl#20260713T113500Z" },
+      { "id": "p4.summary", "status": "done", "severity": "high", "note": "audits/summary.json + summary.md written", "log_ref": "" }
+    ] },
+    { "phase": "5-finalize", "status": "done", "items": [
+      { "id": "p5.validate", "status": "done", "severity": "high", "note": "All JSON/JSONL parse; 20 blog refs; keyword/audit files valid", "log_ref": "" },
+      { "id": "p5.manifest", "status": "done", "severity": "medium", "note": "brand.json written", "log_ref": "" }
+    ] }
+  ],
+  "open_blockers": [
+    { "id": "keyword_planner_platform_id_unset", "severity": "high_soft", "next_action": "Set GOOGLE_ADS_PLATFORM_ID to enable Keyword Planner, then re-run Phase 2 to populate volume/difficulty and re-rank." },
+    { "id": "gsc_not_connected", "severity": "medium", "next_action": "Connect the offlimits.co.in GSC property via Composio to unblock indexation coverage, query data, and keyword GSC columns." },
+    { "id": "no_pagespeed_crux_key", "severity": "medium", "next_action": "Add a PageSpeed/CrUX API key (GOOGLE_API_KEY) to unblock field Core Web Vitals (LCP/INP/CLS)." },
+    { "id": "ai_mentions_untested", "severity": "low", "next_action": "Run a manual AI-visibility prompt set across ChatGPT/Perplexity/AI Overviews." }
+  ]
+}

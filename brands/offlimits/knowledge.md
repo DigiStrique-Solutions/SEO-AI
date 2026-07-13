@@ -1,17 +1,31 @@
-# knowledge.md — OFFLIMITS (brand-specific rules)
+# knowledge.md — OFFLIMITS (brand-specific living memory)
 
-> Seeded during the 2026-07-13 audit. This is a **partial** workspace — run the `brand-setup` skill for full onboarding (brand-dna, keywords, blogs, competitors).
+> Seeded 2026-07-13 from site crawl + audit. Workspace completed via brand-setup (brand-dna, keywords, blogs, audits, logs). Keyword demand is estimated/blocked — see below.
 
-## Must honor
+## Who they are
 
-- **Platform is Shopify.** SEO fixes must fit Shopify/theme + app constraints (title-tag templates, metafields, schema via theme/liquid or apps).
-- **Market is India.** Currency INR; targeting/queries are India-scoped (e.g. "…in India", ₹ price points).
-- **No GSC/GA4 connected yet.** Do not claim indexation, field CWV, or query/click data until GSC is connected via Composio. Mark such items `not_checked_blocked`, never `pass`.
-- **Keyword demand is unverified** — `GOOGLE_ADS_PLATFORM_ID` is unset (Keyword Planner blocked) and there's no GSC fallback. Don't present volumes as verified.
-- **Brand name is inconsistent** across the site (OFF LIMITS / Offlimits / Off Limits). Pick one canonical form before writing customer-facing copy or schema.
-- **Analytics is partially broken** — GoKwik analytics script fails DNS. Don't assume tracking data is complete.
+- **OFFLIMITS** — Indian D2C sports & athleisure brand (Shopify, `offlimits.co.in`). Footwear (running, gym/training, basketball, lifestyle, sandals, boots, plus-size/big-and-tall) + apparel (tracksuits, joggers, hoodies, sweatshirts, tees, polos, shorts) + a **Stussy** reseller line.
+- Launched by **Gurukirpa Lifestyle Company**, a large Indian sportswear manufacturer/exporter. ~2M apparel + ~1M pairs of shoes/year; sold D2C, via multi-brand stores, exclusive stores (Zirakpur, Ambala), and exported to US/Europe/Australia/UAE.
+- **Positioning:** *accessible high performance* — International-standard sportswear at value-for-money prices, made in India, designed for Indian conditions. Origin story: Siri Fort young athletes training barefoot/in PVC because performance shoes were unaffordable.
 
-## Carry-outs from the first audit (see audits/summary.md)
+## Proprietary tech (use these exact names in copy — they're real brand assets)
 
-- Strengths to preserve: strong technical/canonical hygiene, rich schema (Product/FAQ/Article/Breadcrumb/OnlineStore), and unusually good AI/AEO readiness (llms.txt, agentic-discovery sitemap, FAQ schema).
-- Biggest levers: performance (app/JS bloat), product title tags at scale, image alt text, product review-star schema.
+- **Advance Memory Foam** (cushioning/blood circulation) · **Athlite®** (superlight soles) · **Flexinit®** (breathable knit) · **Glovefit®** (comfort fit) · **Wiktech®** (faster moisture evaporation).
+
+## Must honor (brand-specific rules)
+
+- **Platform is Shopify · Market is India (INR).** Fixes must fit Shopify theme/metafields/apps; targeting is India-scoped (₹ price points, "…in India").
+- **Standardize the brand name.** Site is inconsistent: `Offlimits` (schema), `OFF LIMITS` (title/og:site_name = OFFLIMITS), `Off Limits` (collection titles). Pick one canonical form before customer-facing copy or schema edits.
+- **No GSC/GA4 in our workspace.** The brand runs its own GSC (site-verification tokens on-site) but it is **not connected to this Strique/Composio workspace** — so indexation, field CWV, and query/click data are `not_checked_blocked`, never assumed.
+- **Keyword demand is unverified** — `GOOGLE_ADS_PLATFORM_ID` unset (Keyword Planner blocked) and no GSC fallback. Volumes in `keywords/` are **blank/estimated**, not measured. Do not present them as real numbers.
+- **Analytics is partially broken** — `analytics.gokwik.co` fails DNS on-site. Don't assume tracking data is complete.
+- **Voice:** motivational, gutsy, inclusive, value-conscious ("OFF LIMITS Tribe", "push limits not excuses"). Pair performance claims with affordability + made-in-India. Avoid generic hype; cite real tech names and sizing inclusivity.
+
+## SEO carry-outs (from audits/summary.md — overall 0.81 verifiable)
+
+- **Strengths to preserve:** clean technical/canonical hygiene; rich schema (OnlineStore/Product/FAQPage/Article/BreadcrumbList); standout AI/AEO readiness (llms.txt, agentic-discovery sitemap, FAQ schema).
+- **Biggest levers:** (1) performance/app bloat, (2) product title tags at catalog scale, (3) image alt text, (4) product review-star schema, (5) blog E-E-A-T (placeholder author "SEO ."), (6) outbound citations.
+
+## Competitive set (analyst-inferred, not brand-stated)
+
+Campus Activewear · Sparx (Relaxo) · HRX · Decathlon India — value-performance rivals. Aspirational alternatives: Nike/Adidas/Puma. Confirm the brand's own competitor view (open question).

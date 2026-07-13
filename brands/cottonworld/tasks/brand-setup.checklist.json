@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "started_at": "2026-07-13T11:59:00Z",
+  "updated_at": "2026-07-13T12:20:00Z",
+  "phases": [
+    {
+      "phase": "0-init",
+      "status": "done",
+      "items": [
+        {
+          "id": "p0.skeleton",
+          "status": "done",
+          "severity": "high",
+          "note": "folder skeleton + logs categories created",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        {
+          "id": "p1.crawl-ok",
+          "status": "done",
+          "severity": "high",
+          "note": "5 pages crawled, HTTP 200",
+          "log_ref": "logs/web_data/activity.jsonl"
+        },
+        {
+          "id": "p1.brand-name",
+          "status": "done",
+          "severity": "high",
+          "note": "Cottonworld / https://cottonworld.net",
+          "log_ref": ""
+        },
+        {
+          "id": "p1.core-fields",
+          "status": "done",
+          "severity": "medium",
+          "note": "business/model/audience/voice filled from crawl",
+          "log_ref": ""
+        },
+        {
+          "id": "p1.competitors",
+          "status": "done",
+          "severity": "medium",
+          "note": "3 analyst-identified category peers; brand's own named set \u2192 open_questions",
+          "log_ref": ""
+        },
+        {
+          "id": "p1.dna-valid",
+          "status": "done",
+          "severity": "high",
+          "note": "brand-dna.json parses & matches schema",
+          "log_ref": ""
+        },
+        {
+          "id": "p1.knowledge",
+          "status": "done",
+          "severity": "low",
+          "note": "knowledge.md seeded",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "done",
+      "items": [
+        {
+          "id": "p2.demand-pull",
+          "status": "failed",
+          "severity": "high",
+          "note": "Keyword Planner blocked (GOOGLE_ADS_PLATFORM_ID unset); continued with seeds \u2014 soft fail per phase rule",
+          "log_ref": "logs/keywords/activity.jsonl"
+        },
+        {
+          "id": "p2.universe",
+          "status": "done",
+          "severity": "high",
+          "note": "universe.csv 38 rows, header valid",
+          "log_ref": ""
+        },
+        {
+          "id": "p2.keywords",
+          "status": "done",
+          "severity": "medium",
+          "note": "keywords.csv 31 curated",
+          "log_ref": ""
+        },
+        {
+          "id": "p2.clusters",
+          "status": "done",
+          "severity": "medium",
+          "note": "clusters.json 10 clusters",
+          "log_ref": ""
+        },
+        {
+          "id": "p2.gsc",
+          "status": "failed",
+          "severity": "low",
+          "note": "GSC not connected; gsc_* blank",
+          "log_ref": ""
+        },
+        {
+          "id": "p2.summary",
+          "status": "done",
+          "severity": "medium",
+          "note": "research-summary.json counts match",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "3-blogs",
+      "status": "done",
+      "items": [
+        {
+          "id": "p3.index",
+          "status": "done",
+          "severity": "medium",
+          "note": "blog index located (sitemap_blogs_1.xml)",
+          "log_ref": "logs/blogs/activity.jsonl"
+        },
+        {
+          "id": "p3.discovery",
+          "status": "done",
+          "severity": "medium",
+          "note": "4 posts (url+date)",
+          "log_ref": ""
+        },
+        {
+          "id": "p3.references",
+          "status": "done",
+          "severity": "medium",
+          "note": "4/4 reference files; 0 skipped",
+          "log_ref": ""
+        },
+        {
+          "id": "p3.summary",
+          "status": "done",
+          "severity": "low",
+          "note": "summary.md written; flagged all posts as broken/placeholder",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "4-audits",
+      "status": "done",
+      "items": [
+        {
+          "id": "p4.audits-run",
+          "status": "done",
+          "severity": "high",
+          "note": "6 audits, overall 0.59 (PARTIAL)",
+          "log_ref": "logs/audits/activity.jsonl"
+        },
+        {
+          "id": "p4.blocked",
+          "status": "failed",
+          "severity": "medium",
+          "note": "4 items not_checked_blocked: indexation, LCP/INP field, ai-mentions (need GSC/field data)",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "5-finalize",
+      "status": "done",
+      "items": [
+        {
+          "id": "p5.manifest",
+          "status": "done",
+          "severity": "medium",
+          "note": "brand.json written",
+          "log_ref": ""
+        }
+      ]
+    }
+  ]
+}

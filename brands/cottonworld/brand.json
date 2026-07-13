@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "display_name": "Cottonworld",
+  "status": "active",
+  "primary_domain": "cottonworld.net",
+  "domains": [
+    "cottonworld.net",
+    "www.cottonworld.net"
+  ],
+  "locale": "en-IN",
+  "market": "India",
+  "created_at": "2026-07-13",
+  "updated_at": "2026-07-13",
+  "platform": "Shopify",
+  "pointers": {
+    "brand_dna": "brand-dna.json",
+    "knowledge": "knowledge.md",
+    "keywords": "keywords/",
+    "blogs": "blogs/summary.md",
+    "audits": "audits/summary.json",
+    "logs": "logs/",
+    "checklist": "tasks/brand-setup.checklist.json"
+  },
+  "counts": {
+    "audits": 6,
+    "blogs": 4,
+    "keywords": 38,
+    "products": 892,
+    "collections": 157,
+    "pages": 101
+  },
+  "audit_overall_score": 0.59,
+  "blockers": [
+    "gsc_not_connected",
+    "keyword_planner_platform_id_unset",
+    "field_cwv_unavailable"
+  ]
+}

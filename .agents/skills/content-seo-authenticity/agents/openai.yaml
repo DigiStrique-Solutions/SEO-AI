@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content SEO Authenticity"
+  short_description: "Source-backed, human-sounding, publish-ready SEO content"
+  default_prompt: "Use $content-seo-authenticity to audit or rewrite a page into source-backed, publish-ready copy."

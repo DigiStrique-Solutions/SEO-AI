@@ -1,0 +1,29 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+running shoes for men,commercial,collection,https://offlimits.co.in/collections/men-running-shoes,,,high,site_taxonomy; brand_dna_seed,,,,new
+running shoes for women,commercial,collection,https://offlimits.co.in/collections/women-running-shoes,,,high,site_taxonomy; brand_dna_seed,,,,new
+gym shoes for men,commercial,collection,https://offlimits.co.in/collections/men-gym-training,,,high,site_taxonomy; brand_dna_seed,,,,new
+training shoes for men,commercial,collection,https://offlimits.co.in/collections/men-gym-training,,,medium,site_taxonomy,,,,new
+basketball shoes,commercial,collection,https://offlimits.co.in/collections/men-basketball,,,high,site_taxonomy; brand_dna_seed,,,,new
+sneakers for men,commercial,collection,https://offlimits.co.in/collections/men-lifestyle-recover-kicks,,,high,site_taxonomy,,,,new
+sneakers for women,commercial,collection,https://offlimits.co.in/collections/women-shoes,,,medium,site_taxonomy,,,,new
+sports shoes for men,commercial,collection,https://offlimits.co.in/collections/men-shoes,,,high,site_taxonomy; brand_dna_seed,,,,new
+sports shoes for women,commercial,collection,https://offlimits.co.in/collections/women-shoes,,,medium,site_taxonomy,,,,new
+plus size shoes for men,commercial,collection,https://offlimits.co.in/collections/big-tall,,,high,site_taxonomy; brand_dna_seed,,,,new
+big and tall shoes india,commercial,collection,https://offlimits.co.in/collections/big-tall,,,medium,brand_dna_seed,,,,new
+sandals for men,commercial,collection,https://offlimits.co.in/collections/men-sandals-sliders,,,medium,site_taxonomy,,,,new
+sliders for men,commercial,collection,https://offlimits.co.in/collections/men-sandals-sliders,,,medium,site_taxonomy,,,,new
+track suit for men,commercial,collection,https://offlimits.co.in/collections/men-track-suits,,,high,site_taxonomy; brand_dna_seed,,,,new
+track suit for women,commercial,collection,https://offlimits.co.in/collections/women-track-suits,,,medium,site_taxonomy,,,,new
+joggers for men,commercial,collection,https://offlimits.co.in/collections/men-joggers-track-pants,,,medium,site_taxonomy,,,,new
+hoodies for men,commercial,collection,https://offlimits.co.in/collections/men-hoodies-jackets,,,medium,site_taxonomy,,,,new
+graphic tees for men,commercial,collection,https://offlimits.co.in/collections/men-tshirts-graphic-tees,,,low,site_taxonomy,,,,new
+stussy shoes india,commercial,collection,https://offlimits.co.in/collections/stussy,,,medium,site_taxonomy,,,,new
+boots for men,commercial,collection,https://offlimits.co.in/collections/boots,,,low,site_taxonomy,,,,new
+offlimits shoes,navigational,homepage,https://offlimits.co.in,,,high,brand_dna_seed,,,,new
+off limits shoes,navigational,homepage,https://offlimits.co.in,,,medium,brand_dna_seed,,,,new
+running shoes vs gym shoes,informational,blog,https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes,,,medium,existing_blog,,,,new
+how to choose basketball shoes,informational,blog,https://offlimits.co.in/blogs/blogs/how-to-choose-the-right-basketball-shoes,,,medium,existing_blog,,,,new
+are memory foam shoes good,informational,blog,https://offlimits.co.in/blogs/blogs/memory-foam-shoes-are-they-really-the-best-for-your-feet,,,low,existing_blog,,,,new
+how to style sneakers,informational,blog,https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women,,,medium,existing_blog,,,,new
+best running shoes for men in india,commercial,collection,https://offlimits.co.in/collections/best-running-shoes,,,high,site_taxonomy; brand_dna_seed,,,,new
+memory foam running shoes,commercial,collection,https://offlimits.co.in/collections/men-running-shoes,,,medium,brand_dna_seed,,,,new

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Setup"
+  short_description: "Onboard or rebuild a brand's SEO workspace"
+  default_prompt: "Use $brand-setup to onboard a brand and build its brands/<brand_id>/ workspace."

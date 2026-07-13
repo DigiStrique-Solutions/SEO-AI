@@ -1,0 +1,15 @@
+{
+  "run_id": "20260713T114500Z",
+  "generated": "2026-07-13",
+  "method": "Seeded from Shopify collection taxonomy (firecrawl_map) + brand-dna product/category/brand terms. No demand API called.",
+  "seed_sources": {
+    "collections_used": ["men-running-shoes", "women-running-shoes", "men-gym-training", "men-basketball", "men-lifestyle-recover-kicks", "men-shoes", "women-shoes", "big-tall", "men-sandals-sliders", "men-track-suits", "women-track-suits", "men-joggers-track-pants", "men-hoodies-jackets", "men-tshirts-graphic-tees", "stussy", "boots", "best-running-shoes"],
+    "brand_terms": ["offlimits", "off limits", "memory foam", "athlite", "plus size / big & tall"],
+    "blog_informational": ["running shoes vs gym shoes", "how to choose basketball shoes", "memory foam shoes", "how to style sneakers"]
+  },
+  "demand_providers": {
+    "keyword_planner": {"status": "blocked", "reason": "GOOGLE_ADS_PLATFORM_ID unset — platform-id parameter is mandatory on google_ads_generate_keyword_ideas"},
+    "gsc": {"status": "not_connected", "reason": "brand property not connected to this Composio workspace"}
+  },
+  "output": {"universe_rows": 28, "curated_rows": 14, "clusters": 10, "volumes_populated": false}
+}

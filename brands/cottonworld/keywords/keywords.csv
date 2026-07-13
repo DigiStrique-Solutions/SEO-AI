@@ -1,0 +1,32 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+cotton clothing for men,transactional,collection,/collections/cotton,,,high,proposed
+cotton clothing for women,transactional,collection,/collections/cotton,,,high,proposed
+linen clothing for men,transactional,collection,/collections/linen,,,high,proposed
+linen clothing for women,transactional,collection,/collections/linen,,,high,proposed
+bamboo clothing india,transactional,collection,/collections/bamboo,,,medium,proposed
+linen shirts for men,transactional,collection,/collections/linen,,,high,proposed
+cotton kurtas for women,transactional,collection,/collections/cotton,,,high,proposed
+linen pants for men,transactional,collection,/collections/linen,,,high,proposed
+cotton t-shirts men,transactional,collection,/collections/cotton,,,high,proposed
+bamboo t-shirts,transactional,collection,/collections/bamboo,,,medium,proposed
+mens shirts online india,transactional,collection,/collections/shirts,,,high,proposed
+womens tops online,transactional,collection,/collections/tops,,,high,proposed
+mens pants online india,transactional,collection,/collections/pants,,,high,proposed
+womens leggings cotton,transactional,collection,/collections/leggings,,,medium,proposed
+co ord sets women,transactional,collection,/collections/co-ords,,,medium,proposed
+loungewear india,transactional,collection,/collections/lounge-wear,,,medium,proposed
+sleepwear women cotton,transactional,collection,/collections/sleep-wear,,,medium,proposed
+cotton kurtas men,transactional,collection,/collections/kurtas,,,medium,proposed
+cotton shorts men,transactional,collection,/collections/shorts,,,medium,proposed
+work wear cotton india,commercial,collection,/collections/work,,,medium,proposed
+travel clothing breathable,commercial,collection,/collections/travel,,,medium,proposed
+summer cotton clothing,commercial,collection,/collections/summer,,,high,proposed
+cottonworld,navigational,home,/,,,high,proposed
+cottonworld online,navigational,home,/,,,high,proposed
+cottonworld store near me,navigational,page,/pages/store-locator,,,medium,proposed
+cotton vs linen clothing,informational,blog,null,,,medium,proposed
+benefits of natural fabrics,informational,blog,null,,,medium,proposed
+how to care for linen clothes,informational,blog,null,,,medium,proposed
+best breathable fabrics for indian summer,informational,blog,null,,,medium,proposed
+best cotton clothing brands india,commercial,blog,null,,,medium,proposed
+sustainable clothing brands india,commercial,blog,null,,,medium,proposed

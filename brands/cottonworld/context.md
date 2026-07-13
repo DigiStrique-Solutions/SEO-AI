@@ -1,23 +1,25 @@
 # Brand Context Index — cottonworld
 
-> ⚠️ **Audit-only workspace.** This brand was created to hold the results of an on-demand SEO audit of
-> https://cottonworld.net. It is **not fully onboarded** — `brand-dna.json`, `knowledge.md`, and
-> `keywords/` are not yet built. Run the **`brand-setup`** skill to complete onboarding before content work.
+Read this first for any task about this brand, then load **only** the files the task needs.
+Full workspace built via `brand-setup` on 2026-07-13.
 
-## What Cottonworld is (from the audit, unverified brand facts)
+## What Cottonworld is
 
-Indian D2C apparel brand ("The Natural Clothing Co. \| Est. 1987") selling natural cotton & linen clothing
-for men & women. Shopify storefront on `cottonworld.net` (Cloudflare, en-IN). ~892 products / 157 collections.
-*Any brand fact used for content must be verified via `brand-setup`, not assumed from here.*
+Indian D2C apparel brand ("The Natural Clothing Co. \| Est. 1987") selling natural **cotton, linen & bamboo**
+clothing for men & women, omnichannel (Shopify store + physical stores across India). `cottonworld.net`
+(Cloudflare, en-IN). 892 products / 157 collections / 101 pages. Full identity → [brand-dna.json](brand-dna.json).
 
 ## File map — what answers what
 
 | Need to know… | Load | When |
 |---------------|------|------|
+| Identity — voice, audience, competitors, goals | [brand-dna.json](brand-dna.json) | almost any brand task |
+| Brand-specific rules, do/don'ts, carry-outs | [knowledge.md](knowledge.md) | **always** for output; overrides defaults |
+| Keyword targets, intent, clusters | [keywords/](keywords/) (`keywords.csv`, `clusters.json`) | keyword, content, brief, audit-intent |
+| What's already published (all currently broken) | [blogs/summary.md](blogs/summary.md) → `blogs/references/<slug>.md` | content planning |
 | Current SEO health + prioritized fixes | [audits/summary.md](audits/summary.md) + [audits/summary.json](audits/summary.json) | audit, fix, reporting |
-| Per-audit item detail + evidence | `audits/<audit_id>.json` | drilling into a finding |
-| Raw crawl payloads, screenshot, run log | [logs/audits/](logs/audits/) | provenance, re-check |
-| Identity, voice, keywords, blogs | *not built yet* | run `brand-setup` |
+| What was fetched/run and when | [logs/](logs/) | provenance, trace, resume |
+| Setup progress / open items | [tasks/brand-setup.checklist.json](tasks/brand-setup.checklist.json) | verifying onboarding |
 
 ## Carry-outs from this audit (2026-07-13)
 

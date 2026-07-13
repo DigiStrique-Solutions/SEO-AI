@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "cottonworld",
+  "brand_name": "Cottonworld",
+  "website_url": "https://cottonworld.net",
+  "generated_at": "2026-07-13",
+  "target_country": "India",
+  "language": "en-IN",
+  "date_range": null,
+  "default_source": "seed (brand-dna taxonomy)",
+  "difficulty_scale": "0-100 (unmeasured this run)",
+  "counts": {
+    "universe": 38,
+    "keywords_curated": 31,
+    "clusters": 10
+  },
+  "sources": {
+    "keyword_planner": "unavailable",
+    "gsc": "not_connected",
+    "seed": 38
+  },
+  "gsc_property": null,
+  "gsc_available_properties": [],
+  "blockers": [
+    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID unset \u2014 no demand/volume/difficulty pulled",
+    "gsc_not_connected: no real query/impression/position data; gsc_* columns blank",
+    "volumes_and_difficulty_unmeasured: keywords are seed/derived from brand taxonomy; validate demand once GSC/Keyword Planner is connected"
+  ]
+}

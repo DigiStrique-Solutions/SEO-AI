@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "display_name": "OFFLIMITS",
+  "status": "active",
+  "primary_domain": "offlimits.co.in",
+  "domains": ["offlimits.co.in", "www.offlimits.co.in"],
+  "locale": "en-IN",
+  "market": "India",
+  "platform": "Shopify",
+  "created_at": "2026-07-13",
+  "updated_at": "2026-07-13",
+  "pointers": {
+    "brand_dna": "brand-dna.json",
+    "knowledge": "knowledge.md",
+    "context": "context.md",
+    "keywords": "keywords/",
+    "blogs": "blogs/summary.md",
+    "audits": "audits/summary.json",
+    "logs": "logs/",
+    "checklist": "tasks/brand-setup.checklist.json"
+  },
+  "counts": { "audits": 6, "blogs": 20, "keywords": 28 },
+  "health": { "audit_overall_score": 0.81, "audit_basis": "verifiable items only; 5 blocked (field CWV, GSC indexation, AI mentions)" },
+  "blockers": [
+    "gsc_not_connected", "ga4_not_connected", "no_pagespeed_crux_key", "keyword_planner_platform_id_unset"
+  ],
+  "notes": "Workspace built via brand-setup on 2026-07-13. Blog coverage is 20 of 68 posts (cap). Keyword demand seeded from taxonomy/brand-dna — volumes not measured."
+}
