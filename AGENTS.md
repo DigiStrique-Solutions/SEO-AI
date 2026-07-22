@@ -53,6 +53,12 @@ All configured MCP tools are callable by stable id (needed for routing/logging).
 - **`tools/google_pagespeed.py`** — PageSpeed / Lighthouse / CrUX, all on one Google Cloud API key (enable the **PageSpeed Insights API** + **Chrome UX Report API**). Subcommands: `pagespeed` (lab CWV + category scores + embedded field), `crux` (real-user field CWV, URL or `--origin`), `cwv` (both in one call). Keep **field (CrUX/real-user)** and **lab (Lighthouse/synthetic)** numbers labelled separately — a lab pass is not proof of field experience. Missing key/API/record → `not_checked_blocked`, never a silent pass.
 - **`tools/zerogpt.py`** — ZeroGPT AI-text detector for the authenticity gate (see the `ai-text-risk-gate` skill); weak editorial signal only, local-score fallback when unreachable.
 
+## Git workflow (mandatory)
+
+- Whenever a task changes repository files, commit the completed task changes and push the current branch to GitHub before reporting completion, unless the user explicitly says not to commit or push.
+- Verify that the remote branch contains the new commit. If authentication, conflicts, hooks, tests, or remote policy block the push, preserve the local commit and clearly report the blocker and required next action.
+- Never commit credentials or expose tokens in commands, logs, or repository files. Preserve unrelated user changes unless the user explicitly asks to include them.
+
 ## Non-negotiables & non-goals
 
 - **Never invent brand facts** (stats, competitors, prices, claims). If unknown → `open_questions` in `brand-dna.json` or `[needs source]`.
