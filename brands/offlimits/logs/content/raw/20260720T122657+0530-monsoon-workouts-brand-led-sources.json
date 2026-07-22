@@ -1,0 +1,44 @@
+{
+  "run_id": "20260720T122657+0530",
+  "topic": "What to Wear for Monsoon Workouts: An Athleisure Guide for Men and Women",
+  "purpose": "Verify live OFFLIMITS product features needed for a brand-led rewrite.",
+  "sources": [
+    {
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02",
+      "facts_used": ["knitted upper with KPU overlay", "memory-foam insock", "Phylon/TPR sole"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes/products/ethos-orm-531-01",
+      "facts_used": ["Flyknit upper", "super-soft EVA insock in specifications", "Phylon/TPR sole", "steady-grip/slip-resistance product copy"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-running-gym/products/gladiator-for-her-off-white-orw-678-02",
+      "facts_used": ["Flyknit upper", "memory-foam insock", "Phylon/TPR sole"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-running-gym/products/pulse-x-for-her-black-dk-grey-orw-887-02",
+      "facts_used": ["mesh upper", "PU-moulded insock", "Phylon/TPR sole"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/men-clothing/products/mens-snow-track-suit-otm-349-01",
+      "facts_used": ["zip neck", "full sleeves", "90% polyester/10% spandex", "Wicktech as spelled on live page"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/men-clothing/products/mens-sonic-track-suit-otm-341-02",
+      "facts_used": ["zip neck", "full sleeves", "90% polyester/10% spandex", "Wicktech as spelled on live page"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-clothing/products/wmn-pct-cns-ts-otw-56-01",
+      "facts_used": ["hoodie", "full sleeves", "100% polyester", "Wicktech as spelled on live page"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-clothing/products/women-printed-insert-tights-grey-melange-obw-422-01",
+      "facts_used": ["mid-rise", "240 GSM", "90% polyester/10% spandex", "Wicktech as spelled on live page"]
+    }
+  ],
+  "limitations": [
+    "No footwear is described as waterproof or universally slip-proof.",
+    "Technology and material coverage is stated per product, not across entire collections.",
+    "Live product pages spell the apparel technology Wicktech; canonical brand workspace spelling remains Wiktech."
+  ]
+}

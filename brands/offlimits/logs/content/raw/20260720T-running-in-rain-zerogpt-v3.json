@@ -1,0 +1,14 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-20T12:37:42+00:00",
+    "feedback": "Your Text is Human Written",
+    "max_score": 20.0,
+    "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+    "score": 17.1,
+    "source": "zerogpt_api",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

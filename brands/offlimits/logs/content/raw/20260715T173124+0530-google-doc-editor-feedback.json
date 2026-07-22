@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-15T17:31:24+05:30",
+  "provider": "google_drive",
+  "document_id": "1Yupvy9O8FK20T9PgnezcGllHKLEB-3KsMQmaym55x30",
+  "document_title": "Codex Inc Blog ",
+  "tab_id": "t.0",
+  "revision_id": "ALtnJHwjZyYKpwN3OgIvzVT4O6Kno097TEpXnWFjhdYKv2exEyHXuxK3osVHlSKCN6r_rzzsigkmLbTVEBuwX0vbr-oKCXmYWWCnz55yzq0",
+  "user_feedback": "The yellow sections don't work. There are many mistakes. The blog is missing conversation-type content and feels flat.",
+  "highlighted_passages": [
+    "There is a similar trap in the phrase quick dry gym clothes... If the page doesn't promise quick drying, we shouldn't promise it either.",
+    "so read beyond the product photo.",
+    "Pair the tee with men's sports shorts... fabric, technology and stock are separate details, and any of them may change.",
+    "There is an important label lesson in the women's T-shirt collection... fabric composition cannot be stretched into a performance claim.",
+    "For the lower half, compare women's tights with women's shorts... The named technology is the moisture-management claim supported by the page."
+  ],
+  "comments": [
+    {
+      "comment_id": "AAAB_-ukDOY",
+      "resolved": false,
+      "content": "is it necessary?",
+      "quoted_text": "Pair the tee with men's sports shorts for lifting, intervals or cardio..."
+    }
+  ],
+  "editorial_findings": [
+    "Highlighted passages sound like internal claim-audit notes rather than customer-facing advice.",
+    "The draft uses WickTech, conflicting with the brand workspace's required spelling Wiktech.",
+    "Product-spec paragraphs interrupt the reader journey and over-explain verification mechanics.",
+    "More direct questions, situational choices and second-person guidance are needed."
+  ]
+}

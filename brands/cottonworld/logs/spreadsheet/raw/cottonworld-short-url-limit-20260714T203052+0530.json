@@ -1,0 +1,40 @@
+{
+  "run_id": "cottonworld-short-url-limit-20260714T203052+0530",
+  "timestamp": "2026-07-14T20:30:52+05:30",
+  "action": "shorten_highlighted_new_urls_and_canonicals",
+  "input_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+  "output_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+  "policy": {
+    "maximum_full_url_characters": 70,
+    "rows_removed": 0,
+    "preserve_unique_product_attributes": true,
+    "preserve_numeric_free_slugs": true,
+    "canonical_must_equal_new_url": true
+  },
+  "scope": {
+    "active_product_rows": 920,
+    "highlighted_new_urls_updated": 421,
+    "highlighted_canonicals_updated": 421,
+    "h1_cells_changed": 0
+  },
+  "verification": {
+    "highlighted_url_minimum_characters": 49,
+    "highlighted_url_maximum_characters": 70,
+    "highlighted_urls_over_limit": 0,
+    "duplicate_new_url_groups": 0,
+    "duplicate_canonical_groups": 0,
+    "duplicate_h1_groups": 0,
+    "canonical_mismatches": 0,
+    "numeric_style_suffixes_added": 0,
+    "highlight_formatting_preserved": true,
+    "drive_file_id_preserved": true,
+    "uploaded_file_size_bytes": 3217503
+  },
+  "attribute_examples": [
+    "zip polo versus button polo",
+    "front pocket versus back pocket",
+    "drawstring versus button-and-zip",
+    "round hem versus straight hem",
+    "lime green versus mint green"
+  ]
+}

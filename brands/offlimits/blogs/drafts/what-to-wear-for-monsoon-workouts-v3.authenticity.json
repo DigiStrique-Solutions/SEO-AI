@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS offers men's and women's footwear and clothing collections relevant to running, gym training and athleisure.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context",
+        "user-content-brief"
+      ]
+    },
+    {
+      "claim": "Wiktech is the exact name of OFFLIMITS' moisture-evaporation technology; the draft limits it to selected products and tells readers to verify the individual listing.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context"
+      ]
+    },
+    {
+      "claim": "The target title, keyword set, supplied search volumes and four required internal URLs come from the attached user brief; volumes guide prioritization and are not presented as article claims.",
+      "claim_id": "claim-03",
+      "claim_type": "editorial_direction",
+      "source_ids": [
+        "user-content-brief"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-17T14:46:18+00:00",
+      "feedback": "Your Text is Most Likely AI/GPT generated",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 71.1,
+      "source": "zerogpt_api",
+      "status": "fail",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-17T14:44:03+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Canonical working name is OFFLIMITS. The brand sells performance footwear and apparel for men and women. Voice is motivational, gutsy, inclusive and value-conscious. Wiktech is the exact name of the brand's technology for faster moisture evaporation.",
+      "source_id": "offlimits-brand-context",
+      "source_ref": "brands/offlimits/context.md; brands/offlimits/knowledge.md; brands/offlimits/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Requested title: What to Wear for Monsoon Workouts: An Athleisure Guide for Men and Women. Required internal links: /collections/mens-running-gym-shoes, /collections/women-running-gym, /collections/men-clothing and /collections/women-clothing. Supplied keyword priorities/volumes: gym wear for men 22,200; gym wear for women 40,500; athleisure for men 320; athleisure for women 590; gym outfits 6,600; fitness clothes 720; workout clothes for men 33,100; workout clothes for women 1,300; gym gear women 18,100. Volumes are treated as user-supplied planning inputs, not verified brand analytics.",
+      "source_id": "user-content-brief",
+      "source_ref": "User-attached screenshot codex-clipboard-da96a882-33fa-4e91-a64d-cfd81d07a6bf.png, received 2026-07-17",
+      "source_type": "human_context"
+    }
+  ]
+}

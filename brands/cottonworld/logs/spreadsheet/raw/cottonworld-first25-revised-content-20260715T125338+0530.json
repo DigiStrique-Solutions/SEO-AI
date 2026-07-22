@@ -1,0 +1,23 @@
+{
+  "run_id": "cottonworld-first25-revised-content-20260715T125338+0530",
+  "timestamp": "2026-07-15T12:53:38+05:30",
+  "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "sheet": "Batch 1",
+  "product_rows": "2:26",
+  "updated_range": "F3:F26",
+  "verified_range": "B2:F26",
+  "updated_rows": 24,
+  "total_completed_rows": 25,
+  "formatting_preserved": true,
+  "verification": {
+    "rows_read": 25,
+    "revised_content_cells_populated": 25,
+    "exact_value_mismatches": 0
+  },
+  "authenticity_gate": {
+    "status": "pass",
+    "ai_text_risk_score": 6.0,
+    "threshold": 20.0,
+    "note": "Editorial signal only; not proof of authorship."
+  }
+}

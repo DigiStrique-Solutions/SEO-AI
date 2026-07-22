@@ -1,0 +1,68 @@
+{
+  "claims": [
+    {
+      "claim": "Matched image alt text uses the current public product title.",
+      "source_ids": [
+        "inc5-products-feed-20260715"
+      ]
+    },
+    {
+      "claim": "Fallback alt text uses only visible filename color/style cues and the workbook collection context.",
+      "source_ids": [
+        "input-image-audit-20260715",
+        "inc5-brand-dna"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-15T12:32:37+00:00",
+      "fallback_error": "ZeroGPT request failed: The read operation timed out",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT request failed: The read operation timed out). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-15T12:30:24+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "ship",
+    "target": "C:\\Users\\User\\Downloads\\inc5shop.com_images_without_an_alt_attribute_20260715.xlsx",
+    "output_ref": "C:\\Users\\User\\Downloads\\inc5shop.com_images_without_an_alt_attribute_20260715.xlsx"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Brand name is Inc.5",
+        "Women's footwear is the lead category",
+        "Do not invent product specifications"
+      ],
+      "source_id": "inc5-brand-dna",
+      "source_ref": "brands/inc5shop/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Public Shopify feed supplied product titles and image URLs for 2,699 products",
+        "Image filenames were matched to product titles"
+      ],
+      "source_id": "inc5-products-feed-20260715",
+      "source_ref": "brands/inc5shop/logs/web_data/raw/20260715T122922Z-products-feed.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Workbook supplied page URL and image URL pairs for images missing alt attributes"
+      ],
+      "source_id": "input-image-audit-20260715",
+      "source_ref": "C:\\Users\\User\\Downloads\\inc5shop.com_images_without_an_alt_attribute_20260715.xlsx",
+      "source_type": "human_context"
+    }
+  ]
+}

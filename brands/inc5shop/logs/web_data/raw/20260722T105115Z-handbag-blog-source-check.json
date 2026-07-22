@@ -1,0 +1,18 @@
+{
+  "run_id": "inc5shop-handbag-blog-source-check-20260722",
+  "checked_at": "2026-07-22T10:51:15Z",
+  "purpose": "Verify current Inc.5 bag categories, representative products, attributes, care guidance and existing internal-link targets for the types-of-handbags blog.",
+  "source_urls": [
+    "https://inc5shop.com/collections/all-bags",
+    "https://inc5shop.com/collections/sling-bags",
+    "https://inc5shop.com/collections/shoulder-bags",
+    "https://inc5shop.com/collections/clutch-bags",
+    "https://inc5shop.com/collections/backpack-bags",
+    "https://inc5shop.com/collections/all-handbags",
+    "https://inc5shop.com/products/womens-beige-shoulder-bag-with-zip-lock-for-casual-lyng34-8878-beige",
+    "https://inc5shop.com/products/womens-tan-casual-solid-sling-bag-with-zip-lock-lyng27-8834-tan",
+    "https://inc5shop.com/products/womens-black-sling-bag-with-zip-lock-for-party-use-lyng30-8916-black"
+  ],
+  "result": "Verified category availability and the exact product attributes recorded in the authenticity log. Prices and stock were intentionally excluded because they are volatile.",
+  "status": "ok"
+}

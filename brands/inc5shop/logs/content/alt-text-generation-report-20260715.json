@@ -1,0 +1,278 @@
+{
+  "input_workbook": "C:\\Users\\User\\Downloads\\inc5shop.com_images_without_an_alt_attribute_20260715.xlsx",
+  "rows": 5506,
+  "unique_images": 1062,
+  "rows_product_feed": 5416,
+  "rows_fallback": 90,
+  "unique_product_feed": 1033,
+  "unique_fallback": 29,
+  "max_alt_length": 73,
+  "empty_alt_count": 0,
+  "fallbacks": [
+    {
+      "image": "101843_tan_ada99839-7f92-4901-9ff7-59b133b86024.jpg",
+      "alt": "Tan women's heels, style 101843",
+      "pages": [
+        "https://inc5shop.com/collections/womens-heels?page=22",
+        "https://inc5shop.com/collections/womens-mules?page=4"
+      ]
+    },
+    {
+      "image": "102092_black_1_a238c02b-914e-4469-ba34-a6f871c18271.jpg",
+      "alt": "Black women's heels, style 102092",
+      "pages": [
+        "https://inc5shop.com/collections/women-footwear?page=84",
+        "https://inc5shop.com/collections/womens-heels?page=23",
+        "https://inc5shop.com/collections/womens-sandals?page=36"
+      ]
+    },
+    {
+      "image": "1679_peach_e8682286-5cea-477a-9feb-bd8390c6cd1f.jpg",
+      "alt": "Peach women's heels, style 1679",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear",
+        "https://inc5shop.com/collections/women-footwear?page=84",
+        "https://inc5shop.com/collections/womens-heels?page=24",
+        "https://inc5shop.com/collections/womens-wedges?page=16"
+      ]
+    },
+    {
+      "image": "1713_blue_bbd8821c-7158-4ebd-aed5-45712c5f6797.jpg",
+      "alt": "Blue women's heels, style 1713",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear?page=9",
+        "https://inc5shop.com/collections/flat-50-off?page=17",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=16",
+        "https://inc5shop.com/collections/women-footwear?page=48",
+        "https://inc5shop.com/collections/womens-heels?page=16",
+        "https://inc5shop.com/collections/womens-wedges?page=14"
+      ]
+    },
+    {
+      "image": "1_dc503253-8e20-42b2-8977-0fea7672ab74.jpg",
+      "alt": "women's heels product image",
+      "pages": [
+        "https://inc5shop.com/collections/womens-heels?page=22"
+      ]
+    },
+    {
+      "image": "3419_peach_1dfe2245-063d-4043-97d3-fd9e0c7261a0.jpg",
+      "alt": "Peach women's heels, style 3419",
+      "pages": [
+        "https://inc5shop.com/collections/women-footwear?page=83",
+        "https://inc5shop.com/collections/womens-heels?page=23",
+        "https://inc5shop.com/collections/womens-wedges?page=16"
+      ]
+    },
+    {
+      "image": "3579_pewter_4387426b-cca9-4cee-b4b2-a75802d721a3.jpg",
+      "alt": "Pewter women's footwear, style 3579",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear"
+      ]
+    },
+    {
+      "image": "3589_tan_6eba6f90-8e77-43cb-8d5a-604afc1c6d8d.jpg",
+      "alt": "Tan women's footwear, style 3589",
+      "pages": [
+        "https://inc5shop.com/collections/flat-50-off?page=32",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=29",
+        "https://inc5shop.com/collections/women-footwear?page=82",
+        "https://inc5shop.com/collections/women-footwear?page=84",
+        "https://inc5shop.com/collections/womens-boots?page=4"
+      ]
+    },
+    {
+      "image": "3654_beige_b9a2ddd2-7f64-4461-9331-5817149e64d1.jpg",
+      "alt": "Beige women's footwear, style 3654",
+      "pages": [
+        "https://inc5shop.com/collections/flat-50-off?page=32",
+        "https://inc5shop.com/collections/women-footwear?page=83"
+      ]
+    },
+    {
+      "image": "800304beige.jpg",
+      "alt": "Beige women's mules, style 800304",
+      "pages": [
+        "https://inc5shop.com/collections/womens-mules?page=4"
+      ]
+    },
+    {
+      "image": "800473_black_ea2c080e-6dbf-4a46-9436-961a84435ff9.jpg",
+      "alt": "Black women's heels, style 800473",
+      "pages": [
+        "https://inc5shop.com/collections/flat-50-off?page=12",
+        "https://inc5shop.com/collections/flat-50-off?page=18",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=11",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=17",
+        "https://inc5shop.com/collections/women-footwear?page=13",
+        "https://inc5shop.com/collections/women-footwear?page=50",
+        "https://inc5shop.com/collections/womens-heels?page=10",
+        "https://inc5shop.com/collections/womens-heels?page=17",
+        "https://inc5shop.com/collections/womens-mules?page=3"
+      ]
+    },
+    {
+      "image": "800598_black_1_06fdc815-71a8-417b-91d8-21f695edd523.jpg",
+      "alt": "Black women's footwear, style 800598",
+      "pages": [
+        "https://inc5shop.com/collections/women-footwear?page=80",
+        "https://inc5shop.com/collections/womens-boots?page=3"
+      ]
+    },
+    {
+      "image": "800628_rose_gold_1_b21d9836-58a4-4a15-b540-303dfa52b141.jpg",
+      "alt": "Rose gold women's pumps, style 800628",
+      "pages": [
+        "https://inc5shop.com/collections/pumps",
+        "https://inc5shop.com/collections/pumps?page=1",
+        "https://inc5shop.com/collections/pumps?page=4",
+        "https://inc5shop.com/collections/pumps?page=5"
+      ]
+    },
+    {
+      "image": "8905564205460.png",
+      "alt": "men's casual slip-on shoes, product code 8905564205460",
+      "pages": [
+        "https://inc5shop.com/collections/casual-slipons?page=3",
+        "https://inc5shop.com/collections/casual-slipons?page=4",
+        "https://inc5shop.com/collections/flat-50?page=2",
+        "https://inc5shop.com/collections/mens-driving-shoes"
+      ]
+    },
+    {
+      "image": "8905564790607.png",
+      "alt": "women's comfort footwear, product code 8905564790607",
+      "pages": [
+        "https://inc5shop.com/collections/comfort?page=2",
+        "https://inc5shop.com/collections/ladiess-eoss-jan-2026?page=3",
+        "https://inc5shop.com/collections/ladiess-eoss-jan-2026?page=4",
+        "https://inc5shop.com/collections/women-footwear?page=55",
+        "https://inc5shop.com/collections/womens-wedges?page=14"
+      ]
+    },
+    {
+      "image": "8905564825880.jpg",
+      "alt": "women's heels, product code 8905564825880",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear?page=4",
+        "https://inc5shop.com/collections/women-footwear?page=53",
+        "https://inc5shop.com/collections/womens-heels?page=20",
+        "https://inc5shop.com/collections/womens-wedges?page=15"
+      ]
+    },
+    {
+      "image": "8909131173329.jpg",
+      "alt": "women's heels, product code 8909131173329",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear?page=3",
+        "https://inc5shop.com/collections/ladiess-eoss-jan-2026?page=3",
+        "https://inc5shop.com/collections/women-footwear?page=54",
+        "https://inc5shop.com/collections/womens-heels?page=20"
+      ]
+    },
+    {
+      "image": "8909131190142.jpg",
+      "alt": "women's heels, product code 8909131190142",
+      "pages": [
+        "https://inc5shop.com/collections/women-footwear?page=83",
+        "https://inc5shop.com/collections/womens-heels?page=23"
+      ]
+    },
+    {
+      "image": "900134_green.jpg",
+      "alt": "Green women's comfort footwear, style 900134",
+      "pages": [
+        "https://inc5shop.com/collections/comfort?page=2"
+      ]
+    },
+    {
+      "image": "900214_peach.jpg",
+      "alt": "Peach women's platform heels, style 900214",
+      "pages": [
+        "https://inc5shop.com/collections/platform-heels?page=5"
+      ]
+    },
+    {
+      "image": "900248_antique_ba9425cd-4265-4f6b-8f3f-223b7e421cf7.jpg",
+      "alt": "Antique women's comfort footwear, style 900248",
+      "pages": [
+        "https://inc5shop.com/collections/comfort?page=2",
+        "https://inc5shop.com/collections/womens-heels?page=23"
+      ]
+    },
+    {
+      "image": "b-102049_black_1_980fce81-d852-4b1a-a2e0-72299db45e3f.jpg",
+      "alt": "Black women's footwear, style B-102049",
+      "pages": [
+        "https://inc5shop.com/collections/flat-50-off?page=23",
+        "https://inc5shop.com/collections/flat-50-off?page=27",
+        "https://inc5shop.com/collections/flat-50-off?page=31",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=21",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=25",
+        "https://inc5shop.com/collections/ladies-june-eoss-2026?page=29",
+        "https://inc5shop.com/collections/women-footwear?page=58",
+        "https://inc5shop.com/collections/women-footwear?page=66",
+        "https://inc5shop.com/collections/women-footwear?page=75",
+        "https://inc5shop.com/collections/womens-flats?page=13",
+        "https://inc5shop.com/collections/womens-flats?page=22",
+        "https://inc5shop.com/collections/womens-flats?page=6"
+      ]
+    },
+    {
+      "image": "b-300895_navy_1_47314736-3b58-4ff0-9f66-308013be266c.jpg",
+      "alt": "Navy women's footwear, style B-300895",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear"
+      ]
+    },
+    {
+      "image": "b-3649_black_1_e2507c79-3e46-41e5-8b57-1d9e084ebbd2.jpg",
+      "alt": "Black women's footwear, style B-3649",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear?page=3",
+        "https://inc5shop.com/collections/women-footwear?page=83"
+      ]
+    },
+    {
+      "image": "inc_3512_pewter_1_3b9eb99c-cd26-480f-ba1e-6a06969efa08.jpg",
+      "alt": "Pewter women's footwear, style INC-3512",
+      "pages": [
+        "https://inc5shop.com/collections/biggest-sale-on-women-footwear?page=2"
+      ]
+    },
+    {
+      "image": "lyng22-8735_black_1.jpg",
+      "alt": "Black women's bag, style LYNG22-8735",
+      "pages": [
+        "https://inc5shop.com/collections/all-bags?page=13",
+        "https://inc5shop.com/collections/all-bags?page=14",
+        "https://inc5shop.com/collections/biggest-sale-on-handbags?page=7"
+      ]
+    },
+    {
+      "image": "lyng29-8811_beige_1_f52aa32e-0e61-4b19-b57e-9dc758e03b43.jpg",
+      "alt": "Beige women's clutch bag, style LYNG29-8811",
+      "pages": [
+        "https://inc5shop.com/collections/clutch-bags?page=2"
+      ]
+    },
+    {
+      "image": "lyng35-8781_beige_1_cb14f709-65d2-4100-b7e5-2777a7797f37.jpg",
+      "alt": "Beige women's bag, style LYNG35-8781",
+      "pages": [
+        "https://inc5shop.com/collections/all-bags?page=9",
+        "https://inc5shop.com/collections/bags-june-eoss-2026?page=2",
+        "https://inc5shop.com/collections/biggest-sale-on-handbags?page=5"
+      ]
+    },
+    {
+      "image": "women_banner_01_2a23741d-d15f-4654-9578-41940a4c8436.png",
+      "alt": "Inc.5 women's footwear collection banner",
+      "pages": [
+        "https://inc5shop.com/"
+      ]
+    }
+  ],
+  "draft_ref": "brands/inc5shop/logs/content/alt-text-draft-20260715.txt"
+}

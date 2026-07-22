@@ -1,0 +1,22 @@
+{
+  "ts": "2026-07-21T10:01:32Z",
+  "run_id": "20260721T100132Z",
+  "action": "redesign_blog_hero_title_treatments",
+  "provider": "built-in_image_generation",
+  "outputs": [
+    {
+      "file": "../../blogs/images/what-to-wear-for-monsoon-workouts/monsoon-workouts-hero-creative.png",
+      "direction": "cobalt and ice-blue rain-tech glass panel"
+    },
+    {
+      "file": "../../blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero-creative.png",
+      "direction": "teal, sunshine-yellow and mint kinetic run-club poster"
+    },
+    {
+      "file": "../../blogs/images/trekking-shoes-post-monsoon-hike/post-monsoon-trekking-hero-creative.png",
+      "direction": "parchment, forest green and burnt-orange outdoor field guide"
+    }
+  ],
+  "status": "ok",
+  "records": 3
+}

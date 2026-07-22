@@ -1,0 +1,96 @@
+{
+  "run_id": "cw-blog-calendar-20260715",
+  "brand_id": "cottonworld",
+  "researched_at": "2026-07-15T16:00:00+05:30",
+  "scope": "April-to-March blog topic calendar with three topics per month, based on four user-supplied reference sites, Indian seasonal context, occasions, and Cottonworld duplicate checks",
+  "cottonworld_existing_titles_checked": [
+    "The Story Of Natural Cotton: Why Fabric Matters More Than Fashion",
+    "Slow Living, Everyday Style: Dressing With Comfort And Purpose",
+    "Timeless Wardrobes: How To Choose Cloths That Last Beyond Seasons",
+    "Comfort Meets Style: Everyday Fashion That Feels Right"
+  ],
+  "reference_findings": [
+    {
+      "brand": "Marks & Spencer India",
+      "sources": [
+        "https://www.marksandspencer.in/style-and-living/m-and-s-insider/ace-your-summer-style-with-tone-on-tone/",
+        "https://www.marksandspencer.in/style-and-living/trend-spotlight/breeze-through-summer-in-style/",
+        "https://www.marksandspencer.in/style-and-living/get-the-look/holiday-looks-for-summer/",
+        "https://www.marksandspencer.in/style-and-living/trend-spotlight/re-think-workwear-this-summer/",
+        "https://www.marksandspencer.in/style-and-living/trend-spotlight/the-festive-seasons-best-is-here/"
+      ],
+      "observed_patterns": [
+        "Summer linen and breathable warm-weather dressing",
+        "Workwear made seasonal and comfort-led",
+        "Holiday packing and capsule-style outfit guidance",
+        "Festive clothing and gifting content"
+      ]
+    },
+    {
+      "brand": "Blissclub",
+      "sources": [
+        "https://blissclub.com/blogs/news",
+        "https://blissclub.com/blogs/news/black-activewear-leggings",
+        "https://blissclub.com/blogs/news/why-your-wardrobe-needs-high-waisted-workout-leggings"
+      ],
+      "observed_patterns": [
+        "Problem-led wardrobe education",
+        "Versatility across work, exercise and everyday use",
+        "Comfort, movement, fit and functional-detail framing"
+      ]
+    },
+    {
+      "brand": "Nicobar",
+      "sources": [
+        "https://www.nicobar.com/blogs/style/xx",
+        "https://www.nicobar.com/blogs/travel/the-weekend-getaway?storeRedirect=true",
+        "https://www.nicobar.com/blogs/style/incoming-nicobar-x-suket-199",
+        "https://www.nicobar.com/blogs/press-story/suket-dhir-for-nicobar-207"
+      ],
+      "observed_patterns": [
+        "Travel-led storytelling and smart packing",
+        "Tropical and monsoon-aware silhouettes",
+        "Understated festive clothing in lightweight natural fabrics",
+        "Versatile pieces that move from journey to destination or work to occasion"
+      ]
+    },
+    {
+      "brand": "Cottonking",
+      "sources": [
+        "https://cottonking.com/blogs/blogs",
+        "https://cottonking.com/blogs/blogs?page=2",
+        "https://cottonking.com/blogs/blogs?page=4"
+      ],
+      "observed_patterns": [
+        "March-April summer and fit content",
+        "May hot-weather cotton benefits and care",
+        "June monsoon and practical garment-protection content",
+        "August Raksha Bandhan gifting",
+        "December Christmas promotion",
+        "Evergreen cotton quality, care and wardrobe education"
+      ]
+    }
+  ],
+  "climate_sources": [
+    {
+      "source": "https://mausam.imd.gov.in/Forecast/marquee_data/Statement_climate_of_india_2025.pdf",
+      "fact_used": "IMD reporting groups March-May as pre-monsoon, June-September as southwest monsoon, and October-December as post-monsoon."
+    },
+    {
+      "source": "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/6452",
+      "fact_used": "The northeast monsoon affects the southern peninsular region during October-December, so post-monsoon content should not assume all-India dry weather."
+    }
+  ],
+  "limitations": [
+    "Google Search Console is not connected and keyword volumes are unmeasured.",
+    "Marks & Spencer and Nicobar archive pages do not consistently expose reliable publication years for every seasonal page.",
+    "Festival dates move by year; final publishing dates should be aligned to the chosen year's Indian festival calendar."
+  ],
+  "revision": {
+    "revised_at": "2026-07-15T16:30:00+05:30",
+    "requested_cadence": 3,
+    "total_topics": 36,
+    "additional_topics": 12
+  },
+  "output_ref": "../../../blogs/april-to-march-topic-calendar.md"
+}

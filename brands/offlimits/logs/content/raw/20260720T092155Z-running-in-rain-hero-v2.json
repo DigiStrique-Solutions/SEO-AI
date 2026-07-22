@@ -1,0 +1,13 @@
+{
+  "run_id": "20260720T092155Z",
+  "action": "revise_blog_image_background",
+  "input": "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero.png",
+  "output": "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero-v2.png",
+  "generation_mode": "built-in image generation edit",
+  "changes": [
+    "Replaced dense dark foliage with a realistic Indian city jogging promenade",
+    "Added a curving path, railings, benches, park lights, distant runners and modest residential context",
+    "Softened rain and matched natural overcast lighting",
+    "Preserved the foreground runners and OFFLIMITS Ethos and Pulse X footwear"
+  ]
+}

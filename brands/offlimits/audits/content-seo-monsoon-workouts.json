@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts",
+  "run_date": "2026-07-22",
+  "scope_note": "Pre-publication assessment of the workout-led ecommerce rewrite after the fifth editorial review. Intent and keyword set come from the supplied brief; product benefits trace to OFFLIMITS brand and item-level evidence gathered on 2026-07-20. No ranking or conversion claims are made because GSC/analytics are not connected.",
+  "score": 1.0,
+  "counts": {
+    "items": 7,
+    "pass": 7,
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked_blocked": 0
+  },
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The article has one dominant commercial-informational purpose: help Indian shoppers confidently choose an OFFLIMITS apparel or footwear item for humid monsoon workouts.",
+      "next_action": "",
+      "evidence_ref": "../blogs/what-to-wear-for-monsoon-workouts.md"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The guide immediately connects monsoon discomfort to the decision it will solve, then organises recommendations around cardio, strength, studio and full-coverage needs. OFFLIMITS products are introduced as solutions and technologies remain supporting evidence. Exact demand remains unverified because GSC and Keyword Planner are unavailable.",
+      "next_action": "Confirm query demand and adjust emphasis after GSC or Keyword Planner is connected.",
+      "evidence_ref": "../logs/content/raw/20260720T122657+0530-monsoon-workouts-brand-led-sources.json"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The 1,272-word guide follows the customer journey from workout type to apparel choice, footwear preference, at-a-glance comparison and purchase-focused FAQs before the conclusion and collection CTA.",
+      "next_action": "",
+      "evidence_ref": "../blogs/what-to-wear-for-monsoon-workouts.md"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The primary phrase and supplied secondary themes appear naturally in buying criteria, activity and category contexts; product names and verified features carry the prose without repetitive keyword blocks.",
+      "next_action": "",
+      "evidence_ref": "../blogs/what-to-wear-for-monsoon-workouts.md"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "SEO metadata records an updated date of 2026-07-22 and enables FAQ schema; the FAQ answers reuse verified apparel and footwear evidence from the current editorial cycle.",
+      "next_action": "Recheck collection links and product-specific claims before future seasonal republication.",
+      "evidence_ref": "../blogs/what-to-wear-for-monsoon-workouts.seo.json"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The OFFLIMITS Editorial Team byline is retained, while apparel and footwear benefits trace to current product-page evidence and canonical brand technology records. Evidence limits are handled in the authenticity record rather than repeated as defensive customer-facing disclaimers.",
+      "next_action": "Replace the team byline with a named OFFLIMITS product specialist and approved bio when available.",
+      "evidence_ref": "../blogs/drafts/what-to-wear-for-monsoon-workouts-workout-led.authenticity.json"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The article links all four relevant collections and gives direct product links for Printed Insert Tights, Snow, Sonic, WMN PCT CNS, Gladiator, Ethos, Gladiator For Her and Pulse X For Her.",
+      "next_action": "",
+      "evidence_ref": "../blogs/what-to-wear-for-monsoon-workouts.md"
+    }
+  ]
+}

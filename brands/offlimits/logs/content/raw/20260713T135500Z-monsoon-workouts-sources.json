@@ -1,0 +1,48 @@
+{
+  "run_id": "20260713T135500Z",
+  "topic": "What to Wear for Monsoon Workouts: An Athleisure Guide for Men and Women",
+  "brief": {
+    "primary_keyword": "monsoon gym wear",
+    "secondary_keywords": [
+      "activewear for monsoon",
+      "quick dry gym clothes",
+      "rainy season workout clothes",
+      "gym wear for men",
+      "gym wear for women"
+    ],
+    "intent": "informational/commercial",
+    "direction": "Build outfits using breathable T-shirts, shorts, tights, joggers and gym shoes. Discuss humidity, airflow and drying without unsupported waterproof claims."
+  },
+  "sources": [
+    {
+      "url": "https://offlimits.co.in/pages/sitemap",
+      "provider": "web_search",
+      "facts_used": ["OFFLIMITS currently exposes relevant men's and women's apparel collection routes."]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/men-track-suits",
+      "provider": "web_search",
+      "facts_used": ["The men's tracksuit collection discusses breathable fabric and practical pockets."]
+    },
+    {
+      "url": "https://www.acsm.org/docs/default-source/files-for-resource-library/exercising-hot-cold-environments.pdf",
+      "provider": "web_search",
+      "facts_used": ["ACSM advises loose, lightweight, moisture-wicking clothes for exercise in heat.", "ACSM notes that high temperature and humidity increase heat-injury risk and may make indoor exercise preferable."]
+    },
+    {
+      "url": "https://www.cdc.gov/heat-health/about/index.html",
+      "provider": "web_search",
+      "facts_used": ["CDC advises hydration and heat-risk awareness."]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "provider": "web_search",
+      "facts_used": ["NIOSH documents heat-illness symptoms and the effects of heavy sweating in hot, humid weather."]
+    }
+  ],
+  "limitations": [
+    "GSC and GA4 are not connected, so no demand, query or conversion claims are made.",
+    "No garment is described as waterproof without a product-specific tested claim.",
+    "Wiktech availability is not assumed across the entire apparel catalogue."
+  ]
+}

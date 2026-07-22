@@ -1,0 +1,107 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS proprietary apparel technology is canonically named Wiktech and is described as supporting faster moisture evaporation; availability varies by product.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context",
+        "offlimits-apparel-products"
+      ]
+    },
+    {
+      "claim": "The men's Gladiator lists a knitted upper with KPU overlay, memory-foam insock and Phylon/TPR sole; Ethos lists a Flyknit upper, super-soft EVA insock and Phylon/TPR sole.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-mens-footwear-products"
+      ]
+    },
+    {
+      "claim": "Gladiator For Her lists a Flyknit upper, memory-foam insock and Phylon/TPR sole; Pulse X For Her lists a mesh upper, PU-moulded insock and Phylon/TPR sole.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-womens-footwear-products"
+      ]
+    },
+    {
+      "claim": "Selected OFFLIMITS tracksuits and women's tights list polyester or polyester-spandex fabrics and the brand's moisture-management technology; the article uses exact item-level specifications.",
+      "claim_id": "claim-04",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-apparel-products"
+      ]
+    },
+    {
+      "claim": "OFFLIMITS is a homegrown Indian performance-footwear and athleisure brand positioned around accessible performance and in-house technology.",
+      "claim_id": "claim-05",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context"
+      ]
+    },
+    {
+      "claim": "The revised narrative and conversion flow follow the user's editorial feedback: challenge, top, bottoms, shoes, outer layer, complete outfits, styling and brand-led CTA.",
+      "claim_id": "claim-06",
+      "claim_type": "editorial_direction",
+      "source_ids": [
+        "user-editorial-feedback"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-20T07:07:54+00:00",
+      "feedback": "Your Text is Most Likely Human written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 19.6,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-20T06:57:12+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "output_ref": "brands/offlimits/blogs/what-to-wear-for-monsoon-workouts.md",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "OFFLIMITS is an Indian performance footwear and athleisure brand positioned around accessible high performance. Canonical technology names include Advance Memory Foam, Athlite, Flexinit, Glovefit and Wiktech; Wiktech is described as supporting faster moisture evaporation. Voice is motivational, inclusive and value-conscious.",
+      "source_id": "offlimits-brand-context",
+      "source_ref": "brands/offlimits/context.md; brands/offlimits/knowledge.md; brands/offlimits/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Live men's Gladiator page: knitted upper with KPU overlay, memory-foam insock, Phylon/TPR sole. Live Ethos page: Flyknit upper, super-soft EVA insock in specifications, Phylon/TPR sole; product copy describes steady grip/slip resistance and lightweight styling.",
+      "source_id": "offlimits-mens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02; https://offlimits.co.in/collections/mens-running-gym-shoes/products/ethos-orm-531-01; fetched 2026-07-20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live Gladiator For Her page: Flyknit upper, memory-foam insock, Phylon/TPR sole. Live Pulse X For Her page: mesh upper, PU-moulded insock, Phylon/TPR sole.",
+      "source_id": "offlimits-womens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/women-running-gym/products/gladiator-for-her-off-white-orw-678-02; https://offlimits.co.in/collections/women-running-gym/products/pulse-x-for-her-black-dk-grey-orw-887-02; fetched 2026-07-20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live men's Snow and Sonic tracksuit pages list zip neck, full sleeves, 90% polyester/10% spandex and technology spelled 'Wicktech' on-page. Women's WMN PCT CNS Tracksuit lists hoodie, full sleeves, 100% polyester and 'Wicktech'. Women's Printed Insert Tights list mid-rise, 240 GSM, 90% polyester/10% spandex and 'Wicktech'. The draft uses canonical brand spelling Wiktech and does not imply collection-wide coverage.",
+      "source_id": "offlimits-apparel-products",
+      "source_ref": "https://offlimits.co.in/collections/men-clothing/products/mens-snow-track-suit-otm-349-01; https://offlimits.co.in/collections/men-clothing/products/mens-sonic-track-suit-otm-341-02; https://offlimits.co.in/collections/women-clothing/products/wmn-pct-cns-ts-otw-56-01; https://offlimits.co.in/collections/women-clothing/products/women-printed-insert-tights-grey-melange-obw-422-01; fetched 2026-07-20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The article should stay focused on what to wear; integrate OFFLIMITS products and documented features; make footwear the strongest section; follow challenge-to-top-to-bottom-to-shoe-to-layer-to-outfit-to-styling progression; reduce generic rain/commute/care advice; and finish with a persuasive brand-led CTA. Apply this content flow as a standing rule for future Inc.5 blogs.",
+      "source_id": "user-editorial-feedback",
+      "source_ref": "User feedback received 2026-07-20 in Codex task",
+      "source_type": "human_context"
+    }
+  ]
+}

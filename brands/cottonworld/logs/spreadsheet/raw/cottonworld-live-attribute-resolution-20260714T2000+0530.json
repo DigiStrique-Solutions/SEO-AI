@@ -1,0 +1,26 @@
+{
+  "run_id": "cottonworld-live-attribute-resolution-20260714T2000+0530",
+  "source_file_id": "1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY",
+  "source_refs": [
+    "../../web_data/raw/cottonworld-sitemap-index-20260714T1945+0530.xml",
+    "../../web_data/raw/cottonworld-products-sitemap-20260714T1945+0530.xml",
+    "../../web_data/raw/cottonworld-live-catalog-match-20260714T1950+0530.json"
+  ],
+  "executed_at": "2026-07-14T20:00:00+05:30",
+  "active_rows": 920,
+  "highlighted_product_rows": 422,
+  "live_catalog_products": 889,
+  "verified_product_records": 317,
+  "duplicate_url_groups": 139,
+  "url_groups_resolvable_with_non_numeric_attributes": 47,
+  "url_groups_unresolved_missing_live_source": 67,
+  "url_groups_unresolved_despite_complete_live_attributes": 25,
+  "duplicate_h1_groups": 136,
+  "h1_groups_resolvable_with_non_numeric_attributes": 48,
+  "h1_groups_unresolved_missing_live_source": 64,
+  "h1_groups_unresolved_despite_complete_live_attributes": 24,
+  "candidate_cells_for_partial_update": 348,
+  "write_performed": false,
+  "status": "blocked_pending_user_decision",
+  "blocker": "The website describes some distinct products with identical non-numeric attributes, and other old products are absent from the live catalog. Full uniqueness requires either numeric style identifiers, deduplicating product rows, or an internal product data source with additional attributes."
+}

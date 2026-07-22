@@ -1,0 +1,55 @@
+{
+  "run_id": "cottonworld-highlighted-unique-attributes-20260714T204045+0530",
+  "timestamp": "2026-07-14T20:40:45+05:30",
+  "action": "rewrite_highlighted_urls_canonicals_and_h1s_with_unique_product_attributes",
+  "input_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+  "output_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+  "scope": {
+    "rows_removed": 0,
+    "active_product_rows": 920,
+    "highlighted_rows_retained": 422,
+    "updated_cells": 1233,
+    "updated_new_url_cells": 421,
+    "updated_canonical_cells": 421,
+    "updated_h1_cells": 391
+  },
+  "evidence": {
+    "verified_live_product_records": 317,
+    "unresolved_products_checked_against_images": 259,
+    "product_images_retrieved": 257,
+    "product_images_unavailable": 2,
+    "source_refs": [
+      "../../web_data/raw/cottonworld-live-catalog-match-20260714T1950+0530.json",
+      "../../web_data/raw/cottonworld-product-attributes-20260714T1930+0530.json",
+      "cottonworld-live-attribute-resolution-20260714T2000+0530.json"
+    ]
+  },
+  "attribute_policy": [
+    "garment type",
+    "pattern or graphic motif",
+    "collar or neckline",
+    "sleeve",
+    "pocket",
+    "opening or placket",
+    "hemline",
+    "weave or visible texture",
+    "color"
+  ],
+  "verification": {
+    "duplicate_new_url_groups": 0,
+    "duplicate_canonical_groups": 0,
+    "duplicate_h1_groups": 0,
+    "canonical_mismatches": 0,
+    "blank_new_urls": 0,
+    "blank_canonicals": 0,
+    "blank_h1s": 0,
+    "numeric_style_suffixes_added": 0,
+    "highlight_formatting_preserved": true,
+    "drive_file_id_preserved": true,
+    "uploaded_file_size_bytes": 3220227
+  },
+  "example": {
+    "round_neck_graphic": "mens-organic-cotton-regular-fit-tshirt-black-rooster-graphic-round-neck-t-shirt",
+    "polo": "mens-organic-cotton-regular-fit-tshirt-black-solid-polo-t-shirt"
+  }
+}

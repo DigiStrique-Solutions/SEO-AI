@@ -1,0 +1,28 @@
+{
+  "run_id": "20260720T163503+0530-technology-page-verification",
+  "checked_at": "2026-07-20T16:35:03+05:30",
+  "source_url": "https://offlimits.co.in/pages/technology",
+  "source_type": "official_brand_page",
+  "page_labels": [
+    "flexiknit",
+    "athlite",
+    "super memory tech",
+    "glove fit",
+    "advanced memory foam",
+    "wicktech",
+    "recomat"
+  ],
+  "visual_verification": {
+    "Flexiknit": "Official panel reads FLEXIKNIT TECHNOLOGY.",
+    "Athlite": "Official panel reads ATHLITE Technology and shows a registered-mark symbol; benefit text describes super-light, feather-like soles.",
+    "Super-Memory Tech": "Official panel reads SUPER-MEMORY TECH + ACCUPRESSURE IN-SOLE; it identifies memory foam for cushioning and feel, accupressure dots, and an advanced PU compound for bounce and resilience.",
+    "Glovefit": "Official panel reads GLOVEFIT Technology and shows a registered-mark symbol; it describes a foot-hugging Lycra upper that adapts to the foot shape.",
+    "Wicktech": "The page control and image alt use wicktech; the visible panel reads WICK-TECH ACTIVE WEAR. Official product pages use Wicktech/WICKTECH and describe it as moisture-wicking technology that helps keep sweat away.",
+    "Recomat": "Official panel reads RECOMAT TECHNOLOGY and shows a registered-mark symbol."
+  },
+  "corrections": [
+    "Wiktech® corrected to Wicktech; the unsupported registered-mark symbol was removed in the blog.",
+    "Flexinit® corrected to Flexiknit in canonical brand guidance.",
+    "Flyknit, mesh, KPU, EVA, PU and Phylon/TPR remain product specifications rather than proprietary OFFLIMITS technology names."
+  ]
+}

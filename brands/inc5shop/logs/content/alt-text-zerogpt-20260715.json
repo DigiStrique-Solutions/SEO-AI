@@ -1,0 +1,14 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-15T12:32:37+00:00",
+    "fallback_error": "ZeroGPT request failed: The read operation timed out",
+    "max_score": 20.0,
+    "note": "ZeroGPT unreachable (ZeroGPT request failed: The read operation timed out). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+    "score": 6.0,
+    "source": "local_fallback",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

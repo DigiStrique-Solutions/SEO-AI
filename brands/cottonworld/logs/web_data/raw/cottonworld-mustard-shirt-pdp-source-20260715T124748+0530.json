@@ -1,0 +1,23 @@
+{
+  "run_id": "cottonworld-mustard-shirt-pdp-source-20260715T124748+0530",
+  "fetched_at": "2026-07-15T12:47:48+05:30",
+  "source_url": "https://cottonworld.net/products/m-shirts-16751-21614-mustard.js",
+  "status": "ok",
+  "product": {
+    "id": 9490999279847,
+    "title": "Men's Mustard Linen Cotton Regular Fit Shirt",
+    "handle": "m-shirts-16751-21614-mustard",
+    "description_html": "<p><strong>STYLE: </strong>M-SHIRTS-16751-21614-MUSTARD</p><ul><li>BRAND: COTTONWORLD</li><li>CATEGORY: MEN</li><li>OCCASION: CASUAL WEAR</li><li>TYPE: SHIRTS</li><li>PRINT: SOLID</li><li>FABRIC: LINEN COTTON</li><li>FABRIC COMPOSITION: 55% LINEN 45% COTTON SOLID WOVEN</li><li>FIT TYPE: REGULAR FIT</li><li>COLOR: MUSTARD</li><li>POCKET: NO POCKETS</li><li>NECKCOLLOR: BAND COLLAR</li><li>SLEEVE: HALF SLEEVES</li><li>OPENING: PULL ON WITH BUTTON DETAIL</li><li>HEMLINE: ROUND HEM</li></ul><p><strong>WASH CARE:</strong></p>Machine Wash Cold, Dark Colors Seperately, No Bleach, Remove Promptly, Dry In Shade",
+    "vendor": "Cottonworld",
+    "type": "Men's Shirts",
+    "available": true
+  },
+  "competitor_reference": {
+    "source_url": "https://www.nicobar.com/products/basic-long-length-kurta-blue-red-print",
+    "observed_structure": [
+      "short descriptive bullets",
+      "styling suggestion",
+      "separate product details and care section"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ts": "2026-07-22T10:31:05Z",
+  "run_id": "20260722T103105Z",
+  "action": "replace_blog_titles_with_product_jingles",
+  "provider": "built-in_image_generation",
+  "style_references": [
+    "ultimate-gym-shoes-guide-performance-comfort-offlimits.jpg.jpg",
+    "how-to-elevate-your-athleisure-style-beyond-the-gym-offlimits.jpg.jpg",
+    "everyday-sneaker-styling-versatile-wardrobe-offlimits.jpg.jpg"
+  ],
+  "outputs": [
+    {
+      "file": "../../blogs/images/what-to-wear-for-monsoon-workouts/monsoon-workouts-hero-jingle.png",
+      "headline": "MOVE THROUGH THE MONSOON.",
+      "supporting_line": "Train Strong. Stay in Your Flow."
+    },
+    {
+      "file": "../../blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero-jingle.png",
+      "headline": "RAIN CAN’T SET YOUR PACE.",
+      "supporting_line": "Find Your Stride. Keep Moving."
+    },
+    {
+      "file": "../../blogs/images/trekking-shoes-post-monsoon-hike/post-monsoon-trekking-hero-jingle.png",
+      "headline": "TAKE ON THE TRAIL.",
+      "supporting_line": "Step Ready. Hike Steady."
+    }
+  ],
+  "status": "ok",
+  "records": 3
+}

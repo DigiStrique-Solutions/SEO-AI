@@ -33,6 +33,8 @@
 
 - **Do:** occasion- and edit-led framing (festive/wedding/party/ethnic/comfort), comfort + "true to size" reassurance, legacy/trust ("since 1998"), real customer-review social proof.
 - **Don't:** invent product specs, materials, prices, or store counts beyond what the site states; don't use generic Western fashion framing that ignores the Indian occasion context.
+- **(2026-07-20, revised) Ecommerce blog flow:** Future Inc.5 blogs must open with the customer's immediate problem or occasion, then move in purchase order: **problem → buying criteria (material/construction/comfort/fit) → product or category comparison → which verified option suits each use case → quick buying checklist → direct category CTA**. Do not default to complete-outfit building, long lifestyle philosophy or repeated wear-beyond-the-occasion styling. Include styling only when it materially helps the target query. Every section should move the reader closer to choosing a product; integrate source-backed Inc.5 products, materials, construction and real review evidence rather than appending the brand after generic advice.
+- **(2026-07-20) Benefit-first tone:** Follow every material, construction or technology term immediately with the customer benefit it supports. Keep buying-guide language confident, positive and product-led. Handle evidence limits in the authenticity log; surface them in customer copy only when needed to prevent a material misunderstanding. Prefer “look for / choose / compare / consider” over repetitive “do not / does not / cannot” phrasing. State universal fit guidance once in a clear instruction instead of repeating caveats under individual products.
 
 ## Measurement & Tooling (important for SEO work)
 

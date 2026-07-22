@@ -10,9 +10,11 @@
 
 ## Proprietary tech (use these exact names in copy — they're real brand assets)
 
-- **Advance Memory Foam** (cushioning/blood circulation) · **Athlite®** (superlight soles) · **Flexinit®** (breathable knit) · **Glovefit®** (comfort fit) · **Wiktech®** (faster moisture evaporation).
+- **Flexiknit** (a snug, seamless knitted upper) · **Athlite®** (super-light soles) · **Super-Memory Tech** (memory-foam cushioning with an accupressure insole and PU compound) · **Glovefit®** (Lycra upper that adapts to the foot) · **Advanced Memory Foam** · **Wicktech** (moisture-wicking apparel treatment) · **Recomat®**. Use the exact spelling shown here; do not substitute Flexinit or Wiktech. Product-page materials such as mesh, Flyknit, KPU, EVA, PU and Phylon/TPR are specifications, not proprietary technology names.
 
 ## Must honor (brand-specific rules)
+
+- **Customer-facing editorial work must follow [`fundamentals.md`](fundamentals.md).** Organise content around the customer's need or workout, make OFFLIMITS products the heroes, use technology as supporting proof, and conclude before the CTA.
 
 - **Platform is Shopify · Market is India (INR).** Fixes must fit Shopify theme/metafields/apps; targeting is India-scoped (₹ price points, "…in India").
 - **Standardize the brand name.** Site is inconsistent: `Offlimits` (schema), `OFF LIMITS` (title/og:site_name = OFFLIMITS), `Off Limits` (collection titles). Pick one canonical form before customer-facing copy or schema edits.

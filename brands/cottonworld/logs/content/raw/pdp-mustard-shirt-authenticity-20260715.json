@@ -1,0 +1,67 @@
+{
+  "claims": [
+    {
+      "claim": "The shirt uses 55% linen and 45% cotton solid woven fabric.",
+      "source_ids": ["cw_product_20260715"],
+      "status": "supported"
+    },
+    {
+      "claim": "The shirt has a regular fit, band collar, half sleeves, no pockets, a pull-on opening with button detail, and a round hem.",
+      "source_ids": ["cw_product_20260715"],
+      "status": "supported"
+    },
+    {
+      "claim": "The care directions are cold machine wash, dark colours separately, no bleach, remove promptly, and dry in shade.",
+      "source_ids": ["cw_product_20260715"],
+      "status": "supported"
+    },
+    {
+      "claim": "The description follows a concise narrative plus scannable product-detail format inspired by the competitor reference.",
+      "source_ids": ["nicobar_reference_20260715"],
+      "status": "supported"
+    }
+  ],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-07-15T07:16:44+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/products/m-shirts-16751-21614-mustard"
+  },
+  "sources": [
+    {
+      "source_id": "cw_product_20260715",
+      "source_type": "product_page",
+      "source_ref": "https://cottonworld.net/products/m-shirts-16751-21614-mustard.js",
+      "extracted_facts": [
+        "Product title: Men's Mustard Linen Cotton Regular Fit Shirt",
+        "Fabric composition: 55% linen and 45% cotton solid woven",
+        "Regular fit; mustard; solid; casual wear",
+        "Band collar; half sleeves; no pockets",
+        "Pull-on opening with button detail; round hem",
+        "Machine wash cold; dark colours separately; no bleach; remove promptly; dry in shade"
+      ]
+    },
+    {
+      "source_id": "nicobar_reference_20260715",
+      "source_type": "competitor_page",
+      "source_ref": "https://www.nicobar.com/products/basic-long-length-kurta-blue-red-print",
+      "extracted_facts": [
+        "Uses a short descriptive section followed by separate product details and care information",
+        "Includes styling suggestions without making unsupported superiority claims"
+      ]
+    },
+    {
+      "source_id": "cottonworld_brand_context",
+      "source_type": "brand_dna",
+      "source_ref": "brands/cottonworld/knowledge.md",
+      "extracted_facts": [
+        "Lead with comfort, fabric, care, and longevity",
+        "Use warm, plain, reassuring language and avoid hype"
+      ]
+    }
+  ]
+}

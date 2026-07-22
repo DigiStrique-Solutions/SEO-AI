@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-07-15T18:07:49+05:30",
+  "provider": "google_drive",
+  "document_id": "1Yupvy9O8FK20T9PgnezcGllHKLEB-3KsMQmaym55x30",
+  "tab_id": "t.0",
+  "previous_revision_id": "ALtnJHwjZyYKpwN3OgIvzVT4O6Kno097TEpXnWFjhdYKv2exEyHXuxK3osVHlSKCN6r_rzzsigkmLbTVEBuwX0vbr-oKCXmYWWCnz55yzq0",
+  "new_revision_id": "ALtnJHwxX5irzIMtFtBeZAwFl1JtaNtGCuPptJ9b-LbVo57Qv2tFFzlJvX0f0QCMjL78l2BLTdkJ3ZKjtuC3jMa9lzTweqxTH0LD_-ZUF34",
+  "source_ref": "brands/offlimits/blogs/what-to-wear-for-monsoon-workouts.md",
+  "verification": {
+    "old_wicktech_present": false,
+    "correct_wiktech_present": true,
+    "old_highlighted_audit_phrase_present": false,
+    "conversational_prompt_present": true,
+    "all_six_target_keywords_present": true,
+    "paragraph_count": 93
+  },
+  "comment_resolution": {
+    "comment_id": "AAAB_-ukDOY",
+    "resolved": true,
+    "reply": "Removed this product-spec paragraph in the conversational rewrite."
+  }
+}

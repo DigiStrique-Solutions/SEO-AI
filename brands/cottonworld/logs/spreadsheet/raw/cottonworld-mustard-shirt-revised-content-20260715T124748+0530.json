@@ -1,0 +1,21 @@
+{
+  "run_id": "cottonworld-mustard-shirt-revised-content-20260715T124748+0530",
+  "timestamp": "2026-07-15T12:47:48+05:30",
+  "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "sheet": "Batch 1",
+  "range": "F2",
+  "header": "Revised Content",
+  "product_row": "m-shirts-16751-21614-mustard",
+  "operation": "replace_cell_value_preserve_formatting",
+  "verification": {
+    "status": "completed",
+    "exact_value_read_back": true,
+    "format_preserved": true,
+    "wrap_strategy": "WRAP"
+  },
+  "authenticity_gate": {
+    "status": "pass",
+    "ai_text_risk_score": 6.0,
+    "threshold": 20.0
+  }
+}

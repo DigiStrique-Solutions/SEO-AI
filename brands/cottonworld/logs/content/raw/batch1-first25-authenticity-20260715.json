@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "created_at": "2026-07-15T12:53:38+05:30",
+    "status": "draft",
+    "target": "Google Sheet Batch 1 rows 2-26",
+    "required_skill": "content-seo-authenticity",
+    "required_ai_text_risk_skill": "ai-text-risk-gate"
+  },
+  "sources": [
+    {
+      "source_id": "cottonworld_product_catalog_20260714",
+      "source_type": "product_page",
+      "source_ref": "brands/cottonworld/logs/web_data/raw/cottonworld-product-attributes-20260714T1930+0530.json",
+      "extracted_facts": ["Exact product titles, fabric composition, fit, colour, print, collar, sleeves, opening, pockets, hem and care instructions"]
+    },
+    {
+      "source_id": "cottonworld_live_product_pages_20260715",
+      "source_type": "product_page",
+      "source_ref": "https://cottonworld.net/products/<handle>.js",
+      "extracted_facts": ["Live attributes for seven products absent from the stored catalogue subset"]
+    },
+    {
+      "source_id": "cottonworld_brand_context",
+      "source_type": "brand_dna",
+      "source_ref": "brands/cottonworld/knowledge.md",
+      "extracted_facts": ["Use warm, plain, fabric-first language; avoid hype and unsupported best or top claims"]
+    },
+    {
+      "source_id": "nicobar_reference_20260715",
+      "source_type": "competitor_page",
+      "source_ref": "https://www.nicobar.com/products/basic-long-length-kurta-blue-red-print",
+      "extracted_facts": ["Short narrative followed by styling, product details and care information"]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Each description uses the exact product-specific fabric composition and construction attributes supplied by Cottonworld.",
+      "source_ids": ["cottonworld_product_catalog_20260714", "cottonworld_live_product_pages_20260715"],
+      "status": "supported"
+    },
+    {
+      "claim": "The copy format follows the requested competitor-inspired narrative, product highlights, styling note and care structure without copying competitor language.",
+      "source_ids": ["nicobar_reference_20260715"],
+      "status": "supported"
+    }
+  ],
+  "detector_notes": []
+}

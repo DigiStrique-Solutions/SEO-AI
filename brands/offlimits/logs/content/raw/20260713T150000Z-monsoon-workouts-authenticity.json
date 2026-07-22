@@ -1,0 +1,92 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS sells apparel categories including tees, joggers, track pants and tracksuits, with separate men's and women's collection routes.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-dna",
+        "offlimits-sitemap"
+      ]
+    },
+    {
+      "claim": "Wiktech is the brand's named technology for faster moisture evaporation, but availability must be checked on an individual product page.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-dna"
+      ]
+    },
+    {
+      "claim": "Loose-fitting, lightweight, moisture-wicking clothes are advised for exercise in hot conditions, and high heat plus humidity can justify moving exercise indoors.",
+      "claim_id": "claim-03",
+      "claim_type": "health_guidance",
+      "source_ids": [
+        "acsm-heat-guidance"
+      ]
+    },
+    {
+      "claim": "Heat and humidity can contribute to heat-related illness, and confusion, dizziness, weakness and nausea warrant stopping and responding to symptoms.",
+      "claim_id": "claim-04",
+      "claim_type": "health_guidance",
+      "source_ids": [
+        "cdc-heat-health",
+        "cdc-niosh-illnesses"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-13T14:00:48+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 11.8,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-13T13:54:53+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "output_ref": "brands/offlimits/blogs/what-to-wear-for-monsoon-workouts.md",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "OFFLIMITS is an Indian performance footwear and apparel brand. The documented apparel range includes tracksuits, joggers, tees, polos and shorts. Wiktech is the brand's moisture-evaporation technology. Voice is motivational, inclusive and value-conscious.",
+      "source_id": "offlimits-brand-dna",
+      "source_ref": "brands/offlimits/brand-dna.json and brands/offlimits/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The current site exposes men's summer, camo shorts, men's joggers and track pants, women's graphic T-shirts and related apparel collections.",
+      "source_id": "offlimits-sitemap",
+      "source_ref": "https://offlimits.co.in/pages/sitemap",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "ACSM advises loose-fitting, lightweight, moisture-wicking clothing for exercise in heat and says indoor exercise may be appropriate when temperature exceeds 80 F and humidity exceeds 75 percent.",
+      "source_id": "acsm-heat-guidance",
+      "source_ref": "https://www.acsm.org/docs/default-source/files-for-resource-library/exercising-hot-cold-environments.pdf",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "CDC advises hydration and action to prevent illness when the body becomes too hot.",
+      "source_id": "cdc-heat-health",
+      "source_ref": "https://www.cdc.gov/heat-health/about/index.html",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "NIOSH lists signs of heat-related illness and notes that excessive sweating depletes salt and moisture; heat rash is associated with excessive sweating in hot, humid weather.",
+      "source_id": "cdc-niosh-illnesses",
+      "source_ref": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "source_type": "human_context"
+    }
+  ]
+}

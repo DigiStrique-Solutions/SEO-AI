@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-07-22",
+  "scope": "Sources used to create the Inc.5 online shoe-size buying guide",
+  "sources": [
+    {"ref":"user keyword brief image","result":"read","facts":"Title and nine India keyword targets with supplied demand values."},
+    {"url":"https://inc5shop.com/pages/women-size-chart","result":"available","facts":"Women's EU/Inc.5, US, UK and centimetre mappings for sizes 35-42."},
+    {"url":"https://inc5shop.com/pages/men-size-chart","result":"available","facts":"Men's EU/Inc.5, UK, US and centimetre mappings for sizes 38-46."},
+    {"url":"https://inc5shop.com/products/womens-multi-casual-printed-t-strap-flat-sandals-900406-multi","result":"available","facts":"Current size-chart and wider-feet note."},
+    {"url":"https://inc5shop.com/pages/refund-policy","result":"available","facts":"Current return/exchange conditions for unused and discounted footwear."},
+    {"url":"https://www.clarks.com/en-us/editorial/how-to-measure-feet-for-shoes","result":"available","facts":"Standard home measurement method and timing/socks/both-feet guidance."},
+    {"url":"https://inc5shop.com/collections/women-footwear","result":"available","facts":"Primary category CTA."}
+  ]
+}

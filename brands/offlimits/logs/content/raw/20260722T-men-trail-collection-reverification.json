@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-07-22",
+  "collection_url": "https://offlimits.co.in/collections/men-trail",
+  "collection_title": "Men's Trail Running Shoes",
+  "products": [
+    {
+      "name": "ONYX - BEIGE",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-beige-ocm-715-03"
+    },
+    {
+      "name": "ONYX - BLACK",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-light-black-ocm-715-01"
+    },
+    {
+      "name": "ONYX - TRANSFORMATIVE TEAL",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-transformative-teal-ocm-715-04"
+    }
+  ],
+  "shared_structured_specifications": {
+    "closure": "LACE UP",
+    "sole": "PHYLON/TPR",
+    "upper_material": "KPU/FLYKNIT",
+    "insock": "MOULDED SOCKS"
+  },
+  "verified_benefit_language": {
+    "upper": "The product pages connect Flyknit with breathability and flexibility, and KPU overlays with added structure and protection.",
+    "sole": "The product pages connect the Phylon/TPR sole with lightweight cushioning, flexibility, traction, stability and shock absorption on uneven ground.",
+    "insock": "The product pages describe the moulded-socks insock as contoured and softly cushioned.",
+    "use": "The pages position ONYX for hiking, trail use, running, walking, training and outdoor exploration."
+  },
+  "claim_limits": [
+    "The article does not describe ONYX as waterproof because the product pages do not make that claim.",
+    "Slip-resistant and non-slip product language is translated into a traction-focused benefit, not a guarantee on every wet surface.",
+    "The three collection entries share the same listed construction and differ by colour; no performance hierarchy is asserted.",
+    "Prices, offers, stock and review counts are excluded because they are time-sensitive."
+  ],
+  "correction_note": "The collection content observed on 2026-07-22 differs from the product used in the first draft. S.W.A.T. Trail Edition has been removed from the article and replaced with the three live ONYX variants."
+}

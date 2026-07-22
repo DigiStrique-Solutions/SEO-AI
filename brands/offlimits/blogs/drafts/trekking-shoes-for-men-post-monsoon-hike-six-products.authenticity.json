@@ -1,0 +1,108 @@
+{
+  "claims": [
+    {
+      "claim": "The article covers the six user-supplied products: three ONYX colourways and three S.W.A.T. Trail Edition colourways.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "user-product-scope",
+        "offlimits-onyx",
+        "offlimits-swat"
+      ]
+    },
+    {
+      "claim": "ONYX variants share a lace-up closure, KPU/Flyknit upper, moulded-socks insock and Phylon/TPR sole.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-onyx"
+      ]
+    },
+    {
+      "claim": "S.W.A.T. Dark Olive/Black lists canvas/synthetic, Advanced Memory Foam and Phylon/TPR; Sage Green/Black lists mesh/synthetic, EVA and Phylon/TPR; Sage Green/White/Black lists canvas/synthetic, EVA and Phylon/TPR. All are lace-up.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-swat"
+      ]
+    },
+    {
+      "claim": "The buying comparison maps ONYX and the three S.W.A.T. variants to upper feel, cushioning preference and coverage using their verified structured specifications and product-page positioning.",
+      "claim_id": "claim-04",
+      "claim_type": "comparison",
+      "source_ids": [
+        "offlimits-onyx",
+        "offlimits-swat",
+        "offlimits-fundamentals"
+      ]
+    },
+    {
+      "claim": "Sturdy footwear with good traction is appropriate for muddy, potentially slippery trails; hiking footwear should fit snugly without feeling tight and leave room for toe movement.",
+      "claim_id": "claim-05",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "nps-wet-trail-guidance",
+        "rei-hiking-fit"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-22T12:49:55+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-22T12:01:11+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/trekking-shoes-for-men-post-monsoon-hike"
+  },
+  "sources": [
+    {
+      "extracted_facts": "ONYX Beige, Black and Transformative Teal each list a lace-up closure, KPU/Flyknit upper, moulded-socks insock and Phylon/TPR sole. Product copy positions ONYX for hiking, trails and outdoor training and associates the upper with breathability, flexibility, structure and protection; the insock with a soft contoured feel; and the sole with cushioning, flexibility, traction and shock absorption.",
+      "source_id": "offlimits-onyx",
+      "source_ref": "https://offlimits.co.in/collections/men-trail/products/onyx-beige-ocm-715-03; https://offlimits.co.in/collections/men-trail/products/onyx-light-black-ocm-715-01; https://offlimits.co.in/collections/men-trail/products/onyx-transformative-teal-ocm-715-04; verified 2026-07-22; raw evidence brands/offlimits/logs/content/raw/20260722T-six-trail-products-verification.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "All three S.W.A.T. Trail Edition pages list a lace-up closure and Phylon/TPR sole and position the model as a mid-cut boot for trails, rugged conditions and outdoor training. Structured specifications differ: Dark Olive/Black lists canvas/synthetic and Advance Memory Foam; Sage Green/Black lists mesh/synthetic and EVA; Sage Green/White/Black lists canvas/synthetic and EVA. Narrative copy conflicts in places, so the article uses the structured fields and the canonical brand spelling Advanced Memory Foam.",
+      "source_id": "offlimits-swat",
+      "source_ref": "https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-dark-olive-black-ocm-681-03; https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02; https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-sage-green-white-black-ocm-681-01; verified 2026-07-22; raw evidence brands/offlimits/logs/content/raw/20260722T-six-trail-products-verification.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The user explicitly instructed that the blog use the three named S.W.A.T. Trail Edition links, the Men Trail collection and the three named ONYX links.",
+      "source_id": "user-product-scope",
+      "source_ref": "User message received 2026-07-22",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Wet climates can create muddy, slippery trails; NPS recommends sturdy shoes with good traction.",
+      "source_id": "nps-wet-trail-guidance",
+      "source_ref": "https://www.nps.gov/thingstodo/glba-hiking.htm; accessed 2026-07-21",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Hiking footwear should fit snugly but not tightly, allow toe movement and be checked with the socks intended for the hike.",
+      "source_id": "rei-hiking-fit",
+      "source_ref": "https://www.rei.com/learn/expert-advice/hiking-boots.html; accessed 2026-07-21",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "OFFLIMITS buying guides should organise the decision around customer priorities, make products the heroes, translate features into benefits, compare named products decisively and conclude before the CTA. Knowledge.md standardises the proprietary spelling Advanced Memory Foam.",
+      "source_id": "offlimits-fundamentals",
+      "source_ref": "brands/offlimits/fundamentals.md; brands/offlimits/knowledge.md",
+      "source_type": "brand_dna"
+    }
+  ]
+}

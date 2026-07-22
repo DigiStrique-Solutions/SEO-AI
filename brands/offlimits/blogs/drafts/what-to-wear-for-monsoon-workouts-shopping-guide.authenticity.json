@@ -1,0 +1,100 @@
+{
+  "claims": [
+    {
+      "claim": "Wiktech is OFFLIMITS' canonical moisture-evaporation technology and is available only on selected apparel; polyester alone is not presented as proof of drying speed.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context",
+        "offlimits-apparel-products"
+      ]
+    },
+    {
+      "claim": "Gladiator for men lists a knitted upper with KPU overlay, memory-foam insock and Phylon/TPR sole; Ethos lists Flyknit, a super-soft EVA insock and Phylon/TPR sole, with grip/slip-resistance language on its page.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-mens-footwear-products"
+      ]
+    },
+    {
+      "claim": "Gladiator For Her lists Flyknit, a memory-foam insock and Phylon/TPR sole; Pulse X For Her lists mesh, a PU-moulded insock and Phylon/TPR sole.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-womens-footwear-products"
+      ]
+    },
+    {
+      "claim": "No reviewed OFFLIMITS source proves that Flyknit dries faster than mesh or provides comparative treadmill, HIIT lateral-stability or lifting-specific testing; the article states these evidence limits explicitly.",
+      "claim_id": "claim-04",
+      "claim_type": "comparison",
+      "source_ids": [
+        "offlimits-mens-footwear-products",
+        "offlimits-womens-footwear-products"
+      ]
+    },
+    {
+      "claim": "The rewrite follows the user's ecommerce buying-guide flow and minimises outfit-building and lifestyle styling advice.",
+      "claim_id": "claim-05",
+      "claim_type": "editorial_direction",
+      "source_ids": [
+        "user-editorial-feedback-v2"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-20T09:55:07+00:00",
+      "feedback": "Your Text is Most Likely Human written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 18.9,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-20T09:50:37+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "output_ref": "brands/offlimits/blogs/what-to-wear-for-monsoon-workouts.md",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "OFFLIMITS is an Indian performance footwear and athleisure brand. Canonical technology names include Wiktech, described as supporting faster moisture evaporation. Voice is motivational, inclusive and value-conscious.",
+      "source_id": "offlimits-brand-context",
+      "source_ref": "brands/offlimits/context.md; brands/offlimits/knowledge.md; brands/offlimits/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Gladiator for men: knitted upper with KPU overlay, memory-foam insock, Phylon/TPR sole; page positions it for running, gym, errands and travel. Ethos: Flyknit upper, super-soft EVA insock in specifications, Phylon/TPR sole; page uses steady-grip/slip-resistance and gym/cross-training language. Neither page publishes comparative treadmill, HIIT lateral-stability, lifting or drying-time tests.",
+      "source_id": "offlimits-mens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02; https://offlimits.co.in/collections/mens-running-gym-shoes/products/ethos-orm-531-01; verified 2026-07-20; raw evidence brands/offlimits/logs/content/raw/20260720T122657+0530-monsoon-workouts-brand-led-sources.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Gladiator For Her: Flyknit upper, memory-foam insock, Phylon/TPR sole. Pulse X For Her: mesh upper, PU-moulded insock, Phylon/TPR sole. Neither page publishes comparative treadmill, HIIT lateral-stability, lifting or drying-time tests.",
+      "source_id": "offlimits-womens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/women-running-gym/products/gladiator-for-her-off-white-orw-678-02; https://offlimits.co.in/collections/women-running-gym/products/pulse-x-for-her-black-dk-grey-orw-887-02; verified 2026-07-20; raw evidence brands/offlimits/logs/content/raw/20260720T122657+0530-monsoon-workouts-brand-led-sources.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women's Printed Insert Tights: mid-rise, 240 GSM, 90% polyester/10% spandex, live page spells technology Wicktech. Men's Snow and Sonic tracksuits: zip, full sleeves, 90% polyester/10% spandex, live pages spell Wicktech. Women's WMN PCT CNS Tracksuit: hoodie, full sleeves, 100% polyester, live page spells Wicktech. Draft uses canonical Wiktech spelling and limits coverage to selected products.",
+      "source_id": "offlimits-apparel-products",
+      "source_ref": "Four official product pages recorded in brands/offlimits/logs/content/raw/20260720T122657+0530-monsoon-workouts-brand-led-sources.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Open with the customer's monsoon discomfort; reduce complete-outfit and beyond-the-gym framing; expand buying value through fabric, moisture, fit, mesh-vs-Flyknit, cushioning, sole/grip and product comparisons; map products to running, HIIT, gym and walking; finish with a checklist and CTA. Carry this revised ecommerce flow into future Inc.5 blogs.",
+      "source_id": "user-editorial-feedback-v2",
+      "source_ref": "User feedback received 2026-07-20 in Codex task",
+      "source_type": "human_context"
+    }
+  ]
+}

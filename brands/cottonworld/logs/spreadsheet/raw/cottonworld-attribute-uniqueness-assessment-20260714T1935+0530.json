@@ -1,0 +1,14 @@
+{
+  "run_id": "cottonworld-attribute-uniqueness-assessment-20260714T1935+0530",
+  "source_file_id": "1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY",
+  "source_file_name": "CW Dev.xlsx",
+  "executed_at": "2026-07-14T19:35:00+05:30",
+  "scope": "Highlighted cells in New URL Structure, Suggested Canonical Tag, and New H1 Tags",
+  "rules": ["Change highlighted cells only", "Use source-backed non-numeric product attributes", "Do not invent differentiators"],
+  "workbook_evidence": {"active_rows": 920, "highlighted_rows": 422, "unique_product_handles": 920, "unique_old_urls": 920, "duplicate_new_url_groups": 139, "duplicate_h1_groups": 136},
+  "product_source_evidence": {"product_records_requested": 422, "product_records_fetched": 106, "product_records_unavailable": 316, "url_groups_resolvable_from_non_numeric_attributes": 33, "url_groups_unresolved": 106, "h1_groups_resolvable_from_non_numeric_attributes": 34, "h1_groups_unresolved": 102, "raw_product_fetch_ref": "../../web_data/raw/cottonworld-product-attributes-20260714T1930+0530.json"},
+  "status": "blocked",
+  "blocker": "Most duplicate products have no accessible non-numeric differentiating attribute. Their only proven unique values in the workbook are numeric style identifiers. Completing the rewrite without another product-attribute source would invent facts.",
+  "write_performed": false,
+  "next_action": "Provide a Shopify/product export containing design attributes for the unavailable products, or approve a partial update limited to source-resolvable groups."
+}

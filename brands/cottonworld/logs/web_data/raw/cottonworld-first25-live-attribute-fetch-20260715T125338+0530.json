@@ -1,0 +1,15 @@
+{
+  "run_id": "cottonworld-first25-live-attribute-fetch-20260715T125338+0530",
+  "fetched_at": "2026-07-15T12:53:38+05:30",
+  "status": "completed",
+  "source_pattern": "https://cottonworld.net/products/<handle>.js",
+  "products": [
+    {"handle":"m-shirts-16751-21614-black","fabric":"55% linen 45% cotton solid woven","fit":"regular","colour":"black","details":["band collar","half sleeves","no pockets","pull-on with button detail","round hem"]},
+    {"handle":"m-shirts-17588-21614-blue","fabric":"55% linen 45% cotton solid woven","fit":"regular","colour":"blue","details":["regular collar","half sleeves","no pockets","pull-on","straight hem with side slit"]},
+    {"handle":"m-tshirt-17395-21634-teal","fabric":"100% organic cotton solid knit","fit":"regular","colour":"teal","details":["polo","half sleeves","no pockets","half-open with two buttons","straight hem with side slit"]},
+    {"handle":"m-pants-17138-21621-navy","fabric":"85% cotton 15% linen solid woven","fit":"regular","colour":"navy","details":["side-seam pockets","full length","elastic waist with drawstring","button and zip","folded hem"]},
+    {"handle":"m-pants-17138-21621-avenue","fabric":"85% cotton 15% linen solid woven","fit":"regular","colour":"avenue","details":["side-seam pockets","full length","elastic waist with drawstring","button and zip","folded hem"]},
+    {"handle":"m-tshirt-16631-21634-orange","fabric":"100% organic cotton solid knit","fit":"regular","colour":"orange","details":["polo","half sleeves","no pockets","half-open with two buttons","straight hem with side slit"]},
+    {"handle":"m-tshirt-16631-21634-mustard","fabric":"100% organic cotton solid knit","fit":"regular","colour":"mustard","details":["polo","half sleeves","no pockets","half-open with two buttons","straight hem with side slit"]}
+  ]
+}

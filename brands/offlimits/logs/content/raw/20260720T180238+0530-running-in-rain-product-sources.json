@@ -1,0 +1,36 @@
+{
+  "run_id": "20260720T180238+0530-running-in-rain-product-sources",
+  "checked_at": "2026-07-20T18:02:38+05:30",
+  "topic": "Running in the Rain: How to Choose Shoes for Wet and Humid Weather",
+  "sources": [
+    {
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "facts_used": ["official men's running and gym shoe collection", "Gladiator and Ethos are listed in the collection"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-running-gym",
+      "facts_used": ["official women's running and gym shoe collection", "Pulse X For Her and Sprinter For Her are listed in the collection"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/performance/products/gladiator-off-white-orm-661-02",
+      "facts_used": ["lace-up closure", "breathable knitted/mesh upper with KPU overlay", "memory-foam insock", "Phylon/TPR sole", "positioned for running, gym sessions, errands and travel"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/white-shoes-for-men/products/ethos-orm-531-01",
+      "facts_used": ["lace-up closure", "Flyknit upper", "super-soft EVA insock in product specifications", "Phylon/TPR sole", "steady-grip and slip-resistant outsole language", "running, gym and cross-training use language"]
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women/products/pulse-x-for-her-black-dk-grey-orw-887-02",
+      "facts_used": ["lace-up closure", "mesh upper", "PU-moulded insock", "Phylon/TPR sole"]
+    },
+    {
+      "url": "https://offlimits.co.in/products/sprinter-for-her-off-white-purple-orw-789-03",
+      "facts_used": ["lace-up closure", "Flyknit upper", "memory-foam insock", "Phylon/TPR sole", "listed as a women's running and gym shoe"]
+    }
+  ],
+  "source_notes": [
+    "The Ethos narrative copy mentions memory foam, while its specification table lists SUPER SOFT EVA. The article follows the structured specification table and uses super-soft EVA.",
+    "None of the four reviewed product pages describes the shoe as waterproof. The article does not make waterproof or universally slip-proof claims.",
+    "Prices, discounts, review counts and stock status were not used because they are time-sensitive and outside the brief."
+  ]
+}

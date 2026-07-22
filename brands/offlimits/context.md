@@ -10,6 +10,7 @@ Read this first for any task about this brand, then load **only** the files the 
 |---------------|------|------|
 | Identity — story, tech, audience, competitors, goals | [brand-dna.json](brand-dna.json) | almost any brand task |
 | Brand-specific rules & do/don'ts | [knowledge.md](knowledge.md) | **always** for output; overrides defaults |
+| Customer-facing content flow, tone and product-led writing rules | [fundamentals.md](fundamentals.md) | **always** for blogs, buying guides and landing-page copy |
 | Keyword targets, clusters, intent | [keywords/](keywords/) (`keywords.csv`, `clusters.json`, `research-summary.json`) | keyword, content, brief, audit-intent |
 | What's already published (dupes, gaps) | [blogs/summary.md](blogs/summary.md) → `blogs/references/<slug>.md` | content planning, briefs |
 | Current SEO health + prioritized fixes | [audits/summary.md](audits/summary.md) · [audits/summary.json](audits/summary.json) | audit, fix, reporting |
@@ -24,7 +25,7 @@ Read this first for any task about this brand, then load **only** the files the 
 - **No GSC/GA4 in our workspace** — indexation, field CWV, query data are `not_checked_blocked`, never assumed (the brand runs its own GSC; it's just not connected here).
 - **Keyword demand is estimated/blocked** — Keyword Planner platform-id unset; volumes in `keywords/` are blank by design.
 - **Analytics partially broken** — GoKwik analytics script fails DNS; tracking may be incomplete.
-- **Voice:** motivational, gutsy, inclusive, value-conscious ("OFF LIMITS Tribe"); pair performance with affordability + made-in-India; cite real tech (Athlite®, Flexinit®, Glovefit®, Wiktech®, memory foam).
+- **Voice:** motivational, gutsy, inclusive, value-conscious ("OFF LIMITS Tribe"); pair performance with affordability + made-in-India; cite verified tech names (Flexiknit, Athlite®, Super-Memory Tech, Glovefit®, Advanced Memory Foam, Wicktech and Recomat®).
 
 ## Known blockers to unblock later
 

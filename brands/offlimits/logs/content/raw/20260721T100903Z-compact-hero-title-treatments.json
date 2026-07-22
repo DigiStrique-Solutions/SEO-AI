@@ -1,0 +1,14 @@
+{
+  "ts": "2026-07-21T10:09:03Z",
+  "run_id": "20260721T100903Z",
+  "action": "reduce_blog_hero_title_footprint",
+  "provider": "built-in_image_generation",
+  "requirement": "retain typography and colour treatments while revealing more background photography",
+  "outputs": [
+    "../../blogs/images/what-to-wear-for-monsoon-workouts/monsoon-workouts-hero-creative-compact.png",
+    "../../blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero-creative-compact.png",
+    "../../blogs/images/trekking-shoes-post-monsoon-hike/post-monsoon-trekking-hero-creative-compact.png"
+  ],
+  "status": "ok",
+  "records": 3
+}

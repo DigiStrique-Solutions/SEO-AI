@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://offlimits.co.in/blogs/blogs/running-in-the-rain-how-to-choose-shoes",
+  "run_date": "2026-07-22",
+  "scope_note": "Pre-publication assessment of a new OFFLIMITS wet-weather running-shoe buying guide. Intent and keyword set come from the supplied brief. Product claims were verified against current official collection and product pages on 2026-07-20. Keyword volumes are user-supplied and remain unverified by connected GSC or Keyword Planner data.",
+  "score": 1.0,
+  "counts": {
+    "items": 7,
+    "pass": 7,
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked_blocked": 0
+  },
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The article has one dominant commercial-informational purpose: help runners choose an OFFLIMITS shoe for light rain, damp routes and humid training conditions.",
+      "next_action": "",
+      "evidence_ref": "../blogs/running-in-the-rain-how-to-choose-shoes.md"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The guide answers wet-weather shoe-selection questions through route, grip, airflow, cushioning and fit, then maps Ethos, Gladiator, Pulse X For Her and Sprinter For Her to those priorities.",
+      "next_action": "Confirm query demand and refine emphasis after GSC or Keyword Planner is connected.",
+      "evidence_ref": "../blogs/running-in-the-rain-how-to-choose-shoes.seo.json"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The 1,101-word guide covers route conditions, outsole priority, breathable upper choices, cushioning comparisons, lace-up fit, care guidance and purchase-focused FAQs before the conclusion and CTA.",
+      "next_action": "",
+      "evidence_ref": "../blogs/running-in-the-rain-how-to-choose-shoes.md"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The primary keyword appears in the H1 and body. Lace-up running shoes, gym shoes for men, running shoes for men and running shoes for women appear naturally without repetitive blocks.",
+      "next_action": "Reassess keyword priority when measured demand is available.",
+      "evidence_ref": "../blogs/running-in-the-rain-how-to-choose-shoes.md"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "SEO metadata is dated 2026-07-22 and enables FAQ schema; all FAQ product comparisons trace to the four previously verified product pages.",
+      "next_action": "Recheck model availability, specifications and links before a future monsoon-season republication.",
+      "evidence_ref": "../logs/content/raw/20260720T180238+0530-running-in-rain-product-sources.json"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The OFFLIMITS Editorial Team byline is recorded in metadata; every product recommendation traces to official product evidence, and general drying guidance traces to a published athletic-shoe care source.",
+      "next_action": "Replace the team byline with a named OFFLIMITS footwear specialist and approved bio when available.",
+      "evidence_ref": "../blogs/drafts/running-in-the-rain-how-to-choose-shoes.authenticity.json"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The article links directly to four OFFLIMITS product pages and both required running/gym collection pages, including the final CTA.",
+      "next_action": "",
+      "evidence_ref": "../blogs/running-in-the-rain-how-to-choose-shoes.md"
+    }
+  ]
+}

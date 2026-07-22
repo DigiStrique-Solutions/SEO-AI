@@ -1,0 +1,19 @@
+{
+  "run_id": "20260721T093937Z",
+  "topic": "Trekking Shoes for Men: What to Look for Before a Post-Monsoon Hike",
+  "brand": "OFFLIMITS",
+  "source_site": "https://offlimits.co.in/",
+  "generation_mode": "built-in image generation",
+  "article_source": "brands/offlimits/blogs/trekking-shoes-for-men-post-monsoon-hike.md",
+  "product_sources": [
+    "https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02",
+    "https://offlimits.co.in/collections/men-trail"
+  ],
+  "outputs": [
+    "brands/offlimits/blogs/images/trekking-shoes-post-monsoon-hike/post-monsoon-trekking-hero.png",
+    "brands/offlimits/blogs/images/trekking-shoes-post-monsoon-hike/trekking-shoe-fit-and-lacing.png",
+    "brands/offlimits/blogs/images/trekking-shoes-post-monsoon-hike/trekking-shoe-outsole-inspection.png",
+    "brands/offlimits/blogs/images/trekking-shoes-post-monsoon-hike/swat-trail-mid-cut-upper-closeup.png"
+  ],
+  "notes": "AI-generated editorial composites grounded in live S.W.A.T. Trail Edition references. Images show accessible post-monsoon day-hike conditions and do not assert waterproof or universally slip-proof performance."
+}

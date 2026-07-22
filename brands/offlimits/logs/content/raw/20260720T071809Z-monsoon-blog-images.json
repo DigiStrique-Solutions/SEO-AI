@@ -1,0 +1,22 @@
+{
+  "run_id": "20260720T071809Z",
+  "topic": "What to Wear for Monsoon Workouts: An Athleisure Guide for Men and Women",
+  "brand": "OFFLIMITS",
+  "source_site": "https://offlimits.co.in/",
+  "generation_mode": "built-in image generation",
+  "product_sources": [
+    "https://offlimits.co.in/collections/men-clothing/products/mens-titan-t-shirt-otm-351-02",
+    "https://offlimits.co.in/collections/men-clothing/products/mens-pol-cns-mesh-shorts-obm-77-01",
+    "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02",
+    "https://offlimits.co.in/collections/women-clothing/products/running-tee-azure-otw-454-01",
+    "https://offlimits.co.in/collections/women-clothing/products/wmn-zl-cns-pkt-yoga-tights-obw-74-01",
+    "https://offlimits.co.in/collections/women-running-gym/products/paloma-for-her-aqua-orw-582-07"
+  ],
+  "outputs": [
+    "brands/offlimits/blogs/images/what-to-wear-for-monsoon-workouts/monsoon-workouts-hero.png",
+    "brands/offlimits/blogs/images/what-to-wear-for-monsoon-workouts/mens-monsoon-strength-workout.png",
+    "brands/offlimits/blogs/images/what-to-wear-for-monsoon-workouts/womens-monsoon-treadmill-workout.png",
+    "brands/offlimits/blogs/images/what-to-wear-for-monsoon-workouts/monsoon-gym-bag-checklist.png"
+  ],
+  "notes": "Images are AI-generated editorial composites grounded in live OFFLIMITS catalogue references. They are not original product photography and should be reviewed by the brand before publication."
+}

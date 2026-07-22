@@ -1,0 +1,47 @@
+{
+  "verified_at": "2026-07-22",
+  "scope_source": "Six product links explicitly supplied by the user, comprising three S.W.A.T. Trail Edition variants and three ONYX variants, plus the Men Trail collection.",
+  "products": [
+    {
+      "name": "S.W.A.T. Trail Edition - Dark Olive/Black",
+      "url": "https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-dark-olive-black-ocm-681-03",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"CANVAS/SYNTHETIC","insock":"ADVANCE MEMORY FOAM"}
+    },
+    {
+      "name": "S.W.A.T. Trail Edition - Sage Green/Black",
+      "url": "https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"MESH/SYNTHETIC","insock":"EVA"}
+    },
+    {
+      "name": "S.W.A.T. Trail Edition - Sage Green/White/Black",
+      "url": "https://offlimits.co.in/collections/s-w-a-t-men/products/s-w-a-t-trail-edition-sage-green-white-black-ocm-681-01",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"CANVAS/SYNTHETIC","insock":"EVA"}
+    },
+    {
+      "name": "ONYX - Beige",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-beige-ocm-715-03",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"KPU/FLYKNIT","insock":"MOULDED SOCKS"}
+    },
+    {
+      "name": "ONYX - Black",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-light-black-ocm-715-01",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"KPU/FLYKNIT","insock":"MOULDED SOCKS"}
+    },
+    {
+      "name": "ONYX - Transformative Teal",
+      "url": "https://offlimits.co.in/collections/men-trail/products/onyx-transformative-teal-ocm-715-04",
+      "structured_specs": {"closure":"LACE UP","sole":"PHYLON/TPR","upper":"KPU/FLYKNIT","insock":"MOULDED SOCKS"}
+    }
+  ],
+  "benefit_evidence": {
+    "swat": "OFFLIMITS positions S.W.A.T. Trail Edition as a mid-cut boot for trails, outdoor training and rugged conditions. Product copy connects the outsole with traction, cushioning and shock absorption; canvas/mesh with breathability; synthetic sections with structure; EVA with a soft flexible feel; and memory foam with cushioning.",
+    "onyx": "OFFLIMITS positions ONYX for hiking, trails and outdoor training. Product copy connects KPU/Flyknit with breathability, flexibility, structure and protection; the moulded-socks insock with a soft contoured feel; and Phylon/TPR with cushioning, flexibility, traction and shock absorption."
+  },
+  "source_handling": [
+    "Where narrative copy conflicts with the structured specification fields, the structured fields are used.",
+    "No waterproof claim is made.",
+    "Slip-resistant/non-slip language is translated into traction-focused guidance rather than a universal grip guarantee.",
+    "Prices, stock and review counts are omitted because they are time-sensitive.",
+    "The product scope follows the user's explicit six-link list, including S.W.A.T. products housed in the S.W.A.T. collection as well as ONYX products housed in Men Trail."
+  ]
+}

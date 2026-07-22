@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim_id": "inc5-bag-categories",
+      "claim_type": "product_fact",
+      "criteria": "Category names are limited to current official Inc.5 collection pages checked on 2026-07-22.",
+      "source_ids": [
+        "inc5-all-bags",
+        "inc5-clutch-collection",
+        "inc5-backpack-collection"
+      ],
+      "statement": "Inc.5 currently groups sling, clutch, shoulder, backpack and tote formats within its women's bag assortment."
+    },
+    {
+      "claim_id": "inc5-casual-shoulder-product",
+      "claim_type": "product_fact",
+      "criteria": "Only structured attributes shown on the current official product page are used.",
+      "source_ids": [
+        "inc5-beige-shoulder-pdp"
+      ],
+      "statement": "The Women's Beige Shoulder Bag With Zip Lock for Casual is listed as synthetic, solid, casual and zip closure."
+    },
+    {
+      "claim_id": "inc5-phone-sling-product",
+      "claim_type": "product_fact",
+      "criteria": "Only the current title and structured product attributes are used; no unlisted capacity is asserted.",
+      "source_ids": [
+        "inc5-tan-phone-sling-pdp"
+      ],
+      "statement": "The Women's Tan Casual Solid Phone Sling Bag With Zip Lock is listed as synthetic, solid, casual and zip closure."
+    },
+    {
+      "claim_id": "inc5-party-sling-product",
+      "claim_type": "product_fact",
+      "criteria": "Only the current title and structured product attributes are used.",
+      "source_ids": [
+        "inc5-black-party-sling-pdp"
+      ],
+      "statement": "The Women's Black Sling Bag With Zip Lock for Party Use is listed as fabric, textured, party and zip closure."
+    },
+    {
+      "claim_id": "inc5-bag-care",
+      "claim_type": "product_fact",
+      "criteria": "Care advice is limited to the guidance repeated on representative current official Inc.5 bag product pages.",
+      "source_ids": [
+        "inc5-tan-phone-sling-pdp",
+        "inc5-black-party-sling-pdp"
+      ],
+      "statement": "Current Inc.5 bag care guidance says to keep bags away from moisture, avoid overloading, use a dry cloth, store in a dust bag with tissue, and avoid direct sunlight, sharp objects and rough surfaces."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-22T10:55:48+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage for the final revised draft. Weak editorial signal, not proof of authorship.",
+      "score": 19.7,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-22T10:51:15+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "different-types-of-handbags-every-woman-should-own-20260722"
+  },
+  "sources": [
+    {
+      "extracted_facts": "User supplied the title Different Types of Handbags Every Woman Should Own and a keyword brief led by types of handbags (9900), handbags for women (90500), bag/bags for women (60500), sling bags for women (60500), side bag/tote bags for women (49500) and shoulder bag for women (27100).",
+      "source_id": "keyword-brief-image",
+      "source_ref": "C:/Users/User/AppData/Local/Temp/codex-clipboard-66d04653-de05-41db-8428-53bd5fdf1085.png",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Current official all-bags collection lists Sling Bag, Clutch Bag, Shoulder Bag, Wallets, Backpack and Tote Bag among popular collections.",
+      "source_id": "inc5-all-bags",
+      "source_ref": "https://inc5shop.com/collections/all-bags (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Current official clutch collection contains occasion-led clutch products; exact size and closure vary by listing.",
+      "source_id": "inc5-clutch-collection",
+      "source_ref": "https://inc5shop.com/collections/clutch-bags (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Current official backpack collection includes casual textured backpacks with zip closures in cream, black and olive.",
+      "source_id": "inc5-backpack-collection",
+      "source_ref": "https://inc5shop.com/collections/backpack-bags (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current title: Women's Beige Shoulder Bag With Zip Lock for Casual; article LYNG34-8878 BEIGE; synthetic; zip closure; solid; casual.",
+      "source_id": "inc5-beige-shoulder-pdp",
+      "source_ref": "https://inc5shop.com/products/womens-beige-shoulder-bag-with-zip-lock-for-casual-lyng34-8878-beige (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current title: Women's Tan Casual Solid Phone Sling Bag With Zip Lock; article LYNG27-8834 TAN; synthetic; zip closure; solid; casual. Product care says avoid moisture and overloading, use a dry cloth, and store with tissue in a dust bag away from direct sunlight and sharp objects.",
+      "source_id": "inc5-tan-phone-sling-pdp",
+      "source_ref": "https://inc5shop.com/products/womens-tan-casual-solid-sling-bag-with-zip-lock-lyng27-8834-tan (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current title: Women's Black Sling Bag With Zip Lock for Party Use; article LYNG30-8916 BLACK; fabric; zip closure; textured; party. Product care repeats the representative Inc.5 bag guidance.",
+      "source_id": "inc5-black-party-sling-pdp",
+      "source_ref": "https://inc5shop.com/products/womens-black-sling-bag-with-zip-lock-for-party-use-lyng30-8916-black (checked 2026-07-22)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Inc.5 already has focused shoulder-bag and backpack buying guides, so the new broad types-of-handbags article links to them and keeps those sections concise to avoid intent duplication.",
+      "source_id": "inc5-existing-bag-blogs",
+      "source_ref": "brands/inc5shop/blogs/blog_urls.json + brands/inc5shop/blogs/blog_targets.csv",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Use a purchase-led flow, compare bags by capacity, compartments, closure, strap, material and use case, ground examples in Indian occasions, add contextual internal links and finish with a direct category CTA.",
+      "source_id": "inc5-fundamentals",
+      "source_ref": "brands/inc5shop/fundamentals.md + brands/inc5shop/knowledge.md",
+      "source_type": "brand_dna"
+    }
+  ]
+}

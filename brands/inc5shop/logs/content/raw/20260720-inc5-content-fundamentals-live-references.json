@@ -1,0 +1,505 @@
+{
+  "fetched_at": "2026-07-20T13:14:57.052Z",
+  "provider": "firecrawl",
+  "request": {
+    "urls": [
+      "https://inc5shop.com/",
+      "https://inc5shop.com/blogs/blog",
+      "https://inc5shop.com/blogs/blog/monsoon-shoe-care-tips-keep-your-footwear-safe-from-rain",
+      "https://inc5shop.com/blogs/blog/different-types-of-heels-for-women",
+      "https://inc5shop.com/blogs/blog/best-mens-footwear-for-long-commutes-in-indian-cities",
+      "https://inc5shop.com/blogs/blog/beginner-s-guide-to-buying-the-perfect-shoulder-bag-for-women-1",
+      "https://inc5shop.com/blogs/blog/best-footwear-bags-college-student",
+      "https://inc5shop.com/blogs/blog/monsoon-ready-footwear-for-women-stylish-sandals-flats-that-survive-the-rains"
+    ],
+    "formats": [
+      "json"
+    ],
+    "onlyMainContent": true
+  },
+  "responses": [
+    {
+      "url": "https://inc5shop.com/",
+      "json": {
+        "page_title": "INC5 Shop",
+        "audience_need": "Customers looking for discounted fashion products and accessories.",
+        "content_flow": [
+          "Hot Stepper Sale is Live – Flat 50% Off",
+          "Check your points",
+          "Item added to your cart",
+          "Shop categories such as handbags, shoes, and ethnic wear.",
+          "Customer reviews and testimonials.",
+          "Product details and pricing information."
+        ],
+        "product_or_category_focus": [
+          "Bags",
+          "Shoes",
+          "Ethnic Wear",
+          "Clutch Bags",
+          "Sling Bags",
+          "Shoulder Bags",
+          "Latest Wallets",
+          "Flats",
+          "Heels"
+        ],
+        "buying_criteria": [
+          "Discounts",
+          "Product variety",
+          "Quality",
+          "Customer reviews",
+          "Ease of purchase"
+        ],
+        "recurring_tone_patterns": [
+          "Friendly",
+          "Promotional",
+          "Engaging",
+          "Informative"
+        ],
+        "calls_to_action": [
+          "Check points",
+          "View cart",
+          "Checkout",
+          "Continue shopping",
+          "Shop Bags",
+          "Start Chat"
+        ],
+        "claim_risks": [
+          "Promotional claims regarding discounts may be time-limited or subject to conditions.",
+          "Quality assurance based on customer reviews may not represent all experiences."
+        ],
+        "internal_links": [
+          "https://inc5shop.com/collections/flat-50-off",
+          "https://inc5shop.com/cart",
+          "https://wa.me/919152646417?text=Hey,%20I%20have%20a%20query"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-1450-745f-b1f3-eb23e2bbad28",
+        "sourceURL": "https://inc5shop.com/",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": null
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog",
+      "json": {
+        "page_title": "INC5 Blog",
+        "audience_need": "Fashion advice and product recommendations for shoes and bags during monsoon and festive seasons",
+        "content_flow": [
+          "Hot Stepper Sale announcement",
+          "Mobile number entry for points checking",
+          "Blog post listings on specific shoe and bag topics"
+        ],
+        "product_or_category_focus": [
+          "Footwear",
+          "Handbags",
+          "Monsoon-ready products",
+          "Office shoes"
+        ],
+        "buying_criteria": [
+          "Style",
+          "Comfort",
+          "Durability",
+          "Weather suitability"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Engaging",
+          "Friendly"
+        ],
+        "calls_to_action": [
+          "Check your points now",
+          "View cart",
+          "Continue shopping",
+          "Read more on blog topics",
+          "Shop the sale now"
+        ],
+        "claim_risks": [],
+        "internal_links": [
+          "https://inc5shop.com/blogs/blog/monsoon-shoe-care-tips-keep-your-footwear-safe-from-rain",
+          "https://inc5shop.com/blogs/blog/monsoon-ready-footwear-for-women-stylish-sandals-flats-that-survive-the-rains",
+          "https://inc5shop.com/blogs/blog/top-5-monsoon-proof-handbags-what-to-carry-when-it-rains",
+          "https://inc5shop.com/blogs/blog/monsoon-office-style-best-mens-formal-casual-shoes-for-rainy-commutes",
+          "https://inc5shop.com/blogs/blog/best-beach-footwear-for-women"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-3042-745e-915a-12ce340199a2",
+        "sourceURL": "https://inc5shop.com/blogs/blog",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/monsoon-shoe-care-tips-keep-your-footwear-safe-from-rain",
+      "json": {
+        "page_title": "Monsoon Shoe Care Tips: Keep Your Footwear Safe from Rain",
+        "audience_need": "To protect and maintain footwear during the monsoon season.",
+        "content_flow": [
+          "Introduction to monsoon problems for footwear",
+          "Importance of good shoes during monsoon",
+          "Reasons for extra care needed during monsoon",
+          "Essential shoe care tips",
+          "Tips for different types of footwear",
+          "Common footwear mistakes to avoid",
+          "Importance of choosing the right footwear",
+          "Daily footwear care routine",
+          "Conclusion"
+        ],
+        "product_or_category_focus": [
+          "Men's Footwear",
+          "Sandals",
+          "Formal Shoes",
+          "Casual Shoes"
+        ],
+        "buying_criteria": [
+          "Durability",
+          "Water resistance",
+          "Slip resistance",
+          "Comfort",
+          "Easy maintenance"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Advisory",
+          "Encouraging"
+        ],
+        "calls_to_action": [
+          "Check your points",
+          "View cart",
+          "Checkout",
+          "Continue shopping",
+          "Buy Now"
+        ],
+        "claim_risks": [
+          "Improper care may lead to damage and decreased durability",
+          "Neglecting to dry shoes properly can create odors",
+          "Using heat to dry shoes can ruin their appearance"
+        ],
+        "internal_links": [
+          "Men's collection",
+          "Men's slip-ons",
+          "Men's sandals"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-45e2-7298-8516-80a81e058bf3",
+        "sourceURL": "https://inc5shop.com/blogs/blog/monsoon-shoe-care-tips-keep-your-footwear-safe-from-rain",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 5
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/different-types-of-heels-for-women",
+      "json": {
+        "page_title": "Different Types Of Heels For Women: A Complete Guide",
+        "audience_need": "Understanding various types of heels to make informed purchasing decisions based on style, comfort, and occasion.",
+        "content_flow": [
+          "Introduction to heel styles",
+          "Overview of various types of heels",
+          "Detailed descriptions and buying options for each type of heel",
+          "Tips for styling heels in different scenarios",
+          "Why choose Inc.5 heels",
+          "Final thoughts and FAQs"
+        ],
+        "product_or_category_focus": [
+          "Pumps",
+          "Wedges",
+          "Platform Heels",
+          "Transparent Heels",
+          "Mules",
+          "Heeled Sandals",
+          "Heeled Boots",
+          "Ethnic Heels",
+          "Slenderly Elevated Flats"
+        ],
+        "buying_criteria": [
+          "Comfort",
+          "Occasion appropriateness",
+          "Heel shape",
+          "Versatile color palette"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Persuasive",
+          "Friendly",
+          "Engaging"
+        ],
+        "calls_to_action": [
+          "Shop now and unlock your style with Inc.5",
+          "Check out our latest collection of heels",
+          "Explore various styles to find your perfect match!"
+        ],
+        "claim_risks": [
+          "No substantial claims are mentioned that carry explicit risks.",
+          "General advice on comfort without guarantee of performance."
+        ],
+        "internal_links": [
+          "https://inc5shop.com/collections/pumps",
+          "https://inc5shop.com/collections/womens-wedges",
+          "https://inc5shop.com/collections/platform-heels",
+          "https://inc5shop.com/collections/transparent-heel-for-women",
+          "https://inc5shop.com/collections/womens-mules",
+          "https://inc5shop.com/collections/womens-sandals",
+          "https://inc5shop.com/collections/womens-boots",
+          "https://inc5shop.com/collections/ethnic-footwear",
+          "https://inc5shop.com/collections/womens-flats"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-28a9-7099-995c-73c1c373030e",
+        "sourceURL": "https://inc5shop.com/blogs/blog/different-types-of-heels-for-women",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/best-mens-footwear-for-long-commutes-in-indian-cities",
+      "json": {
+        "page_title": "Best Men's Footwear for Long Commutes in Indian Cities",
+        "audience_need": "Men looking for comfortable and stylish footwear suitable for long commutes in crowded Indian cities.",
+        "content_flow": [
+          "Introduction to the need for travel-friendly footwear",
+          "Description of footwear types: loafers, driving shoes, slip-ons",
+          "Detailed features and benefits of each type",
+          "Expert advice on selecting ideal shoes for commuting",
+          "Summary of the essential qualities for commute footwear",
+          "FAQs addressing common inquiries about commuting footwear"
+        ],
+        "product_or_category_focus": [
+          "Loafers",
+          "Driving Shoes",
+          "Slip-On Shoes"
+        ],
+        "buying_criteria": [
+          "Comfort",
+          "Durability",
+          "Breathability",
+          "Style",
+          "Support"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Conversational",
+          "Helpful",
+          "Encouraging"
+        ],
+        "calls_to_action": [
+          "Buy Atesber Casual Slipon-Tan For Men",
+          "Buy Privo Textured Driving Shoe-Tan For Men",
+          "Buy Men Green Suede Casual Slip-Ons Shoes",
+          "Buy Privo Brooch Slipon-Tan For Men"
+        ],
+        "claim_risks": [
+          "No specific claims of risk associated with products were mentioned, but emphasizing the importance of proper footwear to prevent discomfort and injuries."
+        ],
+        "internal_links": [
+          "[Back to blog](https://inc5shop.com/blogs/blog)"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-0d61-7231-b6f0-941766dece91",
+        "sourceURL": "https://inc5shop.com/blogs/blog/best-mens-footwear-for-long-commutes-in-indian-cities",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": null
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/beginner-s-guide-to-buying-the-perfect-shoulder-bag-for-women-1",
+      "json": {
+        "page_title": "Beginner’s Guide to Buying the Perfect Shoulder Bag For Women",
+        "audience_need": "Women seeking practical and stylish shoulder bags for everyday use.",
+        "content_flow": [
+          "Introduction to shoulder bags and their popularity among women",
+          "Definition and functionality of shoulder bags",
+          "Reasons for the popularity of shoulder bags",
+          "Different types of shoulder bags",
+          "Benefits of shoulder bags",
+          "Buying guide for selecting shoulder bags",
+          "Expert tips on choosing the right shoulder bag",
+          "Common mistakes to avoid when buying a shoulder bag",
+          "FAQs regarding shoulder bags"
+        ],
+        "product_or_category_focus": [
+          "Shoulder bags for women",
+          "Office shoulder bags",
+          "Trendy shoulder bags",
+          "Small shoulder bags",
+          "Shoulder bags for girls"
+        ],
+        "buying_criteria": [
+          "Size based on daily needs",
+          "Purpose of use",
+          "Material and durability",
+          "Comfort and adjustability of straps",
+          "Organizational features such as compartments"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Encouraging",
+          "Conversational",
+          "Supportive"
+        ],
+        "calls_to_action": [
+          "Buy Womens Taupe Shoulder Bag With Magnet Button Lock For Party",
+          "Buy Womens Brown Shoulder Bag With Magnet Button Lock For Party",
+          "Buy Womens Off White Shoulder Bag With Zipper Lock For Casual Use",
+          "Buy Womens Brown Casual Shoulder Bag With Magnet Lock"
+        ],
+        "claim_risks": [],
+        "internal_links": [
+          "https://inc5shop.com/cart",
+          "https://inc5shop.com/collections/flat-50-off",
+          "https://inc5shop.com/products/womens-taupe-shoulder-bag-with-magnet-button-lock-for-party-lyng34-8896-taupe",
+          "https://inc5shop.com/products/womens-brown-shoulder-bag-with-magnet-button-lock-for-party-lyng34-8896-brown",
+          "https://inc5shop.com/products/womens-off-white-shoulder-bag-with-zipper-lock-for-casual-use-lyng36-8863-off-white",
+          "https://inc5shop.com/products/womens-brown-casual-shoulder-bag-with-magnet-lock-lyng34-8914-brown"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-3b37-77b0-a7f5-22d85ac525e0",
+        "sourceURL": "https://inc5shop.com/blogs/blog/beginner-s-guide-to-buying-the-perfect-shoulder-bag-for-women-1",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/best-footwear-bags-college-student",
+      "json": {
+        "page_title": "Best Footwear & Bags for College Students",
+        "audience_need": "College students need comfortable, practical, and stylish footwear and bags that suit their busy lifestyles and academic requirements.",
+        "content_flow": [
+          "Introduction to the importance of suitable footwear and bags for college students",
+          "Section highlighting why college students should choose the right shoes and bags",
+          "Detailed descriptions of the best footwear options (flats, sandals, mules, wedges, and ethnic footwear)",
+          "Best bags for students including backpack and shoulder bags",
+          "Tips on choosing the best college bags and shoes",
+          "Conclusion summarizing the offerings and brand philosophy",
+          "FAQs addressing common queries about footwear and bags for college students"
+        ],
+        "product_or_category_focus": [
+          "Footwear",
+          "Bags"
+        ],
+        "buying_criteria": [
+          "Comfort",
+          "Durability",
+          "Style adaptability",
+          "Size and capacity",
+          "Ease of use"
+        ],
+        "recurring_tone_patterns": [
+          "Informative",
+          "Conversational",
+          "Encouraging",
+          "Friendly"
+        ],
+        "calls_to_action": [
+          "Buy now",
+          "View cart",
+          "Continue shopping",
+          "Check points"
+        ],
+        "claim_risks": [
+          "Claims about comfort and durability are not substantiated with specific guarantees or testimonials.",
+          "General recommendations without personal evaluation of individual needs."
+        ],
+        "internal_links": [
+          "https://inc5shop.com/collections/flat-50-off",
+          "https://inc5shop.com/cart",
+          "https://inc5shop.com/blog"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-4c78-738c-8e9a-1767ff3d261c",
+        "sourceURL": "https://inc5shop.com/blogs/blog/best-footwear-bags-college-student",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/monsoon-ready-footwear-for-women-stylish-sandals-flats-that-survive-the-rains",
+      "json": {
+        "page_title": "Monsoon Ready Footwear for Women: Stylish Sandals & Flats that Survive the Rains",
+        "audience_need": "Women seeking stylish, comfortable, and practical footwear for the monsoon season.",
+        "content_flow": [
+          "Introduction to the monsoon season and footwear challenges",
+          "Exploration of monsoon-friendly footwear types",
+          "Details on specific footwear options: sandals, flats, slip-ons, and wedges",
+          "Key features to consider when choosing monsoon footwear",
+          "Why Inc.5's footwear is suitable for the season",
+          "Advice on selecting the right footwear based on activities",
+          "Style tips for wearing monsoon footwear",
+          "Conclusion and encouragement to explore Inc.5's offerings"
+        ],
+        "product_or_category_focus": [
+          "Monsoon sandals",
+          "Flats",
+          "Slip-on shoes",
+          "Wedge sandals"
+        ],
+        "buying_criteria": [
+          "Comfort",
+          "Style",
+          "Water-resistance",
+          "Lightweight design",
+          "Slip-resistance",
+          "Easy to clean"
+        ],
+        "recurring_tone_patterns": [
+          "Encouraging",
+          "Fashionable",
+          "Informative",
+          "Supportive"
+        ],
+        "calls_to_action": [
+          "Explore Monsoon-Friendly Footwear for Women at Inc.5",
+          "Discover the latest styles",
+          "Find comfort for every step today",
+          "Step into the Monsoon With Confidence"
+        ],
+        "claim_risks": [
+          "Claims of style may be subjective.",
+          "Comfort may vary based on personal preferences.",
+          "Effectiveness of water-resistance can depend on conditions."
+        ],
+        "internal_links": [
+          "https://inc5shop.com/collections/womens-flats",
+          "https://inc5shop.com/collections/womens-wedges",
+          "https://inc5shop.com/products/womens-green-smart-casual-solid-round-toe-wedge-heels-102823-pista",
+          "https://inc5shop.com/products/womens-cream-casual-solid-open-toe-flat-slip-ons-900432-cream"
+        ]
+      },
+      "metadata": {
+        "scrapeId": "019f7fa9-52bf-71e2-b8e6-c350f29d5817",
+        "sourceURL": "https://inc5shop.com/blogs/blog/monsoon-ready-footwear-for-women-stylish-sandals-flats-that-survive-the-rains",
+        "statusCode": 200,
+        "contentType": "text/html; charset=utf-8",
+        "cacheState": "miss",
+        "creditsUsed": 9
+      },
+      "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+    }
+  ]
+}

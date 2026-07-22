@@ -1,0 +1,21 @@
+{
+  "run_id": "20260720T091630Z",
+  "topic": "Running in the Rain: How to Choose Shoes for Wet and Humid Weather",
+  "brand": "OFFLIMITS",
+  "source_site": "https://offlimits.co.in/",
+  "generation_mode": "built-in image generation",
+  "brief_source": "user-supplied screenshot; no matching article draft was present in the brand workspace",
+  "product_sources": [
+    "https://offlimits.co.in/collections/mens-running-gym-shoes/products/ethos-orm-531-01",
+    "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02",
+    "https://offlimits.co.in/collections/women-running-gym/products/pulse-x-for-her-black-dk-grey-orw-887-02",
+    "https://offlimits.co.in/collections/women-running-gym/products/sprinter-for-her-off-white-purple-orw-789-03"
+  ],
+  "outputs": [
+    "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/running-in-the-rain-hero.png",
+    "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/mens-running-shoe-fit-check.png",
+    "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/womens-running-shoe-fit-check.png",
+    "brands/offlimits/blogs/images/running-in-the-rain-choose-shoes/post-run-shoe-drying-care.png"
+  ],
+  "notes": "AI-generated editorial composites grounded in live OFFLIMITS catalogue references. Rain imagery is contextual only; no waterproof product performance is asserted."
+}

@@ -1,0 +1,86 @@
+{
+  "claims": [
+    {
+      "claim": "The reviewed OFFLIMITS tights and tracksuits use the documented fits, fabrics and Wicktech treatment described in the article.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-technology",
+        "offlimits-apparel-products"
+      ]
+    },
+    {
+      "claim": "Gladiator, Ethos, Gladiator For Her and Pulse X For Her use the upper, insock and sole constructions described in the article.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-mens-footwear-products",
+        "offlimits-womens-footwear-products"
+      ]
+    },
+    {
+      "claim": "Workout and comfort-preference recommendations translate documented product construction and intended-use language into customer-led shopping guidance.",
+      "claim_id": "claim-03",
+      "claim_type": "comparison",
+      "source_ids": [
+        "offlimits-apparel-products",
+        "offlimits-mens-footwear-products",
+        "offlimits-womens-footwear-products",
+        "user-editorial-feedback-v5"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-22T12:49:49+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 16.7,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-20T11:28:56+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "The official technology page labels the apparel technology wicktech and its panel reads WICK-TECH. Official product pages describe Wicktech as a moisture-wicking treatment that helps keep sweat away.",
+      "source_id": "offlimits-technology",
+      "source_ref": "https://offlimits.co.in/pages/technology; brands/offlimits/logs/content/raw/20260720T163503+0530-technology-page-verification.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Women's Printed Insert Tights are mid-rise, 90% polyester/10% spandex and list Wicktech. Snow and Sonic are full-sleeve zip-neck tracksuits in 90% polyester/10% spandex and list Wicktech. WMN PCT CNS is a full-sleeve polyester hooded tracksuit and lists Wicktech.",
+      "source_id": "offlimits-apparel-products",
+      "source_ref": "brands/offlimits/logs/content/raw/20260720T122657+0530-monsoon-workouts-brand-led-sources.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Gladiator lists a breathable knitted upper with KPU overlay, memory-foam insock and Phylon/TPR sole, with running, gym, errands and travel positioning. Ethos lists a Flyknit upper, super-soft EVA insock, Phylon/TPR sole and steady-grip/slip-resistance language, with gym and cross-training positioning.",
+      "source_id": "offlimits-mens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/mens-running-gym-shoes/products/gladiator-off-white-orm-661-02; https://offlimits.co.in/collections/mens-running-gym-shoes/products/ethos-orm-531-01; verified 2026-07-20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Gladiator For Her lists a Flyknit upper, memory-foam insock and Phylon/TPR sole. Pulse X For Her lists a mesh upper, PU-moulded insock and Phylon/TPR sole.",
+      "source_id": "offlimits-womens-footwear-products",
+      "source_ref": "https://offlimits.co.in/collections/women-running-gym/products/gladiator-for-her-off-white-orw-678-02; https://offlimits.co.in/collections/women-running-gym/products/pulse-x-for-her-black-dk-grey-orw-887-02; verified 2026-07-20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Organise the article around the customer journey and workout type. Explain the problem and promised solution immediately; recommend products within cardio, strength, studio and gym contexts; follow every technical feature with a customer benefit; and add a proper conclusion that recaps the value before the CTA.",
+      "source_id": "user-editorial-feedback-v5",
+      "source_ref": "User feedback received 2026-07-20 in Codex task",
+      "source_type": "human_context"
+    }
+  ]
+}

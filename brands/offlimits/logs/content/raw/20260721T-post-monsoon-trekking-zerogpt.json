@@ -1,0 +1,14 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-21T09:22:33+00:00",
+    "feedback": "Most of Your Text is AI/GPT Generated",
+    "max_score": 20.0,
+    "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+    "score": 70.9,
+    "source": "zerogpt_api",
+    "status": "fail",
+    "tool": "zerogpt"
+  },
+  "ok": false,
+  "recorded_to_authenticity": true
+}

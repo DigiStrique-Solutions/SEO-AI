@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-07-22",
+  "scope": "Official Inc.5 sources used for the block-heels-vs-kitten-heels rewrite",
+  "sources": [
+    {
+      "url": "https://inc5shop.com/products/women-black-party-wear-pointed-toe-block-heel-pump-shoes-800606-black",
+      "result": "HTTP page available",
+      "facts_used": "Article 800606 BLACK; block heel; 2.5-inch height; pointed toe; slip-on; medium cushioning; synthetic; party and club wear."
+    },
+    {
+      "url": "https://inc5shop.com/products/womens-black-party-wear-solid-square-toe-kitten-heel-sandals-800769-black",
+      "result": "HTTP page available",
+      "facts_used": "Article 800769 BLACK; kitten heel; 2-inch height; square toe; slip-on; medium cushioning; synthetic; party and club wear."
+    },
+    {
+      "url": "https://inc5shop.com/products/women-black-solid-kitten-pumps-800289-black",
+      "result": "HTTP page available",
+      "facts_used": "Women Black Solid Kitten Pumps; 2-inch heel; synthetic material; size and care notes."
+    },
+    {
+      "url": "https://inc5shop.com/collections/womens-heels",
+      "result": "HTTP page available",
+      "facts_used": "Primary collection CTA."
+    },
+    {
+      "url": "https://inc5shop.com/blogs/blog/different-types-of-heels-for-women",
+      "result": "Search result and current blog listing available",
+      "facts_used": "Related internal article."
+    }
+  ]
+}

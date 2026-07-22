@@ -1,0 +1,98 @@
+{
+  "claims": [
+    {
+      "claim": "S.W.A.T. Trail Edition has a mesh/synthetic upper, EVA insock and Phylon/TPR sole according to its structured specifications.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-swat-trail"
+      ]
+    },
+    {
+      "claim": "S.W.A.T. Trail Edition uses a lace-up closure and mid-cut boot styling and is positioned for trails, outdoor training and rugged conditions.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-swat-trail"
+      ]
+    },
+    {
+      "claim": "OFFLIMITS uses slip-resistant and steady-traction language for the outsole, without the article claiming universal grip or waterproofing.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-swat-trail",
+        "offlimits-fundamentals"
+      ]
+    },
+    {
+      "claim": "Sturdy shoes with good traction are appropriate for muddy, potentially slippery trails.",
+      "claim_id": "claim-04",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "nps-wet-trail-guidance"
+      ]
+    },
+    {
+      "claim": "Hiking footwear should fit snugly without feeling tight, leave room for toe movement and be tried with intended hiking socks.",
+      "claim_id": "claim-05",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "rei-hiking-fit"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-21T09:25:55+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 15.2,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-21T09:21:44+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/trekking-shoes-for-men-post-monsoon-hike"
+  },
+  "sources": [
+    {
+      "extracted_facts": "The Men Trail collection presents S.W.A.T. Trail Edition. Its structured specification table lists a mesh/synthetic upper, EVA insock and Phylon/TPR sole. The product uses a lace-up, mid-cut design and is positioned for trails, outdoor training and rugged conditions. Product copy uses breathable/reinforced upper, soft/flexible cushioning and slip-resistant/steady-traction language. Narrative construction fields conflict with the table, so the article follows the structured specifications. No waterproof claim appears.",
+      "source_id": "offlimits-swat-trail",
+      "source_ref": "https://offlimits.co.in/collections/men-trail; https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02; verified 2026-07-21; raw evidence brands/offlimits/logs/content/raw/20260721T145058+0530-post-monsoon-trekking-sources.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Wet climates can create muddy, slippery trails; NPS recommends sturdy shoes with good traction.",
+      "source_id": "nps-wet-trail-guidance",
+      "source_ref": "https://www.nps.gov/thingstodo/glba-hiking.htm; accessed 2026-07-21",
+      "source_type": "research"
+    },
+    {
+      "extracted_facts": "Hiking footwear should fit snugly but not tightly, allow toe movement and be checked with the socks intended for the hike.",
+      "source_id": "rei-hiking-fit",
+      "source_ref": "https://www.rei.com/learn/expert-advice/hiking-boots.html; accessed 2026-07-21",
+      "source_type": "research"
+    },
+    {
+      "extracted_facts": "Make the customer's need the organising principle; make named OFFLIMITS products the hero; translate product features into benefits; use direct fit guidance; avoid unsupported waterproof, universal slip-proof and superiority claims; place a conclusion before the CTA.",
+      "source_id": "offlimits-fundamentals",
+      "source_ref": "brands/offlimits/fundamentals.md; brands/offlimits/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Required title and Men Trail collection link. Supplied keyword set: trekking shoes for men, trekking shoes, best trekking shoes, trekking boots men, best trekking shoes for men and the apparent typo treks shoes.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User-supplied screenshot received 2026-07-21",
+      "source_type": "human_context"
+    }
+  ]
+}

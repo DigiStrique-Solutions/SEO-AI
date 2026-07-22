@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "offlimits",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://offlimits.co.in/blogs/blogs/trekking-shoes-for-men-post-monsoon-hike",
+  "run_date": "2026-07-22",
+  "scope_note": "Final corrected assessment using the exact six product links supplied by the user: three ONYX and three S.W.A.T. Trail Edition variants. All six official product pages were verified on 2026-07-22. Keyword volumes remain user-supplied and unverified by connected GSC or Keyword Planner data.",
+  "score": 1.0,
+  "counts": {"items": 7, "pass": 7, "fail": 0, "not_applicable": 0, "not_checked_blocked": 0},
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The article helps men choose between ONYX and S.W.A.T. Trail Edition for a post-monsoon hike using outsole, upper, cushioning, coverage and fit.",
+      "next_action": "",
+      "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.md"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "Commercial-intent readers receive a direct decision path across the six supplied products, with each material translated into a customer benefit.",
+      "next_action": "Confirm query demand after GSC or Keyword Planner is connected.",
+      "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.seo.json"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The 684-word buying guide distinguishes ONYX from S.W.A.T., explains the three S.W.A.T. upper-and-insock combinations, adds four purchase-focused FAQs and provides direct fit guidance.",
+      "next_action": "",
+      "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.md"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The primary keyword appears in the H1, while trekking, trail and post-monsoon language is used naturally without unsupported superlatives or the supplied typo.",
+      "next_action": "Reassess keyword priority when measured demand becomes available.",
+      "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.seo.json"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "All six supplied product pages were verified on 2026-07-22. FAQ schema is enabled, structured specification fields were used where narrative copy conflicted, and time-sensitive prices and stock were excluded.",
+      "next_action": "Recheck all six product pages immediately before publication.",
+      "evidence_ref": "../logs/content/raw/20260722T-six-trail-products-verification.json"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The OFFLIMITS Editorial Team byline is recorded in metadata. Product comparisons trace to official pages and general trail/fit guidance traces to NPS and REI.",
+      "next_action": "Use a named OFFLIMITS footwear specialist and approved bio when available.",
+      "evidence_ref": "../blogs/drafts/trekking-shoes-for-men-post-monsoon-hike-six-products.authenticity.json"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The article links directly to all six supplied products and the Men's Trail Running Shoes collection.",
+      "next_action": "",
+      "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.md"
+    }
+  ]
+}

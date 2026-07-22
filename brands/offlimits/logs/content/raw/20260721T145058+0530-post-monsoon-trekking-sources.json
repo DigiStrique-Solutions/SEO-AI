@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-07-21T14:50:58+05:30",
+  "topic": "Trekking Shoes for Men: What to Look for Before a Post-Monsoon Hike",
+  "user_brief": {
+    "collection_url": "https://offlimits.co.in/collections/men-trail",
+    "keywords": {
+      "trekking shoes for men": 33100,
+      "trekking shoes": 60500,
+      "best trekking shoes": 1900,
+      "trekking boots men": 2900,
+      "best trekking shoes for men": 2900,
+      "treks shoes": 60500
+    },
+    "note": "Volumes are user supplied and have not been verified through GSC or Keyword Planner. The apparent typo 'treks shoes' is not forced into the copy."
+  },
+  "official_sources": [
+    {
+      "url": "https://offlimits.co.in/collections/men-trail",
+      "facts": [
+        "The supplied Men Trail collection currently presents S.W.A.T. (TRAIL EDITION) – SAGE GREEN/BLACK."
+      ]
+    },
+    {
+      "url": "https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02",
+      "facts": [
+        "The structured specification table lists a MESH/SYNTHETIC upper, EVA insock and PHYLON/TPR sole.",
+        "The product is lace-up and uses mid-cut boot styling.",
+        "OFFLIMITS describes the upper as breathable and reinforced, the cushioning as soft and flexible, and the outsole using steady-traction/slip-resistant language for challenging surfaces.",
+        "The product is positioned for trails, outdoor training and rugged conditions."
+      ],
+      "conflicts_and_limits": [
+        "Narrative copy conflicts with the structured specifications by also referring to a canvas/synthetic upper and a Phylon/EVA sole. The article follows the structured specification table.",
+        "The product page does not state that the shoe is waterproof. The article makes no waterproof claim.",
+        "Slip-resistant product language is not treated as a guarantee of grip on every wet surface."
+      ]
+    }
+  ],
+  "guidance_sources": [
+    {
+      "url": "https://www.nps.gov/thingstodo/glba-hiking.htm",
+      "publisher": "U.S. National Park Service",
+      "facts": [
+        "NPS notes that wet climates can create muddy, slippery trails and recommends sturdy shoes with good traction."
+      ]
+    },
+    {
+      "url": "https://www.rei.com/learn/expert-advice/hiking-boots.html",
+      "publisher": "REI Expert Advice",
+      "facts": [
+        "Hiking footwear should feel snug without feeling tight and should leave room for the toes to move.",
+        "Fit should be checked with the socks intended for hiking."
+      ]
+    }
+  ]
+}

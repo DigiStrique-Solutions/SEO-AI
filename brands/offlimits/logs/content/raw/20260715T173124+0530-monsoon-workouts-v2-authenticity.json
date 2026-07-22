@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS sells tees, shorts, tights, joggers, tracksuits and training footwear across men's and women's categories.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context",
+        "offlimits-sitemap"
+      ]
+    },
+    {
+      "claim": "Wiktech is the exact brand name for OFFLIMITS' moisture-evaporation technology and should only be associated with selected products whose details support it.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-brand-context"
+      ]
+    },
+    {
+      "claim": "Loose, lightweight, moisture-wicking clothing is recommended for exercise in hot conditions; humidity affects sweat evaporation.",
+      "claim_id": "claim-03",
+      "claim_type": "health_guidance",
+      "source_ids": [
+        "acsm-heat-guidance"
+      ]
+    },
+    {
+      "claim": "Dizziness, weakness, nausea or confusion during hot and humid exercise warrant stopping and responding to possible heat illness.",
+      "claim_id": "claim-04",
+      "claim_type": "health_guidance",
+      "source_ids": [
+        "cdc-heat-guidance",
+        "cdc-niosh-guidance"
+      ]
+    },
+    {
+      "claim": "Highlighted audit-like product passages should be removed and the article should use more conversational reader-facing content.",
+      "claim_id": "claim-05",
+      "claim_type": "editorial_direction",
+      "source_ids": [
+        "editor-feedback-doc"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-15T12:05:45+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 9.0,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-15T12:01:25+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "output_ref": "brands/offlimits/blogs/what-to-wear-for-monsoon-workouts.md",
+    "target": "https://offlimits.co.in/blogs/blogs/what-to-wear-for-monsoon-workouts"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Canonical working name is OFFLIMITS. Voice is motivational, gutsy, inclusive and value-conscious. Apparel includes tees, shorts, tights, joggers and tracksuits. Exact technology spelling is Wiktech, described as faster moisture evaporation.",
+      "source_id": "offlimits-brand-context",
+      "source_ref": "brands/offlimits/context.md; brands/offlimits/knowledge.md; brands/offlimits/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The storefront exposes relevant men's and women's apparel and training-footwear collections used for internal links.",
+      "source_id": "offlimits-sitemap",
+      "source_ref": "https://offlimits.co.in/pages/sitemap",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "ACSM advises loose-fitting, lightweight, moisture-wicking clothing for exercise in heat and identifies high heat plus humidity as a reason to consider indoor exercise.",
+      "source_id": "acsm-heat-guidance",
+      "source_ref": "https://www.acsm.org/docs/default-source/files-for-resource-library/exercising-hot-cold-environments.pdf",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "CDC explains that overheating can cause illness and advises heat-risk awareness and hydration.",
+      "source_id": "cdc-heat-guidance",
+      "source_ref": "https://www.cdc.gov/heat-health/about/index.html",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "NIOSH lists heat-illness signs and links excessive sweating in hot, humid conditions with salt and moisture loss.",
+      "source_id": "cdc-niosh-guidance",
+      "source_ref": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "User says yellow sections do not work, the draft has many mistakes, and the writing is flat because it lacks conversational content. An unresolved comment asks whether the highlighted men's-shorts paragraph is necessary.",
+      "source_id": "editor-feedback-doc",
+      "source_ref": "Google Doc 1Yupvy9O8FK20T9PgnezcGllHKLEB-3KsMQmaym55x30, revision ALtnJHwjZyYKpwN3OgIvzVT4O6Kno097TEpXnWFjhdYKv2exEyHXuxK3osVHlSKCN6r_rzzsigkmLbTVEBuwX0vbr-oKCXmYWWCnz55yzq0",
+      "source_type": "human_context"
+    }
+  ]
+}

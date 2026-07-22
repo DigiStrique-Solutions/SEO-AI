@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "claim": "The live OFFLIMITS Men Trail collection contains ONYX in Beige, Black and Transformative Teal.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-men-trail"
+      ]
+    },
+    {
+      "claim": "All three ONYX colourways list a KPU/Flyknit upper, Phylon/TPR sole, moulded-socks insock and lace-up closure.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-onyx-products"
+      ]
+    },
+    {
+      "claim": "OFFLIMITS connects the ONYX upper with breathability, flexibility, structure and protection; the sole with cushioning, flexibility, traction and shock absorption; and the insock with a soft, contoured feel.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-onyx-products"
+      ]
+    },
+    {
+      "claim": "Sturdy footwear with good traction is appropriate for muddy, potentially slippery trails.",
+      "claim_id": "claim-04",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "nps-wet-trail-guidance"
+      ]
+    },
+    {
+      "claim": "Hiking footwear should fit snugly without feeling tight, leave room for toe movement and be tried with intended hiking socks.",
+      "claim_id": "claim-05",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "rei-hiking-fit"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-22T11:14:29+00:00",
+      "feedback": "Your Text is Most Likely Human written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 15.7,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-22T11:11:40+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/trekking-shoes-for-men-post-monsoon-hike"
+  },
+  "sources": [
+    {
+      "extracted_facts": "The live Men's Trail Running Shoes collection displayed ONYX - Beige, ONYX - Black and ONYX - Transformative Teal on 2026-07-22. S.W.A.T. Trail Edition was not present.",
+      "source_id": "offlimits-men-trail",
+      "source_ref": "https://offlimits.co.in/collections/men-trail; verified 2026-07-22; raw evidence brands/offlimits/logs/content/raw/20260722T-men-trail-collection-reverification.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Each ONYX colourway lists lace-up closure, KPU/Flyknit upper, moulded-socks insock and Phylon/TPR sole. Product copy links Flyknit and KPU with breathability, flexibility, reinforcement and protection; Phylon/TPR with cushioning, flexibility, traction and shock absorption; and the moulded insock with a soft, contoured feel. The pages position ONYX for trails, hiking, outdoor exploration and training. No waterproof claim appears.",
+      "source_id": "offlimits-onyx-products",
+      "source_ref": "https://offlimits.co.in/collections/men-trail/products/onyx-beige-ocm-715-03; https://offlimits.co.in/collections/men-trail/products/onyx-light-black-ocm-715-01; https://offlimits.co.in/collections/men-trail/products/onyx-transformative-teal-ocm-715-04; verified 2026-07-22; raw evidence brands/offlimits/logs/content/raw/20260722T-men-trail-collection-reverification.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Wet climates can create muddy, slippery trails; NPS recommends sturdy shoes with good traction.",
+      "source_id": "nps-wet-trail-guidance",
+      "source_ref": "https://www.nps.gov/thingstodo/glba-hiking.htm; accessed 2026-07-21",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Hiking footwear should fit snugly but not tightly, allow toe movement and be checked with the socks intended for the hike.",
+      "source_id": "rei-hiking-fit",
+      "source_ref": "https://www.rei.com/learn/expert-advice/hiking-boots.html; accessed 2026-07-21",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The article must use the products from the supplied Men Trail collection and follow OFFLIMITS product-led buying-guide fundamentals.",
+      "source_id": "user-correction-and-brand-rules",
+      "source_ref": "User message received 2026-07-22; brands/offlimits/fundamentals.md; brands/offlimits/knowledge.md",
+      "source_type": "human_context"
+    }
+  ]
+}
