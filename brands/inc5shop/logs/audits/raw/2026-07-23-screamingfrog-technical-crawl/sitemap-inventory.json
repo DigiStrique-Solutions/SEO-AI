@@ -1,0 +1,50 @@
+{
+  "run_id": "inc5shop-screamingfrog-20260723",
+  "source": "https://inc5shop.com/sitemap.xml",
+  "checked_at": "2026-07-23T11:27:00Z",
+  "total_urls": 3251,
+  "unique_urls": 3251,
+  "counts": {
+    "products": 2584,
+    "collections": 351,
+    "pages": 217,
+    "blogs": 97,
+    "home": 1,
+    "agents_md": 1
+  },
+  "child_sitemaps": [
+    {"url":"https://inc5shop.com/sitemap_agentic_discovery.xml","urls":1},
+    {"url":"https://inc5shop.com/sitemap_products_1.xml?from=7245862994094&to=9008779919604","urls":1001},
+    {"url":"https://inc5shop.com/sitemap_products_2.xml?from=9008780837108&to=9330182521076","urls":1000},
+    {"url":"https://inc5shop.com/sitemap_products_3.xml?from=9330182619380&to=9509902483700","urls":584},
+    {"url":"https://inc5shop.com/sitemap_pages_1.xml?from=81500438702&to=130252472564","urls":217},
+    {"url":"https://inc5shop.com/sitemap_collections_1.xml?from=267569365166&to=485268750580","urls":351},
+    {"url":"https://inc5shop.com/sitemap_blogs_1.xml","urls":97}
+  ],
+  "suspect_collection_pattern_count": 88,
+  "suspect_collection_examples": [
+    "https://inc5shop.com/collections/test",
+    "https://inc5shop.com/collections/testnew",
+    "https://inc5shop.com/collections/new-arrivals-2022",
+    "https://inc5shop.com/collections/inventory-active-from-draft",
+    "https://inc5shop.com/collections/in-house-bag-all-stock-25-07-2023",
+    "https://inc5shop.com/collections/inc-5-ladies-all-stock-25-07-2023",
+    "https://inc5shop.com/collections/full-fresh-aug-2023",
+    "https://inc5shop.com/collections/zero-stock-25-09",
+    "https://inc5shop.com/collections/creative-31-10-2023",
+    "https://inc5shop.com/collections/put-in-draft-22-11-2023",
+    "https://inc5shop.com/collections/offline-28-03-2024",
+    "https://inc5shop.com/collections/test-women-1",
+    "https://inc5shop.com/collections/test-men-1",
+    "https://inc5shop.com/collections/shoot-pending-14-05-2025",
+    "https://inc5shop.com/collections/new-test",
+    "https://inc5shop.com/collections/test-4",
+    "https://inc5shop.com/collections/missing-bag-creative",
+    "https://inc5shop.com/collections/mens-eoss-jan-2026",
+    "https://inc5shop.com/collections/bags-eoss-jan-2026",
+    "https://inc5shop.com/collections/ladies-june-eoss-2026",
+    "https://inc5shop.com/collections/mens-june-eoss-2026",
+    "https://inc5shop.com/collections/bags-june-eoss-2026"
+  ],
+  "note": "Pattern matches require merchandising review; a matching handle is not by itself proof that a page should be removed."
+}

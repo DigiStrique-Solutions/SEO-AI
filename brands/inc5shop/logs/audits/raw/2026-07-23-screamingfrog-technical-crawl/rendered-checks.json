@@ -1,0 +1,45 @@
+{
+  "run_id": "inc5shop-screamingfrog-20260723",
+  "provider": "firecrawl",
+  "checked_at": "2026-07-23T11:25:00Z",
+  "options": {"waitFor": 5000, "mobile": true, "proxy": "auto", "format": "json"},
+  "pages": [
+    {
+      "source_url": "https://inc5shop.com/",
+      "scrape_id": "019f8eb7-875f-7728-b456-1fa26535c434",
+      "status_code": 200,
+      "visible_main_content": true,
+      "document_title": "Exclusive Fashion Footwear Online - Inc 5 Shoes",
+      "h1_texts": ["Check your points", "SHOP BAGS", "FOR HER", "FOR HIM", "Let customers speak for us"],
+      "proxy_used": "basic"
+    },
+    {
+      "source_url": "https://inc5shop.com/collections/womens-heels",
+      "scrape_id": "019f8eb7-83d1-72bf-9440-4937ddc02e4a",
+      "status_code": 200,
+      "visible_main_content": true,
+      "document_title": "Womens Heels - Buy Stylish Heels for Women Online | Inc5",
+      "h1_texts": ["Collection: Heels"],
+      "proxy_used": "basic"
+    },
+    {
+      "source_url": "https://inc5shop.com/products/women-purple-casual-solid-round-toe-loafers-3642-purple",
+      "scrape_id": "019f8eb7-8a4e-737b-91b0-4696f7f0282e",
+      "status_code": 200,
+      "visible_main_content": true,
+      "document_title": "Buy Now Women Purple Casual Solid Round Toe Loafers",
+      "canonical": "https://inc5shop.com/products/women-purple-casual-solid-round-toe-loafers-3642-purple",
+      "h1_texts": ["Women Purple Casual Solid Round Toe Loafers"],
+      "proxy_used": "stealth"
+    },
+    {
+      "source_url": "https://inc5shop.com/blogs/blog",
+      "scrape_id": "019f8eb7-8e3e-705f-80d6-fb84a6f30a45",
+      "status_code": 200,
+      "visible_main_content": true,
+      "document_title": "INC5 Fashion Blog – Women’s Footwear & Style Trends",
+      "h1_texts": ["Hot Stepper Sale is Live – Flat 50% Off"],
+      "proxy_used": "stealth"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # SEO Audit Summary — Inc.5 (inc5shop.com)
 
+> **Latest technical crawl (2026-07-23):** Screaming Frog found 11 verified issue groups, led by 351 sitemap collections (88 conservative review candidates), 1,117 images over 100 KB, missing image attributes, a broken app JavaScript asset and indexable `/cart`. The crawl is **partial** because 712 HTML requests were throttled with HTTP 429. See `technical-screamingfrog-20260723.md`.
+
 **Run date:** 2026-07-13 · **Target:** https://inc5shop.com · **Overall score: 0.75** (avg of 5 scored audits)
 **Totals:** 38 items — 24 pass · 7 fail · 7 not_applicable
 **Evidence:** Firecrawl rendered checks (homepage, collection, PDP), robots.txt, sitemap.xml, llms.txt, and GSC query/page data (300 queries / 100 pages). Provenance: `logs/audits/raw/20260713T095500Z-site-checks.json`.

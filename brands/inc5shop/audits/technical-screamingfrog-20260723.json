@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "technical-screamingfrog-20260723",
+  "brand_id": "inc5shop",
+  "run_id": "inc5shop-screamingfrog-20260723",
+  "run_date": "2026-07-23",
+  "target_url": "https://inc5shop.com/",
+  "status": "partial",
+  "status_reason": "Screaming Frog received HTTP 429 for 712 of 753 HTML URLs. Four representative throttled URLs returned 200 on slow retest.",
+  "crawl": {
+    "screaming_frog_version": "24.3",
+    "urls_encountered": 2327,
+    "urls_crawled": 2324,
+    "internal_urls": 2253,
+    "external_urls": 74,
+    "internal_success_2xx": 1539,
+    "internal_429": 712,
+    "internal_5xx": 0,
+    "internal_3xx": 0,
+    "successful_html": 41,
+    "images": 1467
+  },
+  "findings": [
+    {"id":"T01","severity":"high","status":"fail","title":"Sitemap/index bloat from operational collections","evidence":{"sitemap_urls":3251,"collections":351,"suspect_pattern_matches":88},"owner":"SEO + ecommerce merchandising + Shopify developer","confidence":"high"},
+    {"id":"T02","severity":"high","status":"fail","title":"Image payload is excessive","evidence":{"images_over_100kb":1117,"images_over_500kb":202,"images_over_1mb":189,"largest_bytes":4932795},"owner":"Shopify developer + creative/merchandising","confidence":"high"},
+    {"id":"T03","severity":"medium","status":"fail","title":"Missing image alternative text and dimensions","evidence":{"missing_alt_attribute":235,"empty_alt_text":19,"missing_size_attributes":241},"owner":"Shopify developer + content/merchandising","confidence":"high"},
+    {"id":"T04","severity":"medium","status":"fail","title":"Broken Shopify app JavaScript asset","evidence":{"status":404,"affected_source_pages":4,"resource":"https://cdn.shopify.com/extensions/019f455a-4fa1-7c03-aea8-57ec03bc13c6/omni-storelocator-app-2-307/assets/map-style.js"},"owner":"Shopify developer / app owner","confidence":"high"},
+    {"id":"T05","severity":"medium","status":"fail","title":"Cart utility page is indexable","evidence":{"url":"https://inc5shop.com/cart","status":200,"robots_meta":"","canonical":"https://inc5shop.com/cart"},"owner":"Shopify developer + SEO","confidence":"high"},
+    {"id":"T06","severity":"medium","status":"fail","title":"Heading structure is inconsistent","evidence":{"raw_h1_missing":3,"raw_h1_multiple":2,"duplicate_h1_pages":2,"nonsequential_h1_pages":36,"rendered_home_h1_count":5},"owner":"Shopify theme developer + SEO/content","confidence":"high"},
+    {"id":"T07","severity":"medium","status":"fail","title":"Metadata coverage and length need template cleanup","evidence":{"sample_html_pages":41,"missing_meta_descriptions":13,"meta_descriptions_over_155":22,"titles_over_60":10,"titles_below_30":8},"owner":"SEO/content + ecommerce merchandising","confidence":"high on successful sample"},
+    {"id":"T08","severity":"medium","status":"not_checked_blocked","title":"Crawler throttling prevents complete audit","evidence":{"http_429":712,"slow_retests_200":4},"owner":"Ecommerce platform/infrastructure + SEO","confidence":"high"},
+    {"id":"T09","severity":"medium","status":"fail","title":"Mobile lab performance poor despite passing field CWV","evidence":{"lab_performance_score":40,"lab_lcp_ms":5539.54,"lab_tbt_ms":1933.5,"lab_interactive_ms":28792.69,"field_lcp_p75_ms":1752,"field_inp_p75_ms":159,"field_cls_p75":"0.00","field_ttfb_p75_ms":816},"owner":"Shopify performance developer","confidence":"high"},
+    {"id":"T10","severity":"low","status":"fail","title":"Security and link hygiene issues","evidence":{"protocol_relative_source_pages":41,"unsafe_cross_origin_source_pages":4,"referrer_policy_missing_on_sample":true,"mixed_content_urls":0},"owner":"Shopify developer + content owner","confidence":"high"},
+    {"id":"T11","severity":"low","status":"fail","title":"Three .webp URLs served as JPEG","evidence":{"affected_assets":3},"owner":"Creative + Shopify developer","confidence":"high"}
+  ],
+  "blocked_checks": [
+    "sitewide HTML response-code validation",
+    "sitewide canonicals",
+    "sitewide pagination",
+    "sitewide duplicate content",
+    "structured data in this Screaming Frog configuration",
+    "sitewide JavaScript/mobile rendering",
+    "full accessibility"
+  ],
+  "evidence_ref": "logs/audits/raw/2026-07-23-screamingfrog-technical-crawl/"
+}
