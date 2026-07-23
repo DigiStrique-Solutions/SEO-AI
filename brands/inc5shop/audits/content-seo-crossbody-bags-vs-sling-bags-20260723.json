@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "draft://crossbody-bags-vs-sling-bags-whats-the-difference",
+  "run_date": "2026-07-23",
+  "score": 1.0,
+  "counts": {"items": 7, "pass": 7, "fail": 0, "not_applicable": 0},
+  "rows": [
+    {"item_id":"page-purpose","section_id":"purpose-intent","status":"pass","result":"The article has one dominant purpose: help a shopper distinguish overlapping crossbody and sling terminology and choose by construction and use case.","next_action":"","evidence_ref":"blogs/drafts/crossbody-bags-vs-sling-bags-whats-the-difference.md#crossbody-bags-vs-sling-bags-whats-the-difference"},
+    {"item_id":"intent-match","section_id":"purpose-intent","status":"pass","result":"The exact comparison query is answered in the introduction, followed by definitions, a table, use cases and buying criteria; the supplied brief and a comparison search result confirm mixed informational-commercial intent.","next_action":"","evidence_ref":"logs/web_data/raw/20260723T082957Z-crossbody-sling-blog-research.json#keyword_and_serp_intent"},
+    {"item_id":"content-depth","section_id":"depth-quality","status":"pass","result":"The draft covers overlap, carrying position, strap, capacity, closure, occasion, verified products, care, a buying sequence and decision-focused questions.","next_action":"","evidence_ref":"blogs/drafts/crossbody-bags-vs-sling-bags-whats-the-difference.md"},
+    {"item_id":"keyword-coverage","section_id":"depth-quality","status":"pass","result":"Primary comparison wording appears in title, H1, introduction and comparison heading; close sling and crossbody variants appear naturally without repeating malformed keyword variants.","next_action":"","evidence_ref":"blogs/drafts/crossbody-bags-vs-sling-bags-whats-the-difference.md"},
+    {"item_id":"freshness","section_id":"depth-quality","status":"pass","result":"Current Inc.5 collection and representative product pages were checked on 2026-07-23; prices and stock were excluded as volatile.","next_action":"Recheck product names, links and availability at CMS publication time.","evidence_ref":"logs/web_data/raw/20260723T082957Z-crossbody-sling-blog-research.json#inc5_sources"},
+    {"item_id":"author-eeat","section_id":"eeat","status":"pass","result":"Product assertions are linked to official Inc.5 pages, and the comparison is bounded by a recorded terminology source rather than presented as an unsourced universal rule.","next_action":"Add the standard Inc.5 editorial byline in the CMS if the template supports one.","evidence_ref":"blogs/drafts/crossbody-bags-vs-sling-bags-20260723.authenticity.json"},
+    {"item_id":"internal-links","section_id":"eeat","status":"pass","result":"The draft contains contextual links to the Inc.5 sling collection and two directly relevant Inc.5 product pages.","next_action":"","evidence_ref":"blogs/drafts/crossbody-bags-vs-sling-bags-whats-the-difference.md"}
+  ]
+}

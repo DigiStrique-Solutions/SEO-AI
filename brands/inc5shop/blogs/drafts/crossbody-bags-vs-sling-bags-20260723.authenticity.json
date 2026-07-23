@@ -1,0 +1,116 @@
+{
+  "claims": [
+    {
+      "claim_id": "crossbody-sling-overlap",
+      "claim_type": "comparison",
+      "criteria": "The distinction is framed as a useful retail convention, not a universal technical standard, and is supported by both an Inc.5 product using the terms together and an external category guide.",
+      "source_ids": [
+        "inc5-black-party-sling-pdp",
+        "carrypro-comparison"
+      ],
+      "statement": "Crossbody primarily describes diagonal across-the-body wear, while sling is commonly used as a compact single-strap product style or retail category; the terms overlap and one bag may qualify as both."
+    },
+    {
+      "claim_id": "inc5-sling-category",
+      "claim_type": "product_fact",
+      "criteria": "Category and visible closure examples come from the current official Inc.5 collection checked on 2026-07-23.",
+      "source_ids": [
+        "inc5-sling-collection"
+      ],
+      "statement": "Inc.5 has a Sling Bags collection that currently shows casual and party-led products using zip, twist, push and magnet closures across different listings."
+    },
+    {
+      "claim_id": "inc5-tan-phone-sling",
+      "claim_type": "product_fact",
+      "criteria": "Only the current official title and structured product attributes are used; dimensions and universal capacity are not invented.",
+      "source_ids": [
+        "inc5-tan-phone-sling-pdp"
+      ],
+      "statement": "The Women's Tan Casual Solid Phone Sling Bag With Zip Lock is listed as a synthetic, solid, casual sling with zip closure."
+    },
+    {
+      "claim_id": "inc5-black-party-sling",
+      "claim_type": "product_fact",
+      "criteria": "Only current official product attributes and the page's own cross-body wording are used.",
+      "source_ids": [
+        "inc5-black-party-sling-pdp"
+      ],
+      "statement": "The Women's Black Sling Bag With Zip Lock for Party Use is listed as fabric, textured, party and zip closure; its description calls it a cross-body design and an alternative to a traditional clutch."
+    },
+    {
+      "claim_id": "inc5-bag-care",
+      "claim_type": "product_fact",
+      "criteria": "Care guidance is limited to the current official instructions repeated on the representative Inc.5 product pages.",
+      "source_ids": [
+        "inc5-tan-phone-sling-pdp",
+        "inc5-black-party-sling-pdp"
+      ],
+      "statement": "Inc.5 advises keeping the bags away from moisture, direct sunlight and sharp objects, avoiding overloading, wiping with a dry cloth, and storing with tissue in a dust bag."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-23T08:32:04+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-23T08:29:58+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "crossbody-bags-vs-sling-bags-20260723"
+  },
+  "sources": [
+    {
+      "extracted_facts": "User supplied the title Crossbody Bags vs Sling Bags: What's the Difference? and an India keyword brief led by sling bag women (246000), sling bag for women / sling bags for women (201000), bag sling / sling bag (110000), plus crossbody and cross body sling bag variants.",
+      "source_id": "keyword-brief-image",
+      "source_ref": "C:/Users/User/AppData/Local/Temp/codex-clipboard-369757d2-1497-4224-ac97-dd7942ad3ec4.png",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Current official Sling Bags collection. Visible product names include party sling designs using twist, push and magnet locks; the broader collection also includes zip-closure products.",
+      "source_id": "inc5-sling-collection",
+      "source_ref": "https://inc5shop.com/collections/sling-bags (checked 2026-07-23)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current title: Women's Tan Casual Solid Phone Sling Bag With Zip Lock; article LYNG27-8834 TAN; synthetic; zip closure; solid; casual. Current page also supplies the bag-care instructions recorded in the care claim.",
+      "source_id": "inc5-tan-phone-sling-pdp",
+      "source_ref": "https://inc5shop.com/products/womens-tan-casual-solid-sling-bag-with-zip-lock-lyng27-8834-tan (checked 2026-07-23)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current title: Women's Black Sling Bag With Zip Lock for Party Use; article LYNG30-8916 BLACK; fabric; zip closure; textured; party. Product description explicitly says cross-body design and presents it as an alternative to a traditional clutch.",
+      "source_id": "inc5-black-party-sling-pdp",
+      "source_ref": "https://inc5shop.com/products/womens-black-sling-bag-with-zip-lock-for-party-use-lyng30-8916-black (checked 2026-07-23)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Retail comparison describes both as overlapping single-strap, diagonally worn formats; treats crossbody as the broader carrying term and sling as a more compact style. Draft does not reuse its unverified universal capacity ranges.",
+      "source_id": "carrypro-comparison",
+      "source_ref": "https://carrypro.in/blogs/news/sling-bag-vs-crossbody-bag-whats-the-actual-difference (checked 2026-07-23)",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": "The broad types-of-handbags guide already covers sling bags briefly, while the sling-bag collection owns the commercial stylish sling bag for women target. This draft therefore owns the narrower comparison intent and links to the collection rather than duplicating the parent guide.",
+      "source_id": "inc5-existing-content",
+      "source_ref": "brands/inc5shop/blogs/summary.md + brands/inc5shop/blogs/published/different-types-of-handbags-every-woman-should-own.md + brands/inc5shop/keywords/universe.csv",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Use a purchase-led flow, compare bags by capacity, closure, strap, material and occasion, ground scenarios in Indian routines, integrate verified Inc.5 products and finish with a category CTA.",
+      "source_id": "inc5-fundamentals",
+      "source_ref": "brands/inc5shop/fundamentals.md + brands/inc5shop/knowledge.md",
+      "source_type": "brand_dna"
+    }
+  ]
+}

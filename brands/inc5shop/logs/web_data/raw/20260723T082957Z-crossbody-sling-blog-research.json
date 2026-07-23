@@ -1,0 +1,20 @@
+{
+  "run_id": "inc5shop-crossbody-sling-blog-20260723",
+  "checked_at": "2026-07-23T08:29:57Z",
+  "purpose": "Verify Inc.5 sling taxonomy, current product facts, care guidance and the overlap between sling and crossbody terminology for a comparison blog.",
+  "keyword_and_serp_intent": {
+    "brief_source": "C:/Users/User/AppData/Local/Temp/codex-clipboard-369757d2-1497-4224-ac97-dd7942ad3ec4.png",
+    "intent": "mixed informational and commercial",
+    "firecrawl_search_id": "019f8e17-59b0-705b-94a7-a6de374c9b43",
+    "result": "Comparison guides dominate the direct difference query; retailer results consistently note terminology overlap."
+  },
+  "inc5_sources": [
+    {"url":"https://inc5shop.com/collections/sling-bags","status":"ok","facts":"Official Sling Bags category; visible party products use twist, push and magnet locks."},
+    {"url":"https://inc5shop.com/products/womens-tan-casual-solid-sling-bag-with-zip-lock-lyng27-8834-tan","status":"ok","facts":"Phone sling; synthetic; solid; casual; zip; current care instructions verified."},
+    {"url":"https://inc5shop.com/products/womens-black-sling-bag-with-zip-lock-for-party-use-lyng30-8916-black","status":"ok","facts":"Party sling; fabric; textured; zip; description explicitly uses cross-body design and traditional-clutch alternative wording."},
+    {"url":"https://inc5shop.com/products/womens-beige-casual-sling-bag-with-zip-lock-lyng35-8904-beige","status":"partial","facts":"Page title verified; structured facts were not available, so the product was excluded from copy."}
+  ],
+  "external_source": {"url":"https://carrypro.in/blogs/news/sling-bag-vs-crossbody-bag-whats-the-actual-difference","status":"ok","facts":"Describes overlap; treats crossbody as broader carrying term and sling as compact style. Unverified capacity ranges were excluded."},
+  "failed_fetch": {"provider":"firecrawl_scrape","url":"https://inc5shop.com/products/womens-black-sling-bag-with-zip-lock-for-party-use-lyng30-8916-black","status":"failed","http_status":429,"result":"Connection verification page; facts were recovered through Firecrawl structured extraction and a separate read-only web fetch."},
+  "status": "ok"
+}
