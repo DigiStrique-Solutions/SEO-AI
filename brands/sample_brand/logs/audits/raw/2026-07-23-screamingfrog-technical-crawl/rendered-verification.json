@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "20260723T111541Z-screamingfrog-technical",
+  "checked_at": "2026-07-23T11:20:00Z",
+  "provider": "browser_rendered_check",
+  "viewport_requested": {
+    "width": 390,
+    "height": 844
+  },
+  "viewport_observed_width": 375,
+  "pages": [
+    {
+      "url": "https://www.strique.io/",
+      "title": "Agentic AI Marketing Platform for Growth Teams | Strique",
+      "canonical": "https://www.strique.io/",
+      "h1_count": 1,
+      "viewport_meta": "width=device-width, initial-scale=1",
+      "horizontal_overflow": false,
+      "missing_alt_attribute_count": 0,
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "SoftwareApplication",
+        "FAQPage"
+      ],
+      "console_errors_or_warnings": 0
+    },
+    {
+      "url": "https://www.strique.io/product",
+      "title": "Strique: Agentic AI Marketing Platform for Ecommerce Brands \u00b7 Strique",
+      "canonical": "https://www.strique.io/product",
+      "h1_count": 1,
+      "viewport_meta": "width=device-width, initial-scale=1",
+      "horizontal_overflow": false,
+      "missing_alt_attribute_count": 0,
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "SoftwareApplication"
+      ],
+      "console_errors_or_warnings": 0
+    },
+    {
+      "url": "https://www.strique.io/contact",
+      "title": "Contact Strique Sales and Support \u00b7 Strique",
+      "canonical": "https://www.strique.io/contact",
+      "h1_count": 1,
+      "viewport_meta": "width=device-width, initial-scale=1",
+      "horizontal_overflow": false,
+      "missing_alt_attribute_count": 0,
+      "schema_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "console_errors_or_warnings": 0
+    },
+    {
+      "url": "https://www.strique.io/trust-center",
+      "title": "Strique Trust Center - Security, Compliance & Data Practices \u00b7 Strique",
+      "canonical": "https://www.strique.io/trust-center",
+      "h1_count": 1,
+      "viewport_meta": "width=device-width, initial-scale=1",
+      "horizontal_overflow": false,
+      "missing_alt_attribute_count": 0,
+      "schema_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "console_errors_or_warnings": 0
+    }
+  ],
+  "notes": [
+    "Screaming Frog's base crawl did not render JavaScript and therefore did not detect the client-injected JSON-LD.",
+    "This is a bounded rendered verification, not a full rendered crawl, accessibility audit, or mobile usability audit."
+  ]
+}
