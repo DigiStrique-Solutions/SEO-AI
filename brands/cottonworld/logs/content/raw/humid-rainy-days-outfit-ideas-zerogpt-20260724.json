@@ -1,0 +1,14 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-24T10:15:51+00:00",
+    "fallback_error": "ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+    "max_score": 20.0,
+    "note": "ZeroGPT unreachable (ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+    "score": 6.0,
+    "source": "local_fallback",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

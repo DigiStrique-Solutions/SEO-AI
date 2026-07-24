@@ -1,0 +1,71 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-24T09:53:31+00:00",
+      "fallback_error": "ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.26,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T10:15:28+00:00",
+      "fallback_error": "ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T10:15:51+00:00",
+      "fallback_error": "ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT request failed: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-24T09:50:53+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/blogs/blog/relaxed-outfit-ideas-humid-rainy-days"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld sells cotton, linen and bamboo clothing for men and women.",
+        "The brand positions its natural-fabric clothing around comfort and India's climate."
+      ],
+      "source_id": "brand-dna-20260713",
+      "source_ref": "brands/cottonworld/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The eight linked Cottonworld products and their listed titles, fabric descriptions, fit, category and product URLs were recorded as available in the catalog crawl on 2026-07-14."
+      ],
+      "source_id": "catalog-20260714",
+      "source_ref": "brands/cottonworld/logs/web_data/raw/cottonworld-live-catalog-match-20260714T1950+0530.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The brand keyword map lists cotton clothing for men and cotton clothing for women as high-priority transactional collection targets."
+      ],
+      "source_id": "keyword-map-20260713",
+      "source_ref": "brands/cottonworld/keywords/keywords.csv",
+      "source_type": "human_context"
+    }
+  ]
+}
