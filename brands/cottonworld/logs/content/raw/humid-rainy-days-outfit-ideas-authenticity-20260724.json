@@ -30,6 +30,16 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T12:01:11+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -65,6 +75,15 @@
       ],
       "source_id": "keyword-map-20260713",
       "source_ref": "brands/cottonworld/keywords/keywords.csv",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The approved tone is calm, warm, thoughtful and grounded in slow living, natural fibres, simplicity, comfort and timeless style.",
+        "Product references should be naturally woven into useful everyday guidance rather than sales-focused copy."
+      ],
+      "source_id": "cottonworld-tone-guide-20260724",
+      "source_ref": "C:/Users/User/.codex/attachments/7dc7d1a6-df29-4412-8ef6-fd23d721a8a3/pasted-text.txt",
       "source_type": "human_context"
     }
   ]
