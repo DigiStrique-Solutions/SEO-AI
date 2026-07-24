@@ -1,0 +1,99 @@
+{
+  "run_id": "inc5shop-google-docs-published-import-20260724",
+  "timestamp": "2026-07-24T12:30:51.631Z",
+  "brand_id": "inc5shop",
+  "provider": "google_drive",
+  "action": "import_published_blogs_as_native_google_docs",
+  "source_directory": "brands/inc5shop/blogs/published",
+  "account_owner": {
+    "display_name": "Seo Digimaze",
+    "email": "sdigimaze@gmail.com"
+  },
+  "formatting": {
+    "preset": "google_docs_default",
+    "font_family": "Arial",
+    "title_size_pt": 26,
+    "markdown_frontmatter_removed": true,
+    "markdown_markers_removed": true,
+    "native_headings": true,
+    "native_lists": true,
+    "native_tables": true,
+    "clickable_links": true
+  },
+  "visual_qa": {
+    "status": "not_checked_blocked",
+    "blocker": "LibreOffice/soffice is not installed in the local document-rendering environment.",
+    "fallback": "DOCX structural audit plus Google Docs API readback."
+  },
+  "documents": [
+    {
+      "source": "brands/inc5shop/blogs/published/best-boots-for-women-in-india-winter-styling-2026.md",
+      "title": "Best Boots for Women in India: Winter Styling Guide for 2026",
+      "document_id": "1_vDLU8Hl3hngG-ZBSmrf9aEr2daiN0OtVpLwkqMCg5U",
+      "url": "https://docs.google.com/document/d/1_vDLU8Hl3hngG-ZBSmrf9aEr2daiN0OtVpLwkqMCg5U",
+      "mime_type": "application/vnd.google-apps.document",
+      "readback": {
+        "headings": 13,
+        "lists": 10,
+        "tables": 0,
+        "links": 6,
+        "font_family": "Arial",
+        "markdown_visible": false,
+        "frontmatter_visible": false,
+        "status": "pass"
+      }
+    },
+    {
+      "source": "brands/inc5shop/blogs/published/block-heels-vs-kitten-heels-which-one-should-you-choose.md",
+      "title": "Block Heels vs Kitten Heels: Which One Should You Choose?",
+      "document_id": "1ezdfneaTR4DNfz2jIRDCvilDM2s8IBS9gLwBDwupMwY",
+      "url": "https://docs.google.com/document/d/1ezdfneaTR4DNfz2jIRDCvilDM2s8IBS9gLwBDwupMwY",
+      "mime_type": "application/vnd.google-apps.document",
+      "readback": {
+        "headings": 6,
+        "lists": 0,
+        "tables": 0,
+        "links": 3,
+        "font_family": "Arial",
+        "markdown_visible": false,
+        "frontmatter_visible": false,
+        "status": "pass"
+      }
+    },
+    {
+      "source": "brands/inc5shop/blogs/published/crossbody-bags-vs-sling-bags-whats-the-difference.md",
+      "title": "Crossbody Bags vs Sling Bags: What's the Difference?",
+      "document_id": "1DV9jgN2SPAZIWqygcwRKmra2d7M9OFSgY8FpuP--rqs",
+      "url": "https://docs.google.com/document/d/1DV9jgN2SPAZIWqygcwRKmra2d7M9OFSgY8FpuP--rqs",
+      "mime_type": "application/vnd.google-apps.document",
+      "readback": {
+        "headings": 14,
+        "lists": 10,
+        "tables": 1,
+        "links": 4,
+        "font_family": "Arial",
+        "markdown_visible": false,
+        "frontmatter_visible": false,
+        "status": "pass"
+      }
+    },
+    {
+      "source": "brands/inc5shop/blogs/published/different-types-of-handbags-every-woman-should-own.md",
+      "title": "Different Types of Handbags Every Woman Should Own",
+      "document_id": "1Bekd2TUgh4SvBCth4ATlGxkfVMS7BRoKYhVZoP8FX6s",
+      "url": "https://docs.google.com/document/d/1Bekd2TUgh4SvBCth4ATlGxkfVMS7BRoKYhVZoP8FX6s",
+      "mime_type": "application/vnd.google-apps.document",
+      "readback": {
+        "headings": 14,
+        "lists": 13,
+        "tables": 1,
+        "links": 8,
+        "font_family": "Arial",
+        "markdown_visible": false,
+        "frontmatter_visible": false,
+        "status": "pass"
+      }
+    }
+  ],
+  "status": "ok"
+}
