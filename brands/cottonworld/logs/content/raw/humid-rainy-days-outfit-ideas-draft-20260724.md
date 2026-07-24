@@ -20,30 +20,19 @@ Before choosing an outfit, picture the part of the day that usually causes troub
 
 ## Outfit ideas 1 and 2: the workday that starts outside
 
-For the first idea, pair a plain T-shirt with a dark, regular-fit pant. It is a reliable choice when you are leaving early and do not want to decide again in front of the mirror. The second idea is a cotton shirt with trousers. Wear it untucked for a less formal day, or tuck it in when the diary has a meeting that needs a little more structure. Both options work well for cotton clothing for men because they are easy to repeat. The aim is not to look as though you planned around the rain. It is to feel like yourself when the day becomes busy.
+For the first idea, pair a plain T-shirt with a dark, regular-fit pant. It is a reliable choice when you are leaving early and do not want to decide again in front of the mirror. The second idea is a cotton shirt with trousers. Wear it untucked for a less formal day, or tuck it in when the diary has a meeting that needs a little more structure. Both options work well for [cotton clothing for men](https://cottonworld.net/collections/summer-for-men) because they are easy to repeat. The aim is not to look as though you planned around the rain. It is to feel like yourself when the day becomes busy.
 
 ## Outfit ideas 3 and 4: ease for a full day out
 
-The third idea is a regular-fit T-shirt with a dark pant. It works for a morning of errands, a shared cab across town or a workday that ends with dinner. A darker lower half can feel more reassuring when the roads are wet, while the T-shirt keeps the outfit uncomplicated. For the fourth idea, choose a simple dress and comfortable footwear. This is useful when matching separates feels like one decision too many. Add a bag that leaves one hand free for your umbrella, and avoid accessories that need adjusting every few minutes. These are practical options within cotton clothing for women: they give you a clear starting point, then allow you to make the outfit your own with colour, jewellery or a familiar layer.
+The third idea is a regular-fit T-shirt with a dark pant. It works for a morning of errands, a shared cab across town or a workday that ends with dinner. A darker lower half can feel more reassuring when the roads are wet, while the T-shirt keeps the outfit uncomplicated. For the fourth idea, choose a simple dress and comfortable footwear. This is useful when matching separates feels like one decision too many. Add a bag that leaves one hand free for your umbrella, and avoid accessories that need adjusting every few minutes. These are practical options within [cotton clothing for women](https://cottonworld.net/collections/summer-for-women): they give you a clear starting point, then allow you to make the outfit your own with colour, jewellery or a familiar layer.
 
 ## Outfit ideas 5 and 6: plans that leave room to change
 
-The fifth idea is for days that move between warm streets and cold rooms. Start with a T-shirt, then wear a light shirt open over it. If the afternoon becomes sticky, the shirt can come off; if the office air-conditioning feels sharp, it goes back on. The sixth idea is for a nearby weekend plan: shorts with a T-shirt, kept for a short route and gentler weather. It is worth being honest about the plan here. If you are travelling across the city or the rain is already steady, trousers will probably serve you better. Monsoon fashion becomes much more useful when it follows your actual day, not an imagined version of it.
+The fifth idea is for days that move between warm streets and cold rooms. Start with a T-shirt, then wear a light shirt open over it. If the afternoon becomes sticky, the shirt can come off; if the office air-conditioning feels sharp, it goes back on. The sixth idea is for a nearby weekend plan: shorts with a T-shirt, kept for a short route and gentler weather. It is worth being honest about the plan here. If you are travelling across the city or the rain is already steady, trousers will probably serve you better. [Monsoon fashion](https://cottonworld.net/collections/summer-for-men) becomes much more useful when it follows your actual day, not an imagined version of it.
 
 ## Outfit ideas 7 and 8: when you still want to feel put together
 
 For the seventh idea, use a light blouse with dark trousers. The contrast feels clear for a lunch meeting or an office day, and it does not need much else. Keep jewellery simple, choose a bag that closes securely and leave the heavy scarf for another season. The eighth idea is a travel base: a comfortable T-shirt, neutral pants and one spare layer in your bag. It is a quiet preparation that can make a long ride feel less tiring. Across all eight ideas, the common thread is not perfection. It is choosing clothes that give you fewer things to think about. Cottonworld’s natural-fibre clothing offers a considered place to begin, then you can build a rainy-day wardrobe slowly, around the way you really live.
-
-## Product suggestions
-
-- [Men’s Navy 100% Organic Cotton Regular Fit T-shirt](https://cottonworld.net/products/m-tshirt-17805-21622-navy)
-- [Men’s Black 100% Cotton Regular Fit Pant](https://cottonworld.net/products/m-pants-17623-21479-black)
-- [Men’s Olive 100% Cotton Regular Fit Shirt](https://cottonworld.net/products/m-shirts-50015-21547-olive)
-- [Women’s Olive 100% Organic Cotton Regular Fit T-shirt](https://cottonworld.net/products/l-tshirt-17428-21617-olive)
-- [Women’s Black 100% Linen Regular Fit Pant](https://cottonworld.net/products/l-pants-17813-21544-black)
-- [Women’s Blue Cotton Linen Regular Fit Dress](https://cottonworld.net/products/l-dress-17766-20959-blue)
-- [Men’s White Linen Cotton Regular Fit Shirt](https://cottonworld.net/products/m-shirts-17588-21614-white)
-- [Women’s White 100% Linen Regular Fit Blouse](https://cottonworld.net/products/l-blouse-17692-21506-white)
 
 ## FAQs
 
