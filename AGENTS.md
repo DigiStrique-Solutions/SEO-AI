@@ -34,9 +34,21 @@ Audit findings include: **severity** (critical/high/medium/low) · **evidence** 
 
 Don't claim an item was checked without a recorded status **and** evidence. Per item: `Status: pass | fail | not_applicable | not_checked_blocked` + evidence source + result + blocker + next action. Use `not_checked_blocked` when access/tools/rendering are missing — **never** silently turn an unverified item into a pass. A full audit is complete only when every item is pass/fail/not_applicable; otherwise call it partial and list what's needed. Browser-rendered checks are required before claiming schema/JS-content/mobile/accessibility status.
 
-## Content authenticity gate (publish-ready customer-facing copy)
+## Content standards (publish-ready customer-facing copy)
 
-Cite ≥1 real source (product facts, brand-dna, customer language, GSC/analytics) before rewriting. AI-detector scores are weak signals, not proof — don't chase them with errors or filler. No generic "best/top" claims without criteria or evidence; prefer concrete, brand-specific observations; label assumptions instead of overstating certainty.
+Two things must be true at once — accurate **and** worth reading. Accuracy is the floor, not the bar.
+
+**Voice first.** Load `context.md` → `knowledge.md` → `brand-dna.json` (`brand_voice`, `voice_patterns`) **before drafting**, and write a voice contract (`content-seo-authenticity/references/brand-voice-contract.md`). Brand voice is a style contract, not just an evidence source.
+
+**Cite ≥1 real source** (product facts, brand-dna, customer language, GSC/analytics) before rewriting. No "best/top" claims without criteria or evidence; prefer concrete, brand-specific observations.
+
+**Unbacked → cut and pivot, never hedge at the reader.** Check `knowledge.md` first — the sanctioned answer is often already on disk. Otherwise the claim leaves the copy and the narrative moves on; the caveat goes to the authenticity log, never in front of the reader. `[needs source]` must never ship. **Not everything is a claim** — reader experience, styling advice and editorial judgement need no source.
+
+**House style: never use an en dash (`–`) or em dash (`—`) in customer-facing copy.** No exceptions, ranges included ("sizes 12-14", never "12–14"). Recast with a comma, colon, parentheses or a full stop rather than swapping the dash for a comma. Mechanically enforced; one dash blocks the publish step. Applies to the deliverable, not internal notes or logs.
+
+**Mandatory gates.** `ai-text-risk-gate` (AI-pattern risk under 20%) **and** the `craft` gate (`craft-report`/`write-content`, under 20: hedging, unresolved placeholders, en/em dashes, cloned sections). Never fake a score; humanize with source-backed edits, not errors or filler.
+
+**The gates detect bad writing; they cannot recognise good writing.** Voice, hook, narrative spine, section differentiation and category payload (styling/outfit ideas for fashion) are unmeasured and stay editorial judgement: `content-seo-authenticity/checklists/editorial-craft.md`. Accurate, on-topic, under 20 and boring is `block`, not `ship`.
 
 ## MCP & safety
 

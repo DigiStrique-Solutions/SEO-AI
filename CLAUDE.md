@@ -34,11 +34,21 @@ Audit findings include: **severity** (critical/high/medium/low) · **evidence** 
 
 Don't claim an item was checked without a recorded status **and** evidence. Per item: `Status: pass | fail | not_applicable | not_checked_blocked` + evidence source + result + blocker + next action. Use `not_checked_blocked` when access/tools/rendering are missing — **never** silently turn an unverified item into a pass. A full audit is complete only when every item is pass/fail/not_applicable; otherwise call it partial and list what's needed. Browser-rendered checks are required before claiming schema/JS-content/mobile/accessibility status.
 
-## Content authenticity gate (publish-ready customer-facing copy)
+## Content standards (publish-ready customer-facing copy)
 
-Cite ≥1 real source (product facts, brand-dna, customer language, GSC/analytics) before rewriting. AI-detector scores are weak signals, not proof — don't chase them with errors or filler. No generic "best/top" claims without criteria or evidence; prefer concrete, brand-specific observations; label assumptions instead of overstating certainty.
+Two things must be true at once — accurate **and** worth reading. Accuracy is the floor, not the bar.
 
-**Mandatory ZeroGPT / AI-text-risk gate.** Before any publish-ready customer-facing copy ships, run the **`ai-text-risk-gate`** skill (ZeroGPT/GPTZero-style check; local harness fallback if the API is paywalled). AI-pattern risk must be **under 20%**; if it's higher, humanize with source-backed edits and re-check — never ship without the gate having run, and never fake the score.
+**Voice first (`brand-setup`/Brand Context Protocol applies to content too).** Load `context.md` → `knowledge.md` → `brand-dna.json` (`brand_voice`, `voice_patterns`) **before drafting**, and write a voice contract (`content-seo-authenticity/references/brand-voice-contract.md`). Brand voice is a style contract, not just an evidence source. Copy that could be published by a competitor after find-and-replacing the brand name has no voice on the page.
+
+**Cite ≥1 real source** (product facts, brand-dna, customer language, GSC/analytics) before rewriting. No "best/top" claims without criteria or evidence; prefer concrete, brand-specific observations.
+
+**Unbacked → cut and pivot, never hedge at the reader.** Check `knowledge.md` first — the sanctioned answer is often already on disk. If it genuinely isn't backed, the claim leaves the copy and the narrative moves on; the caveat goes to the authenticity log and `open_questions`. Never write what the products *don't* claim ("the page doesn't state it's quick-dry", "check the product page"). `[needs source]` is a drafting marker and must never ship. **Not everything is a claim** — reader experience, styling advice and editorial judgement need no source; gating them is what makes copy read like a product manual.
+
+**House style: never use an en dash (`–`) or em dash (`—`) in customer-facing copy.** No exceptions, ranges included ("sizes 12-14" or "12 to 14", never "12–14"). Recast with a comma, colon, parentheses or a full stop; don't just swap the dash for a comma, since an em dash usually joins two thoughts that read better as two sentences. Mechanically enforced — one dash blocks the publish step. Applies to the deliverable, not to internal notes, checklists or logs.
+
+**Mandatory gates.** Before any publish-ready copy ships, run the **`ai-text-risk-gate`** skill (ZeroGPT/GPTZero-style; local harness fallback if paywalled) — AI-pattern risk **under 20%** — and the **`craft`** gate (`craft-report` / `write-content`, also under 20: defensive hedging, unresolved placeholders, en/em dashes, cloned sections). Never ship without the gates having run, and never fake a score. Humanize with source-backed edits, never with errors or filler.
+
+**The gates detect bad writing; they cannot recognise good writing.** A draft optimized to satisfy them reads flat — that is a known failure mode, not a hypothetical. Voice, hook, narrative spine, section differentiation, product integration and category payload (styling/outfit ideas for fashion) are **unmeasured** and stay editorial judgement: `content-seo-authenticity/checklists/editorial-craft.md`. Accurate, on-topic, under 20 and boring is `block`, not `ship`.
 
 ## MCP & safety
 
@@ -65,4 +75,4 @@ All configured MCP tools are callable by stable id (needed for routing/logging).
 
 ## Shared (not brand-specific) references
 
-`audit-library/` (reusable audit definitions; brands store only *results* by `audit_id`) · `registry/`, `schemas/`, `templates/` (shared config/schemas) · `tools/seo_audit_harness.py` (audit/authenticity harness) · `tools/google_pagespeed.py` (PageSpeed/Lighthouse/CrUX via `GOOGLE_API_KEY`) · `tools/zerogpt.py` (AI-text detector) · `.claude/skills/brand-setup/references/file-schemas.md` (file schemas + provider/tool map).
+`audit-library/` (reusable audit definitions; brands store only *results* by `audit_id`) · `registry/`, `schemas/`, `templates/` (shared config/schemas) · `tools/seo_audit_harness.py` (audit/authenticity/craft harness — `verify-authenticity`, `craft-report`, `write-content`) · `tools/google_pagespeed.py` (PageSpeed/Lighthouse/CrUX via `GOOGLE_API_KEY`) · `tools/zerogpt.py` (AI-text detector) · `.claude/skills/brand-setup/references/file-schemas.md` (file schemas + provider/tool map).

@@ -9,6 +9,7 @@ import os
 import re
 import socket
 import ssl
+import statistics
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
@@ -273,6 +274,54 @@ AI_TEXT_ABSTRACT_TERMS = (
     "dynamic",
     "strategic",
     "valuable",
+)
+# A category superlative is "best/top" + a head noun ("the best boots").
+# Incidental uses are "best/top" + a function word ("goes best with jeans", "at best")
+# or a hyphenated compound ("best-selling", "top-notch"). Only the former needs a claim.
+BEST_TOP_SUPERLATIVE_PATTERN = re.compile(
+    r"(?<!\bat\s)"
+    r"(?:\b(?:the|our|a|an)\s+)?"
+    r"\b(?:best|top)(?![-\w])"
+    r"\s+(?:\d+\s+)?"
+    r"(?!(?:with|of|at|in|on|for|to|by|from|when|if|as|than|and|or|but|yet|so|is|are|was|were"
+    r"|possible|ever|suited|suits|paired|pairs|worn|works|kept|serves)\b)"
+    r"([A-Za-z][A-Za-z']*)",
+    re.IGNORECASE,
+)
+# Defensive hedging that belongs in the authenticity log, never in customer-facing copy.
+CRAFT_HEDGE_PATTERNS = (
+    r"\bdoes\s?n[o']t\s+claim\b",
+    r"\bdo\s+not\s+claim\b",
+    r"\bcan\s?n[o']t\s+verify\b",
+    r"\bcannot\s+verify\b",
+    r"\bnot\s+verified\b",
+    r"\bunverified\b",
+    r"\bcheck\s+the\s+product\s+page\b",
+    r"\bthe\s+brand\s+does\s+not\s+state\b",
+    r"\bwe\s+do\s+not\s+have\s+data\b",
+    r"\bno\s+data\s+(?:is\s+)?available\b",
+    r"\bas\s+(?:always|ever),\s*(?:check|verify)\b",
+)
+# House style: no en or em dashes in customer-facing copy, no exceptions (ranges included).
+# Recast the sentence — comma, colon, parentheses, or a full stop.
+CRAFT_DASH_PATTERN = re.compile(r"[–—]")
+# Unresolved evidence markers. These are authoring scaffolding; a reader must never see one.
+CRAFT_PLACEHOLDER_PATTERNS = (
+    r"\[needs?\s+source\]",
+    r"\[citation\s+needed\]",
+    r"\[verify\]",
+    r"\[unverified\]",
+    r"\[tbd\]",
+)
+# Mapping every non-function word to "_" leaves the sentence's skeleton, which is what
+# a noun-swapped clone shares with its twin. No POS tagger needed.
+CRAFT_FUNCTION_WORDS = frozenset(
+    """a an the and or but nor so yet for of to in on at by from with without into onto over under
+    is are was were be been being am do does did doing have has had having will would shall should
+    can could may might must this that these those it its they them their there here you your we our
+    us he she his her him as if then than when while because about after before between through during
+    up down out off again more most some any all each every both few other such no not only own same
+    too very just also which who whom whose what where why how""".split()
 )
 KEYWORD_ROW_FIELDS = [
     "keyword",
@@ -2261,6 +2310,33 @@ def top_ratio(values):
     return max(counts.values()) / len(values)
 
 
+def dispersion_profile(lengths):
+    """Return (relative_mad, modal_band_ratio) — outlier-resistant uniformity stats.
+
+    Deliberately median-based rather than a coefficient of variation: padding robotic
+    prose with two long sentences lifts CV into the range good writing occupies, while
+    leaving the median absolute deviation untouched.
+    """
+    median = statistics.median(lengths)
+    if not median:
+        return 1.0, 0.0
+    rel_mad = statistics.median([abs(x - median) for x in lengths]) / median
+    band = sum(1 for x in lengths if abs(x - median) <= 0.2 * median) / len(lengths)
+    return rel_mad, band
+
+
+def uniformity_points(lengths, mad_thr, mad_w, band_thr, band_w, band_cap, total_cap):
+    rel_mad, band = dispersion_profile(lengths)
+    points = max(0.0, mad_thr - rel_mad) * mad_w + min(
+        band_cap, max(0.0, band - band_thr) * band_w
+    )
+    return min(total_cap, points), {
+        "relative_mad": round(rel_mad, 3),
+        "modal_band_ratio": round(band, 2),
+        "median_words": statistics.median(lengths),
+    }
+
+
 def ai_text_risk_report(text):
     clean_text = strip_markdown_for_ai_text_risk(text)
     words = re.findall(r"[A-Za-z][A-Za-z']*", clean_text)
@@ -2316,15 +2392,8 @@ def ai_text_risk_report(text):
         len(re.findall(r"[A-Za-z][A-Za-z']*", sentence)) for sentence in sentences
     ]
     if len(sentence_lengths) >= 8:
-        average_length = sum(sentence_lengths) / len(sentence_lengths)
-        variance = sum((length - average_length) ** 2 for length in sentence_lengths) / len(sentence_lengths)
-        variation = (variance ** 0.5) / average_length if average_length else 0
-        if 11 <= average_length <= 26 and variation < 0.38:
-            add_feature(
-                "uniform_sentence_rhythm",
-                min(14, (0.38 - variation) * 36),
-                {"average_words": round(average_length, 2), "variation": round(variation, 2)},
-            )
+        points, evidence = uniformity_points(sentence_lengths, 0.30, 46, 0.45, 16, 8, 16)
+        add_feature("uniform_sentence_rhythm", points, evidence)
 
     starts = []
     for sentence in sentences:
@@ -2355,15 +2424,8 @@ def ai_text_risk_report(text):
             {"ratio": round(paragraph_start_ratio, 2)},
         )
     if len(paragraph_lengths) >= 6:
-        paragraph_average = sum(paragraph_lengths) / len(paragraph_lengths)
-        paragraph_variance = sum((length - paragraph_average) ** 2 for length in paragraph_lengths) / len(paragraph_lengths)
-        paragraph_variation = (paragraph_variance ** 0.5) / paragraph_average if paragraph_average else 0
-        if 35 <= paragraph_average <= 95 and paragraph_variation < 0.45:
-            add_feature(
-                "uniform_paragraph_blocks",
-                min(10, (0.45 - paragraph_variation) * 22),
-                {"average_words": round(paragraph_average, 2), "variation": round(paragraph_variation, 2)},
-            )
+        points, evidence = uniformity_points(paragraph_lengths, 0.32, 26, 0.50, 12, 5, 10)
+        add_feature("uniform_paragraph_blocks", points, evidence)
 
     abstract_hits = [
         word for word in words if word.lower() in AI_TEXT_ABSTRACT_TERMS
@@ -2376,15 +2438,30 @@ def ai_text_risk_report(text):
             {"per_100_words": round(abstract_rate, 2), "examples": sorted(set(abstract_hits[:8]))},
         )
 
-    digit_count = len(re.findall(r"\d", clean_text))
-    proper_noun_count = len(
-        re.findall(r"\b[A-Z][a-z]{2,}\b", re.sub(r"(?m)^#+.*$", "", text or ""))
-    )
-    if word_count >= 500 and digit_count < 3 and proper_noun_count < 8:
+    # Counted as distinct tokens, so "3 3 3" is one number, not three. A raw count
+    # rewards digit-stuffing; density of distinct specifics rewards actually knowing things.
+    numeric_tokens = {
+        re.sub(r"\s+", "", match.group(0).lower())
+        for match in re.finditer(
+            r"\d[\d,.]*\s*(?:%|kg|g|cm|mm|inch|ml|rs|inr|₹|\$)?", clean_text, re.IGNORECASE
+        )
+    }
+    proper_nouns = {
+        match.group(0)
+        for match in re.finditer(r"\b[A-Z][a-z]{2,}\b", re.sub(r"(?m)^#+.*$", "", text or ""))
+    }
+    if word_count >= 500:
+        density = (min(len(numeric_tokens), 12) + min(len(proper_nouns), 40)) / (
+            word_count / 500
+        )
         add_feature(
             "low_specificity",
-            12,
-            {"digits": digit_count, "proper_nouns": proper_noun_count},
+            min(12, max(0.0, 6.0 - density) * 2.4),
+            {
+                "per_500_words": round(density, 2),
+                "distinct_numbers": len(numeric_tokens),
+                "distinct_proper_nouns": len(proper_nouns),
+            },
         )
 
     generic_endings = (
@@ -2399,7 +2476,7 @@ def ai_text_risk_report(text):
         if line.lstrip().startswith("#")
     ]
     ending_hits = [heading for heading in headings if heading in generic_endings]
-    add_feature("generic_conclusion_heading", 6, ending_hits)
+    add_feature("generic_conclusion_heading", 6 if ending_hits else 0, ending_hits)
 
     score = round(min(100, score), 2)
     status = "not_checked_blocked" if word_count < 120 else "pass"
@@ -2491,7 +2568,7 @@ def validate_authenticity(
                         "claim {} references unknown source_id {}".format(index, source_id)
                     )
 
-    if rewrite_text and re.search(r"\b(best|top)\b", rewrite_text, re.IGNORECASE):
+    if rewrite_text and BEST_TOP_SUPERLATIVE_PATTERN.search(rewrite_text):
         if not best_top_claims:
             errors.append("rewrite uses best/top language without best_top claim support")
 
@@ -2534,21 +2611,161 @@ def validate_authenticity(
     return errors
 
 
+def craft_sections(text):
+    """Split markdown into (heading, body_words) pairs for sections with real prose."""
+    sections = []
+    heading = ""
+    buffer = []
+    for line in (text or "").splitlines():
+        if line.lstrip().startswith("#"):
+            sections.append((heading, "\n".join(buffer)))
+            heading = line.strip("# ").strip()
+            buffer = []
+        else:
+            buffer.append(line)
+    sections.append((heading, "\n".join(buffer)))
+    result = []
+    for name, body in sections:
+        words = re.findall(r"[A-Za-z][A-Za-z']*", strip_markdown_for_ai_text_risk(body))
+        if len(words) >= 60:
+            result.append((name, [word.lower() for word in words]))
+    return result
+
+
+def shingles(tokens, size):
+    return {tuple(tokens[i : i + size]) for i in range(len(tokens) - size + 1)}
+
+
+def jaccard(left, right):
+    if not left or not right:
+        return 0.0
+    return len(left & right) / len(left | right)
+
+
+def skeleton_tokens(tokens):
+    """Replace content words with '_', keeping function words — the sentence's skeleton.
+
+    A noun-swapped clone ("the leather upper is built for width" /
+    "the suede upper is built for length") collapses to an identical skeleton.
+    """
+    return [token if token in CRAFT_FUNCTION_WORDS else "_" for token in tokens]
+
+
+def craft_report(text, max_score=20.0):
+    """Editorial craft signal: defensive hedging + near-duplicate parallel sections.
+
+    Kept separate from ai_text_risk_report on purpose — a draft that hedges at the reader
+    or clones its own sections is failing as writing, not as AI-pattern risk.
+    """
+    clean_text = strip_markdown_for_ai_text_risk(text)
+    word_count = len(re.findall(r"[A-Za-z][A-Za-z']*", clean_text))
+    features = []
+    score = 0.0
+
+    def add_feature(name, points, evidence):
+        nonlocal score
+        points = round(float(points), 2)
+        if points <= 0:
+            return
+        score += points
+        features.append({"name": name, "points": points, "evidence": evidence})
+
+    placeholder_hits = [
+        match.group(0)
+        for pattern in CRAFT_PLACEHOLDER_PATTERNS
+        for match in re.finditer(pattern, text or "", re.IGNORECASE)
+    ]
+    # A single unresolved marker blocks: it is authoring scaffolding, and a reader must never see one.
+    add_feature("unresolved_placeholder", min(20, 20 * len(placeholder_hits)), placeholder_hits[:5])
+
+    # Checked against the raw text, not the stripped copy: the rule is about the
+    # characters that ship. One is a fail; the rule is "never".
+    dash_hits = CRAFT_DASH_PATTERN.findall(text or "")
+    dash_evidence = [
+        match.group(0).strip()
+        for match in re.finditer(r"[^\n]{0,32}[–—][^\n]{0,32}", text or "")
+    ]
+    add_feature(
+        "en_em_dash",
+        20 if dash_hits else 0,
+        {"count": len(dash_hits), "examples": dash_evidence[:5]},
+    )
+
+    hedge_hits = [
+        match.group(0)
+        for pattern in CRAFT_HEDGE_PATTERNS
+        for match in re.finditer(pattern, clean_text, re.IGNORECASE)
+    ]
+    if word_count:
+        # Allow ~1.5 per 1k words: one honest caveat in a long piece is editorial, not defensive.
+        rate = len(hedge_hits) / (word_count / 1000)
+        add_feature(
+            "defensive_hedging",
+            min(20, max(0.0, rate - 1.5) * 4),
+            {"per_1k_words": round(rate, 2), "examples": hedge_hits[:5]},
+        )
+
+    sections = craft_sections(text)
+    duplicate_pairs = []
+    for left_index in range(len(sections)):
+        for right_index in range(left_index + 1, len(sections)):
+            left_name, left_tokens = sections[left_index]
+            right_name, right_tokens = sections[right_index]
+            lexical = jaccard(shingles(left_tokens, 4), shingles(right_tokens, 4))
+            skeleton = jaccard(
+                shingles(skeleton_tokens(left_tokens), 5),
+                shingles(skeleton_tokens(right_tokens), 5),
+            )
+            if skeleton >= 0.55 or lexical >= 0.40:
+                duplicate_pairs.append(
+                    {
+                        "sections": [left_name, right_name],
+                        "skeleton_jaccard": round(skeleton, 3),
+                        "lexical_jaccard": round(lexical, 3),
+                    }
+                )
+    # One confirmed clone pair blocks. Real writers vary structure even across deliberately
+    # parallel topics, so a pair at this similarity is scaffolding, not comparison.
+    add_feature("near_duplicate_sections", min(20, 20 * len(duplicate_pairs)), duplicate_pairs[:5])
+
+    score = round(min(100, score), 2)
+    status = "not_checked_blocked" if word_count < 120 else "pass"
+    if word_count >= 120 and score >= max_score:
+        status = "fail"
+    return {
+        "tool": "Strique local editorial craft gate",
+        "score": score,
+        "max_score": max_score,
+        "status": status,
+        "word_count": word_count,
+        "features": features,
+        "note": "Craft signal for hedging and cloned sections. Voice, hook and narrative stay editorial judgement.",
+    }
+
+
 def write_content_with_authenticity(
     draft_file,
     content_output,
     authenticity_file,
     max_ai_detector_score=20.0,
+    max_craft_score=20.0,
 ):
     draft_text = Path(draft_file).read_text(encoding="utf-8")
     log = read_json(authenticity_file)
     ai_text_risk = ai_text_risk_report(draft_text)
+    craft = craft_report(draft_text, max_score=max_craft_score)
     errors = validate_authenticity(
         log,
         draft_text,
         max_ai_detector_score=max_ai_detector_score,
         require_content_skill=True,
     )
+    if craft["score"] >= max_craft_score:
+        errors.append(
+            "craft score {} meets or exceeds max craft score {}".format(
+                craft["score"], max_craft_score
+            )
+        )
     if errors:
         return {
             "ok": False,
@@ -2556,6 +2773,7 @@ def write_content_with_authenticity(
             "written": False,
             "required_skill": CONTENT_AUTHENTICITY_SKILL,
             "ai_text_risk": ai_text_risk,
+            "craft": craft,
         }
     write_text_file(content_output, draft_text)
     return {
@@ -2565,6 +2783,7 @@ def write_content_with_authenticity(
         "output": str(content_output),
         "required_skill": CONTENT_AUTHENTICITY_SKILL,
         "ai_text_risk": ai_text_risk,
+        "craft": craft,
     }
 
 
@@ -6866,8 +7085,17 @@ def command_verify_authenticity(args):
     result = {"ok": not errors, "errors": errors}
     if rewrite_text:
         result["ai_text_risk"] = ai_text_risk_report(rewrite_text)
+        # Report-only here so authors can iterate; write-content is where craft blocks.
+        result["craft"] = craft_report(rewrite_text)
     write_json(result, args.output)
     return 0 if not errors else 1
+
+
+def command_craft_report(args):
+    text = Path(args.file).read_text(encoding="utf-8")
+    result = craft_report(text, max_score=args.max_craft_score)
+    write_json(result, args.output)
+    return 0 if result["status"] != "fail" else 1
 
 
 def command_write_content(args):
@@ -6877,6 +7105,7 @@ def command_write_content(args):
             args.content_output,
             args.authenticity,
             max_ai_detector_score=args.max_ai_detector_score,
+            max_craft_score=args.max_craft_score,
         )
     except (OSError, json.JSONDecodeError) as exc:
         result = {"ok": False, "errors": [str(exc)], "written": False}
@@ -7192,8 +7421,28 @@ def build_parser():
         default=20.0,
         help="Maximum recorded detector or local AI-pattern risk score allowed before writing content.",
     )
+    write_content_parser.add_argument(
+        "--max-craft-score",
+        type=float,
+        default=20.0,
+        help="Maximum local editorial craft score (hedging, cloned sections) allowed before writing content.",
+    )
     write_content_parser.add_argument("--output", help="Output write report JSON path")
     write_content_parser.set_defaults(func=command_write_content)
+
+    craft_parser = subparsers.add_parser(
+        "craft-report",
+        help="Report editorial craft signals (defensive hedging, near-duplicate sections) for a draft.",
+    )
+    craft_parser.add_argument("--file", required=True)
+    craft_parser.add_argument(
+        "--max-craft-score",
+        type=float,
+        default=20.0,
+        help="Craft score at or above which the draft is reported as failing.",
+    )
+    craft_parser.add_argument("--output", help="Output craft report JSON path")
+    craft_parser.set_defaults(func=command_craft_report)
 
     zerogpt_parser = subparsers.add_parser(
         "zerogpt-check",

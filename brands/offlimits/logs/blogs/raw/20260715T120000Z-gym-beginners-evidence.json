@@ -1,0 +1,38 @@
+{
+  "run_id": "20260715T120000Z",
+  "purpose": "Product + collection evidence for the 'Best Gym Shoes for Beginners' draft (authenticity sources S3-S9).",
+  "provider": "firecrawl",
+  "fetched_at": "2026-07-15T12:00:00Z",
+  "collections": {
+    "https://offlimits.co.in/collections/men-gym-training": {
+      "title": "Men's Gym & Training Shoes",
+      "description_excerpt": "Anyone who trains regularly knows this feeling: you walk into the gym feeling ready, but halfway through the session, your shoes start distracting you. Your footing feels off during lifts, your grip slips during quick movements, or your feet just feel tired before your body does. ... Gym workouts are unpredictable. One minute you're lifting, the next you're moving laterally, jumping, or pushing through circuits. ... designed for real gym routines, not just gym aesthetics.",
+      "price_range_observed": {"entry": "ROGER Rs. 750 (MRP 2,499)", "top": "BRADLEY Rs. 2,550 (MRP 8,499)"},
+      "models_observed": ["ROGER", "HACHIKO", "TECTON", "IRONHIDE", "LUCAS II", "OPUS", "BRADLEY"],
+      "note": "Sale prices captured at ~70% off; promotional, not used in copy."
+    },
+    "https://offlimits.co.in/collections/women-gym-training": {
+      "title": "Women's Gym & Training Shoes",
+      "description_excerpt": "Gym shoes for women from OffLimits are designed to do more than just look good; they are built to move with you. With breathable uppers, responsive cushioning and grippy outsoles, these sneakers support every rep, run and rest day.",
+      "models_observed": ["SPARTA FOR HER", "KAIRO FOR HER", "FLO-JO FOR HER", "IVORY FOR HER", "PALOMA FOR HER", "MADELYN FOR HER", "ALLYSON FOR HER", "SPRINTER FOR HER", "VELORA FOR HER", "GLADIATOR FOR HER", "CLOUDPRO FOR HER", "PULSE X FOR HER", "PULSARA FOR HER"]
+    },
+    "https://offlimits.co.in/collections/big-tall": {
+      "title": "Big & Tall - Shoes for Sizes 12, 13, 14",
+      "models_observed": ["ROGER (BIG & TALL)", "SPARTA (BIG & TALL)", "GLADIATOR (BIG & TALL)", "SKYLINE", "DEREK", "STUSSY (BIG & TALL)"]
+    }
+  },
+  "products": {
+    "https://offlimits.co.in/products/roger-orm-351-09": {"name": "ROGER - OFF WHITE/BLACK/LIGHT GREY", "price": "Rs. 750", "sizes": ["6","7","8","9","10","11"], "closure": "Lace Up", "sole": "EVA", "upper": "Mesh + Synthetic", "insock": "Memory Foam"},
+    "https://offlimits.co.in/products/hachiko-black-black-orm-637-08": {"name": "HACHIKO - BLACK/BLACK", "price": "Rs. 990", "sizes": ["6","7","8","9","10","11"], "closure": "Lace Up", "sole": "EVA", "upper": "Mesh/Synthetic", "insock": "Memory Foam"},
+    "https://offlimits.co.in/products/ironhide-black-orm-655-01": {"name": "IRONHIDE - BLACK", "price": "Rs. 1,500", "sizes": ["6","7","8","9","10","11"], "closure": "Lace Up", "sole": "Phylon / TPR", "upper": "Mesh / TPU", "insock": "Memory Foam"},
+    "https://offlimits.co.in/products/paloma-w-orw-582-01": {"name": "PALOMA FOR HER - OFF WHITE/PINK", "price": "Rs. 1,290", "sizes": ["3","4","5","6","7"], "closure": "Lace Up", "midsole": "Phylon", "outsole": "TPR", "upper": "Flyknit", "insock": "Memory Foam"}
+  },
+  "discrepancy": "Published post 'no-more-squeezing-in-plus-size-mens-shoes-in-sizes-12-13-14' states gym/training shoes come in sizes 12-14. Rendered gym/training PDPs show 6-11; 12-14 is stocked under /collections/big-tall. Copy routes to Big & Tall instead of repeating the blanket claim.",
+  "cannibalization_risk": [
+    "https://offlimits.co.in/blogs/blogs/stylish-gym-shoes-men-women (title: 'Best Gym Shoes for Men & Women for Every Workout')",
+    "https://offlimits.co.in/blogs/blogs/love-your-gym-vibes-meet-the-shoes-that-match-your-energy (title: 'Best Gym Shoes for Women 2025')",
+    "https://offlimits.co.in/blogs/blogs/ultimate-gym-shoes-guide",
+    "https://offlimits.co.in/blogs/blogs/5-comfortable-workout-shoes-for-men",
+    "https://offlimits.co.in/blogs/blogs/push-limits-not-excuses-offlimits-workout-shoes-for-men"
+  ]
+}

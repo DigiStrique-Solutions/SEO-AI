@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "relivo",
+  "updated_at": "2026-07-21",
+  "brand_name": "Relivo",
+  "website_url": "https://go-mcp-server.vercel.app",
+  "logo": {
+    "description": "Monochrome (near-black) geometric glyph rendered inline as SVG in the site header, labelled 'Relivo'. Interlocking angular shapes suggesting connected/converging routes. No standalone wordmark asset confirmed beyond the header lockup and favicon.",
+    "icon_url": "https://go-mcp-server.vercel.app/icon.svg"
+  },
+  "business_description": "Relivo is an open-source, multi-namespace Model Context Protocol (MCP) server written in Go. It mounts five independent MCP servers on a single HTTP mux over the official MCP Go SDK's Streamable HTTP transport, so an MCP client points at one route and that namespace's tools appear. The five namespaces are: memory (durable per-user long-term memory via hybrid RAG, semantic + keyword, over Postgres + pgvector), skills (find and download Agent Skills live from GitHub, nothing cached), gsc (Google Search Console: properties, search-analytics reports, URL inspection, sitemaps), producthunt (Product Hunt v2 GraphQL API: posts, topics, collections, users, plus a raw GraphQL escape hatch), and event (publish/consume Kafka messages and manage topics on Confluent Cloud). Namespaces self-register at startup via init(), so adding one is a single Go package and cmd/server/main.go never changes. Every namespace requires an X-API-Key before dispatch; memory and event additionally scope each caller to their own rows. Advertised scope: 5 namespaces, 42 tools, 1 endpoint, Go 1.26+.",
+  "business_model": "Open-source developer tool, MIT licensed. Self-hostable (clone, `make run`) with a hosted/managed endpoint available at go-mcp-server-latest.onrender.com behind per-user API keys. No published pricing or paid tier observed on the site; monetization is not stated. A companion web app (relivo-fe.vercel.app) is in beta/development. Treat commercial model as an open question.",
+  "brand_colors": {
+    "description": "Tokens captured from the live site's rendered CSS (Firecrawl branding extraction). Minimal monochrome system on a light scheme.",
+    "color_scheme": "light",
+    "primary_background": "#FFFFFF (white)",
+    "primary_text": "#000000 (black); secondary/body text #737373 (medium gray)",
+    "primary_cta": "Near-black button #171717 with #FAFAFA text, 10px radius",
+    "secondary_cta": "White button, #E5E5E5 border, near-black text",
+    "brand_accent": "#171717 (near-black); no chromatic accent color in use"
+  },
+  "brand_aesthetic": "Minimal, high-contrast developer-tool aesthetic. Black-on-white, Inter throughout, generous whitespace, large tight headlines (h1 ~60px), and code blocks (mcp.json snippets, register.go) used as primary proof rather than illustration. Feels like modern open-source infra docs (Vercel/Linear/shadcn lineage, Tailwind + shadcn/ui). Quiet and technical: namespace cards with tool counts, a stat line, and copy-pasteable config over marketing imagery. No decorative color, gradients, or stock art.",
+  "brand_voice": {
+    "description": "Precise, technical, and understated, written for engineers. Leads with what the system does and the architectural decision behind it, not benefits or hype. Short declarative sentences, exact nouns (namespace, mux, transport, init(), pgvector), and confident opinions stated as constraints ('Opinionated where it counts, out of your way everywhere else'; 'A domain never reaches across another except through internal/mcpx'). Assumes the reader knows MCP, Go, and HTTP. Shows rather than tells: config and code snippets carry the argument.",
+    "voice_patterns": [
+      "Capability-first, one-line namespace descriptions ('6 tools · Memory · Per-user long-term memory')",
+      "Architecture stated as a rule or invariant ('Keyed by default', 'Self-registering', 'cmd/server/main.go never changes')",
+      "Exact technical nouns over adjectives (Streamable HTTP, hybrid RAG, Postgres + pgvector, slog, net/http mux)",
+      "Terse confident asides ('That's it.', 'Point a client at it and go', 'Nothing is cached')",
+      "Code and config as the hero (mcp.json, register.go) instead of screenshots or metaphors",
+      "Quantified scope claims ('5 namespaces · 42 tools · 1 endpoint · Go 1.26+')"
+    ]
+  },
+  "brand_values": [
+    "Open source and self-hostable: MIT licensed, clone-and-run, no lock-in.",
+    "Modularity by design: independent namespaces that self-register; add capability without touching the core.",
+    "Isolation and least surprise: a domain never reaches across another except through internal/mcpx.",
+    "Secure by default: every namespace requires an X-API-Key before dispatch; per-caller row-level scoping in memory and event.",
+    "Standards-first: built on the official MCP Go SDK and Streamable HTTP transport over stdlib net/http.",
+    "Developer ergonomics: one endpoint, copy-pasteable config, connect a client in under a minute.",
+    "Honesty about state: missing credentials degrade gracefully and tools report the problem rather than failing silently; the companion app is labelled beta."
+  ],
+  "target_audience": {
+    "primary": [
+      "Developers building AI agents and MCP clients who want ready-made tool servers (memory, skills, live data) behind one endpoint instead of wiring each integration themselves.",
+      "Go developers and infra engineers who want a clean, extensible multi-namespace MCP server they can self-host and add namespaces to."
+    ],
+    "roles": [
+      "AI/agent engineers",
+      "Backend/Go engineers",
+      "Platform and infrastructure engineers",
+      "Indie hackers and open-source contributors",
+      "Technical founders building agent products"
+    ],
+    "secondary_verticals": [
+      "SEO/growth tooling teams (via the GSC and Product Hunt namespaces)",
+      "Data/event-driven backends (via the Kafka event namespace)",
+      "Agent-framework and MCP-tooling ecosystem projects"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Official MCP reference servers (modelcontextprotocol/servers)",
+      "what_it_does": "Anthropic's open-source collection of reference MCP server implementations (filesystem, git, fetch, memory, and more), each typically a standalone server in TypeScript or Python.",
+      "website": "https://github.com/modelcontextprotocol/servers",
+      "how_it_competes": "Overlaps on the 'ready-made MCP tools' need. Relivo differs by unifying multiple domains behind one Go endpoint with a self-registering mux and per-key scoping, rather than one process per server. [comparison inferred from public positioning, needs owner confirmation]"
+    },
+    {
+      "name": "Composio",
+      "what_it_does": "Managed platform brokering many connected data sources and tools (incl. Google Search Console, GA4) to agents via a hosted API/MCP layer with auth handling.",
+      "website": "https://composio.dev",
+      "how_it_competes": "Overlaps on 'live data sources for agents' (GSC, third-party APIs). Composio is a hosted, closed managed broker; Relivo is a self-hostable MIT-licensed Go server you run and extend yourself. [comparison inferred, needs owner confirmation]"
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Hand-rolling individual MCP servers per integration",
+    "Hosted agent-tooling / connector platforms (managed brokers)",
+    "Language-specific MCP SDKs used to build bespoke servers from scratch",
+    "Standalone single-purpose tool APIs wired directly into an agent"
+  ],
+  "primary_business_goal": "Grow adoption of the open-source project (GitHub stars, self-host installs, and connections to the hosted endpoint) as the default multi-namespace MCP server for developers building agents. Commercial/monetization goal is not stated on the site and is an open question.",
+  "primary_conversion": "Developer activation: 'Get started' / read the quickstart, connect an MCP client to a namespace route, and 'Star on GitHub'. Secondary: sign in to mint an X-API-Key; try the beta app at relivo-fe.vercel.app.",
+  "site_type": "Open-source developer-tool marketing site + product documentation (Next.js App Router, Tailwind, shadcn/ui). Landing page plus /doc namespace docs; connection URLs derived from NEXT_PUBLIC_MCP_BASE_URL.",
+  "measurement_and_connected_sources": [
+    "No analytics or Search Console connection is confirmed for THIS brand's own site (go-mcp-server.vercel.app). The user has stated GSC/GA4 are not available for Relivo right now.",
+    "Note the meta-irony to exploit in content, not in measurement: Relivo itself ships a GSC namespace (17 tools) and could later dogfood Search Console once its own property is verified.",
+    "Keyword demand tooling is currently blocked (no GSC; Google Ads Keyword Planner platform-id unset). Keyword work must fall back to seed/manual and be marked accordingly."
+  ],
+  "open_questions": [
+    "Is there a commercial model or paid tier planned, or is Relivo purely open-source with a free hosted endpoint? Monetization is unstated.",
+    "What is the canonical/production domain? Site is on go-mcp-server.vercel.app and the hosted API on go-mcp-server-latest.onrender.com; the app on relivo-fe.vercel.app. A 'relivo.*' domain is not yet live.",
+    "Confirm the intended competitor set and positioning vs. official MCP reference servers, Composio, and other MCP-tooling projects (current entries are inferred).",
+    "Who is the primary ICP to lead with: agent-app builders consuming the tools, or Go engineers self-hosting and extending? Both are present.",
+    "Confirm approved product claims for the beta app (relivo-fe.vercel.app) and whether it should feature in SEO/content yet.",
+    "Confirm exact brand palette/type tokens from design source; values here are extracted from rendered CSS.",
+    "Is there an existing blog / content surface for Relivo, or does content need a new home (e.g. /blog on the docs site)?"
+  ]
+}

@@ -3403,5 +3403,301 @@ Example is a SaaS platform for ecommerce marketing teams.
         self.assertNotIn("off_page_scope", question_ids)
 
 
+def feature_points(report, name):
+    for feature in report["features"]:
+        if feature["name"] == name:
+            return feature["points"]
+    return None
+
+
+def varied_prose(paragraphs=8):
+    """Prose with human rhythm: mixed sentence and paragraph lengths."""
+    blocks = []
+    for index in range(paragraphs):
+        blocks.append(
+            "Rain changes everything about a {} commute. "
+            "It soaks through cotton in minutes, and the walk from the gate to the desk "
+            "turns into the part of the morning you plan the rest of your outfit around. "
+            "That matters. "
+            "A shell that dries by noon is the difference between a good day and a damp one, "
+            "which is why runners in Pune and Mumbai swap fabric notes every June.".format(index)
+        )
+    return "\n\n".join(blocks)
+
+
+class AiTextRiskScorerTests(unittest.TestCase):
+    """The scorer is the writer's reward function: it must not pay for flat prose."""
+
+    def test_no_conclusion_penalty_without_generic_heading(self):
+        report = seo_audit_harness.ai_text_risk_report(varied_prose())
+
+        self.assertIsNone(feature_points(report, "generic_conclusion_heading"))
+
+    def test_flags_generic_conclusion_heading_when_present(self):
+        report = seo_audit_harness.ai_text_risk_report(
+            varied_prose() + "\n\n## In conclusion\n\n" + varied_prose(2)
+        )
+
+        self.assertEqual(feature_points(report, "generic_conclusion_heading"), 6.0)
+
+    def test_flags_staccato_uniform_rhythm(self):
+        # Averaging under 11 words used to make this feature unreachable entirely.
+        text = "\n\n".join(
+            " ".join(
+                [
+                    "Boots are good for rain.",
+                    "We like them a lot.",
+                    "They keep your feet dry.",
+                    "The sole is very grippy.",
+                ]
+            )
+            for _ in range(12)
+        )
+        report = seo_audit_harness.ai_text_risk_report(text)
+
+        self.assertIsNotNone(feature_points(report, "uniform_sentence_rhythm"))
+        self.assertGreaterEqual(report["score"], 20)
+
+    def test_flags_uniform_rhythm_despite_outlier_padding(self):
+        # Two long sentences lift the coefficient of variation into the range good
+        # writing occupies. Median-based dispersion must not be fooled by that.
+        uniform = " ".join(
+            ["The product delivers consistent performance across everyday conditions and needs."] * 40
+        )
+        padded = uniform + " " + (
+            "Although the weather in the monsoon months can shift without much warning at all, "
+            "and the roads turn slick in ways that catch even seasoned runners off guard. " * 2
+        )
+        report = seo_audit_harness.ai_text_risk_report(padded)
+
+        self.assertIsNotNone(feature_points(report, "uniform_sentence_rhythm"))
+
+    def test_ignores_varied_human_rhythm(self):
+        report = seo_audit_harness.ai_text_risk_report(varied_prose(10))
+
+        self.assertIsNone(feature_points(report, "uniform_sentence_rhythm"))
+
+    def test_low_specificity_not_gamed_by_digit_stuffing(self):
+        vague = " ".join(["the thing does a job in a way that works for people who want it"] * 60)
+        report = seo_audit_harness.ai_text_risk_report(vague + " 3 3 3 3 3")
+
+        self.assertEqual(feature_points(report, "low_specificity"), 12.0)
+
+    def test_rewards_distinct_specificity(self):
+        specific = (
+            "Wiktech pulls moisture off the knit in about 20 minutes, which is why the "
+            "Athlite sole shows up on every OFFLIMITS running shoe sold in India. "
+            "Flexinit handles the breathability, Glovefit the hold around the midfoot. "
+            "Reviewers in Pune, Mumbai and Jaipur mention the same three things: 1758 of "
+            "them called it comfortable, true to size, and dry by noon on a wet Tuesday. "
+        ) * 4
+        report = seo_audit_harness.ai_text_risk_report(specific)
+
+        self.assertIsNone(feature_points(report, "low_specificity"))
+
+    def test_good_drafts_score_well_under_threshold(self):
+        # Regression lock. These are the drafts the team was happy with; if a rebalance
+        # pushes them toward the threshold, the rebalance is wrong.
+        drafts = sorted((ROOT / "brands" / "inc5shop" / "blogs" / "drafts").glob("*.md"))
+        self.assertTrue(drafts)
+        for draft in drafts:
+            with self.subTest(draft=draft.name):
+                report = seo_audit_harness.ai_text_risk_report(draft.read_text(encoding="utf-8"))
+                self.assertLess(report["score"], 20)
+
+
+class BestTopSuperlativeGateTests(unittest.TestCase):
+    def _log(self, claims=None):
+        return {
+            "metadata": {"target": "draft.md"},
+            "sources": [
+                {
+                    "source_id": "p1",
+                    "source_type": "product_page",
+                    "source_ref": "https://example.com/product",
+                    "extracted_facts": "Leather upper.",
+                }
+            ],
+            "claims": claims or [],
+        }
+
+    def test_ignores_incidental_best_and_top(self):
+        for phrase in (
+            "The boot goes best with jeans.",
+            "At best, it is a mild winter.",
+            "Our best-selling pair returns.",
+            "A top-notch finish on the leather.",
+            "Scroll to the top of the page.",
+            "Which heel is best for a wedding?",
+            "She wore a crop top and jeans.",
+        ):
+            with self.subTest(phrase=phrase):
+                errors = seo_audit_harness.validate_authenticity(self._log(), phrase)
+                self.assertFalse([error for error in errors if "best/top" in error])
+
+    def test_flags_category_superlative(self):
+        for phrase in (
+            "The best boots for women in India.",
+            "Top 10 winter boots to buy now.",
+            "Our top picks for the monsoon.",
+        ):
+            with self.subTest(phrase=phrase):
+                errors = seo_audit_harness.validate_authenticity(self._log(), phrase)
+                self.assertTrue([error for error in errors if "best/top" in error])
+
+    def test_passes_titled_superlative_with_supported_claim(self):
+        log = self._log(
+            claims=[
+                {
+                    "claim": "Best boots for the winter range.",
+                    "claim_type": "best_top",
+                    "source_ids": ["p1"],
+                }
+            ]
+        )
+        errors = seo_audit_harness.validate_authenticity(log, "# Best Boots for Women")
+
+        self.assertFalse([error for error in errors if "best/top" in error])
+
+
+class CraftReportTests(unittest.TestCase):
+    """Craft failures are writing failures, gated separately from AI-pattern risk."""
+
+    MENS = (
+        "## Men's monsoon joggers\n"
+        "The lightweight fabric is designed for the rain and it keeps you moving through the season. "
+        "The relaxed fit is built for comfort and it works well on a wet commute. "
+        "The dark colour is chosen for the mud and it hides the splashes on the road. "
+        "You can wear them to the gym and they will dry on the way home. "
+        "The elastic waist is made for movement and it holds up during a long run.\n"
+    )
+    WOMENS = (
+        "## Women's monsoon leggings\n"
+        "The breathable fabric is designed for the humidity and it keeps you moving through the season. "
+        "The slim fit is built for comfort and it works well on a wet commute. "
+        "The deep colour is chosen for the mud and it hides the splashes on the road. "
+        "You can wear them to the studio and they will dry on the way home. "
+        "The high waist is made for movement and it holds up during a long walk.\n"
+    )
+
+    def test_flags_defensive_hedging_density(self):
+        text = (
+            "The brand doesn't claim waterproofing. We can't verify the sole material. "
+            "Check the product page for sizing. " * 4
+        ) + ("Ordinary prose carries the paragraph forward. " * 40)
+        report = seo_audit_harness.craft_report(text)
+
+        self.assertIsNotNone(feature_points(report, "defensive_hedging"))
+        self.assertEqual(report["status"], "fail")
+
+    def test_flags_unresolved_placeholder(self):
+        report = seo_audit_harness.craft_report("word " * 400 + " [needs source] " + "word " * 100)
+
+        self.assertEqual(feature_points(report, "unresolved_placeholder"), 20.0)
+        self.assertEqual(report["status"], "fail")
+
+    def test_allows_single_honest_caveat(self):
+        text = varied_prose(6) + " We could not verify that figure. " + varied_prose(6)
+        report = seo_audit_harness.craft_report(text)
+
+        self.assertEqual(report["score"], 0.0)
+        self.assertEqual(report["status"], "pass")
+
+    def test_flags_single_em_dash(self):
+        report = seo_audit_harness.craft_report(
+            "Indian winter is short — but the boots still earn their place. " + "word " * 300
+        )
+
+        self.assertEqual(feature_points(report, "en_em_dash"), 20.0)
+        self.assertEqual(report["status"], "fail")
+
+    def test_flags_en_dash_including_numeric_ranges(self):
+        # No exceptions: ranges are "12-14" or "12 to 14", never "12–14".
+        report = seo_audit_harness.craft_report("We stock sizes 12–14 now. " + "word " * 300)
+
+        self.assertEqual(feature_points(report, "en_em_dash"), 20.0)
+
+    def test_allows_hyphen_and_recast_punctuation(self):
+        report = seo_audit_harness.craft_report(
+            "We stock sizes 12-14 now. Indian winter is short, but the boots still earn "
+            "their place: you reach for them without thinking. " + "word " * 300
+        )
+
+        self.assertIsNone(feature_points(report, "en_em_dash"))
+
+    def test_flags_noun_swapped_parallel_sections(self):
+        text = self.MENS + self.WOMENS + ("\nFiller prose keeps the word count above the gate. " * 60)
+        report = seo_audit_harness.craft_report(text)
+
+        self.assertIsNotNone(feature_points(report, "near_duplicate_sections"))
+        self.assertEqual(report["status"], "fail")
+
+    def test_allows_genuine_comparison_sections(self):
+        # A real comparison post is topically parallel but structurally varied.
+        draft = ROOT / "brands" / "inc5shop" / "blogs" / "drafts" / (
+            "block-heels-vs-kitten-heels-which-one-should-you-choose.md"
+        )
+        report = seo_audit_harness.craft_report(draft.read_text(encoding="utf-8"))
+
+        self.assertIsNone(feature_points(report, "near_duplicate_sections"))
+
+    def test_clean_on_good_drafts(self):
+        drafts = sorted((ROOT / "brands" / "inc5shop" / "blogs" / "drafts").glob("*.md"))
+        self.assertTrue(drafts)
+        for draft in drafts:
+            with self.subTest(draft=draft.name):
+                report = seo_audit_harness.craft_report(draft.read_text(encoding="utf-8"))
+                self.assertEqual(report["score"], 0.0)
+
+
+class WriteContentCraftGateTests(unittest.TestCase):
+    def _authenticity_log(self):
+        log = seo_audit_harness.init_authenticity("draft.md")
+        log["sources"] = [
+            {
+                "source_id": "p1",
+                "source_type": "product_page",
+                "source_ref": "https://example.com/product",
+                "extracted_facts": "Leather upper.",
+            }
+        ]
+        log["claims"] = []
+        log["detector_notes"] = [{"tool": "zerogpt", "score": "4%"}]
+        return log
+
+    def test_write_content_blocks_on_craft_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            draft = root / "draft.md"
+            draft.write_text(
+                "Specific Strique content. " * 100 + " [needs source] ", encoding="utf-8"
+            )
+            auth = root / "auth.json"
+            seo_audit_harness.write_json(self._authenticity_log(), auth)
+            output = root / "final.md"
+
+            result = seo_audit_harness.write_content_with_authenticity(draft, output, auth)
+
+            self.assertFalse(result["ok"])
+            self.assertFalse(result["written"])
+            self.assertFalse(output.exists())
+            self.assertIn("craft", result)
+            self.assertTrue(any("craft score" in error for error in result["errors"]))
+
+    def test_write_content_reports_craft_on_success(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            draft = root / "draft.md"
+            draft.write_text("Specific Strique content.", encoding="utf-8")
+            auth = root / "auth.json"
+            seo_audit_harness.write_json(self._authenticity_log(), auth)
+            output = root / "final.md"
+
+            result = seo_audit_harness.write_content_with_authenticity(draft, output, auth)
+
+            self.assertTrue(result["ok"], result["errors"])
+            self.assertIn("craft", result)
+
+
 if __name__ == "__main__":
     unittest.main()

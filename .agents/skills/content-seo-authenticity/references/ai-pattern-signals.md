@@ -14,6 +14,7 @@ Conclusion: treat any score (`ZeroGPT`, `GPTZero`, `Originality`, `Copyleaks`) a
 
 ## Phrase / structure signals to flag
 
+- **En/em dashes:** `–` and `—` are a heavy AI tell and a Strique house-style violation. **Banned outright in customer-facing copy**, ranges included ("12-14", not "12–14"). Recast the sentence rather than swapping the dash for a comma — see `checklists/editorial-craft.md`.
 - **Empty openers:** "in today's digital landscape", "unlock your potential", "at its core", "game changer", "when it comes to".
 - **Formulaic transitions:** repeated "Furthermore", "Moreover", "Additionally", "In conclusion".
 - **Contrast reframes:** "not just X, but Y", "not about X, it is about Y", "no X, no Y, just Z".

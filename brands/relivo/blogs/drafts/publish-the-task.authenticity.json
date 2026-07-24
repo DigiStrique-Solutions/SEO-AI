@@ -1,0 +1,56 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-21T15:00:10+00:00",
+      "feedback": "Your Text is Human Written",
+      "max_score": 20.0,
+      "note": "ZeroGPT AI-text percentage. Weak editorial signal, not proof of authorship.",
+      "score": 0.0,
+      "source": "zerogpt_api",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-21T14:57:28+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "relivo/publish-the-task-event-server-pattern"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Relivo = open-source multi-namespace MCP server in Go; five namespaces (memory, skills, gsc, producthunt, event) on one HTTP endpoint over Streamable HTTP; every namespace requires X-API-Key before dispatch; memory and event scope each caller to their own rows; event namespace = Kafka over MCP on Confluent Cloud with durable per-caller consumer group; memory = hybrid RAG over Postgres + pgvector; skills = find and download Agent Skills live from GitHub, nothing cached; producthunt = Product Hunt v2 GraphQL over MCP.",
+      "source_id": "S1",
+      "source_ref": "brands/relivo/brand-dna.json + brands/relivo/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Landing + docs copy: 'Point any MCP client at a route and its tools appear'; namespace cards with tool counts; mcp.json config block; feature pillars incl. self-registering mux (cmd/server/main.go never changes) and 'Keyed by default'; 'Nothing is cached; every call reflects live GitHub'; event card: 'Produce to a topic, poll it back through a durable consumer group, and manage topics on Confluent Cloud.'",
+      "source_id": "S2",
+      "source_ref": "https://go-mcp-server.vercel.app/ and /doc/overview (crawl 2026-07-21, logs/web_data/raw/20260721T145007Z-brand-dna-crawl.json)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "event namespace mechanics: event_publish stamps an authoritative x-mcp-owner header from the caller's api_key_id; event_consume is a bounded poll that returns only the caller's own records via durable per-caller cursor; Kafka publish returns the partition it landed on and an offset; topic admin gated behind KAFKA_ALLOW_TOPIC_ADMIN; built on the official MCP Go SDK Streamable HTTP transport.",
+      "source_id": "S3",
+      "source_ref": "github.com/Hitesh-s0lanki/go-mcp-server README (fetched 2026-07-21)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Real run on topic 'go-mcp-events'. Three events published in order: offset 0 skill.acquired (skill frontend-design, acquire-skill into .claude/skills/); offset 1 skill.task (skill awesome-design-skills, acquire-skill, the 'just publish' version with no inline download); offset 2 task.producthunt (generate-file information.md from the producthunt MCP, fetch the top-ranked Product Hunt product). Guidance that reshaped the pattern: 'just publish the task' rather than the producer doing the download/install itself.",
+      "source_id": "S4",
+      "source_ref": "Author's own Relivo session (first-party run notes supplied 2026-07-21)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Setup + tool reference from /doc/event: connect by dropping the event route (https://go-mcp-server-latest.onrender.com/event/mcp) into the MCP client's mcp.json with an X-API-Key header; mint the key via Sign in / the Keys page (/doc/keys); one key admits the whole server. event_publish(value, topic, key, headers) returns the partition and offset; same key routes to the same partition. event_consume(topic, from:'group', max, timeout_ms) is a bounded poll with durable group offsets that advance across calls; loop is poll, do the work, poll again; a restarted agent resumes from its committed offset. Security: anyone with produce access can write to the topic, so a payload is a request not a trusted command; a worker should verify claims and escalate rather than run destructive or outward-facing actions on a message's say so.",
+      "source_id": "S5",
+      "source_ref": "https://go-mcp-server.vercel.app/doc/event (crawl 2026-07-21)",
+      "source_type": "product_page"
+    }
+  ]
+}

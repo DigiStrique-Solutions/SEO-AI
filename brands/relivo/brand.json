@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "relivo",
+  "display_name": "Relivo",
+  "status": "active",
+  "primary_domain": "go-mcp-server.vercel.app",
+  "domains": ["go-mcp-server.vercel.app", "go-mcp-server-latest.onrender.com", "relivo-fe.vercel.app"],
+  "locale": "en",
+  "market": "Global (developers)",
+  "platform": "Next.js docs site (Vercel) + Go MCP server (Render/self-host)",
+  "created_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "pointers": {
+    "brand_dna": "brand-dna.json",
+    "knowledge": "knowledge.md",
+    "context": "context.md",
+    "keywords": "keywords/",
+    "blogs": "blogs/summary.md",
+    "audits": "audits/summary.json",
+    "logs": "logs/",
+    "checklist": "tasks/brand-setup.checklist.json"
+  },
+  "counts": { "audits": 0, "blogs": 0, "keywords": 0 },
+  "health": { "audit_overall_score": null, "audit_basis": "no audit run yet" },
+  "blockers": [
+    "gsc_not_connected", "ga4_not_connected", "keyword_planner_platform_id_unset", "no_production_domain", "monetization_model_unknown"
+  ],
+  "notes": "Workspace built via brand-setup on 2026-07-21 from a live crawl of go-mcp-server.vercel.app + the GitHub README. Relivo = open-source multi-namespace MCP server in Go (5 namespaces, 42 tools). Phase 1 (brand DNA) complete; keywords blocked (no GSC + no Keyword Planner platform-id); no existing blogs; audits not yet run. Ready for blog writing on brand facts, with keyword/analytics-backed steps deferred."
+}

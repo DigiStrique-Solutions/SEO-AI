@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "relivo",
+  "started_at": "2026-07-21T14:50:07Z",
+  "updated_at": "2026-07-21T14:50:07Z",
+  "phases": [
+    {
+      "phase": "0-init",
+      "status": "done",
+      "items": [
+        { "id": "p0.skeleton", "status": "done", "severity": "high", "note": "brands/relivo skeleton + logs categories created", "log_ref": "" }
+      ]
+    },
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        { "id": "p1.crawl-ok", "status": "done", "severity": "high", "note": "Firecrawl 200 on / and /doc/overview + README fetched", "log_ref": "logs/web_data/activity.jsonl" },
+        { "id": "p1.brand-name", "status": "done", "severity": "high", "note": "Relivo @ go-mcp-server.vercel.app", "log_ref": "" },
+        { "id": "p1.core-fields", "status": "done", "severity": "medium", "note": "business_description, business_model, target_audience, brand_voice filled from live copy + README", "log_ref": "" },
+        { "id": "p1.competitors", "status": "done", "severity": "medium", "note": "2 competitors (MCP reference servers, Composio) inferred; flagged for owner confirmation in open_questions", "log_ref": "" },
+        { "id": "p1.dna-valid", "status": "done", "severity": "high", "note": "brand-dna.json parses (python json.load)", "log_ref": "" },
+        { "id": "p1.knowledge", "status": "done", "severity": "low", "note": "knowledge.md + context.md written", "log_ref": "" }
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "failed",
+      "items": [
+        { "id": "p2.demand", "status": "not_checked_blocked", "severity": "medium", "note": "No GSC connection for Relivo; Google Ads Keyword Planner platform-id unset (GOOGLE_ADS_PLATFORM_ID). Cannot pull demand. next_action: verify Relivo property in Search Console or set platform-id, then re-run; interim = seed keywords only.", "log_ref": "" }
+      ]
+    },
+    {
+      "phase": "3-existing-blogs",
+      "status": "done",
+      "items": [
+        { "id": "p3.discover", "status": "done", "severity": "low", "note": "No blog/content surface found on go-mcp-server.vercel.app (site is landing + /doc only). Nothing to import.", "log_ref": "" }
+      ]
+    },
+    {
+      "phase": "4-seo-audits",
+      "status": "pending",
+      "items": [
+        { "id": "p4.audits", "status": "not_checked_blocked", "severity": "medium", "note": "Not run yet. Lighthouse/PageSpeed available for go-mcp-server.vercel.app on request. next_action: run audit-library audits + Lighthouse.", "log_ref": "" }
+      ]
+    },
+    {
+      "phase": "5-finalize",
+      "status": "in_progress",
+      "items": [
+        { "id": "p5.manifest", "status": "done", "severity": "low", "note": "brand.json written", "log_ref": "" }
+      ]
+    }
+  ]
+}

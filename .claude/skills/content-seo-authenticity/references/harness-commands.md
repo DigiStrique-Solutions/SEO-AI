@@ -25,9 +25,22 @@ python3 tools/seo_audit_harness.py verify-authenticity \
   [--output <verify-report.json>]
 ```
 
-Use during iteration — checks source coverage + local AI-pattern risk without saving anything. Returns `ai_text_risk.score`.
+Use during iteration — checks source coverage + local AI-pattern risk without saving anything. Returns `ai_text_risk.score`, and `craft` **report-only** (it does not fail the command here; `write-content` is where craft blocks).
 
-## 3. `write-content` — gated save (writes the final file)
+## 3. `craft-report` — editorial craft signals (read-only)
+
+```bash
+python3 tools/seo_audit_harness.py craft-report \
+  --file <draft.md> \
+  [--max-craft-score 20] \
+  [--output <craft-report.json>]
+```
+
+Reports `defensive_hedging`, `unresolved_placeholder`, `en_em_dash` and `near_duplicate_sections`. Any one of them alone can reach 20 and block — a single `[needs source]`, a single en/em dash, or one pair of cloned sections is a hard fail.
+
+**A craft score of 0 is not a verdict.** It measures hedging and structural cloning, nothing else. Voice, hook, narrative spine, product integration and styling payload are unmeasured and stay your judgement — see `checklists/editorial-craft.md`.
+
+## 4. `write-content` — gated save (writes the final file)
 
 ```bash
 python3 tools/seo_audit_harness.py write-content \
@@ -35,12 +48,13 @@ python3 tools/seo_audit_harness.py write-content \
   --content-output <final.md> \
   --authenticity <authenticity.json> \
   --max-ai-detector-score 20 \
+  [--max-craft-score 20] \
   [--output <write-report.json>]
 ```
 
-Only writes `--content-output` when all authenticity checks pass **and** the score is `< 20`. This is the publish step.
+Only writes `--content-output` when all authenticity checks pass, `ai_text_risk < 20`, **and** `craft < 20`. This is the publish step.
 
-## 4. `zerogpt-check` — optional external detector (weak signal)
+## 5. `zerogpt-check` — optional external detector (weak signal)
 
 ```bash
 python3 tools/seo_audit_harness.py zerogpt-check \
@@ -55,13 +69,16 @@ Records an external detector result in `detector_notes`. Never treat it as proof
 ## Typical order
 
 ```text
-init-authenticity  ->  (log sources)  ->  verify-authenticity  (loop until pass)  ->  write-content
-                                                     └── always: zerogpt-check (weak signal; local fallback if paywalled)
+Step 0 (brand context + voice contract)  ->  init-authenticity  ->  (log sources)
+   ->  verify-authenticity / craft-report  (loop until both pass)  ->  write-content
+                     └── always: zerogpt-check (weak signal; local fallback if paywalled)
 ```
 
 ## Rules
 
 - The score is a **local AI-pattern risk percentage**, not plagiarism/authorship proof.
 - Never lower the score by adding errors, awkward phrasing, fake anecdotes, or unverifiable detail — fix by adding source-backed specificity.
+- **Never lower `craft` by hiding the symptom.** Delete the hedge *and* the claim it was defending (cut and pivot), or resolve the source. Renaming a cloned section, or paraphrasing it just past the similarity threshold, leaves the draft exactly as repetitive as the reviewer found it.
+- **Passing every gate is not the goal.** These scores detect bad writing; they cannot recognise good writing, and a draft optimized to satisfy them reads flat. Write for the reader, then check the gates.
 - No secrets in commands, drafts, logs, or reports.
 - For on-page *content-SEO scoring* (not authenticity), evaluate `audit-library/content-seo.json` the brand-setup Phase 4 way — see `checklists/content-seo-onpage.md`. That's a different path from these authenticity commands.

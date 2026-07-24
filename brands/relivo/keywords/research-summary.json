@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "relivo",
+  "updated_at": "2026-07-21",
+  "status": "blocked",
+  "demand_measured": false,
+  "blockers": [
+    "gsc_not_connected — no Search Console property for Relivo's own site",
+    "keyword_planner_platform_id_unset — GOOGLE_ADS_PLATFORM_ID missing, keyword-ideas call cannot run"
+  ],
+  "method": "No measured demand. Seed keywords below are derived from brand-dna facts (namespaces, tech, category) and are UNVOLUMED. Do not present as validated demand.",
+  "seed_keywords": [
+    "MCP server",
+    "Model Context Protocol server",
+    "Go MCP server",
+    "multi-namespace MCP server",
+    "self-hosted MCP server",
+    "MCP memory server",
+    "agent long-term memory MCP",
+    "hybrid RAG pgvector",
+    "Google Search Console MCP",
+    "Product Hunt MCP",
+    "Kafka MCP server",
+    "Agent Skills GitHub MCP",
+    "MCP Streamable HTTP transport",
+    "how to build an MCP server in Go",
+    "open source MCP servers"
+  ],
+  "next_action": "Verify Relivo's domain in Search Console (can dogfood the gsc namespace) or set GOOGLE_ADS_PLATFORM_ID, then re-run Phase 2 to attach real volumes/intent and build clusters.json."
+}

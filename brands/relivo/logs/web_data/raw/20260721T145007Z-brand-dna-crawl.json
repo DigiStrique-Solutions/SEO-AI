@@ -1,0 +1,66 @@
+{
+  "run_id": "relivo-setup-20260721",
+  "captured_at": "2026-07-21T14:50:07Z",
+  "provider": "firecrawl",
+  "pages": [
+    {
+      "url": "https://go-mcp-server.vercel.app/",
+      "status": 200,
+      "title": "Relivo MCP Server",
+      "meta_description": "Relivo: an open-source, multi-namespace Model Context Protocol server in Go. Memory, skills, and live data sources behind one endpoint.",
+      "hero_headline": "Memory, skills, and live data sources behind one MCP endpoint.",
+      "hero_subcopy": "Relivo MCP Server is a multi-namespace Model Context Protocol server in Go. Point any MCP client at a route and its tools appear: memory, skills, Search Console, Product Hunt, and events, all behind one HTTP mux.",
+      "stat_line": "5 namespaces · 42 tools · 1 endpoint · Go 1.26+",
+      "license": "Open source · MIT licensed",
+      "ctas": ["Get started", "Star on GitHub", "Open app (Beta)"],
+      "namespaces": [
+        {"name": "Memory", "route": "/memory/mcp", "tools": 6, "desc": "Per-user long-term memory. Hybrid RAG (semantic + keyword) over Postgres + pgvector."},
+        {"name": "Skills", "route": "/skills/mcp", "tools": 2, "desc": "Find and download Agent Skills live from GitHub. Nothing is cached; every call reflects live GitHub."},
+        {"name": "Search Console", "route": "/gsc/mcp", "tools": 17, "desc": "Google Search Console over MCP: properties, search-analytics reports, URL inspection, and sitemaps."},
+        {"name": "Product Hunt", "route": "/producthunt/mcp", "tools": 11, "desc": "Product Hunt v2 GraphQL API over MCP: posts, topics, collections, users, and a raw GraphQL escape hatch."},
+        {"name": "Event", "route": "/event/mcp", "tools": 6, "desc": "Publish and consume Kafka messages over MCP. Produce to a topic, poll it back through a durable consumer group, and manage topics on Confluent Cloud."}
+      ],
+      "feature_pillars": [
+        "Multi-namespace mux: Five independent MCP servers on one endpoint. A domain never reaches across another except through internal/mcpx.",
+        "Self-registering: Add a namespace as a single package with an init(). cmd/server/main.go never changes; the mux picks it up on the next start.",
+        "Streamable HTTP: Built on the official MCP Go SDK's Streamable HTTP transport, over stdlib net/http with structured slog logging.",
+        "Hybrid RAG memory: Durable, per-user recall by meaning and keyword over Postgres + pgvector.",
+        "Live Agent Skills: Find and download Agent Skills straight from GitHub in real time. Nothing is cached.",
+        "Keyed by default: Every namespace requires an X-API-Key before dispatch; memory scopes each caller to their own rows."
+      ],
+      "connection_host": "https://go-mcp-server-latest.onrender.com",
+      "app_preview": "https://relivo-fe.vercel.app/",
+      "footer": "Relivo · MIT licensed · Built with Go"
+    },
+    {
+      "url": "https://go-mcp-server.vercel.app/doc/overview",
+      "status": 200,
+      "title": "Relivo overview · Relivo docs",
+      "summary": "Relivo is a multi-namespace Model Context Protocol server in Go: five independent MCP servers mounted on one HTTP mux over the Streamable HTTP transport. Each namespace self-registers at startup via init(). Every request must carry an X-API-Key header; the memory namespace scopes memories to the key identity. Connection URLs are derived from NEXT_PUBLIC_MCP_BASE_URL. Sign-in creates an API key."
+    },
+    {
+      "url": "https://github.com/Hitesh-s0lanki/go-mcp-server",
+      "status": 200,
+      "type": "source_repo",
+      "tech_stack": ["Go 1.26+", "github.com/modelcontextprotocol/go-sdk (official MCP SDK)", "stdlib net/http", "log/slog", "Postgres + pgvector", "Confluent Cloud Kafka", "Next.js + Tailwind + shadcn/ui (frontend docs)"],
+      "auth": "Per-route X-API-Key (mcpx.RequireAPIKey), 401 on unknown/malformed keys; /healthz exempt. Memory and event namespaces resolve key to non-secret api_key_id for row-level scoping. Dashboard key API uses Clerk auth. Keys minted manually, never auto-provisioned.",
+      "namespace_env": {
+        "skills": ["FIRECRAWL_API_KEY (optional)", "OPENAI_API_KEY (optional, for skills_find)", "SKILLS_AGENT_MODEL (default gpt-4o-mini)"],
+        "gsc": ["GSC_CREDENTIALS_PATH or GOOGLE_APPLICATION_CREDENTIALS", "GSC_DATA_STATE", "GSC_ALLOW_DESTRUCTIVE (gates mutations)"],
+        "producthunt": ["PRODUCTHUNT_TOKEN or PRODUCTHUNT_CLIENT_ID + PRODUCTHUNT_CLIENT_SECRET"],
+        "event": ["KAFKA_BOOTSTRAP_SERVERS", "KAFKA_API_KEY", "KAFKA_API_SECRET", "KAFKA_CONSUMER_GROUP (default go-mcp-server)", "KAFKA_DEFAULT_TOPIC", "KAFKA_ALLOW_TOPIC_ADMIN", "DATABASE_URL (api_keys resolver)"]
+      },
+      "run": "cp .env.example .env && make run  # listens on :8080 (override PORT)",
+      "notable": "Self-registration via internal/mcpx; adding a namespace = one package calling mcpx.Register from init() + blank-import in cmd/server/main.go. Integration tests drive real MCP clients through initialize + tools/call over in-process Streamable HTTP."
+    }
+  ],
+  "branding": {
+    "colorScheme": "light",
+    "font": "Inter",
+    "colors": {"primary": "#000000", "accent": "#171717", "background": "#FFFFFF", "textPrimary": "#737373", "buttonPrimaryBg": "#171717", "buttonPrimaryText": "#FAFAFA"},
+    "borderRadius_button": "10px",
+    "framework": "tailwind",
+    "logo_alt": "Relivo",
+    "personality": {"tone": "professional", "energy": "medium", "targetAudience": "developers and tech enthusiasts"}
+  }
+}
