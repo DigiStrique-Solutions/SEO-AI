@@ -55,6 +55,7 @@ All configured MCP tools are callable by stable id (needed for routing/logging).
 
 ## Git workflow (mandatory)
 
+- At the start of every session, before beginning task work, verify the current branch and run `git pull --ff-only` for its configured upstream so the workspace uses the latest remote code. Preserve all uncommitted work. If the pull cannot fast-forward or is blocked by local changes, authentication, or network access, do not stash, reset, discard, or overwrite anything; report the blocker and required next action.
 - Whenever a task changes repository files, commit the completed task changes and push the current branch to GitHub before reporting completion, unless the user explicitly says not to commit or push.
 - Verify that the remote branch contains the new commit. If authentication, conflicts, hooks, tests, or remote policy block the push, preserve the local commit and clearly report the blocker and required next action.
 - Never commit credentials or expose tokens in commands, logs, or repository files. Preserve unrelated user changes unless the user explicitly asks to include them.
