@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 0.55,
+  "counts": {"items": 7, "pass": 3, "fail": 2, "not_applicable": 2, "not_checked_blocked": 0},
+  "evidence_inputs": [
+    "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json",
+    "keywords/clusters.json",
+    "keywords/research-summary.json",
+    "blogs/summary.md"
+  ],
+  "rows": [
+    {"item_id": "page-purpose", "section_id": "purpose-intent", "status": "pass", "result": "The homepage has a dominant commercial purpose: introduce Winn Foods' Indo-Chinese range and route visitors into collections and products.", "next_action": "", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/homepage_sections"},
+    {"item_id": "intent-match", "section_id": "purpose-intent", "status": "fail", "result": "The homepage is assigned the navigational/commercial 'Winn Foods Brand and Shop' cluster, but its 10-character title and missing meta description do not communicate the shop/category intent.", "next_action": "Align the title, H1, introductory copy, and meta description to Winn Foods plus Indo-Chinese sauces/masalas shopping intent.", "evidence_ref": "keywords/clusters.json#brand-and-shop"},
+    {"item_id": "content-depth", "section_id": "depth-quality", "status": "pass", "result": "For a brand/shop homepage, the rendered page covers product families, bestsellers, trust claims, basket building, brand context, recipes, FAQs, press, and purchase paths.", "next_action": "Keep the breadth but support trust claims with exact product-level evidence.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/homepage_sections"},
+    {"item_id": "keyword-coverage", "section_id": "depth-quality", "status": "fail", "result": "The priority homepage cluster includes Winn Foods, Winn sauce, Winn products, and buy-online intent, while the title is only \"Winn Foods\", the H1 is empty, and the meta description is absent.", "next_action": "Place the primary brand/shop term naturally in title, visible H1, intro, and description; avoid forcing every variant.", "evidence_ref": "keywords/clusters.json#brand-and-shop"},
+    {"item_id": "freshness", "section_id": "depth-quality", "status": "not_applicable", "result": "The audited homepage's primary commercial purpose is evergreen; a visible publication date is not expected for this template.", "next_action": "Continue dating editorial content and never represent sitemap lastmod as a publication date.", "evidence_ref": "blogs/summary.md#coverage-notes"},
+    {"item_id": "author-eeat", "section_id": "eeat", "status": "not_applicable", "result": "An individual author/byline is not expected on a transactional brand homepage.", "next_action": "Apply author/reviewer and source requirements to health, nutrition, and educational articles instead.", "evidence_ref": "knowledge.md#messaging-do--dont"},
+    {"item_id": "internal-links", "section_id": "eeat", "status": "pass", "result": "The rendered homepage links contextually to multiple collections, products, recipes, the blog, About, Contact, and policy pages.", "next_action": "Prioritize anchor text and placement for the keyword clusters with commercial demand.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1"}
+  ]
+}

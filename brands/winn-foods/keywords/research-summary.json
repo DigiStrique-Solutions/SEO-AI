@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "brand_name": "Winn Foods",
+  "website_url": "https://winn-foods.com/",
+  "generated_at": "2026-07-27T07:30:09Z",
+  "target_country": "India",
+  "language": "English",
+  "date_range": {
+    "start_date": "2025-07-01",
+    "end_date": "2026-07-24"
+  },
+  "default_source": "Google Search Console plus brand-DNA seeds; Google Ads Keyword Planner unavailable",
+  "difficulty_scale": "0-100; blank where no provider value was returned",
+  "counts": {
+    "deduped_universe_rows": 55,
+    "existing_keywords": 0,
+    "keyword_planner_rows": 0,
+    "gsc_query_rows_total": 2328,
+    "gsc_page_rows_total": 139,
+    "gsc_rows_used_in_universe": 49,
+    "prioritized_rows": 24,
+    "clusters": 8
+  },
+  "sources": {
+    "keyword_planner": {
+      "tool": "google_ads_generate_keyword_ideas",
+      "status": "unavailable",
+      "row_count": 0,
+      "log_ref": "logs/keywords/raw/20260727T073009Z-keyword-planner-unavailable.json"
+    },
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "status": "partial",
+      "row_count": 2328,
+      "permission_level": "siteRestrictedUser",
+      "log_ref": "logs/keywords/raw/20260727T072812Z-gsc-performance.json",
+      "quality_note": "The property returned valid data, but overall totals are dominated by unrelated gambling queries and the /food-services/ URL. Only brand- and food-category-relevant rows were curated into the keyword files."
+    },
+    "brand_dna": {
+      "status": "ok",
+      "row_count": 8,
+      "log_ref": "logs/web_data/raw/20260727T072346Z-brand-dna-crawl.json"
+    }
+  },
+  "gsc_property": "sc-domain:winn-foods.com",
+  "gsc_available_properties": [
+    "https://cottonworld.net/",
+    "https://inc5shop.com/",
+    "https://crimzonworld.com/",
+    "sc-domain:winn-foods.com",
+    "https://audio-technica.co.in/",
+    "sc-domain:strique.io",
+    "https://spykar.com/",
+    "sc-domain:spykar.com",
+    "sc-domain:surabhisauces.com",
+    "https://www.strique.io/",
+    "https://www.crimzonworld.com/",
+    "https://steragro.com/",
+    "https://offlimits.co.in/",
+    "https://digimaze.io/",
+    "https://www.regilt.co/",
+    "sc-domain:siromw.com",
+    "sc-domain:siroclinpharm.co.uk"
+  ],
+  "blockers": [
+    "keyword_planner_unavailable: google_ads_generate_keyword_ideas was not exposed in the current Codex tool registry; demand volume and difficulty remain blank.",
+    "gsc_data_contamination: 12-month property totals are dominated by unrelated gambling queries and /food-services/ traffic; investigate site compromise, indexing spam, or historical URL abuse before using aggregate GSC totals."
+  ]
+}

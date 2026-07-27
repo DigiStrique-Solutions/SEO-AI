@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 0.30,
+  "counts": {"items": 7, "pass": 1, "fail": 3, "not_applicable": 0, "not_checked_blocked": 3},
+  "evidence_inputs": [
+    "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json",
+    "logs/audits/raw/20260727T073600Z-connected-data-evidence.json"
+  ],
+  "rows": [
+    {"item_id": "robots-txt", "section_id": "crawlability", "status": "pass", "result": "robots.txt allows public product, collection, page, and blog content, blocks transactional/crawl-trap paths, and references https://winn-foods.com/sitemap.xml.", "next_action": "", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/2"},
+    {"item_id": "sitemap", "section_id": "crawlability", "status": "fail", "result": "robots.txt references /sitemap.xml, but GSC lists an old /sitemap_index.xml submission and a /page-sitemap.xml with 1 error, 2 warnings, 11 submitted web URLs, and 0 indexed.", "next_action": "Submit the current Shopify /sitemap.xml in GSC, remove obsolete submissions, and resolve the page-sitemap error/warnings.", "evidence_ref": "logs/audits/raw/20260727T073600Z-connected-data-evidence.json#providers/google_search_console/sitemaps"},
+    {"item_id": "url-structure", "section_id": "structure", "status": "fail", "result": "GSC and GA4 expose inconsistent/legacy paths and variants, including HTTP/www homepages, parameterized product URLs, 'currly', 'chuttak', '100g-copy', //products, /wp-login.php, and unrelated-looking legacy paths.", "next_action": "Create a URL cleanup map, 301 obsolete/typo handles to canonical replacements, remove bad internal links, and investigate unrelated paths.", "evidence_ref": "logs/audits/raw/20260727T073600Z-connected-data-evidence.json#providers"},
+    {"item_id": "internal-linking", "section_id": "structure", "status": "not_checked_blocked", "result": "Navigation and contextual links were observed, but the bounded 20-page crawl cannot prove that no orphan URLs exist or that every key page is within three clicks.", "next_action": "Run a complete crawl with link graph/depth and reconcile it against sitemap, GSC, and GA4 URL inventories.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/0"},
+    {"item_id": "redirects", "section_id": "structure", "status": "not_checked_blocked", "result": "The available evidence did not include a complete redirect-chain and broken-link export.", "next_action": "Run a full crawler redirect report for all internal links, including HTTP/www and legacy handles.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json"},
+    {"item_id": "canonical-consistency", "section_id": "indexation", "status": "fail", "result": "Sampled live pages use clean HTTPS self-canonicals, but GSC still reports impressions for HTTP, www, and parameterized product variants, showing unresolved duplicate discovery/index signals.", "next_action": "Enforce one HTTPS non-www host, 301 alternate hosts, canonicalize parameters, and remove parameterized URLs from internal discovery.", "evidence_ref": "logs/audits/raw/20260727T073600Z-connected-data-evidence.json#providers/google_search_console/notable_rows"},
+    {"item_id": "indexation-coverage", "section_id": "indexation", "status": "not_checked_blocked", "result": "Search Analytics proves that 64 URLs earned impressions, but it cannot prove complete indexation or absence of accidental noindex; a complete Page Indexing/URL Inspection set was unavailable.", "next_action": "Export GSC Page Indexing coverage and inspect representative homepage, collection, product, blog, recipe, and anomalous URLs.", "evidence_ref": "logs/audits/raw/20260727T073600Z-connected-data-evidence.json#providers/google_search_console/limitations"}
+  ]
+}

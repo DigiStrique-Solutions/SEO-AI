@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "updated_at": "2026-07-27",
+  "clusters": [
+    {
+      "cluster_id": "brand-and-shop",
+      "name": "Winn Foods Brand and Shop",
+      "intent": "navigational",
+      "page_type": "homepage",
+      "target_url": "https://winn-foods.com/",
+      "pillar": true,
+      "keywords": [
+        "winn foods",
+        "winn sauce",
+        "winn products",
+        "buy winn sauces online"
+      ],
+      "notes": "Protect branded discovery and route shopping intent to the homepage or shop collection."
+    },
+    {
+      "cluster_id": "indo-chinese-sauces",
+      "name": "Indo-Chinese Sauces",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://winn-foods.com/collections/chinese-sauces",
+      "pillar": true,
+      "keywords": [
+        "indo chinese sauces",
+        "chinese sauces online",
+        "winn chinese sauces",
+        "chinese sauces in india"
+      ],
+      "notes": "Core non-brand category cluster; Keyword Planner demand remains unavailable."
+    },
+    {
+      "cluster_id": "schezwan-chutney-and-momos",
+      "name": "Schezwan Chutney and Momos",
+      "intent": "transactional",
+      "page_type": "product",
+      "target_url": "https://winn-foods.com/products/schezwan-chattak-chutney/",
+      "pillar": false,
+      "keywords": [
+        "winn schezwan chutney",
+        "schezwan chutney online",
+        "winn schezwan sauce",
+        "schezwan momos"
+      ],
+      "notes": "Product page owns purchase terms; a supporting recipe should target the momo query without duplicating the product page."
+    },
+    {
+      "cluster_id": "manchurian-sauce",
+      "name": "Manchurian Sauce",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://winn-foods.com/products/manchurian-sauce",
+      "pillar": true,
+      "keywords": [
+        "manchurian sauce",
+        "manchurian sauce bottle",
+        "what is manchurian sauce",
+        "manchurian gravy recipe",
+        "manchurian sauce ingredients"
+      ],
+      "notes": "Largest clearly relevant generic GSC opportunity in the curated set; informational variants should be handled by supporting content."
+    },
+    {
+      "cluster_id": "hakka-noodles",
+      "name": "Hakka Noodles",
+      "intent": "transactional",
+      "page_type": "product",
+      "target_url": "https://winn-foods.com/products/hakka-noodles/",
+      "pillar": true,
+      "keywords": [
+        "winn hakka noodles",
+        "winn noodles",
+        "hakka noodles online",
+        "hakka noodles price",
+        "best hakka noodles brand in india"
+      ],
+      "notes": "Product-led cluster with collection support for comparison and assortment intent."
+    },
+    {
+      "cluster_id": "soy-and-soya-sauce",
+      "name": "Soy and Soya Sauce",
+      "intent": "transactional",
+      "page_type": "product",
+      "target_url": "https://winn-foods.com/products/dark-soya-sauce/",
+      "pillar": false,
+      "keywords": [
+        "winn dark soy sauce",
+        "winn soy sauce",
+        "winn soya sauce",
+        "dark soya sauce",
+        "can i add dark soya sauce in soup"
+      ],
+      "notes": "Retain both soy and soya spellings visible in GSC; the soup-use query is better suited to supporting content."
+    },
+    {
+      "cluster_id": "chinese-masalas",
+      "name": "Chinese Masalas and Cooking Mixes",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://winn-foods.com/collections/chinese-masala",
+      "pillar": true,
+      "keywords": [
+        "chinese masala",
+        "sizzling masala",
+        "winn fried rice masala",
+        "schezwan fried rice masala",
+        "peppy sizzling masala"
+      ],
+      "notes": "The Chinese masala collection supports the pillar; the known fried-rice masala product page should own its product-specific terms."
+    },
+    {
+      "cluster_id": "soups-vinegar-and-condiments",
+      "name": "Soups, Vinegar, and Supporting Condiments",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": [
+        "instant chinese soup",
+        "winn soup",
+        "winn white vinegar",
+        "chilli vinegar uses"
+      ],
+      "notes": "Lower-confidence expansion cluster pending URL confirmation and Keyword Planner demand."
+    }
+  ]
+}

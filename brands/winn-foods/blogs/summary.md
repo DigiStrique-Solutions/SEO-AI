@@ -71,7 +71,14 @@ Fetched 2026-07-27 from the live Shopify site. This index stores summaries, meta
 - Several recipe pages appear thin beyond ingredients and instructions, with inconsistent serving guidance, FAQs, and internal links.
 - Health and clean-label posts make broad claims around MSG, artificial colors, preservatives, “safer” choices, and long-term wellness. These need product-level substantiation and editorial review before being reused; the brand knowledge file explicitly prohibits generalizing such claims.
 - Spelling and naming are inconsistent across snippets (`soy`/`soya`, `chilli`/`chili`, and occasional product-name casing). Establish a product naming and Indian-English style sheet.
-- Topic coverage leans heavily toward sauces, noodles, stir-fries, fried rice, and Manchurian dishes. The current keyword-cluster file was not available during this phase, so a quantified cluster gap analysis remains pending.
+- Topic coverage leans heavily toward sauces, noodles, stir-fries, fried rice, and Manchurian dishes.
+
+### Coverage against current keyword clusters
+
+- **Covered well:** Indo-Chinese sauces have multiple editorial explainers; Schezwan has product education plus a stored momos recipe; soy/soya sauce appears in stored mushroom and fried-rice recipes; Manchurian has a stored recipe and an additional live gravy recipe outside the 20-post storage cap.
+- **Partially covered:** Hakka noodles have technique/mistake content but no strong product-comparison or buying guide; Chinese masalas appear in recipes but need a dedicated collection-supporting guide; brand/shop intent belongs on commercial pages rather than another blog.
+- **Clear content gaps:** product-specific Hakka noodle selection, Chinese masala use cases, instant soup selection/preparation, chilli-vinegar uses, and a substantiated ingredient/claim guide that avoids broad health promises.
+- Cluster evidence: `keywords/clusters.json` (`updated_at: 2026-07-27`). Search demand remains unquantified because Keyword Planner was unavailable.
 
 ## Coverage Notes
 
@@ -80,4 +87,3 @@ Fetched 2026-07-27 from the live Shopify site. This index stores summaries, meta
 - Four older recipe URLs were discovered but not fetched into references because of the cap: `manchurian-balls`, `mixed-vegetable-manchurian-gravy`, `chilli-vinegar-salad-dressing`, and `chilli-vinegar-dumplings`.
 - All 20 selected URLs returned HTTP 200 through Firecrawl. No selected post was skipped.
 - Firecrawl’s bulk structured-extraction request returned HTTP 400; the required data was recovered with one structured scrape per page. The failed attempt is retained in `logs/blogs/raw/20260727T072700Z-bulk-extract-error.json`.
-

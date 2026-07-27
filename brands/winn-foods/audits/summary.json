@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "run_date": "2026-07-27",
+  "target_url": "https://winn-foods.com/",
+  "status": "partial",
+  "overall_score": 0.38,
+  "score_basis": "Average of 5 audit scores with at least one applicable pass/fail row; core-web-vitals is excluded because all 6 rows are not_checked_blocked.",
+  "totals": {"items": 38, "pass": 11, "fail": 15, "not_applicable": 2, "not_checked_blocked": 10},
+  "audits": [
+    {"audit_id": "generic-on-page", "title": "Generic On-Page SEO", "score": 0.59, "items": 7, "pass": 4, "fail": 3, "not_applicable": 0, "not_checked_blocked": 0, "file": "generic-on-page.json"},
+    {"audit_id": "content-seo", "title": "Content SEO", "score": 0.55, "items": 7, "pass": 3, "fail": 2, "not_applicable": 2, "not_checked_blocked": 0, "file": "content-seo.json"},
+    {"audit_id": "ai-seo-aeo-geo", "title": "AI SEO / AEO / GEO", "score": 0.45, "items": 6, "pass": 3, "fail": 2, "not_applicable": 0, "not_checked_blocked": 1, "file": "ai-seo-aeo-geo.json"},
+    {"audit_id": "site-architecture", "title": "Site Architecture & Technical SEO", "score": 0.30, "items": 7, "pass": 1, "fail": 3, "not_applicable": 0, "not_checked_blocked": 3, "file": "site-architecture.json"},
+    {"audit_id": "structured-data", "title": "Structured Data & Schema", "score": 0.0, "items": 5, "pass": 0, "fail": 5, "not_applicable": 0, "not_checked_blocked": 0, "file": "structured-data.json"},
+    {"audit_id": "core-web-vitals", "title": "Core Web Vitals & Performance", "score": null, "items": 6, "pass": 0, "fail": 0, "not_applicable": 0, "not_checked_blocked": 6, "file": "core-web-vitals.json"}
+  ],
+  "top_fixes": [
+    {"audit_id": "site-architecture", "item_id": "sitemap", "severity": "high", "action": "Submit the current /sitemap.xml in GSC and resolve the stale page-sitemap errors, warnings, and zero-indexed report."},
+    {"audit_id": "site-architecture", "item_id": "canonical-consistency", "severity": "high", "action": "301 HTTP/www variants and consolidate parameterized/legacy URLs to one HTTPS non-www canonical host."},
+    {"audit_id": "generic-on-page", "item_id": "title-present", "severity": "high", "action": "Write intent-led 30-60 character titles for the homepage and short-title product templates."},
+    {"audit_id": "content-seo", "item_id": "intent-match", "severity": "high", "action": "Align homepage title, visible H1, intro, and description to the Brand and Shop keyword cluster."},
+    {"audit_id": "ai-seo-aeo-geo", "item_id": "entity-clarity", "severity": "high", "action": "Standardize Winn Foods naming and repair Organization sameAs values."},
+    {"audit_id": "core-web-vitals", "item_id": "lcp", "severity": "high", "action": "Restore PageSpeed/CrUX or Lighthouse access and measure mobile field and lab CWV before optimization."},
+    {"audit_id": "structured-data", "item_id": "content-type-schema", "severity": "medium", "action": "Add valid Product and Article/BlogPosting markup to representative Shopify templates, then test rendered output."},
+    {"audit_id": "generic-on-page", "item_id": "meta-description", "severity": "medium", "action": "Add the missing homepage description and constrain overlong product descriptions."},
+    {"audit_id": "generic-on-page", "item_id": "image-alt", "severity": "medium", "action": "Add descriptive alt text to meaningful homepage, product, collection, and editorial images."},
+    {"audit_id": "site-architecture", "item_id": "url-structure", "severity": "low", "action": "Redirect typo, copy-suffix, malformed, and unrelated legacy paths and clean internal links."}
+  ],
+  "blockers": [
+    "All six Core Web Vitals rows are not_checked_blocked: Google API DNS failed and no Lighthouse/browser session was available.",
+    "Orphan/depth and redirect-chain claims need a complete link-graph crawl.",
+    "Indexation coverage needs GSC Page Indexing and representative URL Inspection evidence.",
+    "AI-engine mentions need a defined prompt set and dated answer/citation captures."
+  ]
+}

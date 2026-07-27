@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 0.45,
+  "counts": {"items": 6, "pass": 3, "fail": 2, "not_applicable": 0, "not_checked_blocked": 1},
+  "evidence_inputs": [
+    "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json",
+    "logs/audits/raw/20260727T073600Z-connected-data-evidence.json"
+  ],
+  "rows": [
+    {"item_id": "direct-answers", "section_id": "answerability", "status": "fail", "result": "The homepage contains FAQs, but they appear after merchandising, brand, recipe, and press sections rather than as concise answers near the top.", "next_action": "Add a short, factual brand/category definition and direct buying/use guidance near the top; retain detailed FAQs lower on the page.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/homepage_sections"},
+    {"item_id": "structured-answers", "section_id": "answerability", "status": "pass", "result": "Rendered homepage, product, and newer editorial samples use FAQs, lists, and in some cases tables, creating extractable answer blocks.", "next_action": "Keep answers self-contained and align them with verified product facts.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#sample_page_findings"},
+    {"item_id": "entity-clarity", "section_id": "entity-authority", "status": "fail", "result": "The brand is named in Organization/WebSite schema, but empty sameAs entries and inconsistent visible singular/plural naming ('Winn Food' vs 'Winn Foods') weaken entity consistency.", "next_action": "Standardize the approved brand name and description, clean sameAs, and use a stable Organization @id across templates.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1"},
+    {"item_id": "citations-sources", "section_id": "entity-authority", "status": "pass", "result": "The homepage links to multiple third-party press features, while the brand workspace records first-party and secondary-source provenance.", "next_action": "Add credible sources directly to health/nutrition articles and pursue independent category citations.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1"},
+    {"item_id": "ai-crawler-access", "section_id": "ai-visibility", "status": "pass", "result": "robots.txt allows public content under the wildcard agent, and /llms.txt returns HTTP 200 with store, sitemap, agents.md, and UCP discovery guidance.", "next_action": "Review llms.txt accuracy when products, policies, or agent-commerce endpoints change.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/3"},
+    {"item_id": "ai-mentions", "section_id": "ai-visibility", "status": "not_checked_blocked", "result": "No defined priority-prompt set or authenticated answer-engine test was available, so current AI mentions/citations were not verified.", "next_action": "Create a dated prompt benchmark for Winn Foods, Indo-Chinese sauces, Hakka noodles, Manchurian sauce, and Schezwan chutney across major answer engines.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/4"}
+  ]
+}

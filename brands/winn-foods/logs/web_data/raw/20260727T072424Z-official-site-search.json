@@ -1,0 +1,16 @@
+{
+  "provider": "firecrawl",
+  "endpoint": "search",
+  "search_id": "019fa275-88e1-7587-b6f2-3faa395aff1b",
+  "success": true,
+  "credits_used": 0,
+  "request": {
+    "query": "site:winn-foods.com Winn Foods about brand story products recipes founders company",
+    "include_domains": ["winn-foods.com"],
+    "limit": 10
+  },
+  "data": {
+    "web": []
+  },
+  "result_assessment": "No search results returned; the direct crawl remained the primary first-party source."
+}

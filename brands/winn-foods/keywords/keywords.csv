@@ -1,0 +1,25 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+winn foods,navigational,homepage,https://winn-foods.com/,,,high,active
+winn sauce,navigational,homepage,https://winn-foods.com/,,,high,active
+winn products,navigational,collection,https://winn-foods.com/collections/shop-all,,,high,active
+buy winn sauces online,transactional,collection,https://winn-foods.com/collections/chinese-sauces,,,high,optimize
+indo chinese sauces,commercial,collection,https://winn-foods.com/collections/chinese-sauces,,,high,optimize
+chinese sauces online,transactional,collection,https://winn-foods.com/collections/chinese-sauces,,,high,proposed
+winn schezwan chutney,transactional,product,https://winn-foods.com/products/schezwan-chattak-chutney/,,,high,active
+schezwan chutney online,transactional,product,https://winn-foods.com/products/schezwan-chattak-chutney/,,,high,proposed
+schezwan momos,informational,blog,,,,high,optimize
+winn green chilli sauce,transactional,product,https://winn-foods.com/products/green-chilli-sauce/,,,high,active
+manchurian sauce,commercial,product,https://winn-foods.com/products/manchurian-sauce,,,high,optimize
+manchurian sauce bottle,transactional,product,https://winn-foods.com/products/manchurian-sauce,,,high,optimize
+what is manchurian sauce,informational,blog,,,,high,proposed
+winn hakka noodles,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,high,active
+hakka noodles online,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,medium,optimize
+winn dark soy sauce,transactional,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,optimize
+dark soya sauce,commercial,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,optimize
+winn all in one chinese sauce,transactional,product,https://winn-foods.com/products/all-in-one-sauce,,,high,optimize
+all in one chinese sauce,commercial,product,https://winn-foods.com/products/all-in-one-sauce,,,high,optimize
+sizzling masala,commercial,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,high,optimize
+winn fried rice masala,transactional,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,high,active
+chinese masala,commercial,collection,https://winn-foods.com/collections/chinese-masala,,,high,optimize
+instant chinese soup,transactional,collection,,,,medium,proposed
+winn white vinegar,transactional,product,https://winn-foods.com/products/white-vinegar-200ml,,,medium,optimize

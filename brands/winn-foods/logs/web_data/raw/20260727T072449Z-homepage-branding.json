@@ -1,0 +1,44 @@
+{
+  "provider": "firecrawl",
+  "endpoint": "scrape",
+  "scrape_id": "019fa276-0eeb-7296-b7e8-5a5551a859db",
+  "source_url": "https://winn-foods.com/",
+  "status_code": 200,
+  "branding": {
+    "color_scheme": "light",
+    "fonts": [
+      {"family": "Poppins", "role": "heading"},
+      {"family": "Inter", "role": "body"}
+    ],
+    "colors": {
+      "primary": "#C81E2B",
+      "secondary": "#D32F2F",
+      "accent": "#C81E2B",
+      "background": "#FFFFFF",
+      "text_primary": "#000000",
+      "link": "#F4E4E3"
+    },
+    "typography": {
+      "h1": "40px",
+      "h2": "28px",
+      "body": "13.5px"
+    },
+    "primary_button": {
+      "background": "#C81E2B",
+      "text_color": "#FFFFFF",
+      "border_radius": "40px"
+    },
+    "logo": "https://winn-foods.com/cdn/shop/files/Winn-Logo-White-Png_1.png?v=1766404569&width=110",
+    "favicon": "https://winn-foods.com/cdn/shop/files/FAVICON-_winn_-transparent_1.png?crop=center&height=32&v=1770989422&width=32",
+    "personality": {
+      "tone": "bold",
+      "energy": "high",
+      "target_audience": "consumers interested in Asian cuisine"
+    },
+    "confidence": {
+      "buttons": 0.95,
+      "colors": 0.9,
+      "overall": 0.925
+    }
+  }
+}

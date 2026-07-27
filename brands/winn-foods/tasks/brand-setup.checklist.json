@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "started_at": "2026-07-27T07:21:39Z",
+  "updated_at": "2026-07-27T07:40:00Z",
+  "phases": [
+    {
+      "phase": "0-init",
+      "status": "done",
+      "items": [
+        {
+          "id": "p0.skeleton",
+          "status": "done",
+          "severity": "high",
+          "note": "Initialized the Winn Foods brand workspace and provenance categories.",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        {"id": "p1.crawl-ok", "status": "done", "severity": "high", "note": "Firecrawl completed 35/35 pages; homepage HTTP 200.", "log_ref": "logs/web_data/activity.jsonl"},
+        {"id": "p1.brand-name", "status": "done", "severity": "high", "note": "Resolved Winn Foods and canonical website URL from homepage metadata.", "log_ref": "logs/web_data/raw/20260727T072346Z-brand-dna-crawl.json"},
+        {"id": "p1.core-fields", "status": "done", "severity": "medium", "note": "Core fields populated from first-party storefront content and branding extraction; unverified fields routed to open_questions.", "log_ref": "logs/web_data/raw/20260727T072346Z-brand-dna-crawl.json"},
+        {"id": "p1.competitors", "status": "done", "severity": "medium", "note": "Three category peers recorded; exact approved competitor set remains an open question.", "log_ref": "logs/web_data/raw/20260727T072437Z-market-context-search.json"},
+        {"id": "p1.dna-valid", "status": "done", "severity": "high", "note": "brand-dna.json written to the canonical flat schema; validation is repeated in Phase 5.", "log_ref": "brand-dna.json"},
+        {"id": "p1.knowledge", "status": "done", "severity": "low", "note": "knowledge.md seeded with writing patterns, messaging guardrails, product context, design tokens, and provenance.", "log_ref": "knowledge.md"}
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "failed",
+      "items": [
+        {"id": "p2.demand-pull", "status": "failed", "severity": "high", "note": "The permitted google_ads_generate_keyword_ideas tool was not exposed; volumes and difficulty remain blank. GSC and brand-DNA seed fallback completed.", "log_ref": "logs/keywords/activity.jsonl", "next_action": "Expose the permitted Keyword Planner tool with GOOGLE_ADS_PLATFORM_ID injected, then refresh demand metrics without using any other Google Ads action."},
+        {"id": "p2.universe", "status": "done", "severity": "high", "note": "universe.csv contains 55 unique rows with the required 12-column header.", "log_ref": "keywords/universe.csv"},
+        {"id": "p2.keywords", "status": "done", "severity": "medium", "note": "keywords.csv contains 24 prioritized rows.", "log_ref": "keywords/keywords.csv"},
+        {"id": "p2.clusters", "status": "done", "severity": "medium", "note": "clusters.json contains 8 validated topic clusters.", "log_ref": "keywords/clusters.json"},
+        {"id": "p2.gsc", "status": "done", "severity": "low", "note": "GSC pull succeeded with 2,328 query rows and 139 page rows; 49 relevant rows were curated. Aggregate data is contaminated by unrelated gambling queries and /food-services/ traffic.", "log_ref": "logs/keywords/raw/20260727T072812Z-gsc-performance.json"},
+        {"id": "p2.summary", "status": "done", "severity": "medium", "note": "research-summary.json counts and blockers validate against the CSV and cluster outputs.", "log_ref": "keywords/research-summary.json"}
+      ]
+    },
+    {
+      "phase": "3-existing-blogs",
+      "status": "done",
+      "items": [
+        {"id": "p3.index", "status": "done", "severity": "medium", "note": "Blog/news and recipe indexes plus Shopify sitemap were located.", "log_ref": "logs/blogs/raw/20260727T072500Z-blog-map.json"},
+        {"id": "p3.discovery", "status": "done", "severity": "medium", "note": "24 live posts discovered; 20 selected per storage cap with sitemap lastmod retained separately from unknown publication dates.", "log_ref": "logs/blogs/raw/20260727T072600Z-blog-sitemap.json"},
+        {"id": "p3.references", "status": "done", "severity": "medium", "note": "20/20 selected posts returned HTTP 200 and have local reference files.", "log_ref": "logs/blogs/raw/20260727T073100Z-blog-fetch-batch.json"},
+        {"id": "p3.summary", "status": "done", "severity": "low", "note": "summary.md contains the index, writing-style analysis, cluster coverage, gaps, cap, and fetch notes.", "log_ref": "blogs/summary.md"}
+      ]
+    },
+    {
+      "phase": "4-seo-audits",
+      "status": "done",
+      "items": [
+        {"id": "p4.evidence", "status": "done", "severity": "high", "note": "20-page Firecrawl evidence plus robots, llms.txt, GSC, and GA4 evidence gathered; missing providers are explicitly blocked.", "log_ref": "logs/audits/activity.jsonl"},
+        {"id": "p4.per-audit", "status": "done", "severity": "high", "note": "All six audit findings files contain every definition item; the audit run remains partial because 10 rows are blocked.", "log_ref": "audits/summary.json"},
+        {"id": "p4.counts", "status": "done", "severity": "medium", "note": "All row-status tallies and weighted scores recompute exactly.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary", "status": "done", "severity": "high", "note": "Summary totals equal six findings files; scored-audit average is 0.38.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary-md", "status": "done", "severity": "low", "note": "Human-readable summary includes findings, priority fixes, impact, blockers, and evidence.", "log_ref": "audits/summary.md"}
+      ]
+    },
+    {
+      "phase": "5-finalize",
+      "status": "done",
+      "items": [
+        {"id": "p5.validate-json", "status": "done", "severity": "high", "note": "All setup JSON files parse; detailed audit and keyword consistency checks passed.", "log_ref": "brand.json"},
+        {"id": "p5.validate-content-index", "status": "done", "severity": "medium", "note": "20 blog reference files and local summary links validated.", "log_ref": "blogs/summary.md"},
+        {"id": "p5.manifest", "status": "done", "severity": "high", "note": "brand.json manifest written with counts, pointers, locale, market, status, and blockers.", "log_ref": "brand.json"}
+      ]
+    }
+  ]
+}
