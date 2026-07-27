@@ -6,16 +6,15 @@
   "primary_keyword": "trekking shoes for men",
   "secondary_keywords": [
     "trekking shoes",
-    "trekking boots men",
-    "best trekking shoes",
-    "best trekking shoes for men"
+    "men's trail running shoes",
+    "post-monsoon trekking shoes"
   ],
   "excluded_keyword": "treks shoes",
   "excluded_keyword_reason": "Apparent typo in the supplied brief; excluded to protect readability and brand quality.",
   "intent": "informational/commercial",
   "audience": "Indian men choosing trail footwear for post-monsoon hikes",
   "author": "OFFLIMITS Editorial Team",
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-27",
   "article_schema": true,
   "breadcrumb_schema": true,
   "faq_schema": true,
