@@ -1,0 +1,66 @@
+{
+  "run_id": "cottonworld-refresh-20260727",
+  "captured_at": "2026-07-27T12:23:53Z",
+  "provider": "google_search_console",
+  "property": "https://cottonworld.net/",
+  "permission_level": "siteFullUser",
+  "date_range": {
+    "start": "2026-04-25",
+    "end": "2026-07-24",
+    "data_state": "final",
+    "search_type": "web"
+  },
+  "totals": {
+    "clicks": 78662,
+    "impressions": 6065461,
+    "ctr": 0.01296884111529198,
+    "position": 9.166850796666568
+  },
+  "exact_seed_keyword_matches": [
+    {"keyword":"cotton clothing for men","clicks":6,"impressions":107,"position":9.9065},
+    {"keyword":"cotton clothing for women","clicks":11,"impressions":304,"position":12.6645},
+    {"keyword":"linen clothing for men","clicks":2,"impressions":171,"position":28.1930},
+    {"keyword":"linen clothing for women","clicks":13,"impressions":838,"position":20.0155},
+    {"keyword":"bamboo clothing india","clicks":11,"impressions":285,"position":4.6},
+    {"keyword":"linen shirts for men","clicks":11,"impressions":531,"position":36.8927},
+    {"keyword":"cotton kurtas for women","clicks":1,"impressions":1,"position":4.0},
+    {"keyword":"linen pants for men","clicks":46,"impressions":2274,"position":18.9112},
+    {"keyword":"cotton t-shirts men","clicks":0,"impressions":44,"position":26.8636},
+    {"keyword":"bamboo t-shirts","clicks":0,"impressions":385,"position":34.7792},
+    {"keyword":"mens shirts online india","clicks":0,"impressions":6,"position":91.5},
+    {"keyword":"womens tops online","clicks":1,"impressions":404,"position":26.2871},
+    {"keyword":"womens leggings cotton","clicks":0,"impressions":1,"position":9.0},
+    {"keyword":"co ord sets women","clicks":0,"impressions":364,"position":54.8929},
+    {"keyword":"sleepwear women cotton","clicks":0,"impressions":1,"position":4.0},
+    {"keyword":"cotton kurtas men","clicks":0,"impressions":4,"position":16.25},
+    {"keyword":"linen culottes women","clicks":0,"impressions":5,"position":5.0},
+    {"keyword":"cotton shorts men","clicks":26,"impressions":2850,"position":11.2442},
+    {"keyword":"summer cotton clothing","clicks":0,"impressions":15,"position":11.6},
+    {"keyword":"cottonworld","clicks":4472,"impressions":25655,"position":2.3625},
+    {"keyword":"cottonworld online","clicks":344,"impressions":2171,"position":6.5228},
+    {"keyword":"cottonworld store near me","clicks":15,"impressions":64,"position":2.2344},
+    {"keyword":"cotton vs linen clothing","clicks":0,"impressions":2,"position":1.0},
+    {"keyword":"sustainable clothing brands india","clicks":0,"impressions":2,"position":44.0}
+  ],
+  "no_exact_match_seed_keywords": [
+    "mens pants online india",
+    "loungewear india",
+    "work wear cotton india",
+    "travel clothing breathable",
+    "brunch outfits women india",
+    "benefits of natural fabrics",
+    "how to care for linen clothes",
+    "is bamboo fabric sustainable",
+    "best breathable fabrics for indian summer",
+    "how to build a capsule wardrobe",
+    "what is slow fashion",
+    "how to style linen shirts",
+    "cotton clothing care tips",
+    "best cotton clothing brands india"
+  ],
+  "notes": [
+    "The query and page endpoints returned at least 5000 query rows and 1000 page rows, but the connector preview truncates large result sets.",
+    "Exact-match calls were therefore used to update all 38 saved seed rows without inventing aggregates.",
+    "Keyword Planner was not called because GOOGLE_ADS_PLATFORM_ID is unset; volume and difficulty remain unmeasured."
+  ]
+}

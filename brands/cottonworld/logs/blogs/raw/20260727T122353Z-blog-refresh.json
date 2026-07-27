@@ -1,0 +1,59 @@
+{
+  "run_id": "cottonworld-refresh-20260727",
+  "captured_at": "2026-07-27T12:23:53Z",
+  "providers": ["firecrawl", "public_http_shopify_atom", "public_http_sitemap"],
+  "index_url": "https://cottonworld.net/blogs/blog",
+  "index_status": 200,
+  "post_count": 4,
+  "posts": [
+    {
+      "title": "Comfort Meets Style: Everyday Fashion That Feels Right",
+      "url": "https://cottonworld.net/blogs/blog/comfort-meets-style-everyday-fashion-that-feels-right",
+      "published": "2026-05-20T22:41:00+05:30",
+      "updated": "2026-06-30T13:00:15+05:30",
+      "author": "TheSecondWheel",
+      "content_quality": "broken_placeholder",
+      "evidence": ["Repeated JSW Defence copy", "Repeated Lorem Ipsum sections", "Meta description contains unrelated JSW Defence copy"]
+    },
+    {
+      "title": "The Story Of Natural Cotton: Why Fabric Matters More Than Fashion",
+      "url": "https://cottonworld.net/blogs/blog/the-story-of-natural-cotton-why-fabric-matters-more-than-fashion",
+      "published": "2026-05-12T21:00:56+05:30",
+      "updated": "2026-06-05T18:53:40+05:30",
+      "author": "Abuhurerah Shaikh",
+      "content_quality": "broken_placeholder",
+      "evidence": ["Repeated JSW Defence copy", "Repeated Lorem Ipsum sections", "Meta description contains unrelated JSW Defence copy"]
+    },
+    {
+      "title": "Slow Living, Everyday Style: Dressing With Comfort And Purpose",
+      "url": "https://cottonworld.net/blogs/blog/slow-living-everyday-style-dressing-with-comfort-and-purpose",
+      "published": "2026-05-06T13:19:28+05:30",
+      "updated": "2026-06-05T18:54:18+05:30",
+      "author": "Abuhurerah Shaikh",
+      "content_quality": "empty_placeholder",
+      "evidence": ["Atom feed has no article content", "Index excerpt is Lorem Ipsum", "Rendered page contains only related-post and storefront boilerplate"]
+    },
+    {
+      "title": "Timeless Wardrobes: How To Choose Cloths That Last Beyond Seasons",
+      "url": "https://cottonworld.net/blogs/blog/timeless-wardrobes-how-to-choose-cloths-that-last-beyond-seasons",
+      "published": "2026-05-06T13:19:17+05:30",
+      "updated": "2026-06-05T18:55:11+05:30",
+      "author": "Abuhurerah Shaikh",
+      "content_quality": "empty_placeholder",
+      "evidence": ["Atom feed has no article content", "Index excerpt is Lorem Ipsum", "Rendered page contains only related-post and storefront boilerplate"]
+    }
+  ],
+  "writing_style_observed": {
+    "usable_sources": ["homepage", "about page", "blog titles and index excerpts"],
+    "not_usable_as_voice_samples": ["article bodies"],
+    "patterns": [
+      "Short declarative lines",
+      "Comfort and fabric first",
+      "Longevity over trend language",
+      "Warm, plain, reassuring tone",
+      "Simple contrasts such as worn once versus worn often",
+      "Occasion-led merchandising: work, brunch, summer, travel"
+    ],
+    "warning": "Do not learn tone or facts from the four article bodies; they are contaminated placeholder content."
+  }
+}

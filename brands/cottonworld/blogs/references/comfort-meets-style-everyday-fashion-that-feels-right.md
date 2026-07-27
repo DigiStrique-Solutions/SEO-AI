@@ -3,28 +3,26 @@ title: "Comfort Meets Style: Everyday Fashion That Feels Right"
 slug: comfort-meets-style-everyday-fashion-that-feels-right
 url: https://cottonworld.net/blogs/blog/comfort-meets-style-everyday-fashion-that-feels-right
 status: published
-published_date: 2026-05-21
-category: Lifestyle / Natural fabrics
-primary_keyword: "[unassigned — post content is placeholder]"
+published_date: 2026-05-20
+updated_date: 2026-06-30
+category: Style Guide
+primary_keyword: "[unassigned — body does not match title]"
 author: TheSecondWheel
-fetched_at: 2026-07-13
+content_quality: broken_placeholder
+fetched_at: 2026-07-27
 ---
 
 ## Summary
 
-Published post on the Cottonworld blog. **Content is currently broken/placeholder** — the live body
-contains lorem-ipsum sections and unrelated boilerplate (about "JSW Defence / Indian Armed Forces"),
-so no genuine article summary can be recorded. Title suggests intended topic: *Comfort Meets Style: Everyday Fashion That Feels Right*.
+The intended topic is comfortable, simple everyday style. The live article cannot be summarized as genuine Cottonworld content because it repeats unrelated JSW Defence copy and Lorem Ipsum sections.
 
 ## Key points
 
-- ⚠️ Live content does not match the title; body is placeholder/lorem-ipsum (lorem ipsum present).
-- Meta description: WRONG — unrelated JSW Defence boilerplate.
-- Page renders **0 H1**.
-- Author byline in schema: TheSecondWheel.
+- The blog index describes breathable fabrics, simple styling and everyday comfort.
+- The article body is unrelated placeholder material.
+- The live meta description is unrelated JSW Defence copy.
+- Search Console reports the URL as submitted and indexed.
 
 ## Notes
 
-Recommended action: **unpublish or fully rewrite** before it accrues (negative) SEO signals. Intended
-topic maps well to the `edu-fabric` / `edu-style` clusters in `keywords/clusters.json`. When rewritten,
-run the `ai-text-risk-gate` (ZeroGPT) check before publishing.
+`rewrite_required`. Preserve the URL only if the replacement genuinely answers the title. Use homepage/about language and [../writing-style.md](../writing-style.md), not the existing body.

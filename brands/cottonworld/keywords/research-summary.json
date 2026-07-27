@@ -3,27 +3,44 @@
   "brand_id": "cottonworld",
   "brand_name": "Cottonworld",
   "website_url": "https://cottonworld.net",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-27",
   "target_country": "India",
   "language": "en-IN",
-  "date_range": null,
-  "default_source": "seed (brand-dna taxonomy)",
-  "difficulty_scale": "0-100 (unmeasured this run)",
+  "date_range": {
+    "start": "2026-04-25",
+    "end": "2026-07-24",
+    "search_type": "web",
+    "data_state": "final"
+  },
+  "default_source": "brand taxonomy seeds enriched with exact-match Google Search Console performance",
+  "difficulty_scale": "0-100; unmeasured because Keyword Planner is unavailable",
   "counts": {
     "universe": 38,
     "keywords_curated": 31,
-    "clusters": 10
+    "clusters": 10,
+    "gsc_exact_match_rows_with_impressions": 24,
+    "gsc_seed_rows_without_exact_match": 14
   },
   "sources": {
-    "keyword_planner": "unavailable",
-    "gsc": "not_connected",
-    "seed": 38
+    "keyword_planner": "unavailable: GOOGLE_ADS_PLATFORM_ID unset",
+    "gsc": "connected",
+    "seed": 38,
+    "gsc_query_rows_endpoint": "at least 5000 rows; connector preview truncated",
+    "gsc_page_rows_endpoint": "at least 1000 rows; connector preview truncated"
   },
-  "gsc_property": null,
-  "gsc_available_properties": [],
+  "gsc_property": "https://cottonworld.net/",
+  "gsc_permission_level": "siteFullUser",
+  "gsc_available_properties": [
+    "https://cottonworld.net/"
+  ],
+  "gsc_totals": {
+    "clicks": 78662,
+    "impressions": 6065461,
+    "ctr": 0.01296884111529198,
+    "position": 9.166850796666568
+  },
   "blockers": [
-    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID unset \u2014 no demand/volume/difficulty pulled",
-    "gsc_not_connected: no real query/impression/position data; gsc_* columns blank",
-    "volumes_and_difficulty_unmeasured: keywords are seed/derived from brand taxonomy; validate demand once GSC/Keyword Planner is connected"
+    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID is unset, so keyword volume and difficulty remain blank",
+    "full_gsc_export_not_persisted: the connector returned truncated previews for the 5000-query and 1000-page pulls; exact-match calls were used for all saved seed rows"
   ]
 }
