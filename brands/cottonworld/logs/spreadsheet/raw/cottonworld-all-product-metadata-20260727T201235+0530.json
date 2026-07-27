@@ -1,0 +1,74 @@
+{
+  "run_id": "cottonworld-all-product-metadata-20260727T201235+0530",
+  "timestamp": "2026-07-27T20:12:35+05:30",
+  "spreadsheet_id": "1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY",
+  "sheet": "New URL Structure & H1 Tags",
+  "source_range": "B2:H921",
+  "updated_range": "K2:L921",
+  "source_fields": {
+    "product_code": "B",
+    "suggested_new_url_structure": "D",
+    "new_h1": "H"
+  },
+  "output_fields": {
+    "meta_title": "K",
+    "meta_description": "L"
+  },
+  "generation": {
+    "populated_product_rows": 920,
+    "generated_rows": 920,
+    "blocked_rows": 0,
+    "preserved_user_supplied_rows": [6, 7, 429, 430, 621, 752],
+    "title_pattern": "Buy {supported product attributes} | Cottonworld",
+    "description_basis": "Supported product attributes plus Cottonworld's approved everyday-comfort voice",
+    "unsupported_claims_added": 0
+  },
+  "quality_checks": {
+    "title_length_characters": {
+      "minimum": 41,
+      "maximum": 84,
+      "over_70": 85
+    },
+    "description_length_characters": {
+      "minimum": 120,
+      "maximum": 160,
+      "over_160": 0
+    },
+    "duplicate_title_groups": 5,
+    "duplicate_title_groups_across_distinct_suggested_urls": 4,
+    "duplicate_description_groups": 1,
+    "duplicate_note": "Remaining duplicates reflect identical or semantically indistinguishable source attributes; no unsupported differentiators were invented."
+  },
+  "source_issues": [
+    {
+      "row": 493,
+      "status": "fail",
+      "evidence": "Suggested URL contains a space: https://cottonworld.net/products/womens-linen-regular-fit blouse-khaki",
+      "metadata_action": "Generated from the row's revised H1",
+      "next_action": "Correct the suggested URL slug before implementation"
+    },
+    {
+      "row": 502,
+      "status": "fail",
+      "evidence": "Suggested URL contains spaces: https://cottonworld.net/products/womens-cotton-bamboo-elastane regular fit tshirt mustard",
+      "metadata_action": "Generated from the row's revised H1",
+      "next_action": "Correct the suggested URL slug before implementation"
+    }
+  ],
+  "verification": {
+    "headers": "K1:L1",
+    "full_range_read_back": "K2:L921",
+    "exact_value_match": true,
+    "nonempty_rows": 920,
+    "drive_status": "saved",
+    "visual_check": "passed",
+    "formatting_preserved": true
+  },
+  "authenticity_gate": {
+    "status": "pass",
+    "ai_text_risk_score": 7.43,
+    "threshold": 20.0,
+    "zerogpt_status": "local_fallback",
+    "zerogpt_note": "ZeroGPT returned 403 not enough credits; the local score was recorded as a weak editorial signal."
+  }
+}
