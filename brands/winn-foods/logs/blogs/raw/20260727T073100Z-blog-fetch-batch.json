@@ -1,0 +1,216 @@
+{
+  "provider": "firecrawl",
+  "action": "structured_scrape_batch",
+  "run_id": "winn-foods-blogs-20260727",
+  "input": {
+    "formats": ["json"],
+    "onlyMainContent": true,
+    "records_requested": 20
+  },
+  "results": [
+    {
+      "url": "https://winn-foods.com/blogs/news/indo-chinese-where-noodles-met-masala",
+      "status_code": 200,
+      "scrape_id": "019fa27a-26c9-76e9-82e2-1da5c8dd0f8f",
+      "title": "Indo-Chinese, Where Noodles Met Masala",
+      "meta_description": "When Chinese flavors took an Indian vacation—and never left! It all started with a wok, a bunch of food lovers, and a lot of spice!",
+      "primary_keyword": "Indo-Chinese cuisine",
+      "summary": "The post traces the meeting of Chinese techniques and Indian spices, then connects the cuisine’s familiar dishes to Winn sauces.",
+      "key_points": ["Hakka migration and cuisine history", "Chinese techniques with Indian spices", "Winn sauce integration"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/why-are-winn-sauces-winn-ning-hearts-everywhere",
+      "status_code": 200,
+      "scrape_id": "019fa27a-2342-70a6-a372-5f3af9c9e8e2",
+      "title": "Why Are Winn Sauces Winn-ning Hearts Everywhere?",
+      "meta_description": "Ever wondered what takes a meal from decent to downright delicious? Spoiler alert: it’s the sauce.",
+      "primary_keyword": "Winn sauces",
+      "summary": "The brand story positions Winn sauces as the flavor boost that makes everyday meals more exciting.",
+      "key_points": ["Bold flavor", "Real-ingredient positioning", "Indo-Chinese identity", "Collection CTA"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/common-mistakes-to-avoid-when-cooking-chinese-food",
+      "status_code": 200,
+      "scrape_id": "019fa27a-2aef-756f-a181-ba62be3c9a2b",
+      "title": "Common Mistakes to Avoid When Cooking Chinese Food",
+      "meta_description": "Chinese food is loved worldwide for its bold flavors, vibrant colors, and quick cooking techniques.",
+      "primary_keyword": "Chinese cooking mistakes",
+      "summary": "The guide explains how preparation, pan crowding, and sauce decisions affect flavor and texture.",
+      "key_points": ["Prepare ingredients first", "Avoid pan crowding", "Use sauce deliberately"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/no-msg-no-artificial-colors-why-clean-chinese-sauces-matter",
+      "status_code": 200,
+      "scrape_id": "019fa27a-3258-7431-8a92-70b7256687ff",
+      "title": "No MSG, No Artificial Colors: Why Clean Chinese Sauces Matter",
+      "meta_description": "The post discusses ingredient awareness and additive-free positioning in Chinese sauces.",
+      "primary_keyword": "clean Chinese sauces",
+      "summary": "The article advocates sauces without MSG or artificial colors and promotes Winn as a clean-label choice.",
+      "key_points": ["Ingredient awareness", "No-MSG positioning", "Artificial-color claims", "Health-claim caution"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/all-in-one-chinese-sauce-what-it-is-why-every-kitchen-needs-it",
+      "status_code": 200,
+      "scrape_id": "019fa27a-2f1d-7598-9579-6c11f53b33d9",
+      "title": "All-in-One Chinese Sauce: What It Is & Why Every Kitchen Needs It",
+      "meta_description": "The page presents one versatile sauce for noodles, fried rice, Manchurian, and momos.",
+      "primary_keyword": "all-in-one Chinese sauce",
+      "summary": "The article frames one sauce as a convenient substitute for measuring several condiments.",
+      "key_points": ["Soy-chilli-garlic profile", "Desi Chinese use cases", "Convenience promise"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/5-mistakes-you-re-making-while-cooking-noodles",
+      "status_code": 200,
+      "scrape_id": "019fa27a-373c-7378-a6fc-852e7f74faf2",
+      "title": "5 Mistakes You’re Making While Cooking Noodles",
+      "meta_description": "Struggling with sticky or soggy noodles? Discover 5 common mistakes while cooking noodles.",
+      "primary_keyword": "noodle cooking mistakes",
+      "summary": "The post pairs five common noodle problems with simple texture and stir-frying fixes.",
+      "key_points": ["Avoid overcooking", "Rinse noodles", "Use enough water", "Do not crowd the pan", "Control sauce quantity"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/best-chinese-sauces",
+      "status_code": 200,
+      "scrape_id": "019fa27a-3f2d-7469-b416-b340d991586b",
+      "title": "Best Chinese Sauces for Everyday Cooking",
+      "meta_description": "Discover must-have Chinese sauces like dark soy, red chilli, Manchurian sauce, and Schezwan chutney.",
+      "primary_keyword": "best Chinese sauces",
+      "summary": "The guide maps a practical sauce set to meals, mistakes, storage advice, and FAQs.",
+      "key_points": ["Core sauce list", "Meal ideas", "Usage mistakes", "Storage", "FAQs"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/are-chinese-sauces-healthy-what-you-should-know",
+      "status_code": 200,
+      "scrape_id": "019fa27a-3b38-74d8-8ed4-56c2b0a86914",
+      "title": "Are Chinese Sauces Healthy? What You Should Know",
+      "meta_description": "The page considers ingredients, portions, sodium, and sugar when evaluating Chinese sauces.",
+      "primary_keyword": "Chinese sauces health",
+      "summary": "The post encourages readers to compare labels and use concentrated sauces in moderation.",
+      "key_points": ["Ingredient lists", "Sodium and sugar", "Portion size", "Collection CTA"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/hot-sour-soup",
+      "status_code": 200,
+      "scrape_id": "019fa27a-432f-730e-a4bf-047bf471c249",
+      "title": "Hot & Sour Soup",
+      "meta_description": "A spicy and tangy Indo-Chinese soup made with mushrooms, tofu, fresh vegetables, and Winn Chilli Vinegar Sauce.",
+      "primary_keyword": "hot and sour soup",
+      "summary": "The recipe balances heat and acidity in a vegetable, mushroom, and tofu soup.",
+      "key_points": ["Grouped soup-base ingredients", "Adjustable chilli vinegar", "Direct instructions"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/shiitake-mushrooms-bok-choy",
+      "status_code": 200,
+      "scrape_id": "019fa27a-46f9-7223-8bd6-a45a689eeb1d",
+      "title": "Shiitake Mushrooms & Bok Choy",
+      "meta_description": "Tender mushrooms and crisp greens braised in a savory sauce featuring Winn Dark Soya Sauce.",
+      "primary_keyword": "shiitake mushrooms bok choy",
+      "summary": "The compact recipe emphasizes the contrast between tender mushrooms and bright bok choy.",
+      "key_points": ["Dark soya sauce", "Garlic and ginger", "Texture contrast"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/spicy-eggplant",
+      "status_code": 200,
+      "scrape_id": "019fa27a-f7c5-760d-b471-34f6c3ef8d68",
+      "title": "Spicy Eggplant",
+      "meta_description": "Tender eggplant stir-fried in Winn Red Chilli Sauce with garlic, ginger, and dried chillies.",
+      "primary_keyword": "spicy eggplant",
+      "summary": "The recipe creates a fiery eggplant dish and suggests rice or noodles for serving.",
+      "key_points": ["Red Chilli Sauce", "Garlic and ginger", "Side or main"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/chilli-paneer",
+      "status_code": 200,
+      "scrape_id": "019fa27a-fc0f-720c-b9ad-f6f408600056",
+      "title": "Chilli Paneer",
+      "meta_description": "A spicy Indo-Chinese dish made with crispy paneer, bell peppers, onions, aromatics, and Winn sauces.",
+      "primary_keyword": "chilli paneer",
+      "summary": "The recipe focuses on crisp paneer, crunchy vegetables, and a sauce-coated finish.",
+      "key_points": ["Crispy paneer", "Bell peppers and onions", "Winn sauce integration"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/fried-rice",
+      "status_code": 200,
+      "scrape_id": "019fa27b-0410-701c-b153-e3976ff80a00",
+      "title": "Fried Rice",
+      "meta_description": "Vegetable fried rice with mixed vegetables, garlic, ginger, Winn Dark Soy Sauce, and sesame oil.",
+      "primary_keyword": "vegetable fried rice",
+      "summary": "The page offers a short weeknight fried-rice method using cooked rice and mixed vegetables.",
+      "key_points": ["Cooked rice", "Mixed vegetables", "Dark soy", "Sesame oil"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/soya-sauce-glazed-mushrooms",
+      "status_code": 200,
+      "scrape_id": "019fa27b-0008-7206-ac23-3596c89c03c1",
+      "title": "Soya Sauce Glazed Mushrooms",
+      "meta_description": "Mushrooms sautéed with garlic and ginger and glazed in Winn Dark Soya Sauce.",
+      "primary_keyword": "soya sauce glazed mushrooms",
+      "summary": "The recipe turns a short ingredient list into a glossy mushroom side dish or topping.",
+      "key_points": ["Sauté and glaze", "Dark Soya Sauce", "Flexible serving"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/schezwan-fried-rice",
+      "status_code": 200,
+      "scrape_id": "019fa27b-0ccf-7119-9de8-ca928e71975d",
+      "title": "Schezwan Fried Rice",
+      "meta_description": "Spicy fried rice with vegetables, Winn Schezwan Chattak Chutney, dark soy, and chilli vinegar.",
+      "primary_keyword": "Schezwan fried rice",
+      "summary": "The recipe layers several sauces into colorful vegetable fried rice.",
+      "key_points": ["Basmati rice", "Mixed vegetables", "Schezwan Chattak Chutney", "Quick stir-fry"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/schezwan-noodles",
+      "status_code": 200,
+      "scrape_id": "019fa27b-0773-77f2-8306-57cc9ab894c6",
+      "title": "Schezwan Noodles",
+      "meta_description": "Winn Hakka Noodles stir-fried with mixed vegetables, Schezwan chutney, and sauce.",
+      "primary_keyword": "Schezwan noodles",
+      "summary": "The page presents a quick, fiery noodle stir-fry in a minimal ingredients-and-instructions format.",
+      "key_points": ["Hakka noodles", "Julienned vegetables", "Schezwan heat"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/veg-manchurian",
+      "status_code": 200,
+      "scrape_id": "019fa27b-10a6-72fe-be86-15e9e53a2fa4",
+      "title": "Veg Manchurian",
+      "meta_description": "Crispy vegetable balls tossed in Winn Manchurian Sauce and simmered to finish.",
+      "primary_keyword": "veg Manchurian",
+      "summary": "The recipe turns grated vegetables into crisp balls, then coats them in Manchurian sauce.",
+      "key_points": ["Vegetable balls", "Manchurian Sauce", "Appetizer or side"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/vegetable-stir-fry",
+      "status_code": 200,
+      "scrape_id": "019fa27b-144c-717d-a94a-4e63e601c6c5",
+      "title": "Vegetable Stir-Fry",
+      "meta_description": "Broccoli, bell peppers, carrots, and zucchini tossed in Winn Green Chilli Sauce.",
+      "primary_keyword": "vegetable stir fry",
+      "summary": "The recipe offers a colorful, quick stir-fry for a weeknight meal.",
+      "key_points": ["Mixed vegetables", "Green Chilli Sauce", "Fast preparation"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/spicy-thai-green-chilli-stir-fry",
+      "status_code": 200,
+      "scrape_id": "019fa27b-66db-765f-afa5-53bb203c3cad",
+      "title": "Spicy Thai Green Chilli Stir-Fry",
+      "meta_description": "Tofu and vegetables tossed in Winn Green Chilli Sauce and finished with Thai basil.",
+      "primary_keyword": "Thai green chilli stir fry",
+      "summary": "The recipe uses tofu, vegetables, sauce, and basil for a quick, zesty stir-fry.",
+      "key_points": ["Tofu", "Mixed vegetables", "Green Chilli Sauce", "Thai basil"]
+    },
+    {
+      "url": "https://winn-foods.com/blogs/recipes/schezwan-momos",
+      "status_code": 200,
+      "scrape_id": "019fa27b-5d12-7327-9a43-ee8fb7f33422",
+      "title": "Schezwan Momos",
+      "meta_description": "Steamed vegetable dumplings with a fiery Schezwan flavor.",
+      "primary_keyword": "Schezwan momos",
+      "summary": "The recipe walks through dough, filling, assembly, and steaming for a snack or appetizer.",
+      "key_points": ["Flour dough", "Vegetable filling", "Schezwan sauce", "Party-snack occasion"]
+    }
+  ],
+  "records": 20,
+  "errors": 0,
+  "captured_at": "2026-07-27T07:31:19Z"
+}
+
