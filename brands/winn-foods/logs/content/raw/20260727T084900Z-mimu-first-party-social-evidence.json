@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-content-mimu-20260727",
+  "captured_at": "2026-07-27T08:49:00Z",
+  "provider": "browser",
+  "source_account": "Winn Foods / @winnfoods",
+  "observations": [
+    {
+      "url": "https://www.instagram.com/p/DSUuYfrCN-D/",
+      "post_date": "2025-12-16",
+      "caption_facts": [
+        "Mimu warmed up the stage.",
+        "The campaign asked people to create a 15-second reel using Winn Foods' official Souper Tasty track, titled Hello I am MIMU.",
+        "The campaign language and indexed post terms identify Mimu as a mascot."
+      ],
+      "visual_observation": "The official campaign artwork depicts Mimu as a black-and-white panda wearing a gold chain and a large MIMU pendant against a red stage backdrop.",
+      "historical_promotion_note": "The post described a contest that ran from 16-19 December 2025. The draft does not present this expired promotion as active."
+    },
+    {
+      "url": "https://www.instagram.com/winnfoods/reel/Dau5mfGoJ6H/",
+      "post_date": "2026-07-13",
+      "caption_facts": [
+        "Winn Foods announced that it had arrived at six D-Mart stores in Chhattisgarh.",
+        "The post says Mimu was excited to celebrate the arrival."
+      ],
+      "visual_observation": "The accessible image description identifies a panda/bear character, luggage, and the text WINN IS HERE."
+    },
+    {
+      "url": "https://www.instagram.com/winnfoods/p/DaiETlgotnK/",
+      "post_date": "2026-07-08",
+      "caption_facts": [
+        "The post asks which Winn soup the reader would try first.",
+        "The creative places Mimu alongside the Winn soup range."
+      ],
+      "visual_observation": "The accessible image description shows multiple Winn soup packs and the name MIMU."
+    }
+  ],
+  "limitations": [
+    "No first-party source reviewed here provides an approved origin story, age, place of origin, speaking style, or detailed personality biography for Mimu.",
+    "The draft therefore avoids inventing a backstory or attributing dialogue to the mascot."
+  ]
+}

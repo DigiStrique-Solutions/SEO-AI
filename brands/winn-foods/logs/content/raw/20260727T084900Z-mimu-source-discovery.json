@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-content-mimu-20260727",
+  "captured_at": "2026-07-27T08:49:00Z",
+  "topic": "Meet Mimu: The Face of Global Flavours, Desi Swag",
+  "firecrawl_searches": [
+    {
+      "search_id": "019fa2c1-ed01-771c-ae87-3f2492153f8a",
+      "query": "\"Mimu\" \"Winn Foods\"",
+      "status": "partial",
+      "web_results": 0,
+      "useful_result": {
+        "type": "image_result",
+        "url": "https://www.instagram.com/p/DSUuYfrCN-D/",
+        "title": "Mimu warmed up the stage, and now it's your turn to steal the spotlight",
+        "observed_terms": ["Souper Tasty track", "Hello I am MIMU"]
+      }
+    },
+    {
+      "search_id": "019fa2c2-512a-713d-868a-b8149f069f69",
+      "query": "\"Hello I am MIMU\" Winn Souper Tasty",
+      "status": "partial",
+      "results": 0
+    },
+    {
+      "search_id": "019fa2c3-5153-76be-9f10-af155b1ffed8",
+      "query": "\"Mimu mascot\" \"Winn Foods\"",
+      "status": "partial",
+      "results": 0
+    }
+  ],
+  "firecrawl_scrape": {
+    "url": "https://www.instagram.com/p/DSUuYfrCN-D/",
+    "status": "error",
+    "error": "Provider does not support scraping Instagram."
+  },
+  "notes": [
+    "Firecrawl located the first-party Instagram source but could not scrape it.",
+    "The first-party posts were subsequently inspected read-only in the in-app browser; see 20260727T084900Z-mimu-first-party-social-evidence.json."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-content-mimu-20260727",
+  "captured_at": "2026-07-27T08:55:00Z",
+  "provider": "firecrawl",
+  "scope": "https://winn-foods.com/",
+  "discovery": {
+    "method": "Firecrawl map with sitemap included and search term Mimu",
+    "limit": 200,
+    "result": "The map exposed the live site inventory but no dedicated Mimu page or URL."
+  },
+  "homepage": {
+    "url": "https://winn-foods.com/",
+    "status_code": 200,
+    "scrape_ids": [
+      "019fa2c8-2b55-73d3-ba90-454bc9912e26",
+      "019fa2c9-4901-725b-abe5-76f0374c9fa3"
+    ],
+    "has_mimu_reference": true,
+    "text_mentions": ["Mimu", "Winn Mimu"],
+    "asset": {
+      "url": "https://winn-foods.com/cdn/shop/files/winn_mimu_banner_v1.1.jpg?v=1766403265&width=1500",
+      "filename": "winn_mimu_banner_v1.1.jpg",
+      "alt_text": "Winn Foods Mimu Banner",
+      "nearby_text": [
+        "Choose Your Chinese Fix",
+        "Turn Every Meal Into Chinese Magic"
+      ],
+      "target_link": "https://winn-foods.com/collections/soup-range"
+    }
+  },
+  "site_search": {
+    "url": "https://winn-foods.com/search?q=Mimu",
+    "status_code": 200,
+    "scrape_id": "019fa2c9-b024-7656-b0ec-ec7ac3ed7118",
+    "result_count": 0,
+    "message": "No results found for 'Mimu'. Check the spelling or use a different word or phrase."
+  },
+  "about_page": {
+    "url": "https://winn-foods.com/pages/about-us",
+    "status_code": 200,
+    "scrape_id": "019fa2c8-95c8-722c-9d6c-32185fc5221d",
+    "has_mimu_reference": false,
+    "brand_story_facts": [
+      "The page says Chinese food in India has become a family favourite and comfort food that unites people.",
+      "The page says Winn Foods set out to craft authentic Chinese sauces balancing spice, tang and umami.",
+      "The page positions Winn sauces and chutneys as a way to create restaurant-style Chinese dishes at home."
+    ]
+  },
+  "soup_collection": {
+    "url": "https://winn-foods.com/collections/soup-range",
+    "status_code": 200,
+    "scrape_id": "019fa2c8-ea7f-7239-bb87-cc94167d0b01",
+    "has_mimu_text_reference": false,
+    "visible_products": [
+      "Winn Sweet Corn FAB Soup (13g)",
+      "Hot & Sour AHA Soup (12g)",
+      "Manchow YUM Soup (12g)",
+      "Winn Tomato YIN YANG Soup (17g)",
+      "Mix Veg OMG Soup (12g)"
+    ]
+  },
+  "finding": {
+    "summary": "The only explicit Mimu reference found in searchable/rendered website evidence is the homepage Mimu banner, which sends visitors to the soup range. No dedicated biography, origin story, mascot landing page, product description, or indexed blog about Mimu was found.",
+    "content_opportunity": "Publish the proposed blog as the canonical, indexable introduction to Mimu and link it from the homepage banner or nearby homepage copy."
+  }
+}

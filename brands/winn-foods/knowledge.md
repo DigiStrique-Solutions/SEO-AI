@@ -39,6 +39,16 @@
 - (2026-07-27) Use bold food imagery, obvious product packs, high contrast, and direct retail CTAs. Reconfirm assets/tokens against current design files before production design.
 - (2026-07-27) Logo source observed: `https://winn-foods.com/cdn/shop/files/Winn-Logo-White-Png_1.png?v=1766404569&width=110`.
 
+## Mimu — Brand Mascot
+
+- (2026-07-27) Mimu is Winn Foods' panda mascot. Official campaign artwork shows a black-and-white panda wearing a gold chain with a large `MIMU` pendant against Winn's red stage backdrop.
+- (2026-07-27) A first-party post dated 2025-12-16 used Mimu in Winn's `Hello I am MIMU` / `Souper Tasty` reel campaign.
+- (2026-07-27) First-party July 2026 posts place Mimu alongside the Winn soup range and use the character to celebrate Winn's arrival at six D-Mart stores in Chhattisgarh.
+- (2026-07-27) The live homepage uses `winn_mimu_banner_v1.1.jpg` with alt text `Winn Foods Mimu Banner`; the banner links directly to `/collections/soup-range`.
+- (2026-07-27) Winn's site search returns zero results for `Mimu`, and the mapped site has no dedicated Mimu biography or article. The proposed Mimu blog should become the canonical indexable character introduction and receive a link from the homepage banner or nearby copy.
+- (2026-07-27) No reviewed first-party source provides an approved origin story, age, place of origin, dialogue style, or full character biography. Do not invent these details; request a brand character guide before expanding Mimu's lore.
+- Evidence: `logs/content/raw/20260727T084900Z-mimu-first-party-social-evidence.json` and `logs/content/raw/20260727T085500Z-mimu-website-evidence.json`.
+
 ## SEO & Content Operating Rules
 
 - (2026-07-27) Existing recipe content is stored in `blogs/references/`; consult it before planning a new recipe to avoid dish and keyword duplication.
@@ -70,4 +80,5 @@
 
 ## Change Log
 
+- **2026-07-27** — Added first-party Mimu mascot facts and character guardrails from three Winn Foods social posts.
 - **2026-07-27** — Workspace initialized from a 35-page Firecrawl crawl, homepage branding extraction, and external category/company search.
