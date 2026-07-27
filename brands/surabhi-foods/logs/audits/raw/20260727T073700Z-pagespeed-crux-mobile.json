@@ -1,0 +1,240 @@
+{
+  "ok": true,
+  "report": {
+    "checked_at": "2026-07-27T07:34:50+00:00",
+    "crux": {
+      "checked_at": "2026-07-27T07:35:18+00:00",
+      "collection_period": {
+        "firstDate": {
+          "day": 28,
+          "month": 6,
+          "year": 2026
+        },
+        "lastDate": {
+          "day": 25,
+          "month": 7,
+          "year": 2026
+        }
+      },
+      "form_factor": "PHONE",
+      "key": {
+        "formFactor": "PHONE",
+        "url": "https://surabhi-foods.com/"
+      },
+      "metrics": {
+        "cumulative_layout_shift": {
+          "histogram": [
+            {
+              "density": 1,
+              "end": "0.10",
+              "start": "0.00"
+            },
+            {
+              "density": 0,
+              "end": "0.25",
+              "start": "0.10"
+            },
+            {
+              "density": 0,
+              "start": "0.25"
+            }
+          ],
+          "p75": "0.00"
+        },
+        "experimental_time_to_first_byte": {
+          "histogram": [
+            {
+              "density": 0.7765,
+              "end": 800,
+              "start": 0
+            },
+            {
+              "density": 0.1845,
+              "end": 1800,
+              "start": 800
+            },
+            {
+              "density": 0.039,
+              "start": 1800
+            }
+          ],
+          "p75": 716
+        },
+        "first_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.9227,
+              "end": 1800,
+              "start": 0
+            },
+            {
+              "density": 0.0602,
+              "end": 3000,
+              "start": 1800
+            },
+            {
+              "density": 0.0171,
+              "start": 3000
+            }
+          ],
+          "p75": 888
+        },
+        "largest_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.8282,
+              "end": 2500,
+              "start": 0
+            },
+            {
+              "density": 0.1202,
+              "end": 4000,
+              "start": 2500
+            },
+            {
+              "density": 0.0516,
+              "start": 4000
+            }
+          ],
+          "p75": 2063
+        },
+        "largest_contentful_paint_image_element_render_delay": {
+          "histogram": [],
+          "p75": 1256
+        },
+        "largest_contentful_paint_image_resource_load_delay": {
+          "histogram": [],
+          "p75": 611
+        },
+        "largest_contentful_paint_image_resource_load_duration": {
+          "histogram": [],
+          "p75": 781
+        },
+        "largest_contentful_paint_image_time_to_first_byte": {
+          "histogram": [],
+          "p75": 763
+        },
+        "round_trip_time": {
+          "histogram": [
+            {
+              "density": 0.3562,
+              "end": 75,
+              "start": 0
+            },
+            {
+              "density": 0.5246,
+              "end": 275,
+              "start": 75
+            },
+            {
+              "density": 0.1192,
+              "start": 275
+            }
+          ],
+          "p75": 162
+        }
+      },
+      "queried": "https://surabhi-foods.com/",
+      "scope": "url",
+      "service": "crux"
+    },
+    "pagespeed": {
+      "category_scores": {
+        "accessibility": 93,
+        "best-practices": 73,
+        "performance": 56,
+        "seo": 92
+      },
+      "checked_at": "2026-07-27T07:35:18+00:00",
+      "field_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 0
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 716
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 888
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 2063
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "final_url": "https://surabhi-foods.com/",
+      "lab_core_web_vitals": {
+        "cumulative-layout-shift": {
+          "display_value": "0",
+          "numeric_value": 0,
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "display_value": "3.7\u00a0s",
+          "numeric_value": 3731.0617416903924,
+          "score": 0.29
+        },
+        "interactive": {
+          "display_value": "11.9\u00a0s",
+          "numeric_value": 11912.789754056666,
+          "score": 0.16
+        },
+        "largest-contentful-paint": {
+          "display_value": "11.6\u00a0s",
+          "numeric_value": 11636.29328861162,
+          "score": 0
+        },
+        "max-potential-fid": {
+          "display_value": "420\u00a0ms",
+          "numeric_value": 418,
+          "score": 0.15
+        },
+        "speed-index": {
+          "display_value": "6.4\u00a0s",
+          "numeric_value": 6446.327208409832,
+          "score": 0.4
+        },
+        "total-blocking-time": {
+          "display_value": "270\u00a0ms",
+          "numeric_value": 265.5,
+          "score": 0.82
+        }
+      },
+      "origin_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 0
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 640
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 973
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "FAST",
+            "percentile": 130
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1611
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "service": "pagespeed",
+      "strategy": "mobile",
+      "url": "https://surabhi-foods.com/"
+    },
+    "service": "core_web_vitals",
+    "url": "https://surabhi-foods.com/"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "../../../audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 9.09,
+  "counts": {"pass": 1, "fail": 4, "not_applicable": 1, "total": 6},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json",
+    "../logs/audits/raw/20260727T074000Z-crawl-control-evidence.json",
+    "../brand-dna.json"
+  ],
+  "rows": [
+    {
+      "item_id": "direct-answers",
+      "section_id": "answerability",
+      "severity": "high",
+      "status": "fail",
+      "result": "Homepage, product, and sampled article copy is marketing-led or narrative; it does not consistently present concise, extractable answers to likely product and comparison questions near the top.",
+      "next_action": "Add short factual answer blocks for what the product is, who it suits, key sourced formulation facts, and direct comparison conclusions.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "structured-answers",
+      "section_id": "answerability",
+      "severity": "medium",
+      "status": "fail",
+      "result": "No visible FAQ, definition, comparison table, or other structured answer block was observed on the representative pages; the comparison article also lacks semantic H2 topic structure.",
+      "next_action": "Use descriptive H2s, concise definitions, bullet steps, a comparison table, and only genuinely useful FAQs.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "entity-clarity",
+      "section_id": "entity-authority",
+      "severity": "high",
+      "status": "fail",
+      "result": "The site alternates among Surabhi, Surabhi Foods, and Surabhi Sauces, links a LinkedIn company named Adinath Agro Processed Foods, and lacks homepage Organization/WebSite schema. The official 1989/2006 history conflict remains unresolved.",
+      "next_action": "Confirm the approved entity hierarchy and timeline, then standardise About copy, metadata, footer identity, sameAs links, and Organization schema.",
+      "evidence_ref": "../brand-dna.json"
+    },
+    {
+      "item_id": "citations-sources",
+      "section_id": "entity-authority",
+      "severity": "medium",
+      "status": "fail",
+      "result": "The sampled article provides no visible supporting sources, and no evidence-backed third-party citation study was available in this run.",
+      "next_action": "Cite authoritative food, regulatory, or product-document sources where claims require support and run a separate third-party mention/citation review.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "ai-crawler-access",
+      "section_id": "ai-visibility",
+      "severity": "low",
+      "status": "pass",
+      "result": "robots.txt returns 200 with no explicit observed AI-agent block, and llms.txt returns 200 with Surabhi-specific agent, browsing, store-policy, and platform instructions.",
+      "next_action": "Keep llms.txt accurate, concise, canonical, and aligned with the confirmed entity and current storefront capabilities.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-crawl-control-evidence.json"
+    },
+    {
+      "item_id": "ai-mentions",
+      "section_id": "ai-visibility",
+      "severity": "medium",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No controlled, repeatable AI-engine prompt set with dated answer captures was executed, so brand visibility was not inferred.",
+      "next_action": "Define priority prompts from validated keyword clusters, test selected answer engines in a dated logged run, and record citations/mentions by engine and prompt.",
+      "evidence_ref": "../keywords/clusters.json"
+    }
+  ]
+}

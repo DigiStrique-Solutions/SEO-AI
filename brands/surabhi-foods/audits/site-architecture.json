@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "site-architecture",
+  "audit_ref": "../../../audit-library/site-architecture.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 81.82,
+  "counts": {"pass": 4, "fail": 1, "not_applicable": 2, "total": 7},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T074000Z-firecrawl-crawl-summary.json",
+    "../logs/audits/raw/20260727T074000Z-crawl-control-evidence.json",
+    "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json",
+    "../keywords/research-summary.json"
+  ],
+  "rows": [
+    {
+      "item_id": "robots-txt",
+      "section_id": "crawlability",
+      "severity": "high",
+      "status": "pass",
+      "result": "robots.txt returns 200, is parseable, references the XML sitemap, and does not block the key public product, collection, page, or blog templates sampled.",
+      "next_action": "Monitor Shopify-generated rules after platform updates and keep key templates crawlable.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-crawl-control-evidence.json"
+    },
+    {
+      "item_id": "sitemap",
+      "section_id": "crawlability",
+      "severity": "high",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. The XML sitemap returns 200, is referenced in robots.txt, and exposes product/page/collection child sitemaps, but submission and processing cannot be verified without the exact GSC property.",
+      "next_action": "Connect surabhi-foods.com in GSC and verify sitemap submission, last read, discovered URLs, and errors.",
+      "evidence_ref": "../keywords/research-summary.json"
+    },
+    {
+      "item_id": "url-structure",
+      "section_id": "structure",
+      "severity": "low",
+      "status": "pass",
+      "result": "Observed canonical URLs use HTTPS, lowercase Shopify paths, descriptive hyphenated handles, and no required tracking parameters.",
+      "next_action": "Preserve stable handles and canonicalize/filter non-content parameters.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-firecrawl-crawl-summary.json"
+    },
+    {
+      "item_id": "internal-linking",
+      "section_id": "structure",
+      "severity": "medium",
+      "status": "fail",
+      "result": "Key categories are shallow, but homepage 'View All Recipes' and 'View All Blogs' links point to the legacy surabhisauces.com host, weakening same-domain discovery and creating inconsistent navigation.",
+      "next_action": "Update legacy links to https://surabhi-foods.com/pages/recipes-1 and https://surabhi-foods.com/blogs/blogs-by-surabhi, then recrawl for other old-host links and orphans.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "redirects",
+      "section_id": "structure",
+      "severity": "medium",
+      "status": "pass",
+      "result": "The sampled 40-page crawl and rendered key pages did not surface redirect loops or multi-hop canonical destinations.",
+      "next_action": "Retain single-hop redirects and recheck the old surabhisauces.com migration links separately.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-firecrawl-crawl-summary.json"
+    },
+    {
+      "item_id": "canonical-consistency",
+      "section_id": "indexation",
+      "severity": "high",
+      "status": "pass",
+      "result": "Representative homepage, product, article, collection, and about pages use one HTTPS canonical host and self-referencing canonical URLs.",
+      "next_action": "Keep surabhi-foods.com as the sole canonical host and remove residual navigation to the old host.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "indexation-coverage",
+      "section_id": "indexation",
+      "severity": "high",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Public pages have no observed noindex meta, but actual indexed coverage and accidental exclusions require the exact GSC property.",
+      "next_action": "Connect GSC and inspect Page Indexing, URL Inspection, excluded canonical/noindex states, and sitemap coverage.",
+      "evidence_ref": "../keywords/research-summary.json"
+    }
+  ]
+}

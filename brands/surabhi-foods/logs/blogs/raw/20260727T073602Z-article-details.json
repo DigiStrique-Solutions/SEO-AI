@@ -1,0 +1,259 @@
+{
+  "run_id": "surabhi-blogs-20260727T073600Z",
+  "provider": "firecrawl",
+  "request": {
+    "operation": "structured article scrape",
+    "formats": ["json"],
+    "only_main_content": true,
+    "fields": ["title","canonical_url","meta_description","published_date","category","primary_keyword","summary","key_points","writing_patterns"]
+  },
+  "responses": [
+    {
+      "title": "Why Home Cooks Are Switching to Ready-Made Ginger Garlic Paste",
+      "canonical_url": "https://surabhi-foods.com/blogs/news/why-home-cooks-are-switching-to-ready-made-ginger-garlic-paste",
+      "meta_description": "Discover why home cooks choose ready-made ginger garlic paste for convenience and flavor. Explore quality options from Surabhi Sauces. Shop Now!",
+      "published_date": "",
+      "category": "Inferred: Cooking Tips",
+      "primary_keyword": "ginger garlic paste",
+      "summary": "Explains why ready-made ginger garlic paste appeals to busy home cooks through quicker preparation, consistent flavour, easier cleanup, and broad recipe use. It covers everyday applications, buying and storage guidance, and positions Surabhi's paste as a convenient Indian-kitchen staple.",
+      "key_points": [
+        "Ready-made paste removes peeling, chopping, grinding, and part of the cleanup from meal preparation.",
+        "A prepared blend is presented as a way to keep ginger-to-garlic flavour more consistent across repeated dishes.",
+        "Suggested uses span curries, gravies, biryani, marinades, noodles, wraps, and fusion dishes.",
+        "The article advises refrigeration after opening, clean-spoon handling, and following the pack's shelf-life instructions.",
+        "Surabhi Ginger Garlic Paste is introduced after the practical advice as the ready-to-use product solution."
+      ],
+      "writing_patterns": {
+        "headline_style": "Benefit-led question/behaviour headline centred on home cooks.",
+        "opening_style": "Starts with the pressure of busy workdays and packed mornings before naming the product.",
+        "structure": "Long-form guide with explanatory H2s, numbered benefits, use cases, comparison, storage tips, conclusion, and FAQs.",
+        "tone": "Practical, conversational, reassuring, and convenience-led.",
+        "point_of_view": "Mixes third-person home-cook framing with direct second-person advice and a first-person brand close.",
+        "calls_to_action": "Moves from education to choosing a quality paste and ends with Surabhi as the practical option.",
+        "vocabulary_and_spelling": "Indian culinary vocabulary with mixed flavour/flavor spelling and some awkward phrasing.",
+        "product_integration": "Product and adjacent sauces appear naturally inside recipe examples, then more directly near the conclusion."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27d-1543-719b-9b12-37a173549ff3"
+    },
+    {
+      "title": "Surabhi Bus Shelters - Bus Stop Brings Surabhi's Tasty Delights",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-bus-shelters-bus-stop-brings-surabhis-tasty-delights",
+      "meta_description": "Surabhi transforms bus shelters into vibrant displays of its sauces, inviting everyone to explore their culinary delights.",
+      "published_date": "2023-11-30T17:04:11+05:30",
+      "category": "Inferred: Brand news",
+      "primary_keyword": "Surabhi sauces",
+      "summary": "Describes a campaign that turned 50 bus shelters into displays for Surabhi's condiment range. It highlights three ketchup variants, other sauces and chutneys, and the Jain range before inviting readers to explore the brand.",
+      "key_points": [
+        "The article says the outdoor campaign used 50 bus shelters as product displays.",
+        "The visuals centre on Nong, Classic, and Hot & Sweet ketchup variants.",
+        "The wider range is introduced through ginger-garlic paste, Schezwan chutney, mayonnaise, and date-tamarind pani-puri chutney.",
+        "Jain products are framed as making the sauce range accessible to people avoiding onion and garlic."
+      ],
+      "writing_patterns": {
+        "headline_style": "Brand-led news headline with a playful food promise.",
+        "opening_style": "Begins with brand history and a product-range introduction.",
+        "structure": "Short narrative moving from campaign execution to hero products, range breadth, inclusivity, and invitation.",
+        "tone": "Promotional, enthusiastic, and accessible.",
+        "point_of_view": "Alternates third-person brand description with first-person plural commitments.",
+        "calls_to_action": "Ends with an invitation to explore Surabhi's flavours.",
+        "vocabulary_and_spelling": "Simple language, sensory adjectives, and explicit explanation of unfamiliar promotional ideas.",
+        "product_integration": "Product names are the substance of the campaign story rather than a separate sales insert."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-bc3a-738e-92d6-809157d7a740"
+    },
+    {
+      "title": "Surabhi Sauces New Campaign - \"Dil Se Pure\"",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-new-campaign-dil-se-pure",
+      "meta_description": "Surabhi unveils its \"Dil Se Pure\" campaign, presenting purity as a promise across its products and promotions.",
+      "published_date": "2023-11-17T14:48:46+05:30",
+      "category": "Inferred: Brand news",
+      "primary_keyword": "Dil Se Pure campaign",
+      "summary": "Introduces \"Dil Se Pure\" as a campaign and a broader brand promise centred on purity. It describes social, influencer, outdoor, in-store, and residential promotion while linking the message to Surabhi's product range and family audience.",
+      "key_points": [
+        "The campaign presents purity as the brand's central promise rather than only an advertising line.",
+        "Promotion spans social media, influencers, bus shelters, hoardings, society activities, and retail visibility.",
+        "The story connects product variety to different members of a household.",
+        "The article closes by asking readers to join the brand's purity-focused movement."
+      ],
+      "writing_patterns": {
+        "headline_style": "Direct campaign announcement built around the brand line.",
+        "opening_style": "A proud first-person brand declaration.",
+        "structure": "Campaign idea, channel rollout, audience breadth, product promise, and motivational close.",
+        "tone": "Warm, earnest, celebratory, and promotional.",
+        "point_of_view": "Dominantly first-person plural with inclusive reader language.",
+        "calls_to_action": "Invites the audience to join the movement and embrace the campaign promise.",
+        "vocabulary_and_spelling": "Emotion-led words such as heart, soul, pure, authentic, and journey.",
+        "product_integration": "Products serve as proof of the campaign promise but are discussed at range level."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-c052-773a-9a48-841c32d78783"
+    },
+    {
+      "title": "Surabhi Sauces Commitment to Local Sourcing, Freshness, and Flavor",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-commitment-to-local-sourcing-freshness-and-flavor",
+      "meta_description": "Explore Surabhi's stated approach to local sourcing, freshness, community relationships, and sustainability from farm to table.",
+      "published_date": "2024-01-04T10:32:16+05:30",
+      "category": "Inferred: Brand values",
+      "primary_keyword": "local sourcing",
+      "summary": "Presents Surabhi's farm-to-table narrative, linking local sourcing with freshness, regional farming relationships, efficient supply, and sustainability. The piece frames these practices as a promise to communities, customers, and the planet.",
+      "key_points": [
+        "The article says local sourcing supports regional farmers and shortens the route to Surabhi's facilities.",
+        "Freshness is connected to product quality and taste.",
+        "Local supply is presented as a way to reduce transport impact.",
+        "Farmer relationships are described as partnerships built on trust and quality expectations.",
+        "The close returns to a sensory farm-to-table promise."
+      ],
+      "writing_patterns": {
+        "headline_style": "Commitment headline naming three brand values.",
+        "opening_style": "Uses a field-to-table story to establish an emotional setting.",
+        "structure": "Thematic sections on communities, freshness, sustainability, relationships, facilities, and the future.",
+        "tone": "Aspirational, community-minded, sensory, and corporate-promotional.",
+        "point_of_view": "First-person plural brand voice addressing the reader directly.",
+        "calls_to_action": "Invites readers to join and savour the brand's sourcing journey.",
+        "vocabulary_and_spelling": "Repeated journey, freshness, quality, sustainability, heart, and table imagery; flavour appears in British spelling.",
+        "product_integration": "Range examples establish business scope before the article focuses on the sourcing narrative."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-c7f3-707f-a25d-5328e467a410"
+    },
+    {
+      "title": "Tomato Puree vs. Tomato Ketchup: Unveiling the Flavourful Differences",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences",
+      "meta_description": "A practical comparison of tomato puree and tomato ketchup, including their flavour profiles and culinary uses.",
+      "published_date": "2023-10-04T17:42:23+05:30",
+      "category": "Inferred: Product education",
+      "primary_keyword": "tomato puree vs tomato ketchup",
+      "summary": "Compares tomato puree and ketchup by ingredients, taste, texture, and cooking role. It positions puree as a concentrated cooking base and ketchup as a sweet-tangy ready condiment used for dipping, glazing, and quick flavour.",
+      "key_points": [
+        "Tomato puree is described as concentrated tomato used to build sauces, soups, stews, and similar dishes.",
+        "Ketchup adds sugar, vinegar, and seasoning to create a sweeter, tangier condiment.",
+        "The article contrasts puree's cooking versatility with ketchup's convenience for dipping and glazing.",
+        "The practical takeaway is to choose between the two according to the dish and desired flavour profile."
+      ],
+      "writing_patterns": {
+        "headline_style": "Search-friendly versus headline softened by a sensory phrase.",
+        "opening_style": "Starts from familiar pantry staples and introduces the reader's choice.",
+        "structure": "Side-by-side comparison followed by culinary applications and a decision-oriented conclusion.",
+        "tone": "Informative, approachable, and lightly promotional.",
+        "point_of_view": "Mostly third-person explanation with direct reader guidance.",
+        "calls_to_action": "Encourages choosing the product that fits the intended recipe.",
+        "vocabulary_and_spelling": "Uses culinary essentials, tangy, rich, and flavourful; British spelling appears in the title.",
+        "product_integration": "Category education leads naturally toward relevant Surabhi tomato products."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-c460-7200-8b0f-4f625c97342e"
+    },
+    {
+      "title": "Surabhi Ginger Garlic Paste – Time Saving Culinary Magic",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-ginger-garlic-paste-time-saving-culinary-magic",
+      "meta_description": "A Surabhi product-led guide to the flavour and time-saving uses of ready-made ginger garlic paste.",
+      "published_date": "2023-11-24T17:41:58+05:30",
+      "category": "Inferred: Product education",
+      "primary_keyword": "ginger garlic paste",
+      "summary": "Frames ginger garlic paste as a familiar Indian-kitchen flavour base for curries, stews, marinades, and other everyday dishes. It promotes Surabhi's ready-made paste through convenience, consistency, culinary versatility, and several health-related claims.",
+      "key_points": [
+        "The paste is positioned as a way to add depth and aroma without peeling, chopping, or grinding each time.",
+        "The article connects the ingredient to familiar Indian dishes and broader marinade use.",
+        "Convenience and consistent flavour are the principal product benefits.",
+        "The article also makes health-related statements about ginger and garlic that require independent substantiation before reuse."
+      ],
+      "writing_patterns": {
+        "headline_style": "Product-name headline pairing a practical benefit with sensory metaphor.",
+        "opening_style": "Begins with the familiar idea of ginger-garlic paste as an Indian chef's companion.",
+        "structure": "Ingredient role, claimed benefits, cooking advantages, product pitch, and conclusion.",
+        "tone": "Friendly, enthusiastic, and strongly promotional.",
+        "point_of_view": "Direct second person mixed with general statements.",
+        "calls_to_action": "Encourages buying and adding the paste to everyday cooking.",
+        "vocabulary_and_spelling": "Everyday Indian culinary language, magic imagery, and flavour-led phrasing.",
+        "product_integration": "Surabhi is introduced as the ready-made answer to the preparation problem established at the start."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-cb3d-75ee-a384-19f7a5ba1b77"
+    },
+    {
+      "title": "Benefits of Ginger Garlic Paste",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/benefits-of-ginger-garlic-paste",
+      "meta_description": "An overview of ready-made ginger garlic paste, its convenience, shelf-life framing, and cooking applications.",
+      "published_date": "2023-12-27T17:17:17+05:30",
+      "category": "Inferred: Product education",
+      "primary_keyword": "benefits of ginger garlic paste",
+      "summary": "Explains ready-made ginger garlic paste as a convenient blended ingredient used across Indian, Asian, and Middle Eastern cooking. It focuses on preparation time, consistency, storage, and versatility while also including health and preservation statements that need verification before reuse.",
+      "key_points": [
+        "The paste removes repeated peeling, chopping, and blending from recipe preparation.",
+        "It is presented as a consistent base for curries, sauces, marinades, and other dishes.",
+        "The article contrasts ready availability with the shorter preparation cycle of homemade paste.",
+        "Health and shelf-life claims appear in the article but should not be treated as approved evidence."
+      ],
+      "writing_patterns": {
+        "headline_style": "Plain, exact-match informational headline.",
+        "opening_style": "Defines the ingredient before explaining its usefulness.",
+        "structure": "Definition followed by benefit-led sections and culinary examples.",
+        "tone": "Conversational, explanatory, and product-positive.",
+        "point_of_view": "Mostly third-person with occasional reader-facing guidance.",
+        "calls_to_action": "Encourages readers to explore uses and keep the ingredient available.",
+        "vocabulary_and_spelling": "Simple culinary vocabulary with British flavour spelling in source copy.",
+        "product_integration": "The product category is central; brand promotion is less overt than in campaign posts."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-cfd8-738e-9e06-2c67e0972d22"
+    },
+    {
+      "title": "15 Delicious Ways to Use Ketchup Beyond Fries",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/15-delicious-ways-to-use-ketchup-beyond-fries",
+      "meta_description": "Discover 15 creative ketchup recipes beyond fries, from snacks to mains, with Surabhi Foods' flavourful twist.",
+      "published_date": "2026-05-02T12:44:31+05:30",
+      "category": "Inferred: Cooking tips",
+      "primary_keyword": "uses for ketchup",
+      "summary": "Shows how ketchup can move beyond dipping fries into glazes, sauces, rice, eggs, snacks, and main dishes. The list format gives home cooks quick, low-friction ideas and ties the versatility back to Surabhi ketchup.",
+      "key_points": [
+        "Ketchup can contribute sweetness, acidity, colour, and moisture to cooked dishes.",
+        "Suggested roles include a meat or vegetable glaze and a base for barbecue-style or pasta sauces.",
+        "The article also uses ketchup in fried rice, omelettes, snacks, and other everyday meals.",
+        "The central message is experimentation with a familiar condiment rather than following a single recipe."
+      ],
+      "writing_patterns": {
+        "headline_style": "Numbered list headline with a familiar reference point and a curiosity gap.",
+        "opening_style": "Challenges the assumption that ketchup belongs only with fries.",
+        "structure": "Scannable numbered list of uses with short explanations and a product-oriented close.",
+        "tone": "Playful, practical, approachable, and encouraging.",
+        "point_of_view": "Direct second person aimed at home cooks.",
+        "calls_to_action": "Invites readers to experiment and links the ideas to Surabhi ketchup.",
+        "vocabulary_and_spelling": "Accessible cooking verbs and sensory language; flavour follows British spelling in the metadata.",
+        "product_integration": "The brand product fits the entire list's use-case premise without interrupting the advice."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-d377-7581-94f9-909231a09b62"
+    },
+    {
+      "title": "Homemade Pizza Night: Best Pizza Sauce Tips and Toppings",
+      "canonical_url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/best-pizza-sauce-tips-and-toppings",
+      "meta_description": "Learn pizza-sauce tips, topping ideas, and easy combinations for a simple, fun homemade pizza night.",
+      "published_date": "2026-05-29T16:39:37+05:30",
+      "category": "Inferred: Cooking tips",
+      "primary_keyword": "pizza sauce tips",
+      "summary": "Turns homemade pizza into a shared, approachable cooking occasion and explains the roles of dough, sauce, cheese, and balanced toppings. It gives sauce quantities, topping combinations, common-mistake guidance, and FAQs while positioning Surabhi Pizza Sauce as a time-saving base.",
+      "key_points": [
+        "A basic home pizza needs dough, sauce, cheese, and a small set of complementary toppings.",
+        "The article recommends a thin, even sauce layer so the centre does not become soggy.",
+        "Vegetable, paneer, chicken, and Indian-inspired topping combinations are offered for different preferences.",
+        "Common mistakes include over-saucing, overloading toppings, skipping preheating, using cold dough, and underbaking.",
+        "Ready-to-use Surabhi Pizza Sauce is framed as a way to focus more on toppings and the shared cooking experience."
+      ],
+      "writing_patterns": {
+        "headline_style": "Occasion-led how-to headline combining the target product with practical tips.",
+        "opening_style": "Uses a humorous family scene around rolling dough, debating toppings, and adding extra cheese.",
+        "structure": "Essentials, sauce technique, topping groups, combinations, mistakes, product bridge, conclusion, and FAQs.",
+        "tone": "Friendly, lightly humorous, practical, and reassuring.",
+        "point_of_view": "Direct second person with inclusive observations about families and groups.",
+        "calls_to_action": "Encourages a DIY pizza night and presents Surabhi Pizza Sauce as the easy starting point.",
+        "vocabulary_and_spelling": "Casual food language and Indian examples; British forms such as centre and flavour appear alongside occasional American forms.",
+        "product_integration": "The product is introduced after explaining why sauce matters, then returns in the convenience section and FAQs."
+      },
+      "status_code": 200,
+      "scrape_id": "019fa27e-d935-763f-a265-944fc6bdf61f"
+    }
+  ],
+  "notes": "The payload intentionally retains structured metadata, summaries, and writing observations only; full article bodies returned in page metadata were discarded to comply with the blog storage rule."
+}

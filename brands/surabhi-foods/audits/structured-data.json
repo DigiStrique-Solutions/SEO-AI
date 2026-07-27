@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "structured-data",
+  "audit_ref": "../../../audit-library/structured-data.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 55.56,
+  "counts": {"pass": 2, "fail": 2, "not_applicable": 1, "total": 5},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json",
+    "../keywords/research-summary.json"
+  ],
+  "rows": [
+    {
+      "item_id": "org-website-schema",
+      "section_id": "coverage",
+      "severity": "high",
+      "status": "fail",
+      "result": "Rendered homepage contains no JSON-LD blocks; Organization and WebSite types are absent.",
+      "next_action": "Add one canonical JSON-LD graph with Organization and WebSite, including approved name, URL, logo, and verified sameAs profiles; do not resolve the corporate-name ambiguity without confirmation.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "breadcrumb-schema",
+      "section_id": "coverage",
+      "severity": "low",
+      "status": "fail",
+      "result": "A breadcrumb is visible on the sampled product page, but no BreadcrumbList JSON-LD type was found.",
+      "next_action": "Emit BreadcrumbList markup on product, collection, article, recipe, and standard-page templates with canonical item URLs.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "content-type-schema",
+      "section_id": "coverage",
+      "severity": "medium",
+      "status": "pass",
+      "result": "The sampled product renders parseable Product JSON-LD with offers, brand, SKU, name, description, URL, and image; the sampled blog renders Article JSON-LD with headline, author, publisher, dates, and image.",
+      "next_action": "Retain template-specific markup and add equivalent validated coverage to other product/article variants.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "schema-valid",
+      "section_id": "validity",
+      "severity": "high",
+      "status": "pass",
+      "result": "Playwright rendered the sampled Product and Article JSON-LD; both parsed without JSON errors and expose the core properties required by their templates.",
+      "next_action": "Run Google's Rich Results Test in CI or release QA to catch semantic eligibility errors beyond JSON parsing.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "rich-result-eligible",
+      "section_id": "validity",
+      "severity": "medium",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Rendered types and core properties are present, but Google rich-result validation and Search Console enhancement reports were not available.",
+      "next_action": "Validate representative Product and Article URLs in Google's Rich Results Test and connect the exact GSC property to monitor enhancement errors.",
+      "evidence_ref": "../keywords/research-summary.json"
+    }
+  ]
+}

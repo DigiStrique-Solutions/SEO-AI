@@ -1,0 +1,21 @@
+{
+  "provider": "local_lighthouse",
+  "target": "https://surabhi-foods.com/",
+  "status": "partial",
+  "report_ref": "20260727T073900Z-lighthouse-mobile.json",
+  "report_bytes": 1104720,
+  "scores": {
+    "performance": 37,
+    "accessibility": 93,
+    "best_practices": 73,
+    "seo": 92
+  },
+  "lab": {
+    "lcp_ms": 10775.341,
+    "ttfb_ms": 50,
+    "cls": 0.0000008707818877424685,
+    "render_blocking_insight_score": 0.5,
+    "image_delivery_insight_score": 0
+  },
+  "runner_error_after_report_write": "Chrome cleanup returned EPERM for its temporary Lighthouse directory; the complete JSON report was written and parsed successfully before cleanup."
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "surabhi-blogs-20260727T073600Z",
+  "provider": "firecrawl",
+  "sources": [
+    "https://surabhi-foods.com/sitemap_blogs_1.xml",
+    "https://surabhi-foods.com/blogs/blogs-by-surabhi.atom",
+    "https://surabhi-foods.com/blogs/news.atom"
+  ],
+  "main_feed": {
+    "status_code": 200,
+    "scrape_id": "019fa27f-cd24-77c7-a89c-ac1d9fa9103e",
+    "entries": [
+      {"title":"Homemade Pizza Night: Best Pizza Sauce Tips and Toppings","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/best-pizza-sauce-tips-and-toppings","published":"2026-05-29T16:39:37+05:30","updated":"2026-05-29T16:39:45+05:30","categories":[]},
+      {"title":"15 Delicious Ways to Use Ketchup Beyond Fries","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/15-delicious-ways-to-use-ketchup-beyond-fries","published":"2026-05-02T12:44:31+05:30","updated":"2026-05-02T12:46:10+05:30","categories":[]},
+      {"title":"Surabhi Sauces Commitment to Local Sourcing, Freshness, and Flavor","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-commitment-to-local-sourcing-freshness-and-flavor","published":"2024-01-04T10:32:16+05:30","updated":"2024-01-04T10:50:50+05:30","categories":[]},
+      {"title":"Benefits of Ginger Garlic Paste","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/benefits-of-ginger-garlic-paste","published":"2023-12-27T17:17:17+05:30","updated":"2023-12-27T17:36:32+05:30","categories":[]},
+      {"title":"Surabhi Bus Shelters - Bus Stop Brings Surabhi's Tasty Delights","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-bus-shelters-bus-stop-brings-surabhis-tasty-delights","published":"2023-11-30T17:04:11+05:30","updated":"2026-05-22T11:08:42+05:30","categories":[]},
+      {"title":"Surabhi Ginger Garlic Paste – Time Saving Culinary Magic","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-ginger-garlic-paste-time-saving-culinary-magic","published":"2023-11-24T17:41:58+05:30","updated":"2026-05-22T11:10:16+05:30","categories":[]},
+      {"title":"Surabhi Sauces New Campaign - \"Dil Se Pure\"","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-new-campaign-dil-se-pure","published":"2023-11-17T14:48:46+05:30","updated":"2026-05-22T11:06:03+05:30","categories":[]},
+      {"title":"Tomato Puree vs. Tomato Ketchup: Unveiling the Flavourful Differences","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences","published":"2023-10-04T17:42:23+05:30","updated":"2026-05-22T11:10:48+05:30","categories":[]}
+    ]
+  },
+  "news_feed": {
+    "firecrawl_status_code": 200,
+    "firecrawl_scrape_id": "019fa280-2c77-773e-b750-5eb6342cd1f9",
+    "firecrawl_extraction_status": "partial",
+    "fallback_provider": "web",
+    "fallback_result": {
+      "title": "Why Home Cooks Are Switching to Ready-Made Ginger Garlic Paste",
+      "url": "https://surabhi-foods.com/blogs/news/why-home-cooks-are-switching-to-ready-made-ginger-garlic-paste",
+      "published": "2026-07-02T14:28:52+05:30",
+      "updated": "2026-07-02T14:28:55+05:30"
+    }
+  },
+  "sitemap_note": "Sitemap lastmod values were used only for discovery/verification; Atom published timestamps are the publication-date source."
+}

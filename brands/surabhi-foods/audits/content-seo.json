@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "content-seo",
+  "audit_ref": "../../../audit-library/content-seo.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 44.44,
+  "counts": {"pass": 2, "fail": 3, "not_applicable": 2, "total": 7},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json",
+    "../keywords/clusters.json",
+    "../keywords/research-summary.json"
+  ],
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "severity": "high",
+      "status": "pass",
+      "result": "Dominant intent is clear by template: homepage and product/collection pages sell; the sampled comparison article educates.",
+      "next_action": "Keep one dominant purpose per page and align each primary CTA with that purpose.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "severity": "high",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Seed-backed clusters map navigational, transactional, commercial, and informational intents, but Keyword Planner demand/SERP validation and the exact GSC property are unavailable.",
+      "next_action": "Connect permitted Keyword Planner/SERP evidence and the surabhi-foods.com GSC property, then validate format and angle for each target query.",
+      "evidence_ref": "../keywords/research-summary.json"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "severity": "medium",
+      "status": "fail",
+      "result": "The sampled comparison article is about 526 main-content words and lacks structured topical subheadings in the rendered DOM; competitor subtopic parity was not established.",
+      "next_action": "Expand the comparison with clearly headed criteria, use cases, ingredient/formulation caveats, a concise comparison table, and sourced product-specific facts.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "severity": "medium",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Seed keywords exist, but required demand-backed primary/secondary keyword evidence is unavailable; no volume, difficulty, or GSC metrics were invented.",
+      "next_action": "Refresh the universe after Keyword Planner and GSC are available, then check primary placement and natural secondary coverage per page.",
+      "evidence_ref": "../keywords/research-summary.json"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "severity": "low",
+      "status": "pass",
+      "result": "The sampled Article schema reports publication on 2023-10-04 and modification on 2026-05-22, current relative to the audit date.",
+      "next_action": "Expose a visible updated date where useful and retain accurate dateModified values.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "severity": "medium",
+      "status": "fail",
+      "result": "Article schema contains an author property, but the sampled article shows no visible author, credentials, first-hand evidence, or supporting sources.",
+      "next_action": "Add visible author/editor attribution, relevant experience, reviewed dates, and citations for factual claims.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "severity": "low",
+      "status": "fail",
+      "result": "The sampled article main content links only to Home and the blog index; it lacks at least two topical contextual links to relevant products, collections, or recipes.",
+      "next_action": "Add descriptive in-body links to the relevant ketchup product/collection and related recipes or condiment guides.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    }
+  ]
+}

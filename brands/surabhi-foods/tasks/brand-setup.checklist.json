@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "started_at": "2026-07-27T07:24:40Z",
+  "updated_at": "2026-07-27T07:44:12Z",
+  "phases": [
+    {
+      "phase": "0-init",
+      "status": "done",
+      "items": [
+        {
+          "id": "p0.skeleton-created",
+          "status": "done",
+          "severity": "high",
+          "note": "Created the brand workspace, context index, setup checklist, and log category files.",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        {"id": "p1.crawl-ok", "status": "done", "severity": "high", "note": "Firecrawl completed 35 of 35 pages; representative key pages returned HTTP 200.", "log_ref": "logs/web_data/activity.jsonl"},
+        {"id": "p1.brand-dna-written", "status": "done", "severity": "high", "note": "brand-dna.json written from official-site evidence; competitors left open rather than invented.", "log_ref": "logs/web_data/raw/20260727T072907Z-homepage-brand-extract.json"},
+        {"id": "p1.knowledge-written", "status": "done", "severity": "high", "note": "knowledge.md seeded with positioning, voice, claims, do/don't rules, key pages, and open questions.", "log_ref": "logs/web_data/raw/20260727T072907Z-about-brand-extract.json"}
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "failed",
+      "items": [
+        {"id": "p2.demand-pull", "status": "failed", "severity": "high", "note": "The permitted google_ads_generate_keyword_ideas operation was unavailable in the active runtime. Next action: make the Keyword Planner operation callable, retaining platform ID sourcing from GOOGLE_ADS_PLATFORM_ID, then refresh metrics.", "log_ref": "logs/keywords/raw/20260727T073205Z-keyword-planner-unavailable.json"},
+        {"id": "p2.universe", "status": "done", "severity": "high", "note": "universe.csv contains 22 unique seed-backed rows with the valid 12-column header; unverified metrics remain blank.", "log_ref": "logs/keywords/activity.jsonl"},
+        {"id": "p2.keywords", "status": "done", "severity": "medium", "note": "keywords.csv contains a curated 15-row working set.", "log_ref": "logs/keywords/activity.jsonl"},
+        {"id": "p2.clusters", "status": "done", "severity": "medium", "note": "clusters.json contains five validated clusters mapped to confirmed site sections.", "log_ref": "logs/keywords/activity.jsonl"},
+        {"id": "p2.gsc", "status": "done", "severity": "low", "note": "GSC property access was attempted. No exact surabhi-foods.com property was connected; the distinct surabhisauces.com property was not substituted. Next action: connect the exact property.", "log_ref": "logs/keywords/raw/20260727T073205Z-gsc-property-check.json"},
+        {"id": "p2.summary", "status": "done", "severity": "medium", "note": "research-summary.json is valid and its counts match the CSV and cluster outputs.", "log_ref": "keywords/research-summary.json"}
+      ]
+    },
+    {
+      "phase": "3-existing-blogs",
+      "status": "done",
+      "items": [
+        {"id": "p3.index", "status": "done", "severity": "medium", "note": "Located Blogs By Surabhi and News indexes plus official Shopify Atom feeds.", "log_ref": "logs/blogs/raw/20260727T073601Z-blog-index.json"},
+        {"id": "p3.discovery", "status": "done", "severity": "medium", "note": "Discovered nine canonical live posts and verified publication dates through official feeds; cap of 20 was not reached.", "log_ref": "logs/blogs/raw/20260727T073603Z-blog-feeds.json"},
+        {"id": "p3.references", "status": "done", "severity": "medium", "note": "All nine article pages returned HTTP 200 and nine compact reference files were written; zero posts skipped.", "log_ref": "logs/blogs/raw/20260727T073602Z-article-details.json"},
+        {"id": "p3.summary", "status": "done", "severity": "low", "note": "summary.md contains the live index, coverage gaps, reusable writing patterns, article structure, and claim safeguards; all local links validate.", "log_ref": "blogs/summary.md"}
+      ]
+    },
+    {
+      "phase": "4-seo-audits",
+      "status": "done",
+      "items": [
+        {"id": "p4.evidence", "status": "done", "severity": "high", "note": "Gathered a 40-page crawl, targeted rendered DOM evidence, mobile PageSpeed/CrUX, local Lighthouse, and crawl-control evidence.", "log_ref": "logs/audits/activity.jsonl"},
+        {"id": "p4.per-audit", "status": "done", "severity": "high", "note": "All six default audit definitions produced valid findings files with evidence-gated statuses.", "log_ref": "audits/summary.json"},
+        {"id": "p4.counts", "status": "done", "severity": "medium", "note": "All per-audit status tallies and severity-weighted scores validate.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary", "status": "done", "severity": "high", "note": "summary.json totals 38 rows: 15 pass, 17 fail, 6 not_applicable; overall score 50.8.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary-md", "status": "done", "severity": "low", "note": "summary.md records scores, top fixes, expected impact, owners, evidence limits, and blockers.", "log_ref": "audits/summary.md"}
+      ]
+    },
+    {
+      "phase": "5-finalize",
+      "status": "done",
+      "items": [
+        {"id": "p5.schema-validation", "status": "done", "severity": "high", "note": "Validated 29 JSON files, 20 JSONL activity events, both CSV schemas/counts, 9 blog references and links, 6 audit tallies, 38 audit rows, and the 50.8 aggregate score.", "log_ref": "brand.json"},
+        {"id": "p5.manifest-written", "status": "done", "severity": "high", "note": "brand.json written with status partial because provider and brand-fact blockers remain explicit; all usable workspace pointers and counts are present.", "log_ref": "brand.json"}
+      ]
+    }
+  ]
+}

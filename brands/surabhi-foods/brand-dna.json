@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "updated_at": "2026-07-27T07:29:07Z",
+  "brand_name": "Surabhi Foods",
+  "website_url": "https://surabhi-foods.com/",
+  "logo": {
+    "description": "Surabhi Sauces official brand logo shown in the site header",
+    "icon_url": "https://surabhi-foods.com/cdn/shop/files/Surabhi_New_Logo_2.png?v=1754029984&width=160"
+  },
+  "business_description": "An Indian food brand selling condiments including ketchups, mayonnaise, chutneys and pastes, pizza and pasta sauces, fruit jams, ginger-garlic paste, Indian ethnic condiments, and a Jain no-onion/no-garlic range.",
+  "business_model": "Consumer packaged-food brand with a Shopify direct-to-consumer storefront and an offline distribution network serving households across India.",
+  "brand_colors": {
+    "primary_red": "#D02E2E",
+    "secondary_green": "#56AD6A",
+    "deep_green": "#22472C",
+    "background": "#FFFFFF",
+    "text": "#22472C"
+  },
+  "brand_aesthetic": "Food-forward, bright and approachable ecommerce presentation using Poppins body copy, Fira Sans headings, red and green accents, product imagery, recipes, and direct shopping calls to action.",
+  "brand_voice": {
+    "description": "Warm, enthusiastic and culinary-led. Copy repeatedly frames products as ways to elevate everyday cooking, foregrounds flavour and purity, and closes with direct invitations to shop, discover, or try.",
+    "voice_patterns": [
+      "Open with an active sensory verb such as indulge, savor, discover, or elevate.",
+      "Describe a familiar meal or cooking occasion before naming the product benefit.",
+      "Pair flavour language with concrete product facts or ingredient claims.",
+      "Use short, direct calls to action such as Shop All, Read More, or Add to Cart.",
+      "Use British/Indian spelling where present, including flavour and colours.",
+      "Use first-person plural for brand commitments and second person for cooking outcomes."
+    ]
+  },
+  "brand_values": [
+    "Purity and authenticity",
+    "Vegetarian products",
+    "Ingredient quality",
+    "No added colours or flavour enhancers",
+    "Rigorous quality checks",
+    "Culinary convenience",
+    "Jain-friendly choice"
+  ],
+  "target_audience": {
+    "primary": [
+      "Indian households buying sauces, condiments, pastes, and spreads",
+      "Home cooks seeking convenient flavour additions",
+      "Consumers seeking Jain no-onion/no-garlic products"
+    ],
+    "roles": ["Household grocery buyer", "Home cook", "Culinary enthusiast"],
+    "secondary_verticals": ["Retail grocery", "Quick commerce", "Foodservice and distribution"]
+  },
+  "competitors": [],
+  "competitor_alternative_categories": [
+    "Homemade sauces and chutneys",
+    "Fresh ginger and garlic prepared at home",
+    "Private-label grocery condiments",
+    "Other packaged condiment brands"
+  ],
+  "primary_business_goal": "Increase product discovery and online sales across Surabhi's condiment categories.",
+  "primary_conversion": "Completed ecommerce product purchase",
+  "site_type": "Shopify ecommerce store with recipe and blog content",
+  "measurement_and_connected_sources": [
+    "Public website crawl via Firecrawl",
+    "Shopify storefront metadata"
+  ],
+  "open_questions": [
+    "The official About page says both 'since 1989' and 'inception in 2006'; confirm the correct founding or brand-history timeline.",
+    "Confirm the exact relationship between Surabhi Foods, Surabhi Sauces, and Adinath Agro Processed Foods Private Limited.",
+    "Provide approved named competitors; the official site does not identify competitors and none were inferred as facts.",
+    "Confirm priority markets beyond India and whether foodservice/distributor customers are an active target segment.",
+    "Connect the verified Google Search Console and analytics properties to replace crawl-only measurement context.",
+    "Provide documentary evidence for the FSSC 22000 certification and the current certification scope."
+  ]
+}

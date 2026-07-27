@@ -1,0 +1,19 @@
+{
+  "run_id": "surabhi-keywords-20260727T073205Z",
+  "ts": "2026-07-27T07:32:05Z",
+  "provider": "keyword_planner",
+  "tool": "google_ads_generate_keyword_ideas",
+  "request": {
+    "target_country": "India",
+    "website_url": "https://surabhi-foods.com/",
+    "seed_source": "brands/surabhi-foods/brand-dna.json",
+    "platform_id_source": "GOOGLE_ADS_PLATFORM_ID"
+  },
+  "status": "error",
+  "error": {
+    "code": "tool_unavailable",
+    "message": "The permitted Google Ads Keyword Planner operation was not callable in the active runtime. No alternative Google Ads operation or foreign account data was used."
+  },
+  "records": 0,
+  "next_action": "Expose the configured google_ads_generate_keyword_ideas MCP tool to the runtime, load GOOGLE_ADS_PLATFORM_ID from the environment, and rerun Phase 2."
+}

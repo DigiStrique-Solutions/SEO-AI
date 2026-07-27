@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "generic-on-page",
+  "audit_ref": "../../../audit-library/generic-on-page.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 35.29,
+  "counts": {"pass": 2, "fail": 5, "not_applicable": 0, "total": 7},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T074000Z-firecrawl-crawl-summary.json",
+    "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+  ],
+  "rows": [
+    {
+      "item_id": "title-present",
+      "section_id": "titles-meta",
+      "severity": "high",
+      "status": "fail",
+      "result": "Titles are present, but the rendered homepage title is 68 characters and the sampled article title is 79 characters, above the 60-character criterion.",
+      "next_action": "Rewrite template titles to a distinct 30–60 character primary title while preserving the core query and brand.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "meta-description",
+      "section_id": "titles-meta",
+      "severity": "medium",
+      "status": "fail",
+      "result": "Descriptions are present but materially exceed the 160-character criterion: homepage 236, product 327, and sampled article 320 characters.",
+      "next_action": "Write unique 70–160 character descriptions for homepage, collection, product, and article templates.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "single-h1",
+      "section_id": "headings",
+      "severity": "high",
+      "status": "fail",
+      "result": "Homepage and article render one H1, but the product DOM contains two H1 elements, one hidden and one visible; the criterion requires exactly one.",
+      "next_action": "Remove the duplicate hidden product-template H1 and keep one semantic product-name H1.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "heading-order",
+      "section_id": "headings",
+      "severity": "low",
+      "status": "fail",
+      "result": "The sampled article jumps from H1 to H3 and H4 before later H2 footer headings.",
+      "next_action": "Use descriptive H2 sections in the article body, then H3 only for subsections; avoid using heading levels for utility UI labels.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "image-alt",
+      "section_id": "media-links",
+      "severity": "medium",
+      "status": "fail",
+      "result": "The rendered homepage has at least 20 visible images with empty/missing alt among 36 visible images, and the sampled product has 13 of 20; this is far below 95% coverage.",
+      "next_action": "Add concise, purpose-specific alt text to product cards, product-gallery images, campaign banners, and article thumbnails; retain empty alt only for decorative images.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "canonical",
+      "section_id": "media-links",
+      "severity": "high",
+      "status": "pass",
+      "result": "Homepage, product, article, collection, and about samples expose self-referencing HTTPS canonicals.",
+      "next_action": "Retain the current canonical implementation and recheck after theme or routing changes.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-rendered-dom-evidence.json"
+    },
+    {
+      "item_id": "status-200",
+      "section_id": "media-links",
+      "severity": "high",
+      "status": "pass",
+      "result": "Firecrawl completed 40 pages and representative homepage, product, article, collection, and about templates returned HTTP 200 without soft-404 content.",
+      "next_action": "Continue scheduled crawls and investigate any future non-200 or thin soft-404 templates.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-firecrawl-crawl-summary.json"
+    }
+  ]
+}

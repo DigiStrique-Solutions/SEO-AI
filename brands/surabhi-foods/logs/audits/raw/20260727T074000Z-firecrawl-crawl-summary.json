@@ -1,0 +1,20 @@
+{
+  "provider": "firecrawl",
+  "action": "crawl",
+  "crawl_id": "019fa27c-98d9-718f-9ec0-93a2906041b6",
+  "target": "https://surabhi-foods.com/",
+  "status": "completed",
+  "completed": 40,
+  "total": 40,
+  "settings": {
+    "limit": 40,
+    "maxDiscoveryDepth": 3,
+    "sitemap": "include",
+    "ignoreQueryParameters": true,
+    "allowExternalLinks": false
+  },
+  "notes": [
+    "The tool response was too large for the conversation transport and was truncated; this immutable record preserves the returned job metadata and the evidence scope.",
+    "Representative returned metadata showed HTTP 200, titles, descriptions, and canonical URLs for homepage, product, collection, policy, about, blog, and recipe templates."
+  ]
+}

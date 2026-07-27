@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "brand_name": "Surabhi Foods",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "run_id": "surabhi-audits-20260727T074000Z",
+  "overall_score": 50.8,
+  "score_method": "Unweighted average of six audit weighted-pass scores; not_applicable rows excluded from each audit denominator.",
+  "totals": {"audits": 6, "rows": 38, "pass": 15, "fail": 17, "not_applicable": 6},
+  "audits": [
+    {"audit_id": "generic-on-page", "score": 35.29, "counts": {"pass": 2, "fail": 5, "not_applicable": 0, "total": 7}, "file": "generic-on-page.json"},
+    {"audit_id": "content-seo", "score": 44.44, "counts": {"pass": 2, "fail": 3, "not_applicable": 2, "total": 7}, "file": "content-seo.json"},
+    {"audit_id": "site-architecture", "score": 81.82, "counts": {"pass": 4, "fail": 1, "not_applicable": 2, "total": 7}, "file": "site-architecture.json"},
+    {"audit_id": "core-web-vitals", "score": 78.57, "counts": {"pass": 4, "fail": 2, "not_applicable": 0, "total": 6}, "file": "core-web-vitals.json"},
+    {"audit_id": "structured-data", "score": 55.56, "counts": {"pass": 2, "fail": 2, "not_applicable": 1, "total": 5}, "file": "structured-data.json"},
+    {"audit_id": "ai-seo-aeo-geo", "score": 9.09, "counts": {"pass": 1, "fail": 4, "not_applicable": 1, "total": 6}, "file": "ai-seo-aeo-geo.json"}
+  ],
+  "top_fixes": [
+    {
+      "rank": 1,
+      "severity": "high",
+      "finding": "Homepage lacks Organization and WebSite schema, while brand/corporate naming and the 1989/2006 history are inconsistent.",
+      "fix": "Confirm the approved entity hierarchy and timeline, then implement one canonical Organization/WebSite graph with verified name, logo, URL, and sameAs profiles.",
+      "owner": "Brand lead + developer",
+      "expected_impact": "Clearer entity understanding for search engines and AI answer systems.",
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "severity": "high",
+      "finding": "Titles exceed the audit length target on key templates and the product DOM contains a duplicate hidden H1.",
+      "fix": "Rewrite template titles to 30–60 characters and remove the duplicate product-template H1.",
+      "owner": "SEO + Shopify developer",
+      "expected_impact": "Cleaner relevance signals and more predictable search-result presentation.",
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "severity": "high",
+      "finding": "Search intent, demand, indexation, sitemap submission, and rich-result performance cannot be validated without Keyword Planner/SERP evidence and the exact GSC property.",
+      "fix": "Connect surabhi-foods.com GSC and restore permitted Keyword Planner/SERP evidence, then rerun the blocked rows.",
+      "owner": "Analytics/SEO owner",
+      "expected_impact": "Replaces crawl-only assumptions with query, indexation, and enhancement evidence.",
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "severity": "medium",
+      "finding": "Visible image-alt coverage is poor on homepage and product templates.",
+      "fix": "Add accurate alt text to meaningful product, campaign, and content images; preserve empty alt only for decorative assets.",
+      "owner": "Content operations + Shopify developer",
+      "expected_impact": "Improved image discoverability and accessibility.",
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "severity": "medium",
+      "finding": "Homepage View All links send users and crawlers to the legacy surabhisauces.com host.",
+      "fix": "Replace them with same-domain Surabhi Foods recipe and blog URLs and recrawl for residual old-host links.",
+      "owner": "Shopify developer",
+      "expected_impact": "Stronger internal discovery and less authority leakage.",
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "severity": "medium",
+      "finding": "Field CWV passes, but lab mobile performance is weak: performance 37, lab LCP about 10.8–11.6 seconds, render-blocking opportunity, and image-delivery score 0.",
+      "fix": "Optimise the hero/LCP asset, responsive image delivery, critical CSS, and noncritical theme/app scripts; retest mobile.",
+      "owner": "Shopify performance developer",
+      "expected_impact": "Faster cold-load experience and better resilience of the current field CWV pass.",
+      "confidence": "high"
+    },
+    {
+      "rank": 7,
+      "severity": "medium",
+      "finding": "The sampled article lacks visible author/source evidence, semantic H2 structure, topical internal links, and concise answer blocks.",
+      "fix": "Add visible attribution, sources, structured comparison sections/table, and relevant product/recipe links.",
+      "owner": "Content editor + SEO",
+      "expected_impact": "Stronger usefulness, E-E-A-T signals, crawl paths, and answer-engine extractability.",
+      "confidence": "high"
+    }
+  ],
+  "blockers": [
+    "Exact surabhi-foods.com Google Search Console property is not connected.",
+    "Keyword Planner demand/SERP evidence was unavailable; keyword clusters are seed-backed only.",
+    "No controlled manual AI-answer-engine visibility study was run.",
+    "Google Rich Results Test/Search Console enhancement validation was unavailable."
+  ],
+  "evidence_note": "Public evidence was gathered with a 40-page Firecrawl crawl, targeted Firecrawl rendered extraction, live Playwright DOM evaluation including a 390px mobile check, PageSpeed/CrUX, and local Lighthouse."
+}

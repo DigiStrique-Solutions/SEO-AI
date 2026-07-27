@@ -1,0 +1,50 @@
+{
+  "provider": "firecrawl",
+  "scrape_id": "019fa279-7c11-737e-8f7c-70ccf52b9149",
+  "source_url": "https://surabhi-foods.com/",
+  "status_code": 200,
+  "extraction": {
+    "brand_name": "Surabhi",
+    "page_title": "Surabhi Foods | Buy Ketchup, Sauces, Mayonnaise, Chutneys Online",
+    "positioning_statements": [
+      "Surabhi proudly unveils its latest campaign, 'Dil Se Pure', a testament to the heart and soul of our brand."
+    ],
+    "product_categories": [
+      "Ketchups",
+      "Mayonnaise",
+      "Jain Range",
+      "Chutney & Paste",
+      "Pizza & Pasta Sauce",
+      "Fruit Jams",
+      "Ginger Garlic Paste"
+    ],
+    "primary_calls_to_action": ["Shop All", "Order from Zepto", "Subscribe to our email for best offers"],
+    "audience_clues": [
+      "Consumers interested in sauces and condiments",
+      "Individuals looking for Jain friendly options",
+      "Culinary enthusiasts"
+    ],
+    "quality_ingredient_claims": ["No Onion No Garlic options available"],
+    "social_links": [
+      "https://www.instagram.com/surabhi.foods/",
+      "https://www.facebook.com/surabhi.foods.dilsepure",
+      "https://www.youtube.com/@surabhi.foods1/featured",
+      "https://twitter.com/surabhi_sauces",
+      "https://in.pinterest.com/surabhi_sauces/",
+      "https://www.linkedin.com/company/adinath-agro-processed-foods-pvt-ltd-/mycompany"
+    ],
+    "contact_corporate_facts": ["Phone: 9657100044", "Email: info@adinathagro.com"]
+  },
+  "branding": {
+    "colors": {
+      "primary": "#D02E2E",
+      "secondary": "#56AD6A",
+      "accent": "#22472C",
+      "background": "#FFFFFF",
+      "text_primary": "#22472C"
+    },
+    "fonts": {"body": "Poppins", "heading": "Fira Sans"},
+    "logo": "https://surabhi-foods.com/cdn/shop/files/Surabhi_New_Logo_2.png?v=1754029984&width=160",
+    "favicon": "https://surabhi-foods.com/cdn/shop/files/WhatsApp_Image_2023-11-04_at_9.31.16_PM_1_32x32.jpg?v=1701427246"
+  }
+}

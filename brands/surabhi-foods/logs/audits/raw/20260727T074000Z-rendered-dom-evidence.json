@@ -1,0 +1,72 @@
+{
+  "provider": "playwright_and_firecrawl_rendered_extract",
+  "checked_at": "2026-07-27T07:37:10Z",
+  "pages": [
+    {
+      "url": "https://surabhi-foods.com/",
+      "status": 200,
+      "title_length": 68,
+      "meta_description_length": 236,
+      "canonical": "https://surabhi-foods.com/",
+      "visible_h1_count": 1,
+      "heading_order": ["H1", "H2"],
+      "visible_images": 36,
+      "visible_images_missing_alt": 20,
+      "json_ld_types": [],
+      "legacy_domain_links": [
+        "https://surabhisauces.com/pages/recipes-1",
+        "https://surabhisauces.com/blogs/blogs-by-surabhi"
+      ],
+      "internal_unique_links": 43,
+      "console_errors": 0
+    },
+    {
+      "url": "https://surabhi-foods.com/products/tomato-ketchup-nong",
+      "status": 200,
+      "title_length": 43,
+      "meta_description_length": 327,
+      "canonical": "https://surabhi-foods.com/products/tomato-ketchup-nong",
+      "dom_h1_count": 2,
+      "visible_h1_count": 1,
+      "visible_images": 20,
+      "visible_images_missing_alt": 13,
+      "json_ld_types": ["Product"],
+      "json_ld_parse_errors": 0,
+      "product_schema_properties": ["offers", "brand", "sku", "name", "description", "category", "url", "image"],
+      "visible_breadcrumb": true,
+      "console_errors": 0
+    },
+    {
+      "url": "https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences",
+      "status": 200,
+      "title_length": 79,
+      "meta_description_length": 320,
+      "canonical": "https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences",
+      "visible_h1_count": 1,
+      "heading_order": ["H1", "H3", "H4", "H2"],
+      "visible_images": 1,
+      "visible_images_missing_alt": 0,
+      "json_ld_types": ["Article"],
+      "json_ld_parse_errors": 0,
+      "article_schema": {
+        "author_present": true,
+        "publisher_present": true,
+        "date_published": "2023-10-04T17:42:23Z",
+        "date_modified": "2026-05-22T11:10:48Z"
+      },
+      "visible_author": false,
+      "visible_date": false,
+      "main_word_count": 526,
+      "contextual_internal_links": [
+        "https://surabhi-foods.com/",
+        "https://surabhi-foods.com/blogs/blogs-by-surabhi"
+      ],
+      "mobile_390px": {
+        "main_visible": true,
+        "horizontal_overflow": false
+      },
+      "console_errors": 0
+    }
+  ],
+  "interactive_browser_note": "The in-app browser registry returned no available session, but the configured Playwright MCP rendered and evaluated the public pages successfully."
+}

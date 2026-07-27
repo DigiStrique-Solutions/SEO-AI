@@ -1,0 +1,39 @@
+{
+  "provider": "firecrawl",
+  "source_url": "https://surabhi-foods.com/",
+  "limit": 200,
+  "sitemap": "include",
+  "discovered_sections": {
+    "core_pages": [
+      "https://surabhi-foods.com/",
+      "https://surabhi-foods.com/pages/about-us",
+      "https://surabhi-foods.com/pages/contact",
+      "https://surabhi-foods.com/pages/recipes-1"
+    ],
+    "collections": [
+      "https://surabhi-foods.com/collections/all",
+      "https://surabhi-foods.com/collections/ketchups",
+      "https://surabhi-foods.com/collections/mayonnaise",
+      "https://surabhi-foods.com/collections/jain-range",
+      "https://surabhi-foods.com/collections/chutney-paste",
+      "https://surabhi-foods.com/collections/fruit-jams",
+      "https://surabhi-foods.com/collections/ginger-garlic-paste",
+      "https://surabhi-foods.com/collections/pizza-pasta-sauce",
+      "https://surabhi-foods.com/collections/vinegar",
+      "https://surabhi-foods.com/collections/combo-deals"
+    ],
+    "blog_indexes": [
+      "https://surabhi-foods.com/blogs/news",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi"
+    ],
+    "sitemaps": [
+      "https://surabhi-foods.com/sitemap.xml",
+      "https://surabhi-foods.com/sitemap_products_1.xml",
+      "https://surabhi-foods.com/sitemap_collections_1.xml",
+      "https://surabhi-foods.com/sitemap_pages_1.xml",
+      "https://surabhi-foods.com/sitemap_blogs_1.xml",
+      "https://surabhi-foods.com/sitemap_agentic_discovery.xml"
+    ]
+  },
+  "notes": "The map result also returned product, policy, recipe, and article URLs. Blog discovery is stored in the blogs log by Phase 3."
+}

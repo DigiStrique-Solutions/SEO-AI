@@ -1,0 +1,21 @@
+{
+  "provider": "firecrawl",
+  "crawl_job_id": "019fa276-c525-7716-9b2f-1a0ef44726f3",
+  "status": "completed",
+  "completed_pages": 35,
+  "total_pages": 35,
+  "credits_used": 99,
+  "requested_url": "https://surabhi-foods.com/",
+  "requested_limit": 35,
+  "max_discovery_depth": 2,
+  "formats": ["markdown", "links", "branding"],
+  "representative_200_pages": [
+    "https://surabhi-foods.com/",
+    "https://surabhi-foods.com/pages/about-us",
+    "https://surabhi-foods.com/pages/contact",
+    "https://surabhi-foods.com/collections/jain-range",
+    "https://surabhi-foods.com/collections/mayonnaise",
+    "https://surabhi-foods.com/agents.md"
+  ],
+  "notes": "Full Firecrawl response was returned in the tool trace. This immutable run record preserves job identity, request settings, completion counts, and representative successful URLs."
+}

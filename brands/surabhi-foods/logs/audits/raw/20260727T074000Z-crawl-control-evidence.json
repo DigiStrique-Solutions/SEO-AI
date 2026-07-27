@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-07-27T07:36:20Z",
+  "robots": {
+    "url": "https://surabhi-foods.com/robots.txt",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "length": 3634,
+    "sitemap_line": "Sitemap: https://surabhi-foods.com/sitemap.xml",
+    "important_template_block": false,
+    "explicit_ai_agent_block_observed": false
+  },
+  "sitemap": {
+    "url": "https://surabhi-foods.com/sitemap.xml",
+    "status": 200,
+    "content_type": "application/xml; charset=utf-8",
+    "length": 886,
+    "child_sitemaps_observed": ["agentic_discovery", "products", "pages", "collections"]
+  },
+  "llms_txt": {
+    "url": "https://surabhi-foods.com/llms.txt",
+    "status": 200,
+    "content_type": "text/markdown; charset=utf-8",
+    "length": 4358,
+    "title": "Agent Instructions — Surabhi",
+    "sections": ["personal shopping assistants", "UCP", "read-only browsing", "store policies", "platform"]
+  }
+}

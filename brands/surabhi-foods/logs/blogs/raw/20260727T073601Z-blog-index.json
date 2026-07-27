@@ -1,0 +1,26 @@
+{
+  "run_id": "surabhi-blogs-20260727T073600Z",
+  "source": "https://surabhi-foods.com/blogs/blogs-by-surabhi",
+  "provider": "firecrawl",
+  "request": {
+    "operation": "scrape",
+    "format": "json",
+    "goal": "Extract every currently published official blog article shown on the index, up to 20"
+  },
+  "response": {
+    "index_title": "Blogs By Surabhi",
+    "status_code": 200,
+    "scrape_id": "019fa27c-a47f-715c-8e43-b3c101babf55",
+    "posts": [
+      {"title":"Why Home Cooks Are Switching to Ready-Made Ginger Garlic Paste","url":"https://surabhi-foods.com/blogs/news/why-home-cooks-are-switching-to-ready-made-ginger-garlic-paste","published_date":"","category":""},
+      {"title":"Surabhi Bus Shelters - Bus Stop Brings Surabhi's Tasty Delights","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-bus-shelters-bus-stop-brings-surabhis-tasty-delights","published_date":"","category":""},
+      {"title":"Surabhi Sauces New Campaign - \"Dil Se Pure\"","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-new-campaign-dil-se-pure","published_date":"","category":""},
+      {"title":"Surabhi Sauces Commitment to Local Sourcing & Freshness","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-commitment-to-local-sourcing-freshness-and-flavor","published_date":"","category":""},
+      {"title":"Tomato Puree vs. Tomato Ketchup: Unveiling the Flavourful Differences","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences","published_date":"","category":""},
+      {"title":"Surabhi Ginger Garlic Paste – Time Saving Culinary Magic","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-ginger-garlic-paste-time-saving-culinary-magic","published_date":"","category":""},
+      {"title":"Benefits of Ginger Garlic Paste","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/benefits-of-ginger-garlic-paste","published_date":"","category":""},
+      {"title":"15 Delicious Ways to Use Ketchup Beyond Fries","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/15-delicious-ways-to-use-ketchup-beyond-fries","published_date":"","category":""},
+      {"title":"Homemade Pizza Night: Best Pizza Sauce Tips and Toppings","url":"https://surabhi-foods.com/blogs/blogs-by-surabhi/best-pizza-sauce-tips-and-toppings","published_date":"","category":""}
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "updated_at": "2026-07-27",
+  "clusters": [
+    {
+      "cluster_id": "brand",
+      "name": "Surabhi Brand",
+      "intent": "navigational",
+      "page_type": "homepage",
+      "target_url": "https://surabhi-foods.com/",
+      "pillar": true,
+      "keywords": [
+        "surabhi foods",
+        "surabhi sauces"
+      ],
+      "notes": "Brand-navigation terms mapped to the homepage."
+    },
+    {
+      "cluster_id": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "https://surabhi-foods.com/collections/all",
+      "pillar": true,
+      "keywords": [
+        "vegetarian sauces india",
+        "sauces online india",
+        "buy sauces online india",
+        "tomato ketchup online",
+        "ginger garlic paste online",
+        "pizza pasta sauce online",
+        "fruit jam online india",
+        "chutney online india",
+        "indian condiments online"
+      ],
+      "notes": "Seed-backed category cluster. Demand is not validated because Keyword Planner was unavailable."
+    },
+    {
+      "cluster_id": "mayonnaise",
+      "name": "Mayonnaise",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "https://surabhi-foods.com/collections/mayonnaise",
+      "pillar": true,
+      "keywords": [
+        "mayonnaise online india",
+        "buy mayonnaise online",
+        "vegetarian mayonnaise india"
+      ],
+      "notes": "Mapped to the confirmed mayonnaise collection URL."
+    },
+    {
+      "cluster_id": "jain-no-onion-no-garlic",
+      "name": "Jain and No-Onion/No-Garlic",
+      "intent": "commercial",
+      "page_type": "collection",
+      "target_url": "https://surabhi-foods.com/collections/jain-range",
+      "pillar": true,
+      "keywords": [
+        "jain sauces",
+        "jain sauce without onion garlic",
+        "no onion no garlic sauces",
+        "jain mayonnaise"
+      ],
+      "notes": "Mapped to the confirmed Jain range collection."
+    },
+    {
+      "cluster_id": "recipes-and-uses",
+      "name": "Recipes and Product Uses",
+      "intent": "informational",
+      "page_type": "blog",
+      "target_url": "https://surabhi-foods.com/pages/recipes-1",
+      "pillar": false,
+      "keywords": [
+        "homemade sauce alternatives",
+        "how to use pizza pasta sauce",
+        "recipes with mayonnaise indian",
+        "jain recipes without onion garlic"
+      ],
+      "notes": "Content seeds mapped to the recipe hub; individual topics may later receive dedicated articles."
+    }
+  ]
+}
