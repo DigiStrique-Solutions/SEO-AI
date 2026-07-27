@@ -1,0 +1,20 @@
+{
+  "run_id": "inc5shop-heel-pain-blog-20260727",
+  "checked_at": "2026-07-27T11:24:01Z",
+  "intent": "Informational health-and-footwear guidance with a secondary commercial CTA; no existing Inc.5 heel-pain article found.",
+  "sources": [
+    {"url":"https://www.nhs.uk/symptoms/foot-pain/heel-pain/","status":"ok","facts":"Symptom patterns, self-care, footwear guidance, two-week escalation threshold, sensory/diabetes cautions and urgent injury signs verified."},
+    {"url":"https://www.nhs.uk/conditions/plantar-fasciitis/","status":"ok","facts":"Heel/arch symptom pattern, footwear/support guidance, self-care and escalation criteria verified."},
+    {"url":"https://orthoinfo.aaos.org/en/diseases--conditions/plantar-fasciitis-and-bone-spurs","status":"ok","facts":"Orthopaedic explanation of plantar-fascia irritation and conservative measures verified."},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/19912724/","status":"partial","facts":"Search record states increased heel height increased medial forefoot loading pressure. Direct scrape/open encountered reCAPTCHA; no sample, numerical result or extended inference used."},
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5217416/","status":"partial","facts":"Search result identified footwear-fit/toe-box review, but direct page access encountered reCAPTCHA; no unique claim from this source appears in the draft."}
+  ],
+  "searches": [
+    {"id":"019fa34f-7642-73e0-9b1f-acbcc2b88f9f","query":"authoritative heel-pain causes, prevention and red flags","status":"used"},
+    {"id":"019fa34f-bc1e-76b9-a508-7b675975d5a8","query":"high heels, forefoot pressure and toe-box fit","status":"partially_used"},
+    {"id":"019fa34f-f633-75e7-a63f-cae2a41e0f6f","query":"PubMed plantar-pressure studies by heel height","status":"used"},
+    {"id":"019fa350-b8df-709f-9d81-ffd4a74c0db0","query":"exact-title study source check","status":"used_for_provenance"}
+  ],
+  "limitations": "This is editorial research, not medical review of an individual. Medication dosing and diagnosis are excluded. The copy directs severe, persistent, sensory, diabetes-related and injury-associated symptoms to professional care.",
+  "status": "ok"
+}
