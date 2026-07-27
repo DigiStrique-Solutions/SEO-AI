@@ -30,6 +30,8 @@ Orchestrator is the only user-facing control plane → `run_sub_agent(agent_id="
 Prefer: `Summary · Top findings · Evidence · Priority fixes · Implementation notes · Expected impact · Open questions`.
 Audit findings include: **severity** (critical/high/medium/low) · **evidence** (URL, metric, GSC/analytics row, rendered-page observation) · **fix** (concrete) · **owner** · **confidence**. If evidence is missing, say so — do not invent it.
 
+**Mandatory user-facing document format:** Whenever the user asks for, or the task produces, a document/file deliverable, create and provide it as a Google Doc. Never give the user a Markdown (`.md`) file as the deliverable. Repository-internal Markdown may still be maintained when required by the runtime, schemas, skills, logs, or existing storage conventions.
+
 ## Full-audit mode (every checklist / complete audit)
 
 Don't claim an item was checked without a recorded status **and** evidence. Per item: `Status: pass | fail | not_applicable | not_checked_blocked` + evidence source + result + blocker + next action. Use `not_checked_blocked` when access/tools/rendering are missing — **never** silently turn an unverified item into a pass. A full audit is complete only when every item is pass/fail/not_applicable; otherwise call it partial and list what's needed. Browser-rendered checks are required before claiming schema/JS-content/mobile/accessibility status.
