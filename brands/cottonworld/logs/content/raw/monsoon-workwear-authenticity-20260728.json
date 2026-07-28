@@ -1,0 +1,91 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-28T10:22:01+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T10:22:59.9431329Z",
+      "max_score": 20.0,
+      "note": "The exact final article body was checked in the live ZeroGPT web interface. The detector labelled it \"Your Text is Human written\". This score is retained as a weak editorial signal, not proof of authorship.",
+      "score": 9.1,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-28T10:17:25+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "ready",
+    "target": "Cottonworld blog: From Commute to Office: Monsoon Workwear That Stays Comfortable"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld is an Indian natural-clothing brand founded in 1987.",
+        "The brand voice leads with natural fabrics, comfort, usefulness and repeated wear.",
+        "Work is part of Cottonworld's confirmed occasion taxonomy."
+      ],
+      "source_id": "cottonworld-brand-dna-20260727",
+      "source_ref": "brands/cottonworld/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Requested title: From Commute to Office: Monsoon Workwear That Stays Comfortable.",
+        "Requested terms: monsoon office wear india, monsoon workwear, work wear cotton india, breathable office wear, office wear for women and office wear for men.",
+        "No keyword volumes were supplied."
+      ],
+      "source_id": "user-monsoon-workwear-brief-20260728",
+      "source_ref": "user brief in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld describes cotton as soft, breathable and naturally versatile.",
+        "Cottonworld describes linen as lightweight and airy.",
+        "Cottonworld describes cotton-linen as combining cotton comfort with linen's breathable ease and structure."
+      ],
+      "source_id": "cottonworld-fabrics-workwear-20260728",
+      "source_ref": "https://cottonworld.net/pages/fabrics",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live feed includes men's regular-fit shirts in 100% cotton, linen-cotton, cotton-linen and cotton-lyocell.",
+        "Verified examples include a navy Oxford 100% cotton shirt, a sky Oxford cotton half-sleeve shirt, a white half-sleeve cotton-linen shirt and a natural cotton-lyocell shirt."
+      ],
+      "source_id": "cottonworld-men-feed-workwear-20260728",
+      "source_ref": "https://cottonworld.net/collections/cotton-mens/products.json?limit=20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live feed includes a peach 100% cotton blouse and off-white 100% cotton blouse.",
+        "The live feed includes beige cotton-lycra pants, natural linen-cotton pants, a denim 100% cotton culotte and black cotton-bamboo-elastane knit pants."
+      ],
+      "source_id": "cottonworld-women-feed-workwear-20260728",
+      "source_ref": "https://cottonworld.net/collections/cotton-womens/products.json?limit=20",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The India Meteorological Department uses June to September for India's main monsoon season in its monsoon FAQ."
+      ],
+      "source_id": "imd-monsoon-faq-workwear-20260728",
+      "source_ref": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
+      "source_type": "serp"
+    }
+  ]
+}

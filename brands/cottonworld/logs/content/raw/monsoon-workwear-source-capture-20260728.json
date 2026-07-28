@@ -1,0 +1,80 @@
+{
+  "run_id": "cottonworld-monsoon-workwear-20260728",
+  "captured_at": "2026-07-28T10:17:25Z",
+  "target": "From Commute to Office: Monsoon Workwear That Stays Comfortable",
+  "keyword_brief": {
+    "primary": "monsoon workwear",
+    "secondary": [
+      "monsoon office wear india",
+      "work wear cotton india",
+      "breathable office wear",
+      "office wear for women",
+      "office wear for men"
+    ],
+    "volume_status": "not_checked_blocked",
+    "note": "The user supplied no volumes. Existing keyword research records that Keyword Planner was unavailable and Semrush had no API units, so no demand figures are quoted."
+  },
+  "detector_review": {
+    "tool": "zerogpt.com live web interface",
+    "initial_score": 31.0,
+    "final_score": 9.1,
+    "threshold": 20.0,
+    "final_label": "Your Text is Human written",
+    "note": "The final score covers the exact final article body and is treated as a weak editorial signal, not proof of authorship."
+  },
+  "sources": [
+    {
+      "provider": "firecrawl",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "status": 200,
+      "job_id": "e3cc30ab-281a-4704-895a-8ce6508443a1",
+      "facts": [
+        "Cottonworld describes cotton as soft, breathable and naturally versatile, with a light feel and everyday comfort.",
+        "Cottonworld describes linen as lightweight, airy and suited to warm days.",
+        "Cottonworld describes cotton-linen as combining cotton comfort with linen's breathable ease and structure."
+      ]
+    },
+    {
+      "provider": "firecrawl",
+      "url": "https://cottonworld.net/collections/work",
+      "status": 200,
+      "job_id": "21d092a7-87c0-4127-9de6-35e0836fa8cd",
+      "facts": [
+        "The collection page title is Work."
+      ],
+      "limitation": "The public Shopify collection feed returned an empty products array. The blog therefore does not state that any product is stocked in this collection."
+    },
+    {
+      "provider": "public_shopify_collection_feed",
+      "url": "https://cottonworld.net/collections/cotton-mens/products.json?limit=20",
+      "status": 200,
+      "facts": [
+        "The live feed includes men's brown and navy linen-cotton regular-fit shirts.",
+        "The live feed includes a navy Oxford 100% cotton regular-fit shirt.",
+        "The live feed includes a sky Oxford 100% cotton half-sleeve regular-fit shirt.",
+        "The live feed includes a white linen-cotton regular-fit shirt and a white half-sleeve cotton-linen regular-fit shirt.",
+        "The live feed includes a natural cotton-lyocell regular-fit shirt and a white 100% cotton band-collar short-sleeve shirt."
+      ]
+    },
+    {
+      "provider": "public_shopify_collection_feed",
+      "url": "https://cottonworld.net/collections/cotton-womens/products.json?limit=20",
+      "status": 200,
+      "facts": [
+        "The live feed includes a beige cotton-lycra regular-fit pant and denim 100% cotton regular-fit culotte.",
+        "The live feed includes a peach 100% cotton regular-fit blouse and off-white 100% cotton regular-fit blouse.",
+        "The live feed includes a natural linen-cotton regular-fit pant.",
+        "The live feed includes a black cotton-bamboo-elastane regular-fit knit pant and a green 100% organic cotton regular-fit T-shirt."
+      ]
+    },
+    {
+      "provider": "brand_database",
+      "url": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
+      "status": 200,
+      "facts": [
+        "The India Meteorological Department uses June to September for India's main monsoon season in its monsoon FAQ."
+      ],
+      "source_ref": "brands/cottonworld/logs/content/raw/rainy-day-outfits-source-capture-20260728.json"
+    }
+  ]
+}
