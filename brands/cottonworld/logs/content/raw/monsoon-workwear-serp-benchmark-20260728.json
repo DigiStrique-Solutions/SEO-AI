@@ -1,0 +1,108 @@
+{
+  "run_id": "cottonworld-monsoon-workwear-serp-benchmark-20260728",
+  "captured_at": "2026-07-28T10:34:47.5921116Z",
+  "query": "monsoon office wear India workwear comfortable commute office",
+  "location": "India",
+  "search_id": "019fa845-2859-76e9-bf4f-c86dfbc05407",
+  "target": {
+    "title": "From Commute to Office: Monsoon Workwear That Stays Comfortable",
+    "title_characters": 63,
+    "seo_title": "Monsoon Workwear for Comfortable Office Days | Cottonworld",
+    "seo_title_characters": 58,
+    "word_count": 1281,
+    "h2_count": 9,
+    "h3_count": 10,
+    "total_subheadings": 19
+  },
+  "relevant_blog_results": [
+    {
+      "serp_position": 1,
+      "title": "Best Office Wear for Indian Monsoons",
+      "title_characters": 36,
+      "url": "https://strongandbrave.in/blogs/news/best-office-wear-for-indian-monsoons",
+      "scrape_id": "019fa845-a488-716c-ae2b-33ae4a20176b",
+      "word_count": 3011,
+      "heading_count": 27,
+      "audience": "Working professionals",
+      "tone": [
+        "informative",
+        "practical",
+        "encouraging"
+      ],
+      "coverage": [
+        "monsoon challenges",
+        "fabric choices and fabrics to avoid",
+        "shirts, tops, bottoms and layers",
+        "commute and office tactics",
+        "colours and patterns",
+        "complete outfits",
+        "care and maintenance",
+        "FAQ"
+      ]
+    },
+    {
+      "serp_position": 2,
+      "title": "Monsoon Workwear That Survives Rain, Humidity and Long Commutes",
+      "title_characters": 63,
+      "url": "https://www.azafashions.com/blog/monsoon-workwear/",
+      "scrape_id": "019fa845-b8a6-779d-b156-f9d9f7afa0c0",
+      "word_count": 1262,
+      "heading_count": 8,
+      "audience": "Women in the workforce",
+      "tone": [
+        "informative",
+        "practical",
+        "encouraging",
+        "stylish"
+      ],
+      "coverage": [
+        "fabric",
+        "silhouettes",
+        "colours",
+        "footwear",
+        "layering",
+        "accessories",
+        "capsule wardrobe"
+      ]
+    },
+    {
+      "serp_position": 4,
+      "blog_rank_after_excluding_social_results": 3,
+      "title": "Monsoon Office Fashion: Stay Professional",
+      "title_characters": 41,
+      "url": "https://www.globalrepublic.in/blogs/styling-tips/monsoon-office-fashion-stay-professional",
+      "scrape_id": "019fa845-b44c-7112-86aa-4c74f8f82d1f",
+      "word_count": null,
+      "word_count_status": "not_checked_blocked",
+      "word_count_blocker": "The structured body extraction was truncated and the follow-up raw-HTML transport failed, so an exact article-only count is not claimed.",
+      "heading_count": 13,
+      "audience": "Modern working women in India",
+      "tone": [
+        "practical",
+        "fashionable",
+        "empowering",
+        "informative",
+        "conversational"
+      ],
+      "coverage": [
+        "shirt dresses",
+        "culottes and tunics",
+        "fabric choices",
+        "skirts and tops",
+        "kurtis and ankle-length trousers",
+        "co-ords",
+        "footwear",
+        "quick rules"
+      ]
+    }
+  ],
+  "assessment": {
+    "title_verdict": "The H1 is competitive in length and reflects commute intent, but the existing SEO title is the stronger search title because it front-loads the primary phrase.",
+    "recommended_seo_title": "Monsoon Office Wear in India: Commute-to-Office Outfit Ideas",
+    "recommended_seo_title_characters": 60,
+    "length_verdict": "The target closely matches the second-ranking blog's length and is substantially shorter than the first-ranking long-form guide. Length alone does not determine ranking.",
+    "structure_verdict": "The target is highly scannable and covers commute, fabric, women, men, layers, rotation and FAQs. Recurring SERP gaps are colours/patterns, care after wet commutes and a concise fabric trade-off section.",
+    "brand_voice_rule": "Competitor pages inform intent, coverage and format only. Cottonworld tone must continue to come from its homepage, about page and approved writing-style file.",
+    "ranking_caveat": "No title or word count can guarantee position one. Ranking also depends on indexing, internal links, backlinks, page experience, freshness, intent satisfaction and authority."
+  }
+}
