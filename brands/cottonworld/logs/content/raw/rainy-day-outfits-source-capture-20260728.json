@@ -1,6 +1,7 @@
 {
   "run_id": "cottonworld-rainy-day-outfits-20260728",
   "captured_at": "2026-07-28T09:15:10Z",
+  "tone_references_captured_at": "2026-07-28T09:37:24Z",
   "target": "8 Relaxed Outfit Ideas for Humid, Rainy Days",
   "user_keyword_brief": {
     "cotton clothing for men": 1300,
@@ -11,6 +12,29 @@
     "rainy season outfits": 140,
     "note": "The repeated women's keyword has conflicting supplied volumes. Neither figure is quoted in customer-facing copy."
   },
+  "tone_reference_note": "The two editorial pages were used only to identify high-level tone and structure. The rewrite does not copy distinctive phrasing, anecdotes, trend claims or product recommendations.",
+  "tone_references": [
+    {
+      "provider": "firecrawl",
+      "url": "https://girlslife.com/style/322431/rainy-day-outfit-inspo-that-wont-ruin-your-summer-vibe/",
+      "status": 200,
+      "observed_traits": [
+        "Upbeat, conversational opening.",
+        "Occasion-led sections built around recognisable rainy-day plans.",
+        "Short outfit formulas with a small playful detail."
+      ]
+    },
+    {
+      "provider": "firecrawl",
+      "url": "https://www.instyle.com/humid-weather-outfit-ideas-11981898",
+      "status": 200,
+      "observed_traits": [
+        "Readable editorial opening followed by a numbered, scannable list.",
+        "Fabric choices connected to specific occasions.",
+        "Concise styling variations within each outfit idea."
+      ]
+    }
+  ],
   "live_sources": [
     {
       "provider": "firecrawl",

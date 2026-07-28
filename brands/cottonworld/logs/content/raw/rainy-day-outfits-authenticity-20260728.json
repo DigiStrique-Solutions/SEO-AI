@@ -10,6 +10,16 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:36:12+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -78,6 +88,26 @@
       "source_id": "imd-monsoon-faq-20260728",
       "source_ref": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
       "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Tone reference only: uses an upbeat opening and occasion-led sections such as city plans, staying in and coffee runs.",
+        "Tone reference only: keeps each outfit formula short, conversational and tied to a recognisable rainy-day situation.",
+        "No distinctive phrases, claims or product recommendations were copied into the Cottonworld draft."
+      ],
+      "source_id": "girls-life-tone-reference-20260728",
+      "source_ref": "https://girlslife.com/style/322431/rainy-day-outfit-inspo-that-wont-ruin-your-summer-vibe/",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": [
+        "Tone reference only: pairs a personal, readable introduction with a numbered and highly scannable outfit list.",
+        "Tone reference only: connects fabric choices to concrete occasions and gives brief styling variations.",
+        "No distinctive phrases, personal anecdotes, trend claims or product recommendations were copied into the Cottonworld draft."
+      ],
+      "source_id": "instyle-tone-reference-20260728",
+      "source_ref": "https://www.instyle.com/humid-weather-outfit-ideas-11981898",
+      "source_type": "competitor_page"
     }
   ]
 }
