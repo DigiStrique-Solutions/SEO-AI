@@ -19,6 +19,34 @@
       "source": "live_web_ui",
       "status": "pass",
       "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T11:26:03+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T11:25:52.1935259Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after applying the editorial feedback. ZeroGPT labelled it \"Your Text is Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 17.1,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T12:42:11.2169755Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after adding Cottonworld's slow-living brand voice. ZeroGPT labelled it \"Your Text is Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 17.6,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -86,6 +114,37 @@
       "source_id": "imd-monsoon-faq-workwear-20260728",
       "source_ref": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
       "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Editorial feedback from the first blog must also be applied to this second blog.",
+        "Use fuller paragraphs instead of a sequence of small paragraphs.",
+        "Do not make colour shades the main content; mention colour only where needed."
+      ],
+      "source_id": "user-editorial-feedback-20260728",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The live benchmark compared three relevant organic blogs for monsoon office wear.",
+        "The target's existing depth was close to the second-ranking blog but lacked some fuller practical explanations.",
+        "Competitor pages inform intent, coverage and format only; Cottonworld's own sources remain the voice model."
+      ],
+      "source_id": "monsoon-workwear-serp-benchmark-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/monsoon-workwear-serp-benchmark-20260728.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Slow living is Cottonworld's central brand asset and editorial lens.",
+        "Cottonworld blogs should speak about living well first, then let clothing become part of that story.",
+        "Clothing should support everyday life rather than dominate it.",
+        "The voice should feel calm, assured, natural, intentional, warm and human."
+      ],
+      "source_id": "cottonworld-blog-writing-guideline-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/cottonworld-blog-writing-guideline-20260728.json",
+      "source_type": "human_context"
     }
   ]
 }

@@ -24,6 +24,8 @@ Indian omnichannel natural-clothing brand, founded in 1987, selling men's and wo
 ## Mandatory carry-outs
 
 - Learn voice from the homepage/about page and [writing-style.md](blogs/writing-style.md), never from current article bodies.
+- Treat **slow living** as Cottonworld's central editorial asset. Begin with life, routines or a modern-day tension, then let clothing enter naturally as support.
+- Every Cottonworld blog must reinforce, explicitly or implicitly, that clothing supports life rather than becoming the point of life. Do not turn this into a repeated slogan.
 - All four live posts are placeholder/broken and need full rewrites.
 - Search Console is connected; use the exact property string `https://cottonworld.net/`.
 - Keyword Planner is blocked until `GOOGLE_ADS_PLATFORM_ID` is set.

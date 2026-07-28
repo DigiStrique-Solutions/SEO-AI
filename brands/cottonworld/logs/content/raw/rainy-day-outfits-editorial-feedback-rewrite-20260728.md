@@ -14,7 +14,7 @@ secondary_keywords:
 
 # 8 Relaxed Outfit Ideas for Humid, Rainy Days
 
-You know the sort of morning. A raincoat feels wrong in that warmth, but the road is already wet and cold office air waits at the other end of the commute. That is where Cottonworld's idea of slow living feels useful: notice what the route needs, choose with some care and then get on with the life beyond the outfit. Start with the hem, think about how the fabric will feel in humid air, then make a little room in the bag for something dry. Cotton comes up often below; Cottonworld's fabric guide calls it soft, breathable and versatile. None of these eight ideas needs a special monsoon wardrobe. They use shirts, T-shirts, blouses and trousers that can return on drier days too.
+You know the sort of morning. A raincoat feels wrong in that warmth, but the road is already wet and cold office air waits at the other end of the commute. Start with the hem, think about how the fabric will feel in humid air, then make a little room in the bag for something dry. Cotton comes up often below; Cottonworld's fabric guide calls it soft, breathable and versatile. None of these eight ideas needs a special monsoon wardrobe. They use shirts, T-shirts, blouses and trousers that can return on drier days too.
 
 ## 1. Half sleeves for the office run
 
@@ -30,7 +30,7 @@ This is the familiar monsoon puzzle: sticky outdoors, chilly indoors. Let a cott
 
 ## 4. Culottes for a slow afternoon
 
-Lunch near home, a gallery visit, perhaps a quick stop at the bookstore: this is where culottes make sense. They have the ease of a wider trouser, yet an ankle-length cut leaves the ground alone. The [culotte in Cottonworld's women's selection](https://cottonworld.net/products/l-culotte-17829-21656-denim) is a regular fit made in 100% cotton. A plain blouse or T-shirt is enough with it. The clothes can stay quiet while the afternoon holds your attention. Skip the extra layer unless the destination is cold; carrying it through a humid afternoon will not make the outfit more useful.
+Lunch near home, a gallery visit, perhaps a quick stop at the bookstore: this is where culottes make sense. They have the ease of a wider trouser, yet an ankle-length cut leaves the ground alone. The [culotte in Cottonworld's women's selection](https://cottonworld.net/products/l-culotte-17829-21656-denim) is a regular fit made in 100% cotton. A plain blouse or T-shirt is enough with it. Skip the extra layer unless the destination is cold; carrying it through a humid afternoon will not make the outfit more useful.
 
 ## 5. Keep the coffee plan
 
@@ -38,7 +38,7 @@ The sky looks doubtful. Your coffee plan does not. Take a regular-fit cotton-lin
 
 ## 6. Errands, but comfortable
 
-Some days are a chain of small plans—groceries, an appointment, then half an hour somewhere with coffee. Soft knit pants earn their place here. Cottonworld's [regular-fit knit pant](https://cottonworld.net/products/l-kpants-16646-21723-black) combines cotton, bamboo and elastane; its [short-sleeve T-shirt](https://cottonworld.net/products/l-tshirt-16727-21681-green) is 100% organic cotton. Both pieces allow easy movement and can return in other rainy season outfits, so neither has to wait for another downpour. A thoughtful wardrobe supports ordinary rhythms like these instead of demanding a new answer for every plan.
+Some days are a chain of small plans—groceries, an appointment, then half an hour somewhere with coffee. Soft knit pants earn their place here. Cottonworld's [regular-fit knit pant](https://cottonworld.net/products/l-kpants-16646-21723-black) combines cotton, bamboo and elastane; its [short-sleeve T-shirt](https://cottonworld.net/products/l-tshirt-16727-21681-green) is 100% organic cotton. Both pieces allow easy movement and can return in other rainy season outfits, so neither has to wait for another downpour.
 
 ## 7. A band collar after work
 
@@ -76,7 +76,7 @@ Begin at the ankle. Culottes, ankle-length pants and knit pants all keep fabric 
 
 ## The route decides
 
-A good monsoon outfit leaves you free to get on with the day. Maybe that means a spare shirt. Maybe it is simply a shorter hem and shoes you can walk in without watching every step. Browse [cotton clothing for men](https://cottonworld.net/collections/cotton-mens) or [cotton clothing for women](https://cottonworld.net/collections/cotton-womens), then choose the pieces that already make sense for your week. Clothing should support the coffee plans, commutes, work and quiet afternoons around it. Rainy days are only some of the days it will be worn.
+A good monsoon outfit leaves you free to get on with the day. Maybe that means a spare shirt. Maybe it is simply a shorter hem and shoes you can walk in without watching every step. Browse [cotton clothing for men](https://cottonworld.net/collections/cotton-mens) or [cotton clothing for women](https://cottonworld.net/collections/cotton-womens), then choose the pieces that already make sense for your week. Rainy days are only some of the days they will be worn.
 
 ## Editorial sources
 

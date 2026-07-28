@@ -13,13 +13,33 @@ Last refreshed from the live site, Firecrawl, Search Console and Lighthouse on 2
 ## Writing and voice rules
 
 - Use short, plain, reassuring sentences.
-- Lead with fabric, comfort, climate, repeated wear and usefulness.
+- **Slow living is the primary brand asset and editorial lens.** Cottonworld writes about living well, moving with intention and making room for everyday life; clothing enters the story as quiet support.
+- Begin blog introductions with an observation about modern life, a daily rhythm or a real-life tension. Do not begin with fashion trends or the product.
+- Keep the underlying hierarchy clear: life first, clothing second. Every article should show how clothing makes work, travel, rest, relationships or daily rituals easier without suggesting that dressing is the main event.
+- Lead practical sections with the real-life situation, then explain how fabric, comfort, climate, repeated wear and usefulness help.
+- Slow living does not mean inactivity or romanticised leisure. It means fewer unnecessary decisions, thoughtful choices, repeat wear, comfort and attention to what the day actually needs.
+- Mention slow living naturally where it adds meaning. Do not force the exact phrase into every section or use it as empty lifestyle decoration.
 - Prefer concrete everyday occasions: work, brunch, summer, travel and slow days.
+- Sound like a grounded friend: calm, assured, warm, intentional, contemporary and human.
+- Invite rather than push. Product links and calls to action must feel like useful paths, never urgency or pressure.
 - Use heritage only as “since 1987” unless a deeper history source is cited.
 - Keep calls to action simple and product-led.
-- Avoid fast-fashion hype, generic “best/top” claims, inflated sustainability language and invented statistics.
+- Avoid fast-fashion hype, trend obsession, fashion-industry jargon, generic “best/top” claims, inflated sustainability language, invented statistics, excessive excitement and over-poetic lifestyle language.
 - Never use the four current article bodies as voice training: they contain Lorem Ipsum, empty bodies or unrelated JSW Defence copy.
 - The safe voice model lives in [blogs/writing-style.md](blogs/writing-style.md).
+
+### Cottonworld blog test
+
+Before a blog is approved, confirm that it:
+
+1. feels calm, warm and unhurried;
+2. begins with life rather than a product or trend;
+3. gives practical value beyond selling;
+4. connects comfort to a real everyday activity;
+5. supports slow living through simplicity, intention, repeat wear or fewer decisions;
+6. integrates products only after the reader's situation is clear;
+7. treats clothing as support for life, not the centre of it;
+8. remains useful and readable beyond the current season.
 
 ## Visual identity
 

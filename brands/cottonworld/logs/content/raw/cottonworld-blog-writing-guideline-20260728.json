@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-07-28T11:29:45Z",
+  "source_type": "user_supplied_brand_guideline",
+  "source_ref": "C:\\Users\\User\\.codex\\attachments\\d64bebec-096b-4345-9ae2-4623b009751f\\pasted-text.txt",
+  "brand": "Cottonworld",
+  "central_brand_asset": "Slow living",
+  "brand_essence": [
+    "A slower, more intentional way of living",
+    "Natural fibres",
+    "Comfort-first design",
+    "Simplicity",
+    "Timeless style",
+    "Conscious consumption",
+    "Mindful everyday living",
+    "Freedom of self-expression"
+  ],
+  "audience_mindset": [
+    "Life does not need to be rushed to be meaningful",
+    "Style should feel effortless, not performative",
+    "Clothing should support life, not dominate it",
+    "Less can often be more",
+    "Longevity matters more than novelty"
+  ],
+  "voice": {
+    "use": [
+      "calm",
+      "assured",
+      "natural",
+      "intentional",
+      "warm",
+      "mindful",
+      "honest",
+      "contemporary",
+      "human"
+    ],
+    "avoid": [
+      "loud",
+      "salesy",
+      "aggressive",
+      "trend-obsessed",
+      "fashion-industry jargon",
+      "overly poetic",
+      "overly emotional",
+      "corporate",
+      "urgent"
+    ],
+    "golden_rule": "Do not push; invite."
+  },
+  "narrative_order": [
+    "Begin with an observation about modern life or an everyday situation",
+    "Focus on practical value, comfort, longevity and thoughtful insight",
+    "Integrate clothing and products naturally after the reader's need is clear",
+    "End with reflection rather than promotion"
+  ],
+  "priority_themes": [
+    "Slow living",
+    "Comfort",
+    "Natural fibres",
+    "Timeless style",
+    "Daily rituals",
+    "Conscious consumption",
+    "Indian craftsmanship"
+  ],
+  "approval_questions": [
+    "Does the article feel calm?",
+    "Does it avoid trend-chasing language?",
+    "Is the writing warm and human?",
+    "Is comfort discussed naturally?",
+    "Does the article support slow living?",
+    "Is simplicity reflected in the writing?",
+    "Are products integrated organically?",
+    "Is there value beyond selling?",
+    "Does the content feel timeless?",
+    "Would this still read well two years from now?"
+  ],
+  "implementation_note": "The complete user-supplied source remains at source_ref. The durable rules were incorporated into context.md, knowledge.md, brand-dna.json and blogs/writing-style.md."
+}

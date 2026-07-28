@@ -14,7 +14,7 @@ secondary_keywords:
 
 # From Commute to Office: Monsoon Workwear That Stays Comfortable
 
-The monsoon workday asks one outfit to cope with two different climates. There is the warm, damp commute—perhaps a walk, an auto ride or a crowded train—and then the office, where the air-conditioning may feel surprisingly cold. That gap is where many work outfits become hard to live in: a heavy layer feels wrong outside, while a long hem brings every puddle into the plan. Cottonworld's idea of slow living does not require an empty calendar. Here it looks like a dry shirt in the drawer, a hem that clears the pavement and one less decision before the first meeting. Comfortable monsoon workwear begins with a simpler question: what will still feel manageable after the commute?
+The monsoon workday asks one outfit to cope with two different climates. There is the warm, damp commute—perhaps a walk, an auto ride or a crowded train—and then the office, where the air-conditioning may feel surprisingly cold. That gap is where many work outfits become hard to live in: a heavy layer feels wrong outside, while a long hem brings every puddle into the plan. Comfortable monsoon workwear begins with a simpler question: what will still feel manageable after the commute?
 
 ## Let the route choose the outfit
 
@@ -64,7 +64,7 @@ Hang a damp garment where air can reach it rather than closing it inside a bag. 
 
 ## A small monsoon workwear rotation
 
-You do not need five unrelated looks. Two shirts or blouses, two pairs of ankle-length or straight trousers, one culotte or softer trouser, one light layer that lives at work and one dry emergency shirt can cover a normal week. Repeat the trouser, change the shirt and adjust a sleeve when the temperature shifts. A useful rotation is allowed to look familiar; that is often the point. Slow living shows up here as one less decision in the morning and more use from what is already in the wardrobe.
+You do not need five unrelated looks. Two shirts or blouses, two pairs of ankle-length or straight trousers, one culotte or softer trouser, one light layer that lives at work and one dry emergency shirt can cover a normal week. Repeat the trouser, change the shirt and adjust a sleeve when the temperature shifts. A useful rotation is allowed to look familiar; that is often the point.
 
 ## Questions people ask about monsoon office wear
 
@@ -86,7 +86,7 @@ Give one dry shirt a permanent place at work and keep socks beside it. Hang the 
 
 ## Work clothes should let you work
 
-Good monsoon workwear is not a performance. By 4 p.m., the shirt should have stopped demanding your attention, the hem stayed out of the puddles and the layer was waiting at the office. That is the role of clothing in a well-lived working day: to support the person doing the work, not compete for their attention. Look through [cotton clothing for men](https://cottonworld.net/collections/cotton-mens) or [cotton clothing for women](https://cottonworld.net/collections/cotton-womens), then come back to the route. The pieces that make sense there are the ones worth repeating at work.
+Good monsoon workwear is not a performance. By 4 p.m., the shirt should have stopped demanding your attention, the hem stayed out of the puddles and the layer was waiting at the office. Look through [cotton clothing for men](https://cottonworld.net/collections/cotton-mens) or [cotton clothing for women](https://cottonworld.net/collections/cotton-womens), then come back to the route. The pieces that make sense there are the ones worth repeating at work.
 
 ## Editorial sources
 

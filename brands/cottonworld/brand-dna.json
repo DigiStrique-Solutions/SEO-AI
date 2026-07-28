@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "brand_id": "cottonworld",
-  "updated_at": "2026-07-27",
+  "updated_at": "2026-07-28",
   "brand_name": "Cottonworld",
   "website_url": "https://cottonworld.net",
   "logo": {
@@ -20,9 +20,12 @@
   },
   "brand_aesthetic": "Warm, natural and lifestyle-led. The live design uses olive green, white, rounded controls, Nunito typography, large editorial photography and occasion-led merchandising. It presents timeless daily wear rather than rapid trend turnover.",
   "brand_voice": {
-    "description": "Warm, plain and reassuring. Cottonworld leads with comfort, natural fabric, usefulness and longevity. Strong source-backed lines are short and declarative: 'Made for everyday life', 'Rooted in simplicity', 'Natural fabrics', 'Everyday comfort', and 'Made to be lived in'.",
+    "description": "Calm, warm, plain and reassuring. Cottonworld's central editorial asset is slow living: the brand speaks first about living well, daily rhythms and thoughtful choices, then lets clothing become quiet support for that life. Natural fabric, comfort, usefulness and longevity matter because they leave people free to work, travel, rest and connect. Strong source-backed lines are short and declarative: 'Made for everyday life', 'Rooted in simplicity', 'Natural fabrics', 'Everyday comfort', and 'Made to be lived in'.",
     "voice_patterns": [
       "Short declarative lines, often two to six words",
+      "Modern-life observation or everyday situation before product",
+      "Slow living expressed through intention, simplicity, fewer decisions and repeat wear",
+      "Clothing supports life rather than becoming the centre of it",
       "Comfort and natural fabric before trend language",
       "Everyday usefulness and repeated wear",
       "Longevity framed as lasting value",
@@ -33,6 +36,7 @@
     ]
   },
   "brand_values": [
+    "Slow living and mindful everyday choices",
     "Natural fabrics at the heart of the range",
     "Comfort and breathability for everyday wear",
     "Longevity and repeated wear",
