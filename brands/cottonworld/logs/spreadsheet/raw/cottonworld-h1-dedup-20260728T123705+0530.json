@@ -1,0 +1,188 @@
+{
+  "run_id": "cottonworld-h1-dedup-20260728T123705+0530",
+  "timestamp": "2026-07-28T12:37:05+05:30",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041#gid=1696679041",
+  "sheet": "New URL Structure & H1 Tags",
+  "scope": {
+    "h1_range": "H2:H921",
+    "metadata_range": "K348:L439"
+  },
+  "rule": "Remove genuinely redundant repeated product nouns, materials, and colours; reorder only when needed to preserve natural suggested-URL phrasing.",
+  "changes": [
+    {
+      "row": 348,
+      "repeated_terms": ["black"],
+      "before": "Men's 100% Cotton Regular Fit Shirt Black Utility Pocket Black",
+      "after": "Men's 100% Cotton Regular Fit Utility Pocket Shirt Black"
+    },
+    {
+      "row": 371,
+      "repeated_terms": ["shirt", "mint"],
+      "before": "Men's 100% Linen Regular Fit Shirt Mint Textured Short Sleeve Shirt Mint",
+      "after": "Men's 100% Linen Regular Fit Textured Short Sleeve Shirt Mint"
+    },
+    {
+      "row": 374,
+      "repeated_terms": ["linen", "shirt"],
+      "before": "Men's 100% Linen Regular Fit Shirt Short Sleeve Linen Shirt White",
+      "after": "Men's 100% Linen Regular Fit Short Sleeve Shirt White"
+    },
+    {
+      "row": 375,
+      "repeated_terms": ["shirt"],
+      "before": "Men's 100% Linen Regular Fit Shirt Textured Button Shirt Black",
+      "after": "Men's 100% Linen Regular Fit Textured Button Shirt Black"
+    },
+    {
+      "row": 377,
+      "repeated_terms": ["shirt"],
+      "before": "Men's 100% Linen Regular Fit Shirt Utility Pocket Shirt Black",
+      "after": "Men's 100% Linen Regular Fit Utility Pocket Shirt Black"
+    },
+    {
+      "row": 378,
+      "repeated_terms": ["tshirt"],
+      "before": "Women's Cotton Regular Fit Tshirt Ribbed Polo T-Shirt Black",
+      "after": "Women's Cotton Regular Fit Ribbed Polo T-Shirt Black"
+    },
+    {
+      "row": 379,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Cotton Boxy Fit Blouse Layered Blouse Indigo",
+      "after": "Women's Cotton Boxy Fit Layered Blouse Indigo"
+    },
+    {
+      "row": 383,
+      "repeated_terms": ["pant"],
+      "before": "Women's Linen Regular Fit Pant Pleated Tapered Pants White",
+      "after": "Women's Linen Regular Fit Pleated Tapered Pant White"
+    },
+    {
+      "row": 384,
+      "repeated_terms": ["pant"],
+      "before": "Women's Linen Regular Fit Pant Straight Leg Pants White",
+      "after": "Women's Linen Regular Fit Straight Leg Pant White"
+    },
+    {
+      "row": 387,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Cotton Regular Fit Blouse Puff Sleeve Blouse Blue",
+      "after": "Women's Cotton Regular Fit Puff Sleeve Blouse Blue"
+    },
+    {
+      "row": 388,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Linen Regular Fit Blouse White Patch Pocket Blouse Blue",
+      "after": "Women's Linen Regular Fit White Patch Pocket Blouse Blue"
+    },
+    {
+      "row": 390,
+      "repeated_terms": ["blouse"],
+      "before": "Women's 100% Linen Regular Fit Blouse Band Collar Three Quarter Sleeve Blouse Black",
+      "after": "Women's 100% Linen Regular Fit Band Collar Three Quarter Sleeve Blouse Black"
+    },
+    {
+      "row": 391,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Cotton Regular Fit Blouse Cropped Printed Blouse Blue",
+      "after": "Women's Cotton Regular Fit Cropped Printed Blouse Blue"
+    },
+    {
+      "row": 392,
+      "repeated_terms": ["shorts"],
+      "before": "Men's Cotton Regular Fit Shorts Slub Drawstring Shorts White",
+      "after": "Men's Cotton Regular Fit Slub Drawstring Shorts White"
+    },
+    {
+      "row": 393,
+      "repeated_terms": ["tshirt"],
+      "before": "Men's Cotton Regular Fit Tshirt Circular Graphic T-Shirt Blue",
+      "after": "Men's Cotton Regular Fit Circular Graphic T-Shirt Blue"
+    },
+    {
+      "row": 395,
+      "repeated_terms": ["linen", "shirt"],
+      "before": "Men's 100% Linen Regular Fit Shirt Short Sleeve Linen Shirt Black",
+      "after": "Men's 100% Linen Regular Fit Short Sleeve Shirt Black"
+    },
+    {
+      "row": 396,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Cotton Regular Fit Blouse Collared Balloon Sleeve Blouse Blue",
+      "after": "Women's Cotton Regular Fit Collared Balloon Sleeve Blouse Blue"
+    },
+    {
+      "row": 397,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Cotton Regular Fit Blouse Printed Kimono Blouse Blue",
+      "after": "Women's Cotton Regular Fit Printed Kimono Blouse Blue"
+    },
+    {
+      "row": 404,
+      "repeated_terms": ["tshirt"],
+      "before": "Women's Cotton Regular Fit Tshirt Classic Crew Neck T-Shirt Black",
+      "after": "Women's Cotton Regular Fit Classic Crew Neck T-Shirt Black"
+    },
+    {
+      "row": 405,
+      "repeated_terms": ["shorts"],
+      "before": "Men's Cotton Linen Regular Fit Shorts Stripe Side Seam Pocket Shorts White",
+      "after": "Men's Cotton Linen Regular Fit Stripe Side Seam Pocket Shorts White"
+    },
+    {
+      "row": 408,
+      "repeated_terms": ["tshirt"],
+      "before": "Men's Cotton Regular Fit Tshirt Slogan Graphic T-Shirt Blue",
+      "after": "Men's Cotton Regular Fit Slogan Graphic T-Shirt Blue"
+    },
+    {
+      "row": 410,
+      "repeated_terms": ["blouse"],
+      "before": "Women's Linen Regular Fit Blouse Check Sleeve Blouse Blue",
+      "after": "Women's Linen Regular Fit Check Sleeve Blouse Blue"
+    },
+    {
+      "row": 411,
+      "repeated_terms": ["pant"],
+      "before": "Women's Cotton Lycra Regular Fit Pant Semi Drawstring Pants White",
+      "after": "Women's Cotton Lycra Regular Fit Semi Drawstring Pants White"
+    },
+    {
+      "row": 412,
+      "repeated_terms": ["pant"],
+      "before": "Women's Cotton Lycra Regular Fit Pant Drawstring Waist Pants White",
+      "after": "Women's Cotton Lycra Regular Fit Drawstring Waist Pants White"
+    },
+    {
+      "row": 435,
+      "repeated_terms": ["blue"],
+      "before": "Men's Blue 100% Cotton Regular Fit Shirt Denim Blue",
+      "after": "Men's 100% Cotton Regular Fit Denim Shirt Blue"
+    },
+    {
+      "row": 438,
+      "repeated_terms": ["blue"],
+      "before": "Men's Blue 100% Cotton Regular Fit Shorts Denim Blue",
+      "after": "Men's 100% Cotton Regular Fit Denim Shorts Blue"
+    },
+    {
+      "row": 439,
+      "repeated_terms": ["denim", "blue"],
+      "before": "Men's Blue 100% Cotton Loose Fit Pant Denim Denim Blue",
+      "after": "Men's 100% Cotton Loose Fit Denim Pant Blue"
+    }
+  ],
+  "metadata_alignment": {
+    "descriptions_updated": [348, 371, 374, 375, 377, 378, 379, 383, 384, 387, 388, 390, 391, 392, 393, 395, 396, 397, 404, 405, 408, 410, 411, 412, 435, 438, 439],
+    "titles_updated": [392, 397, 408]
+  },
+  "verification": {
+    "total_h1_rows": 920,
+    "remaining_duplicate_rows": 0,
+    "exact_h1_mismatches": 0,
+    "exact_metadata_mismatches": 0,
+    "drive_status": "saved",
+    "ai_text_risk_score": 6.0,
+    "zerogpt_status": "local_fallback_pass"
+  }
+}
