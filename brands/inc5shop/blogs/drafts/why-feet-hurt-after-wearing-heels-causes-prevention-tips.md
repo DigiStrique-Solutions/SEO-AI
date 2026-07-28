@@ -102,6 +102,32 @@ Arrange medical advice if the pain is severe, getting worse, keeps returning, st
 
 Seek urgent care after an injury if the foot or ankle changes shape, you hear a snap or grinding sound, you cannot walk, or there is marked swelling and bruising. These are not symptoms to test with another pair of shoes.
 
+## FAQs about heel pain after wearing heels
+
+### Why does the ball of my foot hurt after wearing heels?
+
+High heels shift more pressure towards the forefoot, so the area under the toes can feel sore after standing or walking. A higher heel, a cramped toe box or a foot that slides forward may add to that pressure. Repeated or severe pain needs a professional assessment rather than another at-home shoe test.
+
+### Are block heels less painful than thin heels?
+
+A wider block heel can feel steadier on some floors, but the heel base is only one part of comfort. Height, toe room, fit and wearing time still matter, so a block heel is not automatically pain-free. Compare the complete construction and walk in the pair indoors before deciding.
+
+### Can insoles or heel pads prevent heel pain?
+
+Soft insoles or heel pads may help with some types of discomfort, and the NHS suggests asking a pharmacist or healthcare professional which option may suit you. They cannot fix the wrong shoe size, crowded toes or a fastening that lets the foot slide forward.
+
+### Do transparent heels cause more foot pain?
+
+Transparency itself does not decide whether a pair will hurt. Check the height, toe space and fit, and pay particular attention to where clear straps and edges meet the foot. Any rubbing, pinching or forward sliding during an indoor trial is a reason to reconsider the pair.
+
+### How long should heel pain last after wearing heels?
+
+There is no single recovery time because heel pain has several possible causes. Mild pressure soreness may settle after removing the shoes and resting, but pain that is severe, worsening, recurring, limiting normal activity or not improving after two weeks should be assessed by a healthcare professional.
+
+### When should I stop wearing heels and seek medical advice?
+
+Stop wearing the pair if you feel sharp pain, tingling or numbness. Seek medical advice for severe or persistent symptoms, and seek urgent care after an injury if you cannot walk, the foot or ankle changes shape, or there is marked swelling and bruising.
+
 ## A quick checklist before buying heels
 
 - What is the exact heel height?

@@ -63,6 +63,16 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T11:15:04+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT was not verified because the account returned 'Not enough credits'. The 6% value is the separate local AI-pattern risk score and does not satisfy the mandatory ZeroGPT gate.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "blocked",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -71,7 +81,7 @@
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
     "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
-    "status": "draft",
+    "status": "draft_zero_gpt_blocked",
     "target": "why-feet-hurt-after-wearing-heels-20260727"
   },
   "sources": [
@@ -134,6 +144,12 @@
       "source_id": "inc5-cannibalization-check",
       "source_ref": "brands/inc5shop/blogs/summary.md + brands/inc5shop/blogs/references + brands/inc5shop/keywords",
       "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The top three relevant organic blog benchmarks used a supportive, practical tone and approximately 740-1,049 words, with question-led coverage of causes, prevention, relief and escalation. The FAQ addition remains concise because the Inc.5 draft already exceeds that depth.",
+      "source_id": "serp-faq-benchmark-20260728",
+      "source_ref": "brands/inc5shop/logs/content/raw/20260728-blog5-faq-serp-benchmark.json",
+      "source_type": "serp"
     }
   ]
 }

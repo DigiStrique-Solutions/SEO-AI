@@ -1,0 +1,80 @@
+{
+  "run_id": "inc5shop-blog5-faq-update-20260728",
+  "accessed_at": "2026-07-28",
+  "query": "Why Do Feet Hurt After Wearing Heels? Causes and Prevention Tips",
+  "search_provider": "Firecrawl Search",
+  "search_id": "019fa86d-71eb-71f8-914a-a5c57ab99c6f",
+  "location": "India",
+  "benchmark_results": [
+    {
+      "organic_position": 1,
+      "title": "How to Soothe Sore Feet from High Heels",
+      "url": "https://www.clarks.com/en-gb/editorial/how-to-prevent-and-relieve-sore-feet-from-heels",
+      "tone": "Informative and supportive",
+      "approximate_word_count": 1015,
+      "headings": [
+        "How to relieve foot pain from high heels",
+        "How to walk in high heels without pain",
+        "Our selection of cushioned shoes for women"
+      ],
+      "section_flow": "Problem introduction, after-wear relief, prevention while wearing heels, then a product-led close.",
+      "question_led_topics": [
+        "How to relieve foot pain from high heels?",
+        "How to walk in high heels without pain?",
+        "What are the best cushioned shoes for women?"
+      ],
+      "page_date": "2024-09-24"
+    },
+    {
+      "organic_position": 3,
+      "title": "How High Heels Are Hurting Your Feet (And What You Can Do About It)",
+      "url": "https://www.advancedfootdocs.com/blog/how-high-heels-are-hurting-your-feet-and-what-you-can-do-about-it/",
+      "tone": "Informative and advisory",
+      "approximate_word_count": 1049,
+      "headings": [
+        "Common High Heel Foot Problems",
+        "Why High Heels Cause Long-Term Damage",
+        "How to Prevent High Heel Foot Problems",
+        "Professional Treatment for High Heel Foot Pain",
+        "Take the First Step Toward Pain-Free Feet"
+      ],
+      "section_flow": "Common problems, mechanisms and longer-term effects, prevention, professional care, then a service CTA.",
+      "question_led_topics": [
+        "What are common high heel foot problems?",
+        "How do high heels cause long-term damage?",
+        "What helps prevent high heel foot problems?",
+        "When should a reader seek professional care?"
+      ],
+      "page_date": "2026-07-07"
+    },
+    {
+      "organic_position": 4,
+      "title": "Love to Wear High Heels? Here are 7 Tips to Prevent Pain",
+      "url": "https://www.poadocs.com/post/love-to-wear-high-heels-here-are-7-tips-to-prevent-pain",
+      "tone": "Informative and supportive",
+      "approximate_word_count": 740,
+      "headings": [
+        "Select lower heels",
+        "Wear gel insoles",
+        "Soak your feet when you get home",
+        "Massage your feet",
+        "Stretch your calves",
+        "Limit high heel use",
+        "Avoid high heels with extremely pointed toes"
+      ],
+      "section_flow": "Short pain-led introduction followed by seven scannable prevention and recovery tips.",
+      "question_led_topics": [
+        "What heel types may be easier to wear?",
+        "How can a reader relieve pain after heels?",
+        "What foot problems can high heels contribute to?"
+      ],
+      "page_date": "2025-04-01"
+    }
+  ],
+  "combined_benchmark": {
+    "tone": "Supportive, practical and cautious; explain the reason before giving an action.",
+    "target_depth": "The current Inc.5 draft is already deeper than the approximately 740-1,049-word benchmark. The FAQ addition should therefore be concise rather than expanding every answer into a new section.",
+    "structure_influence": "Add a question-led FAQ block covering forefoot pressure, heel construction, cushioning, transparent heels, recovery time and medical escalation. Preserve Inc.5's existing cause-to-prevention-to-aftercare flow and original wording.",
+    "originality_note": "Competitor wording and exact structures were not reproduced."
+  }
+}
