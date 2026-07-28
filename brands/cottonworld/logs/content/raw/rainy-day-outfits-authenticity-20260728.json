@@ -20,6 +20,25 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:55:29+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:55:34+00:00",
+      "max_score": 20.0,
+      "note": "Exact final article body tested interactively on zerogpt.com after rewriting. ZeroGPT displayed 'Your Text is Human written'. Detector percentages are weak editorial signals, not proof of authorship.",
+      "score": 16.3,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -28,7 +47,7 @@
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
     "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
-    "status": "draft",
+    "status": "ready",
     "target": "Cottonworld blog: 8 Relaxed Outfit Ideas for Humid, Rainy Days"
   },
   "sources": [

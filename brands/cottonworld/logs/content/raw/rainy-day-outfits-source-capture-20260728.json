@@ -2,6 +2,18 @@
   "run_id": "cottonworld-rainy-day-outfits-20260728",
   "captured_at": "2026-07-28T09:15:10Z",
   "tone_references_captured_at": "2026-07-28T09:37:24Z",
+  "detector_review": {
+    "reviewed_at": "2026-07-28T09:55:34Z",
+    "user_reported_score": 42.0,
+    "fresh_baseline_score": 56.8,
+    "intermediate_score": 31.2,
+    "first_passing_score": 13.7,
+    "exact_final_score": 16.3,
+    "threshold": 20.0,
+    "final_label": "Your Text is Human written",
+    "provider": "https://www.zerogpt.com/",
+    "note": "Scores are weak editorial signals. The exact final article body, including rendered URLs and editorial sources, was used for the final check."
+  },
   "target": "8 Relaxed Outfit Ideas for Humid, Rainy Days",
   "user_keyword_brief": {
     "cotton clothing for men": 1300,
