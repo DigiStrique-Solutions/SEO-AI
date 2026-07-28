@@ -1,0 +1,49 @@
+{
+  "run_id": "inc5shop-technical-audit-deliverables-20260728",
+  "created_at": "2026-07-28T00:00:00+05:30",
+  "brand_id": "inc5shop",
+  "audit_status": "partial",
+  "reason_partial": "712 internal HTML URLs returned HTTP 429 during the licensed Screaming Frog crawl and eight checklist areas require authenticated or platform-level evidence.",
+  "deliverables": {
+    "excel": {
+      "local_path": "outputs/inc5-technical-audit-20260728/Inc5_Technical_SEO_Audit_2026-07-28.xlsx",
+      "google_drive_file_id": "1QwQAnBSae2S1pzk0sd2rAnNlca8nd80H",
+      "google_drive_url": "https://docs.google.com/spreadsheets/d/1QwQAnBSae2S1pzk0sd2rAnNlca8nd80H/edit?usp=drivesdk&ouid=103330755160204390522&rtpof=true&sd=true",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sheets": [
+        "Executive Summary",
+        "Findings",
+        "URL Evidence",
+        "Check Status",
+        "Access Needed",
+        "Source Register"
+      ],
+      "verified_findings": 11,
+      "url_evidence_rows": 2741,
+      "checklist_items": 20,
+      "blocked_checklist_items": 8,
+      "access_items": 9
+    },
+    "google_doc": {
+      "document_id": "1KuupNGEB6O6l7FXjOWyCUCWHro3KxeFWgAAbGy-9-AI",
+      "url": "https://docs.google.com/document/d/1KuupNGEB6O6l7FXjOWyCUCWHro3KxeFWgAAbGy-9-AI/edit?usp=drivesdk",
+      "title": "Inc.5 Technical SEO Audit — Findings, Solutions & Access Required (2026-07-28)"
+    }
+  },
+  "access_required": [
+    "Screaming Frog audit IP/User-Agent allowlisting or an approved one-to-two-thread delayed crawl window",
+    "Google Search Console Full user access for sc-domain:inc5shop.com through Composio",
+    "Production analytics platform confirmation and GA4 Viewer/Analyst access through Composio or Shopify Analytics reports/exports",
+    "Shopify collaborator/admin read access to Products, Collections, Pages, Navigation, URL Redirects, Themes, Apps/App Embeds, Search & Discovery and Analytics",
+    "Shopify duplicate-theme preview or staging access",
+    "CDN/WAF/bot policy read access or owner-provided configuration and log exports",
+    "Merchant Center/product feed read-only access",
+    "Storefront app configuration and diagnostics",
+    "Named SEO or merchandising approver for the collection indexation matrix"
+  ],
+  "verification": {
+    "excel_formula_error_scan": "pass",
+    "excel_sheet_visual_review": "pass",
+    "google_doc_content_readback": "pass"
+  }
+}
