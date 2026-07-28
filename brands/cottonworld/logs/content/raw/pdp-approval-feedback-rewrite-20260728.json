@@ -1,0 +1,49 @@
+{
+  "run_id": "cottonworld-pdp-approval-feedback-rewrite-20260728",
+  "captured_at": "2026-07-28T12:40:52Z",
+  "source_type": "google_sheet_editorial_feedback",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE/edit?gid=0#gid=0",
+  "spreadsheet_title": "Cottonworld - PDP Pages Revised Content - Sent to the Client for Approval",
+  "sheet": "Batch 1",
+  "source_ranges": [
+    "A1:J200",
+    "F1:F1000"
+  ],
+  "approval_feedback": {
+    "global": "Remove the word casual from all revised product copy so the products are not limited to a casual-use frame.",
+    "row_4": "Replace the white-shirt opening 'Light in colour' with sharper white-led phrasing.",
+    "url_notes": "Rows 5-7 report page-not-found URLs; URL fields were not changed because this run was scoped to revised content."
+  },
+  "result": {
+    "populated_revised_content_cells_reviewed": 25,
+    "cells_updated": 19,
+    "cells_preserved": 6,
+    "updated_cells": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F14",
+      "F15",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F23",
+      "F26"
+    ],
+    "verification": {
+      "range": "F2:F26",
+      "query": "casual",
+      "matches": 0,
+      "white_shirt_opening": "Sharp in white and easy in shape"
+    }
+  }
+}
