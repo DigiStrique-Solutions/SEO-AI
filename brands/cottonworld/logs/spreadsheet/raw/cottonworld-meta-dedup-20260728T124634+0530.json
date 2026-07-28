@@ -1,0 +1,144 @@
+{
+  "run_id": "cottonworld-meta-dedup-20260728T124634+0530",
+  "timestamp": "2026-07-28T12:46:34+05:30",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041#gid=1696679041",
+  "sheet": "New URL Structure & H1 Tags",
+  "rule": "Remove redundant repeated words while preserving product facts, necessary grammar, and the suggested URL intent.",
+  "changes": [
+    {
+      "row": 79,
+      "fields": {
+        "h1": {
+          "before": "Men's 100% Cotton Regular Fit Regular Collar Shirt White",
+          "after": "Men's 100% Cotton Regular Fit Collared Shirt White"
+        },
+        "meta_title": {
+          "before": "Buy Men’s Cotton Regular Fit Regular Collar Shirt White | Cottonworld",
+          "after": "Buy Men’s Cotton Regular Fit Collared Shirt White | Cottonworld"
+        },
+        "meta_description": {
+          "before": "Find Cottonworld’s men’s cotton regular fit regular collar shirt white, designed around simple everyday comfort for work, weekends and travel.",
+          "after": "Find Cottonworld’s men’s cotton regular fit collared shirt white, designed around simple everyday comfort for work, weekends and travel."
+        }
+      }
+    },
+    {
+      "row": 310,
+      "fields": {
+        "meta_description": {
+          "before": "Cottonworld’s men’s cotton regular fit relaxed crew neck t-shirt black brings simple comfort to workdays, weekends, travel and relaxed time at home.",
+          "after": "Cottonworld’s men’s cotton regular fit relaxed crew neck t-shirt black brings simple comfort to workdays, weekends, travel and time at home."
+        }
+      }
+    },
+    {
+      "row": 334,
+      "fields": {
+        "h1": {
+          "before": "Men's 100% Cotton Regular Fit Regular Collar Shirt Yellow",
+          "after": "Men's 100% Cotton Regular Fit Collared Shirt Yellow"
+        },
+        "meta_title": {
+          "before": "Buy Men’s Cotton Regular Fit Regular Collar Shirt Yellow | Cottonworld",
+          "after": "Buy Men’s Cotton Regular Fit Collared Shirt Yellow | Cottonworld"
+        },
+        "meta_description": {
+          "before": "Cottonworld’s men’s cotton regular fit regular collar shirt yellow brings simple comfort to workdays, weekends, travel and relaxed time at home.",
+          "after": "Cottonworld’s men’s cotton regular fit collared shirt yellow brings simple comfort to workdays, weekends, travel and relaxed time at home."
+        }
+      }
+    },
+    {
+      "row": 358,
+      "fields": {
+        "meta_description": {
+          "before": "Cottonworld’s women’s cotton regular fit relaxed crew neck t-shirt black brings simple comfort to workdays, weekends, travel and relaxed time at home.",
+          "after": "Cottonworld’s women’s cotton regular fit relaxed crew neck t-shirt black brings simple comfort to workdays, weekends, travel and time at home."
+        }
+      }
+    },
+    {
+      "row": 398,
+      "fields": {
+        "meta_description": {
+          "before": "Shop Cottonworld’s women’s cotton linen regular fit shorts elastic waist shorts natural. Comfortable everyday clothing for work, weekends and travel.",
+          "after": "Shop Cottonworld’s women’s cotton linen regular fit elastic waist shorts natural. Comfortable everyday clothing for work, weekends and travel."
+        }
+      }
+    },
+    {
+      "row": 400,
+      "fields": {
+        "meta_description": {
+          "before": "Shop Cottonworld’s men’s cotton regular fit shorts back pocket elastic waist shorts white. Comfortable everyday clothing for work, weekends and travel.",
+          "after": "Shop Cottonworld’s men’s cotton regular fit back pocket elastic waist shorts white. Comfortable everyday clothing for work, weekends and travel."
+        }
+      }
+    },
+    {
+      "row": 403,
+      "fields": {
+        "meta_description": {
+          "before": "Find Cottonworld’s men’s cotton regular fit shorts back pocket shorts green, designed around simple everyday comfort for work, weekends and travel.",
+          "after": "Find Cottonworld’s men’s cotton regular fit back pocket shorts green, designed around simple everyday comfort for work, weekends and travel."
+        }
+      }
+    },
+    {
+      "row": 406,
+      "fields": {
+        "meta_description": {
+          "before": "Explore Cottonworld’s men’s cotton linen regular fit shorts stripe drawstring side seam pocket shorts navy for comfortable everyday wear.",
+          "after": "Explore Cottonworld’s men’s cotton linen regular fit stripe drawstring side seam pocket shorts navy for comfortable everyday wear."
+        }
+      }
+    },
+    {
+      "row": 419,
+      "fields": {
+        "h1": {
+          "before": "Women's Cotton Lycra Slim Fit Slim Pant Beige",
+          "after": "Women's Cotton Lycra Slim Fit Pant Beige"
+        },
+        "meta_title": {
+          "before": "Buy Women’s Cotton Lycra Slim Fit Slim Pant Beige | Cottonworld",
+          "after": "Buy Women’s Cotton Lycra Slim Fit Pant Beige | Cottonworld"
+        },
+        "meta_description": {
+          "before": "For work, weekends and travel, choose Cottonworld’s women’s cotton lycra slim fit slim pant beige as a comfortable everyday option.",
+          "after": "For work, weekends and travel, choose Cottonworld’s women’s cotton lycra slim fit pant beige as a comfortable everyday option."
+        }
+      }
+    },
+    {
+      "row": 813,
+      "fields": {
+        "meta_title": {
+          "before": "Buy Men’s Cotton Regular Fit Corduroy Corduroy Olive | Cottonworld",
+          "after": "Buy Men’s Cotton Regular Fit Corduroy Jacket Olive | Cottonworld"
+        }
+      }
+    },
+    {
+      "row": 814,
+      "fields": {
+        "meta_title": {
+          "before": "Buy Men’s Cotton Regular Fit Corduroy Corduroy Grey | Cottonworld",
+          "after": "Buy Men’s Cotton Regular Fit Corduroy Jacket Grey | Cottonworld"
+        }
+      }
+    }
+  ],
+  "verification": {
+    "meta_title_rows_scanned": 920,
+    "meta_description_rows_scanned": 920,
+    "h1_rows_scanned": 920,
+    "remaining_meta_title_repeat_rows": 0,
+    "remaining_meta_description_repeat_rows": 0,
+    "remaining_h1_repeat_rows": 0,
+    "exact_value_mismatches": 0,
+    "drive_status": "saved",
+    "ai_text_risk_score": 13.67,
+    "zerogpt_status": "local_fallback_pass"
+  }
+}
