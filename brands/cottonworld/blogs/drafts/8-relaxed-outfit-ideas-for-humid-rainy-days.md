@@ -14,7 +14,7 @@ secondary_keywords:
 
 # 8 Relaxed Outfit Ideas for Humid, Rainy Days
 
-You know the sort of morning. A raincoat feels wrong in that warmth, but the road is already wet and cold office air waits at the other end of the commute. That is where Cottonworld's idea of slow living feels useful: notice what the route needs, choose with some care and then get on with the life beyond the outfit. Start with the hem, think about how the fabric will feel in humid air, then make a little room in the bag for something dry. Cotton comes up often below; Cottonworld's fabric guide calls it soft, breathable and versatile. None of these eight ideas needs a special monsoon wardrobe. They use shirts, T-shirts, blouses and trousers that can return on drier days too.
+You know the sort of morning. A raincoat feels wrong in that warmth, but the road is already wet and cold office air waits at the other end of the commute. That is where Cottonworld's idea of slow living feels useful: notice what the route needs, choose with some care and then get on with the life beyond the outfit. Start with the hem, think about how the fabric will feel in humid air, then make a little room in the bag for something dry. Cotton appears throughout because its soft, breathable feel suits the stop-start rhythm of a humid day. More importantly, each idea begins with familiar pieces—shirts, T-shirts, blouses and trousers that stay useful when the road is dry again.
 
 ## 1. Half sleeves for the office run
 

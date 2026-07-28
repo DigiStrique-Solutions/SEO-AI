@@ -67,6 +67,15 @@
       "source": "live_web_ui",
       "status": "pass",
       "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T14:49:50.6431613Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after revising the highlighted introduction passage. ZeroGPT labelled it \"Your Text is Most Likely Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 16.7,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -186,6 +195,16 @@
       ],
       "source_id": "cottonworld-blog-writing-guideline-20260728",
       "source_ref": "brands/cottonworld/logs/content/raw/cottonworld-blog-writing-guideline-20260728.json",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The Google Doc reviewer highlighted the final two sentences of the introduction.",
+        "The exact review instruction was: Change these line.",
+        "The revised passage should explain cotton's relevance to a humid day and connect the outfit ideas to familiar pieces that remain useful after the rain."
+      ],
+      "source_id": "rainy-day-blog-google-doc-comment-20260728",
+      "source_ref": "Google Doc comment AAAB_hs7XxY on document 1P_jS2BECDZLLohHOk-zTL9F7bqm1aVAyuIPqxnO_W5I",
       "source_type": "human_context"
     }
   ]
