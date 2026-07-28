@@ -1,0 +1,43 @@
+{
+  "run_id": "cottonworld-pdp-blank-entry-generation-20260728",
+  "captured_at": "2026-07-28T12:51:42Z",
+  "source_type": "google_sheet_and_shopify_product_records",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE/edit?gid=0#gid=0",
+  "spreadsheet_title": "Cottonworld - PDP Pages Revised Content - Sent to the Client for Approval",
+  "sheet": "Batch 1",
+  "target_range": "F27:F251",
+  "template_basis": "The 25 client-reviewed entries in F2:F26",
+  "sources": {
+    "live_shopify_product_json_records": 44,
+    "sheet_only_fallback_records": 181,
+    "sheet_fields_used": [
+      "Products",
+      "Products Old URL Structure",
+      "New URL Structure",
+      "Page Content",
+      "Primary Keywords",
+      "Secondary Keywords",
+      "Long-Tail Keywords"
+    ]
+  },
+  "generation_rules": [
+    "Use the approved structure: factual opening, construction detail, product highlights, styling note, and care.",
+    "Do not use the word casual or limit products to a single occasion.",
+    "Use exact Shopify composition and construction details when the product record is available.",
+    "When both Shopify handles are unavailable, use only facts present in the sheet.",
+    "When live wash-care instructions are unavailable, direct the reader to the product label instead of assuming care requirements."
+  ],
+  "result": {
+    "blank_cells_filled": 225,
+    "first_cell": "F27",
+    "last_cell": "F251",
+    "verification": {
+      "cells_containing_product_highlights": 225,
+      "casual_matches_in_F2_F251": 0,
+      "pants_is_made_matches": 0,
+      "shorts_is_made_matches": 0,
+      "singular_fit_create_matches": 0
+    },
+    "status": "ok"
+  }
+}
