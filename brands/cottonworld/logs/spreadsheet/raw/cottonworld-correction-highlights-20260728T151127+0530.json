@@ -1,0 +1,38 @@
+{
+  "run_id": "cottonworld-correction-highlights-20260728T151127+0530",
+  "timestamp": "2026-07-28T15:11:27+05:30",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041#gid=1696679041",
+  "sheet": "New URL Structure & H1 Tags",
+  "action": "highlight_corrected_h1_and_metadata_cells",
+  "format": {
+    "fill": "light red 3",
+    "text": "dark red 2",
+    "method": "conditional_formatting",
+    "applied_range": "H1:L921"
+  },
+  "highlighted_cells": {
+    "h1": {
+      "column": "H",
+      "count": 30,
+      "rows": [79, 334, 348, 371, 374, 375, 377, 378, 379, 383, 384, 387, 388, 390, 391, 392, 393, 395, 396, 397, 404, 405, 408, 410, 411, 412, 419, 435, 438, 439]
+    },
+    "meta_title": {
+      "column": "K",
+      "count": 8,
+      "rows": [79, 334, 392, 397, 408, 419, 813, 814]
+    },
+    "meta_description": {
+      "column": "L",
+      "count": 36,
+      "rows": [79, 310, 334, 348, 358, 371, 374, 375, 377, 378, 379, 383, 384, 387, 388, 390, 391, 392, 393, 395, 396, 397, 398, 400, 403, 404, 405, 406, 408, 410, 411, 412, 419, 435, 438, 439]
+    }
+  },
+  "verification": {
+    "conditional_rule_visible": true,
+    "h1_visual_check": "passed",
+    "meta_title_visual_check": "passed",
+    "meta_description_visual_check": "passed",
+    "cell_values_changed": false,
+    "drive_status": "saved"
+  }
+}
