@@ -1,0 +1,24 @@
+{
+  "run_id": "cottonworld-july-blog-keywords-20260728T100611Z",
+  "timestamp": "2026-07-28T15:36:11+05:30",
+  "action": "add_july_blog_topic_and_keyword_sets",
+  "spreadsheet_id": "1eCgqKw_vGec2llchEGXTzsRJbtuBrGxLrC4vKcLpiM0",
+  "sheet_id": 610507292,
+  "sheet_name": "Cottonworld",
+  "inserted_rows": "23:29",
+  "updated_ranges": [
+    "Cottonworld!E9:E14",
+    "Cottonworld!E16:E21",
+    "Cottonworld!A23:E28"
+  ],
+  "topics_updated": 3,
+  "keywords_added": 18,
+  "search_volume_status": "blank_not_checked_blocked",
+  "verification": {
+    "read_back_range": "Cottonworld!A8:F31",
+    "all_topics_present": true,
+    "all_keywords_present": true,
+    "may_section_preserved_after_insert": true
+  },
+  "keyword_research_ref": "../../keywords/raw/20260728T100611Z-july-blog-keyword-research.json"
+}
