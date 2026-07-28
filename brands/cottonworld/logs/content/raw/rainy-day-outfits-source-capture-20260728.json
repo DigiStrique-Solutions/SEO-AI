@@ -1,0 +1,59 @@
+{
+  "run_id": "cottonworld-rainy-day-outfits-20260728",
+  "captured_at": "2026-07-28T09:15:10Z",
+  "target": "8 Relaxed Outfit Ideas for Humid, Rainy Days",
+  "user_keyword_brief": {
+    "cotton clothing for men": 1300,
+    "cotton clothing for women": [1900, 2400],
+    "rainy day outfits": 140,
+    "monsoon outfit ideas": 110,
+    "monsoon fashion": 110,
+    "rainy season outfits": 140,
+    "note": "The repeated women's keyword has conflicting supplied volumes. Neither figure is quoted in customer-facing copy."
+  },
+  "live_sources": [
+    {
+      "provider": "firecrawl",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "status": 200,
+      "facts": [
+        "Cottonworld describes cotton as soft, breathable and versatile.",
+        "Cottonworld describes linen as lightweight and airy.",
+        "Cottonworld describes bamboo fabric as soft and lightweight.",
+        "Cottonworld describes cotton-linen as combining cotton's softness with linen's structure."
+      ]
+    },
+    {
+      "provider": "firecrawl",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "status": 200,
+      "facts": [
+        "The collection currently includes 100% cotton regular-fit shirts.",
+        "A sky Oxford cotton shirt and a white band-collar cotton shirt are shown with short or half sleeves.",
+        "The collection also includes cotton-linen and cotton-bamboo-elastane products."
+      ]
+    },
+    {
+      "provider": "public_shopify_collection_feed",
+      "url": "https://cottonworld.net/collections/cotton-womens/products.json?limit=8",
+      "status": 200,
+      "facts": [
+        "The live sample includes an ankle-length beige cotton-lycra regular-fit pant.",
+        "The live sample includes an ankle-length denim 100% cotton regular-fit culotte.",
+        "The live sample includes a peach 100% cotton regular-fit short-sleeve blouse.",
+        "The live sample includes a green 100% organic cotton regular-fit short-sleeve T-shirt.",
+        "The live sample includes a black cotton-bamboo-elastane regular-fit knit pant."
+      ],
+      "failure_context": "Used after two Firecrawl attempts for the women's collection returned ERR_TUNNEL_CONNECTION_FAILED."
+    },
+    {
+      "provider": "firecrawl_search",
+      "url": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
+      "status": 200,
+      "facts": [
+        "The India Meteorological Department uses June to September for India's main monsoon season in its monsoon FAQ."
+      ],
+      "search_id": "019fa800-6af2-7584-b8ef-664c4b5dd68c"
+    }
+  ]
+}
