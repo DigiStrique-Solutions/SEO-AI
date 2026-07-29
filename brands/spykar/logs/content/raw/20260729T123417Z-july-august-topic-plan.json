@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "generated_at": "2026-07-29T12:34:17Z",
+  "target_country": "India",
+  "source_refs": [
+    "blogs/summary.md",
+    "keywords/clusters.json",
+    "keywords/universe.csv",
+    "style-guide.md",
+    "logs/content/raw/20260729T123417Z-july-august-trend-research.json"
+  ],
+  "months": [
+    {
+      "month": "July 2026",
+      "theme": "Peak monsoon, emerging denim fits, campus utility and humid-weather comfort",
+      "topics": [
+        {"title":"Barrel-Leg Jeans Are 2026’s Standout Fit: How Women Can Style Them Every Day","keywords":["barrel leg jeans for women","women’s jeans styles","relaxed fit jeans for women","spykar jeans for women"]},
+        {"title":"How to Care for Denim During the Monsoon: Drying, Odour and Colour-Fade Tips","keywords":["denim care in monsoon","how to dry jeans fast","prevent denim odour","denim colour care"]},
+        {"title":"Baggy Jeans in the Rain? 7 Lightweight Styling Ideas That Actually Work","keywords":["baggy jeans outfits","lightweight denim","relaxed fit jeans","monsoon outfits"]},
+        {"title":"High Rise vs Mid Rise vs Low Rise Jeans for Men: Find Your Everyday Fit","keywords":["high rise vs mid rise vs low rise jeans for men","denim fits guide","jeans for men","mens jeans"]},
+        {"title":"Back-to-College Denim Capsule: 8 Easy Outfits for Men and Women","keywords":["college outfits with jeans","denim outfits","back to college fashion","casual outfits for men and women"]},
+        {"title":"Why Ankle-Length Jeans Work for Rainy-Day Commutes—and How to Style Them","keywords":["ankle length jeans for men","rainy day outfits for men","light blue jeans","black jeans men"]},
+        {"title":"Bootcut Jeans for Men: Why the 2026 Comeback Works for Everyday Style","keywords":["bootcut jeans for men","spykar bootcut jeans for men","denim jeans for men","2026 denim trends"]},
+        {"title":"Underjeans for Humid Weather: A Comfort-First Guide to Everyday Layering","keywords":["underjeans by spykar","innerwear for humid weather","breathable innerwear men","everyday loungewear"]}
+      ]
+    },
+    {
+      "month": "August 2026",
+      "theme": "Late monsoon, festive transition, smart-casual denim and fit-led shopping",
+      "topics": [
+        {"title":"Dark-Wash Denim for the Festive Transition: 8 Smart-Casual Looks","keywords":["dark wash jeans","festive denim outfits","smart casual denim","black jeans men"]},
+        {"title":"Independence Day Outfit Ideas: Tricolour Styling with Denim and Everyday Basics","keywords":["Independence Day outfit ideas","tricolour outfit ideas","white jeans for men","casual patriotic outfits"]},
+        {"title":"Raksha Bandhan Outfit Ideas for Siblings Who Prefer Smart-Casual Style","keywords":["Raksha Bandhan outfit ideas","sibling outfit ideas","festive casual wear","denim outfits"]},
+        {"title":"Denim-on-Denim in 2026: How to Balance Washes, Fits and Proportions","keywords":["denim on denim outfits","double denim styling","denim jacket outfits","jeans and denim shirt"]},
+        {"title":"How to Style White Jeans for Men Beyond Summer","keywords":["white jeans for men","how to style white jeans","mens jeans","smart casual outfits men"]},
+        {"title":"Women’s Jeans for Every Plan: Workdays, Weekends and Festive Evenings","keywords":["spykar jeans for women","women’s jeans styles","wide leg jeans for women","bootcut jeans for women"]},
+        {"title":"Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity","keywords":["cotton jeans for men","breathable jeans for men","jeans for men","late monsoon outfits"]},
+        {"title":"How to Find Your Best Jeans Fit In-Store in 10 Minutes","keywords":["spykar store near me","spykar showroom near me","denim fits guide","how to choose jeans fit"]}
+      ]
+    }
+  ],
+  "monthly_searches_status": "not_checked_blocked",
+  "difficulty_status": "not_checked_blocked",
+  "blocker": "GOOGLE_ADS_PLATFORM_ID is unset, so the permitted Keyword Planner call could not run."
+}

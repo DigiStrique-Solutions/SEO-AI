@@ -1,0 +1,35 @@
+{
+  "provider": "google_sheets",
+  "spreadsheet_id": "1ZXHdmoZwFZFShWzPnVPSAOof-P4yQHAcFELTWkjNxKo",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1ZXHdmoZwFZFShWzPnVPSAOof-P4yQHAcFELTWkjNxKo/edit",
+  "written_at": "2026-07-29T12:34:17Z",
+  "tabs": [
+    {
+      "sheet_id": 1424963095,
+      "title": "July'26",
+      "topic_count": 8,
+      "keyword_count": 32,
+      "verified_range": "A1:F50"
+    },
+    {
+      "sheet_id": 625075188,
+      "title": "August'26",
+      "topic_count": 8,
+      "keyword_count": 32,
+      "verified_range": "A1:F50"
+    }
+  ],
+  "search_volume_cells": "left blank",
+  "difficulty_cells": "left blank",
+  "header_notes": {
+    "D2": "Keyword Planner monthly-search data unavailable because GOOGLE_ADS_PLATFORM_ID is unset.",
+    "E2": "Keyword difficulty was not measured because the permitted Keyword Planner call is blocked."
+  },
+  "verification": {
+    "july_topics_present": 8,
+    "august_topics_present": 8,
+    "july_keywords_present": 32,
+    "august_keywords_present": 32,
+    "header_notes_present": true
+  }
+}
