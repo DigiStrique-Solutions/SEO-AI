@@ -17,6 +17,8 @@ Public copy repeatedly addresses young, self-assured and expressive Indian shopp
 
 ## Voice and messaging
 
+For blog work, `style-guide.md` is the authoritative source and overrides generic content-writing defaults.
+
 Use:
 
 - Young-at-heart, bold, optimistic and direct language.
@@ -24,6 +26,8 @@ Use:
 - Concrete proof: fit range, fabric, stretch, stitching, durability, breathable construction and styling use cases.
 - Short campaign phrases paired with practical product detail.
 - India-rooted ideas when the collection or source supports them.
+- Indian English spelling, present tense, short paragraphs and sentence-case headings.
+- Practical styling advice grounded in colours, fits, textures, seasons and real-life use.
 
 Avoid:
 
@@ -31,6 +35,16 @@ Avoid:
 - Generic luxury language or over-polished corporate prose.
 - Invented customer demographics, material certifications or environmental outcomes.
 - Treating temporary sale messaging as evergreen positioning.
+- Bolded keywords, keyword stuffing, dense text blocks, aggressive selling or vague statements such as “this outfit looks stylish.”
+
+## Blog content rules
+
+- Use a keyword-led title, an 80–120 word introduction, five to eight thematic sections, a practical styling section in most posts, subtle brand integration and an 80–120 word conclusion with a soft CTA.
+- Place the primary keyword in the title, introduction and at least one heading. Distribute secondary terms naturally; do not bold keywords.
+- FAQs are optional but recommended where useful. Keep answers short, direct, conversational and integrated into the article or placed at the end.
+- Target meta titles at 50–60 characters and meta descriptions at 140–160 characters.
+- Use a digital-first, mobile-friendly layout with clear section breaks, short paragraphs and sparse bullet lists.
+- Final review must check structure, voice, natural keyword use, clarity, flow, introduction, conclusion and publish-ready formatting.
 
 ## Brand values supported by the site
 
@@ -70,6 +84,7 @@ Current research frame: Killer Jeans, Levi’s India and Pepe Jeans India. These
 - `spykar-setup-20260729` → `logs/web_data/raw/20260729T114420Z-brand-dna-crawl.json`
 - `spykar-setup-20260729` → `logs/web_data/raw/20260729T114420Z-rendered-brand-pages.json`
 - `spykar-setup-20260729` → `logs/web_data/raw/20260729T114420Z-competitor-research.json`
+- `spykar-style-guide-20260729` → `logs/web_data/raw/20260729T122231Z-style-guide-google-doc.json`
 
 ## Open questions
 

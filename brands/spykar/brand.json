@@ -10,9 +10,10 @@
   "locale": "en-IN",
   "market": "India",
   "created_at": "2026-07-29T11:44:20Z",
-  "updated_at": "2026-07-29T11:56:43Z",
+  "updated_at": "2026-07-29T12:22:31Z",
   "pointers": {
     "brand_dna": "brand-dna.json",
+    "style_guide": "style-guide.md",
     "keywords": "keywords/",
     "blogs": "blogs/",
     "audits": "audits/",

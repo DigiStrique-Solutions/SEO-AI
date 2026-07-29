@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "brand_id": "spykar",
-  "updated_at": "2026-07-29T11:44:20Z",
+  "updated_at": "2026-07-29T12:22:31Z",
   "brand_name": "Spykar",
   "website_url": "https://spykar.com/",
   "logo": {
@@ -25,7 +25,10 @@
       "Second-person invitations focused on identity, mood and movement",
       "Bold but accessible words: adventure, confidence, authentic, effortless and playful",
       "Concrete denim proof points: built to last, fits for you and all-day flex",
-      "Seasonal styling language connecting heritage or culture with contemporary fashion"
+      "Seasonal styling language connecting heritage or culture with contemporary fashion",
+      "Indian English spelling with short, scannable paragraphs and sentence-case headings",
+      "Practical outfit guidance that names colours, fits, textures, seasons and real-life use",
+      "Subtle brand integration and soft calls to action rather than aggressive selling"
     ]
   },
   "brand_values": [

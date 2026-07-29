@@ -8,6 +8,7 @@ Read this first for any task about Spykar, then load only the files the task nee
 |---|---|
 | Identity, positioning, audience, voice, competitors | [brand-dna.json](brand-dna.json) |
 | Brand-specific rules, evidence limits, messaging guidance | [knowledge.md](knowledge.md) |
+| Authoritative blog voice, structure, SEO and formatting rules | [style-guide.md](style-guide.md) |
 | Keyword demand, intent, clusters | [keywords/](keywords/) |
 | Existing editorial coverage | [blogs/summary.md](blogs/summary.md) |
 | SEO health and prioritized fixes | [audits/summary.json](audits/summary.json) and [audits/summary.md](audits/summary.md) |
@@ -18,5 +19,6 @@ Read this first for any task about Spykar, then load only the files the task nee
 
 - Treat Spykar as an India-focused, Shopify-based denim and casualwear ecommerce brand.
 - Preserve its youthful, bold, fit-led language; ground sustainability and scale claims in the About Us page.
+- For every blog, follow `style-guide.md`: Indian English, natural unbolded keywords, scannable lifestyle-led structure, practical styling guidance and soft brand integration.
 - Do not assume GSC, analytics, revenue, customer demographics, or conversion data is connected until access is verified.
 - Current onboarding evidence comes from the public site, rendered browser checks, public competitor pages, and approved SEO tools.
