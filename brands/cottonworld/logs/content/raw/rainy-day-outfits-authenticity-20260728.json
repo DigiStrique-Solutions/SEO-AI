@@ -76,6 +76,15 @@
       "source": "live_web_ui",
       "status": "pass",
       "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-29T12:33:00+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after rewriting all five FAQ headings as natural questions. ZeroGPT labelled it \"Your Text is Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 18.6,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -205,6 +214,15 @@
       ],
       "source_id": "rainy-day-blog-google-doc-comment-20260728",
       "source_ref": "Google Doc comment AAAB_hs7XxY on document 1P_jS2BECDZLLohHOk-zTL9F7bqm1aVAyuIPqxnO_W5I",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "All five Blog 1 FAQ headings should be written as genuine reader questions rather than topic labels.",
+        "The FAQ answers and the paragraph-led main article should remain unchanged."
+      ],
+      "source_id": "user-rainy-day-faq-feedback-20260729",
+      "source_ref": "user feedback in Codex task",
       "source_type": "human_context"
     }
   ]

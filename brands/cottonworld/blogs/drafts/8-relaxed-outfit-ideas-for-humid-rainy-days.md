@@ -54,23 +54,23 @@ India's main monsoon season is generally treated as June to September by the Ind
 
 ## FAQs
 
-### Dressing for a humid, rainy day
+### What should you wear on a humid, rainy day?
 
 Start with the route, not a long list of rules. A cotton shirt or T-shirt and ankle-length pants will cover many commutes. Going somewhere heavily air-conditioned? The extra shirt belongs in your bag until you arrive, and a dry change is worth leaving at the destination when a soaking is likely.
 
-### Where cotton fits in
+### Is cotton a good choice for humid, rainy weather?
 
 Cottonworld's fabric guide describes cotton as soft, breathable and versatile. That makes it a useful starting point for rainy season outfits, although the cut still matters. Shorter sleeves and hems are easier around wet streets. If heavy rain is expected, no fabric choice replaces a dry change.
 
-### Three office combinations
+### Which outfit combinations work for a rainy office day?
 
 Pick according to the dress code and the journey. A half-sleeve shirt with straight trousers is the straightforward option; a short-sleeve blouse with ankle-length pants feels a little softer; a T-shirt with an open overshirt helps when office air-conditioning is the bigger concern. Each of these monsoon outfit ideas keeps the commute in view.
 
-### A relaxed option for men
+### What can men wear on a casual rainy day?
 
 Take a regular-fit cotton or cotton-linen shirt and wear it with straight trousers. Nothing needs to be tight or heavily layered. The collar does enough for work or dinner, which is a useful balance when choosing cotton clothing for men.
 
-### Easy pieces for women
+### What can women wear when the day is humid and wet?
 
 Begin at the ankle. Culottes, ankle-length pants and knit pants all keep fabric away from wet ground. Then choose between a short-sleeve blouse and a regular-fit T-shirt according to the day ahead. It is a practical way to look at cotton clothing for women without turning monsoon fashion into a separate wardrobe.
 
