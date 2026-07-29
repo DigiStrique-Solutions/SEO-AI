@@ -1,0 +1,24 @@
+{
+  "run_id": "spykar-keywords-20260729T114650Z",
+  "generated_at": "2026-07-29T11:49:00Z",
+  "inputs": {
+    "brand_dna": "brands/spykar/brand-dna.json",
+    "brand_knowledge": "brands/spykar/knowledge.md",
+    "gsc_query_page_export": "raw/20260729T114815Z-gsc-query-page-export.json",
+    "target_country": "India"
+  },
+  "method": "Curated product, category, local and competitor-alternative seeds; enriched exact query rows from the top-100 India GSC query sample. GSC page results informed target URL mapping. No volume or keyword difficulty was inferred.",
+  "seed_terms_without_gsc_metrics": [
+    "best indian jeans brands",
+    "levis alternative india",
+    "pepe jeans alternative india",
+    "killer jeans alternative",
+    "denim fits guide",
+    "high rise vs mid rise vs low rise jeans for men"
+  ],
+  "output_counts": {
+    "universe_rows": 44,
+    "curated_rows": 28,
+    "clusters": 9
+  }
+}

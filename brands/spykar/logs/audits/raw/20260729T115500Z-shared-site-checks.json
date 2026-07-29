@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "run_id": "spykar-audits-20260729",
+  "captured_at": "2026-07-29T11:55:00Z",
+  "target_url": "https://spykar.com/",
+  "scope": {
+    "prior_crawl": {
+      "provider": "firecrawl",
+      "status": "completed",
+      "pages": 35,
+      "evidence_ref": "../../web_data/raw/20260729T114420Z-brand-dna-crawl.json"
+    },
+    "prior_rendered_checks": {
+      "provider": "playwright",
+      "status": "completed",
+      "pages": [
+        "https://spykar.com/pages/about-us",
+        "https://spykar.com/blogs/blog/spykar-spring-summer-2026-collection-roots-of-now"
+      ],
+      "evidence_ref": "../../web_data/raw/20260729T114420Z-rendered-brand-pages.json"
+    },
+    "fresh_firecrawl": {
+      "provider": "firecrawl",
+      "mode": "mobile_rendered_extraction",
+      "successful_urls": [
+        "https://spykar.com/",
+        "https://spykar.com/collections/women",
+        "https://spykar.com/blogs/blog",
+        "https://spykar.com/robots.txt",
+        "https://spykar.com/sitemap.xml",
+        "https://spykar.com/llms.txt"
+      ],
+      "failed_urls": [
+        "https://spykar.com/pages/about-us",
+        "https://spykar.com/collections/men",
+        "https://spykar.com/blogs/blog/spykar-spring-summer-2026-collection-roots-of-now",
+        "https://spykar.com/products/mdss1bf012midblue"
+      ],
+      "failure": "ERR_TUNNEL_CONNECTION_FAILED after retry"
+    }
+  },
+  "on_page": {
+    "homepage": {
+      "status_code": 200,
+      "title": "Spykar: India’s Leading Denim & Casual Wear Brand for Youth",
+      "title_chars": 58,
+      "meta_description": "Welcome to our world, where staying young at heart and having a restless spirit are the only rules worth following! Give yourself the best you deserve.",
+      "meta_description_chars": 148,
+      "canonical": "https://spykar.com/",
+      "h1": ["Spykar Lifestyles"],
+      "heading_extraction": ["H1: Spykar Lifestyles"],
+      "body_word_count": 493,
+      "internal_contextual_link_count": 15,
+      "json_ld_types_extracted": ["WebPage"],
+      "visible_faq_blocks": 0,
+      "image_alt_extraction_conflict": "Two Firecrawl extractions disagreed (4/4 non-empty versus 0/27); no pass/fail claim made."
+    },
+    "women_collection": {
+      "status_code": 200,
+      "title": "Buy Casual Wear for Women Online at Best Prices at Spykar",
+      "meta_description": "Discover trendy casual wear for women at Spykar. Explore our collection featuring stylish jeans, comfortable tops, and more, designed to elevate your everyday wardrobe.",
+      "canonical_metadata": "https://spykar.com/collections/women",
+      "structured_extraction_canonical": "https://spykar.com/collections/women#MainContent",
+      "internal_contextual_link_count": 24,
+      "json_ld_types_extracted": ["Product"],
+      "body_word_count": 257,
+      "visible_faq_blocks": 0
+    },
+    "blog_index": {
+      "status_code": 200,
+      "title": "Blog",
+      "meta_description": "",
+      "canonical_metadata": "https://spykar.com/blogs/blog",
+      "body_word_count_extracted": 0,
+      "json_ld_types_extracted": [],
+      "visible_faq_blocks": 0
+    }
+  },
+  "crawlability": {
+    "robots_txt": {
+      "status_code": 200,
+      "default_user_agent": "Allow: /",
+      "important_templates_blocked": false,
+      "sitemap_directive": "https://spykar.com/sitemap.xml"
+    },
+    "sitemap_xml": {
+      "status_code": 200,
+      "is_index": true,
+      "child_sitemaps": 8,
+      "types": ["agentic_discovery", "products", "pages", "collections", "blogs"]
+    },
+    "llms_txt": {
+      "status_code": 200,
+      "title": "Agent Instructions — Spykar Lifestyles",
+      "commerce_discovery": true,
+      "read_only_product_and_collection_routes": true
+    }
+  },
+  "search_console": {
+    "property": "https://spykar.com/",
+    "permission_level": "siteOwner",
+    "date_range": {
+      "start": "2026-05-01",
+      "end": "2026-07-26"
+    },
+    "sitemap": {
+      "path": "https://spykar.com/sitemap.xml",
+      "is_sitemap_index": true,
+      "is_pending": false,
+      "errors": 0,
+      "warnings": 0,
+      "last_downloaded": "2026-07-28T03:08:24.397Z",
+      "last_submitted": "2025-11-28T15:04:55.476Z",
+      "contents": [
+        {"type": "web", "submitted": 4016, "indexed_reported": 0},
+        {"type": "image", "submitted": 3599, "indexed_reported": 0}
+      ],
+      "note": "The sitemap counters report zero indexed despite representative URL inspections passing; treat the counter as a lag/anomaly, not proof that the site is unindexed."
+    },
+    "url_inspections": [
+      {
+        "url": "https://spykar.com/",
+        "verdict": "PASS",
+        "coverage": "Submitted and indexed",
+        "crawled_as": "MOBILE",
+        "fetch": "SUCCESSFUL",
+        "robots": "ALLOWED",
+        "user_canonical": "https://spykar.com/",
+        "google_canonical": "https://spykar.com/",
+        "mobile_usability": "VERDICT_UNSPECIFIED"
+      },
+      {
+        "url": "https://spykar.com/collections/women",
+        "verdict": "PASS",
+        "coverage": "Submitted and indexed",
+        "crawled_as": "MOBILE",
+        "fetch": "SUCCESSFUL",
+        "robots": "ALLOWED",
+        "user_canonical": "https://spykar.com/collections/women",
+        "google_canonical": "https://spykar.com/collections/women",
+        "mobile_usability": "VERDICT_UNSPECIFIED"
+      },
+      {
+        "url": "https://spykar.com/pages/about-us",
+        "verdict": "PASS",
+        "coverage": "Submitted and indexed",
+        "crawled_as": "MOBILE",
+        "fetch": "SUCCESSFUL",
+        "robots": "ALLOWED",
+        "user_canonical": "https://spykar.com/pages/about-us",
+        "google_canonical": "https://spykar.com/pages/about-us",
+        "mobile_usability": "VERDICT_UNSPECIFIED"
+      },
+      {
+        "url": "https://spykar.com/blogs/blog",
+        "verdict": "PASS",
+        "coverage": "Submitted and indexed",
+        "crawled_as": "MOBILE",
+        "fetch": "SUCCESSFUL",
+        "robots": "ALLOWED",
+        "user_canonical": "https://spykar.com/blogs/blog",
+        "google_canonical": "https://spykar.com/blogs/blog",
+        "mobile_usability": "VERDICT_UNSPECIFIED"
+      }
+    ],
+    "page_rows_returned": 1000,
+    "representative_page_metrics": [
+      {"url": "https://spykar.com/", "clicks": 15261, "impressions": 572301, "ctr": 0.026666037627052896, "position": 6.334626359206082},
+      {"url": "https://spykar.com/pages/about-us", "clicks": 467, "impressions": 29188, "ctr": 0.01599972591475949, "position": 3.5773262984788268},
+      {"url": "https://spykar.com/collections/women", "clicks": 384, "impressions": 97483, "ctr": 0.003939148364330191, "position": 2.439276591816009}
+    ],
+    "query_rows_returned": 1000,
+    "top_queries": [
+      {"query": "spykar", "clicks": 7247, "impressions": 60653, "position": 1.2877846108189208},
+      {"query": "spykar jeans", "clicks": 3735, "impressions": 56263, "position": 1.793452179940636},
+      {"query": "spykar shirts", "clicks": 829, "impressions": 14954, "position": 2.184298515447372},
+      {"query": "spykar jeans for men", "clicks": 814, "impressions": 14459, "position": 3.8091845909122344},
+      {"query": "trousers for men", "clicks": 277, "impressions": 66445, "position": 6.26105801790955},
+      {"query": "white jeans for men", "clicks": 210, "impressions": 42006, "position": 6.031828786363853},
+      {"query": "cargo pants for men", "clicks": 208, "impressions": 46408, "position": 10.380624030339597}
+    ]
+  },
+  "performance": {
+    "pagespeed_crux": {
+      "status": "not_checked_blocked",
+      "attempts": 2,
+      "error": "Google API request failed because the local runner could not resolve the Google API host."
+    },
+    "lighthouse": {
+      "status": "not_checked_blocked",
+      "error": "No callable Lighthouse MCP was available."
+    }
+  },
+  "rendered_validation": {
+    "fresh_browser_session": {
+      "status": "not_checked_blocked",
+      "error": "No browser was available to the in-app browser runtime."
+    },
+    "prior_rendered_evidence_used": true,
+    "schema_validity_claimed": false,
+    "mobile_usability_claimed": false,
+    "accessibility_claimed": false
+  }
+}

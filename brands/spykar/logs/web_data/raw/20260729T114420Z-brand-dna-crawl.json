@@ -1,0 +1,53 @@
+{
+  "provider": "firecrawl",
+  "crawl_id": "019fadaa-b2b7-7518-bc58-4d156a4395be",
+  "status": "completed",
+  "completed": 35,
+  "total": 35,
+  "credits_used": 35,
+  "started_from": "https://spykar.com/",
+  "request": {
+    "limit": 35,
+    "max_discovery_depth": 2,
+    "allow_subdomains": false,
+    "allow_external_links": false,
+    "ignore_query_parameters": true,
+    "deduplicate_similar_urls": true,
+    "sitemap": "include",
+    "formats": ["markdown", "links", "branding"],
+    "only_main_content": true,
+    "country": "IN",
+    "languages": ["en"]
+  },
+  "verified_homepage": {
+    "status_code": 200,
+    "title": "Spykar: India’s Leading Denim & Casual Wear Brand for Youth",
+    "description": "Welcome to our world, where staying young at heart and having a restless spirit are the only rules worth following! Give yourself the best you deserve.",
+    "positioning": "Fit For Every You",
+    "key_categories": ["Men", "Women", "Underjeans", "Accessories"],
+    "denim_proof_points": ["Built to Last", "Fits For You", "All-Day Flex"],
+    "logo_url": "https://spykar.com/cdn/shop/files/46884b9b44e9193d0bf1a3c300aac0454e8aeccc.png?v=1769757478&width=304",
+    "branding": {
+      "primary": "#173A57",
+      "secondary": "#5C0F8B",
+      "accent": "#0066CC",
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "heading_font": "ClashDisplay",
+      "body_font": "Roboto"
+    }
+  },
+  "discovered_key_urls": [
+    "https://spykar.com/pages/about-us",
+    "https://spykar.com/pages/contact",
+    "https://spykar.com/pages/need-help",
+    "https://spykar.com/a/storelocator",
+    "https://spykar.com/collections/men",
+    "https://spykar.com/collections/women",
+    "https://spykar.com/collections/underjeans",
+    "https://spykar.com/collections/accessories",
+    "https://spykar.com/blogs/blog",
+    "https://spykar.com/blogs/blog/spykar-spring-summer-2026-collection-roots-of-now"
+  ],
+  "note": "The full Firecrawl response was very large because collection pages exposed product-variant links. This immutable normalized payload retains job identity, request parameters, verified homepage evidence and the key URL set used downstream."
+}

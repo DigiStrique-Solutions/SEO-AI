@@ -1,0 +1,23 @@
+{
+  "provider": "web",
+  "accessed_at": "2026-07-29",
+  "query": "Spykar competitors Indian denim brands",
+  "results": [
+    {
+      "name": "Killer Jeans",
+      "url": "https://www.killerjeans.com/pages/about-us",
+      "evidence": "Official About Us page describes Killer as an Indian homegrown denim brand, bold and youthful, with jeans and overlapping menswear categories."
+    },
+    {
+      "name": "Levi's India",
+      "url": "https://levi.in/pages/about-us",
+      "evidence": "Official India site documents Levi's denim heritage; its Indian store sells men's and women's jeans across multiple fits."
+    },
+    {
+      "name": "Pepe Jeans India",
+      "url": "https://www.pepejeans.in/",
+      "evidence": "Official India ecommerce site sells denim and contemporary fashion for men, women and kids, overlapping Spykar's core categories."
+    }
+  ],
+  "classification": "Working SEO competitor set based on category, audience and market overlap; internal approval remains open."
+}

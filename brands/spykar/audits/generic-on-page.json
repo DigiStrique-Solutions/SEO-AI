@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": 1.0,
+  "counts": {"items": 7, "pass": 5, "fail": 0, "not_applicable": 2},
+  "rows": [
+    {
+      "item_id": "title-present",
+      "section_id": "titles-meta",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. The homepage has a 58-character title, but the 35-page crawl payload retained only normalized key-page evidence, so site-wide title uniqueness cannot be verified.",
+      "next_action": "Run a full metadata export across all indexable URLs and verify uniqueness and the 30–60 character range.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page"
+    },
+    {
+      "item_id": "meta-description",
+      "section_id": "titles-meta",
+      "status": "pass",
+      "result": "The homepage has a 148-character, readable meta description; it is within the 70–160 character criterion.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "single-h1",
+      "section_id": "headings",
+      "status": "pass",
+      "result": "The mobile-rendered homepage extraction found exactly one H1: “Spykar Lifestyles.”",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.h1"
+    },
+    {
+      "item_id": "heading-order",
+      "section_id": "headings",
+      "status": "pass",
+      "result": "The extracted homepage heading sequence contains a single H1 and no skipped heading level.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.heading_extraction"
+    },
+    {
+      "item_id": "image-alt",
+      "section_id": "media-links",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Two rendered extraction attempts produced contradictory alt-text counts (4/4 versus 0/27), so the required ≥95% coverage cannot be graded reliably.",
+      "next_action": "Run a deterministic DOM image inventory on representative templates and calculate non-empty alt coverage.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.image_alt_extraction_conflict"
+    },
+    {
+      "item_id": "canonical",
+      "section_id": "media-links",
+      "status": "pass",
+      "result": "The homepage declares https://spykar.com/ as its canonical; GSC reports the same user and Google canonical and a PASS verdict.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#search_console.url_inspections"
+    },
+    {
+      "item_id": "status-200",
+      "section_id": "media-links",
+      "status": "pass",
+      "result": "The homepage returned HTTP 200 and GSC reports a successful page fetch, not a soft 404.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.status_code"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "provider": "firecrawl",
+  "crawl_id": "019fadb3-9b87-710a-bac9-7c3c9c27378b",
+  "status": "completed",
+  "requested": 20,
+  "completed": 19,
+  "missing": ["https://spykar.com/blogs/blog/latest-denim-jeans-styles-for-men"],
+  "records": [
+    {"slug":"summer-wardrobe-essentials-every-fashion-lover-needs","scrape_id":"019fadb3-a220-755a-b940-3edb7b48e2f1","status_code":200},
+    {"slug":"summer-denim-outfits-for-women-chic-comfortable-looks","scrape_id":"019fadb3-a220-755a-b940-415d27423ebf","status_code":200},
+    {"slug":"style-guide-oversized-tshirts-modern-denim-fits","scrape_id":"019fadb3-a220-755a-b940-4af3791a3b6f","status_code":200},
+    {"slug":"spykar-roots-of-now-campaign","scrape_id":"019fadb3-a220-755a-b940-47e34b9cbbb3","status_code":200},
+    {"slug":"womens-linen-summer-outfits-guide","scrape_id":"019fadb3-a220-755a-b940-53121c5b5599","status_code":200},
+    {"slug":"summer-linen-fashion-trends-2026","scrape_id":"019fadb3-a220-755a-b940-57c4324f2fa6","status_code":200},
+    {"slug":"everyday-denim-style-with-ikemen-jeans","scrape_id":"019fadb3-a220-755a-b940-63fe2c924113","status_code":200},
+    {"slug":"elevate-your-denim-collection-with-dark-and-rinse-wash-jeans","scrape_id":"019fadb3-a220-755a-b940-58a08c501455","status_code":200},
+    {"slug":"best-womens-jeans-styles-guide","scrape_id":"019fadb3-a220-755a-b940-5d660f032e8a","status_code":200},
+    {"slug":"mens-denim-jeans-colours-wardrobe-essentials","scrape_id":"019fadb3-a220-755a-b940-6a1d14139f17","status_code":200},
+    {"slug":"stylish-monsoon-outfits-for-men","scrape_id":"019fadb3-a220-755a-b940-6f0acbc601f5","status_code":200},
+    {"slug":"fashion-lightweight-denim-styles-summer-monsoon","scrape_id":"019fadb3-a220-755a-b940-7429c8e95dfe","status_code":200},
+    {"slug":"monsoon-fashion-for-women","scrape_id":"019fadb3-a220-755a-b940-733e1acc4eeb","status_code":200},
+    {"slug":"how-to-style-cargo-pants-casual-streetwear-looks","scrape_id":"019fadb3-a220-755a-b940-7966a057e9cf","status_code":200},
+    {"slug":"straight-vs-slim-fit-jeans-guide","scrape_id":"019fadb3-a220-755a-b940-7ce6dd196b9c","status_code":200},
+    {"slug":"essential-womens-tops-for-everyday-wear","scrape_id":"019fadb3-a220-755a-b940-80037516b58b","status_code":200},
+    {"slug":"monsoon-travel-style-guide","scrape_id":"019fadb3-a220-755a-b940-8797d61eb284","status_code":200},
+    {"slug":"casual-summer-fashion-essentials-every-wardrobe-needs","scrape_id":"019fadb3-a220-755a-b940-648095000668","status_code":200},
+    {"slug":"relaxed-fit-denim-style-inspired-by-vidyut-jammwal","scrape_id":"019fadb5-f0fd-75fc-b2b4-f41664fe988b","status_code":200}
+  ]
+}

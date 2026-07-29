@@ -1,0 +1,1382 @@
+{
+  "success": true,
+  "results": [
+    {
+      "response": {
+        "successful": true,
+        "data": {
+          "responseAggregationType": "byProperty",
+          "rows": [
+            {
+              "clicks": 114834,
+              "ctr": 0.2531485396463583,
+              "impressions": 453623,
+              "keys": [
+                "spykar"
+              ],
+              "position": 1.12802922250415
+            },
+            {
+              "clicks": 50523,
+              "ctr": 0.14164599015938434,
+              "impressions": 356685,
+              "keys": [
+                "spykar jeans"
+              ],
+              "position": 1.613045123848774
+            },
+            {
+              "clicks": 19869,
+              "ctr": 0.4012804459344832,
+              "impressions": 49514,
+              "keys": [
+                "spyker"
+              ],
+              "position": 1.233408732883629
+            },
+            {
+              "clicks": 10571,
+              "ctr": 0.11912865128020195,
+              "impressions": 88736,
+              "keys": [
+                "spykar shirts"
+              ],
+              "position": 1.8236904976559682
+            },
+            {
+              "clicks": 9386,
+              "ctr": 0.10812242970198943,
+              "impressions": 86809,
+              "keys": [
+                "spykar jeans for men"
+              ],
+              "position": 3.229791841859715
+            },
+            {
+              "clicks": 5307,
+              "ctr": 0.19863757158363587,
+              "impressions": 26717,
+              "keys": [
+                "spykar jacket"
+              ],
+              "position": 2.090878466893738
+            },
+            {
+              "clicks": 4985,
+              "ctr": 0.0744407609831855,
+              "impressions": 66966,
+              "keys": [
+                "spiker"
+              ],
+              "position": 2.043753546575874
+            },
+            {
+              "clicks": 4177,
+              "ctr": 0.00606602777563975,
+              "impressions": 688589,
+              "keys": [
+                "jeans for men"
+              ],
+              "position": 8.7024669287485
+            },
+            {
+              "clicks": 3713,
+              "ctr": 0.11095505617977527,
+              "impressions": 33464,
+              "keys": [
+                "spykar t shirt"
+              ],
+              "position": 2.038399474061678
+            },
+            {
+              "clicks": 3534,
+              "ctr": 0.2037474776592678,
+              "impressions": 17345,
+              "keys": [
+                "spykar jacket for men"
+              ],
+              "position": 1.0170654367252812
+            },
+            {
+              "clicks": 2721,
+              "ctr": 0.3705569930546098,
+              "impressions": 7343,
+              "keys": [
+                "spykar lifestyles pvt ltd"
+              ],
+              "position": 1.2136728857415227
+            },
+            {
+              "clicks": 2544,
+              "ctr": 0.4284992420414351,
+              "impressions": 5937,
+              "keys": [
+                "spykar official website"
+              ],
+              "position": 1.009937678962439
+            },
+            {
+              "clicks": 2526,
+              "ctr": 0.5935150375939849,
+              "impressions": 4256,
+              "keys": [
+                "spykar customer care number"
+              ],
+              "position": 1.1632988721804511
+            },
+            {
+              "clicks": 2289,
+              "ctr": 0.11326076199901039,
+              "impressions": 20210,
+              "keys": [
+                "spykar shirts for men"
+              ],
+              "position": 1.1024740227610095
+            },
+            {
+              "clicks": 2111,
+              "ctr": 0.12576705391718795,
+              "impressions": 16785,
+              "keys": [
+                "spykar jeans for women"
+              ],
+              "position": 4.9098599940423
+            },
+            {
+              "clicks": 1983,
+              "ctr": 0.4243526642413867,
+              "impressions": 4673,
+              "keys": [
+                "www.spykar .com"
+              ],
+              "position": 1.0002139952921036
+            },
+            {
+              "clicks": 1879,
+              "ctr": 0.24065061475409835,
+              "impressions": 7808,
+              "keys": [
+                "spykar india"
+              ],
+              "position": 7.331198770491803
+            },
+            {
+              "clicks": 1780,
+              "ctr": 0.10862931771024045,
+              "impressions": 16386,
+              "keys": [
+                "spykar shirt"
+              ],
+              "position": 2.7672403271085075
+            },
+            {
+              "clicks": 1489,
+              "ctr": 0.42542857142857143,
+              "impressions": 3500,
+              "keys": [
+                "spykar.com"
+              ],
+              "position": 1.0237142857142858
+            },
+            {
+              "clicks": 1351,
+              "ctr": 0.19020132338448542,
+              "impressions": 7103,
+              "keys": [
+                "spykar jeans women"
+              ],
+              "position": 1.0419541038997606
+            },
+            {
+              "clicks": 1245,
+              "ctr": 0.11019649495485927,
+              "impressions": 11298,
+              "keys": [
+                "spykar t shirt for men"
+              ],
+              "position": 1.2168525402726147
+            },
+            {
+              "clicks": 1210,
+              "ctr": 0.22341211225997046,
+              "impressions": 5416,
+              "keys": [
+                "spykar chico jeans"
+              ],
+              "position": 1.0474519940915805
+            },
+            {
+              "clicks": 1168,
+              "ctr": 0.6396495071193866,
+              "impressions": 1826,
+              "keys": [
+                "spykar .com"
+              ],
+              "position": 1.0005476451259583
+            },
+            {
+              "clicks": 1163,
+              "ctr": 0.03537965441713312,
+              "impressions": 32872,
+              "keys": [
+                "spikar"
+              ],
+              "position": 2.329459722560234
+            },
+            {
+              "clicks": 1154,
+              "ctr": 0.06537873208316809,
+              "impressions": 17651,
+              "keys": [
+                "spykar watch"
+              ],
+              "position": 4.890431137046059
+            },
+            {
+              "clicks": 1065,
+              "ctr": 0.004531683488502715,
+              "impressions": 235012,
+              "keys": [
+                "white jeans for men"
+              ],
+              "position": 6.705661838544414
+            },
+            {
+              "clicks": 1062,
+              "ctr": 0.11142587346553352,
+              "impressions": 9531,
+              "keys": [
+                "spykar cargo pants"
+              ],
+              "position": 4.444339523659637
+            },
+            {
+              "clicks": 1016,
+              "ctr": 0.18994204524210132,
+              "impressions": 5349,
+              "keys": [
+                "spykar bootcut jeans for men"
+              ],
+              "position": 1.0846887268648346
+            },
+            {
+              "clicks": 972,
+              "ctr": 0.043839076312466176,
+              "impressions": 22172,
+              "keys": [
+                "spykar showroom near me"
+              ],
+              "position": 2.7390402309218835
+            },
+            {
+              "clicks": 959,
+              "ctr": 0.13493738567609398,
+              "impressions": 7107,
+              "keys": [
+                "spykar underwear"
+              ],
+              "position": 1.1049669340087238
+            },
+            {
+              "clicks": 958,
+              "ctr": 0.6113592852584556,
+              "impressions": 1567,
+              "keys": [
+                "spykar. com"
+              ],
+              "position": 1.0082961072112318
+            },
+            {
+              "clicks": 947,
+              "ctr": 0.14951057783391222,
+              "impressions": 6334,
+              "keys": [
+                "spykar bags"
+              ],
+              "position": 1.2388695926744553
+            },
+            {
+              "clicks": 899,
+              "ctr": 0.18361928104575165,
+              "impressions": 4896,
+              "keys": [
+                "spykar kano jeans"
+              ],
+              "position": 1.1068218954248366
+            },
+            {
+              "clicks": 867,
+              "ctr": 0.0868389423076923,
+              "impressions": 9984,
+              "keys": [
+                "spykar t shirts"
+              ],
+              "position": 7.980969551282051
+            },
+            {
+              "clicks": 840,
+              "ctr": 0.1391880695940348,
+              "impressions": 6035,
+              "keys": [
+                "spyker jeans"
+              ],
+              "position": 1.1264291632145815
+            },
+            {
+              "clicks": 795,
+              "ctr": 0.5715312724658519,
+              "impressions": 1391,
+              "keys": [
+                "spykar customer care"
+              ],
+              "position": 1.3393242271746946
+            },
+            {
+              "clicks": 770,
+              "ctr": 0.0615704461858308,
+              "impressions": 12506,
+              "keys": [
+                "spykar perfume"
+              ],
+              "position": 5.606908683831761
+            },
+            {
+              "clicks": 764,
+              "ctr": 0.1580144777662875,
+              "impressions": 4835,
+              "keys": [
+                "spykar brand"
+              ],
+              "position": 1.1617373319544984
+            },
+            {
+              "clicks": 713,
+              "ctr": 0.2487787857641312,
+              "impressions": 2866,
+              "keys": [
+                "spykar online shopping"
+              ],
+              "position": 1.2536636427076064
+            },
+            {
+              "clicks": 703,
+              "ctr": 0.10364145658263306,
+              "impressions": 6783,
+              "keys": [
+                "spykar shirt for men"
+              ],
+              "position": 1.1844316674038036
+            },
+            {
+              "clicks": 692,
+              "ctr": 0.11474050737854419,
+              "impressions": 6031,
+              "keys": [
+                "spkar"
+              ],
+              "position": 1.8625435251202123
+            },
+            {
+              "clicks": 692,
+              "ctr": 0.6497652582159624,
+              "impressions": 1065,
+              "keys": [
+                "spykar login"
+              ],
+              "position": 1.0009389671361502
+            },
+            {
+              "clicks": 684,
+              "ctr": 0.10884786760025461,
+              "impressions": 6284,
+              "keys": [
+                "spykar jackets"
+              ],
+              "position": 10.760821133036282
+            },
+            {
+              "clicks": 676,
+              "ctr": 0.0029972776206226887,
+              "impressions": 225538,
+              "keys": [
+                "check shirt for men"
+              ],
+              "position": 9.549082637959014
+            },
+            {
+              "clicks": 675,
+              "ctr": 0.17049760040414247,
+              "impressions": 3959,
+              "keys": [
+                "spykar bootcut jeans"
+              ],
+              "position": 1.3164940641576155
+            },
+            {
+              "clicks": 653,
+              "ctr": 0.17256871035940805,
+              "impressions": 3784,
+              "keys": [
+                "spykar women jeans"
+              ],
+              "position": 1.0134778012684988
+            },
+            {
+              "clicks": 641,
+              "ctr": 0.20995741893219783,
+              "impressions": 3053,
+              "keys": [
+                "spykar sweatshirt"
+              ],
+              "position": 1.306583688175565
+            },
+            {
+              "clicks": 630,
+              "ctr": 0.052649172655858265,
+              "impressions": 11966,
+              "keys": [
+                "spykar store near me"
+              ],
+              "position": 2.5788901888684608
+            },
+            {
+              "clicks": 624,
+              "ctr": 0.05729501423193462,
+              "impressions": 10891,
+              "keys": [
+                "spykar jeans price"
+              ],
+              "position": 2.119823707648517
+            },
+            {
+              "clicks": 583,
+              "ctr": 0.22800156433320298,
+              "impressions": 2557,
+              "keys": [
+                "spykar online"
+              ],
+              "position": 1.0746969104419242
+            },
+            {
+              "clicks": 583,
+              "ctr": 0.24485510289794205,
+              "impressions": 2381,
+              "keys": [
+                "spykar women"
+              ],
+              "position": 1.4115917681646368
+            },
+            {
+              "clicks": 576,
+              "ctr": 0.2820763956904995,
+              "impressions": 2042,
+              "keys": [
+                "spykar website"
+              ],
+              "position": 1.023016650342801
+            },
+            {
+              "clicks": 574,
+              "ctr": 0.1402394331785976,
+              "impressions": 4093,
+              "keys": [
+                "spykar cargo"
+              ],
+              "position": 1.419496701685805
+            },
+            {
+              "clicks": 549,
+              "ctr": 0.2165680473372781,
+              "impressions": 2535,
+              "keys": [
+                "spykar sweatshirt for men"
+              ],
+              "position": 1.0469428007889547
+            },
+            {
+              "clicks": 523,
+              "ctr": 0.13496774193548386,
+              "impressions": 3875,
+              "keys": [
+                "spykar linen shirts"
+              ],
+              "position": 1.503741935483871
+            },
+            {
+              "clicks": 506,
+              "ctr": 0.1365353480841878,
+              "impressions": 3706,
+              "keys": [
+                "spykar polo t shirt"
+              ],
+              "position": 1.0372369131138695
+            },
+            {
+              "clicks": 506,
+              "ctr": 0.5405982905982906,
+              "impressions": 936,
+              "keys": [
+                "www spykar.com"
+              ],
+              "position": 1
+            },
+            {
+              "clicks": 477,
+              "ctr": 0.1387434554973822,
+              "impressions": 3438,
+              "keys": [
+                "spykar speaker"
+              ],
+              "position": 1.7524723676556138
+            },
+            {
+              "clicks": 467,
+              "ctr": 0.0021910995378515963,
+              "impressions": 213135,
+              "keys": [
+                "black jeans men"
+              ],
+              "position": 8.311018837825792
+            },
+            {
+              "clicks": 467,
+              "ctr": 0.1570803901782711,
+              "impressions": 2973,
+              "keys": [
+                "spykar cargo pants for men"
+              ],
+              "position": 1.141271442986882
+            },
+            {
+              "clicks": 462,
+              "ctr": 0.15560794880431122,
+              "impressions": 2969,
+              "keys": [
+                "spykar bag"
+              ],
+              "position": 1.1232738295722466
+            },
+            {
+              "clicks": 453,
+              "ctr": 0.00916484583636805,
+              "impressions": 49428,
+              "keys": [
+                "mens jeans"
+              ],
+              "position": 8.862163146394757
+            },
+            {
+              "clicks": 441,
+              "ctr": 0.14407056517477948,
+              "impressions": 3061,
+              "keys": [
+                "spykar jeans men"
+              ],
+              "position": 1.1342698464554068
+            },
+            {
+              "clicks": 433,
+              "ctr": 0.17087608524072612,
+              "impressions": 2534,
+              "keys": [
+                "spykar backpack"
+              ],
+              "position": 1.4064719810576163
+            },
+            {
+              "clicks": 427,
+              "ctr": 0.27214786488209053,
+              "impressions": 1569,
+              "keys": [
+                "spykar clothing"
+              ],
+              "position": 1.3103887826641172
+            },
+            {
+              "clicks": 424,
+              "ctr": 0.19047619047619047,
+              "impressions": 2226,
+              "keys": [
+                "spykar ricardo jeans"
+              ],
+              "position": 1.394878706199461
+            },
+            {
+              "clicks": 423,
+              "ctr": 0.005472611069423241,
+              "impressions": 77294,
+              "keys": [
+                "cotton jeans for men"
+              ],
+              "position": 8.294667115170647
+            },
+            {
+              "clicks": 422,
+              "ctr": 0.006485821870437255,
+              "impressions": 65065,
+              "keys": [
+                "denim jeans for men"
+              ],
+              "position": 8.368662107123646
+            },
+            {
+              "clicks": 419,
+              "ctr": 0.21983210912906612,
+              "impressions": 1906,
+              "keys": [
+                "spykar actif shirt"
+              ],
+              "position": 1.2843651626442814
+            },
+            {
+              "clicks": 415,
+              "ctr": 0.2295353982300885,
+              "impressions": 1808,
+              "keys": [
+                "spykar jackets for men"
+              ],
+              "position": 1.1509955752212389
+            },
+            {
+              "clicks": 414,
+              "ctr": 0.10515621031242063,
+              "impressions": 3937,
+              "keys": [
+                "spykar shirts new collection"
+              ],
+              "position": 1.8790957581915164
+            },
+            {
+              "clicks": 409,
+              "ctr": 0.3425460636515913,
+              "impressions": 1194,
+              "keys": [
+                "spykar laptop sleeve"
+              ],
+              "position": 1.020100502512563
+            },
+            {
+              "clicks": 409,
+              "ctr": 0.20358387257341962,
+              "impressions": 2009,
+              "keys": [
+                "spykar wallet"
+              ],
+              "position": 1.554006968641115
+            },
+            {
+              "clicks": 403,
+              "ctr": 0.20508905852417303,
+              "impressions": 1965,
+              "keys": [
+                "spykar chico fit jeans"
+              ],
+              "position": 1.0447837150127226
+            },
+            {
+              "clicks": 401,
+              "ctr": 0.20950888192267503,
+              "impressions": 1914,
+              "keys": [
+                "spykar kano fit jeans"
+              ],
+              "position": 1.2163009404388714
+            },
+            {
+              "clicks": 401,
+              "ctr": 0.04745000591645959,
+              "impressions": 8451,
+              "keys": [
+                "underjeans by spykar"
+              ],
+              "position": 8.869837889007218
+            },
+            {
+              "clicks": 395,
+              "ctr": 0.09811227024341779,
+              "impressions": 4026,
+              "keys": [
+                "spykar white shirt"
+              ],
+              "position": 1.2382016890213612
+            },
+            {
+              "clicks": 393,
+              "ctr": 0.005601322653288105,
+              "impressions": 70162,
+              "keys": [
+                "men jeans"
+              ],
+              "position": 9.012699181893332
+            },
+            {
+              "clicks": 389,
+              "ctr": 0.25145442792501616,
+              "impressions": 1547,
+              "keys": [
+                "spykar offers"
+              ],
+              "position": 5.664511958629606
+            },
+            {
+              "clicks": 382,
+              "ctr": 0.20158311345646437,
+              "impressions": 1895,
+              "keys": [
+                "spykar hoodies"
+              ],
+              "position": 1.5044854881266492
+            },
+            {
+              "clicks": 382,
+              "ctr": 0.17434961204929256,
+              "impressions": 2191,
+              "keys": [
+                "spykar rover jeans"
+              ],
+              "position": 1.299406663623916
+            },
+            {
+              "clicks": 382,
+              "ctr": 0.11050043390222737,
+              "impressions": 3457,
+              "keys": [
+                "spykar straight fit jeans"
+              ],
+              "position": 1.4171246745733295
+            },
+            {
+              "clicks": 381,
+              "ctr": 0.248046875,
+              "impressions": 1536,
+              "keys": [
+                "spaykar"
+              ],
+              "position": 1.0319010416666667
+            },
+            {
+              "clicks": 375,
+              "ctr": 0.191131498470948,
+              "impressions": 1962,
+              "keys": [
+                "spykar duffle bag"
+              ],
+              "position": 1.7609582059123343
+            },
+            {
+              "clicks": 374,
+              "ctr": 0.3648780487804878,
+              "impressions": 1025,
+              "keys": [
+                "spykar app"
+              ],
+              "position": 1.006829268292683
+            },
+            {
+              "clicks": 374,
+              "ctr": 0.16946080652469417,
+              "impressions": 2207,
+              "keys": [
+                "spykar store"
+              ],
+              "position": 1.9202537381060263
+            },
+            {
+              "clicks": 372,
+              "ctr": 0.09725490196078432,
+              "impressions": 3825,
+              "keys": [
+                "spykar black jeans"
+              ],
+              "position": 1.5518954248366013
+            },
+            {
+              "clicks": 368,
+              "ctr": 0.0037194635078179484,
+              "impressions": 98939,
+              "keys": [
+                "slim fit jeans for men"
+              ],
+              "position": 8.968141986476516
+            },
+            {
+              "clicks": 368,
+              "ctr": 0.4144144144144144,
+              "impressions": 888,
+              "keys": [
+                "www.spykar jeans.com"
+              ],
+              "position": 1.2376126126126126
+            },
+            {
+              "clicks": 363,
+              "ctr": 0.0016937685183024986,
+              "impressions": 214315,
+              "keys": [
+                "light blue jeans"
+              ],
+              "position": 5.243790681940135
+            },
+            {
+              "clicks": 359,
+              "ctr": 0.02078147612156295,
+              "impressions": 17275,
+              "keys": [
+                "ankle length jeans for men"
+              ],
+              "position": 5.6333429811866855
+            },
+            {
+              "clicks": 357,
+              "ctr": 0.20411663807890223,
+              "impressions": 1749,
+              "keys": [
+                "spykar winter jacket for men"
+              ],
+              "position": 1.0165809033733562
+            },
+            {
+              "clicks": 356,
+              "ctr": 0.118390422347855,
+              "impressions": 3007,
+              "keys": [
+                "spykar t shirts for men"
+              ],
+              "position": 1.1190555370801463
+            },
+            {
+              "clicks": 346,
+              "ctr": 0.04914074705297543,
+              "impressions": 7041,
+              "keys": [
+                "men's spykar jeans"
+              ],
+              "position": 1.987927851157506
+            },
+            {
+              "clicks": 342,
+              "ctr": 0.10461914958702967,
+              "impressions": 3269,
+              "keys": [
+                "spykar t-shirt"
+              ],
+              "position": 1.0360966656469868
+            },
+            {
+              "clicks": 336,
+              "ctr": 0.008647980850899545,
+              "impressions": 38853,
+              "keys": [
+                "branded jeans for men"
+              ],
+              "position": 11.03819524875814
+            },
+            {
+              "clicks": 336,
+              "ctr": 0.4280254777070064,
+              "impressions": 785,
+              "keys": [
+                "spykar clean"
+              ],
+              "position": 1.002547770700637
+            },
+            {
+              "clicks": 333,
+              "ctr": 0.14158163265306123,
+              "impressions": 2352,
+              "keys": [
+                "spakar"
+              ],
+              "position": 1.197704081632653
+            },
+            {
+              "clicks": 320,
+              "ctr": 0.13822894168466524,
+              "impressions": 2315,
+              "keys": [
+                "spykar track pants"
+              ],
+              "position": 1.5386609071274298
+            },
+            {
+              "clicks": 318,
+              "ctr": 0.0015304280867242583,
+              "impressions": 207785,
+              "keys": [
+                "blue jeans for men"
+              ],
+              "position": 4.519926847462521
+            }
+          ]
+        }
+      },
+      "tool_slug": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "index": 0
+    },
+    {
+      "response": {
+        "successful": true,
+        "data": {
+          "responseAggregationType": "byPage",
+          "rows": [
+            {
+              "clicks": 175988,
+              "ctr": 0.06878252492070906,
+              "impressions": 2558615,
+              "keys": [
+                "https://spykar.com/"
+              ],
+              "position": 6.861203815345411
+            },
+            {
+              "clicks": 77500,
+              "ctr": 0.013753962028416573,
+              "impressions": 5634740,
+              "keys": [
+                "https://spykar.com/collections/men-jeans"
+              ],
+              "position": 8.513633991985433
+            },
+            {
+              "clicks": 19403,
+              "ctr": 0.013364190196746943,
+              "impressions": 1451865,
+              "keys": [
+                "https://spykar.com/collections/men-shirts"
+              ],
+              "position": 12.421237511752127
+            },
+            {
+              "clicks": 13720,
+              "ctr": 0.027181557748923238,
+              "impressions": 504754,
+              "keys": [
+                "https://spykar.com/collections/men-jackets"
+              ],
+              "position": 9.853065057433918
+            },
+            {
+              "clicks": 10284,
+              "ctr": 0.008373958649711381,
+              "impressions": 1228093,
+              "keys": [
+                "https://spykar.com/collections/men-t-shirts"
+              ],
+              "position": 9.06392105483868
+            },
+            {
+              "clicks": 6543,
+              "ctr": 0.00982600625332264,
+              "impressions": 665886,
+              "keys": [
+                "https://spykar.com/collections/men"
+              ],
+              "position": 2.6300117437519335
+            },
+            {
+              "clicks": 5585,
+              "ctr": 0.004148536164687601,
+              "impressions": 1346258,
+              "keys": [
+                "https://spykar.com/collections/women-jeans"
+              ],
+              "position": 10.955185410225974
+            },
+            {
+              "clicks": 4752,
+              "ctr": 0.003289057033162582,
+              "impressions": 1444791,
+              "keys": [
+                "https://spykar.com/collections/check-shirt-for-men"
+              ],
+              "position": 10.557605217640475
+            },
+            {
+              "clicks": 3822,
+              "ctr": 0.2784902360827747,
+              "impressions": 13724,
+              "keys": [
+                "https://spykar.com/pages/need-help"
+              ],
+              "position": 3.8891722529874673
+            },
+            {
+              "clicks": 3253,
+              "ctr": 0.0050942586624321525,
+              "impressions": 638562,
+              "keys": [
+                "https://spykar.com/collections/women"
+              ],
+              "position": 2.258299115825871
+            },
+            {
+              "clicks": 3005,
+              "ctr": 0.02196942557811392,
+              "impressions": 136781,
+              "keys": [
+                "https://spykar.com/collections/cargo"
+              ],
+              "position": 8.340639416293198
+            },
+            {
+              "clicks": 2476,
+              "ctr": 0.019033562412557846,
+              "impressions": 130086,
+              "keys": [
+                "https://spykar.com/collections/backpacks"
+              ],
+              "position": 15.830358378303584
+            },
+            {
+              "clicks": 2410,
+              "ctr": 0.014496676591777197,
+              "impressions": 166245,
+              "keys": [
+                "https://spykar.com/collections/chico"
+              ],
+              "position": 8.579716683208517
+            },
+            {
+              "clicks": 2260,
+              "ctr": 0.003805738919574296,
+              "impressions": 593840,
+              "keys": [
+                "https://spykar.com/collections/white-jeans-for-men"
+              ],
+              "position": 7.717408729624141
+            },
+            {
+              "clicks": 2162,
+              "ctr": 0.005679355464081098,
+              "impressions": 380677,
+              "keys": [
+                "https://spykar.com/collections/sale"
+              ],
+              "position": 1.9214058112257897
+            },
+            {
+              "clicks": 2136,
+              "ctr": 0.002432940372458568,
+              "impressions": 877950,
+              "keys": [
+                "https://spykar.com/collections/white-casual-shirt"
+              ],
+              "position": 10.756704823737115
+            },
+            {
+              "clicks": 1950,
+              "ctr": 0.0027366692629939163,
+              "impressions": 712545,
+              "keys": [
+                "https://spykar.com/collections/light-blue-jeans-men"
+              ],
+              "position": 7.998321509518697
+            },
+            {
+              "clicks": 1807,
+              "ctr": 0.024137101944860014,
+              "impressions": 74864,
+              "keys": [
+                "https://spykar.com/a/storelocator"
+              ],
+              "position": 6.81788309467835
+            },
+            {
+              "clicks": 1705,
+              "ctr": 0.0053417129823989775,
+              "impressions": 319186,
+              "keys": [
+                "https://spykar.com/collections/men-trousers-joggers"
+              ],
+              "position": 10.215852199031286
+            },
+            {
+              "clicks": 1701,
+              "ctr": 0.007504466944609886,
+              "impressions": 226665,
+              "keys": [
+                "https://spykar.com/collections/mens-bootcut"
+              ],
+              "position": 10.41972514503783
+            },
+            {
+              "clicks": 1653,
+              "ctr": 0.005689151376857235,
+              "impressions": 290553,
+              "keys": [
+                "https://spykar.com/blogs/blog/lets-take-a-closer-look-at-high-mid-and-low-rise-jeans-for-men"
+              ],
+              "position": 5.946367788320892
+            },
+            {
+              "clicks": 1593,
+              "ctr": 0.004893828798938288,
+              "impressions": 325512,
+              "keys": [
+                "https://spykar.com/collections/polos"
+              ],
+              "position": 12.464637248396372
+            },
+            {
+              "clicks": 1584,
+              "ctr": 0.05121407093666139,
+              "impressions": 30929,
+              "keys": [
+                "https://spykar.com/pages/contact"
+              ],
+              "position": 3.8735814284328622
+            },
+            {
+              "clicks": 1581,
+              "ctr": 0.005273392549206656,
+              "impressions": 299807,
+              "keys": [
+                "https://spykar.com/collections/men-trackpants"
+              ],
+              "position": 17.723822325696197
+            },
+            {
+              "clicks": 1556,
+              "ctr": 0.0031184302030787484,
+              "impressions": 498969,
+              "keys": [
+                "https://spykar.com/collections/women-jackets"
+              ],
+              "position": 11.4774545112021
+            },
+            {
+              "clicks": 1522,
+              "ctr": 0.015308329058668517,
+              "impressions": 99423,
+              "keys": [
+                "https://spykar.com/pages/about-us"
+              ],
+              "position": 4.655723524737737
+            },
+            {
+              "clicks": 1491,
+              "ctr": 0.029212382445141065,
+              "impressions": 51040,
+              "keys": [
+                "https://spykar.com/collections/sweatshirts-hoodies"
+              ],
+              "position": 13.725450626959248
+            },
+            {
+              "clicks": 1467,
+              "ctr": 0.0028688877242113004,
+              "impressions": 511348,
+              "keys": [
+                "https://spykar.com/collections/men-sale"
+              ],
+              "position": 7.177677432981062
+            },
+            {
+              "clicks": 1434,
+              "ctr": 0.0036503411057937072,
+              "impressions": 392840,
+              "keys": [
+                "https://spykar.com/collections/red-shirt-for-men"
+              ],
+              "position": 8.346319112106709
+            },
+            {
+              "clicks": 1407,
+              "ctr": 0.00878167519660467,
+              "impressions": 160220,
+              "keys": [
+                "https://spykar.com/collections/kano-fit"
+              ],
+              "position": 9.356278866558482
+            },
+            {
+              "clicks": 1344,
+              "ctr": 0.0020322775268513155,
+              "impressions": 661327,
+              "keys": [
+                "https://spykar.com/collections/black-shirt-for-men"
+              ],
+              "position": 10.447411038714584
+            },
+            {
+              "clicks": 1344,
+              "ctr": 0.004285427315135147,
+              "impressions": 313621,
+              "keys": [
+                "https://spykar.com/collections/cargo-pant"
+              ],
+              "position": 12.430462245831752
+            },
+            {
+              "clicks": 1307,
+              "ctr": 0.014319521440936083,
+              "impressions": 91274,
+              "keys": [
+                "https://spykar.com/collections/men-innerwear"
+              ],
+              "position": 12.243585248811272
+            },
+            {
+              "clicks": 1274,
+              "ctr": 0.007756704922524278,
+              "impressions": 164245,
+              "keys": [
+                "https://spykar.com/collections/ankle-length-jeans-for-men"
+              ],
+              "position": 10.442558373162045
+            },
+            {
+              "clicks": 1233,
+              "ctr": 0.037606368377710676,
+              "impressions": 32787,
+              "keys": [
+                "https://spykar.com/collections/kano"
+              ],
+              "position": 13.426724006465978
+            },
+            {
+              "clicks": 1215,
+              "ctr": 0.01393524412483226,
+              "impressions": 87189,
+              "keys": [
+                "https://spykar.com/collections/winter-wear"
+              ],
+              "position": 7.437635481540102
+            },
+            {
+              "clicks": 1188,
+              "ctr": 0.0023824612348689648,
+              "impressions": 498644,
+              "keys": [
+                "https://spykar.com/collections/striped-shirt-for-men"
+              ],
+              "position": 10.932256279028726
+            },
+            {
+              "clicks": 1178,
+              "ctr": 0.018590998043052837,
+              "impressions": 63364,
+              "keys": [
+                "https://spykar.com/products/uaspkras002black"
+              ],
+              "position": 7.156334827346758
+            },
+            {
+              "clicks": 1175,
+              "ctr": 0.02863199961011745,
+              "impressions": 41038,
+              "keys": [
+                "https://spykar.com/collections/accessories"
+              ],
+              "position": 6.804790681807106
+            },
+            {
+              "clicks": 1159,
+              "ctr": 0.0180825337389812,
+              "impressions": 64095,
+              "keys": [
+                "https://spykar.com/pages/spykar-in-store-offers"
+              ],
+              "position": 7.008456197831344
+            },
+            {
+              "clicks": 1135,
+              "ctr": 0.004141398661616715,
+              "impressions": 274062,
+              "keys": [
+                "https://spykar.com/collections/slim-fit-shirts"
+              ],
+              "position": 8.846261065014485
+            },
+            {
+              "clicks": 1066,
+              "ctr": 0.0030983688512201644,
+              "impressions": 344052,
+              "keys": [
+                "https://spykar.com/collections/skinny-fit"
+              ],
+              "position": 8.41418448374083
+            },
+            {
+              "clicks": 1052,
+              "ctr": 0.0027923618816059798,
+              "impressions": 376742,
+              "keys": [
+                "https://spykar.com/collections/men-slim-fit-jeans"
+              ],
+              "position": 9.79700431595097
+            },
+            {
+              "clicks": 1031,
+              "ctr": 0.0018306953090874223,
+              "impressions": 563174,
+              "keys": [
+                "https://spykar.com/collections/blue-shirt-for-men"
+              ],
+              "position": 9.877561819260123
+            },
+            {
+              "clicks": 1025,
+              "ctr": 0.0054603472248118175,
+              "impressions": 187717,
+              "keys": [
+                "https://spykar.com/collections/belts"
+              ],
+              "position": 16.729598278259296
+            },
+            {
+              "clicks": 1024,
+              "ctr": 0.005581263523935663,
+              "impressions": 183471,
+              "keys": [
+                "https://spykar.com/collections/men-jeans/42"
+              ],
+              "position": 5.29465692125731
+            },
+            {
+              "clicks": 996,
+              "ctr": 0.003361208415169984,
+              "impressions": 296322,
+              "keys": [
+                "https://spykar.com/collections/yellow-shirt-men"
+              ],
+              "position": 9.316213443483777
+            },
+            {
+              "clicks": 983,
+              "ctr": 0.023731923420487192,
+              "impressions": 41421,
+              "keys": [
+                "https://spykar.com/collections/men-sweatshirts"
+              ],
+              "position": 9.74689167330581
+            },
+            {
+              "clicks": 969,
+              "ctr": 0.002748140963465891,
+              "impressions": 352602,
+              "keys": [
+                "https://spykar.com/collections/ripped-jeans-men"
+              ],
+              "position": 9.693952388245103
+            },
+            {
+              "clicks": 950,
+              "ctr": 0.007577328632730869,
+              "impressions": 125374,
+              "keys": [
+                "https://spykar.com/collections/beanie-cap"
+              ],
+              "position": 13.904876609185317
+            }
+          ]
+        }
+      },
+      "tool_slug": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "index": 1
+    }
+  ],
+  "total_count": 2,
+  "success_count": 2,
+  "error_count": 0
+}

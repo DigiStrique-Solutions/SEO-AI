@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": null,
+  "counts": {"items": 6, "pass": 0, "fail": 0, "not_applicable": 6},
+  "rows": [
+    {
+      "item_id": "lcp",
+      "section_id": "loading",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No usable CrUX p75 or Lighthouse lab LCP was returned after the PageSpeed/CrUX runner failed.",
+      "next_action": "Restore PageSpeed/CrUX API reachability and run mobile field plus lab checks.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    },
+    {
+      "item_id": "ttfb",
+      "section_id": "loading",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No Lighthouse or PageSpeed lab TTFB measurement is available.",
+      "next_action": "Run a mobile Lighthouse/PageSpeed audit and compare TTFB with the 0.8s threshold.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    },
+    {
+      "item_id": "inp",
+      "section_id": "interactivity",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No CrUX p75 INP record is available.",
+      "next_action": "Query CrUX for the canonical URL and origin once API reachability is restored.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    },
+    {
+      "item_id": "render-blocking",
+      "section_id": "interactivity",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No Lighthouse critical-path diagnostics were available.",
+      "next_action": "Run Lighthouse and review render-blocking CSS/JS savings and request chains.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    },
+    {
+      "item_id": "cls",
+      "section_id": "stability",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No CrUX p75 CLS record is available.",
+      "next_action": "Query URL- and origin-level CrUX CLS once API reachability is restored.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    },
+    {
+      "item_id": "image-optimization",
+      "section_id": "stability",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Crawl evidence shows responsive Shopify CDN widths, but the required lab transfer-size, modern-format and lazy-load diagnostics were unavailable.",
+      "next_action": "Run Lighthouse image diagnostics and a deterministic DOM inventory before grading this item.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#performance"
+    }
+  ]
+}

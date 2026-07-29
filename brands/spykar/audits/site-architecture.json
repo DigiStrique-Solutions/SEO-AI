@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "site-architecture",
+  "audit_ref": "audit-library/site-architecture.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": 1.0,
+  "counts": {"items": 7, "pass": 5, "fail": 0, "not_applicable": 2},
+  "rows": [
+    {
+      "item_id": "robots-txt",
+      "section_id": "crawlability",
+      "status": "pass",
+      "result": "robots.txt returned 200, allows the default user-agent at the root, blocks private/transactional crawl traps, and does not block key product, collection, page or blog templates.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#crawlability.robots_txt"
+    },
+    {
+      "item_id": "sitemap",
+      "section_id": "crawlability",
+      "status": "pass",
+      "result": "The XML sitemap index returned 200, is declared in robots.txt, is submitted in GSC, is not pending, and reports zero errors and warnings. Its 0 indexed counter conflicts with passing URL inspections and should be monitored as a reporting anomaly.",
+      "next_action": "Recheck GSC sitemap indexed counters and child sitemap detail; investigate if the zero count persists.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#search_console.sitemap"
+    },
+    {
+      "item_id": "url-structure",
+      "section_id": "structure",
+      "status": "pass",
+      "result": "The sampled Shopify URLs use lowercase, hyphenated, stable template paths for pages, collections and blogs; query variants are excluded in robots rules.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#scope"
+    },
+    {
+      "item_id": "internal-linking",
+      "section_id": "structure",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. The shared crawl verified navigation to key templates, but its normalized payload does not retain a complete link graph, so orphan status and click depth for every important page cannot be proven.",
+      "next_action": "Run a complete crawl with source-target edges and calculate click depth and orphan candidates.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#scope.prior_crawl"
+    },
+    {
+      "item_id": "redirects",
+      "section_id": "structure",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No complete redirect-chain and internal broken-link export was available from the normalized crawl.",
+      "next_action": "Run a redirect and broken-link crawl across sitemap URLs and internal links.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#scope.prior_crawl"
+    },
+    {
+      "item_id": "canonical-consistency",
+      "section_id": "indexation",
+      "status": "pass",
+      "result": "Four representative templates use one HTTPS non-www host; their user canonicals match Google-selected canonicals in GSC.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#search_console.url_inspections"
+    },
+    {
+      "item_id": "indexation-coverage",
+      "section_id": "indexation",
+      "status": "pass",
+      "result": "GSC URL Inspection reports “Submitted and indexed,” indexing allowed, robots allowed and successful fetches for the homepage, women collection, About page and blog index.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#search_console.url_inspections"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "source": "https://spykar.com/blogs/blog",
+  "provider": "firecrawl",
+  "status_code": 200,
+  "scrape_id": "019fadb2-94fd-732e-b62a-72f758a9c78d",
+  "posts": [
+    {"title":"From Action to Fashion: Vidyut Jammwal's Favourite Way to Wear Relaxed-Fit Denim","url":"https://spykar.com/blogs/blog/relaxed-fit-denim-style-inspired-by-vidyut-jammwal","published_date":"2026-07-02"},
+    {"title":"Travel-Friendly Fashion Essentials for Your Monsoon Getaways","url":"https://spykar.com/blogs/blog/monsoon-travel-style-guide","published_date":"2026-07-02"},
+    {"title":"Must-Have Women's Tops for Everyday Fashion","url":"https://spykar.com/blogs/blog/essential-womens-tops-for-everyday-wear","published_date":"2026-06-29"},
+    {"title":"Straight Fit vs Slim Fit Jeans: Which Style Is Right for You?","url":"https://spykar.com/blogs/blog/straight-vs-slim-fit-jeans-guide","published_date":"2026-06-29"},
+    {"title":"Best Lightweight Denim Styles for Summer-to-Monsoon Weather","url":"https://spykar.com/blogs/blog/fashion-lightweight-denim-styles-summer-monsoon","published_date":"2026-06-23"},
+    {"title":"Women’s Monsoon Fashion Guide: Comfortable & Trendy Rainy-Day Looks","url":"https://spykar.com/blogs/blog/monsoon-fashion-for-women","published_date":"2026-06-22"},
+    {"title":"Monsoon Fashion Essentials for Men: Stylish Outfits for Rainy Days","url":"https://spykar.com/blogs/blog/stylish-monsoon-outfits-for-men","published_date":"2026-06-19"},
+    {"title":"How to Style Cargo Pants for Casual & Streetwear Looks","url":"https://spykar.com/blogs/blog/how-to-style-cargo-pants-casual-streetwear-looks","published_date":"2026-06-18"},
+    {"title":"Women’s Linen Outfits for Everyday Summer Fashion","url":"https://spykar.com/blogs/blog/womens-linen-summer-outfits-guide","published_date":"2026-05-30"},
+    {"title":"Linen Fashion Trends: Comfortable & Breathable Summer Outfits","url":"https://spykar.com/blogs/blog/summer-linen-fashion-trends-2026","published_date":"2026-05-28"}
+  ]
+}

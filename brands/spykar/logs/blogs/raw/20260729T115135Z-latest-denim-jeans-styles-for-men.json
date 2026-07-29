@@ -1,0 +1,21 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "provider": "firecrawl",
+  "source": "https://spykar.com/blogs/blog/latest-denim-jeans-styles-for-men",
+  "status_code": 200,
+  "scrape_id": "019fadb7-03e5-7385-961c-41baccb74021",
+  "record": {
+    "title": "Trending Jeans for Men in 2026: The Styles Worth Buying",
+    "meta_description": "Discover trending jeans for men in 2026, including slim fit, relaxed fit, and denim jeans styles worth adding to your wardrobe from Spykar.",
+    "published_date": "2026-05-05",
+    "category": "Fashion",
+    "primary_keyword": "denim trends",
+    "summary": "Men's jeans in 2026 feature more relaxed fits and versatile styles, centering comfort without dropping fashion relevance. The article covers utility-led shapes and vintage washes as current buying considerations.",
+    "key_points": [
+      "Relaxed-fit jeans are highlighted for comfort.",
+      "Cargo denim adds utility and a streetwear direction.",
+      "Wide-leg denim trousers reflect a Gen Z-led silhouette shift.",
+      "Vintage washes are returning in men's fashion."
+    ]
+  }
+}

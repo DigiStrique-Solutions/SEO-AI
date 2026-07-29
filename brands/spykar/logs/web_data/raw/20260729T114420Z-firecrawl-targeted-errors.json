@@ -1,0 +1,12 @@
+{
+  "provider": "firecrawl",
+  "attempts_per_url": 2,
+  "status": "error",
+  "error": "ERR_TUNNEL_CONNECTION_FAILED",
+  "message": "Firecrawl encountered an internal proxy error while establishing the tunnel.",
+  "urls": [
+    "https://spykar.com/pages/about-us",
+    "https://spykar.com/blogs/blog/spykar-spring-summer-2026-collection-roots-of-now"
+  ],
+  "recovery": "Rendered-browser fallback completed successfully and is logged separately."
+}

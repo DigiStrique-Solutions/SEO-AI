@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "run_date": "2026-07-29",
+  "target_url": "https://spykar.com/",
+  "audit_status": "partial",
+  "overall_score": 0.6,
+  "overall_score_method": "Mean of the five numeric audit scores; core-web-vitals is excluded because all six items are not_checked_blocked and its score is null.",
+  "totals": {"audits": 6, "scored_audits": 5, "items": 38, "pass": 16, "fail": 4, "not_applicable": 18},
+  "audits": [
+    {"audit_id": "generic-on-page", "title": "Generic On-Page SEO", "score": 1.0, "items": 7, "pass": 5, "fail": 0, "not_applicable": 2, "file": "generic-on-page.json"},
+    {"audit_id": "content-seo", "title": "Content SEO", "score": 0.85, "items": 7, "pass": 5, "fail": 1, "not_applicable": 1, "file": "content-seo.json"},
+    {"audit_id": "site-architecture", "title": "Site Architecture & Technical SEO", "score": 1.0, "items": 7, "pass": 5, "fail": 0, "not_applicable": 2, "file": "site-architecture.json"},
+    {"audit_id": "core-web-vitals", "title": "Core Web Vitals & Performance", "score": null, "items": 6, "pass": 0, "fail": 0, "not_applicable": 6, "file": "core-web-vitals.json"},
+    {"audit_id": "structured-data", "title": "Structured Data & Schema", "score": 0.0, "items": 5, "pass": 0, "fail": 1, "not_applicable": 4, "file": "structured-data.json"},
+    {"audit_id": "ai-seo-aeo-geo", "title": "AI SEO / AEO / GEO", "score": 0.17, "items": 6, "pass": 1, "fail": 2, "not_applicable": 3, "file": "ai-seo-aeo-geo.json"}
+  ],
+  "top_fixes": [
+    {
+      "audit_id": "core-web-vitals",
+      "item_id": "lcp",
+      "severity": "high",
+      "action": "Restore PageSpeed/CrUX access and run mobile field plus lab measurements; performance is currently ungraded."
+    },
+    {
+      "audit_id": "structured-data",
+      "item_id": "org-website-schema",
+      "severity": "high",
+      "action": "Inspect rendered homepage JSON-LD and add valid Organization and WebSite entities if absent."
+    },
+    {
+      "audit_id": "ai-seo-aeo-geo",
+      "item_id": "direct-answers",
+      "severity": "high",
+      "action": "Publish concise, source-backed answers for fit, sizing, care, shipping and returns on relevant pages."
+    },
+    {
+      "audit_id": "structured-data",
+      "item_id": "content-type-schema",
+      "severity": "medium",
+      "action": "Correct template schema coverage; the crawl exposed Product on a collection template and no content-type markup on the blog index."
+    },
+    {
+      "audit_id": "content-seo",
+      "item_id": "author-eeat",
+      "severity": "medium",
+      "action": "Support fit, craftsmanship, scale and sustainability claims with named, source-backed proof."
+    },
+    {
+      "audit_id": "site-architecture",
+      "item_id": "internal-linking",
+      "severity": "medium",
+      "action": "Run a full source-target link graph to verify click depth and orphan status."
+    },
+    {
+      "audit_id": "generic-on-page",
+      "item_id": "image-alt",
+      "severity": "medium",
+      "action": "Run a deterministic DOM image inventory because two extraction attempts returned conflicting alt coverage."
+    },
+    {
+      "audit_id": "ai-seo-aeo-geo",
+      "item_id": "ai-crawler-access",
+      "severity": "low",
+      "action": "Maintain the current robots and llms.txt access and keep agent-facing store details accurate."
+    }
+  ],
+  "blockers": [
+    "PageSpeed/CrUX API calls failed after retry; no field or lab CWV metrics are available.",
+    "No callable Lighthouse provider was available.",
+    "No fresh rendered-browser session was available for schema validity, rich-result eligibility or mobile-usability claims.",
+    "The normalized crawl does not retain a complete site-wide metadata, image-alt, redirect or internal-link graph.",
+    "Keyword Planner remains unavailable because GOOGLE_ADS_PLATFORM_ID is unset, so volume and difficulty are blank; Phase 2 intent and URL mapping evidence is otherwise available.",
+    "AI answer-engine mention benchmarking was not run."
+  ],
+  "evidence_inputs": [
+    "logs/audits/raw/20260729T115500Z-shared-site-checks.json",
+    "logs/audits/raw/20260729T115500Z-audit-run.json",
+    "logs/audits/raw/20260729T120500Z-keyword-reconciliation.json",
+    "logs/web_data/raw/20260729T114420Z-brand-dna-crawl.json",
+    "logs/web_data/raw/20260729T114420Z-rendered-brand-pages.json",
+    "keywords/research-summary.json",
+    "keywords/clusters.json",
+    "keywords/universe.csv",
+    "keywords/keywords.csv"
+  ]
+}

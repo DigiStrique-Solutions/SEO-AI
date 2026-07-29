@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "brand_name": "Spykar",
+  "website_url": "https://spykar.com/",
+  "generated_at": "2026-07-29T11:49:00Z",
+  "target_country": "India",
+  "target_country_source": "task_input",
+  "language": "en-IN",
+  "default_source": "brand-DNA seeds enriched with exact rows from a bounded Google Search Console India query sample",
+  "difficulty_scale": "0-100; unmeasured because Keyword Planner was unavailable",
+  "date_range": {
+    "start_date": "2025-04-01",
+    "end_date": "2026-07-26",
+    "search_type": "web",
+    "data_state": "final"
+  },
+  "counts": {
+    "deduped_universe_rows": 44,
+    "existing_keywords": 0,
+    "keyword_planner_rows": 0,
+    "gsc_query_sample_rows": 100,
+    "gsc_page_sample_rows": 50,
+    "gsc_rows_used_in_universe": 38,
+    "seed_only_rows": 6,
+    "prioritized_rows": 28,
+    "clusters": 9
+  },
+  "sources": {
+    "keyword_planner": {
+      "tool": "google_ads_generate_keyword_ideas",
+      "status": "blocked",
+      "row_count": 0,
+      "log_ref": "logs/keywords/raw/20260729T114650Z-keyword-planner-blocked.json"
+    },
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "status": "connected",
+      "query_sample_row_count": 100,
+      "page_sample_row_count": 50,
+      "country_filter": "ind",
+      "log_ref": "logs/keywords/raw/20260729T114815Z-gsc-query-page-export.json"
+    },
+    "brand_seed": {
+      "status": "used",
+      "row_count": 6,
+      "log_ref": "logs/keywords/raw/20260729T114900Z-keyword-selection.json"
+    }
+  },
+  "gsc_property": "https://spykar.com/",
+  "gsc_permission_level": "siteOwner",
+  "gsc_available_properties": [
+    "https://spykar.com/",
+    "sc-domain:spykar.com"
+  ],
+  "gsc_property_note": "The URL-prefix property was used because it has siteOwner access; the domain property is present as siteUnverifiedUser.",
+  "gsc_totals": {
+    "clicks": 630201,
+    "impressions": 60438703,
+    "ctr": 0.010427109926564771,
+    "position": 13.48211125576272
+  },
+  "blockers": [
+    "keyword_planner_unavailable: GOOGLE_ADS_PLATFORM_ID is unset; volume and difficulty remain blank",
+    "gsc_sample_bounded: saved research uses the top 100 India queries and top 50 India pages sorted by clicks, not a complete paginated export"
+  ],
+  "next_actions": [
+    "Set GOOGLE_ADS_PLATFORM_ID and rerun the permitted google_ads_generate_keyword_ideas operation for India to populate volume and difficulty.",
+    "If exhaustive query coverage is required, run and persist paginated GSC exports beyond the current bounded samples."
+  ]
+}
