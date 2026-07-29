@@ -1,0 +1,103 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-29T06:00:12+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 8.1,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-29T11:43:00+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text, excluding YAML frontmatter and the editorial-sources list, was checked in the live ZeroGPT web interface. ZeroGPT labelled it \"Your Text is Human written\". The result is retained as a weak editorial signal, not proof of authorship.",
+      "score": 8.6,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-29T05:56:07+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "ready",
+    "target": "Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Slow living is Cottonworld's central editorial lens.",
+        "Cottonworld writing begins with life and practical needs, then introduces clothing as support.",
+        "Natural fibres, simple design, lasting quality and repeat wear are core themes."
+      ],
+      "source_id": "cottonworld-brand-context-travel-20260728",
+      "source_ref": "brands/cottonworld/knowledge.md and brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Requested title: Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India.",
+        "Requested terms: travel clothing breathable, travel outfits india, travel packing list india, capsule wardrobe for travel, comfortable travel clothes and airport outfits india."
+      ],
+      "source_id": "user-travel-blog-brief-20260728",
+      "source_ref": "user brief in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld describes cotton as soft, breathable, naturally versatile and light on the skin.",
+        "Cottonworld describes linen as lightweight and airy.",
+        "The guide links cotton with movement and lasting wear."
+      ],
+      "source_id": "cottonworld-fabric-guide-travel-20260728",
+      "source_ref": "https://cottonworld.net/pages/fabrics",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The men's Travel collection feed returned regular-fit cotton, cotton-blend, linen, linen-cotton and Tencel-linen tops.",
+        "It included full-length regular-fit linen and cotton-linen pants with drawstring or elasticated-waist details.",
+        "A cotton-linen regular-fit jacket was present."
+      ],
+      "source_id": "cottonworld-men-travel-feed-20260728",
+      "source_ref": "https://cottonworld.net/collections/travel-for-men/products.json?limit=50",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The women's Travel feed returned cotton-lycra culottes with an elasticated waist and side pockets.",
+        "It included cotton, linen and linen-cotton dresses in regular or boxy fits, several with side pockets.",
+        "Cotton blouses were present."
+      ],
+      "source_id": "cottonworld-women-travel-feed-20260728",
+      "source_ref": "https://cottonworld.net/collections/travel-for-women/products.json?limit=50",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live India benchmark compared three relevant organic packing and travel-clothing blogs.",
+        "The ranking set ranged from a 950-word capsule guide to a long-form reference article.",
+        "The chosen benchmark is a practical item list with capsule guidance at approximately 1400-1650 words."
+      ],
+      "source_id": "travel-blog-serp-benchmark-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/two-blogs-serp-benchmark-20260728.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "CottonWorks describes cotton as a natural fibre associated with breathability and comfort.",
+        "No proprietary-finish claims or statistics are used in the article."
+      ],
+      "source_id": "cottonworks-comfort-source-20260728",
+      "source_ref": "https://cottonworks.com/news/innovative-technologies-add-top-performance-to-cottons-many-benefits/",
+      "source_type": "serp"
+    }
+  ]
+}
