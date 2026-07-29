@@ -48,6 +48,15 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-29T12:57:42+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after rewriting the introduction with a more immediate, everyday opening inspired by the editorial strengths of Cottonworld Blogs 1 and 2. ZeroGPT labelled it \"Your Text is Human written\". The result is a weak editorial signal, not proof of authorship.",
+      "score": 13.8,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -135,6 +144,16 @@
         "Use fuller paragraphs and apply the top-three SERP benchmark through tone and depth rather than copying its heading density."
       ],
       "source_id": "user-paragraph-led-editorial-feedback-20260729",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Use the immediate everyday moments and conversational tension of Cottonworld Blogs 1 and 2 as high-level inspiration.",
+        "Rewrite only the introduction so it feels more interesting while preserving the paragraph-led body and original SEO scope.",
+        "Do not copy wording from the earlier blogs."
+      ],
+      "source_id": "user-blog-3-4-introduction-feedback-20260729",
       "source_ref": "user feedback in Codex task",
       "source_type": "human_context"
     }

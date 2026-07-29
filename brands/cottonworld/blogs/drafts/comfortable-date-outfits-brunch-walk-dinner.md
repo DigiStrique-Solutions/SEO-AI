@@ -14,9 +14,9 @@ secondary_keywords:
 
 # Comfortable Date Outfits for Brunch, a Walk or Dinner
 
-Date dressing is often judged at the moment of arrival. The more revealing moment comes later, once you have been seated for an hour or the short walk has become the main plan. Clothing that still feels familiar then has done more for the evening than an impressive outfit that needs constant attention.
+The outfit may look settled in the mirror and become less convincing ten minutes into the date. A collar asks to be adjusted, the waistband makes a long lunch feel longer, or the shoes quietly rule out the walk that sounded like a good idea. The most comfortable date outfits are chosen for what might happen after the first hello, not only for the arrival.
 
-When deciding what to wear on a date, begin with a shape already trusted on other days and adjust its formality to the setting. Natural fabrics and familiar fits make that easier. They help the outfit settle into the background while the conversation takes up the evening.
+Start with a shape you already trust, then let fabric and fit carry it from brunch to a walk or dinner. Cotton and linen bring ease to time spent outdoors, while familiar cuts keep attention where it belongs: on the person across the table and whatever the day becomes. Dressing well, in this sense, is simply one less thing to think about.
 
 ## Start with fabric and fit
 
