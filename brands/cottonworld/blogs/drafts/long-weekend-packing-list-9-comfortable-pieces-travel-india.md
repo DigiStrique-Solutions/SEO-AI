@@ -14,15 +14,15 @@ secondary_keywords:
 
 # Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India
 
-The extra outfit usually enters the suitcase at the last minute. It has no place in the weekend yet, but it joins the bag with two other "just in case" pieces and is often unpacked unworn. A better long-weekend wardrobe begins with the plans that are real: the journey out, the day you expect to walk most, one evening and the journey home.
+The extra outfit usually enters the suitcase at the last minute. It has no place in the weekend yet, but it joins the bag with two other "just in case" pieces and is often unpacked unworn. A better long-weekend wardrobe begins with the plans already in the diary. Choose clothes for the outward journey, the day with the most walking, one evening plan and the trip home. Once those four moments are covered, most extra outfits lose their reason to be in the bag.
 
-Nine comfortable pieces can cover those moments when each earns more than one outing. A T-shirt returns under a shirt, the travel trouser appears again at dinner, and a light layer moves between the cabin and the evening. This is slow living in a suitcase: fewer decisions on arrival, more wear from what came along and more attention for the place beyond the hotel room.
+Nine pieces are enough when most of them are worn more than once. The T-shirt can sit under a shirt, the travel trouser can return for dinner, and the light layer can come out again in a cool cabin or evening. Packing this way leaves fewer outfit decisions after arrival and more time for the weekend itself.
 
 ## Pack for the route you have planned
 
 The phrase "travel outfits India" covers too much ground to guide a real suitcase. A humid weekend by the sea, two days in a city and a quiet stay in the hills may all sit within the same search, but the useful wardrobe begins with the actual route. Check the forecast, the amount of walking and whether any places on the itinerary call for more coverage. Shorts may belong in one bag and have no purpose in another. A light overshirt may be enough for a warm destination, while proper rainwear or a warmer layer needs to be added separately when conditions require it.
 
-Use the longest travel leg as the fitting-room test. A waistband has to remain easy while seated, a shirt needs enough room across the back to work as a layer, and a pocket should hold a small essential without pulling the garment out of line. Cottonworld's [fabric guide](https://cottonworld.net/pages/fabrics) calls cotton soft, breathable and versatile. It describes linen as light and airy. These fabrics suit warm travel when the cut also leaves the body room to sit, reach and move.
+Think of the longest part of the journey as the real test for every outfit. A waistband has to remain easy while seated, a shirt needs enough room across the back to work as a layer, and a pocket should hold a small essential without pulling the garment out of line. Cottonworld's [fabric guide](https://cottonworld.net/pages/fabrics) calls cotton soft, breathable and versatile. It describes linen as light and airy. These fabrics suit warm travel when the cut also leaves the body room to sit, reach and move.
 
 ## Begin with the clothes worn in transit
 

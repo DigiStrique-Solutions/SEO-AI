@@ -57,6 +57,15 @@
       "source": "live_web_ui",
       "status": "pass",
       "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-29T16:17:59+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after applying all three Google Doc review comments. ZeroGPT labelled it \"Your Text is Most Likely Human written\". The result is a weak editorial signal, not proof of authorship.",
+      "score": 19.3,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
     }
   ],
   "metadata": {
@@ -155,6 +164,16 @@
       ],
       "source_id": "user-blog-3-4-introduction-feedback-20260729",
       "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Comment AAACEJqjsO4 requested a fuller explanation of the four real trip moments used to plan the wardrobe.",
+        "Comment AAACEJqjsO8 requested simpler wording for the second introduction paragraph because it sounded like a riddle.",
+        "Comment AAACEJqjsPA supplied the replacement: Think of the longest part of the journey as the real test for every outfit."
+      ],
+      "source_id": "travel-blog-google-doc-comments-20260729",
+      "source_ref": "Google Doc comments on document 14pw86bRZ9RcGbn3KTwthn-P9eezl9s5PSE8VYqsjLUk",
       "source_type": "human_context"
     }
   ]
