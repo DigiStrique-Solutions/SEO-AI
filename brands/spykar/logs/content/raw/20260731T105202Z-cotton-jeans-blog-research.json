@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "spykar-cotton-jeans-blog-20260731",
+  "accessed_at": "2026-07-31T10:52:02Z",
+  "target": "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather",
+  "market": "India",
+  "inputs": {
+    "topic": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+    "keywords": [
+      "cotton jeans for men",
+      "cotton jeans",
+      "jeans for men",
+      "best jeans for men",
+      "mens jeans regular fit",
+      "men's relaxed fit jeans"
+    ],
+    "style_guide": "D:/Chinmay/Spykar Style Guide.docx"
+  },
+  "style_guide_review": {
+    "method": "Complete structural extraction with python-docx",
+    "paragraph_count": 192,
+    "table_count": 0,
+    "render_status": "blocked",
+    "render_blocker": "LibreOffice/soffice is unavailable in the bundled workspace runtime",
+    "applied_rules": [
+      "Youthful, trend-aware, relatable and practical voice",
+      "Indian English and short mobile-friendly paragraphs",
+      "Keyword-led title and natural unbolded keyword use",
+      "Five to eight thematic sections with a practical styling section",
+      "Subtle Spykar integration and soft CTA",
+      "Concise FAQs"
+    ]
+  },
+  "external_evidence": [
+    {
+      "provider": "firecrawl_search",
+      "job_id": "019fb7c8-63e0-7183-b936-54535e76e29a",
+      "query": "site:spykar.com cotton jeans men Spykar",
+      "facts_used": "Official Spykar pages show men's cotton denim in regular and slim fits; a bounded live product and collection set was used without price or availability claims."
+    },
+    {
+      "provider": "firecrawl_scrape",
+      "scrape_id": "019fb7c8-d542-774e-8b68-4a9b0dab2fa0",
+      "url": "https://spykar.com/products/mdnact2bc349darkblue",
+      "facts_used": "Cotton; regular fit; high rise; tapered length; clean look; light fade; machine wash."
+    },
+    {
+      "provider": "firecrawl_search",
+      "job_id": "019fb7c9-39e4-766e-a5ea-8900519c2a6d",
+      "query": "cotton fabric moisture absorption breathability humid weather official textile source",
+      "facts_used": "Peer-reviewed evidence shows cotton is hydrophilic and absorbs water, while yarn and fabric construction affect moisture transport."
+    },
+    {
+      "provider": "firecrawl_search",
+      "job_id": "019fb7c9-b9e3-725e-889d-9c5492127920",
+      "query": "site:levi.com how to wash jeans air dry official denim care",
+      "facts_used": "Qualified denim-care guidance: follow the garment label, turn inside out, use cold water and a gentle cycle when permitted, and air-dry fully in shade with airflow."
+    },
+    {
+      "provider": "firecrawl_search",
+      "job_id": "019fb7ca-0371-7066-a7da-696041ad76dc",
+      "query": "cotton jeans for men humid weather India",
+      "facts_used": "The current result set is heavily transactional and fit-led; the draft differentiates with fabric-construction, humidity, styling and drying guidance."
+    }
+  ],
+  "local_evidence": [
+    "brands/spykar/context.md",
+    "brands/spykar/knowledge.md",
+    "brands/spykar/keywords/universe.csv",
+    "brands/spykar/blogs/summary.md",
+    "brands/spykar/blogs/references/fashion-lightweight-denim-styles-summer-monsoon.md",
+    "brands/spykar/blogs/references/stylish-monsoon-outfits-for-men.md"
+  ],
+  "outputs": {
+    "draft": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md",
+    "authenticity": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.authenticity.json",
+    "verify_report": "brands/spykar/logs/content/raw/cotton-jeans-for-men-verify-20260731.json",
+    "zerogpt_report": "brands/spykar/logs/content/raw/cotton-jeans-for-men-zerogpt-20260731.json",
+    "write_report": "brands/spykar/logs/content/raw/cotton-jeans-for-men-write-20260731.json"
+  },
+  "gate_result": {
+    "local_ai_pattern_risk": 7.06,
+    "threshold": 20,
+    "status": "pass",
+    "zerogpt_status": "local_fallback",
+    "zerogpt_blocker": "403 Not enough credits"
+  },
+  "limitations": [
+    "The source DOCX could not be rendered because LibreOffice is unavailable; complete paragraph extraction was used as the documented fallback.",
+    "Cotton content alone is not treated as proof that denim is lightweight, breathable or quick-drying.",
+    "No price, discount, stock or universal comfort claims are included."
+  ]
+}

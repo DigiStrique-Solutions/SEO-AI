@@ -1,0 +1,160 @@
+{
+  "claims": [
+    {
+      "claim_id": "cotton-moisture-behaviour",
+      "claim_type": "product_fact",
+      "criteria": "The article states only that cotton fibres absorb moisture and that fabric construction affects moisture behaviour; it does not claim that all cotton denim is lightweight, breathable or quick-drying.",
+      "source_ids": [
+        "cotton-moisture-study"
+      ],
+      "statement": "Cotton is hydrophilic and absorbs water, while yarn and fabric construction influence wetting and spreading; therefore fibre label alone does not determine humid-weather comfort."
+    },
+    {
+      "claim_id": "spykar-cotton-denim-options",
+      "claim_type": "product_fact",
+      "criteria": "Only live product and collection details checked on 2026-07-31 are described. Prices, discounts and availability are omitted because they change.",
+      "source_ids": [
+        "spykar-men-jeans-collection",
+        "spykar-kano-regular-cotton",
+        "spykar-kano-slim-cotton"
+      ],
+      "statement": "Spykar's current site includes men's cotton jeans in regular and slim fits, including dark-blue high-rise tapered regular-fit and mid-blue low-rise narrow slim-fit examples."
+    },
+    {
+      "claim_id": "fit-led-comfort-guidance",
+      "claim_type": "comparison",
+      "criteria": "Fit advice is framed as a practical starting point, not a universal comfort promise. Room through the leg, daily movement and personal preference determine the recommendation.",
+      "source_ids": [
+        "spykar-style-guide-docx",
+        "spykar-brand-knowledge",
+        "spykar-lightweight-denim-blog",
+        "spykar-mens-monsoon-blog"
+      ],
+      "statement": "Regular and relaxed silhouettes can provide more room for movement than close fits; shoppers should assess fabric weight, construction and fit together."
+    },
+    {
+      "claim_id": "best-jeans-selection-criteria",
+      "claim_type": "best_top",
+      "criteria": "The requested keyword 'best jeans for men' is used only inside a question and is immediately defined by transparent criteria: routine, fabric construction, weight, fit, rise, movement and drying conditions. No product or brand is declared universally best.",
+      "source_ids": [
+        "spykar-style-guide-docx",
+        "spykar-brand-knowledge",
+        "spykar-men-jeans-collection",
+        "cotton-moisture-study"
+      ],
+      "statement": "The best jeans for a humid-weather routine are the pair that meets the reader's stated fit, movement, fabric and care criteria; the article makes no universal superiority claim."
+    },
+    {
+      "claim_id": "denim-care-guidance",
+      "claim_type": "product_fact",
+      "criteria": "Care recommendations are limited to the verified Spykar machine-wash instruction and broadly applicable denim-care guidance from Levi's; the article tells readers to follow the garment label first.",
+      "source_ids": [
+        "spykar-kano-regular-cotton",
+        "levis-denim-care-guide"
+      ],
+      "statement": "Check the garment label, turn jeans inside out, use cold water and a gentle cycle when permitted, then air-dry fully in a shaded, well-ventilated place rather than a humid enclosed area."
+    },
+    {
+      "claim_id": "seo-keyword-opportunity",
+      "claim_type": "performance",
+      "criteria": "GSC metrics are used for editorial planning only and are not stated in customer-facing copy.",
+      "source_ids": [
+        "spykar-gsc-keywords"
+      ],
+      "statement": "The bounded India GSC export identifies cotton jeans for men, jeans for men and mens jeans as relevant transactional terms mapped to the men's jeans collection."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-31T10:51:44+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.06,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-31T10:53:34+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.06,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-31T10:49:08+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blog copy should be youthful, trend-aware, relatable and practical; use an 80-120 word introduction, five to eight thematic sections, natural unbolded keywords, a styling section, subtle brand integration, Indian English, concise FAQs and an 80-120 word conclusion with a soft CTA.",
+      "source_id": "spykar-style-guide-docx",
+      "source_ref": "D:/Chinmay/Spykar Style Guide.docx (read structurally 2026-07-31; visual rendering blocked because LibreOffice is unavailable)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused, denim-led youth fashion brand. Content should use fit, movement, comfort and self-expression language without universal comfort, best-product or unsupported sustainability claims.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The bounded India GSC keyword universe maps cotton jeans for men to the men's jeans collection with 423 clicks, 77,294 impressions and average position 8.29. Jeans for men and mens jeans are also collection-mapped opportunity terms. Metrics are planning evidence and are omitted from customer-facing copy.",
+      "source_id": "spykar-gsc-keywords",
+      "source_ref": "brands/spykar/keywords/universe.csv (data through 2026-07-26)",
+      "source_type": "gsc"
+    },
+    {
+      "extracted_facts": "The live men's jeans collection contains multiple fits and colours and is the commercial internal-link target for this article.",
+      "source_id": "spykar-men-jeans-collection",
+      "source_ref": "https://spykar.com/collections/men-jeans (checked 2026-07-31)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product: Men Kano Jeans Regular Fit Dark Blue; cotton; regular fit; high rise; tapered length; clean look with light fade; machine-wash instruction. Price, promotion and availability are intentionally omitted.",
+      "source_id": "spykar-kano-regular-cotton",
+      "source_ref": "https://spykar.com/products/mdnact2bc349darkblue (checked 2026-07-31; Firecrawl scrape 019fb7c8-d542-774e-8b68-4a9b0dab2fa0)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live indexed product page describes men's mid-blue cotton Kano jeans with a slim fit, narrow length, mild distressing and low rise. Price, promotion and availability are intentionally omitted.",
+      "source_id": "spykar-kano-slim-cotton",
+      "source_ref": "https://spykar.com/products/mdnact2bc285midblue (checked 2026-07-31; Firecrawl search 019fb7c8-63e0-7183-b936-54535e76e29a)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Peer-reviewed textile study states that cotton fibres are hydrophilic and absorb water; moisture transport also varies with yarn linear density and fabric construction. This supports a qualified explanation, not a blanket quick-dry or breathability claim.",
+      "source_id": "cotton-moisture-study",
+      "source_ref": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9504572/ (Materials 2022; checked 2026-07-31)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Denim-care guidance: turn jeans inside out, use cold water and a gentle cycle, use mild detergent, and air-dry in a shaded, ventilated place; humid drying areas can retain moisture and contribute to musty odours.",
+      "source_id": "levis-denim-care-guide",
+      "source_ref": "https://www.levi.com/US/en_US/blog/article/the-definitive-guide-to-denim (checked 2026-07-31; Firecrawl search 019fb7c9-b9e3-725e-889d-9c5492127920)",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": "Existing Spykar article already covers lightweight denim, slim/relaxed/wide-leg seasonal options and humidity; the new article should focus specifically on evaluating cotton denim by construction, fit, styling and care rather than repeat a broad lightweight-denim guide.",
+      "source_id": "spykar-lightweight-denim-blog",
+      "source_ref": "brands/spykar/blogs/references/fashion-lightweight-denim-styles-summer-monsoon.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Existing Spykar men's monsoon article covers breathable materials, relaxed silhouettes, darker colours and light layers. The new article should add cotton-specific selection and care detail rather than duplicate the full outfit guide.",
+      "source_id": "spykar-mens-monsoon-blog",
+      "source_ref": "brands/spykar/blogs/references/stylish-monsoon-outfits-for-men.md",
+      "source_type": "human_context"
+    }
+  ]
+}
