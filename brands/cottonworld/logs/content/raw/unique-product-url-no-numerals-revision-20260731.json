@@ -1,0 +1,36 @@
+{
+  "run_id": "cottonworld-unique-url-no-numerals-revision-20260731",
+  "generated_at": "2026-07-31T13:17:30+05:30",
+  "supersedes_run_id": "cottonworld-unique-url-h1-generation-20260731",
+  "source": {
+    "product_export": "C:/Users/User/Downloads/CW-active-products.xlsx",
+    "existing_url_sheet": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+    "source_constraint": "Product descriptors were derived from product titles, structured product attributes, and meaningful alphabetic words in the existing product handle."
+  },
+  "output": {
+    "google_sheet": "https://docs.google.com/spreadsheets/d/16uxLynhfhZy66t7JPckp35O7TsJbZT_Axdm3HHkyShg/edit",
+    "sheet_name": "URL Comparison",
+    "generated_rows": 5276,
+    "generated_payload_sha256": "221C90016BD941476ABE4717344E3092D2B21B8A2639A4646A0410A4D8BF5BE2"
+  },
+  "rules": {
+    "allowed_slug_characters": "lowercase a-z and hyphens only",
+    "semantic_order": "gender + material/composition + distinguishing print/neck/sleeve/opening/pocket/legacy descriptor + fit + product type + colour",
+    "minimal_specificity": "A descriptive attribute is added only when it helps separate otherwise identical base URLs.",
+    "indistinguishable_fallback": "A stable alphabetic design reference is appended only after all available product-specific descriptors still leave a collision.",
+    "h1": "Existing source-backed H1 tags remain unchanged."
+  },
+  "qa": {
+    "records": 5276,
+    "existing_google_urls": 919,
+    "unique_proposed_urls": 5276,
+    "proposed_url_duplicates": 0,
+    "collisions_with_existing_google_urls": 0,
+    "urls_containing_numerals": 0,
+    "invalid_url_format": 0,
+    "missing_h1": 0,
+    "rows_using_semantic_features": 3597,
+    "rows_using_alphabetic_design_suffix": 1679
+  },
+  "authenticity_note": "Detector scoring was not run because URL slugs are structured metadata fragments rather than prose. The applicable authenticity gate was factual source coverage; no new product claim was introduced without source data."
+}
