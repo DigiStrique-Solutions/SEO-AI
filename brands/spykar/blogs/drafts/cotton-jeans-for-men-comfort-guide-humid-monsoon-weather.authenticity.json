@@ -66,6 +66,16 @@
   ],
   "detector_notes": [
     {
+      "checked_at": "2026-07-31T12:00:00+00:00",
+      "max_score": 15.0,
+      "note": "User-supplied detector screenshot reported 67.6% AI/GPT for the previous draft. This external result triggered a full source-backed rewrite and is preserved as a weak editorial signal, not proof of authorship.",
+      "score": 67.6,
+      "source": "user_reported_screenshot",
+      "source_ref": "C:/Users/CHINMA~1/AppData/Local/Temp/codex-clipboard-6f2c6db9-996d-4616-86b1-e6ee7a17c237.png",
+      "status": "fail",
+      "tool": "external detector shown in user screenshot"
+    },
+    {
       "checked_at": "2026-07-31T10:51:44+00:00",
       "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
       "max_score": 20.0,
@@ -81,6 +91,26 @@
       "max_score": 20.0,
       "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
       "score": 7.06,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-31T12:05:08+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 15.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-31T12:09:22+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 15.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"

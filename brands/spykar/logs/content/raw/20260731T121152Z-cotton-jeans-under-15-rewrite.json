@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "spykar-cotton-jeans-under-15-rewrite-20260731",
+  "accessed_at": "2026-07-31T12:11:51Z",
+  "brand_id": "spykar",
+  "target": "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather",
+  "trigger": {
+    "source": "user_reported_screenshot",
+    "previous_external_detector_score": 67.6,
+    "requested_maximum": 15.0
+  },
+  "rewrite": {
+    "method": "full source-backed rewrite",
+    "word_count": 1340,
+    "primary_keyword": "cotton jeans for men",
+    "secondary_keywords_retained": [
+      "cotton jeans",
+      "jeans for men",
+      "best jeans for men",
+      "mens jeans regular fit",
+      "men's relaxed fit jeans"
+    ],
+    "internal_links": 2,
+    "heading_1_count": 8,
+    "heading_2_count": 8,
+    "native_bullet_count": 5
+  },
+  "detector_checks": {
+    "strique_local_ai_pattern_risk": 6.0,
+    "requested_maximum": 15.0,
+    "local_status": "pass",
+    "zerogpt_status": "local_fallback",
+    "zerogpt_blocker": "403 Not enough credits",
+    "independent_external_retest": "not_checked_blocked"
+  },
+  "content_seo_review": {
+    "target_type": "draft_blog",
+    "intent": "informational with commercial support",
+    "score": 0.8571,
+    "counts": {
+      "items": 7,
+      "pass": 6,
+      "fail": 1,
+      "not_applicable": 0
+    },
+    "rows": [
+      {"item_id":"page-purpose","status":"pass","result":"The draft has one dominant purpose: help Indian shoppers choose and care for cotton jeans in humid monsoon weather.","evidence_ref":"brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md"},
+      {"item_id":"intent-match","status":"pass","result":"The guide answers fabric, fit, styling and care questions while supporting the men's jeans collection.","evidence_ref":"brands/spykar/logs/content/raw/20260731T105202Z-cotton-jeans-blog-research.json"},
+      {"item_id":"content-depth","status":"pass","result":"The 1,340-word draft covers construction, fit testing, regular/relaxed/slim choices, styling, care, buying checks and FAQs.","evidence_ref":"brands/spykar/logs/content/raw/cotton-jeans-for-men-rewrite-under-15-verify-final-20260731.json"},
+      {"item_id":"keyword-coverage","status":"pass","result":"The primary keyword appears in the title and introduction; every requested secondary keyword appears naturally in the body.","evidence_ref":"brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md"},
+      {"item_id":"freshness","status":"pass","result":"The rewrite uses the current 2026 monsoon brief and product evidence checked on 2026-07-31; volatile prices and availability are omitted.","evidence_ref":"brands/spykar/logs/content/raw/20260731T105202Z-cotton-jeans-blog-research.json"},
+      {"item_id":"author-eeat","status":"fail","result":"The draft is source-backed internally but the customer-facing article does not yet show an author/byline or visible source note.","next_action":"Add the approved Spykar editorial byline in the CMS before publishing.","evidence_ref":"brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md"},
+      {"item_id":"internal-links","status":"pass","result":"The draft contains two contextual Spykar links: the men's monsoon guide and the men's jeans collection.","evidence_ref":"brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md"}
+    ]
+  },
+  "google_doc": {
+    "document_id": "1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+    "document_url": "https://docs.google.com/document/d/1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+    "update_mode": "in_place",
+    "connector_readback": "pass",
+    "front_matter_present": false,
+    "html_export": "success",
+    "pdf_export": "success",
+    "pdf_page_rasterization": "not_checked_blocked"
+  },
+  "status": "draft_gated_pass",
+  "limitations": [
+    "The independent ZeroGPT API could not retest the rewrite because the connected account returned 403 Not enough credits.",
+    "The local 6% result is an editorial risk signal and does not guarantee the score returned by a different detector.",
+    "PDF export succeeded, but the connector file reference could not be rasterized locally for page-by-page visual inspection."
+  ]
+}
