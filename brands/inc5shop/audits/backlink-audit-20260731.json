@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "backlink-audit-20260731",
+  "audit_type": "custom_off_page_seo",
+  "brand_id": "inc5shop",
+  "target": "https://inc5shop.com/",
+  "run_date": "2026-07-31",
+  "overall_status": "partial",
+  "summary": "Inc.5 has verified entity/profile links and one relevant editorial link, but five strong media mentions are unlinked and the verified sample is concentrated on the homepage. A profile-wide quality, toxicity, anchor, velocity, lost-link and competitor-gap assessment is blocked without a row-level backlink export and Search Console access.",
+  "directional_snapshot": {
+    "source": "HypeStat public aggregate",
+    "backlinks": 11499,
+    "referring_domains": 1270,
+    "authority_domain_score": 28,
+    "confidence": "low",
+    "usage": "directional_only"
+  },
+  "checks": [
+    {
+      "item_id": "backlink-baseline",
+      "status": "not_checked_blocked",
+      "severity": "high",
+      "evidence": "Public aggregate only; no licensed row-level export.",
+      "result": "Counts are directional and cannot be reproduced or segmented.",
+      "blocker": "No backlink-index export or Search Console Links export.",
+      "next_action": "Export source URL, target URL, anchor, follow status, first/last seen, authority, traffic, country, language and live/lost status."
+    },
+    {
+      "item_id": "editorial-link-reclamation",
+      "status": "fail",
+      "severity": "high",
+      "evidence": "Firecrawl inspection of five accessible media articles.",
+      "result": "ETRetail, IMAGES Business of Fashion, YourStory, FashionNetwork India and In Fashion Business mention Inc.5 without linking to inc5shop.com.",
+      "blocker": null,
+      "next_action": "Run a five-publication contextual link-reclamation campaign."
+    },
+    {
+      "item_id": "entity-profile-links",
+      "status": "pass",
+      "severity": "medium",
+      "evidence": "13 directly verified page-level links.",
+      "result": "Links exist across company profiles, review/domain-analysis pages, store listings and one editorial article.",
+      "blocker": null,
+      "next_action": "Refresh editable profiles and normalize destinations to https://inc5shop.com."
+    },
+    {
+      "item_id": "canonical-consolidation",
+      "status": "pass",
+      "severity": "medium",
+      "evidence": "Firecrawl final-URL checks.",
+      "result": "www/http variants and inc5shoes.co.in resolved to https://inc5shop.com/ with a final 200 response.",
+      "blocker": null,
+      "next_action": "Keep permanent, single-hop redirects and update editable links to the canonical URL."
+    },
+    {
+      "item_id": "anchor-distribution",
+      "status": "not_checked_blocked",
+      "severity": "medium",
+      "evidence": "Manual sample only.",
+      "result": "The sample is mainly branded, naked-domain and generic Website anchors; no exact-match manipulation was observed.",
+      "blocker": "No complete anchor export.",
+      "next_action": "Measure branded, naked, generic, topical, exact-match, image and empty-anchor shares."
+    },
+    {
+      "item_id": "deep-link-coverage",
+      "status": "fail",
+      "severity": "medium",
+      "evidence": "Verified 13-link sample.",
+      "result": "Nearly all verified links point to the homepage; one confirmed link points to the Atesber collection.",
+      "blocker": null,
+      "next_action": "Earn relevant deep links to priority category, fit/comfort, occasion, handbag, store and guide pages."
+    },
+    {
+      "item_id": "spam-and-manual-action-risk",
+      "status": "not_checked_blocked",
+      "severity": "high",
+      "evidence": "Search snippets plus Google disavow/manual-action guidance.",
+      "result": "Irrelevant Justdial hotel-page signals were found, but live links, scale and manual-action status are unknown.",
+      "blocker": "No complete backlink export and no Search Console Manual Actions access.",
+      "next_action": "Validate live links and Search Console status; do not disavow from snippets or toxicity scores alone."
+    },
+    {
+      "item_id": "lost-links-and-link-velocity",
+      "status": "not_checked_blocked",
+      "severity": "medium",
+      "evidence": null,
+      "result": "Not measured.",
+      "blocker": "No historical backlink export.",
+      "next_action": "Establish a monthly new/lost referring-domain baseline."
+    },
+    {
+      "item_id": "competitor-link-gap",
+      "status": "not_checked_blocked",
+      "severity": "medium",
+      "evidence": null,
+      "result": "Not measured.",
+      "blocker": "No same-source competitor backlink dataset.",
+      "next_action": "Compare Inc.5 with the approved competitor set using one backlink index and date."
+    }
+  ],
+  "priority_actions": [
+    ["P0", "Build the auditable baseline from a licensed backlink export plus Search Console Links, Manual Actions and Security Issues.", "SEO"],
+    ["P1", "Reclaim links from the five confirmed unlinked media articles.", "PR / Communications"],
+    ["P1", "Normalize editable profile destinations to https://inc5shop.com.", "Brand operations / SEO"],
+    ["P2", "Earn deep links to durable category, fit/comfort, occasion, handbag and store-location pages.", "Content SEO / Digital PR"],
+    ["P2", "Monitor suspicious domains quarterly; do not disavow without live evidence and Search Console justification.", "SEO"]
+  ],
+  "recommended_90_day_targets": [
+    "Recover at least 3 of the 5 confirmed unlinked media mentions.",
+    "Earn at least 10 net-new relevant Indian fashion, retail, lifestyle, mall or business referring domains.",
+    "Route at least 40 percent of new earned links to useful deep pages.",
+    "Buy zero links and avoid scaled directory or guest-post packages.",
+    "Re-run the audit with the same data source for comparability."
+  ],
+  "evidence_ref": "../logs/audits/raw/2026-07-31-backlink-audit-evidence.json",
+  "google_doc": {
+    "document_id": "1_uexisw1BLrnFMasw16vtKK1eGGqC71GNpBKf8QyLsQ",
+    "url": "https://docs.google.com/document/d/1_uexisw1BLrnFMasw16vtKK1eGGqC71GNpBKf8QyLsQ",
+    "status": "content_write_blocked_pending_explicit_user_approval",
+    "blocker": "Connected Drive account ownership is not established by trusted evidence."
+  }
+}

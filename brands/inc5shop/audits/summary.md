@@ -1,5 +1,7 @@
 # SEO Audit Summary — Inc.5 (inc5shop.com)
 
+> **Latest off-page review (2026-07-31):** A partial backlink audit verified 13 page-level links, one asset hotlink and five high-relevance unlinked media mentions. Canonical/www/legacy-domain consolidation passes. Profile-wide quality, anchors, velocity, lost links, manual-action status and competitor gaps remain blocked without a row-level backlink export and Search Console access. See `backlink-audit-20260731.json`.
+
 > **Latest technical crawl (2026-07-23):** Screaming Frog found 11 verified issue groups, led by 351 sitemap collections (88 conservative review candidates), 1,117 images over 100 KB, missing image attributes, a broken app JavaScript asset and indexable `/cart`. The crawl is **partial** because 712 HTML requests were throttled with HTTP 429. See `technical-screamingfrog-20260723.md`.
 
 **Run date:** 2026-07-13 · **Target:** https://inc5shop.com · **Overall score: 0.75** (avg of 5 scored audits)

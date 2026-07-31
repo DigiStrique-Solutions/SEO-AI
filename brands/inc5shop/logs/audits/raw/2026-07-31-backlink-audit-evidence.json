@@ -1,0 +1,88 @@
+{
+  "run_id": "inc5shop-backlink-audit-20260731",
+  "captured_at": "2026-07-31T13:55:00+05:30",
+  "target": "https://inc5shop.com/",
+  "market": "India",
+  "method": [
+    "Live web search for exact-domain mentions and brand coverage",
+    "Firecrawl extraction to verify actual outbound hyperlinks",
+    "Firecrawl final-URL checks for www, http, canonical and legacy-domain variants",
+    "Public HypeStat aggregate used only as a directional estimate"
+  ],
+  "third_party_snapshot": {
+    "source": "https://hypestat.com/info/inc5shop.com",
+    "reported_backlinks": 11499,
+    "reported_referring_domains": 1270,
+    "reported_referring_ips": 1400,
+    "reported_authority_domain_score": 28,
+    "reported_dominant_country": "United States",
+    "limitations": "No reproducible row-level export, follow/nofollow split, anchor distribution, first/last-seen dates, live/lost history or disclosed methodology."
+  },
+  "confirmed_page_links": [
+    ["https://www.zoominfo.com/c/inc5-shoes-pvt-ltd/5000001821", "https://www.inc5shop.com/", "company profile"],
+    ["https://inc5.pissedconsumer.com/review.html", "https://www.inc5shop.com/", "review profile"],
+    ["https://www.scam-detector.com/validator/inc5shop-com-review/", "https://www.inc5shop.com/", "automated site review"],
+    ["https://hypestat.com/info/inc5shop.com", "https://www.inc5shop.com/", "automated site overview"],
+    ["https://www.tryrankly.com/ucp-validator/store/inc5shop.com", "https://www.inc5shop.com/", "validator profile"],
+    ["https://www.ipqualityscore.com/domain-reputation/inc5shop.com", "https://www.inc5shop.com/", "domain profile"],
+    ["https://snapshot.one21.ai/organization/inc5-shoes", "https://inc5shop.com/", "company profile"],
+    ["https://pitchbook.com/profiles/company/538944-94", "http://www.inc5shop.com/", "company profile"],
+    ["https://www.ambitionbox.com/overview/inc5-shoes-overview", "https://www.inc5shop.com/", "company profile"],
+    ["https://www.passionateinmarketing.com/inc-5-celebrates-25-years-of-fashion-excellence-blending-legacy-with-innovation-in-footwear-and-handbags/", "https://inc5shop.com/", "editorial body"],
+    ["https://www.mappls.com/9tl4e7", "http://inc5shop.com/", "local store profile"],
+    ["https://www.citycentrepatna.com/store.php?pname=Inc-5-Atesber", "https://inc5shop.com/collections/atesber-men", "mall store page"],
+    ["https://www.emis.com/php/company-profile/IN/Inc5_Shoes_Private_Limited_en_6186167.html", "http://www.inc5shop.com", "templated company profile"]
+  ],
+  "asset_hotlink": {
+    "source_url": "https://laamaison.com/the-ultimate-guide-to-prom-shoes-for-men-styles-tips-and-how-to-choose/",
+    "target_url": "https://inc5shop.com/cdn/shop/files/1908_BLACK_1_036cd361-2c9a-492b-a338-5ae612716d31.jpg?v=1757567815",
+    "note": "Shopify CDN image link, not a link to an indexable commercial or editorial page."
+  },
+  "confirmed_unlinked_editorial_mentions": [
+    ["ETRetail", "https://retail.economictimes.indiatimes.com/news/apparel-fashion/footwear/inc-5-targets-100-store-milestone-by-april-eyes-120-stores-by-next-fiscal/125827835"],
+    ["IMAGES Business of Fashion", "https://www.imagesbof.in/inside-inc-5s-fashion-forward-footwear-strategy-and-expansion/"],
+    ["YourStory", "https://yourstory.com/smbstory/inc5-women-footwear-comfortable-stylish"],
+    ["FashionNetwork India", "https://in.fashionnetwork.com/news/Footwear-brand-inc-5-raises-10-million-plans-to-take-store-count-to-100%2C1570257.html"],
+    ["In Fashion Business", "https://infashionbusiness.com/home/news_details/3223"]
+  ],
+  "blocked_signals": [
+    {
+      "source": "Justdial hotel category pages",
+      "signal": "Search snippets repeatedly displayed www.inc5shop.com on unrelated hotel listings.",
+      "status": "not_checked_blocked",
+      "blocker": "Direct extraction blocked.",
+      "next_action": "Validate with a licensed backlink export before classifying or disavowing."
+    },
+    {
+      "source": "Reddit product recommendation",
+      "signal": "Search result showed an Inc.5 product URL in an Indian fashion thread.",
+      "status": "not_checked_blocked",
+      "blocker": "Not returned by structured extraction."
+    },
+    {
+      "source": "Financial Express BrandWagon interview",
+      "signal": "Highly relevant editorial coverage.",
+      "status": "not_checked_blocked",
+      "blocker": "Page inaccessible to Firecrawl extraction."
+    }
+  ],
+  "redirect_checks": [
+    ["https://www.inc5shop.com/", "https://inc5shop.com/", 200],
+    ["http://www.inc5shop.com/", "https://inc5shop.com/", 200],
+    ["https://inc5shoes.co.in/", "https://inc5shop.com/", 200]
+  ],
+  "search_run_ids": [
+    "019fb723-ec4a-74af-b8cc-01fdc6b2b6e8",
+    "019fb723-f6c2-772f-b333-fc7883ea841d",
+    "019fb723-fcc5-7416-8740-9a742daab797",
+    "019fb725-6aa5-775f-9f4d-c2bcb5da0916",
+    "019fb725-7882-74f8-8326-1ad395852cc0",
+    "019fb725-6f40-7309-864e-25b1ce310883"
+  ],
+  "redirect_scrape_ids": [
+    "019fb727-82e8-7683-ae46-e3bd62f595de",
+    "019fb727-8ab1-7452-9bba-eda2b693a66d",
+    "019fb727-86c1-71bb-b51c-4b97efe627d6",
+    "019fb727-915c-7031-9e6e-a85af7fa7aa5"
+  ]
+}
