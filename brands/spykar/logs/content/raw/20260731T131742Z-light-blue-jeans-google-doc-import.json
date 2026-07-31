@@ -1,0 +1,46 @@
+{
+  "run_id": "spykar-light-blue-jeans-google-doc-20260731",
+  "brand_id": "spykar",
+  "action": "convert_markdown_to_native_google_doc",
+  "created_at": "2026-07-31T13:17:42Z",
+  "source": "brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.md",
+  "destination_provider": "googledocs",
+  "connected_account": "googledocs_umiri-oxgang",
+  "user_approval": "explicit",
+  "tool_used": "GOOGLEDOCS_CREATE_DOCUMENT_MARKDOWN",
+  "output": {
+    "document_id": "1AcPooO0HYbIJ3FBfsmGX88_MRTESnT9pAYJcaxORgfc",
+    "document_url": "https://docs.google.com/document/d/1AcPooO0HYbIJ3FBfsmGX88_MRTESnT9pAYJcaxORgfc",
+    "mime_type": "application/vnd.google-apps.document",
+    "title": "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas",
+    "default_tab_id": "t.0"
+  },
+  "verification": {
+    "native_conversion": "pass",
+    "connector_readback": "pass",
+    "readback_tool": "GOOGLEDOCS_GET_DOCUMENT_PLAINTEXT",
+    "readback_warnings": [],
+    "tab_count": 1,
+    "heading_1_count": 1,
+    "heading_2_count": 8,
+    "heading_3_count": 13,
+    "hyperlink_count": 5,
+    "hyperlinks": [
+      "https://spykar.com/blogs/blog/monsoon-travel-style-guide",
+      "https://spykar.com/blogs/blog/monsoon-fashion-for-women",
+      "https://spykar.com/blogs/blog/stylish-monsoon-outfits-for-men",
+      "https://spykar.com/collections/light-blue-jeans-men",
+      "https://spykar.com/collections/light-blue-jeans-women"
+    ],
+    "front_matter_present": false,
+    "publishing_details_section": true,
+    "pdf_page_rasterization": "not_checked_blocked",
+    "pdf_page_rasterization_blocker": "No PDF export was requested for this run, so page-image inspection was not attempted."
+  },
+  "content_notes": [
+    "YAML front matter was stripped; meta title, meta description, slug, keywords, word count and the AI-pattern risk result were restated in a readable 'Publishing details' section at the end of the doc for the publishing team.",
+    "No price, discount or sale-banner detail was carried into the document because those values change."
+  ],
+  "status": "ok",
+  "credentials_logged": false
+}
