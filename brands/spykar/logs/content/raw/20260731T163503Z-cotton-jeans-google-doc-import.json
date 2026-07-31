@@ -1,0 +1,22 @@
+{
+  "run_id": "spykar-cotton-jeans-google-doc-import-20260731",
+  "brand_id": "spykar",
+  "action": "convert_markdown_to_native_google_doc",
+  "source": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md",
+  "destination_provider": "google_drive",
+  "requested_output": "native_google_docs",
+  "local_qa": {
+    "title_sanitizer": "pass",
+    "heading_audit": {
+      "heading_1": 8,
+      "heading_2": 11
+    },
+    "accessibility_findings": 0,
+    "visual_render": "not_checked_blocked",
+    "visual_render_blocker": "LibreOffice executable unavailable"
+  },
+  "status": "blocked_pending_user_approval",
+  "blocker": "Google Drive rejected external upload because the connected destination account was not verified for the unpublished draft.",
+  "next_action": "Obtain explicit user approval to upload the draft to the currently connected Google Drive account.",
+  "credentials_logged": false
+}
