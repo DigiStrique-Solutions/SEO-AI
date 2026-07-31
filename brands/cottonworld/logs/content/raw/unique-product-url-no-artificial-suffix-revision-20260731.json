@@ -1,0 +1,57 @@
+{
+  "run_id": "cottonworld-unique-url-no-artificial-suffix-revision-20260731",
+  "timestamp": "2026-07-31T16:36:14+05:30",
+  "status": "ok",
+  "supersedes": "cottonworld-unique-url-reference-format-revision-20260731",
+  "sources": [
+    "C:/Users/User/Downloads/CW-active-products.xlsx",
+    "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041#gid=1696679041"
+  ],
+  "output": {
+    "type": "native_google_sheet",
+    "title": "Cotton World URL Comparison - No Artificial Suffixes",
+    "url": "https://docs.google.com/spreadsheets/d/1yTajt6ExMI60KNzRc1-086CMFDRQzxS9qzS7S4D4v9s/edit"
+  },
+  "rules": {
+    "url_format": "gender + source-backed product descriptors + product type + colour",
+    "uniqueness": "use genuine source attributes such as sleeve, weave, print, neckline, opening, hem, fit, fabric composition, occasion, or construction",
+    "prohibited": [
+      "numerals",
+      "alphabetic design suffixes such as a, b, or c",
+      "internal product identifiers",
+      "placeholder or sales terms"
+    ]
+  },
+  "qa": {
+    "active_urls": 6195,
+    "reference_urls": 919,
+    "generated_urls": 5276,
+    "unique_generated_urls": 5276,
+    "duplicate_generated_urls": 0,
+    "reference_collisions": 0,
+    "urls_with_numerals": 0,
+    "urls_with_alphabetic_design_suffixes": 0,
+    "urls_needing_product_specific_naming": 0,
+    "invalid_url_formats": 0,
+    "placeholder_or_sales_term_matches": 0,
+    "missing_h1_tags": 0,
+    "median_slug_length": 41,
+    "median_slug_words": 7,
+    "maximum_slug_length": 66
+  },
+  "verification": {
+    "imported_range_top": "URL Comparison!A1:D6",
+    "imported_range_first_unique_rows": "URL Comparison!A924:D929",
+    "conditional_formats_preserved": true,
+    "examples": [
+      {
+        "old_url": "https://cottonworld.net/products/l-blouse-10542-19627-lime",
+        "new_url": "https://cottonworld.net/products/womens-linen-three-quarter-sleeve-blouse-lime"
+      },
+      {
+        "old_url": "https://cottonworld.net/products/l-blouse-10542-19635-lime",
+        "new_url": "https://cottonworld.net/products/womens-linen-three-quarter-sleeve-solid-blouse-lime"
+      }
+    ]
+  }
+}
