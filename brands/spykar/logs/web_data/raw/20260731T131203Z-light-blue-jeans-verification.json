@@ -1,0 +1,102 @@
+{
+  "run_id": "spykar-light-blue-jeans-blog-20260731",
+  "collected_at": "2026-07-31T13:12:03Z",
+  "purpose": "Verify live Spykar light blue denim facts before drafting the July'26 monsoon styling blog.",
+  "provider": "firecrawl",
+  "requests": [
+    {
+      "tool": "firecrawl_scrape",
+      "url": "https://spykar.com/collections/light-blue-jeans-men",
+      "scrape_id": "019fb81c-af3f-737d-bf66-346725872666",
+      "status_code": 200,
+      "extracted": {
+        "collection_title": "Light Blue Jeans Men",
+        "meta_title": "Buy Light Blue Jeans for Men Online at Spykar",
+        "product_count": 4,
+        "products": [
+          "Men Nico Jeans Skinny Fit Light Blue Low Rise (mdltd1bc056lightblue)",
+          "Men Nico Jeans Skinny Fit Light Blue Low Rise (sknnos009lightblue)",
+          "Men Rover Jeans Regular Fit Light Blue Mid Rise (mdltd1bc049lightblue)",
+          "Men Kano Jeans Slim Fit Light Blue Mid Rise (mdnact2bc268lightblue)"
+        ],
+        "facets": {
+          "sizes": ["28", "30", "32", "34", "36", "38", "40"],
+          "brand_fit": {"nico": 2, "rover": 2, "kano": 1},
+          "fabric": {"cotton": 2},
+          "stretch": {"non-stretchable": 3, "stretchable": 2},
+          "pattern": {"solid": 4},
+          "colour": {"blue": 4}
+        }
+      },
+      "omitted_from_copy": ["price", "discount", "sale banner", "availability"]
+    },
+    {
+      "tool": "firecrawl_scrape",
+      "url": "https://spykar.com/collections/light-blue-jeans-women",
+      "scrape_id": "019fb81c-df00-7468-830d-cff6cbc43a52",
+      "status_code": 200,
+      "extracted": {
+        "collection_title": "Light Blue Jeans Women",
+        "meta_title": "Buy Light Blue Jeans for Women Online at Spykar",
+        "product_count": 1,
+        "products": [
+          "Women Emma Jeans Skinny Fit Light Blue Mid Rise (wdynr2bc082lightblue)"
+        ],
+        "facets": {
+          "sizes": ["24", "26", "28", "30", "32", "34", "36", "38", "40"],
+          "fit": {"super skinny fit": 1},
+          "brand_fit": {"alexa": 1, "emma": 1},
+          "fabric": {"lycra": 1},
+          "stretch": {"non-stretchable": 1}
+        }
+      },
+      "omitted_from_copy": ["price", "discount", "review count", "availability"]
+    },
+    {
+      "tool": "firecrawl_scrape",
+      "url": "https://spykar.com/products/wdynr2be324lightblue",
+      "scrape_id": "019fb821-244b-71eb-bdcc-b214a4191422",
+      "status_code": 200,
+      "extracted": {
+        "product_title": "Women Bella Jeans Straight Fit Light Blue High Rise",
+        "fit": "Straight Fit",
+        "rise": "High Rise",
+        "fabric": "Cotton",
+        "stretch": "No",
+        "care": "Machine Wash",
+        "description": "High waisted light blue wash basic 5 pocket jeans in straight fit. Hem side slits. Front zip fly and metal button fastening."
+      },
+      "omitted_from_copy": ["price", "discount"]
+    },
+    {
+      "tool": "firecrawl_search",
+      "query": "site:spykar.com light blue jeans women collection",
+      "search_id": "019fb81c-b06e-7633-ba98-387c7c86ef09",
+      "purpose": "Discover the women's light blue collection URL and additional light blue women's products beyond the collection facet.",
+      "notable_results": [
+        "https://spykar.com/collections/light-blue-jeans-women",
+        "https://spykar.com/products/wdynr2be324lightblue (Women Bella Jeans Straight Fit Light Blue High Rise)",
+        "https://spykar.com/products/wdynr2bd025lightblue (Women Jeans Skinny Fit Light Blue High Rise)"
+      ]
+    },
+    {
+      "tool": "firecrawl_search",
+      "query": "site:spykar.com/blogs light blue jeans styling monsoon",
+      "search_id": "019fb820-07fe-74e1-8f9a-2db1560b654a",
+      "purpose": "Cannibalisation check against existing published Spykar monsoon and denim posts.",
+      "finding": "Existing monsoon coverage is broad (women's monsoon fashion, men's monsoon essentials, monsoon travel, lightweight denim). No published post targets light blue jeans specifically, so the new article takes the light-wash angle and links out to the existing guides."
+    },
+    {
+      "tool": "firecrawl_search",
+      "query": "denim care wash jeans separately like colours air dry avoid direct sunlight guide",
+      "search_id": "019fb821-2928-76ec-a9ca-7e38a9b454dc",
+      "purpose": "Source generic denim-care guidance for the care section.",
+      "sources_used": [
+        "https://www.agjeans.com/pages/denim-care-guide",
+        "https://www.whirlpool.com/blog/washers-and-dryers/how-to-wash-jeans.html"
+      ],
+      "note": "Used as evidence only. No competitor or third-party brand is named in the customer-facing copy."
+    }
+  ],
+  "blockers": []
+}

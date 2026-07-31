@@ -1,0 +1,82 @@
+{
+  "run_id": "spykar-light-blue-jeans-blog-20260731",
+  "created_at": "2026-07-31T13:12:03Z",
+  "brief": {
+    "source": "User-supplied content calendar row (image.png), July'26, Website Blog, row 2",
+    "assigned_title": "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas",
+    "keyword_targets": [
+      {"keyword": "light blue jeans", "monthly_volume": 27100, "role": "primary"},
+      {"keyword": "light blue jeans for women", "monthly_volume": 9900, "role": "secondary"},
+      {"keyword": "light blue jeans for men", "monthly_volume": 6600, "role": "secondary"},
+      {"keyword": "monsoon outfits for women", "monthly_volume": 210, "role": "secondary"},
+      {"keyword": "monsoon outfit", "monthly_volume": 170, "role": "secondary"},
+      {"keyword": "monsoon outfit ideas", "monthly_volume": 110, "role": "secondary"},
+      {"keyword": "monsoon outfits for men", "monthly_volume": 90, "role": "secondary"}
+    ],
+    "volume_note": "Volumes come from the supplied calendar image and were not re-verified through Keyword Planner; GOOGLE_ADS_PLATFORM_ID is unset. Used for prioritisation only, never published in copy."
+  },
+  "draft": {
+    "path": "brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.md",
+    "authenticity_log": "brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.authenticity.json",
+    "word_count": 1431,
+    "meta_title_chars": 55,
+    "meta_description_chars": 141,
+    "keyword_placement": {
+      "primary_in_title": true,
+      "primary_in_intro": true,
+      "primary_in_heading": true,
+      "primary_occurrences": 16,
+      "bolded_keywords": false
+    },
+    "structure_check": {
+      "intro_word_count": 108,
+      "conclusion_word_count": 105,
+      "thematic_sections": 6,
+      "styling_section": true,
+      "faqs": 6,
+      "internal_links": [
+        "https://spykar.com/collections/light-blue-jeans-men",
+        "https://spykar.com/collections/light-blue-jeans-women",
+        "https://spykar.com/blogs/blog/monsoon-travel-style-guide",
+        "https://spykar.com/blogs/blog/monsoon-fashion-for-women",
+        "https://spykar.com/blogs/blog/stylish-monsoon-outfits-for-men"
+      ]
+    }
+  },
+  "ai_text_risk_gate": {
+    "skill": "ai-text-risk-gate",
+    "requested_threshold": 10.0,
+    "default_threshold": 20.0,
+    "threshold_source": "User instruction: AI risk must be under 10%",
+    "zerogpt": {
+      "status": "unavailable",
+      "error": "ZeroGPT returned {'success': False, 'code': 403, 'message': 'Not enough credits'}",
+      "resolution": "Fell back to the local Strique AI-pattern harness, as the skill permits. The draft was NOT checked against ZeroGPT."
+    },
+    "local_score": 6.0,
+    "status": "pass",
+    "features_triggered": [
+      {
+        "name": "generic_conclusion_heading",
+        "points": 6.0,
+        "evidence": [],
+        "note": "Constant floor added by the harness on every run; no generic ending heading was matched in this draft."
+      }
+    ],
+    "verify_command": "python3 tools/seo_audit_harness.py verify-authenticity --authenticity brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.authenticity.json --rewrite-file brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.md --max-ai-detector-score 10",
+    "verify_result": {"ok": true, "errors": []}
+  },
+  "style_guide_conformance": {
+    "reference": "brands/spykar/style-guide.md",
+    "indian_english": true,
+    "sentence_case_headings": true,
+    "keywords_unbolded": true,
+    "subtle_brand_integration": true,
+    "soft_cta": true,
+    "no_price_or_promo_claims": true
+  },
+  "open_questions": [
+    "Confirm the intended publish date within July 2026 and whether the live URL slug should match how-to-style-light-blue-jeans-monsoon-outfit-ideas.",
+    "Confirm whether the women's light blue range will be restocked, since the light-blue-jeans-women collection currently lists a single product while other light blue women's styles sit in the wider women's jeans collection."
+  ]
+}
