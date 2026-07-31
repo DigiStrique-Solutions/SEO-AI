@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "spykar-non-monsoon-product-topics-20260731",
+  "accessed_at": "2026-07-31T07:57:24Z",
+  "market": "India",
+  "scope": "Non-monsoon blog topics grounded in Spykar's live men's and women's collection pages and current competitor search visibility.",
+  "spykar_collection_crawls": [
+    {
+      "url": "https://spykar.com/collections/men",
+      "provider": "firecrawl",
+      "scrape_id": "019fb72a-e037-7341-a9dd-a029988455de",
+      "status_code": 200,
+      "page_title": "Buy Casual Wear for Men Online at Best Prices from Spykar",
+      "observed_products": [
+        "Regular-fit blue mid-rise men's jeans",
+        "Skinny-fit blue low-rise Nico men's jeans",
+        "Slim-fit blue low-rise men's jeans",
+        "Regular-fit dark-blue mid-rise men's jeans",
+        "Regular-fit dark-blue high-rise Trooper men's jeans",
+        "Super-slim blue low-rise men's jeans",
+        "Comfort-fit blue mid-rise men's jeans",
+        "Slim- and regular-fit men's shirts",
+        "Men's travel backpack",
+        "Men's deodorant"
+      ]
+    },
+    {
+      "url": "https://spykar.com/collections/women",
+      "provider": "firecrawl",
+      "scrape_id": "019fb72b-9626-779e-8815-ef37f324cc70",
+      "status_code": 200,
+      "page_title": "Buy Casual Wear for Women Online at Best Prices at Spykar",
+      "observed_products": [
+        "Dark-blue high-rise straight-fit Bella women's jeans",
+        "Black high-rise bootcut Elissa women's jeans",
+        "Blue high-rise skinny-fit Emma women's jeans",
+        "Black high-rise super-skinny Alexa women's jeans",
+        "Regular-fit women's shirts in lavender and yellow",
+        "Black regular-fit women's denim jacket",
+        "Teal-blue regular-fit women's T-shirt"
+      ]
+    }
+  ],
+  "competitor_searches": [
+    {
+      "competitor": "Levi's India",
+      "provider": "firecrawl_search",
+      "search_id": "019fb72c-2841-74d2-b478-b16653ec30f3",
+      "query": "site:levi.in India 2026 jeans trends straight fit bootcut baggy denim men women",
+      "evidence": [
+        {
+          "position": 1,
+          "url": "https://levi.in/blogs/levis-blog/guide-to-latest-denim-trends-for-men-and-women",
+          "observed_theme": "Fit-led denim education covering straight, loose/relaxed, skinny, slim and regular jeans."
+        },
+        {
+          "position": 2,
+          "url": "https://levi.in/collections/jeans",
+          "observed_theme": "Collection breadth across straight, bootcut, slim, cargo, wide-leg, baggy and flared jeans."
+        },
+        {
+          "position": 5,
+          "url": "https://levi.in/blogs/levis-blog/complete-guide-to-find-perfect-pair-of-jeans",
+          "observed_theme": "Decision-led fit guide linking fit characteristics to body shape, comfort and occasion."
+        }
+      ]
+    },
+    {
+      "competitor": "Pepe Jeans India",
+      "provider": "firecrawl_search",
+      "search_id": "019fb72c-762b-722c-b68a-92e39b8ce205",
+      "query": "site:pepejeans.in India jeans trends men women straight bootcut wide leg denim styling",
+      "evidence": [
+        {
+          "position": 1,
+          "url": "https://www.pepejeans.in/jeans-fit-guide-men.html",
+          "observed_theme": "Men's fit education across skinny, slim, regular, relaxed and tapered jeans."
+        },
+        {
+          "position": 3,
+          "url": "https://www.pepejeans.in/new-arrivals/men/jeans",
+          "observed_theme": "New-arrival merchandising emphasising slim, bootcut, straight, tapered and relaxed fits."
+        },
+        {
+          "position": 5,
+          "url": "https://www.pepejeans.in/women/jeans",
+          "observed_theme": "Women's collection visibility around high-waist, straight, skinny, flared and wide-leg jeans."
+        }
+      ]
+    },
+    {
+      "competitor": "Killer Jeans",
+      "provider": "firecrawl_search",
+      "search_id": "019fb72c-c84f-7178-873a-4c90e9485f8a",
+      "query": "site:killerjeans.com India jeans men women fits straight slim bootcut relaxed denim trends",
+      "evidence": [
+        {
+          "position": 1,
+          "url": "https://www.killerjeans.com/pages/mens",
+          "observed_theme": "Men's denim merchandising across slim, straight, skinny, ankle, loose and neo-flare fits."
+        },
+        {
+          "position": 3,
+          "url": "https://www.killerjeans.com/products/killer-men-grey-solid-slim-fit-jeans",
+          "observed_theme": "Slim-fit denim positioned for a modern silhouette across work, party and casual settings."
+        }
+      ]
+    }
+  ],
+  "recommended_topics": [
+    {
+      "title": "High Rise vs Mid Rise vs Low Rise Jeans for Men: How to Choose Your Fit",
+      "primary_keyword": "high rise vs mid rise vs low rise jeans for men",
+      "spykar_product_support": "The live men's collection includes high-, mid- and low-rise jeans across regular, skinny, slim, super-slim and comfort fits.",
+      "competitor_gap_angle": "Competitors publish broad fit guides; Spykar can differentiate with a rise-first decision guide grounded in its live assortment."
+    },
+    {
+      "title": "High-Rise Jeans for Women: Straight, Bootcut or Skinny—which Fit Works for You?",
+      "primary_keyword": "high rise jeans for women",
+      "spykar_product_support": "The live women's collection includes high-rise straight, bootcut, skinny and super-skinny jeans.",
+      "competitor_gap_angle": "Pepe and Levi's surface multiple women's silhouettes; Spykar can compete with a focused high-rise comparison tied to real-life occasions."
+    },
+    {
+      "title": "How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women",
+      "primary_keyword": "jeans and shirt outfit",
+      "spykar_product_support": "Both live collections include jeans and shirts, with women's T-shirts and a denim jacket providing additional layering options.",
+      "competitor_gap_angle": "Competitor content is heavily fit-led; cross-category outfit formulas give Spykar a useful product-led angle without duplicating another general denim-trends article."
+    }
+  ],
+  "limitations": [
+    "Collection crawls captured the products rendered in the sampled page response, not a complete paginated inventory.",
+    "Competitor observations describe current indexed pages and merchandising themes, not competitor sales or conversion performance.",
+    "Search-result position is query-specific and directional; it is not a claim of stable ranking.",
+    "No monthly search volume or keyword difficulty was available, so none was invented."
+  ]
+}
