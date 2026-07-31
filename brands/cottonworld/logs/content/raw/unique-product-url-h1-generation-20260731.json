@@ -1,0 +1,61 @@
+{
+  "run_id": "cottonworld-unique-url-h1-generation-20260731",
+  "generated_at": "2026-07-31T13:00:17+05:30",
+  "source": {
+    "product_export": "C:/Users/User/Downloads/CW-active-products.xlsx",
+    "existing_url_sheet": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+    "source_constraint": "H1 facts were derived only from product title and structured product attributes in the active-product export."
+  },
+  "output": {
+    "google_sheet": "https://docs.google.com/spreadsheets/d/15GV0d_C0nqgyiM_5UbKtdJFyLKLXH3rhFT-IXjHCEZQ/edit",
+    "sheet_name": "URL Comparison",
+    "generated_rows": 5276,
+    "generated_payload_sha256": "5B6B2D3332699760B9DF1EF329CFF30D56F8D9E2C750E925BDC0B17931CD2C4D"
+  },
+  "rules": {
+    "h1": "Gender + exact material/composition + fit + product type + colour.",
+    "url": "Lowercase, hyphenated semantic H1 structure with percentage tokens removed.",
+    "uniqueness": "Use one source-backed differentiating feature where possible; otherwise append the source style code. Semantic legacy handles without a style code use a deterministic ref suffix only when needed.",
+    "exceptions": "Non-apparel products omit unavailable apparel attributes. No percentage or product fact was invented."
+  },
+  "qa": {
+    "records": 5276,
+    "existing_google_urls": 919,
+    "unique_proposed_urls": 5276,
+    "proposed_url_duplicates": 0,
+    "collisions_with_existing_google_urls": 0,
+    "invalid_url_format": 0,
+    "missing_h1": 0,
+    "rows_using_semantic_features": 731,
+    "rows_using_collision_suffix": 3216,
+    "source_rows_without_material": 1,
+    "source_rows_without_fit": 12,
+    "source_rows_without_colour": 1
+  },
+  "representative_records": [
+    {
+      "handle": "gift-card-congratulations",
+      "old_url": "https://cottonworld.net/products/gift-card-congratulations",
+      "new_url": "https://cottonworld.net/products/gift-card-congratulations",
+      "h1": "Gift Card Congratulations"
+    },
+    {
+      "handle": "l-blouse-08786-20263-blue",
+      "old_url": "https://cottonworld.net/products/l-blouse-08786-20263-blue",
+      "new_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue-08786-20263",
+      "h1": "Women's 100% Cotton Regular Fit Blouse Blue"
+    },
+    {
+      "handle": "l-tshirt-17427-21843-red",
+      "old_url": "https://cottonworld.net/products/l-tshirt-17427-21843-red",
+      "new_url": "https://cottonworld.net/products/womens-organic-cotton-half-sleeve-regular-fit-t-shirt-red",
+      "h1": "Women's 100% Organic Cotton Regular Fit T-shirt Red"
+    },
+    {
+      "handle": "m-shirts-50020-21743-black",
+      "old_url": "https://cottonworld.net/products/m-shirts-50020-21743-black",
+      "new_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-black-50020-21743",
+      "h1": "Men's 100% Linen Regular Fit Shirt Black"
+    }
+  ]
+}
