@@ -1,0 +1,33 @@
+{
+  "run_id": "cottonworld-unique-url-reference-format-revision-20260731",
+  "generated_at": "2026-07-31T16:05:04+05:30",
+  "supersedes_run_id": "cottonworld-unique-url-no-numerals-revision-20260731",
+  "reference": {
+    "document": "https://docs.google.com/spreadsheets/d/1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY/edit?gid=1696679041",
+    "file_type": "xlsx stored in Google Drive",
+    "drive_modified_time": "2026-07-29T14:06:34.214Z",
+    "suggested_unique_urls": 919,
+    "slug_length_median": 42,
+    "slug_length_p90": 54,
+    "slug_length_max": 76,
+    "slug_token_median": 7,
+    "format": "gender + material/composition + fit or concise differentiator + product type + colour"
+  },
+  "output": {
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1ERxxOFWLODDPaVwQdQMqgtjmb_P6bhudChp3yK_bdeg/edit",
+    "sheet_name": "URL Comparison",
+    "generated_rows": 5276,
+    "generated_payload_sha256": "3C5CDF4955EFD1875DCE556FEA62D0B7E4A2327568F7C02829E914909B565675"
+  },
+  "generated_benchmark": {
+    "slug_length_median": 41,
+    "slug_length_p90": 51,
+    "slug_length_max": 67,
+    "slug_token_median": 7,
+    "urls_containing_numerals": 0,
+    "duplicate_urls": 0,
+    "collisions_with_reference_urls": 0,
+    "invalid_url_formats": 0
+  },
+  "uniqueness_rule": "Use one concise source-backed product differentiator when needed. If multiple products remain semantically identical, append compact alphabetic design labels such as design-a or design-b."
+}
