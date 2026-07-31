@@ -1,0 +1,64 @@
+{
+  "run_id": "cottonworld-refresh-20260727",
+  "captured_at": "2026-07-27T12:23:53Z",
+  "provider": "firecrawl",
+  "source": "https://cottonworld.net/",
+  "status_code": 200,
+  "map": {
+    "limit_reached": 500,
+    "urls_returned": 500,
+    "pages": 100,
+    "collections": 157,
+    "products_in_returned_sample": 236,
+    "blog_urls": 5
+  },
+  "homepage": {
+    "title": "Cottonworld: Natural Cotton & Linen Clothes for Men & Women in India",
+    "description": "Cotton & Linen Clothing for Men & Women. Buy Cotton & Linen clothes at best price in India at Cottonworld. Natural Clothing, Shop Now!",
+    "status_code": 200,
+    "claims_observed": [
+      "Made for everyday life.",
+      "Rooted in simplicity.",
+      "Natural fabrics.",
+      "Everyday comfort.",
+      "Made to be lived in.",
+      "Since 1987",
+      "100% natural fabrics",
+      "Made in India",
+      "Consciously crafted"
+    ],
+    "logo_url": "https://cottonworld.net/cdn/shop/files/CW-Logo.png?height=35&v=1776677229",
+    "favicon_url": "https://cottonworld.net/cdn/shop/files/favicon-cw.jpg?crop=center&height=32&v=1780757278&width=32"
+  },
+  "branding": {
+    "primary": "#41512A",
+    "accent": "#41512A",
+    "background": "#FFFFFF",
+    "text_primary": "#000000",
+    "button_text": "#F7F6CA",
+    "heading_font": "Nunito",
+    "body_font": "Nunito",
+    "color_scheme": "light",
+    "firecrawl_branding_confidence": 0.925
+  },
+  "about_page": {
+    "url": "https://cottonworld.net/pages/about-us",
+    "status_code": 200,
+    "title": "About Cottonworld: Our Legacy of Pure Cotton & Comfort",
+    "purpose_excerpt": "We believe clothing should make life easier. For nearly four decades, we've focused on creating clothing that feels comfortable, lasts longer, and becomes part of everyday life.",
+    "history_excerpt": "In 1987, Cottonworld began with a small collection of cotton shirts and a belief that natural fabrics deserved a larger place in everyday wardrobes.",
+    "leadership_excerpt": "Cottonworld remains a family-led business guided by the values it was built on.",
+    "counter_warning": "Rendered counter values were invalid negative numbers; store and customer counts remain unsourced and must not be quoted."
+  },
+  "blog_urls": [
+    "https://cottonworld.net/blogs/blog",
+    "https://cottonworld.net/blogs/blog/the-story-of-natural-cotton-why-fabric-matters-more-than-fashion",
+    "https://cottonworld.net/blogs/blog/slow-living-everyday-style-dressing-with-comfort-and-purpose",
+    "https://cottonworld.net/blogs/blog/timeless-wardrobes-how-to-choose-cloths-that-last-beyond-seasons",
+    "https://cottonworld.net/blogs/blog/comfort-meets-style-everyday-fashion-that-feels-right"
+  ],
+  "notes": [
+    "Firecrawl initially returned ERR_TUNNEL_CONNECTION_FAILED for the about page; one retry succeeded.",
+    "Map was capped at 500 URLs, so product count is a sample rather than a complete current catalog count."
+  ]
+}

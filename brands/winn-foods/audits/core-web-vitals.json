@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "audit-library/core-web-vitals.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": null,
+  "counts": {"items": 6, "pass": 0, "fail": 0, "not_applicable": 0, "not_checked_blocked": 6},
+  "evidence_inputs": ["logs/audits/raw/20260727T073600Z-provider-blockers.json"],
+  "rows": [
+    {"item_id": "lcp", "section_id": "loading", "status": "not_checked_blocked", "result": "No field or lab LCP value was obtained: the Google API request failed on DNS and no browser/Lighthouse session was available.", "next_action": "Run mobile PageSpeed plus CrUX and record field p75 LCP separately from lab LCP.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/2"},
+    {"item_id": "ttfb", "section_id": "loading", "status": "not_checked_blocked", "result": "No lab TTFB measurement was obtained because PageSpeed and Lighthouse could not run.", "next_action": "Capture lab TTFB on mobile and desktop after restoring Google API DNS or Lighthouse.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/2"},
+    {"item_id": "inp", "section_id": "interactivity", "status": "not_checked_blocked", "result": "No CrUX field INP value was obtained.", "next_action": "Query URL and origin CrUX p75 INP; do not substitute lab TBT for field INP.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/2"},
+    {"item_id": "render-blocking", "section_id": "interactivity", "status": "not_checked_blocked", "result": "No Lighthouse render-blocking audit was available.", "next_action": "Run Lighthouse and inspect critical-path CSS/JS opportunities before recommending code changes.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/3"},
+    {"item_id": "cls", "section_id": "stability", "status": "not_checked_blocked", "result": "No CrUX field CLS value was obtained.", "next_action": "Query URL and origin CrUX p75 CLS and corroborate with a mobile lab run.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/2"},
+    {"item_id": "image-optimization", "section_id": "stability", "status": "not_checked_blocked", "result": "The crawl shows mixed PNG/JPG/AVIF assets, but without Lighthouse transfer-size and responsive-image audits the pass criterion cannot be verified.", "next_action": "Run Lighthouse image audits, then optimize only the flagged bytes, sizing, format, and lazy-loading issues.", "evidence_ref": "logs/audits/raw/20260727T073600Z-provider-blockers.json#blockers/3"}
+  ]
+}

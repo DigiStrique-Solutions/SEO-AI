@@ -1,0 +1,81 @@
+{
+  "access_date": "2026-07-28",
+  "target_blogs": [
+    "Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India",
+    "Comfortable Date Outfits for Brunch, a Walk or Dinner"
+  ],
+  "sources": [
+    {
+      "url": "https://cottonworld.net/pages/fabrics",
+      "provider": "Firecrawl",
+      "facts_used": [
+        "Cottonworld describes cotton as soft, breathable, naturally versatile, light on the skin and suitable for effortless movement.",
+        "Cottonworld describes linen as lightweight and airy, with a breathable texture and relaxed feel."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/collections/travel-for-men/products.json?limit=50",
+      "provider": "Shopify public collection feed",
+      "records": 50,
+      "facts_used": [
+        "The collection included regular-fit cotton, cotton-blend, linen, linen-cotton and Tencel-linen shirts and T-shirts.",
+        "The collection included full-length regular-fit linen and cotton-linen pants with drawstring or elasticated-waist details.",
+        "A cotton-linen regular-fit jacket appeared in the collection."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/collections/travel-for-women/products.json?limit=50",
+      "provider": "Shopify public collection feed",
+      "records": 9,
+      "facts_used": [
+        "The collection included cotton-lycra culottes with an elasticated waist and side pockets.",
+        "The collection included cotton, linen and linen-cotton dresses in regular or boxy fits, several with side pockets.",
+        "The collection included cotton blouses."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/collections/brunch-for-men/products.json?limit=50",
+      "provider": "Shopify public collection feed",
+      "records": 44,
+      "facts_used": [
+        "The collection included regular-fit linen-cotton, 100% cotton and Tencel-linen shirts.",
+        "The collection included cotton polos and regular-fit linen or cotton-linen pants, including drawstring or elasticated-waist details."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/collections/brunch-for-women/products.json?limit=50",
+      "provider": "Shopify public collection feed",
+      "records": 14,
+      "facts_used": [
+        "The collection included cotton, linen and linen-cotton dresses in regular and boxy fits.",
+        "It included linen or cotton blouses, cotton culottes and linen-cotton or linen-viscose pants.",
+        "Several dresses and bottoms included side pockets or elasticated/drawstring waists."
+      ]
+    },
+    {
+      "url": "https://cottonworks.com/news/innovative-technologies-add-top-performance-to-cottons-many-benefits/",
+      "provider": "Firecrawl web search",
+      "facts_used": [
+        "CottonWorks, an educational resource from Cotton Incorporated, describes cotton as a natural fibre associated with breathability and comfort."
+      ],
+      "usage_limit": "Used only to support the general cotton comfort and breathability description; no proprietary finish claims or statistics were used."
+    },
+    {
+      "ref": "brands/cottonworld/knowledge.md and brands/cottonworld/blogs/writing-style.md",
+      "provider": "Cottonworld brand database",
+      "facts_used": [
+        "Slow living is the central editorial lens.",
+        "Life comes before clothing, and clothing should quietly support the day.",
+        "Natural fibres, simple design, lasting quality, repeat wear and daily rituals are core themes."
+      ]
+    },
+    {
+      "ref": "User keyword briefs supplied in this task",
+      "provider": "Human context",
+      "facts_used": [
+        "Travel blog targets six travel-clothing and packing terms.",
+        "Date blog targets six date-outfit terms across women, men, brunch, casual plans and dinner."
+      ]
+    }
+  ]
+}

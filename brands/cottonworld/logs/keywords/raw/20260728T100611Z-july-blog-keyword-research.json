@@ -1,0 +1,66 @@
+{
+  "run_id": "cottonworld-july-blog-keywords-20260728T100611Z",
+  "observed_at": "2026-07-28T10:06:11Z",
+  "brand_id": "cottonworld",
+  "target_country": "India",
+  "scope": [
+    "From Commute to Office: Monsoon Workwear That Stays Comfortable",
+    "Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India",
+    "Comfortable Date Outfits for Brunch, a Walk or Dinner"
+  ],
+  "source_status": {
+    "google_ads_keyword_planner": {
+      "requested": true,
+      "permitted_operation": "google_ads_generate_keyword_ideas",
+      "platform_id_source": "GOOGLE_ADS_PLATFORM_ID",
+      "platform_id_present_in_project_env": true,
+      "operation_exposed_in_runtime": false,
+      "status": "not_checked_blocked",
+      "result": "The permitted Keyword Planner operation was not callable in the active runtime. No other Google Ads operation was used."
+    },
+    "semrush_india_fallback": {
+      "attempted": true,
+      "seed_count": 6,
+      "status": "error",
+      "result": "ERROR 132: API units balance is zero."
+    },
+    "brand_context": {
+      "status": "used",
+      "sources": [
+        "brands/cottonworld/context.md",
+        "brands/cottonworld/knowledge.md",
+        "brands/cottonworld/keywords/keywords.csv",
+        "brands/cottonworld/blogs/april-to-march-topic-calendar.md"
+      ]
+    }
+  },
+  "selection_method": "Intent-led seed selection from Cottonworld's confirmed Work, Travel and Brunch occasion taxonomy plus the existing keyword workspace. Search volumes were left blank because no live demand source returned data.",
+  "keywords_by_blog": {
+    "From Commute to Office: Monsoon Workwear That Stays Comfortable": [
+      "monsoon office wear india",
+      "monsoon workwear",
+      "work wear cotton india",
+      "breathable office wear",
+      "office wear for women",
+      "office wear for men"
+    ],
+    "Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India": [
+      "travel clothing breathable",
+      "travel outfits india",
+      "travel packing list india",
+      "capsule wardrobe for travel",
+      "comfortable travel clothes",
+      "airport outfits india"
+    ],
+    "Comfortable Date Outfits for Brunch, a Walk or Dinner": [
+      "comfortable date outfits india",
+      "brunch outfits women india",
+      "casual date outfits",
+      "dinner date outfit",
+      "date outfits for men",
+      "what to wear on a date"
+    ]
+  },
+  "volume_status": "not_checked_blocked",
+  "next_action": "Expose google_ads_generate_keyword_ideas with GOOGLE_ADS_PLATFORM_ID injected, rerun for India, populate Search Volume, and reprioritize the keyword sets."
+}

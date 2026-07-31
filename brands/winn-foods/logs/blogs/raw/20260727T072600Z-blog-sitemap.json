@@ -1,0 +1,41 @@
+{
+  "provider": "firecrawl",
+  "action": "scrape",
+  "source": "https://winn-foods.com/sitemap_blogs_1.xml",
+  "status_code": 200,
+  "content_type": "application/xml; charset=utf-8",
+  "scrape_id": "019fa279-94b6-750f-8590-69333cafc39e",
+  "indexes": [
+    {"url":"https://winn-foods.com/blogs/news","lastmod":"2026-07-06T14:07:01+05:30"},
+    {"url":"https://winn-foods.com/blogs/recipes","lastmod":"2026-01-27T16:24:47+05:30"}
+  ],
+  "posts": [
+    {"url":"https://winn-foods.com/blogs/news/indo-chinese-where-noodles-met-masala","lastmod":"2026-02-06T16:16:37+05:30","title":"Indo-Chinese, Where Noodles Met Masala"},
+    {"url":"https://winn-foods.com/blogs/news/why-are-winn-sauces-winn-ning-hearts-everywhere","lastmod":"2026-02-06T16:15:08+05:30","title":"Why Are Winn Sauces Winn-ning Hearts Everywhere?"},
+    {"url":"https://winn-foods.com/blogs/news/common-mistakes-to-avoid-when-cooking-chinese-food","lastmod":"2026-02-12T11:36:33+05:30","title":"Common Mistakes to Avoid When Cooking Chinese Food"},
+    {"url":"https://winn-foods.com/blogs/news/no-msg-no-artificial-colors-why-clean-chinese-sauces-matter","lastmod":"2026-02-12T11:37:28+05:30","title":"No MSG, No Artificial Colors: Why Clean Chinese Sauces Matter"},
+    {"url":"https://winn-foods.com/blogs/news/all-in-one-chinese-sauce-what-it-is-why-every-kitchen-needs-it","lastmod":"2026-02-06T16:18:21+05:30","title":"All-in-One Chinese Sauce: What It Is & Why Every Kitchen Needs It"},
+    {"url":"https://winn-foods.com/blogs/recipes/manchurian-balls","lastmod":"2026-01-13T16:03:14+05:30","title":"Manchurian Balls"},
+    {"url":"https://winn-foods.com/blogs/recipes/schezwan-momos","lastmod":"2026-01-13T16:06:27+05:30","title":"Schezwan Momos"},
+    {"url":"https://winn-foods.com/blogs/recipes/hot-sour-soup","lastmod":"2026-01-27T16:24:47+05:30","title":"Hot & Sour Soup"},
+    {"url":"https://winn-foods.com/blogs/recipes/shiitake-mushrooms-bok-choy","lastmod":"2026-01-27T16:22:38+05:30","title":"Shiitake Mushrooms & Bok Choy"},
+    {"url":"https://winn-foods.com/blogs/recipes/vegetable-stir-fry","lastmod":"2026-01-13T16:15:21+05:30","title":"Vegetable Stir-Fry"},
+    {"url":"https://winn-foods.com/blogs/recipes/spicy-eggplant","lastmod":"2026-01-27T16:20:45+05:30","title":"Spicy Eggplant"},
+    {"url":"https://winn-foods.com/blogs/recipes/chilli-paneer","lastmod":"2026-01-27T15:24:58+05:30","title":"Chilli Paneer"},
+    {"url":"https://winn-foods.com/blogs/recipes/spicy-thai-green-chilli-stir-fry","lastmod":"2026-01-13T16:12:25+05:30","title":"Spicy Thai Green Chilli Stir-fry"},
+    {"url":"https://winn-foods.com/blogs/recipes/fried-rice","lastmod":"2026-01-27T13:55:48+05:30","title":"Fried Rice"},
+    {"url":"https://winn-foods.com/blogs/recipes/soya-sauce-glazed-mushrooms","lastmod":"2026-01-27T16:19:42+05:30","title":"Soya Sauce Glazed Mushrooms"},
+    {"url":"https://winn-foods.com/blogs/recipes/schezwan-fried-rice","lastmod":"2026-01-27T16:20:04+05:30","title":"Schezwan Fried Rice"},
+    {"url":"https://winn-foods.com/blogs/recipes/schezwan-noodles","lastmod":"2026-01-27T16:23:01+05:30","title":"Schezwan Noodles"},
+    {"url":"https://winn-foods.com/blogs/recipes/veg-manchurian","lastmod":"2026-01-27T13:14:55+05:30","title":"Veg Manchurian"},
+    {"url":"https://winn-foods.com/blogs/recipes/mixed-vegetable-manchurian-gravy","lastmod":"2026-01-13T16:04:14+05:30","title":"Mixed Vegetable Manchurian Gravy"},
+    {"url":"https://winn-foods.com/blogs/recipes/chilli-vinegar-salad-dressing","lastmod":"2026-01-13T15:59:30+05:30","title":"Chilli Vinegar Salad Dressing"},
+    {"url":"https://winn-foods.com/blogs/recipes/chilli-vinegar-dumplings","lastmod":"2026-01-13T15:53:25+05:30","title":"Chilli Vinegar Dumplings"},
+    {"url":"https://winn-foods.com/blogs/news/5-mistakes-you-re-making-while-cooking-noodles","lastmod":"2026-04-30T13:33:12+05:30","title":"5 Mistakes You’re Making While Cooking Noodles"},
+    {"url":"https://winn-foods.com/blogs/news/best-chinese-sauces","lastmod":"2026-05-29T16:30:52+05:30","title":"Best Chinese Sauces Every Kitchen Should Have"},
+    {"url":"https://winn-foods.com/blogs/news/are-chinese-sauces-healthy-what-you-should-know","lastmod":"2026-07-06T14:07:01+05:30","title":"Are Chinese Sauces Healthy? What You Should Know"}
+  ],
+  "records": 24,
+  "captured_at": "2026-07-27T07:26:00Z"
+}
+

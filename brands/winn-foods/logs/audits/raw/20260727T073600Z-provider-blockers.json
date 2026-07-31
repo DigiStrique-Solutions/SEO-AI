@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-audits-20260727T073600Z",
+  "captured_at": "2026-07-27T07:36:00Z",
+  "blockers": [
+    {
+      "provider": "git",
+      "action": "git pull --ff-only",
+      "status": "error",
+      "error": "Could not resolve host: github.com",
+      "next_action": "Restore DNS/network access to GitHub, then pull --ff-only before pushing the audit commit."
+    },
+    {
+      "provider": "browser_playwright",
+      "action": "connect rendered browser",
+      "status": "error",
+      "error": "No browser is available",
+      "next_action": "Enable an in-app or Chrome browser session and rerun browser-only schema, mobile, and accessibility assertions."
+    },
+    {
+      "provider": "google_pagespeed_crux",
+      "action": "python tools/google_pagespeed.py cwv --url https://winn-foods.com/ --strategy mobile",
+      "status": "error",
+      "error": "Google API request failed: [Errno 11001] getaddrinfo failed",
+      "next_action": "Restore DNS access to Google APIs and rerun mobile PageSpeed plus CrUX."
+    },
+    {
+      "provider": "lighthouse",
+      "action": "discover local Lighthouse MCP",
+      "status": "unavailable",
+      "error": "No callable Lighthouse audit tool was exposed after tool discovery.",
+      "next_action": "Expose the configured lighthouse-mcp tool or run Lighthouse locally with Chrome."
+    },
+    {
+      "provider": "ai_answer_engines",
+      "action": "manual priority-prompt visibility test",
+      "status": "not_checked",
+      "error": "No authenticated answer-engine test surface or defined prompt set was available.",
+      "next_action": "Define priority prompts and test ChatGPT, Perplexity, and Google AI results with dated screenshots/citation evidence."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "cottonworld-product-metadata-20260727T195853+0530",
+  "source_workbook": {
+    "drive_file_id": "1G_BwI5wVEe_XWYCKoHVoP7umq9vXeUvY",
+    "sheet": "New URL Structure & H1 Tags",
+    "gid": 1696679041,
+    "source_columns": {
+      "suggested_new_url_structure": "D",
+      "new_h1_tags": "H"
+    }
+  },
+  "changes": {
+    "headers": {
+      "K1": "Meta Title",
+      "L1": "Meta Description"
+    },
+    "rows": [
+      {
+        "row": 6,
+        "suggested_url": "https://cottonworld.net/products/mens-linen-cotton-pullover-shirt-white",
+        "meta_title": "Buy Men’s Linen Cotton Regular Fit Shirt White | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s linen cotton regular fit shirt in white. A fresh, comfortable choice for work, weekends, travel and everyday wear."
+      },
+      {
+        "row": 7,
+        "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-half-sleeve-tshirt-red",
+        "meta_title": "Buy Men’s Organic Cotton Regular Fit T-Shirt Red | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s organic cotton regular fit T-shirt in red. Made for everyday comfort, from relaxed weekends and travel to slow days at home."
+      },
+      {
+        "row": 429,
+        "suggested_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-blue",
+        "meta_title": "Buy Men’s Linen Cotton Regular Fit Shirt Blue | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s linen cotton regular fit shirt in blue. A versatile, comfortable choice for work, weekends, travel and everyday wear."
+      },
+      {
+        "row": 430,
+        "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-teal",
+        "meta_title": "Buy Men’s Organic Cotton Regular Fit T-Shirt Teal | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s organic cotton regular fit T-shirt in teal. Made for everyday comfort, from relaxed weekends and travel to slow days at home."
+      },
+      {
+        "row": 621,
+        "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-black",
+        "meta_title": "Buy Men’s Linen Cotton Regular Fit Shirt Black | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s linen cotton regular fit shirt in black. A simple, comfortable option for work, weekends, travel and everyday wear."
+      },
+      {
+        "row": 752,
+        "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-mustard",
+        "meta_title": "Buy Men’s Linen Cotton Regular Fit Shirt Mustard | Cottonworld",
+        "meta_description": "Shop Cottonworld’s men’s linen cotton regular fit shirt in mustard. A simple, comfortable choice for work, weekends, travel and everyday wear."
+      }
+    ],
+    "formatting": {
+      "header_format_copied_from": "I1:J1",
+      "column_width_pixels": 320,
+      "text_wrapping": true
+    }
+  },
+  "verification": {
+    "exact_values_read_back": true,
+    "drive_status": "saved",
+    "visual_check": "passed",
+    "ai_text_risk_score": 7.56,
+    "ai_text_risk_status": "pass",
+    "zerogpt_status": "local_fallback",
+    "zerogpt_note": "ZeroGPT returned 403 not enough credits; local editorial score used as a weak signal."
+  }
+}

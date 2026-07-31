@@ -1,0 +1,45 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+spykar,navigational,homepage,https://spykar.com/,,,high,gsc,114834,453623,1.13,observed
+spykar jeans,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,50523,356685,1.61,observed
+spykar shirts,transactional,collection,https://spykar.com/collections/men-shirts,,,high,gsc,10571,88736,1.82,observed
+spykar jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,9386,86809,3.23,observed
+spykar jacket,transactional,collection,https://spykar.com/collections/men-jackets,,,high,gsc,5307,26717,2.09,observed
+jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,4177,688589,8.70,opportunity
+spykar t shirt,transactional,collection,https://spykar.com/collections/men-t-shirts,,,high,gsc,3713,33464,2.04,observed
+spykar jacket for men,transactional,collection,https://spykar.com/collections/men-jackets,,,high,gsc,3534,17345,1.02,observed
+spykar shirts for men,transactional,collection,https://spykar.com/collections/men-shirts,,,high,gsc,2289,20210,1.10,observed
+spykar jeans for women,transactional,collection,https://spykar.com/collections/women-jeans,,,high,gsc,2111,16785,4.91,opportunity
+white jeans for men,transactional,collection,https://spykar.com/collections/white-jeans-for-men,,,high,gsc,1065,235012,6.71,opportunity
+spykar cargo pants,transactional,collection,https://spykar.com/collections/cargo,,,high,gsc,1062,9531,4.44,opportunity
+spykar bootcut jeans for men,transactional,collection,https://spykar.com/collections/mens-bootcut,,,high,gsc,1016,5349,1.08,observed
+spykar showroom near me,local,store_locator,https://spykar.com/a/storelocator,,,high,gsc,972,22172,2.74,opportunity
+spykar underwear,transactional,collection,https://spykar.com/collections/men-innerwear,,,medium,gsc,959,7107,1.10,observed
+spykar bags,transactional,collection,https://spykar.com/collections/backpacks,,,medium,gsc,947,6334,1.24,observed
+spykar kano jeans,transactional,collection,https://spykar.com/collections/kano,,,medium,gsc,899,4896,1.11,observed
+spykar women jeans,transactional,collection,https://spykar.com/collections/women-jeans,,,high,gsc,653,3784,1.01,observed
+spykar store near me,local,store_locator,https://spykar.com/a/storelocator,,,high,gsc,630,11966,2.58,opportunity
+spykar jeans price,commercial,collection,https://spykar.com/collections/men-jeans,,,medium,gsc,624,10891,2.12,observed
+spykar cargo,transactional,collection,https://spykar.com/collections/cargo,,,medium,gsc,574,4093,1.42,observed
+spykar sweatshirt for men,transactional,collection,https://spykar.com/collections/men-sweatshirts,,,medium,gsc,549,2535,1.05,observed
+spykar linen shirts,transactional,collection,https://spykar.com/collections/men-shirts,,,medium,gsc,523,3875,1.50,observed
+spykar polo t shirt,transactional,collection,https://spykar.com/collections/polos,,,medium,gsc,506,3706,1.04,observed
+black jeans men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,467,213135,8.31,opportunity
+spykar cargo pants for men,transactional,collection,https://spykar.com/collections/cargo,,,medium,gsc,467,2973,1.14,observed
+mens jeans,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,453,49428,8.86,opportunity
+spykar backpack,transactional,collection,https://spykar.com/collections/backpacks,,,medium,gsc,433,2534,1.41,observed
+cotton jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,423,77294,8.29,opportunity
+denim jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,gsc,422,65065,8.37,opportunity
+spykar jackets for men,transactional,collection,https://spykar.com/collections/men-jackets,,,medium,gsc,415,1808,1.15,observed
+spykar chico fit jeans,transactional,collection,https://spykar.com/collections/chico,,,medium,gsc,403,1965,1.04,observed
+spykar kano fit jeans,transactional,collection,https://spykar.com/collections/kano-fit,,,medium,gsc,401,1914,1.22,observed
+underjeans by spykar,transactional,collection,https://spykar.com/collections/men-innerwear,,,medium,gsc,401,8451,8.87,opportunity
+spykar white shirt,transactional,collection,https://spykar.com/collections/white-casual-shirt,,,medium,gsc,395,4026,1.24,observed
+slim fit jeans for men,transactional,collection,https://spykar.com/collections/men-slim-fit-jeans,,,high,gsc,368,98939,8.97,opportunity
+light blue jeans,transactional,collection,https://spykar.com/collections/light-blue-jeans-men,,,high,gsc,363,214315,5.24,opportunity
+ankle length jeans for men,transactional,collection,https://spykar.com/collections/ankle-length-jeans-for-men,,,medium,gsc,359,17275,5.63,opportunity
+best indian jeans brands,commercial,blog,,,,medium,brand_dna,,,,seed
+levis alternative india,commercial,comparison,,,,medium,brand_dna,,,,seed
+pepe jeans alternative india,commercial,comparison,,,,medium,brand_dna,,,,seed
+killer jeans alternative,commercial,comparison,,,,medium,brand_dna,,,,seed
+denim fits guide,informational,blog,,,,medium,brand_dna,,,,seed
+high rise vs mid rise vs low rise jeans for men,informational,blog,https://spykar.com/blogs/blog/lets-take-a-closer-look-at-high-mid-and-low-rise-jeans-for-men,,,medium,brand_dna,,,,seed

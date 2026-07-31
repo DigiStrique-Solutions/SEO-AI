@@ -1,0 +1,16 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+surabhi foods,navigational,homepage,https://surabhi-foods.com/,,,high,active
+surabhi sauces,navigational,homepage,https://surabhi-foods.com/,,,high,active
+vegetarian sauces india,commercial,collection,https://surabhi-foods.com/collections/all,,,high,new
+sauces online india,transactional,collection,https://surabhi-foods.com/collections/all,,,high,new
+buy sauces online india,transactional,collection,https://surabhi-foods.com/collections/all,,,high,new
+tomato ketchup online,transactional,collection,https://surabhi-foods.com/collections/all,,,high,new
+mayonnaise online india,transactional,collection,https://surabhi-foods.com/collections/mayonnaise,,,high,new
+buy mayonnaise online,transactional,collection,https://surabhi-foods.com/collections/mayonnaise,,,high,new
+jain sauces,commercial,collection,https://surabhi-foods.com/collections/jain-range,,,high,new
+jain sauce without onion garlic,commercial,collection,https://surabhi-foods.com/collections/jain-range,,,high,new
+no onion no garlic sauces,commercial,collection,https://surabhi-foods.com/collections/jain-range,,,high,new
+jain mayonnaise,commercial,collection,https://surabhi-foods.com/collections/jain-range,,,high,new
+ginger garlic paste online,transactional,collection,https://surabhi-foods.com/collections/all,,,high,new
+jain recipes without onion garlic,informational,blog,https://surabhi-foods.com/pages/recipes-1,,,high,new
+recipes with mayonnaise indian,informational,blog,https://surabhi-foods.com/pages/recipes-1,,,medium,new

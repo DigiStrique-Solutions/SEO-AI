@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-07-27T17:51:45+05:30",
+  "source": "User-supplied pasted-text attachment",
+  "task": "Review trekking blog against OFFLIMITS fundamentals and check AI-pattern percentage",
+  "local_authenticity_check": {
+    "tool": "Strique local AI text risk gate",
+    "score": 6.0,
+    "max_score": 20.0,
+    "status": "pass",
+    "word_count_reported_by_harness": 1079,
+    "authenticity_status": "fail",
+    "error": "rewrite uses best/top language without best_top claim support"
+  },
+  "external_detector_check": {
+    "tool": "ZeroGPT",
+    "status": "not_checked_blocked",
+    "error": "403 Not enough credits",
+    "fallback_source": "Strique local AI text risk gate",
+    "fallback_score": 6.0,
+    "note": "The fallback is not a fresh ZeroGPT percentage and is a weak editorial signal only."
+  },
+  "fundamentals_findings": [
+    "The opening identifies the post-monsoon problem but delays named OFFLIMITS product guidance.",
+    "The draft repeatedly uses unsupported best/superior/excellent language.",
+    "Claims about deep lugs, multi-directional tread, toe caps, quick-drying materials, injury reduction and technical-trail protection are not supported by the verified product specifications in scope.",
+    "The S.W.A.T. variants are listed without their actual upper and insock differences.",
+    "ONYX products from the previously approved six-product scope are omitted.",
+    "The FAQ block follows the CTA rather than appearing before the conclusion and CTA.",
+    "The draft contains a title typo, a forced keyword typo and mojibake apostrophes."
+  ]
+}

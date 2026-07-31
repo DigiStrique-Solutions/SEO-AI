@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "run_id": "spykar-audits-20260729",
+  "reconciled_at": "2026-07-29T12:05:00Z",
+  "reason": "Phase 2 keyword outputs became available after the initial Phase 4 audit run.",
+  "supersedes_blocker": "The keyword workspace was not present.",
+  "keyword_research": {
+    "status": "available",
+    "generated_at": "2026-07-29T11:49:00Z",
+    "target_country": "India",
+    "language": "en-IN",
+    "gsc_property": "https://spykar.com/",
+    "gsc_permission_level": "siteOwner",
+    "date_range": {
+      "start_date": "2025-04-01",
+      "end_date": "2026-07-26"
+    },
+    "counts": {
+      "deduped_universe_rows": 44,
+      "prioritized_rows": 28,
+      "clusters": 9,
+      "gsc_query_sample_rows": 100,
+      "gsc_page_sample_rows": 50
+    },
+    "homepage_cluster": {
+      "cluster_id": "brand-navigation",
+      "keyword": "spykar",
+      "intent": "navigational",
+      "page_type": "homepage",
+      "target_url": "https://spykar.com/",
+      "gsc_clicks": 114834,
+      "gsc_impressions": 453623,
+      "gsc_position": 1.13
+    },
+    "commercial_clusters": [
+      "mens-jeans",
+      "womens-jeans",
+      "denim-fit-and-colour",
+      "mens-topwear",
+      "cargo-and-underjeans",
+      "local-stores"
+    ]
+  },
+  "evidence_inputs": [
+    "keywords/research-summary.json",
+    "keywords/clusters.json",
+    "keywords/universe.csv",
+    "keywords/keywords.csv",
+    "logs/keywords/raw/20260729T114815Z-gsc-query-page-export.json",
+    "logs/keywords/raw/20260729T114900Z-keyword-selection.json"
+  ],
+  "rows_reconciled": [
+    "content-seo.intent-match",
+    "content-seo.keyword-coverage"
+  ],
+  "score_change": null,
+  "remaining_limitations": [
+    "Keyword Planner was unavailable because GOOGLE_ADS_PLATFORM_ID was unset; volume and difficulty remain blank.",
+    "The saved GSC research is a bounded top-100 India query and top-50 India page sample, not a complete paginated export."
+  ]
+}

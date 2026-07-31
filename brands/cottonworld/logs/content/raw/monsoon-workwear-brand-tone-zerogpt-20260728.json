@@ -1,0 +1,13 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-28T12:42:11.2169755Z",
+    "max_score": 20.0,
+    "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after adding Cottonworld's slow-living brand voice. ZeroGPT labelled it \"Your Text is Human written\". This is a weak editorial signal, not proof of authorship.",
+    "score": 17.6,
+    "source": "live_web_ui",
+    "status": "pass",
+    "tool": "zerogpt.com"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

@@ -1,0 +1,58 @@
+{
+  "provider": "firecrawl",
+  "endpoint": "crawl",
+  "crawl_id": "019fa273-d67a-76eb-8016-ca2511d15008",
+  "status": "completed",
+  "completed": 35,
+  "total": 35,
+  "credits_used": 175,
+  "expires_at": "2026-07-28T07:23:46.000Z",
+  "request": {
+    "url": "https://winn-foods.com/",
+    "maxDiscoveryDepth": 1,
+    "limit": 35,
+    "sitemap": "include",
+    "allowExternalLinks": false,
+    "deduplicateSimilarURLs": true,
+    "formats": ["json", "links"]
+  },
+  "homepage_result": {
+    "url": "https://winn-foods.com/",
+    "status_code": 200,
+    "page_title": "Winn Foods - Authentic Chinese Flavors",
+    "summary": "Winn Foods offers a variety of Chinese sauces and masalas, aiming to bring authentic Indo-Chinese flavors to your kitchen. They provide various products including instant cooking mixes and ready-to-use sauces.",
+    "audiences": ["home cooks", "food enthusiasts", "people interested in Indo-Chinese cuisine"],
+    "offerings": ["Chinese sauces", "Chinese masalas", "instant cooking mixes", "noodles", "sauces and chutneys"],
+    "brand_claims": [
+      "Authentic Indo-Chinese taste at home",
+      "Made with premium ingredients",
+      "MSG free, natural flavors, no artificial colors",
+      "Trans fat free and no preservatives"
+    ],
+    "proof_points": [
+      "20% off on first order with code FIRST20",
+      "Free shipping on orders above ₹500",
+      "Wide variety of products including combo deals"
+    ],
+    "voice_samples": [
+      "Turn Every Meal Into Chinese Magic",
+      "Authentic Indo-Chinese Taste at Home",
+      "Premium Ingredients"
+    ],
+    "conversion_actions": ["Shop now", "Subscribe to newsletter", "Browse recipes"],
+    "recipe_links": [
+      "https://winn-foods.com/blogs/recipes/chilli-vinegar-dumplings",
+      "https://winn-foods.com/blogs/recipes/chilli-vinegar-salad-dressing",
+      "https://winn-foods.com/blogs/recipes/mixed-vegetable-manchurian-gravy"
+    ],
+    "favicon": "https://winn-foods.com/cdn/shop/files/FAVICON-_winn_-transparent_1.png?crop=center&height=32&v=1770989422&width=32",
+    "og_image": "https://winn-foods.com/cdn/shop/files/imgi_94_Asset-1_7b617dd9-c5ad-4543-bfd5-229c4385c4b8.png?v=1770984779"
+  },
+  "additional_observed_page_types": [
+    "agents.md",
+    "collection pages",
+    "product pages",
+    "recipe pages"
+  ],
+  "note": "This immutable record preserves the crawl job metadata and the complete structured homepage result returned in the connector response. The connector response contained 35 page records and exceeded the local transcript limit; the Firecrawl crawl_id is retained for provider-side traceability."
+}

@@ -30,6 +30,8 @@ Orchestrator is the only user-facing control plane → `run_sub_agent(agent_id="
 Prefer: `Summary · Top findings · Evidence · Priority fixes · Implementation notes · Expected impact · Open questions`.
 Audit findings include: **severity** (critical/high/medium/low) · **evidence** (URL, metric, GSC/analytics row, rendered-page observation) · **fix** (concrete) · **owner** · **confidence**. If evidence is missing, say so — do not invent it.
 
+**Mandatory user-facing document format:** Whenever the user asks for, or the task produces, a document/file deliverable, create and provide it as a Google Doc. Never give the user a Markdown (`.md`) file as the deliverable. Repository-internal Markdown may still be maintained when required by the runtime, schemas, skills, logs, or existing storage conventions.
+
 ## Full-audit mode (every checklist / complete audit)
 
 Don't claim an item was checked without a recorded status **and** evidence. Per item: `Status: pass | fail | not_applicable | not_checked_blocked` + evidence source + result + blocker + next action. Use `not_checked_blocked` when access/tools/rendering are missing — **never** silently turn an unverified item into a pass. A full audit is complete only when every item is pass/fail/not_applicable; otherwise call it partial and list what's needed. Browser-rendered checks are required before claiming schema/JS-content/mobile/accessibility status.
@@ -37,6 +39,10 @@ Don't claim an item was checked without a recorded status **and** evidence. Per 
 ## Content authenticity gate (publish-ready customer-facing copy)
 
 Cite ≥1 real source (product facts, brand-dna, customer language, GSC/analytics) before rewriting. AI-detector scores are weak signals, not proof — don't chase them with errors or filler. No generic "best/top" claims without criteria or evidence; prefer concrete, brand-specific observations; label assumptions instead of overstating certainty.
+
+**Mandatory SERP benchmark before writing any blog.** Search the proposed blog title on the live SERP and review the top three relevant organic blog results. Compare and record each result's **tone**, **content length**, and **content structure** (including headings and section flow), with the ranking URL and access date as evidence. Use the combined findings as a benchmark for the new blog's tone, target depth, and outline while preserving the brand's own voice, facts, and originality; do not copy wording or reproduce a competitor's structure verbatim. Log the SERP research and raw source output under the brand's `logs/content/` provenance trail. If live SERP access or fewer than three relevant blog results are available, state the limitation instead of inventing the comparison.
+
+**Mandatory ZeroGPT check for every blog.** Check the final blog draft on [ZeroGPT](https://www.zerogpt.com/) and record the AI-detection percentage, check date, and evidence in the brand's content-authenticity log. The score must be **strictly below 20%** before the blog can be treated as publish-ready; a score of exactly 20% fails. If the score is 20% or higher, revise the draft using source-backed, brand-specific edits and recheck it until it passes—never lower the score by adding errors, filler, fake anecdotes, or unsupported claims. Treat the detector score as an editorial risk signal, not proof of authorship. If ZeroGPT is unavailable or the result cannot be verified, mark the gate as blocked and do not claim the blog passed.
 
 ## MCP & safety
 

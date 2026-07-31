@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "audit_id": "core-web-vitals",
+  "audit_ref": "../../../audit-library/core-web-vitals.json",
+  "target_url": "https://surabhi-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 78.57,
+  "counts": {"pass": 4, "fail": 2, "not_applicable": 0, "total": 6},
+  "evidence_inputs": [
+    "../logs/audits/raw/20260727T073700Z-pagespeed-crux-mobile.json",
+    "../logs/audits/raw/20260727T073900Z-lighthouse-mobile.json",
+    "../logs/audits/raw/20260727T074000Z-lighthouse-run-note.json"
+  ],
+  "rows": [
+    {
+      "item_id": "lcp",
+      "section_id": "loading",
+      "severity": "high",
+      "status": "pass",
+      "result": "Mobile URL-level CrUX LCP p75 is 2,063 ms, within 2.5 s. Lab LCP is much worse (11.64 s PageSpeed; 10.78 s local Lighthouse), so the field pass has material lab risk.",
+      "next_action": "Protect the field pass while reducing lab LCP through hero-image prioritisation, smaller critical assets, and less main-thread work.",
+      "evidence_ref": "../logs/audits/raw/20260727T073700Z-pagespeed-crux-mobile.json"
+    },
+    {
+      "item_id": "ttfb",
+      "section_id": "loading",
+      "severity": "medium",
+      "status": "pass",
+      "result": "Mobile CrUX TTFB p75 is 716 ms and local Lighthouse server response is 50 ms, both within the 800 ms criterion.",
+      "next_action": "Monitor field TTFB and avoid app/theme changes that add server latency.",
+      "evidence_ref": "../logs/audits/raw/20260727T073700Z-pagespeed-crux-mobile.json"
+    },
+    {
+      "item_id": "inp",
+      "section_id": "interactivity",
+      "severity": "high",
+      "status": "pass",
+      "result": "URL-level CrUX did not return INP, but mobile origin-level PageSpeed field data reports INP p75 of 130 ms, within 200 ms.",
+      "next_action": "Retain the origin-level pass and monitor URL-level INP as traffic accumulates.",
+      "evidence_ref": "../logs/audits/raw/20260727T073700Z-pagespeed-crux-mobile.json"
+    },
+    {
+      "item_id": "render-blocking",
+      "section_id": "interactivity",
+      "severity": "medium",
+      "status": "fail",
+      "result": "Local Lighthouse performance is 37 and its render-blocking insight score is 0.5; lab LCP is 10.78 s, showing a material critical-path opportunity.",
+      "next_action": "Inline critical CSS, defer noncritical theme/app scripts and styles, preload the true hero asset, and retest with a clean mobile Lighthouse run.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-lighthouse-run-note.json"
+    },
+    {
+      "item_id": "cls",
+      "section_id": "stability",
+      "severity": "high",
+      "status": "pass",
+      "result": "Mobile URL-level CrUX CLS p75 is 0.00 and local Lighthouse CLS is effectively zero, within 0.1.",
+      "next_action": "Continue reserving media and dynamic-component dimensions.",
+      "evidence_ref": "../logs/audits/raw/20260727T073700Z-pagespeed-crux-mobile.json"
+    },
+    {
+      "item_id": "image-optimization",
+      "section_id": "stability",
+      "severity": "low",
+      "status": "fail",
+      "result": "Local Lighthouse image-delivery insight scores 0; the rendered homepage also loads many large Shopify image variants and product assets.",
+      "next_action": "Serve correctly sized responsive sources, modern formats, sensible quality, lazy-load below-fold media, and prioritise only the LCP image.",
+      "evidence_ref": "../logs/audits/raw/20260727T074000Z-lighthouse-run-note.json"
+    }
+  ]
+}

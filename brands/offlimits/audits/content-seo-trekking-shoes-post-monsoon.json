@@ -4,8 +4,8 @@
   "audit_id": "content-seo",
   "audit_ref": "audit-library/content-seo.json",
   "target_url": "https://offlimits.co.in/blogs/blogs/trekking-shoes-for-men-post-monsoon-hike",
-  "run_date": "2026-07-22",
-  "scope_note": "Final corrected assessment using the exact six product links supplied by the user: three ONYX and three S.W.A.T. Trail Edition variants. All six official product pages were verified on 2026-07-22. Keyword volumes remain user-supplied and unverified by connected GSC or Keyword Planner data.",
+  "run_date": "2026-07-27",
+  "scope_note": "Rewritten assessment using the exact six product links supplied by the user: three ONYX and three S.W.A.T. Trail Edition variants. Product claims trace to the six official pages verified on 2026-07-22. Keyword volumes remain user-supplied and unverified by connected GSC or Keyword Planner data.",
   "score": 1.0,
   "counts": {"items": 7, "pass": 7, "fail": 0, "not_applicable": 0, "not_checked_blocked": 0},
   "rows": [
@@ -13,7 +13,7 @@
       "item_id": "page-purpose",
       "section_id": "purpose-intent",
       "status": "pass",
-      "result": "The article helps men choose between ONYX and S.W.A.T. Trail Edition for a post-monsoon hike using outsole, upper, cushioning, coverage and fit.",
+      "result": "The article immediately helps men choose between ONYX and S.W.A.T. Trail Edition for a post-monsoon hike using trail conditions, upper, cushioning, coverage and fit.",
       "next_action": "",
       "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.md"
     },
@@ -29,7 +29,7 @@
       "item_id": "content-depth",
       "section_id": "depth-quality",
       "status": "pass",
-      "result": "The 684-word buying guide distinguishes ONYX from S.W.A.T., explains the three S.W.A.T. upper-and-insock combinations, adds four purchase-focused FAQs and provides direct fit guidance.",
+      "result": "The 1,203-word buying guide distinguishes ONYX from S.W.A.T., explains all four construction choices, provides a scan-friendly comparison table, answers four purchase-focused FAQs and gives direct fit guidance.",
       "next_action": "",
       "evidence_ref": "../blogs/trekking-shoes-for-men-post-monsoon-hike.md"
     },
@@ -45,7 +45,7 @@
       "item_id": "freshness",
       "section_id": "depth-quality",
       "status": "pass",
-      "result": "All six supplied product pages were verified on 2026-07-22. FAQ schema is enabled, structured specification fields were used where narrative copy conflicted, and time-sensitive prices and stock were excluded.",
+      "result": "The article and metadata were refreshed on 2026-07-27 using all six product pages verified on 2026-07-22. FAQ schema is enabled, structured specification fields were used where narrative copy conflicted, and time-sensitive prices and stock were excluded.",
       "next_action": "Recheck all six product pages immediately before publication.",
       "evidence_ref": "../logs/content/raw/20260722T-six-trail-products-verification.json"
     },

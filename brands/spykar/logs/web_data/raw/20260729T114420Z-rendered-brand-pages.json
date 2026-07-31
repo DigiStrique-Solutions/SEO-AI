@@ -1,0 +1,32 @@
+{
+  "provider": "playwright",
+  "pages": [
+    {
+      "url": "https://spykar.com/pages/about-us",
+      "status": "ok",
+      "title": "About Us",
+      "heading": "Fueling strength Passion, And Ambition",
+      "evidence": [
+        "It all began with a dream of being India's leading homegrown denim brand.",
+        "Welcome to the Young at Heart Fashion Revolution!",
+        "Every pair of our jeans is infused with a playful spirit that embraces adventure, boldness, and endless possibilities.",
+        "Spykar was established in 1992.",
+        "Since 2014, Spykar has been a part of the Bagri family-promoted Metdist Group.",
+        "Spykar is present across 2250 points of sales, including 300+ exclusive stores, large format retail and major ecommerce platforms.",
+        "The page describes precision, craftsmanship, durability and reducing environmental impact as brand commitments."
+      ]
+    },
+    {
+      "url": "https://spykar.com/blogs/blog/spykar-spring-summer-2026-collection-roots-of-now",
+      "status": "ok",
+      "title": "Spykar Spring Summer 2026 Collection – Roots of Now",
+      "published_date": "2026-02-26",
+      "evidence": [
+        "Roots of Now is designed for a generation that values both legacy and hustle.",
+        "The line celebrates individualism, culture and modern fashion.",
+        "India's textures, landscapes and cultural subtleties are combined with international fashion aesthetics.",
+        "The collection emphasizes breathable materials, relaxed silhouettes, movement, comfort and self-expression."
+      ]
+    }
+  ]
+}

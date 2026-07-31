@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "updated_at": "2026-07-29",
+  "clusters": [
+    {
+      "cluster_id": "brand-navigation",
+      "name": "Spykar brand navigation",
+      "intent": "navigational",
+      "page_type": "homepage",
+      "target_url": "https://spykar.com/",
+      "pillar": false,
+      "keywords": ["spykar"],
+      "notes": "Protect the branded homepage result and its sitelinks."
+    },
+    {
+      "cluster_id": "mens-jeans",
+      "name": "Men's jeans",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "https://spykar.com/collections/men-jeans",
+      "pillar": true,
+      "keywords": ["spykar jeans", "spykar jeans for men", "jeans for men", "spykar jeans price", "black jeans men", "mens jeans", "cotton jeans for men", "denim jeans for men"],
+      "notes": "Core non-brand opportunity: high-impression generic denim queries cluster around average positions eight to nine."
+    },
+    {
+      "cluster_id": "womens-jeans",
+      "name": "Women's jeans",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": "https://spykar.com/collections/women-jeans",
+      "pillar": true,
+      "keywords": ["spykar jeans for women"],
+      "notes": "Dedicated women's denim pillar; GSC shows branded demand with room to improve."
+    },
+    {
+      "cluster_id": "denim-fit-and-colour",
+      "name": "Denim fits and colours",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["white jeans for men", "spykar bootcut jeans for men", "slim fit jeans for men", "light blue jeans", "ankle length jeans for men"],
+      "notes": "Each keyword maps to its existing fit or colour collection URL."
+    },
+    {
+      "cluster_id": "mens-topwear",
+      "name": "Men's shirts, T-shirts and jackets",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["spykar shirts", "spykar t shirt", "spykar shirts for men"],
+      "notes": "Separate collection pages should carry category-specific copy and internal links."
+    },
+    {
+      "cluster_id": "cargo-and-underjeans",
+      "name": "Cargo and underjeans",
+      "intent": "transactional",
+      "page_type": "collection",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["spykar cargo pants", "underjeans by spykar"],
+      "notes": "Secondary verticals with observed GSC demand."
+    },
+    {
+      "cluster_id": "local-stores",
+      "name": "Spykar stores",
+      "intent": "local",
+      "page_type": "store_locator",
+      "target_url": "https://spykar.com/a/storelocator",
+      "pillar": true,
+      "keywords": ["spykar showroom near me", "spykar store near me"],
+      "notes": "Local-intent cluster mapped to the store locator."
+    },
+    {
+      "cluster_id": "competitor-alternatives",
+      "name": "Denim brand alternatives",
+      "intent": "commercial",
+      "page_type": "comparison",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["levis alternative india", "pepe jeans alternative india", "killer jeans alternative", "best indian jeans brands"],
+      "notes": "Seed-only research opportunities based on the evidence-backed competitor frame; demand remains unverified."
+    },
+    {
+      "cluster_id": "denim-education",
+      "name": "Denim fit education",
+      "intent": "informational",
+      "page_type": "blog",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["denim fits guide", "high rise vs mid rise vs low rise jeans for men"],
+      "notes": "Evergreen fit-led content aligned with brand positioning; one existing article already addresses rise types."
+    }
+  ]
+}

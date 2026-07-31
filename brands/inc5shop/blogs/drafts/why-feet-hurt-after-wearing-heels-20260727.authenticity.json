@@ -1,0 +1,155 @@
+{
+  "claims": [
+    {
+      "claim_id": "heel-height-forefoot-pressure",
+      "claim_type": "comparison",
+      "criteria": "Mechanism is limited to the published study conclusion surfaced in the PubMed record; the copy does not turn pressure redistribution into a diagnosis.",
+      "source_ids": [
+        "pubmed-forefoot-pressure-study"
+      ],
+      "statement": "Increasing heel height is associated with increased medial forefoot loading pressure, helping explain why the ball of the foot may hurt after high heels."
+    },
+    {
+      "claim_id": "heel-pain-patterns",
+      "claim_type": "medical_guidance",
+      "criteria": "Symptom patterns are presented only as possible causes and are paired with an explicit instruction not to self-diagnose.",
+      "source_ids": [
+        "nhs-heel-pain",
+        "nhs-plantar-fasciitis",
+        "aaos-plantar-fasciitis"
+      ],
+      "statement": "Pain around the heel and arch, pain behind the heel, redness/swelling, or sudden pain after injury can have different causes and need different levels of assessment."
+    },
+    {
+      "claim_id": "self-care-guidance",
+      "claim_type": "medical_guidance",
+      "criteria": "Short-term self-care repeats current NHS guidance without prescribing medication or claiming a cure.",
+      "source_ids": [
+        "nhs-heel-pain",
+        "nhs-plantar-fasciitis"
+      ],
+      "statement": "General self-care may include rest, elevation, wrapped ice for up to 20 minutes every two to three hours, wide comfortable low-heeled shoes, and consideration of insoles or heel pads."
+    },
+    {
+      "claim_id": "medical-red-flags",
+      "claim_type": "medical_guidance",
+      "criteria": "Escalation criteria and the two-week timeframe are copied in substance from current NHS guidance; local emergency-service numbers are not invented.",
+      "source_ids": [
+        "nhs-heel-pain",
+        "nhs-plantar-fasciitis"
+      ],
+      "statement": "Severe, worsening, recurrent or activity-limiting pain, symptoms not improving after two weeks, tingling/loss of sensation, diabetes with foot pain, or major injury signs warrant professional or urgent care."
+    },
+    {
+      "claim_id": "inc5-shopping-guidance",
+      "claim_type": "product_fact",
+      "criteria": "Inc.5 examples are used only to illustrate verified heel-height and construction differences; no pain-free, therapeutic, stock or universal-comfort claim is made.",
+      "source_ids": [
+        "inc5-height-examples",
+        "inc5-heels-collection",
+        "inc5-transparent-heels-collection",
+        "inc5-fundamentals"
+      ],
+      "statement": "The related Inc.5 guide uses verified two-inch kitten and 2.5-inch block examples; current Inc.5 collection pages are the CTA targets for heels and transparent heels."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-27T11:26:14+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T11:15:04+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT was not verified because the account returned 'Not enough credits'. The 6% value is the separate local AI-pattern risk score and does not satisfy the mandatory ZeroGPT gate.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "blocked",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-27T11:24:01+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft_zero_gpt_blocked",
+    "target": "why-feet-hurt-after-wearing-heels-20260727"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Title: Why Do Feet Hurt After Wearing Heels? Causes and Prevention Tips. Supplied keyword set: heels for women, heels, heel pain, high heels, high heels for women, transparent heels, heel pain causes, heel pain reason, heel pain treatment and heel pain remedy.",
+      "source_id": "keyword-brief",
+      "source_ref": "User brief supplied 2026-07-27",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Possible symptom patterns include plantar fascia, Achilles, bursitis and injury-related pain. Guidance includes rest/elevation, wrapped ice up to 20 minutes every 2-3 hours, wide comfortable low-heeled shoes, soft soles, insoles/heel pads, avoiding high heels/tight pointy shoes, and explicit routine/urgent escalation criteria. Page says not to self-diagnose.",
+      "source_id": "nhs-heel-pain",
+      "source_ref": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/ (reviewed 2025-10-24; checked 2026-07-27)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Pain is around the bottom of heel/arch and often worse on first steps after rest. Advice includes rest, ice, cushioned heels/arch support, insoles/heel pads, gentle exercises, and avoiding high heels/tight pointy shoes. Seek care if severe, worsening/recurrent, unchanged after two weeks, with sensory loss, or with diabetes.",
+      "source_id": "nhs-plantar-fasciitis",
+      "source_ref": "https://www.nhs.uk/conditions/plantar-fasciitis/ (reviewed 2025-02-14; checked 2026-07-27)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "AAOS explains plantar-fascia irritation/inflammation, heel-bottom symptoms, overuse and hard-surface standing, plus supportive footwear, rest, stretching and ice as conservative measures.",
+      "source_id": "aaos-plantar-fasciitis",
+      "source_ref": "https://orthoinfo.aaos.org/en/diseases--conditions/plantar-fasciitis-and-bone-spurs (checked 2026-07-27)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "PubMed search record conclusion states that increased heel height resulted in increasing medial forefoot loading pressure. Direct page access returned reCAPTCHA, so the draft uses only that bounded conclusion and no sample or numerical claims.",
+      "source_id": "pubmed-forefoot-pressure-study",
+      "source_ref": "https://pubmed.ncbi.nlm.nih.gov/19912724/ \u2014 Ko et al., Relationship between plantar pressure and soft tissue strain under metatarsal heads with different heel heights (search record checked 2026-07-27)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Current Inc.5 pages verified a two-inch black kitten heel example and a 2.5-inch black block pump example, with toe shape, fastening, cushioning and wide-feet guidance. The related guide compares them without universal comfort claims.",
+      "source_id": "inc5-height-examples",
+      "source_ref": "brands/inc5shop/logs/web_data/raw/20260727T111529Z-block-kitten-blog-refresh.json + https://inc5shop.com/blogs/blog/block-heels-vs-kitten-heels-which-one-should-you-choose",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Official current Women's Heels collection and direct CTA target.",
+      "source_id": "inc5-heels-collection",
+      "source_ref": "https://inc5shop.com/collections/womens-heels (checked 2026-07-27)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Canonical Inc.5 commercial collection assigned to transparent heels and transparent heels for women. Copy makes no material or comfort claim about the category.",
+      "source_id": "inc5-transparent-heels-collection",
+      "source_ref": "https://inc5shop.com/collections/transparent-heel-for-women (active collection in brands/inc5shop/keywords/universe.csv; checked in brand inventory 2026-07-27)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Use Indian occasions, explain height/base/toe/fastening before recommendations, avoid pain-free or universal-comfort claims, link current collections and finish with a direct CTA.",
+      "source_id": "inc5-fundamentals",
+      "source_ref": "brands/inc5shop/fundamentals.md + brands/inc5shop/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "No existing Inc.5 article targets heel pain or why feet hurt after heels. Commercial heels terms belong to the Women's Heels collection; this article therefore targets informational heel-pain intent and uses the collection as a secondary CTA.",
+      "source_id": "inc5-cannibalization-check",
+      "source_ref": "brands/inc5shop/blogs/summary.md + brands/inc5shop/blogs/references + brands/inc5shop/keywords",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The top three relevant organic blog benchmarks used a supportive, practical tone and approximately 740-1,049 words, with question-led coverage of causes, prevention, relief and escalation. The FAQ addition remains concise because the Inc.5 draft already exceeds that depth.",
+      "source_id": "serp-faq-benchmark-20260728",
+      "source_ref": "brands/inc5shop/logs/content/raw/20260728-blog5-faq-serp-benchmark.json",
+      "source_type": "serp"
+    }
+  ]
+}

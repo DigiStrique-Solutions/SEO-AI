@@ -1,0 +1,20 @@
+{
+  "run_id": "surabhi-keywords-20260727T073205Z",
+  "ts": "2026-07-27T07:32:05Z",
+  "provider": "gsc",
+  "tool": "GOOGLE_SEARCH_CONSOLE_LIST_SITES",
+  "request": {
+    "target_website": "https://surabhi-foods.com/"
+  },
+  "status": "partial",
+  "result": {
+    "connection_active": true,
+    "accessible_property_count": 17,
+    "exact_target_property_found": false,
+    "gsc_property_used": null,
+    "search_analytics_queried": false,
+    "near_match_excluded": "sc-domain:surabhisauces.com"
+  },
+  "records": 0,
+  "next_action": "Connect and verify https://surabhi-foods.com/ or sc-domain:surabhi-foods.com in the active Search Console account, then rerun Phase 2."
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-audits-20260727T073600Z",
+  "captured_at": "2026-07-27T07:36:00Z",
+  "providers": {
+    "google_search_console": {
+      "connection_status": "active",
+      "account_id": "google_search_console_sate-canopy",
+      "property": "sc-domain:winn-foods.com",
+      "permission_level": "siteRestrictedUser",
+      "date_range": {
+        "start_date": "2026-04-25",
+        "end_date": "2026-07-24"
+      },
+      "search_analytics_log_id": "log_CoJxcY2uqNPn",
+      "page_rows": 64,
+      "notable_rows": [
+        {"page": "https://winn-foods.com/", "clicks": 1089, "impressions": 54231, "ctr": 0.020080765613763346, "position": 7.792867548081356},
+        {"page": "http://www.winn-foods.com/", "clicks": 29, "impressions": 2174, "ctr": 0.013339466421343146, "position": 5.850045998160073},
+        {"page": "https://www.winn-foods.com/", "clicks": 0, "impressions": 8, "ctr": 0, "position": 2.25},
+        {"page": "http://winn-foods.com/", "clicks": 0, "impressions": 1, "ctr": 0, "position": 2},
+        {"page": "https://winn-foods.com/blogs/news", "clicks": 1, "impressions": 766, "ctr": 0.0013054830287206266, "position": 6.113577023498695}
+      ],
+      "parameterized_product_variants_present": true,
+      "sitemaps": [
+        {
+          "path": "https://winn-foods.com/sitemap_index.xml",
+          "is_sitemap_index": true,
+          "last_submitted": "2025-03-10T05:39:30.912Z",
+          "last_downloaded": "2025-03-10T05:39:33.837Z",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "path": "https://winn-foods.com/page-sitemap.xml",
+          "is_sitemap_index": false,
+          "last_submitted": "2025-03-10T05:37:17.738Z",
+          "last_downloaded": "2026-02-08T12:16:08.884Z",
+          "errors": 1,
+          "warnings": 2,
+          "submitted_web": 11,
+          "indexed_web": 0,
+          "submitted_images": 120,
+          "indexed_images": 0
+        }
+      ],
+      "limitations": [
+        "Search Analytics returns only URLs with impressions and cannot prove complete indexation coverage.",
+        "Restricted permission and the available tool set did not expose a complete Page Indexing coverage report."
+      ]
+    },
+    "google_analytics_4": {
+      "connection_status": "active",
+      "account": "accounts/391939835",
+      "property": "properties/533748438",
+      "display_name": "Winn Foods",
+      "currency": "INR",
+      "timezone": "Asia/Calcutta",
+      "date_range": {
+        "start_date": "2026-04-25",
+        "end_date": "2026-07-24"
+      },
+      "report_log_id": "log_3F8TFmoVvVIu",
+      "row_count": 91,
+      "totals": {
+        "sessions": 13238,
+        "active_users": 11267,
+        "key_events": 87,
+        "purchase_revenue": 19467.999743
+      },
+      "top_landing_pages": [
+        {"landing_page": "/collections/chinese-sauces", "sessions": 8843, "active_users": 7955, "key_events": 45, "purchase_revenue": 10092.999651},
+        {"landing_page": "/products/hakka-noodles-currly-chow", "sessions": 1198, "active_users": 987, "key_events": 9, "purchase_revenue": 1564.999871},
+        {"landing_page": "/", "sessions": 1071, "active_users": 829, "key_events": 5, "purchase_revenue": 938.999989},
+        {"landing_page": "/products/green-chilli-mirchilli-sauce-200g", "sessions": 1007, "active_users": 890, "key_events": 13, "purchase_revenue": 3462.000084}
+      ],
+      "anomalous_or_legacy_paths_observed": [
+        "/wp-login.php",
+        "/collections/power-stretch-all-mode-pants",
+        "/pages/men",
+        "//products",
+        "/products/brizy-3622"
+      ]
+    }
+  }
+}

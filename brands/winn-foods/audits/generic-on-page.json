@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 0.59,
+  "counts": {"items": 7, "pass": 4, "fail": 3, "not_applicable": 0, "not_checked_blocked": 0},
+  "evidence_inputs": ["logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json"],
+  "rows": [
+    {"item_id": "title-present", "section_id": "titles-meta", "status": "fail", "result": "Rendered homepage title is \"Winn Foods\" (10 characters), below the 30-60 character criterion; sampled product titles of 27 and 28 characters also miss the range.", "next_action": "Write unique, intent-led titles for the homepage and product templates, keeping priority pages near 30-60 characters.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/title"},
+    {"item_id": "meta-description", "section_id": "titles-meta", "status": "fail", "result": "The rendered homepage has no meta description; a sampled soup product description is 238 characters, above the 160-character criterion.", "next_action": "Add a unique homepage description and constrain template descriptions to 70-160 characters.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/meta_description"},
+    {"item_id": "single-h1", "section_id": "headings", "status": "pass", "result": "The rendered homepage contains exactly one H1, satisfying the count criterion, but its text is empty.", "next_action": "Populate the existing H1 with a concise homepage topic rather than leaving it empty.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/h1_count"},
+    {"item_id": "heading-order", "section_id": "headings", "status": "pass", "result": "The rendered homepage begins H1 → H2 → H3 without a skipped level, although many heading elements are empty.", "next_action": "Remove empty heading elements and preserve the observed level hierarchy.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/heading_sequence_starts"},
+    {"item_id": "image-alt", "section_id": "media-links", "status": "fail", "result": "Rendered homepage and sampled product/blog templates contain multiple meaningful images with empty alt attributes; the evidence does not support the >=95% requirement.", "next_action": "Audit Shopify image fields by template and add concise, contextual alt text to meaningful category, product, editorial, and trust imagery.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/images_with_empty_alt_observed"},
+    {"item_id": "canonical", "section_id": "media-links", "status": "pass", "result": "The rendered homepage and sampled product/blog pages declare clean self-referencing HTTPS canonicals.", "next_action": "Keep self-referencing canonicals and separately consolidate indexed HTTP/www/parameter variants.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#sample_page_findings"},
+    {"item_id": "status-200", "section_id": "media-links", "status": "pass", "result": "The target homepage and sampled product/blog records returned HTTP 200; Firecrawl completed all 20 requested records.", "next_action": "Re-run a full uncapped crawl for complete status and soft-404 coverage.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/0"}
+  ]
+}

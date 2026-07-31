@@ -1,0 +1,229 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-28T09:17:09+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.63,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:36:12+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:55:29+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T09:55:34+00:00",
+      "max_score": 20.0,
+      "note": "Exact final article body tested interactively on zerogpt.com after rewriting. ZeroGPT displayed 'Your Text is Human written'. Detector percentages are weak editorial signals, not proof of authorship.",
+      "score": 16.3,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T11:26:02+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-28T11:25:52.1935259Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after applying the editorial feedback. ZeroGPT labelled it \"Your Text is Most Likely Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 19.6,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T12:42:11.2169755Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after adding Cottonworld's slow-living brand voice. ZeroGPT labelled it \"Your Text is Most Likely Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 19.2,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-28T14:49:50.6431613Z",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after revising the highlighted introduction passage. ZeroGPT labelled it \"Your Text is Most Likely Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 16.7,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-29T12:33:00+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after rewriting all five FAQ headings as natural questions. ZeroGPT labelled it \"Your Text is Human written\". The score is a weak editorial signal, not proof of authorship.",
+      "score": 18.6,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-28T09:15:10+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "ready",
+    "target": "Cottonworld blog: 8 Relaxed Outfit Ideas for Humid, Rainy Days"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld is an Indian natural-clothing brand founded in 1987.",
+        "The brand voice leads with comfort, natural fabric, usefulness and longevity.",
+        "The audience includes Indian men and women seeking natural-fabric daily clothing."
+      ],
+      "source_id": "brand-dna-20260727",
+      "source_ref": "brands/cottonworld/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Requested title: 8 Relaxed Outfit Ideas for Humid, Rainy Days.",
+        "Requested terms include rainy day outfits, monsoon outfit ideas, monsoon fashion, rainy season outfits, cotton clothing for men and cotton clothing for women.",
+        "The women's keyword was supplied twice with conflicting volumes of 1,900 and 2,400; the draft does not quote either figure."
+      ],
+      "source_id": "user-keyword-brief-20260728",
+      "source_ref": "user brief in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld describes cotton as soft, breathable and versatile.",
+        "Cottonworld describes cotton-linen as combining cotton's softness with linen's structure."
+      ],
+      "source_id": "cottonworld-fabrics-20260728",
+      "source_ref": "https://cottonworld.net/pages/fabrics",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live collection includes regular-fit 100% cotton shirts.",
+        "The live collection includes a sky Oxford cotton half-sleeve shirt and a white band-collar short-sleeve cotton shirt."
+      ],
+      "source_id": "cottonworld-men-cotton-20260728",
+      "source_ref": "https://cottonworld.net/collections/cotton-mens",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live feed includes an ankle-length beige cotton-lycra regular-fit pant.",
+        "The live feed includes an ankle-length denim 100% cotton regular-fit culotte.",
+        "The live feed includes a peach 100% cotton short-sleeve blouse and a green 100% organic cotton short-sleeve T-shirt.",
+        "The live feed includes a black cotton-bamboo-elastane regular-fit knit pant."
+      ],
+      "source_id": "cottonworld-women-cotton-20260728",
+      "source_ref": "https://cottonworld.net/collections/cotton-womens/products.json?limit=8",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The India Meteorological Department uses June to September as India's main monsoon season in its monsoon FAQ."
+      ],
+      "source_id": "imd-monsoon-faq-20260728",
+      "source_ref": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Tone reference only: uses an upbeat opening and occasion-led sections such as city plans, staying in and coffee runs.",
+        "Tone reference only: keeps each outfit formula short, conversational and tied to a recognisable rainy-day situation.",
+        "No distinctive phrases, claims or product recommendations were copied into the Cottonworld draft."
+      ],
+      "source_id": "girls-life-tone-reference-20260728",
+      "source_ref": "https://girlslife.com/style/322431/rainy-day-outfit-inspo-that-wont-ruin-your-summer-vibe/",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": [
+        "Tone reference only: pairs a personal, readable introduction with a numbered and highly scannable outfit list.",
+        "Tone reference only: connects fabric choices to concrete occasions and gives brief styling variations.",
+        "No distinctive phrases, personal anecdotes, trend claims or product recommendations were copied into the Cottonworld draft."
+      ],
+      "source_id": "instyle-tone-reference-20260728",
+      "source_ref": "https://www.instyle.com/humid-weather-outfit-ideas-11981898",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": [
+        "Editorial feedback: the previous draft was not satisfactory because its paragraphs were too short.",
+        "Editorial feedback: the article relied too heavily on colour shades.",
+        "Revision rule: use fuller paragraphs and mention colour only where it has a practical purpose."
+      ],
+      "source_id": "user-editorial-feedback-20260728",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The first relevant organic blog used 756 words and 8 headings, moving from five travel outfits to essentials and FAQs.",
+        "The second relevant organic blog used 1,563 words and 12 outfit-formula headings.",
+        "The third relevant organic blog used 995 words and 17 headings, covering fabrics, outfits, mistakes and FAQs.",
+        "The combined benchmark supports a practical, conversational, occasion-led article of roughly 1,300 to 1,650 words without copying competitor wording or structure."
+      ],
+      "source_id": "rainy-day-outfits-serp-benchmark-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/rainy-day-outfits-serp-benchmark-20260728.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Slow living is Cottonworld's central brand asset and editorial lens.",
+        "Cottonworld blogs should speak about living well first, then let clothing become part of that story.",
+        "Clothing should support everyday life rather than dominate it.",
+        "The voice should feel calm, assured, natural, intentional, warm and human."
+      ],
+      "source_id": "cottonworld-blog-writing-guideline-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/cottonworld-blog-writing-guideline-20260728.json",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The Google Doc reviewer highlighted the final two sentences of the introduction.",
+        "The exact review instruction was: Change these line.",
+        "The revised passage should explain cotton's relevance to a humid day and connect the outfit ideas to familiar pieces that remain useful after the rain."
+      ],
+      "source_id": "rainy-day-blog-google-doc-comment-20260728",
+      "source_ref": "Google Doc comment AAAB_hs7XxY on document 1P_jS2BECDZLLohHOk-zTL9F7bqm1aVAyuIPqxnO_W5I",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "All five Blog 1 FAQ headings should be written as genuine reader questions rather than topic labels.",
+        "The FAQ answers and the paragraph-led main article should remain unchanged."
+      ],
+      "source_id": "user-rainy-day-faq-feedback-20260729",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    }
+  ]
+}

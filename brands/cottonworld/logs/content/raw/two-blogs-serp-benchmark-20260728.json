@@ -1,0 +1,97 @@
+{
+  "access_date": "2026-07-28",
+  "location": "India",
+  "provider": "Firecrawl live web search and page extraction",
+  "limitations": [
+    "The exact proposed travel title returned mostly social posts, so a broader India travel-packing query was required.",
+    "The exact proposed date-outfit title returned no results, so a broader India date-outfit query was required.",
+    "Word counts are Firecrawl estimates of the main article body."
+  ],
+  "travel_blog": {
+    "target_title": "Long-Weekend Packing List: 9 Comfortable Pieces for Travel in India",
+    "queries": [
+      "\"Long-Weekend Packing List\" comfortable pieces travel India blog",
+      "India travel packing list comfortable breathable clothes capsule wardrobe blog -instagram -pinterest"
+    ],
+    "search_ids": [
+      "019fa93f-0b6b-724b-a051-773b545956e0",
+      "019fa93f-4f32-7717-a5ad-69ea545a66bc"
+    ],
+    "results": [
+      {
+        "position": 1,
+        "url": "https://thetravelhack.com/travel-tips/women-wear-travelling-india/",
+        "title": "What women should pack when travelling to India",
+        "tone": "Informative, personal and practical.",
+        "word_count": 1667,
+        "structure": "Context-setting introduction; item-by-item packing list; practical India clothing tips; related reading."
+      },
+      {
+        "position": 3,
+        "url": "https://www.ottsworld.com/blogs/best-travel-clothing-guide/",
+        "title": "Travel Clothing: What to Wear, How to Pack, Clothing Brands",
+        "tone": "Detailed, expert and highly instructional.",
+        "word_count": 10396,
+        "structure": "Travel-clothing criteria; six functional features; capsule method; fabric comparison; brands; investment rationale; FAQs."
+      },
+      {
+        "position": 5,
+        "url": "https://www.veromoda.in/blogs/fashion/vacation-capsule-wardrobe-less-packing-more-outfits",
+        "title": "Vacation Capsule Wardrobe: Less Packing, More Outfits",
+        "tone": "Concise, informative and commercial.",
+        "word_count": 950,
+        "structure": "Versatility rule; mix-and-match method; destination edits; dresses; fabrics; styling changes; packing mistakes; FAQs."
+      }
+    ],
+    "combined_benchmark": {
+      "target_word_count": "1400-1650",
+      "tone": "Practical and reassuring, with enough specificity to be useful but less exhaustive than the 10,000-word reference guide.",
+      "structure": "Life-first introduction; journey and fabric context; numbered nine-piece list; mix-and-match plan; packing method; reflective close.",
+      "originality_note": "The Cottonworld article uses a gender-inclusive nine-piece long-weekend capsule and the brand's slow-living lens rather than reproducing any competitor outline."
+    }
+  },
+  "date_blog": {
+    "target_title": "Comfortable Date Outfits for Brunch, a Walk or Dinner",
+    "queries": [
+      "\"Comfortable Date Outfits for Brunch, a Walk or Dinner\" India blog",
+      "comfortable date outfits India brunch walk dinner women men blog -pinterest -instagram"
+    ],
+    "search_ids": [
+      "019fa93f-a3d4-7128-9370-fc85e84a2210",
+      "019fac6d-b970-71cc-be86-4eed6df4b902"
+    ],
+    "results": [
+      {
+        "position": 1,
+        "url": "https://blog.beyoung.in/2026-mens-date-night-outfit-trends/",
+        "title": "2026 Men's Date Night Outfit Trends & Styling Guide",
+        "tone": "Informative, trend-led and directive.",
+        "word_count": 1328,
+        "structure": "Why outfits matter; seven garment trends with styling tips; scenario formulas; colour and fabric section; final tips."
+      },
+      {
+        "position": 4,
+        "url": "https://www.numerounojeanswear.com/blogs/clothing/valentine-s-day-casual-date-outfits-relaxed-yet-romantic",
+        "title": "Valentine's Day Casual Date Outfits: Relaxed Yet Romantic",
+        "tone": "Informal, approachable and youth-focused.",
+        "word_count": 615,
+        "structure": "Short context-setting introduction; alternating men's and women's product-led outfit suggestions; brief recap."
+      },
+      {
+        "position": 5,
+        "url": "https://www.westside.com/blogs/stories/brunch-outfit-ideas-westside",
+        "title": "Brunch Outfit Ideas: Effortless Women's Style",
+        "tone": "Informal and playful, with frequent rhetorical questions.",
+        "word_count": 860,
+        "structure": "Brunch dress code; social context; style personalities; outfit categories; what happens after brunch."
+      }
+    ],
+    "combined_benchmark": {
+      "target_word_count": "1200-1400",
+      "tone": "Warm and approachable without trend pressure or repeated rhetorical questions.",
+      "structure": "Life-first introduction; fabric and fit explanation; women and men within brunch, walking and dinner scenarios; day-to-night formula; concise FAQs; emotional close.",
+      "originality_note": "The Cottonworld article fills the gender and occasion gap in the ranking set while using slow living, repeat wear and natural fabrics as its own editorial frame."
+    }
+  }
+}
+

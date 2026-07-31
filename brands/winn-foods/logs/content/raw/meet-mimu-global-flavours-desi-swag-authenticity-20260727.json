@@ -1,0 +1,96 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-27T08:52:00+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-27T08:53:02+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-27T08:58:28+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-27T08:49:50+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://winn-foods.com/blogs/news/meet-mimu-global-flavours-desi-swag"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Winn Foods sells products for quick Indo-Chinese cooking at home.",
+        "The public catalog includes sauces and chutneys, Chinese masalas and instant cooking mixes, Hakka noodles, instant soups, combo packs, and recipes.",
+        "The brand voice is playful, energetic, appetite-led, and convenience-forward."
+      ],
+      "source_id": "winn-brand-dna-20260727",
+      "source_ref": "brands/winn-foods/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Existing editorial posts use questions, playful hooks, short-to-medium sentences, scannable sections, FAQs, and collection CTAs.",
+        "Approved copy should use dish-specific language and selective wordplay while avoiding unsupported health, ingredient, heritage, and performance claims."
+      ],
+      "source_id": "winn-content-style-20260727",
+      "source_ref": "brands/winn-foods/blogs/summary.md and brands/winn-foods/knowledge.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "First-party Winn Foods creative identifies Mimu as a panda mascot.",
+        "Official artwork shows Mimu wearing a gold MIMU chain against a red stage backdrop.",
+        "A December 2025 campaign used a Souper Tasty track titled Hello I am MIMU.",
+        "July 2026 first-party posts place Mimu with the Winn soup range and use the character to celebrate Winn's arrival at six D-Mart stores in Chhattisgarh."
+      ],
+      "source_id": "mimu-first-party-social-20260727",
+      "source_ref": "brands/winn-foods/logs/content/raw/20260727T084900Z-mimu-first-party-social-evidence.json",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Approved article concept and title: Meet Mimu: The Face of Global Flavours Desi Swag."
+      ],
+      "source_id": "mimu-user-brief-20260727",
+      "source_ref": "User brief in Codex task dated 2026-07-27",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The Winn Foods homepage includes a dedicated image asset named winn_mimu_banner_v1.1.jpg with alt text Winn Foods Mimu Banner.",
+        "The Mimu homepage banner links directly to the Winn soup collection and appears near the lines Choose Your Chinese Fix and Turn Every Meal Into Chinese Magic.",
+        "The live soup collection lists Sweet Corn FAB, Hot & Sour AHA, Manchow YUM, Tomato YIN YANG and Mix Veg OMG soups.",
+        "The About page says Chinese food in India has become a family favourite and comfort food, and positions Winn around spice, tang, umami and restaurant-style Chinese cooking at home.",
+        "The site's own search returned zero results for Mimu, and no dedicated Mimu biography or article was found."
+      ],
+      "source_id": "mimu-winn-website-20260727",
+      "source_ref": "brands/winn-foods/logs/content/raw/20260727T085500Z-mimu-website-evidence.json",
+      "source_type": "product_page"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "provider": "gsc",
+  "tool": "GOOGLE_SEARCH_CONSOLE_LIST_SITES",
+  "composio_log_id": "log_AuJa0VkPMGeE",
+  "siteEntry": [
+    {"permissionLevel":"siteFullUser","siteUrl":"sc-domain:strique.io"},
+    {"permissionLevel":"siteRestrictedUser","siteUrl":"sc-domain:winn-foods.com"},
+    {"permissionLevel":"siteRestrictedUser","siteUrl":"sc-domain:surabhisauces.com"},
+    {"permissionLevel":"siteUnverifiedUser","siteUrl":"sc-domain:spykar.com"},
+    {"permissionLevel":"siteFullUser","siteUrl":"https://www.strique.io/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://inc5shop.com/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://audio-technica.co.in/"},
+    {"permissionLevel":"siteFullUser","siteUrl":"https://www.mountaintribe.in/"},
+    {"permissionLevel":"siteFullUser","siteUrl":"sc-domain:siromw.com"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://offlimits.co.in/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://crimzonworld.com/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://www.regilt.co/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://spykar.com/"},
+    {"permissionLevel":"siteFullUser","siteUrl":"sc-domain:siroclinpharm.co.uk"},
+    {"permissionLevel":"siteFullUser","siteUrl":"https://cottonworld.net/"},
+    {"permissionLevel":"siteFullUser","siteUrl":"https://www.crimzonworld.com/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://steragro.com/"},
+    {"permissionLevel":"siteOwner","siteUrl":"https://digimaze.io/"}
+  ],
+  "selected_property": "https://spykar.com/"
+}

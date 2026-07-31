@@ -1,29 +1,35 @@
 # Brand Context Index — cottonworld
 
-Read this first for any task about this brand, then load **only** the files the task needs.
-Full workspace built via `brand-setup` on 2026-07-13.
+Read this first for any Cottonworld task, then load only the files needed. Workspace created on 2026-07-13 and refreshed on 2026-07-27.
 
 ## What Cottonworld is
 
-Indian D2C apparel brand ("The Natural Clothing Co. \| Est. 1987") selling natural **cotton, linen & bamboo**
-clothing for men & women, omnichannel (Shopify store + physical stores across India). `cottonworld.net`
-(Cloudflare, en-IN). 892 products / 157 collections / 101 pages. Full identity → [brand-dna.json](brand-dna.json).
+Indian omnichannel natural-clothing brand, founded in 1987, selling men's and women's cotton, linen, bamboo and related apparel through a Shopify storefront and physical stores in India.
 
-## File map — what answers what
+## File map
 
-| Need to know… | Load | When |
-|---------------|------|------|
-| Identity — voice, audience, competitors, goals | [brand-dna.json](brand-dna.json) | almost any brand task |
-| Brand-specific rules, do/don'ts, carry-outs | [knowledge.md](knowledge.md) | **always** for output; overrides defaults |
-| Keyword targets, intent, clusters | [keywords/](keywords/) (`keywords.csv`, `clusters.json`) | keyword, content, brief, audit-intent |
-| What's already published (all currently broken) | [blogs/summary.md](blogs/summary.md) → `blogs/references/<slug>.md` | content planning |
-| Current SEO health + prioritized fixes | [audits/summary.md](audits/summary.md) + [audits/summary.json](audits/summary.json) | audit, fix, reporting |
-| What was fetched/run and when | [logs/](logs/) | provenance, trace, resume |
-| Setup progress / open items | [tasks/brand-setup.checklist.json](tasks/brand-setup.checklist.json) | verifying onboarding |
+| Need | Load |
+|---|---|
+| Identity, audience, competitors, goals, design tokens | [brand-dna.json](brand-dna.json) |
+| Mandatory brand rules and current carry-outs | [knowledge.md](knowledge.md) |
+| Keyword targets and exact GSC metrics | [keywords/](keywords/) |
+| Published-blog database | [blogs/summary.md](blogs/summary.md) |
+| Safe writing/voice model | [blogs/writing-style.md](blogs/writing-style.md) |
+| Full blog records | [blogs/references/](blogs/references/) |
+| Baseline full SEO audit (2026-07-13) | [audits/summary.json](audits/summary.json) |
+| Latest partial refresh (2026-07-27) | [audits/refresh-2026-07-27.md](audits/refresh-2026-07-27.md) |
+| Provenance and raw captures | [logs/](logs/) |
+| Setup and refresh status | [tasks/brand-setup.checklist.json](tasks/brand-setup.checklist.json) |
 
-## Carry-outs from this audit (2026-07-13)
+## Mandatory carry-outs
 
-- **Overall SEO score 0.59 (PARTIAL).** Strong technical base; broken blog content is the top risk.
-- **4 audit items are blocked** pending **Google Search Console** (indexation, field CWV) and manual AI-mention testing. Connect GSC via Composio to complete the audit.
-- **Keyword-demand validation pending** — `GOOGLE_ADS_PLATFORM_ID` unset; fall back to GSC for demand.
-- Do **not** invent brand facts (heritage, materials, competitors) for content until `brand-dna.json` exists.
+- Learn voice from the homepage/about page and [writing-style.md](blogs/writing-style.md), never from current article bodies.
+- Treat **slow living** as Cottonworld's central editorial asset. Begin with life, routines or a modern-day tension, then let clothing enter naturally as support.
+- Every Cottonworld blog must reinforce, explicitly or implicitly, that clothing supports life rather than becoming the point of life. Do not turn this into a repeated slogan.
+- All four live posts are placeholder/broken and need full rewrites.
+- Search Console is connected; use the exact property string `https://cottonworld.net/`.
+- Keyword Planner is blocked until `GOOGLE_ADS_PLATFORM_ID` is set.
+- CrUX/PageSpeed field data is blocked until `GOOGLE_API_KEY` is set.
+- Do not quote store/customer counters; the rendered values are invalid.
+- Do not invent competitors, sustainability outcomes, product counts or analytics facts.
+- Current GSC totals cover 2026-04-25 through 2026-07-24; do not present them as lifetime totals.

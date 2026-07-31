@@ -4,21 +4,20 @@
   "display_name": "Cottonworld",
   "status": "active",
   "primary_domain": "cottonworld.net",
-  "domains": [
-    "cottonworld.net",
-    "www.cottonworld.net"
-  ],
+  "domains": ["cottonworld.net", "www.cottonworld.net"],
   "locale": "en-IN",
   "market": "India",
   "created_at": "2026-07-13",
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-07-27",
   "platform": "Shopify",
   "pointers": {
     "brand_dna": "brand-dna.json",
     "knowledge": "knowledge.md",
     "keywords": "keywords/",
     "blogs": "blogs/summary.md",
+    "writing_style": "blogs/writing-style.md",
     "audits": "audits/summary.json",
+    "latest_audit_refresh": "audits/refresh-2026-07-27.md",
     "logs": "logs/",
     "checklist": "tasks/brand-setup.checklist.json"
   },
@@ -26,14 +25,21 @@
     "audits": 6,
     "blogs": 4,
     "keywords": 38,
-    "products": 892,
-    "collections": 157,
-    "pages": 101
+    "products_last_complete_crawl": 892,
+    "collections_current_map": 157,
+    "pages_current_map": 100
   },
-  "audit_overall_score": 0.59,
+  "search_console": {
+    "property": "https://cottonworld.net/",
+    "permission_level": "siteFullUser",
+    "latest_date_range": "2026-04-25/2026-07-24"
+  },
+  "baseline_audit_overall_score": 0.59,
+  "baseline_audit_date": "2026-07-13",
+  "latest_partial_refresh_date": "2026-07-27",
   "blockers": [
-    "gsc_not_connected",
     "keyword_planner_platform_id_unset",
-    "field_cwv_unavailable"
+    "field_cwv_google_api_key_unset",
+    "manual_ai_mentions_not_tested"
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "surabhi-foods",
+  "brand_name": "Surabhi Foods",
+  "website_url": "https://surabhi-foods.com/",
+  "generated_at": "2026-07-27T07:32:05Z",
+  "target_country": "India",
+  "target_country_source": "brand_site_context",
+  "language": "English",
+  "default_source": "Brand DNA seeds",
+  "difficulty_scale": "0-100 when provider data is available; blank in this run because no permitted difficulty provider returned data",
+  "date_range": {
+    "start_date": null,
+    "end_date": null
+  },
+  "counts": {
+    "deduped_universe_rows": 22,
+    "existing_keywords": 2,
+    "keyword_planner_rows": 0,
+    "gsc_rows": 0,
+    "prioritized_rows": 15,
+    "clusters": 5
+  },
+  "sources": {
+    "brand_dna": {
+      "file": "../brand-dna.json",
+      "row_count": 22,
+      "run_id": "surabhi-keywords-20260727T073205Z"
+    },
+    "keyword_planner": {
+      "tool": "google_ads_generate_keyword_ideas",
+      "status": "unavailable",
+      "row_count": 0,
+      "output_ref": "../logs/keywords/raw/20260727T073205Z-keyword-planner-unavailable.json"
+    },
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_LIST_SITES",
+      "status": "target_property_not_connected",
+      "row_count": 0,
+      "output_ref": "../logs/keywords/raw/20260727T073205Z-gsc-property-check.json"
+    }
+  },
+  "gsc_property": null,
+  "gsc_available_properties": [],
+  "blockers": [
+    "keyword_planner_unavailable",
+    "gsc_property_not_connected"
+  ],
+  "notes": [
+    "Volume, difficulty, and GSC metric cells are intentionally blank; no metrics were invented.",
+    "A similarly named Search Console property for surabhisauces.com exists, but it is a different domain and was not used for surabhi-foods.com.",
+    "Refresh this research after the permitted Google Ads Keyword Planner tool is callable and the exact surabhi-foods.com Search Console property is connected."
+  ]
+}

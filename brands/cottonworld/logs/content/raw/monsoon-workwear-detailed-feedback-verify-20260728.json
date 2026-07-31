@@ -1,0 +1,27 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 17.59,
+          "variation": 0.38
+        },
+        "name": "uniform_sentence_rhythm",
+        "points": 0.06
+      },
+      {
+        "evidence": [],
+        "name": "generic_conclusion_heading",
+        "points": 6.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 6.06,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 1442
+  },
+  "errors": [],
+  "ok": true
+}

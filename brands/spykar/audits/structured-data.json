@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": 0.0,
+  "counts": {"items": 5, "pass": 0, "fail": 1, "not_applicable": 4},
+  "rows": [
+    {
+      "item_id": "org-website-schema",
+      "section_id": "coverage",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. The crawl extraction exposed only WebPage on the homepage, but a fresh rendered-browser DOM was unavailable, so absence of Organization and WebSite cannot be confirmed.",
+      "next_action": "Inspect rendered homepage JSON-LD and add valid Organization plus WebSite nodes if absent.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#rendered_validation"
+    },
+    {
+      "item_id": "breadcrumb-schema",
+      "section_id": "coverage",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No reliable rendered JSON-LD inventory across product, collection and article templates was available.",
+      "next_action": "Extract rendered JSON-LD from representative templates and verify BreadcrumbList coverage.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#rendered_validation"
+    },
+    {
+      "item_id": "content-type-schema",
+      "section_id": "coverage",
+      "status": "fail",
+      "result": "The mobile crawl extraction reported Product JSON-LD on the women collection template and no content-type JSON-LD on the blog index; that does not match the page templates’ content types.",
+      "next_action": "Audit template JSON-LD: keep Product on product detail pages, add appropriate collection/list markup where useful, and add Blog/Article markup to editorial templates.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page"
+    },
+    {
+      "item_id": "schema-valid",
+      "section_id": "validity",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Rendered schema validation did not run, so no pass is claimed.",
+      "next_action": "Validate rendered JSON-LD for homepage, collection, product and article templates and resolve all errors.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#rendered_validation"
+    },
+    {
+      "item_id": "rich-result-eligible",
+      "section_id": "validity",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. GSC indexing passed, but rendered rich-result validation output and required-property checks were unavailable.",
+      "next_action": "Run Google-supported rich-result validation on rendered product and article pages and verify required properties.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#rendered_validation"
+    }
+  ]
+}

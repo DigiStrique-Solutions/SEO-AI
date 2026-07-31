@@ -1,0 +1,87 @@
+{
+  "run_id": "cottonworld-refresh-20260727",
+  "captured_at": "2026-07-27T12:23:53Z",
+  "target_url": "https://cottonworld.net/",
+  "gsc": {
+    "sitemap": {
+      "path": "https://cottonworld.net/sitemap.xml",
+      "last_downloaded": "2026-07-21T13:44:06.891Z",
+      "last_submitted": "2025-04-08T23:03:16.108Z",
+      "errors": 0,
+      "warnings": 2,
+      "web_submitted": 1107,
+      "web_indexed_reported": 8,
+      "image_submitted": 904,
+      "image_indexed_reported": 0,
+      "note": "Sitemap indexed counts require investigation; do not treat them as complete sitewide index totals."
+    },
+    "url_inspection": [
+      {
+        "url": "https://cottonworld.net/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-07-27T11:07:58Z",
+        "crawled_as": "MOBILE",
+        "page_fetch_state": "SUCCESSFUL",
+        "indexing_state": "INDEXING_ALLOWED",
+        "canonical_match": true
+      },
+      {
+        "url": "https://cottonworld.net/blogs/blog",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-07-23T18:54:06Z",
+        "crawled_as": "MOBILE",
+        "page_fetch_state": "SUCCESSFUL",
+        "indexing_state": "INDEXING_ALLOWED",
+        "canonical_match": true
+      },
+      {
+        "url": "https://cottonworld.net/blogs/blog/comfort-meets-style-everyday-fashion-that-feels-right",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-07-22T13:14:13Z",
+        "crawled_as": "MOBILE",
+        "page_fetch_state": "SUCCESSFUL",
+        "indexing_state": "INDEXING_ALLOWED",
+        "canonical_match": true
+      }
+    ]
+  },
+  "lighthouse_lab": {
+    "tool": "Lighthouse CLI via Chrome headless",
+    "categories": {
+      "performance": 0.34,
+      "seo": 0.77,
+      "accessibility": 0.83,
+      "best_practices": 0.58
+    },
+    "metrics_ms": {
+      "first_contentful_paint": 2514.1655,
+      "largest_contentful_paint": 7199.993,
+      "total_blocking_time": 11588.8455,
+      "speed_index": 10349.0497,
+      "time_to_interactive": 53865.0145
+    },
+    "cumulative_layout_shift": 0.0013881596,
+    "seo_failures": [
+      "One link lacks descriptive text",
+      "Some anchors are not crawlable",
+      "Some images lack alt attributes"
+    ],
+    "accessibility_failures": [
+      "aria-hidden elements contain focusable descendants",
+      "buttons without accessible names",
+      "insufficient color contrast",
+      "non-sequential heading order",
+      "images without alt attributes"
+    ],
+    "scope_note": "Single synthetic lab run on 2026-07-27; not field evidence and not proof of mobile India experience.",
+    "execution_note": "Report completed successfully; Chrome launcher then reported an EPERM error while cleaning its temporary profile."
+  },
+  "blocked": [
+    "CrUX field data: GOOGLE_API_KEY unset",
+    "Keyword Planner demand: GOOGLE_ADS_PLATFORM_ID unset",
+    "Manual AI-engine mention testing not run"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-07-29T06:00:13+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-29T11:44:00+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text, excluding YAML frontmatter and the editorial-sources list, was checked in the live ZeroGPT web interface. ZeroGPT labelled it \"Your Text is Human written\". The result is retained as a weak editorial signal, not proof of authorship.",
+      "score": 7.5,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-29T06:33:33+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.87,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-29T12:12:49+05:30",
+      "max_score": 20.0,
+      "note": "The exact paragraph-led revision, excluding YAML frontmatter but including the title, headings and editorial-source labels, was checked in the live ZeroGPT web interface. ZeroGPT labelled it \"Your Text is Human written\". The result is retained as a weak editorial signal, not proof of authorship.",
+      "score": 7.2,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    },
+    {
+      "checked_at": "2026-07-29T06:43:26+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.62,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-29T12:57:42+05:30",
+      "max_score": 20.0,
+      "note": "The exact final rendered article text was checked in the live ZeroGPT web interface after rewriting the introduction with a more immediate, everyday opening inspired by the editorial strengths of Cottonworld Blogs 1 and 2. ZeroGPT labelled it \"Your Text is Human written\". The result is a weak editorial signal, not proof of authorship.",
+      "score": 12.2,
+      "source": "live_web_ui",
+      "status": "pass",
+      "tool": "zerogpt.com"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-07-29T05:56:08+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "ready",
+    "target": "Comfortable Date Outfits for Brunch, a Walk or Dinner"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Slow living is Cottonworld's central editorial lens.",
+        "Cottonworld writing begins with life and practical needs, then introduces clothing as support.",
+        "Natural fibres, simple design, lasting quality and repeat wear are core themes."
+      ],
+      "source_id": "cottonworld-brand-context-date-20260728",
+      "source_ref": "brands/cottonworld/knowledge.md and brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Requested title: Comfortable Date Outfits for Brunch, a Walk or Dinner.",
+        "Requested terms: comfortable date outfits india, brunch outfits women india, casual date outfits, dinner date outfit, date outfits for men and what to wear on a date."
+      ],
+      "source_id": "user-date-blog-brief-20260728",
+      "source_ref": "user brief in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld describes cotton as soft, breathable, naturally versatile and light on the skin.",
+        "Cottonworld describes linen as lightweight and airy.",
+        "The guide links cotton with movement and lasting wear."
+      ],
+      "source_id": "cottonworld-fabric-guide-date-20260728",
+      "source_ref": "https://cottonworld.net/pages/fabrics",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The men's Brunch collection feed returned regular-fit linen-cotton, 100% cotton and Tencel-linen shirts.",
+        "It included cotton polos and regular-fit linen or cotton-linen pants, including drawstring and elasticated-waist details."
+      ],
+      "source_id": "cottonworld-men-brunch-feed-20260728",
+      "source_ref": "https://cottonworld.net/collections/brunch-for-men/products.json?limit=50",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The women's Brunch collection feed returned cotton, linen and linen-cotton dresses in regular and boxy fits.",
+        "It included linen and cotton blouses, cotton culottes and linen-cotton or linen-viscose pants.",
+        "Several pieces had side pockets or elasticated and drawstring waists."
+      ],
+      "source_id": "cottonworld-women-brunch-feed-20260728",
+      "source_ref": "https://cottonworld.net/collections/brunch-for-women/products.json?limit=50",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The live India benchmark compared three relevant organic date and brunch outfit blogs.",
+        "The ranking set ranged from 615 to 1328 words and split coverage by gender or occasion.",
+        "The chosen benchmark is a warm, inclusive scenario guide without repeated rhetorical questions."
+      ],
+      "source_id": "date-blog-serp-benchmark-20260728",
+      "source_ref": "brands/cottonworld/logs/content/raw/two-blogs-serp-benchmark-20260728.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "CottonWorks describes cotton as a natural fibre associated with breathability and comfort.",
+        "No proprietary-finish claims or statistics are used in the article."
+      ],
+      "source_id": "cottonworks-comfort-source-20260728",
+      "source_ref": "https://cottonworks.com/news/innovative-technologies-add-top-performance-to-cottons-many-benefits/",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Rewrite both blogs as connected editorial articles rather than sequences of pointers.",
+        "Remove obvious setup statements that do not add insight.",
+        "Use fuller paragraphs and apply the top-three SERP benchmark through tone and depth rather than copying its heading density."
+      ],
+      "source_id": "user-paragraph-led-editorial-feedback-20260729",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Use the immediate everyday moments and conversational tension of Cottonworld Blogs 1 and 2 as high-level inspiration.",
+        "Rewrite only the introduction so it feels more interesting while preserving the paragraph-led body and original SEO scope.",
+        "Do not copy wording from the earlier blogs."
+      ],
+      "source_id": "user-blog-3-4-introduction-feedback-20260729",
+      "source_ref": "user feedback in Codex task",
+      "source_type": "human_context"
+    }
+  ]
+}

@@ -50,6 +50,36 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T12:27:02+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T12:44:29+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-07-24T12:45:01+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -73,11 +103,11 @@
     },
     {
       "extracted_facts": [
-        "The eight linked Cottonworld products and their listed titles, fabric descriptions, fit, category and product URLs were recorded as available in the catalog crawl on 2026-07-14."
+        "The Cottonworld crawl records the men\u2019s and women\u2019s Summer collection URLs used for the article\u2019s generic keyword anchors."
       ],
-      "source_id": "catalog-20260714",
-      "source_ref": "brands/cottonworld/logs/web_data/raw/cottonworld-live-catalog-match-20260714T1950+0530.json",
-      "source_type": "product_page"
+      "source_id": "collection-crawl-20260713",
+      "source_ref": "brands/cottonworld/logs/web_data/raw/20260713T120000Z-home.html",
+      "source_type": "human_context"
     },
     {
       "extracted_facts": [

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-07-27T18:05:23+05:30",
+  "source": "Second user-supplied pasted-text attachment",
+  "task": "Review revised trekking blog against OFFLIMITS fundamentals and check AI-pattern percentage",
+  "local_authenticity_check": {
+    "tool": "Strique local AI text risk gate",
+    "score": 6.0,
+    "max_score": 20.0,
+    "status": "pass",
+    "word_count_reported_by_harness": 1250,
+    "authenticity_status": "fail",
+    "error": "rewrite uses best/top language without best_top claim support"
+  },
+  "external_detector_check": {
+    "tool": "ZeroGPT",
+    "status": "not_checked_blocked",
+    "error": "403 Not enough credits",
+    "fallback_source": "Strique local AI text risk gate",
+    "fallback_score": 6.0,
+    "note": "The fallback is not a fresh ZeroGPT percentage and is a weak editorial signal only."
+  },
+  "improvements_from_previous_draft": [
+    "The title typo is fixed.",
+    "ONYX and S.W.A.T. are both included.",
+    "All six intended products are named.",
+    "The opening states the post-monsoon footwear problem clearly."
+  ],
+  "remaining_fundamentals_findings": [
+    "Repeated unsupported best/superior/excellent/ideal language blocks authenticity approval.",
+    "Product descriptions remain generic and do not explain the verified variant-level upper and insock differences.",
+    "Claims about deep lugs, high-traction rubber, responsive midsoles, ankle-strain reduction, toe protection, waterproofing and quick-drying materials are not supported by the verified product specifications in scope.",
+    "Product and collection references are not linked, weakening the ecommerce journey.",
+    "OffLimits casing conflicts with the canonical OFFLIMITS form.",
+    "Forced phrases such as treks shoes and trekking boots men read as keyword stuffing.",
+    "FAQs follow the conclusion and CTA instead of preceding the final conversion close.",
+    "Mojibake punctuation remains in apostrophes and the closing dash."
+  ]
+}

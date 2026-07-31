@@ -1,0 +1,94 @@
+{
+  "run_id": "cottonworld-rainy-day-outfits-serp-benchmark-20260728",
+  "captured_at": "2026-07-28T11:17:04.7084758Z",
+  "proposed_title": "8 Relaxed Outfit Ideas for Humid, Rainy Days",
+  "exact_title_search": {
+    "query": "\"8 Relaxed Outfit Ideas\" humid rainy days outfits monsoon",
+    "search_id": "019fa86d-f34a-70dc-b5eb-88ea27ecc116",
+    "result_count": 0,
+    "status": "not_checked_blocked",
+    "blocker": "No organic results were returned for the exact proposed-title query."
+  },
+  "intent_search": {
+    "query": "rainy day outfits humid weather monsoon outfit ideas India",
+    "location": "India",
+    "search_id": "019fa86e-2a7b-7659-9eb6-15fbedc2ab90",
+    "selection_rule": "The first three relevant organic editorial blogs after excluding Pinterest, Instagram and other non-blog results."
+  },
+  "top_relevant_blogs": [
+    {
+      "blog_rank": 1,
+      "serp_position": 2,
+      "title": "Top 5 Monsoon Trip Outfit Ideas for Travel, Comfort & Style in the Rainy Season",
+      "url": "https://aeo.abfrl.in/blog/monsoon-trip-outfit-ideas/",
+      "access_date": "2026-07-28",
+      "scrape_id": "019fa86e-8d75-70e3-9f90-e41725140641",
+      "word_count": 756,
+      "heading_count": 8,
+      "tone": [
+        "informative",
+        "engaging",
+        "practical",
+        "stylish"
+      ],
+      "section_flow": [
+        "monsoon travel introduction",
+        "five outfit ideas for men and women",
+        "travel essentials",
+        "FAQs"
+      ]
+    },
+    {
+      "blog_rank": 2,
+      "serp_position": 4,
+      "title": "12 Rainy Day Outfits to Keep You Looking Chic, Not Soggy",
+      "url": "https://www.instyle.com/rainy-day-outfit-formulas-11843743",
+      "access_date": "2026-07-28",
+      "scrape_id": "019fa86e-a16e-71bc-b904-f5a03ffd9206",
+      "word_count": 1563,
+      "heading_count": 12,
+      "tone": [
+        "informative",
+        "stylish",
+        "encouraging"
+      ],
+      "section_flow": [
+        "rain-dressing introduction",
+        "twelve outfit formulas",
+        "brief conclusion"
+      ]
+    },
+    {
+      "blog_rank": 3,
+      "serp_position": 6,
+      "title": "The Monsoon Edit: Rainy-Day Outfits You'll Reach for All Season",
+      "url": "https://fyva.in/blogs/post/rainy-day-outfits",
+      "access_date": "2026-07-28",
+      "scrape_id": "019fa86e-a62f-718a-a966-fcda49f4acca",
+      "word_count": 995,
+      "heading_count": 17,
+      "tone": [
+        "informative",
+        "encouraging",
+        "practical",
+        "stylish",
+        "conversational"
+      ],
+      "section_flow": [
+        "monsoon introduction",
+        "fabric choices and fabrics to avoid",
+        "five outfit ideas",
+        "layering and budget advice",
+        "mistakes to avoid",
+        "FAQs"
+      ]
+    }
+  ],
+  "combined_benchmark": {
+    "tone_direction": "Practical and conversational, with outfit advice tied to recognisable rainy-day plans. Cottonworld's own restrained comfort-first voice remains the source of brand tone.",
+    "target_depth": "Approximately 1300 to 1650 words: deep enough to explain eight outfits, fabric and route decisions without padding.",
+    "structure_direction": "Open with the humid-rain problem, explain eight occasion-led outfits in full paragraphs, add a short route check and FAQs, then close with relevant Cottonworld category links.",
+    "originality_rule": "Use the competitors only to benchmark intent, depth and scannability. Do not copy wording, claims, anecdotes or reproduce a competitor outline verbatim.",
+    "user_feedback_applied": "Use fuller paragraphs and make fabric, fit, movement and occasion the substance. Mention colour only where it solves a practical problem."
+  }
+}

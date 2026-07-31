@@ -1,0 +1,42 @@
+{
+  "provider": "firecrawl",
+  "endpoint": "search",
+  "search_id": "019fa275-d562-732c-bf54-b60c9dd2abc2",
+  "success": true,
+  "credits_used": 4,
+  "request": {
+    "query": "\"Winn Foods\" India sauces brand company competitors founder products",
+    "limit": 8,
+    "sources": ["web", "news"]
+  },
+  "results": [
+    {
+      "url": "https://tracxn.com/d/companies/winnfoods/__Y14zDNbl5puADj4gxoYgYxjfSgXbXQnsg3zMkR4SsP0",
+      "title": "Winn Foods - 2026 Company Profile, Team & Competitors",
+      "description": "Winn Foods is an unfunded company based in Pune (India), founded in 1989. It operates as a Manufacturer of Chinese sauces, chutneys, ..."
+    },
+    {
+      "url": "https://www.indianretailer.com/news/retail-india-news-winn-foods-expands-portfolio-healthy-and-tasty-hakka-noodles-curly-chow",
+      "title": "Retail India News: Winn Foods Expands Portfolio with ...",
+      "description": "The introduction of Curly Chow is part of Winn Foods' larger strategy to innovate and lead the industry."
+    },
+    {
+      "url": "https://www.storyboard18.com/brand-marketing/adinath-agro-rebrands-as-adinova-eyes-national-expansion-with-clean-label-push-97833.htm",
+      "title": "Adinath Agro rebrands as Adinova, eyes national expansion with clean-label push",
+      "date": "2026-05-12",
+      "description": "Adinath Agro Processed Foods Pvt. Ltd. rebranded as Adinova, marking a shift toward national expansion and clean-label products."
+    },
+    {
+      "url": "https://www.afaqs.com/news/mktg/adinath-agro-rebrands-as-adinova-unveils-new-identity-11826650",
+      "title": "Adinath Agro rebrands as Adinova, unveils new identity",
+      "date": "2026-05-12",
+      "description": "The Pune-based food company behind Surabhi and Winn plans to expand across healthy sauces, clean-label products and pan-India markets."
+    },
+    {
+      "url": "https://yourstory.com/smbstory/4-made-in-india-dips-sauces-brands-veeba-wingreens-habanero",
+      "title": "4 Made in India dips and sauces brands that are giving a tough competition to FMCG biggies like Tops, Ching’s",
+      "date": "2021-01-27",
+      "description": "Category coverage naming Veeba, Wingreens, Tops and Ching’s as Indian dips and sauces competitors."
+    }
+  ]
+}

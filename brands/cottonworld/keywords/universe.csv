@@ -1,32 +1,32 @@
 keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
-cotton clothing for men,transactional,collection,/collections/cotton,,,high,seed,,,,proposed
-cotton clothing for women,transactional,collection,/collections/cotton,,,high,seed,,,,proposed
-linen clothing for men,transactional,collection,/collections/linen,,,high,seed,,,,proposed
-linen clothing for women,transactional,collection,/collections/linen,,,high,seed,,,,proposed
-bamboo clothing india,transactional,collection,/collections/bamboo,,,medium,seed,,,,proposed
-linen shirts for men,transactional,collection,/collections/linen,,,high,seed,,,,proposed
-cotton kurtas for women,transactional,collection,/collections/cotton,,,high,seed,,,,proposed
-linen pants for men,transactional,collection,/collections/linen,,,high,seed,,,,proposed
-cotton t-shirts men,transactional,collection,/collections/cotton,,,high,seed,,,,proposed
-bamboo t-shirts,transactional,collection,/collections/bamboo,,,medium,seed,,,,proposed
-mens shirts online india,transactional,collection,/collections/shirts,,,high,seed,,,,proposed
-womens tops online,transactional,collection,/collections/tops,,,high,seed,,,,proposed
+cotton clothing for men,transactional,collection,/collections/cotton,,,high,seed|gsc,6,107,9.91,observed
+cotton clothing for women,transactional,collection,/collections/cotton,,,high,seed|gsc,11,304,12.66,observed
+linen clothing for men,transactional,collection,/collections/linen,,,high,seed|gsc,2,171,28.19,observed
+linen clothing for women,transactional,collection,/collections/linen,,,high,seed|gsc,13,838,20.02,observed
+bamboo clothing india,transactional,collection,/collections/bamboo,,,medium,seed|gsc,11,285,4.60,observed
+linen shirts for men,transactional,collection,/collections/linen,,,high,seed|gsc,11,531,36.89,observed
+cotton kurtas for women,transactional,collection,/collections/cotton,,,high,seed|gsc,1,1,4.00,observed
+linen pants for men,transactional,collection,/collections/linen,,,high,seed|gsc,46,2274,18.91,observed
+cotton t-shirts men,transactional,collection,/collections/cotton,,,high,seed|gsc,0,44,26.86,observed
+bamboo t-shirts,transactional,collection,/collections/bamboo,,,medium,seed|gsc,0,385,34.78,observed
+mens shirts online india,transactional,collection,/collections/shirts,,,high,seed|gsc,0,6,91.50,observed
+womens tops online,transactional,collection,/collections/tops,,,high,seed|gsc,1,404,26.29,observed
 mens pants online india,transactional,collection,/collections/pants,,,high,seed,,,,proposed
-womens leggings cotton,transactional,collection,/collections/leggings,,,medium,seed,,,,proposed
-co ord sets women,transactional,collection,/collections/co-ords,,,medium,seed,,,,proposed
+womens leggings cotton,transactional,collection,/collections/leggings,,,medium,seed|gsc,0,1,9.00,observed
+co ord sets women,transactional,collection,/collections/co-ords,,,medium,seed|gsc,0,364,54.89,observed
 loungewear india,transactional,collection,/collections/lounge-wear,,,medium,seed,,,,proposed
-sleepwear women cotton,transactional,collection,/collections/sleep-wear,,,medium,seed,,,,proposed
-cotton kurtas men,transactional,collection,/collections/kurtas,,,medium,seed,,,,proposed
-linen culottes women,transactional,collection,/collections/culottes,,,low,seed,,,,proposed
-cotton shorts men,transactional,collection,/collections/shorts,,,medium,seed,,,,proposed
+sleepwear women cotton,transactional,collection,/collections/sleep-wear,,,medium,seed|gsc,0,1,4.00,observed
+cotton kurtas men,transactional,collection,/collections/kurtas,,,medium,seed|gsc,0,4,16.25,observed
+linen culottes women,transactional,collection,/collections/culottes,,,low,seed|gsc,0,5,5.00,observed
+cotton shorts men,transactional,collection,/collections/shorts,,,medium,seed|gsc,26,2850,11.24,observed
 work wear cotton india,commercial,collection,/collections/work,,,medium,seed,,,,proposed
 travel clothing breathable,commercial,collection,/collections/travel,,,medium,seed,,,,proposed
-summer cotton clothing,commercial,collection,/collections/summer,,,high,seed,,,,proposed
+summer cotton clothing,commercial,collection,/collections/summer,,,high,seed|gsc,0,15,11.60,observed
 brunch outfits women india,commercial,collection,/collections/brunch,,,low,seed,,,,proposed
-cottonworld,navigational,home,/,,,high,seed,,,,proposed
-cottonworld online,navigational,home,/,,,high,seed,,,,proposed
-cottonworld store near me,navigational,page,/pages/store-locator,,,medium,seed,,,,proposed
-cotton vs linen clothing,informational,blog,null,,,medium,seed,,,,proposed
+cottonworld,navigational,home,/,,,high,seed|gsc,4472,25655,2.36,observed
+cottonworld online,navigational,home,/,,,high,seed|gsc,344,2171,6.52,observed
+cottonworld store near me,navigational,page,/pages/store-locator,,,medium,seed|gsc,15,64,2.23,observed
+cotton vs linen clothing,informational,blog,null,,,medium,seed|gsc,0,2,1.00,observed
 benefits of natural fabrics,informational,blog,null,,,medium,seed,,,,proposed
 how to care for linen clothes,informational,blog,null,,,medium,seed,,,,proposed
 is bamboo fabric sustainable,informational,blog,null,,,low,seed,,,,proposed
@@ -36,4 +36,4 @@ what is slow fashion,informational,blog,null,,,low,seed,,,,proposed
 how to style linen shirts,informational,blog,null,,,low,seed,,,,proposed
 cotton clothing care tips,informational,blog,null,,,low,seed,,,,proposed
 best cotton clothing brands india,commercial,blog,null,,,medium,seed,,,,proposed
-sustainable clothing brands india,commercial,blog,null,,,medium,seed,,,,proposed
+sustainable clothing brands india,commercial,blog,null,,,medium,seed|gsc,0,2,44.00,observed

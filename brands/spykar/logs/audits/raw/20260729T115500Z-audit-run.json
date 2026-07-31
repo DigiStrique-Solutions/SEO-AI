@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "spykar-audits-20260729",
+  "brand_id": "spykar",
+  "run_date": "2026-07-29",
+  "target_url": "https://spykar.com/",
+  "audit_ids": [
+    "generic-on-page",
+    "content-seo",
+    "site-architecture",
+    "core-web-vitals",
+    "structured-data",
+    "ai-seo-aeo-geo"
+  ],
+  "evidence_inputs": [
+    "logs/audits/raw/20260729T115500Z-shared-site-checks.json",
+    "logs/web_data/raw/20260729T114420Z-brand-dna-crawl.json",
+    "logs/web_data/raw/20260729T114420Z-rendered-brand-pages.json"
+  ],
+  "status": "partial",
+  "blockers": [
+    "PageSpeed/CrUX unavailable after retry.",
+    "No callable Lighthouse provider.",
+    "No fresh rendered-browser session for schema validity or mobile usability.",
+    "The keyword workspace was not present; GSC query evidence was used where it directly supported intent, but Keyword Planner evidence was unavailable."
+  ],
+  "scoring": {
+    "method": "weighted_pass_ratio",
+    "severity_weights": {"high": 3, "medium": 2, "low": 1},
+    "not_applicable_excluded": true,
+    "all_not_applicable_score": null,
+    "overall_score_rule": "Mean of numeric audit scores; audits with zero applicable items are excluded."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "audit_id": "structured-data",
+  "audit_ref": "audit-library/structured-data.json",
+  "target_url": "https://winn-foods.com/",
+  "run_date": "2026-07-27",
+  "score": 0.0,
+  "counts": {"items": 5, "pass": 0, "fail": 5, "not_applicable": 0, "not_checked_blocked": 0},
+  "evidence_inputs": ["logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json"],
+  "rows": [
+    {"item_id": "org-website-schema", "section_id": "coverage", "status": "fail", "result": "Rendered homepage has Organization and WebSite JSON-LD, but Organization.sameAs contains empty-string entries, so the required valid sameAs coverage is not met.", "next_action": "Remove empty sameAs values, keep only canonical verified social/profile URLs, and retest the homepage JSON-LD.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/organization_schema"},
+    {"item_id": "breadcrumb-schema", "section_id": "coverage", "status": "fail", "result": "No BreadcrumbList JSON-LD was extracted from sampled product or blog templates.", "next_action": "Add BreadcrumbList markup to collection, product, blog, recipe, and content templates with canonical item URLs.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#sample_page_findings"},
+    {"item_id": "content-type-schema", "section_id": "coverage", "status": "fail", "result": "Sampled product and blog pages returned no extracted Product or Article/BlogPosting JSON-LD.", "next_action": "Implement Product markup on product templates and Article/BlogPosting markup on editorial/recipe templates using visible, substantiated values.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#sample_page_findings"},
+    {"item_id": "schema-valid", "section_id": "validity", "status": "fail", "result": "Rendered homepage Organization markup contains empty sameAs values; therefore a no-error validity claim cannot be made.", "next_action": "Fix empty URL values and validate representative rendered templates with Schema.org and Google tooling.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#actions/1/observations/organization_schema"},
+    {"item_id": "rich-result-eligible", "section_id": "validity", "status": "fail", "result": "Sampled commerce and editorial pages expose no extracted Product or Article rich-result markup, so they do not meet type-specific required properties.", "next_action": "Add supported template markup, then verify eligibility in Rich Results Test and GSC enhancement reports.", "evidence_ref": "logs/audits/raw/20260727T073600Z-firecrawl-site-checks.json#sample_page_findings"}
+  ]
+}

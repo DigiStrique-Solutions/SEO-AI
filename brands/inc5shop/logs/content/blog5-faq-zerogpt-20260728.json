@@ -1,0 +1,18 @@
+{
+  "mandatory_zero_gpt_gate": {
+    "status": "blocked",
+    "reason": "ZeroGPT returned 403 Not enough credits. The local fallback score below is not a verified ZeroGPT percentage and cannot make the draft publish-ready."
+  },
+  "detector_note": {
+    "checked_at": "2026-07-28T11:15:04+00:00",
+    "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+    "max_score": 20.0,
+    "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+    "score": 6.0,
+    "source": "local_fallback",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

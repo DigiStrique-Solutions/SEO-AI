@@ -1,0 +1,29 @@
+{
+  "run_id": "cottonworld-monsoon-workwear-fabric-research-20260728",
+  "access_date": "2026-07-28",
+  "purpose": "Find an authoritative source for a brief educational explanation of cotton and linen in humid weather.",
+  "runs": [
+    {
+      "provider": "firecrawl_scrape",
+      "url": "https://www.cottonworks.com/topics/fabric-technology/performance-technologies/moisture-management/",
+      "scrape_id": "019fa92c-0c1a-760c-bebe-419ccdbe18f1",
+      "status": "discarded",
+      "evidence": "The response metadata returned HTTP 404 and page title 'Page not found | CottonWorks'. The JSON extraction was therefore not treated as factual evidence."
+    },
+    {
+      "provider": "firecrawl_search",
+      "query": "site:cottonworks.com cotton breathable moisture warm humid fabric",
+      "search_id": "019fa92c-3738-748d-a64d-28558c1a3e30",
+      "status": "not_used",
+      "evidence": "The strongest result concerned cotton treated with WICKING WINDOWS technology, not ordinary untreated apparel. It was not generalized to Cottonworld products."
+    },
+    {
+      "provider": "firecrawl_search",
+      "query": "official linen fabric breathability moisture humid weather flax linen organization",
+      "search_id": "019fa92c-a03a-74df-b478-b9b0498c6bd5",
+      "status": "not_used",
+      "evidence": "Results were social posts, Reddit or retailer content rather than an authoritative textile body."
+    }
+  ],
+  "editorial_decision": "Use only the existing Cottonworld fabric guide's supported descriptions: cotton is soft and breathable; linen is lightweight and airy; cotton-linen combines comfort, breathable ease and structure. Explain the practical implication without adding unsupported performance statistics."
+}

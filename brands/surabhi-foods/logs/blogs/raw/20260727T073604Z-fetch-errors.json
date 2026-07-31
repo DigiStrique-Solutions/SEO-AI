@@ -1,0 +1,23 @@
+{
+  "run_id": "surabhi-blogs-20260727T073600Z",
+  "errors": [
+    {
+      "source": "https://surabhi-foods.com/blogs/blogs-by-surabhi/benefits-of-ginger-garlic-paste.json",
+      "provider": "firecrawl",
+      "operation": "scrape",
+      "status_code": 404,
+      "scrape_id": "019fa27f-4776-77ae-81fe-843f44a756ef",
+      "error": "Not Found",
+      "impact": "No article data lost; publication dates were recovered from the official Atom feed."
+    },
+    {
+      "source": "https://surabhi-foods.com/blogs/news.atom",
+      "provider": "firecrawl",
+      "operation": "structured Atom extraction",
+      "status_code": 200,
+      "scrape_id": "019fa280-2c77-773e-b750-5eb6342cd1f9",
+      "error": "Feed fetched but structured entry extraction was empty.",
+      "impact": "No article data lost; one retry via direct read-only web fetch recovered the exact feed entry."
+    }
+  ]
+}

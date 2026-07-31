@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "updated_at": "2026-07-29T12:22:31Z",
+  "brand_name": "Spykar",
+  "website_url": "https://spykar.com/",
+  "logo": {
+    "description": "Spykar wordmark used in the site header",
+    "icon_url": "https://spykar.com/cdn/shop/files/46884b9b44e9193d0bf1a3c300aac0454e8aeccc.png?v=1769757478&width=304"
+  },
+  "business_description": "An Indian homegrown fashion jeanswear brand selling denim-led casualwear for men and women, plus underjeans and accessories, through its ecommerce site, exclusive stores, large-format retail and major ecommerce platforms.",
+  "business_model": "Consumer retail and direct-to-consumer ecommerce, supported by exclusive brand stores, multi-brand/large-format retail and online marketplaces.",
+  "brand_colors": {
+    "primary": "#173A57",
+    "secondary": "#5C0F8B",
+    "accent": "#0066CC",
+    "background": "#FFFFFF",
+    "text": "#000000"
+  },
+  "brand_aesthetic": "Youthful, denim-first and campaign-led, using bold editorial photography, energetic seasonal promotions, modern silhouettes and an emphasis on fit, movement and everyday comfort.",
+  "brand_voice": {
+    "description": "Young-at-heart, restless, expressive and encouraging. Product language balances bold style and self-expression with practical proof about fit, stretch, durability and comfort.",
+    "voice_patterns": [
+      "Short campaign lines such as “Fit For Every You”",
+      "Second-person invitations focused on identity, mood and movement",
+      "Bold but accessible words: adventure, confidence, authentic, effortless and playful",
+      "Concrete denim proof points: built to last, fits for you and all-day flex",
+      "Seasonal styling language connecting heritage or culture with contemporary fashion",
+      "Indian English spelling with short, scannable paragraphs and sentence-case headings",
+      "Practical outfit guidance that names colours, fits, textures, seasons and real-life use",
+      "Subtle brand integration and soft calls to action rather than aggressive selling"
+    ]
+  },
+  "brand_values": [
+    "Youthful self-expression",
+    "Precision and craftsmanship",
+    "Comfort and fit",
+    "Durability",
+    "Adventure and boldness",
+    "Reduced environmental impact"
+  ],
+  "target_audience": {
+    "primary": [
+      "Young Indian men shopping for denim and casualwear",
+      "Young Indian women shopping for denim and casualwear",
+      "Style-conscious shoppers seeking varied fits, sizes and everyday comfort"
+    ],
+    "roles": [
+      "Direct consumers",
+      "Online fashion shoppers",
+      "In-store fashion shoppers"
+    ],
+    "secondary_verticals": [
+      "Underjeans and loungewear",
+      "Accessories",
+      "Plus-size apparel",
+      "Seasonal and occasion-led casualwear"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Killer Jeans",
+      "what_it_does": "Indian homegrown denim and menswear brand with jeans, ready-to-wear apparel, innerwear, footwear and accessories.",
+      "website": "https://www.killerjeans.com/",
+      "how_it_competes": "Competes for youthful Indian denim and casualwear demand with a bold, rebellious identity and overlapping product categories."
+    },
+    {
+      "name": "Levi's India",
+      "what_it_does": "India ecommerce and retail presence for Levi's denim, jeans and casual apparel for men and women.",
+      "website": "https://levi.in/",
+      "how_it_competes": "Competes on denim heritage, broad fit coverage, quality positioning and national consumer recognition."
+    },
+    {
+      "name": "Pepe Jeans India",
+      "what_it_does": "Denim and casualwear retailer in India offering jeans and fashion for men, women and kids.",
+      "website": "https://www.pepejeans.in/",
+      "how_it_competes": "Competes for fashion-led denim searches and shoppers through contemporary fits, international brand positioning and overlapping men’s and women’s ranges."
+    }
+  ],
+  "competitor_alternative_categories": [
+    "International denim brands",
+    "Indian homegrown denim brands",
+    "Fast-fashion retailers",
+    "Department-store private labels",
+    "Online fashion marketplaces"
+  ],
+  "primary_business_goal": "Increase qualified ecommerce and store demand for Spykar's denim-led apparel while strengthening its position as a leading homegrown youth fashion brand.",
+  "primary_conversion": "Online product purchase; store-locator visits are a secondary conversion.",
+  "site_type": "Shopify ecommerce site with collection, product, editorial blog, customer-service and store-locator content.",
+  "measurement_and_connected_sources": [
+    "Public website crawl via Firecrawl",
+    "Rendered page verification via in-app browser",
+    "Google Search Console connection not yet verified",
+    "Analytics connection not yet verified",
+    "Google Keyword Planner availability to be checked during keyword research",
+    "PageSpeed, CrUX and Lighthouse availability to be checked during audits"
+  ],
+  "open_questions": [
+    "Which customer age bands, regions and revenue-driving categories should SEO prioritize?",
+    "Which GSC property and analytics property belong to Spykar, and are they connected?",
+    "What are the approved sustainability substantiations beyond the public About Us language?",
+    "Which product margins, inventory constraints and seasonal launch dates should influence keyword prioritization?",
+    "Is the primary reporting market all of India, or should specific states and cities receive priority?",
+    "What is the approved internal competitor set?"
+  ]
+}

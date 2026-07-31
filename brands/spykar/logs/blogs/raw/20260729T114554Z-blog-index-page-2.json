@@ -1,0 +1,20 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "source": "https://spykar.com/blogs/blog?page=2",
+  "provider": "firecrawl",
+  "status_code": 200,
+  "scrape_id": "019fadb2-d14e-71ab-94ea-6a34b139b709",
+  "status": "partial",
+  "posts": [
+    {"title":"5 Must-Have Women’s Jeans to Give Your Wardrobe an Upgrade","url":"https://spykar.com/blogs/blog/best-womens-jeans-styles-guide","published_date":"2026-05-23"},
+    {"title":"Introducing Ikemen Jeans by Spykar: Modern Denim for Everyday Style","url":"https://spykar.com/blogs/blog/everyday-denim-style-with-ikemen-jeans","published_date":"2026-05-19"},
+    {"title":"10 Men’s Denim Jeans Colours That Are Wardrobe Essentials","url":"https://spykar.com/blogs/blog/mens-denim-jeans-colours-wardrobe-essentials","published_date":"2026-05-13"},
+    {"title":"Casual Summer Fashion Essentials Every Wardrobe Needs","url":"https://spykar.com/blogs/blog/casual-summer-fashion-essentials-every-wardrobe-needs","published_date":"2026-05-09"},
+    {"title":"Trending Jeans for Men in 2026: The Styles Worth Buying","url":"https://spykar.com/blogs/blog/latest-denim-jeans-styles-for-men","published_date":"2026-05-05"},
+    {"title":"Style Guide: Oversized T-shirts and Modern Denim Fits","url":"https://spykar.com/blogs/blog/style-guide-oversized-tshirts-modern-denim-fits","published_date":"2026-04-29"},
+    {"title":"Behind the Campaign: The Story of Spykar’s Roots of Now Shoot","url":"https://spykar.com/blogs/blog/spykar-roots-of-now-campaign","published_date":"2026-04-28"},
+    {"title":"Summer Wardrobe Essentials Every Fashion Lover Needs","url":"https://spykar.com/blogs/blog/summer-wardrobe-essentials-every-fashion-lover-needs","published_date":"2026-04-28"},
+    {"title":"Summer Denim Outfits for Women: Chic & Comfortable Looks","url":"https://spykar.com/blogs/blog/summer-denim-outfits-for-women-chic-comfortable-looks","published_date":"2026-04-28"}
+  ],
+  "notes": "Extraction returned nine cards. Web search recovered the omitted May 26 post."
+}

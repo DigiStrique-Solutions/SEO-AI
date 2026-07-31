@@ -1,0 +1,58 @@
+{
+  "run_id": "cottonworld-blog-topic-calendar-feedback-revision-20260729",
+  "captured_at": "2026-07-29T12:59:13+05:30",
+  "source_type": "google_sheet_editorial_feedback",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1Mvr9U5M9J0H7A7TQsU9OA-1aNeOWvj3dNzMeu8-xs30/edit?gid=0#gid=0",
+  "spreadsheet_title": "Cottonworld Blogs Topics (April - July 2026)",
+  "sheet": "Topics",
+  "source_range": "A1:G20",
+  "editorial_direction": [
+    "Apply Cottonworld team comments to April, May and June where a topic needs revision.",
+    "Position cotton and linen as complementary summer fabrics rather than declaring one winner.",
+    "Replace topics that depend on wedding or yoga collections Cottonworld does not have.",
+    "From July onward, make the seasonal reference explicitly monsoon-led."
+  ],
+  "changes": [
+    {
+      "month": "April",
+      "row": 2,
+      "change": "Reframed cotton versus linen as a complementary-fabrics topic and updated its keyword and hook."
+    },
+    {
+      "month": "April",
+      "row": 5,
+      "change": "Corrected the linen-care hook from post-monsoon to summer care and rising pre-monsoon humidity."
+    },
+    {
+      "month": "May",
+      "row": 10,
+      "change": "Replaced the unsupported daytime-wedding topic with everyday summer outfits for brunch, errands and slow weekends."
+    },
+    {
+      "month": "June",
+      "row": 14,
+      "change": "Replaced the unsupported yoga-collection topic with a simple monsoon capsule wardrobe."
+    },
+    {
+      "month": "June",
+      "row": 15,
+      "change": "Replaced the out-of-season pre-summer framing with a summer-to-monsoon transition topic."
+    },
+    {
+      "month": "July",
+      "row": 19,
+      "change": "Reframed long-weekend packing around rainy monsoon travel."
+    },
+    {
+      "month": "July",
+      "row": 20,
+      "change": "Reframed comfortable date outfits around monsoon conditions and humid evenings."
+    }
+  ],
+  "preserved": [
+    "Topics already marked okay where the editorial direction was satisfied.",
+    "Cottonworld Team Comments cells as the feedback record.",
+    "Approval cells."
+  ],
+  "status": "ok"
+}

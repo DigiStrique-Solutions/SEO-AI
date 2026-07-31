@@ -1,0 +1,76 @@
+{
+  "run_id": "cottonworld-rainy-season-peer-topic-benchmark-20260729",
+  "captured_at": "2026-07-29T13:08:46+05:30",
+  "source_type": "live_web_peer_content_benchmark",
+  "target": "Cottonworld April-July 2026 blog topic calendar",
+  "sheet_ref": "https://docs.google.com/spreadsheets/d/1Mvr9U5M9J0H7A7TQsU9OA-1aNeOWvj3dNzMeu8-xs30/edit?gid=0#gid=0",
+  "research_queries": [
+    "Indian clothing brand blog monsoon style rainy season outfits natural fabrics",
+    "site:fabindia.com monsoon clothing blog OR journal",
+    "site:okhai.org monsoon fashion blog rainy season",
+    "site:nicobar.com monsoon clothing journal rain",
+    "site:the-summer-house.com blog rain monsoon clothing",
+    "site:nonasties.in blog monsoon clothing rain",
+    "site:jaypore.com blog monsoon style rain",
+    "Indian apparel brand journal rainy season cross season dressing colour monsoon"
+  ],
+  "peer_sources": [
+    {
+      "brand": "Nicobar",
+      "url": "https://journal.nicobar.com/making-the-case-to-step-out-when-it-rains/",
+      "observed_angle": "Lifestyle-first reasons to go outside in the rain, with clothing as support for the experience."
+    },
+    {
+      "brand": "Nicobar",
+      "url": "https://journal.nicobar.com/tag/nicobar-style/",
+      "observed_angle": "Cross-season dressing and colour choices that work against grey weather."
+    },
+    {
+      "brand": "Prathaa",
+      "url": "https://prathaa.in/blogs/blog-posts/styling-in-elegance-and-sustainability-with-prathaa-in-the-monsoon-season",
+      "observed_angle": "Natural fabrics, colour, loose silhouettes and light layering."
+    },
+    {
+      "brand": "Global Republic",
+      "url": "https://www.globalrepublic.in/blogs/styling-tips/what-indian-women-wear-in-monsoon-and-where-to-buy-it",
+      "observed_angle": "Practical movement, breathable fabrics, and hemlines that avoid wet streets."
+    },
+    {
+      "brand": "The Bear House",
+      "url": "https://thebearhouse.com/blogs/blog/monsoon-outfit-guide-for-men-in-india-style-through-the-rains",
+      "observed_angle": "City movement, outfit formulas, colour, accessories, footwear and wet-clothes care."
+    },
+    {
+      "brand": "Jaypore",
+      "url": "https://blog.jaypore.com/category/uncategorized/",
+      "observed_angle": "Rain as ritual, nostalgia and Indian cultural experience rather than only a clothing problem."
+    },
+    {
+      "publisher": "Indian Textile Journal",
+      "url": "https://indiantextilejournal.com/why-easy-care-clothing-is-a-monsoon-essential/",
+      "observed_angle": "Easy-care clothing, brighter colour, practical length and simple layering."
+    }
+  ],
+  "benchmark_synthesis": [
+    "Strong rainy-season calendars use weather as a setting, not as the repeated title formula.",
+    "Useful adjacent themes include colour under grey skies, indoor-outdoor temperature shifts, a reason to step outside, wet-street hemlines, slow-drying laundry, city movement and plans that change with the weather.",
+    "Cottonworld should keep life first and let natural-fabric clothing support routines, short outings, work and slow weekends.",
+    "Competitor wording and article structures were not copied."
+  ],
+  "sheet_changes": [
+    "When the Air Turns Heavy: Dressing for Humidity Without Overthinking It",
+    "Outdoor Heat, Indoor Chill: The One-Light-Layer Formula",
+    "Grey Skies, Better Colour: 6 Palettes That Lift a Rainy Day",
+    "From Balcony Coffee to a Neighbourhood Walk: A Slow Rainy-Day Wardrobe",
+    "A Shirt for Air That Won’t Move: What Fabric, Weave and Fit Change",
+    "Above the Splash Line: Why Trouser Length Matters on Wet Streets",
+    "Five Days, Fewer Washes: A Clothing Rotation for Slow-Drying Weeks",
+    "When Plans Change with the Weather: Pieces That Move from Work to Evening"
+  ],
+  "limitations": [
+    "Search returned no useful rainy-season editorial content from The Summer House or No Nasties.",
+    "Fabindia results were primarily monsoon collection pages rather than editorial articles.",
+    "Okhai search returned a product page but no usable rainy-season blog result."
+  ],
+  "status": "ok"
+}

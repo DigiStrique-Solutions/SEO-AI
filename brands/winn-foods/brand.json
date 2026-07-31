@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "display_name": "Winn Foods",
+  "status": "partial",
+  "primary_domain": "winn-foods.com",
+  "domains": [
+    "winn-foods.com"
+  ],
+  "locale": "en-IN",
+  "market": "India",
+  "created_at": "2026-07-27T07:21:39Z",
+  "updated_at": "2026-07-27T07:40:00Z",
+  "pointers": {
+    "context": "context.md",
+    "brand_dna": "brand-dna.json",
+    "knowledge": "knowledge.md",
+    "keywords": "keywords/",
+    "blogs": "blogs/",
+    "audits": "audits/",
+    "logs": "logs/",
+    "tasks": "tasks/brand-setup.checklist.json"
+  },
+  "counts": {
+    "audits": 6,
+    "blogs": 20,
+    "keywords": 24
+  },
+  "blockers": [
+    "Google Ads Keyword Planner was unavailable, so keyword volume and difficulty are blank.",
+    "GSC aggregate data is contaminated by unrelated gambling queries and /food-services/ traffic; investigate compromise, indexing spam, or historical URL abuse.",
+    "Core Web Vitals are unscored because PageSpeed/CrUX, Lighthouse, and an interactive browser session were unavailable.",
+    "Ten audit checks remain not_checked_blocked; see audits/summary.json for evidence requirements."
+  ]
+}

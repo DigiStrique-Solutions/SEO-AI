@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "winn-foods-audits-20260727T073600Z",
+  "provider": "firecrawl",
+  "target_url": "https://winn-foods.com/",
+  "captured_at": "2026-07-27T07:36:00Z",
+  "actions": [
+    {
+      "action": "crawl",
+      "crawl_id": "019fa27a-5192-70d9-bdbc-3b94921d980b",
+      "status": "completed",
+      "completed": 20,
+      "total": 20,
+      "credits_used": 100,
+      "request": {
+        "maxDiscoveryDepth": 2,
+        "limit": 20,
+        "sitemap": "include",
+        "deduplicateSimilarURLs": true,
+        "formats": ["json", "links"],
+        "render_wait_ms": 1500
+      },
+      "observed_templates": ["homepage", "product", "blog", "collection", "sitemap", "agent instructions"]
+    },
+    {
+      "action": "rendered_dom_homepage",
+      "scrape_id": "019fa27e-e16b-750f-b6ba-24ac4882c355",
+      "status": "ok",
+      "observations": {
+        "final_url": "https://winn-foods.com/",
+        "title": "Winn Foods",
+        "title_length": 10,
+        "meta_description": "",
+        "canonical": "https://winn-foods.com/",
+        "viewport": "width=device-width,initial-scale=1",
+        "html_language": "en",
+        "h1_count": 1,
+        "h1_text": "",
+        "heading_sequence_starts": ["H1", "H2", "H3"],
+        "empty_heading_elements_observed": true,
+        "images_with_empty_alt_observed": true,
+        "organization_schema": {
+          "present": true,
+          "name": "Winn Foods",
+          "url": "https://winn-foods.com",
+          "logo_present": true,
+          "same_as_contains_empty_strings": true
+        },
+        "website_schema": {
+          "present": true,
+          "search_action_present": true
+        },
+        "homepage_sections": [
+          "Choose Your Chinese Fix",
+          "Winn Food Bestsellers",
+          "Goodness You Can Trust",
+          "Build Your Own Basket",
+          "About Winn Food",
+          "Recipes & Inspirations",
+          "Got Questions? We’ve Got Answers",
+          "Featured Articles"
+        ]
+      }
+    },
+    {
+      "action": "robots_render",
+      "scrape_id": "019fa27e-8efa-750c-9adf-1991c2672cc8",
+      "status": "ok",
+      "observations": {
+        "url": "https://winn-foods.com/robots.txt",
+        "default_allow": "/",
+        "important_content_blocked": false,
+        "crawl_traps_blocked": true,
+        "sitemap": "https://winn-foods.com/sitemap.xml",
+        "named_ai_crawlers_explicitly_addressed": false
+      }
+    },
+    {
+      "action": "llms_txt_fetch",
+      "crawl_id": "019fa27f-f70e-779a-960e-77c25a1857c8",
+      "status": "completed",
+      "observations": {
+        "url": "https://winn-foods.com/llms.txt",
+        "http_status": 200,
+        "content_type": "text/markdown; charset=utf-8",
+        "mirrors_agents_md": true,
+        "ucp_discovery_documented": true
+      }
+    }
+  ],
+  "sample_page_findings": [
+    {
+      "url": "https://winn-foods.com/products/dark-soy-shandar-sauce-100g",
+      "status_code": 200,
+      "canonical": "https://winn-foods.com/products/dark-soy-shandar-sauce-100g",
+      "title_length": 28,
+      "meta_description_length": 154,
+      "visible_word_count": 469,
+      "author_or_byline": "Winn Foods",
+      "empty_alt_images_observed": true,
+      "json_ld_extracted": 0
+    },
+    {
+      "url": "https://winn-foods.com/products/mix-veg-omg-soup-12g",
+      "status_code": 200,
+      "canonical": "https://winn-foods.com/products/mix-veg-omg-soup-12g",
+      "title_length": 27,
+      "meta_description_length": 238,
+      "visible_word_count": 204,
+      "future_dated_value_observed": "2026-08-01",
+      "empty_alt_images_observed": true,
+      "json_ld_extracted": 0
+    },
+    {
+      "url": "https://winn-foods.com/blogs/news/are-chinese-sauces-healthy-what-you-should-know",
+      "status_code": 200,
+      "canonical": "https://winn-foods.com/blogs/news/are-chinese-sauces-healthy-what-you-should-know",
+      "title_length": 43,
+      "meta_description_length": 126,
+      "visible_word_count": 2131,
+      "author_or_byline": "Winn Foods",
+      "faq_structure_present": true,
+      "empty_alt_images_observed": true,
+      "json_ld_extracted": 0
+    }
+  ],
+  "limitations": [
+    "The in-app browser/Playwright connection returned 'No browser is available'; Firecrawl's rendered DOM was used for rendered-page observations.",
+    "The 20-page crawl is a bounded evidence sample, not proof that every live URL was tested.",
+    "No Google Rich Results Test or Search Console enhancement report was available."
+  ]
+}

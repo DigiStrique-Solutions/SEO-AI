@@ -1,0 +1,52 @@
+{
+  "run_id": "spykar-jul-aug-topics-20260729",
+  "accessed_at": "2026-07-29",
+  "market": "India",
+  "findings": [
+    {
+      "signal": "Loose and relaxed denim remains central to Spring/Summer 2026, including baggy, barrel and flared silhouettes.",
+      "source": "FashionUnited Spring/Summer 2026 trend report",
+      "url": "https://fashionunited.uk/news/fashion/spring-summer-2026-trend-report-navigating-a-season-of-reorientation-and-mindful-expression/2025060582048"
+    },
+    {
+      "signal": "Barrel-leg jeans are a visible current Summer 2026 trend.",
+      "source": "Vogue Germany",
+      "url": "https://www.vogue.de/artikel/barrel-jeans-trend-sommer"
+    },
+    {
+      "signal": "Summer 2026 denim coverage includes baggy shorts, comfort-focused fabrics, relaxed bootcuts and barrel jeans.",
+      "source": "Elle",
+      "url": "https://www.elle.com/fashion/shopping/a71139789/summer-denim-trends-2026/"
+    },
+    {
+      "signal": "Monsoon dressing in India favours lightweight overshirts, relaxed layers and practical versatility.",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/life-style/fashion/style-guide/rain-check-the-monsoon-essentials-every-man-needs-this-season/articleshow/131987120.cms"
+    },
+    {
+      "signal": "Back-to-school denim marketing moved into mid-July in 2026, with low-rise styles for women and relaxed fits for men.",
+      "source": "Modern Retail",
+      "url": "https://www.modernretail.co/marketing/the-back-to-school-denim-wars-are-starting-earlier-lasting-longer/"
+    },
+    {
+      "signal": "Denim is being used as an adaptable bridge from summer into the next season.",
+      "source": "Who What Wear",
+      "url": "https://www.whowhatwear.com/fashion/denim/summer-to-fall-transitional-denim-outfit-ideas-2026"
+    },
+    {
+      "signal": "Independence Day falls on 15 August 2026 and Raksha Bandhan on 28 August 2026.",
+      "source": "Supreme Court of India calendar",
+      "url": "https://www.sci.gov.in/calendar/"
+    },
+    {
+      "signal": "Spykar GSC opportunity terms include jeans for men, white jeans for men, light blue jeans, black jeans men, ankle-length jeans, cotton jeans, women's jeans, bootcut jeans, underjeans and store-near-me queries.",
+      "source": "Spykar bounded GSC keyword export",
+      "url": "logs/keywords/raw/20260729T114815Z-gsc-query-page-export.json"
+    }
+  ],
+  "limitations": [
+    "Trend coverage is directional editorial evidence, not search-demand volume.",
+    "The GSC export is bounded rather than exhaustive.",
+    "Keyword Planner is unavailable because GOOGLE_ADS_PLATFORM_ID is unset; no monthly-search or difficulty figures were invented."
+  ]
+}

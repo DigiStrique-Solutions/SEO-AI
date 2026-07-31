@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": 0.85,
+  "counts": {"items": 7, "pass": 5, "fail": 1, "not_applicable": 1},
+  "rows": [
+    {
+      "item_id": "page-purpose",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The homepage has a dominant ecommerce purpose: sell denim-led apparel through category, collection and product paths.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "intent-match",
+      "section_id": "purpose-intent",
+      "status": "pass",
+      "result": "The ecommerce homepage matches the Phase 2 navigational “spykar” cluster mapped to https://spykar.com/. The India GSC sample records 453,623 impressions, 114,834 clicks and average position 1.13 for that query from 2025-04-01 through 2026-07-26.",
+      "next_action": "",
+      "evidence_ref": "keywords/universe.csv#spykar"
+    },
+    {
+      "item_id": "content-depth",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The homepage extraction contains 493 words plus 15 contextual internal links across core commercial categories, sufficient for its ecommerce navigation purpose.",
+      "next_action": "Keep descriptive category copy visible and avoid replacing it with image-only campaigns.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "keyword-coverage",
+      "section_id": "depth-quality",
+      "status": "pass",
+      "result": "The homepage title and H1 naturally cover the mapped brand-navigation term “spykar”; transactional denim, fit, topwear and underjeans terms are separated into collection clusters rather than stuffed into the homepage.",
+      "next_action": "Keep collection-level copy aligned with the Phase 2 cluster-to-URL mapping.",
+      "evidence_ref": "keywords/clusters.json#brand-navigation"
+    },
+    {
+      "item_id": "freshness",
+      "section_id": "depth-quality",
+      "status": "not_applicable",
+      "result": "The criterion is not applicable to an evergreen ecommerce homepage; temporary sale copy was observed but no publication-date requirement applies.",
+      "next_action": "Add explicit offer end dates to promotional modules when a campaign depends on urgency.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "author-eeat",
+      "section_id": "eeat",
+      "status": "fail",
+      "result": "The homepage extraction did not expose an author, named expert, cited source or first-hand proof block; brand claims rely primarily on promotional language.",
+      "next_action": "Link fit, craftsmanship and sustainability claims to sourced About, product-material or policy evidence and surface those proof points near relevant claims.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "internal-links",
+      "section_id": "eeat",
+      "status": "pass",
+      "result": "The homepage extraction found 15 contextual links to relevant categories and supporting pages, exceeding the minimum of two.",
+      "next_action": "",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.internal_contextual_link_count"
+    }
+  ]
+}

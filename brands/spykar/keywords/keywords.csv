@@ -1,0 +1,29 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+spykar,navigational,homepage,https://spykar.com/,,,high,observed
+spykar jeans,transactional,collection,https://spykar.com/collections/men-jeans,,,high,observed
+spykar shirts,transactional,collection,https://spykar.com/collections/men-shirts,,,high,observed
+spykar jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,observed
+jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,opportunity
+spykar t shirt,transactional,collection,https://spykar.com/collections/men-t-shirts,,,high,observed
+spykar shirts for men,transactional,collection,https://spykar.com/collections/men-shirts,,,high,observed
+spykar jeans for women,transactional,collection,https://spykar.com/collections/women-jeans,,,high,opportunity
+white jeans for men,transactional,collection,https://spykar.com/collections/white-jeans-for-men,,,high,opportunity
+spykar cargo pants,transactional,collection,https://spykar.com/collections/cargo,,,high,opportunity
+spykar bootcut jeans for men,transactional,collection,https://spykar.com/collections/mens-bootcut,,,high,observed
+spykar showroom near me,local,store_locator,https://spykar.com/a/storelocator,,,high,opportunity
+spykar store near me,local,store_locator,https://spykar.com/a/storelocator,,,high,opportunity
+spykar jeans price,commercial,collection,https://spykar.com/collections/men-jeans,,,medium,observed
+black jeans men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,opportunity
+mens jeans,transactional,collection,https://spykar.com/collections/men-jeans,,,high,opportunity
+cotton jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,opportunity
+denim jeans for men,transactional,collection,https://spykar.com/collections/men-jeans,,,high,opportunity
+underjeans by spykar,transactional,collection,https://spykar.com/collections/men-innerwear,,,medium,opportunity
+slim fit jeans for men,transactional,collection,https://spykar.com/collections/men-slim-fit-jeans,,,high,opportunity
+light blue jeans,transactional,collection,https://spykar.com/collections/light-blue-jeans-men,,,high,opportunity
+ankle length jeans for men,transactional,collection,https://spykar.com/collections/ankle-length-jeans-for-men,,,medium,opportunity
+best indian jeans brands,commercial,blog,,,,medium,seed
+levis alternative india,commercial,comparison,,,,medium,seed
+pepe jeans alternative india,commercial,comparison,,,,medium,seed
+killer jeans alternative,commercial,comparison,,,,medium,seed
+denim fits guide,informational,blog,,,,medium,seed
+high rise vs mid rise vs low rise jeans for men,informational,blog,https://spykar.com/blogs/blog/lets-take-a-closer-look-at-high-mid-and-low-rise-jeans-for-men,,,medium,seed

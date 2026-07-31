@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "ai-seo-aeo-geo",
+  "audit_ref": "audit-library/ai-seo-aeo-geo.json",
+  "target_url": "https://spykar.com/",
+  "run_date": "2026-07-29",
+  "score": 0.17,
+  "counts": {"items": 6, "pass": 1, "fail": 2, "not_applicable": 3},
+  "rows": [
+    {
+      "item_id": "direct-answers",
+      "section_id": "answerability",
+      "status": "fail",
+      "result": "The homepage is campaign- and category-led; the rendered extraction found no concise FAQ or direct-answer block near the top of the page.",
+      "next_action": "Add short, source-backed answers to high-intent questions about fits, sizing, shipping, returns and denim care on the relevant pages.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage.visible_faq_blocks"
+    },
+    {
+      "item_id": "structured-answers",
+      "section_id": "answerability",
+      "status": "fail",
+      "result": "No visible FAQ, definition, comparison table or other quotable answer block was extracted from the homepage.",
+      "next_action": "Use concise headings, lists and tables for fit guides, product comparisons and care advice while preserving the brand voice.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#on_page.homepage"
+    },
+    {
+      "item_id": "entity-clarity",
+      "section_id": "entity-authority",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. Public copy consistently identifies Spykar, but rendered Organization/WebSite schema and sameAs completeness could not be validated.",
+      "next_action": "Verify rendered Organization/WebSite schema with name, canonical URL, logo and approved social sameAs links.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#rendered_validation"
+    },
+    {
+      "item_id": "citations-sources",
+      "section_id": "entity-authority",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. The crawl did not provide a complete outbound-source inventory and no independent third-party citation benchmark was run.",
+      "next_action": "Add primary sources for material, sustainability and scale claims and benchmark earned citations from credible third parties.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#scope"
+    },
+    {
+      "item_id": "ai-crawler-access",
+      "section_id": "ai-visibility",
+      "status": "pass",
+      "result": "robots.txt allows the default user-agent and exposes the sitemap; llms.txt returned 200 with store identity, policies, read-only catalog routes and agent-commerce discovery.",
+      "next_action": "Keep llms.txt accurate and ensure future AI-specific robots rules do not block important public content.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#crawlability"
+    },
+    {
+      "item_id": "ai-mentions",
+      "section_id": "ai-visibility",
+      "status": "not_applicable",
+      "result": "Status: not_checked_blocked. No authenticated, repeatable AI-answer benchmark was run for priority prompts.",
+      "next_action": "Define priority prompts and record engine, model/date, answer, citation and landing-page evidence for ChatGPT, Perplexity and Google AI experiences.",
+      "evidence_ref": "logs/audits/raw/20260729T115500Z-shared-site-checks.json#scope"
+    }
+  ]
+}

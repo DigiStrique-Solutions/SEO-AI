@@ -2,7 +2,12 @@
   "schema_version": "1.0.0",
   "brand_id": "cottonworld",
   "started_at": "2026-07-13T11:59:00Z",
-  "updated_at": "2026-07-13T12:20:00Z",
+  "updated_at": "2026-07-27T12:23:53Z",
+  "latest_refresh": {
+    "run_id": "cottonworld-refresh-20260727",
+    "status": "done_with_soft_blockers",
+    "scope": "brand crawl, voice model, GSC keyword enrichment, blog refresh, GSC indexation and Lighthouse lab snapshot"
+  },
   "phases": [
     {
       "phase": "0-init",
@@ -12,7 +17,7 @@
           "id": "p0.skeleton",
           "status": "done",
           "severity": "high",
-          "note": "folder skeleton + logs categories created",
+          "note": "Existing Cottonworld workspace preserved and refreshed in place.",
           "log_ref": ""
         }
       ]
@@ -25,8 +30,8 @@
           "id": "p1.crawl-ok",
           "status": "done",
           "severity": "high",
-          "note": "5 pages crawled, HTTP 200",
-          "log_ref": "logs/web_data/activity.jsonl"
+          "note": "Firecrawl map returned 500 URLs; homepage and about page returned HTTP 200.",
+          "log_ref": "logs/web_data/raw/20260727T122353Z-brand-refresh.json"
         },
         {
           "id": "p1.brand-name",
@@ -39,29 +44,29 @@
           "id": "p1.core-fields",
           "status": "done",
           "severity": "medium",
-          "note": "business/model/audience/voice filled from crawl",
-          "log_ref": ""
+          "note": "Brand positioning, logo, live design tokens, audience and current voice patterns refreshed.",
+          "log_ref": "brand-dna.json"
         },
         {
           "id": "p1.competitors",
           "status": "done",
           "severity": "medium",
-          "note": "3 analyst-identified category peers; brand's own named set \u2192 open_questions",
-          "log_ref": ""
+          "note": "Three analyst-identified category peers retained and explicitly labeled as not brand-named.",
+          "log_ref": "brand-dna.json"
         },
         {
           "id": "p1.dna-valid",
           "status": "done",
           "severity": "high",
-          "note": "brand-dna.json parses & matches schema",
-          "log_ref": ""
+          "note": "brand-dna.json parses and required fields are present.",
+          "log_ref": "brand-dna.json"
         },
         {
           "id": "p1.knowledge",
           "status": "done",
           "severity": "low",
-          "note": "knowledge.md seeded",
-          "log_ref": ""
+          "note": "knowledge.md and blogs/writing-style.md refreshed.",
+          "log_ref": "knowledge.md"
         }
       ]
     },
@@ -73,43 +78,44 @@
           "id": "p2.demand-pull",
           "status": "failed",
           "severity": "high",
-          "note": "Keyword Planner blocked (GOOGLE_ADS_PLATFORM_ID unset); continued with seeds \u2014 soft fail per phase rule",
+          "soft_fail": true,
+          "note": "Keyword Planner blocked because GOOGLE_ADS_PLATFORM_ID is unset; volume and difficulty remain blank.",
           "log_ref": "logs/keywords/activity.jsonl"
         },
         {
           "id": "p2.universe",
           "status": "done",
           "severity": "high",
-          "note": "universe.csv 38 rows, header valid",
-          "log_ref": ""
+          "note": "38-row universe enriched with exact-match GSC metrics; 24 rows had impressions.",
+          "log_ref": "keywords/universe.csv"
         },
         {
           "id": "p2.keywords",
           "status": "done",
           "severity": "medium",
-          "note": "keywords.csv 31 curated",
-          "log_ref": ""
+          "note": "31-row curated keyword set retained.",
+          "log_ref": "keywords/keywords.csv"
         },
         {
           "id": "p2.clusters",
           "status": "done",
           "severity": "medium",
-          "note": "clusters.json 10 clusters",
-          "log_ref": ""
+          "note": "10 valid clusters retained.",
+          "log_ref": "keywords/clusters.json"
         },
         {
           "id": "p2.gsc",
-          "status": "failed",
+          "status": "done",
           "severity": "low",
-          "note": "GSC not connected; gsc_* blank",
-          "log_ref": ""
+          "note": "GSC connected with siteFullUser permission; 90-day totals and exact seed matches pulled.",
+          "log_ref": "logs/keywords/raw/20260727T122353Z-gsc-refresh.json"
         },
         {
           "id": "p2.summary",
           "status": "done",
           "severity": "medium",
-          "note": "research-summary.json counts match",
-          "log_ref": ""
+          "note": "research-summary.json updated with sources, totals, counts and blockers.",
+          "log_ref": "keywords/research-summary.json"
         }
       ]
     },
@@ -121,29 +127,29 @@
           "id": "p3.index",
           "status": "done",
           "severity": "medium",
-          "note": "blog index located (sitemap_blogs_1.xml)",
-          "log_ref": "logs/blogs/activity.jsonl"
+          "note": "Blog index, sitemap and Shopify Atom feed verified.",
+          "log_ref": "logs/blogs/raw/20260727T122353Z-blog-refresh.json"
         },
         {
           "id": "p3.discovery",
           "status": "done",
           "severity": "medium",
-          "note": "4 posts (url+date)",
-          "log_ref": ""
+          "note": "4 posts found with corrected published and updated dates.",
+          "log_ref": "blogs/summary.md"
         },
         {
           "id": "p3.references",
           "status": "done",
           "severity": "medium",
-          "note": "4/4 reference files; 0 skipped",
-          "log_ref": ""
+          "note": "4/4 reference files refreshed; all marked rewrite_required in notes.",
+          "log_ref": "blogs/references/"
         },
         {
           "id": "p3.summary",
           "status": "done",
           "severity": "low",
-          "note": "summary.md written; flagged all posts as broken/placeholder",
-          "log_ref": ""
+          "note": "Summary and reusable safe writing-style database updated.",
+          "log_ref": "blogs/writing-style.md"
         }
       ]
     },
@@ -152,18 +158,33 @@
       "status": "done",
       "items": [
         {
-          "id": "p4.audits-run",
+          "id": "p4.baseline",
           "status": "done",
           "severity": "high",
-          "note": "6 audits, overall 0.59 (PARTIAL)",
-          "log_ref": "logs/audits/activity.jsonl"
+          "note": "Six-audit baseline from 2026-07-13 retained at overall score 0.59 (partial).",
+          "log_ref": "audits/summary.json"
+        },
+        {
+          "id": "p4.refresh-evidence",
+          "status": "done",
+          "severity": "high",
+          "note": "GSC sitemap and three URL inspections plus Firecrawl and Lighthouse lab evidence gathered.",
+          "log_ref": "logs/audits/raw/20260727T122353Z-refresh-checks.json"
+        },
+        {
+          "id": "p4.refresh-report",
+          "status": "done",
+          "severity": "medium",
+          "note": "Targeted 2026-07-27 refresh written without overwriting the older complete audit files.",
+          "log_ref": "audits/refresh-2026-07-27.md"
         },
         {
           "id": "p4.blocked",
           "status": "failed",
           "severity": "medium",
-          "note": "4 items not_checked_blocked: indexation, LCP/INP field, ai-mentions (need GSC/field data)",
-          "log_ref": ""
+          "soft_fail": true,
+          "note": "Field CWV blocked by missing GOOGLE_API_KEY; manual AI-mention testing not run.",
+          "log_ref": "logs/audits/raw/20260727T122353Z-refresh-checks.json"
         }
       ]
     },
@@ -174,11 +195,35 @@
         {
           "id": "p5.manifest",
           "status": "done",
-          "severity": "medium",
-          "note": "brand.json written",
+          "severity": "high",
+          "note": "brand.json and context.md point to the refreshed database.",
+          "log_ref": "brand.json"
+        },
+        {
+          "id": "p5.verify",
+          "status": "done",
+          "severity": "high",
+          "note": "JSON, JSONL, CSV headers, counts and internal Markdown links validated.",
           "log_ref": ""
         }
       ]
+    }
+  ],
+  "open_blockers": [
+    {
+      "id": "keyword_planner_platform_id_unset",
+      "severity": "high_soft",
+      "next_action": "Set GOOGLE_ADS_PLATFORM_ID, then run Google Ads generate keyword ideas for India to populate volume and difficulty."
+    },
+    {
+      "id": "field_cwv_google_api_key_unset",
+      "severity": "medium",
+      "next_action": "Set GOOGLE_API_KEY with PageSpeed Insights and Chrome UX Report APIs enabled, then run tools/google_pagespeed.py cwv."
+    },
+    {
+      "id": "manual_ai_mentions_not_tested",
+      "severity": "low",
+      "next_action": "Run a documented prompt set across relevant answer engines."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "detector_note": {
+    "checked_at": "2026-07-28T11:25:52.1935259Z",
+    "max_score": 20.0,
+    "note": "The exact final rendered article text was checked in the live ZeroGPT web interface and labelled \"Your Text is Most Likely Human written\". This is a weak editorial signal, not proof of authorship.",
+    "score": 19.6,
+    "source": "live_web_ui",
+    "status": "pass",
+    "tool": "zerogpt.com"
+  },
+  "cli_attempt": {
+    "checked_at": "2026-07-28T11:26:02+00:00",
+    "error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+    "fallback_score": 6.0,
+    "source": "local_fallback",
+    "status": "pass"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

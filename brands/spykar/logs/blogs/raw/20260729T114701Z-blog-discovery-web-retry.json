@@ -1,0 +1,14 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "provider": "web",
+  "queries": [
+    "site:spykar.com/blogs/blog Spykar \"April\" 2026",
+    "site:spykar.com/blogs/blog Spykar blog denim jeans fashion"
+  ],
+  "recovered_post": {
+    "title": "Elevate Your Denim Collection With a Pair of Dark- and Rinse-Wash Jeans",
+    "url": "https://spykar.com/blogs/blog/elevate-your-denim-collection-with-dark-and-rinse-wash-jeans",
+    "published_date": "2026-05-26"
+  },
+  "notes": "The alternate provider exposed the post missing from the page-2 Firecrawl extraction. Together with the two successful index pages, this completed the capped 20-post discovery set."
+}

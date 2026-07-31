@@ -1,0 +1,34 @@
+{
+  "provider": "firecrawl",
+  "scrape_id": "019fa279-faa3-7338-9c9a-eb6175ca783c",
+  "source_url": "https://surabhi-foods.com/pages/about-us",
+  "status_code": 200,
+  "extraction": {
+    "history_claims": [
+      "Surabhi Foods has been crafting exceptional condiments since 1989.",
+      "Surabhi was dedicated to delivering high-quality products since its inception in 2006."
+    ],
+    "company_legal_names": ["Surabhi Foods"],
+    "business_description": "A leading name in the premium condiments industry in India.",
+    "business_model_clues": [
+      "An expansive distribution network serving households across India.",
+      "Products available for delivery via clicks or phone calls."
+    ],
+    "product_range": [
+      "Ketchups",
+      "Ginger Garlic Paste",
+      "Indian Ethnic Condiments",
+      "Jain Range (No Onion - No Garlic)"
+    ],
+    "quality_ingredient_claims": [
+      "All products are crafted using premium quality, hand-picked ingredients.",
+      "Products contain no added colors or flavor enhancers."
+    ],
+    "certifications": ["FSSC22000 Certified"],
+    "distribution_market_claims": ["A vast and efficient distribution network across India."],
+    "brand_values": [
+      "Commitment to purity and authenticity.",
+      "Quality at the heart of everything they do."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "run_id": "cottonworld-blog-topic-calendar-monsoon-replacement-20260729",
+  "captured_at": "2026-07-29T13:03:01+05:30",
+  "source_type": "user_clarification_and_google_sheet_feedback",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1Mvr9U5M9J0H7A7TQsU9OA-1aNeOWvj3dNzMeu8-xs30/edit?gid=0#gid=0",
+  "sheet": "Topics",
+  "source_range": "A1:G20",
+  "clarification": "Treat a Cottonworld Team Comments cell containing 'ok' as approved. Replace every topic with a blank or negative team comment with a completely new monsoon topic.",
+  "approved_rows_preserved": [
+    2,
+    4,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20
+  ],
+  "replaced_rows": [
+    {
+      "row": 3,
+      "month": "April",
+      "new_topic": "Why Clothes Feel Sticky in Monsoon Humidity—and What to Wear Instead"
+    },
+    {
+      "row": 5,
+      "month": "April",
+      "new_topic": "How to Layer for Monsoon Weather: Outdoor Humidity, Indoor AC and Sudden Rain"
+    },
+    {
+      "row": 7,
+      "month": "May",
+      "new_topic": "Cotton, Linen and Bamboo in the Monsoon: Where Each Fabric Works Best"
+    },
+    {
+      "row": 8,
+      "month": "May",
+      "new_topic": "A Monsoon Wardrobe for Slow Weekends: 7 Easy Pieces for Home, Errands and Coffee"
+    },
+    {
+      "row": 9,
+      "month": "May",
+      "new_topic": "How to Choose a Monsoon Shirt: Fabric, Fit, Weave and Drying Time"
+    },
+    {
+      "row": 10,
+      "month": "May",
+      "new_topic": "7 Monsoon Dressing Mistakes That Make Humid Days Less Comfortable"
+    },
+    {
+      "row": 14,
+      "month": "June",
+      "new_topic": "From Damp to Dry: How to Rotate Clothes Through a Rainy Week"
+    },
+    {
+      "row": 15,
+      "month": "June",
+      "new_topic": "A Monsoon Workweek Capsule: 10 Pieces, Five Days, Fewer Decisions"
+    }
+  ],
+  "fields_updated_per_replaced_row": [
+    "Proposed Blog Topic",
+    "Primary Keyword",
+    "Seasonal / Occasion Hook"
+  ],
+  "status": "ok"
+}

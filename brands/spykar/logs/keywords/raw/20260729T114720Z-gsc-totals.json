@@ -1,0 +1,26 @@
+{
+  "provider": "gsc",
+  "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+  "composio_log_id": "log_h2TEwjTMjOP8",
+  "request": {
+    "site_url": "https://spykar.com/",
+    "start_date": "2025-04-01",
+    "end_date": "2026-07-26",
+    "dimensions": [],
+    "row_limit": 1,
+    "data_state": "final",
+    "search_type": "web",
+    "aggregation_type": "auto"
+  },
+  "response": {
+    "responseAggregationType": "byProperty",
+    "rows": [
+      {
+        "clicks": 630201,
+        "ctr": 0.010427109926564771,
+        "impressions": 60438703,
+        "position": 13.48211125576272
+      }
+    ]
+  }
+}

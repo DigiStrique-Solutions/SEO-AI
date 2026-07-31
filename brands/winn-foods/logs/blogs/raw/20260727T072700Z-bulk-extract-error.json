@@ -1,0 +1,10 @@
+{
+  "provider": "firecrawl",
+  "action": "extract",
+  "source": "20 selected Winn Foods blog and recipe URLs",
+  "status": "error",
+  "error": "Bad Request",
+  "retry_strategy": "Retried once using individual firecrawl_scrape calls with structured JSON extraction; retry succeeded for all 20 URLs.",
+  "captured_at": "2026-07-27T07:27:00Z"
+}
+

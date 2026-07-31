@@ -1,0 +1,40 @@
+{
+  "provider": "firecrawl",
+  "action": "map",
+  "source": "https://winn-foods.com/",
+  "requested_limit": 500,
+  "sitemap": "include",
+  "blog_indexes": [
+    "https://winn-foods.com/blogs/news",
+    "https://winn-foods.com/blogs/recipes"
+  ],
+  "discovered_post_urls": [
+    "https://winn-foods.com/blogs/news/indo-chinese-where-noodles-met-masala",
+    "https://winn-foods.com/blogs/news/why-are-winn-sauces-winn-ning-hearts-everywhere",
+    "https://winn-foods.com/blogs/news/common-mistakes-to-avoid-when-cooking-chinese-food",
+    "https://winn-foods.com/blogs/news/no-msg-no-artificial-colors-why-clean-chinese-sauces-matter",
+    "https://winn-foods.com/blogs/news/all-in-one-chinese-sauce-what-it-is-why-every-kitchen-needs-it",
+    "https://winn-foods.com/blogs/news/5-mistakes-you-re-making-while-cooking-noodles",
+    "https://winn-foods.com/blogs/news/best-chinese-sauces",
+    "https://winn-foods.com/blogs/news/are-chinese-sauces-healthy-what-you-should-know",
+    "https://winn-foods.com/blogs/recipes/manchurian-balls",
+    "https://winn-foods.com/blogs/recipes/schezwan-momos",
+    "https://winn-foods.com/blogs/recipes/hot-sour-soup",
+    "https://winn-foods.com/blogs/recipes/shiitake-mushrooms-bok-choy",
+    "https://winn-foods.com/blogs/recipes/vegetable-stir-fry",
+    "https://winn-foods.com/blogs/recipes/spicy-eggplant",
+    "https://winn-foods.com/blogs/recipes/chilli-paneer",
+    "https://winn-foods.com/blogs/recipes/spicy-thai-green-chilli-stir-fry",
+    "https://winn-foods.com/blogs/recipes/fried-rice",
+    "https://winn-foods.com/blogs/recipes/soya-sauce-glazed-mushrooms",
+    "https://winn-foods.com/blogs/recipes/schezwan-fried-rice",
+    "https://winn-foods.com/blogs/recipes/schezwan-noodles",
+    "https://winn-foods.com/blogs/recipes/veg-manchurian",
+    "https://winn-foods.com/blogs/recipes/mixed-vegetable-manchurian-gravy",
+    "https://winn-foods.com/blogs/recipes/chilli-vinegar-salad-dressing",
+    "https://winn-foods.com/blogs/recipes/chilli-vinegar-dumplings"
+  ],
+  "records": 24,
+  "captured_at": "2026-07-27T07:25:00Z"
+}
+

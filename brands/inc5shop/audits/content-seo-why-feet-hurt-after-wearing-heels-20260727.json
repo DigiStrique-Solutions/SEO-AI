@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "inc5shop",
+  "audit_id": "content-seo",
+  "audit_ref": "audit-library/content-seo.json",
+  "target_url": "draft://why-feet-hurt-after-wearing-heels-causes-prevention-tips",
+  "run_date": "2026-07-27",
+  "score": 1.0,
+  "counts": {"items": 7, "pass": 7, "fail": 0, "not_applicable": 0},
+  "rows": [
+    {"item_id":"page-purpose","section_id":"purpose-intent","status":"pass","result":"The article has one dominant purpose: explain common reasons feet hurt after heels, reduce avoidable pressure and direct medical red flags appropriately.","next_action":"","evidence_ref":"blogs/drafts/why-feet-hurt-after-wearing-heels-causes-prevention-tips.md#why-do-feet-hurt-after-wearing-heels-causes-and-prevention-tips"},
+    {"item_id":"intent-match","section_id":"purpose-intent","status":"pass","result":"The title question is answered immediately, followed by causes, a location-based symptom table, prevention, self-care and escalation guidance. Commercial heel keywords remain secondary.","next_action":"","evidence_ref":"logs/web_data/raw/20260727T112401Z-heel-pain-blog-research.json#intent"},
+    {"item_id":"content-depth","section_id":"depth-quality","status":"pass","result":"Coverage includes forefoot pressure, fit, toe shape, sliding, heel base, duration, transparent heels, prevention, short-term relief, medical red flags and a buying checklist.","next_action":"","evidence_ref":"blogs/drafts/why-feet-hurt-after-wearing-heels-causes-prevention-tips.md"},
+    {"item_id":"keyword-coverage","section_id":"depth-quality","status":"pass","result":"Heel-pain and high-heel variants appear naturally in the title, introduction, causes and care sections; commercial terms are not repeated as a collection-page substitute.","next_action":"","evidence_ref":"blogs/drafts/why-feet-hurt-after-wearing-heels-causes-prevention-tips.md"},
+    {"item_id":"freshness","section_id":"depth-quality","status":"pass","result":"NHS pages reviewed in 2025 and current Inc.5 sources were checked on 2026-07-27. No price or stock claim is used.","next_action":"Recheck medical source review dates and product links at CMS publication time.","evidence_ref":"logs/web_data/raw/20260727T112401Z-heel-pain-blog-research.json#sources"},
+    {"item_id":"author-eeat","section_id":"eeat","status":"pass","result":"Medical mechanisms, self-care and red flags link directly to NHS and PubMed sources; the copy states its informational limit and avoids diagnosis.","next_action":"Add the standard Inc.5 editorial byline and medical-review note in the CMS if available.","evidence_ref":"blogs/drafts/why-feet-hurt-after-wearing-heels-20260727.authenticity.json"},
+    {"item_id":"internal-links","section_id":"eeat","status":"pass","result":"The draft includes contextual links to the Inc.5 heels collection, transparent-heels collection and block-versus-kitten guide, plus two exact external health sources.","next_action":"","evidence_ref":"blogs/drafts/why-feet-hurt-after-wearing-heels-causes-prevention-tips.md"}
+  ]
+}

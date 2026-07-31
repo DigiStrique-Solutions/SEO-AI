@@ -1,0 +1,9 @@
+{
+  "run_id": "spykar-blogs-20260729",
+  "source": "https://spykar.com/blogs/blog?page=3",
+  "provider": "firecrawl",
+  "status": "error",
+  "error_code": "ERR_TUNNEL_CONNECTION_FAILED",
+  "message": "The URL failed to load in the browser because Firecrawl encountered an internal proxy error while establishing the tunnel.",
+  "next_action": "Retry once through an alternate web provider and continue with the maximum 20-post set if discovery is recovered."
+}

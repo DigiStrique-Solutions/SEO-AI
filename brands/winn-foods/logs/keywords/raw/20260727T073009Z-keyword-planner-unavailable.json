@@ -1,0 +1,23 @@
+{
+  "provider": "keyword_planner",
+  "tool": "google_ads_generate_keyword_ideas",
+  "status": "error",
+  "request_executed": false,
+  "target_country": "India",
+  "language": "English",
+  "seed_keywords": [
+    "indo chinese sauces",
+    "chinese sauces",
+    "schezwan chutney",
+    "manchurian sauce",
+    "hakka noodles",
+    "chinese masala",
+    "instant soup",
+    "all in one chinese sauce"
+  ],
+  "error": {
+    "code": "keyword_planner_tool_unavailable",
+    "message": "The permitted google_ads_generate_keyword_ideas tool was not present in the current Codex tool registry after exact tool discovery. GOOGLE_ADS_PLATFORM_ID is defined in the repository .env file but was not injected into the process environment. No Google Ads request was made because the platform-id must come from the environment and must not be hardcoded or exposed.",
+    "next_action": "Expose the configured google-ads MCP tool to Codex and inject GOOGLE_ADS_PLATFORM_ID into the tool process, then rerun Phase 2 demand research."
+  }
+}

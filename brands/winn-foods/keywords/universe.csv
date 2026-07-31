@@ -1,0 +1,56 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+winn,navigational,homepage,https://winn-foods.com/,,,medium,gsc,728,108884,7.2793,monitor
+winn foods,navigational,homepage,https://winn-foods.com/,,,high,gsc,1179,3392,1.6663,active
+winn sauce,navigational,homepage,https://winn-foods.com/,,,high,gsc,705,3653,1.9869,active
+winn sauces,navigational,collection,https://winn-foods.com/collections/chinese-sauces,,,high,gsc,132,366,1.4044,active
+winn products,navigational,collection,https://winn-foods.com/collections/shop-all,,,high,gsc,86,398,2.5327,active
+buy winn sauces online,transactional,collection,https://winn-foods.com/collections/chinese-sauces,,,high,gsc,0,136,6.5735,optimize
+winn chinese sauces,commercial,collection,https://winn-foods.com/collections/chinese-sauces,,,high,gsc,16,56,1.0893,active
+indo chinese sauces,commercial,collection,https://winn-foods.com/collections/chinese-sauces,,,high,brand_dna_seed|gsc,0,2,9.5,optimize
+chinese sauces online,transactional,collection,https://winn-foods.com/collections/chinese-sauces,,,high,brand_dna_seed,,,,proposed
+chinese sauces in india,commercial,collection,https://winn-foods.com/collections/chinese-sauces,,,medium,gsc,0,20,61.05,optimize
+chinese sauce brand,commercial,collection,https://winn-foods.com/collections/chinese-sauces,,,medium,gsc,0,2,6.5,optimize
+winn schezwan chutney,transactional,product,https://winn-foods.com/products/schezwan-chattak-chutney/,,,high,gsc,67,1176,3.8801,active
+winn schezwan sauce,transactional,product,https://winn-foods.com/products/schezwan-chattak-chutney/,,,high,gsc,8,137,3.781,optimize
+schezwan chutney online,transactional,product,https://winn-foods.com/products/schezwan-chattak-chutney/,,,high,brand_dna_seed,,,,proposed
+schezwan momos,informational,blog,,,,high,gsc,1,253,9.0909,optimize
+schezwan momo,informational,blog,,,,medium,gsc,0,29,9.7241,optimize
+winn red chilli sauce,transactional,product,https://winn-foods.com/products/red-chilli-sauce/,,,high,gsc,102,1570,4.7943,active
+winn chilli sauce,transactional,product,https://winn-foods.com/products/green-chilli-sauce/,,,high,gsc,31,516,4.0717,active
+winn green chilli sauce,transactional,product,https://winn-foods.com/products/green-chilli-sauce/,,,high,gsc,33,440,3.9864,active
+green chilli sauce india,commercial,product,https://winn-foods.com/products/green-chilli-sauce/,,,medium,gsc,0,5,52,optimize
+mirchilli,navigational,product,https://winn-foods.com/products/green-chilli-mirchilli-sauce-200g,,,medium,gsc,0,35,4.2286,optimize
+manchurian sauce,commercial,product,https://winn-foods.com/products/manchurian-sauce,,,high,gsc,4,855,13.0865,optimize
+manchurian sauce bottle,transactional,product,https://winn-foods.com/products/manchurian-sauce,,,high,gsc,0,45,10.2444,optimize
+what is manchurian sauce,informational,blog,,,,high,gsc,0,130,22.5923,proposed
+manchurian gravy recipe,informational,blog,,,,medium,gsc,0,22,21.8636,proposed
+manchurian sauce ingredients,informational,blog,,,,medium,gsc,0,4,31.75,proposed
+winn hakka noodles,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,high,gsc,55,1336,4.5741,active
+winn noodles,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,high,gsc,23,350,4.7629,active
+hakka noodles online,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,medium,gsc,0,3,4.6667,optimize
+hakka noodles price,transactional,product,https://winn-foods.com/products/hakka-noodles/,,,medium,gsc,0,3,38.3333,optimize
+best hakka noodles brand in india,commercial,collection,https://winn-foods.com/collections/hakka-noodles,,,medium,gsc,0,2,1,optimize
+winn dark soy sauce,transactional,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,gsc,16,432,6.3241,optimize
+winn soy sauce,transactional,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,gsc,34,390,4.2641,active
+winn soya sauce,transactional,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,gsc,24,478,4.1736,active
+dark soya sauce,commercial,product,https://winn-foods.com/products/dark-soya-sauce/,,,high,gsc,0,60,10.25,optimize
+light soy sauce,commercial,product,,,,medium,gsc,0,3,13,proposed
+can i add dark soya sauce in soup,informational,blog,,,,medium,gsc,0,15,1.6667,monitor
+winn all in one chinese sauce,transactional,product,https://winn-foods.com/products/all-in-one-sauce,,,high,gsc,18,221,5.5837,optimize
+all in one chinese sauce,commercial,product,https://winn-foods.com/products/all-in-one-sauce,,,high,gsc,1,31,10.0645,optimize
+all-in-one cooking sauce,commercial,product,https://winn-foods.com/products/all-in-one-sauce,,,medium,gsc,0,4,29.5,optimize
+sizzling masala,commercial,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,high,gsc,0,277,5.9458,optimize
+winn fried rice masala,transactional,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,high,gsc,6,48,1.2917,active
+schezwan fried rice masala,commercial,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,medium,gsc,0,4,32.75,optimize
+peppy sizzling masala,navigational,product,https://winn-foods.com/products/schezwan-fried-rice-sizzling-masala,,,medium,gsc,0,40,7.65,optimize
+chinese masala,commercial,collection,https://winn-foods.com/collections/chinese-masala,,,high,brand_dna_seed|gsc,0,40,18.55,optimize
+winn soup,transactional,collection,,,,medium,gsc,9,32,1,active
+instant chinese soup,transactional,collection,,,,medium,brand_dna_seed,,,,proposed
+winn vinegar,transactional,product,,,,medium,gsc,10,249,6.4217,optimize
+winn white vinegar,transactional,product,https://winn-foods.com/products/white-vinegar-200ml,,,medium,gsc,0,105,8.4476,optimize
+chilli vinegar uses,informational,blog,https://winn-foods.com/blogs/recipes/chilli-vinegar-salad-dressing,,,medium,gsc,0,3,15.6667,optimize
+winn ketchup,transactional,product,,,,low,gsc,22,224,7.5402,monitor
+winn tomato sauce,transactional,product,,,,low,gsc,4,27,5.2222,monitor
+chings secret alternative,commercial,comparison,,,,low,brand_dna_seed,,,,proposed
+veeba sauce alternative,commercial,comparison,,,,low,brand_dna_seed,,,,proposed
+wingreens sauce alternative,commercial,comparison,,,,low,brand_dna_seed,,,,proposed

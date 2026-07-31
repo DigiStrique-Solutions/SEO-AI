@@ -1,0 +1,30 @@
+{
+  "run_id": "surabhi-blogs-20260727T073600Z",
+  "source": "https://surabhi-foods.com/",
+  "provider": "firecrawl",
+  "request": {
+    "operation": "map",
+    "search": "blogs recipes article food recipe",
+    "limit": 200,
+    "sitemap": "include",
+    "ignoreQueryParameters": true
+  },
+  "result": {
+    "blog_index": "https://surabhi-foods.com/blogs/blogs-by-surabhi",
+    "secondary_blog_index": "https://surabhi-foods.com/blogs/news",
+    "blog_sitemap": "https://surabhi-foods.com/sitemap_blogs_1.xml",
+    "discovered_article_urls": [
+      "https://surabhi-foods.com/blogs/news/why-home-cooks-are-switching-to-ready-made-ginger-garlic-paste",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-bus-shelters-bus-stop-brings-surabhis-tasty-delights",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-new-campaign-dil-se-pure",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-sauces-commitment-to-local-sourcing-freshness-and-flavor",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/tomato-puree-vs-tomato-ketchup-unveiling-the-flavourful-differences",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/surabhi-ginger-garlic-paste-time-saving-culinary-magic",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/benefits-of-ginger-garlic-paste",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/15-delicious-ways-to-use-ketchup-beyond-fries",
+      "https://surabhi-foods.com/blogs/blogs-by-surabhi/best-pizza-sauce-tips-and-toppings"
+    ],
+    "records": 9
+  },
+  "notes": "Stored as a compact structured discovery payload. Product, collection, policy, recipe-page, sitemap, and duplicate redirect URLs returned by the map were excluded from the article set."
+}

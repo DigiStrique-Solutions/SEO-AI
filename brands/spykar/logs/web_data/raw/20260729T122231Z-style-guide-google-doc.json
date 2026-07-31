@@ -1,0 +1,27 @@
+{
+  "provider": "google_docs",
+  "document_id": "1ugwpUXwWovT_X_2-dBg--JM1t62ZDo2s-yExMPaigTY",
+  "document_url": "https://docs.google.com/document/d/1ugwpUXwWovT_X_2-dBg--JM1t62ZDo2s-yExMPaigTY",
+  "title": "Spykar Style Guide",
+  "revision_id": "AIroW35faxPKwpWnJHKAsVjDIsJmjoxBcsYdj8k-GXvicfYgAuACIUSFIoncUFdjmFoX2zKoSYb9050RAvBcW2G9Cp_MKLgD9JUnLVoZ_ZU",
+  "tab_id": "t.0",
+  "fetched_at": "2026-07-29T12:22:31Z",
+  "status": "ok",
+  "scope": "Spykar blog content only; excludes product descriptions, ad copy and email marketing.",
+  "sections_captured": [
+    "Purpose of This Guide",
+    "Brand Voice and Tone",
+    "Content Structure and Flow",
+    "Keyword Usage Guidelines",
+    "Grammar, Style, and Formatting",
+    "Voice Application in FAQs",
+    "Visual & Structural Considerations",
+    "Styling & Fashion Writing Approach",
+    "Content Themes to Follow",
+    "Emotional & Brand Connect",
+    "Meta Content Guidelines",
+    "Workflow & Review Process"
+  ],
+  "normalized_output": "style-guide.md",
+  "notes": "The repository file preserves the source guide's operative rules in Markdown for runtime use. The linked Google Doc remains the authoritative external source."
+}

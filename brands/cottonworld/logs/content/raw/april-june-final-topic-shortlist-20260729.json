@@ -1,0 +1,55 @@
+{
+  "run_id": "cottonworld-april-june-final-topic-shortlist-20260729",
+  "captured_at": "2026-07-29T16:16:22+05:30",
+  "source_type": "user_editorial_direction_and_google_sheet_feedback",
+  "source_ref": "https://docs.google.com/spreadsheets/d/1Mvr9U5M9J0H7A7TQsU9OA-1aNeOWvj3dNzMeu8-xs30/edit?gid=0#gid=0",
+  "sheet": "Topics",
+  "scope": "April, May and June",
+  "selection_rules": [
+    "Choose exactly eight topics.",
+    "Avoid repetitive search intent and editorial angles.",
+    "Include workwear, all-day wear, styling and brunch.",
+    "Preserve useful approved Cottonworld topics.",
+    "Exclude the rainy-day colour topic after the Cottonworld Team Comments cell changed to 'No'."
+  ],
+  "final_shortlist": [
+    {
+      "month": "April",
+      "topic": "Cotton and Linen for Indian Summer: Why Both Fabrics Belong in Your Wardrobe"
+    },
+    {
+      "month": "April",
+      "topic": "From the First Meeting to the Last Commute: Workwear That Stays Comfortable"
+    },
+    {
+      "month": "April",
+      "topic": "How to Read a Clothing Label: Cotton, Linen, Bamboo and Blends Explained"
+    },
+    {
+      "month": "May",
+      "topic": "Built for the Whole Day: What Fabric, Fit and Construction Change"
+    },
+    {
+      "month": "May",
+      "topic": "What to Wear to Brunch When the Weather Can’t Decide"
+    },
+    {
+      "month": "June",
+      "topic": "What to Wear in the Monsoon: A Breathable Wardrobe Guide for Humid Days"
+    },
+    {
+      "month": "June",
+      "topic": "How to Keep Cotton and Linen Fresh During the Monsoon"
+    },
+    {
+      "month": "June",
+      "topic": "The Easy Third Layer: 5 Ways to Style an Open Shirt"
+    }
+  ],
+  "verification": {
+    "final_shortlist_rows": 8,
+    "not_selected_rows": 4,
+    "approval_column_updated": true
+  },
+  "status": "ok"
+}

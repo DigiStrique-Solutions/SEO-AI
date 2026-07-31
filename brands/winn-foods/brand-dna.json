@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "winn-foods",
+  "updated_at": "2026-07-27",
+  "brand_name": "Winn Foods",
+  "website_url": "https://winn-foods.com/",
+  "logo": {
+    "description": "Winn Foods wordmark observed in the Shopify storefront header; a white PNG variant is used against the brand's red surfaces.",
+    "icon_url": "https://winn-foods.com/cdn/shop/files/Winn-Logo-White-Png_1.png?v=1766404569&width=110"
+  },
+  "business_description": "Winn Foods is an Indian packaged-food brand selling products for quick Indo-Chinese cooking at home. Its current online catalog includes ready-to-use sauces and chutneys, dish-specific Chinese masalas and instant cooking mixes, Hakka noodles, instant soups, combo packs, and recipe content. The storefront frames the promise as turning everyday meals into restaurant- or street-style Indo-Chinese dishes with minimal effort.",
+  "business_model": "Consumer packaged goods brand with a direct-to-consumer Shopify storefront. The site sells individual products and bundles in INR, promotes first-order discounts and free-shipping thresholds, and uses Shop Pay-compatible checkout.",
+  "brand_colors": {
+    "description": "Homepage branding extracted by Firecrawl on 2026-07-27; confirm against current design source files before production design work.",
+    "primary": "#C81E2B",
+    "secondary": "#D32F2F",
+    "accent": "#C81E2B",
+    "background": "#FFFFFF",
+    "text_primary": "#000000",
+    "soft_link_surface": "#F4E4E3"
+  },
+  "brand_aesthetic": "Bold, high-energy food ecommerce with a red-and-white palette, Poppins headings, Inter body copy, rounded red purchase CTAs, large product and food imagery, and direct merchandising blocks. The visual language is accessible and mass-market rather than premium-minimal: energetic color, obvious offers, recognizable dishes, and quick purchase cues lead.",
+  "brand_voice": {
+    "description": "Playful, energetic, appetite-led, and convenience-forward. Winn uses short benefit-first lines, sensory flavor language, confident imperatives, and memorable wordplay. Product naming often pairs an English descriptor with an Indian-language or rhyming flourish, making familiar Indo-Chinese dishes sound fun and easy rather than technical.",
+    "voice_patterns": [
+      "Magic and transformation framing: \"Turn Every Meal Into Chinese Magic\"",
+      "Home-accessibility promise: \"Authentic Indo-Chinese Taste at Home\"",
+      "Speed and ease: \"Simply stir it in\" and \"in minutes\"",
+      "Sensory descriptors: bold, spicy, tangy, fiery, rich, fresh, aromatic",
+      "Playful product epithets and wordplay: Mirchilli, Sirkedar, Shandar, Chattak, Peppy, Fiery, Hotshot and OMG",
+      "Dish and occasion specificity: noodles, fried rice, momos, stir-fries, snacks, lunch and evening meals",
+      "Clear retail calls to action: Shop now, Add to Cart, Buy it now"
+    ]
+  },
+  "brand_values": [
+    "Make Indo-Chinese flavors easy to cook at home.",
+    "Deliver bold, recognizable flavor with convenient formats.",
+    "Use product and recipe education to lower the effort of meal preparation.",
+    "Emphasize premium ingredients and clean-label-style claims where substantiated for the applicable product.",
+    "Keep food discovery playful, accessible, and suited to the Indian palate."
+  ],
+  "target_audience": {
+    "primary": [
+      "Indian home cooks who want quick, familiar Indo-Chinese meals without building sauces or spice blends from scratch.",
+      "Consumers who enjoy bold, spicy, restaurant- and street-style Chinese flavors at home."
+    ],
+    "roles": [
+      "Everyday household grocery buyers",
+      "Busy home cooks",
+      "Students and young adults preparing quick meals",
+      "Parents looking for convenient meal and snack options",
+      "Food enthusiasts seeking Indo-Chinese recipes"
+    ],
+    "secondary_verticals": [
+      "Online grocery and marketplace shoppers",
+      "Convenience-food buyers",
+      "Retail and food-service distribution partners"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Ching's Secret",
+      "what_it_does": "Indian packaged-food brand known for Desi Chinese sauces, chutneys, noodles, soups, masalas, and instant meal products.",
+      "website": "https://www.chingssecret.com/",
+      "how_it_competes": "A direct category peer across Indo-Chinese sauces, masalas, noodles, and soups. Winn's current site differentiates through playful product naming, quick-cook formats, recipe use cases, and its own authentic-at-home positioning; a formal side-by-side positioning study is still needed."
+    },
+    {
+      "name": "Veeba",
+      "what_it_does": "Indian sauces, dressings, dips, spreads, and condiments brand with broad retail and ecommerce distribution.",
+      "website": "https://veeba.in/",
+      "how_it_competes": "Competes for condiment and cooking-sauce purchases, especially among online grocery shoppers. Veeba spans wider Western and Indian condiment occasions, while Winn's current storefront is more tightly centered on Indo-Chinese cooking."
+    },
+    {
+      "name": "Wingreens",
+      "what_it_does": "Indian packaged-food brand selling dips, sauces, spreads, snacks, and related convenience foods.",
+      "website": "https://wingreensworld.com/",
+      "how_it_competes": "Competes for sauces, dips, and convenience-food attention. Winn appears more cuisine-specific, leading with Indo-Chinese meal transformation rather than a broad better-for-you snacking portfolio."
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Homemade sauces and spice blends",
+    "Restaurant delivery and takeaway",
+    "Instant noodles and ready-to-cook meal kits",
+    "Private-label supermarket sauces and condiments",
+    "General-purpose chili, soy, and schezwan products from FMCG brands"
+  ],
+  "primary_business_goal": "Drive repeatable consumer adoption and direct online sales by making Indo-Chinese meals easy, flavorful, and quick to prepare at home.",
+  "primary_conversion": "Purchase one or more products through the Shopify storefront; supporting conversions are recipe discovery and newsletter subscription.",
+  "site_type": "Shopify direct-to-consumer packaged-food ecommerce site with collection, product, recipe/blog, policy, and agent-commerce pages.",
+  "measurement_and_connected_sources": [
+    "Shopify storefront and Shop Pay-compatible checkout are visible on the public site.",
+    "Google Search Console is connected through Composio for sc-domain:winn-foods.com with siteRestrictedUser permission.",
+    "Google Analytics 4 is connected through Composio for Winn Foods property properties/533748438, reporting in INR and Asia/Calcutta timezone.",
+    "Public first-party site data is available through Firecrawl.",
+    "PageSpeed/CrUX and local Lighthouse evidence were unavailable during the 2026-07-27 setup run; Core Web Vitals remain unverified."
+  ],
+  "open_questions": [
+    "Confirm the current legal parent/company relationship after 2026 press reports that Adinath Agro Processed Foods rebranded as Adinova and identified Winn as a consumer brand.",
+    "Confirm which ingredient, nutrition, MSG-free, preservative-free, artificial-color, trans-fat, and clean-label claims are approved and substantiated for each product; do not generalize a product-specific claim.",
+    "Confirm Winn's founding year and approved corporate history from a first-party source.",
+    "Confirm priority market geography beyond the India-facing INR storefront and any pan-India distribution goals.",
+    "Confirm primary customer segments with sales or analytics evidence.",
+    "Confirm the approved competitor set and differentiation claims.",
+    "Confirm GA4 key-event and ecommerce conversion definitions before using key-event totals as business outcomes.",
+    "Investigate unrelated gambling queries, /food-services/ search traffic, legacy WordPress/apparel paths, and other anomalous URLs visible in connected search and analytics data.",
+    "Confirm whether wholesale, modern-trade, marketplace, and food-service channels should be included in SEO planning.",
+    "Confirm canonical high-resolution logo assets and packaging design files."
+  ]
+}

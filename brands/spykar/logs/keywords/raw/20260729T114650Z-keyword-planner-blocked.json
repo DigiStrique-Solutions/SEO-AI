@@ -1,0 +1,17 @@
+{
+  "run_id": "spykar-keywords-20260729T114650Z",
+  "provider": "keyword_planner",
+  "tool": "google_ads_generate_keyword_ideas",
+  "status": "error",
+  "request": {
+    "website_url": "https://spykar.com/",
+    "target_country": "India",
+    "seed_source": "brands/spykar/brand-dna.json",
+    "platform_id_source": "GOOGLE_ADS_PLATFORM_ID"
+  },
+  "error": {
+    "code": "platform_id_unset",
+    "message": "GOOGLE_ADS_PLATFORM_ID was not present in the runtime environment, so the required platform-id parameter could not be supplied and the permitted Keyword Planner call was not executed."
+  },
+  "next_action": "Set GOOGLE_ADS_PLATFORM_ID and rerun google_ads_generate_keyword_ideas for India; do not use any other Google Ads operation."
+}
