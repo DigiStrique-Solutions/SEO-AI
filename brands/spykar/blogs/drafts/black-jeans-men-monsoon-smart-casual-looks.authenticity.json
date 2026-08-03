@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "claim_id": "dark-denim-splash-visibility",
+      "claim_type": "comparison",
+      "criteria": "The comparison is limited to visibility of small marks. The draft explicitly states that black denim is not rainwear and can feel heavy when soaked.",
+      "source_ids": [
+        "spykar-monsoon-men-reference",
+        "serp-underrated-monsoon"
+      ],
+      "statement": "Minor splash marks tend to be less obvious on black denim than on very pale denim, without implying that black jeans are stain-proof or rainproof."
+    },
+    {
+      "claim_id": "black-jeans-style-range",
+      "claim_type": "comparison",
+      "criteria": "Recommendations are styling options rather than superiority claims and are tied to specific colours, silhouettes and occasions.",
+      "source_ids": [
+        "spykar-black-jeans-blog",
+        "serp-mufti-black-jeans",
+        "serp-blackdenim-shirt-guide"
+      ],
+      "statement": "Black jeans can move between casual and smart-casual outfits through changes in shirt, fit, finish and footwear."
+    },
+    {
+      "claim_id": "current-spykar-black-jeans-collection",
+      "claim_type": "product_fact",
+      "criteria": "The customer copy notes that availability changes and links the collection rather than naming prices, sizes or temporary promotions.",
+      "source_ids": [
+        "spykar-black-jeans-collection-20260803"
+      ],
+      "statement": "The live Spykar collection displayed three cotton black or carbon-black men's jeans in super-slim and skinny fits when checked."
+    },
+    {
+      "claim_id": "monsoon-denim-limit",
+      "claim_type": "comparison",
+      "criteria": "The draft avoids waterproof, quick-dry and guaranteed-comfort claims.",
+      "source_ids": [
+        "spykar-monsoon-men-reference",
+        "serp-underrated-monsoon",
+        "spykar-ankle-commute-draft"
+      ],
+      "statement": "Denim is not rainwear and outfit choices should account for the forecast, route, hem position, footwear and drying needs."
+    },
+    {
+      "claim_id": "black-denim-care",
+      "claim_type": "product_fact",
+      "criteria": "The care label remains authoritative and no universal wash temperature or frequency is prescribed.",
+      "source_ids": [
+        "spykar-black-jeans-blog",
+        "spykar-ankle-commute-draft"
+      ],
+      "statement": "Care guidance prioritises the garment label, similar dark colours, inside-out washing when permitted and complete ventilated drying before storage."
+    },
+    {
+      "claim_id": "keyword-scope",
+      "claim_type": "performance",
+      "criteria": "Keywords guide topic coverage only; the draft makes no ranking, traffic or conversion promise.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The article addresses black-jeans styling, shirt combinations and rainy-day outfit intent for men."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-03T10:43:49+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.35,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T10:53:51+00:00",
+      "max_score": 20.0,
+      "note": "Direct ZeroGPT website check on the final customer-facing article body returned 7.4%. Earlier editorial iterations returned 58.5% and 26.8%; the copy was revised with source-backed route detail, less repeated outfit rhythm and tighter phrasing before the passing check. Detector scores remain a weak editorial signal, not proof of authorship.",
+      "score": 7.4,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-03T10:41:51+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "reviewed_external_zerogpt_pass",
+    "target": "black-jeans-men-monsoon-smart-casual-looks"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blogs use Indian English, short paragraphs, practical styling, natural keywords, subtle brand integration, soft CTAs and mandatory unique blog banners.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth fashion brand. Unsupported best, performance, sustainability, price and availability claims are prohibited.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Assigned topic and phrases: black jeans men, black jeans for men, black jeans outfit men, black jeans shirt combination, monsoon outfits for men and outfits for rainy days.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-03",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar's existing monsoon guidance emphasises lighter fabrics, relaxed silhouettes, darker colours, practical footwear and adaptable layers in humid weather.",
+      "source_id": "spykar-monsoon-men-reference",
+      "source_ref": "brands/spykar/blogs/references/stylish-monsoon-outfits-for-men.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The reviewed Spykar draft limits claims about denim in rain, recommends route-based footwear, a clean hem and complete drying, and avoids calling denim waterproof.",
+      "source_id": "spykar-ankle-commute-draft",
+      "source_ref": "brands/spykar/blogs/drafts/why-ankle-length-jeans-rainy-day-commutes.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar describes black jeans as bold and versatile and advises reading care labels, checking pockets, washing with similar colours and turning jeans inside out.",
+      "source_id": "spykar-black-jeans-blog",
+      "source_ref": "https://spykar.com/blogs/blog/which-colour-of-jeans-for-men-is-perfect-for-you (Firecrawl scrape 019fc736-91f5-747d-89d8-edf57c43c94b, checked 2026-08-03)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The live collection displayed three men's cotton jeans in black or carbon black, with super-slim and skinny fits. Availability is volatile.",
+      "source_id": "spykar-black-jeans-collection-20260803",
+      "source_ref": "https://spykar.com/collections/black-jeans-men-1 (Firecrawl scrape 019fc736-c2f5-70d9-8aab-18423b670325, checked 2026-08-03)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Approximately 1,200 words; practical, direct styling tone. Structure moves from black-jeans rationale into shirt-led outfit sections, fit, finish and conclusion. It lacks monsoon footwear, layering and care depth.",
+      "source_id": "serp-mufti-black-jeans",
+      "source_ref": "https://www.muftijeans.in/blog/post/what-to-wear-with-black-jeans-for-men-a-complete-outfit-guide (checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,500 words; comprehensive and promotional tone. Structure covers colour groups, patterns, layers, footwear and tips. It lacks monsoon-specific fabrics, footwear and outfit formulas.",
+      "source_id": "serp-blackdenim-shirt-guide",
+      "source_ref": "https://www.blackdenim.in/blogs/news/black-jeans-matching-shirt-guide-stylish-outfit-ideas-for-men (checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,300 words; conversational, practical streetwear tone. Structure covers fabrics, relaxed silhouettes, denim, footwear, city context, formulas and FAQs. It lacks specific black-jeans combinations and black-denim care.",
+      "source_id": "serp-underrated-monsoon",
+      "source_ref": "https://www.underratedclub.com/blogs/our-blogs/monsoon-fashion-for-men-rainy-season-style-guide (checked 2026-08-03)",
+      "source_type": "serp"
+    }
+  ]
+}

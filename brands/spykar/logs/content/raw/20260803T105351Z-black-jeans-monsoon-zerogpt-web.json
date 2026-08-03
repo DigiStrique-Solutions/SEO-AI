@@ -1,0 +1,24 @@
+{
+  "run_id": "spykar-black-jeans-monsoon-zerogpt-web-20260803",
+  "checked_at": "2026-08-03T10:53:51Z",
+  "brand_id": "spykar",
+  "target": "black-jeans-men-monsoon-smart-casual-looks",
+  "api_result": {
+    "status": "blocked",
+    "http_code": 403,
+    "message": "Not enough credits"
+  },
+  "website_iterations": [
+    {"scope": "initial full Markdown draft", "score_percent": 59.5, "status": "fail"},
+    {"scope": "initial article body", "score_percent": 58.5, "status": "fail"},
+    {"scope": "first source-backed rewrite", "score_percent": 26.8, "status": "fail"},
+    {"scope": "final customer-facing article body", "score_percent": 7.4, "status": "pass"}
+  ],
+  "local_gate": {
+    "score_percent": 6.0,
+    "word_count": 1789,
+    "status": "pass"
+  },
+  "editorial_method": "Revisions added concrete route and garment detail, varied section rhythm and removed repeated formulaic phrasing. No errors, filler, fake anecdotes or unsupported claims were added.",
+  "status": "pass"
+}

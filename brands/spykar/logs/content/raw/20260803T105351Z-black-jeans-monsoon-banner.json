@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-black-jeans-monsoon-banner-20260803",
+  "created_at": "2026-08-03T10:53:51Z",
+  "brand_id": "spykar",
+  "target": "black-jeans-men-monsoon-smart-casual-looks",
+  "provider": "openai_image_generation",
+  "mode": "built_in_imagegen",
+  "use_case": "ads-marketing",
+  "headline": "BLACK JEANS. RAINY PLANS.",
+  "concept": "One continuous indoor wardrobe-studio scene with a young Indian man in black jeans, eight smart-casual shirt colours, a closed umbrella and a rain-streaked window.",
+  "distinct_from_recent_creatives": "Avoids the outdoor walking duo, torn-paper collage, metro platform, split panels, giant numeral and lower-body-only framing used in recent banners.",
+  "outputs": [
+    {"path": "brands/spykar/blogs/creatives/black-jeans-men-monsoon-smart-casual-hero-master.png", "format": "PNG", "dimensions": "1448x1086"},
+    {"path": "brands/spykar/blogs/creatives/black-jeans-men-monsoon-smart-casual-hero.jpg", "format": "JPEG", "dimensions": "800x600"}
+  ],
+  "visual_qa": {
+    "topic_relevance": "pass",
+    "black_jeans_visible": "pass",
+    "shirt_options_visible": "pass",
+    "headline_exact": "pass",
+    "headline_legible_at_800x600": "pass",
+    "safe_margins": "pass",
+    "anatomy_and_garment_plausibility": "pass",
+    "no_third_party_branding_or_watermark": "pass",
+    "visual_distinction": "pass"
+  },
+  "status": "ok"
+}

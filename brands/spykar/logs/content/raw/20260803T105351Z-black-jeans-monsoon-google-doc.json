@@ -1,0 +1,21 @@
+{
+  "run_id": "spykar-black-jeans-monsoon-google-doc-20260803",
+  "checked_at": "2026-08-03T10:53:51Z",
+  "brand_id": "spykar",
+  "document_id": "1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs",
+  "document_url": "https://docs.google.com/document/d/1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs/edit?usp=drivesdk",
+  "tab_id": "t.0",
+  "revision_id": "AIroW36B0mgpgmoaM6EN3A2P2cTcFy-zG9uSh-dVNPzyzmp4WQAyvyEDkjHCWbIg6U842y9JdmQW46yUVenAh7HVOO0gmQjLBdvPAMre4Vs",
+  "verification": {
+    "article_title_present": true,
+    "seo_metadata_present": true,
+    "title_styles": 1,
+    "heading_1_styles": 8,
+    "heading_2_styles": 14,
+    "collection_hyperlink_present": true,
+    "markdown_residue": false,
+    "detector_status_present": true,
+    "banner_headline_present": true
+  },
+  "status": "ok"
+}

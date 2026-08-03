@@ -1,0 +1,42 @@
+{
+  "run_id": "spykar-black-jeans-monsoon-research-20260803",
+  "checked_at": "2026-08-03T10:53:51Z",
+  "brand_id": "spykar",
+  "target": "black-jeans-men-monsoon-smart-casual-looks",
+  "serp_query": "Black Jeans for Men in the Monsoon: 8 Smart-Casual Rainy-Day Looks",
+  "benchmark": [
+    {
+      "url": "https://www.muftijeans.in/blog/post/what-to-wear-with-black-jeans-for-men-a-complete-outfit-guide",
+      "approx_article_words": 1200,
+      "tone": "Practical, direct and styling-led",
+      "structure": ["black-jeans rationale", "shirt-led combinations", "fit", "finish", "conclusion"],
+      "gap": "No meaningful monsoon footwear, layering or care guidance."
+    },
+    {
+      "url": "https://www.blackdenim.in/blogs/news/black-jeans-matching-shirt-guide-stylish-outfit-ideas-for-men",
+      "approx_article_words": 1500,
+      "tone": "Comprehensive and promotional",
+      "structure": ["colour groups", "patterns and textures", "layers", "footwear", "final tips"],
+      "gap": "No rainy-day route logic or monsoon-specific outfit formulas."
+    },
+    {
+      "url": "https://www.underratedclub.com/blogs/our-blogs/monsoon-fashion-for-men-rainy-season-style-guide",
+      "approx_article_words": 1300,
+      "tone": "Conversational, practical and streetwear-oriented",
+      "structure": ["monsoon problem", "fabrics", "relaxed silhouettes", "denim", "footwear", "city context", "formulas", "FAQs"],
+      "gap": "No black-jeans shirt combinations or black-denim care section."
+    }
+  ],
+  "content_decision": "Combine the ranking pages' direct outfit utility with Spykar's voice, then fill the intersection gap through eight occasion-led black-jeans looks, route-based footwear, fit checks, monsoon limits, care and FAQs. Do not copy competitor wording or section order.",
+  "product_check": {
+    "url": "https://spykar.com/collections/black-jeans-men-1",
+    "scrape_id": "019fc736-c2f5-70d9-8aab-18423b670325",
+    "http_status": 200,
+    "displayed_product_count": 3,
+    "visible_fits": ["super slim fit", "skinny fit"],
+    "visible_colours": ["black", "carbon black"],
+    "visible_fabrics": ["cotton"],
+    "content_decision": "Use only collection-level facts, disclose that availability changes and avoid price, size, discount or SKU claims."
+  },
+  "status": "ok"
+}
