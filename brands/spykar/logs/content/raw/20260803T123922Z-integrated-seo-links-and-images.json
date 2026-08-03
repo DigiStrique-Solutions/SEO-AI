@@ -1,0 +1,92 @@
+{
+  "run_id": "spykar-integrated-seo-links-and-images-20260803",
+  "timestamp": "2026-08-03T12:39:22Z",
+  "brand_id": "spykar",
+  "action": "integrate_seo_links_and_images_into_blog_bodies",
+  "user_correction": "Keep only metadata separate; place hyperlinks and images inside each blog, and display actual images instead of file links.",
+  "source_pages_checked": [
+    "https://spykar.com/collections/men-jeans",
+    "https://spykar.com/collections/light-blue-jeans-men",
+    "https://spykar.com/collections/light-blue-jeans-women",
+    "https://spykar.com/collections/ankle-length-jeans-for-women",
+    "https://spykar.com/collections/black-jeans-men-1",
+    "https://spykar.com/collections/all-shirts",
+    "https://spykar.com/collections/all-jeans",
+    "https://spykar.com/products/mdro1be024black"
+  ],
+  "source_method": "Firecrawl live collection/product extraction, followed by Google Docs connector insertion and readback.",
+  "product_assets": [
+    {
+      "product": "Men Jeans Regular Fit Blue Mid Rise",
+      "product_url": "https://spykar.com/products/mdact1bd271midblue",
+      "image_url": "https://spykar.com/cdn/shop/products/MDACT1BD271MIDBLUE_1.jpg?v=1757080823"
+    },
+    {
+      "product": "Men Nico Jeans Skinny Fit Light Blue Low Rise",
+      "product_url": "https://spykar.com/products/mdltd1bc056lightblue",
+      "image_url": "https://cdn.shopify.com/s/files/1/0608/7874/9892/products/UNdV_W8uP-8905566247536_7_400x.webp?v=1757396925"
+    },
+    {
+      "product": "Men Rover Jeans Regular Fit Light Blue Mid Rise",
+      "product_url": "https://spykar.com/products/mdltd1bc049lightblue",
+      "image_url": "https://cdn.shopify.com/s/files/1/0608/7874/9892/products/JVxu9Rc0oZ-8905566215252_8_400x.webp?v=1757396913"
+    },
+    {
+      "product": "Women Emma Jeans Skinny Fit Light Blue Mid Rise",
+      "product_url": "https://spykar.com/products/wdynr2bc082lightblue",
+      "image_url": "https://cdn.shopify.com/s/files/1/0608/7874/9892/products/s9U_rE4TSX-WDYNR2BC082-LIGHT-BLUE-_1.webp?v=1757081178"
+    },
+    {
+      "product": "Spykar Women Beige Cotton Mom Fit Ankle Length Clean Look Jeans - Amora",
+      "product_url": "https://spykar.com/collections/ankle-length-jeans-for-women/products/wdnynr2bc319beige",
+      "image_url": "https://spykar.com/cdn/shop/products/D_1J0E_JKq-WDNYNR2BC319-BEIGE-_1.webp?v=1757081196&width=1440"
+    },
+    {
+      "product": "Spykar Women Mid Blue Lycra Super Skinny Fit Ankle Length Clean Look Jeans - Alexa",
+      "product_url": "https://spykar.com/collections/ankle-length-jeans-for-women/products/wdynr2bc042midblue",
+      "image_url": "https://spykar.com/cdn/shop/products/mMWO2_TuT7-WDYNR2BC042-MID-BLUE-_1.webp?v=1757081185&width=1440"
+    },
+    {
+      "product": "Men Jeans Regular Fit Black Mid Rise",
+      "product_url": "https://spykar.com/products/mdro1be024black",
+      "image_url": "https://spykar.com/cdn/shop/files/MDRO1BE024BLACK_1_bd6f64cd-36be-4952-8289-1a33c526448a.jpg?v=1755852219&width=2048"
+    },
+    {
+      "product": "Men Shirt Blue Slim Fit",
+      "product_url": "https://spykar.com/collections/all-shirts/products/mshps2be265airforceblue",
+      "image_url": "https://spykar.com/cdn/shop/files/MSHPS2BE265AIRFORCEBLUE__2_6b89960c-9c94-419b-80b1-0eddf56ff67c.jpg?v=1755891675"
+    },
+    {
+      "product": "Men Shirt Green Slim Fit",
+      "product_url": "https://spykar.com/collections/all-shirts/products/mshps2be126botanicalgreen",
+      "image_url": "https://spykar.com/cdn/shop/files/MSHPS2BE126BOTANICALGREEN_2_106643cf-4ecb-4d39-90a0-77658e6cb09a.jpg?v=1757338075"
+    }
+  ],
+  "documents": [
+    {"document_id":"1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E","slug":"cotton-jeans-for-men-comfort-guide-humid-monsoon-weather","native_images":3,"product_links":2,"status":"pass"},
+    {"document_id":"16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM","slug":"how-to-style-light-blue-jeans-monsoon-outfit-ideas","native_images":3,"product_links":2,"status":"pass"},
+    {"document_id":"1wigNa-DyJqNgn7qIbQg_rDl6nfyZfP8ST7ECgzzw6Ds","slug":"why-ankle-length-jeans-rainy-day-commutes","native_images":3,"product_links":2,"status":"pass"},
+    {"document_id":"1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs","slug":"black-jeans-men-monsoon-smart-casual-looks","native_images":3,"product_links":2,"status":"pass"},
+    {"document_id":"1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M","slug":"how-to-style-jeans-with-shirts-smart-casual-outfit-ideas","native_images":3,"product_links":2,"status":"pass"},
+    {"document_id":"1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g","slug":"back-to-college-monsoon-denim-outfits-men-women","native_images":3,"product_links":2,"status":"pass"}
+  ],
+  "changes": [
+    "Removed standalone internal-link, image-suggestion and publishing-check sections from all six Google Docs.",
+    "Retained a compact SEO metadata implementation section only.",
+    "Embedded the approved blog banner in each document.",
+    "Embedded two current Spykar product images inside relevant article sections.",
+    "Linked each product caption to its live Spykar page.",
+    "Added visible CMS alt, title and filename fields beside each image and styled them as smaller editorial notes.",
+    "Mirrored the image and product-link placements in all six repository drafts."
+  ],
+  "verification": {
+    "documents_with_three_native_images": 6,
+    "total_native_images": 18,
+    "old_suggestion_blocks_remaining": 0,
+    "metadata_sections_remaining": 6,
+    "product_caption_links_read_back": 12,
+    "pdf_exports_succeeded": 6,
+    "pdf_raster_visual_qa": "not_checked_blocked",
+    "pdf_raster_blocker": "The Google Drive connector returned user-scoped sediment file references that are not exposed as local filesystem paths to the available raster tools. Export success was verified, but page-level rendered fit was not claimed."
+  }
+}

@@ -29,6 +29,10 @@ banner_title: "Eight Jeans and Shirt Outfit Ideas for Men and Women"
 
 # How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women
 
+![Flat lay of Spykar shirts and blue jeans arranged as eight smart-casual outfit ideas](../creatives/jeans-shirts-smart-casual-men-women-hero-v3.jpg "Eight Jeans and Shirt Outfit Ideas for Men and Women")
+
+*Banner CMS fields — Alt: Flat lay of Spykar shirts and blue jeans arranged as eight smart-casual outfit ideas | Title: Eight Jeans and Shirt Outfit Ideas for Men and Women | Filename: jeans-shirts-smart-casual-men-women-hero-v3.jpg*
+
 “Jeans and a shirt” sounds like the easy answer. Then the shirt covers half the pockets, the hem gathers at the sneakers and the whole thing feels oddly unfinished. The colours are rarely the real problem. More often, one piece is hiding the shape of the other.
 
 Pick a direction before reaching for a belt. Will the jeans and shirt outfit be crisp, loose, high-contrast or tonal? Once that is settled, the shoe drawer stops holding up the morning. These eight combinations are built for men and women whose day may include a lecture, an office lift, coffee and a plan made at 6 pm.
@@ -42,6 +46,12 @@ For a regular workday, a full tuck makes sense—but turn around in the mirror. 
 Lunch rather than a meeting? Let the shirt out and turn the sleeves back once. Clean sneakers relax the pair. Loafers, ballet flats or a low block heel sharpen it. Before leaving, stand near a window: through thin white fabric, a high-contrast underlayer has a habit of becoming the main feature.
 
 ## 2. Pale blue with black, for the 9-to-9 day
+
+![Spykar men's blue slim-fit shirt for a jeans-and-shirt outfit](https://spykar.com/cdn/shop/files/MSHPS2BE265AIRFORCEBLUE__2_6b89960c-9c94-419b-80b1-0eddf56ff67c.jpg?v=1755891675 "Spykar Blue Shirt and Jeans Outfit")
+
+[Men Shirt Blue Slim Fit](https://spykar.com/collections/all-shirts/products/mshps2be265airforceblue)
+
+*CMS image fields — Alt: Spykar men's blue slim-fit shirt for a jeans-and-shirt outfit | Title: Spykar Blue Shirt and Jeans Outfit | Filename: spykar-blue-shirt-jeans-outfit.jpg*
 
 A pale-blue shirt and black jeans can handle the office without looking like a uniform, then stay put for dinner. The black anchors the outfit; the blue takes away the severity. It is useful on those days when changing clothes between plans is more theory than possibility.
 
@@ -66,6 +76,12 @@ Be honest about how long that shirt will stay buttoned. On a warm commute, it ma
 There is already plenty to look at: two washes, contrast stitching and metal hardware. White sneakers, dark sneakers, simple boots or tan flats finish the thought. This jeans shirt combination does not need a competing bag, belt and necklace to prove it was intentional.
 
 ## 5. Olive and pale denim for a slower day
+
+![Spykar men's botanical green slim-fit shirt with denim](https://spykar.com/cdn/shop/files/MSHPS2BE126BOTANICALGREEN_2_106643cf-4ecb-4d39-90a0-77658e6cb09a.jpg?v=1757338075 "Spykar Green Shirt with Pale Denim")
+
+[Men Shirt Green Slim Fit](https://spykar.com/collections/all-shirts/products/mshps2be126botanicalgreen)
+
+*CMS image fields — Alt: Spykar men's botanical green slim-fit shirt with denim | Title: Spykar Green Shirt with Pale Denim | Filename: spykar-green-shirt-pale-denim-outfit.jpg*
 
 Olive with light-blue jeans has the ease of a Sunday outfit, even if Sunday contains errands, a bookstore and an unplanned meal. The contrast is softer than white with navy. A washed or matte olive shirt suits the denim better than a glossy, sharply formal fabric.
 

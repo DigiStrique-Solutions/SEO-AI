@@ -29,6 +29,10 @@ banner_title: "Back-to-College Monsoon Denim Outfits for Men and Women"
 
 # Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women
 
+![Man and woman wearing Spykar denim outfits on a rain-wet university campus](../creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg "Back-to-College Monsoon Denim Outfits for Men and Women")
+
+*Banner CMS fields — Alt: Man and woman wearing Spykar denim outfits on a rain-wet university campus | Title: Back-to-College Monsoon Denim Outfits for Men and Women | Filename: back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg*
+
 By the second day back, the romantic idea of campus in the rain has usually disappeared. There is an umbrella dripping beside the desk, a damp patch at the hem and a classroom air conditioner set for another climate entirely.
 
 That is the real brief for college outfits with jeans. They have to survive the walk from the gate, several hours in class and whatever happens after the last lecture. The eight looks below are built for men and women, but they are not rigid uniforms. Think of them as starting points: change the wash, switch the fit and bring your own colour into the picture.
@@ -44,6 +48,12 @@ And yes, read the campus dress code. Distressing, cropped lengths and sleeveless
 ## 8 college outfits with jeans for rainy weeks
 
 ### 1. The 8:30 a.m. default
+
+![Spykar men's regular-fit blue jeans for a college outfit](https://spykar.com/cdn/shop/products/MDACT1BD271MIDBLUE_1.jpg?v=1757080823 "Spykar Regular-Fit Jeans for College")
+
+[Men Jeans Regular Fit Blue Mid Rise](https://spykar.com/collections/all-jeans/products/mdact1bd271midblue)
+
+*CMS image fields — Alt: Spykar men's regular-fit blue jeans for a college outfit | Title: Spykar Regular-Fit Jeans for College | Filename: spykar-regular-fit-jeans-college-outfit.jpg*
 
 Dark straight jeans, a solid tee and an open shirt require very little thought, which is precisely their appeal on a crowded morning. White is obvious; rust, olive and washed blue are more interesting without being difficult. The shirt adds a clean vertical line and then disappears into the bag when the day turns sticky.
 
@@ -68,6 +78,12 @@ Bootcut jeans change the line of women's college outfits immediately, especially
 Before leaving, perform the unglamorous hem test. Put on the intended shoes and walk across the room. If the flare sweeps a dry floor, it will collect half the route to college on a wet day. A slightly shorter length beats a dramatic puddle-soaked hem.
 
 ### 5. Let cargo denim do the talking
+
+![Spykar men's botanical green slim-fit shirt for a college denim outfit](https://spykar.com/cdn/shop/files/MSHPS2BE126BOTANICALGREEN_2_106643cf-4ecb-4d39-90a0-77658e6cb09a.jpg?v=1757338075 "Spykar Green Shirt for a College Denim Outfit")
+
+[Men Shirt Green Slim Fit](https://spykar.com/collections/all-shirts/products/mshps2be126botanicalgreen)
+
+*CMS image fields — Alt: Spykar men's botanical green slim-fit shirt for a college denim outfit | Title: Spykar Green Shirt for a College Denim Outfit | Filename: spykar-green-shirt-college-denim-outfit.jpg*
 
 Cargo jeans already bring pockets, seams and a strong streetwear outline. They do not need a complicated partner. A grey crew neck, a white tee, a narrow stripe or a small graphic leaves the denim visible. Dark indigo beside burnt orange is particularly good when the sky is doing nothing for the colour palette.
 
