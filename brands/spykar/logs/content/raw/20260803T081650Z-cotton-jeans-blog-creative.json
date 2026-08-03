@@ -1,0 +1,46 @@
+{
+  "run_id": "spykar-cotton-jeans-blog-creative-20260803",
+  "brand_id": "spykar",
+  "action": "generate_blog_hero_creative",
+  "created_at": "2026-08-03T08:16:50Z",
+  "provider": "openai_image_generation",
+  "use_case": "ads-marketing",
+  "blog_title": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+  "reference_creatives": [
+    {
+      "url": "https://spykar.com/cdn/shop/articles/best-lightweight-denim-styles-summer-to-monsoon-weather-spykar_jpg_0ebea746-9e87-4611-b9de-5a5f9423e921.jpg?v=1782222067&width=1024",
+      "role": "style and composition reference only"
+    },
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Blog_1_-_mens-trending-jeans_jpg_5dfecbdd-162a-4cf2-96a6-476e5958bc60.jpg?v=1780310703&width=1024",
+      "role": "style and composition reference only"
+    },
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Straight-Fit_and_Slim-Fit_Jeans_for_Women_by_Spykar_4d135070-99cf-4de6-b328-f7aa654ec387.jpg?v=1782719031&width=1024",
+      "role": "style and composition reference only"
+    }
+  ],
+  "prompt_summary": "Original 4:3 photorealistic Spykar-style blog hero with two young Indian men in regular-fit and relaxed-fit cotton jeans on a sheltered wet urban walkway after monsoon rain. Deep indigo and red graphic treatment with the exact headline COTTON DENIM. MONSOON COMFORT.",
+  "outputs": [
+    {
+      "path": "brands/spykar/blogs/creatives/cotton-jeans-men-monsoon-comfort-hero-master.png",
+      "role": "full-resolution master",
+      "dimensions": "1448x1086"
+    },
+    {
+      "path": "brands/spykar/blogs/creatives/cotton-jeans-men-monsoon-comfort-hero.jpg",
+      "role": "web-ready blog creative",
+      "dimensions": "800x602"
+    }
+  ],
+  "verification": {
+    "headline_spelling": "pass",
+    "reference_aspect_ratio_match": "pass",
+    "regular_and_relaxed_fit_visibility": "pass",
+    "monsoon_context": "pass",
+    "original_scene_and_models": "pass",
+    "visual_review": "pass"
+  },
+  "status": "ok",
+  "credentials_logged": false
+}
