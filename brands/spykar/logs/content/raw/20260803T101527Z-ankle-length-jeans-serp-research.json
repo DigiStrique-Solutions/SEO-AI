@@ -1,0 +1,37 @@
+{
+  "run_id": "spykar-ankle-length-jeans-serp-research-20260803",
+  "checked_at": "2026-08-03T10:15:27Z",
+  "brand_id": "spykar",
+  "target": "why-ankle-length-jeans-rainy-day-commutes",
+  "queries": [
+    "Why ankle length jeans work rainy day commute how to style",
+    "ankle length jeans monsoon outfit India blog",
+    "site:spykar.com ankle length jeans men women",
+    "ankle length jeans styling guide men women"
+  ],
+  "benchmark": [
+    {
+      "rank_sample": 1,
+      "url": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide",
+      "tone": "Energetic, directive and India-specific",
+      "approx_article_words": 2500,
+      "structure": ["definition and quick takeaways", "denim suitability", "fabric and colour comparison", "nine outfit ideas", "selection criteria", "mistakes", "care", "conclusion"]
+    },
+    {
+      "rank_sample": 2,
+      "url": "https://www.blackdenim.in/blogs/news/5-ways-to-style-mens-ankle-length-jeans-perfectly",
+      "tone": "Concise, promotional and focused on men's styling",
+      "approx_article_words": 1050,
+      "structure": ["five occasion-led looks", "styling tips", "why ankle-length works", "five FAQs", "conclusion"]
+    },
+    {
+      "rank_sample": 3,
+      "url": "https://www.ndtvshopping.com/fashion/how-to-transition-your-summer-wardrobe-into-monsoon-outfits-on-myntra-11633626",
+      "tone": "Conversational shopping editorial",
+      "approx_article_words": 3600,
+      "structure": ["problem framing", "five wardrobe-transition steps", "mistakes", "product suggestions", "FAQs"]
+    }
+  ],
+  "combined_decision": "Use a practical India-specific commute problem as the opening, answer the core question early, provide separate men's and women's outfit formulas, include fit and care guidance, and finish with FAQs. Preserve Spykar's concise, youthful brand voice and original section flow.",
+  "status": "ok"
+}

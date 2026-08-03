@@ -1,0 +1,22 @@
+{
+  "run_id": "spykar-ankle-length-jeans-product-check-20260803",
+  "checked_at": "2026-08-03T10:15:27Z",
+  "brand_id": "spykar",
+  "pages": [
+    {
+      "url": "https://spykar.com/collections/ankle-length-jeans-for-men",
+      "http_status": 200,
+      "observation": "The live page displayed 'This collection is empty'.",
+      "scrape_id": "019fc718-df4d-72be-abc9-bb528756429f",
+      "content_decision": "Avoid men's ankle-length SKU or availability claims and use the wider men's jeans collection in the CTA."
+    },
+    {
+      "url": "https://spykar.com/collections/ankle-length-jeans-for-women",
+      "http_status": 200,
+      "observation": "The live page displayed ankle-length product cards.",
+      "scrape_id": "019fc718-db9b-7708-8444-0c8f67a977a9",
+      "content_decision": "Link the collection, but avoid volatile SKU, price and inventory claims."
+    }
+  ],
+  "status": "ok"
+}

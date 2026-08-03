@@ -1,0 +1,150 @@
+{
+  "claims": [
+    {
+      "claim_id": "ankle-hem-rainy-commute",
+      "claim_type": "comparison",
+      "criteria": "The comparison is limited to hem position and exposure to wet ground. The article does not claim that ankle-length denim is waterproof, quick-drying or universally more comfortable.",
+      "source_ids": [
+        "serp-denz-monsoon-denim",
+        "serp-ndtv-monsoon-transition",
+        "spykar-existing-monsoon-blogs"
+      ],
+      "statement": "A hem that finishes at or above the ankle is less likely than a stacked full-length hem to skim puddles, wet pavement or a rain-soaked shoe."
+    },
+    {
+      "claim_id": "fit-and-length-guidance",
+      "claim_type": "comparison",
+      "criteria": "Fit advice is conditional and asks readers to test movement, hem position and route conditions rather than promising a universal result.",
+      "source_ids": [
+        "serp-blackdenim-ankle-styling",
+        "spykar-style-guide",
+        "spykar-brand-knowledge"
+      ],
+      "statement": "Straight, tapered, slim-straight and relaxed ankle-length jeans can support different outfits when the hem clears the shoe and the wearer can move comfortably."
+    },
+    {
+      "claim_id": "denim-care-routine",
+      "claim_type": "product_fact",
+      "criteria": "The garment label is authoritative. Advice is limited to gentle surface cleaning, washing inside out with similar colours when permitted, ventilated drying and not storing damp denim.",
+      "source_ids": [
+        "serp-denz-monsoon-denim",
+        "spykar-existing-monsoon-blogs"
+      ],
+      "statement": "Wet or washed denim should be dried fully in a ventilated space, with seams, hems, pockets and waistband checked before storage."
+    },
+    {
+      "claim_id": "current-spykar-assortment",
+      "claim_type": "product_fact",
+      "criteria": "The men's collection was empty at the time of access, so the article links to the wider men's-jeans collection and makes no SKU or availability claim. The women's collection link is live, but current products are not named because availability can change.",
+      "source_ids": [
+        "spykar-ankle-men-collection-20260803",
+        "spykar-ankle-women-collection-20260803"
+      ],
+      "statement": "Spykar has live ankle-length collection URLs for men and women; the article sends men to the wider jeans collection because the dedicated men's collection displayed no products when checked."
+    },
+    {
+      "claim_id": "keyword-opportunity",
+      "claim_type": "performance",
+      "criteria": "The assigned phrases guide topic coverage only. Search volumes are not stated in the customer-facing article.",
+      "source_ids": [
+        "brief-keyword-targets"
+      ],
+      "statement": "The article targets ankle-length jeans and rainy-day outfit intent for both men and women."
+    },
+    {
+      "claim_id": "no-superiority-claims",
+      "claim_type": "best_top",
+      "criteria": "The article makes no unqualified best, top, leading or guaranteed performance claim. Every recommendation is framed around route, fit, weather exposure and care instructions.",
+      "source_ids": [
+        "spykar-style-guide",
+        "spykar-brand-knowledge"
+      ],
+      "statement": "The outfit formulas are practical options, not universal or superior solutions."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-03T10:10:53+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T10:15:27+00:00",
+      "note": "The full draft was entered into ZeroGPT's website and submitted twice in a bounded browser check, but no result or percentage became visible. Together with the API's 403 Not enough credits response, this leaves the mandatory external ZeroGPT gate blocked. The local 6.0% score is retained only as an editorial signal and is not an external pass.",
+      "score": null,
+      "source": "zerogpt_web",
+      "status": "blocked",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-03T10:09:03+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft_external_zerogpt_blocked",
+    "target": "why-ankle-length-jeans-rainy-day-commutes"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blog copy uses Indian English, an 80\u2013120-word introduction, five to eight thematic sections, practical styling, natural unbolded keywords, short paragraphs, subtle brand integration and a soft CTA.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md (Google Doc revision recorded 2026-07-29)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused, denim-led youth fashion brand positioned around fit, movement, everyday comfort and self-expression. Unsupported best/top and product-performance claims are prohibited.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Assigned title and phrases: ankle length jeans for men, ankle length jeans, ankle length jeans for women, outfits for rainy days, monsoon outfits for men and monsoon outfits for women. No volumes were requested for publication.",
+      "source_id": "brief-keyword-targets",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-03",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar already publishes broad rainy-season guides for men, women, travel and lightweight denim. Those references favour shorter hems, breathable or lightweight layers, practical footwear and complete drying before storage.",
+      "source_id": "spykar-existing-monsoon-blogs",
+      "source_ref": "brands/spykar/blogs/summary.md and relevant files under brands/spykar/blogs/references/",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The live men's ankle-length collection returned HTTP 200 but displayed 'This collection is empty' on 2026-08-03. The draft therefore avoids current-product claims and links the CTA to Spykar's wider men's-jeans collection.",
+      "source_id": "spykar-ankle-men-collection-20260803",
+      "source_ref": "https://spykar.com/collections/ankle-length-jeans-for-men (Firecrawl scrape 019fc718-df4d-72be-abc9-bb528756429f)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The live women's ankle-length collection returned HTTP 200 and displayed current ankle-length product cards on 2026-08-03. The article links the collection but avoids names, prices and inventory claims because they can change.",
+      "source_id": "spykar-ankle-women-collection-20260803",
+      "source_ref": "https://spykar.com/collections/ankle-length-jeans-for-women (Firecrawl scrape 019fc718-db9b-7708-8444-0c8f67a977a9)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "SERP benchmark result 1 uses an energetic, directive India-specific tone. Approximately 2,500 article words. Structure: definition and quick takeaways, denim suitability, fabric/colour comparison, nine outfit ideas, selection criteria, mistakes, stepwise care and conclusion.",
+      "source_id": "serp-denz-monsoon-denim",
+      "source_ref": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide (checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "SERP benchmark result 2 uses concise, promotional styling language aimed at men. Approximately 1,050 article words. Structure: five occasion-led looks, fit/length tips, a short rationale, five FAQs and a brief conclusion.",
+      "source_id": "serp-blackdenim-ankle-styling",
+      "source_ref": "https://www.blackdenim.in/blogs/news/5-ways-to-style-mens-ankle-length-jeans-perfectly (checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "SERP benchmark result 3 uses conversational shopping-editorial language. Approximately 3,600 words including product modules. Structure: monsoon problem framing, five wardrobe-transition steps, common mistakes, product suggestions and FAQs.",
+      "source_id": "serp-ndtv-monsoon-transition",
+      "source_ref": "https://www.ndtvshopping.com/fashion/how-to-transition-your-summer-wardrobe-into-monsoon-outfits-on-myntra-11633626 (checked 2026-08-03)",
+      "source_type": "serp"
+    }
+  ]
+}

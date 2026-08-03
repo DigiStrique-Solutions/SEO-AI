@@ -1,0 +1,21 @@
+{
+  "run_id": "spykar-ankle-length-jeans-zerogpt-browser-20260803",
+  "checked_at": "2026-08-03T10:15:27Z",
+  "brand_id": "spykar",
+  "target": "why-ankle-length-jeans-rainy-day-commutes",
+  "api_result": {
+    "status": "blocked",
+    "http_code": 403,
+    "message": "Not enough credits"
+  },
+  "browser_result": {
+    "status": "blocked",
+    "attempts": 2,
+    "observation": "The full 13,101-character draft was entered and submitted, but no verifiable result or percentage became visible."
+  },
+  "local_fallback": {
+    "score_percent": 6.0,
+    "use": "Editorial risk signal only; not accepted as the mandatory external ZeroGPT pass."
+  },
+  "gate_status": "not_checked_blocked"
+}
