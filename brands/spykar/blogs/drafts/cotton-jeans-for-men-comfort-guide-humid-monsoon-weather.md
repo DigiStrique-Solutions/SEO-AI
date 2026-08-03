@@ -10,7 +10,7 @@ secondary_keywords:
   - best jeans for men
   - mens jeans regular fit
   - men's relaxed fit jeans
-meta_title: "Cotton Jeans for Men: A Monsoon Comfort Guide"
+meta_title: "Cotton Jeans for Men: A Humid Monsoon Comfort Guide"
 meta_description: "Choose cotton jeans for men by fabric, fit and rise. Find practical outfit and denim-care tips for humid commutes, office days and weekends."
 ---
 

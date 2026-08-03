@@ -1,0 +1,30 @@
+{
+  "run_id": "spykar-cotton-jeans-google-doc-update-20260803",
+  "brand_id": "spykar",
+  "action": "update_and_verify_native_google_doc",
+  "source": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md",
+  "destination_provider": "google_drive",
+  "output": {
+    "document_id": "1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+    "document_url": "https://docs.google.com/document/d/1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+    "title": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+    "revision_id": "AIroW36UrVALXtAkYYVN327_vDfc08vvnXKRGCc8U39FoRnSnI6LjonOVk0lGPW1ox0EFnrKd3ZX8mXaxl1-Fti93WmnWfbWC4g1ueAxQns"
+  },
+  "changes": {
+    "heading_suffixes_removed": 17,
+    "encoding_repairs": 1
+  },
+  "verification": {
+    "connector_readback": "pass",
+    "tab_count": 1,
+    "heading_1_count": 8,
+    "heading_2_count": 8,
+    "native_bullet_count": 5,
+    "hyperlink_count": 2,
+    "heading_suffixes_remaining": 0,
+    "mojibake_remaining": false,
+    "all_requested_keywords_present": true
+  },
+  "status": "ok",
+  "credentials_logged": false
+}

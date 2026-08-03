@@ -66,16 +66,6 @@
   ],
   "detector_notes": [
     {
-      "checked_at": "2026-07-31T12:00:00+00:00",
-      "max_score": 15.0,
-      "note": "User-supplied detector screenshot reported 67.6% AI/GPT for the previous draft. This external result triggered a full source-backed rewrite and is preserved as a weak editorial signal, not proof of authorship.",
-      "score": 67.6,
-      "source": "user_reported_screenshot",
-      "source_ref": "C:/Users/CHINMA~1/AppData/Local/Temp/codex-clipboard-6f2c6db9-996d-4616-86b1-e6ee7a17c237.png",
-      "status": "fail",
-      "tool": "external detector shown in user screenshot"
-    },
-    {
       "checked_at": "2026-07-31T10:51:44+00:00",
       "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
       "max_score": 20.0,
@@ -114,6 +104,16 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T08:05:40+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -123,6 +123,14 @@
     "required_skill": "content-seo-authenticity",
     "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
     "status": "draft",
+    "superseded_detector_note": {
+      "checked_at": "2026-07-31T12:00:00+00:00",
+      "note": "User-supplied detector screenshot reported 67.6% AI/GPT for the previous draft. That result triggered the full source-backed rewrite and does not apply to the current text.",
+      "score": 67.6,
+      "source": "user_reported_screenshot",
+      "status": "fail",
+      "tool": "external detector shown in user screenshot"
+    },
     "target": "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather"
   },
   "sources": [
@@ -185,6 +193,24 @@
       "source_id": "spykar-mens-monsoon-blog",
       "source_ref": "brands/spykar/blogs/references/stylish-monsoon-outfits-for-men.md",
       "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Live organic benchmark result. Approximately 2,460 words with a practical, style-led tone. Flow: definition and wearability, fabric-weight and stretch comparisons, colours, outfit ideas, buying factors, styling mistakes, care and conclusion. The Spykar draft keeps the useful fabric-fit-style-care journey but avoids copying the competitor's exhaustive list format or unsupported numeric claims.",
+      "source_id": "serp-denzlabel-monsoon-denim",
+      "source_ref": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide (accessed 2026-08-03; live organic result; Firecrawl structured extraction)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Live organic benchmark result. Approximately 2,100 words with a comfort-first, practical menswear tone. Flow: key takeaways, monsoon fashion context, clothing and relaxed-denim guidance, streetwear, outfit building, comparison, mistakes, use cases and conclusion. The Spykar article adopts the reader-first practicality while using a tighter, less repetitive structure.",
+      "source_id": "serp-rockstar-mens-monsoon",
+      "source_ref": "https://www.rockstarjeans.com/blogs/news/what-should-men-wear-in-monsoon-2026-the-complete-outfit-guide-india (accessed 2026-08-03; live organic result; Firecrawl structured extraction)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Live organic benchmark result. Approximately 2,200 words with a comprehensive, practical India-first tone. Flow: monsoon conditions, fabric comparison, five occasion-led outfit formulas, colours, footwear, garment freshness, mistakes, FAQs and conclusion. The Spykar draft follows the strong occasion-led and care-led intent while remaining denim-specific and brand-voice aligned.",
+      "source_id": "serp-otoko-monsoon-outfits",
+      "source_ref": "https://www.otokostyle.com/blogs/news/monsoon-outfits-for-men-rainy-season-style-guide-india (accessed 2026-08-03; live organic result; Firecrawl structured extraction)",
+      "source_type": "serp"
     }
   ]
 }

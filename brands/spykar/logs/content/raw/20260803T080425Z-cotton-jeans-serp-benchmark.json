@@ -1,0 +1,42 @@
+{
+  "run_id": "spykar-cotton-jeans-serp-refresh-20260803",
+  "brand_id": "spykar",
+  "action": "live_serp_benchmark",
+  "query": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+  "accessed_at": "2026-08-03T08:04:25Z",
+  "search_provider": "web_search",
+  "extraction_provider": "firecrawl",
+  "results": [
+    {
+      "rank_reviewed": 1,
+      "url": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide",
+      "title": "Monsoon Denim Styling Guide—How to Wear Denim in Rainy Season -DenZlabel",
+      "approximate_word_count": 2460,
+      "tone": "Practical and style-led, with detailed rainy-season denim advice for Indian readers.",
+      "structure": ["Definition and wearability", "Fabric weight, stretch and colour comparisons", "Nine outfit ideas", "Buying factors and styling tips", "Mistakes", "Care", "Conclusion"]
+    },
+    {
+      "rank_reviewed": 2,
+      "url": "https://www.rockstarjeans.com/blogs/news/what-should-men-wear-in-monsoon-2026-the-complete-outfit-guide-india",
+      "title": "What Should Men Wear in Monsoon 2026? The Complete Outfit Guide India",
+      "approximate_word_count": 2100,
+      "tone": "Comfort-first and practical, blending relaxed menswear with everyday monsoon use cases.",
+      "structure": ["Key takeaways and monsoon context", "Clothing and relaxed-denim guidance", "Streetwear and wardrobe essentials", "Outfit building and comparison", "Mistakes and use cases", "Conclusion"]
+    },
+    {
+      "rank_reviewed": 3,
+      "url": "https://www.otokostyle.com/blogs/news/monsoon-outfits-for-men-rainy-season-style-guide-india",
+      "title": "Monsoon Outfits for Men: What to Wear in India's Rainy Season (2026 Guide)",
+      "approximate_word_count": 2200,
+      "tone": "Comprehensive, practical and India-first, with firm recommendations about fabric and occasion.",
+      "structure": ["Why monsoon dressing differs", "Fabric comparison", "Five occasion-led outfit formulas", "Colour, footwear and garment freshness", "Mistakes", "FAQs", "Conclusion"]
+    }
+  ],
+  "combined_benchmark": {
+    "tone": "Conversational, practical and India-specific, with weather problems translated into clear wardrobe decisions.",
+    "target_depth": "About 1,300–1,600 words for a focused cotton-jeans guide; shorter than broad 2,100–2,460-word monsoon round-ups because the intent is narrower.",
+    "recommended_flow": "Weather-led introduction, fabric and fit evaluation, occasion styling, care, buying checklist, conclusion and concise FAQs.",
+    "originality_guardrail": "Use the shared search intent as a benchmark only; retain Spykar's voice, source-backed product details and an original section sequence and wording."
+  },
+  "status": "ok"
+}
