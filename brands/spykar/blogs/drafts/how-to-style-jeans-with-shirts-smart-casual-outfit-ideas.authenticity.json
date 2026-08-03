@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim_id": "spykar-jeans-fit-range",
+      "claim_type": "product_fact",
+      "criteria": "The article describes current collection-level fit language, links the live collection and states that availability changes; it does not name prices or guarantee stock.",
+      "source_ids": [
+        "spykar-all-jeans-20260803"
+      ],
+      "statement": "Spykar's current all-jeans collection spans close, straight, relaxed and wide silhouettes for men and women."
+    },
+    {
+      "claim_id": "spykar-shirts-fit-range",
+      "claim_type": "product_fact",
+      "criteria": "The article describes current collection-level fit language, links the live collection and states that availability changes; it does not name prices or guarantee stock.",
+      "source_ids": [
+        "spykar-all-shirts-20260803"
+      ],
+      "statement": "Spykar's current all-shirts collection includes slim, regular, relaxed, boxy and loose fits for men and women."
+    },
+    {
+      "claim_id": "outfit-recommendations",
+      "claim_type": "comparison",
+      "criteria": "Pairings are presented as adjustable styling options tied to visible colour, texture, proportion and occasion, not universal superiority or body-shape claims.",
+      "source_ids": [
+        "serp-ariiston-jeans-shirts",
+        "serp-whowhatwear-jeans-shirts",
+        "serp-divas-indian-shirts",
+        "spykar-existing-style-references"
+      ],
+      "statement": "Changes in wash, shirt fit, tuck and footwear can move a jeans-and-shirt combination between relaxed and smart-casual settings."
+    },
+    {
+      "claim_id": "keyword-coverage",
+      "claim_type": "performance",
+      "criteria": "Keywords guide editorial coverage only; the article makes no promise about rankings, traffic, engagement or conversion.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The article covers jeans-and-shirt outfit styling, casual outfits for men, women's casual fashion and general casual outfit intent."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-03T11:05:30+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T11:13:08+00:00",
+      "max_score": 20.0,
+      "note": "Direct ZeroGPT website check on the final customer-facing article body returned 6.2%. Earlier editorial iterations returned 74.1% and 25.9%; the article was revised using source-backed occasion detail, varied section cadence and less repeated instructional syntax. Detector scores remain a weak editorial signal, not proof of authorship.",
+      "score": 6.2,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-03T11:02:21+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "reviewed_external_zerogpt_pass",
+    "target": "spykar://blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blogs use Indian English, short paragraphs, practical styling, natural keywords, subtle brand integration, soft CTAs and a mandatory unique blog banner.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth fashion brand serving men and women. Unsupported best, performance, sustainability and availability claims are prohibited.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Assigned title and phrases: jeans and shirt outfit, shirt and jeans outfit, jeans shirt combination, casual outfits for men, women's casual fashion and casual outfits.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-03",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Existing Spykar editorial themes emphasise versatile casual-to-smart-casual pieces, comfort, fit variety and deliberate proportion when combining relaxed silhouettes.",
+      "source_id": "spykar-existing-style-references",
+      "source_ref": "brands/spykar/blogs/references/essential-womens-tops-for-everyday-wear.md; how-to-style-cargo-pants-casual-streetwear-looks.md; style-guide-oversized-tshirts-modern-denim-fits.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The live all-jeans collection represented men and women and displayed multiple close, straight, relaxed and wide silhouettes. Stock and displayed counts can change.",
+      "source_id": "spykar-all-jeans-20260803",
+      "source_ref": "https://spykar.com/collections/all-jeans (Firecrawl scrape 019fc749-8284-716f-935f-06887da57c64, checked 2026-08-03)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The live all-shirts collection represented men and women and displayed regular, slim, relaxed, comfort, boxy and loose fit language. Stock and displayed counts can change.",
+      "source_id": "spykar-all-shirts-20260803",
+      "source_ref": "https://spykar.com/collections/all-shirts (Firecrawl scrape 019fc749-7eb4-76f8-8fe4-27f7b539e0f3, checked 2026-08-03)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Approximately 2,054 article words; practical and SEO-led. Structure: 12 men's colour combinations, styling principles, mistakes, CTA and FAQs.",
+      "source_id": "serp-ariiston-jeans-shirts",
+      "source_ref": "https://ariiston.com/blogs/news/jeans-shirt-combination-for-men (Firecrawl scrape 019fc749-42f5-77c8-9202-b20f6265376a, checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,061 article words; visual and fashion-editorial. Structure: brief premise, five image-led outfit formulas, short style notes and shopping blocks.",
+      "source_id": "serp-whowhatwear-jeans-shirts",
+      "source_ref": "https://www.whowhatwear.com/jeans-and-shirt-outfits (Firecrawl scrape 019fc749-3a30-737b-803b-f121da3f47ff, checked 2026-08-03)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,398 article words; confident, explanatory and India-specific for women. Structure spans office, casual, fusion, seasonal, fit and accessory guidance.",
+      "source_id": "serp-divas-indian-shirts",
+      "source_ref": "https://www.divasclub.in/blog/how-to-style-shirt-indian-women (Firecrawl scrape 019fc749-3dab-764c-996f-ceb29fd34745, checked 2026-08-03)",
+      "source_type": "serp"
+    }
+  ]
+}

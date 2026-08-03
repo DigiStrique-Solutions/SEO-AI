@@ -1,0 +1,22 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-20260803",
+  "created_at": "2026-08-03T11:13:08Z",
+  "provider": "google_drive",
+  "document_id": "1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M",
+  "url": "https://docs.google.com/document/d/1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M/edit?usp=drivesdk",
+  "tab_id": "t.0",
+  "revision_id": "AIroW35uU4WtzskesrytdP9M_cCb8cqPjobqnrA16VY83osJeOCnwtAVOOVKFZeQ-1YB45NqlzuoHipoVywa2g5owTfWjsdZUgZmJH41ZPs",
+  "verification": {
+    "native_google_doc": "pass",
+    "title_style_count": 1,
+    "heading_1_count": 15,
+    "heading_2_count": 6,
+    "seo_metadata_present": true,
+    "local_detector_status_present": true,
+    "external_zerogpt_status_present": true,
+    "banner_headline_present": true,
+    "spykar_collection_links": 4,
+    "final_cta_present": true,
+    "markdown_residue": false
+  }
+}

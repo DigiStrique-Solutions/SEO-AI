@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-20260803",
+  "checked_at": "2026-08-03T11:13:08Z",
+  "tool": "ZeroGPT live website",
+  "url": "https://www.zerogpt.com/",
+  "text_scope": "Final customer-facing article body, excluding YAML frontmatter",
+  "iterations": [
+    {
+      "score": 74.1,
+      "status": "fail",
+      "editorial_action": "Rebuilt the article around concrete occasions, varied section cadence and less repetitive rule-pairing-footwear structure."
+    },
+    {
+      "score": 25.9,
+      "status": "fail",
+      "editorial_action": "Reworked flagged instructional and FAQ sentences with more natural joins and fewer symmetrical lists while retaining sourced advice."
+    },
+    {
+      "score": 6.2,
+      "status": "pass"
+    }
+  ],
+  "final_score": 6.2,
+  "threshold": "strictly below 20 percent",
+  "verdict": "pass",
+  "evidence": "The live result displayed 'Your Text is Human written' and 6.2% AI GPT for the final article body.",
+  "caveat": "Detector output is an editorial risk signal, not proof of authorship."
+}

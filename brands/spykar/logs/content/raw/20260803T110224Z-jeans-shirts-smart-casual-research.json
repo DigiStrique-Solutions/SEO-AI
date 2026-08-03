@@ -1,0 +1,57 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-20260803",
+  "checked_at": "2026-08-03T11:02:24Z",
+  "target_title": "How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women",
+  "search_queries": [
+    "How to style jeans with shirts outfit ideas men women India",
+    "jeans and shirt outfit ideas men women smart casual",
+    "jeans shirt combination men women casual outfits"
+  ],
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://ariiston.com/blogs/news/jeans-shirt-combination-for-men",
+      "accessed_at": "2026-08-03",
+      "firecrawl_scrape_id": "019fc749-42f5-77c8-9202-b20f6265376a",
+      "approx_article_words": 2054,
+      "tone": "Informative, practical and strongly SEO-led for men.",
+      "structure": "Introduction, 12 colour-and-wash combinations, principles, common mistakes, product CTA and FAQs.",
+      "opportunity_for_spykar": "Retain the usable colour and fit detail while serving men and women without repetitive pairings or unsupported superlatives."
+    },
+    {
+      "ranked_url": "https://www.whowhatwear.com/jeans-and-shirt-outfits",
+      "accessed_at": "2026-08-03",
+      "firecrawl_scrape_id": "019fc749-3a30-737b-803b-f121da3f47ff",
+      "approx_article_words": 1061,
+      "tone": "Visual, fashion-editorial and encouraging.",
+      "structure": "Brief premise followed by five image-led outfit formulas, short style notes and shoppable product blocks.",
+      "opportunity_for_spykar": "Match the visual clarity but add proportion, tuck, footwear and Indian smart-casual context."
+    },
+    {
+      "ranked_url": "https://www.divasclub.in/blog/how-to-style-shirt-indian-women",
+      "accessed_at": "2026-08-03",
+      "firecrawl_scrape_id": "019fc749-3dab-764c-996f-ceb29fd34745",
+      "approx_article_words": 1398,
+      "tone": "Confident, explanatory and India-specific for women.",
+      "structure": "Versatility hook, white shirt, office and casual styling, fusion, body type, season, shirt types and accessories.",
+      "opportunity_for_spykar": "Use grounded Indian occasions while avoiding universal body-type or flattering claims and keeping jeans central."
+    }
+  ],
+  "brand_product_sources": [
+    {
+      "url": "https://spykar.com/collections/all-jeans",
+      "firecrawl_scrape_id": "019fc749-8284-716f-935f-06887da57c64",
+      "facts_used": "Current collection serves men and women and visibly includes slim, regular, relaxed, skinny, comfort, bootcut, straight, wide-leg, mom, flare and tapered fit language. Availability is volatile."
+    },
+    {
+      "url": "https://spykar.com/collections/all-shirts",
+      "firecrawl_scrape_id": "019fc749-7eb4-76f8-8fe4-27f7b539e0f3",
+      "facts_used": "Current collection serves men and women and visibly includes regular, slim, relaxed, comfort, boxy and loose fit language across multiple colours. Availability is volatile."
+    }
+  ],
+  "benchmark_application": {
+    "target_depth": "Approximately 1,900 to 2,100 words",
+    "tone": "Practical, visual and conversational in Spykar's Indian-English voice",
+    "structure": "Decision framework, eight mixed-gender outfit formulas, proportion guidance, finishing details, six FAQs and soft collection CTA",
+    "originality_note": "The outline combines observed SERP strengths but does not reproduce any competitor's wording or full section sequence."
+  }
+}

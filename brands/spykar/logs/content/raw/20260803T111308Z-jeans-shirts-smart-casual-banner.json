@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-20260803",
+  "generated_at": "2026-08-03T11:13:08Z",
+  "tool": "OpenAI built-in image generation",
+  "use_case": "ads-marketing",
+  "headline": "8 LOOKS. ONE EASY FORMULA.",
+  "concept": "Overhead wardrobe-compass flat-lay with two contrasting denim silhouettes and eight shirt colours or patterns arranged around them.",
+  "source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-5058d9e8-4780-4388-9746-cb82f494e52c.png",
+  "master": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-master.png",
+    "dimensions": "1448x1086",
+    "format": "PNG"
+  },
+  "web": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero.jpg",
+    "dimensions": "800x600",
+    "format": "JPEG",
+    "quality": 92
+  },
+  "visual_qa": {
+    "topic_relevance": "pass - two jeans silhouettes and eight distinct shirt treatments are immediately visible",
+    "headline": "pass - exact wording, legible and inside safe margins",
+    "garment_construction": "pass - jeans, shirts, folds and stitching are plausible",
+    "brand_safety": "pass - no prices, discount claims, supplied brand mark, watermark or legible third-party branding",
+    "crop": "pass - web export preserves headline and garment hierarchy",
+    "distinctiveness": "pass - model-free overhead flat-lay differs from recent outdoor, torn-collage, metro and wardrobe-studio banners"
+  }
+}
