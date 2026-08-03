@@ -1,0 +1,149 @@
+{
+  "run_id": "spykar-light-blue-jeans-monsoon-research-20260803",
+  "timestamp": "2026-08-03T09:44:16Z",
+  "brand_id": "spykar",
+  "target": "how-to-style-light-blue-jeans-monsoon-outfit-ideas",
+  "query": "How to style light blue jeans during monsoon outfit ideas",
+  "serp_benchmark": [
+    {
+      "rank_basis": "first relevant organic blog result reviewed",
+      "title": "Monsoon Denim Styling Guide—How to Wear Denim in Rainy Season",
+      "url": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide",
+      "accessed_at": "2026-08-03",
+      "scrape_id": "019fc6f9-25f4-7329-aea5-832a407e173a",
+      "approx_extracted_words": 3187,
+      "tone": "Direct, India-specific and practical, with a strong SEO-explainer voice.",
+      "structure": "Quick takeaways; monsoon-denim definition; advantages; weight, stretch and colour decisions; nine outfit ideas; comparison guidance; styling mistakes; five-step care; conclusion.",
+      "use_for_spykar": "Retain the weather-specific decision logic, care section and outfit formulas while reducing repetition and avoiding unsupported specifications."
+    },
+    {
+      "rank_basis": "second relevant organic blog result reviewed",
+      "title": "How to Style Light Blue Jeans: 19 Chic Ways to Wear This Denim",
+      "url": "https://shewhatwear.com/how-to-style-light-blue-jeans/",
+      "accessed_at": "2026-08-03",
+      "scrape_id": "019fc6f9-5f26-73ec-bdee-1761404bc125",
+      "approx_extracted_words": 2241,
+      "tone": "Visual, conversational and women-focused, with short descriptive outfit notes.",
+      "structure": "Brief introduction followed by 19 numbered outfit formulas and a short final thought.",
+      "use_for_spykar": "Use complete head-to-toe outfit formulas and concrete colour, fit, layer and footwear details."
+    },
+    {
+      "rank_basis": "third relevant organic blog result reviewed",
+      "title": "Light Blue Jeans Outfit Inspiration: What To Wear With Pale Denim",
+      "url": "https://mensflair.com/light-blue-jeans-outfits/",
+      "accessed_at": "2026-08-03",
+      "scrape_id": "019fc6f9-71c1-700d-8966-d964e7c95cc2",
+      "approx_extracted_words": 2522,
+      "tone": "Editorial menswear advice with practical explanations before inspiration.",
+      "structure": "Wash, denim-weight and fit considerations followed by 16 men's outfit ideas.",
+      "use_for_spykar": "Explain fit, rise and wash before the numbered ideas, then keep the styling advice occasion-led."
+    }
+  ],
+  "structural_reference": {
+    "title": "Monsoon Wardrobe Essentials for Men: What Actually Works in Indian Weather",
+    "url": "https://xyxxcrew.com/blogs/article/monsoon-wardrobe-essentials-for-men-what-actually-works-in-indian-weather",
+    "accessed_at": "2026-08-03",
+    "adopted_mechanics": [
+      "Immediate practical answer",
+      "India-specific weather problem framing",
+      "Clear works-versus-skip decisions",
+      "Real-life commute, office and weekend contexts",
+      "Care guidance and concise FAQs"
+    ],
+    "excluded": [
+      "XYXX wording",
+      "XYXX product or fabric-technology claims",
+      "Unverified ranking-speed claim",
+      "Any copied heading sequence"
+    ]
+  },
+  "live_spykar_evidence": [
+    {
+      "url": "https://spykar.com/collections/light-blue-jeans-men",
+      "scrape_id": "019fc6f9-7f5c-75cc-834d-d9687c66e37e",
+      "result": "HTTP 200; one product card visible. Product-image alt text conflicts with the visible model/fit heading."
+    },
+    {
+      "url": "https://spykar.com/collections/light-blue-jeans-women",
+      "scrape_id": "019fc6f9-bf80-70dc-b7b3-5e96cf9d5979",
+      "result": "HTTP 200; one product card visible. Product-image alt text conflicts with the visible model heading."
+    }
+  ],
+  "editorial_response_to_product_discrepancy": "Removed the prior draft's SKU names, fit counts, size-range statements and fabric claims. The revised article links to the live collections and tells readers to use current product details as the final reference.",
+  "rewrite_benchmark": {
+    "target_words": "1700-1900",
+    "final_words": 1821,
+    "primary_intent": "Informational styling guidance with soft commercial discovery",
+    "content_shape": "Direct answer; fit/rise/hem decisions; seven complete outfit ideas; colour; footwear/layers; care; FAQs; soft CTA",
+    "internal_links": 5
+  },
+  "content_seo_assessment": {
+    "audit_id": "content-seo",
+    "target_url": "draft://how-to-style-light-blue-jeans-monsoon-outfit-ideas",
+    "score": 0.8571,
+    "counts": {
+      "pass": 6,
+      "fail": 1,
+      "not_applicable": 0
+    },
+    "rows": [
+      {
+        "item_id": "page-purpose",
+        "section_id": "purpose-intent",
+        "status": "pass",
+        "result": "The dominant purpose is practical monsoon styling guidance for light blue jeans.",
+        "next_action": "None.",
+        "evidence_ref": "draft article H1, introduction and seven outfit section"
+      },
+      {
+        "item_id": "intent-match",
+        "section_id": "purpose-intent",
+        "status": "pass",
+        "result": "The numbered outfit-guide format matches the live SERP's inspiration-led intent.",
+        "next_action": "None.",
+        "evidence_ref": "three live organic benchmarks recorded in this file"
+      },
+      {
+        "item_id": "content-depth",
+        "section_id": "depth-quality",
+        "status": "pass",
+        "result": "The 1,821-word draft covers fit, rise, hem, seven outfits, colour, footwear, layering, care and FAQs.",
+        "next_action": "None.",
+        "evidence_ref": "final draft and verify report 20260803T094239Z-light-blue-jeans-monsoon-verify.json"
+      },
+      {
+        "item_id": "keyword-coverage",
+        "section_id": "depth-quality",
+        "status": "pass",
+        "result": "The primary term appears in the title, introduction and headings; all supplied secondary phrases appear naturally without bolding.",
+        "next_action": "Monitor final CMS rendering for accidental keyword emphasis.",
+        "evidence_ref": "final draft keyword count"
+      },
+      {
+        "item_id": "freshness",
+        "section_id": "depth-quality",
+        "status": "pass",
+        "result": "SERP and Spykar collection evidence were refreshed on 2026-08-03, and stale assortment claims were removed.",
+        "next_action": "Recheck live collection details immediately before publication.",
+        "evidence_ref": "live Spykar evidence recorded in this file"
+      },
+      {
+        "item_id": "author-eeat",
+        "section_id": "eeat",
+        "status": "fail",
+        "result": "The draft does not contain a visible author or reviewer byline.",
+        "next_action": "Add the accurate CMS author or reviewer and do not invent credentials.",
+        "evidence_ref": "final draft"
+      },
+      {
+        "item_id": "internal-links",
+        "section_id": "eeat",
+        "status": "pass",
+        "result": "Five contextual links point to related monsoon guides and the two light-blue collection pages.",
+        "next_action": "Retain the linked labels in the CMS.",
+        "evidence_ref": "final Google Doc connector readback"
+      }
+    ],
+    "schema_opportunity": "Use BlogPosting or Article structured data. Add FAQPage only if the six visible FAQs remain on the published page and markup follows current search-engine eligibility rules."
+  }
+}

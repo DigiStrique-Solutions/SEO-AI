@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-light-blue-jeans-monsoon-google-doc-20260803",
+  "timestamp": "2026-08-03T09:44:16Z",
+  "brand_id": "spykar",
+  "action": "create_and_verify_native_google_doc",
+  "source": "brands/spykar/blogs/drafts/how-to-style-light-blue-jeans-monsoon-outfit-ideas.md",
+  "destination": {
+    "document_id": "16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM",
+    "document_url": "https://docs.google.com/document/d/16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM/edit",
+    "title": "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas",
+    "tab_id": "t.0",
+    "tab_title": "Tab 1",
+    "final_revision_id": "AIroW35hVWDTwGXEKOHsopX000D6DktMWURywRBDzyPuy9G10rcWEaqKHxqppzh22Uw7jk2ptJ5B31qPWYmz_IfGMH2NQPr3xGHqfgaJj7Q"
+  },
+  "verification": {
+    "title_paragraphs": 1,
+    "heading_1_paragraphs": 8,
+    "heading_2_paragraphs": 13,
+    "normal_text_paragraphs": 58,
+    "native_hyperlinks": 5,
+    "markdown_heading_markers_present": false,
+    "markdown_link_syntax_present": false,
+    "outdated_sku_claim_present": false,
+    "requested_keyword_phrases_present": true
+  },
+  "repair_note": "Initial hyperlink formatting matched repeated keyword phrases beyond the five intended CTA labels. Connector readback detected 11 links; all were cleared, the five exact authored link ranges were reapplied, and final readback verified those five labels and URLs only.",
+  "status": "ok"
+}

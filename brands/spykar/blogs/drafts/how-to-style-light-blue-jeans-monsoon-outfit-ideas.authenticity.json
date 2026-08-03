@@ -1,96 +1,80 @@
 {
   "claims": [
     {
-      "claim_id": "spykar-light-blue-fit-range",
-      "claim_type": "product_fact",
-      "criteria": "Only fit, rise, fabric, size range and construction details read from live collection and product pages on 2026-07-31 are stated. Prices, discounts, review counts and availability are omitted because they change.",
-      "source_ids": [
-        "spykar-light-blue-men-collection",
-        "spykar-light-blue-women-collection",
-        "spykar-bella-straight-light-blue"
-      ],
-      "statement": "Spykar's live light blue denim includes men's Nico skinny low rise, Rover regular mid rise and Kano slim mid rise in sizes 28 to 40, with cotton and stretch options, and women's Emma skinny mid rise in lycra alongside a Bella straight fit high rise in cotton with five pockets and hem side slits."
-    },
-    {
-      "claim_id": "light-wash-visibility",
+      "claim_id": "light-wash-monsoon-styling",
       "claim_type": "comparison",
-      "criteria": "The article frames this as a visible-contrast observation about pale versus dark fabric and offers styling and care responses. It makes no claim that light denim is warmer, heavier, slower-drying or less durable than dark denim.",
+      "criteria": "The copy limits the comparison to visible road marks and outfit colour contrast. It does not claim that a light wash is inherently warmer, slower-drying or less durable than dark denim.",
       "source_ids": [
-        "spykar-brand-knowledge",
-        "spykar-existing-monsoon-blogs"
+        "spykar-existing-monsoon-blogs",
+        "serp-denz-monsoon-denim"
       ],
-      "statement": "A light wash shows splash marks and a wet hem line more visibly than dark denim, which is an appearance observation rather than a performance or comfort claim."
+      "statement": "Pale denim shows road splashes sooner than a dark wash, while deeper top colours create clear visual contrast against light blue jeans."
     },
     {
-      "claim_id": "hem-and-moisture-guidance",
-      "claim_type": "product_fact",
-      "criteria": "The moisture statement is limited to absorption and spreading, which the cited textile study supports. No drying-time figure, breathability rating or quick-dry promise is given.",
-      "source_ids": [
-        "cotton-moisture-study",
-        "spykar-bella-straight-light-blue"
-      ],
-      "statement": "Cotton denim absorbs water and carries it along the fabric, so a hem that drags on wet ground can stay visibly damp for hours; a cuffed, cropped or ankle-length hem avoids that."
-    },
-    {
-      "claim_id": "fit-selection-guidance",
+      "claim_id": "denim-fit-guidance",
       "claim_type": "comparison",
-      "criteria": "Fit advice is offered as a practical starting point tied to hem length, rise and stretch content that the reader can verify on the product page. It is not stated as a universal comfort guarantee.",
+      "criteria": "Fit guidance is framed as a movement and hem-length test rather than a universal comfort guarantee. Readers are told to choose based on their own waistband, thigh, knee and route conditions.",
       "source_ids": [
-        "spykar-light-blue-men-collection",
-        "spykar-bella-straight-light-blue",
         "spykar-style-guide",
-        "spykar-brand-knowledge"
+        "spykar-brand-knowledge",
+        "serp-mensflair-light-wash-jeans"
       ],
-      "statement": "Straight and slim fits in a mid or high rise keep fabric off the calf and are easier to move in during wet weather than floor-grazing lengths; stretch content helps on days that move between humid and air-conditioned spaces."
+      "statement": "Regular, straight, slim and relaxed fits can all work in the monsoon when the pair leaves usable room to move and the hem clears wet ground."
     },
     {
       "claim_id": "denim-care-routine",
       "claim_type": "product_fact",
-      "criteria": "Care advice is limited to the verified Spykar machine-wash instruction plus widely published denim-care guidance. The reader is told to follow the garment label first, and no competitor brand is named in the customer-facing copy.",
+      "criteria": "The garment label is stated as authoritative. General care advice is limited to source-backed steps and makes no drying-time, odour-prevention or fabric-performance guarantee.",
       "source_ids": [
-        "spykar-bella-straight-light-blue",
         "denim-care-guidance"
       ],
-      "statement": "Check the garment label first; Spykar's light blue pairs carry a machine-wash instruction. Common denim-care advice is to wash inside out in cold water with a mild detergent, keep the load to similar shades, and air-dry in a ventilated shaded space until the waistband, pockets and hem are fully dry."
+      "statement": "When the care label permits machine washing, turn jeans inside out, use cold water and mild detergent, wash with similar colours, then dry fully in a shaded, ventilated space."
     },
     {
-      "claim_id": "textured-top-styling-language",
-      "claim_type": "best_top",
-      "criteria": "No product, fit, wash or brand is described as best, top-rated or superior. Every recommendation is tied to a stated condition: hem length, rise, stretch content, colour contrast or drying conditions.",
+      "claim_id": "current-light-blue-assortment",
+      "claim_type": "product_fact",
+      "criteria": "The customer-facing copy does not name, count or describe current SKUs because the live cards contain conflicting fit/model labels and assortment can change. It only links to the current collection pages and tells readers to use live product details as the final reference.",
       "source_ids": [
-        "spykar-style-guide",
-        "spykar-brand-knowledge",
-        "spykar-light-blue-men-collection"
+        "spykar-light-blue-men-collection-20260803",
+        "spykar-light-blue-women-collection-20260803"
       ],
-      "statement": "The word 'top' appears only as the garment noun in styling guidance ('a satin or textured top'). The article makes no 'best' or 'top-rated' superiority claim about any product, fit or brand."
+      "statement": "Spykar maintains dedicated light-blue-jeans collection pages for men and women; current fit, rise and availability should be confirmed on those live pages."
     },
     {
       "claim_id": "keyword-opportunity",
       "claim_type": "performance",
-      "criteria": "Search metrics are used for editorial planning only and never appear in customer-facing copy.",
+      "criteria": "Keyword volumes supplied by the user guide editorial emphasis only and do not appear in customer-facing copy.",
       "source_ids": [
-        "spykar-gsc-keyword-universe",
         "brief-keyword-targets",
         "spykar-existing-monsoon-blogs"
       ],
-      "statement": "Light blue jeans is a high-impression, transactional term already mapped to Spykar's light blue men's collection, and no existing Spykar post targets it, which is why this article carries the primary keyword and links to both light blue collections."
+      "statement": "The assigned title and keyword set establish light blue jeans as the primary topic with separate men, women and monsoon-outfit variations."
+    },
+    {
+      "claim_id": "no-superiority-claims",
+      "claim_type": "best_top",
+      "criteria": "The article makes no unqualified best, top, leading or performance-superiority claim. Recommendations are conditional on fit, route, hem length, colour contrast and care-label instructions.",
+      "source_ids": [
+        "spykar-style-guide",
+        "spykar-brand-knowledge"
+      ],
+      "statement": "The article provides practical outfit formulas without presenting any product, fit or brand as universally superior."
     }
   ],
   "detector_notes": [
     {
-      "checked_at": "2026-07-31T13:11:38+00:00",
+      "checked_at": "2026-08-03T09:42:49+00:00",
       "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
-      "max_score": 10.0,
+      "max_score": 20.0,
       "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
-      "score": 6.0,
+      "score": 6.68,
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
     }
   ],
   "metadata": {
-    "created_at": "2026-07-31T00:00:00+00:00",
-    "max_ai_detector_score": 10.0,
+    "created_at": "2026-08-03T09:41:43+00:00",
     "required_ai_text_risk_skill": "ai-text-risk-gate",
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
@@ -100,64 +84,70 @@
   },
   "sources": [
     {
-      "extracted_facts": "Spykar blog voice is youthful, trend-aware, relatable and effortlessly stylish. Structure: keyword-led title, 80-120 word introduction, five to eight thematic sections with sentence-case headings, a dedicated styling section, subtle brand integration, optional five to six short FAQs, and an 80-120 word conclusion with a soft CTA. Keywords must be unbolded and natural. Indian English spelling, present tense, short paragraphs, sparse bullets, meta title 50-60 characters, meta description 140-160 characters.",
+      "extracted_facts": "Spykar blog voice is youthful, trend-aware, relatable and practical. Blogs use a keyword-led title, an 80\u2013120-word introduction, five to eight thematic sections, natural unbolded keywords, Indian English, short paragraphs, practical styling, subtle brand integration, optional FAQs and a soft CTA.",
       "source_id": "spykar-style-guide",
-      "source_ref": "brands/spykar/style-guide.md (source doc revision recorded 2026-07-29)",
+      "source_ref": "brands/spykar/style-guide.md (Google Doc revision recorded 2026-07-29)",
       "source_type": "human_context"
     },
     {
-      "extracted_facts": "Spykar is an India-focused, denim-led youth fashion brand positioned on 'Fit For Every You'. Copy should use fit, movement, comfort and self-expression language, name colours, fits and textures concretely, and avoid unqualified best/top claims, invented demographics and unsupported sustainability claims.",
+      "extracted_facts": "Spykar is an India-focused, denim-led youth fashion brand positioned around Fit For Every You. Copy should use concrete fit, movement and self-expression language and avoid unsupported best/top, sustainability, demographic or performance claims.",
       "source_id": "spykar-brand-knowledge",
       "source_ref": "brands/spykar/knowledge.md and brands/spykar/brand-dna.json",
       "source_type": "brand_dna"
     },
     {
-      "extracted_facts": "Live men's light blue jeans collection lists four products: Men Nico Jeans Skinny Fit Light Blue Low Rise (x2), Men Rover Jeans Regular Fit Light Blue Mid Rise, Men Kano Jeans Slim Fit Light Blue Mid Rise. Facet counts show sizes 28-40, brand fits nico/rover/kano, fabric cotton on two products, stretchable on two and non-stretchable on three. Prices and discounts are intentionally omitted from copy because they change.",
-      "source_id": "spykar-light-blue-men-collection",
-      "source_ref": "https://spykar.com/collections/light-blue-jeans-men (checked 2026-07-31; Firecrawl scrape 019fb81c-af3f-737d-bf66-346725872666, HTTP 200)",
-      "source_type": "product_page"
-    },
-    {
-      "extracted_facts": "Live women's light blue jeans collection lists Women Emma Jeans Skinny Fit Light Blue Mid Rise, fabric facet lycra, sizes 24-40. Prices and discounts are intentionally omitted from copy.",
-      "source_id": "spykar-light-blue-women-collection",
-      "source_ref": "https://spykar.com/collections/light-blue-jeans-women (checked 2026-07-31; Firecrawl scrape 019fb81c-df00-7468-830d-cff6cbc43a52, HTTP 200)",
-      "source_type": "product_page"
-    },
-    {
-      "extracted_facts": "Women Bella Jeans Straight Fit Light Blue High Rise: cotton, high rise, straight fit, light blue wash, basic five-pocket construction, hem side slits, front zip fly with metal button, stretch 'No', care instruction 'Machine Wash'. Price omitted.",
-      "source_id": "spykar-bella-straight-light-blue",
-      "source_ref": "https://spykar.com/products/wdynr2be324lightblue (checked 2026-07-31; Firecrawl scrape 019fb821-244b-71eb-bdcc-b214a4191422, HTTP 200)",
-      "source_type": "product_page"
-    },
-    {
-      "extracted_facts": "'light blue jeans' is a transactional, high-priority opportunity term mapped to https://spykar.com/collections/light-blue-jeans-men with 363 clicks and 214,315 impressions at average position 5.24. Metrics are editorial planning evidence only and are not stated in customer-facing copy.",
-      "source_id": "spykar-gsc-keyword-universe",
-      "source_ref": "brands/spykar/keywords/universe.csv and brands/spykar/keywords/keywords.csv (data through 2026-07-26)",
-      "source_type": "gsc"
-    },
-    {
-      "extracted_facts": "Assigned title 'How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas' with monthly volumes: light blue jeans 27,100; light blue jeans for women 9,900; light blue jeans for men 6,600; monsoon outfits for women 210; monsoon outfit 170; monsoon outfit ideas 110; monsoon outfits for men 90. Volumes inform prioritisation only and are not published in the copy.",
+      "extracted_facts": "Assigned title: How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas. Editorial-planning volumes supplied by the user: light blue jeans 27,100; light blue jeans for women 9,900; light blue jeans for men 6,600; monsoon outfits for women 210; monsoon outfit 170; monsoon outfit ideas 110; monsoon outfits for men 90. Volumes are not published in the article.",
       "source_id": "brief-keyword-targets",
-      "source_ref": "Content calendar row supplied by the user (image.png, July'26 website blog row 2)",
-      "source_type": "merchandiser_note"
-    },
-    {
-      "extracted_facts": "Cotton fibres are hydrophilic and absorb water; yarn and fabric construction affect how moisture wets and spreads through the fabric. Supports the qualified statement that cotton denim absorbs water and carries it along the fabric, and does not support any quick-dry or breathability promise.",
-      "source_id": "cotton-moisture-study",
-      "source_ref": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9504572/ (Materials 2022; recorded in the Spykar cotton-jeans authenticity log on 2026-07-31)",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-03",
       "source_type": "human_context"
     },
     {
-      "extracted_facts": "Widely published denim-care guidance: wash jeans inside out in cold water with a mild detergent, air-dry away from direct sunlight, and wash with separately or with similarly coloured denim because cold water and like-colour loads reduce dye bleeding. Brand names are used as evidence only and are not mentioned in the Spykar copy.",
-      "source_id": "denim-care-guidance",
-      "source_ref": "https://www.agjeans.com/pages/denim-care-guide and https://www.whirlpool.com/blog/washers-and-dryers/how-to-wash-jeans.html (checked 2026-07-31; Firecrawl search 019fb821-2928-76ec-a9ca-7e38a9b454dc)",
+      "extracted_facts": "The live men's light-blue collection returned HTTP 200 and displayed one current product card on 2026-08-03. The image alt text and visible product heading disagree about the model/fit, so the blog omits SKU-level claims and links readers to the live page for the final assortment.",
+      "source_id": "spykar-light-blue-men-collection-20260803",
+      "source_ref": "https://spykar.com/collections/light-blue-jeans-men (checked 2026-08-03; Firecrawl scrape 019fc6f9-7f5c-75cc-834d-d9687c66e37e)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The live women's light-blue collection returned HTTP 200 and displayed one current product card on 2026-08-03. The image alt text and visible product heading disagree about the model name, so the blog omits SKU-level claims and links readers to the live page for the final assortment.",
+      "source_id": "spykar-light-blue-women-collection-20260803",
+      "source_ref": "https://spykar.com/collections/light-blue-jeans-women (checked 2026-08-03; Firecrawl scrape 019fc6f9-bf80-70dc-b7b3-5e96cf9d5979)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Spykar already publishes broad monsoon guides for men, women, travel and lightweight denim. The new article takes the narrower light-blue-jeans angle and links to those guides instead of repeating their broad seasonal coverage.",
+      "source_id": "spykar-existing-monsoon-blogs",
+      "source_ref": "brands/spykar/blogs/summary.md and relevant reference files under brands/spykar/blogs/references/",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Current SERP benchmark: a long India-specific monsoon guide using quick takeaways, denim-selection criteria, nine outfit ideas, common mistakes and stepwise care. Extracted page length was approximately 3,187 words including peripheral page text.",
+      "source_id": "serp-denz-monsoon-denim",
+      "source_ref": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide (checked 2026-08-03; Firecrawl scrape 019fc6f9-25f4-7329-aea5-832a407e173a)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Current SERP benchmark: a highly visual women's styling list with 19 numbered light-blue-jeans outfits and brief occasion, proportion and footwear notes. Extracted page length was approximately 2,241 words.",
+      "source_id": "serp-shewhatwear-light-blue-jeans",
+      "source_ref": "https://shewhatwear.com/how-to-style-light-blue-jeans/ (checked 2026-08-03; Firecrawl scrape 019fc6f9-5f26-73ec-bdee-1761404bc125)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Current SERP benchmark: an editorial men's guide that explains wash, denim weight and fit before presenting 16 complete outfit formulas. Extracted page length was approximately 2,522 words.",
+      "source_id": "serp-mensflair-light-wash-jeans",
+      "source_ref": "https://mensflair.com/light-blue-jeans-outfits/ (checked 2026-08-03; Firecrawl scrape 019fc6f9-71c1-700d-8966-d964e7c95cc2)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "The user-approved structural benchmark uses a direct answer, India-specific problem framing, practical decisions, outfit guidance, care steps, a checklist and FAQs. Its wording and product claims are not copied.",
+      "source_id": "xyxx-monsoon-wardrobe-benchmark",
+      "source_ref": "https://xyxxcrew.com/blogs/article/monsoon-wardrobe-essentials-for-men-what-actually-works-in-indian-weather (reviewed 2026-08-03; evidence already logged in brands/spykar/logs/content/raw/20260803T092255Z-cotton-jeans-xyxx-rewrite-research.json)",
       "source_type": "competitor_page"
     },
     {
-      "extracted_facts": "Spykar already publishes broad monsoon guides for men, women, travel and lightweight denim. None targets light blue jeans specifically, so this article takes the light-wash angle and links to the existing guides instead of repeating them.",
-      "source_id": "spykar-existing-monsoon-blogs",
-      "source_ref": "brands/spykar/blogs/summary.md plus live posts monsoon-fashion-for-women, stylish-monsoon-outfits-for-men, monsoon-travel-style-guide and fashion-lightweight-denim-styles-summer-monsoon (verified live 2026-07-31; Firecrawl search 019fb820-07fe-74e1-8f9a-2db1560b654a)",
-      "source_type": "human_context"
+      "extracted_facts": "General denim-care guidance supports following the garment label, washing jeans inside out in cold water with mild detergent, washing with similar colours and air-drying. Brand names are not used in customer-facing copy.",
+      "source_id": "denim-care-guidance",
+      "source_ref": "https://www.agjeans.com/pages/denim-care-guide and https://www.whirlpool.com/blog/washers-and-dryers/how-to-wash-jeans.html (reviewed 2026-07-31)",
+      "source_type": "competitor_page"
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "run_id": "spykar-light-blue-jeans-monsoon-creative-20260803",
+  "timestamp": "2026-08-03T09:44:16Z",
+  "brand_id": "spykar",
+  "action": "generate_blog_hero_creative",
+  "provider": "openai_image_generation",
+  "use_case": "ads-marketing",
+  "blog_title": "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas",
+  "headline": "LIGHT BLUE. MONSOON READY.",
+  "reference_creatives": [
+    {
+      "url": "https://spykar.com/cdn/shop/articles/best-lightweight-denim-styles-summer-to-monsoon-weather-spykar_jpg_0ebea746-9e87-4611-b9de-5a5f9423e921.jpg?v=1782222067&width=1024",
+      "role": "visual-language reference only"
+    },
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Blog_1_-_mens-trending-jeans_jpg_5dfecbdd-162a-4cf2-96a6-476e5958bc60.jpg?v=1780310703&width=1024",
+      "role": "visual-language reference only"
+    },
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Straight-Fit_and_Slim-Fit_Jeans_for_Women_by_Spykar_4d135070-99cf-4de6-b328-f7aa654ec387.jpg?v=1782719031&width=1024",
+      "role": "visual-language reference only"
+    }
+  ],
+  "prompt_summary": "Original 4:3 photorealistic Spykar-style blog banner showing one young Indian man and one young Indian woman in light-blue denim on a sheltered wet urban walkway after rain. Bold white headline with deep-indigo block and restrained red underline.",
+  "outputs": [
+    {
+      "path": "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero-master.png",
+      "role": "full-resolution master",
+      "dimensions": "1448x1086"
+    },
+    {
+      "path": "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero.jpg",
+      "role": "web-ready blog creative",
+      "dimensions": "800x600"
+    }
+  ],
+  "verification": {
+    "headline_spelling": "pass",
+    "aspect_ratio": "pass",
+    "men_and_women_represented": "pass",
+    "light_blue_denim_visible": "pass",
+    "monsoon_context": "pass",
+    "original_scene_and_models": "pass",
+    "visual_review": "pass"
+  },
+  "status": "ok",
+  "credentials_logged": false
+}
