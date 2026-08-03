@@ -1,0 +1,115 @@
+{
+  "claims": [
+    {
+      "claim": "Spykar is an Indian denim-led fashion brand for men and women, with fit and self-expression central to its positioning.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "spykar_brand_context"
+      ]
+    },
+    {
+      "claim": "Spykar's current denim assortment includes straight, regular, slim, skinny, comfort, mom and bootcut options across men's and women's collections.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "spykar_mens_jeans",
+        "spykar_womens_jeans"
+      ]
+    },
+    {
+      "claim": "Existing Spykar monsoon guidance favours breathable tops, relaxed silhouettes, darker colours and adaptable light layers for humid, changeable weather.",
+      "claim_type": "brand_context",
+      "source_ids": [
+        "spykar_monsoon_editorial"
+      ]
+    },
+    {
+      "claim": "Relevant organic blog results commonly use a direct campus hook, numbered outfit formulas, practical context and short FAQs.",
+      "claim_type": "serp_benchmark",
+      "source_ids": [
+        "serp_commonground",
+        "serp_motherland",
+        "serp_tatacliq"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-03T11:30:40+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T11:38:58+00:00",
+      "max_score": 20.0,
+      "note": "Direct ZeroGPT website check of the publishable article body after source-backed editorial revision. Metadata and Markdown control syntax were excluded from the detector input.",
+      "score": 6.6,
+      "source": "zerogpt_website",
+      "status": "pass",
+      "tool": "ZeroGPT"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-03T11:27:34+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "target": "back-to-college-monsoon-denim-outfits-men-women"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an Indian homegrown, denim-led fashion brand. Its blog voice is youthful, practical, fit-led and grounded in everyday Indian settings. Copy should use Indian English, natural keywords, short sections and subtle brand integration.",
+      "source_id": "spykar_brand_context",
+      "source_ref": "brands/spykar/brand-dna.json; brands/spykar/knowledge.md; brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "The live collection shows men's jeans in regular, slim, skinny, comfort and super-slim fits, including blue, dark-blue and black washes and varying rises.",
+      "source_id": "spykar_mens_jeans",
+      "source_ref": "https://spykar.com/collections/men-jeans",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The live collection shows women's straight, bootcut, mom, slim, skinny and super-skinny jeans in blue, dark-blue and black washes and varying rises.",
+      "source_id": "spykar_womens_jeans",
+      "source_ref": "https://spykar.com/collections/women-jeans",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Existing Spykar monsoon posts recommend breathable or lightweight tops, relaxed silhouettes, darker colours and light layers. They caution that heavy fabrics can become uncomfortable when wet.",
+      "source_id": "spykar_monsoon_editorial",
+      "source_ref": "brands/spykar/blogs/references/monsoon-travel-style-guide.md; brands/spykar/blogs/references/monsoon-fashion-for-women.md; brands/spykar/blogs/references/stylish-monsoon-outfits-for-men.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Accessed 2026-08-03. Conversational and assertive tone; approximately 1,500-1,900 words. Structure: campus context, separate men's and women's outfit formulas, mistakes, budget section and FAQs.",
+      "source_id": "serp_commonground",
+      "source_ref": "https://common-ground.in/blogs/style-guide/best-college-outfits-india-2026",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Accessed 2026-08-03. Punchy, weather-first tone; approximately 900-1,200 words. Structure: monsoon problem, fabric rule, numbered outfit ideas and product integrations.",
+      "source_id": "serp_motherland",
+      "source_ref": "https://motherlandsuperstore.com/blogs/articles/monsoon-college-outfit-guide-cricket-streetwear",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Accessed 2026-08-03. Bright, concise listicle tone; approximately 1,000-1,300 words. Structure: short campus hook, ten formula-led looks, one-line styling tips and linked shopping examples.",
+      "source_id": "serp_tatacliq",
+      "source_ref": "https://blog.tatacliq.com/blog/2025/08/12/college-outfit-ideas-10-cool-looks-to-own-the-campus-hallway/",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Requested title: Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women. Target phrases: college outfits with jeans, college outfits for men, college outfits for women, monsoon outfits, denim outfits for men and denim outfits for women.",
+      "source_id": "user_keyword_brief",
+      "source_ref": "User brief in Codex task dated 2026-08-03",
+      "source_type": "human_context"
+    }
+  ]
+}

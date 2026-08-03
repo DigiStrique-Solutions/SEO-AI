@@ -1,0 +1,13 @@
+{
+  "run_id": "spykar-back-to-college-monsoon-zerogpt-web-20260803",
+  "checked_at": "2026-08-03T11:38:58Z",
+  "url": "https://www.zerogpt.com/",
+  "input_scope": "Article title and publishable body copy only; repository frontmatter and Markdown heading markers excluded.",
+  "result_text": "Your Text is Human written",
+  "ai_gpt_percentage": 6.6,
+  "threshold": "strictly below 20%",
+  "status": "pass",
+  "evidence_method": "Direct browser interaction and DOM readback",
+  "draft_ref": "brands/spykar/blogs/drafts/back-to-college-monsoon-denim-outfits-men-women-working.md",
+  "editorial_note": "ZeroGPT is treated as a weak editorial risk signal, not proof of authorship."
+}

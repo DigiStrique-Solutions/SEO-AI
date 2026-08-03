@@ -1,0 +1,48 @@
+{
+  "run_id": "spykar-back-to-college-monsoon-banner-20260803",
+  "generated_at": "2026-08-03T11:48:12Z",
+  "tool": "OpenAI built-in image generation",
+  "mode": "reference-guided generation",
+  "use_case": "ads-marketing",
+  "headline": "BACK ON CAMPUS. RAIN READY.",
+  "concept": "Adult editorial campus walk immediately after rain, with two Indian college students wearing garments derived from verified Spykar catalogue references.",
+  "product_references": [
+    {
+      "product_url": "https://spykar.com/collections/all-shirts/products/mshps2be265airforceblue",
+      "garment": "men's white shirt with blue and maroon print"
+    },
+    {
+      "product_url": "https://spykar.com/collections/all-shirts/products/wshps2bd259digitallavender",
+      "garment": "women's white shirt with lavender vertical stripes"
+    },
+    {
+      "product_url": "https://spykar.com/products/mdact1be320darkblue",
+      "garment": "men's dark-indigo cargo jeans"
+    },
+    {
+      "product_url": "https://spykar.com/products/wdnynr2bc204darkblue",
+      "garment": "women's dark-blue straight or bootcut jeans"
+    }
+  ],
+  "source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-a42ceba8-6ae0-4e41-a802-e22d6024aae1.png",
+  "master": {
+    "path": "brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-master.png",
+    "dimensions": "1448x1086",
+    "format": "PNG"
+  },
+  "web": {
+    "path": "brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero.jpg",
+    "dimensions": "800x600",
+    "format": "JPEG"
+  },
+  "visual_qa": {
+    "topic_relevance": "pass - adult college setting, wet campus surfaces and denim outfits are immediately clear",
+    "product_reference": "pass - shirts and jeans derive from four logged Spykar catalogue references",
+    "headline": "pass - exact wording, correct punctuation and strong contrast",
+    "people_and_garments": "pass - plausible adult faces, hands, limbs, walking posture, seams and fabric folds",
+    "brand_safety": "pass - no third-party logos, prices, promotional claims, school-uniform cues or watermark",
+    "distinctiveness": "pass - candid covered-campus corridor differs from recent flat-lay, metro, outdoor commute and studio concepts",
+    "crop": "pass - 800x600 export preserves both outfits and the full headline"
+  },
+  "disclosure": "AI-composited editorial banner derived from verified Spykar catalogue references; not a pixel-exact catalogue photograph."
+}

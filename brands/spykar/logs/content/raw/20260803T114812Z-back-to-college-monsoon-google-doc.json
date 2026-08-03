@@ -1,0 +1,18 @@
+{
+  "run_id": "spykar-back-to-college-monsoon-google-doc-20260803",
+  "created_at": "2026-08-03T11:48:12Z",
+  "provider": "google_drive",
+  "document_id": "1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g",
+  "document_url": "https://docs.google.com/document/d/1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g/edit",
+  "tab_id": "t.0",
+  "final_revision_id": "AIroW37tysaya7R2jml3TBoVBfrPCACR6jRsnNs5ZXpmNJ_V9z5qVtIHSl3Mlj6mms1dm1CvvORd7G8bzavTVtPHgYmsHSBvf5UgAnrC3s8",
+  "verification": {
+    "native_google_doc": "pass",
+    "title_and_headings": "pass - TITLE, SUBTITLE, HEADING_1 and HEADING_2 styles visible in connector readback",
+    "article_content": "pass - full article and FAQs present in order",
+    "lists": "pass - three-item denim rotation uses native bullets",
+    "links": "pass - six reference labels have connector-visible hyperlinks",
+    "encoding": "pass - em dash replacement verified through exact text-range readback",
+    "placeholders": "pass - no pending creative fields or placeholder copy in the document"
+  }
+}

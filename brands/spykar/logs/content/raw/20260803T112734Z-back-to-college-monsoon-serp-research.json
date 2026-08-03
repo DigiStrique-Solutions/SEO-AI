@@ -1,0 +1,42 @@
+{
+  "run_id": "spykar-back-to-college-monsoon-serp-20260803",
+  "accessed_at": "2026-08-03",
+  "query": "Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women",
+  "results": [
+    {
+      "position_in_review_set": 1,
+      "title": "Best College Outfits for Men and Women India 2026: Streetwear That Works on Campus",
+      "url": "https://common-ground.in/blogs/style-guide/best-college-outfits-india-2026",
+      "tone": "Conversational, confident and campus-specific, with direct opinions about fit and practicality.",
+      "estimated_content_length": "1,500-1,900 words",
+      "structure": "Context-setting introduction; campus rules; separate men's and women's look lists; common mistakes; budget guidance; FAQs."
+    },
+    {
+      "position_in_review_set": 2,
+      "title": "Back-to-College Outfit Ideas for Indian Students This Monsoon",
+      "url": "https://motherlandsuperstore.com/blogs/articles/monsoon-college-outfit-guide-cricket-streetwear",
+      "tone": "Punchy and weather-first, using short sentences and familiar campus problems.",
+      "estimated_content_length": "900-1,200 words",
+      "structure": "Monsoon challenge; fabric guidance; numbered outfit ideas; frequent product callouts."
+    },
+    {
+      "position_in_review_set": 3,
+      "title": "College Outfit Ideas: 10 Cool Looks to Own the Campus Hallway",
+      "url": "https://blog.tatacliq.com/blog/2025/08/12/college-outfit-ideas-10-cool-looks-to-own-the-campus-hallway/",
+      "tone": "Bright, concise and shopping-led.",
+      "estimated_content_length": "1,000-1,300 words",
+      "structure": "Brief campus hook; ten outfit formulas; short style tips; product modules."
+    }
+  ],
+  "combined_benchmark": {
+    "tone": "Direct, practical and conversational, but with Spykar's fit-led denim voice rather than competitor slang or unqualified claims.",
+    "target_depth": "1,300-1,600 words including FAQs.",
+    "recommended_flow": "Seasonal campus hook; why monsoon changes the formula; eight clearly numbered looks; small rotation and rain-care sections; concise FAQs; soft Spykar CTA.",
+    "originality_guardrail": "Use the common listicle conventions only. Do not reproduce competitor wording, product modules, gender split or section order verbatim."
+  },
+  "first_party_product_sources": [
+    "https://spykar.com/collections/men-jeans",
+    "https://spykar.com/collections/women-jeans",
+    "https://spykar.com/collections/all-t-shirts"
+  ]
+}
