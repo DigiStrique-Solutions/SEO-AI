@@ -1,0 +1,60 @@
+{
+  "ts": "2026-08-03T12:58:40Z",
+  "run_id": "spykar-six-blog-drive-folder-20260803",
+  "brand_id": "spykar",
+  "provider": "google_drive",
+  "action": "compile_blog_documents_in_drive_folder",
+  "folder": {
+    "id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "name": "Spykar Monsoon Blogs — July & August 2026",
+    "url": "https://drive.google.com/drive/folders/1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "parent_id": "0AKeY05d7agUGUk9PVA"
+  },
+  "documents": [
+    {
+      "title": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+      "folder_document_id": "1Nf_sdQ9l6KUZKemXQ0EpYPsb0hJ9rvAqg3zcpiOcSzo",
+      "folder_document_url": "https://docs.google.com/document/d/1Nf_sdQ9l6KUZKemXQ0EpYPsb0hJ9rvAqg3zcpiOcSzo/edit?usp=drivesdk",
+      "source_document_id": "1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+      "operation": "copied",
+      "reason": "The source document's parent was not exposed by Drive metadata and add-only parenting was rejected; copying preserved the source location and access without guessing a parent to remove.",
+      "verification": {
+        "title_readback": true,
+        "body_readback": true,
+        "native_inline_images": 3,
+        "banner_alt_text_present": true
+      }
+    },
+    {
+      "title": "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas",
+      "folder_document_id": "16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM",
+      "operation": "moved"
+    },
+    {
+      "title": "Why Ankle-Length Jeans Work for Rainy-Day Commutes, and How to Style Them",
+      "folder_document_id": "1wigNa-DyJqNgn7qIbQg_rDl6nfyZfP8ST7ECgzzw6Ds",
+      "operation": "moved"
+    },
+    {
+      "title": "Black Jeans for Men in the Monsoon: 8 Smart-Casual Rainy-Day Looks",
+      "folder_document_id": "1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs",
+      "operation": "moved"
+    },
+    {
+      "title": "How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women",
+      "folder_document_id": "1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M",
+      "operation": "moved"
+    },
+    {
+      "title": "Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women",
+      "folder_document_id": "1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g",
+      "operation": "moved"
+    }
+  ],
+  "verification": {
+    "folder_item_count": 6,
+    "expected_item_count": 6,
+    "all_expected_documents_present": true
+  },
+  "status": "ok"
+}
