@@ -187,6 +187,44 @@ Core thought: **Fashion should feel effortless, personal and expressive.**
 - Include keywords naturally.
 - Write to encourage relevant clicks.
 
+## Blog banner (mandatory)
+
+Every Spykar blog must include a purpose-built blog banner. Banner creation is a required production step after the article copy is final enough for the central idea, audience and headline to be clear.
+
+### Creative direction
+
+- Build the visual around the blog's main benefit, setting or styling idea; do not use an unrelated generic fashion photograph.
+- Keep every banner visually distinct from recent Spykar blog creatives. Do not repeat the same scene, model arrangement, pose, collage treatment, headline block or dominant composition across consecutive blogs.
+- Use Spykar's youthful denim-led visual language. Navy, white, denim blue and restrained red accents are preferred, but the layout and art direction should change with the topic.
+- Show the relevant garment, fit or styling detail clearly. When the article covers men and women, represent both where the composition supports it without forcing a duplicated side-by-side pose.
+- Keep Indian urban, seasonal and lifestyle context grounded in the article when relevant.
+
+### Banner copy and layout
+
+- Use one short, campaign-style headline derived from the article, usually two to seven words.
+- Render headline text exactly as approved. Check spelling, punctuation and word order character by character.
+- Keep headline contrast strong and preserve safe margins for web and mobile cropping.
+- Do not add product prices, discount language, unsupported performance claims, third-party branding, watermarks or a Spykar logo unless an approved logo asset is supplied.
+
+### File requirements
+
+- Produce a 4:3 landscape master PNG and an optimised 800 x 600 web-ready JPG.
+- Save both under `brands/spykar/blogs/creatives/` with the blog slug or a clearly matching descriptive filename.
+- Link the final creative paths in the blog draft metadata and record generation provenance under `brands/spykar/logs/content/`.
+
+### Visual QA
+
+Inspect the final master and web JPG before submission. Confirm:
+
+- The garment and topic-defining detail are immediately visible.
+- People, limbs, hands, feet, clothing construction and fabric folds are plausible.
+- The headline is exact, legible and inside safe margins.
+- No third-party logos, watermarks, accidental text or unsupported claims appear.
+- The banner is meaningfully different from recent Spykar banners.
+- The 800 x 600 export remains sharp and readable.
+
+Do not mark a blog package complete until the blog document, master banner, web-ready banner and banner QA record are all present. If image generation is blocked, report the blog package as partial and state the blocker.
+
 ## Workflow and review
 
 ### Drafting
@@ -211,4 +249,5 @@ Core thought: **Fashion should feel effortless, personal and expressive.**
 
 ### Submission
 
-- Submit clean, formatted, ready-to-publish content.
+- Submit clean, formatted content together with its required master and web-ready blog banner.
+- Confirm the banner has passed text, relevance, anatomy, brand-safety, crop and visual-distinction checks.

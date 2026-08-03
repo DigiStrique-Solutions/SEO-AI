@@ -20,5 +20,6 @@ Read this first for any task about Spykar, then load only the files the task nee
 - Treat Spykar as an India-focused, Shopify-based denim and casualwear ecommerce brand.
 - Preserve its youthful, bold, fit-led language; ground sustainability and scale claims in the About Us page.
 - For every blog, follow `style-guide.md`: Indian English, natural unbolded keywords, scannable lifestyle-led structure, practical styling guidance and soft brand integration.
+- For every blog, generate and visually verify a unique topic-led banner after drafting. Deliver a 4:3 master PNG plus an 800 x 600 JPG, link both in the draft metadata and log the generation evidence; the package remains partial if this step is missing or blocked.
 - Do not assume GSC, analytics, revenue, customer demographics, or conversion data is connected until access is verified.
 - Current onboarding evidence comes from the public site, rendered browser checks, public competitor pages, and approved SEO tools.

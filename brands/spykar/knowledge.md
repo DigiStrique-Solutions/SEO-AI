@@ -45,6 +45,7 @@ Avoid:
 - Target meta titles at 50–60 characters and meta descriptions at 140–160 characters.
 - Use a digital-first, mobile-friendly layout with clear section breaks, short paragraphs and sparse bullet lists.
 - Final review must check structure, voice, natural keyword use, clarity, flow, introduction, conclusion and publish-ready formatting.
+- Every blog package must include a unique, topic-led 4:3 banner, delivered as a master PNG and an optimised 800 x 600 JPG. Follow the creative-direction, file and visual-QA requirements in `style-guide.md`; a blog is incomplete if its banner or QA record is missing.
 
 ## Brand values supported by the site
 

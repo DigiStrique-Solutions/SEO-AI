@@ -1,0 +1,39 @@
+{
+  "run_id": "spykar-ankle-length-jeans-blog-banner-20260803",
+  "created_at": "2026-08-03T10:24:25Z",
+  "brand_id": "spykar",
+  "target": "why-ankle-length-jeans-rainy-day-commutes",
+  "provider": "openai_image_generation",
+  "mode": "built_in_imagegen",
+  "use_case": "ads-marketing",
+  "headline": "ANKLE-LENGTH. RAIN-READY.",
+  "concept": "Low-angle Indian metro-platform monsoon commute scene focused on ankle-length hems and rain-ready footwear, with a navy headline panel and red divider.",
+  "distinct_from_recent_creatives": {
+    "cotton_jeans_banner": "Uses a metro platform and cropped lower-body framing instead of two full-body men walking on an outdoor pavement with a dark left overlay.",
+    "light_blue_jeans_banner": "Uses one continuous cinematic photograph instead of torn-paper collage panels, a translucent numeral and multiple inset frames."
+  },
+  "outputs": [
+    {
+      "path": "brands/spykar/blogs/creatives/ankle-length-jeans-rainy-commute-hero-master.png",
+      "format": "PNG",
+      "dimensions": "1448x1086"
+    },
+    {
+      "path": "brands/spykar/blogs/creatives/ankle-length-jeans-rainy-commute-hero.jpg",
+      "format": "JPEG",
+      "dimensions": "800x600"
+    }
+  ],
+  "visual_qa": {
+    "topic_relevance": "pass",
+    "ankle_hems_visible": "pass",
+    "footwear_visible": "pass",
+    "headline_exact": "pass",
+    "headline_legible_at_800x600": "pass",
+    "safe_margins": "pass",
+    "anatomy_and_garment_plausibility": "pass",
+    "no_third_party_branding_or_watermark": "pass",
+    "visual_distinction": "pass"
+  },
+  "status": "ok"
+}

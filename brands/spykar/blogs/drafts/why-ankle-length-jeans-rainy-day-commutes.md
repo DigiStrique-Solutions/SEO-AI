@@ -13,6 +13,8 @@ secondary_keywords:
   - monsoon outfits for women
 meta_title: "Ankle-Length Jeans for Rainy-Day Commutes | Spykar"
 meta_description: "See why ankle-length jeans suit rainy-day commutes and get practical outfit ideas for men and women, from office shirts to relaxed layers."
+creative_master: "brands/spykar/blogs/creatives/ankle-length-jeans-rainy-commute-hero-master.png"
+creative_web: "brands/spykar/blogs/creatives/ankle-length-jeans-rainy-commute-hero.jpg"
 ---
 
 # Why Ankle-Length Jeans Work for Rainy-Day Commutes, and How to Style Them
