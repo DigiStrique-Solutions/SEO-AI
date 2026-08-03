@@ -1,0 +1,38 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-banner-v3-20260803",
+  "generated_at": "2026-08-03T11:25:33Z",
+  "tool": "OpenAI built-in image generation",
+  "mode": "two-stage precise-object-edit",
+  "use_case": "ads-marketing",
+  "user_correction": "Return to the earlier premium flat-lay and insert the verified Spykar products without the playful contact-sheet treatment.",
+  "headline": "8 LOOKS. ONE EASY FORMULA.",
+  "composition_reference": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-master.png",
+  "product_references": [
+    "https://spykar.com/collections/all-shirts/products/mshps2be265airforceblue",
+    "https://spykar.com/collections/all-shirts/products/wshps2bd259digitallavender",
+    "https://spykar.com/collections/all-shirts/products/mshcs1be166botanicalgreen",
+    "https://spykar.com/products/mdact1be320darkblue",
+    "https://spykar.com/products/wdnynr2bc204darkblue"
+  ],
+  "intermediate_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-b58808c4-66bc-4f8d-a463-b3f3106bb6f1.png",
+  "final_source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-dc253b7c-db1a-43cb-9f64-e2cbdbc2aa91.png",
+  "master": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v3-master.png",
+    "dimensions": "1448x1086",
+    "format": "PNG"
+  },
+  "web": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v3.jpg",
+    "dimensions": "800x600",
+    "format": "JPEG"
+  },
+  "visual_qa": {
+    "original_direction": "pass - restores the dark navy, spacious photoreal overhead flat-lay and central cream headline card",
+    "adult_brand_tone": "pass - premium apparel photography with no playful graphics, mini-outfit row or childlike treatment",
+    "catalogue_reference": "pass - all visible garments derive from the five logged Spykar references; shirts repeat to retain the original circular balance",
+    "headline": "pass - exact wording remains legible at master and 800x600 sizes",
+    "brand_safety": "pass - no people, shoes, external accessories, prices, promotional claims, watermarks or third-party branding",
+    "crop": "pass - web export preserves the full composition and product hierarchy"
+  },
+  "disclosure": "AI-composited editorial banner derived from verified Spykar catalogue references; not a pixel-exact catalogue photograph."
+}
