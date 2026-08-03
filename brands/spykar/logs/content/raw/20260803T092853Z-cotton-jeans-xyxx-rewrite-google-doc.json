@@ -1,0 +1,35 @@
+{
+  "run_id": "spykar-cotton-jeans-xyxx-rewrite-google-doc-20260803",
+  "timestamp": "2026-08-03T09:28:53Z",
+  "brand_id": "spykar",
+  "action": "replace_and_verify_native_google_doc",
+  "source": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md",
+  "destination": {
+    "document_id": "1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+    "document_url": "https://docs.google.com/document/d/1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E/edit",
+    "title": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+    "tab_id": "t.0",
+    "tab_title": "Tab 1",
+    "final_revision_id": "AIroW37_QvPE_2vy8xMrWsNE4HI6orTo9hdDJNxnEBkrtQUrEc6vkOScd0VuP976DW89l_aa9-i1W6trUtstveY_hX7OKQUybFxusPH2iZI"
+  },
+  "verification": {
+    "title_paragraphs": 1,
+    "heading_1_paragraphs": 9,
+    "heading_2_paragraphs": 22,
+    "normal_text_paragraphs": 54,
+    "native_list_paragraphs": 15,
+    "native_hyperlinks": 2,
+    "markdown_heading_markers_present": false,
+    "markdown_link_syntax_present": false,
+    "typed_bullet_markers_present": false,
+    "previous_intro_present": false,
+    "requested_keyword_phrases_present": true
+  },
+  "notes": [
+    "The existing one-tab Google Doc was updated in place.",
+    "The initial connector write attempt was rejected atomically because the local draft read returned an empty payload; no document mutation occurred in that attempt.",
+    "A fresh revision was read before the successful replacement and formatting batches.",
+    "Full connector readback verified destination identity, section hierarchy, native lists, internal links and removal of the previous article body.",
+    "The trusted-read bridge could not be executed because its required exec_command/write_stdin runtime is not exposed in this session; a full connector document read and direct protected-control scan found no controls in the editable body."
+  ]
+}

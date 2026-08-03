@@ -1,0 +1,98 @@
+{
+  "run_id": "spykar-cotton-jeans-xyxx-rewrite-20260803",
+  "brand_id": "spykar",
+  "action": "competitor_and_serp_benchmark_for_blog_rewrite",
+  "accessed_at": "2026-08-03T09:22:55Z",
+  "target_blog": "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather",
+  "user_supplied_benchmark": {
+    "url": "https://xyxxcrew.com/blogs/article/monsoon-wardrobe-essentials-for-men-what-actually-works-in-indian-weather",
+    "title": "Monsoon Wardrobe Essentials for Men: What Actually Works in Indian Weather",
+    "published_date": "2026-07-31",
+    "author": "XYXX Apparels Private Limited",
+    "approximate_word_count": 1860,
+    "scrape_id": "019fc6eb-d1c2-702f-8e43-fead00f14d4f",
+    "tone": "Direct, practical and explanatory, with simple language and India-specific weather problems.",
+    "opening_strategy": "Answers the core question immediately, then names humidity, wet clothes, muddy commutes and sudden weather changes before previewing the guide.",
+    "structure": [
+      "Why monsoon dressing is different",
+      "Build the wardrobe from the inside out",
+      "Choose suitable fabrics",
+      "Fabrics to avoid",
+      "Everyday clothing categories",
+      "Footwear and accessories",
+      "Simple checklist",
+      "Conclusion and FAQs"
+    ],
+    "editorial_mechanics_adopted": [
+      "Direct answer near the top",
+      "Numbered problem diagnosis",
+      "Clear works-versus-skip decisions",
+      "Real-life clothing choices",
+      "Checklist and intent-matched FAQs",
+      "Contextual internal links and restrained product integration"
+    ],
+    "elements_not_carried_over": [
+      "Original wording or distinctive phrasing",
+      "XYXX product names and fabric-technology claims",
+      "Blanket recommendation to replace jeans",
+      "Repetitive or unsupported performance language"
+    ],
+    "ranking_claim": {
+      "reported_by": "user",
+      "claim": "ranked within three days of publication",
+      "verification_status": "not_independently_verified",
+      "usage": "context only; omitted from customer-facing copy and performance claims"
+    }
+  },
+  "live_serp_query": "cotton jeans for men humid monsoon",
+  "relevant_organic_results_reviewed": [
+    {
+      "url": "https://zoutons.com/news/what-to-wear-indian-monsoon-2026-hm-guide",
+      "title": "What to Wear in Indian Monsoon 2026: H&M Guide",
+      "tone": "Informative and decision-led",
+      "structure": "Monsoon problem, fabrics, colours, footwear and outfit ideas",
+      "relevant_elements": ["cotton denim", "breathable fabrics", "men's outfit ideas", "rainy-season styling"]
+    },
+    {
+      "url": "https://www.denzlabel.com/blogs/upcycle-denim/monsoon-denim-styling-guide",
+      "title": "Monsoon Denim Styling Guide—How to Wear Denim in Rainy Season",
+      "body_word_count": 2481,
+      "scrape_id": "019fc6ed-82c6-700d-af73-c844113405fe",
+      "tone": "Detailed and practical",
+      "structure": "Wearability, denim construction, outfit ideas, buying factors, mistakes, care and conclusion",
+      "relevant_elements": ["denim density", "fit", "dark washes", "care", "monsoon outfit ideas"]
+    },
+    {
+      "url": "https://thebearhouse.com/blogs/blog/monsoon-outfit-guide-for-men-in-india-style-through-the-rains",
+      "title": "Monsoon Outfit Guide for Men in India: Style Through the Rains",
+      "approximate_body_word_count": 2610,
+      "scrape_id": "019fc6ed-7f13-74de-8bf7-a143dbe68592",
+      "tone": "Advisory and India-specific",
+      "structure": "Problem diagnosis, fabrics, colours, footwear, six outfits, care, city notes and FAQs",
+      "relevant_elements": ["fit and fabric decisions", "dark colours", "occasion formulas", "wet-clothing care"]
+    }
+  ],
+  "rewrite_benchmark": {
+    "target_depth": "Approximately 1,800–2,000 words for a focused cotton-denim guide",
+    "tone": "Direct, useful and conversational, preserving Spykar's youthful fit-led voice",
+    "flow": "Quick answer, four monsoon problems, fabric-and-fit selection, works-versus-skip guidance, occasion styling, care routine, buying checklist, conclusion and FAQs",
+    "originality_rule": "Adopt search-intent coverage and information architecture only; preserve original wording, Spykar facts and Spykar-specific internal links."
+  },
+  "content_seo_assessment": {
+    "audit_ref": "audit-library/content-seo.json",
+    "target": "brands/spykar/blogs/drafts/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather.md",
+    "score": 0.8571,
+    "counts": {"items": 7, "pass": 6, "fail": 1, "not_applicable": 0},
+    "rows": [
+      {"item_id":"page-purpose","status":"pass","result":"The draft has one dominant purpose: help Indian men decide whether and how to wear cotton jeans in humid monsoon weather.","next_action":"","evidence_ref":"draft#title-introduction"},
+      {"item_id":"intent-match","status":"pass","result":"The guide matches the mixed informational-commercial intent visible in relevant organic results: direct answer, fabric and fit decisions, styling, care, buying checklist and FAQs.","next_action":"","evidence_ref":"raw/20260803T092255Z-cotton-jeans-xyxx-rewrite-research.json#live_serp_query"},
+      {"item_id":"content-depth","status":"pass","result":"The approximately 1,900-word draft covers monsoon problems, construction, regular/relaxed/slim fits, works-versus-skip guidance, three outfits, washing, drying, buying checks and six FAQs.","next_action":"","evidence_ref":"draft#body"},
+      {"item_id":"keyword-coverage","status":"pass","result":"The primary phrase appears in the title, H1, introduction and an H2. All five secondary phrases appear naturally without bold formatting or stuffing.","next_action":"","evidence_ref":"draft#frontmatter-and-body"},
+      {"item_id":"freshness","status":"pass","result":"The rewrite was benchmarked against live organic results and a user-supplied article published 2026-07-31, with access recorded on 2026-08-03.","next_action":"Review product and internal-link availability before publication if the CMS upload is delayed.","evidence_ref":"raw/20260803T092255Z-cotton-jeans-xyxx-rewrite-research.json"},
+      {"item_id":"author-eeat","status":"fail","result":"The draft is source-backed internally but the customer-facing copy does not yet display a named author, expert reviewer or visible source note.","next_action":"Add an accurate CMS author or reviewer byline; do not invent credentials.","evidence_ref":"draft#body"},
+      {"item_id":"internal-links","status":"pass","result":"The draft contains two contextual Spykar links: the men's monsoon guide and men's jeans collection.","next_action":"","evidence_ref":"draft#internal-links"}
+    ],
+    "structured_data_opportunity": "Use BlogPosting/Article markup for the page and FAQPage markup only if the six visible FAQs remain in the published article; validate through the structured-data audit."
+  },
+  "status": "ok"
+}

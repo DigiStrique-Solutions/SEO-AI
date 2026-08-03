@@ -114,6 +114,16 @@
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-03T09:24:17+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
     }
   ],
   "metadata": {
@@ -210,6 +220,24 @@
       "extracted_facts": "Live organic benchmark result. Approximately 2,200 words with a comprehensive, practical India-first tone. Flow: monsoon conditions, fabric comparison, five occasion-led outfit formulas, colours, footwear, garment freshness, mistakes, FAQs and conclusion. The Spykar draft follows the strong occasion-led and care-led intent while remaining denim-specific and brand-voice aligned.",
       "source_id": "serp-otoko-monsoon-outfits",
       "source_ref": "https://www.otokostyle.com/blogs/news/monsoon-outfits-for-men-rainy-season-style-guide-india (accessed 2026-08-03; live organic result; Firecrawl structured extraction)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "User-supplied editorial benchmark published 2026-07-31. Approximately 1,860 words. It uses a direct answer, India-specific monsoon problems, numbered subsections, suitable-versus-unsuitable fabric decisions, practical wardrobe categories, a checklist, internal links, product integration and concise FAQs. The user-reported claim that it ranked within three days was not independently verified and is not repeated as fact. Only its high-level editorial mechanics inform the Spykar rewrite; no wording or XYXX-specific product claims are carried over.",
+      "source_id": "xyxx-monsoon-wardrobe-benchmark",
+      "source_ref": "https://xyxxcrew.com/blogs/article/monsoon-wardrobe-essentials-for-men-what-actually-works-in-indian-weather (accessed 2026-08-03; Firecrawl scrape 019fc6eb-d1c2-702f-8e43-fead00f14d4f)",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": "Current relevant organic result uses a problem-first opening and sections on monsoon fabrics, colours, footwear and outfit ideas. It explicitly treats cotton denim as conditional on construction and movement rather than universally monsoon-friendly. Pricing and promotional claims are excluded from the Spykar article.",
+      "source_id": "serp-zoutons-indian-monsoon-guide",
+      "source_ref": "https://zoutons.com/news/what-to-wear-indian-monsoon-2026-hm-guide (accessed 2026-08-03; live organic result)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Current relevant organic result uses an India-specific problem-solution structure, fabric and colour decisions, six occasion-led outfits, wet-clothing care, city notes and FAQs. The Spykar rewrite borrows only the utility and occasion-led coverage pattern, not its wording or unsupported material-performance claims.",
+      "source_id": "serp-bear-house-monsoon-guide",
+      "source_ref": "https://thebearhouse.com/blogs/blog/monsoon-outfit-guide-for-men-in-india-style-through-the-rains (accessed 2026-08-03; Firecrawl scrape 019fc6ed-7f13-74de-8bf7-a143dbe68592)",
       "source_type": "serp"
     }
   ]
