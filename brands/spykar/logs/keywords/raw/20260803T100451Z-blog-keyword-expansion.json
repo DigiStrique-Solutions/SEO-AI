@@ -1,0 +1,64 @@
+{
+  "run_id": "spykar-keywords-20260803T100451Z",
+  "accessed_at": "2026-08-03T10:04:51Z",
+  "target_country": "India",
+  "spreadsheet_id": "1eCgqKw_vGec2llchEGXTzsRJbtuBrGxLrC4vKcLpiM0",
+  "sheet": "Spykar",
+  "requested_topics": [
+    "Why Ankle-Length Jeans Work for Rainy-Day Commutes, and How to Style Them",
+    "Black Jeans for Men in the Monsoon: 8 Smart-Casual Rainy-Day Looks",
+    "How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women",
+    "Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women"
+  ],
+  "sources": [
+    "Content Tracker - SEO, Spykar!E2:F400",
+    "brands/spykar/keywords/universe.csv"
+  ],
+  "semrush_related_keyword_attempt": {
+    "seeds": [
+      "ankle length jeans",
+      "black jeans men",
+      "jeans and shirt outfit",
+      "college outfits with jeans"
+    ],
+    "database": "India",
+    "status": "blocked",
+    "http_status": 403,
+    "provider_error": "ERROR 132 :: API UNITS BALANCE IS ZERO"
+  },
+  "method": "Kept the existing primary keyword for each topic, added focused semantic variants, and reused search volumes only when the exact phrase and volume already existed in the Spykar tracker. Unverified volumes were left blank.",
+  "selected_keywords": {
+    "rows_253_258": [
+      ["ankle length jeans for men", 1300],
+      ["ankle length jeans", null],
+      ["ankle length jeans for women", null],
+      ["outfits for rainy days", 170],
+      ["monsoon outfits for men", 90],
+      ["monsoon outfits for women", 210]
+    ],
+    "rows_259_264": [
+      ["black jeans men", 40500],
+      ["black jeans for men", null],
+      ["black jeans outfit men", null],
+      ["black jeans shirt combination", null],
+      ["monsoon outfits for men", 90],
+      ["outfits for rainy days", 170]
+    ],
+    "rows_265_270": [
+      ["jeans and shirt outfit", 90],
+      ["shirt and jeans outfit", null],
+      ["jeans shirt combination", null],
+      ["casual outfits for men", 12100],
+      ["women's casual fashion", 880],
+      ["casual outfits", 2900]
+    ],
+    "rows_271_276": [
+      ["college outfits with jeans", null],
+      ["college outfits for men", null],
+      ["college outfits for women", null],
+      ["monsoon outfits", 170],
+      ["denim outfits for men", 1600],
+      ["denim outfits for women", 1600]
+    ]
+  }
+}

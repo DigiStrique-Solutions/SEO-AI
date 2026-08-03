@@ -1,0 +1,18 @@
+{
+  "run_id": "spykar-keywords-20260803T100451Z",
+  "written_at": "2026-08-03T10:04:51Z",
+  "spreadsheet_id": "1eCgqKw_vGec2llchEGXTzsRJbtuBrGxLrC4vKcLpiM0",
+  "spreadsheet_title": "Content Tracker - SEO",
+  "sheet": "Spykar",
+  "sheet_id": 1720296540,
+  "updated_ranges": [
+    "E254:F258",
+    "E260:F264",
+    "E266:F270",
+    "E272:F276"
+  ],
+  "verification_range": "E253:F276",
+  "status": "ok",
+  "records_added": 20,
+  "notes": "Verified six keyword rows per blog. Number format #,##0 and centered alignment were applied to the new search-volume cells; existing primary keywords were preserved."
+}
