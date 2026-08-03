@@ -1,0 +1,66 @@
+{
+  "run_id": "spykar-jeans-shirts-smart-casual-banner-v2-20260803",
+  "generated_at": "2026-08-03T11:21:04Z",
+  "tool": "OpenAI built-in image generation",
+  "mode": "reference-guided image generation",
+  "use_case": "ads-marketing",
+  "headline": "8 LOOKS. ONE EASY FORMULA.",
+  "concept": "Editorial styling board using only three verified Spykar shirts and two verified Spykar jeans, repeated to form eight outfit formulas.",
+  "catalogue_sources": [
+    {
+      "product_url": "https://spykar.com/collections/all-shirts/products/mshps2be265airforceblue",
+      "image_url": "https://spykar.com/cdn/shop/files/MSHPS2BE265AIRFORCEBLUE__2_6b89960c-9c94-419b-80b1-0eddf56ff67c.jpg?v=1755891675",
+      "garment_used": "men's white shirt with blue and maroon leaf print"
+    },
+    {
+      "product_url": "https://spykar.com/collections/all-shirts/products/wshps2bd259digitallavender",
+      "image_url": "https://spykar.com/cdn/shop/files/1_6d1ebf56-6495-461b-8296-01e12f7c11c6.png?v=1757337711",
+      "garment_used": "women's white long-sleeve shirt with lavender vertical stripes"
+    },
+    {
+      "product_url": "https://spykar.com/collections/all-shirts/products/mshcs1be166botanicalgreen",
+      "image_url": "https://spykar.com/cdn/shop/files/MSHCS1BE166BOTANICALGREEN_1_aa292ca1-0809-41c7-88a2-750df34274f5.jpg?v=1757338688",
+      "garment_used": "men's cream short-sleeve shirt with green grid pattern"
+    },
+    {
+      "product_url": "https://spykar.com/products/mdact1be320darkblue",
+      "image_url": "https://spykar.com/cdn/shop/files/MDACT1BE320DARKBLUE_1_d595a29d-4e55-42ac-be69-1b24e04de421.jpg?v=1776063504",
+      "garment_used": "men's dark-blue cargo-style jeans"
+    },
+    {
+      "product_url": "https://spykar.com/products/wdnynr2bc204darkblue",
+      "image_url": "https://spykar.com/cdn/shop/products/NNw0w_ixNm-WDNYNR2BC204-DARK-BLUE-_1.webp?v=1757081207",
+      "garment_used": "women's dark-blue straight or bootcut jeans"
+    }
+  ],
+  "collection_research": [
+    {
+      "url": "https://spykar.com/collections/all-shirts",
+      "firecrawl_scrape_id": "019fc757-7f25-724c-a2ad-f007aca51360"
+    },
+    {
+      "url": "https://spykar.com/collections/all-jeans",
+      "firecrawl_scrape_id": "019fc757-7b84-71d9-a5ed-ea5663639b7f"
+    }
+  ],
+  "source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-f7e3ecb9-d662-4e7b-9201-0c112dddfd90.png",
+  "master": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v2-master.png",
+    "dimensions": "1448x1086",
+    "format": "PNG"
+  },
+  "web": {
+    "path": "brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v2.jpg",
+    "dimensions": "800x600",
+    "format": "JPEG"
+  },
+  "visual_qa": {
+    "topic_relevance": "pass - shirts and two jeans silhouettes are immediately visible as outfit formulas",
+    "headline": "pass - exact wording, legible and inside safe margins",
+    "catalogue_reference": "pass - every visible garment is reconstructed from one of the five logged Spykar product references; only those garments are repeated",
+    "exclusions": "pass - no people, footwear, third-party marks, prices, discount claims, logo or watermark",
+    "crop": "pass - 800x600 export preserves the headline, reference garments and eight-look row",
+    "distinctiveness": "pass - modular product styling board differs from the earlier generic wardrobe-compass banner"
+  },
+  "disclosure": "This is an AI-composited editorial banner derived from verified Spykar catalogue references, not a pixel-exact catalogue photograph."
+}

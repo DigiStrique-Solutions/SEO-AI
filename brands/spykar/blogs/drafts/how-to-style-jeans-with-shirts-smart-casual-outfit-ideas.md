@@ -12,8 +12,8 @@ secondary_keywords:
   - casual outfits
 meta_title: "8 Jeans and Shirt Outfit Ideas for Men and Women"
 meta_description: "Build a smart jeans and shirt outfit with eight practical ideas for men and women, plus simple advice on washes, proportions, tucks and footwear."
-creative_master: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-master.png
-creative_web: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero.jpg
+creative_master: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v2-master.png
+creative_web: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v2.jpg
 ---
 
 # How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women
