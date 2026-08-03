@@ -1,0 +1,60 @@
+{
+  "run_id": "spykar-light-blue-jeans-creative-redesign-20260803",
+  "timestamp": "2026-08-03T09:49:28Z",
+  "brand_id": "spykar",
+  "action": "redesign_blog_hero_for_visual_distinction",
+  "provider": "openai_image_generation",
+  "use_case": "ads-marketing",
+  "user_feedback": "The cotton-jeans and light-blue-jeans creatives looked too similar.",
+  "similarity_observed": [
+    "Both showed two models standing or walking on a rain-wet café walkway.",
+    "Both placed a dark rectangular headline block on the left.",
+    "Both used nearly identical depth, weather treatment and subject placement."
+  ],
+  "new_direction": {
+    "headline": "7 WAYS TO WEAR LIGHT BLUE.",
+    "layout": "Bright fashion-magazine collage with torn-paper diagonal panels.",
+    "subjects": "Separate original Indian male and female outfit panels plus a denim-and-rain-footwear detail crop.",
+    "palette": "Pale denim blue, off-white, indigo, olive, rust and one thin red accent.",
+    "differentiators": [
+      "No café or sheltered walkway composition",
+      "No side-by-side two-model campaign pose",
+      "No dark headline rectangle",
+      "Large translucent numeral 7",
+      "Asymmetric three-panel editorial collage"
+    ]
+  },
+  "reference_creatives": [
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Blog_1_-_mens-trending-jeans_jpg_5dfecbdd-162a-4cf2-96a6-476e5958bc60.jpg?v=1780310703&width=1024",
+      "role": "broad brand typography and campaign reference only"
+    },
+    {
+      "url": "https://spykar.com/cdn/shop/articles/Straight-Fit_and_Slim-Fit_Jeans_for_Women_by_Spykar_4d135070-99cf-4de6-b328-f7aa654ec387.jpg?v=1782719031&width=1024",
+      "role": "broad denim styling and palette reference only"
+    }
+  ],
+  "outputs_replaced": [
+    {
+      "path": "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero-master.png",
+      "role": "full-resolution master",
+      "dimensions": "1448x1086"
+    },
+    {
+      "path": "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero.jpg",
+      "role": "web-ready blog creative",
+      "dimensions": "800x600"
+    }
+  ],
+  "verification": {
+    "headline_spelling": "pass",
+    "aspect_ratio": "pass",
+    "light_blue_denim_visible": "pass",
+    "mixed_gender_coverage": "pass",
+    "rain_context": "pass",
+    "distinct_from_cotton_jeans_creative": "pass",
+    "visual_review": "pass"
+  },
+  "status": "ok",
+  "credentials_logged": false
+}
