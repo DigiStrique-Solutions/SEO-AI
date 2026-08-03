@@ -1,0 +1,38 @@
+{
+  "run_id": "spykar-back-to-college-monsoon-banner-v2-20260803",
+  "timestamp": "2026-08-03T11:54:41Z",
+  "brand_id": "spykar",
+  "action": "edit_and_verify_blog_banner",
+  "provider": "openai_image_generation",
+  "edit_target": "brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-master.png",
+  "source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-eaf78b52-d869-41bf-9cb5-67020e62b10e.png",
+  "edit_summary": "Replaced the anonymous concrete corridor with a recognisable adult Indian university campus: a red-brick academic block, colonnaded walkway, noticeboard, greenery, distant university-age students with umbrellas and rain-wet courtyard paving.",
+  "preserved_elements": [
+    "Two young adult Indian models and their walking composition",
+    "Spykar-referenced printed shirt, striped shirt and denim outfits",
+    "Exact headline: BACK ON CAMPUS. / RAIN READY.",
+    "Premium mature fashion-editorial treatment and monsoon lighting"
+  ],
+  "outputs": [
+    {
+      "path": "brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2-master.png",
+      "dimensions": "1448x1086",
+      "format": "PNG"
+    },
+    {
+      "path": "brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg",
+      "dimensions": "800x600",
+      "format": "JPEG"
+    }
+  ],
+  "visual_qa": {
+    "recognisable_adult_campus": "pass",
+    "exact_headline_and_line_break": "pass",
+    "garment_fidelity": "pass",
+    "adult_editorial_tone": "pass",
+    "anatomy_and_faces": "pass",
+    "no_institution_or_third_party_branding": "pass",
+    "web_export_crop": "pass"
+  },
+  "disclosure": "AI-composited campaign artwork. Clothing was derived from verified Spykar product references; the campus is illustrative and does not depict a named institution."
+}

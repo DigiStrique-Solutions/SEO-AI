@@ -12,8 +12,8 @@ secondary_keywords:
   - denim outfits for women
 meta_title: "8 College Outfits with Jeans for Men and Women"
 meta_description: "Explore eight college outfits with jeans for men and women, plus practical monsoon styling tips for humid days, sudden rain and busy campus schedules."
-creative_master: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-master.png
-creative_web: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero.jpg
+creative_master: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2-master.png
+creative_web: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg
 ---
 
 # Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women
