@@ -13,8 +13,19 @@ secondary_keywords:
   - outfits for rainy days
 meta_title: "Black Jeans for Men: 8 Smart Monsoon Looks | Spykar"
 meta_description: "Style black jeans for men through the monsoon with eight smart-casual looks, practical shirt combinations, footwear tips and simple denim care."
+suggested_url: "https://spykar.com/blogs/blog/black-jeans-men-monsoon-smart-casual-looks"
+canonical_url: "https://spykar.com/blogs/blog/black-jeans-men-monsoon-smart-casual-looks"
+robots: "index, follow, max-image-preview:large"
+h1: "Black Jeans for Men in the Monsoon: 8 Smart-Casual Rainy-Day Looks"
+schema_types: [BlogPosting, FAQPage]
+og_title: "Black Jeans for Men: 8 Smart Monsoon Looks | Spykar"
+og_description: "Style black jeans for men through the monsoon with eight smart-casual looks, practical shirt combinations, footwear tips and simple denim care."
+twitter_card: summary_large_image
 creative_master: "brands/spykar/blogs/creatives/black-jeans-men-monsoon-smart-casual-hero-master.png"
 creative_web: "brands/spykar/blogs/creatives/black-jeans-men-monsoon-smart-casual-hero.jpg"
+banner_filename: "black-jeans-men-monsoon-smart-casual-hero.jpg"
+banner_alt: "Man styling black jeans with a shirt beside a rain-streaked window"
+banner_title: "Black Jeans for Men: Eight Smart Monsoon Looks"
 ---
 
 # Black Jeans for Men in the Monsoon: 8 Smart-Casual Rainy-Day Looks
@@ -135,4 +146,4 @@ A narrow, even cuff can lift a slightly long hem clear of the shoe. Avoid a thic
 
 Black jeans cannot fix the forecast. What they can do is remove one decision from a messy morning. Get the hem clear of the shoe. White or blue brings contrast; olive or burgundy brings colour; grey keeps things tonal. After that come the unphotogenic choices that matter on the way out: the sole, the spare socks and the layer you can take off.
 
-See the fits and finishes currently listed in Spykar's [black jeans for men](https://spykar.com/collections/black-jeans-men-1) collection. Stock changes, and the care label belongs to the garment in your hand; use both as the final word before buying or washing.
+See the fits and finishes currently listed in Spykar's [black jeans for men](https://spykar.com/collections/black-jeans-men-1) collection, then compare them with the brand's [shirts for men and women](https://spykar.com/collections/all-shirts). Stock changes, and the care label belongs to the garment in your hand; use both as the final word before buying or washing.

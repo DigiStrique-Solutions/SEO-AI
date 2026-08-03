@@ -1,0 +1,104 @@
+{
+  "run_id": "spykar-six-blog-seo-publishing-addons-20260803",
+  "timestamp": "2026-08-03T12:05:01Z",
+  "brand_id": "spykar",
+  "action": "audit_and_add_seo_publishing_factors",
+  "reference": {
+    "file_id": "1WYHqp2v14jCUXJvvtFWSxyEyF-3fBLkr",
+    "title": "Trekking Shoes for Men: What to Look for Before a Post-Monsoon Hike.docx",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "treatment": "content-only benchmark",
+    "factors_observed": [
+      "Meta title and meta description",
+      "Suggested URL and canonical",
+      "Heading labels",
+      "Hyperlinks",
+      "FAQ schema recommendation",
+      "Banner and inline-image references",
+      "Image alt text, title tags and filenames"
+    ],
+    "limitation": "The reference is an Office file stored in Drive, so the native Google Docs API cannot edit it. Drive content fetch was used for the benchmark; the source was not modified."
+  },
+  "additions": [
+    "Meta title and character count",
+    "Meta description and character count",
+    "Suggested public URL",
+    "Self-referencing canonical",
+    "Robots directive",
+    "H1 value",
+    "Open Graph title and description",
+    "Twitter summary-large-image card",
+    "At least two relevant internal-link targets",
+    "Banner master and web references",
+    "Banner filename, dimensions, alt text and title tag",
+    "Two suggested inline-image briefs with placements, alt text, title tags and filenames",
+    "BlogPosting and FAQPage implementation guidance",
+    "Pre-publication heading, canonical, image, link and sitemap checks"
+  ],
+  "documents": [
+    {
+      "slug": "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather",
+      "document_id": "1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E",
+      "document_url": "https://docs.google.com/document/d/1vg61pQRclSHDFq7nBELStTpqspPFZlot3_k45ozVG4E/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 4,
+      "verification": "pass"
+    },
+    {
+      "slug": "how-to-style-light-blue-jeans-monsoon-outfit-ideas",
+      "document_id": "16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM",
+      "document_url": "https://docs.google.com/document/d/16i0N5K1lgVIGwhZh7K_HhAUTjCN1XvMbSurxdV373LM/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 5,
+      "verification": "pass"
+    },
+    {
+      "slug": "why-ankle-length-jeans-rainy-day-commutes",
+      "document_id": "1wigNa-DyJqNgn7qIbQg_rDl6nfyZfP8ST7ECgzzw6Ds",
+      "document_url": "https://docs.google.com/document/d/1wigNa-DyJqNgn7qIbQg_rDl6nfyZfP8ST7ECgzzw6Ds/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 4,
+      "verification": "pass"
+    },
+    {
+      "slug": "black-jeans-men-monsoon-smart-casual-looks",
+      "document_id": "1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs",
+      "document_url": "https://docs.google.com/document/d/1_7RRZ0R_zIYCrbZPEetD-NtSZTF1Ex9AnLJP23Tr0Vs/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 4,
+      "body_link_added": "https://spykar.com/collections/all-shirts",
+      "verification": "pass"
+    },
+    {
+      "slug": "how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "document_id": "1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M",
+      "document_url": "https://docs.google.com/document/d/1iPzVgU5cE7ObaeIk7nwNtlnb3w3vW6AQWT20Rm_IE-M/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 4,
+      "verification": "pass"
+    },
+    {
+      "slug": "back-to-college-monsoon-denim-outfits-men-women",
+      "document_id": "1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g",
+      "document_url": "https://docs.google.com/document/d/1EoUsp7VfpmixDQjEorSDIgawQdtK_2i12L2Fjojgc4g/edit",
+      "tab_id": "t.0",
+      "seo_pack_hyperlinks": 5,
+      "verification": "pass"
+    }
+  ],
+  "repository_updates": {
+    "drafts_updated": 6,
+    "core_frontmatter_fields_added": true,
+    "minimum_contextual_links_per_draft": 2,
+    "banner_metadata_complete": true
+  },
+  "qa": {
+    "target_document_ids_confirmed": "pass",
+    "single_tab_targets_confirmed": "pass",
+    "required_addon_sections_present": "pass",
+    "native_heading_styles_present": "pass",
+    "hyperlink_targets_read_back": "pass",
+    "banner_alt_text_matches_visuals": "pass",
+    "unsupported_author_or_date_values_invented": "no"
+  }
+}

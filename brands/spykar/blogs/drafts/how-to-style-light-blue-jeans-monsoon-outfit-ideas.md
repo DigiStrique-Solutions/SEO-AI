@@ -14,6 +14,19 @@ secondary_keywords:
   - monsoon outfits for women
 meta_title: "Styling Light Blue Jeans in the Monsoon: 7 Outfit Ideas"
 meta_description: "Try seven practical monsoon outfit ideas with light blue jeans for men and women, plus useful advice on fit, colour, footwear and denim care."
+suggested_url: "https://spykar.com/blogs/blog/how-to-style-light-blue-jeans-monsoon-outfit-ideas"
+canonical_url: "https://spykar.com/blogs/blog/how-to-style-light-blue-jeans-monsoon-outfit-ideas"
+robots: "index, follow, max-image-preview:large"
+h1: "How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas"
+schema_types: [BlogPosting, FAQPage]
+og_title: "Styling Light Blue Jeans in the Monsoon: 7 Outfit Ideas"
+og_description: "Try seven practical monsoon outfit ideas with light blue jeans for men and women, plus useful advice on fit, colour, footwear and denim care."
+twitter_card: summary_large_image
+creative_master: "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero-master.png"
+creative_web: "brands/spykar/blogs/creatives/light-blue-jeans-monsoon-outfit-ideas-hero.jpg"
+banner_filename: "light-blue-jeans-monsoon-outfit-ideas-hero.jpg"
+banner_alt: "Man and woman styling light blue jeans with monsoon-ready layers and footwear"
+banner_title: "Seven Ways to Style Light Blue Jeans in the Monsoon"
 ---
 
 # How to Style Light Blue Jeans During the Monsoon: 7 Practical Outfit Ideas

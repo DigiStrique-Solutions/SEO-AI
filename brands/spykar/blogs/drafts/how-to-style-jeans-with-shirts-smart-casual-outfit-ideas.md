@@ -10,10 +10,21 @@ secondary_keywords:
   - casual outfits for men
   - women's casual fashion
   - casual outfits
-meta_title: "8 Jeans and Shirt Outfit Ideas for Men and Women"
+meta_title: "8 Smart Jeans and Shirt Outfit Ideas for Men and Women"
 meta_description: "Build a smart jeans and shirt outfit with eight practical ideas for men and women, plus simple advice on washes, proportions, tucks and footwear."
+suggested_url: "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas"
+canonical_url: "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas"
+robots: "index, follow, max-image-preview:large"
+h1: "How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women"
+schema_types: [BlogPosting, FAQPage]
+og_title: "8 Smart Jeans and Shirt Outfit Ideas for Men and Women"
+og_description: "Build a smart jeans and shirt outfit with eight practical ideas for men and women, plus simple advice on washes, proportions, tucks and footwear."
+twitter_card: summary_large_image
 creative_master: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v3-master.png
 creative_web: brands/spykar/blogs/creatives/jeans-shirts-smart-casual-men-women-hero-v3.jpg
+banner_filename: "jeans-shirts-smart-casual-men-women-hero-v3.jpg"
+banner_alt: "Flat lay of Spykar shirts and blue jeans arranged as eight smart-casual outfit ideas"
+banner_title: "Eight Jeans and Shirt Outfit Ideas for Men and Women"
 ---
 
 # How to Style Jeans with Shirts: 8 Smart-Casual Outfit Ideas for Men and Women

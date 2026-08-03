@@ -10,10 +10,21 @@ secondary_keywords:
   - monsoon outfits
   - denim outfits for men
   - denim outfits for women
-meta_title: "8 College Outfits with Jeans for Men and Women"
+meta_title: "8 College Outfits with Jeans for Monsoon Days | Spykar"
 meta_description: "Explore eight college outfits with jeans for men and women, plus practical monsoon styling tips for humid days, sudden rain and busy campus schedules."
+suggested_url: "https://spykar.com/blogs/blog/back-to-college-monsoon-denim-outfits-men-women"
+canonical_url: "https://spykar.com/blogs/blog/back-to-college-monsoon-denim-outfits-men-women"
+robots: "index, follow, max-image-preview:large"
+h1: "Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women"
+schema_types: [BlogPosting, FAQPage]
+og_title: "8 College Outfits with Jeans for Monsoon Days | Spykar"
+og_description: "Explore eight college outfits with jeans for men and women, plus practical monsoon styling tips for humid days, sudden rain and busy campus schedules."
+twitter_card: summary_large_image
 creative_master: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2-master.png
 creative_web: brands/spykar/blogs/creatives/back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg
+banner_filename: "back-to-college-monsoon-denim-outfits-men-women-hero-v2.jpg"
+banner_alt: "Man and woman wearing Spykar denim outfits on a rain-wet university campus"
+banner_title: "Back-to-College Monsoon Denim Outfits for Men and Women"
 ---
 
 # Back-to-College Monsoon Wardrobe: 8 Denim Outfits for Men and Women
@@ -104,7 +115,7 @@ Most importantly, dress for the route. A pair that works for a car-to-class day 
 
 Back-to-college style does not require a new character every morning. It needs jeans that move, tops that do not become a burden in humidity and one detail that feels unmistakably yours. That might be a green grid shirt, a bootcut line or a tee that always starts a conversation.
 
-The advantage of college outfits with jeans is their ability to come back in a different mood. Explore Spykar's men's and women's fits, build a rotation around the pairs that suit your commute, and let shirts, tees and colour handle the changes. Less time negotiating with the wardrobe; more time getting out of the door.
+The advantage of college outfits with jeans is their ability to come back in a different mood. Explore Spykar's [jeans for men and women](https://spykar.com/collections/all-jeans), compare them with [shirts for men and women](https://spykar.com/collections/all-shirts), and build a rotation around the pairs that suit your commute. Let shirts, tees and colour handle the changes. Less time negotiating with the wardrobe; more time getting out of the door.
 
 ## FAQs
 

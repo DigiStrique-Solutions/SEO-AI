@@ -12,6 +12,19 @@ secondary_keywords:
   - men's relaxed fit jeans
 meta_title: "Cotton Jeans for Men: A Humid Monsoon Comfort Guide"
 meta_description: "Choose cotton jeans for men by fabric, fit and rise. Find practical outfit and denim-care tips for humid commutes, office days and weekends."
+suggested_url: "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather"
+canonical_url: "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather"
+robots: "index, follow, max-image-preview:large"
+h1: "Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather"
+schema_types: [BlogPosting, FAQPage]
+og_title: "Cotton Jeans for Men: A Humid Monsoon Comfort Guide"
+og_description: "Choose cotton jeans for men by fabric, fit and rise. Find practical outfit and denim-care tips for humid commutes, office days and weekends."
+twitter_card: summary_large_image
+creative_master: "brands/spykar/blogs/creatives/cotton-jeans-men-monsoon-comfort-hero-master.png"
+creative_web: "brands/spykar/blogs/creatives/cotton-jeans-men-monsoon-comfort-hero.jpg"
+banner_filename: "cotton-jeans-men-monsoon-comfort-hero.jpg"
+banner_alt: "Two men wearing dark and light blue cotton jeans on a rain-wet city walkway"
+banner_title: "Cotton Jeans for Men: Monsoon Comfort Guide"
 ---
 
 # Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather
