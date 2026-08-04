@@ -1,0 +1,35 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"nova-dairy",
+  "target_url":"https://steragro.com/",
+  "run_id":"nova-dairy-audits-20260804",
+  "run_date":"2026-08-04",
+  "overall_score":57.18,
+  "score_method":"Unweighted average of the six audit weighted-pass scores. not_checked_blocked and not_applicable rows are excluded from each audit denominator.",
+  "coverage":{"evaluated_rows":26,"blocked_rows":12,"total_rows":38,"evaluated_percent":68.42},
+  "totals":{"pass":14,"fail":12,"not_applicable":0,"not_checked_blocked":12,"items":38,"total":38},
+  "audits":[
+    {"audit_id":"generic-on-page","score":52.94,"counts":{"pass":3,"fail":4,"not_applicable":0,"not_checked_blocked":0,"items":7,"total":7},"output_ref":"audits/generic-on-page.json"},
+    {"audit_id":"content-seo","score":83.33,"counts":{"pass":5,"fail":1,"not_applicable":0,"not_checked_blocked":1,"items":7,"total":7},"output_ref":"audits/content-seo.json"},
+    {"audit_id":"site-architecture","score":100.0,"counts":{"pass":2,"fail":0,"not_applicable":0,"not_checked_blocked":5,"items":7,"total":7},"output_ref":"audits/site-architecture.json","coverage_warning":"Only two rows were evaluable; this is not a complete technical pass."},
+    {"audit_id":"core-web-vitals","score":54.55,"counts":{"pass":2,"fail":2,"not_applicable":0,"not_checked_blocked":2,"items":6,"total":6},"output_ref":"audits/core-web-vitals.json"},
+    {"audit_id":"structured-data","score":25.0,"counts":{"pass":1,"fail":1,"not_applicable":0,"not_checked_blocked":3,"items":5,"total":5},"output_ref":"audits/structured-data.json"},
+    {"audit_id":"ai-seo-aeo-geo","score":27.27,"counts":{"pass":1,"fail":4,"not_applicable":0,"not_checked_blocked":1,"items":6,"total":6},"output_ref":"audits/ai-seo-aeo-geo.json"}
+  ],
+  "top_fixes":[
+    {"rank":1,"severity":"high","finding":"Mobile field LCP is 3.662s and field TTFB is 1.745s; mobile Lighthouse performance is 45.","fix":"Optimize origin/caching and the true LCP element, then rerun PageSpeed and CrUX after deployment.","owner":"Engineering/performance","impact":"Faster landing pages and stronger page-experience performance.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075048Z-cwv-mobile.json"},
+    {"rank":2,"severity":"high","finding":"Homepage Organization/WebSite markup is incomplete: sameAs is absent, the logo is not a verified logo asset, and WebSite description is empty.","fix":"Correct canonical entity markup and validate each template with Schema.org Validator and Google Rich Results Test.","owner":"SEO/engineering/brand","impact":"Clearer entity understanding and safer rich-result eligibility.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].schema"},
+    {"rank":3,"severity":"high","finding":"The heading hierarchy starts at H2/H3 and uses 'Fresh Milk Collection' as the only H1.","fix":"Make the page's main value proposition the H1 and nest all sections/cards logically.","owner":"Frontend/content","impact":"Improved semantic clarity for users, assistive technology, and search engines.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].heading_summary"},
+    {"rank":4,"severity":"medium","finding":"64 of 94 homepage images lack useful alt coverage, and the mobile Lighthouse accessibility score is 79.","fix":"Classify decorative versus meaningful images, add correct alt behavior, remove zoom-blocking viewport settings, and run a full accessibility audit.","owner":"Frontend/content","impact":"Better accessibility and image understanding.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0]"},
+    {"rank":5,"severity":"medium","finding":"The Shudh Ghee page's meta description describes Dahi.","fix":"Correct the description and crawl all indexable pages for mismatched or duplicate metadata.","owner":"SEO/content","impact":"More accurate snippets and stronger page-topic alignment.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[1]"},
+    {"rank":6,"severity":"medium","finding":"Nutrition Centre content has no visible author or source signals in the sampled render.","fix":"Add author/reviewer identity, relevant credentials, source citations, and editorial policy links.","owner":"Content/legal","impact":"Stronger trust and E-E-A-T signals for food and nutrition-adjacent content.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[2]"},
+    {"rank":7,"severity":"medium","finding":"llms.txt returns 404 and AI-answer visibility was not benchmarked.","fix":"Approve an AI-crawler policy, publish a maintained llms.txt if appropriate, and define repeatable priority-prompt monitoring.","owner":"SEO/legal/brand","impact":"Clearer machine access policy and measurable AI visibility.","confidence":"high","evidence_ref":"logs/audits/raw/20260804T075200Z-robots-sitemap-llms.json#checks[2]"}
+  ],
+  "blockers":[
+    {"blocker":"The GSC property is verified with siteOwner permission, but sitemap, URL Inspection/index coverage, and enhancement-report checks were not run.","affected_items":["site-architecture.sitemap","site-architecture.indexation-coverage","structured-data.rich-result-eligible"],"next_action":"Run the relevant GSC APIs against https://steragro.com/ and store their outputs."},
+    {"blocker":"Keyword clusters are available, but competitor depth benchmarking and AI-answer monitoring were not run.","affected_items":["content-seo.content-depth","ai-seo-aeo-geo.ai-mentions"],"next_action":"Benchmark live organic competitors by mapped cluster and run date-stamped AI-answer prompt checks."},
+    {"blocker":"In-app browser unavailable and no schema-validator report.","affected_items":["structured-data.content-type-schema","structured-data.schema-valid"],"next_action":"Run rendered template checks plus Schema.org and Google rich-result validators."},
+    {"blocker":"Bounded crawl and compact PageSpeed output do not provide full technical diagnostics.","affected_items":["site-architecture.internal-linking","site-architecture.redirects","site-architecture.canonical-consistency","core-web-vitals.render-blocking","core-web-vitals.image-optimization"],"next_action":"Run a complete sitemap crawl and full Lighthouse diagnostic exports."}
+  ],
+  "provenance":{"activity_log":"logs/audits/activity.jsonl","evidence_dir":"logs/audits/raw/","dependency_refresh":"logs/audits/raw/20260804T075700Z-dependency-refresh.json"}
+}

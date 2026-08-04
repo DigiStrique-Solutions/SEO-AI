@@ -1,0 +1,17 @@
+{
+  "provider": "keyword_planner",
+  "capability": "Google Ads generate keyword ideas",
+  "target_country": "India",
+  "status": "error",
+  "error_code": "tool_unavailable",
+  "message": "No callable Google Ads Keyword Planner tool was exposed in the configured tool set. Composio discovery returned Semrush tools instead, which were not used because Phase 2 specifies Keyword Planner and GSC as approved sources.",
+  "platform_id": {
+    "source_required": "GOOGLE_ADS_PLATFORM_ID environment variable",
+    "value_logged": false
+  },
+  "retry": {
+    "attempted": false,
+    "reason": "This was a missing-capability failure, not a transient timeout or 5xx response."
+  },
+  "next_action": "Expose the approved google_ads_generate_keyword_ideas tool and configure GOOGLE_ADS_PLATFORM_ID, then rerun Phase 2 to populate volume and difficulty fields."
+}

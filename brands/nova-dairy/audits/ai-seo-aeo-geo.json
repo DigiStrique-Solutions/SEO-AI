@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"nova-dairy",
+  "audit_id":"ai-seo-aeo-geo",
+  "audit_ref":"audit-library/ai-seo-aeo-geo.json",
+  "target_url":"https://steragro.com/",
+  "run_date":"2026-08-04",
+  "score":27.27,
+  "counts":{"pass":1,"fail":4,"not_applicable":0,"not_checked_blocked":1,"items":6,"total":6},
+  "evidence_inputs":["logs/audits/raw/20260804T074900Z-site-crawl.json","logs/audits/raw/20260804T075100Z-rendered-page-checks.json","logs/audits/raw/20260804T075200Z-robots-sitemap-llms.json","logs/audits/raw/20260804T081500Z-dependency-refresh.json","keywords/clusters.json"],
+  "rows":[
+    {"item_id":"direct-answers","section_id":"answerability","severity":"high","status":"pass","result":"The homepage opens with a concise, extractable explanation that Nova Dairy has supplied dairy products to Indian homes since 1991 and supports it with product/process detail.","next_action":"Add direct answers for priority questions once keyword research identifies the actual queries.","evidence_ref":"logs/audits/raw/20260804T074900Z-site-crawl.json","owner":"Content/SEO","confidence":"medium"},
+    {"item_id":"structured-answers","section_id":"answerability","severity":"medium","status":"fail","result":"Content is broken into headings and cards, but the sampled homepage and Nutrition Centre do not expose robust FAQ, definition, comparison-table, or sourced answer blocks.","next_action":"Add concise question-led sections, definitions, steps, and tables where they genuinely match search intent; use FAQ schema only when eligible.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages","owner":"Content/SEO","confidence":"medium"},
+    {"item_id":"entity-clarity","section_id":"entity-authority","severity":"high","status":"fail","result":"Page copy explains Nova Dairy and parent Sterling Agro, but Organization schema omits sameAs and uses an unverified primary-image asset as the logo, weakening machine-readable identity consistency.","next_action":"Create a canonical entity profile tying Nova Dairy to Sterling Agro, approved logo, official social profiles, contact details, and consistent Organization identifiers.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].schema","owner":"SEO/brand/engineering","confidence":"high"},
+    {"item_id":"citations-sources","section_id":"entity-authority","severity":"medium","status":"fail","result":"The sampled editorial surface exposes no author or source signals, and no third-party citation evidence was collected for site claims.","next_action":"Cite credible sources for nutrition/process claims, publish substantiation for quantitative claims, and build independently verifiable entity references.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[2]","owner":"Content/PR/legal","confidence":"high"},
+    {"item_id":"ai-crawler-access","section_id":"ai-visibility","severity":"low","status":"fail","result":"robots.txt allows the general crawler, but https://steragro.com/llms.txt returns a 404 page, so the combined criterion is not met.","next_action":"Decide an approved AI-crawler policy and publish a maintained llms.txt only if it reflects canonical, useful site resources.","evidence_ref":"logs/audits/raw/20260804T075200Z-robots-sitemap-llms.json#checks[2]","owner":"SEO/legal/engineering","confidence":"high"},
+    {"item_id":"ai-mentions","section_id":"ai-visibility","severity":"medium","status":"not_checked_blocked","result":"Phase 2 now provides 11 query clusters that can seed priority prompts, but no repeatable AI-answer monitoring run was performed, so mentions or citations cannot be claimed.","next_action":"Translate approved clusters into audience-specific prompts and benchmark mentions/citations across supported answer engines with date-stamped evidence.","evidence_ref":"keywords/clusters.json#clusters","owner":"SEO/brand","confidence":"high"}
+  ]
+}

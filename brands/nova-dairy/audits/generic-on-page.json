@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://steragro.com/",
+  "run_date": "2026-08-04",
+  "score": 52.94,
+  "counts": {"pass": 3, "fail": 4, "not_applicable": 0, "not_checked_blocked": 0, "items": 7, "total": 7},
+  "evidence_inputs": [
+    "logs/audits/raw/20260804T074900Z-site-crawl.json",
+    "logs/audits/raw/20260804T075100Z-rendered-page-checks.json"
+  ],
+  "rows": [
+    {"item_id":"title-present","section_id":"titles-meta","severity":"high","status":"fail","result":"Titles are present on sampled pages, but the homepage title is 61 characters and exceeds the 30–60 character criterion.","next_action":"Rewrite the homepage title to 50–60 characters while retaining Nova Dairy and the primary product/category intent.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].document_title","owner":"SEO/content","confidence":"high"},
+    {"item_id":"meta-description","section_id":"titles-meta","severity":"medium","status":"fail","result":"The Shudh Ghee page's rendered metadata describes Dahi, so the description does not match the page and cannot satisfy unique, relevant metadata requirements.","next_action":"Replace the Shudh Ghee meta description and crawl every indexable template for duplicate or mismatched descriptions.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[1].metadata_mismatch","owner":"SEO/content","confidence":"high"},
+    {"item_id":"single-h1","section_id":"headings","severity":"high","status":"pass","result":"The rendered homepage has exactly one H1.","next_action":"Keep one H1, but move the page's primary topic into it instead of using the process-step text 'Fresh Milk Collection'.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].heading_summary","owner":"Frontend/content","confidence":"high"},
+    {"item_id":"heading-order","section_id":"headings","severity":"low","status":"fail","result":"The rendered DOM begins with H2 and H3 elements and introduces the single H1 later inside a slider, so the hierarchy is not logical.","next_action":"Use the hero topic as H1, then nest sections as H2 and cards/items as H3 without level reversals.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].heading_summary.order_issue","owner":"Frontend/content","confidence":"high"},
+    {"item_id":"image-alt","section_id":"media-links","severity":"medium","status":"fail","result":"Only 30 of 94 rendered homepage images have non-empty alt attributes (31.91%), below the 95% criterion.","next_action":"Add descriptive alt text to meaningful images and explicit empty alt text to decorative images; re-audit all templates.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].images","owner":"Frontend/content","confidence":"high"},
+    {"item_id":"canonical","section_id":"media-links","severity":"high","status":"pass","result":"Homepage, sampled product, and Nutrition Centre pages expose HTTPS self-referencing canonicals.","next_action":"Retain self-canonicals and validate all sitemap URLs in the next complete crawl.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages","owner":"SEO/engineering","confidence":"high"},
+    {"item_id":"status-200","section_id":"media-links","severity":"high","status":"pass","result":"Homepage, sampled product, and Nutrition Centre returned HTTP 200 and rendered primary content.","next_action":"Monitor indexable URLs and add automated soft-404 checks for a complete inventory.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages","owner":"Engineering","confidence":"high"}
+  ]
+}

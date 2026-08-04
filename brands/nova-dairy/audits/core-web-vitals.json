@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"nova-dairy",
+  "audit_id":"core-web-vitals",
+  "audit_ref":"audit-library/core-web-vitals.json",
+  "target_url":"https://steragro.com/",
+  "run_date":"2026-08-04",
+  "score":54.55,
+  "counts":{"pass":2,"fail":2,"not_applicable":0,"not_checked_blocked":2,"items":6,"total":6},
+  "evidence_inputs":["logs/audits/raw/20260804T075048Z-cwv-mobile.json","logs/audits/raw/20260804T075100Z-rendered-page-checks.json","logs/audits/raw/20260804T075300Z-provider-blockers.json"],
+  "rows":[
+    {"item_id":"lcp","section_id":"loading","severity":"high","status":"fail","result":"Mobile field LCP is 3,662 ms at p75, above the 2,500 ms threshold; the mobile lab run was slower at 5,401 ms.","next_action":"Optimize the LCP element, reduce hero media weight, preload the true LCP asset, and retest page templates after deployment.","evidence_ref":"logs/audits/raw/20260804T075048Z-cwv-mobile.json#field.lcp_ms_p75","owner":"Frontend/performance","confidence":"high"},
+    {"item_id":"ttfb","section_id":"loading","severity":"medium","status":"fail","result":"CrUX mobile field TTFB is 1,745 ms at p75, above the 800 ms threshold.","next_action":"Profile origin response time, WordPress/plugin execution, caching, CDN behavior, and database latency.","evidence_ref":"logs/audits/raw/20260804T075048Z-cwv-mobile.json#field.ttfb_ms_p75","owner":"Backend/platform","confidence":"high"},
+    {"item_id":"inp","section_id":"interactivity","severity":"high","status":"pass","result":"Mobile field INP is 114 ms at p75, within the 200 ms threshold.","next_action":"Protect this result by monitoring interaction-heavy sliders, menus, and forms after JavaScript changes.","evidence_ref":"logs/audits/raw/20260804T075048Z-cwv-mobile.json#field.inp_ms_p75","owner":"Frontend","confidence":"high"},
+    {"item_id":"render-blocking","section_id":"interactivity","severity":"medium","status":"not_checked_blocked","result":"The compact PageSpeed collector returned category and core metrics but not the detailed render-blocking resource audit needed for this row.","next_action":"Run full Lighthouse diagnostics and export render-blocking URLs, transfer sizes, and estimated savings.","evidence_ref":"logs/audits/raw/20260804T075300Z-provider-blockers.json#blockers[4]","owner":"Frontend/performance","confidence":"high"},
+    {"item_id":"cls","section_id":"stability","severity":"high","status":"pass","result":"Mobile field CLS is 0.08 at p75, within the 0.10 threshold. The lab CLS was 0.865, so synthetic instability still needs investigation even though the field criterion passes.","next_action":"Inspect lab layout shifts around sliders, web fonts, Instagram content, and late-loading media; preserve field monitoring.","evidence_ref":"logs/audits/raw/20260804T075048Z-cwv-mobile.json#field.cls_p75","owner":"Frontend/performance","confidence":"high"},
+    {"item_id":"image-optimization","section_id":"stability","severity":"low","status":"not_checked_blocked","result":"WebP support is present and rendered images were observed, but responsive sizing, compression, and lazy-loading coverage were not returned as a complete Lighthouse diagnostic.","next_action":"Export Lighthouse image audits and verify srcset/sizes, dimensions, lazy loading, format, and byte savings across key templates.","evidence_ref":"logs/audits/raw/20260804T075300Z-provider-blockers.json#blockers[4]","owner":"Frontend/content operations","confidence":"high"}
+  ]
+}

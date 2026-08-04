@@ -1,0 +1,71 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "provider": "firecrawl_rendered_browser",
+  "checked_at": "2026-08-04T07:51:00Z",
+  "pages": [
+    {
+      "url": "https://steragro.com/",
+      "status": 200,
+      "document_title": "Fresh & Nutritional Dairy Products in India by Nova Dairy",
+      "meta_description": "From Milk to Paneer, Ghee & much more, we manufacture & supply fresh, nutritious & safe Dairy Products in India. Explore a wide range of Nova Dairy Products today",
+      "canonical": "https://steragro.com/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "main_content_rendered": true,
+      "html_lang": "en-US",
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+      "heading_summary": {
+        "h1_count": 1,
+        "h1_text": "Fresh Milk Collection",
+        "first_heading": "h2: Serving Dairy Delight Since 1991",
+        "order_issue": "The rendered DOM starts with H2/H3 and introduces its only H1 later inside the process slider."
+      },
+      "images": {"total": 94, "missing_or_empty_alt": 64, "alt_coverage_percent": 31.91},
+      "schema": {
+        "blocks": 1,
+        "types_observed": ["WebPage", "ImageObject", "BreadcrumbList", "WebSite", "Organization"],
+        "organization_name": "Nova Dairy",
+        "organization_same_as_present": false,
+        "organization_logo_observation": "Organization.logo points to /wp-content/uploads/2026/06/image-1.webp, the same asset used as the page primary image; it was not verified as the Nova logo.",
+        "website_description": ""
+      },
+      "mobile_render": {
+        "viewport": "mobile",
+        "navigation_usable": true,
+        "primary_content_visible": true,
+        "horizontal_overflow_observed": false,
+        "overlap_observed": false,
+        "limitation": "Firecrawl's mobile render is not a complete manual cross-device or assistive-technology test."
+      },
+      "accessibility_observations": [
+        "Viewport disables zoom using maximum-scale=1.0 and user-scalable=0.",
+        "64 of 94 images have missing or empty alt attributes.",
+        "Mobile Lighthouse accessibility score was 79/100."
+      ],
+      "scrape_ids": ["019fcbc0-9e32-77fc-9721-f2a42d4101e2", "019fcbc0-a281-7778-b0f1-ead42e5ede8d", "019fcbc1-ee3a-718d-9f2b-a39dc4b82915"]
+    },
+    {
+      "url": "https://steragro.com/products/shudh-ghee/",
+      "status": 200,
+      "document_title": "Pure & Traditional Desi Shudh Ghee by Nova Dairy India",
+      "meta_description": "Fresh & nutritious Dahi by Nova Dairy India, made from pure milk with strict quality standards to ensure taste, hygiene, & consistency with authentic Indian taste.",
+      "canonical": "https://steragro.com/products/shudh-ghee/",
+      "visible_word_count": 1289,
+      "main_content_rendered": true,
+      "metadata_mismatch": "The Shudh Ghee URL exposes a meta description about Dahi.",
+      "scrape_id": "019fcbc0-a6df-75d1-98ee-3fc94dcbd913"
+    },
+    {
+      "url": "https://steragro.com/nutrition-centre/",
+      "status": 200,
+      "document_title": "Tasty Dairy Product Recipe Ideas You’ll Love from Nova Dairy",
+      "meta_description": "Enjoy mouthwatering dairy product recipes with Nova Dairy. Find easy, creative, and delicious recipe ideas made with the goodness of dairy.",
+      "canonical": "https://steragro.com/nutrition-centre/",
+      "visible_word_count": 650,
+      "date_signal": "February 23, 2026",
+      "author_signals": [],
+      "source_signals": [],
+      "main_content_rendered": true,
+      "scrape_id": "019fcbc0-ab32-767c-a7a8-81b7157e0b9e"
+    }
+  ]
+}

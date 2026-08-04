@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "updated_at": "2026-08-04",
+  "clusters": [
+    {
+      "cluster_id": "brand-and-products",
+      "name": "Nova Dairy Brand and Products",
+      "intent": "navigational",
+      "page_type": "homepage",
+      "target_url": "https://steragro.com/",
+      "pillar": true,
+      "keywords": ["nova dairy", "nova dairy products"],
+      "notes": "Core brand discovery cluster. Keep Nova Dairy distinct from parent-company Sterling Agro Industries in metadata and page copy."
+    },
+    {
+      "cluster_id": "ghee",
+      "name": "Nova Ghee",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://steragro.com/products/shudh-ghee/",
+      "pillar": true,
+      "keywords": ["nova ghee", "nova shudh ghee", "nova desi ghee", "nova ghee price"],
+      "notes": "Highest-impression product cluster in GSC. Cow-ghee intent should cross-link to its distinct product URL."
+    },
+    {
+      "cluster_id": "cow-ghee",
+      "name": "Nova Cow Ghee",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://steragro.com/products/cow-ghee/",
+      "pillar": false,
+      "keywords": ["nova cow ghee"],
+      "notes": "Maintain a distinct page mapping to avoid overlap with shudh-ghee queries."
+    },
+    {
+      "cluster_id": "milk-powder",
+      "name": "Nova Milk Powder",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://steragro.com/products/skimmed-milk-powder/",
+      "pillar": true,
+      "keywords": ["nova milk powder", "nova skimmed milk powder", "nova milk powder price"],
+      "notes": "Strong branded GSC demand. Validate current pack availability before publishing price or pack-size copy."
+    },
+    {
+      "cluster_id": "dairy-whitener",
+      "name": "Dairy Whitener",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://steragro.com/products/dairy-whitener/",
+      "pillar": true,
+      "keywords": ["dairy whitener", "nova dairy whitener", "nova dairy whitener price", "what is dairy whitener"],
+      "notes": "Large non-brand impression opportunity. Add clear product-vs-milk-powder explanations without unsupported nutrition claims."
+    },
+    {
+      "cluster_id": "dairy-creamer",
+      "name": "Dairy Creamer",
+      "intent": "commercial",
+      "page_type": "product",
+      "target_url": "https://steragro.com/products/dairy-creamer/",
+      "pillar": true,
+      "keywords": ["nova dairy creamer", "dairy creamer", "what is dairy creamer", "how to use dairy creamer"],
+      "notes": "Product and use-case intent share one cluster; consider a supporting explainer if the product page cannot answer informational queries cleanly."
+    },
+    {
+      "cluster_id": "fresh-dairy-products",
+      "name": "Fresh Dairy Products",
+      "intent": "commercial",
+      "page_type": "category",
+      "target_url": "https://steragro.com/our-products/",
+      "pillar": true,
+      "keywords": ["nova milk", "nova paneer", "nova dahi", "flavoured milk", "nova flavoured milk", "nova buttermilk"],
+      "notes": "Category hub should link to every confirmed product page. Do not imply national availability by SKU."
+    },
+    {
+      "cluster_id": "b2b-dairy-ingredients",
+      "name": "B2B Dairy Ingredients",
+      "intent": "commercial",
+      "page_type": "landing",
+      "target_url": null,
+      "pillar": true,
+      "keywords": ["dairy ingredient manufacturer india", "dairy products supplier india", "skimmed milk powder supplier india"],
+      "notes": "Proposed B2B landing-page family. Each term may need its own use-case page after demand validation."
+    },
+    {
+      "cluster_id": "bulk-dairy-supply",
+      "name": "Bulk Dairy Supply",
+      "intent": "transactional",
+      "page_type": "landing",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["bulk dairy products supplier"],
+      "notes": "Proposed lead-generation page tied to the bulk-order conversion path."
+    },
+    {
+      "cluster_id": "dairy-distributorship",
+      "name": "Nova Dairy Distributorship",
+      "intent": "transactional",
+      "page_type": "landing",
+      "target_url": null,
+      "pillar": true,
+      "keywords": ["dairy distributor in india", "nova dairy distributor"],
+      "notes": "Proposed distributor-recruitment landing page. Avoid earnings claims without substantiation."
+    },
+    {
+      "cluster_id": "competitor-comparisons",
+      "name": "Dairy Brand Comparisons",
+      "intent": "commercial",
+      "page_type": "comparison",
+      "target_url": null,
+      "pillar": false,
+      "keywords": ["nova dairy vs amul", "nova dairy vs mother dairy"],
+      "notes": "Each comparison maps to its own proposed page. Demand remains unvalidated and comparative claims require current evidence."
+    }
+  ]
+}

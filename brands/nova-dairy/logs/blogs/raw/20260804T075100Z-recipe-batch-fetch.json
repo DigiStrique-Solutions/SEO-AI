@@ -1,0 +1,89 @@
+{
+  "run_id": "nova-dairy-blogs-20260804",
+  "provider": "firecrawl",
+  "action": "extract",
+  "fetched_at": "2026-08-04T07:51:00Z",
+  "status": "completed",
+  "index": {
+    "url": "https://steragro.com/nutrition-centre",
+    "title": "Tasty Dairy Product Recipe Ideas You’ll Love from Nova Dairy",
+    "meta_description": "Enjoy mouthwatering dairy product recipes with Nova Dairy. Find easy, creative, and delicious recipe ideas made with the goodness of dairy.",
+    "recipes": [
+      {"title": "Stuffed Paneer Paratha", "url": "https://steragro.com/recipes/stuffed-paneer-paratha", "published_date": "2026-02-23"},
+      {"title": "Pav Bhaji", "url": "https://steragro.com/recipes/pav-bhaji", "published_date": "2026-02-23"},
+      {"title": "Moong Dal Halwa", "url": "https://steragro.com/recipes/moong-dal-halwa", "published_date": "2026-02-23"},
+      {"title": "Overnight Strawberry Oats", "url": "https://steragro.com/recipes/overnight-strawberry-oats", "published_date": "2026-02-23"},
+      {"title": "Paneer Butter Masala", "url": "https://steragro.com/recipes/paneer-butter-masala", "published_date": "2026-02-23"},
+      {"title": "Gajar Ka Halwa", "url": "https://steragro.com/recipes/gajar-ka-halwa", "published_date": "2026-02-23"}
+    ]
+  },
+  "blog_route": {
+    "url": "https://steragro.com/blog",
+    "state": "not-found",
+    "evidence": "No Results Found"
+  },
+  "posts": [
+    {
+      "url": "https://steragro.com/recipes/stuffed-paneer-paratha/",
+      "title": "Stuffed Paneer Paratha",
+      "meta_description": "Stuffed Paneer Paratha is an Indian flatbread filled with a flavourful paneer mixture.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Stuffed Paneer Paratha",
+      "summary": "Stuffed Paneer Paratha is a wholesome and satisfying Indian flatbread filled with a flavourful spiced paneer mixture. Crispy on the outside and soft inside, it makes for a hearty breakfast or comforting meal any time of the day.",
+      "key_points": ["Wholesome Indian flatbread", "Filled with spiced paneer mixture", "Crispy outside, soft inside", "Perfect for breakfast or lunch", "Easy to prepare with simple ingredients"]
+    },
+    {
+      "url": "https://steragro.com/recipes/pav-bhaji/",
+      "title": "Pav Bhaji",
+      "meta_description": "A buttery Mumbai street-food classic with spiced veggies served with toasted pav.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Pav Bhaji",
+      "summary": "Pav Bhaji is a bold and flavorful Mumbai street-food classic made with mashed vegetables cooked in aromatic spices and served with buttery toasted pav. It’s mouth-watering, comforting, and perfect for family dinners or casual gatherings.",
+      "key_points": ["Classic Mumbai street food", "Made with spiced mashed vegetables", "Served with buttery toasted pav", "Ideal for family dinners", "Comfort food for gatherings"]
+    },
+    {
+      "url": "https://steragro.com/recipes/moong-dal-halwa/",
+      "title": "Moong Dal Halwa",
+      "meta_description": "Rich, slow-cooked moong dal dessert made with ghee, milk, and nuts.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Moong Dal Halwa",
+      "summary": "Moong Dal Halwa is a decadent Indian dessert known for its deep roasted aroma and rich, grainy texture. Slow-cooked with patience and pure ghee, it’s a festive favourite that brings warmth and indulgence to special occasions.",
+      "key_points": ["Decadent Indian dessert", "Slow-cooked with ghee and milk", "Rich aroma and texture", "Perfect for festive occasions", "Indulgent and warming"]
+    },
+    {
+      "url": "https://steragro.com/recipes/overnight-strawberry-oats/",
+      "title": "Overnight Strawberry Oats",
+      "meta_description": "Creamy oats soaked overnight with fresh strawberries for a quick breakfast.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Overnight Strawberry Oats",
+      "summary": "Overnight Strawberry Oats are a quick, no-cook breakfast packed with fiber, protein, and natural sweetness. Creamy, refreshing, and lightly fruity, this make-ahead meal is perfect for busy mornings and healthy lifestyle goals.",
+      "key_points": ["Quick no-cook breakfast", "Packed with fiber and protein", "Creamy and refreshing", "Perfect for busy mornings", "Make-ahead meal"]
+    },
+    {
+      "url": "https://steragro.com/recipes/paneer-butter-masala/",
+      "title": "Paneer Butter Masala",
+      "meta_description": "Paneer Butter Masala is a rich and creamy Indian curry made with soft paneer in a flavourful tomato-based gravy.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Paneer Butter Masala",
+      "summary": "Paneer Butter Masala is a rich, creamy North Indian curry loved for its smooth tomato gravy and soft paneer cubes. Perfect for special dinners or indulgent weekend meals; it delivers restaurant-style flavour right at home.",
+      "key_points": ["Rich and creamy curry", "Smooth tomato gravy", "Soft paneer cubes", "Ideal for special dinners", "Restaurant-style flavour at home"]
+    },
+    {
+      "url": "https://steragro.com/recipes/gajar-ka-halwa/",
+      "title": "Gajar Ka Halwa",
+      "meta_description": "Gajar Ka Halwa is a classic Indian dessert with rich texture, festive aroma, and delightful taste.",
+      "published_date": "2026-02-23",
+      "category": null,
+      "primary_keyword": "Gajar Ka Halwa",
+      "summary": "Gajar Ka Halwa is a timeless Indian dessert loved for its rich texture, comforting warmth, and festive aroma. Slow-cooked with milk and ghee, this sweet treat is especially popular during winters and celebrations.",
+      "key_points": ["Timeless Indian dessert", "Rich texture and aroma", "Slow-cooked with milk and ghee", "Popular during winters", "Perfect for celebrations"]
+    }
+  ],
+  "warnings": ["Firecrawl reported that /v2/extract/:jobId is deprecated and recommended /v2/scrape with JSON format for future runs."],
+  "records": 6
+}

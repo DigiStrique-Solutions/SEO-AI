@@ -1,0 +1,30 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "provider": "google_pagespeed_and_crux",
+  "checked_at": "2026-08-04T07:50:48Z",
+  "target": "https://steragro.com/",
+  "strategy": "mobile",
+  "form_factor": "PHONE",
+  "field": {
+    "collection_period": "2026-07-05 to 2026-08-01",
+    "scope": "url",
+    "lcp_ms_p75": 3662,
+    "inp_ms_p75": 114,
+    "cls_p75": 0.08,
+    "ttfb_ms_p75": 1745,
+    "fcp_ms_p75": 2205
+  },
+  "lab": {
+    "performance_score": 45,
+    "accessibility_score": 79,
+    "best_practices_score": 92,
+    "seo_score": 92,
+    "lcp_ms": 5401,
+    "fcp_ms": 3160,
+    "cls": 0.8645388750056314,
+    "total_blocking_time_ms": 62.5,
+    "interactive_ms": 5678.75
+  },
+  "source_command": "python tools/google_pagespeed.py cwv --url https://steragro.com/ --strategy mobile --form-factor PHONE",
+  "notes": "Field and lab measurements are kept separate. The compact collector did not return the detailed render-blocking or image-sizing audit lists."
+}

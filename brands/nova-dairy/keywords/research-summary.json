@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "brand_name": "Nova Dairy",
+  "website_url": "https://steragro.com/",
+  "generated_at": "2026-08-04T07:55:00Z",
+  "target_country": "India",
+  "target_country_source": "task_input",
+  "language": "English",
+  "date_range": {
+    "start_date": "2025-04-01",
+    "end_date": "2026-08-01",
+    "applies_to": "Google Search Console web performance"
+  },
+  "default_source": "Google Search Console India query/page performance plus brand-dna seeds",
+  "difficulty_scale": "0-100 when supplied by an approved demand provider; blank in this run because Keyword Planner was unavailable",
+  "counts": {
+    "deduped_universe_rows": 50,
+    "existing_keywords": 42,
+    "keyword_planner_rows": 0,
+    "gsc_query_page_rows": 986,
+    "gsc_unique_queries": 649,
+    "prioritized_rows": 32,
+    "clusters": 11
+  },
+  "sources": {
+    "keyword_planner": {
+      "tool": "google_ads_generate_keyword_ideas",
+      "status": "unavailable",
+      "row_count": 0,
+      "log_ref": "logs/keywords/raw/20260804T074849Z-keyword-planner-unavailable.json"
+    },
+    "gsc": {
+      "tool": "GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY",
+      "status": "ok",
+      "row_count": 986,
+      "unique_query_count": 649,
+      "country_filter": "ind",
+      "log_ref": "logs/keywords/raw/20260804T074950Z-gsc-query-page-india.json"
+    },
+    "brand_dna": {
+      "status": "ok",
+      "run_id": "nova-dairy-setup-20260804",
+      "log_ref": "logs/web_data/raw/20260804T074700Z-brand-dna-crawl.json"
+    }
+  },
+  "gsc_property": "https://steragro.com/",
+  "gsc_available_properties": [
+    "https://steragro.com/"
+  ],
+  "blockers": [
+    "keyword_planner_unavailable",
+    "volume_unavailable",
+    "difficulty_unavailable",
+    "priority_business_path_not_confirmed"
+  ]
+}

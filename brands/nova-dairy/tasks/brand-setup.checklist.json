@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "started_at": "2026-08-04T07:45:41Z",
+  "updated_at": "2026-08-04T08:02:17Z",
+  "phases": [
+    {
+      "phase": "0-init",
+      "status": "done",
+      "items": [
+        {
+          "id": "p0.skeleton",
+          "status": "done",
+          "severity": "high",
+          "note": "Created the Nova Dairy brand workspace skeleton and provenance categories.",
+          "log_ref": ""
+        }
+      ]
+    },
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        {"id": "p1.crawl-ok", "status": "done", "severity": "high", "note": "Rendered crawl returned nine public pages with usable content.", "log_ref": "logs/web_data/activity.jsonl"},
+        {"id": "p1.brand-name", "status": "done", "severity": "high", "note": "Nova Dairy and https://steragro.com/ resolved from first-party site text.", "log_ref": "logs/web_data/raw/20260804T074700Z-brand-dna-crawl.json"},
+        {"id": "p1.core-fields", "status": "done", "severity": "medium", "note": "Core fields populated; unsupported visual and measurement details routed to open_questions.", "log_ref": "brand-dna.json"},
+        {"id": "p1.competitors", "status": "done", "severity": "medium", "note": "Amul and Mother Dairy recorded using their official sites; comparative market metrics remain open.", "log_ref": "logs/web_data/raw/20260804T074700Z-brand-dna-crawl.json"},
+        {"id": "p1.dna-valid", "status": "done", "severity": "high", "note": "brand-dna.json parses successfully and follows the required flat schema.", "log_ref": "brand-dna.json"},
+        {"id": "p1.knowledge", "status": "done", "severity": "low", "note": "Seeded brand rules, messaging, audiences, products, measurement limitations and open decisions.", "log_ref": "knowledge.md"}
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "failed",
+      "items": [
+        {"id": "p2.demand-pull", "status": "failed", "severity": "high", "note": "Keyword Planner was unavailable; volume and difficulty were left blank rather than inferred. Next action: restore the approved keyword-planner tool with GOOGLE_ADS_PLATFORM_ID and rerun Phase 2.", "log_ref": "logs/keywords/raw/20260804T074849Z-keyword-planner-unavailable.json"},
+        {"id": "p2.universe", "status": "done", "severity": "high", "note": "50-row universe written with the valid 12-column schema.", "log_ref": "keywords/universe.csv"},
+        {"id": "p2.keywords", "status": "done", "severity": "medium", "note": "32-row curated set written.", "log_ref": "keywords/keywords.csv"},
+        {"id": "p2.clusters", "status": "done", "severity": "medium", "note": "11 clusters written and JSON-validated.", "log_ref": "keywords/clusters.json"},
+        {"id": "p2.gsc", "status": "done", "severity": "low", "note": "GSC property validated with siteOwner access; 986 India query/page rows and 649 unique queries fetched.", "log_ref": "logs/keywords/raw/20260804T074950Z-gsc-query-page-india.json"},
+        {"id": "p2.summary", "status": "done", "severity": "medium", "note": "Summary counts match the output files and blockers are explicit.", "log_ref": "keywords/research-summary.json"}
+      ]
+    },
+    {
+      "phase": "3-existing-blogs",
+      "status": "done",
+      "items": [
+        {"id": "p3.index", "status": "done", "severity": "medium", "note": "Nutrition Centre confirmed as the live content hub; /blog/ currently has no results.", "log_ref": "logs/blogs/raw/20260804T074900Z-editorial-url-map.json"},
+        {"id": "p3.discovery", "status": "done", "severity": "medium", "note": "Six current recipe posts discovered with URLs and dates.", "log_ref": "logs/blogs/raw/20260804T074900Z-editorial-url-map.json"},
+        {"id": "p3.references", "status": "done", "severity": "medium", "note": "Six metadata and summary references written and validated.", "log_ref": "logs/blogs/raw/20260804T075100Z-recipe-batch-fetch.json"},
+        {"id": "p3.summary", "status": "done", "severity": "low", "note": "Index, live links, references and coverage notes written.", "log_ref": "blogs/summary.md"}
+      ]
+    },
+    {
+      "phase": "4-seo-audits",
+      "status": "done",
+      "items": [
+        {"id": "p4.evidence", "status": "done", "severity": "high", "note": "Rendered 20-page crawl, mobile PageSpeed/CrUX, representative desktop/mobile/schema checks and robots/sitemap/llms checks logged.", "log_ref": "logs/audits/activity.jsonl"},
+        {"id": "p4.per-audit", "status": "done", "severity": "high", "note": "All six audit definition files produced; unverified rows remain not_checked_blocked.", "log_ref": "audits/"},
+        {"id": "p4.counts", "status": "done", "severity": "medium", "note": "All counts.items and status tallies reconcile across 38 rows.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary", "status": "done", "severity": "high", "note": "Summary totals and average score reconcile: 57.18/100, 14 pass, 12 fail, 12 blocked.", "log_ref": "audits/summary.json"},
+        {"id": "p4.summary-md", "status": "done", "severity": "low", "note": "Human-readable audit summary includes priority fixes, owners, evidence and blockers.", "log_ref": "audits/summary.md"}
+      ]
+    },
+    {
+      "phase": "5-finalize",
+      "status": "done",
+      "items": [
+        {"id": "p5.files-valid", "status": "done", "severity": "high", "note": "JSON, JSONL and required CSV shapes validated; audit counts and scores reconcile.", "log_ref": "brand.json"},
+        {"id": "p5.manifest", "status": "done", "severity": "high", "note": "Top-level manifest created with pointers, counts, locale, market and partial-status blockers.", "log_ref": "brand.json"},
+        {"id": "p5.blockers-triaged", "status": "done", "severity": "medium", "note": "Keyword Planner and audit evidence gaps are explicit with next actions; no blocked check was treated as a pass.", "log_ref": "audits/summary.json"},
+        {"id": "p5.google-doc", "status": "done", "severity": "medium", "note": "Mandatory user-facing Google Doc created and connector-verified.", "log_ref": "logs/audits/raw/20260804T080217Z-google-doc-output.json"}
+      ]
+    }
+  ]
+}

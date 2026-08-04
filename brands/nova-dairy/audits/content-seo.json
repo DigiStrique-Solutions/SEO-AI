@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"nova-dairy",
+  "audit_id":"content-seo",
+  "audit_ref":"audit-library/content-seo.json",
+  "target_url":"https://steragro.com/",
+  "run_date":"2026-08-04",
+  "score":83.33,
+  "counts":{"pass":5,"fail":1,"not_applicable":0,"not_checked_blocked":1,"items":7,"total":7},
+  "evidence_inputs":["logs/audits/raw/20260804T074900Z-site-crawl.json","logs/audits/raw/20260804T075100Z-rendered-page-checks.json","logs/audits/raw/20260804T081500Z-dependency-refresh.json","keywords/clusters.json","logs/keywords/raw/20260804T074950Z-gsc-query-page-india.json"],
+  "rows":[
+    {"item_id":"page-purpose","section_id":"purpose-intent","severity":"high","status":"pass","result":"The homepage has a clear commercial purpose: introduce Nova Dairy products and move visitors toward product exploration, distributor contact, or enquiries.","next_action":"Choose one primary SEO conversion path so hero copy and internal links can prioritize it.","evidence_ref":"logs/audits/raw/20260804T074900Z-site-crawl.json#representative_urls","owner":"Marketing","confidence":"medium"},
+    {"item_id":"intent-match","section_id":"purpose-intent","severity":"high","status":"pass","result":"Phase 2 maps the navigational 'nova dairy' and 'nova dairy products' cluster to the homepage; the rendered page clearly identifies Nova Dairy and exposes its product range, matching that branded discovery intent.","next_action":"Use live SERP benchmarking before expanding the homepage beyond branded navigational/product-discovery intent.","evidence_ref":"keywords/clusters.json#brand-and-products","owner":"SEO","confidence":"high"},
+    {"item_id":"content-depth","section_id":"depth-quality","severity":"medium","status":"not_checked_blocked","result":"Rendered content exists, but competitor subtopic coverage was not gathered for a page-level depth benchmark.","next_action":"Benchmark the top organic results for each mapped keyword and compare missing subtopics by template.","evidence_ref":"logs/audits/raw/20260804T075300Z-provider-blockers.json#blockers[2]","owner":"SEO/content","confidence":"high"},
+    {"item_id":"keyword-coverage","section_id":"depth-quality","severity":"medium","status":"pass","result":"The homepage title and visible opening copy naturally use Nova Dairy and dairy products, matching the Phase 2 homepage cluster without obvious stuffing.","next_action":"Correct the semantic H1 so the mapped homepage topic appears in the primary heading, then monitor query/page performance.","evidence_ref":"logs/audits/raw/20260804T081500Z-dependency-refresh.json#keyword_evidence.homepage_cluster","owner":"SEO/content","confidence":"high"},
+    {"item_id":"freshness","section_id":"depth-quality","severity":"low","status":"pass","result":"Rendered metadata shows current 2026 modification dates on sampled pages and the Nutrition Centre exposes a 2026 date signal.","next_action":"Show meaningful published/updated dates on individual editorial pages and maintain an editorial review cadence.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[2].date_signal","owner":"Content","confidence":"medium"},
+    {"item_id":"author-eeat","section_id":"eeat","severity":"medium","status":"fail","result":"The sampled Nutrition Centre page exposes no author or source signals despite publishing food and nutrition-adjacent content.","next_action":"Add named authors/reviewers, relevant credentials, editorial policy, and source citations to recipe and nutrition content.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[2]","owner":"Content/legal","confidence":"high"},
+    {"item_id":"internal-links","section_id":"eeat","severity":"low","status":"pass","result":"Rendered pages include multiple links to related company, product, manufacturing, nutrition, social-impact, and contact pages.","next_action":"Add contextual links from recipe copy to relevant product pages, not only navigation/footer links.","evidence_ref":"logs/audits/raw/20260804T074900Z-site-crawl.json","owner":"SEO/content","confidence":"medium"}
+  ]
+}

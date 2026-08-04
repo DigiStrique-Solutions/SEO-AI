@@ -1,0 +1,36 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "checked_at": "2026-08-04T07:53:00Z",
+  "blockers": [
+    {
+      "provider": "in_app_browser",
+      "status": "unavailable",
+      "result": "Browser runtime returned: No browser is available.",
+      "impact": "The audit used Firecrawl's rendered browser and mobile renderer. Manual cross-device, assistive-technology, and Google rich-result UI validation remain unverified."
+    },
+    {
+      "provider": "google_search_console",
+      "status": "not_verified_for_brand",
+      "result": "No Nova Dairy Search Console property connection is documented in brand context.",
+      "impact": "Sitemap submission, indexation coverage, rich-result reports, and search performance cannot be claimed."
+    },
+    {
+      "provider": "keyword_demand",
+      "status": "missing_output",
+      "result": "No files were present under brands/nova-dairy/keywords at audit time.",
+      "impact": "Search-intent match and keyword coverage cannot be scored."
+    },
+    {
+      "provider": "schema_validator",
+      "status": "not_run",
+      "result": "Rendered JSON-LD was inspected, but no Google Rich Results Test or Schema.org validator result was available.",
+      "impact": "Schema validity and rich-result eligibility remain blocked."
+    },
+    {
+      "provider": "detailed_lighthouse_diagnostics",
+      "status": "not_returned",
+      "result": "The compact PageSpeed collector returned scores and core metrics but not detailed render-blocking or image-sizing audit lists.",
+      "impact": "Those two supporting performance rows remain blocked."
+    }
+  ]
+}

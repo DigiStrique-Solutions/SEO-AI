@@ -1,0 +1,25 @@
+{
+  "run_id": "nova-dairy-blogs-20260804",
+  "provider": "direct_fetch",
+  "attempted_at": "2026-08-04T07:46:00Z",
+  "attempts": [
+    {
+      "method": "PowerShell Invoke-WebRequest",
+      "urls": [
+        "https://steragro.com/wp-json/wp/v2/types",
+        "https://steragro.com/wp-json/wp/v2/recipes?per_page=20",
+        "https://steragro.com/wp-sitemap.xml",
+        "https://steragro.com/wp-sitemap-posts-recipes-1.xml"
+      ],
+      "status": "error",
+      "error": "The request was aborted: Could not create SSL/TLS secure channel."
+    },
+    {
+      "method": "curl.exe",
+      "url": "https://steragro.com/wp-json/wp/v2/types",
+      "status": "error",
+      "error": "schannel InitializeSecurityContext failed: SEC_E_ILLEGAL_MESSAGE"
+    }
+  ],
+  "next_action_taken": "Retried with Firecrawl site mapping and structured extraction."
+}

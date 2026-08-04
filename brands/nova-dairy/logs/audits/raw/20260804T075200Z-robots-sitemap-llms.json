@@ -1,0 +1,32 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "provider": "firecrawl",
+  "checked_at": "2026-08-04T07:52:00Z",
+  "checks": [
+    {
+      "url": "https://steragro.com/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "result": "User-agent: *; empty Disallow; Sitemap: https://steragro.com/sitemap_index.xml",
+      "scrape_id": "019fcbc2-604b-74ae-9018-fc6262380040"
+    },
+    {
+      "url": "https://steragro.com/sitemap_index.xml",
+      "status": 200,
+      "content_type": "text/xml",
+      "child_sitemaps": [
+        "https://steragro.com/page-sitemap.xml",
+        "https://steragro.com/products-sitemap.xml",
+        "https://steragro.com/recipes-sitemap.xml"
+      ],
+      "scrape_id": "019fcbc2-5885-73e5-b075-b48d15eaecd0"
+    },
+    {
+      "url": "https://steragro.com/llms.txt",
+      "status": 404,
+      "content_type": "text/html",
+      "result": "The URL renders Nova Dairy's Page not found template; no llms.txt file exists.",
+      "scrape_id": "019fcbc2-5c75-77e8-904f-5cce87db5902"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "provider": "firecrawl",
+  "action": "crawl",
+  "requested_at": "2026-08-04T07:49:00Z",
+  "target": "https://steragro.com/",
+  "request": {
+    "limit": 20,
+    "max_discovery_depth": 2,
+    "sitemap": "include",
+    "render_wait_ms": 2000,
+    "formats": ["markdown", "html", "links"]
+  },
+  "response": {
+    "crawl_id": "019fcbbf-86f4-776c-b54e-822e2c302bb7",
+    "status": "completed",
+    "completed": 20,
+    "total": 20,
+    "credits_used": 20,
+    "coverage_note": "A bounded 20-page rendered crawl completed. It supports sampled and key-template findings but is not proof of a complete site inventory or absence of orphan URLs."
+  },
+  "representative_urls": [
+    "https://steragro.com/",
+    "https://steragro.com/about-us/",
+    "https://steragro.com/leadership/",
+    "https://steragro.com/manufacturing-process/",
+    "https://steragro.com/manufacturing-plants/",
+    "https://steragro.com/our-products/",
+    "https://steragro.com/products/shudh-ghee/",
+    "https://steragro.com/nutrition-centre/",
+    "https://steragro.com/social-impact-csr-policy/",
+    "https://steragro.com/contact-us/"
+  ]
+}

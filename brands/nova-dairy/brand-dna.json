@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "updated_at": "2026-08-04",
+  "brand_name": "Nova Dairy",
+  "website_url": "https://steragro.com/",
+  "logo": {
+    "description": "The public site displays a Nova Dairy wordmark in the header and footer; the canonical reusable asset and exact lockup specifications were not verified from the rendered text crawl.",
+    "icon_url": ""
+  },
+  "business_description": "Nova Dairy is an Indian dairy brand owned by Sterling Agro Industries. It sells packaged dairy products to households, works through distributors and retailers, supplies dairy ingredients to food and FMCG companies, and exports products internationally. Its public positioning centers on purity, familiar taste, product safety, farmer relationships, quality controls and modern processing.",
+  "business_model": "Mixed B2C and B2B dairy manufacturing and distribution: branded consumer dairy products sold through retail and product-buying channels; distributor recruitment; bulk and ingredient supply to food businesses; and international exports.",
+  "brand_colors": {
+    "description": "Exact approved color values were not exposed in the rendered text crawl and require confirmation from brand guidelines or CSS/design tokens.",
+    "primary": "[needs source]",
+    "secondary": "[needs source]",
+    "supporting": "[needs source]"
+  },
+  "brand_aesthetic": "Family-oriented Indian dairy branding that combines farm-to-fridge imagery, product photography, manufacturing proof, quality badges, social-impact stories and approachable recipe content. Exact visual-system specifications remain to be confirmed from design assets.",
+  "brand_voice": {
+    "description": "Warm, reassuring, family-focused and plain-spoken. The site uses everyday food language and sensory descriptions, then supports those messages with concrete process and quality evidence.",
+    "voice_patterns": [
+      "Purity, freshness and trust lead the message.",
+      "Family and home are recurring frames.",
+      "Products are described through familiar meals, taste, aroma and texture.",
+      "Technical proof appears as accessible numbers and named processes rather than dense scientific copy.",
+      "Distributor messaging focuses on fast-selling products, earnings and satisfied customers."
+    ]
+  },
+  "brand_values": [
+    "Product safety, purity and consistent quality",
+    "Customer-first thinking and ownership",
+    "Integrity and value creation for clients",
+    "Fair relationships, training and timely payment for farmers",
+    "Environmental sustainability through wind, solar and climate-smart practices",
+    "Accessible dairy products for households across India"
+  ],
+  "target_audience": {
+    "primary": [
+      "Indian households and families buying everyday packaged dairy products",
+      "Retailers and distributors seeking dairy products for their local markets"
+    ],
+    "roles": [
+      "Household grocery buyers and home cooks",
+      "Parents and family caregivers",
+      "Dairy and FMCG distributors",
+      "Retail and kirana-store operators",
+      "Food-manufacturing and institutional procurement teams"
+    ],
+    "secondary_verticals": [
+      "Food and beverage manufacturers buying dairy ingredients",
+      "International importers and distribution partners",
+      "Hotels, restaurants, caterers and other bulk dairy buyers"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Amul",
+      "what_it_does": "A large Indian cooperative-marketed food and dairy brand with a broad catalogue spanning milk, ghee, butter, dairy whitener, milk powder and adjacent FMCG categories.",
+      "website": "https://www.amul.com/",
+      "how_it_competes": "Competes for household dairy demand, retail distribution, branded trust and overlapping categories such as milk, ghee, butter, dairy whitener and milk powder. Nova differentiates on its own family-led story, manufacturing and ingredient-supply capabilities, and purity-led regional distribution messaging. Comparative market share and geographic strength are not yet sourced."
+    },
+    {
+      "name": "Mother Dairy",
+      "what_it_does": "An Indian dairy and food company selling milk, cultured products, ice cream, paneer, ghee and other household food products, with a strong retail network in Delhi and NCR.",
+      "website": "https://www.motherdairy.com/",
+      "how_it_competes": "Competes in household milk and value-added dairy categories, especially in North Indian retail markets, with overlapping products including paneer, ghee, butter, dahi and flavoured dairy. Nova also addresses distributors, bulk buyers and ingredient customers. Comparative pricing and reach are not yet sourced."
+    }
+  ],
+  "competitor_alternative_categories": [
+    "Regional dairy cooperatives and private dairy brands",
+    "Local loose-milk and unbranded dairy suppliers",
+    "Private-label supermarket dairy products",
+    "Specialist ghee, paneer and milk-powder brands",
+    "B2B dairy-ingredient manufacturers"
+  ],
+  "primary_business_goal": "Grow household adoption and distribution of Nova Dairy products while expanding distributor, bulk-order, ingredient-supply and export relationships.",
+  "primary_conversion": "Submit an enquiry to buy products, place a bulk order, or join the Nova Dairy distribution network.",
+  "site_type": "Consumer and corporate dairy-manufacturer website with product catalogue, company and manufacturing proof, distributor and bulk-order lead generation, recipes, CSR content and contact forms.",
+  "measurement_and_connected_sources": [
+    "Google Search Console property https://steragro.com/ is connected with siteOwner access; the onboarding keyword pull returned 986 India query/page rows and 649 unique queries for 2025-04-01 through 2026-08-01.",
+    "No brand-owned web analytics platform was verified during onboarding.",
+    "Public-site evidence was collected through rendered web retrieval and logged under logs/web_data/."
+  ],
+  "open_questions": [
+    "Confirm the approved Nova Dairy logo asset, color hex values and typography.",
+    "Confirm the priority target markets within India and the countries most important for export growth.",
+    "Confirm whether household retail, distributor recruitment, B2B ingredients or exports is the top SEO business objective.",
+    "Confirm the complete current product catalogue and geographic availability by SKU.",
+    "Confirm approved substantiation and usage rules for numerical claims such as farmer count, milk handled daily, countries served, quality checks and emissions reductions.",
+    "Confirm the primary competitor set, pricing benchmarks and regional market-share evidence.",
+    "Confirm and connect the approved web analytics platform for behavioral and conversion evidence."
+  ],
+  "provenance": {
+    "run_id": "nova-dairy-setup-20260804",
+    "output_ref": "logs/web_data/raw/20260804T074700Z-brand-dna-crawl.json"
+  }
+}

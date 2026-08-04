@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-08-04T08:02:17Z",
+  "provider": "google_drive",
+  "status": "ok",
+  "document_id": "1FxrzTTnw3HA9FVN086yozPt3HbeOWl8omp58_sHa_hU",
+  "document_url": "https://docs.google.com/document/d/1FxrzTTnw3HA9FVN086yozPt3HbeOWl8omp58_sHa_hU",
+  "title": "Nova Dairy Brand Data & SEO Onboarding",
+  "verification": {
+    "native_google_doc": true,
+    "tabs": 1,
+    "title_paragraphs": 1,
+    "heading_1_paragraphs": 7,
+    "native_bullet_paragraphs": 9,
+    "verified_hyperlinks": 4,
+    "placeholder_text_remaining": false
+  }
+}

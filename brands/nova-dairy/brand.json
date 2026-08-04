@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "nova-dairy",
+  "display_name": "Nova Dairy",
+  "status": "active_with_blockers",
+  "primary_domain": "steragro.com",
+  "domains": ["steragro.com"],
+  "locale": "en-IN",
+  "market": "India",
+  "created_at": "2026-08-04T07:45:41Z",
+  "updated_at": "2026-08-04T08:02:17Z",
+  "pointers": {
+    "brand_dna": "brand-dna.json",
+    "keywords": "keywords/research-summary.json",
+    "blogs": "blogs/summary.md",
+    "audits": "audits/summary.json",
+    "logs": "logs/"
+  },
+  "counts": {"audits": 6, "blogs": 6, "keywords": 32},
+  "blockers": [
+    "Keyword Planner was unavailable, so keyword volume and difficulty remain blank.",
+    "The priority commercial path and approved web analytics source require brand-owner confirmation.",
+    "Twelve of 38 audit checks remain not_checked_blocked pending additional evidence."
+  ]
+}

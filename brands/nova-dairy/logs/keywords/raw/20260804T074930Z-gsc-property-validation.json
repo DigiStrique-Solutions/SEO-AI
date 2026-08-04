@@ -1,0 +1,27 @@
+{
+  "provider": "google_search_console",
+  "requested_property": "https://steragro.com/",
+  "status": "ok",
+  "permission_level": "siteOwner",
+  "available_properties": [
+    "https://digimaze.io/",
+    "https://www.regilt.co/",
+    "https://cottonworld.net/",
+    "sc-domain:spykar.com",
+    "https://offlimits.co.in/",
+    "https://www.crimzonworld.com/",
+    "sc-domain:strique.io",
+    "sc-domain:surabhisauces.com",
+    "https://www.strique.io/",
+    "https://steragro.com/",
+    "https://www.mountaintribe.in/",
+    "https://inc5shop.com/",
+    "sc-domain:winn-foods.com",
+    "https://crimzonworld.com/",
+    "https://audio-technica.co.in/",
+    "https://spykar.com/",
+    "sc-domain:siromw.com",
+    "sc-domain:siroclinpharm.co.uk"
+  ],
+  "note": "Property validation reflects the active connection at run time and supersedes the onboarding-time statement that no connection had been verified."
+}

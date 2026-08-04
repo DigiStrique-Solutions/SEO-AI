@@ -1,0 +1,29 @@
+{
+  "run_id": "nova-dairy-blogs-20260804",
+  "provider": "firecrawl",
+  "action": "map",
+  "fetched_at": "2026-08-04T07:49:00Z",
+  "input": {
+    "url": "https://steragro.com",
+    "limit": 200,
+    "sitemap": "include",
+    "includeSubdomains": true,
+    "ignoreQueryParameters": true
+  },
+  "editorial_links": [
+    {"url": "https://steragro.com/nutrition-centre", "title": "Tasty Dairy Product Recipe Ideas You'll Love from Nova Dairy"},
+    {"url": "https://steragro.com/recipes-sitemap.xml"},
+    {"url": "https://steragro.com/recipes/stuffed-paneer-paratha", "title": "Stuffed Paneer Paratha - Nova Dairy"},
+    {"url": "https://steragro.com/recipes/pav-bhaji", "title": "Pav Bhaji - Nova Dairy"},
+    {"url": "https://steragro.com/recipes/moong-dal-halwa", "title": "Moong Dal Halwa - Nova Dairy"},
+    {"url": "https://steragro.com/recipes/overnight-strawberry-oats", "title": "Overnight Strawberry Oats - Nova Dairy"},
+    {"url": "https://steragro.com/recipes/paneer-butter-masala", "title": "Paneer Butter Masala - Nova Dairy"},
+    {"url": "https://steragro.com/recipes/gajar-ka-halwa", "title": "Gajar Ka Halwa - Nova Dairy"},
+    {"url": "https://steragro.com/blog", "title": null}
+  ],
+  "result_summary": {
+    "total_links_returned": 36,
+    "current_recipe_pages": 6,
+    "legacy_blog_post_urls_returned": 0
+  }
+}

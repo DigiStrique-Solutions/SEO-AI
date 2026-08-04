@@ -1,0 +1,23 @@
+{
+  "run_id": "nova-dairy-audits-20260804",
+  "checked_at": "2026-08-04T07:57:00Z",
+  "reason": "Phase 2 completed while Phase 4 was running; audit dependencies were refreshed before final validation.",
+  "keyword_evidence": {
+    "status": "available",
+    "research_summary": "keywords/research-summary.json",
+    "clusters": "keywords/clusters.json",
+    "counts": {"gsc_query_page_rows": 986, "gsc_unique_queries": 649, "deduped_universe_rows": 50, "prioritized_rows": 32, "clusters": 11},
+    "homepage_cluster": {"intent": "navigational", "target_url": "https://steragro.com/", "keywords": ["nova dairy", "nova dairy products"]}
+  },
+  "gsc_evidence": {
+    "property": "https://steragro.com/",
+    "permission": "siteOwner",
+    "property_validation_ref": "logs/keywords/raw/20260804T074930Z-gsc-property-validation.json",
+    "performance_ref": "logs/keywords/raw/20260804T074950Z-gsc-query-page-india.json",
+    "performance_query_status": "ok",
+    "sitemap_api_status": "not_run",
+    "url_inspection_or_index_coverage_status": "not_run",
+    "rich_results_or_enhancement_report_status": "not_run"
+  },
+  "remaining_keyword_limitations": ["Keyword Planner unavailable", "search volume unavailable", "difficulty unavailable", "priority business path not confirmed"]
+}

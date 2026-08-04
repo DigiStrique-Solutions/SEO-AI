@@ -1,0 +1,33 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+nova dairy,navigational,homepage,https://steragro.com/,,,high,active
+nova dairy products,commercial,category,https://steragro.com/our-products/,,,high,active
+nova ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,active
+nova cow ghee,commercial,product,https://steragro.com/products/cow-ghee/,,,high,active
+nova shudh ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,active
+nova desi ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,active
+nova ghee price,transactional,product,https://steragro.com/products/shudh-ghee/,,,high,active
+nova milk powder,commercial,product,https://steragro.com/products/skimmed-milk-powder/,,,high,active
+nova skimmed milk powder,commercial,product,https://steragro.com/products/skimmed-milk-powder/,,,high,active
+nova milk powder price,transactional,product,https://steragro.com/products/skimmed-milk-powder/,,,high,active
+dairy whitener,commercial,product,https://steragro.com/products/dairy-whitener/,,,high,active
+nova dairy whitener,commercial,product,https://steragro.com/products/dairy-whitener/,,,high,active
+nova dairy whitener price,transactional,product,https://steragro.com/products/dairy-whitener/,,,high,active
+what is dairy whitener,informational,article,https://steragro.com/products/dairy-whitener/,,,medium,active
+nova dairy creamer,commercial,product,https://steragro.com/products/dairy-creamer/,,,high,active
+dairy creamer,commercial,product,https://steragro.com/products/dairy-creamer/,,,high,active
+what is dairy creamer,informational,article,https://steragro.com/products/dairy-creamer/,,,medium,active
+how to use dairy creamer,informational,article,https://steragro.com/products/dairy-creamer/,,,medium,active
+nova milk,commercial,product,https://steragro.com/our-products/,,,high,active
+nova paneer,commercial,product,https://steragro.com/products/paneer/,,,high,active
+nova dahi,commercial,product,https://steragro.com/products/dahi/,,,high,active
+flavoured milk,commercial,product,https://steragro.com/products/flavoured-milk/,,,high,active
+nova flavoured milk,commercial,product,https://steragro.com/products/flavoured-milk/,,,high,active
+nova buttermilk,commercial,product,https://steragro.com/products/buttermilk/,,,medium,active
+dairy ingredient manufacturer india,commercial,landing,,,,high,new
+dairy products supplier india,commercial,landing,,,,high,new
+bulk dairy products supplier,transactional,landing,,,,high,new
+dairy distributor in india,transactional,landing,,,,high,new
+nova dairy distributor,transactional,landing,,,,high,new
+skimmed milk powder supplier india,transactional,landing,,,,high,new
+nova dairy vs amul,commercial,comparison,,,,medium,new
+nova dairy vs mother dairy,commercial,comparison,,,,medium,new

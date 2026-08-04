@@ -1,0 +1,108 @@
+{
+  "provider": "web",
+  "fetched_at": "2026-08-04T07:47:00Z",
+  "request": {
+    "url": "https://steragro.com/",
+    "depth": 1,
+    "render": true
+  },
+  "status": "ok",
+  "pages": [
+    {
+      "url": "https://steragro.com/",
+      "title": "Fresh & Nutritional Dairy Products in India by Nova Dairy",
+      "http_status": 200,
+      "evidence": [
+        "Nova Dairy has served Indian homes since 1991.",
+        "Sterling Agro is identified as Nova Dairy's parent company.",
+        "The site lists ghee, paneer, butter, dairy whitener, milk powder, buttermilk, cow ghee, dahi, dairy creamer and flavoured milk.",
+        "Claims include 20+ quality checks, service in 33+ countries and advanced processing technology.",
+        "The primary site CTA invites distributors to join Nova Dairy."
+      ]
+    },
+    {
+      "url": "https://steragro.com/about-us/",
+      "title": "Pure & Hygienic Trusted Milk & Dairy Brand in India | Nova Dairy",
+      "http_status": 200,
+      "evidence": [
+        "The company says it works with farmers to provide safe, high-quality dairy products across India.",
+        "The founders named are Kuldeep Saluja and Laxmi Narain; the company reports three factories and processing over 26 lakh litres of milk daily.",
+        "The stated mission emphasizes integrity, quality and value creation; the vision is safe, pure, high-quality dairy for every Indian home."
+      ]
+    },
+    {
+      "url": "https://steragro.com/leadership/",
+      "title": "Meet the Leadership Team at Nova Dairy India",
+      "http_status": 200,
+      "evidence": [
+        "The brand describes itself as a family-led business centered on product safety, customer-first thinking and ownership."
+      ]
+    },
+    {
+      "url": "https://steragro.com/manufacturing-process/",
+      "title": "Our Dairy Products Processing Method | Nova Dairy Quality Standards",
+      "http_status": 200,
+      "evidence": [
+        "Milk is sourced from 5,000+ farmers across 15+ villages in Madhya Pradesh, Haryana and Uttar Pradesh.",
+        "Distribution uses distributors, refrigerated trucks, delivery hubs and local retailers; products are also exported and supplied as ingredients.",
+        "The site describes 20+ checks, tamper-proof packaging, filtration, pasteurisation, nozzle drying and Bactofuge technology."
+      ]
+    },
+    {
+      "url": "https://steragro.com/manufacturing-plants/",
+      "title": "Our Manufacturing & Processing Plants in India | Nova Dairy",
+      "http_status": 200,
+      "evidence": [
+        "The site reports three modern dairy plants and more than 26 lakh litres handled daily.",
+        "Named facilities include Malanpur, Madhya Pradesh and Kundli, Haryana."
+      ]
+    },
+    {
+      "url": "https://steragro.com/our-products/",
+      "title": "Premium Dairy Products Manufacturer & Suppliers | Nova Dairy India",
+      "http_status": 200,
+      "evidence": [
+        "The product index features shudh ghee, paneer, butter, dairy whitener, skimmed milk powder and buttermilk.",
+        "Commercial CTAs address both buyers and prospective distributors."
+      ]
+    },
+    {
+      "url": "https://steragro.com/nutrition-centre/",
+      "title": "Tasty Dairy Product Recipe Ideas You'll Love from Nova Dairy",
+      "http_status": 200,
+      "evidence": [
+        "The Nutrition Centre publishes family-oriented Indian recipes using milk, ghee, curd and paneer."
+      ]
+    },
+    {
+      "url": "https://steragro.com/social-impact-csr-policy/",
+      "title": "Social Impacts & CSR Policy | Nova Dairy India",
+      "http_status": 200,
+      "evidence": [
+        "CSR themes include rural education, environmental sustainability, women in dairy, farmer empowerment, and nutrition and child health."
+      ]
+    },
+    {
+      "url": "https://steragro.com/contact-us/",
+      "title": "Contact Us | Nova Dairy India",
+      "http_status": 200,
+      "evidence": [
+        "The page offers general contact, bulk-order, distributor and careers forms.",
+        "The head office is in New Delhi, India."
+      ]
+    }
+  ],
+  "competitor_sources": [
+    {
+      "url": "https://shop.amul.com/en/brand/amul",
+      "title": "Amul official shop",
+      "evidence": "Official storefront lists a broad national catalogue including dairy whitener, milk powder, milk, ghee and other dairy/FMCG products."
+    },
+    {
+      "url": "https://www.motherdairy.com/Category/about-us",
+      "title": "Mother Dairy official About Us",
+      "evidence": "Official site says Mother Dairy manufactures and sells milk, cultured dairy products, ice cream, paneer and ghee, with retail strength in Delhi and NCR."
+    }
+  ],
+  "source_notes": "Evidence is a structured capture of rendered page text returned by the web provider on the access date."
+}

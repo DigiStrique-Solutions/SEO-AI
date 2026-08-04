@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"nova-dairy",
+  "audit_id":"structured-data",
+  "audit_ref":"audit-library/structured-data.json",
+  "target_url":"https://steragro.com/",
+  "run_date":"2026-08-04",
+  "score":25.0,
+  "counts":{"pass":1,"fail":1,"not_applicable":0,"not_checked_blocked":3,"items":5,"total":5},
+  "evidence_inputs":["logs/audits/raw/20260804T075100Z-rendered-page-checks.json","logs/audits/raw/20260804T075300Z-provider-blockers.json","logs/audits/raw/20260804T081500Z-dependency-refresh.json"],
+  "rows":[
+    {"item_id":"org-website-schema","section_id":"coverage","severity":"high","status":"fail","result":"Rendered JSON-LD includes Organization and WebSite, but Organization has no sameAs and its logo points to the page primary image rather than a verified logo; WebSite description is empty.","next_action":"Correct Organization.logo, add approved sameAs profiles, complete the WebSite description, and verify stable entity IDs.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].schema","owner":"SEO/engineering","confidence":"high"},
+    {"item_id":"breadcrumb-schema","section_id":"coverage","severity":"low","status":"pass","result":"The rendered homepage JSON-LD contains a BreadcrumbList with a Home list item.","next_action":"Verify BreadcrumbList output and visible breadcrumbs on product, recipe, and company templates.","evidence_ref":"logs/audits/raw/20260804T075100Z-rendered-page-checks.json#pages[0].schema.types_observed","owner":"SEO/engineering","confidence":"high"},
+    {"item_id":"content-type-schema","section_id":"coverage","severity":"medium","status":"not_checked_blocked","result":"Exact rendered JSON-LD for product and editorial templates was not successfully extracted, so Product and Article/BlogPosting coverage cannot be claimed.","next_action":"Extract rendered JSON-LD from representative product and recipe URLs and add correct Product or Article/Recipe properties.","evidence_ref":"logs/audits/raw/20260804T075300Z-provider-blockers.json#blockers[0]","owner":"SEO/engineering","confidence":"high"},
+    {"item_id":"schema-valid","section_id":"validity","severity":"high","status":"not_checked_blocked","result":"JSON-LD was inspected in the rendered DOM, but no validator result was available to establish error-free syntax and required properties.","next_action":"Run Schema.org Validator and Google Rich Results Test for each indexable template; save results and fix all errors.","evidence_ref":"logs/audits/raw/20260804T075300Z-provider-blockers.json#blockers[3]","owner":"SEO/engineering","confidence":"high"},
+    {"item_id":"rich-result-eligible","section_id":"validity","severity":"medium","status":"not_checked_blocked","result":"The Nova Dairy GSC property is verified, but no enhancement/rich-result report or Google Rich Results Test was run, so eligibility cannot be claimed.","next_action":"Run Google Rich Results Test on representative templates and retrieve available GSC enhancement reports.","evidence_ref":"logs/audits/raw/20260804T081500Z-dependency-refresh.json#gsc_evidence","owner":"SEO","confidence":"high"}
+  ]
+}

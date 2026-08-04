@@ -1,0 +1,17 @@
+{
+  "provider": "powershell_and_curl",
+  "fetched_at": "2026-08-04T07:53:00Z",
+  "url": "https://steragro.com/",
+  "status": "error",
+  "attempts": [
+    {
+      "tool": "Invoke-WebRequest",
+      "result": "SSL/TLS secure channel could not be created."
+    },
+    {
+      "tool": "curl.exe",
+      "result": "Schannel InitializeSecurityContext failed with SEC_E_ILLEGAL_MESSAGE."
+    }
+  ],
+  "next_action": "No crawl blocker: rendered web-provider retrieval succeeded. Use the rendered provider for this host unless direct TLS configuration is repaired."
+}

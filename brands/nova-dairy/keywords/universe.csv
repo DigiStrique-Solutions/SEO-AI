@@ -1,0 +1,51 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+nova dairy,navigational,homepage,https://steragro.com/,,,high,gsc; brand_dna,244,2787,1.11,active
+nova dairy products,commercial,category,https://steragro.com/our-products/,,,high,gsc; brand_dna,55,671,1.47,active
+sterling agro,navigational,homepage,https://steragro.com/,,,medium,gsc; brand_dna,40,611,4.53,active
+sterling agro industries ltd,navigational,about,https://steragro.com/about-us/,,,medium,gsc; brand_dna,75,1157,4.46,active
+nova milk company,navigational,about,https://steragro.com/about-us/,,,medium,gsc; brand_dna,12,155,1.12,active
+nova dairy owner,informational,about,https://steragro.com/our-company/,,,low,gsc; brand_dna,4,137,2.74,active
+nova dairy gwalior,navigational,contact,https://steragro.com/contact-us/,,,low,gsc,6,90,4.08,active
+nova ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,gsc; brand_dna,156,4638,4.93,active
+nova cow ghee,commercial,product,https://steragro.com/products/cow-ghee/,,,high,gsc; brand_dna,10,327,5.00,active
+nova shudh ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,gsc; brand_dna,11,243,3.93,active
+nova desi ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,high,gsc; brand_dna,4,222,5.68,active
+shudh ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,medium,gsc; brand_dna,0,103,5.42,active
+nova pure ghee,commercial,product,https://steragro.com/products/shudh-ghee/,,,medium,gsc,2,31,5.13,active
+nova ghee price,transactional,product,https://steragro.com/products/shudh-ghee/,,,high,gsc,0,19,6.42,active
+nova ghee online,transactional,product,https://steragro.com/products/shudh-ghee/,,,medium,gsc,0,10,7.10,active
+nova milk powder,commercial,product,https://steragro.com/products/skimmed-milk-powder/,,,high,gsc; brand_dna,127,2511,2.74,active
+nova skimmed milk powder,commercial,product,https://steragro.com/products/skimmed-milk-powder/,,,high,gsc; brand_dna,21,127,3.20,active
+nova milk powder price,transactional,product,https://steragro.com/products/skimmed-milk-powder/,,,high,gsc,0,25,7.96,active
+nova milk powder 500g price,transactional,product,https://steragro.com/products/skimmed-milk-powder/,,,medium,gsc,1,89,6.00,active
+nova whole milk powder,commercial,product,https://steragro.com/products/skimmed-milk-powder/,,,medium,gsc,2,27,5.26,active
+dairy whitener,commercial,product,https://steragro.com/products/dairy-whitener/,,,high,gsc; brand_dna,0,2344,3.09,active
+nova dairy whitener,commercial,product,https://steragro.com/products/dairy-whitener/,,,high,gsc; brand_dna,24,494,4.60,active
+nova dairy whitener price,transactional,product,https://steragro.com/products/dairy-whitener/,,,high,gsc,0,61,4.41,active
+what is dairy whitener,informational,article,https://steragro.com/products/dairy-whitener/,,,medium,gsc,0,63,3.86,active
+dairy whitener milk powder,informational,product,https://steragro.com/products/dairy-whitener/,,,medium,gsc,0,54,1.67,active
+milk whitener,commercial,product,https://steragro.com/products/dairy-whitener/,,,medium,gsc,0,51,4.35,active
+dairy whitner,commercial,product,https://steragro.com/products/dairy-whitener/,,,low,gsc,0,127,2.57,active
+nova dairy creamer,commercial,product,https://steragro.com/products/dairy-creamer/,,,high,gsc; brand_dna,28,1123,5.71,active
+dairy creamer,commercial,product,https://steragro.com/products/dairy-creamer/,,,high,gsc; brand_dna,0,192,7.39,active
+what is dairy creamer,informational,article,https://steragro.com/products/dairy-creamer/,,,medium,gsc,0,72,7.51,active
+what is dairy creamer used for,informational,article,https://steragro.com/products/dairy-creamer/,,,medium,gsc,0,22,6.09,active
+how to use dairy creamer,informational,article,https://steragro.com/products/dairy-creamer/,,,medium,gsc,0,16,8.19,active
+nova milk,commercial,product,https://steragro.com/our-products/,,,high,gsc; brand_dna,51,775,1.60,active
+nova butter,commercial,product,https://steragro.com/our-products/,,,medium,gsc; brand_dna,6,108,9.91,active
+nova paneer,commercial,product,https://steragro.com/products/paneer/,,,high,gsc; brand_dna,2,97,14.38,active
+nova dahi,commercial,product,https://steragro.com/products/dahi/,,,high,gsc; brand_dna,3,111,8.14,active
+nova yogurt,commercial,product,https://steragro.com/products/dahi/,,,medium,gsc,0,29,13.79,active
+flavoured milk,commercial,product,https://steragro.com/products/flavoured-milk/,,,high,gsc; brand_dna,0,62,28.10,active
+nova flavoured milk,commercial,product,https://steragro.com/products/flavoured-milk/,,,high,gsc; brand_dna,1,74,11.15,active
+nova buttermilk,commercial,product,https://steragro.com/products/buttermilk/,,,medium,brand_dna,,,,active
+buttermilk,commercial,product,https://steragro.com/products/buttermilk/,,,medium,brand_dna,,,,active
+dairy companies in india,commercial,landing,https://steragro.com/,,,medium,gsc; brand_dna,0,31,10.81,active
+dairy ingredient manufacturer india,commercial,landing,,,,high,brand_dna,,,,new
+dairy products supplier india,commercial,landing,,,,high,brand_dna,,,,new
+bulk dairy products supplier,transactional,landing,,,,high,brand_dna,,,,new
+dairy distributor in india,transactional,landing,,,,high,brand_dna,,,,new
+nova dairy distributor,transactional,landing,,,,high,brand_dna,,,,new
+skimmed milk powder supplier india,transactional,landing,,,,high,brand_dna,,,,new
+nova dairy vs amul,commercial,comparison,,,,medium,brand_dna,,,,new
+nova dairy vs mother dairy,commercial,comparison,,,,medium,brand_dna,,,,new
