@@ -1,0 +1,109 @@
+{
+  "run_id": "spykar-july-monthly-seo-report-20260804",
+  "generated_at": "2026-08-04T13:02:58+05:30",
+  "brand_id": "spykar",
+  "reporting_period": {
+    "current": "2026-07-01..2026-07-31",
+    "comparison": "2026-06-01..2026-06-30"
+  },
+  "source_deck": {
+    "id": "1LW-mDmFsxl6Hnf6FeAjdsQ1iKcnCQi6JT8OQSCx479k",
+    "title": "Monthly SEO Report | Spykar - June'26"
+  },
+  "output_deck": {
+    "id": "1fF2hkqKj-JomQ7jr5mErhC1s62sqfVXs4HloFU0s-qo",
+    "title": "Monthly SEO Report | Spykar - July'26",
+    "url": "https://docs.google.com/presentation/d/1fF2hkqKj-JomQ7jr5mErhC1s62sqfVXs4HloFU0s-qo/edit"
+  },
+  "google_analytics": {
+    "property": "properties/320857986",
+    "channel_filter": "sessionDefaultChannelGroup = Organic Search",
+    "june": {
+      "users": 18995,
+      "new_users": 16021,
+      "sessions": 22901
+    },
+    "july": {
+      "users": 24305,
+      "new_users": 20773,
+      "sessions": 28029
+    },
+    "change_percent": {
+      "users": 27.95,
+      "new_users": 29.66,
+      "sessions": 22.39
+    },
+    "july_top_landing_pages": [
+      ["/", 5254],
+      ["/collections/men-jeans", 2762],
+      ["/collections/men-shirts", 695],
+      ["/collections/cargo", 678],
+      ["/collections/men-trousers-joggers", 582],
+      ["/collections/men-t-shirts", 570],
+      ["/collections/women-jeans", 341],
+      ["/collections/all-jeans", 296],
+      ["/collections/eoss-jeans-shirt-and-t-shirt-men", 287],
+      ["/collections/men-jackets", 279]
+    ]
+  },
+  "google_search_console": {
+    "property": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "june": {
+      "clicks": 18729,
+      "impressions": 1733889,
+      "ctr": 0.010801729522478083,
+      "position": 8.391734418985298
+    },
+    "july": {
+      "clicks": 22376,
+      "impressions": 2385606,
+      "ctr": 0.009379587408817718,
+      "position": 8.679884691772237
+    },
+    "change": {
+      "clicks_percent": 19.47,
+      "impressions_percent": 37.59,
+      "ctr_percentage_points": -0.14,
+      "position_absolute": 0.29
+    },
+    "tracked_keyword_summary": {
+      "improved": 6,
+      "stable": 2,
+      "declined": 2,
+      "no_exact_query_data": 3
+    }
+  },
+  "july_delivery_evidence": {
+    "audit_status": "partial",
+    "audit_items": 38,
+    "audit_pass": 16,
+    "audit_fail": 4,
+    "gsc_rows_reviewed": 2005,
+    "keyword_universe": 44,
+    "prioritised_keywords": 28,
+    "keyword_clusters": 9,
+    "content_calendar_topics": 16,
+    "non_monsoon_topics": 3,
+    "seo_blog_drafts": 2,
+    "verified_native_google_docs": 2
+  },
+  "quality_assurance": {
+    "structural_readback": "passed",
+    "slides_rendered": 9,
+    "slides_visually_inspected": 9,
+    "repair_passes": 1,
+    "repairs": [
+      "Restored visible text styling in GA top-pages and task tables.",
+      "Replaced the stale May-June GSC screenshot with native June-July metric cards.",
+      "Removed inherited bullet formatting from task rows."
+    ],
+    "result": "passed"
+  },
+  "providers": [
+    "google_analytics via composio",
+    "google_search_console via composio",
+    "google_drive"
+  ]
+}
