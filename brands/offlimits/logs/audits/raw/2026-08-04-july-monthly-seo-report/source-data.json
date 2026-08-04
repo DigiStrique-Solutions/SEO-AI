@@ -1,0 +1,70 @@
+{
+  "run_id": "20260804T070000Z-july-monthly-seo-report",
+  "generated_at": "2026-08-04T07:00:00Z",
+  "brand_id": "offlimits",
+  "reporting_period": {
+    "current": "2026-07-01/2026-07-31",
+    "comparison": "2026-06-01/2026-06-30",
+    "timezone": "Asia/Calcutta"
+  },
+  "source_deck": {
+    "id": "1LsjbVl8X_UgY_yBkfR-IT_TB4xjSPng0qW82arIns8U",
+    "title": "Off Limits | Monthly SEO Report - June'26"
+  },
+  "output_deck": {
+    "id": "1IAhlPzWn3TE40B2mIaBGKY-5slyE9LCw_epZlt9Uh04",
+    "title": "Off Limits | Monthly SEO Report - July'26",
+    "url": "https://docs.google.com/presentation/d/1IAhlPzWn3TE40B2mIaBGKY-5slyE9LCw_epZlt9Uh04/edit"
+  },
+  "ga4": {
+    "property": "properties/411747968",
+    "filter": "sessionDefaultChannelGroup = Organic Search",
+    "june": {"users": 3050, "new_users": 2470, "sessions": 4126},
+    "july": {"users": 3482, "new_users": 2833, "sessions": 4754},
+    "change_percent": {"users": 14.16, "new_users": 14.70, "sessions": 15.22},
+    "july_top_landing_pages": [
+      ["/", 1382],
+      ["/collections/big-tall", 269],
+      ["/collections/size-13-shoes", 189],
+      ["/collections/mens-collection-uk14", 135],
+      ["/collections/mens-collection-uk12", 133],
+      ["/collections/men-track-suits", 116],
+      ["/pages/about-us", 116],
+      ["/products/oxford-dark-grey-ocm-643-05", 113],
+      ["/blogs/blogs/memory-foam-shoes-are-they-really-the-best-for-your-feet", 68],
+      ["/products/speed-plus-orm-605-01", 60]
+    ]
+  },
+  "gsc": {
+    "property": "https://offlimits.co.in/",
+    "search_type": "web",
+    "june": {"clicks": 3436, "impressions": 334325, "ctr": 0.0102774247, "position": 9.2303447},
+    "july": {"clicks": 3969, "impressions": 375532, "ctr": 0.0105690061, "position": 9.8088445},
+    "change": {"clicks_percent": 15.51, "impressions_percent": 12.33, "ctr_relative_percent": 2.84, "position_delta": 0.58},
+    "tracked_keyword_positions": {
+      "size 14 shoes": 5.1376,
+      "mens size 14 shoes": 5.5926,
+      "big shoes": 7.6319,
+      "big size shoes": 9.4,
+      "mens size 14 sneakers": 13.3793,
+      "size 13 mens shoes": 15.9681,
+      "shoes full black": 16.1429,
+      "soft foam shoes": 16.1905,
+      "basket ball shoes for men": 17.25,
+      "running shoes for women": 18.9735,
+      "basketball shoes for men": 19.2579,
+      "basketball shoes": 23.0933
+    }
+  },
+  "keyword_volume_source": {
+    "spreadsheet_id": "1W-68ykb3js3BKuyKmRCH4jigCP6ixi7Q5UWgCgH7MAY",
+    "title": "Off Limits - Focused Keywords",
+    "note": "Search volumes were carried from the shared tracker and labelled as tracked values; July positions came from GSC."
+  },
+  "limitations": [
+    "The focused-keyword spreadsheet had no July ranking column at access time.",
+    "Semrush keyword retrieval was blocked because the connected account had zero API units.",
+    "Field Core Web Vitals remained blocked; the report does not claim a field-data pass."
+  ],
+  "connector_log_ids": ["log_jvoKj9TC3Jke", "log_6nn-OhrgRhts", "log_6WGoKHxuTO5-"]
+}
