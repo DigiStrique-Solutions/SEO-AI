@@ -1,0 +1,30 @@
+{
+  "source_type": "SharePoint-hosted Excel workbook",
+  "source_filename": "backlink_audit_domains_28098376_2026-08-06",
+  "downloaded_export": "backlink_audit_domains_28098376_2026-08-06(in).csv",
+  "retrieved_at": "2026-08-06T19:13:05+05:30",
+  "sheet": "in",
+  "columns": [
+    "Domain Authority Score",
+    "Page Authority Score",
+    "Source URL",
+    "Source Page Title",
+    "Source Domain",
+    "Target URL",
+    "Anchor",
+    "Anchor Type",
+    "Link Type",
+    "No Follow",
+    "Toxic Score",
+    "First Seen",
+    "Last Seen",
+    "Comment"
+  ],
+  "records": 87,
+  "observed_summary": {
+    "unique_source_domains": 87,
+    "toxic_score_80_or_higher": 30,
+    "nofollow_false": 87
+  },
+  "interpretation": "This capture is a candidate-review input. It is not evidence that any domain has been manually validated as manipulative, and no Google disavow submission has been made."
+}
