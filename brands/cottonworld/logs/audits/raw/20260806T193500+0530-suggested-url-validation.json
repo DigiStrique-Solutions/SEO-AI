@@ -1,0 +1,24 @@
+{
+  "source_workbook": "Cotton World - Products Pages New URL Structure & H1 Tags Suggestion - Development Team - Uploading it to the Backend .xlsx",
+  "source_tab": "New URL Structure & H1 Tags",
+  "source_column": "Suggested New URL Structure",
+  "checked_at": "2026-08-06",
+  "source_urls": 920,
+  "live_sitemap": {
+    "url": "https://cottonworld.net/sitemap_products_1.xml?from=3761270751285&to=9634993864935",
+    "provider": "Firecrawl",
+    "scrape_id": "019fd761-8b8f-7412-88dd-2ba68b59dd26",
+    "status": 200,
+    "product_urls_observed": 854
+  },
+  "direct_http_check": {
+    "method": "GET with redirects enabled, 8 concurrent workers",
+    "limitation": "Cottonworld returned HTTP 429 for 716 URLs; those rows are not treated as broken."
+  },
+  "results": {
+    "live_product_page_listed_in_sitemap": 540,
+    "http_verified_404": 65,
+    "not_listed_in_sitemap_needs_follow_up": 315
+  },
+  "output": "outputs/cottonworld-url-validation-20260806/Cottonworld_Suggested_URL_Validation_2026-08-06.xlsx"
+}
