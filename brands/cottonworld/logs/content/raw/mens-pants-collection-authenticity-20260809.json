@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "claim": "The men's pants collection includes Regular Fit, Slim Fit, Casual, Drawstring, Cargo and Jogger options.",
+      "source_id": "live_mens_pants_collection",
+      "status": "supported"
+    },
+    {
+      "claim": "Men's linen pants, men's shirts and polo are valid direct Cottonworld destinations.",
+      "source_id": "live_internal_link_destinations",
+      "status": "supported"
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-09T10:27:18+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-09T10:26:27+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/mens-pants"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "The live H1 is Men's Pants.",
+        "The current visible navigation includes All, Casual, Regular Fit, Slim Fit, Drawstring, Cargo and Joggers.",
+        "Current listed products include cotton and cotton-lycra pant styles."
+      ],
+      "source_id": "live_mens_pants_collection",
+      "source_ref": "https://cottonworld.net/collections/mens-pants",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Each URL is a direct Cottonworld collection page reached from the live main navigation."
+      ],
+      "source_id": "live_internal_link_destinations",
+      "source_ref": "https://cottonworld.net/collections/men-linen-pants; https://cottonworld.net/collections/mens-shirts; https://cottonworld.net/collections/polo-collar",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Use a calm, warm, plain and low-hype voice.",
+        "Clothing should support everyday life rather than become the centre of the story."
+      ],
+      "source_id": "cottonworld_brand_voice",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    }
+  ]
+}
