@@ -1,0 +1,11 @@
+{
+  "run_id": "cottonworld-mens-pants-content-review-20260809",
+  "captured_at": "2026-08-09",
+  "target_url": "https://cottonworld.net/collections/mens-pants",
+  "sources": [
+    {"type":"user_supplied_copy","ref":"C:/Users/User/.codex/attachments/323635b9-162c-414e-97cf-5b03048232ef/pasted-text.txt","summary":"Proposed collection-page title, introductory copy, category descriptions, fabric claims, styling, care guidance, links and FAQs."},
+    {"type":"public_page_capture","ref":"https://cottonworld.net/collections/mens-pants","summary":"Live page title: 'Cotton Pants for Men | Buy Online at Cottonworld'; H1: 'Men's Pants'; 92 products shown. Navigation lists all, casual, regular fit, slim fit, drawstring, cargo, joggers, linen pants and 100% linen pants."},
+    {"type":"brand_context","ref":"brands/cottonworld/knowledge.md and brands/cottonworld/blogs/writing-style.md","summary":"Cottonworld voice is calm, warm, plain and low-hype; avoid generic best/top claims and support factual fabric/product claims."},
+    {"type":"keyword_mapping","ref":"brands/cottonworld/keywords/clusters.json","summary":"'mens pants online india' is mapped as a transactional per-category collection keyword."}
+  ]
+}
