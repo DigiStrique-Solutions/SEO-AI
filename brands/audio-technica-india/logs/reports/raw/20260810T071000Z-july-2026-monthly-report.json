@@ -1,0 +1,21 @@
+{
+  "run_id": "audio-technica-india-july-report-20260810",
+  "reporting_period": "2026-07-01 to 2026-07-31",
+  "sources": {
+    "ga4_property": "properties/496800712",
+    "gsc_property": "https://audio-technica.co.in/"
+  },
+  "ga4_organic": {
+    "may": {"users": 3559, "new_users": 3382, "sessions": 4494},
+    "june": {"users": 3931, "new_users": 3732, "sessions": 5245},
+    "july": {"users": 4856, "new_users": 4538, "sessions": 6679},
+    "july_vs_june": {"users_pct": 23.53, "new_users_pct": 21.60, "sessions_pct": 27.34},
+    "known_data_gap": "GA4 recorded 565 July organic sessions with landingPage = (not set)."
+  },
+  "gsc_web": {
+    "june": {"clicks": 6105, "impressions": 367530, "ctr": 0.0166108889, "position": 6.8211873861},
+    "july": {"clicks": 7464, "impressions": 362469, "ctr": 0.0205921058, "position": 6.3172519581},
+    "july_vs_june": {"clicks_pct": 22.26, "impressions_pct": -1.38, "ctr_pp": 0.40, "position_improvement": 0.50}
+  },
+  "deliverable": "https://docs.google.com/presentation/d/1MIPErN8JaCFEL_iMWdwg1uhvNhV1sFdxBXosoYERWlg/edit"
+}
