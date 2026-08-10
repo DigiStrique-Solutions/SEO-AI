@@ -1,0 +1,22 @@
+{
+  "run_id": "cottonworld-collection-copy-zerogpt-check-20260810",
+  "checked_at": "2026-08-10T09:42:14Z",
+  "tool": "tools/zerogpt.py",
+  "threshold": "strictly below 20%",
+  "zero_gpt": {
+    "status": "blocked",
+    "error": "ZeroGPT API returned HTTP 403: Not enough credits",
+    "note": "All reported scores are local fallback AI-pattern-risk scores, not verified ZeroGPT results."
+  },
+  "results": [
+    {"document": "Buy Men's Pants Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Shirts Online", "score": 14.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Shorts Online", "score": 14.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Workwear Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Travel Clothing Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Brunch Outfits Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Summer Clothing Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Linen Clothing Online", "score": 6.0, "status": "pass", "source": "local_fallback"},
+    {"document": "Buy Men's Cotton Clothing Online", "score": 14.0, "status": "pass", "source": "local_fallback"}
+  ]
+}
