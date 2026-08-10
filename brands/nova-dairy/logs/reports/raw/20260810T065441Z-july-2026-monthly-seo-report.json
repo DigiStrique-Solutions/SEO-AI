@@ -14,8 +14,8 @@
       "account": "google_analytics_morel-june",
       "property": "properties/500082536",
       "filter": "sessionDefaultChannelGroup EXACT Organic Search",
-      "july": {"active_users": 1099, "new_users": 1085, "sessions": 1413},
-      "june": {"active_users": 536, "new_users": 534, "sessions": 716}
+      "july": {"active_users": 1099, "new_users": 1085, "sessions": 1413, "engagement_rate": 0.6949752300070772},
+      "june": {"active_users": 536, "new_users": 534, "sessions": 716, "engagement_rate": 0.7011173184357542}
     },
     {
       "provider": "google_search_console",
@@ -60,7 +60,9 @@
     "type": "native_google_slides",
     "title": "Nova Dairy | Monthly SEO Report - July'26",
     "url": "https://docs.google.com/presentation/d/1PrDzr3upomeLeIg60IaIOO0lMt68F6EAJBsxLc-t9dg/edit",
-    "template_url": "https://docs.google.com/presentation/d/19cI_VQPwN7ZMUgLnZtyKaJxWho8lHAVanEZLp3aZCXA/edit"
+    "template_url": "https://docs.google.com/presentation/d/19cI_VQPwN7ZMUgLnZtyKaJxWho8lHAVanEZLp3aZCXA/edit",
+    "metric_detail_reference_url": "https://docs.google.com/presentation/d/1beqJ0Zqylw-56gLe0ZytxBbRbNPRaciXW0A0ngNdqoI/edit?slide=id.p6#slide=id.p6",
+    "metric_detail_update": "GA4 and GSC slides now include June values, July values, month-over-month changes, detailed observations, and editable comparison cards."
   },
   "limitations": [
     "The Semrush ranking evidence is a 15 July 2026 India snapshot, not a month-end snapshot.",
