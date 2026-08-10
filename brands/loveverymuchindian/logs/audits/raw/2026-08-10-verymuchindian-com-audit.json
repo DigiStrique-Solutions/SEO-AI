@@ -1,0 +1,20 @@
+{
+  "target_url": "https://www.verymuchindian.com/",
+  "checked_at": "2026-08-10T08:20:00Z",
+  "public_http_evidence": {
+    "homepage": "200 with canonical https://www.verymuchindian.com/ and saree-focused meta description",
+    "robots": "200 Shopify robots.txt; public products and collections crawlable; transactional routes disallowed",
+    "sitemap": "200 sitemap index listing product, collection, page, blog and localized sitemap feeds",
+    "collections": {
+      "new_arrivals": "200; self-canonical; non-empty meta description",
+      "new_arrival": "200; self-canonical; empty meta description",
+      "uncategorized": "200; self-canonical; empty meta description"
+    },
+    "legacy_product": "Sampled /products/pure-organic-linen-saree-bright-pink-hand-dyed-2 returned 200 and exposed canonical https://www.verymuchindian.com/collections/uncategorized."
+  },
+  "blocked": {
+    "pagespeed_crux": "Timed out after 65 seconds; no performance pass/fail asserted.",
+    "rendered_crawl": "Firecrawl rendered fetch stalled; mobile and interactive UX claims not asserted.",
+    "gsc_analytics": "No connected access."
+  }
+}
