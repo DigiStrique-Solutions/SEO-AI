@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-10T06:45:00Z",
+  "provider": "Google Search Console via Composio",
+  "property": "https://audio-technica.co.in/",
+  "access": {"permissionLevel": "siteOwner"},
+  "requests": [
+    {"dimensions": ["query"], "start_date": "2026-05-10", "end_date": "2026-08-07", "search_type": "web", "row_limit": 5000, "returned_rows": 5000, "composio_log_id": "log_gGZOYrqNVlj_"},
+    {"dimensions": ["page"], "start_date": "2026-05-10", "end_date": "2026-08-07", "search_type": "web", "row_limit": 5000, "returned_rows": 630, "composio_log_id": "log_gGZOYrqNVlj_"}
+  ],
+  "selected_query_extract": [
+    {"keyword":"audio technica","clicks":3400,"impressions":22592,"position":6.22},{"keyword":"wired earphones","clicks":448,"impressions":121751,"position":8.09},{"keyword":"vinyl player","clicks":399,"impressions":41451,"position":5.05},{"keyword":"audio technica india","clicks":377,"impressions":544,"position":1.19},{"keyword":"audio technica headphones","clicks":295,"impressions":4222,"position":3.28},{"keyword":"audio technica m50x","clicks":252,"impressions":4351,"position":2.19},{"keyword":"record player","clicks":152,"impressions":20467,"position":6.05},{"keyword":"audio technica turntable","clicks":141,"impressions":1430,"position":3.04},{"keyword":"audio technica earbuds","clicks":134,"impressions":1093,"position":4.71},{"keyword":"wired headphones","clicks":117,"impressions":26712,"position":8.01},{"keyword":"vinyl record player","clicks":99,"impressions":23232,"position":5.02},{"keyword":"audio technica at2020","clicks":72,"impressions":4220,"position":4.22},{"keyword":"usb microphone","clicks":30,"impressions":4735,"position":4.61},{"keyword":"lapel mic","clicks":13,"impressions":7467,"position":7.12}
+  ],
+  "top_page_extract": [
+    {"url":"https://audio-technica.co.in/","clicks":5778,"impressions":75717,"position":6.14},{"url":"https://audio-technica.co.in/product-category/turntables/","clicks":1731,"impressions":143506,"position":5.43},{"url":"https://audio-technica.co.in/product-category/headphones/type/wired-type/","clicks":1120,"impressions":257310,"position":8.56},{"url":"https://audio-technica.co.in/product/professional-monitor-headphones-ath-m50x/","clicks":830,"impressions":35536,"position":4.87},{"url":"https://audio-technica.co.in/product-category/wired-microphones/type-wired-microphones/usb-type-wired-microphones/","clicks":118,"impressions":261447,"position":4.08}
+  ],
+  "raw_full_response_location": "Composio remote execution log log_gGZOYrqNVlj_; local payload preserves request parameters and the selected evidence used in the keyword files."
+}

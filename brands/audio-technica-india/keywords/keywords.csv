@@ -1,0 +1,27 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,status
+audio technica,navigational,homepage,https://audio-technica.co.in/,,,high,active
+audio technica headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,active
+wired earphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,opportunity
+wired headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,opportunity
+noise cancelling headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/noise-cancelling-type/,,,high,opportunity
+audio technica m50x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m50x/,,,high,active
+audio technica m20x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m20x/,,,high,active
+audio technica earbuds,transactional,category,https://audio-technica.co.in/product-category/headphones/type/in-ear/,,,high,active
+vinyl player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,opportunity
+record player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,opportunity
+vinyl record player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,opportunity
+turntable,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,opportunity
+audio technica turntable,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,active
+audio technica lp60x,transactional,product,https://audio-technica.co.in/product/fully-automatic-belt-drive-turntable-at-lp60x/,,,high,active
+audio technica lp70x,transactional,product,https://audio-technica.co.in/product/fully-automatic-belt-drive-turntable-at-lp70x/,,,high,active
+usb microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/type-wired-microphones/usb-type-wired-microphones/,,,high,opportunity
+usb mic,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/type-wired-microphones/usb-type-wired-microphones/,,,high,opportunity
+lapel mic,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/lavalier-lapel/,,,high,opportunity
+lapel mic wireless,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/lavalier-lapel/,,,high,opportunity
+wireless microphone,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/handheld-type-wireless-microphones/,,,high,opportunity
+wired microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/,,,high,opportunity
+audio technica at2020,transactional,product,https://audio-technica.co.in/product/cardioid-condenser-microphone-at2020/,,,high,active
+audio technica microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/,,,high,opportunity
+audio technica cartridge,transactional,category,https://audio-technica.co.in/product-category/cartridge/series/at-vm95-series/,,,medium,opportunity
+sony headphones alternative,commercial,comparison,,,,medium,needs_validation
+sennheiser headphones alternative,commercial,comparison,,,,medium,needs_validation

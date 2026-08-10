@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "audio-technica-india",
+  "updated_at": "2026-08-10T00:00:00Z",
+  "brand_name": "Audio-Technica India",
+  "website_url": "https://audio-technica.co.in/",
+  "logo": {"description":"Audio-Technica wordmark; exact asset URL not captured in the crawl.","icon_url":null},
+  "business_description": "India-facing ecommerce site for Audio-Technica audio products, covering headphones, wired and wireless microphones, turntables, cartridges and commercial-audio solutions.",
+  "business_model": "Direct-to-consumer ecommerce with product purchases and enquiry flows; the catalog also addresses professional and commercial-audio use cases.",
+  "brand_colors": {},
+  "brand_aesthetic": "Premium, technical and product-led, with Japanese engineering and analogue-audio heritage foregrounded.",
+  "brand_voice": {"description":"Confident, precise and enthusiast-friendly; combines engineering language with sensory listening benefits.","voice_patterns":["precision-engineered","natural, accurate audio","premium sound","audio experience","for creators, performers and music lovers"]},
+  "brand_values": ["audio quality","precision engineering","accessibility of high-quality audio","innovation","analogue heritage"],
+  "target_audience": {"primary":["music listeners and audiophiles","headphone shoppers","vinyl listeners","content creators and podcasters","musicians and live performers","gamers"],"roles":["consumer buyer","creator","audio engineer","performer","educator or presenter","commercial AV buyer"],"secondary_verticals":["recording studios","live events","education","conference and discussion systems"]},
+  "competitors": [
+    {"name":"Sony","what_it_does":"Consumer electronics brand with headphones and wireless-audio products.","website":"https://www.sony.co.in/","how_it_competes":"Competes for consumer headphone, wireless and noise-cancelling demand in India."},
+    {"name":"Sennheiser","what_it_does":"Audio brand offering headphones, microphones and professional audio equipment.","website":"https://www.sennheiser-hearing.com/en-IN/","how_it_competes":"Competes across premium headphones and professional microphone/audio categories."}
+  ],
+  "competitor_alternative_categories": ["consumer headphones and earbuds","professional microphones","turntables and vinyl playback","commercial and installed audio"],
+  "primary_business_goal": "Drive qualified ecommerce purchases and product enquiries in India.",
+  "primary_conversion": "Add to cart and complete purchase; product enquiry where a direct purchase is not available.",
+  "site_type": "Ecommerce product catalog",
+  "measurement_and_connected_sources": ["Google Tag Manager observed in homepage markup; analytics property access is not available in this setup."],
+  "open_questions": ["Confirm India operating entity, distribution model and official support terms.","Confirm first-party analytics and Search Console access.","Confirm owned social and marketplace channels.","Validate brand-color tokens and official logo asset URL from design resources."],
+  "provenance": {"run_id":"audio-technica-india-brand-dna-20260810","output_ref":"logs/web_data/raw/20260810T000000Z-brand-dna-crawl.json"}
+}

@@ -1,0 +1,50 @@
+keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status
+audio technica,navigational,homepage,https://audio-technica.co.in/,,,high,gsc,3400,22592,6.22,active
+audio technica india,navigational,homepage,https://audio-technica.co.in/,,,high,gsc,377,544,1.19,active
+audiotechnica,navigational,homepage,https://audio-technica.co.in/,,,high,gsc,154,694,3.27,active
+audio technica headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,gsc,295,4222,3.28,active
+wired earphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,gsc,448,121751,8.09,opportunity
+earphones wired,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,gsc,125,53167,9.96,opportunity
+wired headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,gsc,117,26712,8.01,opportunity
+headphones wired,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wired-type/,,,high,gsc,40,13130,10.32,opportunity
+wireless headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wireless/,,,high,gsc,11,5017,9.31,opportunity
+headphones wireless,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wireless/,,,medium,gsc,9,7005,9.92,opportunity
+noise cancelling headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/noise-cancelling-type/,,,high,gsc,6,9832,10.63,opportunity
+audio technica earbuds,transactional,category,https://audio-technica.co.in/product-category/headphones/type/in-ear/,,,high,gsc,134,1093,4.71,active
+audio technica earphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/in-ear/,,,medium,gsc,101,907,5.14,active
+audio technica m50x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m50x/,,,high,gsc,252,4351,2.19,active
+audio technica ath-m50x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m50x/,,,high,gsc,76,1959,3.22,active
+audio technica m20x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m20x/,,,high,gsc,87,3893,4.66,active
+audio technica ath m20x,transactional,product,https://audio-technica.co.in/product/professional-monitor-headphones-ath-m20x/,,,medium,gsc,22,1047,5.54,active
+audio technica m40x,transactional,product,https://audio-technica.co.in/product/professional-studio-monitor-headphones-ath-m40x/,,,medium,gsc,16,898,14.57,opportunity
+audio technica r70x,transactional,product,https://audio-technica.co.in/product/professional-open-back-reference-headphones-ath-r70x/,,,medium,gsc,13,164,6.23,active
+audio technica wireless headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wireless/,,,medium,gsc,45,390,4.69,active
+audio technica bluetooth headphones,transactional,category,https://audio-technica.co.in/product-category/headphones/type/wireless/,,,medium,gsc,27,278,4.18,active
+audio technica iem,transactional,category,https://audio-technica.co.in/product-category/headphones/type/in-ear/,,,medium,gsc,30,364,6.89,opportunity
+vinyl player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,399,41451,5.05,opportunity
+record player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,152,20467,6.05,opportunity
+vinyl record player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,99,23232,5.02,opportunity
+turntable,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,80,11644,5.62,opportunity
+audio technica turntable,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,141,1430,3.04,active
+audio technica vinyl player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,117,884,2.66,active
+audio technica record player,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,medium,gsc,65,632,2.31,active
+vinyl player india,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,high,gsc,34,767,3.92,opportunity
+record player india,transactional,category,https://audio-technica.co.in/product-category/turntables/,,,medium,gsc,22,763,4.03,opportunity
+audio technica lp60x,transactional,product,https://audio-technica.co.in/product/fully-automatic-belt-drive-turntable-at-lp60x/,,,high,gsc,63,812,4.7,active
+audio technica lp70x,transactional,product,https://audio-technica.co.in/product/fully-automatic-belt-drive-turntable-at-lp70x/,,,high,gsc,56,937,3.14,active
+usb microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/type-wired-microphones/usb-type-wired-microphones/,,,high,gsc,30,4735,4.61,opportunity
+usb mic,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/type-wired-microphones/usb-type-wired-microphones/,,,high,gsc,30,4441,5.1,opportunity
+lapel mic,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/lavalier-lapel/,,,high,gsc,13,7467,7.12,opportunity
+lapel mic wireless,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/lavalier-lapel/,,,high,gsc,14,1615,6.07,opportunity
+wireless microphone,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/handheld-type-wireless-microphones/,,,high,gsc,8,2829,11.89,opportunity
+wired microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/,,,high,gsc,10,2199,6.87,opportunity
+wired mic,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/,,,high,gsc,7,4337,9.25,opportunity
+gooseneck microphone,transactional,product,https://audio-technica.co.in/product/cardioid-condensor-gooseneck-microphone-365-mm-u857ql/,,,medium,gsc,8,946,6.7,opportunity
+audio technica at2020,transactional,product,https://audio-technica.co.in/product/cardioid-condenser-microphone-at2020/,,,high,gsc,72,4220,4.22,active
+audio technica microphone,transactional,category,https://audio-technica.co.in/product-category/wired-microphones/,,,high,gsc,21,1212,19.87,opportunity
+audio technica wireless microphone,transactional,category,https://audio-technica.co.in/product-category/wireless-microphones/type-wireless-microphones/handheld-type-wireless-microphones/,,,medium,gsc,20,109,13,opportunity
+audio technica cartridge,transactional,category,https://audio-technica.co.in/product-category/cartridge/series/at-vm95-series/,,,medium,gsc,16,201,10.21,opportunity
+sony headphones alternative,commercial,comparison,,,,medium,seed,,,,needs_validation
+sennheiser headphones alternative,commercial,comparison,,,,medium,seed,,,,needs_validation
+sony microphone alternative,commercial,comparison,,,,low,seed,,,,needs_validation
+sennheiser microphone alternative,commercial,comparison,,,,low,seed,,,,needs_validation

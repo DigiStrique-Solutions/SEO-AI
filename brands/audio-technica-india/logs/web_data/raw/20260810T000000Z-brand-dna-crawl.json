@@ -1,0 +1,18 @@
+{
+  "run_id": "audio-technica-india-brand-dna-20260810",
+  "provider": "web",
+  "fetched_at": "2026-08-10T00:00:00Z",
+  "pages": [
+    {"url":"https://audio-technica.co.in/","status":200,"evidence":"Homepage presents the catalog, purchase CTAs, core product ranges and positioning."},
+    {"url":"https://audio-technica.co.in/about/","status":200,"evidence":"Our Story documents the brand's 1962 founding by Hideo Matsushita and audio heritage."},
+    {"url":"https://audio-technica.co.in/category/","status":200,"evidence":"Product-category landing page."},
+    {"url":"https://audio-technica.co.in/contact/","status":200,"evidence":"Contact page available."},
+    {"url":"https://audio-technica.co.in/blog/","status":200,"evidence":"Blog index available."},
+    {"url":"https://audio-technica.co.in/shop/","status":200,"evidence":"Shop catalog available."}
+  ],
+  "blocked_urls": [
+    {"url":"https://audio-technica.co.in/sitemap.xml","reason":"Web retrieval returned an internal error; sitemap was not used as source evidence."},
+    {"url":"https://audio-technica.co.in/robots.txt","reason":"Web retrieval returned an internal error; robots directives were not inferred."}
+  ],
+  "source_refs": ["https://audio-technica.co.in/","https://audio-technica.co.in/about/","https://audio-technica.co.in/category/","https://audio-technica.co.in/contact/","https://audio-technica.co.in/blog/","https://audio-technica.co.in/shop/"]
+}

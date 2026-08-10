@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "pillar": true,
+    "target_url": "https://audio-technica.co.in/",
+    "members": ["audio technica", "audio technica india", "audiotechnica"]
+  },
+  "headphones": {
+    "pillar": true,
+    "target_url": "https://audio-technica.co.in/product-category/headphones/type/wired-type/",
+    "members": ["audio technica headphones", "wired earphones", "earphones wired", "wired headphones", "headphones wired", "audio technica earbuds", "audio technica earphones", "wireless headphones", "headphones wireless", "noise cancelling headphones"]
+  },
+  "headphone_models": {
+    "pillar": false,
+    "target_url": null,
+    "members": ["audio technica m50x", "audio technica ath-m50x", "audio technica m20x", "audio technica ath m20x", "audio technica m40x", "audio technica r70x", "audio technica wireless headphones", "audio technica bluetooth headphones", "audio technica iem"]
+  },
+  "turntables_and_vinyl": {
+    "pillar": true,
+    "target_url": "https://audio-technica.co.in/product-category/turntables/",
+    "members": ["vinyl player", "record player", "vinyl record player", "turntable", "audio technica turntable", "audio technica vinyl player", "audio technica record player", "vinyl player india", "record player india", "audio technica lp60x", "audio technica lp70x"]
+  },
+  "microphones": {
+    "pillar": true,
+    "target_url": "https://audio-technica.co.in/product-category/wired-microphones/",
+    "members": ["usb microphone", "usb mic", "lapel mic", "lapel mic wireless", "wireless microphone", "wired microphone", "wired mic", "gooseneck microphone", "audio technica at2020", "audio technica microphone", "audio technica wireless microphone"]
+  },
+  "cartridges": {
+    "pillar": true,
+    "target_url": "https://audio-technica.co.in/product-category/cartridge/series/at-vm95-series/",
+    "members": ["audio technica cartridge"]
+  },
+  "competitor_comparisons": {
+    "pillar": false,
+    "target_url": null,
+    "members": ["sony headphones alternative", "sennheiser headphones alternative", "sony microphone alternative", "sennheiser microphone alternative"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "audio-technica-india",
+  "display_name": "Audio-Technica India",
+  "status": "ready_with_data_gaps",
+  "primary_domain": "audio-technica.co.in",
+  "domains": ["audio-technica.co.in"],
+  "locale": "en-IN",
+  "market": "India",
+  "created_at": "2026-08-10T00:00:00Z",
+  "updated_at": "2026-08-10T06:55:00Z",
+  "pointers": {"context":"context.md","brand_dna":"brand-dna.json","knowledge":"knowledge.md","keywords":"keywords/","blogs":"blogs/","audits":"audits/","logs":"logs/","setup_checklist":"tasks/brand-setup.checklist.json"},
+  "counts": {"audits":6,"blogs":1,"keywords":26},
+  "known_gaps": ["Keyword Planner demand data unavailable; volume and difficulty are blank.","A full crawl/link graph and rendered-browser validation were not available for the audit baseline.","Live blog inventory contains only a default WordPress starter post."]
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "audio-technica-india-blogs-20260810T064046Z",
+  "source": "web.fetch",
+  "source_ref": "https://audio-technica.co.in/blog/",
+  "fetched_at": "2026-08-10T12:10:46+05:30",
+  "status": "success",
+  "extracted": {
+    "page_title": "Blog - Audio Technica",
+    "posts_visible": 1,
+    "posts": [
+      {
+        "title": "Hello world!",
+        "url": "https://audio-technica.co.in/hello-world/",
+        "date_displayed": "August 16, 2024",
+        "category": "Uncategorized",
+        "excerpt": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!"
+      }
+    ]
+  },
+  "raw_excerpt": "The rendered /blog/ index showed a single post card, Hello world!, in Uncategorized, published August 16, 2024. No pagination or additional posts were visible in the fetched rendered page."
+}

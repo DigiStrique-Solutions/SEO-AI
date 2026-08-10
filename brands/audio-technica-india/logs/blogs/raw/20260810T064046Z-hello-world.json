@@ -1,0 +1,17 @@
+{
+  "run_id": "audio-technica-india-blogs-20260810T064046Z",
+  "source": "web.fetch",
+  "source_ref": "https://audio-technica.co.in/hello-world/",
+  "fetched_at": "2026-08-10T12:10:46+05:30",
+  "status": "success",
+  "extracted": {
+    "page_title": "Hello world! - Audio Technica",
+    "title": "Hello world!",
+    "published_date_displayed": "August 16, 2024",
+    "category": "Uncategorized",
+    "body_excerpt": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+    "meta_description": null,
+    "notes": "The rendered page also contained third-party comment spam. It is not treated as editorial content."
+  },
+  "raw_excerpt": "The rendered page identifies the post as Hello world!, in Uncategorized, published August 16, 2024, with the standard WordPress starter-post text."
+}

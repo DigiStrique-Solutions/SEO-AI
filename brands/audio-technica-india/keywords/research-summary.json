@@ -1,0 +1,14 @@
+{
+  "run_id": "audio-technica-india-keywords-20260810",
+  "generated_at": "2026-08-10T06:45:00Z",
+  "date_range": {"start_date": "2026-05-10", "end_date": "2026-08-07", "timezone": "UTC"},
+  "target_country": "India",
+  "gsc_property": "https://audio-technica.co.in/",
+  "sources": ["Google Search Console", "brand-dna seeds"],
+  "default_source": "Google Search Console",
+  "counts": {"universe_keywords": 49, "curated_keywords": 26, "clusters": 7, "gsc_query_rows_retrieved": 5000, "gsc_page_rows_retrieved": 630},
+  "difficulty_scale": {"min": 0, "max": 100, "status": "No keyword-difficulty metric is populated until a demand provider is connected; any future populated value must be numeric 0-100."},
+  "demand_data": {"provider": "keyword_planner", "status": "blocked", "reason": "No active DataForSEO/Google Ads demand-data connection was available; no volume or difficulty values were estimated."},
+  "blockers": ["keyword_planner_unavailable"],
+  "provenance": {"activity_log": "logs/keywords/activity.jsonl", "gsc_raw_payload": "logs/keywords/raw/20260810T064500Z-gsc-keyword-research.json", "keyword_planner_raw_payload": "logs/keywords/raw/20260810T064033Z-keyword-planner-availability.json"}
+}

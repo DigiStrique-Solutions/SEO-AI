@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-08-10T06:40:33Z",
+  "action": "connector_discovery",
+  "requested_provider": "Google Ads Keyword Planner",
+  "available_route": "DataForSEO Google Ads keyword ideas",
+  "connection_status": "no_active_connection",
+  "result": "blocked_before_api_call",
+  "reason": "The discovered demand-data toolkit required an active connection. No connection was created or used."
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "audio-technica-india-audit-20260810T064142Z",
+  "source": "public HTTP sampling via Invoke-WebRequest",
+  "checked_at": "2026-08-10T06:41:42Z",
+  "scope": "homepage plus robots, sitemap, category, blog and llms.txt endpoints; this is not a full crawl",
+  "results": [
+    {"url":"https://audio-technica.co.in/","status":200,"final_url":"https://audio-technica.co.in/","content_length":384584,"title":"Audio-Technica: Headphones, Microphones & Turntables","meta_description":"Explore Audio-Technica headphones, microphones & turntables in India. Best headphone and mic for music lovers, creators, and home studio.","h1_count":5,"h2_count":17,"image_count":52,"images_with_nonempty_alt":44,"images_empty_alt":5,"images_without_alt_attribute":3,"canonical":"https://audio-technica.co.in/","jsonld_blocks":1,"heading_levels":"1,1,1,1,1,2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2,2,3,2,3,2,3,2,3,2,3,2,3,2,4,4,4,4,4,2,2,2,2","jsonld_types":["WebPage","BreadcrumbList","WebSite","Organization"],"organization_schema_has_sameAs":false},
+    {"url":"https://audio-technica.co.in/robots.txt","status":200,"content":"User-agent: *; Disallow: /wp-content/uploads/wc-logs/; Disallow: /wp-content/uploads/woocommerce_transient_files/; Disallow: /wp-content/uploads/woocommerce_uploads/; Disallow: /*?add-to-cart=; Disallow: /*?*add-to-cart=; Disallow: /wp-admin/; Allow: /wp-admin/admin-ajax.php; Crawl-delay: 10; Sitemap: https://audio-technica.co.in/sitemap_index.xml"},
+    {"url":"https://audio-technica.co.in/sitemap_index.xml","status":200,"content_length":2465,"observed":"XML sitemap index reachable; referenced from robots.txt"},
+    {"url":"https://audio-technica.co.in/sitemap.xml","status":200,"final_url":"https://audio-technica.co.in/sitemap_index.xml","content_length":2465},
+    {"url":"https://audio-technica.co.in/category/","status":200,"content_length":275737,"title":"Explore Audio-Technica Headphones, Microphones & Mics","h1_count":10,"h2_count":3,"canonical":"https://audio-technica.co.in/category/","jsonld_blocks":1},
+    {"url":"https://audio-technica.co.in/blog/","status":200,"content_length":275514,"title":"Blog - Audio Technica","h1_count":3,"h2_count":7,"canonical":"https://audio-technica.co.in/blog/","jsonld_blocks":1},
+    {"url":"https://audio-technica.co.in/llms.txt","status":404,"error":"The remote server returned an error: (404) Not Found."}
+  ],
+  "limitations":["No authenticated Google Search Console connection","No full crawl/link graph","No rendered-browser schema validation","No AI-answer-engine manual visibility testing"]
+}
