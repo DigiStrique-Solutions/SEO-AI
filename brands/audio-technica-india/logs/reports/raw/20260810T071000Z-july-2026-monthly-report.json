@@ -17,5 +17,15 @@
     "july": {"clicks": 7464, "impressions": 362469, "ctr": 0.0205921058, "position": 6.3172519581},
     "july_vs_june": {"clicks_pct": 22.26, "impressions_pct": -1.38, "ctr_pp": 0.40, "position_improvement": 0.50}
   },
+  "report_detail_update": {
+    "updated_at": "2026-08-10T07:15:00Z",
+    "reference_deck": "https://docs.google.com/presentation/d/1beqJ0Zqylw-56gLe0ZytxBbRbNPRaciXW0A0ngNdqoI/edit",
+    "added": ["June-to-July position comparison for 18 tracked queries", "GA4 organic engagement comparison"],
+    "ga4_organic_engagement": {
+      "june": {"engagement_rate": 0.6510962822, "engaged_sessions": 3415, "screen_page_views": 14764, "average_session_duration_seconds": 199.7781567, "sessions_per_user": 1.3448717949},
+      "july": {"engagement_rate": 0.6551879024, "engaged_sessions": 4376, "screen_page_views": 18857, "average_session_duration_seconds": 244.2969819, "sessions_per_user": 1.3920383493}
+    },
+    "tracked_query_movement": {"improved": 8, "declined": 9, "unchanged": 1}
+  },
   "deliverable": "https://docs.google.com/presentation/d/1MIPErN8JaCFEL_iMWdwg1uhvNhV1sFdxBXosoYERWlg/edit"
 }
