@@ -1,0 +1,69 @@
+{
+  "run_id": "nova-dairy-monthly-report-2026-07",
+  "brand_id": "nova-dairy",
+  "website": "https://steragro.com/",
+  "reporting_period": {
+    "start_date": "2026-07-01",
+    "end_date": "2026-07-31",
+    "comparison_start_date": "2026-06-01",
+    "comparison_end_date": "2026-06-30"
+  },
+  "sources": [
+    {
+      "provider": "google_analytics",
+      "account": "google_analytics_morel-june",
+      "property": "properties/500082536",
+      "filter": "sessionDefaultChannelGroup EXACT Organic Search",
+      "july": {"active_users": 1099, "new_users": 1085, "sessions": 1413},
+      "june": {"active_users": 536, "new_users": 534, "sessions": 716}
+    },
+    {
+      "provider": "google_search_console",
+      "account": "google_search_console_sate-canopy",
+      "property": "https://steragro.com/",
+      "search_type": "web",
+      "july": {"clicks": 1289, "impressions": 21867, "ctr": 0.0589472721, "position": 4.8709},
+      "june": {"clicks": 481, "impressions": 8021, "ctr": 0.059968, "position": 5.00885},
+      "top_pages_july": [
+        {"page": "https://steragro.com/", "clicks": 841, "impressions": 10320, "ctr": 0.081492, "position": 4.9367},
+        {"page": "https://steragro.com/contact-us/", "clicks": 123, "impressions": 2868, "ctr": 0.042887, "position": 4.9006},
+        {"page": "https://steragro.com/leadership/", "clicks": 75, "impressions": 1315, "ctr": 0.057034, "position": 3.5544},
+        {"page": "https://steragro.com/products/skimmed-milk-powder/", "clicks": 73, "impressions": 3116, "ctr": 0.023427, "position": 4.1919},
+        {"page": "https://steragro.com/products/dairy-creamer/", "clicks": 54, "impressions": 2019, "ctr": 0.026746, "position": 5.3403},
+        {"page": "https://steragro.com/products/dairy-whitener/", "clicks": 46, "impressions": 4294, "ctr": 0.010713, "position": 3.8642},
+        {"page": "https://steragro.com/products/shudh-ghee/", "clicks": 46, "impressions": 3747, "ctr": 0.012276, "position": 5.7785},
+        {"page": "https://steragro.com/manufacturing-plants/", "clicks": 29, "impressions": 1298, "ctr": 0.022342, "position": 4.6163},
+        {"page": "https://steragro.com/products/cow-ghee/", "clicks": 15, "impressions": 1018, "ctr": 0.014735, "position": 5.5648},
+        {"page": "https://steragro.com/our-company/", "clicks": 14, "impressions": 1688, "ctr": 0.008294, "position": 4.5634}
+      ]
+    },
+    {
+      "provider": "semrush",
+      "account": "semrush_blash-faun",
+      "database": "India",
+      "snapshot_date": "2026-07-15",
+      "keywords": [
+        {"keyword": "nova dairy", "volume": 390, "position": 1},
+        {"keyword": "nova dairy products", "volume": 110, "position": 1},
+        {"keyword": "nova skimmed milk powder", "volume": 140, "position": 1},
+        {"keyword": "nova ghee", "volume": 2400, "position": 1},
+        {"keyword": "nova dairy whitener", "volume": 170, "position": 1},
+        {"keyword": "nova dahi", "volume": 110, "position": 2},
+        {"keyword": "nova dairy creamer", "volume": 390, "position": 2},
+        {"keyword": "nova milk powder", "volume": 880, "position": 3},
+        {"keyword": "dairy whitener", "volume": 2400, "position": 13},
+        {"keyword": "flavoured milk", "volume": 3600, "position": 26}
+      ]
+    }
+  ],
+  "output": {
+    "type": "native_google_slides",
+    "title": "Nova Dairy | Monthly SEO Report - July'26",
+    "url": "https://docs.google.com/presentation/d/1PrDzr3upomeLeIg60IaIOO0lMt68F6EAJBsxLc-t9dg/edit",
+    "template_url": "https://docs.google.com/presentation/d/19cI_VQPwN7ZMUgLnZtyKaJxWho8lHAVanEZLp3aZCXA/edit"
+  },
+  "limitations": [
+    "The Semrush ranking evidence is a 15 July 2026 India snapshot, not a month-end snapshot.",
+    "Repository and Drive evidence did not verify completion of several planned July implementation workstreams; the report labels those items confirmation required."
+  ]
+}
