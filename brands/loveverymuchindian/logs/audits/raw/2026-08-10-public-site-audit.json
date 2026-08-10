@@ -1,0 +1,32 @@
+{
+  "target_url": "https://loveverymuchindian.shop/",
+  "checked_at": "2026-08-10T07:05:29Z",
+  "sources": {
+    "reference_decks": [
+      "https://docs.google.com/presentation/d/1an1aM4sUrLzCJKPCcVhjkIBoCiS6WEv6/edit",
+      "https://docs.google.com/presentation/d/1DLt6f3CIR99sqKgJ7wqGhgEQO86uHjqcmpqj-qecW6Q/edit"
+    ],
+    "crawl": {
+      "provider": "firecrawl",
+      "observed_paths": ["/", "/store", "/about", "/categories/new-arrival", "/categories/new-arrivals", "/categories/demooo", "/products/pure-organic-linen-saree-bright-pink-hand-dyed-2"],
+      "mobile_observation": "Homepage category tiles returned No Image placeholders in a rendered mobile fetch."
+    },
+    "http_checks": {
+      "robots_txt": "200; allows public crawl and declares sitemap",
+      "sitemap_xml": "200; index references pages, collections, categories, and product sitemaps",
+      "representative_statuses": "Homepage, product, new-arrival, new-arrivals, and demooo each returned 200",
+      "metadata": "The two New Arrival paths and demooo each self-canonicalize; New Arrival pages had no meta description."
+    },
+    "cwv": {
+      "provider": "Google PageSpeed Insights and CrUX",
+      "strategy": "mobile",
+      "lab": {"performance": 86, "accessibility": 87, "seo": 100, "lcp_ms": 2885, "fcp_ms": 2885, "tbt_ms": 201, "cls": 0.005},
+      "field_p75": {"lcp_ms": 2594, "fcp_ms": 2352, "inp_ms": 100, "cls": 0, "ttfb_ms": 1313},
+      "field_overall": "AVERAGE"
+    }
+  },
+  "limitations": [
+    "No Google Search Console, analytics, CMS, or server-log access.",
+    "The local interactive-browser binding was unavailable, so click-path, keyboard, checkout, and live visual interaction checks are not verified."
+  ]
+}
