@@ -1,0 +1,47 @@
+{
+  "run_id": "20260812T-athleisure-capsule",
+  "access_date": "2026-08-12",
+  "topic": "Women's Athleisure in India: How to Build a Capsule Workout-to-Weekend Wardrobe",
+  "serp_query": "activewear capsule wardrobe women India",
+  "search_id": "019ff4d1-c30b-74af-b2ff-455e47e7ba18",
+  "serp_benchmark": [
+    {
+      "rank": 1,
+      "title": "Polyester-Free Activewear Capsule Wardrobe India",
+      "url": "https://www.wearthactive.com/blogs/news/polyester-free-activewear-capsule-wardrobe-india",
+      "approx_words": 392,
+      "tone": "informative, casual and encouraging",
+      "structure": "definition, two factual points, six-piece capsule, buying guidance, use cases and FAQ"
+    },
+    {
+      "rank": 3,
+      "title": "The Rule of Nine: Building an Activewear Wardrobe That Actually Gets Worn",
+      "url": "https://www.ryzstore.com/blogs/ryz-styling-modern-indian-women/rule-of-nine-activewear-capsule-wardrobe-women",
+      "approx_words": 1538,
+      "tone": "informative, conversational and persuasive",
+      "structure": "narrative problem, wardrobe arithmetic, nine-piece framework, comparison table, recommendations and FAQ"
+    },
+    {
+      "rank": 4,
+      "title": "The Art of Less is More: How to Build the Ultimate Capsule Activewear Wardrobe for Indian Women",
+      "url": "https://www.silvertraq.com/blogs/blog/the-art-of-less-is-more-how-to-build-the-ultimate-capsule-activewear-wardrobe-for-indian-women",
+      "approx_words": 1027,
+      "tone": "informative, encouraging and style-led",
+      "structure": "question-led opening, numbered wardrobe pieces and mix-and-match guidance"
+    }
+  ],
+  "benchmark_decision": "Create an original ~1500-word, direct and conversational guide with a product-led seven-piece capsule, one compact comparison table, repeatable outfit formulas and a short FAQ. Preserve OFFLIMITS' own voice and do not reproduce competitor wording or structure verbatim.",
+  "official_product_sources": [
+    {"title":"Core Cropped Tights","url":"https://offlimits.co.in/products/core-cropped-tights-obw-433-02","status":"limited stock","verified_facts":["90% polyester / 10% spandex","elasticated closure","Wicktech","olive/white page colour; imagery appears black with white piping"]},
+    {"title":"Sprint 07 Shorts","url":"https://offlimits.co.in/products/sprint-07-shorts-obw-474-01","status":"available","verified_facts":["lime punch/white","90% polyester / 10% spandex","Wicktech"]},
+    {"title":"Transform Cargo Pants","url":"https://offlimits.co.in/products/transform-cargo-pants-obw-464-01","status":"limited stock","verified_facts":["grey","55% polyester / 45% cotton","mid rise","cord closure"]},
+    {"title":"Laidback Co-ord Set - Mustard/White","url":"https://offlimits.co.in/products/laidback-co-ord-set-mustard-white-otw-440-02","status":"in stock","verified_facts":["mustard/white","90% polyester / 10% spandex","zip closure","high neck","pockets"]},
+    {"title":"Gladiator For Her - Off White/Pink","url":"https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03","status":"in stock","verified_facts":["running and gym","Flyknit upper","Phylon/TPR sole","memory foam insole"]},
+    {"title":"Pulse X For Her - Black/Dark Grey","url":"https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02","status":"available","verified_facts":["running and gym","mesh upper","Phylon/TPR sole","PU moulded insock"]}
+  ],
+  "limitations": [
+    "No connected first-party keyword-volume source was available; keyword volumes and difficulty were not invented.",
+    "Prices were intentionally omitted because they are time-sensitive.",
+    "An out-of-stock tee was excluded from product recommendations."
+  ]
+}

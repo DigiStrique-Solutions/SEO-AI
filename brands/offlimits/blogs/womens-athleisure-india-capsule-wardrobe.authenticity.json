@@ -1,0 +1,131 @@
+{
+  "claims": [
+    {
+      "claim": "Core Cropped Tights use a 90% polyester / 10% spandex blend, elasticated closure and Wicktech.",
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-core-tights"
+      ]
+    },
+    {
+      "claim": "Sprint 07 Shorts use a 90% polyester / 10% spandex blend and Wicktech.",
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-sprint-shorts"
+      ]
+    },
+    {
+      "claim": "Transform Cargo Pants are grey, mid-rise, use a cord closure and a 55% polyester / 45% cotton blend.",
+      "claim_id": "claim-03",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-transform-cargo"
+      ]
+    },
+    {
+      "claim": "Laidback Co-ord Set is mustard/white and lists a zip closure, high neck, pockets and a 90% polyester / 10% spandex blend.",
+      "claim_id": "claim-04",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-laidback-coord"
+      ]
+    },
+    {
+      "claim": "Gladiator For Her is positioned for running and gym use and lists Flyknit, a Phylon/TPR sole and memory-foam insole.",
+      "claim_id": "claim-05",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-gladiator-her"
+      ]
+    },
+    {
+      "claim": "Pulse X For Her is positioned for running and gym use and lists a mesh upper, Phylon/TPR sole and PU-moulded insock.",
+      "claim_id": "claim-06",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-pulse-x-her"
+      ]
+    },
+    {
+      "claim": "The article starts with the customer's routine, makes named products the heroes, uses technology as supporting proof and avoids waterproof or universal performance claims.",
+      "claim_id": "claim-07",
+      "claim_type": "comparison",
+      "source_ids": [
+        "offlimits-fundamentals"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-12T07:27:30+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-12T07:25:57+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "brands/offlimits/blogs/womens-athleisure-india-capsule-wardrobe.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "90% polyester / 10% spandex; elasticated closure; Wicktech; limited stock.",
+      "source_id": "offlimits-core-tights",
+      "source_ref": "https://offlimits.co.in/products/core-cropped-tights-obw-433-02; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Lime punch/white; 90% polyester / 10% spandex; Wicktech; available.",
+      "source_id": "offlimits-sprint-shorts",
+      "source_ref": "https://offlimits.co.in/products/sprint-07-shorts-obw-474-01; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Grey; mid-rise; cord closure; 55% polyester / 45% cotton; limited stock.",
+      "source_id": "offlimits-transform-cargo",
+      "source_ref": "https://offlimits.co.in/products/transform-cargo-pants-obw-464-01; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Mustard/white; 90% polyester / 10% spandex; zip closure; high neck; pockets; in stock.",
+      "source_id": "offlimits-laidback-coord",
+      "source_ref": "https://offlimits.co.in/products/laidback-co-ord-set-mustard-white-otw-440-02; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Off white/pink running and gym shoe; Flyknit; Phylon/TPR sole; memory-foam insole; in stock.",
+      "source_id": "offlimits-gladiator-her",
+      "source_ref": "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Black/dark-grey running and gym shoe; mesh upper; Phylon/TPR sole; PU-moulded insock; available.",
+      "source_id": "offlimits-pulse-x-her",
+      "source_ref": "https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02; verified 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Lead with the customer problem and buying journey; make named products the heroes; use technology as support; write benefit-led copy; avoid unsupported weather, waterproof or superiority claims; conclude before CTA.",
+      "source_id": "offlimits-fundamentals",
+      "source_ref": "brands/offlimits/fundamentals.md; brands/offlimits/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant results range from about 392 to 1,538 words and commonly use conversational openings, compact capsule frameworks, outfit guidance and FAQs.",
+      "source_id": "serp-benchmark",
+      "source_ref": "Three live organic blog results accessed 2026-08-12; raw evidence brands/offlimits/logs/content/raw/20260812T-athleisure-capsule-serp-and-products.json",
+      "source_type": "competitor_page"
+    }
+  ]
+}

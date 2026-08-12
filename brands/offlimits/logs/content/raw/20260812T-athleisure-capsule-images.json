@@ -1,0 +1,18 @@
+{
+  "run_id": "20260812T-athleisure-capsule-images",
+  "created_at": "2026-08-12T00:00:00+05:30",
+  "source": "live OFFLIMITS product pages and official Shopify product-gallery images",
+  "outputs": [
+    {
+      "file": "brands/offlimits/blogs/creatives/womens-athleisure-capsule/offlimits-womens-athleisure-capsule-hero.png",
+      "purpose": "blog hero",
+      "product_references": ["Core Cropped Tights","Laidback Co-ord Set - Mustard/White","Gladiator For Her - Off White/Pink"]
+    },
+    {
+      "file": "brands/offlimits/blogs/creatives/womens-athleisure-capsule/offlimits-womens-athleisure-capsule-flatlay.png",
+      "purpose": "seven-piece capsule explainer",
+      "product_references": ["Core Cropped Tights","Transform Cargo Pants","Sprint 07 Shorts","Laidback Co-ord Set - Mustard/White","Pulse X For Her - Black/Dark Grey"]
+    }
+  ],
+  "editorial_note": "Generated compositions use official product imagery as strict visual reference. No additional product-performance claims are implied by the scenes."
+}
