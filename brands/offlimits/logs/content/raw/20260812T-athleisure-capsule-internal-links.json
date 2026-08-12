@@ -1,0 +1,18 @@
+{
+  "run_id": "20260812T-athleisure-capsule-internal-links",
+  "verified_at": "2026-08-12T13:30:00+05:30",
+  "target": "brands/offlimits/blogs/womens-athleisure-india-capsule-wardrobe.md",
+  "requirement": "At least three relevant internal links in the publishable body, including product/collection, supporting editorial, and linked commercial CTA destinations.",
+  "links": [
+    {"anchor":"Core Cropped Tights","url":"https://offlimits.co.in/products/core-cropped-tights-obw-433-02","role":"contextual product","status_code":200},
+    {"anchor":"Sprint 07 Shorts","url":"https://offlimits.co.in/products/sprint-07-shorts-obw-474-01","role":"contextual product","status_code":200},
+    {"anchor":"Transform Cargo Pants","url":"https://offlimits.co.in/products/transform-cargo-pants-obw-464-01","role":"contextual product","status_code":200},
+    {"anchor":"styling graphic tees for women","url":"https://offlimits.co.in/blogs/blogs/how-to-style-graphic-tees-for-women-trendy-tips-for-every-look","role":"supporting blog","status_code":200},
+    {"anchor":"Laidback Co-ord Set in Mustard/White","url":"https://offlimits.co.in/products/laidback-co-ord-set-mustard-white-otw-440-02","role":"contextual product","status_code":200},
+    {"anchor":"Gladiator For Her in Off White/Pink","url":"https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03","role":"contextual product","status_code":200},
+    {"anchor":"Pulse X For Her in Black/Dark Grey","url":"https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02","role":"contextual product","status_code":200},
+    {"anchor":"difference between running and gym shoes","url":"https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes","role":"supporting blog","status_code":200},
+    {"anchor":"OFFLIMITS women's gym and training styles","url":"https://offlimits.co.in/collections/women-gym-training","role":"commercial CTA collection","status_code":200}
+  ],
+  "notes": "Live fetches returned HTTP 200 for the supporting blog and collection targets. Product targets were reverified during the same article run on 2026-08-12. Links use direct OFFLIMITS canonical URLs and descriptive anchors."
+}

@@ -70,6 +70,13 @@ These rules apply to all OFFLIMITS blogs, buying guides and other customer-facin
 - Preserve the approved canonical brand name and technology spellings in `knowledge.md`.
 - Run the content authenticity and AI-pattern gates required by the workspace before marking customer-facing copy publish-ready.
 
+## 10. Build the internal journey
+
+- Every blog must include at least three useful internal links in the publishable body: a relevant product or collection link, a supporting OFFLIMITS blog/guide/category link, and a linked conclusion or CTA that advances the shopping journey.
+- Add links where they answer the reader's next question or help them act on the recommendation; a detached source list does not satisfy this requirement.
+- Use natural, descriptive anchor text. Avoid generic anchors such as “click here” and avoid repeating the same exact-match phrase mechanically.
+- Verify that every destination is live and points directly to the intended OFFLIMITS canonical URL before handoff.
+
 ## Recommended OFFLIMITS buying-guide flow
 
 1. Customer problem and the decision the guide will solve.
@@ -79,4 +86,4 @@ These rules apply to all OFFLIMITS blogs, buying guides and other customer-facin
 5. Clear product comparison or shortlist.
 6. Direct fit or buying reminder where useful.
 7. Conclusion that recaps the value.
-8. Relevant product and collection CTA.
+8. Relevant linked product or collection CTA.

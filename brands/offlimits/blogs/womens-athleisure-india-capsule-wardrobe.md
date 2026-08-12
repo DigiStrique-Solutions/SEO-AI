@@ -26,19 +26,19 @@ Think in outfit jobs, not shopping categories. A useful starting capsule has two
 
 ### 1. Cropped tights for training days
 
-Start with the bottom you will reach for most. OFFLIMITS **Core Cropped Tights** are a sensible anchor for gym sessions, yoga and walks. The black colour and white side piping are easy to repeat, while the cropped cut keeps the silhouette clean with trainers or an open jacket. The current product page lists a 90% polyester and 10% spandex blend, an elasticated closure and Wicktech.
+Start with the bottom you will reach for most. OFFLIMITS [**Core Cropped Tights**](https://offlimits.co.in/products/core-cropped-tights-obw-433-02) are a sensible anchor for gym sessions, yoga and walks. The black colour and white side piping are easy to repeat, while the cropped cut keeps the silhouette clean with trainers or an open jacket. The current product page lists a 90% polyester and 10% spandex blend, an elasticated closure and Wicktech.
 
 What does that mean in the wardrobe? These are your movement-first bottoms. Wear them with a fitted training tank for class, then add a relaxed jacket when you leave. Because the palette is simple, you are not locked into one matching set.
 
 ### 2. Shorts for hot, high-movement sessions
 
-Indian heat can make full-length bottoms feel like work before the workout even begins. The lime-punch **Sprint 07 Shorts** give your capsule a brighter training option. OFFLIMITS lists a 90% polyester and 10% spandex blend and Wicktech for this style.
+Indian heat can make full-length bottoms feel like work before the workout even begins. The lime-punch [**Sprint 07 Shorts**](https://offlimits.co.in/products/sprint-07-shorts-obw-474-01) give your capsule a brighter training option. OFFLIMITS lists a 90% polyester and 10% spandex blend and Wicktech for this style.
 
 Let the colour do the talking: pair the shorts with a plain black tank and neutral shoes. After the session, pull on the co-ord jacket rather than adding another loud piece. That one styling choice takes the look from gym-only to intentional.
 
 ### 3. A relaxed bottom for recovery and weekends
 
-Here is the piece that gives the capsule range. The grey **Transform Cargo Pants** bring a less fitted shape into a wardrobe built around active basics. The product page describes them as mid-rise, with a cord closure and a 55% polyester and 45% cotton fabric blend.
+Here is the piece that gives the capsule range. The grey [**Transform Cargo Pants**](https://offlimits.co.in/products/transform-cargo-pants-obw-464-01) bring a less fitted shape into a wardrobe built around active basics. The product page describes them as mid-rise, with a cord closure and a 55% polyester and 45% cotton fabric blend.
 
 They are the answer for travel, errands, relaxed walks and post-workout plans when you do not want to stay in tights. Style them with a close-fitting tee so the volume feels balanced. For a weekend lunch, keep the same base and add small earrings or a crossbody bag. The clothes stay comfortable; the finish changes.
 
@@ -52,19 +52,19 @@ Do the fitting-room test, even when you shop online: raise your arms, twist, sit
 
 Your second upper-body basic has a different job. It should give you space after a workout and look natural with relaxed trousers. Pick a solid or restrained graphic tee in a colour already present in your capsule—black, white, grey or a tone borrowed from your jacket.
 
-Wear it loose over the cropped tights for the journey home, or half-tuck it into the Transform Cargo Pants for a weekend outfit. This is also the piece that lets you repeat the same bottom two days apart without the outfits feeling identical.
+Wear it loose over the cropped tights for the journey home, or half-tuck it into the Transform Cargo Pants for a weekend outfit. If you want more ways to use this layer, OFFLIMITS' guide to [styling graphic tees for women](https://offlimits.co.in/blogs/blogs/how-to-style-graphic-tees-for-women-trendy-tips-for-every-look) offers a natural next read.
 
 ### 6. A light layer that can finish the outfit
 
-A layer is the switch between “I just trained” and “I am dressed for the day.” The **Laidback Co-ord Set in Mustard/White** is useful because its jacket and trousers can work together or separately. OFFLIMITS lists a zip closure, high neck, pockets and a 90% polyester and 10% spandex fabric blend.
+A layer is the switch between “I just trained” and “I am dressed for the day.” The [**Laidback Co-ord Set in Mustard/White**](https://offlimits.co.in/products/laidback-co-ord-set-mustard-white-otw-440-02) is useful because its jacket and trousers can work together or separately. OFFLIMITS lists a zip closure, high neck, pockets and a 90% polyester and 10% spandex fabric blend.
 
 Use the jacket open over tights and a tank after a studio session. Zip it partway for an evening walk, or wear the full co-ord when you want one decision instead of three. The mustard colour adds personality, while the white panels still connect easily with neutral trainers.
 
 ### 7. Shoes chosen for the workout—not just the mirror
 
-Finish the capsule from the ground up. If your week combines running and gym training, choose a shoe whose product page is built for those uses. OFFLIMITS describes **Gladiator For Her in Off White/Pink** as a lace-up running and gym shoe with a Flyknit upper, Phylon/TPR sole and memory-foam insole. The pale colour works smoothly with black tights and the mustard co-ord.
+Finish the capsule from the ground up. If your week combines running and gym training, choose a shoe whose product page is built for those uses. OFFLIMITS describes [**Gladiator For Her in Off White/Pink**](https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03) as a lace-up running and gym shoe with a Flyknit upper, Phylon/TPR sole and memory-foam insole. The pale colour works smoothly with black tights and the mustard co-ord.
 
-Prefer a darker shoe? **Pulse X For Her in Black/Dark Grey** is another running-and-gym option. Its product page lists a mesh upper, Phylon/TPR sole and PU-moulded insock. It makes visual sense with the black tights and grey cargo pants, so it can cover both training and casual miles.
+Prefer a darker shoe? [**Pulse X For Her in Black/Dark Grey**](https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02) is another running-and-gym option. Its product page lists a mesh upper, Phylon/TPR sole and PU-moulded insock. It makes visual sense with the black tights and grey cargo pants, so it can cover both training and casual miles. If you are still deciding which construction fits your routine, compare the [difference between running and gym shoes](https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes) before choosing.
 
 Try shoes with the socks you normally train in, and leave enough room for your toes to move. Fit is personal; the colourway is only useful if the shoe feels right for your foot and your routine.
 
@@ -134,7 +134,7 @@ A useful capsule is not about wearing less for the sake of it. It is about ownin
 
 With Core Cropped Tights, Sprint 07 Shorts, Transform Cargo Pants, the Laidback Co-ord and the right OFFLIMITS shoe in rotation, workout-to-weekend dressing becomes simpler: fewer abandoned purchases, more repeatable combinations and less time asking, “What do I wear now?”
 
-**Ready to build yours? Explore OFFLIMITS women's gym and training styles, then choose the pieces that match the week you actually live.**
+**Ready to build yours? Explore [OFFLIMITS women's gym and training styles](https://offlimits.co.in/collections/women-gym-training), then choose the pieces that match the week you actually live.**
 
 ---
 
