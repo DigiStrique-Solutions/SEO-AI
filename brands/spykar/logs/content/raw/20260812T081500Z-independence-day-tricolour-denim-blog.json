@@ -1,0 +1,67 @@
+{
+  "run_id": "spykar-independence-day-tricolour-blog-20260812",
+  "access_date": "2026-08-12",
+  "topic": "Independence Day Outfit Ideas: Tricolour Styling with Denim and Everyday Basics",
+  "serp_benchmark": [
+    {
+      "rank": 1,
+      "title": "Independence Day Outfit Ideas: Tricolour Without the Costume",
+      "url": "https://www.firstresort.in/blogs/news/independence-day-2026-outfit-ideas-tricolour",
+      "tone": "restrained, editorial and premium",
+      "approx_words": 900,
+      "structure": "quick answer, one-colour principle, statement piece, tonal co-ord, accent, August fabric, styling notes and shopping links"
+    },
+    {
+      "rank": 2,
+      "title": "Independence Day Outfit Ideas India 2026 — What to Wear",
+      "url": "https://stylera.co/blogs/news/independence-day-outfit-ideas-india-2026",
+      "tone": "direct, retail-led and India-specific",
+      "approx_words": 1650,
+      "structure": "question-led sections for flag hoisting, colours, parties, corporate events, rain, shopping, FAQs and a short summary"
+    },
+    {
+      "rank": 3,
+      "title": "Independence Day 2026 Outfit Ideas: Elegant Ways to Wear the Tricolour",
+      "url": "https://rashikamittal.com/blogs/journal/independence-day-2026-outfit-ideas",
+      "tone": "elegant and craft-led",
+      "approx_words": 1150,
+      "structure": "one-colour rule, ivory, saffron, green, handmade story, occasion list, FAQs and CTA"
+    }
+  ],
+  "official_source": {
+    "title": "Ministry of Home Affairs National Flag FAQ",
+    "url": "https://www.mha.gov.in/sites/default/files/FAQ_18072023.pdf",
+    "use": "High-level, linked guidance distinguishing colour-inspired styling from use of the actual National Flag in clothing or dress material."
+  },
+  "spykar_products": [
+    {"title": "Men Trooper Jeans Regular Fit White Mid Rise", "url": "https://spykar.com/products/mdact2be297white"},
+    {"title": "Women Elissa Jeans Boot Cut Fit White High Rise", "url": "https://spykar.com/products/wdeli2be018white"},
+    {"title": "Men Shirt Orange Slim Fit", "url": "https://spykar.com/products/mshcs2be178burntorange"},
+    {"title": "Women Shirt Green Regular Fit", "url": "https://spykar.com/products/wshps2be073malachitegreen"}
+  ],
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/independence-day-tricolour-denim/independence-day-tricolour-denim-banner.png",
+    "web": "brands/spykar/blogs/creatives/independence-day-tricolour-denim/independence-day-tricolour-denim-banner-800x600.jpg",
+    "dimensions": "800x600",
+    "headline": "YOUR COLOURS. YOUR WAY.",
+    "product_reference_count": 4,
+    "inline_product_images": 2
+  },
+  "quality_gates": {
+    "word_count": 2274,
+    "local_ai_pattern_risk_percent": 6.0,
+    "zerogpt_initial_percent": 22.8,
+    "zerogpt_final_percent": 17.2,
+    "zerogpt_status": "pass",
+    "authenticity_harness": "pass"
+  },
+  "google_doc": {
+    "id": "139VKseJX8X3RZ3PZl_9ES7EnAPfthM556BH_Nj5OzKg",
+    "url": "https://docs.google.com/document/d/139VKseJX8X3RZ3PZl_9ES7EnAPfthM556BH_Nj5OzKg/edit?usp=drivesdk",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "native_images": 3,
+    "readback": "pass",
+    "pdf_export_bytes": 477025,
+    "raster_qa": "not_checked_blocked: connector returned a non-local sediment file reference"
+  }
+}

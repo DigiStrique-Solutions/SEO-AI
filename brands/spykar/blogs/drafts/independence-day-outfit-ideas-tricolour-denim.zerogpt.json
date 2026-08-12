@@ -1,0 +1,13 @@
+{
+  "detector_note": {
+    "checked_at": "2026-08-12T08:15:00+00:00",
+    "max_score": 20.0,
+    "note": "Final full-draft check completed in the ZeroGPT website after a first 22.8% result was revised.",
+    "score": 17.2,
+    "source": "direct_website",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}

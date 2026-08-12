@@ -1,0 +1,161 @@
+{
+  "claims": [
+    {
+      "claim_id": "serp-editorial-benchmark",
+      "claim_type": "comparison",
+      "criteria": "The draft uses the useful one-lead-colour and occasion-led patterns found in the ranking pages, but makes the article denim-first, gender-inclusive and original rather than reproducing their ethnicwear or retailer structures.",
+      "source_ids": [
+        "serp-first-resort",
+        "serp-stylera",
+        "serp-rashika-mittal"
+      ],
+      "statement": "The article answers Independence Day outfit intent with practical colour proportion, event and monsoon guidance."
+    },
+    {
+      "claim_id": "flag-use-guidance",
+      "claim_type": "product_fact",
+      "criteria": "The article paraphrases the official rule at a high level, links the Ministry of Home Affairs FAQ and does not present independent legal advice.",
+      "source_ids": [
+        "mha-national-flag-faq"
+      ],
+      "statement": "National colours can inspire an outfit, while use of the actual National Flag in clothing and dress material is governed by official rules."
+    },
+    {
+      "claim_id": "live-spykar-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Only product names, colours, fits, rises, patterns and care-label direction visible on live Spykar pages are used. Prices and future availability are omitted.",
+      "source_ids": [
+        "spykar-men-white-jeans",
+        "spykar-women-white-jeans",
+        "spykar-men-orange-shirt",
+        "spykar-women-green-shirt"
+      ],
+      "statement": "The four linked Spykar garments and their displayed product attributes were checked on 2026-08-12."
+    },
+    {
+      "claim_id": "visual-product-provenance",
+      "claim_type": "product_fact",
+      "criteria": "The banner combines four supplied live Spykar product references; the in-article image is the corresponding Spykar product image.",
+      "source_ids": [
+        "spykar-men-white-jeans",
+        "spykar-women-white-jeans",
+        "spykar-men-orange-shirt",
+        "spykar-women-green-shirt"
+      ],
+      "statement": "Every featured garment visual is traceable to an actual Spykar product page."
+    },
+    {
+      "claim_id": "keyword-scope",
+      "claim_type": "performance",
+      "criteria": "Keywords guide topic coverage only; the article makes no ranking, traffic or conversion promise.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The article addresses Independence Day outfit ideas, tricolour outfit ideas, white jeans for men and casual patriotic outfits."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-12T07:26:46+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-12T08:15:00+00:00",
+      "max_score": 20.0,
+      "note": "Final full-draft check completed in the ZeroGPT website after source-backed editorial revision.",
+      "score": 17.2,
+      "source": "direct_website",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-12T08:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "reviewed_external_zerogpt_pass",
+    "superseded_detector_check": {
+      "checked_at": "2026-08-12T08:05:00+00:00",
+      "note": "The first direct ZeroGPT website check scored 22.8%. Highlighted middle outfit descriptions and checklist copy were revised with source-backed product, route and occasion detail, then the full draft was rechecked.",
+      "score": 22.8,
+      "source": "direct_website"
+    },
+    "target": "independence-day-outfit-ideas-tricolour-denim"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blog copy uses youthful Indian English, short practical sections, natural keywords, subtle product integration, FAQs, a soft CTA and a unique 4:3 banner.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth fashion brand. Unsupported superiority, performance, price, sustainability and availability claims are prohibited.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Assigned topic and phrases: Independence Day outfit ideas, tricolour outfit ideas, white jeans for men and casual patriotic outfits.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-12",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Approximately 900 words; restrained, editorial and premium tone. Structure: quick answer, one-colour principle, statement piece, tonal co-ord, accent, August fabric, styling cautions and shopping links.",
+      "source_id": "serp-first-resort",
+      "source_ref": "https://www.firstresort.in/blogs/news/independence-day-2026-outfit-ideas-tricolour (accessed 2026-08-12)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,650 words; direct, retail-led and India-specific tone. Structure: question-led occasion sections for flag hoisting, colours, parties, corporate events, rain, shopping, FAQs and a short summary.",
+      "source_id": "serp-stylera",
+      "source_ref": "https://stylera.co/blogs/news/independence-day-outfit-ideas-india-2026 (accessed 2026-08-12)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,150 words; elegant, craft-led ethnicwear tone. Structure: one-colour rule, ivory, saffron, green, handmade story, occasion list, FAQs and product CTA.",
+      "source_id": "serp-rashika-mittal",
+      "source_ref": "https://rashikamittal.com/blogs/journal/independence-day-2026-outfit-ideas (accessed 2026-08-12)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Official FAQ explains rules governing use of the Indian National Flag in costumes, uniforms, accessories and dress material. The article links the source and recommends using colours as inspiration rather than using an actual flag as clothing.",
+      "source_id": "mha-national-flag-faq",
+      "source_ref": "https://www.mha.gov.in/sites/default/files/FAQ_18072023.pdf (Ministry of Home Affairs, accessed 2026-08-12)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Men Trooper Jeans Regular Fit White Mid Rise; solid white clean look; regular fit; mid rise; cotton-polyester-spandex blend. Availability is volatile.",
+      "source_id": "spykar-men-white-jeans",
+      "source_ref": "https://spykar.com/products/mdact2be297white (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Elissa Jeans Boot Cut Fit White High Rise; clean-look bootcut; high rise; cotton-polyester-spandex blend. Availability is volatile.",
+      "source_id": "spykar-women-white-jeans",
+      "source_ref": "https://spykar.com/products/wdeli2be018white (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Men Shirt Orange Slim Fit; burnt-orange and ecru checked cotton shirt; slim fit; full sleeves; raised collar. Availability is volatile.",
+      "source_id": "spykar-men-orange-shirt",
+      "source_ref": "https://spykar.com/products/mshcs2be178burntorange (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Shirt Green Regular Fit; malachite-green and white striped viscose shirt; regular fit; full sleeves; spread collar. Availability is volatile.",
+      "source_id": "spykar-women-green-shirt",
+      "source_ref": "https://spykar.com/products/wshps2be073malachitegreen (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    }
+  ]
+}
