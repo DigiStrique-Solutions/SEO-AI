@@ -1,0 +1,172 @@
+{
+  "claims": [
+    {
+      "claim_id": "serp-editorial-benchmark",
+      "claim_type": "comparison",
+      "criteria": "The draft uses the useful outfit-by-outfit scannability found across the ranking pages, but narrows the topic to eight India-relevant festive-transition looks and does not copy their wording or full structures.",
+      "source_ids": [
+        "serp-modest-man",
+        "serp-sew-mama-sew",
+        "serp-chic-savvy"
+      ],
+      "statement": "Practical outfit formulas, fit guidance and concise explanations answer the search intent identified in the live benchmark."
+    },
+    {
+      "claim_id": "live-spykar-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Only product names, colours, fits, rises and clean-look details visible on the live pages are used; price, discount, inventory and universal comfort claims are omitted.",
+      "source_ids": [
+        "spykar-men-dark-blue",
+        "spykar-men-black",
+        "spykar-women-dark-blue",
+        "spykar-women-black"
+      ],
+      "statement": "The four named Spykar jeans and their displayed fit details were checked against live product pages on 2026-08-12."
+    },
+    {
+      "claim_id": "visual-product-provenance",
+      "claim_type": "product_fact",
+      "criteria": "The banner is an editorial composition created with two live Spykar product images as garment references; the two in-article images are downloaded directly from the corresponding Spykar product pages.",
+      "source_ids": [
+        "spykar-men-dark-blue",
+        "spykar-men-black",
+        "spykar-women-dark-blue",
+        "spykar-women-black"
+      ],
+      "statement": "Every garment image in the package is traceable to a current Spykar product reference."
+    },
+    {
+      "claim_id": "care-label-authority",
+      "claim_type": "product_fact",
+      "criteria": "The draft gives no universal temperature, detergent, wash-frequency or drying instruction.",
+      "source_ids": [
+        "spykar-men-black",
+        "spykar-women-black"
+      ],
+      "statement": "Care instructions can vary with product composition and finishing, so the garment label remains authoritative."
+    },
+    {
+      "claim_id": "keyword-scope",
+      "claim_type": "performance",
+      "criteria": "The phrases are used as editorial topic signals only; no ranking, traffic or conversion outcome is promised.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The article addresses dark wash jeans, festive denim outfits, smart casual denim and the natural variant black jeans for men."
+    },
+    {
+      "claim_id": "top-word-context",
+      "claim_type": "best_top",
+      "criteria": "Every use of the word top refers to an upper-body garment or the upper half of an outfit. It is never used as a superiority or ranking claim.",
+      "source_ids": ["user-keyword-brief", "spykar-brand-knowledge"],
+      "statement": "The garment noun top is used naturally in women's and unisex outfit guidance without making a best-product claim."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-12T07:06:59+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT API had no credits. The required direct website check was completed separately.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-12T07:11:00+05:30",
+      "max_score": 20.0,
+      "note": "Direct ZeroGPT website check on the revised customer-facing article body returned 12.9%. Detector scores are an editorial risk signal, not proof of authorship.",
+      "score": 12.9,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-12T07:04:23+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "reviewed_external_zerogpt_pass",
+    "superseded_detector_note": {
+      "checked_at": "2026-08-12T07:09:00+05:30",
+      "max_score": 20.0,
+      "note": "The first direct website check returned 34.2%. The flagged passages were revised with source-backed product detail, specific Indian occasion and commute context, and less repeated sentence rhythm. This result applies only to the superseded draft.",
+      "score": 34.2,
+      "source": "zerogpt_web",
+      "status": "fail",
+      "tool": "zerogpt"
+    },
+    "target": "dark-wash-denim-festive-transition-smart-casual-looks"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar blogs use youthful Indian English, practical styling, natural keywords, five to eight core sections, concise FAQs, subtle brand integration, a soft CTA and a unique 4:3 blog banner.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth fashion brand. Unsupported superiority, performance, price, sustainability and availability claims are prohibited.",
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Assigned topic: Dark-Wash Denim for the Festive Transition: 8 Smart-Casual Looks. Assigned phrases: dark wash jeans, festive denim outfits, smart casual denim and black jeans men.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief supplied in the Codex task on 2026-08-12",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Approximately 2,730 words; practical conversational menswear tone. Structure: rationale, outfit ideas divided into casual, smart-casual and business-casual groups, then a closing question.",
+      "source_id": "serp-modest-man",
+      "source_ref": "https://www.themodestman.com/how-to-wear-dark-wash-jeans/ (accessed 2026-08-12 via live Bing organic results)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 4,665 words; energetic, exhaustive and visual women's styling tone. Structure: introduction followed by 35 numbered outfit formulas and a conclusion.",
+      "source_id": "serp-sew-mama-sew",
+      "source_ref": "https://www.sewmamasew.com/35-dark-wash-jeans-outfit-ideas/ (accessed 2026-08-12 via live Bing organic results)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Approximately 1,749 words; polished and image-led tone. Structure: short introduction followed by concise outfit-caption sections.",
+      "source_id": "serp-chic-savvy",
+      "source_ref": "https://thechicsavvy.com/appeal-of-dark-jeans-outfits/ (accessed 2026-08-12 via live Bing organic results)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Men Trooper Jeans Regular Fit Dark Blue High Rise; cotton; solid dark-blue finish; regular fit; high rise. Availability is volatile.",
+      "source_id": "spykar-men-dark-blue",
+      "source_ref": "https://spykar.com/products/mdact1bc189darkblue (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Men Trooper Jeans Regular Fit Black Mid Rise; regular fit; mid rise; clean black finish; 86% cotton, 12% polyester and 2% elastane. Availability is volatile.",
+      "source_id": "spykar-men-black",
+      "source_ref": "https://spykar.com/products/mdact2be309carbonblack (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Bella-Wide Jeans Wide Leg Dark Blue High Rise; cotton; solid clean-look dark-blue finish; high rise; wide leg. Availability is volatile.",
+      "source_id": "spykar-women-dark-blue",
+      "source_ref": "https://spykar.com/products/wdynr2be102darkblue (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Elissa Jeans Boot Cut Fit Black High Rise; high rise; black clean-look bootcut; 73% cotton, 25% polyester and 2% spandex. Availability is volatile.",
+      "source_id": "spykar-women-black",
+      "source_ref": "https://spykar.com/products/wdeli2be017jetblack (live page and Shopify product JSON checked 2026-08-12)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Existing Spykar article provides an internally linkable explanation of dark and rinse-wash denim; the new draft focuses on festive-transition outfit formulas rather than repeating that topic.",
+      "source_id": "spykar-dark-rinse-guide",
+      "source_ref": "https://spykar.com/blogs/blog/elevate-your-denim-collection-with-dark-and-rinse-wash-jeans (accessed 2026-08-12)",
+      "source_type": "product_page"
+    }
+  ]
+}

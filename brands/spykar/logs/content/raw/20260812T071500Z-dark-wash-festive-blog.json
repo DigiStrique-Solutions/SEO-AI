@@ -1,0 +1,90 @@
+{
+  "run_id": "spykar-dark-wash-festive-blog-20260812",
+  "brand_id": "spykar",
+  "access_date": "2026-08-12",
+  "topic": "Dark-Wash Denim for the Festive Transition: 8 Smart-Casual Looks",
+  "keywords": [
+    "dark wash jeans",
+    "festive denim outfits",
+    "smart casual denim",
+    "black jeans men"
+  ],
+  "serp_benchmark": [
+    {
+      "rank_order": 1,
+      "url": "https://www.themodestman.com/how-to-wear-dark-wash-jeans/",
+      "title": "30 Ways to Wear Dark Wash Jeans",
+      "approx_words": 2730,
+      "tone": "Practical, conversational menswear advice",
+      "structure": "Rationale, casual looks, smart-casual looks, business-casual looks, closing question"
+    },
+    {
+      "rank_order": 2,
+      "url": "https://www.sewmamasew.com/35-dark-wash-jeans-outfit-ideas/",
+      "title": "35 Dark Wash Jeans Outfit Ideas for Effortless Style",
+      "approx_words": 4665,
+      "tone": "Energetic, exhaustive, visual women's styling",
+      "structure": "Introduction, 35 numbered outfit formulas, conclusion"
+    },
+    {
+      "rank_order": 3,
+      "url": "https://thechicsavvy.com/appeal-of-dark-jeans-outfits/",
+      "title": "21+ Timeless Dark Jeans Outfit Ideas That Are Always in Fashion",
+      "approx_words": 1749,
+      "tone": "Polished, image-led outfit-caption style",
+      "structure": "Brief introduction followed by concise outfit sections"
+    }
+  ],
+  "serp_limitations": "Google Search displayed an unusual-traffic block, so the live organic benchmark was completed through Bing.",
+  "benchmark_decision": "Retain scannable outfit-by-outfit guidance while narrowing the scope to eight original, India-relevant festive-transition looks with concrete fit, footwear and commute details.",
+  "spykar_products": [
+    {
+      "title": "Men Trooper Jeans Regular Fit Dark Blue High Rise",
+      "url": "https://spykar.com/products/mdact1bc189darkblue",
+      "image_file": "brands/spykar/blogs/creatives/dark-wash-festive-transition/ref-men-dark-blue.jpg",
+      "use": "banner garment reference and linked article reference"
+    },
+    {
+      "title": "Men Trooper Jeans Regular Fit Black Mid Rise",
+      "url": "https://spykar.com/products/mdact2be309carbonblack",
+      "image_file": "brands/spykar/blogs/creatives/dark-wash-festive-transition/ref-men-black.jpg",
+      "use": "native in-article product image"
+    },
+    {
+      "title": "Women Bella-Wide Jeans Wide Leg Dark Blue High Rise",
+      "url": "https://spykar.com/products/wdynr2be102darkblue",
+      "image_file": "brands/spykar/blogs/creatives/dark-wash-festive-transition/ref-women-dark-blue.jpg",
+      "use": "native in-article product image"
+    },
+    {
+      "title": "Women Elissa Jeans Boot Cut Fit Black High Rise",
+      "url": "https://spykar.com/products/wdeli2be017jetblack",
+      "image_file": "brands/spykar/blogs/creatives/dark-wash-festive-transition/ref-women-black.jpg",
+      "use": "banner garment reference and linked article reference"
+    }
+  ],
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/dark-wash-festive-transition/dark-wash-denim-festive-transition-banner.png",
+    "web": "brands/spykar/blogs/creatives/dark-wash-festive-transition/dark-wash-denim-festive-transition-banner-800x600.jpg",
+    "dimensions": "800x600 web JPG; 4:3 master PNG",
+    "headline": "DARK DENIM. FESTIVE ENERGY."
+  },
+  "quality_gates": {
+    "article_words_local_harness": 2115,
+    "local_ai_pattern_risk_percent": 6.0,
+    "zerogpt_first_percent": 34.2,
+    "zerogpt_final_percent": 12.9,
+    "zerogpt_threshold_percent": 20.0,
+    "source_authenticity": "pass",
+    "google_doc_readback": "pass",
+    "google_doc_pdf_export": "pass",
+    "pdf_raster_qa": "blocked because the connector returned a non-local sediment file reference"
+  },
+  "google_doc": {
+    "id": "19SQRl6MtcbPc3ie6jsqbHhLEV7jyVb6_cXA3tf2K6Ro",
+    "url": "https://docs.google.com/document/d/19SQRl6MtcbPc3ie6jsqbHhLEV7jyVb6_cXA3tf2K6Ro/edit",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "native_images": 3,
+    "hyperlinks": 10
+  }
+}

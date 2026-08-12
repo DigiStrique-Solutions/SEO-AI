@@ -1,0 +1,13 @@
+{
+  "detector_note": {
+    "checked_at": "2026-08-12T07:11:00+05:30",
+    "max_score": 20.0,
+    "note": "Direct ZeroGPT website check on the revised customer-facing article body returned 12.9%. The API had no credits, so the website interface was used. Detector scores are an editorial risk signal, not proof of authorship.",
+    "score": 12.9,
+    "source": "zerogpt_web",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true
+}
