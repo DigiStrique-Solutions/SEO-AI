@@ -1,0 +1,88 @@
+{
+  "ts": "2026-08-12T06:20:07Z",
+  "run_id": "spykar-august-blog-topics-20260812",
+  "brand_id": "spykar",
+  "action": "research_and_add_august_blog_topics",
+  "sources": [
+    {
+      "type": "google_sheet",
+      "ref": "https://docs.google.com/spreadsheets/d/1eCgqKw_vGec2llchEGXTzsRJbtuBrGxLrC4vKcLpiM0/edit?gid=1720296540",
+      "scope": "Spykar!A1:K324",
+      "facts": ["Historical website-blog plan covered February through July 2026", "The prior populated block ended at row 276", "August had no existing entries before this run"]
+    },
+    {
+      "type": "live_sitemap",
+      "ref": "https://spykar.com/sitemap_blogs_1.xml",
+      "accessed_at": "2026-08-12",
+      "discovered_blog_urls": 106,
+      "relevant_existing_matches": [
+        "https://spykar.com/blogs/blog/denim-mini-skirts-fun-and-flirty-outfit-ideas-for-summer-season",
+        "https://spykar.com/blogs/blog/how-to-find-the-perfect-spykar-jeans-for-your-body-shape",
+        "https://spykar.com/blogs/blog/from-hourglass-to-pear-jeans-styling-tips-for-every-body-type",
+        "https://spykar.com/blogs/blog/lets-take-a-closer-look-at-high-mid-and-low-rise-jeans-for-men",
+        "https://spykar.com/blogs/blog/bootcut-vs-flared-jeans-what-s-the-difference-how-to-style-them",
+        "https://spykar.com/blogs/blog/relaxed-fit-denim-style-inspired-by-vidyut-jammwal"
+      ],
+      "excluded_candidates": ["denim-skirt styling", "body-shape jean guide", "rise-type explainer", "bootcut-versus-flared comparison"]
+    },
+    {
+      "type": "semrush_keyword_overview",
+      "database": "in",
+      "accessed_at": "2026-08-12",
+      "metrics": "Current monthly search volume, 12-month trend series, intent and keyword difficulty",
+      "notes": "Semrush returned no data for overshirt outfit and underjeans by spykar; those cells are labelled N/A rather than estimated."
+    }
+  ],
+  "selected_topics": [
+    {
+      "title": "Independence Day Outfit Ideas: 8 Tricolour Denim Looks for Men and Women",
+      "seasonal_rationale": "August event-led demand; Semrush trend data shows a sharp annual spike for Independence Day clothing searches.",
+      "keywords": {"independence day dress": 2400, "independence day outfit": 390, "tricolor dress": 480, "independence day outfit for women": 170, "independence day dress ideas": 140, "independence day outfit ideas": 110}
+    },
+    {
+      "title": "Raksha Bandhan Outfit Ideas: 8 Smart-Casual Denim Looks for Siblings",
+      "seasonal_rationale": "August festival-led demand; Raksha Bandhan terms show a concentrated annual peak and low-to-moderate keyword difficulty.",
+      "keywords": {"raksha bandhan dress": 1000, "raksha bandhan dress for women": 880, "raksha bandhan outfit": 720, "raksha bandhan outfit ideas": 590, "rakhi dress for women": 590, "rakhi outfit ideas": 480}
+    },
+    {
+      "title": "How to Wash and Dry Jeans in the Monsoon Without Damaging Them",
+      "seasonal_rationale": "Practical peak-monsoon care intent and a site-wide content gap.",
+      "keywords": {"how to wash jeans": 320, "how to dry jeans fast": 140, "dry jeans fast": 20, "how to dry clothes fast in rainy season": 20, "how to dry jeans": 20, "jeans care": 20}
+    },
+    {
+      "title": "How to Style Baggy Jeans Without Losing Shape: 8 Balanced Outfits",
+      "seasonal_rationale": "Strong current youth-denim demand with styling intent; distinct from Spykar's celebrity-led relaxed-fit article.",
+      "keywords": {"baggy jeans": 246000, "baggy jeans men": 165000, "baggy jeans women": 90500, "baggy jeans for men": 40500, "baggy jeans for women": 18100, "baggy jeans outfit": 1300}
+    },
+    {
+      "title": "How to Style White Jeans After the Rains: 8 Fresh Outfits for Men and Women",
+      "seasonal_rationale": "Late-monsoon transition angle with strong product-led demand and no dedicated live-site post.",
+      "keywords": {"white jeans for men": 18100, "white jeans for women": 14800, "white jeans outfit men": 720, "white jeans outfit": 390, "how to style white jeans": 260, "white jeans outfit women": 170}
+    },
+    {
+      "title": "Overshirts and Shirt Jackets for Men: 7 Lightweight Layers for Changing August Weather",
+      "seasonal_rationale": "Transitional August layering supports Spykar's men's topwear range without repeating its general shirt guides.",
+      "keywords": {"shacket for men": 27100, "overshirt for men": 8100, "overshirt men": 8100, "shirt jacket for men": 5400, "lightweight jacket for men": 3600, "overshirt outfit": null}
+    },
+    {
+      "title": "Underwear for Men in Humid Weather: Trunks vs Boxer Briefs for Everyday Comfort",
+      "seasonal_rationale": "Humidity-led August utility and direct support for Spykar's underjeans category, which had no discovered blog coverage.",
+      "keywords": {"underwear for men": 22200, "men's trunks": 18100, "men underwear": 14800, "boxer briefs for men": 2900, "breathable underwear for men": 880, "underjeans by spykar": null}
+    },
+    {
+      "title": "Denim Jacket Outfits for Monsoon-to-Autumn: 8 Lightweight Layering Ideas",
+      "seasonal_rationale": "Publishes ahead of the post-monsoon layering window and targets a high-demand denim category with a specific outfit angle.",
+      "keywords": {"denim jackets": 49500, "denim jacket for women": 40500, "denim jacket for men": 18100, "denim jacket outfit men": 1000, "denim jacket outfit": 590, "denim jacket outfit women": 480}
+    }
+  ],
+  "sheet_write": {
+    "spreadsheet_id": "1eCgqKw_vGec2llchEGXTzsRJbtuBrGxLrC4vKcLpiM0",
+    "sheet_name": "Spykar",
+    "sheet_id": 1720296540,
+    "range": "A277:F324",
+    "topics": 8,
+    "keyword_rows": 48,
+    "verification": ["All 48 rows read back", "Eight topic headers found", "All search-volume cells populated", "Two unavailable volumes explicitly marked N/A", "Topic cells use wrap formatting", "Browser render confirmed no title clipping after wrap repair"]
+  },
+  "status": "ok"
+}
