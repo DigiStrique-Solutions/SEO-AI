@@ -75,6 +75,7 @@ These rules apply to all OFFLIMITS blogs, buying guides and other customer-facin
 - Every blog must include at least three useful internal links in the publishable body: a relevant product or collection link, a supporting OFFLIMITS blog/guide/category link, and a linked conclusion or CTA that advances the shopping journey.
 - Add links where they answer the reader's next question or help them act on the recommendation; a detached source list does not satisfy this requirement.
 - Use natural, descriptive anchor text. Avoid generic anchors such as “click here” and avoid repeating the same exact-match phrase mechanically.
+- In review documents and exported drafts, render every anchor in a clearly visible link style (blue and underlined unless an approved OFFLIMITS link style is supplied); invisible hyperlink metadata is not enough.
 - Verify that every destination is live and points directly to the intended OFFLIMITS canonical URL before handoff.
 
 ## Recommended OFFLIMITS buying-guide flow
