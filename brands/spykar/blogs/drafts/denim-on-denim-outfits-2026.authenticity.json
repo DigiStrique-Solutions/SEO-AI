@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "created_at": "2026-08-17T20:40:00+05:30",
+    "target": "denim-on-denim-outfits-2026",
+    "status": "publish_ready",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md"
+  },
+  "sources": [
+    {
+      "source_id": "spykar-brand-guidance",
+      "source_type": "human_context",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand. Blog copy uses practical Indian English, natural keywords, restrained claims, a soft CTA and the approved standing production structure."
+    },
+    {
+      "source_id": "user-keyword-brief",
+      "source_type": "human_context",
+      "source_ref": "User brief dated 2026-08-17",
+      "extracted_facts": "Requested topic and phrases: denim on denim outfits, double denim styling, denim jacket outfits, and jeans and denim shirt."
+    },
+    {
+      "source_id": "serp-opumo",
+      "source_type": "serp",
+      "source_ref": "https://www.opumo.com/magazine/double-denim-how-to-wear/ (accessed 2026-08-17)",
+      "extracted_facts": "Confident menswear-editorial tone; approximately 1,300–1,600 words including product modules; wash balance, non-blue washes, texture, fit, classic accessories and alternative denim pieces."
+    },
+    {
+      "source_id": "serp-glamour-uk",
+      "source_type": "serp",
+      "source_ref": "https://www.glamourmagazine.co.uk/gallery/how-to-style-double-denim (accessed 2026-08-17)",
+      "extracted_facts": "Trend-led and conversational tone; approximately 1,000–1,300 editorial words; short rules followed by seven street-style formulas, with explicit attention to washes, waist definition and proportions."
+    },
+    {
+      "source_id": "serp-levis-au",
+      "source_type": "serp",
+      "source_ref": "https://levis.com.au/blogs/post/double-denim-outfit-ideas (accessed 2026-08-17)",
+      "extracted_facts": "Direct retail-guide tone; approximately 1,600–1,900 words; ten outfit formulas, simple wash and proportion rules, accessories and a product CTA for men and women."
+    },
+    {
+      "source_id": "spykar-existing-adjacent-blog",
+      "source_type": "human_context",
+      "source_ref": "https://spykar.com/blogs/blog/denim-for-every-occasion-day-to-night-styling-tips and brands/spykar/blogs repository search (accessed 2026-08-17)",
+      "extracted_facts": "The live Spykar occasion guide contains only a short double-denim subsection. Other repository drafts mention the look briefly; no standalone published wash-fit-proportion guide was found."
+    },
+    {
+      "source_id": "spykar-live-products",
+      "source_type": "product_page",
+      "source_ref": "https://spykar.com/products/wtjfs1bd007lightblue, https://spykar.com/products/wdblw2be064darkblue, https://spykar.com/products/mshd2bf098lightblue and https://spykar.com/products/mdact1bc189darkblue (live pages and Shopify product JSON accessed 2026-08-17)",
+      "extracted_facts": "Women's light-blue washed jacket: regular fit, long sleeves, spread collar and colourful upper-front embroidery. Women's dark-blue wide-leg jeans: cotton with stretch, high rise, five pockets and clean finish. Men's light-blue denim shirt: 100% cotton, regular fit, full sleeves, snap-button cuffs, two flap patch pockets and washed effect. Men's dark-blue Trooper jeans: cotton, regular fit, high rise, solid pattern and no fade. All four pages returned HTTP 200."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "product-facts",
+      "claim_type": "product_fact",
+      "statement": "The four featured Spykar garments use the colours, fits, materials and construction stated in the article.",
+      "criteria": "Claims match live product pages checked on 2026-08-17; prices and evergreen availability are omitted.",
+      "source_ids": ["spykar-live-products"]
+    },
+    {
+      "claim_id": "2026-styling-benchmark",
+      "claim_type": "comparison",
+      "statement": "The 2026 editorial frame covers tonal and contrasting washes, fit balance, waist definition and alternative denim colours.",
+      "criteria": "The article combines current SERP themes in original Spykar-specific wording without claiming one universal rule.",
+      "source_ids": ["serp-opumo", "serp-glamour-uk", "serp-levis-au"]
+    },
+    {
+      "claim_id": "proportion-guidance",
+      "claim_type": "comparison",
+      "statement": "Jacket length, jean rise, leg width, inner layer and footwear are presented as practical variables in double-denim proportion.",
+      "criteria": "Advice is framed as fitting-room checks and options rather than body-type promises or universal flattering claims.",
+      "source_ids": ["serp-opumo", "serp-glamour-uk", "spykar-brand-guidance"]
+    },
+    {
+      "claim_id": "distinct-search-intent",
+      "claim_type": "product_fact",
+      "statement": "The new canonical is a standalone wash-fit-proportion guide, while the existing Spykar article remains a broader day-to-night occasion guide.",
+      "criteria": "The draft links to the adjacent article and does not reproduce its structure or copy.",
+      "source_ids": ["spykar-existing-adjacent-blog"]
+    },
+    {
+      "claim_id": "keyword-coverage",
+      "claim_type": "performance",
+      "statement": "The article covers the assigned denim-on-denim, double-denim, jacket and denim-shirt intent.",
+      "criteria": "Keywords guide coverage only; no ranking, traffic or conversion guarantee is made.",
+      "source_ids": ["user-keyword-brief"]
+    },
+    {
+      "claim_id": "no-unsupported-superiority",
+      "claim_type": "best_top",
+      "statement": "No unqualified best, premium, sustainable, body-flattering or guaranteed-comfort claim is made.",
+      "criteria": "Advice stays conditional on garment labels, fit, weather, undertone and personal styling intent.",
+      "source_ids": ["spykar-brand-guidance"]
+    }
+  ],
+  "detector_notes": [
+    {
+      "tool": "zerogpt",
+      "source": "zerogpt_web",
+      "checked_at": "2026-08-17T20:40:00+05:30",
+      "score": 10.6,
+      "max_score": 20.0,
+      "status": "pass",
+      "note": "The final article title and publishable body, excluding repository frontmatter, FAQ JSON-LD and image handoff metadata, were checked on the live ZeroGPT website. The result displayed 'Your Text is Human written' and 10.6% AI GPT. Earlier passes scored 37% and 22.4%; flagged passages were revised with source-backed product detail and concrete fitting-room checks. The detector is treated as a weak editorial risk signal, not proof of authorship."
+    }
+  ]
+}

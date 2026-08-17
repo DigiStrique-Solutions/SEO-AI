@@ -1,0 +1,141 @@
+{
+  "run_id": "spykar-denim-on-denim-outfits-2026-20260817",
+  "accessed_at": "2026-08-17T14:30:00Z",
+  "brand_id": "spykar",
+  "topic": "Denim-on-Denim in 2026: How to Balance Washes, Fits and Proportions",
+  "canonical_url": "https://spykar.com/blogs/blog/denim-on-denim-outfits-2026-styling-guide",
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://www.opumo.com/magazine/double-denim-how-to-wear/",
+      "tone": "confident, concise and menswear-editorial",
+      "estimated_editorial_words": "1300-1600 including product modules",
+      "structure": "wash balance, non-blue denim, texture, fit, classic accessories, alternative denim pieces and product modules"
+    },
+    {
+      "ranked_url": "https://www.glamourmagazine.co.uk/gallery/how-to-style-double-denim",
+      "tone": "trend-led, conversational and street-style focused",
+      "estimated_editorial_words": "1000-1300",
+      "structure": "three quick styling rules followed by seven outfit formulas and shopping modules"
+    },
+    {
+      "ranked_url": "https://levis.com.au/blogs/post/double-denim-outfit-ideas",
+      "tone": "direct, accessible and retail-led",
+      "estimated_editorial_words": "1600-1900",
+      "structure": "ten outfit formulas, wash and proportion rules, accessories and commercial CTA"
+    }
+  ],
+  "content_gap": "The ranking pages agree that matching and contrasting washes can both work, but they vary in how concretely they explain garment intersections. The Spykar article centres fitting-room checks: undertone, jacket hem versus rise, location of volume, inner-layer break and shoe-to-hem relationship.",
+  "duplicate_check": {
+    "status": "distinct_adjacent_intent",
+    "evidence": "Spykar's live day-to-night denim guide contains one short double-denim subsection, while other repository drafts mention the look briefly. No standalone published Spykar wash-fit-proportion guide was found. The new article links to, rather than duplicates, the adjacent live guide."
+  },
+  "verified_products": [
+    {
+      "url": "https://spykar.com/products/wtjfs1bd007lightblue",
+      "name": "Women Light-Blue Washed Denim Jacket",
+      "http_status": 200,
+      "facts_used": "regular fit, long sleeves, spread collar, colourful upper-front embroidery"
+    },
+    {
+      "url": "https://spykar.com/products/wdblw2be064darkblue",
+      "name": "Women Bella-Wide Dark-Blue High-Rise Jeans",
+      "http_status": 200,
+      "facts_used": "cotton with stretch, high rise, wide leg, five pockets, clean finish"
+    },
+    {
+      "url": "https://spykar.com/products/mshd2bf098lightblue",
+      "name": "Men Light-Blue Regular-Fit Denim Shirt",
+      "http_status": 200,
+      "facts_used": "100% cotton, regular fit, full sleeves, snap-button cuffs, two flap patch pockets, washed effect"
+    },
+    {
+      "url": "https://spykar.com/products/mdact1bc189darkblue",
+      "name": "Men Trooper Regular-Fit Dark-Blue High-Rise Jeans",
+      "http_status": 200,
+      "facts_used": "cotton, regular fit, high rise, solid pattern, no fade"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "type": "supporting_blog",
+      "anchor": "taking denim from day to night",
+      "url": "https://spykar.com/blogs/blog/denim-for-every-occasion-day-to-night-styling-tips",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "women's light-blue washed denim jacket",
+      "url": "https://spykar.com/products/wtjfs1bd007lightblue",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "dark-blue high-rise wide-leg jeans",
+      "url": "https://spykar.com/products/wdblw2be064darkblue",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "light-blue regular-fit denim shirt",
+      "url": "https://spykar.com/products/mshd2bf098lightblue",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "dark-blue Trooper regular-fit jeans",
+      "url": "https://spykar.com/products/mdact1bc189darkblue",
+      "http_status": 200
+    },
+    {
+      "type": "commercial_cta",
+      "anchor": "women's denim jackets",
+      "url": "https://spykar.com/collections/denim-jackets-for-women",
+      "http_status": 200
+    },
+    {
+      "type": "commercial_cta",
+      "anchor": "men's jeans",
+      "url": "https://spykar.com/collections/men-jeans",
+      "http_status": 200
+    }
+  ],
+  "authenticity_gate": {
+    "zerogpt_iterations": [37.0, 22.4, 10.6],
+    "zerogpt_final_result": "Your Text is Human written",
+    "local_ai_pattern_risk_score": 6.0,
+    "threshold": "strictly below 20%",
+    "status": "pass"
+  },
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/denim-on-denim-2026/denim-on-denim-outfits-2026-banner-master.png",
+    "web": "brands/spykar/blogs/creatives/denim-on-denim-2026/denim-on-denim-outfits-2026-banner-800x600.jpg",
+    "dimensions": "4:3; web export 800x600",
+    "headline": "DOUBLE DENIM, BALANCED",
+    "product_provenance": "Generated from four downloaded live Spykar product images covering the featured women's jacket and wide-leg jeans plus men's denim shirt and regular-fit jeans.",
+    "visual_qa": "Passed: adult Indian cast, atelier setting, light-over-dark wash contrast, legible exact headline, plausible anatomy and fabric, no logo, watermark, price or third-party branding; visually distinct from the preceding home-based Raksha Bandhan creative."
+  },
+  "google_doc": {
+    "id": "14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04",
+    "url": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "template_source_id": "1Y3efdQ3tBjoDro1FD0pm_87NaXgNu4X_ip-Sw3WS5lY",
+    "tab_id": "t.0",
+    "trusted_read": "The required file-backed wrapper was attempted but its POSIX-only absolute-path validation rejected the Windows workspace. A fresh connector read supplied the exact document id, tab and revision before writing.",
+    "readback": {
+      "paragraph_count": 72,
+      "native_heading_count": 28,
+      "list_item_count": 6,
+      "blue_underlined_internal_link_runs": 7,
+      "inline_image_count": 3
+    },
+    "pdf_export": {
+      "status": "pass",
+      "size_bytes": 3756895,
+      "visual_qa": "The first page was inspected in Google Docs at 100% zoom and showed the metadata, title and 4:3 banner without clipping. Connector readback confirmed all three inline image objects. Full PDF page rasterization was unavailable because the export returned a non-local sediment reference."
+    }
+  },
+  "meta_title_length": 51,
+  "meta_description_length": 147,
+  "word_count": 2039,
+  "status": "ok"
+}
