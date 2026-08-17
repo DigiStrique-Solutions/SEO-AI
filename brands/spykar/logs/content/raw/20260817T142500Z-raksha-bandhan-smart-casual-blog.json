@@ -1,0 +1,137 @@
+{
+  "run_id": "spykar-raksha-bandhan-smart-casual-blog-20260817",
+  "accessed_at": "2026-08-17T14:25:00Z",
+  "brand_id": "spykar",
+  "topic": "Raksha Bandhan Outfit Ideas for Siblings Who Prefer Smart-Casual Style",
+  "canonical_url": "https://spykar.com/blogs/blog/raksha-bandhan-outfit-ideas-smart-casual-siblings",
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://blog.tatacliq.com/blog/2025/08/12/raksha-bandhan-outfit-ideas-10-styles-that-celebrate-sibling-bonds-in-style/",
+      "tone": "warm, nostalgic, commercial and practical",
+      "estimated_editorial_words": "1000-1200",
+      "structure": "short emotional introduction, ten numbered looks, product modules, styling reminders and CTA"
+    },
+    {
+      "ranked_url": "https://www.nykaafashion.com/style-files/trends/raksha-bandhan-outfits",
+      "tone": "playful, celebrity-led and conversational",
+      "estimated_editorial_words": "1300-1600 including product modules",
+      "structure": "sibling archetypes, get-the-look blocks, gifting ideas and FAQs"
+    },
+    {
+      "ranked_url": "https://www.sarojjain.com/blogs/saroj-jain-journal/sibling-twinning-outfits-raksha-bandhan-guide-6036",
+      "tone": "specific, candid and stylist-led",
+      "estimated_editorial_words": "1700-2000",
+      "structure": "key takeaways, four coordination approaches, comparison guidance, colour combinations, mistakes and FAQs"
+    }
+  ],
+  "serp_gap": "Relevant ranking pages were dominated by ethnicwear and exact matching. The Spykar article addresses adult siblings who want coordinated but non-identical smart-casual denim outfits.",
+  "duplicate_check": {
+    "status": "clear",
+    "evidence": "No published Spykar blog was found for this exact intent in live site search or repository content; only planning records contained the title."
+  },
+  "verified_products": [
+    {
+      "url": "https://spykar.com/products/wshps2be075crimsonred",
+      "name": "Women Crimson Red Regular Fit Casual Shirt",
+      "http_status": 200,
+      "facts_used": "80% viscose/20% nylon, dark floral print, regular fit, full sleeves, Johnny collar"
+    },
+    {
+      "url": "https://spykar.com/products/wdynr2be102darkblue",
+      "name": "Women Dark Blue Wide Leg High Rise Jeans",
+      "http_status": 200,
+      "facts_used": "cotton, dark blue, high rise, wide leg, clean look, five pockets"
+    },
+    {
+      "url": "https://spykar.com/products/mshk1bf193offwhite",
+      "name": "Men Off-White Relaxed-Fit Shirt",
+      "http_status": 200,
+      "facts_used": "cotton, half sleeves, Cuban collar, front vintage graphic, side vents"
+    },
+    {
+      "url": "https://spykar.com/products/mdro1be024black",
+      "name": "Men Black Regular-Fit Mid-Rise Jeans",
+      "http_status": 200,
+      "facts_used": "cotton with stretch, black, regular fit, mid rise, clean finish, five pockets"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "type": "supporting_blog",
+      "anchor": "styling jeans with shirts",
+      "url": "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "crimson-red regular-fit shirt",
+      "url": "https://spykar.com/products/wshps2be075crimsonred",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "dark-blue high-rise wide-leg jeans",
+      "url": "https://spykar.com/products/wdynr2be102darkblue",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "off-white relaxed-fit shirt",
+      "url": "https://spykar.com/products/mshk1bf193offwhite",
+      "http_status": 200
+    },
+    {
+      "type": "product",
+      "anchor": "black regular-fit mid-rise jeans",
+      "url": "https://spykar.com/products/mdro1be024black",
+      "http_status": 200
+    },
+    {
+      "type": "commercial_cta",
+      "anchor": "women's jeans",
+      "url": "https://spykar.com/collections/women-jeans",
+      "http_status": 200
+    },
+    {
+      "type": "commercial_cta",
+      "anchor": "men's casualwear",
+      "url": "https://spykar.com/collections/men",
+      "http_status": 200
+    }
+  ],
+  "authenticity_gate": {
+    "zerogpt_first_score": 30.4,
+    "zerogpt_final_score": 14.3,
+    "zerogpt_result": "Your Text is Human written",
+    "local_ai_pattern_risk_score": 6.0,
+    "threshold": "strictly below 20%",
+    "status": "pass"
+  },
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/raksha-bandhan-smart-casual-siblings/raksha-bandhan-smart-casual-sibling-outfits-banner-master.png",
+    "web": "brands/spykar/blogs/creatives/raksha-bandhan-smart-casual-siblings/raksha-bandhan-smart-casual-sibling-outfits-banner-800x600.jpg",
+    "dimensions": "4:3; web export 800x600",
+    "product_provenance": "Generated from four downloaded live Spykar product references; final scene depicts adult siblings at a home rakhi moment.",
+    "visual_qa": "Passed: adult cast, rakhi interaction, restrained festive setting, distinctive DRESS THE BOND headline, no logo or watermark, product-consistent garments."
+  },
+  "google_doc": {
+    "id": "1u0V4tlxy_5ZUN65CwRvR9-kr6b0oGZwXGFduZc7ja0M",
+    "url": "https://docs.google.com/document/d/1u0V4tlxy_5ZUN65CwRvR9-kr6b0oGZwXGFduZc7ja0M/edit",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "template_source_id": "1Y3efdQ3tBjoDro1FD0pm_87NaXgNu4X_ip-Sw3WS5lY",
+    "tab_id": "t.0",
+    "readback": {
+      "native_heading_count": 28,
+      "list_item_count": 6,
+      "blue_underlined_internal_link_runs": 7,
+      "inline_image_count": 3
+    },
+    "pdf_export": {
+      "status": "pass",
+      "size_bytes": 3713422,
+      "raster_qa": "The document was visually checked in Google Docs at 100% zoom. The title and 4:3 banner rendered correctly; semantic readback confirmed all three inline images."
+    }
+  },
+  "word_count": 1809,
+  "status": "ok"
+}

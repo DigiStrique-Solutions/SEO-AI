@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "created_at": "2026-08-17T19:35:00+05:30",
+    "target": "raksha-bandhan-smart-casual-sibling-outfits",
+    "status": "publish_ready",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md"
+  },
+  "sources": [
+    {
+      "source_id": "spykar-brand-guidance",
+      "source_type": "human_context",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "extracted_facts": "Indian English; youthful, direct and practical voice; short paragraphs; careful product claims; soft CTA; 4:3 banner; approved standing blog sequence."
+    },
+    {
+      "source_id": "user-keyword-brief",
+      "source_type": "human_context",
+      "source_ref": "User brief dated 2026-08-17",
+      "extracted_facts": "Requested topic and phrases: Raksha Bandhan outfit ideas, sibling outfit ideas, festive casual wear and denim outfits."
+    },
+    {
+      "source_id": "serp-tata-cliq",
+      "source_type": "serp",
+      "source_ref": "https://blog.tatacliq.com/blog/2025/08/12/raksha-bandhan-outfit-ideas-10-styles-that-celebrate-sibling-bonds-in-style/ (accessed 2026-08-17)",
+      "extracted_facts": "Warm, nostalgic and commercial tone; approximately 1,000–1,200 editorial words; short emotional introduction, ten numbered looks, styling reminders and CTA."
+    },
+    {
+      "source_id": "serp-nykaa-fashion",
+      "source_type": "serp",
+      "source_ref": "https://www.nykaafashion.com/style-files/trends/raksha-bandhan-outfits (accessed 2026-08-17)",
+      "extracted_facts": "Playful and conversational tone; approximately 1,300–1,600 words including product modules; sibling archetypes, get-the-look blocks, gifts and FAQs."
+    },
+    {
+      "source_id": "serp-saroj-jain",
+      "source_type": "serp",
+      "source_ref": "https://www.sarojjain.com/blogs/saroj-jain-journal/sibling-twinning-outfits-raksha-bandhan-guide-6036 (accessed 2026-08-17)",
+      "extracted_facts": "Specific stylist-led tone; approximately 1,700–2,000 words; coordination approaches, colour combinations, mistakes, comparison guidance and FAQs."
+    },
+    {
+      "source_id": "spykar-live-products",
+      "source_type": "product_page",
+      "source_ref": "https://spykar.com/products/wshps2be075crimsonred, https://spykar.com/products/wdynr2be102darkblue, https://spykar.com/products/mshk1bf193offwhite and https://spykar.com/products/mdro1be024black (accessed 2026-08-17)",
+      "extracted_facts": "Women's crimson regular-fit floral shirt: 80% viscose/20% nylon, full sleeves, Johnny collar. Women's dark-blue wide-leg jeans: cotton, high rise, clean look, five pockets. Men's off-white relaxed shirt: cotton, half sleeves, Cuban collar, vintage front graphic, side vents. Men's black regular-fit jeans: cotton with stretch, mid rise, clean finish, five pockets. All four URLs returned HTTP 200 at verification."
+    },
+    {
+      "source_id": "duplicate-check",
+      "source_type": "human_context",
+      "source_ref": "Spykar site search and brands/spykar repository search, checked 2026-08-17",
+      "extracted_facts": "No published Spykar article was found for this exact Raksha Bandhan sibling smart-casual intent; the topic existed only in planning data."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "product-facts",
+      "claim_type": "product_fact",
+      "statement": "The featured Spykar garments use the names, compositions, colours, fits and construction stated in the article.",
+      "criteria": "Claims match live product pages checked on 2026-08-17; prices and evergreen availability are omitted.",
+      "source_ids": ["spykar-live-products"]
+    },
+    {
+      "claim_id": "coordination-guidance",
+      "claim_type": "comparison",
+      "statement": "The blog recommends shared colour, denim depth, texture and formality as ways for adult sibling outfits to coordinate without matching exactly.",
+      "criteria": "These are conditional styling suggestions, not universal fashion rules or superiority claims.",
+      "source_ids": ["spykar-brand-guidance", "serp-saroj-jain", "serp-nykaa-fashion"]
+    },
+    {
+      "claim_id": "keyword-intent",
+      "claim_type": "performance",
+      "statement": "The draft covers the assigned Raksha Bandhan, sibling, festive-casual and denim-outfit intent.",
+      "criteria": "Keywords guide coverage only; no ranking, traffic or conversion guarantee is made.",
+      "source_ids": ["user-keyword-brief"]
+    },
+    {
+      "claim_id": "original-serp-position",
+      "claim_type": "comparison",
+      "statement": "The article fills a smart-casual, denim-led gap within a SERP dominated by ethnicwear and matching-set ideas.",
+      "criteria": "Tone and depth were benchmarked; competitor wording and topology were not copied.",
+      "source_ids": ["serp-tata-cliq", "serp-nykaa-fashion", "serp-saroj-jain"]
+    },
+    {
+      "claim_id": "no-unsupported-superiority",
+      "claim_type": "best_top",
+      "statement": "No unqualified best, premium, sustainable, performance or guaranteed-comfort claim is made.",
+      "criteria": "Advice stays conditional on fit, care label, family dress code and the day's route.",
+      "source_ids": ["spykar-brand-guidance"]
+    }
+  ],
+  "detector_notes": [
+    {
+      "tool": "zerogpt",
+      "source": "zerogpt_web",
+      "checked_at": "2026-08-17T19:35:00+05:30",
+      "score": 14.3,
+      "max_score": 20.0,
+      "status": "pass",
+      "note": "The final article title and publishable body, excluding repository frontmatter, FAQ JSON-LD and image handoff metadata, were checked on the live ZeroGPT website. The result displayed 'Your Text is Human written' and 14.3% AI GPT. The first draft scored 30.4%; flagged passages were revised with source-backed product and occasion detail before rechecking. Detector output is treated as a weak editorial risk signal, not proof of authorship."
+    }
+  ]
+}

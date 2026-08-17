@@ -30,6 +30,10 @@ The tone is:
 
 ## Blog structure
 
+### Standing production format
+
+Unless a future brief explicitly overrides it, use the approved linen-blog sequence for every Spykar blog: meta title and description; canonical, robots and keyword fields; H1 and introduction; a practical topic rationale; women’s and men’s styling sections where relevant; occasion, colour and accessory guidance; fit, care or usability advice; conclusion and soft CTA; five concise FAQs with matching FAQPage schema; then banner and inline-image handoff fields. The finished Google Doc must use native headings and lists, visibly blue-and-underlined internal links, one embedded topic-led banner and two embedded verified Spykar product images.
+
 ### Title
 
 - Use Sentence case or Title Case.
