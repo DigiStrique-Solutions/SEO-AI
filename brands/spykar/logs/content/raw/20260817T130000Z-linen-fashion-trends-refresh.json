@@ -1,0 +1,170 @@
+{
+  "run_id": "spykar-linen-fashion-trends-refresh-20260817",
+  "checked_at": "2026-08-17T13:00:00+05:30",
+  "brand_id": "spykar",
+  "topic": "Linen Fashion Trends: Comfortable & Breathable Summer Outfits",
+  "delivery_mode": "refresh_existing_canonical",
+  "canonical_url": "https://spykar.com/blogs/blog/summer-linen-fashion-trends-2026",
+  "reference_document": {
+    "document_id": "1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs",
+    "tab_id": "t.0",
+    "title": "INC5: The Freedom Edit",
+    "use": "Structural reference only",
+    "preserved_flow": [
+      "meta fields",
+      "H1 and introduction",
+      "comfort rationale",
+      "women and men styling sections",
+      "occasion, colour and accessory guidance",
+      "practical fit and care tips",
+      "conclusion",
+      "FAQs",
+      "FAQ schema",
+      "image metadata"
+    ],
+    "excluded": "All Inc5-specific copy, claims, links and product references"
+  },
+  "serp_benchmark": {
+    "access_date": "2026-08-17",
+    "query": "Linen Fashion Trends Comfortable Breathable Summer Outfits",
+    "results": [
+      {
+        "rank_in_benchmark": 1,
+        "title": "The New Rules of Linen Dressing",
+        "url": "https://www.harpersbazaar.com/fashion/trends/a71507581/how-to-style-linen-outfits/",
+        "tone": "Concise, confident, fashion-editorial and women-led",
+        "estimated_editorial_length_words": "650–900",
+        "structure": "Short trend introduction followed by seven look-led sections and shopping modules"
+      },
+      {
+        "rank_in_benchmark": 2,
+        "title": "How to wear linen: Three summer linen outfits for men",
+        "url": "https://www2.hm.com/en_gb/editorial/inspiration/three-summer-linen-outfits-for-men.html",
+        "tone": "Direct, commercial and practical",
+        "estimated_editorial_length_words": "550–700",
+        "structure": "Benefit-led introduction, formal look, beach look, holiday look and fabric/fit note"
+      },
+      {
+        "rank_in_benchmark": 3,
+        "title": "How to style linen",
+        "url": "https://www.cos.com/en-us/features/styling/how-to-style-linen",
+        "tone": "Refined, minimalist and educational",
+        "estimated_editorial_length_words": "1,300–1,600",
+        "structure": "Why linen, dress codes, summer and transitional use, key pieces, colours, care and FAQs"
+      }
+    ],
+    "editorial_decision": "Use the supplied document's production sequence, COS-level practicality, Harper's Bazaar's look specificity and H&M's directness, while retaining Spykar's Indian youth voice and original wording."
+  },
+  "verified_products": [
+    {
+      "url": "https://spykar.com/products/wshsos2be254ecru",
+      "http_status": 200,
+      "title": "Women Ecru Loose Fit Casual Shirt",
+      "facts_used": "82% viscose/18% linen; loose fit; full sleeves; Mandarin collar; two patch pockets"
+    },
+    {
+      "url": "https://spykar.com/products/wtrfn1bf027powderpink",
+      "http_status": 200,
+      "title": "Women Trouser Pink Wide Leg High Rise",
+      "facts_used": "Linen; powder pink; wide leg; high rise"
+    },
+    {
+      "url": "https://spykar.com/products/mshsos1bf097white",
+      "http_status": 200,
+      "title": "Men Shirt Solid White Regular Fit",
+      "facts_used": "70% linen/30% lyocell; regular fit; full sleeves; button-down collar; one patch pocket"
+    },
+    {
+      "url": "https://spykar.com/products/mshps2be145sunsetyellow",
+      "http_status": 200,
+      "title": "Men Sunset Yellow Relaxed Fit Casual Shirt",
+      "facts_used": "Nylon/rayon/linen blend; sunset yellow; relaxed fit; half sleeves; Cuban collar"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "linen collection",
+      "role": "contextual collection link",
+      "url": "https://spykar.com/collections/linen-collection",
+      "http_status": 200
+    },
+    {
+      "anchor": "women's ecru linen-blend shirt",
+      "role": "contextual product link",
+      "url": "https://spykar.com/products/wshsos2be254ecru",
+      "http_status": 200
+    },
+    {
+      "anchor": "powder-pink wide-leg linen trousers",
+      "role": "contextual product link",
+      "url": "https://spykar.com/products/wtrfn1bf027powderpink",
+      "http_status": 200
+    },
+    {
+      "anchor": "white regular-fit linen-blend shirt",
+      "role": "contextual product link",
+      "url": "https://spykar.com/products/mshsos1bf097white",
+      "http_status": 200
+    },
+    {
+      "anchor": "sunset-yellow relaxed Cuban-collar shirt",
+      "role": "contextual product link",
+      "url": "https://spykar.com/products/mshps2be145sunsetyellow",
+      "http_status": 200
+    },
+    {
+      "anchor": "casual summer fashion essentials",
+      "role": "supporting blog link",
+      "url": "https://spykar.com/blogs/blog/casual-summer-fashion-essentials-every-wardrobe-needs",
+      "http_status": 200
+    },
+    {
+      "anchor": "linen shirts, trousers and summer-ready separates",
+      "role": "conclusion commercial CTA",
+      "url": "https://spykar.com/collections/linen-collection",
+      "http_status": 200
+    }
+  ],
+  "authenticity_gate": {
+    "zerogpt_live_iterations_percent": [72.3, 26.8, 21.6, 6.0],
+    "zerogpt_final_result": "Your Text is Human written",
+    "zerogpt_final_percent": 6.0,
+    "threshold": "strictly below 20%",
+    "status": "pass",
+    "local_strique_score_percent": 6.0,
+    "local_status": "pass",
+    "caveat": "Detector scores are weak editorial risk signals, not proof of authorship."
+  },
+  "creative": {
+    "master_png": "brands/spykar/blogs/creatives/linen-fashion-trends-summer-outfits/linen-fashion-trends-summer-outfits-banner-master.png",
+    "web_jpg": "brands/spykar/blogs/creatives/linen-fashion-trends-summer-outfits/linen-fashion-trends-summer-outfits-banner-800x600.jpg",
+    "dimensions": "800x600 (4:3)",
+    "headline": "BREATHE INTO SUMMER",
+    "visual_qa": "Passed local image inspection: adult fashion editorial mood, legible headline, distinct sunlit terrace setting, no logo or watermark, and garments visually grounded in four downloaded Spykar product references."
+  },
+  "google_doc": {
+    "document_id": "1Y3efdQ3tBjoDro1FD0pm_87NaXgNu4X_ip-Sw3WS5lY",
+    "tab_id": "t.0",
+    "url": "https://docs.google.com/document/d/1Y3efdQ3tBjoDro1FD0pm_87NaXgNu4X_ip-Sw3WS5lY/edit",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "readback": {
+      "heading_1_count": 1,
+      "heading_2_and_3_count": 33,
+      "native_list_items": 24,
+      "visible_blue_underlined_links": 7,
+      "native_inline_images": 3,
+      "residual_reference_copy": 0
+    },
+    "pdf_export": {
+      "status": "exported",
+      "size_bytes": 439958,
+      "visual_raster_qa": "not_checked_blocked",
+      "blocker": "The connector returned a non-local sediment file reference that cannot be rasterised in the workspace. Native Docs readback verified text topology, headings, lists, hyperlink styles and inline image objects."
+    },
+    "trusted_read_wrapper": {
+      "status": "not_checked_blocked",
+      "blocker": "The advisory wrapper rejected valid Windows absolute workspaceRoot paths. Direct Google Docs connector readback was used instead."
+    }
+  },
+  "status": "ok"
+}

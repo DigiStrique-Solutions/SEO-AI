@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "created_at": "2026-08-17T12:45:00+05:30",
+    "target": "linen-fashion-trends-summer-outfits-refresh",
+    "status": "publish_ready",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md"
+  },
+  "sources": [
+    {
+      "source_id": "spykar-style-guide",
+      "source_type": "human_context",
+      "source_ref": "brands/spykar/style-guide.md and brands/spykar/knowledge.md",
+      "extracted_facts": "Indian English; youthful, direct and practical voice; short paragraphs; natural keyword use; careful product claims; soft commercial CTA."
+    },
+    {
+      "source_id": "reference-doc-structure",
+      "source_type": "human_context",
+      "source_ref": "Google Doc 1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs, tab t.0, accessed 2026-08-17",
+      "extracted_facts": "Required production flow: meta fields, H1 and introduction, comfort rationale, women and men styling sections, occasion/colour/accessory guidance, practical care and fit advice, conclusion, FAQs, FAQ schema and image metadata. Inc5-specific copy and links were not reused."
+    },
+    {
+      "source_id": "serp-harpers-bazaar-linen",
+      "source_type": "serp",
+      "source_ref": "https://www.harpersbazaar.com/fashion/trends/a71507581/how-to-style-linen-outfits/ (accessed 2026-08-17)",
+      "extracted_facts": "Concise, confident fashion-editorial tone; approximately 650–900 editorial words; short trend introduction followed by seven look-led sections and shopping modules."
+    },
+    {
+      "source_id": "serp-hm-men-linen",
+      "source_type": "serp",
+      "source_ref": "https://www2.hm.com/en_gb/editorial/inspiration/three-summer-linen-outfits-for-men.html (accessed 2026-08-17)",
+      "extracted_facts": "Direct and commercial men's style guide; approximately 550–700 words; benefit-led introduction, formal look, beach look, holiday look and fabric/fit note."
+    },
+    {
+      "source_id": "serp-cos-linen-guide",
+      "source_type": "serp",
+      "source_ref": "https://www.cos.com/en-us/features/styling/how-to-style-linen (accessed 2026-08-17)",
+      "extracted_facts": "Refined and educational tone; approximately 1,300–1,600 words; why linen, dress codes, seasonal use, key pieces, colours, care and FAQs."
+    },
+    {
+      "source_id": "spykar-live-products-20260817",
+      "source_type": "product_page",
+      "source_ref": "https://spykar.com/collections/linen-collection and Shopify product JSON for wshsos2be254ecru, wtrfn1bf027powderpink, mshsos1bf097white and mshps2be145sunsetyellow (accessed 2026-08-17)",
+      "extracted_facts": "Women's ecru loose-fit shirt: 82% viscose/18% linen, full sleeves, Mandarin collar, two patch pockets. Women's powder-pink trouser: linen, high-rise, wide-leg. Men's white regular-fit shirt: 70% linen/30% lyocell, full sleeves, button-down collar, one patch pocket. Men's sunset-yellow relaxed shirt: nylon/rayon/linen blend, half sleeves, Cuban collar. All four product URLs returned HTTP 200 at verification."
+    },
+    {
+      "source_id": "spykar-existing-canonical",
+      "source_type": "human_context",
+      "source_ref": "https://spykar.com/blogs/blog/summer-linen-fashion-trends-2026 and brands/spykar/blogs/references/summer-linen-fashion-trends-2026.md",
+      "extracted_facts": "The exact topic already exists on Spykar. This deliverable is a refresh of that canonical URL, not a new competing slug."
+    },
+    {
+      "source_id": "brief-keywords",
+      "source_type": "human_context",
+      "source_ref": "User brief dated 2026-08-17",
+      "extracted_facts": "Requested topic and phrases: comfortable summer outfits, summer fashion for women, summer fashion for men, linen outfits for men, linen outfits for women and linen fashion."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "product-compositions-and-features",
+      "claim_type": "product_fact",
+      "statement": "Named Spykar garments use the compositions, colours, fits and construction stated in the article.",
+      "criteria": "Claims match the live product JSON checked on 2026-08-17; prices and evergreen availability are omitted.",
+      "source_ids": ["spykar-live-products-20260817"]
+    },
+    {
+      "claim_id": "linen-comfort-guidance",
+      "claim_type": "comparison",
+      "statement": "Linen is presented as a familiar warm-weather choice, while comfort is explicitly made conditional on weave, fit and fibre composition.",
+      "criteria": "The article avoids universal cooling, moisture-wicking, sustainability or performance promises.",
+      "source_ids": ["serp-cos-linen-guide", "serp-hm-men-linen", "spykar-live-products-20260817"]
+    },
+    {
+      "claim_id": "styling-recommendations",
+      "claim_type": "comparison",
+      "statement": "The article recommends proportion, colour and occasion combinations for everyday summer use.",
+      "criteria": "Recommendations are framed as options and fitting checks rather than universal best/top claims.",
+      "source_ids": ["spykar-style-guide", "serp-harpers-bazaar-linen", "serp-cos-linen-guide"]
+    },
+    {
+      "claim_id": "keyword-opportunity",
+      "claim_type": "performance",
+      "statement": "The refresh covers the assigned linen-fashion and summer-outfit search intent for women and men.",
+      "criteria": "Keywords guide coverage only; no ranking or traffic guarantee is made.",
+      "source_ids": ["brief-keywords"]
+    },
+    {
+      "claim_id": "canonical-refresh",
+      "claim_type": "product_fact",
+      "statement": "The existing Spykar URL is retained as the canonical destination.",
+      "criteria": "Avoids a second overlapping URL for the exact same article title and intent.",
+      "source_ids": ["spykar-existing-canonical"]
+    },
+    {
+      "claim_id": "no-superiority-claims",
+      "claim_type": "best_top",
+      "statement": "No unqualified best, top, leading, sustainable or guaranteed-comfort claim is made.",
+      "criteria": "Advice is conditional on the garment label, fit, route, dress code and personal wardrobe.",
+      "source_ids": ["spykar-style-guide"]
+    }
+  ],
+  "detector_notes": [
+    {
+      "tool": "zerogpt",
+      "source": "zerogpt_web",
+      "checked_at": "2026-08-17T12:42:00+05:30",
+      "score": 6.0,
+      "max_score": 20.0,
+      "status": "pass",
+      "note": "The final article title and publishable body, excluding repository frontmatter, FAQ JSON-LD and image handoff metadata, were checked on the live ZeroGPT website. The result displayed 'Your Text is Human written' and 6% AI GPT. Earlier revisions scored 72.3%, 26.8% and 21.6%. Detector output is treated as a weak editorial risk signal, not proof of authorship."
+    }
+  ]
+}
