@@ -1,0 +1,83 @@
+{
+  "run_id": "20260818T-swat-reference-structure-google-doc",
+  "accessed_at": "2026-08-18T15:58:00+05:30",
+  "task": "Adapt the OFFLIMITS S.W.A.T. collection blog to the supplied Google Doc structure",
+  "reference": {
+    "document_id": "1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs",
+    "title": "INC5: The Freedom Edit",
+    "url": "https://docs.google.com/document/d/1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs/edit",
+    "tab_topology": [
+      {
+        "tab_id": "t.0",
+        "title": "Tab 1",
+        "index": 0,
+        "parent_tab_id": null
+      }
+    ],
+    "structural_signature": {
+      "opening": "Meta title and meta description followed by a labelled H1",
+      "body": "Labelled H2/H3 hierarchy, conversational recommendations, native bullet lists and inline image CTA blocks",
+      "handoff": "Final thoughts, five FAQs, FAQPage JSON-LD and image asset metadata",
+      "style": "Times New Roman; H1 23 pt bold, H2 17 pt bold, H3 13 pt bold",
+      "native_tables": 0,
+      "inline_images": 2,
+      "native_list_definitions": 4
+    },
+    "content_treatment": "structure and representative styling adapted; all INC5 and Independence Day facts, links and image content removed"
+  },
+  "destination": {
+    "document_id": "1JX1dQKeWYm7k63BiQYAn3MKncBLZiqdLAuPg7MF2KXs",
+    "title": "OFFLIMITS: S.W.A.T. Collection Spotlight",
+    "url": "https://docs.google.com/document/d/1JX1dQKeWYm7k63BiQYAn3MKncBLZiqdLAuPg7MF2KXs/edit",
+    "tab_topology": [
+      {
+        "tab_id": "t.0",
+        "title": "Tab 1",
+        "index": 0,
+        "parent_tab_id": null
+      }
+    ],
+    "verification": {
+      "heading_paragraphs": 27,
+      "native_list_paragraphs": 16,
+      "inline_images": 2,
+      "ordinary_hyperlinks": 9,
+      "all_hyperlinks_blue_and_underlined": true,
+      "faq_schema_present": true,
+      "image_metadata_present": true,
+      "keyword_section_present": true,
+      "draft_status_present": true,
+      "reference_only_facts_remaining": false,
+      "placeholder_markers_remaining": false
+    }
+  },
+  "internal_link_map": [
+    {"role": "collection context", "anchor": "OFFLIMITS S.W.A.T. collection", "url": "https://offlimits.co.in/collections/s-w-a-t-men"},
+    {"role": "product", "anchor": "Original S.W.A.T. in White", "url": "https://offlimits.co.in/products/swat-orm-600-03"},
+    {"role": "product", "anchor": "S.W.A.T. Sports Edition in Olive/Black", "url": "https://offlimits.co.in/products/s-w-a-t-sports-edition-olive-black-orm-599-12"},
+    {"role": "supporting guide", "anchor": "choosing the right basketball shoes", "url": "https://offlimits.co.in/blogs/blogs/how-to-choose-the-right-basketball-shoes"},
+    {"role": "mid-article CTA", "anchor": "Shop the S.W.A.T. collection", "url": "https://offlimits.co.in/collections/s-w-a-t-men"},
+    {"role": "product", "anchor": "S.W.A.T. Trail Edition in Sage Green/Black", "url": "https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02"},
+    {"role": "product", "anchor": "S.W.A.T. Street Edition in Cream/Mocha Mousse", "url": "https://offlimits.co.in/products/s-w-a-t-street-edition-cream-mocha-mousse-ocm-689-02"},
+    {"role": "supporting guide", "anchor": "styling sneakers for men and women", "url": "https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women"},
+    {"role": "conclusion CTA", "anchor": "OFFLIMITS S.W.A.T. collection", "url": "https://offlimits.co.in/collections/s-w-a-t-men"}
+  ],
+  "quality_gates": {
+    "local_ai_pattern_risk_percent": 10.54,
+    "local_gate_status": "pass",
+    "zerogpt_status": "blocked",
+    "zerogpt_blocker": "Provider returned 403 Not enough credits",
+    "editorial_status": "draft"
+  },
+  "rendering": {
+    "native_pdf_export_bytes": 6544270,
+    "connector_readback": "pass",
+    "html_structure_proxy": "pass before final status-line insertion; the final insertion was text-only and connector readback passed",
+    "pdf_page_raster_inspection": "not_completed",
+    "limitation": "The connector exported the PDF to a user-scoped sediment file reference, but the complete binary could not be materialized locally through the available Windows runtime path. No rendered-page visual pass is claimed."
+  },
+  "workflow_notes": {
+    "trusted_read_bridge": "The checked-in bridge requires POSIX absolute paths, /bin/sh and /usr/bin/perl and could not run in this Windows workspace. Direct full connector readback confirmed no private-use or protected controls before writing.",
+    "source_document_unchanged": true
+  }
+}
