@@ -1,0 +1,74 @@
+{
+  "run_id": "20260818T-swat-collection-research",
+  "accessed_at": "2026-08-18T14:45:00+05:30",
+  "topic": "S.W.A.T. Collection Spotlight: The Off Limits Line That Bridges Performance & Street Style",
+  "serp_query": "S.W.A.T. Collection Spotlight: The Off Limits Line That Bridges Performance & Street Style",
+  "serp_benchmark": [
+    {
+      "rank_reviewed": 1,
+      "title": "From Squats to Sidewalks: How to Style Activewear as Streetwear",
+      "url": "https://blog.aerie.com/2026/03/10/how-to-style-activewear-street-style/",
+      "status_code": 200,
+      "word_count": 684,
+      "tone": "Informative, encouraging and styling-led",
+      "structure": ["Core essentials", "Golden styling rules", "Accessories", "Occasion-based outfits", "Conclusion"]
+    },
+    {
+      "rank_reviewed": 2,
+      "title": "What Is Sports Streetwear? (And Why Padel Players Love It)",
+      "url": "https://www.thirdshot.uk/blogs/why-third-shot-uk/what-is-sports-streetwear-and-why-padel-players-love-it",
+      "status_code": 200,
+      "word_count": 803,
+      "tone": "Conversational, explanatory and sport-culture focused",
+      "structure": ["Definition", "Traditional vs sports streetwear", "Why the audience likes it", "Qualities", "Trend conclusion"]
+    },
+    {
+      "rank_reviewed": 3,
+      "title": "What is Athleisure",
+      "url": "https://www.salomon.com/en-gb/sg/a/what-is-athleisure",
+      "status_code": 200,
+      "word_count": 1201,
+      "tone": "Informative, polished and uplifting",
+      "structure": ["Definition and evolution", "Outfit ideas", "Work and casual use", "Materials and design", "Conclusion"]
+    }
+  ],
+  "benchmark_decision": "Use a conversational 1400-1800 word collection spotlight with a fast comparison table, edition-by-edition decision guidance, styling advice, FAQs and a linked commercial CTA. Preserve OFFLIMITS' product-led voice and do not copy competitor wording or section order.",
+  "product_sources": [
+    {
+      "url": "https://offlimits.co.in/collections/s-w-a-t-men",
+      "status_code": 200,
+      "facts": ["Current collection includes original, Sports, Trail and Street editions", "Collection is labelled S.W.A.T-Men"]
+    },
+    {
+      "url": "https://offlimits.co.in/products/swat-orm-600-03",
+      "status_code": 200,
+      "facts": ["White", "Lace up", "Phylon/TPR sole", "Canvas upper", "Advanced Memory Foam insock"]
+    },
+    {
+      "url": "https://offlimits.co.in/products/s-w-a-t-sports-edition-olive-black-orm-599-12",
+      "status_code": 200,
+      "facts": ["Olive/Black", "Lace up", "Phylon/TPR sole", "Mesh/synthetic upper", "Advanced Memory Foam insock", "Basketball and training positioning"]
+    },
+    {
+      "url": "https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02",
+      "status_code": 200,
+      "facts": ["Sage Green/Black", "Lace up", "Phylon/TPR sole", "Mesh/synthetic upper", "EVA insock"]
+    },
+    {
+      "url": "https://offlimits.co.in/products/s-w-a-t-street-edition-cream-mocha-mousse-ocm-689-02",
+      "status_code": 200,
+      "facts": ["Cream/Mocha Mousse", "Lace up", "Synthetic sole", "Mesh/synthetic upper", "Advanced Memory Foam insock"]
+    }
+  ],
+  "internal_links": [
+    {"url":"https://offlimits.co.in/collections/s-w-a-t-men","role":"collection and CTA","status_code":200},
+    {"url":"https://offlimits.co.in/blogs/blogs/how-to-choose-the-right-basketball-shoes","role":"supporting buying guide","status_code":200},
+    {"url":"https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women","role":"supporting styling guide","status_code":200}
+  ],
+  "images": {
+    "source": "Official OFFLIMITS product gallery images",
+    "reference_files": ["swat-white.jpg", "swat-sports-olive.jpg", "swat-trail-sage.jpg", "swat-street-cream.jpg"],
+    "generated_files": ["offlimits-swat-collection-hero.png", "offlimits-swat-editions-lineup.png"],
+    "generation_method": "Built-in image generation using the four official product images as references"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "claim": "The S.W.A.T. line includes original, Sports, Trail and Street editions with different constructions.",
+      "source_ids": [
+        "swat_collection",
+        "swat_white",
+        "swat_sports",
+        "swat_trail",
+        "swat_street"
+      ]
+    },
+    {
+      "claim": "The original White uses a Phylon/TPR sole, canvas upper and Advanced Memory Foam insock.",
+      "source_ids": [
+        "swat_white"
+      ]
+    },
+    {
+      "claim": "The Olive/Black Sports Edition uses a Phylon/TPR sole, mesh/synthetic upper and Advanced Memory Foam insock and is positioned for basketball and training.",
+      "source_ids": [
+        "swat_sports"
+      ]
+    },
+    {
+      "claim": "The Sage Green/Black Trail Edition uses a Phylon/TPR sole, mesh/synthetic upper and EVA insock.",
+      "source_ids": [
+        "swat_trail"
+      ]
+    },
+    {
+      "claim": "The Cream/Mocha Street Edition uses a synthetic sole, mesh/synthetic upper and Advanced Memory Foam insock.",
+      "source_ids": [
+        "swat_street"
+      ]
+    },
+    {
+      "claim_id": "high-top-word-context",
+      "claim_type": "best_top",
+      "criteria": "Every use of the word top appears in the compound footwear term high-top. It never makes a superiority, ranking or best-product claim.",
+      "source_ids": [
+        "swat_collection",
+        "swat_white",
+        "swat_sports",
+        "swat_trail",
+        "swat_street"
+      ],
+      "statement": "High-top is used as a product silhouette description and keyword, not as a claim that the collection ranks above alternatives."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-18T09:18:51+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-18T09:19:40+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-18T09:16:12+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/swat-collection-performance-street-style"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Canonical customer-facing brand form is OFFLIMITS",
+        "Product facts must be verified against current official pages",
+        "Content should be product-led and conversational"
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant organic blog results reviewed on 2026-08-18",
+        "Benchmark tone, body length and structure recorded"
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20260818T-swat-collection-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Collection contains original, Sports, Trail and Street editions"
+      ],
+      "source_id": "swat_collection",
+      "source_ref": "https://offlimits.co.in/collections/s-w-a-t-men",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "White",
+        "Phylon/TPR sole",
+        "Canvas upper",
+        "Advanced Memory Foam insock"
+      ],
+      "source_id": "swat_white",
+      "source_ref": "https://offlimits.co.in/products/swat-orm-600-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Olive/Black",
+        "Phylon/TPR sole",
+        "Mesh/synthetic upper",
+        "Advanced Memory Foam insock",
+        "Basketball and training positioning"
+      ],
+      "source_id": "swat_sports",
+      "source_ref": "https://offlimits.co.in/products/s-w-a-t-sports-edition-olive-black-orm-599-12",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Sage Green/Black",
+        "Phylon/TPR sole",
+        "Mesh/synthetic upper",
+        "EVA insock"
+      ],
+      "source_id": "swat_trail",
+      "source_ref": "https://offlimits.co.in/products/s-w-a-t-trail-edition-sage-green-black-ocm-681-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Cream/Mocha Mousse",
+        "Synthetic sole",
+        "Mesh/synthetic upper",
+        "Advanced Memory Foam insock"
+      ],
+      "source_id": "swat_street",
+      "source_ref": "https://offlimits.co.in/products/s-w-a-t-street-edition-cream-mocha-mousse-ocm-689-02",
+      "source_type": "product_page"
+    }
+  ]
+}
