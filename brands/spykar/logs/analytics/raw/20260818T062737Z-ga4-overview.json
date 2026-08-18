@@ -1,0 +1,29 @@
+{
+  "run_id": "spykar-ga4-overview-20260818",
+  "retrieved_at": "2026-08-18T06:27:37Z",
+  "provider": "composio/google_analytics",
+  "property": {
+    "resource": "properties/320857986",
+    "display_name": "www.spykar.com - GA4",
+    "time_zone": "Asia/Calcutta",
+    "currency": "INR"
+  },
+  "request": {
+    "date_range": {"start_date": "2026-07-19", "end_date": "2026-08-17"},
+    "dimensions": [],
+    "metrics": ["activeUsers", "totalUsers", "newUsers", "sessions", "engagedSessions", "engagementRate", "screenPageViews", "ecommercePurchases", "transactions", "purchaseRevenue"]
+  },
+  "response": {
+    "activeUsers": 366513,
+    "totalUsers": 368130,
+    "newUsers": 301319,
+    "sessions": 519970,
+    "engagedSessions": 512782,
+    "engagementRate": 0.98617612554570455,
+    "screenPageViews": 3284075,
+    "ecommercePurchases": 10394,
+    "transactions": 10121,
+    "purchaseRevenue": 18815134.578753009
+  },
+  "notes": "Report is sitewide and contains no dimensions. GA4 metric values were returned as strings and recorded here as numeric values. Revenue is in property currency (INR)."
+}
