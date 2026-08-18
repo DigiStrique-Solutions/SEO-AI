@@ -1,0 +1,12 @@
+{
+  "run_id": "spykar-technical-audit-20260818",
+  "run_date": "2026-08-18",
+  "target_url": "https://spykar.com/",
+  "sources": {
+    "firecrawl": {"native_map": "https://spykar.com/", "tested_urls": ["/", "/collections/men", "/collections/women", "/collections/men-jeans", "/blogs/blog", "/pages/about-us", "/robots.txt", "/sitemap.xml"], "limitation": "Brokered Firecrawl crawl unavailable; native rendered fetches used."},
+    "gsc": {"property": "https://spykar.com/", "current_period": "2026-02-17 to 2026-08-15", "previous_period": "2025-08-21 to 2026-02-16", "current": {"clicks": 140387, "impressions": 11656909, "ctr": 0.012043244053805344, "position": 9.353950176672049}, "previous": {"clicks": 283684, "impressions": 19188951, "ctr": 0.014783715899842571, "position": 11.650730829423662}},
+    "ga4": {"property": "properties/320857986", "channel": "Organic Search", "current_sessions": 161731, "previous_sessions": 317931, "current_revenue_inr": 5190366.589090002, "previous_revenue_inr": 19222216.732957},
+    "browser": {"status": "not_checked_blocked", "reason": "Browser Tool disabled by administrator."}
+  },
+  "deliverable": "https://docs.google.com/document/d/1W80L1ZzkPR3Z6KCp8rSYTb97HYPsYuQ9ManmV5TCxuA"
+}
