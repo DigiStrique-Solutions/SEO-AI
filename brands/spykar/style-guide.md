@@ -30,9 +30,11 @@ The tone is:
 
 ## Blog structure
 
-### Standing production format
+### Canonical Google Doc format
 
-Unless a future brief explicitly overrides it, use the approved linen-blog sequence for every Spykar blog: meta title and description; canonical, robots and keyword fields; H1 and introduction; a practical topic rationale; women’s and men’s styling sections where relevant; occasion, colour and accessory guidance; fit, care or usability advice; conclusion and soft CTA; five concise FAQs with matching FAQPage schema; then banner and inline-image handoff fields. The finished Google Doc must use native headings and lists, visibly blue-and-underlined internal links, one embedded topic-led banner and two embedded verified Spykar product images.
+Unless a future brief explicitly supplies a different template, use [Denim-on-Denim in 2026: How to Balance Washes, Fits and Proportions](https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0) as the canonical native Google Docs format for every Spykar blog. Start each new delivery as a native copy of this document so its single-tab topology, styles, spacing and image placements carry forward; replace all previous article content, product references, links, metadata and schema with material verified for the new topic.
+
+Preserve this production sequence: metadata block (meta title, meta description, canonical URL, robots, primary keyword and secondary keywords); native title/H1; embedded 4:3 topic-led banner immediately below the title; practical introduction and topic-led H2/H3 hierarchy; relevant men’s and women’s styling sections; sparse native lists; visibly blue-and-underlined internal links; two embedded, verified Spykar product images; occasion, colour, accessory, fit, care or usability guidance as relevant; conclusion with a soft commercial CTA; five concise FAQs; and matching FAQPage schema in the repository handoff.
 
 ### Title
 

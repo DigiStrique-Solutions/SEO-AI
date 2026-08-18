@@ -1,0 +1,22 @@
+{
+  "run_id": "spykar-canonical-google-doc-format-20260818",
+  "checked_at": "2026-08-18T09:44:25Z",
+  "brand_id": "spykar",
+  "source": {
+    "type": "user_supplied_google_doc",
+    "document_id": "14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04",
+    "url": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0",
+    "title": "Denim-on-Denim in 2026: How to Balance Washes, Fits and Proportions",
+    "tab_id": "t.0"
+  },
+  "verified_structure": {
+    "native_title": 1,
+    "native_heading_1": 10,
+    "native_heading_2": 18,
+    "native_list_items": 6,
+    "inline_images": 3,
+    "linked_text_runs": 7
+  },
+  "decision": "Use this document as the canonical native-copy format for future Spykar blogs unless a later brief explicitly supplies a different template.",
+  "updated_file": "brands/spykar/style-guide.md"
+}
