@@ -1,0 +1,52 @@
+{
+  "run_id": "spykar-homepage-firecrawl-20260818",
+  "retrieved_at": "2026-08-18T00:00:00Z",
+  "provider": "firecrawl",
+  "operation": "scrape",
+  "request": {
+    "url": "https://spykar.com/",
+    "formats": ["markdown", "links", "summary", "branding"],
+    "onlyMainContent": false,
+    "maxAge": 0,
+    "waitFor": 3000,
+    "proxy": "auto",
+    "location": {"country": "IN", "languages": ["en-IN"]}
+  },
+  "response": {
+    "statusCode": 200,
+    "contentType": "text/html; charset=utf-8",
+    "sourceURL": "https://spykar.com/",
+    "scrapeId": "01a0138c-3676-743c-835b-3e12a539a491",
+    "proxyUsed": "basic",
+    "creditsUsed": 1,
+    "pageTitle": "Spykar: India’s Leading Denim & Casual Wear Brand for Youth",
+    "description": "Welcome to our world, where staying young at heart and having a restless spirit are the only rules worth following! Give yourself the best you deserve.",
+    "brandName": "Spykar Lifestyles",
+    "summary": "Homepage exposes offers, Men, Women, Jeans, Underjeans and Clearance navigation; fit/style-led jeans discovery; new arrivals, store locator, blog and customer-support destinations.",
+    "observedPromotions": [
+      "Flat 10% off on orders above ₹2499 using SPYKAR10",
+      "Flat 15% off on orders above ₹3499 using SPYKAR15"
+    ],
+    "navigationSamples": [
+      "https://spykar.com/collections/new-arrivals",
+      "https://spykar.com/collections/men",
+      "https://spykar.com/collections/women",
+      "https://spykar.com/collections/men-jeans",
+      "https://spykar.com/collections/women-jeans",
+      "https://spykar.com/blogs/blog",
+      "https://spykar.com/a/storelocator",
+      "https://spykar.com/pages/about-us"
+    ],
+    "branding": {
+      "colorScheme": "light",
+      "headingFont": "ClashDisplay",
+      "bodyFonts": ["Roboto", "Inter"],
+      "primary": "#173A57",
+      "secondary": "#5C0F8B",
+      "accent": "#0066CC",
+      "background": "#FFFFFF",
+      "logo": "https://spykar.com/cdn/shop/files/46884b9b44e9193d0bf1a3c300aac0454e8aeccc.png?v=1769757478&width=304"
+    }
+  },
+  "notes": "Fresh fetch requested. Promotional content is time-sensitive and must not be treated as evergreen brand positioning. Full markdown and link payload were returned by Firecrawl in the execution trace; this log preserves the material evidence used for SEO work."
+}
