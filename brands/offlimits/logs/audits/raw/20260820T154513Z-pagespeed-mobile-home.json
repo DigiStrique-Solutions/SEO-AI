@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "report": {
+    "category_scores": {
+      "accessibility": 73,
+      "best-practices": 54,
+      "performance": 5,
+      "seo": 85
+    },
+    "checked_at": "2026-08-20T10:16:18+00:00",
+    "field_loading_experience": {
+      "metrics": {
+        "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+          "category": "SLOW",
+          "percentile": 111
+        },
+        "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+          "category": "AVERAGE",
+          "percentile": 1018
+        },
+        "FIRST_CONTENTFUL_PAINT_MS": {
+          "category": "AVERAGE",
+          "percentile": 2133
+        },
+        "INTERACTION_TO_NEXT_PAINT": {
+          "category": "FAST",
+          "percentile": 194
+        },
+        "LARGEST_CONTENTFUL_PAINT_MS": {
+          "category": "AVERAGE",
+          "percentile": 3688
+        }
+      },
+      "overall_category": "SLOW"
+    },
+    "final_url": "https://offlimits.co.in/",
+    "lab_core_web_vitals": {
+      "cumulative-layout-shift": {
+        "display_value": "0.755",
+        "numeric_value": 0.7545918909035143,
+        "score": 0.06
+      },
+      "first-contentful-paint": {
+        "display_value": "4.4\u00a0s",
+        "numeric_value": 4351.00212031325,
+        "score": 0.17
+      },
+      "interactive": {
+        "display_value": "36.8\u00a0s",
+        "numeric_value": 36784.33747931793,
+        "score": 0
+      },
+      "largest-contentful-paint": {
+        "display_value": "25.6\u00a0s",
+        "numeric_value": 25594.00871684334,
+        "score": 0
+      },
+      "max-potential-fid": {
+        "display_value": "430\u00a0ms",
+        "numeric_value": 431.00000000000364,
+        "score": 0.14
+      },
+      "speed-index": {
+        "display_value": "14.9\u00a0s",
+        "numeric_value": 14910.219933294797,
+        "score": 0.01
+      },
+      "total-blocking-time": {
+        "display_value": "2,290\u00a0ms",
+        "numeric_value": 2285.999999999999,
+        "score": 0.05
+      }
+    },
+    "origin_loading_experience": {
+      "metrics": {
+        "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+          "category": "SLOW",
+          "percentile": 37
+        },
+        "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+          "category": "AVERAGE",
+          "percentile": 839
+        },
+        "FIRST_CONTENTFUL_PAINT_MS": {
+          "category": "AVERAGE",
+          "percentile": 1851
+        },
+        "INTERACTION_TO_NEXT_PAINT": {
+          "category": "FAST",
+          "percentile": 199
+        },
+        "LARGEST_CONTENTFUL_PAINT_MS": {
+          "category": "AVERAGE",
+          "percentile": 3257
+        }
+      },
+      "overall_category": "SLOW"
+    },
+    "service": "pagespeed",
+    "strategy": "mobile",
+    "url": "https://offlimits.co.in/"
+  }
+}
