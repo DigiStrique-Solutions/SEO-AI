@@ -1,0 +1,18 @@
+{
+  "run_id": "20260820T102200Z-pagespeed-developer-brief",
+  "source_run_id": "20260820T154513Z-pagespeed-mobile-home",
+  "output_type": "Google Doc",
+  "document_id": "1gPNUJRYaqmjh_dHKbC5R7oWg9onuotj4Wxghvl3nj04",
+  "document_url": "https://docs.google.com/document/d/1gPNUJRYaqmjh_dHKbC5R7oWg9onuotj4Wxghvl3nj04",
+  "title": "OFFLIMITS — Mobile PageSpeed Remediation Brief (Developer Copy)",
+  "included_sections": [
+    "field and lab evidence",
+    "success criteria",
+    "prioritized Shopify remediation backlog",
+    "implementation actions",
+    "acceptance tests",
+    "safe deployment sequence",
+    "guardrails"
+  ],
+  "verification": "Google Docs API readback confirmed native document structure, heading styles, native bullets, and the PageSpeed report hyperlink."
+}
