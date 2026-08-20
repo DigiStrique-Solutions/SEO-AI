@@ -12,7 +12,8 @@
     "implementation actions",
     "acceptance tests",
     "safe deployment sequence",
-    "guardrails"
+    "guardrails",
+    "15-step developer task checklist"
   ],
-  "verification": "Google Docs API readback confirmed native document structure, heading styles, native bullets, and the PageSpeed report hyperlink."
+  "verification": "Google Docs API readback confirmed native document structure, heading styles, native bullets, the PageSpeed report hyperlink, and the developer task checklist from Task 01 through Task 15."
 }
