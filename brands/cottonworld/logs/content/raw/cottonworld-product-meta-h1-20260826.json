@@ -16,6 +16,10 @@
     "max_meta_description_length": 155,
     "forbidden_description_term": "Choose",
     "remaining_forbidden_term_occurrences": 0,
+    "max_meta_title_length_after_deduplication": 70,
+    "exact_duplicate_h1_groups": 0,
+    "exact_duplicate_meta_title_groups": 0,
+    "exact_duplicate_meta_description_groups": 0,
     "native_visual_check": "not_checked_blocked: no connected Google Sheets visual session was available"
   }
 }
