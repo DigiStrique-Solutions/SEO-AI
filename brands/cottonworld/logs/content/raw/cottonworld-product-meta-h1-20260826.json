@@ -1,0 +1,16 @@
+{
+  "spreadsheet_id": "1yyEBmhtgcST1Lzd0hwmH6fIHrmbIjOAo_VGODNopRgk",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1yyEBmhtgcST1Lzd0hwmH6fIHrmbIjOAo_VGODNopRgk/edit?gid=0#gid=0",
+  "tab": "Sheet1",
+  "source_range": "A2:A917",
+  "source_record_count": 916,
+  "output_range": "B1:D917",
+  "output_columns": ["H1", "Meta Title", "Meta Description"],
+  "method": "Generated from each supplied canonical product URL's descriptive slug; Cottonworld brand context guided naming and brand suffixing.",
+  "validation": {
+    "sample_ranges_checked": ["A1:D5", "A915:D917"],
+    "max_meta_title_length": 60,
+    "max_meta_description_length": 140,
+    "native_visual_check": "not_checked_blocked: no connected Google Sheets visual session was available"
+  }
+}
