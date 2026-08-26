@@ -1,0 +1,23 @@
+{
+  "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "tab": "updated deck",
+  "source_range": "F101:F251",
+  "records_normalized": 151,
+  "verification": {
+    "total_product_entries": 250,
+    "duplicate_product_slugs": 0,
+    "duplicate_old_urls": 0,
+    "duplicate_exact_final_drafts": 0,
+    "duplicate_new_url_groups": 38,
+    "blank_final_drafts": 0,
+    "remaining_product_highlights_sections": 0,
+    "remaining_care_sections": 0,
+    "invalid_styling_note_headings": 0
+  },
+  "exceptions": [
+    {
+      "rows": [137, 140],
+      "issue": "The new URLs are marked Broken URL 404, so the final copy does not state unsourced fabric or construction details."
+    }
+  ]
+}
