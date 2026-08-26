@@ -1,0 +1,21 @@
+{
+  "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "source_tab": "Batch 1",
+  "destination_tab": "updated deck",
+  "destination_sheet_id": 1898149789,
+  "source_range": "F2:F100",
+  "records": 99,
+  "transformations": [
+    "Duplicated the source tab with its native structure and formatting.",
+    "Retained each product-specific opening and feature paragraphs.",
+    "Removed separate Product highlights and Care sections.",
+    "Normalized the final paragraph to the 'Styling note -' format."
+  ],
+  "verification": {
+    "blank_final_drafts": 0,
+    "remaining_product_highlights_sections": 0,
+    "remaining_care_sections": 0,
+    "invalid_styling_note_headings": 0,
+    "cell_format": "wrap, left aligned, vertically middle"
+  }
+}
