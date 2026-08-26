@@ -6,11 +6,14 @@
   "source_record_count": 916,
   "output_range": "B1:D917",
   "output_columns": ["H1", "Meta Title", "Meta Description"],
-  "method": "Generated from each supplied canonical product URL's descriptive slug; Cottonworld brand context guided naming and brand suffixing.",
+  "reference_spreadsheet_id": "1eJicJ9M95ockXjPO8iN6tmkLiEcncB5GHt5hduShkJQ",
+  "method": "Matched supplied URLs to the reference workbook's canonical URL and adopted its meta-tag copy when available; generated varied brand-aligned alternatives for unmatched URLs. H1s derive from product URL or reference title text.",
   "validation": {
     "sample_ranges_checked": ["A1:D5", "A915:D917"],
     "max_meta_title_length": 60,
-    "max_meta_description_length": 140,
+    "reference_matches": 539,
+    "generated_alternatives": 377,
+    "max_meta_description_length": 155,
     "native_visual_check": "not_checked_blocked: no connected Google Sheets visual session was available"
   }
 }
