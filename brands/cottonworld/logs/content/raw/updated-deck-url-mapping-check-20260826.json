@@ -1,0 +1,13 @@
+{
+  "target_spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "target_tab": "updated deck",
+  "target_records": 250,
+  "source_spreadsheet_id": "1yyEBmhtgcST1Lzd0hwmH6fIHrmbIjOAo_VGODNopRgk",
+  "source_tab": "Sheet1",
+  "source_column": "Suggested New URL Structure (CW Revised)",
+  "source_records": 916,
+  "deterministic_matches": 149,
+  "unmapped_target_records": 100,
+  "status": "blocked_mapping_key_missing",
+  "reason": "The source sheet has no product SKU, old URL or other row-level mapping key. Its ordering does not correspond to updated deck, so the unmatched URLs cannot be safely assigned."
+}
