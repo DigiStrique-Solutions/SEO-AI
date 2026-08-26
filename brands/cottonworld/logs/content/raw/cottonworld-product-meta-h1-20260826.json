@@ -14,6 +14,8 @@
     "reference_matches": 539,
     "generated_alternatives": 377,
     "max_meta_description_length": 155,
+    "forbidden_description_term": "Choose",
+    "remaining_forbidden_term_occurrences": 0,
     "native_visual_check": "not_checked_blocked: no connected Google Sheets visual session was available"
   }
 }
