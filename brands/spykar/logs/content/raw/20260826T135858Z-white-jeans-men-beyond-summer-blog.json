@@ -1,0 +1,86 @@
+{
+  "run_id": "spykar-white-jeans-men-beyond-summer-20260826",
+  "accessed_at": "2026-08-26T13:58:58Z",
+  "brand_id": "spykar",
+  "topic": "How to Style White Jeans for Men Beyond Summer",
+  "canonical_url": "https://spykar.com/blogs/blog/white-jeans-for-men-beyond-summer",
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://www.gq.com/story/white-jeans-for-men",
+      "tone": "playful, authoritative and product-editorial",
+      "estimated_editorial_words": "1800-2300 around the product modules",
+      "structure": "year-round premise, fit and cut advice, shortlist categories, pros and cons, product detail and styling notes"
+    },
+    {
+      "ranked_url": "https://www.michael84.co.uk/wear-white-jeans-autumn-winter/",
+      "tone": "first-person, practical and direct",
+      "estimated_editorial_words": "850-1050",
+      "structure": "seasonal premise, colour pairing, fit, layers, shoes and a concise outfit checklist"
+    },
+    {
+      "ranked_url": "https://stylegirlfriend.com/white-jeans-outfits-for-guys/",
+      "tone": "conversational, humorous and encouraging",
+      "estimated_editorial_words": "1100-1400",
+      "structure": "fabric and fit guidance, six compact outfit formulas, images and shopping modules"
+    }
+  ],
+  "content_gap": "Ranking pages establish year-round versatility but either centre product roundups or broad seasonal advice. The Spykar article uses eight occasion-led combinations plus specific daylight, sitting, pocket, hem, layer and shoe checks for an Indian reader moving between warm outdoor conditions and air-conditioned plans.",
+  "duplicate_check": {
+    "status": "distinct_adjacent_intent",
+    "evidence": "The live Spykar old-money guide mentions white jeans briefly, while repository and site searches did not surface a standalone beyond-summer white-jeans guide. The new article links to the adjacent guide instead of repeating its structure."
+  },
+  "verified_product": {
+    "url": "https://spykar.com/collections/trooper/products/mdact1be319white",
+    "name": "Men Jeans Regular Fit White Mid Rise",
+    "vendor": "Spykar Lifestyles Pvt Ltd",
+    "http_status": 200,
+    "facts_used": "cotton, stretch, regular fit, mid rise, solid clean look, six pockets, button-and-zip closure and machine wash as per tag",
+    "shopify_images_found": 7
+  },
+  "internal_link_map": [
+    {"type":"product","anchor":"white regular-fit mid-rise jeans","url":"https://spykar.com/collections/trooper/products/mdact1be319white","http_status":200},
+    {"type":"supporting_blog","anchor":"building a modern old-money look","url":"https://spykar.com/blogs/blog/mastering-the-old-money-look-with-spykar-a-modern-man-s-guide","http_status":200},
+    {"type":"collection","anchor":"men's jackets","url":"https://spykar.com/collections/men-jackets","http_status":200},
+    {"type":"collection","anchor":"men's shirts","url":"https://spykar.com/collections/men-shirts","http_status":200},
+    {"type":"commercial_cta","anchor":"men's jeans collection","url":"https://spykar.com/collections/men-jeans","http_status":200}
+  ],
+  "authenticity_gate": {
+    "zerogpt_web_iterations": [47.8, 20.4, 3.6],
+    "zerogpt_final_result": "Your Text is Human written",
+    "local_ai_pattern_risk_score": 6.0,
+    "threshold": "strictly below 20%",
+    "status": "pass"
+  },
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/white-jeans-men-beyond-summer/white-jeans-men-beyond-summer-banner-master.png",
+    "web": "brands/spykar/blogs/creatives/white-jeans-men-beyond-summer/white-jeans-men-beyond-summer-banner-800x600.jpg",
+    "headline": "WHITE, ALL YEAR",
+    "dimensions": "4:3 master; 800x600 web JPG",
+    "product_provenance": "Generated with two downloaded images from the verified live Spykar white-jeans product page as garment references; both downloaded originals are included for inline use.",
+    "visual_qa": "Passed: exact headline, adult menswear styling, white garment and utility-pocket construction are clear, hands and feet are plausible, safe margins are intact, and no price, discount, watermark or added third-party logo appears."
+  },
+  "google_doc": {
+    "id": "13w_mIvJP9VDgLhkVBw2cKiPZlt4pP84x8A0c0-u3FME",
+    "url": "https://docs.google.com/document/d/13w_mIvJP9VDgLhkVBw2cKiPZlt4pP84x8A0c0-u3FME/edit",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "template_source_id": "14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04",
+    "tab_id": "t.0",
+    "trusted_read": "The required file-backed bridge was attempted with the current checked-in script. Its POSIX command failed on Windows and its fallback path rejected the Windows workspace as non-absolute. A fresh full connector read of the copied destination supplied the exact document, tab and revision before writing.",
+    "readback": {
+      "native_heading_count": 25,
+      "native_list_item_count": 5,
+      "blue_underlined_internal_link_runs": 5,
+      "inline_image_count": 3,
+      "placeholders_remaining": false
+    },
+    "pdf_export": {
+      "status": "partial_visual_pass",
+      "size_bytes": 3534691,
+      "visual_qa": "The document was opened in Google Docs at 100% zoom. The metadata block, native title and 4:3 banner were inspected on the first page, and the first live Spykar product image was inspected on its document page without clipping. Full PDF page rasterization was unavailable because the connector returned a non-local sediment reference."
+    }
+  },
+  "meta_title_length": 55,
+  "meta_description_length": 146,
+  "word_count": 1900,
+  "status": "ok"
+}

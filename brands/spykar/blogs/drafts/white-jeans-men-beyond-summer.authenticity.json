@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim_id": "product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Every product detail matches the live product page and Shopify JSON checked on 2026-08-26; price and guaranteed availability are omitted.",
+      "source_ids": [
+        "spykar-live-product"
+      ],
+      "statement": "The featured Spykar white jeans use the fit, rise, material, stretch, finish, closure, pocket count and care language stated in the article."
+    },
+    {
+      "claim_id": "year-round-styling-frame",
+      "claim_type": "comparison",
+      "criteria": "The premise reflects the three ranking style guides and is expressed as adaptable outfit advice rather than a universal fashion rule.",
+      "source_ids": [
+        "serp-gq",
+        "serp-michael84",
+        "serp-style-girlfriend"
+      ],
+      "statement": "White jeans are presented as a year-round styling option when paired with season-appropriate colours, layers and footwear."
+    },
+    {
+      "claim_id": "keyword-coverage",
+      "claim_type": "performance",
+      "criteria": "Keywords guide coverage only; no ranking, traffic or conversion outcome is promised.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The article addresses the requested white-jeans styling and men's smart-casual intent."
+    },
+    {
+      "claim_id": "internal-link-relevance",
+      "claim_type": "product_fact",
+      "criteria": "Targets were opened on 2026-08-26 and descriptive anchors are used in the publishable body.",
+      "source_ids": [
+        "spykar-live-product",
+        "spykar-live-internal-pages"
+      ],
+      "statement": "Every internal link points to a live Spykar product, collection or supporting blog relevant to the surrounding text."
+    },
+    {
+      "claim_id": "no-unsupported-superiority",
+      "claim_type": "best_top",
+      "criteria": "Guidance remains conditional on fit, fabric, weather, footwear and occasion.",
+      "source_ids": [
+        "spykar-brand-guidance"
+      ],
+      "statement": "The article makes no unqualified best, premium, sustainable, flattering or guaranteed-comfort claim."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-26T13:44:20+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-26T19:20:00+05:30",
+      "max_score": 20.0,
+      "note": "The final article title and publishable body, excluding repository frontmatter, FAQ JSON-LD and image handoff metadata, were checked on the live ZeroGPT website. The first pass scored 47.8% and the second 20.4%; source-backed and concrete fitting-room revisions reduced the final result to 3.6%. The detector is treated as a weak editorial risk signal, not proof of authorship.",
+      "score": 3.6,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-26T14:05:13+05:30",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "target": "white-jeans-men-beyond-summer"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand. Blog copy uses Indian English, practical outfit detail, natural keywords, restrained claims, the canonical Google Doc structure and a soft CTA.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Requested topic and phrases: white jeans for men, how to style white jeans, mens jeans and smart casual outfits men.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief dated 2026-08-26",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Playful, authoritative men's-fashion tone; approximately 1800-2300 editorial words around a product shortlist; year-round premise, fit and cut advice, product categories, pros and cons, and styling notes.",
+      "source_id": "serp-gq",
+      "source_ref": "https://www.gq.com/story/white-jeans-for-men (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "First-person, practical men's style-guide tone; approximately 850-1050 editorial words; seasonal premise, colour pairing, fit, layers, shoes and a concise outfit checklist.",
+      "source_id": "serp-michael84",
+      "source_ref": "https://www.michael84.co.uk/wear-white-jeans-autumn-winter/ (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Conversational, humorous and encouraging tone; approximately 1100-1400 editorial words; fabric and fit guidance followed by six short outfit formulas and product modules.",
+      "source_id": "serp-style-girlfriend",
+      "source_ref": "https://stylegirlfriend.com/white-jeans-outfits-for-guys/ (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Men Jeans Regular Fit White Mid Rise; Spykar Lifestyles Pvt Ltd; cotton; stretch; solid; clean look and clean fade; mid rise; six pockets; button-and-zip closure; machine wash as per tag. Product page returned live content and Shopify JSON exposed seven images.",
+      "source_id": "spykar-live-product",
+      "source_ref": "https://spykar.com/collections/trooper/products/mdact1be319white and Shopify product JSON (accessed 2026-08-26)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The men's jeans, shirts and jackets collection pages and the supporting old-money styling blog were live and relevant to the outfit guidance.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/collections/men-jeans, https://spykar.com/collections/men-shirts, https://spykar.com/collections/men-jackets and https://spykar.com/blogs/blog/mastering-the-old-money-look-with-spykar-a-modern-man-s-guide (accessed 2026-08-26)",
+      "source_type": "product_page"
+    }
+  ]
+}
