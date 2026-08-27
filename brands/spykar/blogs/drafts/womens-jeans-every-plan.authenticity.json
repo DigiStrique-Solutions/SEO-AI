@@ -1,0 +1,142 @@
+{
+  "claims": [
+    {
+      "claim_id": "product-facts-wide-leg",
+      "claim_type": "product_fact",
+      "criteria": "Fit, rise, wash, material, stretch, pocket count and finish match the live Spykar product page and Shopify JSON checked on 2026-08-26; price and guaranteed availability are omitted.",
+      "source_ids": [
+        "spykar-wide-leg-product"
+      ],
+      "statement": "The featured Bella-Wide product is a clean, medium-wash, high-rise wide leg in stretch cotton-Lycra with five pockets."
+    },
+    {
+      "claim_id": "product-facts-bootcut",
+      "claim_type": "product_fact",
+      "criteria": "Fit, rise, colour, finish, closure and pocket count match the live Spykar product page and Shopify JSON checked on 2026-08-26; price and guaranteed availability are omitted.",
+      "source_ids": [
+        "spykar-bootcut-product"
+      ],
+      "statement": "The featured Elissa product is a clean black high-rise bootcut with five pockets and a button-and-zip closure."
+    },
+    {
+      "claim_id": "occasion-led-frame",
+      "claim_type": "comparison",
+      "criteria": "The article combines the work, weekend and festive search-result patterns into an original Spykar outline and does not copy competitor wording or reproduce one competitor structure.",
+      "source_ids": [
+        "serp-fashiofy",
+        "serp-marie-claire",
+        "serp-who-what-wear"
+      ],
+      "statement": "The guide organises women\u2019s denim styling by real plans and uses texture, wash, fit, footwear and proportion to change the dress code."
+    },
+    {
+      "claim_id": "internal-link-relevance",
+      "claim_type": "product_fact",
+      "criteria": "Each target returned HTTP 200 on 2026-08-26 and is linked through a descriptive anchor in the publishable body.",
+      "source_ids": [
+        "spykar-live-internal-pages",
+        "spykar-wide-leg-product",
+        "spykar-bootcut-product"
+      ],
+      "statement": "The body contains verified product, collection, supporting-blog and commercial CTA links."
+    },
+    {
+      "claim_id": "keyword-coverage",
+      "claim_type": "performance",
+      "criteria": "The supplied keywords shape the title and coverage only; no ranking, traffic, sales or conversion outcome is promised.",
+      "source_ids": [
+        "user-keyword-brief"
+      ],
+      "statement": "The draft addresses Spykar jeans for women, women\u2019s jeans styles, wide-leg jeans for women and bootcut jeans for women."
+    },
+    {
+      "claim_id": "no-unsupported-superiority",
+      "claim_type": "best_top",
+      "criteria": "Styling guidance is conditional on fit, dress code, weather and occasion; the draft makes no unqualified best, premium, sustainable or universally flattering claim.",
+      "source_ids": [
+        "spykar-brand-guidance"
+      ],
+      "statement": "The article remains practical and evidence-limited rather than using unsupported superiority language."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-27T00:52:00+05:30",
+      "max_score": 20.0,
+      "note": "The article title and publishable body, excluding repository frontmatter, FAQ JSON-LD and image handoff metadata, were checked on the live ZeroGPT website. The first pass scored 27.8%; source-backed and more concrete fitting-room, workday and festive-styling revisions reduced the final result to 5.5%. The detector is treated as a weak editorial risk signal, not proof of authorship.",
+      "score": 5.5,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-27T06:44:03+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-26T19:34:42+05:30",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "target": "womens-jeans-every-plan"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand. Blog copy uses Indian English, practical outfit detail, natural unbolded keywords, restrained claims, the canonical native Google Doc structure and a soft CTA.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Requested topic and phrases: Spykar jeans for women, women\u2019s jeans styles, wide leg jeans for women and bootcut jeans for women.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief dated 2026-08-26",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Practical work-to-weekend editorial tone; 2,194 extracted words; 15 numbered outfit formulas, each followed by repeated outfit-details and styling-guide blocks.",
+      "source_id": "serp-fashiofy",
+      "source_ref": "https://fashiofy.com/work-to-weekend-blue-jeans-outfits-for-women/ (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Polished, editor-led and encouraging tone; 1,216 extracted article words; short introduction followed by six office outfit formulas and product modules.",
+      "source_id": "serp-marie-claire",
+      "source_ref": "https://www.marieclaire.co.uk/fashion/how-to-wear-jeans-to-the-office (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Trend-forward, confident festive tone; 919 extracted article words; three-paragraph premise followed by 15 compact image-led get-the-look formulas.",
+      "source_id": "serp-who-what-wear",
+      "source_ref": "https://www.whowhatwear.com/fashion/outfit-ideas/holiday-denim-outfits-2025 (accessed 2026-08-26)",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Women Bella-Wide Jeans Wide Leg Blue High Rise; vintage mid blue; high rise; clean medium-wash finish; cotton-Lycra with stretch; five pockets; button-and-zip closure; machine wash. Product page returned HTTP 200 and Shopify JSON showed available variants and nine images.",
+      "source_id": "spykar-wide-leg-product",
+      "source_ref": "https://spykar.com/products/wdynr1bf262vintagemidblue and Shopify product JSON (accessed 2026-08-26)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Elissa Jeans Boot Cut Fit Black High Rise; black; clean no-fade finish; high rise; Lycra; five pockets; button-and-zip closure; machine wash. Product page returned HTTP 200 and Shopify JSON showed available variants and six images.",
+      "source_id": "spykar-bootcut-product",
+      "source_ref": "https://spykar.com/products/wdynr2bd422black and Shopify product JSON (accessed 2026-08-26)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women\u2019s jeans collection, women\u2019s jackets collection and the supporting everyday women\u2019s tops blog returned HTTP 200 and were relevant to the surrounding article passages.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/collections/women-jeans, https://spykar.com/collections/women-jackets and https://spykar.com/blogs/blog/essential-womens-tops-for-everyday-wear (accessed 2026-08-26)",
+      "source_type": "product_page"
+    }
+  ]
+}

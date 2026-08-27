@@ -1,0 +1,97 @@
+{
+  "run_id": "spykar-womens-jeans-every-plan-20260827",
+  "accessed_at": "2026-08-27T06:48:26Z",
+  "brand_id": "spykar",
+  "topic": "Women’s Jeans for Every Plan: Workdays, Weekends and Festive Evenings",
+  "canonical_url": "https://spykar.com/blogs/blog/womens-jeans-every-plan",
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://fashiofy.com/work-to-weekend-blue-jeans-outfits-for-women/",
+      "tone": "practical, direct and outfit-led",
+      "estimated_editorial_words": 2194,
+      "structure": "short premise followed by 15 numbered work-to-weekend outfits, each with repeated outfit-details and styling-guide blocks"
+    },
+    {
+      "ranked_url": "https://www.marieclaire.co.uk/fashion/how-to-wear-jeans-to-the-office",
+      "tone": "polished, editor-led and encouraging",
+      "estimated_editorial_words": 1216,
+      "structure": "brief office-denim premise followed by six image-led outfit formulas and shopping modules"
+    },
+    {
+      "ranked_url": "https://www.whowhatwear.com/fashion/outfit-ideas/holiday-denim-outfits-2025",
+      "tone": "trend-forward, confident and festive",
+      "estimated_editorial_words": 919,
+      "structure": "three-paragraph festive premise followed by 15 compact image-led get-the-look formulas"
+    }
+  ],
+  "content_gap": "The ranking set separates office, weekend and party styling. The Spykar article connects all three through fit checks, repeat-wear logic and nine original outfit formulas, with product-specific guidance for live wide-leg and bootcut jeans.",
+  "duplicate_check": {
+    "status": "distinct_adjacent_intent",
+    "evidence": "Spykar's live Denim Decoded guide covers multiple men’s and women’s fits broadly. The proposed article is a women-only, calendar-led work/weekend/festive guide and links to a supporting women’s tops article instead of repeating the existing fit taxonomy. No exact or near-exact title appeared in the live Spykar blog index or saved topic summary."
+  },
+  "verified_products": [
+    {
+      "url": "https://spykar.com/products/wdynr1bf262vintagemidblue",
+      "name": "Women Bella-Wide Jeans Wide Leg Blue High Rise",
+      "http_status": 200,
+      "facts_used": "vintage mid blue, high rise, clean medium-wash wide leg, stretch cotton-Lycra, five pockets, button-and-zip closure and machine wash",
+      "shopify_images_found": 9,
+      "available_variants_at_check": 3
+    },
+    {
+      "url": "https://spykar.com/products/wdynr2bd422black",
+      "name": "Women Elissa Jeans Boot Cut Fit Black High Rise",
+      "http_status": 200,
+      "facts_used": "black, high rise, clean no-fade bootcut, Lycra, five pockets, button-and-zip closure and machine wash",
+      "shopify_images_found": 6,
+      "available_variants_at_check": 5
+    }
+  ],
+  "internal_link_map": [
+    {"type":"product","anchor":"blue Bella-Wide high-rise jeans","url":"https://spykar.com/products/wdynr1bf262vintagemidblue","http_status":200},
+    {"type":"supporting_blog","anchor":"women’s tops for everyday wear","url":"https://spykar.com/blogs/blog/essential-womens-tops-for-everyday-wear","http_status":200},
+    {"type":"collection","anchor":"women’s jackets collection","url":"https://spykar.com/collections/women-jackets","http_status":200},
+    {"type":"product","anchor":"black Elissa high-rise bootcut jeans","url":"https://spykar.com/products/wdynr2bd422black","http_status":200},
+    {"type":"commercial_cta","anchor":"women’s jeans collection","url":"https://spykar.com/collections/women-jeans","http_status":200}
+  ],
+  "authenticity_gate": {
+    "zerogpt_web_iterations": [27.8, 5.5],
+    "zerogpt_final_result": "Your Text is Human written",
+    "local_ai_pattern_risk_score": 6.0,
+    "threshold": "strictly below 20%",
+    "status": "pass"
+  },
+  "creative": {
+    "master": "brands/spykar/blogs/creatives/womens-jeans-every-plan/womens-jeans-every-plan-banner-master.png",
+    "web": "brands/spykar/blogs/creatives/womens-jeans-every-plan/womens-jeans-every-plan-banner-800x600.jpg",
+    "headline": "DENIM, EVERY PLAN",
+    "dimensions": "4:3 master; 800x600 web JPG",
+    "product_provenance": "Generated with the downloaded live Spykar Bella-Wide blue and Elissa black bootcut product images as garment references; both verified product images are also embedded in the blog.",
+    "visual_qa": "Passed: two adult women, wide-leg and bootcut silhouettes are immediately clear, headline is exact and inside safe margins, anatomy and fabric folds are plausible, and no price, discount, watermark, third-party logo or unapproved brand mark appears. The office-to-evening architectural scene is distinct from the recent single-model urban white-jeans banner."
+  },
+  "google_doc": {
+    "id": "1nDjzygiRgS8c8hrgZFlpaUMLEsLq3nZ0nOlsqMYJ3e4",
+    "url": "https://docs.google.com/document/d/1nDjzygiRgS8c8hrgZFlpaUMLEsLq3nZ0nOlsqMYJ3e4/edit?tab=t.0",
+    "folder_id": "1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM",
+    "template_source_id": "14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04",
+    "tab_id": "t.0",
+    "trusted_read": "The checked-in file-backed bridge was attempted before the first write, but its required POSIX wc command could not run in the Windows PowerShell host. A fresh full connector read of the copied destination supplied the exact document, tab and revision before writing.",
+    "readback": {
+      "native_heading_count": 28,
+      "native_list_item_count": 4,
+      "blue_underlined_internal_link_runs": 5,
+      "inline_image_count": 3,
+      "placeholders_remaining": false,
+      "trailing_template_text_removed": true
+    },
+    "pdf_export": {
+      "status": "partial_visual_pass",
+      "size_bytes": 3402294,
+      "visual_qa": "The document was opened in Google Docs at 100% zoom. The metadata block, native title and 4:3 banner were inspected on the first page, and both live Spykar product images were inspected at their article locations without clipping. Full PDF page rasterization was unavailable because the connector returned a non-local sediment reference."
+    }
+  },
+  "meta_title_length": 53,
+  "meta_description_length": 141,
+  "word_count": 2191,
+  "status": "ok"
+}
