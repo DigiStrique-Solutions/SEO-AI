@@ -1,0 +1,162 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS offers apparel across tracksuits, joggers, hoodies, sweatshirts and tees, alongside footwear categories.",
+      "source_ids": [
+        "brand_rules",
+        "all_apparel"
+      ]
+    },
+    {
+      "claim": "The Men's Sonic Tracksuit is light grey/A Force with full sleeves, cut-and-sew construction, Wicktech and polyester-spandex fabric.",
+      "source_ids": [
+        "sonic_tracksuit"
+      ]
+    },
+    {
+      "claim": "The Women's Glaze Tracksuit is grey melange with a cotton/polyfleece fabric, hooded top and cargo pocket.",
+      "source_ids": [
+        "glaze_tracksuit"
+      ]
+    },
+    {
+      "claim": "The Men's Titan T-shirt uses a bold varsity-style 07 graphic visible in official product photography.",
+      "source_ids": [
+        "titan_tee"
+      ]
+    },
+    {
+      "claim": "The black Bomba is a lace-up lifestyle sneaker with a synthetic upper, TPR sole and EVA insock.",
+      "source_ids": [
+        "bomba_sneaker"
+      ]
+    },
+    {
+      "claim_id": "top-garment-context",
+      "claim_type": "best_top",
+      "criteria": "Every remaining use of the word top is a garment noun, such as hooded top or lower half, and never a superiority or ranking claim.",
+      "source_ids": [
+        "brand_rules",
+        "glaze_tracksuit"
+      ],
+      "statement": "Top is used only to identify an upper-body garment and does not claim that a product ranks above alternatives."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-26T14:00:23+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-27T06:37:29+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-26T13:58:43+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/sportstyle-revolution-athleisure-daily-wear"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Canonical customer-facing brand form is OFFLIMITS",
+        "Brand is an Indian sports and athleisure label",
+        "Product-led and conversational content is required",
+        "Unverified product and performance claims are prohibited"
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant organic blog results were reviewed on 2026-08-26",
+        "Tone, estimated content length and section flow were recorded",
+        "The combined benchmark supports a conversational Indian sportstyle guide of 1600-1900 body words"
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20260826T-sportstyle-revolution-serp-product-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "OFFLIMITS all-apparel catalogue page",
+        "Includes current tracksuit and tee listings"
+      ],
+      "source_id": "all_apparel",
+      "source_ref": "https://offlimits.co.in/collections/all-apparels",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Light Grey/A Force colour",
+        "Full sleeves",
+        "Cut-and-sew pattern",
+        "Wicktech",
+        "Polyester-spandex fabric"
+      ],
+      "source_id": "sonic_tracksuit",
+      "source_ref": "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Grey Melange colour",
+        "Cotton/polyfleece fabric",
+        "Cargo pocket",
+        "Hooded neck",
+        "Women's tracksuit"
+      ],
+      "source_id": "glaze_tracksuit",
+      "source_ref": "https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Titan T-shirt",
+        "Official product image shows white mesh-look tee with large 07 graphic"
+      ],
+      "source_id": "titan_tee",
+      "source_ref": "https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Black/Black colour",
+        "Men's lace-up lifestyle sneaker",
+        "Synthetic upper",
+        "TPR sole",
+        "EVA insock"
+      ],
+      "source_id": "bomba_sneaker",
+      "source_ref": "https://offlimits.co.in/products/bomba-black-black-ocm-793-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Existing OFFLIMITS blog on tracksuits as an everyday essential",
+        "Existing OFFLIMITS blog on styling sneakers for men and women"
+      ],
+      "source_id": "supporting_internal_guides",
+      "source_ref": "brands/offlimits/blogs/summary.md",
+      "source_type": "human_context"
+    }
+  ]
+}

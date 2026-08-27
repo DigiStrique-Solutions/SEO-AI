@@ -1,0 +1,56 @@
+{
+  "run_id": "20260826T-sportstyle-revolution-research",
+  "access_date": "2026-08-26",
+  "query": "Sportstyle Revolution: The Growing Influence of Athleisure in Daily Wear",
+  "serp_benchmark": [
+    {
+      "rank_in_relevant_review_set": 1,
+      "title": "Fashionably fit: Unveiling the athleisure trend in India",
+      "url": "https://timesofindia.indiatimes.com/blogs/within-my-space/fashionably-fit-unveiling-the-athleisure-trend-in-india/",
+      "tone": "Broad, explanatory and India-specific; cultural commentary rather than a shopping guide.",
+      "estimated_content_length_words": 750,
+      "structure": "Definition and origin; lockdown and hybrid-work context; athleisure versus streetwear; utility and forward-looking themes.",
+      "benchmark_takeaway": "Retain the India context, but answer the practical styling question more directly and avoid unsupported market predictions."
+    },
+    {
+      "rank_in_relevant_review_set": 2,
+      "title": "The Quiet Revolution: How Athleisure Became Everyday Culture",
+      "url": "https://www.athleisuremag.com/the-latest/2026/4/9/the-quiet-revolution-how-athleisure-became-everyday-culture",
+      "tone": "Editorial, reflective and culture-led with a magazine cadence.",
+      "estimated_content_length_words": 1150,
+      "structure": "Roots of athleisure; social-media influence; daily routines; retail and cultural shifts; aesthetic and ethical questions; synthesis.",
+      "benchmark_takeaway": "Use a strong cultural frame, then move quickly into scenarios and decisions the reader can use."
+    },
+    {
+      "rank_in_relevant_review_set": 3,
+      "title": "Athleisure In India: The Complete Gym-To-Street Guide",
+      "url": "https://www.chazefit.com/blogs/the-chazefit-journal/athleisure-in-india-the-complete-gym-to-street-guide",
+      "tone": "Conversational, product-led and practical with founder-style commentary.",
+      "estimated_content_length_words": 1250,
+      "structure": "Definition; product-by-product wardrobe build; occasion table; founder note; related articles; FAQs.",
+      "benchmark_takeaway": "Match its utility and conversation, but use an original day-in-motion framework and OFFLIMITS-specific products and links."
+    }
+  ],
+  "combined_benchmark": {
+    "target_tone": "Conversational Indian sportstyle editorial with concrete outfit decisions.",
+    "target_length_words": "1600-1900",
+    "target_structure": "Cultural shift -> wardrobe building blocks -> day-part scenarios -> styling rules -> fit and buying checks -> conclusion -> FAQs.",
+    "originality_guardrail": "Do not copy competitor phrasing, section titles or product logic verbatim."
+  },
+  "official_offlimits_sources": [
+    {"url": "https://offlimits.co.in/collections/all-apparels", "status": 200, "use": "All-apparel commercial CTA and catalogue context"},
+    {"url": "https://offlimits.co.in/collections/men-track-suits", "status": 200, "use": "Men's tracksuit collection and daily-use styling context"},
+    {"url": "https://offlimits.co.in/collections/women-track-suits", "status": 200, "use": "Women's tracksuit collection and daily-use styling context"},
+    {"url": "https://offlimits.co.in/collections/men-joggers-track-pants", "status": 200, "use": "Jogger category link"},
+    {"url": "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02", "status": 200, "use": "Sonic Tracksuit: light grey/A Force, full sleeves, cut-and-sew, Wicktech, polyester-spandex"},
+    {"url": "https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01", "status": 200, "use": "Glaze Tracksuit: grey melange, cotton/polyfleece, cargo pocket, hooded"},
+    {"url": "https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03", "status": 200, "use": "Titan T-shirt official product and visual reference"},
+    {"url": "https://offlimits.co.in/products/bomba-black-black-ocm-793-02", "status": 200, "use": "Bomba lifestyle sneaker: black, lace-up, synthetic upper, TPR sole, EVA insock"},
+    {"url": "https://offlimits.co.in/blogs/blogs/why-tracksuits-are-the-ultimate-everyday-essential", "status": 200, "use": "Supporting internal guide"},
+    {"url": "https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women", "status": 200, "use": "Supporting internal styling guide"}
+  ],
+  "keyword_metrics": {
+    "status": "unavailable",
+    "note": "No verified GSC or Keyword Planner volume data was available for this draft; keywords are mapped from search intent, the live SERP and OFFLIMITS taxonomy."
+  }
+}

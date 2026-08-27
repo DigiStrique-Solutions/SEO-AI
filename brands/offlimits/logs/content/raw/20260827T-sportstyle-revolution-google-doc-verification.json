@@ -1,0 +1,62 @@
+{
+  "run_id": "20260827T-sportstyle-revolution-google-doc",
+  "verified_at": "2026-08-27T00:00:00+05:30",
+  "reference_document_id": "1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs",
+  "destination": {
+    "document_id": "1MA317tTcD7_HJZrj5nciSGMj0oolWnlEmejdTp7bGm4",
+    "title": "OFFLIMITS Blog — Sportstyle Revolution: Athleisure in Daily Wear",
+    "url": "https://docs.google.com/document/d/1MA317tTcD7_HJZrj5nciSGMj0oolWnlEmejdTp7bGm4/edit",
+    "tab_id": "t.0",
+    "tab_title": "Tab 1",
+    "tab_count": 1
+  },
+  "connector_readback": {
+    "paragraphs": 212,
+    "heading_paragraphs": 27,
+    "native_list_paragraphs": 28,
+    "inline_images": 2,
+    "visible_blue_underlined_links": 12,
+    "placeholders_absent": true,
+    "stale_reference_text_absent": true,
+    "protected_private_use_characters": 0,
+    "non_times_new_roman_text_runs": 0,
+    "hero_title_present": true,
+    "draft_status_present": true,
+    "faq_schema_present": true,
+    "keywords_section_present": true
+  },
+  "internal_link_map": [
+    {"anchor": "OFFLIMITS apparel collection", "url": "https://offlimits.co.in/collections/all-apparels", "role": "contextual collection"},
+    {"anchor": "Men's Sonic Tracksuit", "url": "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02", "role": "product"},
+    {"anchor": "OFFLIMITS men's tracksuit collection", "url": "https://offlimits.co.in/collections/men-track-suits", "role": "category"},
+    {"anchor": "Women's Glaze Tracksuit", "url": "https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01", "role": "product"},
+    {"anchor": "women's tracksuit collection", "url": "https://offlimits.co.in/collections/women-track-suits", "role": "category"},
+    {"anchor": "Men's Titan T-shirt", "url": "https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03", "role": "product"},
+    {"anchor": "Bomba lifestyle sneaker", "url": "https://offlimits.co.in/products/bomba-black-black-ocm-793-02", "role": "product"},
+    {"anchor": "styling sneakers for men and women", "url": "https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women", "role": "supporting guide"},
+    {"anchor": "Explore OFFLIMITS apparel for everyday sportstyle", "url": "https://offlimits.co.in/collections/all-apparels", "role": "inline commercial CTA"},
+    {"anchor": "men's joggers and track pants collection", "url": "https://offlimits.co.in/collections/men-joggers-track-pants", "role": "category"},
+    {"anchor": "tracksuits work as an everyday essential", "url": "https://offlimits.co.in/blogs/blogs/why-tracksuits-are-the-ultimate-everyday-essential", "role": "supporting guide"},
+    {"anchor": "Build your everyday sportstyle rotation with OFFLIMITS", "url": "https://offlimits.co.in/collections/all-apparels", "role": "conclusion CTA"}
+  ],
+  "link_target_verification": {
+    "checked_before_handoff": true,
+    "status": "all_200",
+    "evidence_ref": "brands/offlimits/logs/content/raw/20260826T-sportstyle-revolution-serp-product-research.json"
+  },
+  "exports": {
+    "html": {"status": "exported", "size_bytes": 9380950, "content_inspection": "blocked_user_scoped_sediment_reference"},
+    "pdf": {"status": "exported", "size_bytes": 7194340, "page_raster_inspection": "blocked_user_scoped_sediment_reference"}
+  },
+  "google_docs_preflight": {
+    "file_backed_trusted_read": "blocked",
+    "reason": "The checked-in bridge rejected the Windows workspaceRoot because it accepts POSIX absolute paths only.",
+    "fallback": "Full connector-native read, one-tab topology check, explicit protected-character scan and final connector readback."
+  },
+  "authenticity_gate": {
+    "claims_and_sources": "pass",
+    "local_ai_pattern_risk_percent": 6.0,
+    "live_zerogpt": "blocked_403_not_enough_credits",
+    "publish_status": "draft_not_publish_ready"
+  }
+}
