@@ -77,7 +77,7 @@ Current research frame: Killer Jeans, Levi’s India and Pepe Jeans India. These
 - Men: https://spykar.com/collections/men
 - Women: https://spykar.com/collections/women
 - Blog: https://spykar.com/blogs/blog
-- Store locator: https://spykar.com/a/storelocator
+- Store locator: https://spykar.com/pages/store-locator
 - Contact: https://spykar.com/pages/contact
 
 ## Evidence and provenance

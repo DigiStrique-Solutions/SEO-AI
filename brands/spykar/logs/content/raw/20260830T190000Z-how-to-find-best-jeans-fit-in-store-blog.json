@@ -1,0 +1,22 @@
+{
+  "run_id":"spykar-in-store-jeans-fit-20260830","captured_at":"2026-08-30T19:00:00+05:30","brand_id":"spykar","topic":"How to Find Your Best Jeans Fit In-Store in 10 Minutes","canonical_url":"https://spykar.com/blogs/blog/how-to-find-best-jeans-fit-in-store",
+  "keyword_brief":{"primary":"spykar store near me","secondary":["spykar showroom near me","denim fits guide","how to choose jeans fit"],"intent":"mixed local, informational and commercial"},
+  "cannibalisation":{"closest_pages":["https://spykar.com/blogs/blog/men-s-jeans-guide-how-to-choose-the-right-fit-and-style","https://spykar.com/blogs/blog/jeans-for-every-fit-from-skinny-to-comfort-find-your-perfect-pair","https://spykar.com/blogs/blog/modern-denim-fits-explained-finding-the-perfect-spykar-fit"],"decision":"Create a distinct page around local store discovery and a chronological fitting-room routine; link to the broad fit explainer instead of repeating its fit taxonomy."},
+  "serp_sources":[{"url":"https://levi.in/blogs/levis-blog/complete-guide-to-find-perfect-pair-of-jeans","rendered_words":859},{"url":"https://nakedandfamousdenim.com/pages/fit-guide","rendered_words":944},{"url":"https://www.whowhatwear.com/fashion/denim/how-to-buy-jeans","rendered_words":2884}],
+  "products":[
+    {"title":"Men Rover Jeans Regular Fit Mid Blue Mid Rise","handle":"mdro2bf018midblue","url":"https://spykar.com/products/mdro2bf018midblue","http_status":200,"available_in_shopify_json":true,"facts":{"material":"78% Cotton / 20% Polyester / 2% Spandex","fit":"Regular Fit","brand_fit":"Rover","rise":"Mid Rise","pockets":5,"stretch":true,"finish":"Clean Look","fade":"Medium"},"image_source":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDRO2BF018Mid_Blue_5.jpg?v=1786525519"},
+    {"title":"Women Bella-Wide Jeans Wide Leg Mid Blue High Rise","handle":"wdblw2bf069midblue","url":"https://spykar.com/products/wdblw2bf069midblue","http_status":200,"available_in_shopify_json":true,"facts":{"material":"76% Cotton / 22% Polyester / 2% Spandex","fit":"Wide Leg","brand_fit":"Bella-Wide","rise":"High Rise","pockets":5,"stretch":true,"finish":"Clean Look","length":"Ankle length"},"image_source":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/WDBLW2BF069Mid_Blue_5.jpg?v=1786524345"}
+  ],
+  "internal_link_verification":[
+    {"url":"https://spykar.com/pages/store-locator","status":200,"use":"store discovery and conclusion CTA"},
+    {"url":"https://spykar.com/blogs/blog/modern-denim-fits-explained-finding-the-perfect-spykar-fit","status":200,"use":"supporting fit guide"},
+    {"url":"https://spykar.com/products/mdro2bf018midblue","status":200,"use":"men's product example"},
+    {"url":"https://spykar.com/products/wdblw2bf069midblue","status":200,"use":"women's product example"},
+    {"url":"https://spykar.com/collections/men-jeans","status":200,"use":"men's collection"},
+    {"url":"https://spykar.com/collections/women-jeans","status":200,"use":"women's collection"}
+  ],
+  "store_locator_change":{"old_url":"https://spykar.com/a/storelocator","old_status":404,"current_url":"https://spykar.com/pages/store-locator","current_status":200},
+  "detectors":{"local_ai_pattern_score_percent":6.0,"live_zerogpt_score_percent":12.0,"live_zerogpt_label":"Human written","interpretation":"Weak editorial risk signals only; not proof of authorship."},
+  "creative":{"headline":"THE 10-MINUTE FIT CHECK","master":"brands/spykar/blogs/creatives/how-to-find-best-jeans-fit-in-store/how-to-find-best-jeans-fit-in-store-banner-master.png","web":"brands/spykar/blogs/creatives/how-to-find-best-jeans-fit-in-store/how-to-find-best-jeans-fit-in-store-banner-800x600.jpg","source_products":2,"visual_qa":"pass"},
+  "google_doc":{"id":"14bSIm6BD7OHhm-MlcMOdaFhGbjrEpyjXsOjo13VZB4c","url":"https://docs.google.com/document/d/14bSIm6BD7OHhm-MlcMOdaFhGbjrEpyjXsOjo13VZB4c/edit?tab=t.0","template_id":"14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04","folder_id":"1mHvUJ9TpID-45L0zAQ5oJaqtqt0k1asM","tab_id":"t.0"}
+}
