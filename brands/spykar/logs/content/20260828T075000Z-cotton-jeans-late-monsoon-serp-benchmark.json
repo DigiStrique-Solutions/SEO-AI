@@ -1,0 +1,44 @@
+{
+  "run_id": "20260828T075000Z-cotton-jeans-late-monsoon-serp-benchmark",
+  "brand_id": "spykar",
+  "accessed_at": "2026-08-28T13:20:00+05:30",
+  "query": "Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity",
+  "method": "Live web SERP review followed by rendered-page article extraction in the in-app browser",
+  "results": [
+    {
+      "rank_review_order": 1,
+      "title": "A Guide to Wearing Jeans in Summer",
+      "url": "https://www.marksandspencer.com/content/jeans-in-summer",
+      "observed_word_count": 633,
+      "tone": "Concise, friendly retailer advice with quick styling direction",
+      "structure": "Material, fit and colour guidance followed by outfit ideas and related guides"
+    },
+    {
+      "rank_review_order": 2,
+      "title": "11 Lightweight Jeans You Can Actually Wear in the Summer",
+      "url": "https://www.esquire.com/style/mens-fashion/a71113236/lightweight-jeans-for-summer/",
+      "observed_word_count": 1726,
+      "tone": "Editor-led, direct and product-specific with a dry, conversational edge",
+      "structure": "Problem-led introduction, fabric-weight explanation, then categorized product recommendations"
+    },
+    {
+      "rank_review_order": 3,
+      "title": "How to Wear Denim in Summer",
+      "url": "https://www2.hm.com/en_ca/editorial/inspiration/how-to-wear-denim-in-summer.html",
+      "observed_word_count": 2317,
+      "tone": "Confident fashion-editorial guidance with practical retail styling",
+      "structure": "Cuts, colours, styling formulas, shoes, avoid list, denim categories and an extensive FAQ"
+    }
+  ],
+  "benchmark_decision": {
+    "target_depth": "Approximately 1800-2200 publishable words",
+    "tone": "Practical, direct and product-specific, preserving Spykar's youthful but grounded voice",
+    "outline": "Answer-first guidance, late-monsoon problem framing, fabric-label caveat, current-product comparison, outfit formulas, fit test, care routine, decision checklist and FAQs",
+    "originality_note": "The draft combines the useful answer-first and product-specific traits without reproducing competitor wording or section order."
+  },
+  "cannibalization_check": {
+    "closest_current_page": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather",
+    "finding": "The requested topic is a near-duplicate of the live July 2026 article.",
+    "action": "Refresh the existing canonical URL with a late-monsoon angle instead of publishing a second URL."
+  }
+}

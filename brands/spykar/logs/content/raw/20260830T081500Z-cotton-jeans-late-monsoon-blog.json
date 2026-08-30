@@ -1,0 +1,110 @@
+{
+  "run_id": "spykar-cotton-jeans-late-monsoon-refresh-20260830",
+  "source_access_window": "2026-08-28 to 2026-08-30",
+  "serp_benchmark_ref": "brands/spykar/logs/content/20260828T075000Z-cotton-jeans-late-monsoon-serp-benchmark.json",
+  "products": [
+    {
+      "url": "https://spykar.com/products/mdrc2bf007midblue",
+      "title": "Men Ricardo Jeans Comfort Fit Mid Blue Mid Rise",
+      "verified_http_status": 200,
+      "available_variants_observed": 6,
+      "material": "98% Cotton / 2% Spandex",
+      "fit": "Comfort Fit",
+      "rise": "Mid Rise",
+      "image_file": "brands/spykar/blogs/creatives/cotton-jeans-men-late-monsoon-humidity/spykar-ricardo-mid-blue-source.jpg"
+    },
+    {
+      "url": "https://spykar.com/products/mdrc2bf023darkblue",
+      "title": "Men Ricardo Jeans Comfort Fit Dark Blue Mid Rise",
+      "verified_http_status": 200,
+      "available_variants_observed": 6,
+      "material": "82% Cotton / 16% Polyester / 2% Spandex",
+      "fit": "Comfort Fit",
+      "rise": "Mid Rise",
+      "image_file": "brands/spykar/blogs/creatives/cotton-jeans-men-late-monsoon-humidity/spykar-ricardo-dark-blue-source.jpg"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "Ricardo comfort-fit mid-blue jeans",
+      "url": "https://spykar.com/products/mdrc2bf007midblue",
+      "status": 200,
+      "role": "product"
+    },
+    {
+      "anchor": "Ricardo comfort-fit pair",
+      "url": "https://spykar.com/products/mdrc2bf023darkblue",
+      "status": 200,
+      "role": "product"
+    },
+    {
+      "anchor": "shirts for men",
+      "url": "https://spykar.com/collections/men-shirts",
+      "status": 200,
+      "role": "collection"
+    },
+    {
+      "anchor": "men's T-shirts",
+      "url": "https://spykar.com/collections/men-t-shirts",
+      "status": 200,
+      "role": "collection"
+    },
+    {
+      "anchor": "monsoon outfit guide for men",
+      "url": "https://spykar.com/blogs/blog/stylish-monsoon-outfits-for-men",
+      "status": 200,
+      "role": "supporting_blog"
+    },
+    {
+      "anchor": "jeans for men",
+      "url": "https://spykar.com/collections/men-jeans",
+      "status": 200,
+      "role": "commercial_cta"
+    }
+  ],
+  "detector": {
+    "provider": "ZeroGPT live website",
+    "first_score_percent": 37.8,
+    "final_score_percent": 8.9,
+    "threshold_percent": 20.0,
+    "status": "pass",
+    "checked_at": "2026-08-28T14:02:00+05:30",
+    "note": "Weak editorial signal only; not proof of authorship."
+  },
+  "google_doc_verification": {
+    "document_id": "1Q773qo7UGyrnMyBJSJjjb98w26g-wT6rY_CwZ-gQix4",
+    "tab_id": "t.0",
+    "title": "Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity",
+    "inline_image_object_ids": [
+      "kix.fo55ihvylnhn",
+      "kix.80fnmzv7nd6m",
+      "kix.23dfevv1ylm5"
+    ],
+    "visible_blue_underlined_links": 6,
+    "style_counts": {
+      "TITLE": 1,
+      "HEADING_1": 11,
+      "HEADING_2": 16
+    },
+    "native_list_paragraphs": 21,
+    "old_template_topic_hits": 0,
+    "placeholder_hits": 0
+  },
+  "rendered_qa": {
+    "exported_pdf_pages": 10,
+    "pages_inspected": 10,
+    "checked_for": [
+      "clipped or overlapping text",
+      "missing or badly cropped images",
+      "stray image-markup characters",
+      "broken links and hierarchy",
+      "awkward page breaks",
+      "sparse trailing page"
+    ],
+    "repairs": [
+      "Removed three stray closing-parenthesis characters left by image placeholder replacement.",
+      "Compacted the CMS-only FAQ schema block to remove a sparse eleventh page."
+    ],
+    "final_status": "pass"
+  }
+}

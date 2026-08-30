@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "claim_id": "product-facts-mid-blue",
+      "claim_type": "product_fact",
+      "criteria": "Material, fit, rise, wash, pockets, closure and care match the live Spykar product page and Shopify product JSON checked on 2026-08-28; price and guaranteed future availability are omitted.",
+      "source_ids": ["spykar-ricardo-mid-blue"],
+      "statement": "The featured mid-blue Ricardo jeans use 98% cotton and 2% spandex and have a comfort fit, mid rise, clean medium-fade finish and five pockets."
+    },
+    {
+      "claim_id": "product-facts-dark-blue",
+      "claim_type": "product_fact",
+      "criteria": "Material, fit, rise, wash, pockets, closure and care match the live Spykar product page and Shopify product JSON checked on 2026-08-28; price and guaranteed future availability are omitted.",
+      "source_ids": ["spykar-ricardo-dark-blue"],
+      "statement": "The featured dark-blue Ricardo jeans use 82% cotton, 16% polyester and 2% spandex and have a comfort fit, mid rise, clean light-fade finish and five pockets."
+    },
+    {
+      "claim_id": "cotton-moisture-caveat",
+      "claim_type": "performance",
+      "criteria": "CottonWorks supports cotton moisture absorption and explains that moisture performance varies with construction and finishing; the article explicitly avoids treating cotton content as proof of breathability or quick drying.",
+      "source_ids": ["cottonworks-fibres", "cottonworks-quality"],
+      "statement": "Cotton can absorb moisture, while finished-garment comfort and moisture behaviour also depend on fabric construction, finishing and fit."
+    },
+    {
+      "claim_id": "laundry-guidance",
+      "claim_type": "performance",
+      "criteria": "General wash-frequency and prompt stain-care guidance is supported by the American Cleaning Institute; garment-specific care label instructions remain primary.",
+      "source_ids": ["aci-jeans-laundry"],
+      "statement": "Jeans do not automatically need a full wash after every wear, and stains can be spot-cleaned promptly when the care label allows."
+    },
+    {
+      "claim_id": "refresh-not-duplicate",
+      "claim_type": "comparison",
+      "criteria": "The live Spykar page targets nearly identical intent, so the requested article is positioned as a canonical refresh rather than a new competing URL.",
+      "source_ids": ["existing-spykar-page", "serp-benchmark"],
+      "statement": "The new late-monsoon article should replace or refresh the existing cotton-jeans monsoon guide at its current canonical URL."
+    },
+    {
+      "claim_id": "internal-link-relevance",
+      "claim_type": "product_fact",
+      "criteria": "Every product, collection, supporting-blog and CTA target returned HTTP 200 on 2026-08-28 and is used through a descriptive anchor in the publishable body.",
+      "source_ids": ["spykar-live-internal-pages", "spykar-ricardo-mid-blue", "spykar-ricardo-dark-blue"],
+      "statement": "The body includes verified contextual product, collection, supporting-blog and commercial CTA links."
+    },
+    {
+      "claim_id": "keyword-coverage",
+      "claim_type": "performance",
+      "criteria": "The supplied keywords shape the article's title and coverage; no ranking, traffic, sales or conversion outcome is promised.",
+      "source_ids": ["user-keyword-brief"],
+      "statement": "The article naturally addresses cotton jeans for men, breathable jeans for men, jeans for men and late monsoon outfits."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-28T14:02:00+05:30",
+      "max_score": 20.0,
+      "note": "The article title and complete publishable body, excluding repository frontmatter, image handoff markup and FAQ JSON-LD, were checked on the live ZeroGPT website. The first pass scored 37.8%; source-backed revisions to the checklist cadence, product descriptions, outfit formulas and FAQs reduced the final result to 8.9%. The detector is treated as a weak editorial risk signal, not proof of authorship.",
+      "score": 8.9,
+      "source": "zerogpt_web",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-28T07:50:18+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "publish_ready",
+    "target": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand. Blog copy uses Indian English, practical outfit detail, natural unbolded keywords, restrained claims, the canonical native Google Doc structure and a soft CTA.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Requested title and phrases: Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity; cotton jeans for men; breathable jeans for men; jeans for men; late monsoon outfits.",
+      "source_id": "user-keyword-brief",
+      "source_ref": "User brief dated 2026-08-28",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The live page is titled Cotton Jeans for Men: A Comfort Guide for Humid Monsoon Weather and targets the same primary keyword and seasonal intent.",
+      "source_id": "existing-spykar-page",
+      "source_ref": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather (accessed 2026-08-28)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Top-three relevant live organic blog review: Marks & Spencer at 633 rendered article words with concise material/fit/outfit flow; Esquire at 1,726 words with direct editorial and product categories; H&M at 2,317 words with cuts, colours, outfit formulas, avoid list and FAQs.",
+      "source_id": "serp-benchmark",
+      "source_ref": "brands/spykar/logs/content/20260828T075000Z-cotton-jeans-late-monsoon-serp-benchmark.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Men Ricardo Jeans Comfort Fit Mid Blue Mid Rise; 98% cotton and 2% spandex; five pockets; medium fade; clean look; mid rise; button-and-zip closure; machine wash. Page returned HTTP 200 and Shopify JSON showed six available variants.",
+      "source_id": "spykar-ricardo-mid-blue",
+      "source_ref": "https://spykar.com/products/mdrc2bf007midblue and Shopify product JSON (accessed 2026-08-28)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Men Ricardo Jeans Comfort Fit Dark Blue Mid Rise; 82% cotton, 16% polyester and 2% spandex; five pockets; light fade; clean look; mid rise; button-and-zip closure; machine wash. Page returned HTTP 200 and Shopify JSON showed six available variants.",
+      "source_id": "spykar-ricardo-dark-blue",
+      "source_ref": "https://spykar.com/products/mdrc2bf023darkblue and Shopify product JSON (accessed 2026-08-28)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Cotton moisture regain increases at very high relative humidity; finished fabric attributes such as airflow, moisture handling and drying speed require garment/fabric testing, and fabric construction and finishing affect performance.",
+      "source_id": "cottonworks-fibres",
+      "source_ref": "https://www.cottonworks.com/wp-content/uploads/2017/11/Fibers_Booklet_edited-1.pdf (accessed 2026-08-28)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "CottonWorks quality guidance identifies airflow, moisture handling, drying speed and wicking as separate attributes measured by quality-assurance testing.",
+      "source_id": "cottonworks-quality",
+      "source_ref": "https://cottonworks.com/learning-hub/quality-assurance/quality-assurance-basics/ (accessed 2026-08-28)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The American Cleaning Institute says jeans can typically be worn multiple times before washing and recommends prompt washing, spot cleaning or dry cleaning for stains as appropriate.",
+      "source_id": "aci-jeans-laundry",
+      "source_ref": "https://www.cleaninginstitute.org/cleaning-tips/clothes/laundry-basics/do-i-need-wash (accessed 2026-08-28)",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "The men's jeans, men's shirts, men's T-shirts and monsoon-outfit blog URLs returned HTTP 200 and were relevant to their article context on 2026-08-28.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/collections/men-jeans, https://spykar.com/collections/men-shirts, https://spykar.com/collections/men-t-shirts and https://spykar.com/blogs/blog/stylish-monsoon-outfits-for-men (accessed 2026-08-28)",
+      "source_type": "product_page"
+    }
+  ]
+}

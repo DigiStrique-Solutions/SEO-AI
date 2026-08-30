@@ -1,0 +1,36 @@
+{
+  "run_id": "spykar-cotton-jeans-late-monsoon-refresh-20260830",
+  "brand_id": "spykar",
+  "completed_at": "2026-08-30T13:45:00+05:30",
+  "action": "research_write_generate_images_and_publish_google_doc",
+  "status": "ok",
+  "canonical_strategy": {
+    "requested_topic": "Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity",
+    "closest_live_page": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humid-monsoon-weather",
+    "decision": "Refresh the existing canonical page rather than create a second competing URL."
+  },
+  "outputs": {
+    "draft": "brands/spykar/blogs/drafts/cotton-jeans-men-late-monsoon-humidity-refresh.md",
+    "published_copy": "brands/spykar/blogs/published/cotton-jeans-men-late-monsoon-humidity-refresh.md",
+    "authenticity_log": "brands/spykar/blogs/authenticity/cotton-jeans-men-late-monsoon-humidity-refresh.authenticity.json",
+    "banner_master": "brands/spykar/blogs/creatives/cotton-jeans-men-late-monsoon-humidity/cotton-jeans-men-late-monsoon-humidity-banner-master.png",
+    "banner_web": "brands/spykar/blogs/creatives/cotton-jeans-men-late-monsoon-humidity/cotton-jeans-men-late-monsoon-humidity-banner.jpg",
+    "google_doc_id": "1Q773qo7UGyrnMyBJSJjjb98w26g-wT6rY_CwZ-gQix4",
+    "google_doc_url": "https://docs.google.com/document/d/1Q773qo7UGyrnMyBJSJjjb98w26g-wT6rY_CwZ-gQix4/edit?tab=t.0",
+    "raw_evidence": "raw/20260830T081500Z-cotton-jeans-late-monsoon-blog.json"
+  },
+  "quality_gates": {
+    "serp_results_reviewed": 3,
+    "publishable_word_count": 1980,
+    "local_ai_pattern_score_percent": 6.0,
+    "live_zerogpt_score_percent": 8.9,
+    "live_zerogpt_status": "pass",
+    "internal_links_verified_http_200": 6,
+    "google_doc_inline_images": 3,
+    "google_doc_visible_link_runs": 6,
+    "google_doc_native_heading_count": 28,
+    "google_doc_native_list_paragraphs": 21,
+    "pdf_pages_inspected": 10,
+    "pdf_visual_qa": "pass"
+  }
+}
