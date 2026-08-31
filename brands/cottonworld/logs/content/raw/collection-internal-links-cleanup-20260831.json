@@ -1,0 +1,24 @@
+{
+  "run_id": "cottonworld-collection-internal-links-cleanup-20260831",
+  "timestamp": "2026-08-31T15:12:48+05:30",
+  "source": {
+    "folder_id": "1En-wu_K2kjbJoP1kh-lPAgvSYdsGwDJE",
+    "spreadsheet_id": "1KsQopiuXOHzq22j0ppyOBSQdkLcAfVrq6aftb9I7iyU",
+    "sheet_tab": "All collections",
+    "range": "A2:E179"
+  },
+  "scope": {
+    "collection_content_documents": 10,
+    "deleted_collection_urls": 110,
+    "rules": [
+      "Remove links whose target is marked Delete in the source sheet.",
+      "Remove links whose target is the collection page represented by the current document."
+    ]
+  },
+  "result": {
+    "link_runs_unlinked": 31,
+    "documents_verified": 10,
+    "remaining_deleted_or_self_links": 0
+  },
+  "method": "Cleared link formatting only; retained all surrounding anchor text as plain text. Final verification re-read each document and compared its targets against the 110-URL deletion inventory and its own collection route."
+}
