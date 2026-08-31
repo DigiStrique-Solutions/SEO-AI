@@ -1,0 +1,30 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 16.08,
+          "variation": 0.31
+        },
+        "name": "uniform_sentence_rhythm",
+        "points": 2.49
+      },
+      {
+        "evidence": [],
+        "name": "generic_conclusion_heading",
+        "points": 6.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 8.49,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 386
+  },
+  "errors": [],
+  "ok": true,
+  "output": "brands/cottonworld/logs/content/raw/mens-bamboo-round-neck-collection-page-approved-20260831.md",
+  "required_skill": "content-seo-authenticity",
+  "written": true
+}
