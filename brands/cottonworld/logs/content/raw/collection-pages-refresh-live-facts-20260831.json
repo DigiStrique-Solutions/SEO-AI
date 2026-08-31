@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-08-31",
+  "source": "Live Cottonworld collection pages via Firecrawl",
+  "pages": {
+    "mens-pants-2": {"items": 95, "fabrics": ["100% Cotton", "100% Linen", "Linen Blend", "Cotton Stretch"], "fits": ["Regular", "Loose", "Slim", "Relaxed"]},
+    "co-ord-sets-mens": {"items": 6, "fabrics": ["100% Cotton", "Linen Blend"], "fits": ["Regular", "Loose"]},
+    "loungewear-for-men": {"items": 8, "product_types": ["Men's Shorts", "Men's Tshirts"], "fabric": "Cotton"},
+    "all-bottomwear-men": {"items": 148, "product_types": ["Men's Pants", "Men's Shorts"]},
+    "men-jackets": {"items": 6, "fabrics": ["100% Cotton", "100% Linen", "Linen Blend"]},
+    "men-kurtas": {"items": 2, "fabrics": ["100% Cotton", "Linen Blend"]},
+    "cottonworld-mens-collection-top-wear": {"items": 334, "product_types": ["Men's Jackets", "Men's Shirts", "Men's Tshirts", "Men's Vests"]},
+    "best-sellers-mens": {"items": 65, "product_types": ["Men's Jackets", "Men's Pants", "Men's Shirts", "Men's T-Shirts", "Men's Vests"]},
+    "mens-monsoon": {"items": 36, "product_types": ["Men's Pants", "Men's Shirts", "Men's Shorts", "Men's Tshirts"]},
+    "men-bamboo-clothes": {"items": 23, "product_types": ["Men's Tshirts"], "fabric": "Bamboo"},
+    "the-essential-round-neck-bamboo-tee": {"items": 7, "product_types": ["Men's Tshirts"], "fabric": "Bamboo"}
+  },
+  "rule": "Each refreshed document excludes an internal self-reference to its target collection URL."
+}
