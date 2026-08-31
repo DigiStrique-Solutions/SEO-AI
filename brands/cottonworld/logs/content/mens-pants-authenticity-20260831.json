@@ -1,0 +1,43 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-31T14:23:53+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.47,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-31T14:23:36+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/mens-pants-2"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld's voice is calm and practical, with clothing supporting everyday life."
+      ],
+      "source_id": "brand_knowledge",
+      "source_ref": "brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The live page heading is Men's Pants.",
+        "The draft's internal links exclude the source collection."
+      ],
+      "source_id": "live_pants_capture",
+      "source_ref": "brands/cottonworld/logs/content/raw/mens-pants-live-capture-20260831.json",
+      "source_type": "product_page"
+    }
+  ]
+}
