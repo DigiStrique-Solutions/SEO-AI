@@ -1,0 +1,25 @@
+{
+  "run_id": "cottonworld-mens-landing-collection-page-gap-20260831",
+  "source_url": "https://cottonworld.net/pages/landing-page-men",
+  "checked_at": "2026-08-31",
+  "provider": "firecrawl",
+  "scrape_id": "01a057c6-28d5-732a-82b8-b12786f096fe",
+  "featured_collections": [
+    {"name": "Men's New Arrivals", "url": "https://cottonworld.net/collections/men-new-arrivals", "collection_copy_status": "missing"},
+    {"name": "Men's Bestsellers", "url": "https://cottonworld.net/collections/best-sellers-mens", "collection_copy_status": "missing"},
+    {"name": "Men's Shirts", "url": "https://cottonworld.net/collections/mens-shirts", "collection_copy_status": "covered"},
+    {"name": "Men's Pants", "url": "https://cottonworld.net/collections/mens-pants-2", "collection_copy_status": "covered_url_needs_alignment"},
+    {"name": "Men's T-Shirts", "url": "https://cottonworld.net/collections/mens-tshirts", "collection_copy_status": "missing"},
+    {"name": "Men's Shorts", "url": "https://cottonworld.net/collections/mens-shorts", "collection_copy_status": "covered"},
+    {"name": "Men's Work", "url": "https://cottonworld.net/collections/workwear-for-men", "collection_copy_status": "covered"},
+    {"name": "Men's Travel", "url": "https://cottonworld.net/collections/travel-for-men", "collection_copy_status": "covered"},
+    {"name": "Men's Brunch", "url": "https://cottonworld.net/collections/brunch-for-men", "collection_copy_status": "covered"},
+    {"name": "Men's Monsoon", "url": "https://cottonworld.net/collections/mens-monsoon", "collection_copy_status": "missing"},
+    {"name": "Men's Summer", "url": "https://cottonworld.net/collections/summer-for-men", "collection_copy_status": "covered"},
+    {"name": "Men's Linen", "url": "https://cottonworld.net/collections/all-linen-men", "collection_copy_status": "covered"}
+  ],
+  "notes": [
+    "The earlier Pants draft uses https://cottonworld.net/collections/mens-pants. That URL is live and has the same on-page title, but the landing page card links to /collections/mens-pants-2.",
+    "Men's Cotton is covered by an existing draft and appears in the landing page fabric navigation at /collections/cotton-mens, but it is not a featured Shop Men card."
+  ]
+}
