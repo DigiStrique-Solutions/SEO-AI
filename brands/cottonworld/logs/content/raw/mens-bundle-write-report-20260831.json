@@ -1,0 +1,30 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 17.61,
+          "variation": 0.37
+        },
+        "name": "uniform_sentence_rhythm",
+        "points": 0.35
+      },
+      {
+        "evidence": [],
+        "name": "generic_conclusion_heading",
+        "points": 6.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 6.35,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 810
+  },
+  "errors": [],
+  "ok": true,
+  "output": "brands/cottonworld/logs/content/raw/mens-bundle-collection-page-approved-20260831.md",
+  "required_skill": "content-seo-authenticity",
+  "written": true
+}

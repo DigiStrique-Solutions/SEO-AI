@@ -1,0 +1,57 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-31T13:10:22+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.35,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-08-31T13:10:40+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.35,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-31T13:09:48+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/men-bundle"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld positions itself around everyday life, natural fabrics, simple design and everyday comfort.",
+        "The brand voice is calm, warm, practical and life-first rather than trend-led.",
+        "Men's merchandising includes shirts, T-shirts, pants and shorts."
+      ],
+      "source_id": "brand_knowledge",
+      "source_ref": "brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The collection heading is SHOP THE LOOK and its visible description says it is curated for different moods, moments and ways of life.",
+        "Live pairings feature shirts, T-shirts, pants and shorts, across regular-fit and slim-fit selections.",
+        "Observed featured fabric descriptions include linen lyocell, Tencel linen, cotton, organic cotton, cotton lycra, cotton elastane and cotton linen.",
+        "Approved non-self collection destinations are men's shirts, men's T-shirts, men's pants and men's shorts."
+      ],
+      "source_id": "live_mens_bundle_capture",
+      "source_ref": "brands/cottonworld/logs/content/raw/mens-bundle-live-capture-20260831.json",
+      "source_type": "product_page"
+    }
+  ]
+}
