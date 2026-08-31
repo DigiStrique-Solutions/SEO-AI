@@ -1,0 +1,27 @@
+{
+  "run_id": "cottonworld-mens-dropdown-deletion-list-check-20260831",
+  "checked_at": "2026-08-31",
+  "source": {
+    "spreadsheet": "https://docs.google.com/spreadsheets/d/1KsQopiuXOHzq22j0ppyOBSQdkLcAfVrq6aftb9I7iyU/edit?gid=702843831#gid=702843831",
+    "sheet": "All collections",
+    "range": "A1:X179"
+  },
+  "result": {
+    "dropdown_targets_marked_delete": [],
+    "dropdown_targets_marked_keep": [
+      "men-new-arrivals", "all-mens-clothing", "cotton-mens", "all-linen-men", "men-bamboo-clothes",
+      "workwear-for-men", "travel-for-men", "brunch-for-men", "summer-for-men", "mens-monsoon",
+      "best-sellers-mens", "cottonworld-mens-collection-top-wear", "mens-tshirts", "mens-shirts",
+      "men-kurtas", "men-jackets", "all-bottomwear-men", "mens-pants-2", "mens-shorts",
+      "the-essential-round-neck-bamboo-tee", "loungewear-for-men", "co-ord-sets-mens"
+    ],
+    "not_present_in_deletion_list": ["men-bundle"],
+    "legacy_conflicts": [
+      {
+        "url": "https://cottonworld.net/collections/mens-pants",
+        "status": "Delete",
+        "action": "Do not use for collection-page content; use https://cottonworld.net/collections/mens-pants-2, which is marked Keep."
+      }
+    ]
+  }
+}
