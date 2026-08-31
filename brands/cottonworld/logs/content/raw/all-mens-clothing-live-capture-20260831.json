@@ -1,0 +1,26 @@
+{
+  "source_url": "https://cottonworld.net/collections/all-mens-clothing",
+  "captured_at": "2026-08-31",
+  "provider": "firecrawl",
+  "page_heading": "Men's All",
+  "scrape_id": "01a057e6-afb9-70ee-b07b-8c2101e21e42",
+  "observed_product_count": 478,
+  "observed_product_types": ["Men's Jackets", "Men's Pants", "Men's Shirts", "Men's Shorts", "Men's Tshirts", "Men's Vests"],
+  "observed_fabric_filters": ["Cotton", "100% Cotton", "100% Linen", "Bamboo", "100% Organic Cotton", "Linen Blend", "Cotton Blend", "100% Modal", "Cotton Stretch"],
+  "observed_fit_filters": ["Regular Fit", "Loose Fit", "Slim Fit", "Relax Fit"],
+  "observed_category_links": [
+    "https://cottonworld.net/collections/new-arrival-menswear",
+    "https://cottonworld.net/collections/best-sellers-mens",
+    "https://cottonworld.net/collections/mens-shirts",
+    "https://cottonworld.net/collections/mens-pants-2",
+    "https://cottonworld.net/collections/mens-tshirts",
+    "https://cottonworld.net/collections/mens-shorts",
+    "https://cottonworld.net/collections/workwear-for-men",
+    "https://cottonworld.net/collections/travel-for-men",
+    "https://cottonworld.net/collections/brunch-for-men",
+    "https://cottonworld.net/collections/mens-monsoon",
+    "https://cottonworld.net/collections/summer-for-men",
+    "https://cottonworld.net/collections/all-linen-men"
+  ],
+  "self_reference_rule": "Do not place a hyperlink to https://cottonworld.net/collections/all-mens-clothing in the draft or published document."
+}

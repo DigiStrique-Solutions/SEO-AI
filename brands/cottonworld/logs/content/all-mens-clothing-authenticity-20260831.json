@@ -1,0 +1,47 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-08-31T13:21:09+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-08-31T13:20:49+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/all-mens-clothing"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld is an Indian natural-clothing brand focused on everyday comfort and simple design.",
+        "The brand voice is calm, practical, warm and life-first.",
+        "Men's taxonomy includes shirts, T-shirts, pants, shorts and jackets."
+      ],
+      "source_id": "brand_knowledge",
+      "source_ref": "brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The live collection currently displays 478 items.",
+        "The page offers shirts, T-shirts, pants, shorts, jackets and vests, alongside filters for product type, fabric, fit, colour and size.",
+        "Observed fabric filters include cotton, linen, bamboo, organic cotton, blends, modal and cotton stretch.",
+        "The live page links to men's category and occasion collections that are used as approved non-self internal targets."
+      ],
+      "source_id": "live_all_mens_clothing_capture",
+      "source_ref": "brands/cottonworld/logs/content/raw/all-mens-clothing-live-capture-20260831.json",
+      "source_type": "product_page"
+    }
+  ]
+}
