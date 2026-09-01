@@ -19,9 +19,25 @@
   },
   "notes": [
     "GSC web-search data uses property-level aggregation.",
-    "GA4 data was not retrieved because the brand context does not confirm a connected GA4 property.",
-    "The completed deck is a copy of the July reference deck and uses verified August GSC data."
+    "The GA4 property connection was verified after the initial report creation.",
+    "The completed deck is a copy of the July reference deck and uses verified GSC and GA4 data."
   ],
+  "ga4": {
+    "property": "properties/313475286",
+    "display_name": "cottonworld.net - GA4",
+    "time_zone": "Asia/Calcutta",
+    "channel_filter": "sessionDefaultChannelGroup = Organic Search",
+    "july_2026": {
+      "active_users": 24630,
+      "new_users": 24317,
+      "sessions": 31633
+    },
+    "august_2026": {
+      "active_users": 24575,
+      "new_users": 24820,
+      "sessions": 32176
+    }
+  },
   "output": {
     "presentation_id": "1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144",
     "presentation_url": "https://docs.google.com/presentation/d/1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144/edit"
