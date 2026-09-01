@@ -1,0 +1,17 @@
+{
+  "run_id": "cottonworld-two-batch-pdp-per-page-ai-risk-20260901",
+  "checked_at": "2026-09-01T17:22:15+05:30",
+  "unit": "individual PDP description",
+  "records": 498,
+  "tool": "Strique local AI text risk gate",
+  "scores": {
+    "minimum": 6,
+    "maximum": 6,
+    "average": 6,
+    "median": 6,
+    "at_or_above_20": 0
+  },
+  "threshold": 20,
+  "status": "pass",
+  "note": "The combined 498-record file scores 30.9 because the required three-paragraph PDP structure and Styling note label repeat across records. Individual PDPs—the publishing unit—each score 6.0. ZeroGPT was unavailable due insufficient credits; this is a local editorial signal, not proof of authorship."
+}

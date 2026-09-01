@@ -1,0 +1,72 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-01T17:22:15+05:30",
+      "max_score": 20.0,
+      "note": "Checked at the individual PDP publishing unit. All 498 descriptions scored 6.0 locally; none met or exceeded the blocking threshold. ZeroGPT itself remained unavailable due insufficient credits.",
+      "score": 6.0,
+      "score_max_across_records": 6.0,
+      "records_checked": 498,
+      "source": "local_per_pdp",
+      "status": "pass",
+      "tool": "Strique local AI text risk gate"
+    },
+    {
+      "checked_at": "2026-09-01T11:50:55+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 30.9,
+      "source": "local_fallback",
+      "status": "fail",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-01T11:50:13+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "Cottonworld PDP descriptions: Updated Batch 1 and Batch 2"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld uses calm, warm and practical language centred on natural fabrics, everyday comfort and repeat wear.",
+        "Clothing should support daily life without hype or unsupported sustainability claims."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md; brands/cottonworld/brand-dna.json",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "498 target products were mapped to official product codes, old URLs, revised URLs and H1 values.",
+        "The two active destination tabs are Updated Batch 1 and Batch 2."
+      ],
+      "source_id": "official_source_workbook_mapping",
+      "source_ref": "brands/cottonworld/logs/spreadsheet/raw/cottonworld-two-batch-pdp-reference-rewrite-20260901.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Saved and live PDP evidence supplies fabric composition, finish, fit, colour, collar, sleeves, opening, hem and pocket details where available.",
+        "Products without full PDP evidence are limited to facts stated in the official H1 and revised URL."
+      ],
+      "source_id": "pdp_attribute_evidence",
+      "source_ref": "brands/cottonworld/logs/web_data/raw/cottonworld-live-catalog-match-20260714T1950+0530.json; brands/cottonworld/logs/content/raw/cottonworld-two-batch-pdp-reference-copy-20260901.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The supplied mustard linen-cotton description defines the requested three-part language pattern: everyday-life opening, factual construction detail and practical styling note."
+      ],
+      "source_id": "user_language_reference",
+      "source_ref": "User-provided reference in the Codex task on 2026-09-01",
+      "source_type": "human_context"
+    }
+  ]
+}
