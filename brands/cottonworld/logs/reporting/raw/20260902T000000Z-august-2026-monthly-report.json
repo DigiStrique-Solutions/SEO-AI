@@ -1,0 +1,29 @@
+{
+  "run_id": "cottonworld-august-2026-monthly-report-20260902",
+  "source": "Google Search Console via Composio",
+  "property": "https://cottonworld.net/",
+  "retrieved_at": "2026-09-02",
+  "periods": {
+    "july_2026": {
+      "clicks": 20913,
+      "impressions": 1722154,
+      "ctr": 0.012143513297881606,
+      "position": 9.036456669960991
+    },
+    "august_2026": {
+      "clicks": 21226,
+      "impressions": 1395150,
+      "ctr": 0.01521413468085869,
+      "position": 9.201766835107335
+    }
+  },
+  "notes": [
+    "GSC web-search data uses property-level aggregation.",
+    "GA4 data was not retrieved because the brand context does not confirm a connected GA4 property.",
+    "The completed deck is a copy of the July reference deck and uses verified August GSC data."
+  ],
+  "output": {
+    "presentation_id": "1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144",
+    "presentation_url": "https://docs.google.com/presentation/d/1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144/edit"
+  }
+}
