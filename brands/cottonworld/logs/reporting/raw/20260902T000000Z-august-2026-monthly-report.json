@@ -28,11 +28,13 @@
     "time_zone": "Asia/Calcutta",
     "channel_filter": "sessionDefaultChannelGroup = Organic Search",
     "july_2026": {
+      "total_users": 24655,
       "active_users": 24630,
       "new_users": 24317,
       "sessions": 31633
     },
     "august_2026": {
+      "total_users": 24603,
       "active_users": 24575,
       "new_users": 24820,
       "sessions": 32176
