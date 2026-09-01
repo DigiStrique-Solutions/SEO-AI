@@ -1,0 +1,919 @@
+{
+  "run_id": "cottonworld-final-draft-batch-match-cleanup-20260901",
+  "timestamp": "2026-09-01T00:00:00+05:30",
+  "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+  "source": {
+    "tab": "Final",
+    "url_column": "D",
+    "draft_column": "F",
+    "range": "Final!D2:F250"
+  },
+  "rule": "For exact normalized URL matches in batches 1-4, copy Final Draft wording, remove Product highlights and Care sections, and normalize the ending to 'Styling note - ...'.",
+  "match_counts": {
+    "Updated Batch 1": 27,
+    "Batch 2": 61,
+    "Batch 3": 37,
+    "Batch 4": 1
+  },
+  "records": [
+    {
+      "source_row": 42,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 8,
+      "description": "With natural texture and a black finish, this men's black organic cotton t-shirt is made from organic cotton. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nA true everyday classic, this men's black organic cotton T-shirt offers the perfect blend of simplicity and versatility.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 16,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-green",
+      "target_tab": "Updated Batch 1",
+      "target_row": 12,
+      "description": "Natural texture meets an earthy colour in this men's green linen shirt. It is woven from 100% linen and shaped in a regular fit, with full sleeves that make it useful from daytime plans through cooler evenings.\n\nA regular collar and folded placket keep the look familiar. The shirt includes one chest pocket and a rounded hem, so it can be worn loose over trousers or tucked in when the occasion is a little sharper.\n\nStyling note - Combine the green with beige chinos and brown footwear, or wear it open over a white T-shirt with denim."
+    },
+    {
+      "source_row": 25,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-sand",
+      "target_tab": "Updated Batch 1",
+      "target_row": 18,
+      "description": "This men's sand organic cotton T-shirt brings print and a warm neutral colour into one easy layer. The 100% organic cotton knit has a regular fit, suited to wearing on its own or beneath a light jacket or overshirt.\n\nA basic round neck and half sleeves keep the silhouette familiar. With no front pocket and a straight hem, the construction remains clean and uncomplicated.\n\nStyling note - Pair it with olive or brown trousers for an earthy combination. Dark denim adds contrast without competing with the print."
+    },
+    {
+      "source_row": 83,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-green",
+      "target_tab": "Updated Batch 1",
+      "target_row": 31,
+      "description": "Made for repeat wear, this men's green organic cotton t-shirt is made from organic cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nFresh and versatile, this men's green organic cotton T-shirt brings a natural touch to your everyday wardrobe.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 55,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+      "target_tab": "Updated Batch 1",
+      "target_row": 34,
+      "description": "Made for repeat wear, this men's olive cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nBlending natural comfort with everyday versatility, this men's olive cotton bamboo elastane T-shirt is crafted for modern lifestyles.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 56,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 35,
+      "description": "A straightforward addition to everyday dressing, this men's black cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nA modern essential with elevated comfort, this men's black cotton bamboo elastane T-shirt combines softness, breathability, and flexibility in one versatile design.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 94,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 39,
+      "description": "With natural texture and a black finish, this women's black cotton elastane t-shirt is made from cotton elastane. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nA versatile foundation for countless outfits, this women's black cotton elastane T-shirt blends timeless style with everyday comfort.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 74,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-blue",
+      "target_tab": "Updated Batch 1",
+      "target_row": 44,
+      "description": "With natural texture and a natural finish, this women's blue linen blouse is made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nInspired by effortless everyday dressing, this women's blue linen blouse combines timeless style with natural comfort.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 102,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-dress-blue",
+      "target_tab": "Updated Batch 1",
+      "target_row": 61,
+      "description": "With natural texture and a natural finish, this women's blue cotton linen dress is made from cotton linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nCombining the softness of cotton with the natural texture of linen, this women's blue cotton linen dress offers comfort with timeless style.\n\nStyling note - Keep the natural colour central with simple sandals or flats. Add a light layer in olive or navy when the day calls for one."
+    },
+    {
+      "source_row": 104,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 62,
+      "description": "A straightforward addition to everyday dressing, this women's black linen blouse is made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nSophisticated and versatile, this women's black linen blouse is a staple piece that works effortlessly across occasions.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 195,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-slate",
+      "target_tab": "Updated Batch 1",
+      "target_row": 65,
+      "description": "Made for repeat wear, these men's slate linen pants are made from linen. The regular fit and the slate colour create a considered, easy-to-style foundation.\n\nElevate your everyday wardrobe with these men's slate linen regular fit pants.\n\nStyling note - Pair the slate base with a white or navy shirt for clear contrast, or keep the palette understated with white or black."
+    },
+    {
+      "source_row": 164,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-red",
+      "target_tab": "Updated Batch 1",
+      "target_row": 98,
+      "description": "A straightforward addition to everyday dressing, this women's red linen blouse is made from linen. The regular fit and the red colour create a considered, easy-to-style foundation.\n\nAdd a bold yet easy-to-style piece to your wardrobe with this women’s linen regular fit blouse in red.\n\nStyling note - Pair the red with charcoal or navy for contrast, or choose off-white for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 170,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-rust",
+      "target_tab": "Updated Batch 1",
+      "target_row": 100,
+      "description": "With natural texture and a rust finish, these women's rust linen viscose pants are made from linen viscose. The regular fit and the rust colour create a considered, easy-to-style foundation.\n\nThese women’s linen viscose regular fit pants in rust are designed for effortless everyday styling.\n\nStyling note - Pair the rust base with a white or navy shirt for clear contrast, or keep the palette understated with ecru or tan."
+    },
+    {
+      "source_row": 171,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 101,
+      "description": "Made for repeat wear, these women's black linen viscose pants are made from linen viscose. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nThese women’s linen viscose regular fit pants in black offer breathable comfort with a soft, fluid drape.\n\nStyling note - Pair the black base with a white or navy shirt for clear contrast, or keep the palette understated with off-white or stone."
+    },
+    {
+      "source_row": 198,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural",
+      "target_tab": "Updated Batch 1",
+      "target_row": 106,
+      "description": "With natural texture and a natural finish, these men's natural linen pants are made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nStay comfortable and stylish with these men's natural linen regular fit pants.\n\nStyling note - Pair the natural base with a white or navy shirt for clear contrast, or keep the palette understated with olive or navy."
+    },
+    {
+      "source_row": 228,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-natural-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 113,
+      "description": "A straightforward addition to everyday dressing, this women's natural black cotton blouse is made from cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nDesigned for effortless everyday dressing, this women's natural black cotton regular fit blouse offers the perfect blend of comfort and style.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 244,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-olive",
+      "target_tab": "Updated Batch 1",
+      "target_row": 118,
+      "description": "A straightforward addition to everyday dressing, these men's olive cotton pants are made from cotton. The regular fit and the olive colour create a considered, easy-to-style foundation.\n\nTimeless and easy to style, these men's olive cotton regular fit pants deliver the perfect balance of comfort and versatility.\n\nStyling note - Pair the olive base with a white or navy shirt for clear contrast, or keep the palette understated with ecru or tan."
+    },
+    {
+      "source_row": 208,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-navy",
+      "target_tab": "Updated Batch 1",
+      "target_row": 132,
+      "description": "A straightforward addition to everyday dressing, this men's navy cotton t-shirt is made from cotton. The regular fit and the navy colour create a considered, easy-to-style foundation.\n\nExperience everyday comfort with this men's navy cotton regular fit T-shirt.\n\nStyling note - Pair the navy with white or ecru for contrast, or choose tonal blue for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 154,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brown",
+      "target_tab": "Updated Batch 1",
+      "target_row": 136,
+      "description": "With natural texture and a brown finish, this men's brown cotton shirt is made from cotton. The regular fit and the brown colour create a considered, easy-to-style foundation.\n\nAdd an earthy neutral to your wardrobe with this men’s cotton regular fit shirt in brown.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 242,
+      "url": "https://cottonworld.net/products/mens-cotton-loose-fit-pant-khaki",
+      "target_tab": "Updated Batch 1",
+      "target_row": 167,
+      "description": "With natural texture and a khaki finish, these men's khaki cotton pants are made from cotton. The loose fit and the khaki colour create a considered, easy-to-style foundation.\n\nUpgrade your everyday essentials with these men's khaki cotton loose fit pants.\n\nStyling note - Pair the khaki base with a white or navy shirt for clear contrast, or keep the palette understated with white or navy."
+    },
+    {
+      "source_row": 251,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-grey",
+      "target_tab": "Updated Batch 1",
+      "target_row": 172,
+      "description": "Made for repeat wear, these women's grey linen viscose pants are made from linen viscose. The regular fit and the grey colour create a considered, easy-to-style foundation.\n\nRefined, comfortable, and easy to style, these women's grey linen viscose regular fit pants are a versatile addition to any wardrobe.\n\nStyling note - Pair the grey base with a white or navy shirt for clear contrast, or keep the palette understated with black or navy."
+    },
+    {
+      "source_row": 226,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue",
+      "target_tab": "Updated Batch 1",
+      "target_row": 175,
+      "description": "With natural texture and a blue finish, this women's blue cotton blouse is made from cotton. The regular fit and the blue colour create a considered, easy-to-style foundation.\n\nRefresh your everyday wardrobe with this women's blue cotton regular fit blouse.\n\nStyling note - Pair the blue with off-white or stone for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 73,
+      "url": "https://cottonworld.net/products/womens-linen-slim-fit-blouse-blue",
+      "target_tab": "Updated Batch 1",
+      "target_row": 176,
+      "description": "Built around the blue colour, this women's blue linen blouse is made from linen. The slim fit and the blue colour create a considered, easy-to-style foundation.\n\nDesigned with a more tailored silhouette, this women's blue linen blouse brings together breathable comfort and refined style.\n\nStyling note - Pair the blue with off-white or stone for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 54,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-pant-black",
+      "target_tab": "Updated Batch 1",
+      "target_row": 177,
+      "description": "With natural texture and a black finish, these women's black linen pants are made from linen. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nElegant, versatile, and endlessly wearable, these women's black linen pants are designed for effortless everyday style.\n\nStyling note - Pair the black base with a white or navy shirt for clear contrast, or keep the palette understated with off-white or stone."
+    },
+    {
+      "source_row": 205,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-brown",
+      "target_tab": "Updated Batch 1",
+      "target_row": 199,
+      "description": "Built around the brown colour, this men's brown cotton t-shirt is made from cotton. The regular fit and the brown colour create a considered, easy-to-style foundation.\n\nA versatile wardrobe staple, this men's brown cotton regular fit T-shirt is designed for everyday comfort.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 197,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-navy",
+      "target_tab": "Updated Batch 1",
+      "target_row": 211,
+      "description": "Built around the navy colour, these men's navy linen pants are made from linen. The regular fit and the navy colour create a considered, easy-to-style foundation.\n\nA timeless wardrobe essential, these men's navy linen regular fit pants offer breathable comfort and effortless versatility.\n\nStyling note - Pair the navy base with a white or navy shirt for clear contrast, or keep the palette understated with white or ecru."
+    },
+    {
+      "source_row": 199,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-grey",
+      "target_tab": "Updated Batch 1",
+      "target_row": 212,
+      "description": "Made for repeat wear, these men's grey linen pants are made from linen. The regular fit and the grey colour create a considered, easy-to-style foundation.\n\nDesigned for comfort and versatility, these men's grey linen regular fit pants are a modern wardrobe staple.\n\nStyling note - Pair the grey base with a white or navy shirt for clear contrast, or keep the palette understated with black or navy."
+    },
+    {
+      "source_row": 115,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pant-white",
+      "target_tab": "Batch 2",
+      "target_row": 75,
+      "description": "Made for repeat wear, these women's white cotton pants are made from cotton. The regular fit and the white colour create a considered, easy-to-style foundation.\n\nClean, classic, and highly versatile, these women's white cotton regular fit pants are an everyday essential.\n\nStyling note - Pair the white base with a white or navy shirt for clear contrast, or keep the palette understated with navy or olive."
+    },
+    {
+      "source_row": 162,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-boxy-fit-blouse-black",
+      "target_tab": "Batch 2",
+      "target_row": 89,
+      "description": "With natural texture and a black finish, this women's black linen viscose blouse is made from linen viscose. The the black colour creates a considered, easy-to-style foundation.\n\nThis women’s linen viscose boxy fit blouse in black brings together breathable comfort and effortless styling.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 119,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-green",
+      "target_tab": "Batch 2",
+      "target_row": 106,
+      "description": "Made for repeat wear, this men's green cotton t-shirt is made from cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nComfortable, versatile, and easy to wear, this men's green cotton T-shirt is a wardrobe essential for everyday dressing.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 132,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brick",
+      "target_tab": "Batch 2",
+      "target_row": 119,
+      "description": "A straightforward addition to everyday dressing, this men's brick cotton shirt is made from 100% cotton solid woven. The regular fit, solid finish, and the brick colour create a considered, easy-to-style foundation.\n\nConstruction details include regular collar, half sleeves, one pocket, and round hem.\n\nStyling note - Pair the brick with ecru or charcoal for contrast, or choose indigo for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 88,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-blue",
+      "target_tab": "Batch 2",
+      "target_row": 120,
+      "description": "A straightforward addition to everyday dressing, this men's blue cotton shirt is made from cotton. The regular fit and the blue colour create a considered, easy-to-style foundation.\n\nEffortlessly versatile and easy to wear, this men's blue cotton shirt is designed for everyday moments and beyond.\n\nStyling note - Pair the blue with off-white or stone for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 89,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black",
+      "target_tab": "Batch 2",
+      "target_row": 128,
+      "description": "Built around the natural colour, this men's black cotton shirt is made from linen cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nInspired by warm-weather dressing, this men's sand linen cotton shirt combines natural texture with effortless sophistication.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 129,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white",
+      "target_tab": "Batch 2",
+      "target_row": 141,
+      "description": "Built around the white colour, this men's white cotton shirt is made from cotton. The regular fit and the white colour create a considered, easy-to-style foundation.\n\nA clean everyday staple, this men’s white cotton shirt combines breathable cotton comfort with timeless styling.\n\nStyling note - Pair the white with navy or olive for contrast, or choose sand or denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 2,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-mustard",
+      "target_tab": "Batch 2",
+      "target_row": 174,
+      "description": "Made for warm days and easy plans, this men's mustard linen cotton shirt brings together the natural character of linen and the familiar comfort of cotton. Its solid woven fabric is composed of 55% linen and 45% cotton, while the regular fit keeps the shape relaxed without looking oversized.\n\nThe band collar gives the shirt a clean, modern line. Half sleeves, a pull-on opening with button detailing, and a rounded hem make it an easy choice for versatile wear. With no pockets to interrupt the front, the mustard colour and simple silhouette do the work.\n\nStyling note - Wear it untucked with off-white linen trousers for a tonal warm-weather look, or pair it with navy chinos or denim for an easy contrast. Add sandals for a relaxed afternoon; switch to loafers when the plan calls for something sharper."
+    },
+    {
+      "source_row": 3,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-black",
+      "target_tab": "Batch 2",
+      "target_row": 175,
+      "description": "A clean alternative to the usual button-down, this men's black linen cotton shirt is made from 55% linen and 45% cotton in a solid woven finish. The regular fit gives it an easy shape for varied plans, while the black colour keeps the look understated.\n\nA band collar, half sleeves and a pull-on opening with button detail set this style apart. The no-pocket front keeps the silhouette uncluttered, and the rounded hem works especially well when worn untucked.\n\nStyling note - Pair it with stone chinos for contrast or wear it with black trousers for a tonal look."
+    },
+    {
+      "source_row": 5,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-blue",
+      "target_tab": "Batch 2",
+      "target_row": 176,
+      "description": "This men's blue linen cotton shirt brings a soft wash of colour to everyday dressing. Woven from 55% linen and 45% cotton, it has a regular fit and a solid finish that makes it simple to style through warmer months.\n\nA regular collar keeps the neckline familiar, while the half sleeves and pull-on construction create a more relaxed character. The front has no pockets, and the straight hem is finished with side slits for ease.\n\nStyling note - Combine it with off-white chinos for a light daytime look, or reach for dark denim when you want more contrast."
+    },
+    {
+      "source_row": 6,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-teal",
+      "target_tab": "Batch 2",
+      "target_row": 177,
+      "description": "A richer take on an everyday polo, this men's teal organic cotton T-shirt is made from 100% organic cotton in a solid knit. Its regular fit works across a range of occasions, with a teal colour that sits comfortably between classic blue and green.\n\nThe polo collar is paired with a half-open front and two buttons. Half sleeves, a clean no-pocket design and a straight hem with side slits complete the shape.\n\nStyling note - Wear it with beige chinos for an easy weekend look, or pair it with navy shorts for a deeper tonal combination."
+    },
+    {
+      "source_row": 13,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-navy",
+      "target_tab": "Batch 2",
+      "target_row": 178,
+      "description": "These men's navy cotton linen pants combine 85% cotton with 15% linen in a solid woven fabric. The regular fit and full length create an easy everyday base, while navy makes them simple to coordinate with shirts, polos and T-shirts.\n\nAn elastic waist with a drawstring allows a flexible adjustment, supported by a button-and-zip opening. Side-seam pockets keep essentials close, and the folded hems add a tidy finish.\n\nStyling note - Pair them with a white linen shirt for a clean contrast, or choose a tonal blue polo for relaxed coordination."
+    },
+    {
+      "source_row": 14,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-avenue",
+      "target_tab": "Batch 2",
+      "target_row": 179,
+      "description": "Designed for relaxed structure, these men's avenue cotton linen pants are made from 85% cotton and 15% linen in a solid weave. They have a regular fit and full length, with a light neutral colour that works across everyday and workwear wardrobes.\n\nThe elastic waist includes a drawstring for adjustment, while a button-and-zip opening gives the front a familiar trouser finish. Side-seam pockets and folded hems complete the design.\n\nStyling note - Team them with a navy shirt for contrast or stay within a natural palette using white, sand and olive layers."
+    },
+    {
+      "source_row": 18,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-orange",
+      "target_tab": "Batch 2",
+      "target_row": 180,
+      "description": "Bright but uncomplicated, this men's orange organic cotton T-shirt is made from 100% organic cotton in a solid knit. The regular fit gives the colour an easy everyday shape for afternoons and weekends away.\n\nA polo collar and half-open front with two buttons bring a little structure. The T-shirt also has half sleeves, no pockets and a straight hem with side slits.\n\nStyling note - Set the orange against navy shorts or charcoal chinos. Sand-coloured trousers create a lighter warm-weather pairing."
+    },
+    {
+      "source_row": 19,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-mustard",
+      "target_tab": "Batch 2",
+      "target_row": 181,
+      "description": "Warm colour and a familiar polo shape come together in this men's mustard organic cotton T-shirt. Knitted from 100% organic cotton, it has a regular fit and solid finish suited to everyday wear.\n\nThe polo collar leads to a half-open front with two buttons. Half sleeves keep the design easy, while the no-pocket front and straight hem with side slits maintain a clean line.\n\nStyling note - Pair mustard with indigo denim for contrast or with cream chinos for a softer natural palette."
+    },
+    {
+      "source_row": 30,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-jacket-navy",
+      "target_tab": "Batch 2",
+      "target_row": 183,
+      "description": "With natural texture and a navy finish, this men's navy cotton linen jacket is made from 85% cotton and 15% linen solid woven. The regular fit, solid finish, and the navy colour create a considered, easy-to-style foundation.\n\nConstruction details include regular collar, full sleeves, folded placket, and 2 pockets. Additional details include straight hem.\n\nStyling note - Layer it over a white T-shirt with tonal blue trousers, or use white or ecru underneath for a softer combination."
+    },
+    {
+      "source_row": 31,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-jacket-avenue",
+      "target_tab": "Batch 2",
+      "target_row": 184,
+      "description": "Made for repeat wear, this men's avenue cotton linen jacket is made from 85% cotton and 15% linen solid woven. The regular fit, solid finish, and the avenue colour create a considered, easy-to-style foundation.\n\nConstruction details include regular collar, full sleeves, folded placket, and 2 pockets. Additional details include straight hem.\n\nStyling note - Layer it over a white T-shirt with olive trousers, or use navy or white underneath for a softer combination."
+    },
+    {
+      "source_row": 36,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+      "target_tab": "Batch 2",
+      "target_row": 187,
+      "description": "A straightforward addition to everyday dressing, this men's brown organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the brown colour create a considered, easy-to-style foundation.\n\nConstruction details include hooded, long sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 39,
+      "url": "https://cottonworld.net/products/mens-cotton-elastane-regular-fit-tshirt-navy",
+      "target_tab": "Batch 2",
+      "target_row": 188,
+      "description": "Made for repeat wear, this men's navy cotton elastane t-shirt is made from 95% cotton and 5% elastane solid knit. The regular fit, solid finish, and the navy colour create a considered, easy-to-style foundation.\n\nConstruction details include band collar, full sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the navy with white or ecru for contrast, or choose tonal blue for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 40,
+      "url": "https://cottonworld.net/products/mens-cotton-elastane-regular-fit-tshirt-brown",
+      "target_tab": "Batch 2",
+      "target_row": 189,
+      "description": "A straightforward addition to everyday dressing, this men's brown cotton elastane t-shirt is made from 95% cotton and 5% elastane solid knit. The regular fit, solid finish, and the brown colour create a considered, easy-to-style foundation.\n\nConstruction details include band collar, full sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 41,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white",
+      "target_tab": "Batch 2",
+      "target_row": 190,
+      "description": "Built around the white colour, this men's white organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the white colour create a considered, easy-to-style foundation.\n\nConstruction details include polo, half sleeve, half open with 02 buttons, and no pockets. Additional details include straight with side slit.\n\nStyling note - Pair the white with navy or olive for contrast, or choose sand or denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 43,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-natural",
+      "target_tab": "Batch 2",
+      "target_row": 191,
+      "description": "Made for repeat wear, this men's natural organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the natural colour create a considered, easy-to-style foundation.\n\nConstruction details include polo, half sleeve, half open with buttons, and one pocket. Additional details include straight hem with slits.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 60,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-navy",
+      "target_tab": "Batch 2",
+      "target_row": 199,
+      "description": "A straightforward addition to everyday dressing, this women's navy organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the navy colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, raglan sleeves, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the navy with white or ecru for contrast, or choose tonal blue for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 61,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-pink",
+      "target_tab": "Batch 2",
+      "target_row": 200,
+      "description": "Built around the pink colour, this women's pink cotton elastane t-shirt is made from cotton elastane. The regular fit and the pink colour create a considered, easy-to-style foundation.\n\nSoft, feminine, and easy to wear, this women's pink cotton elastane T-shirt is designed for comfort with a touch of stretch.\n\nStyling note - Pair the pink with navy or ecru for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 62,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-green",
+      "target_tab": "Batch 2",
+      "target_row": 201,
+      "description": "With natural texture and a green finish, this women's green cotton elastane t-shirt is made from 95% cotton and 5% elastane solid knit. The regular fit, solid finish, and the green colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, short sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the green with cream or beige for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 65,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-dress-natural",
+      "target_tab": "Batch 2",
+      "target_row": 203,
+      "description": "Built around the natural colour, this women's natural cotton dress is made from cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nEffortlessly elegant and easy to wear, this women's natural cotton dress captures the beauty of simple dressing.\n\nStyling note - Keep the natural colour central with simple sandals or flats. Add a light layer in olive or navy when the day calls for one."
+    },
+    {
+      "source_row": 66,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-dress-khaki",
+      "target_tab": "Batch 2",
+      "target_row": 204,
+      "description": "With natural texture and a natural finish, this women's khaki cotton dress is made from cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nUnderstated and versatile, this women's khaki cotton dress brings effortless sophistication to everyday dressing.\n\nStyling note - Keep the natural colour central with simple sandals or flats. Add a light layer in olive or navy when the day calls for one."
+    },
+    {
+      "source_row": 69,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-purple",
+      "target_tab": "Batch 2",
+      "target_row": 206,
+      "description": "Built around the natural colour, this women's purple linen blouse is made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nAdd a touch of colour to your everyday wardrobe with this women's purple linen blouse.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 72,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-white",
+      "target_tab": "Batch 2",
+      "target_row": 207,
+      "description": "A straightforward addition to everyday dressing, this women's white cotton linen blouse is made from cotton linen. The regular fit and the white colour create a considered, easy-to-style foundation.\n\nBlending the softness of cotton with the airy texture of linen, this women's white cotton linen blouse offers the best of both worlds.\n\nStyling note - Pair the white with navy or olive for contrast, or choose sand or denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 75,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-relax-fit-tshirt-brown",
+      "target_tab": "Batch 2",
+      "target_row": 208,
+      "description": "Made for repeat wear, this men's brown organic cotton t-shirt is made from 100% organic cotton solid knit. The relax fit, solid finish, and the brown colour create a considered, easy-to-style foundation.\n\nConstruction details include johny collar, half sleeves, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 78,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-peach",
+      "target_tab": "Batch 2",
+      "target_row": 209,
+      "description": "With natural texture and a peach finish, this men's peach organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the peach colour create a considered, easy-to-style foundation.\n\nConstruction details include polo, half sleeves, half open with 02 buttons, and no pockets. Additional details include straight hem with slits.\n\nStyling note - Pair the peach with stone or white for contrast, or choose olive for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 90,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-sand",
+      "target_tab": "Batch 2",
+      "target_row": 211,
+      "description": "With natural texture and a natural finish, this men's sand linen cotton shirt is made from linen cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nInspired by warm-weather dressing, this men's sand linen cotton shirt combines natural texture with effortless sophistication.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 91,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy",
+      "target_tab": "Batch 2",
+      "target_row": 212,
+      "description": "Made for repeat wear, this men's navy linen cotton shirt is made from linen cotton. The regular fit and the navy colour create a considered, easy-to-style foundation.\n\nA balance of comfort and understated elegance, this men's navy linen cotton shirt is designed for versatile everyday wear.\n\nStyling note - Pair the navy with white or ecru for contrast, or choose tonal blue for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 93,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-brown",
+      "target_tab": "Batch 2",
+      "target_row": 213,
+      "description": "Built around the brown colour, this women's brown cotton elastane t-shirt is made from 95% cotton and 5% elastane solid knit. The regular fit, solid finish, and the brown colour create a considered, easy-to-style foundation.\n\nConstruction details include boat neck, short sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 95,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-rust",
+      "target_tab": "Batch 2",
+      "target_row": 214,
+      "description": "Made for repeat wear, this women's rust organic cotton t-shirt is made from organic cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nWarm, distinctive, and effortlessly stylish, this women's rust organic cotton T-shirt brings a refreshing update to everyday basics.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 99,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "target_tab": "Batch 2",
+      "target_row": 215,
+      "description": "Made for repeat wear, this women's natural organic cotton t-shirt is made from 100% organic cotton solid knit. The regular fit, solid finish, and the natural colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, short sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 100,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-black",
+      "target_tab": "Batch 2",
+      "target_row": 216,
+      "description": "A straightforward addition to everyday dressing, this women's black linen dress is made from 100% linen solid woven. The regular fit, solid finish, and the black colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, sleeveless, box pleats with stitching details at back, and side seam pockets. Additional details include straight hem.\n\nStyling note - Keep the black colour central with simple sandals or flats. Add a light layer in off-white or stone when the day calls for one."
+    },
+    {
+      "source_row": 101,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-dress-blue",
+      "target_tab": "Batch 2",
+      "target_row": 217,
+      "description": "Built around the blue colour, this women's blue linen dress is made from 100% linen solid woven. The boxy fit, solid finish, and the blue colour create a considered, easy-to-style foundation.\n\nConstruction details include round v neck, extended short sleeve, pull on, and side seam pockets. Additional details include straight hem.\n\nStyling note - Keep the blue colour central with simple sandals or flats. Add a light layer in off-white or stone when the day calls for one."
+    },
+    {
+      "source_row": 103,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-rust",
+      "target_tab": "Batch 2",
+      "target_row": 218,
+      "description": "Made for repeat wear, this women's rust linen dress is made from linen. The regular fit and the rust colour create a considered, easy-to-style foundation.\n\nRich in character and inspired by earthy tones, this women's rust linen dress brings warmth and individuality to your wardrobe.\n\nStyling note - Keep the rust colour central with simple sandals or flats. Add a light layer in ecru or tan when the day calls for one."
+    },
+    {
+      "source_row": 107,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-black",
+      "target_tab": "Batch 2",
+      "target_row": 219,
+      "description": "Made for repeat wear, this women's black linen blouse is made from linen. The the natural colour creates a considered, easy-to-style foundation.\n\nContemporary and easy to wear, this women's black linen blouse features a relaxed boxy silhouette that brings modern appeal to everyday dressing.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 108,
+      "url": "https://cottonworld.net/products/womens-modal-viscose-boxy-fit-blouse-mustard",
+      "target_tab": "Batch 2",
+      "target_row": 220,
+      "description": "A straightforward addition to everyday dressing, this women's mustard modal viscose blouse is made from modal viscose. The the mustard colour creates a considered, easy-to-style foundation.\n\nBring warmth and personality to your wardrobe with this women's mustard modal viscose blouse.\n\nStyling note - Pair the mustard with indigo denim for contrast, or choose cream or brown for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 109,
+      "url": "https://cottonworld.net/products/womens-modal-viscose-boxy-fit-blouse-red",
+      "target_tab": "Batch 2",
+      "target_row": 221,
+      "description": "Built around the red colour, this women's red modal viscose blouse is made from modal viscose. The the red colour creates a considered, easy-to-style foundation.\n\nBold, elegant, and effortlessly comfortable, this women's red modal viscose blouse is designed to make a statement.\n\nStyling note - Pair the red with charcoal or navy for contrast, or choose off-white for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 111,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-avenue",
+      "target_tab": "Batch 2",
+      "target_row": 222,
+      "description": "Made for repeat wear, these men's avenue linen pants are made from linen. The regular fit and the avenue colour create a considered, easy-to-style foundation.\n\nDesigned for everyday versatility, these men's avenue linen pants combine lightweight comfort with understated sophistication.\n\nStyling note - Pair the avenue base with a white or navy shirt for clear contrast, or keep the palette understated with navy or white."
+    },
+    {
+      "source_row": 112,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-pant-natural",
+      "target_tab": "Batch 2",
+      "target_row": 223,
+      "description": "A straightforward addition to everyday dressing, these women's natural linen pants are made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nSimple, breathable, and endlessly wearable, these women's natural linen pants are crafted for comfort-driven everyday styling.\n\nStyling note - Pair the natural base with a white or navy shirt for clear contrast, or keep the palette understated with olive or navy."
+    },
+    {
+      "source_row": 126,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-coffee",
+      "target_tab": "Batch 2",
+      "target_row": 226,
+      "description": "With natural texture and a coffee finish, this men's coffee cotton shirt is made from cotton. The regular fit and the coffee colour create a considered, easy-to-style foundation.\n\nAdd a warm neutral to your wardrobe with this men’s coffee cotton shirt.\n\nStyling note - Pair the coffee with cream or tan for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 4,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white",
+      "target_tab": "Batch 2",
+      "target_row": 227,
+      "description": "Sharp in white and easy in shape, this men's white linen cotton shirt is a natural choice for warm-weather dressing. The solid woven fabric combines 55% linen with 45% cotton, finished in a regular fit that leaves room for comfortable movement.\n\nThe shirt has a regular collar, half sleeves and a pull-on construction rather than a conventional full placket. A clean, no-pocket front and a straight hem with side slits give it a relaxed finish.\n\nStyling note - Wear it with navy trousers for a crisp contrast, or choose sand-coloured shorts for an easy holiday combination."
+    },
+    {
+      "source_row": 143,
+      "url": "https://cottonworld.net/products/womens-tencel-regular-fit-dress-denim",
+      "target_tab": "Batch 2",
+      "target_row": 229,
+      "description": "Made for repeat wear, this women's denim tencel dress is made from cotton. The regular fit creates a considered, easy-to-style foundation.\n\nThis women’s Tencel dress in denim combines soft comfort, fluid drape, and effortless everyday style.\n\nStyling note - Keep the  colour central with simple sandals or flats. Add a light layer in neutral separates when the day calls for one."
+    },
+    {
+      "source_row": 146,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-natural",
+      "target_tab": "Batch 2",
+      "target_row": 231,
+      "description": "With natural texture and a natural finish, these men's natural cotton pants are made from 100% cotton stripe woven. The regular fit, stripe finish, and the natural colour create a considered, easy-to-style foundation.\n\nConstruction details include drawstring with elastic, side seam and single back pocket, full length, and elastic waist with drawstring.\n\nStyling note - Pair the natural base with a white or navy shirt for clear contrast, or keep the palette understated with olive or navy."
+    },
+    {
+      "source_row": 150,
+      "url": "https://cottonworld.net/products/womens-tencel-regular-fit-pant-denim",
+      "target_tab": "Batch 2",
+      "target_row": 234,
+      "description": "With natural texture and a versatile finish, these women's denim tencel pants are made from cotton. The regular fit creates a considered, easy-to-style foundation.\n\nThese women’s Tencel pants in denim are designed for soft comfort and effortless styling.\n\nStyling note - Pair them with a white or navy top for clear contrast, or keep the palette understated with neutral layers."
+    },
+    {
+      "source_row": 151,
+      "url": "https://cottonworld.net/products/womens-tencel-regular-fit-culotte-denim",
+      "target_tab": "Batch 2",
+      "target_row": 235,
+      "description": "Made for repeat wear, these women's denim tencel culottes are made from cotton. The regular fit creates a considered, easy-to-style foundation.\n\nThis women’s Tencel culotte in denim combines breathable comfort with a relaxed contemporary silhouette.\n\nStyling note - Pair them with a white or navy top for clear contrast, or keep the palette understated with neutral layers."
+    },
+    {
+      "source_row": 156,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-shirt-pink",
+      "target_tab": "Batch 2",
+      "target_row": 236,
+      "description": "A straightforward addition to everyday dressing, this men's pink cotton lycra shirt is made from 97% cotton and 3% lycra solid woven. The slim fit, solid finish, and the pink colour create a considered, easy-to-style foundation.\n\nConstruction details include regular collar, full sleeves, folded placket, and no pockets. Additional details include round hem.\n\nStyling note - Pair the pink with navy or ecru for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 159,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-shirt-navy",
+      "target_tab": "Batch 2",
+      "target_row": 237,
+      "description": "Made for repeat wear, this men's navy cotton lycra shirt is made from 97% cotton and 3% lycra solid woven. The slim fit, solid finish, and the navy colour create a considered, easy-to-style foundation.\n\nConstruction details include band collar, full sleeves, regular placket, and no pockets. Additional details include round hem.\n\nStyling note - Pair the navy with white or ecru for contrast, or choose tonal blue for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 160,
+      "url": "https://cottonworld.net/products/womens-tencel-boxy-fit-blouse-denim",
+      "target_tab": "Batch 2",
+      "target_row": 238,
+      "description": "A straightforward addition to everyday dressing, this women's denim tencel blouse is made from cotton.\n\nThis women’s Tencel boxy fit blouse in denim offers soft comfort with a relaxed modern silhouette.\n\nStyling note - Pair the  with neutral separates for contrast, or choose denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 161,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-boxy-fit-blouse-rust",
+      "target_tab": "Batch 2",
+      "target_row": 239,
+      "description": "Built around the rust colour, this women's rust linen viscose blouse is made from linen viscose. The the rust colour creates a considered, easy-to-style foundation.\n\nAdd breathable comfort and fluid style to your wardrobe with this women’s linen viscose boxy fit blouse in rust.\n\nStyling note - Pair the rust with ecru or tan for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 166,
+      "url": "https://cottonworld.net/products/womens-cotton-tencel-regular-fit-pant-denim",
+      "target_tab": "Batch 2",
+      "target_row": 241,
+      "description": "With natural texture and a versatile finish, these women's denim cotton tencel pants are made from cotton. The regular fit creates a considered, easy-to-style foundation.\n\nThese women’s cotton Tencel regular fit pants in denim combine breathable comfort with a soft, smooth feel.\n\nStyling note - Pair them with a white or navy top for clear contrast, or keep the palette understated with neutral layers."
+    },
+    {
+      "source_row": 172,
+      "url": "https://cottonworld.net/products/mens-cotton-relax-fit-tshirt-khaki",
+      "target_tab": "Batch 2",
+      "target_row": 243,
+      "description": "A straightforward addition to everyday dressing, this men's khaki cotton t-shirt is made from 100% cotton solid knit. The relax fit, solid finish, and the khaki colour create a considered, easy-to-style foundation.\n\nConstruction details include half sleeves, pull on, no pockets, and curved hem.\n\nStyling note - Pair the khaki with white or navy for contrast, or choose earthy browns for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 173,
+      "url": "https://cottonworld.net/products/mens-cotton-relax-fit-tshirt-blue",
+      "target_tab": "Batch 2",
+      "target_row": 244,
+      "description": "Built around the blue colour, this men's blue cotton t-shirt is made from 100% cotton solid knit. The relax fit, solid finish, and the blue colour create a considered, easy-to-style foundation.\n\nConstruction details include half sleeves, pull on, no pockets, and curved hem.\n\nStyling note - Pair the blue with off-white or stone for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 174,
+      "url": "https://cottonworld.net/products/mens-linen-loose-fit-shirt-brick",
+      "target_tab": "Batch 2",
+      "target_row": 245,
+      "description": "With natural texture and a brick finish, this men's brick linen shirt is made from linen. The loose fit and the brick colour create a considered, easy-to-style foundation.\n\nThis men’s linen loose fit shirt in brick combines breathable comfort with a relaxed, easygoing silhouette.\n\nStyling note - Pair the brick with ecru or charcoal for contrast, or choose indigo for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 175,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-natural",
+      "target_tab": "Batch 2",
+      "target_row": 246,
+      "description": "Made for repeat wear, this men's natural cotton linen shirt is made from cotton linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nThis men’s cotton linen regular fit shirt in natural is crafted for breathable everyday comfort and timeless styling.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 179,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-pink",
+      "target_tab": "Batch 2",
+      "target_row": 248,
+      "description": "Made for repeat wear, this women's pink cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nThis women’s cotton bamboo elastane regular fit T-shirt in pink offers soft comfort with added stretch for everyday ease.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 181,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+      "target_tab": "Batch 2",
+      "target_row": 250,
+      "description": "Built around the lavender colour, this women's lavender cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the lavender colour create a considered, easy-to-style foundation.\n\nThis women’s cotton bamboo elastane regular fit T-shirt in lavender is designed for soft touch comfort and everyday stretch.\n\nStyling note - Pair the lavender with white or navy for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 182,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-loose-fit-tshirt-lavender",
+      "target_tab": "Batch 3",
+      "target_row": 2,
+      "description": "With natural texture and a lavender finish, this women's lavender cotton bamboo elastane t-shirt is made from 49% cotton and 46% bamboo 5% elastane solid knit. The loose fit, solid finish, and the lavender colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, short sleeve, pull on, and no pockets. Additional details include straight with side slit.\n\nStyling note - Pair the lavender with white or navy for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 183,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-loose-fit-tshirt-black",
+      "target_tab": "Batch 3",
+      "target_row": 3,
+      "description": "Made for repeat wear, this women's black cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The loose fit and the black colour create a considered, easy-to-style foundation.\n\nA relaxed everyday essential, this women’s cotton bamboo elastane loose fit T-shirt in black delivers comfort, stretch, and versatility.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 184,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-tshirt-khaki",
+      "target_tab": "Batch 3",
+      "target_row": 4,
+      "description": "A straightforward addition to everyday dressing, this women's khaki cotton t-shirt is made from 100% cotton solid knit. The loose fit, solid finish, and the khaki colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, extended short sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the khaki with white or navy for contrast, or choose earthy browns for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 185,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-tshirt-blue",
+      "target_tab": "Batch 3",
+      "target_row": 5,
+      "description": "Built around the blue colour, this women's blue cotton t-shirt is made from 100% cotton solid knit. The loose fit, solid finish, and the blue colour create a considered, easy-to-style foundation.\n\nConstruction details include round neck, extended short sleeve, pull on, and no pockets. Additional details include straight hem.\n\nStyling note - Pair the blue with off-white or stone for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 186,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-loose-fit-tshirt-purple",
+      "target_tab": "Batch 3",
+      "target_row": 6,
+      "description": "With natural texture and a natural finish, this women's purple cotton elastane t-shirt is made from cotton elastane. The loose fit and the natural colour create a considered, easy-to-style foundation.\n\nThis women’s cotton elastane loose fit T-shirt in purple is designed for relaxed comfort and easy everyday styling.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 187,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-loose-fit-tshirt-natural",
+      "target_tab": "Batch 3",
+      "target_row": 7,
+      "description": "Made for repeat wear, this women's natural cotton elastane t-shirt is made from cotton elastane. The loose fit and the natural colour create a considered, easy-to-style foundation.\n\nThis women’s cotton elastane loose fit T-shirt in natural brings together soft comfort, stretch, and a relaxed silhouette.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 188,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-white",
+      "target_tab": "Batch 3",
+      "target_row": 8,
+      "description": "A straightforward addition to everyday dressing, this women's white cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the white colour create a considered, easy-to-style foundation.\n\nA clean everyday basic, this women’s cotton bamboo elastane regular fit T-shirt in white offers soft touch comfort with added stretch.\n\nStyling note - Pair the white with navy or olive for contrast, or choose sand or denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 189,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+      "target_tab": "Batch 3",
+      "target_row": 9,
+      "description": "Built around the rust colour, this women's rust cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the rust colour create a considered, easy-to-style foundation.\n\nAdd earthy color to your basics with this women’s cotton bamboo elastane regular fit T-shirt in rust.\n\nStyling note - Pair the rust with ecru or tan for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 191,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-kdress-brown",
+      "target_tab": "Batch 3",
+      "target_row": 11,
+      "description": "Made for repeat wear, this women's brown cotton elastane knit dress is made from cotton elastane. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nDesigned for effortless comfort and versatility, this women's brown cotton elastane regular fit knit dress is a timeless addition to your wardrobe.\n\nStyling note - Keep the natural colour central with simple sandals or flats. Add a light layer in olive or navy when the day calls for one."
+    },
+    {
+      "source_row": 192,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-kdress-blue",
+      "target_tab": "Batch 3",
+      "target_row": 12,
+      "description": "A straightforward addition to everyday dressing, this women's blue cotton elastane knit dress is made from 95% cotton and 5% elastane solid knit. The regular fit, solid finish, and the blue colour create a considered, easy-to-style foundation.\n\nConstruction details include polo, short sleeve, button front, and side seam pockets. Additional details include straight hem.\n\nStyling note - Keep the blue colour central with simple sandals or flats. Add a light layer in off-white or stone when the day calls for one."
+    },
+    {
+      "source_row": 193,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-yellow",
+      "target_tab": "Batch 3",
+      "target_row": 13,
+      "description": "Built around the yellow colour, this women's yellow linen blouse is made from linen. The regular fit and the yellow colour create a considered, easy-to-style foundation.\n\nBright and effortlessly stylish, this women's yellow linen regular fit blouse is crafted for breathable comfort and timeless appeal.\n\nStyling note - Pair the yellow with white or navy for contrast, or choose denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 194,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "target_tab": "Batch 3",
+      "target_row": 14,
+      "description": "With natural texture and a pink finish, this women's pink linen blouse is made from linen. The regular fit and the pink colour create a considered, easy-to-style foundation.\n\nAdd a soft, feminine touch to your wardrobe with this women's pink linen regular fit blouse.\n\nStyling note - Pair the pink with navy or ecru for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 196,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive",
+      "target_tab": "Batch 3",
+      "target_row": 15,
+      "description": "A straightforward addition to everyday dressing, these men's olive linen pants are made from linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nCombining natural comfort with versatile style, these men's olive linen regular fit pants are designed for effortless everyday wear.\n\nStyling note - Pair the natural base with a white or navy shirt for clear contrast, or keep the palette understated with olive or navy."
+    },
+    {
+      "source_row": 202,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-culotte-sand",
+      "target_tab": "Batch 3",
+      "target_row": 18,
+      "description": "With natural texture and a sand finish, these women's sand linen viscose culottes are made from 55% linen and 45% viscose solid woven. The regular fit, solid finish, and the sand colour create a considered, easy-to-style foundation.\n\nConstruction details include elastic, side seam pockets, ankle length, and elasticated.\n\nStyling note - Pair the sand base with a white or navy shirt for clear contrast, or keep the palette understated with olive or brown."
+    },
+    {
+      "source_row": 203,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-culotte-green",
+      "target_tab": "Batch 3",
+      "target_row": 19,
+      "description": "Made for repeat wear, these women's green linen viscose culottes are made from 55% linen and 45% viscose solid woven. The regular fit, solid finish, and the green colour create a considered, easy-to-style foundation.\n\nConstruction details include elastic, side seam pockets, ankle length, and elasticated.\n\nStyling note - Pair the green base with a white or navy shirt for clear contrast, or keep the palette understated with cream or beige."
+    },
+    {
+      "source_row": 204,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-culotte-brown",
+      "target_tab": "Batch 3",
+      "target_row": 20,
+      "description": "A straightforward addition to everyday dressing, these women's brown linen viscose culottes are made from linen viscose. The relaxed fit and the brown colour create a considered, easy-to-style foundation.\n\nThese women's brown linen viscose regular fit culottes combine timeless style with exceptional comfort.\n\nStyling note - Pair the brown base with a white or navy shirt for clear contrast, or keep the palette understated with ecru or beige."
+    },
+    {
+      "source_row": 210,
+      "url": "https://cottonworld.net/products/mens-cotton-relax-fit-tshirt-grey",
+      "target_tab": "Batch 3",
+      "target_row": 23,
+      "description": "With natural texture and a grey finish, this men's grey cotton t-shirt is made from cotton. The relaxed fit and the grey colour create a considered, easy-to-style foundation.\n\nEnjoy effortless comfort with this men's grey cotton relaxed fit T-shirt.\n\nStyling note - Pair the grey with black or navy for contrast, or choose olive for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 211,
+      "url": "https://cottonworld.net/products/mens-cotton-relax-fit-tshirt-black",
+      "target_tab": "Batch 3",
+      "target_row": 24,
+      "description": "Made for repeat wear, this men's black cotton t-shirt is made from cotton. The relaxed fit and the black colour create a considered, easy-to-style foundation.\n\nA must-have for every wardrobe, this men's black cotton relaxed fit T-shirt delivers all-day comfort with a clean, contemporary look.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 212,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+      "target_tab": "Batch 3",
+      "target_row": 25,
+      "description": "A straightforward addition to everyday dressing, this men's rust cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the rust colour create a considered, easy-to-style foundation.\n\nUpgrade your everyday essentials with this men's rust cotton bamboo elastane regular fit T-shirt.\n\nStyling note - Pair the rust with ecru or tan for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 213,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-pink",
+      "target_tab": "Batch 3",
+      "target_row": 26,
+      "description": "Built around the natural colour, this men's pink cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nAdd a fresh touch to your wardrobe with this men's pink cotton bamboo elastane regular fit T-shirt.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 215,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+      "target_tab": "Batch 3",
+      "target_row": 28,
+      "description": "Made for repeat wear, this men's lavender cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the lavender colour create a considered, easy-to-style foundation.\n\nRefresh your everyday wardrobe with this men's lavender cotton bamboo elastane regular fit T-shirt.\n\nStyling note - Pair the lavender with white or navy for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 216,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-grey",
+      "target_tab": "Batch 3",
+      "target_row": 29,
+      "description": "A straightforward addition to everyday dressing, this men's grey cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nExperience all-day comfort with this men's grey cotton bamboo elastane regular fit T-shirt.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 217,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-green",
+      "target_tab": "Batch 3",
+      "target_row": 30,
+      "description": "Built around the green colour, this men's green cotton bamboo elastane t-shirt is made from cotton bamboo elastane. The regular fit and the green colour create a considered, easy-to-style foundation.\n\nBring comfort and style together with this men's green cotton bamboo elastane regular fit T-shirt.\n\nStyling note - Pair the green with cream or beige for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 219,
+      "url": "https://cottonworld.net/products/mens-cotton-lyocell-regular-fit-shirt-green",
+      "target_tab": "Batch 3",
+      "target_row": 31,
+      "description": "Made for repeat wear, this men's green cotton lyocell shirt is made from cotton. The regular fit and the green colour create a considered, easy-to-style foundation.\n\nElevate your everyday wardrobe with this men's green cotton lyocell regular fit shirt.\n\nStyling note - Pair the green with cream or beige for contrast, or choose dark denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 220,
+      "url": "https://cottonworld.net/products/mens-cotton-lyocell-regular-fit-shirt-blue",
+      "target_tab": "Batch 3",
+      "target_row": 32,
+      "description": "A straightforward addition to everyday dressing, this men's blue cotton lyocell shirt is made from cotton. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nCombining refined style with everyday comfort, this men's blue cotton lyocell regular fit shirt is a versatile addition to any wardrobe.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 221,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-waistcoat-olive",
+      "target_tab": "Batch 3",
+      "target_row": 33,
+      "description": "Built around the olive colour, this women's olive linen waistcoat is made from linen. The the olive colour creates a considered, easy-to-style foundation.\n\nAdd a sophisticated layer to your wardrobe with this women's olive linen boxy fit waistcoat.\n\nStyling note - Pair the olive with ecru or tan for contrast, or choose navy or black for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 222,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-loose-fit-tshirt-brown",
+      "target_tab": "Batch 3",
+      "target_row": 34,
+      "description": "With natural texture and a brown finish, this women's brown cotton elastane t-shirt is made from cotton elastane. The loose fit and the brown colour create a considered, easy-to-style foundation.\n\nDesigned for all-day comfort, this women's brown cotton elastane loose fit T-shirt combines breathable cotton with added stretch for enhanced flexibility.\n\nStyling note - Pair the brown with ecru or beige for contrast, or choose blue denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 223,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-loose-fit-tshirt-black",
+      "target_tab": "Batch 3",
+      "target_row": 35,
+      "description": "Made for repeat wear, this women's black cotton elastane t-shirt is made from cotton elastane. The relaxed fit and the black colour create a considered, easy-to-style foundation.\n\nA timeless everyday staple, this women's black cotton elastane loose fit T-shirt delivers exceptional comfort and effortless style.\n\nStyling note - Pair the black with off-white or stone for contrast, or choose denim or charcoal for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 224,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-kurta-natural-black",
+      "target_tab": "Batch 3",
+      "target_row": 36,
+      "description": "A straightforward addition to everyday dressing, this women's natural black cotton apparel is made from cotton. The the natural colour creates a considered, easy-to-style foundation.\n\nElevate your everyday wardrobe with this women's natural black cotton boxy fit kurta.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 231,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-maroon",
+      "target_tab": "Batch 3",
+      "target_row": 37,
+      "description": "Made for repeat wear, this women's maroon cotton blouse is made from cotton.\n\nAdd a rich touch of colour to your wardrobe with this women's maroon cotton boxy fit blouse.\n\nStyling note - Pair the  with neutral separates for contrast, or choose denim for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 245,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-khaki",
+      "target_tab": "Batch 3",
+      "target_row": 46,
+      "description": "Built around the khaki colour, these men's khaki cotton pants are made from cotton. The regular fit and the khaki colour create a considered, easy-to-style foundation.\n\nDesigned for everyday comfort and effortless style, these men's khaki cotton regular fit pants are a versatile wardrobe essential.\n\nStyling note - Pair the khaki base with a white or navy shirt for clear contrast, or keep the palette understated with white or navy."
+    },
+    {
+      "source_row": 246,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-natural",
+      "target_tab": "Batch 3",
+      "target_row": 47,
+      "description": "With natural texture and a natural finish, these men's natural cotton linen pants are made from cotton linen. The regular fit and the natural colour create a considered, easy-to-style foundation.\n\nStay comfortable in every season with these men's natural cotton linen regular fit pants.\n\nStyling note - Pair the natural base with a white or navy shirt for clear contrast, or keep the palette understated with olive or navy."
+    },
+    {
+      "source_row": 248,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-grey",
+      "target_tab": "Batch 3",
+      "target_row": 49,
+      "description": "A straightforward addition to everyday dressing, these men's grey cotton linen pants are made from cotton linen. The regular fit and the grey colour create a considered, easy-to-style foundation.\n\nCombining comfort with versatility, these men's grey cotton linen regular fit pants are designed for easy everyday dressing.\n\nStyling note - Pair the grey base with a white or navy shirt for clear contrast, or keep the palette understated with black or navy."
+    },
+    {
+      "source_row": 249,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-pant-beige",
+      "target_tab": "Batch 3",
+      "target_row": 50,
+      "description": "Built around the beige colour, these women's beige linen pants are made from linen. The regular fit and the beige colour create a considered, easy-to-style foundation.\n\nAdd timeless elegance to your wardrobe with these women's beige linen regular fit pants.\n\nStyling note - Pair the beige base with a white or navy shirt for clear contrast, or keep the palette understated with neutral separates."
+    },
+    {
+      "source_row": 250,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sand",
+      "target_tab": "Batch 3",
+      "target_row": 51,
+      "description": "With natural texture and a sand finish, these women's sand linen viscose pants are made from linen viscose. The regular fit and the sand colour create a considered, easy-to-style foundation.\n\nExperience all-day comfort with these women's sand linen viscose regular fit pants.\n\nStyling note - Pair the sand base with a white or navy shirt for clear contrast, or keep the palette understated with olive or brown."
+    },
+    {
+      "source_row": 135,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural",
+      "target_tab": "Batch 3",
+      "target_row": 184,
+      "description": "Made for repeat wear, this men's natural linen shirt keeps the focus on a clear shape and versatile colour. The the natural colour creates a considered, easy-to-style foundation.\n\nThis men’s linen shirt in natural is a breathable wardrobe essential for relaxed yet refined dressing.\n\nStyling note - Pair the natural with olive or navy for contrast, or choose tonal neutrals for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 84,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink",
+      "target_tab": "Batch 3",
+      "target_row": 245,
+      "description": "A straightforward addition to everyday dressing, this men's pink cotton shirt is made from cotton. The regular fit and the pink colour create a considered, easy-to-style foundation.\n\nModern, refined, and effortlessly stylish, this men's pink cotton shirt offers a fresh take on everyday dressing.\n\nStyling note - Pair the pink with navy or ecru for contrast, or choose soft grey for a deeper, easy-to-repeat combination."
+    },
+    {
+      "source_row": 147,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-black",
+      "target_tab": "Batch 4",
+      "target_row": 8,
+      "description": "Made for repeat wear, these men's black cotton pants are made from cotton. The regular fit and the black colour create a considered, easy-to-style foundation.\n\nThis men’s cotton pants in black is a versatile bottomwear essential for daily dressing.\n\nStyling note - Pair the black base with a white or navy shirt for clear contrast, or keep the palette understated with off-white or stone."
+    }
+  ],
+  "verification": {
+    "records": 126,
+    "exact_readback": true,
+    "product_highlights_remaining": 0,
+    "care_sections_remaining": 0,
+    "missing_normalized_styling_note": 0,
+    "wrap_strategy": "WRAP",
+    "intra_description_duplicate_rows": 0,
+    "exact_full_description_duplicate_groups": 0,
+    "local_ai_pattern_risk": {
+      "provider": "seo_audit_harness",
+      "records_checked": 126,
+      "minimum_score": 6.0,
+      "maximum_score": 6.0,
+      "strictly_below_20": true
+    }
+  }
+}
