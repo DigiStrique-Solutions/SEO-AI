@@ -31,7 +31,7 @@
     "metrics": {
       "clicks": {"july": 20913, "august": 21226, "change_percent": 1.5},
       "impressions": {"july": 1722154, "august": 1695150, "change_percent": -1.6},
-      "ctr": {"july": "1.21%", "august": "1.12%", "change_percentage_points": -0.09},
+      "ctr": {"july": "1.21%", "august": "1.35%", "change_percentage_points": 0.14},
       "average_position": {"july": 9.04, "august": 8.87, "change": -0.17}
     },
     "render": "20260902-slide6-render.png"
