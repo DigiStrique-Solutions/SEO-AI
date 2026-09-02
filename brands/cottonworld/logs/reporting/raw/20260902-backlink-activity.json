@@ -1,0 +1,18 @@
+{
+  "run_id": "cottonworld-august-2026-backlink-report-20260902",
+  "source": {
+    "spreadsheet": "https://docs.google.com/spreadsheets/d/1rTadLo-azpD6AyFIKZVmuEq21mZ_9SDUzNkmboorWU4/edit?gid=81149521#gid=81149521",
+    "title": "Cottonworld Backlink August",
+    "read_at": "2026-09-02"
+  },
+  "scope": "Recorded placement entries in the supplied workbook; not an indexation, dofollow, or earned-link verification.",
+  "channels": [
+    {"sheet": "Article submission", "recorded_placements": 8, "share_percent": 15.7},
+    {"sheet": "Photo submission", "recorded_placements": 15, "share_percent": 29.4},
+    {"sheet": "Social Bookmark", "recorded_placements": 23, "share_percent": 45.1},
+    {"sheet": "Quora", "recorded_placements": 5, "share_percent": 9.8}
+  ],
+  "total_recorded_placements": 51,
+  "output_slide": "backlink_report_august_slide",
+  "output_deck": "https://docs.google.com/presentation/d/1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144/edit"
+}
