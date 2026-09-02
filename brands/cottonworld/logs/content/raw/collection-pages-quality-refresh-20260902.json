@@ -1,0 +1,25 @@
+{
+  "run_id": "cottonworld-mens-collection-pages-quality-refresh-20260902",
+  "timestamp": "2026-09-02T12:20:00+05:30",
+  "provider": "google_drive",
+  "reference_folder": "https://drive.google.com/drive/folders/1En-wu_K2kjbJoP1kh-lPAgvSYdsGwDJE",
+  "scope": {
+    "documents_rewritten": 13,
+    "content_length_range_characters": [3986, 4109],
+    "minimum_h2_sections": 8,
+    "faq_questions_per_page": 3,
+    "verified_internal_destinations": [
+      "https://cottonworld.net/collections/mens-shirts",
+      "https://cottonworld.net/collections/mens-tshirts",
+      "https://cottonworld.net/collections/mens-pants-2",
+      "https://cottonworld.net/collections/mens-shorts"
+    ]
+  },
+  "sources": [
+    "Cottonworld brand knowledge and writing style",
+    "Existing Google Docs collection-page drafts",
+    "Older collection-page documents in the user-supplied folder",
+    "Live Cottonworld category-page navigation"
+  ],
+  "notes": "Older documents were used only as a depth and structural benchmark. Product counts, availability and other time-sensitive details were deliberately omitted unless the collection page directs the reader to check live product details."
+}
