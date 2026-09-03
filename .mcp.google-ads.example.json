@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "google-ads": {
+      "command": "python",
+      "args": ["C:\\Users\\User\\Desktop\\SEO-work\\SEO-AI\\tools\\google_ads_keyword_planner_mcp.py"],
+      "env": {
+        "GOOGLE_ADS_PLATFORM_ID": "your-platform-id",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "",
+        "GOOGLE_ADS_CLIENT_ID": "",
+        "GOOGLE_ADS_CLIENT_SECRET": "",
+        "GOOGLE_ADS_REFRESH_TOKEN": "",
+        "GOOGLE_ADS_CUSTOMER_ID": "1234567890",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "",
+        "GOOGLE_ADS_API_VERSION": "v25"
+      }
+    }
+  }
+}
