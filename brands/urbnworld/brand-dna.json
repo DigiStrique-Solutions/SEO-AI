@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "urbnworld",
+  "updated_at": "2026-09-03T00:00:00Z",
+  "brand_name": "URBN World",
+  "website_url": "https://urbnworld.com/",
+  "logo": {"description": "Not independently captured in this audit setup.", "icon_url": ""},
+  "business_description": "Public pages describe a direct-to-consumer mobile-accessories storefront offering chargers, power banks, cables, earbuds, and related products.",
+  "business_model": "Direct-to-consumer ecommerce (public-site inference).",
+  "brand_colors": {},
+  "brand_aesthetic": "Not assessed as a brand-design system; public audit notes a product-led visual storefront.",
+  "brand_voice": {"description": "Product-led, compact-power positioning inferred from public hero copy.", "voice_patterns": ["Small Size. Serious Power."]},
+  "brand_values": [],
+  "target_audience": {"primary": ["Online shoppers for mobile accessories in India (inferred from homepage title)."], "roles": [], "secondary_verticals": []},
+  "competitors": [],
+  "competitor_alternative_categories": [],
+  "primary_business_goal": "Needs confirmation.",
+  "primary_conversion": "Ecommerce purchase (inferred; needs analytics confirmation).",
+  "site_type": "Ecommerce storefront",
+  "measurement_and_connected_sources": ["Supplied public-site audit PDF", "Screaming Frog desktop access"],
+  "open_questions": ["Google Search Console property access", "Analytics access and primary KPIs", "Target countries and language priorities", "Priority products and commercial margin constraints", "Current platform/theme and release owner"]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "urbnworld",
+  "started_at": "2026-09-03T09:50:00Z",
+  "updated_at": "2026-09-03T10:00:00Z",
+  "phases": [
+    {"phase":"1-crawl-brand-dna","status":"done","items":[{"id":"p1.crawl-ok","status":"done","severity":"high","note":"Screaming Frog crawl returned 213 internal URLs; 102 were rate-limited.","log_ref":"logs/audits/activity.jsonl"},{"id":"p1.brand-name","status":"done","severity":"high","note":"URBN World and https://urbnworld.com/ resolved from public source.","log_ref":""},{"id":"p1.core-fields","status":"done","severity":"medium","note":"Unknown fields recorded as open questions.","log_ref":""},{"id":"p1.competitors","status":"done","severity":"medium","note":"Not required for this limited public audit; remains an open research item.","log_ref":""},{"id":"p1.dna-valid","status":"done","severity":"high","note":"brand-dna.json created.","log_ref":""},{"id":"p1.knowledge","status":"done","severity":"low","note":"Audit-specific knowledge recorded.","log_ref":""}]},
+    {"phase":"4-seo-audits","status":"in_progress","items":[{"id":"p4.evidence","status":"done","severity":"high","note":"Public crawl and supplied audit PDF available.","log_ref":"logs/audits/activity.jsonl"},{"id":"p4.per-audit","status":"failed","severity":"high","note":"Full six-audit suite is blocked pending GSC, analytics, and performance data; a scoped public audit summary is available.","log_ref":"logs/audits/activity.jsonl"}]}
+  ]
+}

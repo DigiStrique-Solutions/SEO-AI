@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "urbnworld",
+  "run_date": "2026-09-03",
+  "target_url": "https://urbnworld.com/",
+  "overall_score": null,
+  "status": "partial",
+  "totals": {"internal_urls": 213, "http_200": 109, "http_429": 102, "status_0": 2, "missing_h1_urls": 1, "missing_meta_description_urls": 1, "missing_title_urls": 0, "missing_alt_images": 4},
+  "evidence_inputs": ["logs/audits/raw/2026-09-03-screamingfrog-technical-crawl/", "C:/Users/User/Downloads/urbn-world-seo-aeo-geo-and-cro-audit.pdf"],
+  "blockers": ["No GSC access", "No analytics access", "No field CWV result", "102 crawler 429 responses"],
+  "top_fixes": [
+    {"priority": 1, "severity": "critical", "action": "Investigate and remediate crawler 429 responses without opening transactional or sensitive URLs to indexing."},
+    {"priority": 2, "severity": "critical", "action": "Fix public homepage horizontal overflow and incomplete rendering states."},
+    {"priority": 3, "severity": "high", "action": "Add an accurate homepage H1 and make the hero CTA/value proposition product-specific."},
+    {"priority": 4, "severity": "medium", "action": "Decide cart indexability and correct alt text for informative image assets."}
+  ]
+}
