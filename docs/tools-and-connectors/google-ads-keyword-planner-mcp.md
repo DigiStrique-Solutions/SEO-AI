@@ -1,6 +1,6 @@
 # Google Ads Keyword Planner MCP
 
-`tools/google_ads_keyword_planner_mcp.py` is a local stdio MCP server. It exposes exactly one read-only tool: `google_ads_generate_keyword_ideas`. It calls Google Ads `KeywordPlanIdeaService.GenerateKeywordIdeas` and cannot create, edit, or inspect campaigns, budgets, ads, keywords, or account data.
+The runtime uses a configured hosted `google-ads` MCP. For SEO work, use exactly one read-only tool: `google_ads_generate_keyword_ideas`. Do not use the other tools that the hosted server may advertise. `tools/google_ads_keyword_planner_mcp.py` remains an optional local fallback for environments without the hosted connection.
 
 ## Required setup
 

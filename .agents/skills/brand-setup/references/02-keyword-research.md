@@ -7,7 +7,7 @@
 ## Steps
 
 1. **Seed** from brand-dna: product terms, category terms, competitor-alternative terms.
-2. **Pull demand** via `keyword_planner` (geo = target_country). **Log** → `logs/keywords/activity.jsonl` (`api_call`) + raw in `raw/`.
+2. **Pull demand** via `google_ads_generate_keyword_ideas` only (geo = target_country). Pass `platform_id` from `GOOGLE_ADS_PLATFORM_ID`; never use other Google Ads MCP tools. Capture keyword text, average monthly searches, competition/index, bid estimates, targeting, and any pagination token. **Log** → `logs/keywords/activity.jsonl` (`api_call`) + raw in `raw/`, excluding credentials.
 3. **Pull GSC** query/page performance for the property (if connected). Log it (may be `partial` if the property has little data).
 4. **Build `universe.csv`** — raw superset, 12 cols: `keyword,intent,page_type,target_url,volume,difficulty,priority,sources,gsc_clicks,gsc_impressions,gsc_position,status`. `difficulty` = numeric 0-100 (not "MEDIUM 65").
 5. **Build `keywords.csv`** — curated/prioritized working set, 8 cols: `keyword,intent,page_type,target_url,volume,difficulty,priority,status`.
