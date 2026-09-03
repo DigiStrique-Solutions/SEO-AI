@@ -1,0 +1,54 @@
+{
+  "run_id": "offlimits-august-monthly-seo-report-20260903",
+  "generated_at": "2026-09-03T14:54:32+05:30",
+  "brand_id": "offlimits",
+  "reporting_period": "2026-08-01..2026-08-31",
+  "comparison_period": "2026-07-01..2026-07-31",
+  "template": {
+    "presentation_id": "1IAhlPzWn3TE40B2mIaBGKY-5slyE9LCw_epZlt9Uh04",
+    "title": "Off Limits | Monthly SEO Report - July'26"
+  },
+  "output": {
+    "presentation_id": "1go6XH4zszZ_XjGha3l3w_E2GTvQUPOrs0jayfGj5FDM",
+    "url": "https://docs.google.com/presentation/d/1go6XH4zszZ_XjGha3l3w_E2GTvQUPOrs0jayfGj5FDM/edit",
+    "title": "Off Limits | Monthly SEO Report - August'26"
+  },
+  "ga4_organic_search": {
+    "property": "properties/411747968",
+    "filter": "sessionDefaultChannelGroup EXACT Organic Search",
+    "july_2026": { "users": 3482, "new_users": 2833, "sessions": 4754 },
+    "august_2026": { "users": 3207, "new_users": 2626, "sessions": 4199 },
+    "change_pct": { "users": -7.9, "new_users": -7.31, "sessions": -11.67 },
+    "august_top_landing_pages": [
+      ["/", 1025], ["/collections/big-tall", 261], ["/collections/size-13-shoes", 249],
+      ["/collections/mens-collection-uk14", 105], ["/pages/about-us", 94],
+      ["/collections/men-track-suits", 93], ["/products/oxford-dark-grey-ocm-643-05", 92],
+      ["/products/speed-plus-orm-605-01", 65],
+      ["/blogs/blogs/memory-foam-shoes-are-they-really-the-best-for-your-feet", 63],
+      ["/collections/white-sneaker", 44]
+    ]
+  },
+  "search_console": {
+    "property": "https://offlimits.co.in/",
+    "july_2026": { "clicks": 3969, "impressions": 375532, "ctr": 0.0105690061, "position": 9.8088445 },
+    "august_2026": { "clicks": 3402, "impressions": 335647, "ctr": 0.0101356484, "position": 11.6364663 },
+    "change": { "clicks_pct": -14.29, "impressions_pct": -10.62, "ctr_pp": -0.04, "position_lower": 1.83 },
+    "august_tracked_keyword_positions": {
+      "size 14 shoes": 6.5, "mens size 14 shoes": 5.5, "big shoes": 6.8,
+      "big size shoes": 7.2, "mens size 14 sneakers": 11.1, "size 13 mens shoes": 7.3,
+      "shoes full black": 12.1, "soft foam shoes": 17.5, "basket ball shoes for men": 17.0,
+      "running shoes for women": 22.9, "basketball shoes for men": 19.4, "basketball shoes": 21.3
+    }
+  },
+  "august_work_ref": {
+    "technical_crawl": "Partial live technical SEO crawl (2026-08-18); 669 responses with HTTP 429 excluded.",
+    "pagespeed": "Homepage mobile PageSpeed/field CWV audit (2026-08-20): field LCP 3.7s, INP 194ms, CLS 1.11.",
+    "content": "Three research-and-draft blog deliverables, six visual assets, and three native Google Docs. Publication remained blocked pending external ZeroGPT verification."
+  },
+  "qa": {
+    "structural_readback": "completed",
+    "visual_inspection": "All 10 slides inspected after content updates; September action table re-rendered after row-height correction.",
+    "stale_projection_removed": true,
+    "forecast_policy": "Future months are explicitly marked planned/TBD; slide 9 uses actual June-to-August performance only."
+  }
+}
