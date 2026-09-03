@@ -1,0 +1,68 @@
+{
+  "run_id": "spykar-august-monthly-seo-report-20260903",
+  "generated_at": "2026-09-03T19:53:55+05:30",
+  "brand_id": "spykar",
+  "reporting_period": "2026-08-01..2026-08-31",
+  "comparison_period": "2026-07-01..2026-07-31",
+  "source_deck": {
+    "id": "1fF2hkqKj-JomQ7jr5mErhC1s62sqfVXs4HloFU0s-qo",
+    "title": "Monthly SEO Report | Spykar - July'26"
+  },
+  "output_deck": {
+    "id": "19rOkD5BZ5M3kufiRBp19sTKtPyk-MIF86apA35YjtQY",
+    "title": "Monthly SEO Report | Spykar - August'26",
+    "url": "https://docs.google.com/presentation/d/19rOkD5BZ5M3kufiRBp19sTKtPyk-MIF86apA35YjtQY/edit"
+  },
+  "google_analytics_organic_search": {
+    "property": "properties/320857986",
+    "channel_filter": "sessionDefaultChannelGroup = Organic Search",
+    "july_2026": { "users": 24305, "new_users": 20773, "sessions": 28029 },
+    "august_2026": { "users": 28176, "new_users": 24012, "sessions": 33744 },
+    "change_percent": { "users": 15.93, "new_users": 15.59, "sessions": 20.39 },
+    "august_top_landing_pages": [
+      ["/", 7015], ["/collections/men-jeans", 3683], ["/collections/men-shirts", 1102],
+      ["/collections/men-trousers-joggers", 707], ["/collections/men-t-shirts", 680],
+      ["/collections/wardrobe-refresh-sale-jeans", 614], ["/collections/all-jeans", 599],
+      ["/collections/cargo", 414], ["/collections/women-jeans", 376], ["/collections/cargo-pant", 368]
+    ]
+  },
+  "google_search_console": {
+    "property": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "july_2026": { "clicks": 22376, "impressions": 2385606, "ctr": 0.0093795874, "position": 8.6798847 },
+    "august_2026": { "clicks": 27206, "impressions": 2885961, "ctr": 0.0094270158, "position": 9.2008163 },
+    "change": { "clicks_percent": 21.59, "impressions_percent": 20.97, "ctr_percentage_points": 0.0, "position_lower": 0.52 },
+    "exact_query_positions_august": {
+      "denim jean jacket for ladies": 5.5,
+      "light blue denim": 14.5,
+      "women's skinny fit jeans": 9.8,
+      "branded jeans for men": 8.0,
+      "denim for women": 10.3,
+      "denim jacket for women with hood": 12.1,
+      "denim jeans for women": 15.1,
+      "mens jeans": 11.0,
+      "summer denim outfut": 12.0
+    },
+    "exact_query_no_august_impressions": [
+      "denim check shirts for men",
+      "branded jackets for ladies",
+      "light denim",
+      "women's summer fashion"
+    ]
+  },
+  "august_delivery_evidence": {
+    "technical_audit": "One partial technical SEO audit on 2026-08-18.",
+    "content": "Nine August blog packages are recorded in the content provenance log, including researched, source-backed copy and native Google Docs."
+  },
+  "quality_assurance": {
+    "structural_readback": "completed",
+    "slides_visually_inspected": 9,
+    "repair_passes": 2,
+    "repairs": [
+      "Corrected July-to-August comparison labels and restored historical GSC values after card updates.",
+      "Reduced September plan table row heights to make the final action visible."
+    ]
+  },
+  "providers": ["google_analytics via composio", "google_search_console via composio", "google_drive"]
+}
