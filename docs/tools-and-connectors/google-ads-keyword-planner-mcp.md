@@ -19,6 +19,7 @@ The runtime uses a configured hosted `google-ads` MCP. For SEO work, use exactly
 | `GOOGLE_ADS_CLIENT_ID` | Yes | OAuth 2.0 client ID from Google Cloud. |
 | `GOOGLE_ADS_CLIENT_SECRET` | Yes | OAuth 2.0 client secret. |
 | `GOOGLE_ADS_REFRESH_TOKEN` | Yes | Long-lived OAuth refresh token issued with the Google Ads scope. |
+| `GOOGLE_ADS_ACCESS_TOKEN` | Temporary test only | A short-lived bearer token; provide at process launch and never save it to `.env`. It bypasses refresh-token exchange. |
 | `GOOGLE_ADS_CUSTOMER_ID` | Yes | Google Ads client account ID used for Keyword Planner. |
 | `GOOGLE_ADS_LOGIN_CUSTOMER_ID` | Only for MCC | Manager account ID that has access to the client account. |
 | `GOOGLE_ADS_API_VERSION` | No | Defaults to `v25`; update it only when Google sunsets the version. |

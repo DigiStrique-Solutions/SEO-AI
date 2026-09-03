@@ -23,7 +23,6 @@ REQUIRED_ENV = (
     "GOOGLE_ADS_DEVELOPER_TOKEN",
     "GOOGLE_ADS_CLIENT_ID",
     "GOOGLE_ADS_CLIENT_SECRET",
-    "GOOGLE_ADS_REFRESH_TOKEN",
     "GOOGLE_ADS_CUSTOMER_ID",
 )
 
@@ -67,6 +66,12 @@ def post_json(url: str, payload: dict[str, Any], headers: dict[str, str]) -> dic
 
 
 def access_token() -> str:
+    """Return a temporary supplied token or refresh one from OAuth credentials."""
+    direct_token = os.environ.get("GOOGLE_ADS_ACCESS_TOKEN")
+    if direct_token:
+        return direct_token
+    if not os.environ.get("GOOGLE_ADS_REFRESH_TOKEN"):
+        raise RuntimeError("Set GOOGLE_ADS_REFRESH_TOKEN or a temporary GOOGLE_ADS_ACCESS_TOKEN.")
     data = urllib.parse.urlencode(
         {
             "client_id": os.environ["GOOGLE_ADS_CLIENT_ID"],
