@@ -28,6 +28,23 @@ REQUIRED_ENV = (
 )
 
 
+def load_local_env() -> None:
+    """Load simple KEY=VALUE entries from the repository .env without logging them."""
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    try:
+        with open(env_path, encoding="utf-8") as env_file:
+            for raw_line in env_file:
+                line = raw_line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key, value = key.strip(), value.strip()
+                if key and key not in os.environ:
+                    os.environ[key] = value.strip('"').strip("'")
+    except FileNotFoundError:
+        pass
+
+
 def fail(message: str) -> dict[str, Any]:
     return {"content": [{"type": "text", "text": message}], "isError": True}
 
@@ -175,6 +192,7 @@ def respond(message: dict[str, Any]) -> None:
 
 
 def main() -> None:
+    load_local_env()
     for line in sys.stdin:
         try:
             request = json.loads(line)
