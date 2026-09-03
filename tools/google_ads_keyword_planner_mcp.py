@@ -124,6 +124,17 @@ def generate_ideas(args: dict[str, Any]) -> dict[str, Any]:
     if not isinstance(page_size, int) or not 1 <= page_size <= 10000:
         return fail("page_size must be an integer between 1 and 10000.")
 
+    date_range = args.get("year_month_range")
+    if date_range is not None:
+        if not isinstance(date_range, dict):
+            return fail("year_month_range must contain start and end year/month objects.")
+        start, end = date_range.get("start"), date_range.get("end")
+        if not all(isinstance(value, dict) for value in (start, end)):
+            return fail("year_month_range must contain start and end year/month objects.")
+        for boundary in (start, end):
+            if not isinstance(boundary.get("year"), int) or not isinstance(boundary.get("month"), str):
+                return fail("Each year_month_range boundary requires an integer year and month name.")
+
     payload: dict[str, Any] = {
         "language": f"languageConstants/{language_id}",
         "geoTargetConstants": [f"geoTargetConstants/{str(item)}" for item in geo_ids],
@@ -131,6 +142,8 @@ def generate_ideas(args: dict[str, Any]) -> dict[str, Any]:
         "includeAdultKeywords": bool(args.get("include_adult_keywords", False)),
         "pageSize": page_size,
     }
+    if date_range is not None:
+        payload["historicalMetricsOptions"] = {"yearMonthRange": date_range}
     if keywords and url:
         payload["keywordAndUrlSeed"] = {"keywords": keywords, "url": url}
     elif keywords:
@@ -186,6 +199,15 @@ TOOL = {
             "network": {"type": "string", "enum": ["GOOGLE_SEARCH", "GOOGLE_SEARCH_AND_PARTNERS"], "default": "GOOGLE_SEARCH"},
             "include_adult_keywords": {"type": "boolean", "default": False},
             "page_size": {"type": "integer", "minimum": 1, "maximum": 10000, "default": 100},
+            "year_month_range": {
+                "type": "object",
+                "description": "Optional historical metrics window, such as Apr–Aug 2025.",
+                "required": ["start", "end"],
+                "properties": {
+                    "start": {"type": "object", "required": ["year", "month"], "properties": {"year": {"type": "integer"}, "month": {"type": "string", "enum": ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]}}},
+                    "end": {"type": "object", "required": ["year", "month"], "properties": {"year": {"type": "integer"}, "month": {"type": "string", "enum": ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]}}},
+                },
+            },
         },
     },
 }

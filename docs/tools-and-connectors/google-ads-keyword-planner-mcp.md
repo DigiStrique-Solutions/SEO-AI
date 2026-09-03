@@ -39,6 +39,8 @@ The runtime uses a configured hosted `google-ads` MCP. For SEO work, use exactly
 
 This targets English in India (`2356`). The response includes Google-provided keyword ideas, historical metrics such as average monthly searches and competition, plus any pagination token.
 
+To request a specific historical period, add `year_month_range` with `start` and `end` values. For example, `{"start":{"year":2025,"month":"APRIL"},"end":{"year":2025,"month":"AUGUST"}}` requests the Apr–Aug 2025 series returned by Google Ads.
+
 ## References
 
 Google documents the [developer-token requirement](https://developers.google.com/google-ads/api/docs/api-policy/developer-token), [OAuth requirements](https://developers.google.com/google-ads/api/docs/oauth/overview), and [GenerateKeywordIdeas request structure](https://developers.google.com/google-ads/api/docs/keyword-planning/generate-keyword-ideas).
