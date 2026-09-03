@@ -1,0 +1,22 @@
+{
+  "run_id": "cottonworld-batch-2-pdp-language-review-20260903",
+  "provider": "google_drive",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "sheet": "Batch 2",
+    "original_range": "C2:C250"
+  },
+  "output": {
+    "range": "D1:D250",
+    "header": "Revised PDP Description",
+    "reviewed_records": 249,
+    "corrected_records": 193,
+    "blank_revised_records": 0
+  },
+  "checks": {
+    "repeated_product_leadins_remaining": 0,
+    "styling_leadins_before_wear_remaining": 0,
+    "singular_short_sleeve_phrases_remaining": 0
+  },
+  "notes": "Original PDP Description cells were retained unchanged. Revisions simplify repeated product references and correct grammar while retaining the source copy's product-specific facts and styling suggestions."
+}
