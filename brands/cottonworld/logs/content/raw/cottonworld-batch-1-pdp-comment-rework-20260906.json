@@ -1,0 +1,41 @@
+{
+  "run_id": "cottonworld-batch-1-pdp-comment-rework-20260906",
+  "timestamp": "2026-09-06T19:30:00+05:30",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "sheet": "Batch 1",
+    "range": "A1:D250",
+    "comment_column": "D",
+    "description_column": "C"
+  },
+  "review": {
+    "records_in_batch": 249,
+    "commented_rows": 22,
+    "commented_row_numbers": [10, 11, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 27, 28, 36, 37, 38, 41, 46, 47, 48, 49],
+    "root_cause": "Template-based lead-ins repeated a shortened product name multiple times and inserted it unnaturally into styling notes.",
+    "comment_examples": [
+      "this brown full sleeve shirt - repeated 4 times",
+      "this grey round neck t-shirt - repeated 5 times",
+      "Styling note - For this green full sleeve shirt, Wear..."
+    ]
+  },
+  "changes": {
+    "records_updated": 217,
+    "scope": "Batch 1 PDP Description values C2:C250",
+    "rules": [
+      "Retain one natural product introduction and replace repeated shortened product phrases in subsequent sentences with context-appropriate references.",
+      "Remove repeated 'For/In/On this [product]' constructions.",
+      "Rewrite styling-note openings to use 'Wear it with...' rather than reintroducing the full product name."
+    ]
+  },
+  "verification": {
+    "method": "Connector readback of all commented rows plus representative non-commented revised rows.",
+    "checked_descriptions": 28,
+    "remaining_repeated_comment_pattern": 0,
+    "status": "pass"
+  },
+  "output": {
+    "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE/edit",
+    "review_document_url": "https://docs.google.com/document/d/1142Jb_ZoCi2Jf3Z8YIgtEiwX7pcrIWbUf158xZp6gcU/edit"
+  }
+}
