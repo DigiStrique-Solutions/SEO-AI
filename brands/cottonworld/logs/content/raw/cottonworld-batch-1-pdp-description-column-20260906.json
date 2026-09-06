@@ -1,0 +1,23 @@
+{
+  "run_id": "cottonworld-batch-1-pdp-description-column-20260906",
+  "timestamp": "2026-09-06T19:45:00+05:30",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "sheet": "Batch 1",
+    "source_range": "C1:C250",
+    "destination_range": "E1:E250"
+  },
+  "change": {
+    "action": "copy_revised_pdp_descriptions_beside_existing_content",
+    "destination_header": "Updated PDP Description",
+    "comment_column_preserved": "D1:D250",
+    "description_rows_populated": 249,
+    "formatting": "Copied from source description column; destination column width set to 420 pixels."
+  },
+  "verification": {
+    "readback_ranges": ["C1:E5", "C250:E250"],
+    "header_match": true,
+    "sampled_value_match": true,
+    "status": "pass"
+  }
+}
