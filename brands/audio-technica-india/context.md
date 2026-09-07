@@ -1,19 +1,18 @@
-# Brand Context Index — audio-technica-india
+# Audio-Technica India — Context index
 
-Read this first for any Audio-Technica India task, then load only the files required.
+Start here for every brand-scoped task. Brand-specific rules in `knowledge.md` override generic SEO assumptions.
 
 | Need | Load |
 |---|---|
-| Identity, audience, voice, products | `brand-dna.json` |
-| Brand-specific SEO rules and source limits | `knowledge.md` |
-| Search terms and their status | `keywords/` |
-| Existing editorial content | `blogs/summary.md` |
-| Access and source provenance | `logs/` |
-| Onboarding status and blockers | `tasks/brand-setup.checklist.json` |
+| Brand positioning, audience, voice, conversion and known gaps | `brand-dna.json`, then `knowledge.md` |
+| Keyword strategy, clusters and demand limitations | `keywords/research-summary.json`, `keywords/clusters.json`, then the relevant CSV |
+| Existing editorial inventory | `blogs/summary.md`; open only the needed item in `blogs/references/` |
+| Audit score and prioritised fixes | `audits/summary.md`, then the cited audit JSON |
+| Provenance | relevant `logs/<category>/activity.jsonl`, then its `raw/` payload |
+| Setup completeness | `tasks/brand-setup.checklist.json` |
 
 ## Carry-outs
 
-- Site: `https://audio-technica.co.in/`; market inferred from the `.co.in` domain and INR prices.
-- Google Search Console and GA4 are connected and verified for this property; use the exact property IDs recorded in `knowledge.md`.
-- Keyword Planner and PageSpeed/CrUX are blocked in this runtime; do not label volume or field/lab CWV as checked until their credentials are configured.
-- Do not infer catalogue availability, prices, product specifications, or competitor claims without a fresh source pull.
+- The site is an India-facing ecommerce catalog for headphones, microphones, turntables, cartridges and commercial-audio solutions.
+- Google Tag Manager was observed, but authenticated GSC and analytics data were not available at setup time. Never invent traffic, ranking, revenue or indexing figures.
+- Confirm operating entity, support coverage, design tokens and first-party data-source access before making country-specific operational claims.
