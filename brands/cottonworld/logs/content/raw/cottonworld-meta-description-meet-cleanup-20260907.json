@@ -1,0 +1,21 @@
+{
+  "run_id": "cottonworld-meta-description-meet-cleanup-20260907",
+  "timestamp": "2026-09-07T00:30:00+05:30",
+  "source": {
+    "spreadsheet_id": "1yyEBmhtgcST1Lzd0hwmH6fIHrmbIjOAo_VGODNopRgk",
+    "sheet": "Urls",
+    "meta_description_range": "E2:E1000"
+  },
+  "change": {
+    "find": "Meet Cottonworld’s",
+    "replacement": "Discover Cottonworld’s",
+    "reason": "Replace a generic product-introduction phrase with a natural clothing-brand discovery lead-in while retaining the product details and source meta-description structure."
+  },
+  "result": {
+    "values_changed": 74,
+    "rows_changed": 74,
+    "occurrences_changed": 74,
+    "remaining_meet_occurrences_in_meta_description_column": 0,
+    "status": "pass"
+  }
+}
