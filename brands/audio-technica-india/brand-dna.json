@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "brand_id": "audio-technica-india",
-  "updated_at": "2026-08-10T00:00:00Z",
+  "updated_at": "2026-09-07T09:24:00Z",
   "brand_name": "Audio-Technica India",
   "website_url": "https://audio-technica.co.in/",
   "logo": {"description":"Audio-Technica wordmark; exact asset URL not captured in the crawl.","icon_url":null},
@@ -20,7 +20,7 @@
   "primary_business_goal": "Drive qualified ecommerce purchases and product enquiries in India.",
   "primary_conversion": "Add to cart and complete purchase; product enquiry where a direct purchase is not available.",
   "site_type": "Ecommerce product catalog",
-  "measurement_and_connected_sources": ["Google Tag Manager observed in homepage markup; analytics property access is not available in this setup."],
-  "open_questions": ["Confirm India operating entity, distribution model and official support terms.","Confirm first-party analytics and Search Console access.","Confirm owned social and marketplace channels.","Validate brand-color tokens and official logo asset URL from design resources."],
+  "measurement_and_connected_sources": ["Google Tag Manager observed in homepage markup.","Google Search Console: https://audio-technica.co.in/ (siteOwner; live query data verified 2026-09-07).","GA4: Audio-Technica (India), properties/496800712 (reporting data verified 2026-09-07).","Firecrawl: public-page rendering verified 2026-09-07."],
+  "open_questions": ["Confirm India operating entity, distribution model and official support terms.","Confirm owned social and marketplace channels.","Validate brand-color tokens and official logo asset URL from design resources.","Configure GOOGLE_ADS_PLATFORM_ID for Keyword Planner demand data.","Expose GOOGLE_API_KEY for PageSpeed/CrUX access."],
   "provenance": {"run_id":"audio-technica-india-brand-dna-20260810","output_ref":"logs/web_data/raw/20260810T000000Z-brand-dna-crawl.json"}
 }

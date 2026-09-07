@@ -26,10 +26,12 @@ Avoid unsupported superlatives, unverified India-specific service claims, and cl
 
 ## Measurement and data
 
-Google Tag Manager is present on the homepage. No authenticated analytics or Search Console property was available during setup; do not infer traffic, revenue, query or indexing metrics.
+Google Tag Manager is present on the homepage. On 2026-09-07, authenticated access was verified for Google Search Console (`https://audio-technica.co.in/`, `siteOwner`) and GA4 (Audio-Technica (India), `properties/496800712`). Both sources returned live report data. Use these sources for search and analytics evidence.
+
+Keyword Planner remains blocked because `GOOGLE_ADS_PLATFORM_ID` is missing. PageSpeed and CrUX remain blocked because `GOOGLE_API_KEY` is not available to this runtime. No Lighthouse MCP capability was exposed.
 
 ## Open questions
 
 - Confirm the India entity/distribution model and service coverage.
-- Connect Google Search Console and analytics.
+- Configure Keyword Planner and PageSpeed/CrUX runtime access.
 - Confirm social, marketplace and support-channel ownership.

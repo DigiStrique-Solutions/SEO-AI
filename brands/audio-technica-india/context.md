@@ -14,5 +14,6 @@ Start here for every brand-scoped task. Brand-specific rules in `knowledge.md` o
 ## Carry-outs
 
 - The site is an India-facing ecommerce catalog for headphones, microphones, turntables, cartridges and commercial-audio solutions.
-- Google Tag Manager was observed, but authenticated GSC and analytics data were not available at setup time. Never invent traffic, ranking, revenue or indexing figures.
+- Google Search Console is verified at owner level and GA4 reporting is verified for `properties/496800712`. Use those sources for first-party evidence; never invent traffic, ranking, revenue or indexing figures.
+- Keyword Planner and PageSpeed/CrUX remain blocked by missing runtime configuration; see `knowledge.md` and provenance logs.
 - Confirm operating entity, support coverage, design tokens and first-party data-source access before making country-specific operational claims.

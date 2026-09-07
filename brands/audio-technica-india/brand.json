@@ -8,8 +8,8 @@
   "locale": "en-IN",
   "market": "India",
   "created_at": "2026-08-10T00:00:00Z",
-  "updated_at": "2026-08-10T06:55:00Z",
+  "updated_at": "2026-09-07T09:24:00Z",
   "pointers": {"context":"context.md","brand_dna":"brand-dna.json","knowledge":"knowledge.md","keywords":"keywords/","blogs":"blogs/","audits":"audits/","logs":"logs/","setup_checklist":"tasks/brand-setup.checklist.json"},
   "counts": {"audits":6,"blogs":1,"keywords":26},
-  "known_gaps": ["Keyword Planner demand data unavailable; volume and difficulty are blank.","A full crawl/link graph and rendered-browser validation were not available for the audit baseline.","Live blog inventory contains only a default WordPress starter post."]
+  "known_gaps": ["Keyword Planner demand data unavailable because GOOGLE_ADS_PLATFORM_ID is missing; volume and difficulty are blank.","PageSpeed/CrUX access is blocked because GOOGLE_API_KEY is not available to this runtime.","A full crawl/link graph and rendered-browser validation were not available for the audit baseline.","Live blog inventory contains only a default WordPress starter post."]
 }
