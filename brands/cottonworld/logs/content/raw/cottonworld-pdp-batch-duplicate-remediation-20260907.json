@@ -1,0 +1,35 @@
+{
+  "run_id": "cottonworld-pdp-batch-duplicate-remediation-20260907",
+  "timestamp": "2026-09-07T01:00:00+05:30",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "sheets": [
+      {"name": "Batch 1", "updated_description_range": "E2:E250"},
+      {"name": "Batch 2", "updated_description_range": "E2:E250"}
+    ]
+  },
+  "audit": {
+    "records_checked": 498,
+    "feedback_checked": [
+      "Repeated shortened or full product name in one description",
+      "Repeated full product name in a styling-note sentence",
+      "Mechanical For/In/On this-or-the product lead-ins"
+    ],
+    "residual_cases_found_before_fix": 54,
+    "remediation": {
+      "batch_1_rows_changed": 30,
+      "batch_2_rows_changed": 24,
+      "total_rows_changed": 54,
+      "rule": "Keep one full product introduction, then use natural references such as it, the shirt, the blouse or the trousers; remove repeated product-name lead-ins from styling notes."
+    }
+  },
+  "verification": {
+    "records_rechecked": 498,
+    "blank_updated_descriptions": 0,
+    "descriptions_with_multiple_full_gendered_product_references": 0,
+    "mechanical_product_leadins": 0,
+    "styling_notes_with_full_product_restatement": 0,
+    "status": "pass"
+  },
+  "scope_note": "This is a duplication and readability remediation check. It does not claim a separate product-fact, legal-claim or AI-detector approval pass."
+}
