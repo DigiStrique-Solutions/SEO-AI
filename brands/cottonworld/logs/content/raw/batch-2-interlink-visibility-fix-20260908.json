@@ -1,0 +1,36 @@
+{
+  "run_id": "cottonworld-batch-2-interlink-visibility-fix-20260908",
+  "provider": "google_drive",
+  "folder_id": "1tJj8oOPnKb1BsTYIdclmuHTY6D8AOWVB",
+  "scope": "14 Batch 2 collection-page Google Docs",
+  "destination_validation": {
+    "method": "Live Cottonworld menu crawl",
+    "verified_destinations": [
+      "https://cottonworld.net/collections/mens-shirts",
+      "https://cottonworld.net/collections/mens-tshirts",
+      "https://cottonworld.net/collections/mens-pants-2",
+      "https://cottonworld.net/collections/mens-shorts",
+      "https://cottonworld.net/collections/men-jackets",
+      "https://cottonworld.net/collections/travel-for-men",
+      "https://cottonworld.net/collections/co-ord-sets-mens"
+    ]
+  },
+  "changes": {
+    "documents_updated": 14,
+    "internal_links_styled": 59,
+    "style": "blue (#1155cc) and underlined, matching Batch 1 link treatment",
+    "outdated_targets_replaced": {
+      "/collections/mens-travel": "/collections/travel-for-men",
+      "/collections/mens-co-ords": "/collections/co-ord-sets-mens",
+      "/collections/mens-jackets": "/collections/men-jackets"
+    },
+    "outdated_link_instances_replaced": 5
+  },
+  "verification": {
+    "documents_with_clickable_internal_links": 14,
+    "links_per_document": "4 on 13 documents; 7 on Shop the Look",
+    "visible_blue_underlined_links": 59,
+    "remaining_outdated_targets": 0,
+    "self_links": 0
+  }
+}
