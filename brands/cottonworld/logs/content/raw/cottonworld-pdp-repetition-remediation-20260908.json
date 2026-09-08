@@ -1,0 +1,40 @@
+{
+  "run_id": "cottonworld-pdp-repetition-remediation-20260908",
+  "timestamp": "2026-09-08T00:00:00+05:30",
+  "brand": "cottonworld",
+  "provider": "google_drive",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "sheets": [
+      {"name": "Batch 1", "source_column": "C", "updated_column": "E", "rows_changed": 47},
+      {"name": "Batch 2", "source_column": "C", "updated_column": "E", "rows_changed": 70}
+    ]
+  },
+  "change": {
+    "action": "rewrite_repeated_word_and_template_leakage_defects",
+    "cells_changed": 117,
+    "rules": [
+      "Keep original descriptions visible in column C and write revisions only to column E.",
+      "Remove broken 'Pair the natural...' styling instructions.",
+      "Remove duplicate or placeholder-like natural/fabric references.",
+      "Replace incorrect 'natural colour' references with product-colour or neutral-tone language.",
+      "Remove repetitive 'is/are made from' constructions while retaining the product's stated fabric information."
+    ]
+  },
+  "verification": {
+    "ranges_checked": ["Batch 1!E1:E250", "Batch 2!E1:E250", "Batch 1!C106:E106"],
+    "remaining_matches": {
+      "Pair the natural": 0,
+      "natural natural": 0,
+      "cotton cotton": 0,
+      "linen linen": 0,
+      "natural base": 0,
+      "is made from": 0,
+      "are made from": 0,
+      "natural colour": 0,
+      "natural fabric fabric": 0
+    },
+    "format_check": "Column E keeps its existing wrap, border and font settings.",
+    "status": "pass"
+  }
+}
