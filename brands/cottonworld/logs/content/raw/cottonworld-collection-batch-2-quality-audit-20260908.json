@@ -1,0 +1,115 @@
+{
+  "run_id": "cottonworld-collection-batch-2-quality-audit-20260908",
+  "checked_at": "2026-09-08T16:19:58+05:30",
+  "status": "fix",
+  "scope": {
+    "batch_1_folder_id": "1icNemXdjjCsKjXvdPktekr3NwQZO351R",
+    "batch_1_role": "depth, coverage and visible-structure benchmark",
+    "batch_1_documents": 10,
+    "batch_2_folder_id": "1tJj8oOPnKb1BsTYIdclmuHTY6D8AOWVB",
+    "batch_2_documents": 14,
+    "note": "Batch 1 promotional exaggeration and unsupported claims were not treated as acceptable standards. Cottonworld brand and authenticity rules remained authoritative."
+  },
+  "benchmark": {
+    "batch_1_word_count": {"minimum": 1047, "maximum": 1435, "average": 1207},
+    "batch_2_word_count": {"minimum": 430, "maximum": 641, "average": 570},
+    "batch_2_share_of_batch_1_average_percent": 47.2,
+    "batch_1_faq_pattern": "Nine of ten benchmark documents contain five FAQ questions; the T-shirt document is a structural outlier.",
+    "batch_2_faq_pattern": "All fourteen documents contain three FAQ questions."
+  },
+  "checks": [
+    {
+      "check": "depth_against_batch_1",
+      "status": "fail",
+      "severity": "high",
+      "evidence": "Every Batch 2 document is below the shortest Batch 1 document. Batch 2 averages 570 words versus 1207 in Batch 1.",
+      "fix": "Expand each page with category-specific decision support and two additional useful FAQs without copying unsupported Batch 1 claims.",
+      "owner": "content"
+    },
+    {
+      "check": "heading_semantics",
+      "status": "fail",
+      "severity": "high",
+      "evidence": "Shop Men's Looks Online has five complete body paragraphs styled as Heading 2: Look at the role of each piece..., For a day that includes a meeting..., Compare men's shirts..., A look usually feels balanced..., and A complete look may combine different fabrics....",
+      "fix": "Change the five paragraphs to Normal text and retain only their preceding section labels as Heading 2.",
+      "owner": "content_operations"
+    },
+    {
+      "check": "faq_coverage",
+      "status": "fail",
+      "severity": "medium",
+      "evidence": "All Batch 2 pages have three FAQs; nine of ten Batch 1 benchmark pages have five.",
+      "fix": "Add two non-duplicative, category-specific FAQs per Batch 2 page where the answers are supported by live product or category facts.",
+      "owner": "content"
+    },
+    {
+      "check": "cross_document_originality",
+      "status": "pass_with_note",
+      "severity": "medium",
+      "evidence": "No exact sentence duplication was found across Batch 2, but the same Explore Related Collections and product-page/size-guide framework recurs across most pages; Explore Related Collections appears in thirteen documents.",
+      "fix": "Vary section purpose and phrasing during expansion so each page addresses its category's distinct decisions.",
+      "owner": "content"
+    },
+    {
+      "check": "language_mechanics",
+      "status": "pass",
+      "severity": "low",
+      "evidence": "No adjacent duplicate words, malformed encoding, placeholders, obvious garment-reference errors or broken sentence fragments were found in the fourteen current documents.",
+      "fix": null,
+      "owner": "content"
+    },
+    {
+      "check": "claim_safety_and_brand_voice",
+      "status": "pass",
+      "severity": "low",
+      "evidence": "The copy stays calm and practical, directs changing product facts to live listings, and avoids unsupported performance, sustainability, health and absolute-superiority claims.",
+      "fix": null,
+      "owner": "content"
+    },
+    {
+      "check": "internal_links",
+      "status": "pass",
+      "severity": "low",
+      "evidence": "Native Docs inspection found 59 clickable link runs. Every link is blue and underlined. Seven unique Cottonworld collection targets returned HTTP 200 on 2026-09-08.",
+      "fix": null,
+      "owner": "content_operations"
+    },
+    {
+      "check": "local_ai_pattern_risk",
+      "status": "pass_with_note",
+      "severity": "low",
+      "evidence": "Current Google Doc text scored 6.00 to 9.07 on the Strique local AI-pattern risk gate, below the blocking threshold of 20. The highest score was Men's Shirts, T-Shirts & Jackets at 9.07 due to repeated sentence starts. All pages triggered the harness's generic-conclusion-heading signal.",
+      "fix": "Treat as an editorial signal only. Vary repeated openings and replace generic framework sections with category-specific information during expansion.",
+      "owner": "content"
+    }
+  ],
+  "documents": [
+    {"title": "Shop Men's Looks Online – Collection Page Content", "words": 629, "faqs": 3, "local_ai_risk": 6.00, "status": "fix", "specific_issue": "Five body paragraphs are incorrectly styled as Heading 2."},
+    {"title": "Buy Men's New Arrivals Online – Collection Page Content", "words": 430, "faqs": 3, "local_ai_risk": 6.01, "status": "fix", "specific_issue": "Lowest depth in Batch 2."},
+    {"title": "Buy Men's Shirts, T-Shirts & Jackets Online – Collection Page Content", "words": 476, "faqs": 3, "local_ai_risk": 9.07, "status": "fix", "specific_issue": "Under-depth and highest repeated-sentence-start signal."},
+    {"title": "Buy Men's Round-Neck Bamboo T-Shirts Online – Collection Page Content", "words": 467, "faqs": 3, "local_ai_risk": 6.00, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Pants Online – Collection Page Content", "words": 459, "faqs": 3, "local_ai_risk": 6.00, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Monsoon Clothing Online – Collection Page Content", "words": 594, "faqs": 3, "local_ai_risk": 6.46, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Lounge Wear Online – Collection Page Content", "words": 574, "faqs": 3, "local_ai_risk": 6.60, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Kurtas Online – Collection Page Content", "words": 579, "faqs": 3, "local_ai_risk": 6.00, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Jackets Online – Collection Page Content", "words": 611, "faqs": 3, "local_ai_risk": 7.20, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Co-ord Sets Online – Collection Page Content", "words": 621, "faqs": 3, "local_ai_risk": 6.00, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Clothing Online – Collection Page Content", "words": 630, "faqs": 3, "local_ai_risk": 8.35, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Bottom Wear Online – Collection Page Content", "words": 627, "faqs": 3, "local_ai_risk": 7.97, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Bestsellers Online – Collection Page Content", "words": 641, "faqs": 3, "local_ai_risk": 7.43, "status": "fix", "specific_issue": "Under-depth."},
+    {"title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content", "words": 639, "faqs": 3, "local_ai_risk": 7.87, "status": "fix", "specific_issue": "Under-depth."}
+  ],
+  "link_verification": {
+    "checked_at": "2026-09-08T16:15:00+05:30",
+    "targets": {
+      "https://cottonworld.net/collections/mens-shirts": 200,
+      "https://cottonworld.net/collections/mens-tshirts": 200,
+      "https://cottonworld.net/collections/mens-pants-2": 200,
+      "https://cottonworld.net/collections/mens-shorts": 200,
+      "https://cottonworld.net/collections/men-jackets": 200,
+      "https://cottonworld.net/collections/co-ord-sets-mens": 200,
+      "https://cottonworld.net/collections/travel-for-men": 200
+    }
+  },
+  "verdict": "Batch 2 is cleaner and safer in voice than Batch 1, but it does not meet Batch 1's depth and FAQ coverage standard. Fix the depth and structural issues before approval."
+}
