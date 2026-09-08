@@ -1,0 +1,41 @@
+{
+  "run_id": "cottonworld-pdp-final-thorough-check-20260908",
+  "timestamp": "2026-09-08T00:00:00+05:30",
+  "brand": "cottonworld",
+  "provider": "google_drive",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "ranges": ["Batch 1!A1:E250", "Batch 2!A1:E250"],
+    "review_column": "Updated PDP Description (E)",
+    "preserved_source_column": "PDP Description (C)"
+  },
+  "audit": {
+    "records_checked": 498,
+    "initial_affected_rows": 70,
+    "issues_remediated": [
+      "Mechanical product-attribute lists and raw numeric attributes",
+      "Unsupported fabric-benefit and generic promotional wording",
+      "Missing product nouns caused by generic references",
+      "Spelling, malformed feature phrases and template cadence",
+      "URL-to-copy colour and product naming mismatches"
+    ]
+  },
+  "final_verification": {
+    "blank_descriptions": 0,
+    "structure_or_missing_styling_note": 0,
+    "repeated_words": 0,
+    "grammar_or_spelling_defects": 0,
+    "broken_styling_references": 0,
+    "raw_attribute_leakage": 0,
+    "mechanical_copy": 0,
+    "unsupported_claims": 0,
+    "generic_promotional_copy": 0,
+    "product_type_mismatches": 0,
+    "colour_mismatches": 0,
+    "pronoun_errors": 0,
+    "exact_duplicate_descriptions": 0,
+    "wrap_failures": 0,
+    "status": "pass"
+  },
+  "detector_notes": "No AI detector was run; this was a factual, linguistic, structural and formatting QA pass, not an authorship test."
+}
