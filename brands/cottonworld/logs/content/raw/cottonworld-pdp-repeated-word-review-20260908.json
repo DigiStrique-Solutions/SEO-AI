@@ -1,0 +1,32 @@
+{
+  "run_id": "cottonworld-pdp-repeated-word-review-20260908",
+  "timestamp": "2026-09-08T00:00:00+05:30",
+  "brand": "cottonworld",
+  "provider": "google_drive",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE/edit",
+    "ranges": ["Batch 1!A1:E250", "Batch 2!A1:E250"]
+  },
+  "scope": "Read-only lexical and phrase-quality review of the Updated PDP Description column, prompted by the Batch 1 row 106 example.",
+  "findings": {
+    "confirmed_example": {
+      "sheet": "Batch 1",
+      "row": 106,
+      "product": "m-pant-13485-21487-natural",
+      "status": "fail",
+      "evidence": "The description repeats natural/linen in its opening, then uses the incomplete phrase 'Pair the natural base'."
+    },
+    "batch_1": {
+      "candidate_rows": 47,
+      "rows": [2, 4, 5, 31, 34, 35, 39, 44, 61, 62, 64, 65, 83, 84, 89, 98, 99, 100, 101, 106, 113, 118, 132, 136, 150, 154, 167, 172, 175, 176, 177, 180, 188, 190, 193, 194, 195, 197, 199, 211, 212, 216, 223, 239, 245, 246, 248],
+      "high_confidence_patterns": {"Pair the natural": [31, 34, 44, 62, 106, 113], "natural natural": [64, 99], "natural base": [106]}
+    },
+    "batch_2": {
+      "candidate_rows": 46,
+      "rows": [7, 18, 24, 38, 40, 43, 47, 56, 75, 89, 106, 112, 120, 128, 141, 145, 191, 200, 203, 204, 205, 206, 207, 210, 211, 212, 214, 215, 218, 219, 222, 223, 226, 228, 229, 231, 234, 235, 238, 239, 241, 242, 245, 246, 248, 250],
+      "high_confidence_patterns": {"Pair the natural": [106, 128, 191, 206, 211, 214, 215, 219, 223, 231, 246, 248], "natural base": [223, 231]}
+    }
+  },
+  "result": {"status": "fail", "copy_changed": false, "next_action": "Rewrite the 93 candidate E-column descriptions, retaining verified product facts and removing placeholder-like colour/fabric repetition."}
+}
