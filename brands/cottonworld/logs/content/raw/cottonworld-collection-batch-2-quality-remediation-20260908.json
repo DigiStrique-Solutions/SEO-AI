@@ -1,0 +1,78 @@
+{
+  "run_id": "cottonworld-collection-batch-2-quality-remediation-20260908",
+  "completed_at": "2026-09-08T17:23:29+05:30",
+  "status": "ok",
+  "source_audit": "raw/cottonworld-collection-batch-2-quality-audit-20260908.json",
+  "target": {
+    "folder_id": "1tJj8oOPnKb1BsTYIdclmuHTY6D8AOWVB",
+    "documents": 14,
+    "provider": "google_drive"
+  },
+  "benchmark": {
+    "batch_1_folder_id": "1icNemXdjjCsKjXvdPktekr3NwQZO351R",
+    "use": "depth, FAQ coverage and visible organisation",
+    "note": "Unsupported or exaggerated Batch 1 claims were not carried into Batch 2."
+  },
+  "changes": {
+    "category_specific_sections_added": 66,
+    "faq_questions_added": 28,
+    "faq_questions_final": 70,
+    "generic_related_collection_headings_replaced": 12,
+    "shop_mens_looks_body_paragraphs_changed_from_heading_2_to_normal_text": 5,
+    "shop_mens_looks_blank_heading_2_spacers_normalised": 10,
+    "cross_boundary_repetition_repairs": 1,
+    "existing_internal_link_runs_preserved": 59
+  },
+  "final_metrics": {
+    "word_count": {
+      "minimum": 1025,
+      "maximum": 1108,
+      "average": 1044
+    },
+    "faq_questions_per_document": 5,
+    "adjacent_repeated_words": 0,
+    "malformed_encoding_matches": 0,
+    "placeholders": 0,
+    "exact_cross_document_duplicate_sentences": 0,
+    "empty_heading_2_paragraphs": 0,
+    "body_paragraphs_misformatted_as_heading_2": 0,
+    "unstyled_internal_links": 0,
+    "local_ai_pattern_risk": {
+      "minimum": 6.0,
+      "maximum": 8.9,
+      "threshold": 20.0,
+      "all_pass": true,
+      "note": "Editorial risk signal only; not proof of authorship."
+    }
+  },
+  "link_verification": {
+    "checked_at": "2026-09-08T17:21:00+05:30",
+    "all_http_200": true,
+    "targets": [
+      "https://cottonworld.net/collections/mens-shirts",
+      "https://cottonworld.net/collections/mens-tshirts",
+      "https://cottonworld.net/collections/mens-pants-2",
+      "https://cottonworld.net/collections/mens-shorts",
+      "https://cottonworld.net/collections/men-jackets",
+      "https://cottonworld.net/collections/co-ord-sets-mens",
+      "https://cottonworld.net/collections/travel-for-men"
+    ]
+  },
+  "documents": [
+    {"title": "Shop Men's Looks Online – Collection Page Content", "document_id": "1wHEGsNM8_7a7d99t7eyCwSU482VeVqn3Gac5z5BarRk", "words": 1108, "faqs": 5, "local_ai_risk": 6.0, "status": "pass"},
+    {"title": "Buy Men's New Arrivals Online – Collection Page Content", "document_id": "1mKMvgsFEsnwr35AJN_N3zh2Vt0ZIP6qQCpWAzhuS2A8", "words": 1033, "faqs": 5, "local_ai_risk": 6.51, "status": "pass"},
+    {"title": "Buy Men's Shirts, T-Shirts & Jackets Online – Collection Page Content", "document_id": "1yfMbZWhEfwg7KwAuOrDMHai5b4LhYNxCqPpNRRh71bE", "words": 1050, "faqs": 5, "local_ai_risk": 6.14, "status": "pass"},
+    {"title": "Buy Men's Round-Neck Bamboo T-Shirts Online – Collection Page Content", "document_id": "1oKAO6JxLteg46t1NCSUBCa-mg9JebtreB0wXLJfH5O0", "words": 1050, "faqs": 5, "local_ai_risk": 6.94, "status": "pass"},
+    {"title": "Buy Men's Pants Online – Collection Page Content", "document_id": "1HiM8JcOPe-zxwC3xrJ6jpnOwQN0ub5IdE_jdvKXxp3w", "words": 1036, "faqs": 5, "local_ai_risk": 7.19, "status": "pass"},
+    {"title": "Buy Men's Monsoon Clothing Online – Collection Page Content", "document_id": "1dlUmjnZcApR28gro8vs1zEZTT6viLHnGi9qUUXBPruA", "words": 1029, "faqs": 5, "local_ai_risk": 7.2, "status": "pass"},
+    {"title": "Buy Men's Lounge Wear Online – Collection Page Content", "document_id": "1ge6NQdYaubiM-BhsfGpaWZbmsOgoJhOMhx7EzwS3GiY", "words": 1065, "faqs": 5, "local_ai_risk": 7.99, "status": "pass"},
+    {"title": "Buy Men's Kurtas Online – Collection Page Content", "document_id": "12YGukzL81HKqYGDoxrtqn5HKY8AtU_fruPJrF48OZUY", "words": 1053, "faqs": 5, "local_ai_risk": 7.34, "status": "pass"},
+    {"title": "Buy Men's Jackets Online – Collection Page Content", "document_id": "17_WGxhBnlfs0RDcVl6FDWm0dJpnOUDokl4cEDmcpxzc", "words": 1025, "faqs": 5, "local_ai_risk": 7.55, "status": "pass"},
+    {"title": "Buy Men's Co-ord Sets Online – Collection Page Content", "document_id": "19_FHo9A-WxTZZKdUJwUCn7oTLVcAYnn3yI2SHj55YfE", "words": 1028, "faqs": 5, "local_ai_risk": 6.0, "status": "pass"},
+    {"title": "Buy Men's Clothing Online – Collection Page Content", "document_id": "1KxHPWKUwnDPRej2goF1rI99ocqHg96Bep1-b5JI7GPA", "words": 1050, "faqs": 5, "local_ai_risk": 7.7, "status": "pass"},
+    {"title": "Buy Men's Bottom Wear Online – Collection Page Content", "document_id": "1X29IsGv1uhr2EJs3KylGabqR2f_eMndcYks_As9953M", "words": 1030, "faqs": 5, "local_ai_risk": 8.35, "status": "pass"},
+    {"title": "Buy Men's Bestsellers Online – Collection Page Content", "document_id": "1Sp4k7Qo41KwEYKPRX7g6KyRRv3RuaVnTsoDDIolxhqI", "words": 1025, "faqs": 5, "local_ai_risk": 6.17, "status": "pass"},
+    {"title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content", "document_id": "1k4IdHt9XxYyVbXBULheVF0Dhi1sl5cyX175BI8V2nQc", "words": 1028, "faqs": 5, "local_ai_risk": 8.9, "status": "pass"}
+  ],
+  "verdict": "ship"
+}
