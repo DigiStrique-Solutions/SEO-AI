@@ -1,0 +1,34 @@
+{
+  "run_id": "cottonworld-pdp-full-quality-recheck-20260908",
+  "timestamp": "2026-09-08T00:00:00+05:30",
+  "brand": "cottonworld",
+  "provider": "google_drive",
+  "source": {
+    "spreadsheet_id": "1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE",
+    "ranges": ["Batch 1!E1:E250", "Batch 2!E1:E250"]
+  },
+  "audit": {
+    "records_checked": 498,
+    "first_pass_findings": 60,
+    "remediation": {
+      "unique_descriptions_changed": 65,
+      "issues_fixed": [
+        "Colour-as-product styling instructions such as 'Pair the black...'.",
+        "Wrong garment reference in styling copy.",
+        "Subjectless fabric statements created by earlier substitutions.",
+        "Repeated fabric naming.",
+        "Generic or malformed template phrases."
+      ]
+    }
+  },
+  "verification": {
+    "blank_descriptions": 0,
+    "consecutive_repeated_words": 0,
+    "broken_pair_references": 0,
+    "wrong_garment_references": 0,
+    "subjectless_fabric_statements": 0,
+    "generic_or_malformed_phrases": 0,
+    "layout": "All descriptions remain wrapped. One pre-existing Batch 2 E174 font setting differs from neighbouring cells; no content or wrap defect was found.",
+    "status": "pass"
+  }
+}
