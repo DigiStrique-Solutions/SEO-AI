@@ -1,0 +1,44 @@
+{
+  "run_id": "cottonworld-collection-batch-2-faq-layout-repair-20260908",
+  "timestamp": "2026-09-08T18:03:14+05:30",
+  "brand": "cottonworld",
+  "provider": "google_drive",
+  "source": "Cottonworld Batch 2 collection-page Google Docs folder",
+  "trigger": "User reported that the Buy Men's Bamboo T-Shirts Online document looked off.",
+  "root_cause": "In nine documents, the original third FAQ answer had been displaced below the two newly added FAQs. Moving it back left one blank paragraph with inherited Heading 3 styling, which created an oversized visual gap in rendered output.",
+  "repairs": {
+    "faq_answer_order_corrected_documents": 9,
+    "empty_heading_3_spacers_normalized_documents": 9,
+    "affected_documents": [
+      {"id": "1dlUmjnZcApR28gro8vs1zEZTT6viLHnGi9qUUXBPruA", "title": "Buy Men's Monsoon Clothing Online – Collection Page Content"},
+      {"id": "1ge6NQdYaubiM-BhsfGpaWZbmsOgoJhOMhx7EzwS3GiY", "title": "Buy Men's Lounge Wear Online – Collection Page Content"},
+      {"id": "12YGukzL81HKqYGDoxrtqn5HKY8AtU_fruPJrF48OZUY", "title": "Buy Men's Kurtas Online – Collection Page Content"},
+      {"id": "17_WGxhBnlfs0RDcVl6FDWm0dJpnOUDokl4cEDmcpxzc", "title": "Buy Men's Jackets Online – Collection Page Content"},
+      {"id": "19_FHo9A-WxTZZKdUJwUCn7oTLVcAYnn3yI2SHj55YfE", "title": "Buy Men's Co-ord Sets Online – Collection Page Content"},
+      {"id": "1KxHPWKUwnDPRej2goF1rI99ocqHg96Bep1-b5JI7GPA", "title": "Buy Men's Clothing Online – Collection Page Content"},
+      {"id": "1X29IsGv1uhr2EJs3KylGabqR2f_eMndcYks_As9953M", "title": "Buy Men's Bottom Wear Online – Collection Page Content"},
+      {"id": "1Sp4k7Qo41KwEYKPRX7g6KyRRv3RuaVnTsoDDIolxhqI", "title": "Buy Men's Bestsellers Online – Collection Page Content"},
+      {"id": "1k4IdHt9XxYyVbXBULheVF0Dhi1sl5cyX175BI8V2nQc", "title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content"}
+    ]
+  },
+  "verification": {
+    "documents_checked": 14,
+    "faq_pairs_per_document": 5,
+    "faq_sequence": "Five alternating HEADING_3 question and NORMAL_TEXT answer pairs",
+    "documents_passing_faq_sequence": 14,
+    "empty_heading_paragraphs": 0,
+    "non_question_heading_3_paragraphs": 0,
+    "internal_link_runs_preserved": 59,
+    "bamboo_html_export": {
+      "heading_2_count": 11,
+      "heading_3_count": 5,
+      "empty_heading_count": 0,
+      "faq_order_correct": true
+    },
+    "bamboo_pdf_export": {
+      "status": "generated",
+      "size_bytes": 72585
+    }
+  },
+  "status": "ok"
+}
