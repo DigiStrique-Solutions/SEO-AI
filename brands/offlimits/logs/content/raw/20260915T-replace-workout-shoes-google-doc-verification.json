@@ -1,0 +1,74 @@
+{
+  "run_id": "20260915T-replace-workout-shoes-google-doc",
+  "verified_at": "2026-09-15T12:20:00+05:30",
+  "document": {
+    "id": "1q3xc5LIQLGo-OYZ_YVuE7ELDXsMGwYccWI55E_TlI3Q",
+    "title": "7 Signs It’s Time to Replace Your Workout Shoes | OFFLIMITS",
+    "url": "https://docs.google.com/document/d/1q3xc5LIQLGo-OYZ_YVuE7ELDXsMGwYccWI55E_TlI3Q/edit",
+    "tab_id": "t.0",
+    "reference_document_id": "1i9v2bZBp4vhaDJBsr3TPoEHXxZEuKFW_w-yRbxUzBzs"
+  },
+  "connector_readback": {
+    "heading_1_paragraphs": 1,
+    "heading_2_paragraphs": 16,
+    "heading_3_paragraphs": 8,
+    "native_list_paragraphs": 30,
+    "inline_images": 2,
+    "hyperlinks": 11,
+    "internal_hyperlinks": 9,
+    "placeholders_remaining": false,
+    "stale_reference_text": false,
+    "private_use_characters": 0
+  },
+  "internal_link_map": [
+    {"anchor": "OFFLIMITS gym and training shoe collection", "url": "https://offlimits.co.in/collections/gym-training", "role": "contextual collection link", "http_status": 200},
+    {"anchor": "running shoes versus gym shoes", "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes", "role": "supporting guide", "http_status": 200},
+    {"anchor": "cross-training shoe guide", "url": "https://offlimits.co.in/blogs/blogs/how-to-choose-the-best-cross-training-shoes-for-your-fitness-goals", "role": "supporting guide", "http_status": 200},
+    {"anchor": "gym-shoe guide", "url": "https://offlimits.co.in/blogs/blogs/ultimate-gym-shoes-guide", "role": "supporting guide", "http_status": 200},
+    {"anchor": "Speedwave For Her", "url": "https://offlimits.co.in/collections/women-shoes/products/speedwave-for-her-grey-orw-840-05", "role": "contextual product link", "http_status": 200},
+    {"anchor": "Gladiator in black", "url": "https://offlimits.co.in/products/gladiator-black-orm-661-01", "role": "contextual product link", "http_status": 200},
+    {"anchor": "men's running and gym shoe range", "url": "https://offlimits.co.in/collections/mens-running-gym-shoes", "role": "category link", "http_status": 200},
+    {"anchor": "gym and training collection", "url": "https://offlimits.co.in/collections/women-gym-training", "role": "category link", "http_status": 200},
+    {"anchor": "Find your next workout pair in the OFFLIMITS gym and training collection", "url": "https://offlimits.co.in/collections/gym-training", "role": "conclusion CTA", "http_status": 200}
+  ],
+  "link_style_verification": {
+    "all_11_links_underlined": true,
+    "all_11_links_blue": true,
+    "all_11_links_times_new_roman": true
+  },
+  "export_verification": {
+    "html_bytes": 8832744,
+    "html_h1": 1,
+    "html_h2": 16,
+    "html_h3": 8,
+    "html_links": 11,
+    "html_images": 2,
+    "pdf_bytes": 6789747,
+    "pdf_pages": 12,
+    "pdf_page_size_points": "612 x 792",
+    "pages_rasterized": 12,
+    "pages_visually_inspected": 12,
+    "visual_result": "pass",
+    "observations": [
+      "Both blog images render at full content width without clipping.",
+      "No clipped or overlapping text was observed.",
+      "Heading hierarchy, native bullets, numbered inspection steps and blue-underlined links render consistently.",
+      "FAQ schema uses compact monospaced grey treatment and remains readable.",
+      "No placeholder marks, stray image-marker characters or stale reference content remain."
+    ]
+  },
+  "trusted_read": {
+    "status": "fallback_used",
+    "bridge_error": "workspaceRoot must be an absolute path",
+    "explanation": "The checked-in bridge rejects Windows drive-letter paths. A full connector-native document read and private-use-character scan were completed before and after writing; no protected controls were present."
+  },
+  "editorial_gates": {
+    "serp_benchmark": "pass",
+    "source_and_claim_verification": "pass",
+    "local_ai_pattern_risk_percent": 6,
+    "local_ai_pattern_risk": "pass",
+    "live_zerogpt": "not_checked_blocked: provider returned 403 insufficient credits",
+    "keyword_planner": "not_checked_blocked: platform id unset and tool unavailable",
+    "publish_ready": false
+  }
+}

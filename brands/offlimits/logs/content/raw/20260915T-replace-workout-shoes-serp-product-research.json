@@ -1,0 +1,100 @@
+{
+  "run_id": "20260915T-replace-workout-shoes-research",
+  "accessed_at": "2026-09-15T12:00:00+05:30",
+  "topic": "7 Signs It’s Time to Replace Your Workout Shoes",
+  "market": "India",
+  "serp_benchmark": [
+    {
+      "rank_reviewed": 1,
+      "title": "5 Signs It's Time to Replace Your Athletic Shoes",
+      "url": "https://www.concordpodiatry.com/blog/5-signs-its-time-to-replace-your-athletic-shoes",
+      "tone": "Clinical but accessible; a podiatrist-led warning-sign explainer.",
+      "estimated_content_length": "approximately 700-900 words",
+      "structure": "Short introduction, five numbered signs, brief replacement guidance, medical-service CTA.",
+      "takeaway_for_original": "Keep the signs scannable, but avoid turning normal shoe wear into a diagnosis."
+    },
+    {
+      "rank_reviewed": 2,
+      "title": "When to Replace Cross-Training Shoes | Easy to Use Guide",
+      "url": "https://thatfitfriend.com/replace-cross-training-shoes/",
+      "tone": "First-person, coach-led and practical, with strong performance context.",
+      "estimated_content_length": "approximately 1,800-2,200 words",
+      "structure": "Problem framing, outsole-midsole-upper inspection framework, why replacement matters, care tips and takeaway.",
+      "takeaway_for_original": "Give readers physical checks they can do, and separate running guidance from mixed gym use."
+    },
+    {
+      "rank_reviewed": 3,
+      "title": "When to Replace Running Shoes: Tips from a Run Coach",
+      "url": "https://www.runstreet.com/blog/when-to-replace-running-shoes",
+      "tone": "Conversational, encouraging and experience-led.",
+      "estimated_content_length": "approximately 1,400-1,700 words",
+      "structure": "Key takeaways, shoe anatomy, lifespan factors, four signs, care tips and FAQs.",
+      "takeaway_for_original": "Answer quickly, then add workout-specific nuance, maintenance and FAQs."
+    }
+  ],
+  "benchmark_decision": {
+    "target_tone": "Conversational, practical and non-alarmist, in OFFLIMITS' gutsy but useful voice.",
+    "target_length": "1,700-2,000 words excluding SEO handoff and schema",
+    "target_structure": "Quick answer, seven signs with at-home checks, workout-type replacement guidance, OFFLIMITS product routes, 60-second check, final thoughts, CTA and FAQs."
+  },
+  "supporting_sources": [
+    {
+      "name": "American Heart Association athletic-shoe infographic",
+      "url": "https://cpr.heart.org/en/-/media/AHA/H4GM/PDF-Files/ShoeInfographic.pdf?sc_lang=en",
+      "evidence": "Replace when tread is worn or uneven; 350-500 miles is presented as a running guideline."
+    },
+    {
+      "name": "ASICS DIY Footwear Warrant of Fitness",
+      "url": "https://queenstown-marathon.co.nz/assets/Uploads/2021/Queenstown-Marathon-Get-Run-Ready.pdf",
+      "evidence": "Uneven soles and shoes that no longer stand straight are common visible wear signs."
+    }
+  ],
+  "offlimits_sources": [
+    {
+      "url": "https://offlimits.co.in/collections/gym-training",
+      "http_status": 200,
+      "role": "primary collection and conclusion CTA"
+    },
+    {
+      "url": "https://offlimits.co.in/products/gladiator-black-orm-661-01",
+      "http_status": 200,
+      "role": "men's running and gym product; knitted upper with KPU overlay, memory-foam insole and Phylon rubber sole"
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-shoes/products/speedwave-for-her-grey-orw-840-05",
+      "http_status": 200,
+      "role": "women's running and workout product; Flyknit upper and Phylon/TPR sole"
+    },
+    {
+      "url": "https://offlimits.co.in/collections/women-gym-training",
+      "http_status": 200,
+      "role": "women's gym and training category"
+    },
+    {
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "http_status": 200,
+      "role": "men's running and gym category"
+    },
+    {
+      "url": "https://offlimits.co.in/blogs/blogs/ultimate-gym-shoes-guide",
+      "http_status": 200,
+      "role": "supporting guide"
+    },
+    {
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "http_status": 200,
+      "role": "supporting shoe-selection guide"
+    },
+    {
+      "url": "https://offlimits.co.in/blogs/blogs/how-to-choose-the-best-cross-training-shoes-for-your-fitness-goals",
+      "http_status": 200,
+      "role": "supporting cross-training guide"
+    }
+  ],
+  "keyword_research": {
+    "status": "not_checked_blocked",
+    "reason": "GOOGLE_ADS_PLATFORM_ID is unset and google_ads_generate_keyword_ideas is not available in this runtime.",
+    "volume_policy": "No search volume, CPC or competition figures were invented.",
+    "targets_selected_from": "live SERP language, OFFLIMITS taxonomy and existing brand keyword clusters"
+  }
+}

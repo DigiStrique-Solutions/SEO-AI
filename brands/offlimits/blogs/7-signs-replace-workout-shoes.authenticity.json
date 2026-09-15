@@ -1,0 +1,128 @@
+{
+  "claims": [
+    {
+      "claim": "Worn or uneven tread is a replacement signal; 350-500 miles is a running-specific reference rather than a universal workout-shoe expiry rule.",
+      "source_ids": [
+        "aha_shoe_guide"
+      ]
+    },
+    {
+      "claim": "Uneven soles and shoes that no longer stand straight are common visible wear signs.",
+      "source_ids": [
+        "asics_wear_guide"
+      ]
+    },
+    {
+      "claim": "The OFFLIMITS Gladiator product page lists a knitted upper with KPU overlay, memory-foam insole and Phylon rubber sole.",
+      "source_ids": [
+        "gladiator_product"
+      ]
+    },
+    {
+      "claim": "The OFFLIMITS Speedwave For Her product page lists a seamless Flyknit upper and a Phylon/TPR sole.",
+      "source_ids": [
+        "speedwave_product"
+      ]
+    },
+    {
+      "claim_id": "best-word-url-context",
+      "claim_type": "best_top",
+      "criteria": "The only use of the word best appears inside the canonical URL of an existing OFFLIMITS cross-training guide; the article makes no unqualified product-superiority or ranking claim.",
+      "source_ids": [
+        "supporting_internal_guides"
+      ],
+      "statement": "Best is preserved only as part of the live OFFLIMITS guide URL and is not used as an editorial ranking claim."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-15T06:29:19+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-15T06:28:34+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/7-signs-replace-workout-shoes"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Canonical customer-facing brand form is OFFLIMITS",
+        "Content must be customer-need-led, conversational and product-supported",
+        "Unsupported medical and performance claims are prohibited"
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant organic blog results were reviewed on 2026-09-15",
+        "Tone, estimated content length and section flow were recorded",
+        "The benchmark supports a conversational, non-alarmist, practical guide"
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20260915T-replace-workout-shoes-serp-product-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Replace athletic shoes when tread is worn down or uneven",
+        "350-500 miles is presented as a running reference"
+      ],
+      "source_id": "aha_shoe_guide",
+      "source_ref": "https://cpr.heart.org/en/-/media/AHA/H4GM/PDF-Files/ShoeInfographic.pdf?sc_lang=en",
+      "source_type": "authoritative_reference"
+    },
+    {
+      "extracted_facts": [
+        "Uneven soles are a common wear sign",
+        "One or both shoes may no longer stand straight on a flat surface"
+      ],
+      "source_id": "asics_wear_guide",
+      "source_ref": "https://queenstown-marathon.co.nz/assets/Uploads/2021/Queenstown-Marathon-Get-Run-Ready.pdf",
+      "source_type": "authoritative_reference"
+    },
+    {
+      "extracted_facts": [
+        "Men's running and gym shoe",
+        "Knitted upper with KPU overlay",
+        "Memory-foam insole",
+        "Phylon rubber sole"
+      ],
+      "source_id": "gladiator_product",
+      "source_ref": "https://offlimits.co.in/products/gladiator-black-orm-661-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Women's running, walking and workout shoe",
+        "Seamless Flyknit upper",
+        "Phylon/TPR sole"
+      ],
+      "source_id": "speedwave_product",
+      "source_ref": "https://offlimits.co.in/collections/women-shoes/products/speedwave-for-her-grey-orw-840-05",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Existing OFFLIMITS guides cover gym shoes, running-versus-gym shoes and cross-training shoes",
+        "All internal destinations used in the draft returned HTTP 200 on 2026-09-15"
+      ],
+      "source_id": "supporting_internal_guides",
+      "source_ref": "brands/offlimits/blogs/summary.md and live OFFLIMITS URLs",
+      "source_type": "human_context"
+    }
+  ]
+}

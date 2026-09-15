@@ -1,0 +1,32 @@
+{
+  "run_id": "20260915T-replace-workout-shoes-images",
+  "generated_at": "2026-09-15T12:10:00+05:30",
+  "provider": "built-in image generation",
+  "source_product_images": [
+    {
+      "product": "GLADIATOR - BLACK",
+      "product_url": "https://offlimits.co.in/products/gladiator-black-orm-661-01",
+      "source_image_url": "https://offlimits.co.in/cdn/shop/files/ORM-66101_1_1200x1200.jpg?v=1717569916",
+      "local_reference": "../../blogs/creatives/replace-workout-shoes/refs/gladiator-black.jpg"
+    },
+    {
+      "product": "SPEEDWAVE FOR HER - GREY",
+      "product_url": "https://offlimits.co.in/collections/women-shoes/products/speedwave-for-her-grey-orw-840-05",
+      "source_image_url": "https://offlimits.co.in/cdn/shop/files/1_04e02c2f-84ab-440c-aa44-b852150979f6_1200x1200.jpg?v=1787118862",
+      "local_reference": "../../blogs/creatives/replace-workout-shoes/refs/speedwave-for-her-grey.jpg"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "../../blogs/creatives/replace-workout-shoes/offlimits-replace-workout-shoes-hero.png",
+      "purpose": "title-bearing hero image",
+      "dimensions": "1680x945",
+      "title_verified": "7 SIGNS IT’S TIME TO REPLACE YOUR WORKOUT SHOES"
+    },
+    {
+      "file": "../../blogs/creatives/replace-workout-shoes/offlimits-workout-shoe-wear-check.png",
+      "purpose": "text-free seven-point visual inspection image",
+      "dimensions": "1680x945"
+    }
+  ]
+}
