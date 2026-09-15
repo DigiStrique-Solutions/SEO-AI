@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "claim_id": "white-shirt-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Fit, fabric composition, sleeves, collar and availability match the live Spykar product page and Shopify product JSON checked on 2026-09-15. No price or future-availability claim appears in the draft.",
+      "source_ids": [
+        "spykar-men-white-printed-shirt"
+      ],
+      "statement": "The featured men\u2019s white printed shirt is listed as a regular fit with full sleeves, a raised collar, and an 88% cotton and 12% linen fabric composition."
+    },
+    {
+      "claim_id": "dark-flare-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Fit, rise, length, clean finish, pocket count, stretch and available sizing match the live Spykar product page and Shopify product JSON checked on 2026-09-15.",
+      "source_ids": [
+        "spykar-women-dark-flare-jeans"
+      ],
+      "statement": "The featured women\u2019s dark-blue flare jeans are listed with a high rise, full length, clean finish, five pockets and stretch."
+    },
+    {
+      "claim_id": "internal-link-verification",
+      "claim_type": "product_fact",
+      "criteria": "Both product pages, the men\u2019s and women\u2019s jeans collections, and the supporting jeans-and-shirts guide returned HTTP 200 on 2026-09-15.",
+      "source_ids": [
+        "spykar-live-internal-pages"
+      ],
+      "statement": "The publishable body includes live, contextual product, collection, supporting-guide and conclusion CTA links."
+    },
+    {
+      "claim_id": "serp-positioning",
+      "claim_type": "comparison",
+      "criteria": "Three organic pages were used only to benchmark tone, depth and common angle. The draft is independently structured around a reusable denim-and-fusion wardrobe across two celebrations.",
+      "source_ids": [
+        "ganesh-navratri-serp-benchmark",
+        "spykar-existing-coverage"
+      ],
+      "statement": "The article addresses a distinct transition-from-Ganesh-Chaturthi-to-Navratri wardrobe intent rather than repeating a single-festival or generic festive-wear guide."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-15T13:50:52+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-15T13:46:24+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "https://spykar.com/blogs/blog/ganesh-to-navratri-modern-festive-wardrobe"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth fashion brand. Blog rules require Indian English, practical fit and styling guidance, restrained claims, natural keywords, a canonical native Google Doc, a unique 4:3 banner, product images, live internal links, conclusion CTA, FAQs and schema handoff.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Requested topic: From Ganesh Chaturthi to Navratri: Building a Modern Indian Festive Wardrobe.",
+      "source_id": "user-topic-brief",
+      "source_ref": "User brief dated 2026-09-15",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Live SERP review covered RangRaze, Haus of Handmade and Ethora. Their pages use occasion-led traditional or ethnic guidance, festival-specific colour/fabric suggestions and roughly 800-1,800 words. This draft retains a practical, modern tone but uses a distinct cross-festival denim-and-fusion wardrobe angle.",
+      "source_id": "ganesh-navratri-serp-benchmark",
+      "source_ref": "brands/spykar/logs/content/20260915T131000Z-ganesh-to-navratri-serp-benchmark.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Reviewed Spykar coverage includes individual Ganesh Chaturthi denim, Raksha Bandhan, Independence Day and wider festive themes, but not a documented Ganesh Chaturthi-to-Navratri wardrobe transition guide.",
+      "source_id": "spykar-existing-coverage",
+      "source_ref": "brands/spykar/blogs/summary.md and brands/spykar/blogs/published/ reviewed 2026-09-15",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Men Shirt Print White Regular Fit is available. The product JSON and page list a regular fit, 88% cotton and 12% linen, full sleeves, raised collar, button closure, one pocket and no stretch.",
+      "source_id": "spykar-men-white-printed-shirt",
+      "source_ref": "https://spykar.com/products/mshps2bf129white and Shopify product JSON accessed 2026-09-15",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Flare Fit Jeans Flare Leg Dark Blue High Rise is available in multiple sizes. The product JSON and page list a high rise, full length, clean finish, five pockets, stretch and dark wash.",
+      "source_id": "spykar-women-dark-flare-jeans",
+      "source_ref": "https://spykar.com/products/wdfla2bf047darkblue and Shopify product JSON accessed 2026-09-15",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "All five internal targets returned HTTP 200 on 2026-09-15.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/products/mshps2bf129white; https://spykar.com/products/wdfla2bf047darkblue; https://spykar.com/collections/men-jeans; https://spykar.com/collections/women-jeans; https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "source_type": "product_page"
+    }
+  ]
+}

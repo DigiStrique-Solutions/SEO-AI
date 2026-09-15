@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-15T13:20:00+00:00",
+  "master": "ganesh-to-navratri-modern-festive-wardrobe-banner-master.png",
+  "web": "ganesh-to-navratri-modern-festive-wardrobe-banner-800x600.jpg",
+  "status": "pass",
+  "checks": {
+    "topic_detail_visible": true,
+    "headline_exact": true,
+    "headline": "ONE WARDROBE, MANY CELEBRATIONS",
+    "headline_safe_margin_and_legibility": true,
+    "anatomy_and_garments_plausible": true,
+    "no_third_party_logos_or_watermarks": true,
+    "no_pricing_or_unsupported_claims": true,
+    "cultural_treatment": "Festive community setting with no deity or sacred object as a fashion prop.",
+    "visual_distinction": "Blue-hour walking scene with left copy panel and garba streamers; distinct from the preceding warm courtyard-arrival banner."
+  }
+}

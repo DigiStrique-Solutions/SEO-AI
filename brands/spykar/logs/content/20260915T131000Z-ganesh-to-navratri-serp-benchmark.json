@@ -1,0 +1,12 @@
+{
+  "run_id": "spykar-ganesh-to-navratri-20260915",
+  "checked_at": "2026-09-15T13:10:00+00:00",
+  "query": "Ganesh Chaturthi Navratri festive wardrobe denim outfit ideas India",
+  "results": [
+    {"title": "Ganesh Chaturthi & the Start of Festive Season: What to Wear", "url": "https://ranasaree.com/blogs/news/ganesh-chaturthi-festive-onset-styling", "tone": "warm, festive and occasion-led", "length_words": 1628, "structure": "festival opening, three event moments, traditional outfits, styling and FAQs"},
+    {"title": "Festive Wear for Women India 2026 — Complete Season Guide", "url": "https://www.hausofhandmade.com/blogs/news/festive-wear-women-india-2026-complete-season-guide", "tone": "complete-season, product-led and colour-aware", "length_words": "not reliably countable from search extract", "structure": "festival-calendar guide, occasion choices, festive wardrobe framing"},
+    {"title": "7 Confident Ganesh Chaturthi Outfit Ideas That Work", "url": "https://ethora.in/ganesh-chaturthi-outfit-ideas/", "tone": "direct, practical and fusion-friendly", "length_words": "not reliably countable from search extract", "structure": "occasion-led outfit options, weather and comfort notes, styling details"}
+  ],
+  "benchmark": "Use a practical, festive and direct tone at approximately 1,600-1,900 words. Cover occasion, comfort and colour but retain original Spykar structure focused on a small repeatable denim-and-fusion wardrobe spanning two celebrations.",
+  "cannibalisation_check": "No reviewed live or local Spykar post was documented as targeting a Ganesh Chaturthi-to-Navratri wardrobe transition. Existing single-festival and broader festive posts were used to avoid duplication."
+}

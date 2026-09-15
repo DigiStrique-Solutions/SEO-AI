@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "spykar",
+  "audit_id": "content-seo",
+  "target_url": "https://spykar.com/blogs/blog/ganesh-to-navratri-modern-festive-wardrobe",
+  "run_date": "2026-09-15",
+  "score": 1.0,
+  "counts": {"pass": 6, "fail": 0, "not_applicable": 1},
+  "rows": [
+    {"item_id":"page-purpose","section_id":"purpose-intent","status":"pass","result":"Single dominant purpose: help readers build a reusable modern Indian festive wardrobe from Ganesh Chaturthi to Navratri.","next_action":"Maintain the wardrobe-transition angle when publishing.","evidence_ref":"brands/spykar/blogs/drafts/ganesh-to-navratri-modern-festive-wardrobe.md"},
+    {"item_id":"intent-match","section_id":"purpose-intent","status":"pass","result":"Practical, occasion-led informational format aligns with the reviewed organic festive wardrobe guides while remaining original.","next_action":"Keep title and introductory query context intact.","evidence_ref":"brands/spykar/logs/content/20260915T131000Z-ganesh-to-navratri-serp-benchmark.json"},
+    {"item_id":"content-depth","section_id":"depth-quality","status":"pass","result":"Covers dress-code choice, capsule building, Ganesh Chaturthi, bridge styling, Navratri, colour, fit/usability and FAQs.","next_action":"No additional topic section required.","evidence_ref":"brands/spykar/blogs/drafts/ganesh-to-navratri-modern-festive-wardrobe.md"},
+    {"item_id":"keyword-coverage","section_id":"depth-quality","status":"pass","result":"Primary appears in title, introduction and conclusion; secondary variants occur naturally in relevant sections.","next_action":"Preserve natural wording during CMS upload.","evidence_ref":"brands/spykar/blogs/drafts/ganesh-to-navratri-modern-festive-wardrobe.md"},
+    {"item_id":"freshness","section_id":"depth-quality","status":"pass","result":"Product and live-site evidence were checked on 2026-09-15.","next_action":"Recheck product availability before CMS publication.","evidence_ref":"brands/spykar/blogs/authenticity/ganesh-to-navratri-modern-festive-wardrobe.authenticity.json"},
+    {"item_id":"author-eeat","section_id":"eeat","status":"not_applicable","result":"A byline/author credential is a CMS-level decision not supplied in this brief.","next_action":"Add approved author information in the CMS if available.","evidence_ref":"User brief and brand context"},
+    {"item_id":"internal-links","section_id":"eeat","status":"pass","result":"Seven contextual internal link runs include both product pages, collections, a supporting guide and conclusion CTAs.","next_action":"Revalidate targets immediately before publish.","evidence_ref":"brands/spykar/logs/content/raw/20260915T141000Z-ganesh-to-navratri-blog.json"}
+  ]
+}

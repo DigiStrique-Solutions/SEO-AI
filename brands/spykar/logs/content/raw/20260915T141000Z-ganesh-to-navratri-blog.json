@@ -1,0 +1,14 @@
+{
+  "run_id": "spykar-ganesh-to-navratri-20260915",
+  "topic": "From Ganesh Chaturthi to Navratri: Building a Modern Indian Festive Wardrobe",
+  "serp_benchmark": "20260915T131000Z-ganesh-to-navratri-serp-benchmark.json",
+  "products": [
+    {"name":"Men Shirt Print White Regular Fit","url":"https://spykar.com/products/mshps2bf129white","http_status":200,"image":"brands/spykar/blogs/creatives/ganesh-to-navratri-modern-festive-wardrobe/spykar-men-white-printed-shirt.jpg"},
+    {"name":"Women Flare Fit Jeans Flare Leg Dark Blue High Rise","url":"https://spykar.com/products/wdfla2bf047darkblue","http_status":200,"image":"brands/spykar/blogs/creatives/ganesh-to-navratri-modern-festive-wardrobe/spykar-women-dark-blue-flare-jeans.jpg"}
+  ],
+  "internal_links":{"count":7,"verified_live":true,"targets":["https://spykar.com/products/mshps2bf129white","https://spykar.com/products/wdfla2bf047darkblue","https://spykar.com/collections/men-jeans","https://spykar.com/collections/women-jeans","https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas"]},
+  "banner":{"master":"brands/spykar/blogs/creatives/ganesh-to-navratri-modern-festive-wardrobe/ganesh-to-navratri-modern-festive-wardrobe-banner-master.png","web":"brands/spykar/blogs/creatives/ganesh-to-navratri-modern-festive-wardrobe/ganesh-to-navratri-modern-festive-wardrobe-banner-800x600.jpg","qa":"brands/spykar/blogs/creatives/ganesh-to-navratri-modern-festive-wardrobe/banner-qa.json"},
+  "google_doc":{"id":"1rFjZ0SqFVjrrBrd-hPmo8yrQ1k5cTFbVQCHX7SYPmDU","url":"https://docs.google.com/document/d/1rFjZ0SqFVjrrBrd-hPmo8yrQ1k5cTFbVQCHX7SYPmDU/edit?tab=t.0","verification":{"title":true,"heading_1_count":9,"heading_2_count":7,"link_runs":7,"inline_image_elements":3,"faq_schema":true,"template_placeholders":false}},
+  "authenticity":{"local_ai_pattern_score":6,"local_gate":"pass","zerogpt":"not_checked_blocked","zerogpt_note":"Endpoint returned HTTP 403 / Not enough credits; no live ZeroGPT percentage was verifiable."},
+  "pdf_qa":{"status":"not_checked_blocked","blocker":"PDF export and local page rasterisation were not completed during this run."}
+}
