@@ -1,0 +1,30 @@
+{
+  "run_id": "20260915T-athleisure-starter-pack-google-doc",
+  "checked_at": "2026-09-15",
+  "document_id": "1w3iX50G8CFoL_5c8M7xJ5Iau3wVp_IEnTkjNtklG72Q",
+  "document_url": "https://docs.google.com/document/d/1w3iX50G8CFoL_5c8M7xJ5Iau3wVp_IEnTkjNtklG72Q/edit",
+  "verification": {
+    "template": "Native copy of user-provided Google Doc template; heading labels H1/H2/H3 retained.",
+    "content": "Title, meta title, meta description, seven essentials, conversational introduction, final thoughts, CTA, FAQs, FAQ JSON-LD, image metadata and keyword disclosure are present.",
+    "internal_links": {
+      "count": 12,
+      "visible_style": "Blue and underlined native hyperlinks.",
+      "map": [
+        {"anchor":"Men’s Titan T-Shirt","url":"https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03","role":"contextual product"},
+        {"anchor":"OFFLIMITS men’s joggers and track pants","url":"https://offlimits.co.in/collections/men-joggers-track-pants","role":"contextual collection"},
+        {"anchor":"Men’s Sonic Tracksuit","url":"https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02","role":"contextual product"},
+        {"anchor":"Women Glaze Tracksuit","url":"https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01","role":"contextual product"},
+        {"anchor":"OFFLIMITS women’s tracksuits","url":"https://offlimits.co.in/collections/women-track-suits","role":"contextual collection"},
+        {"anchor":"men’s tracksuits","url":"https://offlimits.co.in/collections/men-track-suits","role":"contextual collection"},
+        {"anchor":"OFFLIMITS apparel","url":"https://offlimits.co.in/collections/all-apparels","role":"contextual category"},
+        {"anchor":"OFFLIMITS men’s sports shorts","url":"https://offlimits.co.in/collections/men-shorts","role":"contextual collection"},
+        {"anchor":"Bomba Black/Black sneaker","url":"https://offlimits.co.in/products/bomba-black-black-ocm-793-02","role":"contextual product"},
+        {"anchor":"styling sneakers for men and women","url":"https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women","role":"supporting blog"},
+        {"anchor":"why tracksuits are an everyday essential","url":"https://offlimits.co.in/blogs/blogs/why-tracksuits-are-the-ultimate-everyday-essential","role":"supporting blog"},
+        {"anchor":"OFFLIMITS apparel collection","url":"https://offlimits.co.in/collections/all-apparels","role":"conclusion CTA"}
+      ]
+    },
+    "figures": {"count":2,"hero_contains_exact_blog_title":true,"connector_visible":true,"size_pt":"467.75 × 263.25"},
+    "pdf_export": {"page_count":8,"status":"visually inspected before the metadata-block correction; re-export required for final rendered layout confirmation"}
+  }
+}

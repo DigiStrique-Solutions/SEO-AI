@@ -1,0 +1,51 @@
+{
+  "run_id": "20260915T-athleisure-starter-pack-research",
+  "accessed_at": "2026-09-15",
+  "topic": "The Athleisure Starter Pack: 7 Essentials You’ll Actually Wear",
+  "serp_query": "athleisure starter pack essentials blog; athleisure wardrobe essentials everyday wear blog India",
+  "serp_benchmark": [
+    {
+      "ranked_url": "https://www.basicplz.com/blogs/news/athleisure-wardrobe-india-gym-everyday",
+      "title": "Athleisure in India: How to Build a Wardrobe That Works for the Gym and Real Life",
+      "tone": "Practical, India-specific and direct; opens with a reader question.",
+      "estimated_content_length": "Long-form, approximately 1,800+ visible words before FAQs.",
+      "content_structure": "H1 → quick answer → definition → five-category framework → colour/buying guidance → common mistakes → FAQs.",
+      "adaptation": "Use a quick answer and decision-led sections, but use seven OFFLIMITS-relevant essentials and original wording."
+    },
+    {
+      "ranked_url": "https://www.chazefit.com/blogs/the-chazefit-journal/athleisure-in-india-the-complete-gym-to-street-guide",
+      "title": "Athleisure In India: The Complete Gym-To-Street Guide",
+      "tone": "Product-led, founder-voiced and commercially direct.",
+      "estimated_content_length": "Medium-long, approximately 1,300–1,600 visible words plus FAQ/related links.",
+      "content_structure": "H1 → definition → practical problem → founder note → piece-by-piece product recommendations → outfit table → related articles → FAQs.",
+      "adaptation": "Use product-led sections and contextual links without copying its founder-note or table structure."
+    },
+    {
+      "ranked_url": "https://www.thirdsociety.in/blogs/magazine/athleisure-wear-what-it-is-how-to-style-it",
+      "title": "Athleisure Wear: What It Is, How to Style It, and Why It Works for Men and Women",
+      "tone": "Editorial, polished and style-forward.",
+      "estimated_content_length": "Long-form, approximately 1,500–1,900 visible words including FAQs.",
+      "content_structure": "H1 → definition → why it works → men's and women's styling → category comparison → essentials → styling tips → FAQs → conclusion.",
+      "adaptation": "Use a conversational editorial tone and FAQs while centring a compact starter-pack purchase decision."
+    }
+  ],
+  "official_target_validation": [
+    {"url":"https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03","status":200,"title":"Get Titan T-Shirt For Men Online - Off Limits"},
+    {"url":"https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02","status":200,"title":"Buy Men's Sonic Track Suit Online - Off Limits"},
+    {"url":"https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01","status":200,"title":"Shop Women Glaze Tracksuit Grey Melange OTW 155-01 Online"},
+    {"url":"https://offlimits.co.in/products/bomba-black-black-ocm-793-02","status":200,"title":"Shop Bomba Black Shoe Online 79302"},
+    {"url":"https://offlimits.co.in/collections/all-apparels","status":200,"title":"Shop All Apparel Collections Online | Off Limits"},
+    {"url":"https://offlimits.co.in/collections/men-joggers-track-pants","status":200,"title":"Shop Men's Joggers & Track Pants Online | Off Limits"},
+    {"url":"https://offlimits.co.in/collections/men-track-suits","status":200,"title":"Buy Track Suit for Mens Online at Best Price"},
+    {"url":"https://offlimits.co.in/collections/women-track-suits","status":200,"title":"Buy the Latest Track Suits for Women Online"},
+    {"url":"https://offlimits.co.in/collections/men-shorts","status":200,"title":"Men's Sports Shorts for Running, Gym & Training in India"},
+    {"url":"https://offlimits.co.in/blogs/blogs/the-ultimate-guide-to-styling-sneakers-for-men-and-women","status":200,"title":"How to Style Sneakers for Men and Women: The Complete Guide"},
+    {"url":"https://offlimits.co.in/blogs/blogs/why-tracksuits-are-the-ultimate-everyday-essential","status":200,"title":"Why Tracksuits Are the Perfect Everyday Essential"}
+  ],
+  "keyword_research": {
+    "status": "not_checked_blocked",
+    "reason": "GOOGLE_ADS_PLATFORM_ID is unset and no OFFLIMITS Search Console connection is available.",
+    "selected_phrases": ["athleisure essentials", "athleisure starter pack", "athleisure wardrobe essentials", "everyday athleisure outfits", "athleisure wear in India"],
+    "selection_basis": "User topic, live SERP language and verified OFFLIMITS product/category terminology; no volume, CPC or competition values claimed."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "claims": [
+    {
+      "claim": "The Men's Sonic Tracksuit is described on its product page as full-sleeve, cut-and-sew, in a Light Grey/A Force colourway, with polyester-spandex and Wicktech.",
+      "source_ids": [
+        "sonic_product"
+      ],
+      "type": "product_fact"
+    },
+    {
+      "claim": "The Women Glaze Tracksuit product page lists Grey Melange as its colourway.",
+      "source_ids": [
+        "glaze_product"
+      ],
+      "type": "product_fact"
+    },
+    {
+      "claim": "The Bomba Black/Black product page lists a synthetic upper, TPR sole and EVA insock.",
+      "source_ids": [
+        "bomba_product"
+      ],
+      "type": "product_fact"
+    },
+    {
+      "claim": "OFFLIMITS describes its men's joggers and track pants collection as designed for workouts, travel and everyday wear, and its men's sports shorts collection as crafted for workouts, running and training.",
+      "source_ids": [
+        "joggers_collection",
+        "shorts_collection"
+      ],
+      "type": "category_fact"
+    },
+    {
+      "claim": "The draft follows OFFLIMITS product-led, conversational and internal-link requirements.",
+      "source_ids": [
+        "brand_rules"
+      ],
+      "type": "editorial_constraint"
+    },
+    {
+      "claim_id": "best-top-language-context",
+      "claim_type": "best_top",
+      "criteria": "The draft uses best/top only in ordinary navigation and descriptive contexts, not as an unqualified product-superiority or ranking claim.",
+      "source_ids": ["brand_rules", "serp_benchmark"],
+      "statement": "No OFFLIMITS product is presented as the best or top choice without a disclosed comparison criterion."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-15T06:58:14+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-15T06:56:56+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/the-athleisure-starter-pack-7-essentials"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Canonical brand name is OFFLIMITS.",
+        "Blogs must be product-led, conversational and close before the CTA.",
+        "Every blog needs at least three relevant, verified internal links in the publishable body."
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant organic blog results were reviewed for tone, length and structure on 2026-09-15."
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20260915T-athleisure-starter-pack-serp-product-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Product page title identifies the Men's Titan T-Shirt."
+      ],
+      "source_id": "titan_product",
+      "source_ref": "https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Sonic Tracksuit, Light Grey/A Force, full sleeves, cut-and-sew, polyester-spandex, Wicktech."
+      ],
+      "source_id": "sonic_product",
+      "source_ref": "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Women Glaze Tracksuit, Grey Melange."
+      ],
+      "source_id": "glaze_product",
+      "source_ref": "https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Bomba Black/Black, synthetic upper, TPR sole, EVA insock."
+      ],
+      "source_id": "bomba_product",
+      "source_ref": "https://offlimits.co.in/products/bomba-black-black-ocm-793-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Collection describes men's joggers and track pants for workouts, travel and everyday wear."
+      ],
+      "source_id": "joggers_collection",
+      "source_ref": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Collection describes men's sports shorts for workouts, running and training."
+      ],
+      "source_id": "shorts_collection",
+      "source_ref": "https://offlimits.co.in/collections/men-shorts",
+      "source_type": "product_page"
+    }
+  ]
+}

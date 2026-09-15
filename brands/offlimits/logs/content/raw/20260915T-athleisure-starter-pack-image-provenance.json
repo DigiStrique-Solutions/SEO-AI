@@ -1,0 +1,14 @@
+{
+  "run_id": "20260915T-athleisure-starter-pack-images",
+  "accessed_at": "2026-09-15",
+  "source_product_images": [
+    {"product":"Men's Titan T-Shirt","page":"https://offlimits.co.in/products/mens-titan-t-shirt-otm-351-03","file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/refs/titan.jpg"},
+    {"product":"Men's Sonic Tracksuit","page":"https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02","file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/refs/sonic.jpg"},
+    {"product":"Women Glaze Tracksuit","page":"https://offlimits.co.in/products/women-glaze-tracksuit-grey-melange-otw-155-01","file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/refs/glaze.jpg"},
+    {"product":"Bomba Black/Black","page":"https://offlimits.co.in/products/bomba-black-black-ocm-793-02","file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/refs/bomba.jpg"}
+  ],
+  "generated_assets": [
+    {"file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/offlimits-athleisure-starter-pack-hero.png","purpose":"Hero with exact blog title in image","tool":"built-in image_gen","reference_use":"Product styling, palette and silhouette references only."},
+    {"file":"brands/offlimits/blogs/creatives/athleisure-starter-pack/offlimits-athleisure-starter-pack-essentials.png","purpose":"Inline seven-essential flat lay","tool":"built-in image_gen","reference_use":"Product styling, palette and silhouette references only."}
+  ]
+}
