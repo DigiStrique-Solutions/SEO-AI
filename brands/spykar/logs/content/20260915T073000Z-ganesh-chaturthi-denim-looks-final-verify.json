@@ -1,0 +1,8 @@
+{
+  "run_id": "spykar-ganesh-chaturthi-denim-looks-20260915",
+  "status": "complete_with_external_gate_blocked",
+  "document": {"title": "5 Denim Looks to Wear for Ganesh Chaturthi Celebrations", "tabs": 1, "heading_1_count": 9, "heading_2_count": 14, "native_list_paragraphs": 10, "inline_image_elements": 3, "link_runs": 7, "faq_page_schema_present": true, "old_template_content_found": false, "placeholder_found": false},
+  "content": {"word_count": 1848, "local_ai_pattern_risk": 6, "local_gate": "pass"},
+  "external_gate": {"zerogpt": "not_checked_blocked", "reason": "ZeroGPT returned Not enough credits; no live percentage was verifiable."},
+  "next_action": "Re-run the complete final text through ZeroGPT and update the status only if the verified score is strictly below 20%."
+}

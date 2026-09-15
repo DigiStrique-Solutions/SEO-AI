@@ -1,0 +1,42 @@
+{
+  "run_id": "spykar-ganesh-chaturthi-denim-looks-20260915",
+  "checked_at": "2026-09-15T12:26:26+05:30",
+  "query": "5 Denim Looks to Wear for Ganesh Chaturthi Celebrations",
+  "market": "India",
+  "method": "Live web search followed by forced-live Firecrawl extraction of the three most relevant organic blog results; word counts exclude navigation and footer content.",
+  "results": [
+    {
+      "rank_reviewed": 1,
+      "title": "Ganesh Chaturthi 2026 Outfit Guide: Best Men's Wear & Women's Ethnic Looks to Celebrate in Style",
+      "url": "https://rangraze.in/blogs/news/ganesh-chaturthi-2026-outfit-guide-best-mens-wear-amp-womens-ethnic-looks-to-celebrate-in-style",
+      "http_status": 200,
+      "word_count": 1628,
+      "tone": "Festive and informative",
+      "structure": "Why the outfit matters; separate men's and women's guides; garment-by-garment choices; styling tips; conclusion; six FAQs."
+    },
+    {
+      "rank_reviewed": 2,
+      "title": "Stylish Western Outfits to Rock Ganesh Chaturthi Celebrations",
+      "url": "https://www.stylejunkiie.com/blogs/news/stylish-western-outfits-to-rock-ganesh-chaturthi-celebrations",
+      "http_status": 200,
+      "word_count": 870,
+      "tone": "Fashion-forward and festive",
+      "structure": "Denim tops; crop-top combinations; Western dresses; festive accessories; short conclusion."
+    },
+    {
+      "rank_reviewed": 3,
+      "title": "Ganesh Chaturthi 2026: How Young Men Can Dress Festive Without Losing Their Style",
+      "url": "https://www.diwasfashion.com/en-in/blogs/ganesh-chaturthi-outfits-for-men.html",
+      "http_status": 200,
+      "word_count": 1852,
+      "tone": "Practical, candid and youth-oriented",
+      "structure": "Understated festive premise; core garments; colours; fabrics; time-of-day use cases; fit; accessories; brand integration; decision-led close."
+    }
+  ],
+  "combined_benchmark": {
+    "target_length": "1700-1900 words",
+    "tone": "Practical, youthful and culturally respectful, with a clear fashion point of view rather than ceremonial claims.",
+    "content_structure": "Answer dress-code suitability early, present five distinct denim looks, adapt them by occasion, add colour and fit checks, then close with concise FAQs.",
+    "originality_guardrail": "Do not reproduce competitor wording or the traditional menswear/womenswear split. Build an original five-look denim framework for men and women together."
+  }
+}

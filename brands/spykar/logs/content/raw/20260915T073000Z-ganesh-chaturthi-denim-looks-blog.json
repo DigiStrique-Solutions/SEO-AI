@@ -1,0 +1,15 @@
+{
+  "run_id": "spykar-ganesh-chaturthi-denim-looks-20260915",
+  "checked_at": "2026-09-15T13:00:00+00:00",
+  "topic": "5 Denim Looks to Wear for Ganesh Chaturthi Celebrations",
+  "serp_benchmark": "20260915T065626Z-ganesh-chaturthi-denim-looks-serp-benchmark.json",
+  "products": [
+    {"name": "Men Ricardo Jeans Comfort Fit Dark Blue Mid Rise", "url": "https://spykar.com/products/mdrc2bf023darkblue", "image": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/spykar-men-ricardo-dark-blue-jeans.jpg", "http_status": 200},
+    {"name": "Women Bella Jeans Straight Fit Dark Blue High Rise", "url": "https://spykar.com/products/wdbel2bf326darkblue", "image": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/spykar-women-bella-dark-blue-jeans.jpg", "http_status": 200}
+  ],
+  "internal_links": {"count": 7, "verified_live": true, "targets": ["https://spykar.com/products/mdrc2bf023darkblue", "https://spykar.com/collections/men-jeans", "https://spykar.com/products/wdbel2bf326darkblue", "https://spykar.com/collections/women-jeans", "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas"]},
+  "banner": {"master": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/ganesh-chaturthi-denim-looks-banner-master.png", "web": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/ganesh-chaturthi-denim-looks-banner-800x600.jpg", "qa": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/banner-qa.json"},
+  "authenticity": {"local_score": 6, "local_status": "pass", "zerogpt_status": "blocked_external_detector", "zerogpt_evidence": "ZeroGPT checker endpoint returned HTTP 403 / Not enough credits; the public site was reachable but no verified score was obtained."},
+  "google_doc": {"id": "1Ndhq0Tg8q_PXwAk1TRvKHHblk8BC41xa8xjSthggv_0", "url": "https://docs.google.com/document/d/1Ndhq0Tg8q_PXwAk1TRvKHHblk8BC41xa8xjSthggv_0/edit?tab=t.0", "structural_check": {"title": "pass", "headings": "pass", "lists": "pass", "links": "pass", "inline_image_elements": 3, "faq_schema": "pass", "placeholder_leak": false}},
+  "pdf_qa": {"status": "not_checked_blocked", "blocker": "Drive export returned a non-local sediment file reference, so the PDF could not be rasterized for visual inspection without exposing an expiring signed URL."}
+}

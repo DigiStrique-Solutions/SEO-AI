@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-09-15T12:34:00+05:30",
+  "status": "pass",
+  "master": {
+    "path": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/ganesh-chaturthi-denim-looks-banner-master.png",
+    "dimensions": "1448x1086",
+    "format": "PNG",
+    "aspect_ratio": "4:3"
+  },
+  "web": {
+    "path": "brands/spykar/blogs/creatives/ganesh-chaturthi-denim-looks/ganesh-chaturthi-denim-looks-banner-800x600.jpg",
+    "dimensions": "800x600",
+    "format": "JPG"
+  },
+  "checks": {
+    "topic_relevance": "pass - adult Indian friends in verified Spykar denim arrive at a respectfully styled festive courtyard",
+    "product_fidelity": "pass - dark-blue men's comfort-fit and women's high-rise straight denim remain clear and consistent with the source product images",
+    "headline": "pass - DENIM, WITH A FESTIVE BEAT appears once, with exact spelling and punctuation",
+    "legibility_and_safe_margins": "pass - high-contrast white headline stays inside the deep-navy left panel at both sizes",
+    "anatomy_and_clothing": "pass - hands, feet, limbs, garment construction and fabric folds are plausible",
+    "brand_safety": "pass - no logos, prices, discounts, unsupported claims, third-party branding or watermarks",
+    "cultural_treatment": "pass - festive context uses marigolds, warm lamps and rangoli; no deity is depicted or used as a fashion prop",
+    "visual_distinction": "pass - asymmetric moving-arrival composition differs from recent showroom, balcony and static side-by-side banners",
+    "web_export": "pass - the 800x600 JPG remains sharp with readable copy and visible denim silhouettes"
+  },
+  "generation_method": "OpenAI built-in image generation using the two downloaded live Spykar product images as wardrobe references"
+}

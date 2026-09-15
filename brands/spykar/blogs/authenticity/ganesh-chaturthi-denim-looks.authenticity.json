@@ -1,0 +1,108 @@
+{
+  "claims": [
+    {
+      "claim_id": "ricardo-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Fit, rise, pocket count, stretch, finish and fibre composition match the live Spykar product page and Shopify product JSON checked on 2026-09-15; price and guaranteed future availability are omitted.",
+      "source_ids": [
+        "spykar-ricardo-dark-blue"
+      ],
+      "statement": "The featured men's Ricardo jeans have a comfort fit, mid rise, five pockets, stretch, a clean dark-blue look and an 82% cotton, 16% polyester and 2% spandex composition."
+    },
+    {
+      "claim_id": "bella-product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Fit, rise, length, pocket count, stretch, finish and fibre composition match the live Spykar product page and Shopify product JSON checked on 2026-09-15; price and guaranteed future availability are omitted.",
+      "source_ids": [
+        "spykar-bella-dark-blue"
+      ],
+      "statement": "The featured women's Bella jeans have a straight fit, high rise, ankle length, five pockets, stretch, a clean dark-blue finish and a 67% cotton, 20% polyester, 11% viscose and 2% spandex composition."
+    },
+    {
+      "claim_id": "internal-link-verification",
+      "claim_type": "product_fact",
+      "criteria": "Two product pages, two collection pages and two supporting Spykar articles returned HTTP 200 on 2026-09-15; the publishable body uses descriptive contextual anchors and includes a conclusion CTA.",
+      "source_ids": [
+        "spykar-live-internal-pages",
+        "spykar-ricardo-dark-blue",
+        "spykar-bella-dark-blue"
+      ],
+      "statement": "The article includes live contextual product, collection, supporting-blog and CTA links."
+    },
+    {
+      "claim_id": "serp-positioning",
+      "claim_type": "comparison",
+      "criteria": "The three live organic pages were used only to benchmark tone, length and section flow. The draft is independently structured around five dress-code-aware denim outfits and does not reproduce competitor wording.",
+      "source_ids": [
+        "ganesh-serp-benchmark",
+        "spykar-existing-festive-content"
+      ],
+      "statement": "The new article fills a specific Ganesh Chaturthi denim-and-fusion intent while avoiding another general festive outfit guide."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-15T12:48:22+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "blocked_external_detector",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-15T06:56:26+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "https://spykar.com/blogs/blog/ganesh-chaturthi-denim-looks"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand. Its blog rules require Indian English, practical fit and styling detail, natural unbolded keywords, restrained claims, a soft CTA, the canonical native Google Doc format and a unique 4:3 banner.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Requested topic: 5 Denim Looks to Wear for Ganesh Chaturthi Celebrations.",
+      "source_id": "user-topic-brief",
+      "source_ref": "User brief dated 2026-09-15",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Live SERP review covered RangRaze at 1,628 words, Style Junkiie at 870 words and Diwas at 1,852 words. Common patterns were occasion-led outfit selection, comfort, festive colour and accessories. The target was set at roughly 1,700-1,900 words with a practical five-look structure and a clearer denim/fusion angle.",
+      "source_id": "ganesh-serp-benchmark",
+      "source_ref": "brands/spykar/logs/content/20260915T065626Z-ganesh-chaturthi-denim-looks-serp-benchmark.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Spykar already has Raksha Bandhan smart-casual sibling styling, Independence Day denim styling and broader festive/every-plan articles. None of the reviewed local or indexed content targets five Ganesh Chaturthi denim looks.",
+      "source_id": "spykar-existing-festive-content",
+      "source_ref": "brands/spykar/blogs/summary.md and brands/spykar/blogs/published/ (reviewed 2026-09-15)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Men Ricardo Jeans Comfort Fit Dark Blue Mid Rise; 82% cotton, 16% polyester and 2% spandex; five pockets; stretch; clean look; light fade; mid rise; button-and-zip closure. The page returned HTTP 200 and Shopify product JSON showed six available variants.",
+      "source_id": "spykar-ricardo-dark-blue",
+      "source_ref": "https://spykar.com/products/mdrc2bf023darkblue and Shopify product JSON (accessed 2026-09-15)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Bella Jeans Straight Fit Dark Blue High Rise; 67% cotton, 20% polyester, 11% viscose and 2% spandex; ankle length; five pockets; stretch; clean finish; high rise. The page returned HTTP 200 and Shopify product JSON showed six available variants.",
+      "source_id": "spykar-bella-dark-blue",
+      "source_ref": "https://spykar.com/products/wdbel2bf326darkblue and Shopify product JSON (accessed 2026-09-15)",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The men's jeans collection, women's jeans collection, Ricardo product, Bella product, jeans-with-shirts guide and Raksha Bandhan smart-casual guide each returned HTTP 200 on 2026-09-15.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/collections/men-jeans; https://spykar.com/collections/women-jeans; https://spykar.com/products/mdrc2bf023darkblue; https://spykar.com/products/wdbel2bf326darkblue; https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas; https://spykar.com/blogs/blog/raksha-bandhan-outfit-ideas-smart-casual-siblings",
+      "source_type": "product_page"
+    }
+  ]
+}
