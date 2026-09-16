@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read",
+  "target": {
+    "documentId": "14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+    "title": "Mens T-Shirt Collection Page",
+    "revisionId": "ANLCKQkamWI0cvCVjMy99W62ceMbEZO6sTe34U5qoRvuuCdVoQW-0ENHQu7pBbphtvRr9bSkeAGzQJuyNLdsyp-JbpZk-ljcDb0uqo-h-ew",
+    "documentUrl": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read/document-result.json",
+      "bytes": 188242,
+      "sha256": "d29b3dcf948a1419bf166f7c499eeb27237650d6b0a120bb3a6b4673db0e4619"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read/control-inventory.json",
+      "bytes": 1033,
+      "sha256": "507b246f9ed199840e1ea89ec591d5ca6786176511c9a45374e0865af70dffb3"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read/document-outline.json",
+      "bytes": 34162,
+      "sha256": "b59e5580cfb1085276f60546887e52fb6e44899985737ef1161a1e05a42f1c18"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read/document-text.md",
+      "bytes": 13374,
+      "sha256": "b3695f8cbcdc2ac101286df0256bd4ce8804650053046bd9552375bbc75f5237"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/tshirts-read/receipt.json",
+      "bytes": 964,
+      "sha256": "7f476e4727cad41b3ecd3620792886d3435af2e5bea7a70c738b528a9b2922a8"
+    }
+  },
+  "error": null
+}

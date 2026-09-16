@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "19HiqAA08AnwW8pG0xtAtpYljZ9E0lAUq9BOHJawcZrE",
+    "title": "Buy Men's Pants ",
+    "revisionId": "ANLCKQmhw8AddScS4O_FB8-vmuKS84_S0p7XvYuXJFQ11yUtVmD6dgtWcu7sXDzmPbn9evYEonu964iqDaQFo2pIWRyHomyZdVg6d50MTxs",
+    "documentUrl": "https://docs.google.com/document/d/19HiqAA08AnwW8pG0xtAtpYljZ9E0lAUq9BOHJawcZrE",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

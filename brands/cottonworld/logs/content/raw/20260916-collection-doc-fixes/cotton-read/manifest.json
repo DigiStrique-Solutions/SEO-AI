@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read",
+  "target": {
+    "documentId": "1OQs9jLsIdq52S5KW0lotQfB3wU6x_SKZbdrkVS1ZlNo",
+    "title": "Buy Men's Cotton Clothing Online – Corrected Links",
+    "revisionId": "ANLCKQmafXXy2qc9yn-8BnXbqh0qzZQu4t_AkFBrN2bkF_NQx2IIAjShUu_w9z5cdOBJdQbA5Sl-lNoSanCwEvaaG08ElILXloclMQ9vHfk",
+    "documentUrl": "https://docs.google.com/document/d/1OQs9jLsIdq52S5KW0lotQfB3wU6x_SKZbdrkVS1ZlNo",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read/document-result.json",
+      "bytes": 97662,
+      "sha256": "f7e90a8a540a769d9e1207eb1f53d379582df9a5e4c4820db14441bb05747e0d"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read/control-inventory.json",
+      "bytes": 1057,
+      "sha256": "705eb8c512b55b18411c13fff5e38ff5a06f79ad84e2d282cdbc1b99d9754db5"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read/document-outline.json",
+      "bytes": 49665,
+      "sha256": "41abb5950b58710378e4c20cd73ddbe90ccb9bf8c40b5d21b5ade75103ba6b58"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read/document-text.md",
+      "bytes": 13366,
+      "sha256": "bef212a4fc9084e23ac3f2986a034ee2ff695cc425e7ad5f0fa08e71ce4d14c6"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/cotton-read/receipt.json",
+      "bytes": 988,
+      "sha256": "1f4ba0dd8a3a48d257a7dd992f89886bd7378dd44e626ca5acf4866da24c3bf8"
+    }
+  },
+  "error": null
+}

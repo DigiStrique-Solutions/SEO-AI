@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4",
+    "title": "Buy Men's Shorts ",
+    "revisionId": "ANLCKQm0qKGXkQDJwBgj9uYXAq067Zq_m-OGnpZajSbmAAaRauMyA8EPHGyusmovW4kr2ufzbsWrLL6UNkZ6uZIUkgM3xSwjrn1VysjtIpc",
+    "documentUrl": "https://docs.google.com/document/d/1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

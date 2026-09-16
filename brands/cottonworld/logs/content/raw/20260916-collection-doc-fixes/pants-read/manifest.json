@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read",
+  "target": {
+    "documentId": "19HiqAA08AnwW8pG0xtAtpYljZ9E0lAUq9BOHJawcZrE",
+    "title": "Buy Men's Pants ",
+    "revisionId": "ANLCKQmhw8AddScS4O_FB8-vmuKS84_S0p7XvYuXJFQ11yUtVmD6dgtWcu7sXDzmPbn9evYEonu964iqDaQFo2pIWRyHomyZdVg6d50MTxs",
+    "documentUrl": "https://docs.google.com/document/d/19HiqAA08AnwW8pG0xtAtpYljZ9E0lAUq9BOHJawcZrE",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read/document-result.json",
+      "bytes": 83537,
+      "sha256": "d95ebfd290fc4dbc213ea92595992d6689ece4181385e301b4d53a95eb2f9867"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read/control-inventory.json",
+      "bytes": 1021,
+      "sha256": "8e666f7d9ea1178f6668466091ca6f390e613e3ad9374df99aa99b77060ed87a"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read/document-outline.json",
+      "bytes": 41932,
+      "sha256": "a24893a0b3d76c453ed41a461225471debaac7900a712f9a6cd8ced9826c574e"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read/document-text.md",
+      "bytes": 11213,
+      "sha256": "7dca7e877543a4597b151fe7bd4c418bf74f5e86a320cdbf0e665765cc8277d8"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/pants-read/receipt.json",
+      "bytes": 952,
+      "sha256": "979ffd4665876522dde081673528545ced5c65b7eee153dd20d901f3f6f16e8f"
+    }
+  },
+  "error": null
+}

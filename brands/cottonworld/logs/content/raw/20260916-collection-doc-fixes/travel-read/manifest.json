@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read",
+  "target": {
+    "documentId": "1ays_7PIRVOeJPLiKUGAlx18Yxvixb0xaj13td4O5WNQ",
+    "title": "Buy Men's Travel Clothing Online",
+    "revisionId": "ANLCKQm-WUailreD2aW-ChziZlLhLHZLToR2SNkYXwnkID2G24hAKAmHJHUKJwVaWCQoEFzUSd5bzaDrCOJ_DOnjADwm3E66huvV-cdK-Aw",
+    "documentUrl": "https://docs.google.com/document/d/1ays_7PIRVOeJPLiKUGAlx18Yxvixb0xaj13td4O5WNQ",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read/document-result.json",
+      "bytes": 81381,
+      "sha256": "c00761ad339bfc18b6c86a10d57b4c17805b64db0f6e541913cf3457661ae418"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read/control-inventory.json",
+      "bytes": 1037,
+      "sha256": "e210345d5c64d9c4df3b9fee48e158395b0653d347014caed269823a0748c048"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read/document-outline.json",
+      "bytes": 39441,
+      "sha256": "1185d2615da2fda3606f3d3b73b4530216e3216987595abeaa1bf008fede818a"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read/document-text.md",
+      "bytes": 11167,
+      "sha256": "a6736046070c0079334127b83b42c9e50b91c12cbbf98025005b2ebc9044d29e"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/travel-read/receipt.json",
+      "bytes": 968,
+      "sha256": "eacec99606fa820d5586267dd89e1899017411316e24cbb4a93ead519cfe1167"
+    }
+  },
+  "error": null
+}

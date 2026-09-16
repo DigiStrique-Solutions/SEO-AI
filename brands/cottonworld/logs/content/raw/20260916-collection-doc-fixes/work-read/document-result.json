@@ -1,0 +1,2508 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "documentId": "1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw",
+    "title": "Buy Men's Workwear ",
+    "revisionId": "ANLCKQliVa7JbbLw_3EuwYd_JsmS8MzEAhbLjglJXAMNJtPEECx0Y3jevu-o3EyTkCq7WnLEElguKeCrGm6Dr99U-VOrqS5Y9kCezxvjXYc",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "url": null,
+    "body": null,
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "parentTabId": null,
+        "index": 0,
+        "nestingLevel": null,
+        "iconEmoji": null,
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 65,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 65,
+                    "textRun": {
+                      "content": "Buy Men's Workwear Online Premium Comfort for the Modern Office\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ro2rube8d4c5",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 65,
+              "endIndex": 66,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 65,
+                    "endIndex": 66,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 66,
+              "endIndex": 432,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 66,
+                    "endIndex": 432,
+                    "textRun": {
+                      "content": "Let's be real. The days of suffering through a 9-to-5 in a stiff, uncomfortable suit are mostly over. The modern office is all about smart-casual style. You need to look sharp enough to command a room, but you also need to survive a long commute and eight hours at a desk without feeling entirely trapped in your clothes. That is exactly where Cottonworld steps in.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 432,
+              "endIndex": 433,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 432,
+                    "endIndex": 433,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 433,
+              "endIndex": 858,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 433,
+                    "endIndex": 858,
+                    "textRun": {
+                      "content": "We believe that professional clothing shouldn't feel like a uniform you can't wait to take off. Our collection of men's work clothes is built around premium natural fabrics, clean tailoring, and all-day comfort. Using 100% breathable cotton, structured weaves, and smart stretch blends, we have created an office wardrobe that keeps you looking completely polished while feeling as comfortable as your favorite weekend wear.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 858,
+              "endIndex": 859,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 858,
+                    "endIndex": 859,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 859,
+              "endIndex": 904,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 859,
+                    "endIndex": 904,
+                    "textRun": {
+                      "content": "Explore Our Collection of Men's Work Clothes\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.wck9sbh8dtag",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 904,
+              "endIndex": 905,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 904,
+                    "endIndex": 905,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 905,
+              "endIndex": 1061,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 905,
+                    "endIndex": 1061,
+                    "textRun": {
+                      "content": "Navigating business casual doesn't have to be complicated. We have curated the absolute essentials you need to build a foolproof rotation for the workweek.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1061,
+              "endIndex": 1062,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1061,
+                    "endIndex": 1062,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1062,
+              "endIndex": 1343,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1062,
+                    "endIndex": 1153,
+                    "textRun": {
+                      "content": "Tailored Cotton Shirts: The foundation of your Monday-to-Thursday wardrobe. Our structured ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1153,
+                    "endIndex": 1165,
+                    "textRun": {
+                      "content": "Men's Shirts",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/mens-shirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1165,
+                    "endIndex": 1343,
+                    "textRun": {
+                      "content": " feature crisp collars and a clean drape. They are tailored to tuck perfectly into your trousers without billowing out at the waist, giving you a sharp, professional silhouette.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1343,
+              "endIndex": 1598,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1343,
+                    "endIndex": 1417,
+                    "textRun": {
+                      "content": "Premium Chinos: The absolute workhorse of the modern office. Our tailored ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1417,
+                    "endIndex": 1429,
+                    "textRun": {
+                      "content": "Men's Chinos",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1429,
+                    "endIndex": 1598,
+                    "textRun": {
+                      "content": " give you that clean, sophisticated look of a dress pant but feel amazingly soft on the inside. They are the perfect middle ground between overly formal and too casual.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1598,
+              "endIndex": 1844,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1598,
+                    "endIndex": 1716,
+                    "textRun": {
+                      "content": "Smart Polos: For casual Fridays or more relaxed tech-focused offices, a regular tee won't cut it. Step it up with our ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1716,
+                    "endIndex": 1727,
+                    "textRun": {
+                      "content": "Men's Polos",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1727,
+                    "endIndex": 1844,
+                    "textRun": {
+                      "content": ". The structured collar maintains a professional edge, while the breathable cotton keeps you completely comfortable.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1844,
+              "endIndex": 2053,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1844,
+                    "endIndex": 1929,
+                    "textRun": {
+                      "content": "Structured Cotton Pants: Need something a bit more elevated? Our classic regular-fit ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1929,
+                    "endIndex": 1940,
+                    "textRun": {
+                      "content": "Men's Pants",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1940,
+                    "endIndex": 2053,
+                    "textRun": {
+                      "content": " are crafted from high-quality cotton that holds its shape beautifully throughout long meetings and travel days.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2053,
+              "endIndex": 2054,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2053,
+                    "endIndex": 2054,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2054,
+              "endIndex": 2104,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2054,
+                    "endIndex": 2104,
+                    "textRun": {
+                      "content": "Why Premium Natural Fabrics Matter for the Office\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ued6hy84hv4s",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2104,
+              "endIndex": 2105,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2104,
+                    "endIndex": 2105,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2105,
+              "endIndex": 2300,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2105,
+                    "endIndex": 2300,
+                    "textRun": {
+                      "content": "When you are spending most of your day indoors, often under harsh AC or dealing with a stressful commute, your fabric choice dictates your mood. Here is why we strictly stick to natural comfort.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2300,
+              "endIndex": 2301,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2300,
+                    "endIndex": 2301,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2301,
+              "endIndex": 2327,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2301,
+                    "endIndex": 2327,
+                    "textRun": {
+                      "content": "1. 100% Breathable Cotton\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2327,
+              "endIndex": 2595,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2327,
+                    "endIndex": 2595,
+                    "textRun": {
+                      "content": "Synthetic dress shirts and polyester trousers trap heat and create sweat patches. Pure cotton breathes naturally, allowing air to circulate around your body. It absorbs moisture quickly, keeping you looking fresh and collected even during high-pressure presentations.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2595,
+              "endIndex": 2596,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2595,
+                    "endIndex": 2596,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2596,
+              "endIndex": 2619,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2596,
+                    "endIndex": 2619,
+                    "textRun": {
+                      "content": "2. A Touch of Elastane\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2619,
+              "endIndex": 2917,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2619,
+                    "endIndex": 2917,
+                    "textRun": {
+                      "content": "Sitting at a desk for hours in rigid trousers is miserable. For our tailored work chinos and slim-fit pants, we weave a tiny bit of premium elastane into the cotton. This gives the fabric a resilient four-way stretch. You can sit, stand, and move freely without the fabric digging into your waist.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2917,
+              "endIndex": 2918,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2917,
+                    "endIndex": 2918,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2918,
+              "endIndex": 2942,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2918,
+                    "endIndex": 2942,
+                    "textRun": {
+                      "content": "3. Softened for Day One\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2942,
+              "endIndex": 3113,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2942,
+                    "endIndex": 3113,
+                    "textRun": {
+                      "content": "Unlike traditional stiff workwear that takes months to break in, our natural fabrics are pre-washed and treated to be incredibly soft the very first time you put them on.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3113,
+              "endIndex": 3114,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3113,
+                    "endIndex": 3114,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3114,
+              "endIndex": 3144,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3114,
+                    "endIndex": 3144,
+                    "textRun": {
+                      "content": "Shop Men's Workwear by Colour\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.3ri932gwgbty",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3144,
+              "endIndex": 3145,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3144,
+                    "endIndex": 3145,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3145,
+              "endIndex": 3221,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3145,
+                    "endIndex": 3221,
+                    "textRun": {
+                      "content": "A professional wardrobe relies on a versatile, easy-to-match color palette.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3221,
+              "endIndex": 3222,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3221,
+                    "endIndex": 3222,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3222,
+              "endIndex": 3471,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3222,
+                    "endIndex": 3471,
+                    "textRun": {
+                      "content": "The Corporate Essentials: Navy Blue, Crisp White, Light Blue, and Charcoal Grey. If you are building an office wardrobe from scratch, start right here. A light blue cotton shirt paired with navy chinos is the undefeated champion of modern workwear.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3471,
+              "endIndex": 3676,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3471,
+                    "endIndex": 3676,
+                    "textRun": {
+                      "content": "Earthy & Modern: Khaki, Olive Green, and Stone. These shades add a touch of modern personality to your work look. Khaki trousers are a mandatory staple that pairs flawlessly with almost any colored shirt.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3676,
+              "endIndex": 3875,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3676,
+                    "endIndex": 3875,
+                    "textRun": {
+                      "content": "Subtle Prints & Stripes: Break up the solids with a fine vertical stripe or a minimalist micro-print shirt. It adds visual interest to your outfit without crossing the line into casual weekend wear.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3875,
+              "endIndex": 3876,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3875,
+                    "endIndex": 3876,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3876,
+              "endIndex": 3910,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3876,
+                    "endIndex": 3910,
+                    "textRun": {
+                      "content": "The Ultimate Office Styling Guide\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.cdcofo8lq9eb",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3910,
+              "endIndex": 3911,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3910,
+                    "endIndex": 3911,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3911,
+              "endIndex": 4001,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3911,
+                    "endIndex": 4001,
+                    "textRun": {
+                      "content": "Here is exactly how to put your work outfits together without overthinking it at 7:00 AM.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4001,
+              "endIndex": 4002,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4001,
+                    "endIndex": 4002,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4002,
+              "endIndex": 4024,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4002,
+                    "endIndex": 4024,
+                    "textRun": {
+                      "content": "The Important Meeting\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4024,
+              "endIndex": 4284,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4024,
+                    "endIndex": 4082,
+                    "textRun": {
+                      "content": "You need to look your best. Grab a crisp white structured ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4082,
+                    "endIndex": 4093,
+                    "textRun": {
+                      "content": "Men's Shirt",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4093,
+                    "endIndex": 4158,
+                    "textRun": {
+                      "content": ", iron it well, and tuck it into a pair of dark navy or charcoal ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4158,
+                    "endIndex": 4170,
+                    "textRun": {
+                      "content": "Men's Chinos",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/search?type=product&q=mens+chinos"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4170,
+                    "endIndex": 4284,
+                    "textRun": {
+                      "content": ". Add a dark brown leather belt and matching dress shoes. It is sharp, authoritative, and completely comfortable.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4284,
+              "endIndex": 4285,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4284,
+                    "endIndex": 4285,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4285,
+              "endIndex": 4311,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4285,
+                    "endIndex": 4311,
+                    "textRun": {
+                      "content": "The Everyday Smart-Casual\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4311,
+              "endIndex": 4506,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4311,
+                    "endIndex": 4391,
+                    "textRun": {
+                      "content": "Take a light blue or subtly striped cotton shirt and pair it with classic khaki ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4391,
+                    "endIndex": 4402,
+                    "textRun": {
+                      "content": "Men's Pants",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4402,
+                    "endIndex": 4506,
+                    "textRun": {
+                      "content": ". Roll the sleeves up twice to expose your forearms for a slightly more relaxed, hardworking aesthetic.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4506,
+              "endIndex": 4507,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4506,
+                    "endIndex": 4507,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4507,
+              "endIndex": 4521,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4507,
+                    "endIndex": 4521,
+                    "textRun": {
+                      "content": "Casual Friday\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4521,
+              "endIndex": 4710,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4521,
+                    "endIndex": 4575,
+                    "textRun": {
+                      "content": "Ditch the button-down. Throw on a dark, solid-colored ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4575,
+                    "endIndex": 4585,
+                    "textRun": {
+                      "content": "Men's Polo",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/search?type=product&q=mens+polo"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4585,
+                    "endIndex": 4710,
+                    "textRun": {
+                      "content": " (black or navy works best) and tuck it into olive green chinos. It shows you know how to dress down without looking sloppy.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4710,
+              "endIndex": 4711,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4710,
+                    "endIndex": 4711,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4711,
+              "endIndex": 4745,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4711,
+                    "endIndex": 4745,
+                    "textRun": {
+                      "content": "How to Care for Your Work Clothes\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.abdb9tkpipiy",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4745,
+              "endIndex": 4746,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4745,
+                    "endIndex": 4746,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4746,
+              "endIndex": 4842,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4746,
+                    "endIndex": 4842,
+                    "textRun": {
+                      "content": "Keep your professional wardrobe looking sharp and vibrant by following these simple care rules.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4842,
+              "endIndex": 4843,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4842,
+                    "endIndex": 4843,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4843,
+              "endIndex": 5015,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4843,
+                    "endIndex": 5015,
+                    "textRun": {
+                      "content": "1. Wash Cold: Always wash your work shirts and trousers in cold water. It protects the crispness of the collars and prevents dark colors (like navy and black) from fading.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5015,
+              "endIndex": 5133,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5015,
+                    "endIndex": 5133,
+                    "textRun": {
+                      "content": "2. Inside Out: Turn your trousers and shirts inside out before washing to protect the fabric's surface from friction.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5133,
+              "endIndex": 5271,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5133,
+                    "endIndex": 5271,
+                    "textRun": {
+                      "content": "3. Skip the Dryer: High heat destroys natural fibers and ruins the elastane stretch in your chinos. Air dry your clothes on good hangers.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5271,
+              "endIndex": 5418,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5271,
+                    "endIndex": 5418,
+                    "textRun": {
+                      "content": "4. Ironing: A sharp office look requires a good iron. Iron your cotton shirts while they are still slightly damp for the crispest possible finish.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5418,
+              "endIndex": 5419,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5418,
+                    "endIndex": 5419,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5419,
+              "endIndex": 5445,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5419,
+                    "endIndex": 5445,
+                    "textRun": {
+                      "content": "Complete Your Office Look\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.4ushc9tvtcg9",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5445,
+              "endIndex": 5446,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5445,
+                    "endIndex": 5446,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5446,
+              "endIndex": 5545,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5446,
+                    "endIndex": 5545,
+                    "textRun": {
+                      "content": "Build a seamless Monday-to-Friday rotation by mixing and matching our premium everyday essentials:\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5545,
+              "endIndex": 5546,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5545,
+                    "endIndex": 5546,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5546,
+              "endIndex": 5559,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5546,
+                    "endIndex": 5558,
+                    "textRun": {
+                      "content": "Men's Shirts",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/mens-shirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5558,
+                    "endIndex": 5559,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5559,
+              "endIndex": 5571,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5559,
+                    "endIndex": 5570,
+                    "textRun": {
+                      "content": "Men's Polos",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/search?type=product&q=mens+polo"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5570,
+                    "endIndex": 5571,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5571,
+              "endIndex": 5583,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5571,
+                    "endIndex": 5582,
+                    "textRun": {
+                      "content": "Men's Pants",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 5582,
+                    "endIndex": 5583,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5583,
+              "endIndex": 5596,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5583,
+                    "endIndex": 5595,
+                    "textRun": {
+                      "content": "Men's Chinos",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/search?type=product&q=mens+chinos"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5595,
+                    "endIndex": 5596,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5596,
+              "endIndex": 5615,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5596,
+                    "endIndex": 5614,
+                    "textRun": {
+                      "content": "Men's Linen Shirts",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/search?type=product&q=mens+linen+shirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5614,
+                    "endIndex": 5615,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5615,
+              "endIndex": 5629,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5615,
+                    "endIndex": 5628,
+                    "textRun": {
+                      "content": "Men's Jackets",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 5628,
+                    "endIndex": 5629,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5629,
+              "endIndex": 5647,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5629,
+                    "endIndex": 5646,
+                    "textRun": {
+                      "content": "Men's Bestsellers",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5646,
+                    "endIndex": 5647,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5647,
+              "endIndex": 5648,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5647,
+                    "endIndex": 5648,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5648,
+              "endIndex": 5682,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5648,
+                    "endIndex": 5682,
+                    "textRun": {
+                      "content": "Frequently Asked Questions (FAQs)\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.6b0wv0bstpby",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5682,
+              "endIndex": 5683,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5682,
+                    "endIndex": 5683,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5683,
+              "endIndex": 5739,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5683,
+                    "endIndex": 5739,
+                    "textRun": {
+                      "content": "1. Are chinos appropriate for a business casual office?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5739,
+              "endIndex": 5985,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5739,
+                    "endIndex": 5985,
+                    "textRun": {
+                      "content": "Absolutely. Chinos are the defining garment of the modern business casual dress code. Stick to classic colors like Navy, Khaki, or Charcoal, ensure they are well-ironed, and pair them with a collared shirt for a perfectly acceptable office look.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5985,
+              "endIndex": 5986,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5985,
+                    "endIndex": 5986,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5986,
+              "endIndex": 6021,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5986,
+                    "endIndex": 6021,
+                    "textRun": {
+                      "content": "2. Can I wear linen to the office?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6021,
+              "endIndex": 6355,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6021,
+                    "endIndex": 6238,
+                    "textRun": {
+                      "content": "It depends on how strict your workplace is. While pure linen is incredibly comfortable, it does wrinkle naturally, which can sometimes look a bit too relaxed for highly corporate environments. If you want to wear our ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6238,
+                    "endIndex": 6256,
+                    "textRun": {
+                      "content": "Men's Linen Shirts",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6256,
+                    "endIndex": 6355,
+                    "textRun": {
+                      "content": " to work, stick to Casual Fridays and ensure the shirt is well-steamed before you leave the house.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6355,
+              "endIndex": 6356,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6355,
+                    "endIndex": 6356,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6356,
+              "endIndex": 6405,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6356,
+                    "endIndex": 6405,
+                    "textRun": {
+                      "content": "3. Do I always need to tuck in my shirt at work?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6405,
+              "endIndex": 6657,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6405,
+                    "endIndex": 6657,
+                    "textRun": {
+                      "content": "In most office environments, yes. Tucking in your shirt instantly elevates the outfit from casual to professional. Our structured work shirts are designed with a slightly longer hem specifically so they stay securely tucked into your trousers all day.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6657,
+              "endIndex": 6658,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6657,
+                    "endIndex": 6658,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6658,
+              "endIndex": 6710,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6658,
+                    "endIndex": 6710,
+                    "textRun": {
+                      "content": "4. How can I stay cool wearing pants in the summer?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6710,
+              "endIndex": 6947,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6710,
+                    "endIndex": 6947,
+                    "textRun": {
+                      "content": "The secret is the fabric. Ditch the heavy wool or polyester trousers and switch to our 100% breathable cotton pants. They promote airflow and pull moisture away from your body, keeping your legs significantly cooler during hot commutes.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6947,
+              "endIndex": 6948,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6947,
+                    "endIndex": 6948,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6948,
+              "endIndex": 6984,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6948,
+                    "endIndex": 6984,
+                    "textRun": {
+                      "content": "5. How should my work trousers fit?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6984,
+              "endIndex": 7299,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6984,
+                    "endIndex": 7299,
+                    "textRun": {
+                      "content": "Your work pants should sit comfortably at your natural waist without needing a belt to desperately hold them up. The fabric should lightly drape your legs without clinging tightly to your thighs or calves, and the hem should rest lightly on the top of your shoes with a slight \"break\" (a small fold in the fabric).\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7299,
+              "endIndex": 7300,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7299,
+                    "endIndex": 7300,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        },
+        "headers": null,
+        "footers": null,
+        "footnotes": null,
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "suggestedDocumentStyleChanges": null,
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 115,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "COLLAPSE_LISTS",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "fontSize": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.2627451,
+                      "green": 0.2627451,
+                      "blue": 0.2627451
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 26,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 3,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 15,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "suggestedNamedStylesChanges": null,
+        "lists": null,
+        "namedRanges": null,
+        "inlineObjects": null,
+        "positionedObjects": null,
+        "documentId": "1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw",
+        "document_url": "https://docs.google.com/document/d/1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw"
+      }
+    ],
+    "document_url": "https://docs.google.com/document/d/1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw"
+  },
+  "isError": false
+}

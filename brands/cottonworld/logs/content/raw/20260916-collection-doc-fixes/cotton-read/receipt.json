@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1OQs9jLsIdq52S5KW0lotQfB3wU6x_SKZbdrkVS1ZlNo",
+    "title": "Buy Men's Cotton Clothing Online – Corrected Links",
+    "revisionId": "ANLCKQmafXXy2qc9yn-8BnXbqh0qzZQu4t_AkFBrN2bkF_NQx2IIAjShUu_w9z5cdOBJdQbA5Sl-lNoSanCwEvaaG08ElILXloclMQ9vHfk",
+    "documentUrl": "https://docs.google.com/document/d/1OQs9jLsIdq52S5KW0lotQfB3wU6x_SKZbdrkVS1ZlNo",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

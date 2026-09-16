@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read",
+  "target": {
+    "documentId": "1D_Tf6oi8JkuDEe3QTjB7JewYohz2RYnAI2qqiwRv8Lc",
+    "title": "Buy Men's Summer Clothing ",
+    "revisionId": "ANLCKQm_CcjCDj4YkOe-PBSnzsV_8UO84mQhH_feQSMyNsGPq9ozt7GyclBVJ5w6R6qkZT1j3bXqdDalWLaE1gTtX8LmAXYY1zgMRWtEknE",
+    "documentUrl": "https://docs.google.com/document/d/1D_Tf6oi8JkuDEe3QTjB7JewYohz2RYnAI2qqiwRv8Lc",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read/document-result.json",
+      "bytes": 89173,
+      "sha256": "78b6d9c7b0ace81c4d058d1151fe0475d136c73a4f15ef8d78e2d86e2015cbec"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read/control-inventory.json",
+      "bytes": 1031,
+      "sha256": "b75be0a06085ba87f65dd2d19e327de9d86d02e7823469a96faa1b471ffe1e22"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read/document-outline.json",
+      "bytes": 44154,
+      "sha256": "0b457d0ae9ec313dca28a5095b5671d0dd644f39f54d5add9de8b71069e17b3c"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read/document-text.md",
+      "bytes": 12738,
+      "sha256": "636ac4fcaa5a8e42eb4dc3dac01b6cbe907339d559d9c06448545a2c1e1d9027"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/summer-read/receipt.json",
+      "bytes": 962,
+      "sha256": "2604c1783384687d33ee9db753a16c94e7114017566fb693cb3cc44ca5bac5fa"
+    }
+  },
+  "error": null
+}

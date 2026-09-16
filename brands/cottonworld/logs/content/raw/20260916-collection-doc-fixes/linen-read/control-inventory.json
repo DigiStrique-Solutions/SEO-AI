@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1vquzVApMEj4TdacBg4tzo9M9oHc5Hh7u_XUfj1gNfUg",
+    "title": "Buy Men's Linen ",
+    "revisionId": "ANLCKQk9wP61yQ_upflfVBgo71V27QTBITVe9RkEbeaOfsk0zgew62OMoGsTezmgSGUTSEkjHeyh-3OwsjCcl1pAppC-6kEBwwA1um1HdP0",
+    "documentUrl": "https://docs.google.com/document/d/1vquzVApMEj4TdacBg4tzo9M9oHc5Hh7u_XUfj1gNfUg",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {},
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": []
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

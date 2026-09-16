@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw",
+    "title": "Buy Men's Workwear ",
+    "revisionId": "ANLCKQliVa7JbbLw_3EuwYd_JsmS8MzEAhbLjglJXAMNJtPEECx0Y3jevu-o3EyTkCq7WnLEElguKeCrGm6Dr99U-VOrqS5Y9kCezxvjXYc",
+    "documentUrl": "https://docs.google.com/document/d/1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

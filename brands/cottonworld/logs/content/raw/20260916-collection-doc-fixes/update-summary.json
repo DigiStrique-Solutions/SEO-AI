@@ -1,0 +1,32 @@
+{
+  "run_id": "cottonworld-collection-doc-fixes-20260916",
+  "date": "2026-09-16",
+  "provider": "google_drive",
+  "folder_id": "1icNemXdjjCsKjXvdPktekr3NwQZO351R",
+  "documents_updated": 10,
+  "changes": {
+    "collection_link_updates": 163,
+    "copy_and_punctuation_updates": "Applied across all documents, including Men’s terminology, titles, and the requested Chinos and Kurta corrections.",
+    "organic_cotton_collection": "https://cottonworld.net/collections/cotton-mens",
+    "removed_stale_joggers_references": 3,
+    "file_titles_renamed": 10
+  },
+  "validation": {
+    "ascii_mens_or_mens_apostrophe_remaining": 0,
+    "stale_collection_or_search_links_remaining": 0,
+    "organic_cotton_link_verified": true,
+    "documents_with_visible_collection_links": 10
+  },
+  "collection_destinations": {
+    "Men’s Linen Shirts": "https://cottonworld.net/collections/men-linen-shirts",
+    "Men’s Cotton Pants": "https://cottonworld.net/collections/mens-cotton-pants",
+    "Men’s T-Shirts": "https://cottonworld.net/collections/mens-tshirts",
+    "Men’s Bestsellers": "https://cottonworld.net/collections/best-sellers-mens",
+    "Men’s Jackets": "https://cottonworld.net/collections/men-jackets",
+    "Men’s Chinos": "https://cottonworld.net/collections/mens-chinos",
+    "Men’s Polos": "https://cottonworld.net/collections/polo-collar",
+    "Men’s Shorts": "https://cottonworld.net/collections/mens-shorts",
+    "Men’s Pants": "https://cottonworld.net/collections/mens-pants-2",
+    "Men’s Shirts": "https://cottonworld.net/collections/mens-shirts"
+  }
+}

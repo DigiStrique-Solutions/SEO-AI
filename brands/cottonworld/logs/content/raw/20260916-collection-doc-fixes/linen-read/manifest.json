@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read",
+  "target": {
+    "documentId": "1vquzVApMEj4TdacBg4tzo9M9oHc5Hh7u_XUfj1gNfUg",
+    "title": "Buy Men's Linen ",
+    "revisionId": "ANLCKQk9wP61yQ_upflfVBgo71V27QTBITVe9RkEbeaOfsk0zgew62OMoGsTezmgSGUTSEkjHeyh-3OwsjCcl1pAppC-6kEBwwA1um1HdP0",
+    "documentUrl": "https://docs.google.com/document/d/1vquzVApMEj4TdacBg4tzo9M9oHc5Hh7u_XUfj1gNfUg",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read/document-result.json",
+      "bytes": 83424,
+      "sha256": "398b38beeb6d1efcf1ecd207f9523100d74835629660cabf79fc8588c92ee9aa"
+    },
+    "control_inventory": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read/control-inventory.json",
+      "bytes": 1021,
+      "sha256": "9c61bb553f0c795e8ee8a40e53cc61aa5f1905bca7972309f77c9c77a75868f1"
+    },
+    "document_outline": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read/document-outline.json",
+      "bytes": 42008,
+      "sha256": "4d295dcd8135e26be698658295234e6479d2c4da7c5755970144ca58b2afecd4"
+    },
+    "document_text": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read/document-text.md",
+      "bytes": 11648,
+      "sha256": "3b4e0dfbc5fb922107abb09a24b4aa0ef13ae8a58903da94c8126a0ef6facfa0"
+    },
+    "receipt": {
+      "path": "/c/Users/User/Desktop/SEO-work/SEO-AI/brands/cottonworld/logs/content/raw/20260916-collection-doc-fixes/linen-read/receipt.json",
+      "bytes": 952,
+      "sha256": "9f233591343389aa8c9a241c350b4f8cca74e41d3d100af5b354282c3d1af92c"
+    }
+  },
+  "error": null
+}

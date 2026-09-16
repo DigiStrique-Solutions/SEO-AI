@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1D_Tf6oi8JkuDEe3QTjB7JewYohz2RYnAI2qqiwRv8Lc",
+    "title": "Buy Men's Summer Clothing ",
+    "revisionId": "ANLCKQm_CcjCDj4YkOe-PBSnzsV_8UO84mQhH_feQSMyNsGPq9ozt7GyclBVJ5w6R6qkZT1j3bXqdDalWLaE1gTtX8LmAXYY1zgMRWtEknE",
+    "documentUrl": "https://docs.google.com/document/d/1D_Tf6oi8JkuDEe3QTjB7JewYohz2RYnAI2qqiwRv8Lc",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {},
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": []
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

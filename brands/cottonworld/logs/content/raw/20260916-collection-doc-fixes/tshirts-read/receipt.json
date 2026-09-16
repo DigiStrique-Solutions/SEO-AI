@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+    "title": "Mens T-Shirt Collection Page",
+    "revisionId": "ANLCKQkamWI0cvCVjMy99W62ceMbEZO6sTe34U5qoRvuuCdVoQW-0ENHQu7pBbphtvRr9bSkeAGzQJuyNLdsyp-JbpZk-ljcDb0uqo-h-ew",
+    "documentUrl": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

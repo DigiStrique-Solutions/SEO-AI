@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1ymnmpyEZhWeYqHjLDlxF_LgE7xApxo-1H_bX27FxuYc",
+    "title": "Buy Men's Brunch Outfits Online",
+    "revisionId": "ANLCKQl3NLJaUlupKgsX9AjVjj_oAQu0YEaU6Q52wPbSnwjss_FkImEnEicz2R3Fu0nRnz-cMuDr2L1SjOVI6KVHB3vVgR97IamlG-xZIM0",
+    "documentUrl": "https://docs.google.com/document/d/1ymnmpyEZhWeYqHjLDlxF_LgE7xApxo-1H_bX27FxuYc",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}
