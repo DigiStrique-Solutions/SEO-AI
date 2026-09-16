@@ -1,0 +1,1088 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "range": "'Active Collections'!A1:H200",
+    "majorDimension": "ROWS",
+    "values": [
+      [
+        "Collections",
+        "Gender",
+        "Tags",
+        "Collection Exists?",
+        "Shopify Collection Name",
+        "Comments",
+        "Collection Link",
+        "Collection Link"
+      ],
+      [
+        "Menu collections"
+      ],
+      [
+        "All Men",
+        "Men",
+        null,
+        "Yes",
+        "All Men's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/437655470311",
+        "https://cottonworld.net/collections/all-mens-clothing"
+      ],
+      [
+        "All Women",
+        "Women",
+        null,
+        "Yes",
+        "Women's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/235013505",
+        "https://cottonworld.net/collections/all-womens-clothing"
+      ],
+      [
+        "Top Picks ",
+        "Women",
+        null,
+        "Yes",
+        "Our Top Picks\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/445827809511\n",
+        "https://cottonworld.net/collections/womens-favourites"
+      ],
+      [
+        "Top Picks ",
+        "Men",
+        null,
+        "Yes",
+        "Our Top Picks.",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/445827219687",
+        "https://cottonworld.net/collections/favourite-mens"
+      ],
+      [
+        "Top Picks ",
+        "Unisex",
+        null,
+        "Yes",
+        null,
+        null,
+        "https://cottonworld.net/collections/bestsellers",
+        "https://cottonworld.net/collections/bestsellers"
+      ],
+      [
+        "Sale",
+        "Unisex",
+        null,
+        "Yes",
+        "Sale",
+        null,
+        "https://cottonworld.net/collections/sale",
+        "https://cottonworld.net/collections/sale"
+      ],
+      [
+        "Sale",
+        "Women",
+        null,
+        "Yes",
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/sale-womenswear"
+      ],
+      [
+        "Sale",
+        "Men",
+        null,
+        "Yes",
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/sale-menswear"
+      ],
+      [
+        "New Arrivals ",
+        "Unisex",
+        null,
+        "Yes",
+        "New Arrivals",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467079430375",
+        "https://cottonworld.net/collections/new-arrivals"
+      ],
+      [
+        "New arrivals ",
+        "Women",
+        null,
+        "Yes",
+        "Women's new arrivals\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/346535873",
+        "https://cottonworld.net/collections/women-new-arrivals"
+      ],
+      [
+        "New arrivals ",
+        "Men",
+        null,
+        "Yes",
+        "Men's new arrivals",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/318355777",
+        "https://cottonworld.net/collections/men-new-arrivals"
+      ],
+      [
+        "Bestsellers ",
+        "Unisex",
+        null,
+        "Yes",
+        "Bestsellers ",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467078775015",
+        "https://cottonworld.net/collections/bestsellers"
+      ],
+      [
+        "Bestsellers ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Bestsellers\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/426138960103\n",
+        "https://cottonworld.net/collections/best-sellers-womens"
+      ],
+      [
+        "Bestsellers ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Bestsellers",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/426138927335",
+        "https://cottonworld.net/collections/best-sellers-mens"
+      ],
+      [
+        "Shop by Fabric (M & W)",
+        null,
+        null,
+        "No"
+      ],
+      [
+        "All Fabrics ",
+        "Men",
+        null,
+        "Yes",
+        "All Men's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/437655470311",
+        "https://cottonworld.net/collections/all-mens-clothing"
+      ],
+      [
+        "All Fabrics ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/235013505",
+        "https://cottonworld.net/collections/all-womens-clothing"
+      ],
+      [
+        "Cotton ",
+        "Men",
+        null,
+        "Yes",
+        "Cotton-Mens",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/466709086439",
+        "https://cottonworld.net/collections/cotton-mens"
+      ],
+      [
+        "Cotton ",
+        "Women",
+        null,
+        "Yes",
+        "Cotton-Womens",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/466709119207",
+        "https://cottonworld.net/collections/cotton-womens"
+      ],
+      [
+        "Cotton ",
+        "Unisex",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/all-cotton"
+      ],
+      [
+        "Linen ",
+        "Women",
+        null,
+        "Yes",
+        "Women's all linen\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/423148224743\n",
+        "https://cottonworld.net/collections/all-linen-womens"
+      ],
+      [
+        "Linen ",
+        "Men",
+        null,
+        "Yes",
+        "Men's all linen",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/423148159207",
+        "https://cottonworld.net/collections/all-linen-men"
+      ],
+      [
+        "Linen ",
+        "Unisex",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/all-linen"
+      ],
+      [
+        "Modal",
+        "Unisex",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/all-modal"
+      ],
+      [
+        "Bamboo ",
+        "Women",
+        null,
+        "Yes",
+        "Bamboo collection for women\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/278757900461\n",
+        "https://cottonworld.net/collections/men-bamboo-clothes"
+      ],
+      [
+        "Bamboo ",
+        "Men",
+        null,
+        "Yes",
+        "Bamboo collection for men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/278757834925",
+        "https://cottonworld.net/collections/women-bamboo-clothes"
+      ],
+      [
+        "Bamboo ",
+        "Unisex",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://cottonworld.net/collections/all-bamboo"
+      ],
+      [
+        "All Collection/Shop All ",
+        "Men",
+        null,
+        "Yes",
+        "All Men's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/437655470311",
+        "https://cottonworld.net/collections/all-mens-clothing"
+      ],
+      [
+        "All Collection/Shop All",
+        "Women",
+        null,
+        "Yes",
+        "Women's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/235013505",
+        "https://cottonworld.net/collections/all-womens-clothing"
+      ],
+      [
+        "Shop By Fabric/Shop All ",
+        "Men",
+        null,
+        "Yes",
+        "All Men's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/437655470311",
+        "https://cottonworld.net/collections/all-mens-clothing"
+      ],
+      [
+        "Shop By Fabric/Shop All",
+        "Women",
+        null,
+        "Yes",
+        "Women's Clothing",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/235013505",
+        "https://cottonworld.net/collections/all-womens-clothing"
+      ],
+      [
+        "Casual Wear ",
+        "Men",
+        null,
+        "Yes",
+        "Casual Wear Men's",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/466709184743"
+      ],
+      [
+        "Casual Wear ",
+        "Women",
+        null,
+        "Yes",
+        "Casual Wear Women's",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/466709217511"
+      ],
+      [
+        "Semi Formal Wear ",
+        "Men",
+        null,
+        "Yes",
+        null,
+        "What Products should we add?",
+        "https://admin.shopify.com/store/cottonworld-2/collections/466711314663"
+      ],
+      [
+        "Semi Formal Wear ",
+        "Women",
+        null,
+        "Yes",
+        null,
+        "What Products should we add?",
+        "https://admin.shopify.com/store/cottonworld-2/collections/466711347431"
+      ],
+      [
+        "Work ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Work",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467047153895",
+        "https://cottonworld.net/collections/workwear-for-men"
+      ],
+      [
+        "Work ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Work",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467047121127",
+        "https://cottonworld.net/collections/workwear-for-women"
+      ],
+      [
+        "Work ",
+        "Unisex",
+        null,
+        "Yes",
+        "Work",
+        null,
+        null,
+        "https://cottonworld.net/collections/work"
+      ],
+      [
+        "Travel ",
+        "Men",
+        null,
+        "Yes",
+        "Travel for Men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467047907559",
+        "https://cottonworld.net/collections/travel-for-men"
+      ],
+      [
+        "Travel ",
+        "Women",
+        null,
+        "Yes",
+        "Travel for Women",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048399079",
+        "https://cottonworld.net/collections/travel-for-women"
+      ],
+      [
+        "Comfy Favs ",
+        "Men",
+        null,
+        "Yes"
+      ],
+      [
+        "Comfy Favs ",
+        "Women",
+        null,
+        "Yes"
+      ],
+      [
+        "Travel ",
+        "Unisex",
+        null,
+        "Yes",
+        "Travel",
+        null,
+        null,
+        "https://cottonworld.net/collections/travel"
+      ],
+      [
+        "Brunch ",
+        "Men",
+        null,
+        "Yes",
+        "Brunch for Men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048202471",
+        "https://cottonworld.net/collections/brunch-for-men"
+      ],
+      [
+        "Brunch ",
+        "Women",
+        null,
+        "Yes",
+        "Brunch for Women",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048431847",
+        "https://cottonworld.net/collections/brunch"
+      ],
+      [
+        "Brunch ",
+        "Unisex",
+        null,
+        "Yes",
+        "Brunch",
+        null,
+        null,
+        "https://cottonworld.net/collections/brunch"
+      ],
+      [
+        "Summer",
+        "Men",
+        null,
+        "Yes",
+        "Summer for Men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467047448807",
+        "https://cottonworld.net/collections/summer-for-men"
+      ],
+      [
+        "Summer",
+        "Women",
+        null,
+        "Yes",
+        "Summer for Women",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048333543",
+        "https://cottonworld.net/collections/summer-for-women"
+      ],
+      [
+        "All day wear",
+        "Men",
+        null,
+        "Yes"
+      ],
+      [
+        "All day wear",
+        "Women",
+        null,
+        "Yes"
+      ],
+      [
+        "Own the season",
+        "Men",
+        null,
+        "Yes"
+      ],
+      [
+        "Own the season",
+        "Women",
+        null,
+        "Yes"
+      ],
+      [
+        "Summer",
+        "Unisex",
+        null,
+        "No",
+        "Summer",
+        null,
+        null,
+        "https://cottonworld.net/collections/summer"
+      ],
+      [
+        "Monsoon",
+        "Men",
+        null,
+        "Yes",
+        "Men's Monsoon",
+        null,
+        null,
+        "https://cottonworld.net/collections/mens-monsoon"
+      ],
+      [
+        "Monsoon",
+        "Women",
+        null,
+        "Yes",
+        "Women's Monsoon",
+        null,
+        null,
+        "https://cottonworld.net/collections/womens-monsoon"
+      ],
+      [
+        "Monsoon",
+        "Men",
+        null,
+        "Yes",
+        "Monsoon",
+        null,
+        null,
+        "https://cottonworld.net/collections/monsoon"
+      ],
+      [
+        "Lounge Wear ",
+        "Women",
+        null,
+        "Yes",
+        "Loungewear for Women",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467052462311",
+        "https://cottonworld.net/collections/loungewear-for-women"
+      ],
+      [
+        "Lounge Wear ",
+        "Men",
+        null,
+        "Yes",
+        "Loungewear for Men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467052429543",
+        "https://cottonworld.net/collections/loungewear-for-men"
+      ],
+      [
+        "Festive ",
+        "Women",
+        null,
+        "No",
+        null,
+        "What Products should we add?"
+      ],
+      [
+        "Festive ",
+        "Unisex",
+        null,
+        "No",
+        null,
+        "What Products should we add?"
+      ],
+      [
+        "Nomad ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Nomad collection\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/443033551079\n"
+      ],
+      [
+        "Nomad ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Nomad collection",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/443033616615"
+      ],
+      [
+        "Rooted ",
+        "Men",
+        null,
+        "Yes",
+        "Men's rooted collection\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/434158010599"
+      ],
+      [
+        "Rooted ",
+        "Women",
+        null,
+        "Yes",
+        "Women's rooted collection",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/433752735975"
+      ],
+      [
+        "All Top Wear ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Top Wear",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61220454453",
+        "https://cottonworld.net/collections/women-topwear"
+      ],
+      [
+        "All Top Wear ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Top Wear",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/466752864487",
+        "https://cottonworld.net/collections/cottonworld-mens-collection-top-wear"
+      ],
+      [
+        "Tops ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Tops",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/316302209",
+        "https://cottonworld.net/collections/women-tops-1"
+      ],
+      [
+        "Tshirts ",
+        "Men",
+        null,
+        "Yes",
+        "Men's T-Shirts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/403369885927",
+        "https://cottonworld.net/collections/mens-tshirts"
+      ],
+      [
+        "T-shirts ",
+        "Women",
+        null,
+        "Yes",
+        "Women's T-Shirts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/316302337",
+        "https://cottonworld.net/collections/women-tshirts"
+      ],
+      [
+        "Shirts ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Shirts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/403369853159",
+        "https://cottonworld.net/collections/mens-shirts"
+      ],
+      [
+        "Kurtas ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Kurtas\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/451155099879\n",
+        "https://cottonworld.net/collections/women-kurtas-tunics"
+      ],
+      [
+        "Kurtas ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Kurta",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/59494727733",
+        "https://cottonworld.net/collections/men-kurtas"
+      ],
+      [
+        "Jackets ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Jackets\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/229670977\n",
+        "https://cottonworld.net/collections/men-jackets"
+      ],
+      [
+        "Jackets ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Jackets",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61505077301",
+        "https://cottonworld.net/collections/women-jackets-1"
+      ],
+      [
+        "Vests ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Vests",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/158731698229",
+        "https://cottonworld.net/collections/womens-vests"
+      ],
+      [
+        "Vests ",
+        "Men",
+        null,
+        "No",
+        null,
+        "Should we remove this? Check with tanya"
+      ],
+      [
+        "Waistcoat ",
+        "Women",
+        null,
+        "No",
+        null,
+        "Currently it is added under topwear. Shoulkd we move it under jacket?"
+      ],
+      [
+        "Overlays ",
+        "Women",
+        null,
+        "No",
+        null,
+        "Should we include it under jacket?"
+      ],
+      [
+        "Shrugs ",
+        "Women",
+        null,
+        "No",
+        null,
+        "Should we include it under jacket?"
+      ],
+      [
+        "Pyjamas & Pyjamas Set ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Pajamas",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/403369918695"
+      ],
+      [
+        "All Bottom Wear ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Bottom Wear",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61220618293",
+        "https://cottonworld.net/collections/women-bottomwear"
+      ],
+      [
+        "All Bottom Wear ",
+        "Men",
+        null,
+        "Yes",
+        "Men's Bottom Wear",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467053183207",
+        "https://cottonworld.net/collections/all-bottomwear-men"
+      ],
+      [
+        "Pants",
+        "Men",
+        null,
+        "Yes",
+        "Men's Pants",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/412751200487\n",
+        "https://cottonworld.net/collections/mens-pants-2"
+      ],
+      [
+        "Pants",
+        "Women",
+        null,
+        "Yes",
+        "Women's Pants",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61504946229",
+        "https://cottonworld.net/collections/womens-pants"
+      ],
+      [
+        "https://cottonworld.net/collections/women-shorts-1",
+        "Men",
+        null,
+        "Yes",
+        "Men's Shorts\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61504913461\n",
+        "https://cottonworld.net/collections/mens-shorts"
+      ],
+      [
+        "Shorts ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Shorts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/316302529",
+        "https://cottonworld.net/collections/women-shorts-1"
+      ],
+      [
+        "Skirts ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Skirts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/316302081",
+        "https://cottonworld.net/collections/women-skirts-1"
+      ],
+      [
+        "Leggings ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Leggings",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/325530177",
+        "https://cottonworld.net/collections/women-leggings"
+      ],
+      [
+        "Culottes ",
+        "Women",
+        null,
+        "Yes",
+        "Women's Culottes",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/135583957045",
+        "https://cottonworld.net/collections/women-culottes-1"
+      ],
+      [
+        "Dresses/Jumpsuits ",
+        "Women",
+        null,
+        "Yes",
+        "Womens Dresses",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/451154051303",
+        "https://cottonworld.net/collections/women-dresses-jumpsuits"
+      ],
+      [
+        "Dresses",
+        "Women",
+        null,
+        "Yes",
+        "Women's Dresses",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/316301953",
+        "https://cottonworld.net/collections/women-dressess"
+      ],
+      [
+        "Sleep Wear",
+        "Women",
+        null,
+        "Yes",
+        "Sleepwear",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/61505142837",
+        "https://cottonworld.net/collections/women-loungewear"
+      ],
+      [
+        "Co-Ords",
+        "Women",
+        null,
+        "Yes",
+        "Women's Co-ord Sets\n",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/415568298215\n",
+        "https://cottonworld.net/collections/co-ord-sets-womens"
+      ],
+      [
+        "Co-Ords",
+        "Men",
+        null,
+        "Yes",
+        "Men's Co-ord Sets",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/415589302503",
+        "https://cottonworld.net/collections/co-ord-sets-mens"
+      ],
+      [
+        "Men's Bamboo T-Shirts",
+        "Men",
+        null,
+        "Yes",
+        "Men's Bamboo T-Shirts",
+        null,
+        null,
+        "https://cottonworld.net/collections/the-essential-round-neck-bamboo-tee"
+      ],
+      [],
+      [
+        "Home page collections"
+      ],
+      [
+        "Cotton New (M & W)"
+      ],
+      [
+        "Gift For Men",
+        "Men",
+        null,
+        "Yes",
+        "Gifts for Men",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048268007",
+        "https://cottonworld.net/collections/gifts-for-men"
+      ],
+      [
+        "Gift For Women",
+        "Women",
+        null,
+        "Yes",
+        "Gifts for Women",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467048497383",
+        "https://cottonworld.net/collections/gifts-for-women"
+      ],
+      [
+        "Men Bundle",
+        "Men",
+        null,
+        "Yes",
+        "Men Bundle",
+        null,
+        null,
+        "https://cottonworld.net/collections/men-bundle"
+      ],
+      [
+        "Women Bundle",
+        "Women",
+        null,
+        "Yes",
+        "Women Bundle",
+        null,
+        null,
+        "https://cottonworld.net/collections/women-bundle"
+      ],
+      [
+        "Fabric Page"
+      ],
+      [
+        "Cotton for Summer",
+        "Women",
+        null,
+        "No"
+      ],
+      [
+        "Cotton for Summer",
+        "Men",
+        null,
+        "No"
+      ],
+      [
+        "Cotton Linen",
+        "Unisex",
+        null,
+        "Yes",
+        "Cotton Linen",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467331416295",
+        "https://cottonworld.net/collections/cotton-linen"
+      ],
+      [],
+      [
+        "For Collection page content"
+      ],
+      [
+        "Men's Chinos",
+        "Men",
+        null,
+        "Yes",
+        "Men's Chinos",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467331416295",
+        "https://cottonworld.net/collections/mens-chinos"
+      ],
+      [
+        "Men's Cotton Pants",
+        "Men",
+        null,
+        "Yes",
+        "Men's Cotton Pants",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467331416295",
+        "https://cottonworld.net/collections/mens-cotton-pants"
+      ],
+      [
+        "Men's Linen Shirts",
+        "Men",
+        null,
+        "Yes",
+        "100% linen shirts",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467331416295",
+        "https://cottonworld.net/collections/men-linen-shirts"
+      ],
+      [
+        "Men's Polo Tshirts",
+        "Men",
+        null,
+        "Yes",
+        "Polo",
+        null,
+        null,
+        "https://cottonworld.net/collections/polo-collar"
+      ],
+      [
+        "Men's Joggers",
+        "Men",
+        null,
+        "Yes",
+        "Men's Joggers",
+        null,
+        null,
+        "https://cottonworld.net/collections/mens-joggers"
+      ],
+      [
+        "Men's 100% Linen Pants",
+        "Men",
+        null,
+        "Yes",
+        "Men's 100% Linen Shirts",
+        null,
+        null,
+        "https://cottonworld.net/collections/100-linen-pants"
+      ],
+      [
+        "Men's 100% Linen Shirts",
+        "Men",
+        null,
+        "Yes",
+        "Men's 100% Linen Shirts",
+        null,
+        null,
+        "https://cottonworld.net/collections/100-linen-shirts"
+      ],
+      [
+        "For testing"
+      ],
+      [
+        "All",
+        "Unisex",
+        null,
+        "Yes",
+        "All",
+        null,
+        "https://admin.shopify.com/store/cottonworld-2/collections/467301040359",
+        "https://cottonworld.net/collections/all"
+      ]
+    ]
+  },
+  "isError": false
+}

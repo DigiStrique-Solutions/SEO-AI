@@ -1,0 +1,331 @@
+Cottonworld — Men’s Collection Content & Link Review
+Checked: 16 September 2026 (native date chip in Google Doc)
+Reference collection sheet: Cottonworld Collections (native Google Sheets chip in Google Doc)
+Reference tab: Active Collections (gid 1796246006).
+Summary
+The errors are confirmed and affect all 10 collection pages that currently contain long-form “Read More” copy. Across 153 body-link occurrences, 94 need attention: 42 point to 404 destinations, 46 use search instead of dedicated collections, five lead to an empty Joggers collection, and one sends “Organic Cotton Collection” to Men’s All.
+The T-shirt page alone has 10 incorrect link occurrences out of 16: three 404 links, six search links, and one wrong-collection link. Its two reported naming errors are also live. This is an inspection and correction list; storefront content has not been changed.
+Scope: the supplied men’s landing page, all 24 men-specific collection destinations found in its body/navigation, the shared Top Picks destination, and 10 additional collection URLs from the reference sheet (35 collection URLs in total). Full available collection descriptions, headings and related-collection anchors were reviewed. Product-detail pages and paginated product inventories are outside this content review.
+Evidence: live HTTP responses and extracted page content, the supplied sheet, and browser checks of T-shirts, Shirts, Joggers, Kurtas and New Arrivals. All recommended replacement collection URLs returned HTTP 200 with the expected collection identity. Two Polo search URLs returned HTTP 429 verification challenges; their search-path mismatch is confirmed, but their search results were not verified. This is a targeted content/link review, not a full technical SEO audit.
+Priority fixes and verified destinations
+High priority · Status: fail · Confidence: high · Owner: Shopify content editor. Replace the following broken links everywhere they occur in the collection descriptions:
+https://cottonworld.net/collections/mens-pants
+→ https://cottonworld.net/collections/mens-pants-2
+Men’s Pants; on the Pants page, the “Men’s Cotton Pants” anchor must instead use /collections/mens-cotton-pants.
+https://cottonworld.net/collections/mens-jackets
+→ https://cottonworld.net/collections/men-jackets
+Men’s Jackets
+https://cottonworld.net/collections/mens-linen-shirts
+→ https://cottonworld.net/collections/men-linen-shirts
+Men’s Linen Shirts
+https://cottonworld.net/collections/mens-polos
+→ https://cottonworld.net/collections/polo-collar
+Men’s Polo T-Shirts
+https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+→ https://cottonworld.net/collections/best-sellers-mens
+Men’s Bestsellers; remove the expired preview domain.
+Medium priority · Status: fail · Confidence: high · Owner: Shopify content editor. Replace every Polo, Chinos and Linen Shirts search URL with the relevant dedicated collection:
+Men’s Polo T-Shirts → https://cottonworld.net/collections/polo-collar
+Men’s Chinos → https://cottonworld.net/collections/mens-chinos
+Men’s Linen Shirts → https://cottonworld.net/collections/men-linen-shirts
+Men’s Cotton Pants → https://cottonworld.net/collections/mens-cotton-pants
+On T-shirts, change the Organic Cotton Collection destination from https://cottonworld.net/collections/all-mens-clothing to https://cottonworld.net/collections/cotton-mens, as requested. Consider the anchor “Men’s Cotton Collection”: Cotton-Mens includes cotton blends, so the current “Organic Cotton Collection” wording should not imply that every item is organic.
+Medium priority · Status: fail · Confidence: high · Owner: Merchandising. https://cottonworld.net/collections/mens-joggers returns HTTP 200 but displays “0 items” and “No products found.” Travel links there three times and Brunch twice. Populate the intended collection or remove those recommendations until products are available. Do not substitute generic pants while retaining a Joggers anchor.
+Page-by-page link corrections
+Men’s T-Shirts
+https://cottonworld.net/collections/mens-tshirts
+Status: fail · 10 of 16 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Pants” — 3 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Organic Cotton Collection” — 1 occurrence; wrong collection.
+Current: https://cottonworld.net/collections/all-mens-clothing
+Fix: https://cottonworld.net/collections/cotton-mens
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?q=polo&_pos=1&_psq=polo&_psid=357183930&_ss=e
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Chinos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?q=chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Linen Shirt” / “Men's Linen Shirts” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?q=linen+shirt
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=polos
+Fix: https://cottonworld.net/collections/polo-collar
+“Men'sT Chinos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+Naming: in “Complete Your Look,” change “Men'sT Chinos” to “Men’s Chinos” and “Mens Kurtas” to “Men’s Kurtas.” The Kurtas destination is already correct; the Chinos destination also needs replacement.
+Men’s Shirts
+https://cottonworld.net/collections/mens-shirts
+Status: fail · 10 of 16 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Linen Shirts” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Pants” — 3 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Jacket” / “Men's Jackets” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-jackets
+Fix: https://cottonworld.net/collections/men-jackets
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Pants
+https://cottonworld.net/collections/mens-pants-2
+Status: fail · 9 of 14 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Cotton Pants” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-cotton-pants
+“Men's Linen Shirts” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Polos” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-polos
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Jackets” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-jackets
+Fix: https://cottonworld.net/collections/men-jackets
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Shorts
+https://cottonworld.net/collections/mens-shorts
+Status: fail · 8 of 13 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Linen Shirts” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Linen Shirt” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-linen-shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Polo” / “Men's Polos” — 2 occurrences; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Pants” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Chinos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Cotton
+https://cottonworld.net/collections/cotton-mens
+Status: fail · 8 of 17 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Pants” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Polo” / “Men's Polos” — 2 occurrences; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Chino” / “Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Linen Shirts” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Linen
+https://cottonworld.net/collections/all-linen-men
+Status: fail · 9 of 15 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Linen Shirt” / “Men's Linen Shirts” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Pants” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Jackets” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-jackets
+Fix: https://cottonworld.net/collections/men-jackets
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Work
+https://cottonworld.net/collections/workwear-for-men
+Status: fail · 9 of 11 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Pants” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Polo” / “Men's Polos” — 2 occurrences; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Linen Shirts” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Jackets” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-jackets
+Fix: https://cottonworld.net/collections/men-jackets
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Travel
+https://cottonworld.net/collections/travel-for-men
+Status: fail · 11 of 16 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Joggers” — 3 occurrences; empty collection; HTTP 200.
+Current: https://cottonworld.net/collections/mens-joggers
+Fix: Populate Men’s Joggers or remove the Joggers recommendation until stock is available.
+“Men's Pants” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Jacket” / “Men's Jackets” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-jackets
+Fix: https://cottonworld.net/collections/men-jackets
+“Men's Polos” — 1 occurrence; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Chinos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Linen Shirts” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Brunch
+https://cottonworld.net/collections/brunch-for-men
+Status: fail · 11 of 18 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Linen Shirt” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+linen+shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Polos” — 2 occurrences; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Pants” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Chinos” — 2 occurrences; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Polo” — 1 occurrence; HTTP 404.
+Current: https://cottonworld.net/collections/mens-polos
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Joggers” — 2 occurrences; empty collection; HTTP 200.
+Current: https://cottonworld.net/collections/mens-joggers
+Fix: Populate Men’s Joggers or remove the Joggers recommendation until stock is available.
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Men’s Summer
+https://cottonworld.net/collections/summer-for-men
+Status: fail · 9 of 17 body-link occurrences need attention. Confidence: high. Owner: Shopify content editor; Merchandising for empty collections.
+“Men's Linen Shirt” / “Men's Linen Shirts” — 2 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-linen-shirts
+Fix: https://cottonworld.net/collections/men-linen-shirts
+“Men's Pants” — 3 occurrences; HTTP 404.
+Current: https://cottonworld.net/collections/mens-pants
+Fix: https://cottonworld.net/collections/mens-pants-2
+“Men's Polo” / “Men's Polos” — 2 occurrences; search URL instead of the dedicated collection; HTTP 429 verification challenge.
+Current: https://cottonworld.net/search?type=product&q=mens+polo
+Fix: https://cottonworld.net/collections/polo-collar
+“Men's Chinos” — 1 occurrence; search URL instead of the dedicated collection.
+Current: https://cottonworld.net/search?type=product&q=mens+chinos
+Fix: https://cottonworld.net/collections/mens-chinos
+“Men's Bestsellers” — 1 occurrence; expired preview link; HTTP 404.
+Current: https://b5w62ctkduoecqzp-12316442.shopifypreview.com/collections/best-sellers-mens
+Fix: https://cottonworld.net/collections/best-sellers-mens
+Spelling, grammar and consistency
+Low priority · Status: fail · Confidence: high · Owner: Content editor. Apply “Men’s” consistently to possessive collection names, anchors and headings. This is a display-copy correction, not an instruction to change URL handles. Labels such as “Shop Men” and phrases such as “for men” remain grammatically correct.
+T-Shirts — Complete Your Look: “Men'sT Chinos” → “Men’s Chinos”; “Mens Kurtas” → “Men’s Kurtas.” The live wording is plural “Kurtas,” rather than the singular example in the request.
+Shirts — first copy heading: replace the stray opening quotation mark after “Online” with a dash. Intro: “problem ”most” → “problem: most.”
+Shorts — first copy heading: replace the stray opening quotation mark before “Premium” with a dash and a space. Intro: “fabrics think” → “fabrics, including”. Pure Linen Shorts paragraph: “a matching Men’s Linen Shirts” → “a matching men’s linen shirt” and retain its corrected hyperlink.
+Pants — The Smart-Casual Office: “a tucked-in Men’s Polos” → “a tucked-in men’s polo shirt.”
+Cotton — Everyday Cotton Polos: “Our Men’s Polo combine” → “Our men’s polo shirts combine”. Smart-Casual Office Look: include the final “s” inside the “Men’s Chinos” hyperlink; it currently sits outside the anchor.
+Travel — FAQ 2: “texture. it shows” → “texture. It shows.”
+Summer — introductory paragraph: add a sentence break in “at the same time you just need the right materials.” The next paragraph also needs punctuation in “fibers think”.
+Brunch — opening heading: “Online- Premium” → “Online – Premium”.
+New Arrivals and the repeated collection-navigation label: use “Men’s New Arrivals” instead of “Men's new arrivals” for title-case consistency. Standardize T-Shirt/T-Shirts in collection labels; product-card titles currently mix Tshirt and T-Shirt.
+Other content issues found
+Medium priority · Status: fail · Confidence: high · Owner: Merchandising. The Kurtas collection publicly displays “Men's White Linen Cotton Regular Fit Kurta Shirt (Copy) - Testing”. Confirm whether it is a legitimate sale item; remove the test label if legitimate, or unpublish the test product if not. Evidence: https://cottonworld.net/collections/men-kurtas
+Medium priority · Status: fail (internal contradiction) · Confidence: high · Owner: Content editor + product team. Cotton copy describes the range as “100% premium natural cotton” while including Cotton Bamboo and Cotton Elastane blends in the same sentence. Describe the range as cotton and cotton blends; reserve 100% cotton for verified products.
+Medium priority · Status: not_checked_blocked (substantiation) · Confidence: high that claims are present; product-performance truth unverified · Owner: Product team. Source or qualify claims including “No fading, no sagging” (T-shirts), four-way stretch (Work, Travel, Pants), pre-washed fabrics (Work, Brunch, Shirts), garments being garment-dyed (Cotton, T-shirts, Shorts), bamboo odor resistance (T-shirts, Travel, Summer), and instant/minutes drying or cooling below ambient temperature (Linen, Summer, Shirts, Pants, Shorts). No supporting product tests or supplier documentation were supplied. Next action: obtain evidence or remove the absolute promise.
+Medium priority · Status: fail against saved brand voice · Confidence: high · Owner: Content editor. Across the 10 long-form descriptions, repeated hype such as “mandatory,” “unbeatable,” “ultimate,” and “king” conflicts with Cottonworld’s calm, practical voice. Reduce blanket claims and pressure-led styling advice. This is an editorial finding, not an AI-detector result.
+Low priority · Status: fail (hierarchy consistency) · Confidence: high · Owner: Shopify developer/content editor. Nine descriptions encode their section headings as H1, producing 8–10 H1s per page. Shirts was also confirmed in the browser. Keep the collection name as the page H1; use H2 for major copy sections and H3 for subsections. T-shirts instead uses H3 for all its major copy sections; align it with the same hierarchy. This is a structure correction, not a claim of a ranking penalty.
+Reference-sheet corrections
+The sheet itself contains errors, so its links should be validated before bulk replacement. Owner: collection-sheet maintainer. Confidence: high.
+Active Collections H27:H28 — Men’s and Women’s Bamboo URLs are swapped. The Men row should use https://cottonworld.net/collections/men-bamboo-clothes. Confirm the Women row separately before changing it; this review does not audit women’s collection content.
+A87 — the Men’s Shorts label contains a Women’s Shorts URL. Replace the label with “Men’s Shorts”; H87 already has the correct https://cottonworld.net/collections/mens-shorts destination.
+E116 — Men’s 100% Linen Pants is incorrectly named “Men’s 100% Linen Shirts”. The public URL in H116 is the Pants collection and returned HTTP 200.
+H6 — Men’s Top Picks points to https://cottonworld.net/collections/favourite-mens, which returned HTTP 404. The live shared Top Picks navigation uses https://cottonworld.net/collections/bestsellers. Confirm the intended men-only collection before replacing the sheet value.
+H58 — the row is marked Men but points to the mixed-gender /collections/monsoon page. The dedicated men’s route is /collections/mens-monsoon (H56). Clarify the row’s intended gender.
+G111:G113 repeat the same Shopify admin collection ID as the Cotton Linen entry, despite listing different public collections. Flag for the Shopify administrator to verify; admin destinations were not opened or validated in this public-site audit.
+Coverage and limits
+The 10 pages above contain the available long-form collection copy. The remaining 25 checked collection URLs are listed below so an absent description is not mistaken for an approved description. “No Read More body found” means none was found in the retrieved HTML; it is not a conclusion that the whole page is empty or error-free. New Arrivals and Kurtas were additionally checked in the browser.
+https://cottonworld.net/collections/bestsellers
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-new-arrivals
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-bundle
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/all-mens-clothing
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-bamboo-clothes
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/mens-monsoon
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/best-sellers-mens
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/cottonworld-mens-collection-top-wear
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-kurtas
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-jackets
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/all-bottomwear-men
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/the-essential-round-neck-bamboo-tee
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/loungewear-for-men
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/co-ord-sets-mens
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/gifts-for-men
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/favourite-mens
+HTTP 404 · Status: fail; page not found.
+https://cottonworld.net/collections/sale-menswear
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/monsoon
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/mens-chinos
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/mens-cotton-pants
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/men-linen-shirts
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/polo-collar
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/mens-joggers
+HTTP 200 · Status: fail; empty collection, browser verified.
+https://cottonworld.net/collections/100-linen-pants
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+https://cottonworld.net/collections/100-linen-shirts
+HTTP 200 · Long-form copy review: not_applicable; no Read More body found in captured HTML.
+Rows in the reference sheet without a public storefront URL were not treated as live collection pages. Women’s content, private Shopify settings, product-detail pages, mobile/accessibility, schema, keyword demand and analytics were not audited. Existing copy was reviewed; no blog was written, no ZeroGPT pass is claimed, and no publish-ready rewrite is being delivered.
+Next action: the Shopify content editor should replace all 89 incorrect destination occurrences, Merchandising should resolve the five Joggers links and the testing product, and the content editor should apply the copy corrections. Then recheck the updated rendered descriptions and every changed link. Expected impact: fewer dead-end journeys and clearer paths to the intended collections; no traffic or revenue uplift is estimated.
+Provenance run: 20260916-mens-collection-review. Raw collection captures, reference-sheet values, destination responses, per-link statuses and browser notes are recorded in the Cottonworld audit log.

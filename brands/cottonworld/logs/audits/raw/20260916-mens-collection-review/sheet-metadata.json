@@ -1,0 +1,153 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "spreadsheetId": "1KsQopiuXOHzq22j0ppyOBSQdkLcAfVrq6aftb9I7iyU",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1KsQopiuXOHzq22j0ppyOBSQdkLcAfVrq6aftb9I7iyU/edit",
+    "properties": {
+      "title": "Cottonworld Collections",
+      "locale": "en_GB",
+      "timeZone": "Asia/Calcutta"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 1368766969,
+          "title": "Collections",
+          "index": 0,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 971,
+            "columnCount": 25
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1796246006,
+          "title": "Active Collections",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 999,
+            "columnCount": 28,
+            "frozenRowCount": 1
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 702843831,
+          "title": "All collections",
+          "index": 2,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 184,
+            "columnCount": 24,
+            "frozenRowCount": 1,
+            "frozenColumnCount": 1
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 2094827398,
+          "title": "Sheet32",
+          "index": 3,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 27
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1972198783,
+          "title": "Delete Collections",
+          "index": 4,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 179,
+            "columnCount": 24,
+            "frozenRowCount": 1
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 936846607,
+          "title": "Req. collection and tags",
+          "index": 5,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1018,
+            "columnCount": 26,
+            "frozenRowCount": 1
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1660203897,
+          "title": "Sheet28",
+          "index": 6,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 27
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 334546290,
+          "title": "Product Descriptions Missing",
+          "index": 7,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1332829342,
+          "title": "Sheet30",
+          "index": 8,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1431342989,
+          "title": "Stretch",
+          "index": 9,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      }
+    ]
+  },
+  "isError": false
+}

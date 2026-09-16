@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-16",
+  "method": "Codex browser DOM and accessibility inspection; T-shirt Read More accordion expanded",
+  "observations": [
+    {"url":"https://cottonworld.net/collections/mens-tshirts","result":"Rendered Complete Your Look includes Men'sT Chinos and Mens Kurtas; rendered anchor hrefs match all 16 extracted body links in pages.json."},
+    {"url":"https://cottonworld.net/collections/mens-joggers","result":"Rendered heading MEN'S JOGGERS; 0 items; No products found."},
+    {"url":"https://cottonworld.net/collections/mens-shirts","result":"DOM has 10 H1 headings, including Buy Men's Shirts Online “ Premium Cotton & Linen Shirts for Everyday Style. Read More body present."},
+    {"url":"https://cottonworld.net/collections/men-kurtas","result":"Heading Men's Kurtas. No Read More body. Product card Men's White Linen Cotton Regular Fit Kurta Shirt (Copy) - Testing is present.","product_url":"https://cottonworld.net/products/mens-white-linen-cotton-regular-fit-kurta-shirt-copy?variant=52064412106983"},
+    {"url":"https://cottonworld.net/collections/men-new-arrivals","result":"Heading Men's new arrivals. No Read More body in rendered DOM."}
+  ]
+}
