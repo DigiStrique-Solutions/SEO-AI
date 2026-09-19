@@ -1,0 +1,67 @@
+{
+  "claims": [
+    {
+      "claim_id": "product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Featured fit, rise, wash, finish and fabric facts match live Spykar product pages checked 2026-09-19.",
+      "source_ids": [
+        "men-black-jeans",
+        "women-dark-flare-jeans"
+      ],
+      "statement": "Featured product facts are sourced from current product pages."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-19T07:38:36+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-19T07:37:16+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://spykar.com/blogs/blog/dressy-festive-denim-ideas"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand with practical, fit-led styling rules.",
+      "source_id": "brand",
+      "source_ref": "brands/spykar/knowledge.md and style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Requested topic: Denim for the Festive Season: 10 Ways to Make Jeans Look More Dressy.",
+      "source_id": "brief",
+      "source_ref": "User brief 2026-09-19",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Competitor coverage uses clean washes, elevated tops, layers, shoes and accessories; this article uses original dress-code-aware 10-way structure.",
+      "source_id": "serp",
+      "source_ref": "Live SERP review 2026-09-19: WhoWhatWear, Femina and HannaBanna",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Men Chico Jeans Relaxed Fit Black Mid Rise: relaxed fit, mid rise, cotton stretch, clean look and stretch.",
+      "source_id": "men-black-jeans",
+      "source_ref": "https://spykar.com/products/mdynr1bf149carbonblack",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Flare Fit Jeans Flare Leg Dark Blue High Rise: high rise, full length, clean finish, five pockets and stretch.",
+      "source_id": "women-dark-flare-jeans",
+      "source_ref": "https://spykar.com/products/wdfla2bf047darkblue",
+      "source_type": "product_page"
+    }
+  ]
+}
