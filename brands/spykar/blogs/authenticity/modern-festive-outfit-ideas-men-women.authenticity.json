@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "claim_id": "product-facts",
+      "claim_type": "product_fact",
+      "criteria": "Fit, colour, fabric, construction and availability match the live Spykar product pages and Shopify product JSON checked on 2026-09-19; no price claim appears.",
+      "source_ids": [
+        "spykar-chico-black-jeans",
+        "spykar-yellow-boxy-shirt"
+      ],
+      "statement": "Featured product attributes match current Spykar product-page evidence."
+    },
+    {
+      "claim_id": "internal-links",
+      "claim_type": "product_fact",
+      "criteria": "Product, collection and supporting-blog destinations were checked live before drafting.",
+      "source_ids": [
+        "spykar-live-internal-pages"
+      ],
+      "statement": "The body uses contextual internal product, collection, supporting-guide and CTA links."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-19T07:29:55+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-19T07:28:30+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "https://spykar.com/blogs/blog/modern-festive-outfit-ideas-men-women"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led youth brand; blogs require practical styling, restrained claims, product evidence, a banner, internal links and Google Doc delivery.",
+      "source_id": "spykar-brand-guidance",
+      "source_ref": "brands/spykar/knowledge.md and brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Requested topic: What to Wear This Festive Season: Modern Outfit Ideas for Men and Women.",
+      "source_id": "user-topic",
+      "source_ref": "User brief dated 2026-09-19",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Relevant guides use practical occasion, colour, comfort and modern-fusion angles. The Spykar article uses its own men-and-women planning structure.",
+      "source_id": "festive-serp",
+      "source_ref": "Live Google SERP review on 2026-09-19: Femina, Hindustan Times and OtokoStyle",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Men Chico Jeans Relaxed Fit Black Mid Rise: available, cotton stretch, black, relaxed fit, mid rise, clean look and stretch.",
+      "source_id": "spykar-chico-black-jeans",
+      "source_ref": "https://spykar.com/products/mdynr1bf149carbonblack and Shopify product JSON accessed 2026-09-19",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Women Shirt Solid Yellow Boxy Fit: available, 88% cotton and 12% linen, boxy fit, half sleeves, spread collar and button closure.",
+      "source_id": "spykar-yellow-boxy-shirt",
+      "source_ref": "https://spykar.com/products/wshsos1bf141amberyellow and Shopify product JSON accessed 2026-09-19",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Internal targets were selected from live Spykar product, collection and supporting-content pages.",
+      "source_id": "spykar-live-internal-pages",
+      "source_ref": "https://spykar.com/products/mdynr1bf149carbonblack; https://spykar.com/products/wshsos1bf141amberyellow; https://spykar.com/collections/men-jeans; https://spykar.com/collections/women-jeans; https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "source_type": "product_page"
+    }
+  ]
+}
