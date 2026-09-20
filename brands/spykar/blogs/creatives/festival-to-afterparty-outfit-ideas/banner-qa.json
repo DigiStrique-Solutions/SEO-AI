@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-20",
+  "master": "festival-to-afterparty-banner.png",
+  "web": "festival-to-afterparty-banner-800x600.jpg",
+  "result": "pass",
+  "checks": {
+    "topic_and_denim_visible": "pass",
+    "headline_exact": "pass: FESTIVAL TO LATE",
+    "headline_legible_and_safe": "pass",
+    "anatomy_and_garment_detail": "pass",
+    "no_logo_watermark_or_unsupported_claim": "pass",
+    "distinct_from_recent_creatives": "pass: blue-hour street-to-cab departure scene rather than prior courtyard, dressing-room or restaurant-terrace scenes",
+    "web_export_dimensions": "pass: 800x600"
+  }
+}

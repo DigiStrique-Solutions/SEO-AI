@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "claim_id": "men-product-fact",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "men-chico-product"
+      ],
+      "statement": "The men\u2019s product name, fit, rise and colour are current linked product-page facts."
+    },
+    {
+      "claim_id": "women-product-fact",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "women-elissa-product"
+      ],
+      "statement": "The women\u2019s product name, fit, rise and colour are current linked product-page facts."
+    },
+    {
+      "claim_id": "voice-and-serp",
+      "claim_type": "editorial_context",
+      "source_ids": [
+        "spykar-knowledge",
+        "spykar-style-guide",
+        "serp-benchmark-20260920"
+      ],
+      "statement": "The draft follows Spykar\u2019s approved practical voice and uses original transition-dressing guidance informed by a reviewed SERP benchmark."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-20T17:30:00+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-20T17:27:33+00:00",
+    "intent": "informational, styling guidance with relevant ecommerce next steps",
+    "primary_keyword": "festival-to-afterparty outfit ideas",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "brands/spykar/blogs/festival-to-afterparty-outfit-ideas.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is a denim-led Indian youth-fashion brand with a fit-led, expressive voice; denim, shirts, jackets and casualwear are core categories.",
+      "source_id": "spykar-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Use practical Indian-English styling advice, short sections and subtle product integration; each blog needs a topic-led banner and verified product images.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Live product title: Men Chico Jeans Relaxed Fit Dark Blue Mid Rise. The article uses this live product only as a linked dark-blue relaxed-jeans option.",
+      "source_id": "men-chico-product",
+      "source_ref": "https://spykar.com/products/mdltd2bf302darkblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product title: Women Elissa Jeans Boot Cut Fit Jet Black High Rise. The article uses this live product only as a linked jet-black bootcut-jeans option.",
+      "source_id": "women-elissa-product",
+      "source_ref": "https://spykar.com/products/wdeli2bf046jetblack",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Accessed 2026-09-20. Femina uses a fashion-feature narrative with cultural context; iSU Fashion uses a practical, product-led party-denim explainer; Who What Wear uses a numbered outfit roundup with style notes. This article uses a distinct transition-dressing angle.",
+      "source_id": "serp-benchmark-20260920",
+      "source_ref": "https://www.femina.in/fashion/trends/the-new-code-of-festive-dressing-is-being-written-in-denim-291437.html | https://isufashion.com/blogs/news/can-you-wear-denim-to-a-party-how-to-style-fashion-jeans-for-festive-nights | https://www.whowhatwear.com/holiday-outfits-with-jeans",
+      "source_type": "serp"
+    }
+  ]
+}

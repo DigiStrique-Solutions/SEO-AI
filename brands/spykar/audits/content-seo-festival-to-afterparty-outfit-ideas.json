@@ -1,0 +1,16 @@
+{
+  "audit_id": "content-seo-festival-to-afterparty-outfit-ideas-20260920",
+  "target": "brands/spykar/blogs/published/festival-to-afterparty-outfit-ideas.md",
+  "status": "pass_with_external_detector_limitation",
+  "checked_at": "2026-09-20",
+  "checks": [
+    {"item":"Primary keyword in title, introduction and heading","status":"pass","evidence":"Published draft title, second introduction paragraph and article metadata."},
+    {"item":"Meta title and description","status":"pass","evidence":"Front matter contains a 43-character title and a 154-character description."},
+    {"item":"Internal links","status":"pass","evidence":"Seven contextual direct internal links: two product pages, men and women collections, supporting shirt-and-jeans blog, and conclusion commercial links. All returned HTTP 200 on 2026-09-20."},
+    {"item":"Image alt text and actual product visuals","status":"pass","evidence":"Article includes unique banner alt text and two downloaded live Spykar product images, embedded in the native Google Doc."},
+    {"item":"FAQ and matching FAQPage schema","status":"pass","evidence":"Five visible FAQs and a matching five-question FAQPage JSON-LD block."},
+    {"item":"SERP benchmark","status":"pass","evidence":"Three relevant live pages recorded in authenticity and content logs on 2026-09-20; article uses an original transition-dressing angle."},
+    {"item":"Local AI-pattern risk","status":"pass","evidence":"seo_audit_harness verify-authenticity score 6.0, below the 20 threshold."},
+    {"item":"External ZeroGPT","status":"not_checked_blocked","evidence":"ZeroGPT returned 403 Not enough credits on 2026-09-20; local-fallback score was recorded but is not an external verification.","next_action":"Re-run zerogpt-check when account credit is available before claiming external-detector verification."}
+  ]
+}

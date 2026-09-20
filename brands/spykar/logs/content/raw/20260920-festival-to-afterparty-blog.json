@@ -1,0 +1,24 @@
+{
+  "run_id": "spykar-festival-to-afterparty-20260920",
+  "accessed_at": "2026-09-20",
+  "topic": "Festival-to-Afterparty: Outfit Ideas That Work Beyond the Celebration",
+  "serp_query": "festival to afterparty outfit ideas India",
+  "serp_benchmark": [
+    {"url":"https://www.femina.in/fashion/trends/the-new-code-of-festive-dressing-is-being-written-in-denim-291437.html","tone":"fashion-feature narrative with Indian cultural context","length":"long-form feature","structure":"headline, byline, narrative introduction, trend commentary"},
+    {"url":"https://isufashion.com/blogs/news/can-you-wear-denim-to-a-party-how-to-style-fashion-jeans-for-festive-nights","tone":"direct and product-led","length":"medium guide","structure":"question-led introduction, party-denim breakdown, shopping-oriented sections"},
+    {"url":"https://www.whowhatwear.com/holiday-outfits-with-jeans","tone":"editorial and conversational","length":"medium-long roundup","structure":"introductory premise, numbered outfit ideas, style notes"}
+  ],
+  "product_evidence": [
+    {"url":"https://spykar.com/products/mdltd2bf302darkblue","title":"Men Chico Jeans Relaxed Fit Dark Blue Mid Rise","http_status":200,"image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDLTD2BF302Dark_Blue_5.jpg?v=1786525668"},
+    {"url":"https://spykar.com/products/wdeli2bf046jetblack","title":"Women Elissa Jeans Boot Cut Fit Jet Black High Rise","http_status":200,"image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/WDELI2BF046JET_BLACK_5.jpg?v=1786524452"}
+  ],
+  "internal_link_verification": [
+    {"url":"https://spykar.com/products/mdltd2bf302darkblue","status":200},
+    {"url":"https://spykar.com/products/wdeli2bf046jetblack","status":200},
+    {"url":"https://spykar.com/collections/men-jeans","status":200},
+    {"url":"https://spykar.com/collections/women-jeans","status":200},
+    {"url":"https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas","status":200}
+  ],
+  "creative": {"tool":"built-in image generation","headline":"FESTIVAL TO LATE","master":"brands/spykar/blogs/creatives/festival-to-afterparty-outfit-ideas/festival-to-afterparty-banner.png","web":"brands/spykar/blogs/creatives/festival-to-afterparty-outfit-ideas/festival-to-afterparty-banner-800x600.jpg","qa":"pass"},
+  "google_doc":"https://docs.google.com/document/d/12Up1zWYb2ljnXlybAPG-b-gYpnNijIYW6BdFsuPy-Jk/edit"
+}
