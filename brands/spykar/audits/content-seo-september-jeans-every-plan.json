@@ -1,0 +1,17 @@
+{
+  "audit_id": "content-seo-september-jeans-every-plan-20260920",
+  "target": "brands/spykar/blogs/published/september-jeans-every-plan.md",
+  "status": "pass_with_external_detector_limitation",
+  "checked_at": "2026-09-20",
+  "checks": [
+    {"item":"Intent, title and keyword placement","status":"pass","evidence":"Informational September outfit-planning intent is addressed in the title, introduction, metadata and first H2."},
+    {"item":"Seasonal differentiation and overlap control","status":"pass","evidence":"Existing Spykar articles cover monsoon college dressing and women’s workday/weekend/festive jeans; this post focuses on the September routine across all four named plans."},
+    {"item":"Meta title and description","status":"pass","evidence":"Front matter contains a 53-character meta title and 157-character meta description."},
+    {"item":"Internal links","status":"pass","evidence":"Seven contextual direct internal links: two product pages, men and women collections, a supporting shirts-and-jeans guide, and conclusion commercial links. All returned HTTP 200 on 2026-09-20."},
+    {"item":"Image alt text and verified product visuals","status":"pass","evidence":"Unique banner alt text and two downloaded live Spykar product images are present in the handoff and embedded in the native Google Doc."},
+    {"item":"FAQ and matching FAQPage schema","status":"pass","evidence":"Five visible FAQs and a corresponding five-question FAQPage JSON-LD block."},
+    {"item":"SERP benchmark","status":"pass","evidence":"Three relevant live organic pages were recorded with tone, approximate depth and structure in the content log on 2026-09-20."},
+    {"item":"Local AI-pattern risk","status":"pass","evidence":"seo_audit_harness verify-authenticity score 6.0, below the 20 threshold."},
+    {"item":"External ZeroGPT","status":"not_checked_blocked","evidence":"ZeroGPT returned 403 Not enough credits on 2026-09-20. The local fallback score was recorded but is not external verification.","next_action":"Re-run zerogpt-check when account credit is available before claiming external-detector verification."}
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "claim_id": "men-product-fact",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "men-ikemen-product"
+      ],
+      "statement": "The men\u2019s product name, fit, rise and colour are current linked product-page facts."
+    },
+    {
+      "claim_id": "women-product-fact",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "women-elissa-product"
+      ],
+      "statement": "The women\u2019s product name, fit, rise and colour are current linked product-page facts."
+    },
+    {
+      "claim_id": "voice-and-serp",
+      "claim_type": "editorial_context",
+      "source_ids": [
+        "spykar-knowledge",
+        "spykar-style-guide",
+        "serp-benchmark-20260920"
+      ],
+      "statement": "The draft follows approved Spykar practical styling guidance and uses original occasion-based coverage informed by a three-page SERP benchmark."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-20T17:54:46+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-20T17:53:54+00:00",
+    "intent": "informational outfit planning with relevant ecommerce next steps",
+    "primary_keyword": "September jeans outfit ideas",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "brands/spykar/blogs/september-jeans-every-plan.md"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Spykar is a denim-led Indian youth-fashion brand. Fit, movement, personal expression, shirts, jackets and casualwear are relevant brand-supported contexts.",
+      "source_id": "spykar-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Spykar blog copy uses practical Indian-English styling guidance, topic-led banners, short scannable sections, product references and a soft commercial CTA.",
+      "source_id": "spykar-style-guide",
+      "source_ref": "brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Live product title: Men Ikemen Jeans Loose Fit Dark Blue Low Rise. The article links it only as a dark-blue loose-fit product option.",
+      "source_id": "men-ikemen-product",
+      "source_ref": "https://spykar.com/products/mdact2bf347darkblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product title: Women Elissa Jeans Boot Cut Fit Dark Blue High Rise. The article links it only as a dark-blue high-rise bootcut product option.",
+      "source_id": "women-elissa-product",
+      "source_ref": "https://spykar.com/products/wdeli2bf039darkblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Accessed 2026-09-20. Bankstown Central uses three occasion-led looks; Style2Bloom uses a large curated outfit library with formula-led guidance; Vogue India applies a September seasonal angle with denim examples. This article uses a distinct India-focused September routine with college, permitted workwear, dates and weekend planning.",
+      "source_id": "serp-benchmark-20260920",
+      "source_ref": "https://www.bankstowncentral.com.au/news/styling-a-pair-of-jeans-for-all-occasions | https://style2bloom.com/outfits/jeans | https://www.vogue.in/promotion/this-september-keep-a-check-on-your-denim-core",
+      "source_type": "serp"
+    }
+  ]
+}

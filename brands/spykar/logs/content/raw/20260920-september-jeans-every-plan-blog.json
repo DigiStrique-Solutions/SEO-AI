@@ -1,0 +1,24 @@
+{
+  "run_id": "spykar-september-jeans-every-plan-20260920",
+  "accessed_at": "2026-09-20",
+  "topic": "Jeans for Every September Plan: College, Work, Dates and Weekend Outings",
+  "serp_query": "September jeans outfit ideas college work date weekend India",
+  "serp_benchmark": [
+    {"url":"https://www.bankstowncentral.com.au/news/styling-a-pair-of-jeans-for-all-occasions","tone":"approachable and service-led","length":"short-medium","structure":"introductory premise followed by occasion-led looks"},
+    {"url":"https://style2bloom.com/outfits/jeans","tone":"editorial and formula-led","length":"long outfit library","structure":"styling formula, curated looks and occasion coverage"},
+    {"url":"https://www.vogue.in/promotion/this-september-keep-a-check-on-your-denim-core","tone":"seasonal promotional fashion editorial","length":"short-medium","structure":"September premise followed by denim examples"}
+  ],
+  "product_evidence": [
+    {"url":"https://spykar.com/products/mdact2bf347darkblue","title":"Men Ikemen Jeans Loose Fit Dark Blue Low Rise","http_status":200,"image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDACT2BF347DARK_BLUE_5.png?v=1788329430"},
+    {"url":"https://spykar.com/products/wdeli2bf039darkblue","title":"Women Elissa Jeans Boot Cut Fit Dark Blue High Rise","http_status":200,"image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/WDELI2BF039Dark_Blue_5.jpg?v=1786524417"}
+  ],
+  "internal_link_verification": [
+    {"url":"https://spykar.com/products/mdact2bf347darkblue","status":200},
+    {"url":"https://spykar.com/products/wdeli2bf039darkblue","status":200},
+    {"url":"https://spykar.com/collections/men-jeans","status":200},
+    {"url":"https://spykar.com/collections/women-jeans","status":200},
+    {"url":"https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas","status":200}
+  ],
+  "creative": {"tool":"built-in image generation","headline":"SEPTEMBER, SORTED","master":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner.png","web":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner-800x600.jpg","qa":"pass"},
+  "google_doc":"https://docs.google.com/document/d/1EWi11xD5ZzdoV94jPK5PFUshxNUS0lYeuZqY2zaXrhE/edit"
+}

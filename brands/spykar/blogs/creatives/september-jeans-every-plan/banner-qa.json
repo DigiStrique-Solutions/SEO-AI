@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-20",
+  "master": "september-jeans-every-plan-banner.png",
+  "web": "september-jeans-every-plan-banner-800x600.jpg",
+  "result": "pass",
+  "checks": {
+    "topic_and_denim_visible": "pass",
+    "headline_exact": "pass: SEPTEMBER, SORTED",
+    "headline_legible_and_safe": "pass",
+    "anatomy_and_garment_detail": "pass",
+    "no_logo_watermark_or_unsupported_claim": "pass",
+    "distinct_from_recent_creatives": "pass: daylight metro-concourse movement with a full-width lower headline strip, unlike the prior after-dark street-to-cab scene and earlier courtyard, dressing-room and terrace banners",
+    "web_export_dimensions": "pass: 800x600"
+  }
+}
