@@ -1,0 +1,60 @@
+{
+  "run_id": "spykar-content-20260921-light-blue-black-dark-wash-jeans-september",
+  "accessed_at": "2026-09-21",
+  "target": "https://spykar.com/blogs/blog/light-blue-black-dark-wash-jeans-september",
+  "serp_benchmark": {
+    "query": "how to choose jeans wash light blue black dark wash",
+    "results": [
+      {
+        "url": "https://knowmyitems.com/anatomy/denim-wash/",
+        "title": "Jeans Denim Wash: Every Option Explained",
+        "tone": "technical and explanatory",
+        "length": "long-form guide",
+        "structure": "definition, numbered wash options, factual explainer sections"
+      },
+      {
+        "url": "https://seakoff.com/blogs/style-guide/what-is-washed-black-jeans-style-guide",
+        "title": "Washed Black Jeans: The Complete Definition & Styling Guide",
+        "tone": "detailed editorial product education",
+        "length": "long-form guide",
+        "structure": "definition, process explanation, comparison, styling guidance"
+      },
+      {
+        "url": "https://eu.lee.com/uk-en/denim-colours-guide.html",
+        "title": "How To Choose Denim Colours That Work All Year Round",
+        "tone": "friendly retail editorial",
+        "length": "medium-length guide",
+        "structure": "colour-based selection, seasonal context, supporting style links"
+      }
+    ],
+    "adaptation": "Original Spykar article uses a September plan/top/footwear decision path, real India-facing lifestyle settings, verified Spykar product examples, and does not reproduce any competitor wording or section order."
+  },
+  "product_sources": [
+    {
+      "url": "https://spykar.com/products/mdynr1bf149carbonblack",
+      "title": "Men Chico Jeans Relaxed Fit Black Mid Rise",
+      "image": "https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDYNR1BF149CARBONBLACK_2.webp?v=1772529562",
+      "verified_http_status": 200
+    },
+    {
+      "url": "https://spykar.com/products/wdeli2bf043lightblue",
+      "title": "Women Elissa Jeans Boot Cut Fit Light Blue High Rise",
+      "image": "https://cdn.shopify.com/s/files/1/0608/7874/9892/files/WDELI2BF043Light_Blue_6.jpg?v=1786524207",
+      "verified_http_status": 200
+    }
+  ],
+  "delivery": {
+    "google_doc": "https://docs.google.com/document/d/1ZEkCdDGIIi6qasMc6JA94xDYXSDadM0pOUm-ydIha_0/edit",
+    "template_source": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0",
+    "inline_images_verified": 3,
+    "native_heading_and_list_readback": "One Title, eight H1 sections, five H2 FAQ questions and six native bullets confirmed by Google Docs readback.",
+    "rendered_pdf_qa": "not_checked_blocked — Drive exported a user-scoped non-local file reference, so PDF pages could not be rasterized in this run."
+  },
+  "internal_link_verification": [
+    {"url": "https://spykar.com/products/mdynr1bf149carbonblack", "http_status": 200, "purpose": "contextual black jeans product"},
+    {"url": "https://spykar.com/products/wdeli2bf043lightblue", "http_status": 200, "purpose": "contextual light blue jeans product"},
+    {"url": "https://spykar.com/collections/men-jeans", "http_status": 200, "purpose": "men's denim collection and CTA"},
+    {"url": "https://spykar.com/collections/women-jeans", "http_status": 200, "purpose": "women's denim collection"},
+    {"url": "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas", "http_status": 200, "purpose": "supporting style guide"}
+  ]
+}

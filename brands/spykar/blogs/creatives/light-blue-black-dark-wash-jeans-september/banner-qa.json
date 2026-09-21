@@ -1,0 +1,20 @@
+{
+  "slug": "light-blue-black-dark-wash-jeans-september",
+  "checked_at": "2026-09-21",
+  "master": "light-blue-black-dark-wash-jeans-september-banner.png",
+  "web_export": "light-blue-black-dark-wash-jeans-september-banner-800x600.jpg",
+  "headline_expected": "LIGHT BLUE, BLACK OR DARK?",
+  "headline_verified": true,
+  "qa": {
+    "topic_defining_detail_visible": "pass — light blue, black and dark indigo folded denim are clear at first glance.",
+    "headline_legibility_and_safe_margins": "pass — exact headline is high-contrast, centred and inside the upper-third safe area.",
+    "anatomy_and_product_plausibility": "pass — denim folds, pockets, shoes and accessories are plausible; no people are depicted.",
+    "brand_safety": "pass — no logo, price, watermark, unsupported performance claim or third-party branding visible.",
+    "creative_distinction": "pass — an overhead tonal-study composition, unlike the prior transport, evening and festive lifestyle banners.",
+    "web_export_sharpness": "pass — inspected at 800 x 600; headline and denim washes remain legible."
+  },
+  "generation": {
+    "method": "built-in image generation",
+    "source_output": "C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-ccdd7d6c-5e9d-41af-9c9c-92cfc72e5bbb.png"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "product-men-chico-black"
+      ],
+      "statement": "Spykar lists Men Chico Jeans Relaxed Fit Black Mid Rise at the linked product URL."
+    },
+    {
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "product-women-elissa-light-blue"
+      ],
+      "statement": "Spykar lists Women Elissa Jeans Boot Cut Fit Light Blue High Rise at the linked product URL."
+    },
+    {
+      "claim_id": "claim-03",
+      "claim_type": "brand_fact",
+      "source_ids": [
+        "spykar-brand-knowledge"
+      ],
+      "statement": "Spykar is an India-focused, denim-led fashion brand with men's and women's denim collections."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-21T08:12:15+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-21T08:13:45+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-21T08:10:52+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "https://spykar.com/blogs/blog/light-blue-black-dark-wash-jeans-september"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Spykar is an India-focused, Shopify-based denim and casualwear ecommerce brand.",
+        "The brand's core categories include men's and women's denim."
+      ],
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Product page responded with HTTP 200 on 2026-09-21.",
+        "Product title: Men Chico Jeans Relaxed Fit Black Mid Rise.",
+        "Verified product image was used in the document."
+      ],
+      "source_id": "product-men-chico-black",
+      "source_ref": "https://spykar.com/products/mdynr1bf149carbonblack",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Product page responded with HTTP 200 on 2026-09-21.",
+        "Product title: Women Elissa Jeans Boot Cut Fit Light Blue High Rise.",
+        "Verified product image was used in the document."
+      ],
+      "source_id": "product-women-elissa-light-blue",
+      "source_ref": "https://spykar.com/products/wdeli2bf043lightblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant live organic guides were reviewed on 2026-09-21 for tone, length and section flow.",
+        "The new article uses an original September decision framework and does not reproduce competitor wording or structure."
+      ],
+      "source_id": "serp-benchmark-20260921",
+      "source_ref": "brands/spykar/logs/content/raw/20260921-light-blue-black-dark-wash-jeans-september-blog.json",
+      "source_type": "serp"
+    }
+  ]
+}

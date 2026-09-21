@@ -1,0 +1,19 @@
+{
+  "audit_id": "content-seo-light-blue-black-dark-wash-jeans-september",
+  "brand": "spykar",
+  "checked_at": "2026-09-21",
+  "target": "https://spykar.com/blogs/blog/light-blue-black-dark-wash-jeans-september",
+  "status": "partial_blocked_external_detector",
+  "checks": [
+    {"item": "Live SERP benchmark", "status": "pass", "evidence": "Three relevant organic sources are recorded in logs/content/raw/20260921-light-blue-black-dark-wash-jeans-september-blog.json."},
+    {"item": "Brand voice and canonical structure", "status": "pass", "evidence": "Draft follows Spykar style-guide.md and was copied from the canonical Google Docs template."},
+    {"item": "Meta title and description", "status": "pass", "evidence": "Meta title is 58 characters; meta description is 151 characters."},
+    {"item": "Internal links", "status": "pass", "evidence": "Six visible blue-underlined contextual links are in the Google Doc; five unique targets were verified HTTP 200."},
+    {"item": "Product images", "status": "pass", "evidence": "Two inline product visuals are sourced from verified live Spykar product pages; the topic banner is the third inline image."},
+    {"item": "FAQPage schema", "status": "pass", "evidence": "Matching five-question FAQPage schema is in the repository draft and published handoff."},
+    {"item": "Local AI-pattern risk", "status": "pass", "evidence": "Strique local AI text risk score: 6.0%, below the 20% threshold (verify report)."},
+    {"item": "External ZeroGPT", "status": "not_checked_blocked", "evidence": "ZeroGPT returned HTTP 403 / Not enough credits. Harness recorded a local-fallback 6.0% note; it is not an external result."},
+    {"item": "Google Doc rendered PDF QA", "status": "not_checked_blocked", "evidence": "Google Docs connector readback verified structure and three inline images. PDF export returned a non-local sediment reference, blocking page raster inspection."}
+  ],
+  "next_action": "Re-run the final draft through ZeroGPT once credits are available; then update the external-detector status."
+}
