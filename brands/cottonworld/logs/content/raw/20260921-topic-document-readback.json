@@ -1,0 +1,1346 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "documentId": "1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c",
+    "title": "Cottonworld — 3 Search-Led Blog Topic Opportunities",
+    "revisionId": "ANLCKQl-3jvu5ww93g3ViDwHEQz8Iy_ivH4iz6CYNS6dHK9FuusGN09bQKV8Yma6tRL45TWaNE-K80VotCdbnjfgma-6wERMyprwvu6p0AM",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "url": null,
+    "body": null,
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "parentTabId": null,
+        "index": 0,
+        "nestingLevel": null,
+        "iconEmoji": null,
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 41,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 41,
+                    "textRun": {
+                      "content": "Cottonworld: 3 blog topic opportunities\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.nm0158xiihp9",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 41,
+              "endIndex": 61,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 41,
+                    "endIndex": 59,
+                    "textRun": {
+                      "content": "Research checked: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 59,
+                    "endIndex": 60,
+                    "dateElement": {
+                      "dateId": "kix.x07z11wzre1w",
+                      "textStyle": {},
+                      "dateElementProperties": {
+                        "timestamp": "2026-09-21T00:00:00Z",
+                        "locale": "en",
+                        "dateFormat": "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+                        "timeFormat": "TIME_FORMAT_DISABLED",
+                        "displayText": "Sep 21, 2026"
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 60,
+                    "endIndex": 61,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 61,
+              "endIndex": 62,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 61,
+                    "endIndex": 62,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 62,
+              "endIndex": 380,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 62,
+                    "endIndex": 380,
+                    "textRun": {
+                      "content": "Recommended order: office dressing, repeat wear, then travel. These topics connect current search-result patterns with Cottonworld’s calm, practical approach to everyday life. Search presence and editorial coverage indicate opportunity; they do not prove growing India-wide search volume, competitor traffic or sales.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 380,
+              "endIndex": 464,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 380,
+                    "endIndex": 464,
+                    "textRun": {
+                      "content": "1. Hot Commute, Cold Office: What to Wear for Both Without Carrying a Second Outfit\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.e98csf7h4q0o",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 464,
+              "endIndex": 790,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 464,
+                    "endIndex": 790,
+                    "textRun": {
+                      "content": "Why this topic: Indian workwear results repeatedly address humidity, commuting and aggressive air conditioning. Haus of Handmade’s office-wear guide covers that exact tension; Sigma Code focuses on keeping linen presentable at work. The opportunity is a practical whole-day system, rather than another list of office outfits.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 790,
+              "endIndex": 1122,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 790,
+                    "endIndex": 1122,
+                    "textRun": {
+                      "content": "Distinctive angle: Follow one working day—commute, desk, meeting and journey home. Show a breathable base plus a removable layer, with examples for men and women. Address seated comfort, dress codes, transparency and realistic creasing. Treat rainy-day drying separately; do not promise sweat-proof or wrinkle-free natural fabrics.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1122,
+              "endIndex": 1380,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1122,
+                    "endIndex": 1380,
+                    "textRun": {
+                      "content": "Search targets: “what to wear in a cold office in summer”; “breathable office wear India”; “linen office outfits”. Proposed intent: informational with a clear shopping next step. Priority: first. Confidence: medium-high on relevance; demand size unverified.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1380,
+              "endIndex": 1562,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1380,
+                    "endIndex": 1397,
+                    "textRun": {
+                      "content": "Cottonworld fit: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1397,
+                    "endIndex": 1413,
+                    "textRun": {
+                      "content": "Workwear for men",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/workwear-for-men"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1413,
+                    "endIndex": 1418,
+                    "textRun": {
+                      "content": " and ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1418,
+                    "endIndex": 1436,
+                    "textRun": {
+                      "content": "Workwear for women",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/workwear-for-women"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1436,
+                    "endIndex": 1562,
+                    "textRun": {
+                      "content": " are live collection destinations. Build useful outfit examples around verified products and their actual fabric composition.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1562,
+              "endIndex": 1634,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1562,
+                    "endIndex": 1572,
+                    "textRun": {
+                      "content": "Evidence: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1572,
+                    "endIndex": 1601,
+                    "textRun": {
+                      "content": "Haus of Handmade office guide",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://www.hausofhandmade.com/blogs/news/office-wear-for-women-india-2026"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1601,
+                    "endIndex": 1603,
+                    "textRun": {
+                      "content": "; ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1603,
+                    "endIndex": 1632,
+                    "textRun": {
+                      "content": "Sigma Code linen office guide",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://sigmacode.in/blog/linen-office-without-looking-crushed"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1632,
+                    "endIndex": 1634,
+                    "textRun": {
+                      "content": ".\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1634,
+              "endIndex": 1697,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1634,
+                    "endIndex": 1697,
+                    "textRun": {
+                      "content": "2. Same Clothes, Different Days: A 7-Day Outfit-Repeating Plan\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ygztlneazlcg",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1697,
+              "endIndex": 2081,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1697,
+                    "endIndex": 2081,
+                    "textRun": {
+                      "content": "Why this topic: Depop’s primary 2026 trend report identifies “Modern Uniforms”: dependable silhouettes, repeatable staples and less reinvention. This is a platform-specific international signal, not a measurement of Indian demand. Indian minimalist-wardrobe results also favour practical capsule lists, while recent community discussions show continued interest in repeating outfits.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2081,
+              "endIndex": 2437,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2081,
+                    "endIndex": 2437,
+                    "textRun": {
+                      "content": "Distinctive angle: Start with clothes the reader already owns. Map a normal week across work, errands, dinner and rest, showing how a familiar shirt or pair of trousers can return in different combinations. Include a realistic laundry rotation and separate repeating a garment from wearing it unwashed. Avoid turning the article into a shopping checklist.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2437,
+              "endIndex": 2664,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2437,
+                    "endIndex": 2664,
+                    "textRun": {
+                      "content": "Search targets: “how to repeat outfits”; “outfit repeating ideas”; “minimalist wardrobe India”. Proposed intent: informational and brand discovery. Priority: second. Confidence: high on brand fit, medium on search opportunity.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2664,
+              "endIndex": 2957,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2664,
+                    "endIndex": 2957,
+                    "textRun": {
+                      "content": "Cottonworld fit: This directly expresses the brand’s slow-living principle—fewer unnecessary decisions and more use from everyday clothing. Mention a new piece only when it fills an identified wardrobe gap. Keep the existing broad slow-living article distinct from this practical weekly plan.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2957,
+              "endIndex": 3039,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2957,
+                    "endIndex": 2967,
+                    "textRun": {
+                      "content": "Evidence: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2967,
+                    "endIndex": 2990,
+                    "textRun": {
+                      "content": "Depop 2026 trend report",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2990,
+                    "endIndex": 2992,
+                    "textRun": {
+                      "content": "; ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2992,
+                    "endIndex": 3037,
+                    "textRun": {
+                      "content": "CommonGround Indian minimalist wardrobe guide",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://common-ground.in/blogs/style-guide/minimalist-outfits-women-india"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3037,
+                    "endIndex": 3039,
+                    "textRun": {
+                      "content": ".\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3039,
+              "endIndex": 3121,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3039,
+                    "endIndex": 3121,
+                    "textRun": {
+                      "content": "3. Five Days, One Cabin Bag: A Cotton-and-Linen Wardrobe for a Warm-Weather Break\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.75l8cje9g82a",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3121,
+              "endIndex": 3445,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3121,
+                    "endIndex": 3445,
+                    "textRun": {
+                      "content": "Why this topic: Current results include both five-day cabin-bag checklists and India-specific travel outfit guides. WNTR uses a packing list and checklist format; Zero Label organises advice around destinations and a clothing capsule. The opportunity is to combine a usable itinerary with honest natural-fabric care advice.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3445,
+              "endIndex": 3825,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3445,
+                    "endIndex": 3825,
+                    "textRun": {
+                      "content": "Distinctive angle: Plan outfits for transit, walking, a relaxed dinner and repeat wear. Show which items do two jobs, where an extra clean top matters, and how to plan around laundry access, humidity and linen creasing. Include a compact day-by-day outfit grid. Test the final packing list with actual items; do not promise a particular bag weight or universal airline allowance.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3825,
+              "endIndex": 4092,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3825,
+                    "endIndex": 4092,
+                    "textRun": {
+                      "content": "Search targets: “5 day trip packing list”; “travel capsule wardrobe India”; “cotton linen travel outfits”. Proposed intent: practical planning with shopping relevance. Priority: third. Confidence: medium; current coverage is verified, growth in search demand is not.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4092,
+              "endIndex": 4270,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4092,
+                    "endIndex": 4109,
+                    "textRun": {
+                      "content": "Cottonworld fit: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4109,
+                    "endIndex": 4123,
+                    "textRun": {
+                      "content": "Travel for men",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/travel-for-men"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4123,
+                    "endIndex": 4128,
+                    "textRun": {
+                      "content": " and ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4128,
+                    "endIndex": 4144,
+                    "textRun": {
+                      "content": "Travel for women",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/travel-for-women"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4144,
+                    "endIndex": 4270,
+                    "textRun": {
+                      "content": " are live destinations. Frame clothing as a way to spend less time packing and deciding, leaving more attention for the trip.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4270,
+              "endIndex": 4342,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4270,
+                    "endIndex": 4280,
+                    "textRun": {
+                      "content": "Evidence: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4280,
+                    "endIndex": 4309,
+                    "textRun": {
+                      "content": "WNTR five-day cabin-bag guide",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://wntrtravel.com/blogs/dossier/how-to-pack-a-cabin-bag-for-a-5-day-trip-with-checklist"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4309,
+                    "endIndex": 4311,
+                    "textRun": {
+                      "content": "; ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4311,
+                    "endIndex": 4340,
+                    "textRun": {
+                      "content": "Zero Label India travel guide",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://www.zerolabel.in/blogs/news/travel-outfit-ideas-for-women-what-to-pack-for-india-trips"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4340,
+                    "endIndex": 4342,
+                    "textRun": {
+                      "content": ".\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4342,
+              "endIndex": 4358,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4342,
+                    "endIndex": 4358,
+                    "textRun": {
+                      "content": "Editorial notes\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.wdr46yumi0t",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4358,
+              "endIndex": 4764,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4358,
+                    "endIndex": 4764,
+                    "textRun": {
+                      "content": "Keep the openings rooted in life, then bring clothing into the solution. Use a calm, specific voice. These are topic recommendations, not completed blog drafts. Before writing, benchmark the top three relevant organic blog results for each final title, recording tone, length and structure. Final drafts still require source checking, three relevant verified internal links and the mandatory ZeroGPT gate.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4764,
+              "endIndex": 5001,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4764,
+                    "endIndex": 4778,
+                    "textRun": {
+                      "content": "Cottonworld’s ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4778,
+                    "endIndex": 4793,
+                    "textRun": {
+                      "content": "live blog index",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.101960786,
+                              "green": 0.3019608,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/blogs/blog"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4793,
+                    "endIndex": 5001,
+                    "textRun": {
+                      "content": " still contains Lorem Ipsum excerpts. Repair and recheck those existing pages before publishing new articles. This observation concerns the index excerpts; all article bodies were not re-audited in this run.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5001,
+              "endIndex": 5302,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5001,
+                    "endIndex": 5302,
+                    "textRun": {
+                      "content": "Method: live web searches, selected result-page reviews, Cottonworld homepage/blog index and work/travel collections, plus the brand’s saved context and knowledge. Results are a current search sample, not a location-controlled Google India rank report. No search-volume or conversion claims are made.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5302,
+              "endIndex": 5303,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5302,
+                    "endIndex": 5303,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        },
+        "headers": null,
+        "footers": null,
+        "footnotes": null,
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "suggestedDocumentStyleChanges": null,
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 115,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "COLLAPSE_LISTS",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "fontSize": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.2627451,
+                      "green": 0.2627451,
+                      "blue": 0.2627451
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 26,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 3,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 15,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "suggestedNamedStylesChanges": null,
+        "lists": null,
+        "namedRanges": null,
+        "inlineObjects": null,
+        "positionedObjects": null,
+        "documentId": "1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c",
+        "document_url": "https://docs.google.com/document/d/1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c"
+      }
+    ],
+    "document_url": "https://docs.google.com/document/d/1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c"
+  },
+  "isError": false
+}

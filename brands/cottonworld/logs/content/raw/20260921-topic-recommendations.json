@@ -1,0 +1,72 @@
+{
+  "run_id": "cottonworld-blog-topics-20260921",
+  "access_date": "2026-09-21",
+  "scope": "Three researched blog topic recommendations, not blog drafts",
+  "document_url": "https://docs.google.com/document/d/1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c",
+  "topics": [
+    "1. Hot Commute, Cold Office: What to Wear for Both Without Carrying a Second Outfit",
+    "2. Same Clothes, Different Days: A 7-Day Outfit-Repeating Plan",
+    "3. Five Days, One Cabin Bag: A Cotton-and-Linen Wardrobe for a Warm-Weather Break"
+  ],
+  "sources": [
+    {
+      "label": "Haus of Handmade office guide",
+      "url": "https://www.hausofhandmade.com/blogs/news/office-wear-for-women-india-2026"
+    },
+    {
+      "label": "Sigma Code linen office guide",
+      "url": "https://sigmacode.in/blog/linen-office-without-looking-crushed"
+    },
+    {
+      "label": "Depop 2026 trend report",
+      "url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/"
+    },
+    {
+      "label": "CommonGround Indian minimalist wardrobe guide",
+      "url": "https://common-ground.in/blogs/style-guide/minimalist-outfits-women-india"
+    },
+    {
+      "label": "WNTR five-day cabin-bag guide",
+      "url": "https://wntrtravel.com/blogs/dossier/how-to-pack-a-cabin-bag-for-a-5-day-trip-with-checklist"
+    },
+    {
+      "label": "Zero Label India travel guide",
+      "url": "https://www.zerolabel.in/blogs/news/travel-outfit-ideas-for-women-what-to-pack-for-india-trips"
+    },
+    {
+      "label": "Workwear for men",
+      "url": "https://cottonworld.net/collections/workwear-for-men"
+    },
+    {
+      "label": "Workwear for women",
+      "url": "https://cottonworld.net/collections/workwear-for-women"
+    },
+    {
+      "label": "Travel for men",
+      "url": "https://cottonworld.net/collections/travel-for-men"
+    },
+    {
+      "label": "Travel for women",
+      "url": "https://cottonworld.net/collections/travel-for-women"
+    },
+    {
+      "label": "live blog index",
+      "url": "https://cottonworld.net/blogs/blog"
+    }
+  ],
+  "research_batches": [
+    "20260921-topic-research-1.json",
+    "20260921-topic-research-2.json",
+    "20260921-topic-research-3.json",
+    "20260921-topic-research-4.json",
+    "20260921-topic-research-5.json"
+  ],
+  "limitations": [
+    "Search sample not location-controlled Google India ranking",
+    "No verified search-volume growth or competitor conversion data",
+    "Depop platform trend signal not India-wide demand",
+    "Topics only; full final-title top-three benchmark and publish gates deferred until drafting",
+    "Blog index placeholder excerpts verified; full article bodies not re-audited"
+  ],
+  "document_verified": true
+}
