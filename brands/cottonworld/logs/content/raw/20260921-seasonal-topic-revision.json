@@ -1,0 +1,132 @@
+{
+  "run_id": "cottonworld-seasonal-topics-20260921",
+  "reason": "User flagged September/October seasonality; replaced summer-led priority with festive rewear, transitional layering and festive family travel",
+  "document_url": "https://docs.google.com/document/d/1JQbPimODllZ3_dAo_zujx4ynMudr2Lst47bQ_C4Ji0c",
+  "paragraphs": [
+    [
+      "NORMAL_TEXT",
+      "Revised for late September and October planning. Prioritise festive preparation, repeat wear and adaptable layers. The original shortlist was too summer-led for this publishing window. Warm-weather advice remains useful for some locations, but it should not dominate a national seasonal plan."
+    ],
+    [
+      "HEADING_1",
+      "1. Before You Buy a Festive Outfit, Plan Its Next Five Wears"
+    ],
+    [
+      "NORMAL_TEXT",
+      "Angle: Start with the wardrobe decision before the celebration. Show how a cotton or linen separate can work for a family gathering, then return to work, a casual lunch, errands and another occasion. Use a five-wear planning grid, not a claim that an item has been wear-tested."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Why now: Current results include festive capsule wardrobes, everyday-to-festive styling and rewear guides. House of Kari presents a festive capsule; Sansevieria connects festive shirts with everyday combinations. Cottonworld can offer a practical buying filter grounded in its slow-living voice."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Search targets: “festive capsule wardrobe”, “rewear festive outfits”, “minimal festive outfits”. Publish first, during early festive planning. Keep this separate from the travel topic: this article decides what deserves a place in the wardrobe."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Brand fit: natural-fabric shirts, tops and trousers, subject to live product verification. Do not imply Cottonworld sells the embroidered or ethnic products featured by other brands."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Sources: House of Kari festive capsule; Sansevieria festive styling."
+    ],
+    [
+      "HEADING_1",
+      "2. Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe"
+    ],
+    [
+      "NORMAL_TEXT",
+      "Angle: Reuse familiar separates and add or remove one appropriate layer. Offer conditional examples for a warm coastal day, a day with a cooler evening, and a cold indoor setting. Start with the forecast and the reader’s actual day rather than treating all of India as a single autumn climate."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Why now: News9’s September layering coverage addresses changing temperatures within the day. The editorial opportunity is an India-aware transition guide that avoids copying a European coat-and-knitwear checklist."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Search targets: “transitional outfits India”, “how to layer linen shirts”, “light layering outfits”. Publish in the late-September/early-October window. The exact title is an editorial recommendation, not a measured high-volume query."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Brand fit: make existing cotton and linen pieces useful across more situations. Any suggested jacket or layer must match available products and the relevant weather; do not invent a seasonal range."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Source: News9 September layering guide."
+    ],
+    [
+      "HEADING_1",
+      "3. Going Home for the Festive Season? Pack for Family Lunches, Celebrations and the Journey in One Small Bag"
+    ],
+    [
+      "NORMAL_TEXT",
+      "Angle: Build a short-trip outfit plan around the actual itinerary: travel, time at home, visits and a celebration. Reuse everyday separates, distinguish the travel outfit from a clean celebration outfit, and account for laundry, creasing and different departure/destination weather."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Why now: Current festive-travel results address garments that pack well and work across family visits and events. ClothsVilla supplies an ethnic-occasion example; Cottonworld’s opening is an everyday-separates packing plan for the wider visit, with a dedicated occasion outfit added where needed."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Search targets: “festive travel outfits”, “Diwali packing list”, “capsule wardrobe for family trip”. Publish ahead of festive travel. Verify the relevant festival dates before scheduling; this recommendation does not place Diwali in October."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Brand fit: Cottonworld’s Travel for men and Travel for women collections were verified in the initial research. Do not promise a particular luggage weight or airline allowance without testing and checking the airline."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Sources: ClothsVilla festive travel guide; Cottonworld travel collections."
+    ],
+    [
+      "HEADING_1",
+      "Evidence and next steps"
+    ],
+    [
+      "NORMAL_TEXT",
+      "These are seasonally relevant search opportunities, not verified rising-demand keywords. The live search sample confirms published coverage; it does not establish traffic, sales, Google Trends growth or fixed Google India rankings. The three distinct intents are choosing reusable festive clothes, adapting clothes to changing temperatures, and packing for a family visit."
+    ],
+    [
+      "NORMAL_TEXT",
+      "Use Cottonworld’s calm, life-first voice. Before drafting each final title, review the top three relevant organic blog results and log tone, length and structure. Verify product availability and internal links. Final blogs still require the mandatory authenticity and ZeroGPT checks."
+    ],
+    [
+      "NORMAL_TEXT",
+      "The earlier live blog-index check found placeholder excerpts. Repair and recheck those pages before publishing new articles."
+    ]
+  ],
+  "sources": [
+    [
+      "House of Kari festive capsule",
+      "https://houseofkari.in/blogs/news/festive-capsule-wardrobe"
+    ],
+    [
+      "Sansevieria festive styling",
+      "https://sansevieria.in/blogs/style-guide/festive-outfits-for-women"
+    ],
+    [
+      "News9 September layering guide",
+      "https://www.news9live.com/lifestyle/style/september-dressing-layer-like-a-pro-to-stay-stylish-in-transitional-month-3007508"
+    ],
+    [
+      "ClothsVilla festive travel guide",
+      "https://clothsvilla.com/blogs/fashion/festive-travel-outfits-2026-women"
+    ],
+    [
+      "Travel for men",
+      "https://cottonworld.net/collections/travel-for-men"
+    ],
+    [
+      "Travel for women",
+      "https://cottonworld.net/collections/travel-for-women"
+    ]
+  ],
+  "verification": {
+    "native_doc_readback": true,
+    "links": 6,
+    "date_chip_preserved": true,
+    "headings": 4
+  },
+  "trusted_read_note": "File bridge attempted on Windows; POSIX/PTY transport failed. Used direct connector fallback to inspect all native paragraphs, exact ranges and date chip; date/title preserved. No tables, dropdowns or opaque controls in edit range."
+}
