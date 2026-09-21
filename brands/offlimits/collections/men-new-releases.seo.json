@@ -1,0 +1,59 @@
+{
+  "run_id": "20260921-men-new-releases-content",
+  "target_url": "https://offlimits.co.in/collections/men-new-releases",
+  "primary_topic": "Men’s new arrival shoes and athleisure",
+  "secondary_topics": [
+    "new arrivals shoes for men",
+    "men’s new sneakers",
+    "men’s new sports shoes"
+  ],
+  "intent": "Commercial browsing: discover latest additions, compare a specialist category and choose a product.",
+  "title": "Men’s New Arrivals: Shoes & Athleisure | OFFLIMITS",
+  "meta_description": "Shop OFFLIMITS men’s new arrivals: fresh sneakers, sports shoes and athleisure styles for running, everyday wear and more. Explore the latest drop.",
+  "h1": "Men’s New Arrivals",
+  "intro_placement": "Display the opening paragraph beneath the existing H1; do not add another H1.",
+  "read_more_placement": "Place the remaining H2/H3 content after the product grid. Keep the introduction visible and reveal the rest with an accessible Read More / Read Less control.",
+  "internal_links": [
+    {
+      "anchor": "men’s running and gym shoes",
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes"
+    },
+    {
+      "anchor": "men’s sneakers",
+      "url": "https://offlimits.co.in/collections/mens-sneakers"
+    },
+    {
+      "anchor": "Black/Maroon",
+      "url": "https://offlimits.co.in/products/skyline-select-black-maroon-ocm-907-01"
+    },
+    {
+      "anchor": "men’s footwear collection",
+      "url": "https://offlimits.co.in/collections/mens-shoes"
+    },
+    {
+      "anchor": "men’s joggers and track pants",
+      "url": "https://offlimits.co.in/collections/men-joggers-track-pants"
+    },
+    {
+      "anchor": "men’s graphic T-shirt",
+      "url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees"
+    },
+    {
+      "anchor": "Big & Tall footwear collection",
+      "url": "https://offlimits.co.in/collections/big-tall"
+    },
+    {
+      "anchor": "running versus gym shoes guide",
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes"
+    },
+    {
+      "anchor": "OFFLIMITS men’s new arrivals",
+      "url": "https://offlimits.co.in/collections/men-new-releases"
+    },
+    {
+      "anchor": "full men’s collection",
+      "url": "https://offlimits.co.in/collections/men"
+    }
+  ],
+  "publishing_status": "Unpublished review draft. Local authenticity gate passed at 9.01%. ZeroGPT API had insufficient credits; local fallback recorded and not presented as an external ZeroGPT score."
+}

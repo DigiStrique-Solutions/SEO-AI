@@ -1,0 +1,106 @@
+{
+  "run_id": "20260921-men-new-releases-content",
+  "checked_at": "2026-09-21T14:36:41.451Z",
+  "google_doc": {
+    "fileId": "13vAb1_3UgMswefT6Se7mn26y3MNt1Avta217Zsp1rkM",
+    "mimeType": "application/vnd.google-apps.document",
+    "title": "OFFLIMITS Men’s New Arrivals — Content, Internal Links & SERP References",
+    "url": "https://docs.google.com/document/d/13vAb1_3UgMswefT6Se7mn26y3MNt1Avta217Zsp1rkM/edit?usp=drivesdk"
+  },
+  "document_checks": {
+    "expected_links": 14,
+    "verified_links": 14,
+    "date_chip_count": 1,
+    "missing_links": []
+  },
+  "internal_link_checks": [
+    {
+      "requested_url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "title": "Buy Men's Running & Gym Shoes Online | Off Limits",
+      "checked_at": "2026-09-21T14:32:36.557Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/mens-sneakers",
+      "url": "https://offlimits.co.in/collections/mens-sneakers",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/mens-sneakers",
+      "title": "Buy Sneakers For Men Online at Best Price in India Upto 60% off",
+      "checked_at": "2026-09-21T14:32:45.036Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/products/skyline-select-black-maroon-ocm-907-01",
+      "url": "https://offlimits.co.in/products/skyline-select-black-maroon-ocm-907-01",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/products/skyline-select-black-maroon-ocm-907-01",
+      "title": "SKYLINE SELECT - BLACK/MAROON",
+      "checked_at": "2026-09-21T14:32:49.991Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/mens-shoes",
+      "url": "https://offlimits.co.in/collections/mens-shoes",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/mens-shoes",
+      "title": "Shop Men's Footwear Sports Shoes & Sneakers Online | Off Limits",
+      "checked_at": "2026-09-21T14:32:54.102Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "url": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "title": "Shop Men's Joggers & Track Pants Online | Off Limits",
+      "checked_at": "2026-09-21T14:32:57.142Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "title": "Buy Men's Stylish Printed Graphic T-Shirts Online | Off Limits",
+      "checked_at": "2026-09-21T14:33:09.839Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/big-tall",
+      "url": "https://offlimits.co.in/collections/big-tall",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/big-tall",
+      "title": "Shop Big & Tall Clothing & Footwear for Men Online | Off Limits",
+      "checked_at": "2026-09-21T14:33:15.071Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "title": "Running vs Gym Shoes: Key Differences You Should Know",
+      "checked_at": "2026-09-21T14:33:18.501Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/men-new-releases",
+      "url": "https://offlimits.co.in/collections/men-new-releases",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/men-new-releases",
+      "title": "Shop Men's Shoes, Sneakers & Apparel New Arrivals Online | Off Limits",
+      "checked_at": "2026-09-21T14:33:21.954Z"
+    },
+    {
+      "requested_url": "https://offlimits.co.in/collections/men",
+      "url": "https://offlimits.co.in/collections/men",
+      "status": 200,
+      "canonical": "https://offlimits.co.in/collections/men",
+      "title": "Buy Shoes for Men and Sportswear Clothing at Offlimits",
+      "checked_at": "2026-09-21T14:33:27.696Z"
+    }
+  ],
+  "word_count": 586,
+  "authenticity": {
+    "local_ai_pattern_risk": 9.01,
+    "status": "pass",
+    "zerogpt": "unavailable: API returned ‘Not enough credits’; local fallback recorded, not presented as a ZeroGPT score"
+  },
+  "publishing_status": "Unpublished review draft",
+  "result": "pass: content gate, document content, native links, date chip and all OFFLIMITS body-link targets verified."
+}

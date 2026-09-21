@@ -1,0 +1,96 @@
+{
+  "claims": [
+    {
+      "claim": "Men\u2019s New Arrivals page is currently a dynamic collection with Skyline Select colourways and Big & Tall items.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-new-arrivals"
+      ]
+    },
+    {
+      "claim": "Skyline Select Black/Maroon has lace-up closure, TPR sole and memory foam insock.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "skyline-select"
+      ]
+    },
+    {
+      "claim": "Big & Tall collection has UK sizes 12, 13 and 14.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal-links"
+      ]
+    },
+    {
+      "claim": "Buying, fit and styling advice.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal-links"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-21T14:30:57+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 9.23,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-21T14:31:34+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 9.01,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-21T14:27:18+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/men-new-releases"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Live 2026-09-21 render: H1 \u2018Men\u2019s New Arrivals\u2019; collection description is empty; grid displays Skyline Select colourways and Big & Tall product labels. Canonical URL verified.",
+      "source_id": "offlimits-new-arrivals",
+      "source_ref": "https://offlimits.co.in/collections/men-new-releases",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page: title Black/Maroon Lace-Up Sneakers For Men; product details list lace-up closure, TPR sole and memory foam insock.",
+      "source_id": "skyline-select",
+      "source_ref": "https://offlimits.co.in/products/skyline-select-black-maroon-ocm-907-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand; customer-facing copy should organise around customer need and verified product facts.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Verified canonical internal destinations for men, men\u2019s footwear, sneakers, running/gym, Big & Tall, joggers, T-shirts and published running-vs-gym guide.",
+      "source_id": "internal-links",
+      "source_ref": "Live HTTP 200 rendered checks on 2026-09-21",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Observed PUMA, Skechers and ASICS as the first three standard organic results after shopping/AI-overview modules. PUMA collection has a product grid, a short category paragraph and internal popular-search links; Skechers and ASICS pages present new-arrival grids and filters. Observation is a search snapshot, not a ranking claim.",
+      "source_id": "serp",
+      "source_ref": "Google query \u2018new arrivals shoes for men India\u2019 with gl=in, hl=en, pws=0 on 2026-09-21",
+      "source_type": "serp"
+    }
+  ]
+}
