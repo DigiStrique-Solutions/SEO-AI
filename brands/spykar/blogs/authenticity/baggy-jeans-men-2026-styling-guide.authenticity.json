@@ -1,0 +1,98 @@
+{
+  "claims": [
+    {
+      "claim_id": "claim-01",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "product-ikemen-dark-blue"
+      ],
+      "statement": "Spykar lists Men Ikemen Jeans Loose Fit Dark Blue Low Rise at the linked product URL."
+    },
+    {
+      "claim_id": "claim-02",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "product-ikemen-light-blue"
+      ],
+      "statement": "Spykar lists Men Ikemen Jeans Loose Fit Light Blue Low Rise at the linked product URL."
+    },
+    {
+      "claim_id": "claim-03",
+      "claim_type": "brand_fact",
+      "source_ids": [
+        "spykar-brand-knowledge"
+      ],
+      "statement": "Spykar offers a men's denim collection."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-21T09:45:43+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-21T09:46:34+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-21T09:39:39+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "blocked_external_detector",
+    "target": "https://spykar.com/blogs/blog/baggy-jeans-men-2026-styling-guide"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Spykar is an India-focused, denim-led fashion brand with men's denim collections."
+      ],
+      "source_id": "spykar-brand-knowledge",
+      "source_ref": "brands/spykar/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "HTTP 200 verified on 2026-09-21.",
+        "Product title: Men Ikemen Jeans Loose Fit Dark Blue Low Rise.",
+        "Verified product image is embedded in the article."
+      ],
+      "source_id": "product-ikemen-dark-blue",
+      "source_ref": "https://spykar.com/products/mdact2bf347darkblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "HTTP 200 verified on 2026-09-21.",
+        "Product title: Men Ikemen Jeans Loose Fit Light Blue Low Rise.",
+        "Verified product image is embedded in the article."
+      ],
+      "source_id": "product-ikemen-light-blue",
+      "source_ref": "https://spykar.com/products/mdynr2bf192lightblue",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant live organic baggy-jeans guides were reviewed for tone, length and structure.",
+        "The Spykar article uses its own waist, leg and hem framework."
+      ],
+      "source_id": "serp-benchmark-20260921",
+      "source_ref": "brands/spykar/logs/content/raw/20260921-baggy-jeans-men-2026-styling-guide.json",
+      "source_type": "serp"
+    }
+  ]
+}

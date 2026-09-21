@@ -1,0 +1,18 @@
+{
+  "audit_id": "content-seo-baggy-jeans-men-2026-styling-guide",
+  "brand": "spykar",
+  "checked_at": "2026-09-21",
+  "target": "https://spykar.com/blogs/blog/baggy-jeans-men-2026-styling-guide",
+  "status": "partial_blocked_external_detector",
+  "checks": [
+    {"item":"Existing-content and live SERP benchmark","status":"pass","evidence":"Existing Spykar trend-page overlap plus three organic guides are recorded in the raw content log."},
+    {"item":"Keyword and metadata placement","status":"pass","evidence":"Primary keyword is in title, introduction and body; meta title is 50 characters and description is 145 characters."},
+    {"item":"Internal links","status":"pass","evidence":"Five visible blue-underlined contextual links appear in the Google Doc; all targets verified HTTP 200."},
+    {"item":"Product and banner visuals","status":"pass","evidence":"Two verified live Spykar loose-fit product images and one unique banner are embedded; banner QA is recorded."},
+    {"item":"FAQPage schema","status":"pass","evidence":"Matching five-question FAQPage schema is in the repository handoff."},
+    {"item":"Local AI-pattern risk","status":"pass","evidence":"Local Strique AI text risk score is 6.0%, below the 20% threshold."},
+    {"item":"External ZeroGPT","status":"not_checked_blocked","evidence":"ZeroGPT returned HTTP 403 / Not enough credits. The recorded 6.0% is a local fallback, not an external result."},
+    {"item":"Rendered Google Doc PDF QA","status":"not_checked_blocked","evidence":"Connector readback verified native content and images; local PDF page raster inspection was unavailable."}
+  ],
+  "next_action": "Run the final copy through ZeroGPT after credits are restored, then update the detector status."
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "spykar-content-20260921-baggy-jeans-men-2026-styling-guide",
+  "accessed_at": "2026-09-21",
+  "target": "https://spykar.com/blogs/blog/baggy-jeans-men-2026-styling-guide",
+  "site_overlap_check": {
+    "url": "https://spykar.com/blogs/blog/latest-denim-jeans-styles-for-men",
+    "result": "Live Spykar article contains a broad 2026 loose-fit trend mention but not a standalone baggy-jeans fit, proportion, hem and outfit guide.",
+    "http_status": 200
+  },
+  "serp_benchmark": {
+    "query": "how to style baggy jeans men 2026 guide",
+    "results": [
+      {"url":"https://www.wtfwardrobe.com/blogs/news/how-to-style-baggy-jeans-men","title":"How to Style Baggy Jeans Men – Complete Modern Style Guide","tone":"direct and beginner-friendly","length":"long-form guide","structure":"fit definition, trend context, named outfit combinations and footwear notes"},
+      {"url":"https://trillyinthemaking.com/blogs/news/how-to-style-baggy-wide-leg-jeans-men-2026","title":"How to Style Baggy & Wide-Leg Jeans for Men (2026 Streetwear Guide)","tone":"opinion-led editorial","length":"medium-length guide","structure":"trend framing, proportion rule, outfit formulas and footwear"},
+      {"url":"https://thebearhouse.com/blogs/blog/how-to-style-baggy-jeans-for-men-8-outfits-that-work-the-bear-house","title":"How to Style Baggy Jeans for Men - 8 Outfits That Work","tone":"practical Indian retail editorial","length":"medium-to-long guide","structure":"fit basics, occasion-led outfit ideas and styling tips"}
+    ],
+    "adaptation":"Spykar's original approach uses waist/leg/hem checks and Indian everyday settings before product-supported dark and light loose-denim examples; it does not copy wording or a competitor section order."
+  },
+  "product_sources": [
+    {"url":"https://spykar.com/products/mdact2bf347darkblue","title":"Men Ikemen Jeans Loose Fit Dark Blue Low Rise","image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDACT2BF347DARK_BLUE_5.png?v=1788329430","http_status":200},
+    {"url":"https://spykar.com/products/mdynr2bf192lightblue","title":"Men Ikemen Jeans Loose Fit Light Blue Low Rise","image":"https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDYNR2BF192Light_Blue_5.png?v=1788329610","http_status":200}
+  ],
+  "delivery": {
+    "google_doc": "https://docs.google.com/document/d/1pEWa3tu2xo8i_jRD8OHGgPhk6mD-KuTa8oralGCfaxE/edit",
+    "template_source": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0",
+    "native_readback": "One Title, ten H1 sections, five H2 FAQ questions, seven native list items and three inline images verified by Google Docs connector.",
+    "rendered_pdf_qa": "not_checked_blocked — no local PDF artifact was available for page raster inspection."
+  },
+  "internal_link_verification": [
+    {"url":"https://spykar.com/products/mdact2bf347darkblue","http_status":200,"purpose":"dark loose denim product"},
+    {"url":"https://spykar.com/products/mdynr2bf192lightblue","http_status":200,"purpose":"light loose denim product"},
+    {"url":"https://spykar.com/blogs/blog/men-s-jeans-guide-how-to-choose-the-right-fit-and-style","http_status":200,"purpose":"supporting fit guide"},
+    {"url":"https://spykar.com/blogs/blog/latest-denim-jeans-styles-for-men","http_status":200,"purpose":"supporting trends article"},
+    {"url":"https://spykar.com/collections/men-jeans","http_status":200,"purpose":"commercial CTA"}
+  ]
+}

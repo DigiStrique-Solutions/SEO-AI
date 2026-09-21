@@ -1,0 +1,17 @@
+{
+  "slug": "baggy-jeans-men-2026-styling-guide",
+  "checked_at": "2026-09-21",
+  "master": "baggy-jeans-men-2026-styling-guide-banner.png",
+  "web_export": "baggy-jeans-men-2026-styling-guide-banner-800x600.jpg",
+  "headline_expected": "ROOM TO MOVE",
+  "headline_verified": true,
+  "qa": {
+    "topic_defining_detail_visible": "pass — the adult model's dark loose denim, full leg shape and shoe break are clear.",
+    "headline_legibility_and_safe_margins": "pass — exact headline is high-contrast, readable and safely inside the left area.",
+    "anatomy_and_product_plausibility": "pass — face, hands, seated pose, sneakers, denim folds and concrete stair interaction are plausible.",
+    "brand_safety": "pass — no logo, price, watermark, third-party branding or unsupported claim is visible.",
+    "creative_distinction": "pass — mature rooftop-staircase menswear portrait, distinct from the recent flat-lay wash study and transit/evening lifestyle banners.",
+    "web_export_sharpness": "pass — inspected at 800 x 600; headline and loose denim silhouette remain sharp."
+  },
+  "generation": {"method":"built-in image generation","source_output":"C:/Users/User/.codex/generated_images/019fadaa-194b-7c80-a895-c679f29814e6/exec-99bd796d-9c6c-4f48-bbc1-986a1a7a6530.png"}
+}
