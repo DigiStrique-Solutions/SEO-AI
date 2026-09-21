@@ -19,6 +19,6 @@
     {"url":"https://spykar.com/collections/women-jeans","status":200},
     {"url":"https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas","status":200}
   ],
-  "creative": {"tool":"built-in image generation","headline":"SEPTEMBER, SORTED","master":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner.png","web":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner-800x600.jpg","qa":"pass"},
+  "creative": {"tool":"built-in image generation","headline":"JEANS FOR EVERY PLAN","master":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner.png","web":"brands/spykar/blogs/creatives/september-jeans-every-plan/september-jeans-every-plan-banner-800x600.jpg","qa":"pass","replacement":"2026-09-21: replaced the generic September, Sorted wording with the clearer article-led headline and a calmer left-panel treatment."},
   "google_doc":"https://docs.google.com/document/d/1EWi11xD5ZzdoV94jPK5PFUshxNUS0lYeuZqY2zaXrhE/edit"
 }
