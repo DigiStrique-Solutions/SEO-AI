@@ -1,0 +1,224 @@
+{
+  "claims": [
+    {
+      "claim": "Gladiator memory foam, Phylon/TPR, adjustable lace-up",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator"
+      ]
+    },
+    {
+      "claim": "Ethos Flyknit upper for airflow and Phylon/TPR sole",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "ethos"
+      ]
+    },
+    {
+      "claim": "Indian homegrown brand designing/manufacturing own styles",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator",
+        "brand"
+      ]
+    },
+    {
+      "claim": "Big & Tall UK12,13,14 with style-specific availability",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "category-5"
+      ]
+    },
+    {
+      "claim": "Fit, styling and exercise-specific choice guidance",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "category-11"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-21T14:17:57+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-21T14:17:36.397Z",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/men"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Footwear-led Indian sports and athleisure brand; men footwear and apparel range; customer-need-led voice."
+      ],
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json and fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Observed on first Google results page with gl=in, hl=en, pws=0; IP location Mumbai; Relaxo #1, Reebok #6, Neeman's #7, Regal #8 among 9 standard organic title results, excluding shopping/images. Snapshot only, not universal ranks."
+      ],
+      "source_id": "google-serp",
+      "source_ref": "https://www.google.com/search?q=athleisure+shoes+for+men&gl=in&hl=en&pws=0&num=10&sei=bzuxariACN3Z1sQPoZjlmQ8",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Gladiator Off White: memory foam insock, Phylon/TPR sole, lace-up. Brand states Indian homegrown, designs/manufactures own designs. Upper conflict omitted."
+      ],
+      "source_id": "gladiator",
+      "source_ref": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Ethos White/Black/Grey: Flyknit upper, Phylon/TPR sole. Insock conflict between prose (memory foam) and table (EVA); no insock claim used."
+      ],
+      "source_id": "ethos",
+      "source_ref": "https://offlimits.co.in/products/ethos-orm-531-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "SWAT inspected but excluded from copy due conflicting insock and material details."
+      ],
+      "source_id": "swat",
+      "source_ref": "https://offlimits.co.in/products/swat-orm-600-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Running & Gym Shoes",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Running & Gym Shoes for Men: Built for Every Move\n\n    A good workout shoe should make movement feel easier, not give you one more thing to think about. Whether the plan is an early run, a quick treadmill session or an hour at the gym, the right pair needs to balance comfort, grip and support withou"
+      ],
+      "source_id": "category-0",
+      "source_ref": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Sneakers for Men",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Sneakers for Men\nSneakers are no longer just sneakers.They have evolved from gym essentials to everyday fashion statements. If you\u2019re a man on the lookout for footwear that scores high in style, comfort, and everyday practicality, you\u2019ve come to the right place. In this detailed writeup, we\u2019ll walk "
+      ],
+      "source_id": "category-1",
+      "source_ref": "https://offlimits.co.in/collections/mens-sneakers",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Lifestyle - Recovery Kicks",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Lifestyle Shoes for Men Made for the Hours Between Plans\n\n    Not every pair needs a performance target. Some shoes are for the commute, the coffee run, a long travel day, a relaxed weekend or simply the hours after you are done training.\n\n    Explore lifestyle shoes for men from Off Limits for the "
+      ],
+      "source_id": "category-2",
+      "source_ref": "https://offlimits.co.in/collections/men-lifestyle-recover-kicks",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men Walking",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Walking Shoes for Men Made for Everyday Miles\n\n    Most walking does not happen on a track. It happens on the way to work, between meetings, around the neighbourhood, through airports, across shopping streets and during the extra ten minutes you decide to add before heading home.\n\n    That is why go"
+      ],
+      "source_id": "category-3",
+      "source_ref": "https://offlimits.co.in/collections/men-walking",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Sandals & Sliders",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Sneakers aren\u2019t always practical. For quick errands, humid Indian summers, pool days, or giving tired feet a break, slippers for men and sliders for men offer instant, breathable comfort. Offlimits builds them with the same attention it gives its sport shoes\u2014only the construction is pared back for l"
+      ],
+      "source_id": "category-4",
+      "source_ref": "https://offlimits.co.in/collections/men-sandals-sliders",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Big & Tall Sportswear for Men",
+        "Collection explicitly lists UK sizes 12, 13, 14.",
+        "Big and Tall \u2013 Shoes for Sizes 12, 13, 14\nFinding the right shoes can be a struggle when standard sizes don\u2019t cut it. If you\u2019re searching for big shoes for men, you know the frustration\u2014tight fits, limited choices, and styles that just don\u2019t match up. Offlimits is here to change the game with a dedi"
+      ],
+      "source_id": "category-5",
+      "source_ref": "https://offlimits.co.in/collections/big-tall",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Joggers & Track Pants",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Joggers & Track Pants for Men: From Warm-Up to Everyday Wear\n\n    Joggers and track pants have moved far beyond the running track. They now cover everything from gym warm-ups and travel days to casual outfits, recovery time and low-key weekend plans.\n\n    The useful part is that you do not need ever"
+      ],
+      "source_id": "category-6",
+      "source_ref": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Graphic T-Shirts",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Offlimits Men\u2019s Graphic Tees | Bold Statement Tees for Everyday Hustle\nStep into Offlimits graphic tees that speak your truth, crafted for go-getters who live loud, move hard and expect more from their gear. These tees pair punchy prints with breathable fabrics, so you are always ready, whether you "
+      ],
+      "source_id": "category-7",
+      "source_ref": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men Track Suits",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "Tracksuits for Men\nBack in the day, tracksuits were associated with athletes warming up or cooling down before and after sporting events. Gradually, pop culture icons borrowed the look, and soon, wearing a tracksuit became more than just a sports uniform. It evolved into a statement outfit that coul"
+      ],
+      "source_id": "category-8",
+      "source_ref": "https://offlimits.co.in/collections/men-track-suits",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men's Footwear Collection",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "No collection description."
+      ],
+      "source_id": "category-9",
+      "source_ref": "https://offlimits.co.in/collections/mens-shoes",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Men Clothing",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "No collection description."
+      ],
+      "source_id": "category-10",
+      "source_ref": "https://offlimits.co.in/collections/men-clothing",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Running vs Gym Shoes: Uncover the Difference Between Running vs Gym Shoes",
+        "Verified live relevant collection/guide; HTTP 200.",
+        "No collection description."
+      ],
+      "source_id": "category-11",
+      "source_ref": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "source_type": "product_page"
+    }
+  ]
+}

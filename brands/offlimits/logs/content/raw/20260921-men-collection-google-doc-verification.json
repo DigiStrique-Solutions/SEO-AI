@@ -1,0 +1,175 @@
+{
+  "run_id": "20260921-men-collection-content",
+  "checked_at": "2026-09-21T14:20:33.768Z",
+  "google_doc": {
+    "fileId": "1Kuu-oQHtl_d21M5lsiAlcWLYOYdDwKHQ78UpDXSjqPY",
+    "mimeType": "application/vnd.google-apps.document",
+    "title": "OFFLIMITS Men’s Collection — Content, Internal Links & SERP References",
+    "url": "https://docs.google.com/document/d/1Kuu-oQHtl_d21M5lsiAlcWLYOYdDwKHQ78UpDXSjqPY/edit?usp=drivesdk"
+  },
+  "linked_anchors_verified": [
+    {
+      "text": "OFFLIMITS men’s collection",
+      "url": "https://offlimits.co.in/collections/men",
+      "underline": true
+    },
+    {
+      "text": "running and gym shoes for men",
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "underline": true
+    },
+    {
+      "text": "men’s sneakers",
+      "url": "https://offlimits.co.in/collections/mens-sneakers",
+      "underline": true
+    },
+    {
+      "text": "lifestyle shoes for men",
+      "url": "https://offlimits.co.in/collections/men-lifestyle-recover-kicks",
+      "underline": true
+    },
+    {
+      "text": "Gladiator in Off White",
+      "url": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02",
+      "underline": true
+    },
+    {
+      "text": "Ethos in White, Black and Grey",
+      "url": "https://offlimits.co.in/products/ethos-orm-531-01",
+      "underline": true
+    },
+    {
+      "text": "running shoes versus gym shoes",
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "underline": true
+    },
+    {
+      "text": "men’s walking shoes",
+      "url": "https://offlimits.co.in/collections/men-walking",
+      "underline": true
+    },
+    {
+      "text": "sandals and sliders for men",
+      "url": "https://offlimits.co.in/collections/men-sandals-sliders",
+      "underline": true
+    },
+    {
+      "text": "men’s joggers and track pants",
+      "url": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "underline": true
+    },
+    {
+      "text": "T-shirts and graphic tees collection",
+      "url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "underline": true
+    },
+    {
+      "text": "men’s tracksuits",
+      "url": "https://offlimits.co.in/collections/men-track-suits",
+      "underline": true
+    },
+    {
+      "text": "Big & Tall footwear collection",
+      "url": "https://offlimits.co.in/collections/big-tall",
+      "underline": true
+    },
+    {
+      "text": "men’s footwear collection",
+      "url": "https://offlimits.co.in/collections/mens-shoes",
+      "underline": true
+    },
+    {
+      "text": "Relaxo / Sparx collection",
+      "url": "https://relaxofootwear.com/collections/athleisure-shoes-for-men",
+      "underline": true
+    },
+    {
+      "text": "Reebok collection",
+      "url": "https://reebok.abfrl.in/c/men-running-shoes",
+      "underline": true
+    },
+    {
+      "text": "Neeman’s collection",
+      "url": "https://neemans.com/collections/athleisure-collection",
+      "underline": true
+    },
+    {
+      "text": "Regal (retailer, supplementary) collection",
+      "url": "https://www.regalshoes.in/collections/athleisure-shoes-mens",
+      "underline": true
+    }
+  ],
+  "internal_links": [
+    {
+      "anchor": "running and gym shoes for men",
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes",
+      "verified": true
+    },
+    {
+      "anchor": "men’s sneakers",
+      "url": "https://offlimits.co.in/collections/mens-sneakers",
+      "verified": true
+    },
+    {
+      "anchor": "lifestyle shoes for men",
+      "url": "https://offlimits.co.in/collections/men-lifestyle-recover-kicks",
+      "verified": true
+    },
+    {
+      "anchor": "Gladiator in Off White",
+      "url": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02",
+      "verified": true
+    },
+    {
+      "anchor": "Ethos in White, Black and Grey",
+      "url": "https://offlimits.co.in/products/ethos-orm-531-01",
+      "verified": true
+    },
+    {
+      "anchor": "running shoes versus gym shoes",
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+      "verified": true
+    },
+    {
+      "anchor": "men’s walking shoes",
+      "url": "https://offlimits.co.in/collections/men-walking",
+      "verified": true
+    },
+    {
+      "anchor": "sandals and sliders for men",
+      "url": "https://offlimits.co.in/collections/men-sandals-sliders",
+      "verified": true
+    },
+    {
+      "anchor": "men’s joggers and track pants",
+      "url": "https://offlimits.co.in/collections/men-joggers-track-pants",
+      "verified": true
+    },
+    {
+      "anchor": "T-shirts and graphic tees collection",
+      "url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees",
+      "verified": true
+    },
+    {
+      "anchor": "men’s tracksuits",
+      "url": "https://offlimits.co.in/collections/men-track-suits",
+      "verified": true
+    },
+    {
+      "anchor": "Big & Tall footwear collection",
+      "url": "https://offlimits.co.in/collections/big-tall",
+      "verified": true
+    },
+    {
+      "anchor": "men’s footwear collection",
+      "url": "https://offlimits.co.in/collections/mens-shoes",
+      "verified": true
+    }
+  ],
+  "date_chip_count": 1,
+  "copy_word_count_harness": 817,
+  "local_ai_pattern_risk": 6,
+  "zerogpt_status": "unavailable: API credits",
+  "publish_status": "Unpublished review draft",
+  "result": "pass: content, links, headings and native date verified"
+}

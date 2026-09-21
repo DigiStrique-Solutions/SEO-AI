@@ -1,0 +1,73 @@
+{
+  "run_id": "20260921-men-collection-content",
+  "target_url": "https://offlimits.co.in/collections/men",
+  "primary_topic": "Men's shoes and athleisure clothing",
+  "secondary_topics": [
+    "athleisure shoes for men",
+    "men's footwear",
+    "men's sportswear"
+  ],
+  "intent": "Commercial collection browsing; help select a subcategory and product",
+  "demand_note": "No volume or keyword difficulty estimates asserted. Topic selection based on page role and observed SERP.",
+  "title": "Men’s Shoes & Athleisure Clothing Online | OFFLIMITS",
+  "meta_description": "Shop men’s shoes and athleisure clothing at OFFLIMITS. Explore running and gym shoes, sneakers, walking styles, joggers and tracksuits. Find your fit.",
+  "h1": "Men’s Shoes & Athleisure Clothing",
+  "intro_placement": "First paragraph visible near existing collection heading; do not add a second H1.",
+  "read_more_placement": "H2 Find men’s shoes for the way you move through final CTA after grid, with initial useful text visible and remainder expandable.",
+  "internal_links": [
+    {
+      "anchor": "running and gym shoes for men",
+      "url": "https://offlimits.co.in/collections/mens-running-gym-shoes"
+    },
+    {
+      "anchor": "men’s sneakers",
+      "url": "https://offlimits.co.in/collections/mens-sneakers"
+    },
+    {
+      "anchor": "lifestyle shoes for men",
+      "url": "https://offlimits.co.in/collections/men-lifestyle-recover-kicks"
+    },
+    {
+      "anchor": "Gladiator in Off White",
+      "url": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02"
+    },
+    {
+      "anchor": "Ethos in White, Black and Grey",
+      "url": "https://offlimits.co.in/products/ethos-orm-531-01"
+    },
+    {
+      "anchor": "running shoes versus gym shoes",
+      "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes"
+    },
+    {
+      "anchor": "men’s walking shoes",
+      "url": "https://offlimits.co.in/collections/men-walking"
+    },
+    {
+      "anchor": "sandals and sliders for men",
+      "url": "https://offlimits.co.in/collections/men-sandals-sliders"
+    },
+    {
+      "anchor": "men’s joggers and track pants",
+      "url": "https://offlimits.co.in/collections/men-joggers-track-pants"
+    },
+    {
+      "anchor": "T-shirts and graphic tees collection",
+      "url": "https://offlimits.co.in/collections/men-tshirts-graphic-tees"
+    },
+    {
+      "anchor": "men’s tracksuits",
+      "url": "https://offlimits.co.in/collections/men-track-suits"
+    },
+    {
+      "anchor": "Big & Tall footwear collection",
+      "url": "https://offlimits.co.in/collections/big-tall"
+    },
+    {
+      "anchor": "men’s footwear collection",
+      "url": "https://offlimits.co.in/collections/mens-shoes"
+    }
+  ],
+  "publishing_status": "Review draft; not published to Shopify. Local authenticity gate passed; external ZeroGPT unavailable (API credits).",
+  "google_doc_url": "https://docs.google.com/document/d/1Kuu-oQHtl_d21M5lsiAlcWLYOYdDwKHQ78UpDXSjqPY/edit?usp=drivesdk"
+}
