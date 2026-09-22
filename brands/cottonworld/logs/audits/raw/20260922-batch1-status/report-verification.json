@@ -1,0 +1,79 @@
+{
+  "document_url": "https://docs.google.com/document/d/1X530hOzu6nbExZwFWP-lqJBvoxPZK4sK2Poq5GLZ-3s",
+  "checks": {
+    "rowEntries": 249,
+    "allProducts": true,
+    "richLink": [
+      {
+        "richLinkId": "kix.vwy3zcf1mbck",
+        "textStyle": {},
+        "richLinkProperties": {
+          "title": "verify cottonworld pages",
+          "uri": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+          "mimeType": "application/vnd.google-apps.ritz"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "dateId": "kix.9tqbdmfg36n4",
+        "textStyle": {},
+        "dateElementProperties": {
+          "timestamp": "2026-09-22T00:00:00Z",
+          "locale": "en",
+          "dateFormat": "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+          "timeFormat": "TIME_FORMAT_DISABLED",
+          "displayText": "Sep 22, 2026"
+        }
+      }
+    ],
+    "headings": 8
+  },
+  "write": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "documentId": "1X530hOzu6nbExZwFWP-lqJBvoxPZK4sK2Poq5GLZ-3s",
+      "revisionId": "ANLCKQljHY6Br-YLncWlbIfsSV5ZmsFZ0phdG8scNO93iO4FLlmQQuhYHOYQ8bZpo54N1xPitphQAMVcQ2Y-wk635kDCswZZypeNIzyMeKs",
+      "replies": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "writeControl": {
+        "requiredRevisionId": "ANLCKQljHY6Br-YLncWlbIfsSV5ZmsFZ0phdG8scNO93iO4FLlmQQuhYHOYQ8bZpo54N1xPitphQAMVcQ2Y-wk635kDCswZZypeNIzyMeKs",
+        "targetRevisionId": null
+      },
+      "document_url": "https://docs.google.com/document/d/1X530hOzu6nbExZwFWP-lqJBvoxPZK4sK2Poq5GLZ-3s"
+    },
+    "isError": false
+  },
+  "source_spreadsheet": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+  "source_tab": {
+    "title": "Batch 1",
+    "sheetId": 1898149789,
+    "gridRows": 1000,
+    "gridColumns": 16
+  },
+  "source_range": "A1:B1000",
+  "actual_product_rows": "2:250",
+  "summary": {
+    "Not found - draft unverified": 97,
+    "Active - published": 149,
+    "Active - unpublished": 2,
+    "URL match - product identity mismatch": 1
+  }
+}

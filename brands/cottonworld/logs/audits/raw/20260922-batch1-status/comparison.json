@@ -1,0 +1,3736 @@
+{
+  "source_sha256": "d4460840fa151b66a4addd298682b9f9c7b25010534b5f3943512fb77d524729",
+  "source_file": "C:\\Users\\User\\Downloads\\Cottonworld verify",
+  "source_product_count": 892,
+  "source_status_counts": {
+    "active": 892
+  },
+  "batch_product_count": 249,
+  "records": [
+    {
+      "sheet_row": 2,
+      "product": "l-blouse-16294-21203-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 3,
+      "product": "m-shirts-50019-21293-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-stripe-shirt-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-linen-regular-fit-stripe-shirt-natural",
+          "title": "Men\u2019s Cotton Linen Regular Fit Stripe Shirt Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21293-NATURAL",
+          "body_style_candidates": [
+            "m-shirts-50019-21293-natural"
+          ],
+          "variant_sku": "'8907583590244"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 4,
+      "product": "l-tshirt-17524-21457-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-tshirt-natural",
+          "title": "Women\u2019s Cotton Regular Fit T-Shirt Natural",
+          "status": "active",
+          "published": "false",
+          "style_code": "L-TSHIRT-17524-21457-NATURAL",
+          "body_style_candidates": [
+            "l-tshirt-17524-21457-natural"
+          ],
+          "variant_sku": "'8907583584250"
+        }
+      ],
+      "result": "Active - unpublished"
+    },
+    {
+      "sheet_row": 5,
+      "product": "l-short-17382-21377-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-lycra-regular-fit-short-natural",
+          "title": "Women\u2019s Cotton Lycra Regular Fit Short Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-SHORTS-17382-21377-NATURAL",
+          "body_style_candidates": [
+            "l-shorts-17382-21377-natural"
+          ],
+          "variant_sku": "'8907583585653"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 6,
+      "product": "m-shirts-17588-21614-white",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-pullover-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-cotton-regular-fit-pullover-shirt-white",
+          "title": "Men\u2019s Linen Cotton Regular Fit Pullover Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-17588-21614-WHITE",
+          "body_style_candidates": [],
+          "variant_sku": "'8907583633088"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 7,
+      "product": "m-tshirt-17395-21634-red",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-half-sleeve-tshirt-red",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-half-sleeve-tshirt-red",
+          "title": "Men\u2019s Organic Cotton Regular Fit Half Sleeve T-Shirt Red",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17395-21634-RED",
+          "body_style_candidates": [
+            "m-tshirt-17395-21634-red"
+          ],
+          "variant_sku": "'8907583618481"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 8,
+      "product": "m-tshirt-16319-21666-black",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-tshirt-black",
+          "title": "Men\u2019s Organic Cotton Regular Fit T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21666-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-16319-21666-black"
+          ],
+          "variant_sku": "'8907583626110"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 9,
+      "product": "m-shirts-50020-21690-red",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-full-sleeve-shirt-red",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-full-sleeve-shirt-red",
+          "title": "Men\u2019s Linen Regular Fit Full Sleeve Shirt Red",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21690-RED",
+          "body_style_candidates": [
+            "m-shirts-50020-21690-red"
+          ],
+          "variant_sku": "'8907583623775"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 10,
+      "product": "m-shirts-50020-21690-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-full-sleeve-shirt-brown",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 11,
+      "product": "m-shirts-50019-21690-red",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-half-sleeve-shirt-red",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-half-sleeve-shirt-red",
+          "title": "Men\u2019s Linen Regular Fit Half Sleeve Shirt Red",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21690-RED",
+          "body_style_candidates": [
+            "m-shirts-50019-21690-red"
+          ],
+          "variant_sku": "'8907583623829"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 12,
+      "product": "m-shirts-50019-21690-green",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-shirt-green",
+          "title": "Men\u2019s Linen Regular Fit Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21690-GREEN",
+          "body_style_candidates": [
+            "m-shirts-50019-21690-green"
+          ],
+          "variant_sku": "'8907583624024"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 13,
+      "product": "m-tshirt-16319-21675-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-tshirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-tshirt-blue",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck T-Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21675-BLUE",
+          "body_style_candidates": [
+            "m-tshirt-16319-21675-blue"
+          ],
+          "variant_sku": "'8907583626561"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 14,
+      "product": "m-shirts-50020-21690-green",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-full-sleeve-shirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-full-sleeve-shirt-green",
+          "title": "Men\u2019s Linen Regular Fit Full Sleeve Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21690-GREEN",
+          "body_style_candidates": [
+            "m-shirts-50020-21690-green"
+          ],
+          "variant_sku": "'8907583623928"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 15,
+      "product": "m-shirts-50020-21690-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-full-sleeve-shirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-full-sleeve-shirt-blue",
+          "title": "Men\u2019s Linen Regular Fit Full Sleeve Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21500-BLUE",
+          "body_style_candidates": [
+            "m-shirts-50020-21500-blue"
+          ],
+          "variant_sku": "'8907583597939"
+        }
+      ],
+      "result": "URL match - product identity mismatch"
+    },
+    {
+      "sheet_row": 16,
+      "product": "m-tshirt-16319-21674-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-tshirt-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-tshirt-grey",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck T-Shirt Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21674-GREY",
+          "body_style_candidates": [
+            "m-tshirt-16319-21674-grey"
+          ],
+          "variant_sku": "'8907583626318"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 17,
+      "product": "m-tshirt-16319-21673-green",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-half-sleeve-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-half-sleeve-tshirt-green",
+          "title": "Men\u2019s Organic Cotton Regular Fit Half Sleeve T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21673-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-16319-21673-green"
+          ],
+          "variant_sku": "'8907583626363"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 18,
+      "product": "m-tshirt-16319-21672-sand",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-sand",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-tshirt-sand",
+          "title": "Men\u2019s Organic Cotton Regular Fit T-Shirt Sand",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21672-SAND",
+          "body_style_candidates": [
+            "m-tshirt-16319-21672-sand"
+          ],
+          "variant_sku": "'8907583626219"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 19,
+      "product": "m-tshirt-16319-21671-green",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-graphic-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-graphic-tshirt-green",
+          "title": "Men\u2019s Organic Cotton Regular Fit Graphic T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21671-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-16319-21671-green"
+          ],
+          "variant_sku": "'8907583626417"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 20,
+      "product": "m-tshirt-16319-21670-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-graphic-tshirt-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-graphic-tshirt-grey",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck Graphic T-Shirt Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21670-GREY",
+          "body_style_candidates": [
+            "m-tshirt-16319-21670-grey"
+          ],
+          "variant_sku": "'8907583626264"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 21,
+      "product": "m-tshirt-16319-21667-sand",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-tshirt-sand",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-tshirt-sand",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck T-Shirt Sand",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21667-SAND",
+          "body_style_candidates": [
+            "m-tshirt-16319-21667-sand"
+          ],
+          "variant_sku": "'8907583626165"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 22,
+      "product": "m-tshirt-16319-21599-black",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-tshirt-black",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21599-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-16319-21599-black"
+          ],
+          "variant_sku": "'8907583626066"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 23,
+      "product": "m-shirts-10521-21022-white-a",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-band-collar-shirt-white",
+          "title": "Men\u2019s Cotton Regular Fit Band Collar Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-10521-21022-WHITE A",
+          "body_style_candidates": [
+            "m-shirts-10521-21022-white"
+          ],
+          "variant_sku": "'8907583625229"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 24,
+      "product": "m-shirts-10521-21022-navy-1",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-textured-band-collar-shirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-textured-band-collar-shirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Textured Band Collar Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-10521-21022-NAVY 1",
+          "body_style_candidates": [
+            "m-shirts-10521-21022-navy"
+          ],
+          "variant_sku": "'8907583625274"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 25,
+      "product": "m-pant-17138-21531-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-seam-pockets-pant-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-side-seam-pockets-pant-khaki",
+          "title": "Men\u2019s Linen Regular Fit Side Seam Pockets Pant Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17138-21531-KHAKI",
+          "body_style_candidates": [
+            "m-pants-17138-21531-khaki"
+          ],
+          "variant_sku": "'8907583625045"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 26,
+      "product": "m-tshirt-17805-21622-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-hooded-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-hooded-tshirt-navy",
+          "title": "Men\u2019s Organic Cotton Regular Fit Hooded T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17805-21622-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17805-21622-navy"
+          ],
+          "variant_sku": "'8907583616074"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 27,
+      "product": "m-tshirt-17803-21646-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-full-sleeve-hooded-tshirt-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-bamboo-elastane-regular-fit-full-sleeve-hooded-tshirt-olive",
+          "title": "Men\u2019s Cotton Bamboo Elastane Regular Fit Full Sleeve Hooded T-Shirt Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17803-21646-OLIVE",
+          "body_style_candidates": [
+            "m-tshirt-17803-21646-olive"
+          ],
+          "variant_sku": "'8907583619006"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 28,
+      "product": "m-tshirt-17803-21646-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-full-sleeve-hooded-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-bamboo-elastane-regular-fit-full-sleeve-hooded-tshirt-black",
+          "title": "Men\u2019s Cotton Bamboo Elastane Regular Fit Full Sleeve Hooded T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17803-21646-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-17803-21646-black"
+          ],
+          "variant_sku": "'8907583618962"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 29,
+      "product": "m-tshirt-17395-21634-black",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-polo-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-polo-tshirt-black",
+          "title": "Men\u2019s Organic Cotton Regular Fit Polo T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17395-21634-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-17395-21634-black"
+          ],
+          "variant_sku": "'8907583618382"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 30,
+      "product": "m-tshirt-17207-21624-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-solid-polo-tshirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-solid-polo-tshirt-blue",
+          "title": "Men\u2019s Organic Cotton Regular Fit Solid Polo T-Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17207-21624-BLUE",
+          "body_style_candidates": [
+            "m-tshirt-17207-21624-blue"
+          ],
+          "variant_sku": "'8907583617057"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 31,
+      "product": "m-tshirt-16631-21634-green",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-tshirt-green",
+          "title": "Men\u2019s Organic Cotton Regular Fit T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16631-21634-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-16631-21634-green"
+          ],
+          "variant_sku": "'8907583618535"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 32,
+      "product": "m-tshirt-16631-21634-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-polo-tshirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-polo-tshirt-blue",
+          "title": "Men\u2019s Organic Cotton Regular Fit Polo T-Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16631-21634-BLUE",
+          "body_style_candidates": [
+            "m-tshirt-16631-21634-blue"
+          ],
+          "variant_sku": "'8907583618337"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 33,
+      "product": "l-pant-17813-21544-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-wide-pant-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 34,
+      "product": "m-tshirt-17656-21646-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+          "title": "Men\u2019s Cotton Bamboo Elastane Regular Fit T-Shirt Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17656-21646-OLIVE",
+          "body_style_candidates": [
+            "m-tshirt-17656-21646-olive"
+          ],
+          "variant_sku": "'8907583618924"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 35,
+      "product": "m-tshirt-17656-21646-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-bamboo-elastane-regular-fit-tshirt-black",
+          "title": "Men\u2019s Cotton Bamboo Elastane Regular Fit T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17656-21646-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-17656-21646-black"
+          ],
+          "variant_sku": "'8907583618887"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 36,
+      "product": "l-tshirt-17605-21631-red",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-short-sleeve-tshirt-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 37,
+      "product": "l-tshirt-17605-21631-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-crew-neck-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-organic-cotton-regular-fit-crew-neck-tshirt-navy",
+          "title": "Women\u2019s Organic Cotton Regular Fit Crew Neck T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17605-21631-NAVY",
+          "body_style_candidates": [
+            "l-tshirt-17605-21631-navy"
+          ],
+          "variant_sku": "'8907583617521"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 38,
+      "product": "l-tshirt-17550-21631-red",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-full-sleeve-tshirt-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 39,
+      "product": "l-tshirt-17528-21620-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-elastane-regular-fit-tshirt-black",
+          "title": "Women\u2019s Cotton Elastane Regular Fit T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17528-21620-BLACK",
+          "body_style_candidates": [
+            "l-tshirt-17528-21620-black"
+          ],
+          "variant_sku": "'8907583615398"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 40,
+      "product": "l-blouse-17751-21544-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-sleeveless-utility-blouse-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 41,
+      "product": "l-blouse-17692-21506-white",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-short-sleeve-blouse-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 42,
+      "product": "l-blouse-17692-21480-red",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-camp-collar-blouse-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 43,
+      "product": "l-blouse-16831-21557-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-slim-fit-textured-button-blouse-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 44,
+      "product": "l-blouse-11180-21557-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 45,
+      "product": "m-tshirt-17804-21623-red",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-long-sleeve-polo-tshirt-red",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-long-sleeve-polo-tshirt-red",
+          "title": "Men\u2019s Organic Cotton Regular Fit Long Sleeve Polo T-Shirt Red",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17804-21623-RED",
+          "body_style_candidates": [
+            "m-tshirt-17804-21623-red"
+          ],
+          "variant_sku": "'8907583615978"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 46,
+      "product": "m-tshirt-17804-21623-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-long-sleeve-polo-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-long-sleeve-polo-tshirt-navy",
+          "title": "Men\u2019s Organic Cotton Regular Fit Long Sleeve Polo T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17804-21623-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17804-21623-navy"
+          ],
+          "variant_sku": "'8907583616173"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 47,
+      "product": "m-tshirt-17756-21623-green",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-half-sleeve-polo-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-half-sleeve-polo-tshirt-green",
+          "title": "Men\u2019s Organic Cotton Regular Fit Half Sleeve Polo T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17756-21623-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-17756-21623-green"
+          ],
+          "variant_sku": "'8907583616029"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 48,
+      "product": "m-tshirt-17706-21514-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-polo-tshirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Polo T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17706-21514-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-17706-21514-black"
+          ],
+          "variant_sku": "'8907583601186"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 49,
+      "product": "m-tshirt-17446-21622-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-solid-tshirt-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-solid-tshirt-grey",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck Solid T-Shirt Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17446-21622-GREY",
+          "body_style_candidates": [
+            "m-tshirt-17446-21622-grey"
+          ],
+          "variant_sku": "'8907583615923"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 50,
+      "product": "m-tshirt-17446-21622-green",
+      "suggested_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-round-neck-solid-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-organic-cotton-regular-fit-round-neck-solid-tshirt-green",
+          "title": "Men\u2019s Organic Cotton Regular Fit Round Neck Solid T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17446-21622-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-17446-21622-green"
+          ],
+          "variant_sku": "'8907583616128"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 51,
+      "product": "m-shirts-50019-21528-pink",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-paisley-print-shirt-pink",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-paisley-print-shirt-pink",
+          "title": "Men\u2019s Cotton Regular Fit Paisley Print Shirt Pink",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21528-PINK",
+          "body_style_candidates": [
+            "m-shirts-50019-21528-pink"
+          ],
+          "variant_sku": "'8907583612649"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 52,
+      "product": "m-shirts-50019-21528-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-sleeve-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 53,
+      "product": "m-shirts-50019-21528-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-shirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 54,
+      "product": "m-shirts-50019-21528-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-printed-shirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-printed-shirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Printed Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21528-GREEN",
+          "body_style_candidates": [
+            "m-shirts-50019-21528-green"
+          ],
+          "variant_sku": "'8907583612694"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 55,
+      "product": "m-shirts-50019-21528-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-printed-shirt-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 56,
+      "product": "m-shirts-50019-21521-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-printed-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-printed-shirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Printed Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21521-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50019-21521-black"
+          ],
+          "variant_sku": "'8907583607201"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 57,
+      "product": "l-tshirt-17724-21566-white",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-graphic-tshirt-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 58,
+      "product": "l-tshirt-17721-21618-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-boat-neck-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 59,
+      "product": "l-tshirt-17427-21575-black",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-round-neck-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 60,
+      "product": "l-tshirt-17427-21567-white",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-round-neck-tshirt-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 61,
+      "product": "l-dress-17766-20959-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-dress-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-linen-regular-fit-dress-blue",
+          "title": "Women\u2019s Cotton Linen Regular Fit Dress Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-DRESS-17766-20959-BLUE",
+          "body_style_candidates": [
+            "l-dress-17766-20959-blue"
+          ],
+          "variant_sku": "'8907583613608"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 62,
+      "product": "l-blouse-17778-21543-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 63,
+      "product": "l-blouse-17774-21543-white",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-long-sleeve-blouse-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 64,
+      "product": "l-blouse-17751-21497-denim",
+      "suggested_url": "https://cottonworld.net/products/womens-tencel-regular-fit-sleeveless-blouse-denim",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-tencel-regular-fit-sleeveless-blouse-denim",
+          "title": "Women\u2019s Tencel Regular Fit Sleeveless Blouse Denim",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17751-21497-DENIM",
+          "body_style_candidates": [
+            "l-blouse-17751-21497-denim"
+          ],
+          "variant_sku": "'8907583611215"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 65,
+      "product": "m-pant-17544-21531-slate",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-slate",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 66,
+      "product": "l-pant-17080-21560-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-tapered-pant-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 67,
+      "product": "m-tshirt-16319-21609-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-graphic-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-graphic-tshirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Graphic T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21609-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-16319-21609-green"
+          ],
+          "variant_sku": "'8907583614773"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 68,
+      "product": "m-tshirt-16319-21602-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-graphic-tshirt-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-graphic-tshirt-grey",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Graphic T-Shirt Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21602-GREY",
+          "body_style_candidates": [
+            "m-tshirt-16319-21602-grey"
+          ],
+          "variant_sku": "'8907583614575"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 69,
+      "product": "m-tshirt-16319-21591-aqua",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-graphic-tshirt-aqua",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-graphic-tshirt-aqua",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Graphic T-Shirt Aqua",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21591-AQUA",
+          "body_style_candidates": [
+            "m-tshirt-16319-21591-aqua"
+          ],
+          "variant_sku": "'8907583614674"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 70,
+      "product": "m-tshirt-16319-21590-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-tshirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21590-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-16319-21590-green"
+          ],
+          "variant_sku": "'8907583614728"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 71,
+      "product": "m-tshirt-16319-21589-aqua",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-tshirt-aqua",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-tshirt-aqua",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve T-Shirt Aqua",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21589-AQUA",
+          "body_style_candidates": [
+            "m-tshirt-16319-21589-aqua"
+          ],
+          "variant_sku": "'8907583614629"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 72,
+      "product": "m-tshirt-16319-21588-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-graphic-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-graphic-tshirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Graphic T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21588-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-16319-21588-black"
+          ],
+          "variant_sku": "'8907583614872"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 73,
+      "product": "m-tshirt-16319-21587-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-tshirt-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-tshirt-grey",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve T-Shirt Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21587-GREY",
+          "body_style_candidates": [
+            "m-tshirt-16319-21587-grey"
+          ],
+          "variant_sku": "'8907583614520"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 74,
+      "product": "m-tshirt-16319-21586-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-tshirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21586-BLACK",
+          "body_style_candidates": [
+            "m-tshirt-16319-21586-black"
+          ],
+          "variant_sku": "'8907583614827"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 75,
+      "product": "m-shirts-50021-21400-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-short-sleeve-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-band-collar-short-sleeve-shirt-white",
+          "title": "Men\u2019s Cotton Regular Fit Band Collar Short Sleeve Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50021-21400-WHITE",
+          "body_style_candidates": [
+            "m-shirts-50021-21400-white"
+          ],
+          "variant_sku": "'8907583619600"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 76,
+      "product": "m-shirts-50021-21400-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-short-sleeve-shirt-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 77,
+      "product": "m-shirts-50021-21399-sky",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-oxford-half-sleeve-shirt-sky",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-oxford-half-sleeve-shirt-sky",
+          "title": "Men\u2019s Cotton Regular Fit Oxford Half Sleeve Shirt Sky",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50021-21399-SKY",
+          "body_style_candidates": [
+            "m-shirts-50021-21399-sky"
+          ],
+          "variant_sku": "'8907583619853"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 78,
+      "product": "m-shirts-50021-21399-brick",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-shirt-brick",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-half-sleeve-shirt-brick",
+          "title": "Men\u2019s Cotton Regular Fit Half Sleeve Shirt Brick",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50021-21399-BRICK",
+          "body_style_candidates": [
+            "m-shirts-50021-21399-brick"
+          ],
+          "variant_sku": "'8907583619709"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 79,
+      "product": "m-shirts-50006-21400-white",
+      "suggested_url": "https://cottonworld.net/products/men-cotton-regular-fit-collared-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "men-cotton-regular-fit-collared-shirt-white",
+          "title": "Men Cotton Regular Fit Collared Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50006-21400-WHITE",
+          "body_style_candidates": [
+            "m-shirts-50006-21400-white"
+          ],
+          "variant_sku": "'8907583619556"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 80,
+      "product": "m-shirts-50006-21400-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-shirt-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 81,
+      "product": "m-shirts-50006-21399-sky",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-full-sleeve-shirt-sky",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-full-sleeve-shirt-sky",
+          "title": "Men\u2019s Cotton Regular Fit Full Sleeve Shirt Sky",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50006-21399-SKY",
+          "body_style_candidates": [
+            "m-shirts-50006-21399-sky"
+          ],
+          "variant_sku": "'8907583619754"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 82,
+      "product": "m-shirts-50006-21399-brick",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-button-down-full-sleeve-shirt-brick",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-button-down-full-sleeve-shirt-brick",
+          "title": "Men\u2019s Cotton Regular Fit Button Down Full Sleeve Shirt Brick",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50006-21399-BRICK",
+          "body_style_candidates": [
+            "m-shirts-50006-21399-brick"
+          ],
+          "variant_sku": "'8907583619655"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 83,
+      "product": "m-shirts-17819-21607-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-polo-collar-shirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 84,
+      "product": "m-shirts-17818-21608-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-full-sleeve-shirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 85,
+      "product": "l-tshirt-17428-21617-olive",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-extended-sleeve-tshirt-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-organic-cotton-regular-fit-extended-sleeve-tshirt-olive",
+          "title": "Women\u2019s Organic Cotton Regular Fit Extended Sleeve T-Shirt Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17428-21617-OLIVE",
+          "body_style_candidates": [
+            "l-tshirt-17428-21617-olive"
+          ],
+          "variant_sku": "'8907583614322"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 86,
+      "product": "l-tshirt-17428-21617-black",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-cap-sleeve-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-organic-cotton-regular-fit-cap-sleeve-tshirt-black",
+          "title": "Women\u2019s Organic Cotton Regular Fit Cap Sleeve T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17428-21617-BLACK",
+          "body_style_candidates": [
+            "l-tshirt-17428-21617-black"
+          ],
+          "variant_sku": "'8907583614278"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 87,
+      "product": "l-tshirt-17427-21617-olive",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-short-sleeve-tshirt-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-organic-cotton-regular-fit-short-sleeve-tshirt-olive",
+          "title": "Women\u2019s Organic Cotton Regular Fit Short Sleeve T-Shirt Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17427-21617-OLIVE",
+          "body_style_candidates": [
+            "l-tshirt-17427-21617-olive"
+          ],
+          "variant_sku": "'8907583614971"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 88,
+      "product": "l-tshirt-17427-21617-black",
+      "suggested_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-crew-neck-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-organic-cotton-regular-fit-crew-neck-tshirt-black",
+          "title": "Women\u2019s Organic Cotton Regular Fit Crew Neck T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-17427-21617-BLACK",
+          "body_style_candidates": [
+            "l-tshirt-17427-21617-black"
+          ],
+          "variant_sku": "'8907583614926"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 89,
+      "product": "m-short-17622-21479-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-striped-short-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-striped-short-natural",
+          "title": "Men's Cotton Regular Fit Striped Short Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-17622-21479-NATURAL",
+          "body_style_candidates": [
+            "m-shorts-17622-21479-natural"
+          ],
+          "variant_sku": "'8907583587923"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 90,
+      "product": "m-pant-17623-21479-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-drawstring-pant-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-drawstring-pant-black",
+          "title": "Men\u2019s Cotton Regular Fit Drawstring Pant Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17623-21479-BLACK",
+          "body_style_candidates": [
+            "m-pants-17623-21479-black"
+          ],
+          "variant_sku": "'8907583588081"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 91,
+      "product": "m-shirts-50020-21482-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-textured-full-sleeve-shirt-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-cotton-regular-fit-textured-full-sleeve-shirt-natural",
+          "title": "Men\u2019s Linen Cotton Regular Fit Textured Full Sleeve Shirt Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21482-NATURAL",
+          "body_style_candidates": [
+            "m-shirts-50020-21482-natural"
+          ],
+          "variant_sku": "'8907583595164"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 92,
+      "product": "m-shirts-50015-21547-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-shirt-olive",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 93,
+      "product": "m-shirts-50015-21547-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-solid-shirt-brown",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 94,
+      "product": "m-shirts-50000-21502-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-regular-collar-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-slim-fit-regular-collar-shirt-white",
+          "title": "Men\u2019s Cotton Lycra Slim Fit Regular Collar Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50000-21502-WHITE",
+          "body_style_candidates": [
+            "m-shirts-50000-21502-white"
+          ],
+          "variant_sku": "'8907583611765"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 95,
+      "product": "m-shirts-50000-21214-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-slim-fit-solid-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-slim-fit-solid-shirt-black",
+          "title": "Men\u2019s Cotton Slim Fit Solid Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50000-21214-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50000-21214-black"
+          ],
+          "variant_sku": "'8907583611819"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 96,
+      "product": "m-shirts-17739-21502-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-band-collar-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-slim-fit-band-collar-shirt-white",
+          "title": "Men\u2019s Cotton Lycra Slim Fit Band Collar Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-17739-21502-WHITE",
+          "body_style_candidates": [
+            "m-shirts-17739-21502-white"
+          ],
+          "variant_sku": "'8907583611918"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 97,
+      "product": "l-blouse-17732-21524-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-boxy-fit-kimono-sleeve-blouse-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 98,
+      "product": "l-blouse-17691-21480-red",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 99,
+      "product": "l-blouse-17142-21497-denim",
+      "suggested_url": "https://cottonworld.net/products/womens-tencel-regular-fit-long-blouse-denim",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 100,
+      "product": "l-pant-17754-21524-rust",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-rust",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 101,
+      "product": "l-pant-17754-21524-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-linen-viscose-regular-fit-pant-black",
+          "title": "Women\u2019s Linen Viscose Regular Fit Pant Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-17754-21524-BLACK",
+          "body_style_candidates": [
+            "l-pants-17754-21524-black"
+          ],
+          "variant_sku": "'8907583613233"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 102,
+      "product": "m-shirts-13484-21546-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-regular-shirt-olive",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 103,
+      "product": "m-shirts-13484-21546-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 104,
+      "product": "m-pant-13485-21487-slate",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-drawstring-pant-slate",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-drawstring-pant-slate",
+          "title": "Men\u2019s Linen Regular Fit Drawstring Pant Slate",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-13485-21487-SLATE",
+          "body_style_candidates": [
+            "m-pants-13485-21487-slate"
+          ],
+          "variant_sku": "'8907583611161"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 105,
+      "product": "m-pant-13485-21487-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-drawstring-pant-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-drawstring-pant-navy",
+          "title": "Men\u2019s Linen Regular Fit Drawstring Pant Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-13485-21487-NAVY",
+          "body_style_candidates": [
+            "m-pants-13485-21487-navy"
+          ],
+          "variant_sku": "'8907583611062"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 106,
+      "product": "m-pant-13485-21487-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 107,
+      "product": "m-pant-13485-21487-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-drawstring-pant-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-drawstring-pant-grey",
+          "title": "Men\u2019s Linen Regular Fit Drawstring Pant Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-13485-21487-GREY",
+          "body_style_candidates": [
+            "m-pants-13485-21487-grey"
+          ],
+          "variant_sku": "'8907583610966"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 108,
+      "product": "m-tshirt-17706-21514-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-half-sleeve-tshirt-brown",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-polo-half-sleeve-tshirt-brown",
+          "title": "Men\u2019s Cotton Regular Fit Polo Half Sleeve T-Shirt Brown",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17706-21514-BROWN",
+          "body_style_candidates": [
+            "m-tshirt-17706-21514-brown"
+          ],
+          "variant_sku": "'8907583601230"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 109,
+      "product": "m-tshirt-17501-21514-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-solid-polo-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-solid-polo-tshirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Solid Polo T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17501-21514-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17501-21514-navy"
+          ],
+          "variant_sku": "'8907583601131"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 110,
+      "product": "m-tshirt-17500-21514-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-stripe-collar-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-stripe-collar-tshirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Stripe Collar T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17500-21514-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17500-21514-navy"
+          ],
+          "variant_sku": "'8907583600899"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 111,
+      "product": "m-tshirt-15906-21550-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-crew-neck-tshirt-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 112,
+      "product": "l-blouse-17699-20161-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-stripe-halter-blouse-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-stripe-halter-blouse-blue",
+          "title": "Women\u2019s Cotton Regular Fit Stripe Halter Blouse Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17699-20161-BLUE",
+          "body_style_candidates": [
+            "l-blouse-17699-20161-blue"
+          ],
+          "variant_sku": "'8907583613882"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 113,
+      "product": "l-blouse-17689-21295-naturalblack",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-natural-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-blouse-natural-black",
+          "title": "Women\u2019s Cotton Regular Fit Blouse Natural Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17689-21295-NATURALBLACK",
+          "body_style_candidates": [
+            "l-blouse-17689-21295-naturalblack"
+          ],
+          "variant_sku": "'8907583606921"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 114,
+      "product": "l-blouse-17541-21295-naturalblack",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-sleeveless-natural-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-blouse-sleeveless-natural-black",
+          "title": "Women\u2019s Cotton Regular Fit Blouse Sleeveless Natural Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17541-21295-NATURALBLACK",
+          "body_style_candidates": [
+            "l-blouse-17541-21295-naturalblack"
+          ],
+          "variant_sku": "'8907583606976"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 115,
+      "product": "l-blouse-17541-21167-white",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-sleeveless-v-neck-blouse-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 116,
+      "product": "m-short-16124-21532-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-drawstring-short-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-regular-fit-drawstring-short-navy",
+          "title": "Men's Cotton Lycra Regular Fit Drawstring Short Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-16124-21532-NAVY",
+          "body_style_candidates": [
+            "m-shorts-16124-21532-navy"
+          ],
+          "variant_sku": "'8907583604279"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 117,
+      "product": "m-pant-17684-21525-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-loose-fit-button-zip-pant-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-loose-fit-button-zip-pant-khaki",
+          "title": "Men\u2019s Cotton Loose Fit Button Zip Pant Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17684-21525-KHAKI",
+          "body_style_candidates": [
+            "m-pants-17684-21525-khaki"
+          ],
+          "variant_sku": "'8907583601322"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 118,
+      "product": "m-pant-17595-21525-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-pant-olive",
+          "title": "Men\u2019s Cotton Regular Fit Pant Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17595-21525-OLIVE",
+          "body_style_candidates": [
+            "m-pants-17595-21525-olive"
+          ],
+          "variant_sku": "'8907583601285"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 119,
+      "product": "m-pant-17544-21564-olive-1",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-side-pocket-pant-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-side-pocket-pant-olive",
+          "title": "Men\u2019s Cotton Regular Fit Side Pocket Pant Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17544-21564-OLIVE 1",
+          "body_style_candidates": [
+            "m-pants-17544-21564-olive"
+          ],
+          "variant_sku": "'8907583612168"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 120,
+      "product": "l-pant-17682-21449-grey",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-wide-pant-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 121,
+      "product": "m-tshirt-15906-21550-pink",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-pink",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-tshirt-pink",
+          "title": "Men\u2019s Cotton Regular Fit T-Shirt Pink",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-15906-21550-PINK",
+          "body_style_candidates": [
+            "m-tshirt-15906-21550-pink"
+          ],
+          "variant_sku": "'8907583608086"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 122,
+      "product": "m-tshirt-15906-21550-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-round-neck-tshirt-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-round-neck-tshirt-khaki",
+          "title": "Men\u2019s Cotton Regular Fit Round Neck T-Shirt Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-15906-21550-KHAKI",
+          "body_style_candidates": [
+            "m-tshirt-15906-21550-khaki"
+          ],
+          "variant_sku": "'8907583607980"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 123,
+      "product": "m-tshirt-15906-21550-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-plain-crew-neck-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-plain-crew-neck-tshirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Plain Crew Neck T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-15906-21550-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-15906-21550-green"
+          ],
+          "variant_sku": "'8907583608130"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 124,
+      "product": "m-tshirt-15906-21550-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-crew-neck-tshirt-brown",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-crew-neck-tshirt-brown",
+          "title": "Men\u2019s Cotton Regular Fit Crew Neck T-Shirt Brown",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-15906-21550-BROWN",
+          "body_style_candidates": [
+            "m-tshirt-15906-21550-brown"
+          ],
+          "variant_sku": "'8907583608284"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 125,
+      "product": "m-tshirt-15906-21550-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-crew-neck-tshirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-crew-neck-tshirt-blue",
+          "title": "Men\u2019s Cotton Regular Fit Crew Neck T-Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-15906-21550-BLUE",
+          "body_style_candidates": [
+            "m-tshirt-15906-21550-blue"
+          ],
+          "variant_sku": "'8907583608185"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 126,
+      "product": "m-shirts-13484-21356-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-checked-long-sleeve-shirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-checked-long-sleeve-shirt-blue",
+          "title": "Men\u2019s Cotton Regular Fit Checked Long Sleeve Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-13484-21356-BLUE",
+          "body_style_candidates": [
+            "m-shirts-13484-21356-blue"
+          ],
+          "variant_sku": "'8907583609496"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 127,
+      "product": "m-shirts-13484-21355-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-regular-collar-shirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-regular-collar-shirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Regular Collar Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-13484-21355-NAVY",
+          "body_style_candidates": [
+            "m-shirts-13484-21355-navy"
+          ],
+          "variant_sku": "'8907583609441"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 128,
+      "product": "l-kdress-17522-21498-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-sleeveless-dress-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 129,
+      "product": "m-tshirt-17525-21507-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-pocket-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-polo-pocket-tshirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Polo Pocket T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17525-21507-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17525-21507-navy"
+          ],
+          "variant_sku": "'8907583598523"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 130,
+      "product": "m-tshirt-17525-21507-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-tshirt-khaki",
+          "title": "Men\u2019s Cotton Regular Fit T-Shirt Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17525-21507-KHAKI",
+          "body_style_candidates": [
+            "m-tshirt-17525-21507-khaki"
+          ],
+          "variant_sku": "'8907583598578"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 131,
+      "product": "m-tshirt-17525-21507-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-chest-pocket-polo-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-chest-pocket-polo-tshirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Chest Pocket Polo T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17525-21507-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-17525-21507-green"
+          ],
+          "variant_sku": "'8907583598622"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 132,
+      "product": "m-tshirt-17220-21507-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-tshirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17220-21507-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17220-21507-navy"
+          ],
+          "variant_sku": "'8907583598721"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 133,
+      "product": "m-tshirt-15906-21496-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-classic-crew-neck-tshirt-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 134,
+      "product": "m-tshirt-15906-21496-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-panther-graphic-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 135,
+      "product": "m-shirts-50002-21501-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-micro-check-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 136,
+      "product": "m-shirts-50002-21501-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brown",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-shirt-brown",
+          "title": "Men\u2019s Cotton Regular Fit Shirt Brown",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50002-21501-BROWN",
+          "body_style_candidates": [
+            "m-shirts-50002-21501-brown"
+          ],
+          "variant_sku": "'8907583597519"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 137,
+      "product": "m-shirts-17503-21300-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-striped-shirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-regular-fit-striped-shirt-navy",
+          "title": "Men\u2019s Cotton Lycra Regular Fit Striped Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-17503-21300-NAVY",
+          "body_style_candidates": [
+            "m-shirts-17503-21300-navy"
+          ],
+          "variant_sku": "'8907583591074"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 138,
+      "product": "m-shirts-17503-21300-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-striped-shirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-regular-fit-striped-shirt-green",
+          "title": "Men\u2019s Cotton Lycra Regular Fit Striped Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-17503-21300-GREEN",
+          "body_style_candidates": [
+            "m-shirts-17503-21300-green"
+          ],
+          "variant_sku": "'8907583591029"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 139,
+      "product": "m-shirts-16912-21520-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-button-front-shirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-button-front-shirt-blue",
+          "title": "Men\u2019s Cotton Regular Fit Button Front Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-16912-21520-BLUE",
+          "body_style_candidates": [
+            "m-shirts-16912-21520-blue"
+          ],
+          "variant_sku": "'8907583607751"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 140,
+      "product": "l-dress-17323-21294-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-pocket-dress-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 141,
+      "product": "l-blouse-17604-21341-lilac",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lilac",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-linen-regular-fit-blouse-lilac",
+          "title": "Women\u2019s Linen Regular Fit Blouse Lilac",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17604-21341-LILAC",
+          "body_style_candidates": [
+            "l-blouse-17604-21341-lilac"
+          ],
+          "variant_sku": "'8907583601360"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 142,
+      "product": "l-blouse-17564-21527-indigo",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-indigo",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 143,
+      "product": "l-blouse-17543-21492-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-puff-sleeve-blouse-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 144,
+      "product": "l-blouse-17543-21334-red",
+      "suggested_url": "https://cottonworld.net/products/womens-viscose-regular-fit-band-collar-blouse-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 145,
+      "product": "l-blouse-17541-21334-red",
+      "suggested_url": "https://cottonworld.net/products/womens-viscose-regular-fit-v-neck-blouse-red",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-viscose-regular-fit-v-neck-blouse-red",
+          "title": "Women\u2019s Viscose Regular Fit V Neck Blouse Red",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17541-21334-RED",
+          "body_style_candidates": [
+            "l-blouse-17541-21334-red"
+          ],
+          "variant_sku": "'8907583607164"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 146,
+      "product": "m-short-16299-21494-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-linen-regular-fit-short-white",
+          "title": "Men\u2019s Cotton Linen Regular Fit Short White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-16299-21494-WHITE",
+          "body_style_candidates": [
+            "m-shorts-16299-21494-white"
+          ],
+          "variant_sku": "'8907583596840"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 147,
+      "product": "m-short-16299-21494-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-linen-regular-fit-short-navy",
+          "title": "Men\u2019s Cotton Linen Regular Fit Short Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-16299-21494-NAVY",
+          "body_style_candidates": [
+            "m-shorts-16299-21494-navy"
+          ],
+          "variant_sku": "'8907583596949"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 148,
+      "product": "m-short-16299-21356-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-button-zip-check-short-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-linen-regular-fit-button-zip-check-short-white",
+          "title": "Men's Cotton Linen Regular Fit Button Zip Check Short White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-16299-21356-BLUE",
+          "body_style_candidates": [
+            "m-shorts-16299-21356-blue"
+          ],
+          "variant_sku": "'8907583605344"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 149,
+      "product": "m-short-16299-21355-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-check-short-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-check-short-navy",
+          "title": "Men's Cotton Regular Fit Check Short Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-16299-21355-NAVY",
+          "body_style_candidates": [
+            "m-shorts-16299-21355-navy"
+          ],
+          "variant_sku": "'8907583605290"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 150,
+      "product": "l-short-17675-21508-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-short-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 151,
+      "product": "m-tshirt-17091-21491-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-regular-fit-tshirt-olive",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 152,
+      "product": "m-tshirt-17091-21491-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-bamboo-regular-fit-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 153,
+      "product": "m-tshirt-15906-21496-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-plain-crew-neck-tshirt-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 154,
+      "product": "m-shirts-50020-21452-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-long-sleeve-shirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 155,
+      "product": "m-shirts-50019-21451-red",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-shirt-red",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 156,
+      "product": "m-shirts-50019-21451-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 157,
+      "product": "m-shirts-50019-21451-mustard",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-textured-shirt-mustard",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 158,
+      "product": "m-shirts-50019-21451-green",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-shirt-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 159,
+      "product": "m-shirts-50019-21321-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-micro-check-shirt-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-micro-check-shirt-khaki",
+          "title": "Men\u2019s Cotton Regular Fit Micro Check Shirt Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21321-KHAKI",
+          "body_style_candidates": [
+            "m-shirts-50019-21321-khaki"
+          ],
+          "variant_sku": "'8907583589842"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 160,
+      "product": "m-shirts-50019-21321-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-micro-shirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-micro-shirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Micro Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21321-GREEN",
+          "body_style_candidates": [
+            "m-shirts-50019-21321-green"
+          ],
+          "variant_sku": "'8907583590497"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 161,
+      "product": "m-shirts-50019-21290-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-checked-short-sleeve-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-checked-short-sleeve-shirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Checked Short Sleeve Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21290-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50019-21290-black"
+          ],
+          "variant_sku": "'8907583590442"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 162,
+      "product": "l-tshirt-17302-21491-wine",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-relaxed-tshirt-wine",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 163,
+      "product": "l-blouse-17539-21197-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 164,
+      "product": "l-blouse-17160-21275-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-sleeveless-crop-blouse-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-sleeveless-crop-blouse-white",
+          "title": "Women\u2019s Cotton Regular Fit Sleeveless Crop Blouse White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17160-21275-WHITE",
+          "body_style_candidates": [
+            "l-blouse-17160-21275-white"
+          ],
+          "variant_sku": "'8907583605788"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 165,
+      "product": "l-blouse-17125-21275-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-cropped-button-blouse-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-cropped-button-blouse-white",
+          "title": "Women\u2019s Cotton Regular Fit Cropped Button Blouse White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17125-21275-WHITE",
+          "body_style_candidates": [
+            "l-blouse-17125-21275-white"
+          ],
+          "variant_sku": "'8907583588333"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 166,
+      "product": "l-blouse-16680-21035-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-printed-sleeveless-blouse-white",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 167,
+      "product": "m-pant-17685-21486-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-loose-fit-pant-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-loose-fit-pant-khaki",
+          "title": "Men\u2019s Cotton Loose Fit Pant Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17685-21486-KHAKI",
+          "body_style_candidates": [
+            "m-pants-17685-21486-khaki"
+          ],
+          "variant_sku": "'8907583599698"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 168,
+      "product": "m-pant-15152-21494-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-linen-slim-fit-pant-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-linen-slim-fit-pant-white",
+          "title": "Men\u2019s Cotton Linen Slim Fit Pant White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-15152-21494-WHITE",
+          "body_style_candidates": [
+            "m-pants-15152-21494-white"
+          ],
+          "variant_sku": "'8907583596697"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 169,
+      "product": "l-pant-10578-21449-wine",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-drawstring-pant-wine",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 170,
+      "product": "l-pant-10578-21449-white",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-drawstring-pant-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-linen-viscose-regular-fit-drawstring-pant-white",
+          "title": "Women\u2019s Linen Viscose Regular Fit Drawstring Pant White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-10578-21449-WHITE",
+          "body_style_candidates": [
+            "l-pants-10578-21449-white"
+          ],
+          "variant_sku": "'8907583593689"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 171,
+      "product": "l-pant-10578-21449-khaki",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-drawstring-pant-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-linen-viscose-regular-fit-drawstring-pant-khaki",
+          "title": "Women\u2019s Linen Viscose Regular Fit Drawstring Pant Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-10578-21449-KHAKI",
+          "body_style_candidates": [
+            "l-pants-10578-21449-khaki"
+          ],
+          "variant_sku": "'8907583593535"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 172,
+      "product": "l-pant-10578-21449-grey",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 173,
+      "product": "l-culotte-17065-21275-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-cropped-culotte-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-cropped-culotte-white",
+          "title": "Women\u2019s Cotton Regular Fit Cropped Culotte White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-CULOTTE-17065-21275-WHITE",
+          "body_style_candidates": [
+            "l-culotte-17065-21275-white"
+          ],
+          "variant_sku": "'8907583588388"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 174,
+      "product": "l-blouse-17717-21527-indigo",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-denim-regular-fit-blouse-indigo",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 175,
+      "product": "l-blouse-17699-21352-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-blouse-blue",
+          "title": "Women\u2019s Cotton Regular Fit Blouse Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-BLOUSE-17699-21352-BLUE",
+          "body_style_candidates": [
+            "l-blouse-17699-21352-blue"
+          ],
+          "variant_sku": "'8907583606686"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 176,
+      "product": "l-blouse-11710-21381-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-slim-fit-blouse-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 177,
+      "product": "l-pant-17616-21448-black",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-pant-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 178,
+      "product": "m-short-17714-21526-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-drawstring-shorts-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-drawstring-shorts-white",
+          "title": "Men's Cotton Regular Fit Drawstring Shorts White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-17714-21526-WHITE",
+          "body_style_candidates": [
+            "m-shorts-17714-21526-white"
+          ],
+          "variant_sku": "'8907583602046"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 179,
+      "product": "m-short-17714-21526-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-drawstring-short-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-drawstring-short-grey",
+          "title": "Men's Cotton Regular Fit Drawstring Short Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-17714-21526-GREY",
+          "body_style_candidates": [
+            "m-shorts-17714-21526-grey"
+          ],
+          "variant_sku": "'8907583601995"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 180,
+      "product": "m-short-17648-21485-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-viscose-regular-fit-short-natural",
+          "title": "Men's Linen Viscose Regular Fit Short Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHORTS-17648-21485-NATURAL",
+          "body_style_candidates": [
+            "m-shorts-17648-21485-natural"
+          ],
+          "variant_sku": "'8907583588234"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 181,
+      "product": "l-pant-13355-21449-wine",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-wine",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 182,
+      "product": "l-pant-13355-21449-white",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-ankle-length-pant-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-linen-viscose-regular-fit-ankle-length-pant-white",
+          "title": "Women\u2019s Linen Viscose Regular Fit Ankle Length Pant White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-13355-21449-WHITE",
+          "body_style_candidates": [
+            "l-pants-13355-21449-white"
+          ],
+          "variant_sku": "'8907583593788"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 183,
+      "product": "l-pant-13355-21449-khaki",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-ankle-length-pant-khaki",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 184,
+      "product": "m-pant-17688-21465-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pocket-pant-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-regular-fit-pocket-pant-navy",
+          "title": "Men\u2019s Cotton Lycra Regular Fit Pocket Pant Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17688-21465-NAVY",
+          "body_style_candidates": [
+            "m-pants-17688-21465-navy"
+          ],
+          "variant_sku": "'8907583597717"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 185,
+      "product": "m-pant-17688-21465-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pocket-pant-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-regular-fit-pocket-pant-black",
+          "title": "Men\u2019s Cotton Lycra Regular Fit Pocket Pant Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17688-21465-BLACK",
+          "body_style_candidates": [
+            "m-pants-17688-21465-black"
+          ],
+          "variant_sku": "'8907583597663"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 186,
+      "product": "m-pant-17138-21487-slate",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-pocket-pant-slate",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-side-pocket-pant-slate",
+          "title": "Men\u2019s Linen Regular Fit Side Pocket Pant Slate",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17138-21487-SLATE",
+          "body_style_candidates": [
+            "m-pants-17138-21487-slate"
+          ],
+          "variant_sku": "'8907583588982"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 187,
+      "product": "m-pant-17138-21487-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-pocket-pant-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-side-pocket-pant-navy",
+          "title": "Men\u2019s Linen Regular Fit Side Pocket Pant Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17138-21487-NAVY",
+          "body_style_candidates": [
+            "m-pants-17138-21487-navy"
+          ],
+          "variant_sku": "'8907583588883"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 188,
+      "product": "m-pant-17138-21487-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-pocket-pant-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-side-pocket-pant-natural",
+          "title": "Men\u2019s Linen Regular Fit Side Pocket Pant Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-17138-21487-NATURAL",
+          "body_style_candidates": [
+            "m-pants-17138-21487-natural"
+          ],
+          "variant_sku": "'8907583588784"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 189,
+      "product": "m-pant-17138-21487-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-pocket-pant-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 190,
+      "product": "m-shirts-50020-21444-sky",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-full-sleeve-pocket-shirt-sky",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 191,
+      "product": "m-shirts-50020-21444-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-textured-full-sleeve-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 192,
+      "product": "m-shirts-50020-21444-lilac",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-lilac",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-shirt-lilac",
+          "title": "Men\u2019s Linen Regular Fit Shirt Lilac",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21444-LILAC",
+          "body_style_candidates": [
+            "m-shirts-50020-21444-lilac"
+          ],
+          "variant_sku": "'8907583591210"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 193,
+      "product": "m-shirts-50019-21444-sky",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-pocket-shirt-sky",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 194,
+      "product": "m-shirts-50019-21444-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-pocket-shirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 195,
+      "product": "l-blouse-17211-21203-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-notch-neck-blouse-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 196,
+      "product": "l-blouse-16680-20912-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-sleeveless-blouse-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 197,
+      "product": "l-blouse-16529-21203-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-sleeveless-blouse-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 198,
+      "product": "m-tshirt-17442-21495-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-zip-polo-tshirt-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-zip-polo-tshirt-navy",
+          "title": "Men\u2019s Cotton Regular Fit Zip Polo T-Shirt Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17442-21495-NAVY",
+          "body_style_candidates": [
+            "m-tshirt-17442-21495-navy"
+          ],
+          "variant_sku": "'8907583595744"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 199,
+      "product": "m-tshirt-17442-21495-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-brown",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-tshirt-brown",
+          "title": "Men\u2019s Cotton Regular Fit T-Shirt Brown",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17442-21495-BROWN",
+          "body_style_candidates": [
+            "m-tshirt-17442-21495-brown"
+          ],
+          "variant_sku": "'8907583595690"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 200,
+      "product": "m-shirts-50019-21297-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-checked-shirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 201,
+      "product": "m-shirts-50019-21297-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-checked-shirt-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 202,
+      "product": "l-tshirt-17524-21457-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-polo-collar-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-polo-collar-tshirt-black",
+          "title": "Women\u2019s Cotton Regular Fit Polo Collar T-Shirt Black",
+          "status": "active",
+          "published": "false",
+          "style_code": "L-TSHIRT-17524-21457-BLACK",
+          "body_style_candidates": [
+            "l-tshirt-17524-21457-black"
+          ],
+          "variant_sku": "'8907583584229"
+        }
+      ],
+      "result": "Active - unpublished"
+    },
+    {
+      "sheet_row": 203,
+      "product": "l-tshirt-16752-21491-wine",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-fitted-crew-neck-tshirt-wine",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 204,
+      "product": "l-tshirt-16752-21491-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 205,
+      "product": "l-tshirt-16752-21417-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-celestial-graphic-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 206,
+      "product": "l-tshirt-11670-21499-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-sleeve-tshirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-short-sleeve-tshirt-white",
+          "title": "Women\u2019s Cotton Regular Fit Short Sleeve T-Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-11670-21499-WHITE",
+          "body_style_candidates": [
+            "l-tshirt-11670-21499-white"
+          ],
+          "variant_sku": "'8907583597137"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 207,
+      "product": "l-tshirt-11670-21499-blue",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-curved-hem-tshirt-blue",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-curved-hem-tshirt-blue",
+          "title": "Women\u2019s Cotton Regular Fit Curved Hem T-Shirt Blue",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-11670-21499-BLUE",
+          "body_style_candidates": [
+            "l-tshirt-11670-21499-blue"
+          ],
+          "variant_sku": "'8907583597250"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 208,
+      "product": "l-tshirt-11670-21499-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-curved-hem-tshirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-regular-fit-curved-hem-tshirt-black",
+          "title": "Women\u2019s Cotton Regular Fit Curved Hem T-Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-TSHIRT-11670-21499-BLACK",
+          "body_style_candidates": [
+            "l-tshirt-11670-21499-black"
+          ],
+          "variant_sku": "'8907583597373"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 209,
+      "product": "l-blouse-17564-21341-grey",
+      "suggested_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 210,
+      "product": "m-pant-11743-21487-slate",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-side-pant-slate",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-side-pant-slate",
+          "title": "Men\u2019s Linen Regular Fit Side Pant Slate",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-11743-21487-SLATE",
+          "body_style_candidates": [
+            "m-pants-11743-21487-slate"
+          ],
+          "variant_sku": "'8907583588739"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 211,
+      "product": "m-pant-11743-21487-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-navy",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-pant-navy",
+          "title": "Men\u2019s Linen Regular Fit Pant Navy",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-11743-21487-NAVY",
+          "body_style_candidates": [
+            "m-pants-11743-21487-navy"
+          ],
+          "variant_sku": "'8907583588586"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 212,
+      "product": "m-pant-11743-21487-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-pant-grey",
+          "title": "Men\u2019s Linen Regular Fit Pant Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-11743-21487-GREY",
+          "body_style_candidates": [
+            "m-pants-11743-21487-grey"
+          ],
+          "variant_sku": "'8907583588630"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 213,
+      "product": "l-pant-8015-21377-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-ankle-length-pant-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-lycra-regular-fit-ankle-length-pant-white",
+          "title": "Women\u2019s Cotton Lycra Regular Fit Ankle Length Pant White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-8015-21377-WHITE",
+          "body_style_candidates": [
+            "l-pants-8015-21377-white"
+          ],
+          "variant_sku": "'8907583575074"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 214,
+      "product": "l-pant-17080-21377-white",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-elastic-waist-pant-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-lycra-regular-fit-elastic-waist-pant-white",
+          "title": "Women\u2019s Cotton Lycra Regular Fit Elastic Waist Pant White",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-17080-21377-WHITE",
+          "body_style_candidates": [
+            "l-pants-17080-21377-white"
+          ],
+          "variant_sku": "'8907583574671"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 215,
+      "product": "l-pant-17080-21377-olive",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-elastic-waist-pant-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-lycra-regular-fit-elastic-waist-pant-olive",
+          "title": "Women\u2019s Cotton Lycra Regular Fit Elastic Waist Pant Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-17080-21377-OLIVE",
+          "body_style_candidates": [
+            "l-pants-17080-21377-olive"
+          ],
+          "variant_sku": "'8907583574572"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 216,
+      "product": "l-pant-17080-21377-natural",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-tapered-pant-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 217,
+      "product": "l-pant-17080-21377-khaki",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-tapered-pant-khaki",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 218,
+      "product": "l-pant-17080-21377-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 219,
+      "product": "m-tshirt-17501-21514-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-solid-polo-tshirt-green",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-solid-polo-tshirt-green",
+          "title": "Men\u2019s Cotton Regular Fit Solid Polo T-Shirt Green",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17501-21514-GREEN",
+          "body_style_candidates": [
+            "m-tshirt-17501-21514-green"
+          ],
+          "variant_sku": "'8907583601087"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 220,
+      "product": "m-tshirt-17440-21495-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-tshirt-pale-grey",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-polo-tshirt-pale-grey",
+          "title": "Men\u2019s Cotton Regular Fit Polo T-Shirt Pale Grey",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-17440-21495-GREY",
+          "body_style_candidates": [
+            "m-tshirt-17440-21495-grey"
+          ],
+          "variant_sku": "'8907583595645"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 221,
+      "product": "m-tshirt-17440-21495-green",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-tshirt-sage-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 222,
+      "product": "m-tshirt-17440-21495-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-polo-tshirt-brown",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 223,
+      "product": "m-tshirt-16319-21433-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-giraffe-tshirt-natural",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 224,
+      "product": "m-shirts-50019-21445-white",
+      "suggested_url": "https://cottonworld.net/products/mens-pure-linen-regular-fit-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-pure-linen-regular-fit-shirt-white",
+          "title": "Men\u2019s Pure Linen Regular Fit Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21445-WHITE",
+          "body_style_candidates": [
+            "m-shirts-50019-21445-white"
+          ],
+          "variant_sku": "'8907583591760"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 225,
+      "product": "m-shirts-50019-21445-mustard",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-shirt-mustard",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 226,
+      "product": "m-shirts-50019-21445-mint",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pocket-shirt-mint",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 227,
+      "product": "m-shirts-50019-21445-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-short-sleeve-shirt-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 228,
+      "product": "m-shirts-50019-21445-black",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pocket-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-pocket-shirt-black",
+          "title": "Men\u2019s Linen Regular Fit Pocket Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21445-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50019-21445-black"
+          ],
+          "variant_sku": "'8907583591814"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 229,
+      "product": "m-shirts-50019-21310-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-sleeve-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-short-sleeve-shirt-black",
+          "title": "Men\u2019s Cotton Regular Fit Short Sleeve Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50019-21310-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50019-21310-black"
+          ],
+          "variant_sku": "'8907583589484"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 230,
+      "product": "m-shirts-50000-21309-black",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-slim-fit-jacquard-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-slim-fit-jacquard-shirt-black",
+          "title": "Men\u2019s Cotton Slim Fit Jacquard Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50000-21309-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50000-21309-black"
+          ],
+          "variant_sku": "'8907583589439"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 231,
+      "product": "m-shirts-17316-21308-grey",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-textured-shirt-grey",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 232,
+      "product": "m-shirts-17316-21308-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-pocket-shirt-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 233,
+      "product": "m-shirts-15745-21287-white",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-band-collar-contrast-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-band-collar-contrast-shirt-white",
+          "title": "Men\u2019s Cotton Regular Fit Band Collar Contrast Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-15745-21287-WHITE",
+          "body_style_candidates": [
+            "m-shirts-15745-21287-white"
+          ],
+          "variant_sku": "'8907583583949"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 234,
+      "product": "l-tshirt-17558-21514-black",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-cap-sleeve-tshirt-black",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 235,
+      "product": "l-tshirt-16727-21407-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-slogan-tshirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 236,
+      "product": "m-pant-16181-21465-olive",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pocket-pant-olive",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-slim-fit-pocket-pant-olive",
+          "title": "Men\u2019s Cotton Lycra Slim Fit Pocket Pant Olive",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-16181-21465-OLIVE",
+          "body_style_candidates": [
+            "m-pants-16181-21465-olive"
+          ],
+          "variant_sku": "'8907583585271"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 237,
+      "product": "m-pant-16181-21465-khaki",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pocket-pant-khaki",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-lycra-slim-fit-pocket-pant-khaki",
+          "title": "Men\u2019s Cotton Lycra Slim Fit Pocket Pant Khaki",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-PANTS-16181-21465-KHAKI",
+          "body_style_candidates": [
+            "m-pants-16181-21465-khaki"
+          ],
+          "variant_sku": "'8907583584922"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 238,
+      "product": "l-pant-8015-21377-brown",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-casual-pant-brown",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "womens-cotton-lycra-regular-fit-casual-pant-brown",
+          "title": "Women\u2019s Cotton Lycra Regular Fit Casual Pant Brown",
+          "status": "active",
+          "published": "true",
+          "style_code": "L-PANTS-8015-21377-BROWN",
+          "body_style_candidates": [
+            "l-pants-8015-21377-brown"
+          ],
+          "variant_sku": "'8907583575005"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 239,
+      "product": "m-tshirt-16319-21443-natural",
+      "suggested_url": "https://cottonworld.net/products/mens-cotton-regular-fit-chest-pocket-tshirt-natural",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-cotton-regular-fit-chest-pocket-tshirt-natural",
+          "title": "Men\u2019s Cotton Regular Fit Chest Pocket T-Shirt Natural",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-TSHIRT-16319-21443-NATURAL",
+          "body_style_candidates": [
+            "m-tshirt-16319-21443-natural"
+          ],
+          "variant_sku": "'8907583581495"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 240,
+      "product": "m-shirts-50020-21445-white",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-collared-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-collared-shirt-white",
+          "title": "Men\u2019s Linen Regular Fit Collared Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21445-WHITE",
+          "body_style_candidates": [
+            "m-shirts-50020-21445-white"
+          ],
+          "variant_sku": "'8907583591517"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 241,
+      "product": "m-shirts-50020-21445-navy",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-charcoal-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 242,
+      "product": "m-shirts-50020-21445-green",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-long-sleeve-shirt-green",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 243,
+      "product": "m-shirts-50020-21445-brown",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-textured-shirt-brown",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 244,
+      "product": "m-shirts-50020-21445-black",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-button-shirt-black",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-button-shirt-black",
+          "title": "Men\u2019s Linen Regular Fit Button Shirt Black",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21445-BLACK",
+          "body_style_candidates": [
+            "m-shirts-50020-21445-black"
+          ],
+          "variant_sku": "'8907583591562"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 245,
+      "product": "m-shirts-50020-21396-multi",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-check-shirt-multi",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-check-shirt-multi",
+          "title": "Men\u2019s Linen Regular Fit Check Shirt Multi",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21396-MULTI",
+          "body_style_candidates": [
+            "m-shirts-50020-21396-multi"
+          ],
+          "variant_sku": "'8907583577665"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 246,
+      "product": "m-shirts-50020-21395-multi",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-pastel-check-shirt-multi",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-pastel-check-shirt-multi",
+          "title": "Men\u2019s Linen Regular Fit Pastel Check Shirt Multi",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-50020-21395-MULTI",
+          "body_style_candidates": [
+            "m-shirts-50020-21395-multi"
+          ],
+          "variant_sku": "'8907583577610"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 247,
+      "product": "m-shirts-50020-21394-blue",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-vertical-stripe-shirt-blue",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 248,
+      "product": "m-shirts-17213-21451-sky",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-flap-pocket-shirt-sky",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    },
+    {
+      "sheet_row": 249,
+      "product": "m-shirts-16162-21451-white",
+      "suggested_url": "https://cottonworld.net/products/mens-linen-regular-fit-resort-collar-style-shirt-white",
+      "matches": [
+        {
+          "method": "suggested_handle",
+          "handle": "mens-linen-regular-fit-resort-collar-style-shirt-white",
+          "title": "Men\u2019s Linen Regular Fit Resort Collar Style Shirt White",
+          "status": "active",
+          "published": "true",
+          "style_code": "M-SHIRTS-16162-21451-WHITE",
+          "body_style_candidates": [
+            "m-shirts-16162-21451-white"
+          ],
+          "variant_sku": "'8907583595829"
+        }
+      ],
+      "result": "Active - published"
+    },
+    {
+      "sheet_row": 250,
+      "product": "l-tshirt-16669-21416-navy",
+      "suggested_url": "https://cottonworld.net/products/womens-cotton-regular-fit-graphic-tshirt-navy",
+      "matches": [],
+      "result": "Not found - draft unverified"
+    }
+  ],
+  "summary": {
+    "Not found - draft unverified": 97,
+    "Active - published": 149,
+    "Active - unpublished": 2,
+    "URL match - product identity mismatch": 1
+  },
+  "verification_date": "2026-09-22",
+  "method": "Exact match of original or suggested handle, cross-checked with export style code. Normalize case, spaces/hyphens, pants/pant and shorts/short. Absent products are not inferred to be drafts."
+}
