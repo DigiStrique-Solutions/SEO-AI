@@ -1,0 +1,79 @@
+{
+  "write": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "spreadsheetId": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+      "replies": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "updatedSpreadsheet": null
+    },
+    "isError": false
+  },
+  "checks": {
+    "rows": 249,
+    "orderCorrect": true,
+    "allRowsAndCellPropertiesPreserved": true,
+    "headerPreserved": true,
+    "activeRows": "2:117",
+    "unverifiedRows": "118:250",
+    "unpublishedNewRows": [
+      70,
+      71,
+      80,
+      105
+    ]
+  }
+}
