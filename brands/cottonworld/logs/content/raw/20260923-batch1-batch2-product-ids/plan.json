@@ -1,0 +1,4993 @@
+{
+  "spreadsheet_id": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+  "format": "Product ID: <numeric-style-id>",
+  "source_tab": "Final",
+  "targets": [
+    "Batch 1!C2:C250",
+    "Batch 1!E2:E250",
+    "Batch 2!C2:C250",
+    "Batch 2!E2:E250"
+  ],
+  "records": [
+    {
+      "sheet": "Batch 1",
+      "row": 2,
+      "product": "m-shirts-50019-21293-natural",
+      "product_id": "50019-21293",
+      "targets": [
+        "C2",
+        "E2"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 3,
+      "product": "l-tshirt-17524-21457-natural",
+      "product_id": "17524-21457",
+      "targets": [
+        "C3",
+        "E3"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 4,
+      "product": "l-short-17382-21377-natural",
+      "product_id": "17382-21377",
+      "targets": [
+        "C4",
+        "E4"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 5,
+      "product": "m-shirts-17588-21614-white",
+      "product_id": "17588-21614",
+      "targets": [
+        "C5",
+        "E5"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 6,
+      "product": "m-tshirt-17395-21634-red",
+      "product_id": "17395-21634",
+      "targets": [
+        "C6",
+        "E6"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 7,
+      "product": "m-tshirt-16319-21666-black",
+      "product_id": "16319-21666",
+      "targets": [
+        "C7",
+        "E7"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 8,
+      "product": "m-shirts-50020-21690-red",
+      "product_id": "50020-21690",
+      "targets": [
+        "C8",
+        "E8"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 9,
+      "product": "m-shirts-50019-21690-red",
+      "product_id": "50019-21690",
+      "targets": [
+        "C9",
+        "E9"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 10,
+      "product": "m-shirts-50019-21690-green",
+      "product_id": "50019-21690",
+      "targets": [
+        "C10",
+        "E10"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 11,
+      "product": "m-tshirt-16319-21675-blue",
+      "product_id": "16319-21675",
+      "targets": [
+        "C11",
+        "E11"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 12,
+      "product": "m-shirts-50020-21690-green",
+      "product_id": "50020-21690",
+      "targets": [
+        "C12",
+        "E12"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 13,
+      "product": "m-tshirt-16319-21674-grey",
+      "product_id": "16319-21674",
+      "targets": [
+        "C13",
+        "E13"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 14,
+      "product": "m-tshirt-16319-21673-green",
+      "product_id": "16319-21673",
+      "targets": [
+        "C14",
+        "E14"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 15,
+      "product": "m-tshirt-16319-21672-sand",
+      "product_id": "16319-21672",
+      "targets": [
+        "C15",
+        "E15"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 16,
+      "product": "m-tshirt-16319-21671-green",
+      "product_id": "16319-21671",
+      "targets": [
+        "C16",
+        "E16"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 17,
+      "product": "m-tshirt-16319-21670-grey",
+      "product_id": "16319-21670",
+      "targets": [
+        "C17",
+        "E17"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 18,
+      "product": "m-tshirt-16319-21667-sand",
+      "product_id": "16319-21667",
+      "targets": [
+        "C18",
+        "E18"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 19,
+      "product": "m-tshirt-16319-21599-black",
+      "product_id": "16319-21599",
+      "targets": [
+        "C19",
+        "E19"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 20,
+      "product": "m-shirts-10521-21022-white-a",
+      "product_id": "10521-21022",
+      "targets": [
+        "C20",
+        "E20"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 21,
+      "product": "m-shirts-10521-21022-navy-1",
+      "product_id": "10521-21022",
+      "targets": [
+        "C21",
+        "E21"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 22,
+      "product": "m-pant-17138-21531-khaki",
+      "product_id": "17138-21531",
+      "targets": [
+        "C22",
+        "E22"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 23,
+      "product": "m-tshirt-17805-21622-navy",
+      "product_id": "17805-21622",
+      "targets": [
+        "C23",
+        "E23"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 24,
+      "product": "m-tshirt-17803-21646-olive",
+      "product_id": "17803-21646",
+      "targets": [
+        "C24",
+        "E24"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 25,
+      "product": "m-tshirt-17803-21646-black",
+      "product_id": "17803-21646",
+      "targets": [
+        "C25",
+        "E25"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 26,
+      "product": "m-tshirt-17395-21634-black",
+      "product_id": "17395-21634",
+      "targets": [
+        "C26",
+        "E26"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 27,
+      "product": "m-tshirt-17207-21624-blue",
+      "product_id": "17207-21624",
+      "targets": [
+        "C27",
+        "E27"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 28,
+      "product": "m-tshirt-16631-21634-green",
+      "product_id": "16631-21634",
+      "targets": [
+        "C28",
+        "E28"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 29,
+      "product": "m-tshirt-16631-21634-blue",
+      "product_id": "16631-21634",
+      "targets": [
+        "C29",
+        "E29"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 30,
+      "product": "m-tshirt-17656-21646-olive",
+      "product_id": "17656-21646",
+      "targets": [
+        "C30",
+        "E30"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 31,
+      "product": "m-tshirt-17656-21646-black",
+      "product_id": "17656-21646",
+      "targets": [
+        "C31",
+        "E31"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 32,
+      "product": "l-tshirt-17605-21631-navy",
+      "product_id": "17605-21631",
+      "targets": [
+        "C32",
+        "E32"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 33,
+      "product": "l-tshirt-17528-21620-black",
+      "product_id": "17528-21620",
+      "targets": [
+        "C33",
+        "E33"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 34,
+      "product": "m-tshirt-17804-21623-red",
+      "product_id": "17804-21623",
+      "targets": [
+        "C34",
+        "E34"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 35,
+      "product": "m-tshirt-17804-21623-navy",
+      "product_id": "17804-21623",
+      "targets": [
+        "C35",
+        "E35"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 36,
+      "product": "m-tshirt-17756-21623-green",
+      "product_id": "17756-21623",
+      "targets": [
+        "C36",
+        "E36"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 37,
+      "product": "m-tshirt-17706-21514-black",
+      "product_id": "17706-21514",
+      "targets": [
+        "C37",
+        "E37"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 38,
+      "product": "m-tshirt-17446-21622-grey",
+      "product_id": "17446-21622",
+      "targets": [
+        "C38",
+        "E38"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 39,
+      "product": "m-tshirt-17446-21622-green",
+      "product_id": "17446-21622",
+      "targets": [
+        "C39",
+        "E39"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 40,
+      "product": "m-shirts-50019-21528-pink",
+      "product_id": "50019-21528",
+      "targets": [
+        "C40",
+        "E40"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 41,
+      "product": "m-shirts-50019-21528-green",
+      "product_id": "50019-21528",
+      "targets": [
+        "C41",
+        "E41"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 42,
+      "product": "m-shirts-50019-21521-black",
+      "product_id": "50019-21521",
+      "targets": [
+        "C42",
+        "E42"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 43,
+      "product": "l-dress-17766-20959-blue",
+      "product_id": "17766-20959",
+      "targets": [
+        "C43",
+        "E43"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 44,
+      "product": "l-blouse-17751-21497-denim",
+      "product_id": "17751-21497",
+      "targets": [
+        "C44",
+        "E44"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 45,
+      "product": "m-tshirt-16319-21609-green",
+      "product_id": "16319-21609",
+      "targets": [
+        "C45",
+        "E45"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 46,
+      "product": "m-tshirt-16319-21602-grey",
+      "product_id": "16319-21602",
+      "targets": [
+        "C46",
+        "E46"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 47,
+      "product": "m-tshirt-16319-21591-aqua",
+      "product_id": "16319-21591",
+      "targets": [
+        "C47",
+        "E47"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 48,
+      "product": "m-tshirt-16319-21590-green",
+      "product_id": "16319-21590",
+      "targets": [
+        "C48",
+        "E48"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 49,
+      "product": "m-tshirt-16319-21589-aqua",
+      "product_id": "16319-21589",
+      "targets": [
+        "C49",
+        "E49"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 50,
+      "product": "m-tshirt-16319-21588-black",
+      "product_id": "16319-21588",
+      "targets": [
+        "C50",
+        "E50"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 51,
+      "product": "m-tshirt-16319-21587-grey",
+      "product_id": "16319-21587",
+      "targets": [
+        "C51",
+        "E51"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 52,
+      "product": "m-tshirt-16319-21586-black",
+      "product_id": "16319-21586",
+      "targets": [
+        "C52",
+        "E52"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 53,
+      "product": "m-shirts-50021-21400-white",
+      "product_id": "50021-21400",
+      "targets": [
+        "C53",
+        "E53"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 54,
+      "product": "m-shirts-50021-21399-sky",
+      "product_id": "50021-21399",
+      "targets": [
+        "C54",
+        "E54"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 55,
+      "product": "m-shirts-50021-21399-brick",
+      "product_id": "50021-21399",
+      "targets": [
+        "C55",
+        "E55"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 56,
+      "product": "m-shirts-50006-21400-white",
+      "product_id": "50006-21400",
+      "targets": [
+        "C56",
+        "E56"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 57,
+      "product": "m-shirts-50006-21399-sky",
+      "product_id": "50006-21399",
+      "targets": [
+        "C57",
+        "E57"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 58,
+      "product": "m-shirts-50006-21399-brick",
+      "product_id": "50006-21399",
+      "targets": [
+        "C58",
+        "E58"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 59,
+      "product": "l-tshirt-17428-21617-olive",
+      "product_id": "17428-21617",
+      "targets": [
+        "C59",
+        "E59"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 60,
+      "product": "l-tshirt-17428-21617-black",
+      "product_id": "17428-21617",
+      "targets": [
+        "C60",
+        "E60"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 61,
+      "product": "l-tshirt-17427-21617-olive",
+      "product_id": "17427-21617",
+      "targets": [
+        "C61",
+        "E61"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 62,
+      "product": "l-tshirt-17427-21617-black",
+      "product_id": "17427-21617",
+      "targets": [
+        "C62",
+        "E62"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 63,
+      "product": "m-short-17622-21479-natural",
+      "product_id": "17622-21479",
+      "targets": [
+        "C63",
+        "E63"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 64,
+      "product": "m-pant-17623-21479-black",
+      "product_id": "17623-21479",
+      "targets": [
+        "C64",
+        "E64"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 65,
+      "product": "m-shirts-50020-21482-natural",
+      "product_id": "50020-21482",
+      "targets": [
+        "C65",
+        "E65"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 66,
+      "product": "m-shirts-50000-21502-white",
+      "product_id": "50000-21502",
+      "targets": [
+        "C66",
+        "E66"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 67,
+      "product": "m-shirts-50000-21214-black",
+      "product_id": "50000-21214",
+      "targets": [
+        "C67",
+        "E67"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 68,
+      "product": "m-shirts-17739-21502-white",
+      "product_id": "17739-21502",
+      "targets": [
+        "C68",
+        "E68"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 69,
+      "product": "l-pant-17754-21524-black",
+      "product_id": "17754-21524",
+      "targets": [
+        "C69",
+        "E69"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 70,
+      "product": "m-pant-13485-21487-slate",
+      "product_id": "13485-21487",
+      "targets": [
+        "C70",
+        "E70"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 71,
+      "product": "m-pant-13485-21487-navy",
+      "product_id": "13485-21487",
+      "targets": [
+        "C71",
+        "E71"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 72,
+      "product": "m-pant-13485-21487-grey",
+      "product_id": "13485-21487",
+      "targets": [
+        "C72",
+        "E72"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 73,
+      "product": "m-tshirt-17706-21514-brown",
+      "product_id": "17706-21514",
+      "targets": [
+        "C73",
+        "E73"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 74,
+      "product": "m-tshirt-17501-21514-navy",
+      "product_id": "17501-21514",
+      "targets": [
+        "C74",
+        "E74"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 75,
+      "product": "m-tshirt-17500-21514-navy",
+      "product_id": "17500-21514",
+      "targets": [
+        "C75",
+        "E75"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 76,
+      "product": "l-blouse-17699-20161-blue",
+      "product_id": "17699-20161",
+      "targets": [
+        "C76",
+        "E76"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 77,
+      "product": "l-blouse-17689-21295-naturalblack",
+      "product_id": "17689-21295",
+      "targets": [
+        "C77",
+        "E77"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 78,
+      "product": "l-blouse-17541-21295-naturalblack",
+      "product_id": "17541-21295",
+      "targets": [
+        "C78",
+        "E78"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 79,
+      "product": "m-short-16124-21532-navy",
+      "product_id": "16124-21532",
+      "targets": [
+        "C79",
+        "E79"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 80,
+      "product": "m-pant-17684-21525-khaki",
+      "product_id": "17684-21525",
+      "targets": [
+        "C80",
+        "E80"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 81,
+      "product": "m-pant-17595-21525-olive",
+      "product_id": "17595-21525",
+      "targets": [
+        "C81",
+        "E81"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 82,
+      "product": "m-pant-17544-21564-olive-1",
+      "product_id": "17544-21564",
+      "targets": [
+        "C82",
+        "E82"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 83,
+      "product": "m-tshirt-15906-21550-pink",
+      "product_id": "15906-21550",
+      "targets": [
+        "C83",
+        "E83"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 84,
+      "product": "m-tshirt-15906-21550-khaki",
+      "product_id": "15906-21550",
+      "targets": [
+        "C84",
+        "E84"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 85,
+      "product": "m-tshirt-15906-21550-green",
+      "product_id": "15906-21550",
+      "targets": [
+        "C85",
+        "E85"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 86,
+      "product": "m-tshirt-15906-21550-brown",
+      "product_id": "15906-21550",
+      "targets": [
+        "C86",
+        "E86"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 87,
+      "product": "m-tshirt-15906-21550-blue",
+      "product_id": "15906-21550",
+      "targets": [
+        "C87",
+        "E87"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 88,
+      "product": "m-shirts-13484-21356-blue",
+      "product_id": "13484-21356",
+      "targets": [
+        "C88",
+        "E88"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 89,
+      "product": "m-shirts-13484-21355-navy",
+      "product_id": "13484-21355",
+      "targets": [
+        "C89",
+        "E89"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 90,
+      "product": "m-tshirt-17525-21507-navy",
+      "product_id": "17525-21507",
+      "targets": [
+        "C90",
+        "E90"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 91,
+      "product": "m-tshirt-17525-21507-khaki",
+      "product_id": "17525-21507",
+      "targets": [
+        "C91",
+        "E91"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 92,
+      "product": "m-tshirt-17525-21507-green",
+      "product_id": "17525-21507",
+      "targets": [
+        "C92",
+        "E92"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 93,
+      "product": "m-tshirt-17220-21507-navy",
+      "product_id": "17220-21507",
+      "targets": [
+        "C93",
+        "E93"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 94,
+      "product": "m-shirts-50002-21501-brown",
+      "product_id": "50002-21501",
+      "targets": [
+        "C94",
+        "E94"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 95,
+      "product": "m-shirts-17503-21300-navy",
+      "product_id": "17503-21300",
+      "targets": [
+        "C95",
+        "E95"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 96,
+      "product": "m-shirts-17503-21300-green",
+      "product_id": "17503-21300",
+      "targets": [
+        "C96",
+        "E96"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 97,
+      "product": "m-shirts-16912-21520-blue",
+      "product_id": "16912-21520",
+      "targets": [
+        "C97",
+        "E97"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 98,
+      "product": "l-blouse-17604-21341-lilac",
+      "product_id": "17604-21341",
+      "targets": [
+        "C98",
+        "E98"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 99,
+      "product": "l-blouse-17541-21334-red",
+      "product_id": "17541-21334",
+      "targets": [
+        "C99",
+        "E99"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 100,
+      "product": "m-short-16299-21494-white",
+      "product_id": "16299-21494",
+      "targets": [
+        "C100",
+        "E100"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 101,
+      "product": "m-short-16299-21494-navy",
+      "product_id": "16299-21494",
+      "targets": [
+        "C101",
+        "E101"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 102,
+      "product": "m-short-16299-21356-blue",
+      "product_id": "16299-21356",
+      "targets": [
+        "C102",
+        "E102"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 103,
+      "product": "m-short-16299-21355-navy",
+      "product_id": "16299-21355",
+      "targets": [
+        "C103",
+        "E103"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 104,
+      "product": "m-shirts-50019-21321-khaki",
+      "product_id": "50019-21321",
+      "targets": [
+        "C104",
+        "E104"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 105,
+      "product": "m-shirts-50019-21321-green",
+      "product_id": "50019-21321",
+      "targets": [
+        "C105",
+        "E105"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 106,
+      "product": "m-shirts-50019-21290-black",
+      "product_id": "50019-21290",
+      "targets": [
+        "C106",
+        "E106"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 107,
+      "product": "l-blouse-17160-21275-white",
+      "product_id": "17160-21275",
+      "targets": [
+        "C107",
+        "E107"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 108,
+      "product": "l-blouse-17125-21275-white",
+      "product_id": "17125-21275",
+      "targets": [
+        "C108",
+        "E108"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 109,
+      "product": "m-pant-17685-21486-khaki",
+      "product_id": "17685-21486",
+      "targets": [
+        "C109",
+        "E109"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 110,
+      "product": "m-pant-15152-21494-white",
+      "product_id": "15152-21494",
+      "targets": [
+        "C110",
+        "E110"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 111,
+      "product": "l-pant-10578-21449-white",
+      "product_id": "10578-21449",
+      "targets": [
+        "C111",
+        "E111"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 112,
+      "product": "l-pant-10578-21449-khaki",
+      "product_id": "10578-21449",
+      "targets": [
+        "C112",
+        "E112"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 113,
+      "product": "l-culotte-17065-21275-white",
+      "product_id": "17065-21275",
+      "targets": [
+        "C113",
+        "E113"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 114,
+      "product": "l-blouse-17699-21352-blue",
+      "product_id": "17699-21352",
+      "targets": [
+        "C114",
+        "E114"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 115,
+      "product": "m-short-17714-21526-white",
+      "product_id": "17714-21526",
+      "targets": [
+        "C115",
+        "E115"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 116,
+      "product": "m-short-17714-21526-grey",
+      "product_id": "17714-21526",
+      "targets": [
+        "C116",
+        "E116"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 117,
+      "product": "m-short-17648-21485-natural",
+      "product_id": "17648-21485",
+      "targets": [
+        "C117",
+        "E117"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 118,
+      "product": "l-pant-13355-21449-white",
+      "product_id": "13355-21449",
+      "targets": [
+        "C118",
+        "E118"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 119,
+      "product": "m-pant-17688-21465-navy",
+      "product_id": "17688-21465",
+      "targets": [
+        "C119",
+        "E119"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 120,
+      "product": "m-pant-17688-21465-black",
+      "product_id": "17688-21465",
+      "targets": [
+        "C120",
+        "E120"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 121,
+      "product": "m-pant-17138-21487-slate",
+      "product_id": "17138-21487",
+      "targets": [
+        "C121",
+        "E121"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 122,
+      "product": "m-pant-17138-21487-navy",
+      "product_id": "17138-21487",
+      "targets": [
+        "C122",
+        "E122"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 123,
+      "product": "m-pant-17138-21487-natural",
+      "product_id": "17138-21487",
+      "targets": [
+        "C123",
+        "E123"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 124,
+      "product": "m-shirts-50020-21444-lilac",
+      "product_id": "50020-21444",
+      "targets": [
+        "C124",
+        "E124"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 125,
+      "product": "m-tshirt-17442-21495-navy",
+      "product_id": "17442-21495",
+      "targets": [
+        "C125",
+        "E125"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 126,
+      "product": "m-tshirt-17442-21495-brown",
+      "product_id": "17442-21495",
+      "targets": [
+        "C126",
+        "E126"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 127,
+      "product": "l-tshirt-17524-21457-black",
+      "product_id": "17524-21457",
+      "targets": [
+        "C127",
+        "E127"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 128,
+      "product": "l-tshirt-11670-21499-white",
+      "product_id": "11670-21499",
+      "targets": [
+        "C128",
+        "E128"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 129,
+      "product": "l-tshirt-11670-21499-blue",
+      "product_id": "11670-21499",
+      "targets": [
+        "C129",
+        "E129"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 130,
+      "product": "l-tshirt-11670-21499-black",
+      "product_id": "11670-21499",
+      "targets": [
+        "C130",
+        "E130"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 131,
+      "product": "m-pant-11743-21487-slate",
+      "product_id": "11743-21487",
+      "targets": [
+        "C131",
+        "E131"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 132,
+      "product": "m-pant-11743-21487-navy",
+      "product_id": "11743-21487",
+      "targets": [
+        "C132",
+        "E132"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 133,
+      "product": "m-pant-11743-21487-grey",
+      "product_id": "11743-21487",
+      "targets": [
+        "C133",
+        "E133"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 134,
+      "product": "l-pant-8015-21377-white",
+      "product_id": "8015-21377",
+      "targets": [
+        "C134",
+        "E134"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 135,
+      "product": "l-pant-17080-21377-white",
+      "product_id": "17080-21377",
+      "targets": [
+        "C135",
+        "E135"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 136,
+      "product": "l-pant-17080-21377-olive",
+      "product_id": "17080-21377",
+      "targets": [
+        "C136",
+        "E136"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 137,
+      "product": "m-tshirt-17501-21514-green",
+      "product_id": "17501-21514",
+      "targets": [
+        "C137",
+        "E137"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 138,
+      "product": "m-tshirt-17440-21495-grey",
+      "product_id": "17440-21495",
+      "targets": [
+        "C138",
+        "E138"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 139,
+      "product": "m-shirts-50019-21445-white",
+      "product_id": "50019-21445",
+      "targets": [
+        "C139",
+        "E139"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 140,
+      "product": "m-shirts-50019-21445-black",
+      "product_id": "50019-21445",
+      "targets": [
+        "C140",
+        "E140"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 141,
+      "product": "m-shirts-50019-21310-black",
+      "product_id": "50019-21310",
+      "targets": [
+        "C141",
+        "E141"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 142,
+      "product": "m-shirts-50000-21309-black",
+      "product_id": "50000-21309",
+      "targets": [
+        "C142",
+        "E142"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 143,
+      "product": "m-shirts-15745-21287-white",
+      "product_id": "15745-21287",
+      "targets": [
+        "C143",
+        "E143"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 144,
+      "product": "m-pant-16181-21465-olive",
+      "product_id": "16181-21465",
+      "targets": [
+        "C144",
+        "E144"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 145,
+      "product": "m-pant-16181-21465-khaki",
+      "product_id": "16181-21465",
+      "targets": [
+        "C145",
+        "E145"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 146,
+      "product": "l-pant-8015-21377-brown",
+      "product_id": "8015-21377",
+      "targets": [
+        "C146",
+        "E146"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 147,
+      "product": "m-tshirt-16319-21443-natural",
+      "product_id": "16319-21443",
+      "targets": [
+        "C147",
+        "E147"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 148,
+      "product": "m-shirts-50020-21445-white",
+      "product_id": "50020-21445",
+      "targets": [
+        "C148",
+        "E148"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 149,
+      "product": "m-shirts-50020-21445-black",
+      "product_id": "50020-21445",
+      "targets": [
+        "C149",
+        "E149"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 150,
+      "product": "m-shirts-50020-21396-multi",
+      "product_id": "50020-21396",
+      "targets": [
+        "C150",
+        "E150"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 151,
+      "product": "m-shirts-50020-21395-multi",
+      "product_id": "50020-21395",
+      "targets": [
+        "C151",
+        "E151"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 152,
+      "product": "m-shirts-16162-21451-white",
+      "product_id": "16162-21451",
+      "targets": [
+        "C152",
+        "E152"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 153,
+      "product": "l-blouse-16294-21203-natural",
+      "product_id": "16294-21203",
+      "targets": [
+        "C153",
+        "E153"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 154,
+      "product": "m-shirts-50020-21690-brown",
+      "product_id": "50020-21690",
+      "targets": [
+        "C154",
+        "E154"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 155,
+      "product": "m-shirts-50020-21690-blue",
+      "product_id": "50020-21690",
+      "targets": [
+        "C155",
+        "E155"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 156,
+      "product": "l-pant-17813-21544-black",
+      "product_id": "17813-21544",
+      "targets": [
+        "C156",
+        "E156"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 157,
+      "product": "l-tshirt-17605-21631-red",
+      "product_id": "17605-21631",
+      "targets": [
+        "C157",
+        "E157"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 158,
+      "product": "l-tshirt-17550-21631-red",
+      "product_id": "17550-21631",
+      "targets": [
+        "C158",
+        "E158"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 159,
+      "product": "l-blouse-17751-21544-black",
+      "product_id": "17751-21544",
+      "targets": [
+        "C159",
+        "E159"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 160,
+      "product": "l-blouse-17692-21506-white",
+      "product_id": "17692-21506",
+      "targets": [
+        "C160",
+        "E160"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 161,
+      "product": "l-blouse-17692-21480-red",
+      "product_id": "17692-21480",
+      "targets": [
+        "C161",
+        "E161"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 162,
+      "product": "l-blouse-16831-21557-blue",
+      "product_id": "16831-21557",
+      "targets": [
+        "C162",
+        "E162"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 163,
+      "product": "l-blouse-11180-21557-blue",
+      "product_id": "11180-21557",
+      "targets": [
+        "C163",
+        "E163"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 164,
+      "product": "m-shirts-50019-21528-navy",
+      "product_id": "50019-21528",
+      "targets": [
+        "C164",
+        "E164"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 165,
+      "product": "m-shirts-50019-21528-natural",
+      "product_id": "50019-21528",
+      "targets": [
+        "C165",
+        "E165"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 166,
+      "product": "m-shirts-50019-21528-blue",
+      "product_id": "50019-21528",
+      "targets": [
+        "C166",
+        "E166"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 167,
+      "product": "l-tshirt-17724-21566-white",
+      "product_id": "17724-21566",
+      "targets": [
+        "C167",
+        "E167"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 168,
+      "product": "l-tshirt-17721-21618-black",
+      "product_id": "17721-21618",
+      "targets": [
+        "C168",
+        "E168"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 169,
+      "product": "l-tshirt-17427-21575-black",
+      "product_id": "17427-21575",
+      "targets": [
+        "C169",
+        "E169"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 170,
+      "product": "l-tshirt-17427-21567-white",
+      "product_id": "17427-21567",
+      "targets": [
+        "C170",
+        "E170"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 171,
+      "product": "l-blouse-17778-21543-black",
+      "product_id": "17778-21543",
+      "targets": [
+        "C171",
+        "E171"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 172,
+      "product": "l-blouse-17774-21543-white",
+      "product_id": "17774-21543",
+      "targets": [
+        "C172",
+        "E172"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 173,
+      "product": "m-pant-17544-21531-slate",
+      "product_id": "17544-21531",
+      "targets": [
+        "C173",
+        "E173"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 174,
+      "product": "l-pant-17080-21560-white",
+      "product_id": "17080-21560",
+      "targets": [
+        "C174",
+        "E174"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 175,
+      "product": "m-shirts-50021-21400-green",
+      "product_id": "50021-21400",
+      "targets": [
+        "C175",
+        "E175"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 176,
+      "product": "m-shirts-50006-21400-green",
+      "product_id": "50006-21400",
+      "targets": [
+        "C176",
+        "E176"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 177,
+      "product": "m-shirts-17819-21607-natural",
+      "product_id": "17819-21607",
+      "targets": [
+        "C177",
+        "E177"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 178,
+      "product": "m-shirts-17818-21608-natural",
+      "product_id": "17818-21608",
+      "targets": [
+        "C178",
+        "E178"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 179,
+      "product": "m-shirts-50015-21547-olive",
+      "product_id": "50015-21547",
+      "targets": [
+        "C179",
+        "E179"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 180,
+      "product": "m-shirts-50015-21547-brown",
+      "product_id": "50015-21547",
+      "targets": [
+        "C180",
+        "E180"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 181,
+      "product": "l-blouse-17732-21524-black",
+      "product_id": "17732-21524",
+      "targets": [
+        "C181",
+        "E181"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 182,
+      "product": "l-blouse-17691-21480-red",
+      "product_id": "17691-21480",
+      "targets": [
+        "C182",
+        "E182"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 183,
+      "product": "l-blouse-17142-21497-denim",
+      "product_id": "17142-21497",
+      "targets": [
+        "C183",
+        "E183"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 184,
+      "product": "l-pant-17754-21524-rust",
+      "product_id": "17754-21524",
+      "targets": [
+        "C184",
+        "E184"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 185,
+      "product": "m-shirts-13484-21546-olive",
+      "product_id": "13484-21546",
+      "targets": [
+        "C185",
+        "E185"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 186,
+      "product": "m-shirts-13484-21546-navy",
+      "product_id": "13484-21546",
+      "targets": [
+        "C186",
+        "E186"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 187,
+      "product": "m-pant-13485-21487-natural",
+      "product_id": "13485-21487",
+      "targets": [
+        "C187",
+        "E187"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 188,
+      "product": "m-tshirt-15906-21550-white",
+      "product_id": "15906-21550",
+      "targets": [
+        "C188",
+        "E188"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 189,
+      "product": "l-blouse-17541-21167-white",
+      "product_id": "17541-21167",
+      "targets": [
+        "C189",
+        "E189"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 190,
+      "product": "l-pant-17682-21449-grey",
+      "product_id": "17682-21449",
+      "targets": [
+        "C190",
+        "E190"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 191,
+      "product": "l-kdress-17522-21498-navy",
+      "product_id": "17522-21498",
+      "targets": [
+        "C191",
+        "E191"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 192,
+      "product": "m-tshirt-15906-21496-white",
+      "product_id": "15906-21496",
+      "targets": [
+        "C192",
+        "E192"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 193,
+      "product": "m-tshirt-15906-21496-black",
+      "product_id": "15906-21496",
+      "targets": [
+        "C193",
+        "E193"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 194,
+      "product": "m-shirts-50002-21501-navy",
+      "product_id": "50002-21501",
+      "targets": [
+        "C194",
+        "E194"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 195,
+      "product": "l-dress-17323-21294-blue",
+      "product_id": "17323-21294",
+      "targets": [
+        "C195",
+        "E195"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 196,
+      "product": "l-blouse-17564-21527-indigo",
+      "product_id": "17564-21527",
+      "targets": [
+        "C196",
+        "E196"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 197,
+      "product": "l-blouse-17543-21492-navy",
+      "product_id": "17543-21492",
+      "targets": [
+        "C197",
+        "E197"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 198,
+      "product": "l-blouse-17543-21334-red",
+      "product_id": "17543-21334",
+      "targets": [
+        "C198",
+        "E198"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 199,
+      "product": "l-short-17675-21508-natural",
+      "product_id": "17675-21508",
+      "targets": [
+        "C199",
+        "E199"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 200,
+      "product": "m-tshirt-17091-21491-olive",
+      "product_id": "17091-21491",
+      "targets": [
+        "C200",
+        "E200"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 201,
+      "product": "m-tshirt-17091-21491-black",
+      "product_id": "17091-21491",
+      "targets": [
+        "C201",
+        "E201"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 202,
+      "product": "m-tshirt-15906-21496-grey",
+      "product_id": "15906-21496",
+      "targets": [
+        "C202",
+        "E202"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 203,
+      "product": "m-shirts-50020-21452-natural",
+      "product_id": "50020-21452",
+      "targets": [
+        "C203",
+        "E203"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 204,
+      "product": "m-shirts-50019-21451-red",
+      "product_id": "50019-21451",
+      "targets": [
+        "C204",
+        "E204"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 205,
+      "product": "m-shirts-50019-21451-navy",
+      "product_id": "50019-21451",
+      "targets": [
+        "C205",
+        "E205"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 206,
+      "product": "m-shirts-50019-21451-mustard",
+      "product_id": "50019-21451",
+      "targets": [
+        "C206",
+        "E206"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 207,
+      "product": "m-shirts-50019-21451-green",
+      "product_id": "50019-21451",
+      "targets": [
+        "C207",
+        "E207"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 208,
+      "product": "l-tshirt-17302-21491-wine",
+      "product_id": "17302-21491",
+      "targets": [
+        "C208",
+        "E208"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 209,
+      "product": "l-blouse-17539-21197-blue",
+      "product_id": "17539-21197",
+      "targets": [
+        "C209",
+        "E209"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 210,
+      "product": "l-blouse-16680-21035-white",
+      "product_id": "16680-21035",
+      "targets": [
+        "C210",
+        "E210"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 211,
+      "product": "l-pant-10578-21449-wine",
+      "product_id": "10578-21449",
+      "targets": [
+        "C211",
+        "E211"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 212,
+      "product": "l-pant-10578-21449-grey",
+      "product_id": "10578-21449",
+      "targets": [
+        "C212",
+        "E212"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 213,
+      "product": "l-blouse-17717-21527-indigo",
+      "product_id": "17717-21527",
+      "targets": [
+        "C213",
+        "E213"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 214,
+      "product": "l-blouse-11710-21381-blue",
+      "product_id": "11710-21381",
+      "targets": [
+        "C214",
+        "E214"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 215,
+      "product": "l-pant-17616-21448-black",
+      "product_id": "17616-21448",
+      "targets": [
+        "C215",
+        "E215"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 216,
+      "product": "l-pant-13355-21449-wine",
+      "product_id": "13355-21449",
+      "targets": [
+        "C216",
+        "E216"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 217,
+      "product": "l-pant-13355-21449-khaki",
+      "product_id": "13355-21449",
+      "targets": [
+        "C217",
+        "E217"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 218,
+      "product": "m-pant-17138-21487-grey",
+      "product_id": "17138-21487",
+      "targets": [
+        "C218",
+        "E218"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 219,
+      "product": "m-shirts-50020-21444-sky",
+      "product_id": "50020-21444",
+      "targets": [
+        "C219",
+        "E219"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 220,
+      "product": "m-shirts-50020-21444-navy",
+      "product_id": "50020-21444",
+      "targets": [
+        "C220",
+        "E220"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 221,
+      "product": "m-shirts-50019-21444-sky",
+      "product_id": "50019-21444",
+      "targets": [
+        "C221",
+        "E221"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 222,
+      "product": "m-shirts-50019-21444-natural",
+      "product_id": "50019-21444",
+      "targets": [
+        "C222",
+        "E222"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 223,
+      "product": "l-blouse-17211-21203-natural",
+      "product_id": "17211-21203",
+      "targets": [
+        "C223",
+        "E223"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 224,
+      "product": "l-blouse-16680-20912-navy",
+      "product_id": "16680-20912",
+      "targets": [
+        "C224",
+        "E224"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 225,
+      "product": "l-blouse-16529-21203-natural",
+      "product_id": "16529-21203",
+      "targets": [
+        "C225",
+        "E225"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 226,
+      "product": "m-shirts-50019-21297-navy",
+      "product_id": "50019-21297",
+      "targets": [
+        "C226",
+        "E226"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 227,
+      "product": "m-shirts-50019-21297-green",
+      "product_id": "50019-21297",
+      "targets": [
+        "C227",
+        "E227"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 228,
+      "product": "l-tshirt-16752-21491-wine",
+      "product_id": "16752-21491",
+      "targets": [
+        "C228",
+        "E228"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 229,
+      "product": "l-tshirt-16752-21491-black",
+      "product_id": "16752-21491",
+      "targets": [
+        "C229",
+        "E229"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 230,
+      "product": "l-tshirt-16752-21417-black",
+      "product_id": "16752-21417",
+      "targets": [
+        "C230",
+        "E230"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 231,
+      "product": "l-blouse-17564-21341-grey",
+      "product_id": "17564-21341",
+      "targets": [
+        "C231",
+        "E231"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 232,
+      "product": "l-pant-17080-21377-natural",
+      "product_id": "17080-21377",
+      "targets": [
+        "C232",
+        "E232"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 233,
+      "product": "l-pant-17080-21377-khaki",
+      "product_id": "17080-21377",
+      "targets": [
+        "C233",
+        "E233"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 234,
+      "product": "l-pant-17080-21377-black",
+      "product_id": "17080-21377",
+      "targets": [
+        "C234",
+        "E234"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 235,
+      "product": "m-tshirt-17440-21495-green",
+      "product_id": "17440-21495",
+      "targets": [
+        "C235",
+        "E235"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 236,
+      "product": "m-tshirt-17440-21495-brown",
+      "product_id": "17440-21495",
+      "targets": [
+        "C236",
+        "E236"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 237,
+      "product": "m-tshirt-16319-21433-natural",
+      "product_id": "16319-21433",
+      "targets": [
+        "C237",
+        "E237"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 238,
+      "product": "m-shirts-50019-21445-mustard",
+      "product_id": "50019-21445",
+      "targets": [
+        "C238",
+        "E238"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 239,
+      "product": "m-shirts-50019-21445-mint",
+      "product_id": "50019-21445",
+      "targets": [
+        "C239",
+        "E239"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 240,
+      "product": "m-shirts-50019-21445-blue",
+      "product_id": "50019-21445",
+      "targets": [
+        "C240",
+        "E240"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 241,
+      "product": "m-shirts-17316-21308-grey",
+      "product_id": "17316-21308",
+      "targets": [
+        "C241",
+        "E241"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 242,
+      "product": "m-shirts-17316-21308-blue",
+      "product_id": "17316-21308",
+      "targets": [
+        "C242",
+        "E242"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 243,
+      "product": "l-tshirt-17558-21514-black",
+      "product_id": "17558-21514",
+      "targets": [
+        "C243",
+        "E243"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 244,
+      "product": "l-tshirt-16727-21407-navy",
+      "product_id": "16727-21407",
+      "targets": [
+        "C244",
+        "E244"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 245,
+      "product": "m-shirts-50020-21445-navy",
+      "product_id": "50020-21445",
+      "targets": [
+        "C245",
+        "E245"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 246,
+      "product": "m-shirts-50020-21445-green",
+      "product_id": "50020-21445",
+      "targets": [
+        "C246",
+        "E246"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 247,
+      "product": "m-shirts-50020-21445-brown",
+      "product_id": "50020-21445",
+      "targets": [
+        "C247",
+        "E247"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 248,
+      "product": "m-shirts-50020-21394-blue",
+      "product_id": "50020-21394",
+      "targets": [
+        "C248",
+        "E248"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 249,
+      "product": "m-shirts-17213-21451-sky",
+      "product_id": "17213-21451",
+      "targets": [
+        "C249",
+        "E249"
+      ]
+    },
+    {
+      "sheet": "Batch 1",
+      "row": 250,
+      "product": "l-tshirt-16669-21416-navy",
+      "product_id": "16669-21416",
+      "targets": [
+        "C250",
+        "E250"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 2,
+      "product": "l-kdress-17548-21456-navy",
+      "product_id": "17548-21456",
+      "targets": [
+        "C2",
+        "E2"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 3,
+      "product": "l-blouse-17125-21274-white",
+      "product_id": "17125-21274",
+      "targets": [
+        "C3",
+        "E3"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 4,
+      "product": "m-pant-11743-21484-slate",
+      "product_id": "11743-21484",
+      "targets": [
+        "C4",
+        "E4"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 5,
+      "product": "m-pant-11743-21484-navy",
+      "product_id": "11743-21484",
+      "targets": [
+        "C5",
+        "E5"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 6,
+      "product": "m-pant-11743-21484-khaki",
+      "product_id": "11743-21484",
+      "targets": [
+        "C6",
+        "E6"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 7,
+      "product": "l-short-09776-21378-khaki",
+      "product_id": "09776-21378",
+      "targets": [
+        "C7",
+        "E7"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 8,
+      "product": "l-short-09776-21378-black",
+      "product_id": "09776-21378",
+      "targets": [
+        "C8",
+        "E8"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 9,
+      "product": "l-pant-8015-21378-navy",
+      "product_id": "8015-21378",
+      "targets": [
+        "C9",
+        "E9"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 10,
+      "product": "l-pant-17304-21377-olive",
+      "product_id": "17304-21377",
+      "targets": [
+        "C10",
+        "E10"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 11,
+      "product": "l-pant-17304-21377-navy",
+      "product_id": "17304-21377",
+      "targets": [
+        "C11",
+        "E11"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 12,
+      "product": "l-pant-17304-21377-brown",
+      "product_id": "17304-21377",
+      "targets": [
+        "C12",
+        "E12"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 13,
+      "product": "l-pant-16130-21377-navy",
+      "product_id": "16130-21377",
+      "targets": [
+        "C13",
+        "E13"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 14,
+      "product": "l-pant-16130-21377-natural",
+      "product_id": "16130-21377",
+      "targets": [
+        "C14",
+        "E14"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 15,
+      "product": "l-pant-16130-21377-brown",
+      "product_id": "16130-21377",
+      "targets": [
+        "C15",
+        "E15"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 16,
+      "product": "m-shirts-50020-21500-lilac",
+      "product_id": "50020-21500",
+      "targets": [
+        "C16",
+        "E16"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 17,
+      "product": "m-shirts-50019-21397-sky",
+      "product_id": "50019-21397",
+      "targets": [
+        "C17",
+        "E17"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 18,
+      "product": "m-shirts-50019-21397-green",
+      "product_id": "50019-21397",
+      "targets": [
+        "C18",
+        "E18"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 19,
+      "product": "m-shirts-17404-21145-white",
+      "product_id": "17404-21145",
+      "targets": [
+        "C19",
+        "E19"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 20,
+      "product": "m-shirts-17404-21145-black",
+      "product_id": "17404-21145",
+      "targets": [
+        "C20",
+        "E20"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 21,
+      "product": "m-shirts-10521-21308-khaki",
+      "product_id": "10521-21308",
+      "targets": [
+        "C21",
+        "E21"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 22,
+      "product": "m-shirts-10521-21308-grey",
+      "product_id": "10521-21308",
+      "targets": [
+        "C22",
+        "E22"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 23,
+      "product": "l-blouse-17507-21274-white",
+      "product_id": "17507-21274",
+      "targets": [
+        "C23",
+        "E23"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 24,
+      "product": "m-short-17596-21402-navy",
+      "product_id": "17596-21402",
+      "targets": [
+        "C24",
+        "E24"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 25,
+      "product": "m-short-16367-21486-white",
+      "product_id": "16367-21486",
+      "targets": [
+        "C25",
+        "E25"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 26,
+      "product": "m-short-16367-21486-natural",
+      "product_id": "16367-21486",
+      "targets": [
+        "C26",
+        "E26"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 27,
+      "product": "l-culotte-17065-21274-white",
+      "product_id": "17065-21274",
+      "targets": [
+        "C27",
+        "E27"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 28,
+      "product": "m-tshirt-17470-21248-natural",
+      "product_id": "17470-21248",
+      "targets": [
+        "C28",
+        "E28"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 29,
+      "product": "m-tshirt-17470-21248-blue",
+      "product_id": "17470-21248",
+      "targets": [
+        "C29",
+        "E29"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 30,
+      "product": "m-tshirt-17470-21248-black",
+      "product_id": "17470-21248",
+      "targets": [
+        "C30",
+        "E30"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 31,
+      "product": "m-tshirt-17437-21248-natural",
+      "product_id": "17437-21248",
+      "targets": [
+        "C31",
+        "E31"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 32,
+      "product": "m-tshirt-17437-21248-black",
+      "product_id": "17437-21248",
+      "targets": [
+        "C32",
+        "E32"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 33,
+      "product": "m-tshirt-17223-21248-blue",
+      "product_id": "17223-21248",
+      "targets": [
+        "C33",
+        "E33"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 34,
+      "product": "m-shirts-16160-21296-navy",
+      "product_id": "16160-21296",
+      "targets": [
+        "C34",
+        "E34"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 35,
+      "product": "l-blouse-17107-21353-blue",
+      "product_id": "17107-21353",
+      "targets": [
+        "C35",
+        "E35"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 36,
+      "product": "m-pant-11743-21465-olive",
+      "product_id": "11743-21465",
+      "targets": [
+        "C36",
+        "E36"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 37,
+      "product": "m-pant-11743-21465-navy",
+      "product_id": "11743-21465",
+      "targets": [
+        "C37",
+        "E37"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 38,
+      "product": "m-pant-11743-21465-black",
+      "product_id": "11743-21465",
+      "targets": [
+        "C38",
+        "E38"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 39,
+      "product": "m-tshirt-17439-21247-natural",
+      "product_id": "17439-21247",
+      "targets": [
+        "C39",
+        "E39"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 40,
+      "product": "m-tshirt-17439-21247-black",
+      "product_id": "17439-21247",
+      "targets": [
+        "C40",
+        "E40"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 41,
+      "product": "m-tshirt-16906-21374-green",
+      "product_id": "16906-21374",
+      "targets": [
+        "C41",
+        "E41"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 42,
+      "product": "m-shirts-50006-21287-blue",
+      "product_id": "50006-21287",
+      "targets": [
+        "C42",
+        "E42"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 43,
+      "product": "m-shirts-50006-21287-black",
+      "product_id": "50006-21287",
+      "targets": [
+        "C43",
+        "E43"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 44,
+      "product": "m-shirts-16159-21303-yellow",
+      "product_id": "16159-21303",
+      "targets": [
+        "C44",
+        "E44"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 45,
+      "product": "m-shirts-50019-21316-natural",
+      "product_id": "50019-21316",
+      "targets": [
+        "C45",
+        "E45"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 46,
+      "product": "m-shirts-50015-21303-white",
+      "product_id": "50015-21303",
+      "targets": [
+        "C46",
+        "E46"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 47,
+      "product": "m-shirts-50015-21303-black",
+      "product_id": "50015-21303",
+      "targets": [
+        "C47",
+        "E47"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 48,
+      "product": "m-pant-17597-21483-olive",
+      "product_id": "17597-21483",
+      "targets": [
+        "C48",
+        "E48"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 49,
+      "product": "m-pant-17597-21483-navy",
+      "product_id": "17597-21483",
+      "targets": [
+        "C49",
+        "E49"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 50,
+      "product": "l-pant-10578-21378-white",
+      "product_id": "10578-21378",
+      "targets": [
+        "C50",
+        "E50"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 51,
+      "product": "l-pant-10578-21378-khaki",
+      "product_id": "10578-21378",
+      "targets": [
+        "C51",
+        "E51"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 52,
+      "product": "m-shirts-50006-21303-pink",
+      "product_id": "50006-21303",
+      "targets": [
+        "C52",
+        "E52"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 53,
+      "product": "m-shirts-50006-21303-black",
+      "product_id": "50006-21303",
+      "targets": [
+        "C53",
+        "E53"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 54,
+      "product": "m-shirts-50000-21350-black",
+      "product_id": "50000-21350",
+      "targets": [
+        "C54",
+        "E54"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 55,
+      "product": "m-shirts-50019-21348-white",
+      "product_id": "50019-21348",
+      "targets": [
+        "C55",
+        "E55"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 56,
+      "product": "m-shirts-50019-21348-green",
+      "product_id": "50019-21348",
+      "targets": [
+        "C56",
+        "E56"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 57,
+      "product": "m-shirts-50019-21348-black",
+      "product_id": "50019-21348",
+      "targets": [
+        "C57",
+        "E57"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 58,
+      "product": "m-pant-17575-21347-navy",
+      "product_id": "17575-21347",
+      "targets": [
+        "C58",
+        "E58"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 59,
+      "product": "m-pant-11743-21385-olive",
+      "product_id": "11743-21385",
+      "targets": [
+        "C59",
+        "E59"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 60,
+      "product": "m-short-16299-21349-white",
+      "product_id": "16299-21349",
+      "targets": [
+        "C60",
+        "E60"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 61,
+      "product": "m-tshirt-17501-21281-blue",
+      "product_id": "17501-21281",
+      "targets": [
+        "C61",
+        "E61"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 62,
+      "product": "m-shirts-17529-21286-white",
+      "product_id": "17529-21286",
+      "targets": [
+        "C62",
+        "E62"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 63,
+      "product": "m-shirts-17529-21286-black",
+      "product_id": "17529-21286",
+      "targets": [
+        "C63",
+        "E63"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 64,
+      "product": "m-tshirt-17499-21281-green",
+      "product_id": "17499-21281",
+      "targets": [
+        "C64",
+        "E64"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 65,
+      "product": "l-tshirt-11670-21325-white",
+      "product_id": "11670-21325",
+      "targets": [
+        "C65",
+        "E65"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 66,
+      "product": "l-tshirt-11670-21325-black",
+      "product_id": "11670-21325",
+      "targets": [
+        "C66",
+        "E66"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 67,
+      "product": "m-pant-16405-21357-khaki",
+      "product_id": "16405-21357",
+      "targets": [
+        "C67",
+        "E67"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 68,
+      "product": "m-pant-16405-21326-navy",
+      "product_id": "16405-21326",
+      "targets": [
+        "C68",
+        "E68"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 69,
+      "product": "m-shirts-16913-21023-brick",
+      "product_id": "16913-21023",
+      "targets": [
+        "C69",
+        "E69"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 70,
+      "product": "m-shirts-17287-20841-black",
+      "product_id": "17287-20841",
+      "targets": [
+        "C70",
+        "E70"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 71,
+      "product": "l-blouse-17379-21065-blue",
+      "product_id": "17379-21065",
+      "targets": [
+        "C71",
+        "E71"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 72,
+      "product": "l-blouse-17377-21165-blue",
+      "product_id": "17377-21165",
+      "targets": [
+        "C72",
+        "E72"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 73,
+      "product": "l-blouse-17314-21036-blue",
+      "product_id": "17314-21036",
+      "targets": [
+        "C73",
+        "E73"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 74,
+      "product": "m-short-16761-20630-white",
+      "product_id": "16761-20630",
+      "targets": [
+        "C74",
+        "E74"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 75,
+      "product": "m-short-16761-20630-navy",
+      "product_id": "16761-20630",
+      "targets": [
+        "C75",
+        "E75"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 76,
+      "product": "m-short-16761-20630-grey",
+      "product_id": "16761-20630",
+      "targets": [
+        "C76",
+        "E76"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 77,
+      "product": "m-short-16761-20630-green",
+      "product_id": "16761-20630",
+      "targets": [
+        "C77",
+        "E77"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 78,
+      "product": "m-short-16367-21042-white",
+      "product_id": "16367-21042",
+      "targets": [
+        "C78",
+        "E78"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 79,
+      "product": "m-short-16299-20997-blue",
+      "product_id": "16299-20997",
+      "targets": [
+        "C79",
+        "E79"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 80,
+      "product": "m-tshirt-16319-20950-blue",
+      "product_id": "16319-20950",
+      "targets": [
+        "C80",
+        "E80"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 81,
+      "product": "m-short-16299-20997-white",
+      "product_id": "16299-20997",
+      "targets": [
+        "C81",
+        "E81"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 82,
+      "product": "l-pant-10578-20921-white",
+      "product_id": "10578-20921",
+      "targets": [
+        "C82",
+        "E82"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 83,
+      "product": "m-short-16299-20961-olive",
+      "product_id": "16299-20961",
+      "targets": [
+        "C83",
+        "E83"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 84,
+      "product": "m-short-16299-20961-navy",
+      "product_id": "16299-20961",
+      "targets": [
+        "C84",
+        "E84"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 85,
+      "product": "m-pant-16181-20961-olive",
+      "product_id": "16181-20961",
+      "targets": [
+        "C85",
+        "E85"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 86,
+      "product": "m-pant-16181-20961-navy",
+      "product_id": "16181-20961",
+      "targets": [
+        "C86",
+        "E86"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 87,
+      "product": "m-short-17053-20774-green",
+      "product_id": "17053-20774",
+      "targets": [
+        "C87",
+        "E87"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 88,
+      "product": "l-pant-16733-20631-beige",
+      "product_id": "16733-20631",
+      "targets": [
+        "C88",
+        "E88"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 89,
+      "product": "l-short-09776-20605-khaki",
+      "product_id": "09776-20605",
+      "targets": [
+        "C89",
+        "E89"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 90,
+      "product": "l-pant-11273-20631-white",
+      "product_id": "11273-20631",
+      "targets": [
+        "C90",
+        "E90"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 91,
+      "product": "l-pant-16733-20541-beige",
+      "product_id": "16733-20541",
+      "targets": [
+        "C91",
+        "E91"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 92,
+      "product": "l-pant-08015-20536-brown",
+      "product_id": "08015-20536",
+      "targets": [
+        "C92",
+        "E92"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 93,
+      "product": "m-shirts-16751-21614-mustard",
+      "product_id": "16751-21614",
+      "targets": [
+        "C93",
+        "E93"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 94,
+      "product": "m-shirts-16751-21614-black",
+      "product_id": "16751-21614",
+      "targets": [
+        "C94",
+        "E94"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 95,
+      "product": "m-shirts-17588-21614-blue",
+      "product_id": "17588-21614",
+      "targets": [
+        "C95",
+        "E95"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 96,
+      "product": "m-tshirt-17395-21634-teal",
+      "product_id": "17395-21634",
+      "targets": [
+        "C96",
+        "E96"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 97,
+      "product": "m-pant-17138-21621-navy",
+      "product_id": "17138-21621",
+      "targets": [
+        "C97",
+        "E97"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 98,
+      "product": "m-pant-17138-21621-avenue",
+      "product_id": "17138-21621",
+      "targets": [
+        "C98",
+        "E98"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 99,
+      "product": "m-tshirt-16631-21634-orange",
+      "product_id": "16631-21634",
+      "targets": [
+        "C99",
+        "E99"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 100,
+      "product": "m-tshirt-16631-21634-mustard",
+      "product_id": "16631-21634",
+      "targets": [
+        "C100",
+        "E100"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 101,
+      "product": "m-shirts-17836-21656-denim-blue",
+      "product_id": "17836-21656",
+      "targets": [
+        "C101",
+        "E101"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 102,
+      "product": "m-jackets-17886-21621-navy",
+      "product_id": "17886-21621",
+      "targets": [
+        "C102",
+        "E102"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 103,
+      "product": "m-jackets-17886-21621-avenue",
+      "product_id": "17886-21621",
+      "targets": [
+        "C103",
+        "E103"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 104,
+      "product": "m-short-17881-21656-denim-blue",
+      "product_id": "17881-21656",
+      "targets": [
+        "C104",
+        "E104"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 105,
+      "product": "m-pant-17867-21656-denim-blue",
+      "product_id": "17867-21656",
+      "targets": [
+        "C105",
+        "E105"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 106,
+      "product": "m-tshirt-17805-21622-brown",
+      "product_id": "17805-21622",
+      "targets": [
+        "C106",
+        "E106"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 107,
+      "product": "m-tshirt-17802-21618-navy",
+      "product_id": "17802-21618",
+      "targets": [
+        "C107",
+        "E107"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 108,
+      "product": "m-tshirt-17802-21618-brown",
+      "product_id": "17802-21618",
+      "targets": [
+        "C108",
+        "E108"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 109,
+      "product": "m-tshirt-17395-21634-white",
+      "product_id": "17395-21634",
+      "targets": [
+        "C109",
+        "E109"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 110,
+      "product": "m-tshirt-17207-21624-natural",
+      "product_id": "17207-21624",
+      "targets": [
+        "C110",
+        "E110"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 111,
+      "product": "m-tshirt-17207-21624-light-pink",
+      "product_id": "17207-21624",
+      "targets": [
+        "C111",
+        "E111"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 112,
+      "product": "m-shirts-50019-21627-white-a",
+      "product_id": "50019-21627",
+      "targets": [
+        "C112",
+        "E112"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 113,
+      "product": "m-short-17806-21531-white",
+      "product_id": "17806-21531",
+      "targets": [
+        "C113",
+        "E113"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 114,
+      "product": "m-short-17806-21531-slate",
+      "product_id": "17806-21531",
+      "targets": [
+        "C114",
+        "E114"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 115,
+      "product": "m-kshort-17765-21629-brown",
+      "product_id": "17765-21629",
+      "targets": [
+        "C115",
+        "E115"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 116,
+      "product": "m-kshort-17765-21629-black",
+      "product_id": "17765-21629",
+      "targets": [
+        "C116",
+        "E116"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 117,
+      "product": "l-tshirt-17528-21620-pink",
+      "product_id": "17528-21620",
+      "targets": [
+        "C117",
+        "E117"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 118,
+      "product": "l-tshirt-17528-21620-green",
+      "product_id": "17528-21620",
+      "targets": [
+        "C118",
+        "E118"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 119,
+      "product": "l-blouse-17709-21642-multi",
+      "product_id": "17709-21642",
+      "targets": [
+        "C119",
+        "E119"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 120,
+      "product": "m-tshirt-17756-21623-peach",
+      "product_id": "17756-21623",
+      "targets": [
+        "C120",
+        "E120"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 121,
+      "product": "m-tshirt-17756-21623-lavender",
+      "product_id": "17756-21623",
+      "targets": [
+        "C121",
+        "E121"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 122,
+      "product": "l-tshirt-11670-21569-natural",
+      "product_id": "11670-21569",
+      "targets": [
+        "C122",
+        "E122"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 123,
+      "product": "l-dress-17786-21561-black",
+      "product_id": "17786-21561",
+      "targets": [
+        "C123",
+        "E123"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 124,
+      "product": "l-dress-17775-21563-blue",
+      "product_id": "17775-21563",
+      "targets": [
+        "C124",
+        "E124"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 125,
+      "product": "l-pant-17815-21560-white",
+      "product_id": "17815-21560",
+      "targets": [
+        "C125",
+        "E125"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 126,
+      "product": "m-shirts-17820-21608-white",
+      "product_id": "17820-21608",
+      "targets": [
+        "C126",
+        "E126"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 127,
+      "product": "m-short-17622-21479-black",
+      "product_id": "17622-21479",
+      "targets": [
+        "C127",
+        "E127"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 128,
+      "product": "m-pant-17623-21479-natural",
+      "product_id": "17623-21479",
+      "targets": [
+        "C128",
+        "E128"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 129,
+      "product": "m-shirts-50000-21502-pink",
+      "product_id": "50000-21502",
+      "targets": [
+        "C129",
+        "E129"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 130,
+      "product": "m-shirts-17739-21502-navy",
+      "product_id": "17739-21502",
+      "targets": [
+        "C130",
+        "E130"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 131,
+      "product": "m-tshirt-17634-21554-khaki",
+      "product_id": "17634-21554",
+      "targets": [
+        "C131",
+        "E131"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 132,
+      "product": "m-tshirt-17634-21554-blue",
+      "product_id": "17634-21554",
+      "targets": [
+        "C132",
+        "E132"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 133,
+      "product": "m-shirts-17588-21445-brick",
+      "product_id": "17588-21445",
+      "targets": [
+        "C133",
+        "E133"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 134,
+      "product": "m-shirts-17404-21306-natural",
+      "product_id": "17404-21306",
+      "targets": [
+        "C134",
+        "E134"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 135,
+      "product": "l-tshirt-17724-21552-mustard",
+      "product_id": "17724-21552",
+      "targets": [
+        "C135",
+        "E135"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 136,
+      "product": "l-tshirt-17724-21552-lavender",
+      "product_id": "17724-21552",
+      "targets": [
+        "C136",
+        "E136"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 137,
+      "product": "l-blouse-17570-21341-grey",
+      "product_id": "17570-21341",
+      "targets": [
+        "C137",
+        "E137"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 138,
+      "product": "l-blouse-17296-21341-lilac",
+      "product_id": "17296-21341",
+      "targets": [
+        "C138",
+        "E138"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 139,
+      "product": "l-blouse-17230-21274-white",
+      "product_id": "17230-21274",
+      "targets": [
+        "C139",
+        "E139"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 140,
+      "product": "m-short-17178-21241-natural",
+      "product_id": "17178-21241",
+      "targets": [
+        "C140",
+        "E140"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 141,
+      "product": "l-pant-16130-21377-black",
+      "product_id": "16130-21377",
+      "targets": [
+        "C141",
+        "E141"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 142,
+      "product": "m-tshirt-16319-21436-navy",
+      "product_id": "16319-21436",
+      "targets": [
+        "C142",
+        "E142"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 143,
+      "product": "m-tshirt-16319-21435-black",
+      "product_id": "16319-21435",
+      "targets": [
+        "C143",
+        "E143"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 144,
+      "product": "m-shirts-17316-21296-white",
+      "product_id": "17316-21296",
+      "targets": [
+        "C144",
+        "E144"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 145,
+      "product": "m-shirts-17316-21296-khaki",
+      "product_id": "17316-21296",
+      "targets": [
+        "C145",
+        "E145"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 146,
+      "product": "m-shirts-10521-21308-blue",
+      "product_id": "10521-21308",
+      "targets": [
+        "C146",
+        "E146"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 147,
+      "product": "l-blouse-17534-21383-green",
+      "product_id": "17534-21383",
+      "targets": [
+        "C147",
+        "E147"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 148,
+      "product": "l-blouse-17094-21327-lime",
+      "product_id": "17094-21327",
+      "targets": [
+        "C148",
+        "E148"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 149,
+      "product": "m-tshirt-16631-21374-navy",
+      "product_id": "16631-21374",
+      "targets": [
+        "C149",
+        "E149"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 150,
+      "product": "m-shirts-50019-21295-natural",
+      "product_id": "50019-21295",
+      "targets": [
+        "C150",
+        "E150"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 151,
+      "product": "m-shirts-13484-21319-navy",
+      "product_id": "13484-21319",
+      "targets": [
+        "C151",
+        "E151"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 152,
+      "product": "l-tshirt-17449-21248-black",
+      "product_id": "17449-21248",
+      "targets": [
+        "C152",
+        "E152"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 153,
+      "product": "l-blouse-17278-21351-blue",
+      "product_id": "17278-21351",
+      "targets": [
+        "C153",
+        "E153"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 154,
+      "product": "m-tshirt-17091-21389-black",
+      "product_id": "17091-21389",
+      "targets": [
+        "C154",
+        "E154"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 155,
+      "product": "m-tshirt-16906-21374-pink",
+      "product_id": "16906-21374",
+      "targets": [
+        "C155",
+        "E155"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 156,
+      "product": "m-shirts-50006-21303-white",
+      "product_id": "50006-21303",
+      "targets": [
+        "C156",
+        "E156"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 157,
+      "product": "m-shirts-16159-21303-olive",
+      "product_id": "16159-21303",
+      "targets": [
+        "C157",
+        "E157"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 158,
+      "product": "m-tshirt-17395-21374-black",
+      "product_id": "17395-21374",
+      "targets": [
+        "C158",
+        "E158"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 159,
+      "product": "l-blouse-17467-21022-white",
+      "product_id": "17467-21022",
+      "targets": [
+        "C159",
+        "E159"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 160,
+      "product": "m-short-16367-21461-grey",
+      "product_id": "16367-21461",
+      "targets": [
+        "C160",
+        "E160"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 161,
+      "product": "m-pant-17544-21330-black",
+      "product_id": "17544-21330",
+      "targets": [
+        "C161",
+        "E161"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 162,
+      "product": "l-pant-17080-21022-white",
+      "product_id": "17080-21022",
+      "targets": [
+        "C162",
+        "E162"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 163,
+      "product": "l-pant-10578-21378-olive",
+      "product_id": "10578-21378",
+      "targets": [
+        "C163",
+        "E163"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 164,
+      "product": "l-pant-10578-21378-navy",
+      "product_id": "10578-21378",
+      "targets": [
+        "C164",
+        "E164"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 165,
+      "product": "l-pant-10578-21378-black",
+      "product_id": "10578-21378",
+      "targets": [
+        "C165",
+        "E165"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 166,
+      "product": "m-shirts-50006-21303-yellow",
+      "product_id": "50006-21303",
+      "targets": [
+        "C166",
+        "E166"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 167,
+      "product": "m-shirts-50006-21303-navy",
+      "product_id": "50006-21303",
+      "targets": [
+        "C167",
+        "E167"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 168,
+      "product": "m-shirts-50000-21350-white",
+      "product_id": "50000-21350",
+      "targets": [
+        "C168",
+        "E168"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 169,
+      "product": "l-tshirt-17302-21389-black",
+      "product_id": "17302-21389",
+      "targets": [
+        "C169",
+        "E169"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 170,
+      "product": "l-blouse-17519-21210-green",
+      "product_id": "17519-21210",
+      "targets": [
+        "C170",
+        "E170"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 171,
+      "product": "l-blouse-17506-21312-black",
+      "product_id": "17506-21312",
+      "targets": [
+        "C171",
+        "E171"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 172,
+      "product": "m-shirts-50019-21348-navy",
+      "product_id": "50019-21348",
+      "targets": [
+        "C172",
+        "E172"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 173,
+      "product": "m-shirts-17316-20943-pink",
+      "product_id": "17316-20943",
+      "targets": [
+        "C173",
+        "E173"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 174,
+      "product": "m-shirts-17315-20943-black",
+      "product_id": "17315-20943",
+      "targets": [
+        "C174",
+        "E174"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 175,
+      "product": "l-blouse-17534-21272-white",
+      "product_id": "17534-21272",
+      "targets": [
+        "C175",
+        "E175"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 176,
+      "product": "l-tshirt-17398-21284-blue",
+      "product_id": "17398-21284",
+      "targets": [
+        "C176",
+        "E176"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 177,
+      "product": "l-tshirt-17398-21284-black",
+      "product_id": "17398-21284",
+      "targets": [
+        "C177",
+        "E177"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 178,
+      "product": "l-tshirt-16727-21284-black",
+      "product_id": "16727-21284",
+      "targets": [
+        "C178",
+        "E178"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 179,
+      "product": "l-tshirt-11670-21325-blue",
+      "product_id": "11670-21325",
+      "targets": [
+        "C179",
+        "E179"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 180,
+      "product": "m-tshirt-17500-21281-natural",
+      "product_id": "17500-21281",
+      "targets": [
+        "C180",
+        "E180"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 181,
+      "product": "m-shirts-50000-21113-navy",
+      "product_id": "50000-21113",
+      "targets": [
+        "C181",
+        "E181"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 182,
+      "product": "m-shirts-17471-21023-navy",
+      "product_id": "17471-21023",
+      "targets": [
+        "C182",
+        "E182"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 183,
+      "product": "m-shirts-17351-21305-white",
+      "product_id": "17351-21305",
+      "targets": [
+        "C183",
+        "E183"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 184,
+      "product": "l-tshirt-16669-21183-navy",
+      "product_id": "16669-21183",
+      "targets": [
+        "C184",
+        "E184"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 185,
+      "product": "m-shirts-50020-21098-blue",
+      "product_id": "50020-21098",
+      "targets": [
+        "C185",
+        "E185"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 186,
+      "product": "m-shirts-50019-21098-mint",
+      "product_id": "50019-21098",
+      "targets": [
+        "C186",
+        "E186"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 187,
+      "product": "m-shirts-16913-21023-blue",
+      "product_id": "16913-21023",
+      "targets": [
+        "C187",
+        "E187"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 188,
+      "product": "m-shirts-50020-21099-white",
+      "product_id": "50020-21099",
+      "targets": [
+        "C188",
+        "E188"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 189,
+      "product": "m-shirts-50020-21099-black",
+      "product_id": "50020-21099",
+      "targets": [
+        "C189",
+        "E189"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 190,
+      "product": "m-shirts-50015-20834-navy",
+      "product_id": "50015-20834",
+      "targets": [
+        "C190",
+        "E190"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 191,
+      "product": "l-tshirt-17496-21281-black",
+      "product_id": "17496-21281",
+      "targets": [
+        "C191",
+        "E191"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 192,
+      "product": "l-blouse-17378-21288-indigo",
+      "product_id": "17378-21288",
+      "targets": [
+        "C192",
+        "E192"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 193,
+      "product": "l-blouse-16823-21223-lime",
+      "product_id": "16823-21223",
+      "targets": [
+        "C193",
+        "E193"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 194,
+      "product": "m-shirts-17316-21022-black",
+      "product_id": "17316-21022",
+      "targets": [
+        "C194",
+        "E194"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 195,
+      "product": "l-blouse-17376-21224-indigo",
+      "product_id": "17376-21224",
+      "targets": [
+        "C195",
+        "E195"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 196,
+      "product": "l-pant-17369-21127-white",
+      "product_id": "17369-21127",
+      "targets": [
+        "C196",
+        "E196"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 197,
+      "product": "l-pant-16130-21126-white",
+      "product_id": "16130-21126",
+      "targets": [
+        "C197",
+        "E197"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 198,
+      "product": "m-shirts-50023-20874-navy",
+      "product_id": "50023-20874",
+      "targets": [
+        "C198",
+        "E198"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 199,
+      "product": "m-shirts-17389-20975-white",
+      "product_id": "17389-20975",
+      "targets": [
+        "C199",
+        "E199"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 200,
+      "product": "l-blouse-17279-21223-blue",
+      "product_id": "17279-21223",
+      "targets": [
+        "C200",
+        "E200"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 201,
+      "product": "l-blouse-10542-21167-black",
+      "product_id": "10542-21167",
+      "targets": [
+        "C201",
+        "E201"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 202,
+      "product": "m-short-17177-21082-white",
+      "product_id": "17177-21082",
+      "targets": [
+        "C202",
+        "E202"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 203,
+      "product": "m-tshirt-16319-21176-blue",
+      "product_id": "16319-21176",
+      "targets": [
+        "C203",
+        "E203"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 204,
+      "product": "m-shirts-50011-21164-white",
+      "product_id": "50011-21164",
+      "targets": [
+        "C204",
+        "E204"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 205,
+      "product": "m-shirts-50019-21099-black",
+      "product_id": "50019-21099",
+      "targets": [
+        "C205",
+        "E205"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 206,
+      "product": "l-blouse-17358-21065-blue",
+      "product_id": "17358-21065",
+      "targets": [
+        "C206",
+        "E206"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 207,
+      "product": "l-blouse-17379-21035-blue",
+      "product_id": "17379-21035",
+      "targets": [
+        "C207",
+        "E207"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 208,
+      "product": "l-short-17188-20940-natural",
+      "product_id": "17188-20940",
+      "targets": [
+        "C208",
+        "E208"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 209,
+      "product": "l-tshirt-11670-21146-white",
+      "product_id": "11670-21146",
+      "targets": [
+        "C209",
+        "E209"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 210,
+      "product": "l-tshirt-11670-21146-black",
+      "product_id": "11670-21146",
+      "targets": [
+        "C210",
+        "E210"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 211,
+      "product": "m-short-16367-21042-navy",
+      "product_id": "16367-21042",
+      "targets": [
+        "C211",
+        "E211"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 212,
+      "product": "l-blouse-17008-20933-blue",
+      "product_id": "17008-20933",
+      "targets": [
+        "C212",
+        "E212"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 213,
+      "product": "l-pant-16130-20921-white",
+      "product_id": "16130-20921",
+      "targets": [
+        "C213",
+        "E213"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 214,
+      "product": "m-short-16124-20691-olive",
+      "product_id": "16124-20691",
+      "targets": [
+        "C214",
+        "E214"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 215,
+      "product": "m-short-17073-20682-white",
+      "product_id": "17073-20682",
+      "targets": [
+        "C215",
+        "E215"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 216,
+      "product": "l-pant-08015-20631-white",
+      "product_id": "08015-20631",
+      "targets": [
+        "C216",
+        "E216"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 217,
+      "product": "l-short-09776-20541-black",
+      "product_id": "09776-20541",
+      "targets": [
+        "C217",
+        "E217"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 218,
+      "product": "m-shirts-50020-21627-white-b",
+      "product_id": "50020-21627",
+      "targets": [
+        "C218",
+        "E218"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 219,
+      "product": "l-tshirt-17550-21631-navy",
+      "product_id": "17550-21631",
+      "targets": [
+        "C219",
+        "E219"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 220,
+      "product": "l-jacket-17852-21645-brown",
+      "product_id": "17852-21645",
+      "targets": [
+        "C220",
+        "E220"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 221,
+      "product": "l-dress-17857-21486-natural",
+      "product_id": "17857-21486",
+      "targets": [
+        "C221",
+        "E221"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 222,
+      "product": "l-dress-17759-21486-khaki",
+      "product_id": "17759-21486",
+      "targets": [
+        "C222",
+        "E222"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 223,
+      "product": "l-blouse-17692-21651-purple",
+      "product_id": "17692-21651",
+      "targets": [
+        "C223",
+        "E223"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 224,
+      "product": "l-blouse-17392-20755-white",
+      "product_id": "17392-20755",
+      "targets": [
+        "C224",
+        "E224"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 225,
+      "product": "m-tshirt-17809-21629-brown",
+      "product_id": "17809-21629",
+      "targets": [
+        "C225",
+        "E225"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 226,
+      "product": "m-shirts-17817-21608-sand",
+      "product_id": "17817-21608",
+      "targets": [
+        "C226",
+        "E226"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 227,
+      "product": "m-shirts-17817-21608-navy",
+      "product_id": "17817-21608",
+      "targets": [
+        "C227",
+        "E227"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 228,
+      "product": "l-tshirt-17721-21618-brown",
+      "product_id": "17721-21618",
+      "targets": [
+        "C228",
+        "E228"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 229,
+      "product": "l-tshirt-17553-21571-rust",
+      "product_id": "17553-21571",
+      "targets": [
+        "C229",
+        "E229"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 230,
+      "product": "l-dress-17761-21561-rust",
+      "product_id": "17761-21561",
+      "targets": [
+        "C230",
+        "E230"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 231,
+      "product": "l-blouse-17744-21197-black",
+      "product_id": "17744-21197",
+      "targets": [
+        "C231",
+        "E231"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 232,
+      "product": "l-blouse-17742-21643-mustard",
+      "product_id": "17742-21643",
+      "targets": [
+        "C232",
+        "E232"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 233,
+      "product": "l-blouse-17734-21638-red",
+      "product_id": "17734-21638",
+      "targets": [
+        "C233",
+        "E233"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 234,
+      "product": "m-pant-17544-21531-avenue",
+      "product_id": "17544-21531",
+      "targets": [
+        "C234",
+        "E234"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 235,
+      "product": "l-pant-17826-21606-natural",
+      "product_id": "17826-21606",
+      "targets": [
+        "C235",
+        "E235"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 236,
+      "product": "l-pant-17813-21563-blue",
+      "product_id": "17813-21563",
+      "targets": [
+        "C236",
+        "E236"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 237,
+      "product": "m-shirts-50021-21400-coffee",
+      "product_id": "50021-21400",
+      "targets": [
+        "C237",
+        "E237"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 238,
+      "product": "m-shirts-17820-21608-sky",
+      "product_id": "17820-21608",
+      "targets": [
+        "C238",
+        "E238"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 239,
+      "product": "l-dress-17713-21497-denim",
+      "product_id": "17713-21497",
+      "targets": [
+        "C239",
+        "E239"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 240,
+      "product": "m-pant-17561-21545-khaki",
+      "product_id": "17561-21545",
+      "targets": [
+        "C240",
+        "E240"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 241,
+      "product": "m-pant-17561-21545-green",
+      "product_id": "17561-21545",
+      "targets": [
+        "C241",
+        "E241"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 242,
+      "product": "l-pant-17678-21497-denim",
+      "product_id": "17678-21497",
+      "targets": [
+        "C242",
+        "E242"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 243,
+      "product": "l-culotte-17695-21497-denim",
+      "product_id": "17695-21497",
+      "targets": [
+        "C243",
+        "E243"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 244,
+      "product": "l-blouse-17749-21497-denim",
+      "product_id": "17749-21497",
+      "targets": [
+        "C244",
+        "E244"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 245,
+      "product": "l-blouse-17732-21524-rust",
+      "product_id": "17732-21524",
+      "targets": [
+        "C245",
+        "E245"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 246,
+      "product": "l-blouse-17691-21492-khaki",
+      "product_id": "17691-21492",
+      "targets": [
+        "C246",
+        "E246"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 247,
+      "product": "l-pant-17769-21604-denim",
+      "product_id": "17769-21604",
+      "targets": [
+        "C247",
+        "E247"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 248,
+      "product": "l-pant-17753-21490-royalblue",
+      "product_id": "17753-21490",
+      "targets": [
+        "C248",
+        "E248"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 249,
+      "product": "m-shirts-16159-21320-natural",
+      "product_id": "16159-21320",
+      "targets": [
+        "C249",
+        "E249"
+      ]
+    },
+    {
+      "sheet": "Batch 2",
+      "row": 250,
+      "product": "l-tshirt-17724-21552-pink",
+      "product_id": "17724-21552",
+      "targets": [
+        "C250",
+        "E250"
+      ]
+    }
+  ]
+}

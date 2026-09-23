@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-23T06:44:21.851Z",
+  "spreadsheet_id": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+  "source_tab": "Final",
+  "targets": [
+    "Batch 1!C2:C250",
+    "Batch 1!E2:E250",
+    "Batch 2!C2:C250",
+    "Batch 2!E2:E250"
+  ],
+  "label": "Product ID",
+  "updated_rows": 498,
+  "updated_cells": 996,
+  "checks": [
+    {
+      "sheet": "Batch 1",
+      "expectedDescriptionCells": 498,
+      "correctSuffix": 498,
+      "wrong": [],
+      "formatPreserved": 498,
+      "richPreserved": 498,
+      "untouchedRowsPreserved": 249
+    },
+    {
+      "sheet": "Batch 2",
+      "expectedDescriptionCells": 498,
+      "correctSuffix": 498,
+      "wrong": [],
+      "formatPreserved": 498,
+      "richPreserved": 498,
+      "untouchedRowsPreserved": 249
+    }
+  ],
+  "write_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "spreadsheetId": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+      "replies": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "updatedSpreadsheet": null
+    },
+    "isError": false
+  },
+  "visual_verification": {
+    "batch_1": "passed in Google Sheets browser view",
+    "batch_2": "passed in Google Sheets browser view"
+  }
+}
