@@ -1,0 +1,1416 @@
+{
+  "requests": [
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 4,
+          "endIndex": 8
+        },
+        "destinationIndex": 2
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 11,
+          "endIndex": 13
+        },
+        "destinationIndex": 6
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 15,
+          "endIndex": 16
+        },
+        "destinationIndex": 8
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 18,
+          "endIndex": 19
+        },
+        "destinationIndex": 9
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 21,
+          "endIndex": 22
+        },
+        "destinationIndex": 10
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 24,
+          "endIndex": 25
+        },
+        "destinationIndex": 11
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 28,
+          "endIndex": 29
+        },
+        "destinationIndex": 12
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 31,
+          "endIndex": 34
+        },
+        "destinationIndex": 13
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 35,
+          "endIndex": 40
+        },
+        "destinationIndex": 16
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 41,
+          "endIndex": 43
+        },
+        "destinationIndex": 21
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 47,
+          "endIndex": 53
+        },
+        "destinationIndex": 23
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 54,
+          "endIndex": 56
+        },
+        "destinationIndex": 29
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 57,
+          "endIndex": 59
+        },
+        "destinationIndex": 31
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 60,
+          "endIndex": 61
+        },
+        "destinationIndex": 33
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 62,
+          "endIndex": 65
+        },
+        "destinationIndex": 34
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 66,
+          "endIndex": 67
+        },
+        "destinationIndex": 37
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 71,
+          "endIndex": 75
+        },
+        "destinationIndex": 38
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 79,
+          "endIndex": 80
+        },
+        "destinationIndex": 42
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 81,
+          "endIndex": 83
+        },
+        "destinationIndex": 43
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 86,
+          "endIndex": 87
+        },
+        "destinationIndex": 45
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 92,
+          "endIndex": 93
+        },
+        "destinationIndex": 46
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 98,
+          "endIndex": 99
+        },
+        "destinationIndex": 47
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 100,
+          "endIndex": 101
+        },
+        "destinationIndex": 48
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 113,
+          "endIndex": 115
+        },
+        "destinationIndex": 49
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 116,
+          "endIndex": 118
+        },
+        "destinationIndex": 51
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 123,
+          "endIndex": 124
+        },
+        "destinationIndex": 53
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 126,
+          "endIndex": 127
+        },
+        "destinationIndex": 54
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 129,
+          "endIndex": 130
+        },
+        "destinationIndex": 55
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 132,
+          "endIndex": 143
+        },
+        "destinationIndex": 56
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 144,
+          "endIndex": 145
+        },
+        "destinationIndex": 67
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 148,
+          "endIndex": 149
+        },
+        "destinationIndex": 68
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 151,
+          "endIndex": 156
+        },
+        "destinationIndex": 69
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 157,
+          "endIndex": 159
+        },
+        "destinationIndex": 74
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 160,
+          "endIndex": 166
+        },
+        "destinationIndex": 76
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 167,
+          "endIndex": 168
+        },
+        "destinationIndex": 82
+      }
+    },
+    {
+      "moveDimension": {
+        "source": {
+          "sheetId": 1501998953,
+          "dimension": "ROWS",
+          "startIndex": 169,
+          "endIndex": 170
+        },
+        "destinationIndex": 83
+      }
+    }
+  ],
+  "rowMap": [
+    {
+      "oldRow": 2,
+      "newRow": 2,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 5,
+      "newRow": 3,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-lt-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 6,
+      "newRow": 4,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 7,
+      "newRow": 5,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 8,
+      "newRow": 6,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 12,
+      "newRow": 7,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-short-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 13,
+      "newRow": 8,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-style-short-brown",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 16,
+      "newRow": 9,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-hoodie-sweatshirt-tshirt-light-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 19,
+      "newRow": 10,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pocket-stripe-summer-shirt-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 22,
+      "newRow": 11,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-slim-fit-shirt-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 25,
+      "newRow": 12,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-pink",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 29,
+      "newRow": 13,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 32,
+      "newRow": 14,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-khaki",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 33,
+      "newRow": 15,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 34,
+      "newRow": 16,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-sweatshirt-tshirt-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 36,
+      "newRow": 17,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-stripe-cuban-collar-shirt-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 37,
+      "newRow": 18,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-stripe-cuban-collar-shirt-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 38,
+      "newRow": 19,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-light-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 39,
+      "newRow": 20,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-light-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 40,
+      "newRow": 21,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-offwhite",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 42,
+      "newRow": 22,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 43,
+      "newRow": 23,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 48,
+      "newRow": 24,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-jacket-natural",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 49,
+      "newRow": 25,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-jacket-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 50,
+      "newRow": 26,
+      "url": "https://cottonworld.net/products/womens-cotton-viscose-regular-fit-tshirt-pink",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 51,
+      "newRow": 27,
+      "url": "https://cottonworld.net/products/womens-cotton-viscose-regular-fit-tshirt-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 52,
+      "newRow": 28,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-tshirt-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 53,
+      "newRow": 29,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 55,
+      "newRow": 30,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-tshirt-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 56,
+      "newRow": 31,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-dark-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 58,
+      "newRow": 32,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 59,
+      "newRow": 33,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-orange",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 61,
+      "newRow": 34,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-slim-fit-shirt-khaki",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 63,
+      "newRow": 35,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-jacket-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 64,
+      "newRow": 36,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-pink",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 65,
+      "newRow": 37,
+      "url": "https://cottonworld.net/products/womens-cotton-polyester-regular-fit-tshirt-natural",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 67,
+      "newRow": 38,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 72,
+      "newRow": 39,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-red",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 73,
+      "newRow": 40,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-beige",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 74,
+      "newRow": 41,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-waistcoat-rust",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 75,
+      "newRow": 42,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-waistcoat-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 80,
+      "newRow": 43,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-midnight-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 82,
+      "newRow": 44,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-pant-sky-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 83,
+      "newRow": 45,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-pant-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 87,
+      "newRow": 46,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-navy",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 93,
+      "newRow": 47,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 99,
+      "newRow": 48,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-shirt-brown",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 101,
+      "newRow": 49,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-batik-printed-shirt-olive-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 114,
+      "newRow": 50,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-regular-pant-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 115,
+      "newRow": 51,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-printed-pant-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 117,
+      "newRow": 52,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 118,
+      "newRow": 53,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-waistcoat-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 124,
+      "newRow": 54,
+      "url": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-pant-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 127,
+      "newRow": 55,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 130,
+      "newRow": 56,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-pant-natural",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 133,
+      "newRow": 57,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pyjama-suit-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 134,
+      "newRow": 58,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pyjama-suit-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 135,
+      "newRow": 59,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 136,
+      "newRow": 60,
+      "url": "https://cottonworld.net/products/womens-viscose-linen-regular-fit-short-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 137,
+      "newRow": 61,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-light-brown",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 138,
+      "newRow": 62,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-khaki",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 139,
+      "newRow": 63,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 140,
+      "newRow": 64,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-light-brown",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 141,
+      "newRow": 65,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 142,
+      "newRow": 66,
+      "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 143,
+      "newRow": 67,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-moss",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 145,
+      "newRow": 68,
+      "url": "https://cottonworld.net/products/mens-lycra-cotton-regular-fit-pant-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 149,
+      "newRow": 69,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-track-pant-black",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 152,
+      "newRow": 70,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 153,
+      "newRow": 71,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-dress-wine",
+      "status": "Active - unpublished"
+    },
+    {
+      "oldRow": 154,
+      "newRow": 72,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-dress-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 155,
+      "newRow": 73,
+      "url": "https://cottonworld.net/products/mens-cotton-elastane-regular-fit-short-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 156,
+      "newRow": 74,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-pant-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 158,
+      "newRow": 75,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 159,
+      "newRow": 76,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-pink",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 161,
+      "newRow": 77,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-green",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 162,
+      "newRow": 78,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 163,
+      "newRow": 79,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-beige",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 164,
+      "newRow": 80,
+      "url": "https://cottonworld.net/products/womens-cotton-slim-fit-pant-blue",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 165,
+      "newRow": 81,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-maroon-red",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 166,
+      "newRow": 82,
+      "url": "https://cottonworld.net/products/womens-lycra-cotton-regular-fit-pant-white",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 168,
+      "newRow": 83,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 170,
+      "newRow": 84,
+      "url": "https://cottonworld.net/products/womens-viscose-elastane-loose-fit-pant-olive",
+      "status": "Active - published"
+    },
+    {
+      "oldRow": 3,
+      "newRow": 85,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-dress-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 4,
+      "newRow": 86,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-cream",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 9,
+      "newRow": 87,
+      "url": "https://cottonworld.net/products/womens-cotton-flax-regular-fit-short-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 10,
+      "newRow": 88,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-marine-nav",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 11,
+      "newRow": 89,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 14,
+      "newRow": 90,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-dress-rust-natural",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 15,
+      "newRow": 91,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-rust-natural",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 17,
+      "newRow": 92,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-stripe-shirt-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 18,
+      "newRow": 93,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-shirt-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 20,
+      "newRow": 94,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-natural-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 21,
+      "newRow": 95,
+      "url": "https://cottonworld.net/products/mens-cotton-loose-fit-shirt-white-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 23,
+      "newRow": 96,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-violet",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 24,
+      "newRow": 97,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-jacket-off-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 26,
+      "newRow": 98,
+      "url": "https://cottonworld.net/products/womens-cotton-flax-regular-fit-blouse-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 27,
+      "newRow": 99,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 28,
+      "newRow": 100,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-natural-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 30,
+      "newRow": 101,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-skirt-natural",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 31,
+      "newRow": 102,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 35,
+      "newRow": 103,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-2-pocket-western-yoke-shirt-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 41,
+      "newRow": 104,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-mustard",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 44,
+      "newRow": 105,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-wide-pant-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 45,
+      "newRow": 106,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-hooded-shirt-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 46,
+      "newRow": 107,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 47,
+      "newRow": 108,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 54,
+      "newRow": 109,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-tshirt-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 57,
+      "newRow": 110,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-offwhite",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 60,
+      "newRow": 111,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white-sky",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 62,
+      "newRow": 112,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-jacket-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 66,
+      "newRow": 113,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-dress-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 68,
+      "newRow": 114,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 69,
+      "newRow": 115,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-multi",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 70,
+      "newRow": 116,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-corduroy-pant-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 71,
+      "newRow": 117,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-corduroy-pant-khaki",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 76,
+      "newRow": 118,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 77,
+      "newRow": 119,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 78,
+      "newRow": 120,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-dark-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 79,
+      "newRow": 121,
+      "url": "https://cottonworld.net/products/mens-cotton-modal-regular-fit-shirt-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 81,
+      "newRow": 122,
+      "url": "https://cottonworld.net/products/womens-linen-slim-fit-blouse-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 84,
+      "newRow": 123,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 85,
+      "newRow": 124,
+      "url": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-short-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 86,
+      "newRow": 125,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 88,
+      "newRow": 126,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-brick",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 89,
+      "newRow": 127,
+      "url": "https://cottonworld.net/products/mens-cotton-modal-loose-fit-shirt-brick",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 90,
+      "newRow": 128,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-jacket-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 91,
+      "newRow": 129,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 92,
+      "newRow": 130,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-blouse-offwhite",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 94,
+      "newRow": 131,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 95,
+      "newRow": 132,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-pant-green",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 96,
+      "newRow": 133,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-mustard",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 97,
+      "newRow": 134,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 98,
+      "newRow": 135,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 100,
+      "newRow": 136,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-style-shirt-brown",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 102,
+      "newRow": 137,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-multi",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 103,
+      "newRow": 138,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-shirt-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 104,
+      "newRow": 139,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-shirt-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 105,
+      "newRow": 140,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-beige",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 106,
+      "newRow": 141,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-dress-pink",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 107,
+      "newRow": 142,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-overlay-offwhite",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 108,
+      "newRow": 143,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-excel-blouse-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 109,
+      "newRow": 144,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-excel-blouse-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 110,
+      "newRow": 145,
+      "url": "https://cottonworld.net/products/womens-modal-loose-fit-blouse-lilac",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 111,
+      "newRow": 146,
+      "url": "https://cottonworld.net/products/womens-modal-loose-fit-blouse-offwhite",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 112,
+      "newRow": 147,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pant-mustard",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 113,
+      "newRow": 148,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pant-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 116,
+      "newRow": 149,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 119,
+      "newRow": 150,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-white",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 120,
+      "newRow": 151,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-green",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 121,
+      "newRow": 152,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 122,
+      "newRow": 153,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-offwhite",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 123,
+      "newRow": 154,
+      "url": "https://cottonworld.net/products/mens-lycra-slim-fit-pant-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 125,
+      "newRow": 155,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-khaki",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 126,
+      "newRow": 156,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-black",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 128,
+      "newRow": 157,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 129,
+      "newRow": 158,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-striped-yellow",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 131,
+      "newRow": 159,
+      "url": "https://cottonworld.net/products/mens-viscose-linen-regular-fit-short-khaki",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 132,
+      "newRow": 160,
+      "url": "https://cottonworld.net/products/mens-viscose-linen-regular-fit-short-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 144,
+      "newRow": 161,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-teal",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 146,
+      "newRow": 162,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-aqua",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 147,
+      "newRow": 163,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 148,
+      "newRow": 164,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-green",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 150,
+      "newRow": 165,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-grey",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 151,
+      "newRow": 166,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-olive",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 157,
+      "newRow": 167,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-greyish-blue",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 160,
+      "newRow": 168,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 167,
+      "newRow": 169,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-blouse-navy",
+      "status": "Not found - draft unverified"
+    },
+    {
+      "oldRow": 169,
+      "newRow": 170,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-black",
+      "status": "Not found - draft unverified"
+    }
+  ]
+}

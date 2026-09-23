@@ -1,0 +1,1864 @@
+{
+  "summary": {
+    "Active - published": 82,
+    "Not found - draft unverified": 86,
+    "Active - unpublished": 1
+  },
+  "records": [
+    {
+      "originalRow": 2,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-green",
+      "handle": "mens-cotton-linen-regular-fit-shirt-green",
+      "match": {
+        "handle": "mens-cotton-linen-regular-fit-shirt-green",
+        "title": "Men’s Cotton Linen Regular Fit Shirt Green",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-13484-21317-GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 3,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-dress-pink",
+      "handle": "womens-cotton-regular-fit-dress-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 4,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-cream",
+      "handle": "womens-linen-boxy-fit-blouse-cream",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 5,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-lt-olive",
+      "handle": "mens-cotton-lycra-regular-fit-pant-lt-olive",
+      "match": {
+        "handle": "mens-cotton-lycra-regular-fit-pant-lt-olive",
+        "title": "Men’s Cotton Lycra Regular Fit Pant Light Olive",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-17575-21347-LT.OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 6,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-grey",
+      "handle": "mens-cotton-lycra-regular-fit-pant-grey",
+      "match": {
+        "handle": "mens-cotton-lycra-regular-fit-pant-grey",
+        "title": "Men’s Cotton Lycra Regular Fit Pant Grey",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-17575-21347-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 7,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-green",
+      "handle": "mens-cotton-regular-fit-pant-green",
+      "match": {
+        "handle": "mens-cotton-regular-fit-pant-green",
+        "title": "Men’s Cotton Regular Fit Pant Green",
+        "status": "active",
+        "published": "true",
+        "style": "M-KPANTS-17430-21266-GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 8,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-black",
+      "handle": "mens-cotton-regular-fit-pant-black",
+      "match": {
+        "handle": "mens-cotton-regular-fit-pant-black",
+        "title": "Men’s Cotton Regular Fit Pant Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-KPANTS-17430-21266-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 9,
+      "url": "https://cottonworld.net/products/womens-cotton-flax-regular-fit-short-pink",
+      "handle": "womens-cotton-flax-regular-fit-short-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 10,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-marine-nav",
+      "handle": "mens-cotton-regular-fit-short-marine-nav",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 11,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-navy",
+      "handle": "womens-cotton-regular-fit-blouse-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 12,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-short-navy",
+      "handle": "mens-organic-cotton-regular-fit-short-navy",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-short-navy",
+        "title": "Men’s Organic Cotton Regular Fit Short Navy",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-17431-21244-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 13,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-style-short-brown",
+      "handle": "mens-organic-cotton-regular-fit-style-short-brown",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-style-short-brown",
+        "title": "Men’s Organic Cotton Regular Fit Style Short Brown",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-17431-21244-BROWN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 14,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-dress-rust-natural",
+      "handle": "womens-cotton-linen-boxy-fit-dress-rust-natural",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 15,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-rust-natural",
+      "handle": "womens-cotton-linen-boxy-fit-blouse-rust-natural",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 16,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-hoodie-sweatshirt-tshirt-light-green",
+      "handle": "mens-organic-cotton-regular-fit-hoodie-sweatshirt-tshirt-light-green",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-hoodie-sweatshirt-tshirt-light-green",
+        "title": "Men’s Organic Cotton Regular Fit Hoodie Sweatshirt T-Shirt Light Green",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17466-21244-LIGHT GREE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 17,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-stripe-shirt-blue",
+      "handle": "mens-cotton-slim-fit-stripe-shirt-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 18,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-shirt-blue",
+      "handle": "mens-cotton-lycra-regular-fit-shirt-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 19,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pocket-stripe-summer-shirt-blue",
+      "handle": "mens-cotton-regular-fit-pocket-stripe-summer-shirt-blue",
+      "match": {
+        "handle": "mens-cotton-regular-fit-pocket-stripe-summer-shirt-blue",
+        "title": "Men’s Cotton Regular Fit Pocket Stripe Summer Shirt Blue",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-17503-21131-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 20,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-natural-black",
+      "handle": "mens-cotton-regular-fit-shirt-natural-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 21,
+      "url": "https://cottonworld.net/products/mens-cotton-loose-fit-shirt-white-navy",
+      "handle": "mens-cotton-loose-fit-shirt-white-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 22,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-slim-fit-shirt-black",
+      "handle": "mens-linen-cotton-slim-fit-shirt-black",
+      "match": {
+        "handle": "mens-linen-cotton-slim-fit-shirt-black",
+        "title": "Men’s Linen Cotton Slim Fit Shirt Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-16751-21311-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 23,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-violet",
+      "handle": "womens-cotton-regular-fit-tshirt-violet",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 24,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-jacket-off-white",
+      "handle": "womens-cotton-regular-fit-jacket-off-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 25,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-pink",
+      "handle": "womens-cotton-regular-fit-blouse-pink",
+      "match": {
+        "handle": "womens-cotton-regular-fit-blouse-pink",
+        "title": "Women’s Cotton Regular Fit Blouse Pink",
+        "status": "active",
+        "published": "true",
+        "style": "L-BLOUSE-17519-21054-PINK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 26,
+      "url": "https://cottonworld.net/products/womens-cotton-flax-regular-fit-blouse-blue",
+      "handle": "womens-cotton-flax-regular-fit-blouse-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 27,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-pink",
+      "handle": "womens-cotton-boxy-fit-blouse-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 28,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-pant-natural-black",
+      "handle": "mens-cotton-regular-fit-pant-natural-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 29,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-black",
+      "handle": "mens-cotton-lycra-slim-fit-pant-black",
+      "match": {
+        "handle": "mens-cotton-lycra-slim-fit-pant-black",
+        "title": "Men’s Cotton Lycra Slim Fit Pant Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-16405-21326-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 30,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-skirt-natural",
+      "handle": "womens-cotton-regular-fit-skirt-natural",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 31,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-blue",
+      "handle": "womens-cotton-regular-fit-culotte-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 32,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-khaki",
+      "handle": "mens-organic-cotton-regular-fit-tshirt-khaki",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-tshirt-khaki",
+        "title": "Men’s Organic Cotton Regular Fit T-Shirt Khaki",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17466-21244-KHAKI"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 33,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-olive",
+      "handle": "mens-organic-cotton-regular-fit-tshirt-olive",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-tshirt-olive",
+        "title": "Men’s Organic Cotton Regular Fit T-Shirt Olive",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17465-21244-OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 34,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-sweatshirt-tshirt-blue",
+      "handle": "mens-organic-cotton-regular-fit-sweatshirt-tshirt-blue",
+      "match": {
+        "handle": "mens-organic-cotton-regular-fit-sweatshirt-tshirt-blue",
+        "title": "Men’s Organic Cotton Regular Fit Sweatshirt T-Shirt Blue",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17465-21244-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 35,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-2-pocket-western-yoke-shirt-white",
+      "handle": "mens-cotton-regular-fit-2-pocket-western-yoke-shirt-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 36,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-stripe-cuban-collar-shirt-white",
+      "handle": "mens-cotton-regular-fit-stripe-cuban-collar-shirt-white",
+      "match": {
+        "handle": "mens-cotton-regular-fit-stripe-cuban-collar-shirt-white",
+        "title": "Men’s Cotton Regular Fit Stripe Cuban Collar Shirt White",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-17404-21130-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 37,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-stripe-cuban-collar-shirt-navy",
+      "handle": "mens-cotton-regular-fit-stripe-cuban-collar-shirt-navy",
+      "match": {
+        "handle": "mens-cotton-regular-fit-stripe-cuban-collar-shirt-navy",
+        "title": "Men’s Cotton Regular Fit Stripe Cuban Collar Shirt Navy",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-17404-21130-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 38,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-light-green",
+      "handle": "womens-organic-cotton-regular-fit-sweatshirt-light-green",
+      "match": {
+        "handle": "womens-organic-cotton-regular-fit-sweatshirt-light-green",
+        "title": "Women’s Organic Cotton Regular Fit Sweatshirt Light Green",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17463-21244-LT GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 39,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-light-blue",
+      "handle": "womens-organic-cotton-regular-fit-sweatshirt-light-blue",
+      "match": {
+        "handle": "womens-organic-cotton-regular-fit-sweatshirt-light-blue",
+        "title": "Women’s Organic Cotton Regular Fit Sweatshirt Light Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17463-21244-LIGHT BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 40,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-offwhite",
+      "handle": "womens-cotton-boxy-fit-jacket-offwhite",
+      "match": {
+        "handle": "womens-cotton-boxy-fit-jacket-offwhite",
+        "title": "Women’s Cotton Boxy Fit Jacket Off-White",
+        "status": "active",
+        "published": "true",
+        "style": "L-JACKET-17533-21328-OFFWHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 41,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-mustard",
+      "handle": "womens-cotton-boxy-fit-jacket-mustard",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 42,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-blue",
+      "handle": "womens-cotton-boxy-fit-jacket-blue",
+      "match": {
+        "handle": "womens-cotton-boxy-fit-jacket-blue",
+        "title": "Women’s Cotton Boxy Fit Jacket Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-JACKET-17354-21065-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 43,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-olive",
+      "handle": "womens-cotton-linen-regular-fit-blouse-olive",
+      "match": {
+        "handle": "womens-cotton-linen-regular-fit-blouse-olive",
+        "title": "Women’s Cotton Linen Regular Fit Blouse Olive",
+        "status": "active",
+        "published": "true",
+        "style": "L-BLOUSE-17013-21021-OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 44,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-wide-pant-olive",
+      "handle": "womens-cotton-linen-regular-fit-wide-pant-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 45,
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-hooded-shirt-navy",
+      "handle": "mens-cotton-linen-regular-fit-hooded-shirt-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 46,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-white",
+      "handle": "mens-linen-regular-fit-shirt-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 47,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-black",
+      "handle": "mens-linen-regular-fit-shirt-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 48,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-jacket-natural",
+      "handle": "mens-linen-regular-fit-jacket-natural",
+      "match": {
+        "handle": "mens-linen-regular-fit-jacket-natural",
+        "title": "Men’s Linen Regular Fit Jacket Natural",
+        "status": "active",
+        "published": "true",
+        "style": "M-JACKETS-17563-21286-NATURAL"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 49,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-jacket-black",
+      "handle": "mens-linen-regular-fit-jacket-black",
+      "match": {
+        "handle": "mens-linen-regular-fit-jacket-black",
+        "title": "Men’s Linen Regular Fit Jacket Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-JACKETS-17563-21286-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 50,
+      "url": "https://cottonworld.net/products/womens-cotton-viscose-regular-fit-tshirt-pink",
+      "handle": "womens-cotton-viscose-regular-fit-tshirt-pink",
+      "match": {
+        "handle": "womens-cotton-viscose-regular-fit-tshirt-pink",
+        "title": "Women’s Cotton Viscose Regular Fit T-Shirt Pink",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17497-21282-PINK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 51,
+      "url": "https://cottonworld.net/products/womens-cotton-viscose-regular-fit-tshirt-black",
+      "handle": "womens-cotton-viscose-regular-fit-tshirt-black",
+      "match": {
+        "handle": "womens-cotton-viscose-regular-fit-tshirt-black",
+        "title": "Women’s Cotton Viscose Regular Fit T-Shirt Black",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17497-21282-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 52,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-sweatshirt-tshirt-navy",
+      "handle": "womens-organic-cotton-regular-fit-sweatshirt-tshirt-navy",
+      "match": {
+        "handle": "womens-organic-cotton-regular-fit-sweatshirt-tshirt-navy",
+        "title": "Women’s Organic Cotton Regular Fit Sweatshirt T-Shirt Navy",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17464-21245-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 53,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+      "handle": "womens-organic-cotton-regular-fit-tshirt-brown",
+      "match": {
+        "handle": "womens-organic-cotton-regular-fit-tshirt-brown",
+        "title": "Women’s Organic Cotton Regular Fit T-Shirt Brown",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17464-21245-BROWN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 54,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-tshirt-olive",
+      "handle": "womens-cotton-bamboo-regular-fit-tshirt-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 55,
+      "url": "https://cottonworld.net/products/womens-cotton-bamboo-regular-fit-tshirt-navy",
+      "handle": "womens-cotton-bamboo-regular-fit-tshirt-navy",
+      "match": {
+        "handle": "womens-cotton-bamboo-regular-fit-tshirt-navy",
+        "title": "Women’s Cotton Bamboo Regular Fit T-Shirt Navy",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17302-21240-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 56,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-dark-blue",
+      "handle": "mens-cotton-regular-fit-tshirt-dark-blue",
+      "match": {
+        "handle": "mens-cotton-regular-fit-tshirt-dark-blue",
+        "title": "Men’s Cotton Regular Fit T-Shirt Dark Blue",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17502-21281-DARK-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 57,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-offwhite",
+      "handle": "mens-linen-regular-fit-shirt-offwhite",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 58,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white-navy",
+      "handle": "mens-cotton-regular-fit-shirt-white-navy",
+      "match": {
+        "handle": "mens-cotton-regular-fit-shirt-white-navy",
+        "title": "Men’s Cotton Regular Fit Shirt White Navy",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-50019-21112-WHITE/NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 59,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-orange",
+      "handle": "mens-cotton-regular-fit-shirt-orange",
+      "match": {
+        "handle": "mens-cotton-regular-fit-shirt-orange",
+        "title": "Men’s Cotton Regular Fit Shirt Orange",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-17505-21205-ORANGE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 60,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white-sky",
+      "handle": "mens-cotton-regular-fit-shirt-white-sky",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 61,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-slim-fit-shirt-khaki",
+      "handle": "mens-linen-cotton-slim-fit-shirt-khaki",
+      "match": {
+        "handle": "mens-linen-cotton-slim-fit-shirt-khaki",
+        "title": "Men’s Linen Cotton Slim Fit Shirt Khaki",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-16751-21305-KHAKI"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 62,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-jacket-olive",
+      "handle": "mens-cotton-regular-fit-jacket-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 63,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-jacket-grey",
+      "handle": "mens-cotton-regular-fit-jacket-grey",
+      "match": {
+        "handle": "mens-cotton-regular-fit-jacket-grey",
+        "title": "Men’s Cotton Regular Fit Jacket Grey",
+        "status": "active",
+        "published": "true",
+        "style": "M-JACKETS-17530-21280-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 64,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-pink",
+      "handle": "womens-organic-cotton-regular-fit-tshirt-pink",
+      "match": {
+        "handle": "womens-organic-cotton-regular-fit-tshirt-pink",
+        "title": "Women’s Organic Cotton Regular Fit T-Shirt Pink",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17462-21244-PINK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 65,
+      "url": "https://cottonworld.net/products/womens-cotton-polyester-regular-fit-tshirt-natural",
+      "handle": "womens-cotton-polyester-regular-fit-tshirt-natural",
+      "match": {
+        "handle": "womens-cotton-polyester-regular-fit-tshirt-natural",
+        "title": "Women’s Cotton Polyester Regular Fit T-Shirt Natural",
+        "status": "active",
+        "published": "true",
+        "style": "L-TSHIRT-17462-21244-NATURAL"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 66,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-dress-blue",
+      "handle": "womens-cotton-linen-boxy-fit-dress-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 67,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-blue",
+      "handle": "womens-cotton-linen-boxy-fit-blouse-blue",
+      "match": {
+        "handle": "womens-cotton-linen-boxy-fit-blouse-blue",
+        "title": "Women’s Cotton Linen Boxy Fit Blouse Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-BLOUSE-17376-21194-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 68,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-pink",
+      "handle": "womens-cotton-linen-regular-fit-blouse-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 69,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-multi",
+      "handle": "womens-cotton-linen-boxy-fit-blouse-multi",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 70,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-corduroy-pant-olive",
+      "handle": "mens-cotton-lycra-slim-fit-corduroy-pant-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 71,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-corduroy-pant-khaki",
+      "handle": "mens-cotton-lycra-slim-fit-corduroy-pant-khaki",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 72,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-red",
+      "handle": "mens-cotton-regular-fit-tshirt-red",
+      "match": {
+        "handle": "mens-cotton-regular-fit-tshirt-red",
+        "title": "Men’s Cotton Regular Fit T-Shirt Red",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17502-21281-RED"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 73,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-beige",
+      "handle": "mens-cotton-regular-fit-tshirt-beige",
+      "match": {
+        "handle": "mens-cotton-regular-fit-tshirt-beige",
+        "title": "Men’s Cotton Regular Fit T-Shirt Beige",
+        "status": "active",
+        "published": "true",
+        "style": "M-TSHIRT-17501-21281-BEIGE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 74,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-waistcoat-rust",
+      "handle": "womens-cotton-regular-fit-waistcoat-rust",
+      "match": {
+        "handle": "womens-cotton-regular-fit-waistcoat-rust",
+        "title": "Women’s Cotton Regular Fit Waistcoat Rust",
+        "status": "active",
+        "published": "true",
+        "style": "L-WAISTCOAT-17380-21065-RUST"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 75,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-waistcoat-grey",
+      "handle": "womens-cotton-regular-fit-waistcoat-grey",
+      "match": {
+        "handle": "womens-cotton-regular-fit-waistcoat-grey",
+        "title": "Women’s Cotton Regular Fit Waistcoat Grey",
+        "status": "active",
+        "published": "true",
+        "style": "L-WAISTCOAT-17380-21065-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 76,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-black",
+      "handle": "womens-cotton-linen-boxy-fit-blouse-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 77,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-grey",
+      "handle": "mens-linen-regular-fit-shirt-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 78,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-dark-blue",
+      "handle": "mens-linen-regular-fit-shirt-dark-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 79,
+      "url": "https://cottonworld.net/products/mens-cotton-modal-regular-fit-shirt-olive",
+      "handle": "mens-cotton-modal-regular-fit-shirt-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 80,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-midnight-blue",
+      "handle": "womens-cotton-boxy-fit-blouse-midnight-blue",
+      "match": {
+        "handle": "womens-cotton-boxy-fit-blouse-midnight-blue",
+        "title": "Women’s Cotton Boxy Fit Blouse Midnight Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-BLOUSE-17151-21037-MIDNIGHT BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 81,
+      "url": "https://cottonworld.net/products/womens-linen-slim-fit-blouse-grey",
+      "handle": "womens-linen-slim-fit-blouse-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 82,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-pant-sky-blue",
+      "handle": "mens-cotton-slim-fit-pant-sky-blue",
+      "match": {
+        "handle": "mens-cotton-slim-fit-pant-sky-blue",
+        "title": "Men’s Cotton Slim Fit Pant Sky Blue",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-17472-21034-SKY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 83,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-pant-navy",
+      "handle": "mens-cotton-slim-fit-pant-navy",
+      "match": {
+        "handle": "mens-cotton-slim-fit-pant-navy",
+        "title": "Men’s Cotton Slim Fit Pant Navy",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-17472-21023-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 84,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-pink",
+      "handle": "womens-cotton-regular-fit-short-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 85,
+      "url": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-short-white",
+      "handle": "womens-linen-cotton-regular-fit-short-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 86,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-olive",
+      "handle": "mens-cotton-regular-fit-corduroy-shirt-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 87,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-navy",
+      "handle": "mens-cotton-regular-fit-corduroy-shirt-navy",
+      "match": {
+        "handle": "mens-cotton-regular-fit-corduroy-shirt-navy",
+        "title": "Men’s Cotton Regular Fit Corduroy Shirt Navy",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-50006-21196-NAVY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 88,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-corduroy-shirt-brick",
+      "handle": "mens-cotton-regular-fit-corduroy-shirt-brick",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 89,
+      "url": "https://cottonworld.net/products/mens-cotton-modal-loose-fit-shirt-brick",
+      "handle": "mens-cotton-modal-loose-fit-shirt-brick",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 90,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-jacket-grey",
+      "handle": "womens-cotton-regular-fit-jacket-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 91,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose",
+      "handle": "womens-linen-regular-fit-blouse-rose",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 92,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-blouse-offwhite",
+      "handle": "womens-linen-viscose-regular-fit-blouse-offwhite",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 93,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard",
+      "handle": "womens-cotton-regular-fit-kurta-mustard",
+      "match": {
+        "handle": "womens-cotton-regular-fit-kurta-mustard",
+        "title": "Women’s Cotton Regular Fit Kurta Mustard",
+        "status": "active",
+        "published": "true",
+        "style": "L-KURTA-17363-21065-MUSTARD"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 94,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-blue",
+      "handle": "womens-cotton-regular-fit-kurta-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 95,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-pant-green",
+      "handle": "womens-cotton-elastane-regular-fit-pant-green",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 96,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-mustard",
+      "handle": "womens-cotton-regular-fit-blouse-mustard",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 97,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-boxy-fit-blouse-white",
+      "handle": "womens-cotton-linen-boxy-fit-blouse-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 98,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-white",
+      "handle": "womens-linen-boxy-fit-blouse-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 99,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-shirt-brown",
+      "handle": "mens-cotton-regular-fit-hand-block-printed-shirt-brown",
+      "match": {
+        "handle": "mens-cotton-regular-fit-hand-block-printed-shirt-brown",
+        "title": "Men’s Cotton Regular Fit Hand Block Printed Shirt Brown",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-50019-21051-BROWN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 100,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-style-shirt-brown",
+      "handle": "mens-cotton-regular-fit-hand-block-printed-style-shirt-brown",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 101,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-batik-printed-shirt-olive-black",
+      "handle": "mens-cotton-regular-fit-batik-printed-shirt-olive-black",
+      "match": {
+        "handle": "mens-cotton-regular-fit-batik-printed-shirt-olive-black",
+        "title": "Men’s Cotton Regular Fit Batik Printed Shirt Olive Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHIRTS-50019-21049-OLIVE/BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 102,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-multi",
+      "handle": "mens-cotton-regular-fit-shirt-multi",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 103,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-hand-block-printed-shirt-grey",
+      "handle": "mens-cotton-regular-fit-hand-block-printed-shirt-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 104,
+      "url": "https://cottonworld.net/products/mens-cotton-slim-fit-shirt-grey",
+      "handle": "mens-cotton-slim-fit-shirt-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 105,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-beige",
+      "handle": "mens-cotton-regular-fit-short-beige",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 106,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-dress-pink",
+      "handle": "womens-cotton-boxy-fit-dress-pink",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 107,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-overlay-offwhite",
+      "handle": "womens-modal-regular-fit-overlay-offwhite",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 108,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-excel-blouse-white",
+      "handle": "womens-linen-regular-fit-excel-blouse-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 109,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-excel-blouse-grey",
+      "handle": "womens-linen-regular-fit-excel-blouse-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 110,
+      "url": "https://cottonworld.net/products/womens-modal-loose-fit-blouse-lilac",
+      "handle": "womens-modal-loose-fit-blouse-lilac",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 111,
+      "url": "https://cottonworld.net/products/womens-modal-loose-fit-blouse-offwhite",
+      "handle": "womens-modal-loose-fit-blouse-offwhite",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 112,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pant-mustard",
+      "handle": "womens-cotton-regular-fit-pant-mustard",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 113,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pant-grey",
+      "handle": "womens-cotton-regular-fit-pant-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 114,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-regular-pant-blue",
+      "handle": "womens-modal-regular-fit-regular-pant-blue",
+      "match": {
+        "handle": "womens-modal-regular-fit-regular-pant-blue",
+        "title": "Women’s Modal Regular Fit Regular Pant Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-17149-21014-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 115,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-printed-pant-blue",
+      "handle": "womens-modal-regular-fit-printed-pant-blue",
+      "match": {
+        "handle": "womens-modal-regular-fit-printed-pant-blue",
+        "title": "Women’s Modal Regular Fit Printed Pant Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-17149-21013-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 116,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-navy",
+      "handle": "womens-cotton-elastane-slim-fit-tights-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 117,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-green",
+      "handle": "womens-cotton-elastane-slim-fit-tights-green",
+      "match": {
+        "handle": "womens-cotton-elastane-slim-fit-tights-green",
+        "title": "Women’s Cotton Elastane Slim Fit Tights Green",
+        "status": "active",
+        "published": "true",
+        "style": "L-KTIGHTS-16745-21177-GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 118,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-waistcoat-white",
+      "handle": "womens-cotton-linen-regular-fit-waistcoat-white",
+      "match": {
+        "handle": "womens-cotton-linen-regular-fit-waistcoat-white",
+        "title": "Women’s Cotton Linen Regular Fit Waistcoat White",
+        "status": "active",
+        "published": "true",
+        "style": "L-WAISTCOAT-17380-20935-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 119,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-white",
+      "handle": "womens-cotton-elastane-slim-fit-vest-white",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 120,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-green",
+      "handle": "womens-cotton-elastane-slim-fit-vest-green",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 121,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-vest-black",
+      "handle": "womens-cotton-elastane-slim-fit-vest-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 122,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-offwhite",
+      "handle": "womens-cotton-regular-fit-blouse-offwhite",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 123,
+      "url": "https://cottonworld.net/products/mens-lycra-slim-fit-pant-olive",
+      "handle": "mens-lycra-slim-fit-pant-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 124,
+      "url": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-pant-white",
+      "handle": "womens-linen-cotton-regular-fit-pant-white",
+      "match": {
+        "handle": "womens-linen-cotton-regular-fit-pant-white",
+        "title": "Women’s Linen Cotton Regular Fit Pant White",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-16883-21166-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 125,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-blouse-khaki",
+      "handle": "womens-cotton-linen-regular-fit-blouse-khaki",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 126,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-black",
+      "handle": "womens-cotton-boxy-fit-blouse-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 127,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-white",
+      "handle": "mens-linen-viscose-regular-fit-short-white",
+      "match": {
+        "handle": "mens-linen-viscose-regular-fit-short-white",
+        "title": "Men’s Linen Viscose Regular Fit Short White",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-16299-21041-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 128,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-blue",
+      "handle": "mens-linen-viscose-regular-fit-short-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 129,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-striped-yellow",
+      "handle": "womens-linen-regular-fit-blouse-striped-yellow",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 130,
+      "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-pant-natural",
+      "handle": "womens-cotton-linen-regular-fit-pant-natural",
+      "match": {
+        "handle": "womens-cotton-linen-regular-fit-pant-natural",
+        "title": "Women’s Cotton Linen Regular Fit Pant Natural",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-17080-20939-NATURAL"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 131,
+      "url": "https://cottonworld.net/products/mens-viscose-linen-regular-fit-short-khaki",
+      "handle": "mens-viscose-linen-regular-fit-short-khaki",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 132,
+      "url": "https://cottonworld.net/products/mens-viscose-linen-regular-fit-short-blue",
+      "handle": "mens-viscose-linen-regular-fit-short-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 133,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pyjama-suit-grey",
+      "handle": "womens-cotton-regular-fit-pyjama-suit-grey",
+      "match": {
+        "handle": "womens-cotton-regular-fit-pyjama-suit-grey",
+        "title": "Women’s Cotton Regular Fit Pyjama Suit Grey",
+        "status": "active",
+        "published": "true",
+        "style": "L-PYJAMA SUIT-17227-21071-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 134,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-pyjama-suit-black",
+      "handle": "womens-cotton-regular-fit-pyjama-suit-black",
+      "match": {
+        "handle": "womens-cotton-regular-fit-pyjama-suit-black",
+        "title": "Women’s Cotton Regular Fit Pyjama Suit Black",
+        "status": "active",
+        "published": "true",
+        "style": "L-PYJAMA SUIT-17227-21071-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 135,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white",
+      "handle": "womens-cotton-elastane-regular-fit-short-white",
+      "match": {
+        "handle": "womens-cotton-elastane-regular-fit-short-white",
+        "title": "Women’s Cotton Elastane Regular Fit Short White",
+        "status": "active",
+        "published": "true",
+        "style": "L-SHORTS-09776-20921-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 136,
+      "url": "https://cottonworld.net/products/womens-viscose-linen-regular-fit-short-white",
+      "handle": "womens-viscose-linen-regular-fit-short-white",
+      "match": {
+        "handle": "womens-viscose-linen-regular-fit-short-white",
+        "title": "Women’s Viscose Linen Regular Fit Short White",
+        "status": "active",
+        "published": "true",
+        "style": "L-SHORTS-17188-20878-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 137,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-light-brown",
+      "handle": "mens-cotton-lycra-regular-fit-short-light-brown",
+      "match": {
+        "handle": "mens-cotton-lycra-regular-fit-short-light-brown",
+        "title": "Men’s Cotton Lycra Regular Fit Short Light Brown",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-16299-20961-LT BROWN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 138,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-khaki",
+      "handle": "mens-cotton-lycra-regular-fit-short-khaki",
+      "match": {
+        "handle": "mens-cotton-lycra-regular-fit-short-khaki",
+        "title": "Men’s Cotton Lycra Regular Fit Short Khaki",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-16299-20961-KHAKI"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 139,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-grey",
+      "handle": "mens-cotton-lycra-regular-fit-short-grey",
+      "match": {
+        "handle": "mens-cotton-lycra-regular-fit-short-grey",
+        "title": "Men’s Cotton Lycra Regular Fit Short Grey",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-16299-20961-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 140,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-light-brown",
+      "handle": "mens-cotton-lycra-slim-fit-pant-light-brown",
+      "match": {
+        "handle": "mens-cotton-lycra-slim-fit-pant-light-brown",
+        "title": "Men’s Cotton Lycra Slim Fit Pant Light Brown",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-16181-20961-LT BROWN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 141,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-grey",
+      "handle": "mens-cotton-lycra-slim-fit-pant-grey",
+      "match": {
+        "handle": "mens-cotton-lycra-slim-fit-pant-grey",
+        "title": "Men’s Cotton Lycra Slim Fit Pant Grey",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-16181-20961-GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 142,
+      "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey",
+      "handle": "womens-cotton-slim-fit-skirt-dark-grey",
+      "match": {
+        "handle": "womens-cotton-slim-fit-skirt-dark-grey",
+        "title": "Women’s Cotton Slim Fit Skirt Dark Grey",
+        "status": "active",
+        "published": "true",
+        "style": "L-KSKIRT-17059-20894-DARK GREY"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 143,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-moss",
+      "handle": "womens-cotton-regular-fit-short-moss",
+      "match": {
+        "handle": "womens-cotton-regular-fit-short-moss",
+        "title": "Women’s Cotton Regular Fit Short Moss",
+        "status": "active",
+        "published": "true",
+        "style": "L-KSHORTS-17070-20894-MOSS"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 144,
+      "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-blouse-teal",
+      "handle": "womens-cotton-boxy-fit-blouse-teal",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 145,
+      "url": "https://cottonworld.net/products/mens-lycra-cotton-regular-fit-pant-olive",
+      "handle": "mens-lycra-cotton-regular-fit-pant-olive",
+      "match": {
+        "handle": "mens-lycra-cotton-regular-fit-pant-olive",
+        "title": "Men’s Lycra Cotton Regular Fit Pant Olive",
+        "status": "active",
+        "published": "true",
+        "style": "M-PANTS-11743-20961-OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 146,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-aqua",
+      "handle": "womens-cotton-regular-fit-blouse-aqua",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 147,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-short-olive",
+      "handle": "mens-cotton-regular-fit-short-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 148,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-green",
+      "handle": "womens-cotton-regular-fit-blouse-green",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 149,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-track-pant-black",
+      "handle": "mens-cotton-regular-fit-track-pant-black",
+      "match": {
+        "handle": "mens-cotton-regular-fit-track-pant-black",
+        "title": "Men’s Cotton Regular Fit Track Pant Black",
+        "status": "active",
+        "published": "true",
+        "style": "M-TRACK-PANT-17052-20779-BLACK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 150,
+      "url": "https://cottonworld.net/products/mens-linen-viscose-regular-fit-short-grey",
+      "handle": "mens-linen-viscose-regular-fit-short-grey",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 151,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-olive",
+      "handle": "womens-cotton-regular-fit-short-olive",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 152,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-white",
+      "handle": "womens-cotton-elastane-slim-fit-tights-white",
+      "match": {
+        "handle": "womens-cotton-elastane-slim-fit-tights-white",
+        "title": "Women’s Cotton Elastane Slim Fit Tights White",
+        "status": "active",
+        "published": "true",
+        "style": "L-KTIGHTS-16745-20856-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 153,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-dress-wine",
+      "handle": "womens-cotton-loose-fit-dress-wine",
+      "match": {
+        "handle": "womens-cotton-loose-fit-dress-wine",
+        "title": "Women’s Cotton Loose Fit Dress Wine",
+        "status": "active",
+        "published": "false",
+        "style": "L-DRESS-17047-20822-WINE"
+      },
+      "status": "Active - unpublished",
+      "active": true
+    },
+    {
+      "originalRow": 154,
+      "url": "https://cottonworld.net/products/womens-cotton-loose-fit-dress-green",
+      "handle": "womens-cotton-loose-fit-dress-green",
+      "match": {
+        "handle": "womens-cotton-loose-fit-dress-green",
+        "title": "Women’s Cotton Loose Fit Dress Green",
+        "status": "active",
+        "published": "true",
+        "style": "L-DRESS-17047-20822-GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 155,
+      "url": "https://cottonworld.net/products/mens-cotton-elastane-regular-fit-short-blue",
+      "handle": "mens-cotton-elastane-regular-fit-short-blue",
+      "match": {
+        "handle": "mens-cotton-elastane-regular-fit-short-blue",
+        "title": "Men’s Cotton Elastane Regular Fit Short Blue",
+        "status": "active",
+        "published": "true",
+        "style": "M-SHORTS-17053-20815-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 156,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-pant-white",
+      "handle": "womens-cotton-elastane-regular-fit-pant-white",
+      "match": {
+        "handle": "womens-cotton-elastane-regular-fit-pant-white",
+        "title": "Women’s Cotton Elastane Regular Fit Pant White",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-11273-20761-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 157,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-greyish-blue",
+      "handle": "mens-cotton-lycra-regular-fit-short-greyish-blue",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 158,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-white",
+      "handle": "womens-cotton-lycra-slim-fit-pant-white",
+      "match": {
+        "handle": "womens-cotton-lycra-slim-fit-pant-white",
+        "title": "Women’s Cotton Lycra Slim Fit Pant White",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-16733-20631-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 159,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-pink",
+      "handle": "womens-cotton-lycra-slim-fit-pant-pink",
+      "match": {
+        "handle": "womens-cotton-lycra-slim-fit-pant-pink",
+        "title": "Women’s Cotton Lycra Slim Fit Pant Pink",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-16733-20631-PINK"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 160,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-navy",
+      "handle": "womens-cotton-lycra-slim-fit-pant-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 161,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-green",
+      "handle": "womens-cotton-lycra-regular-fit-pant-green",
+      "match": {
+        "handle": "womens-cotton-lycra-regular-fit-pant-green",
+        "title": "Women’s Cotton Lycra Regular Fit Pant Green",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-11273-20631-GREEN"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 162,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-blue",
+      "handle": "womens-cotton-lycra-regular-fit-pant-blue",
+      "match": {
+        "handle": "womens-cotton-lycra-regular-fit-pant-blue",
+        "title": "Women’s Cotton Lycra Regular Fit Pant Blue",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-08015-20631-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 163,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-beige",
+      "handle": "womens-cotton-lycra-regular-fit-short-beige",
+      "match": {
+        "handle": "womens-cotton-lycra-regular-fit-short-beige",
+        "title": "Women’s Cotton Lycra Regular Fit Short Beige",
+        "status": "active",
+        "published": "true",
+        "style": "L-SHORTS-09776-20541-BEIGE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 164,
+      "url": "https://cottonworld.net/products/womens-cotton-slim-fit-pant-blue",
+      "handle": "womens-cotton-slim-fit-pant-blue",
+      "match": {
+        "handle": "womens-cotton-slim-fit-pant-blue",
+        "title": "Women’s Cotton Slim Fit Pant Blue",
+        "status": "active",
+        "published": "true",
+        "style": " L-PANTS-16733-20500-BLUE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 165,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-maroon-red",
+      "handle": "womens-cotton-lycra-regular-fit-pant-maroon-red",
+      "match": {
+        "handle": "womens-cotton-lycra-regular-fit-pant-maroon-red",
+        "title": "Women’s Cotton Lycra Regular Fit Pant Maroon Red",
+        "status": "active",
+        "published": "true",
+        "style": "L-PANTS-08015-20536-MAROON-RED"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 166,
+      "url": "https://cottonworld.net/products/womens-lycra-cotton-regular-fit-pant-white",
+      "handle": "womens-lycra-cotton-regular-fit-pant-white",
+      "match": {
+        "handle": "womens-lycra-cotton-regular-fit-pant-white",
+        "title": "Women’s Lycra Cotton Regular Fit Pant White",
+        "status": "active",
+        "published": "true",
+        "style": " L-PANTS-11273-20536-WHITE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 167,
+      "url": "https://cottonworld.net/products/womens-modal-regular-fit-blouse-navy",
+      "handle": "womens-modal-regular-fit-blouse-navy",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 168,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-slim-fit-tights-olive",
+      "handle": "womens-cotton-elastane-slim-fit-tights-olive",
+      "match": {
+        "handle": "womens-cotton-elastane-slim-fit-tights-olive",
+        "title": "Women’s Cotton Elastane Slim Fit Tights Olive",
+        "status": "active",
+        "published": "true",
+        "style": "L-KTIGHTS-16745-20354-OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    },
+    {
+      "originalRow": 169,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-slim-fit-pant-black",
+      "handle": "womens-cotton-lycra-slim-fit-pant-black",
+      "match": null,
+      "status": "Not found - draft unverified",
+      "active": false
+    },
+    {
+      "originalRow": 170,
+      "url": "https://cottonworld.net/products/womens-viscose-elastane-loose-fit-pant-olive",
+      "handle": "womens-viscose-elastane-loose-fit-pant-olive",
+      "match": {
+        "handle": "womens-viscose-elastane-loose-fit-pant-olive",
+        "title": "Women’s Viscose Elastane Loose Fit Pant Olive",
+        "status": "active",
+        "published": "true",
+        "style": "L-KPANTS-14132-19100-OLIVE"
+      },
+      "status": "Active - published",
+      "active": true
+    }
+  ],
+  "source": "Cottonworld verify",
+  "sourceEvidence": "../20260922-batch1-status/export-product-statuses.json",
+  "sourceSha256": "d4460840fa151b66a4addd298682b9f9c7b25010534b5f3943512fb77d524729",
+  "sameExportHash": true,
+  "method": "Exact URL handle matching. Batch 4 has URLs and descriptions but no original style-code column; no independent identity assertion is made. Absence does not establish draft status. Statuses reflect the supplied export snapshot."
+}
