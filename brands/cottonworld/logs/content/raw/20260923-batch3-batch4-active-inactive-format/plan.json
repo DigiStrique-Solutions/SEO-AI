@@ -1,0 +1,12 @@
+{
+  "run_id": "cottonworld-batch3-batch4-active-inactive-format-20260923",
+  "source": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+  "authority": "Active URLs tab",
+  "action": "match Batch 3 and Batch 4 URLs against the active list, group verified active rows before inactive rows, and add full product IDs only to verified active descriptions",
+  "result": {
+    "active_url_records": 285,
+    "Batch 3": {"records": 249, "verified_active": 0, "inactive": 249},
+    "Batch 4": {"records": 169, "verified_active": 0, "inactive": 169}
+  },
+  "layout": ["Products", "Suggested New URL Structure (CW Revised)", "Updated PDP Description"]
+}

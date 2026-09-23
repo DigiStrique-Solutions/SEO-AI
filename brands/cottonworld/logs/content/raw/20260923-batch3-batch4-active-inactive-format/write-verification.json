@@ -1,0 +1,27 @@
+{
+  "run_id": "cottonworld-batch3-batch4-active-inactive-format-20260923",
+  "status": "ok",
+  "verification": {
+    "Batch 3": {
+      "records": 249,
+      "expected_records": 249,
+      "product_codes_added": 0,
+      "linked_url_cells": 249,
+      "wrapped_description_cells": 249,
+      "invalid_rows": []
+    },
+    "Batch 4": {
+      "records": 169,
+      "expected_records": 169,
+      "product_codes_added": 0,
+      "linked_url_cells": 169,
+      "wrapped_description_cells": 169,
+      "invalid_rows": []
+    },
+    "visual_check": {
+      "method": "Google Sheets rendered in browser",
+      "sheets": ["Batch 3", "Batch 4"],
+      "result": "Both tabs render with the Batch 1/2 three-column layout, readable wrapped descriptions, and visible linked URLs."
+    }
+  }
+}
