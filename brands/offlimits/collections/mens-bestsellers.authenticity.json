@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim": "The target page is explicitly labelled \u2018BEST SELLING MEN'S SHOES & ATHLEISURE\u2019 by OFFLIMITS. The draft uses \u2018Best Sellers\u2019 only as the page\u2019s collection name, not as an independent sales-rank claim for any product.",
+      "claim_type": "best_top",
+      "source_ids": [
+        "offlimits-mens-bestsellers"
+      ]
+    },
+    {
+      "claim": "The target page is an active Best Sellers collection with a sport-inspired shoe, sneaker and athleisure product grid.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "offlimits-mens-bestsellers"
+      ]
+    },
+    {
+      "claim": "Gladiator Off White product details list a lace-up closure, Phylon/TPR sole and memory-foam insock.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator-product"
+      ]
+    },
+    {
+      "claim": "Big & Tall offers selected styles in UK sizes 12, 13 and 14.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal-destinations"
+      ]
+    },
+    {
+      "claim": "The page should help shoppers choose by movement, fit, materials and existing wardrobe.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal-destinations"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T13:30:57+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.38,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/mens-bestsellers"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Live rendered check on 2026-09-23: canonical matches the target; H1 is \u2018BEST SELLING MEN'S SHOES & ATHLEISURE\u2019; no collection description was visible; grid includes sport-inspired shoes, sneakers and Best Sellers-labelled product cards.",
+      "source_id": "offlimits-mens-bestsellers",
+      "source_ref": "https://offlimits.co.in/collections/mens-bestsellers",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product-page check on 2026-09-23: Gladiator Off White Men\u2019s Sneakers has a lace-up closure, Phylon/TPR sole and memory-foam insock. Product copy positions it for runs, gym sessions and active days.",
+      "source_id": "gladiator-product",
+      "source_ref": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The eight internal destinations in the SEO handoff returned HTTP 200 and matched their canonical URLs. Big & Tall\u2019s live size filter includes UK 12, 13 and 14.",
+      "source_id": "internal-destinations",
+      "source_ref": "Rendered HTTP 200 and canonical checks on 2026-09-23 for running/gym, sneakers, walking, joggers, Big & Tall, men, and the running-vs-gym guide.",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand. Customer-facing copy should use verified product details and organise around the shopper\u2019s use case.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant organic collection pages observed: adidas, Zoom Shoes and Ethik. The benchmark favours a short purpose-led introduction followed by a scannable product grid, filters and selective category guidance. This is a search snapshot, not a ranking guarantee.",
+      "source_id": "serp",
+      "source_ref": "Google India query \u2018best selling shoes for men India\u2019 on 2026-09-23",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Live page review on 2026-09-23: adidas uses a concise category heading and grid; Zoom uses a 52-word customer-proof intro before filters and products; Ethik uses a minimal heading and 20-product grid. OFFLIMITS should use an original, source-backed introduction and clear browse guidance rather than copy their language or page structure.",
+      "source_id": "competitor-pages",
+      "source_ref": "https://www.adidas.co.in/men-best_sellers-shoes; https://www.zoomshoes.in/collections/best-sellers; https://ethikonline.com/collections/best-sellers",
+      "source_type": "competitor_page"
+    }
+  ]
+}

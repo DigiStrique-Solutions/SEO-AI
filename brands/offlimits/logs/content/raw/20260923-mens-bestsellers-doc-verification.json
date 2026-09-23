@@ -1,0 +1,28 @@
+{
+  "run_id": "20260923-mens-bestsellers-content",
+  "google_doc_id": "1Yg53OM6DuauSlRbS-AAGzMsaERMBEko7gkrar1W5-fw",
+  "google_doc_url": "https://docs.google.com/document/d/1Yg53OM6DuauSlRbS-AAGzMsaERMBEko7gkrar1W5-fw/edit",
+  "verification": {
+    "native_date_chip": {
+      "status": "pass",
+      "display_text": "Sep 23, 2026",
+      "timestamp": "2026-09-23T00:00:00Z"
+    },
+    "heading_structure": {
+      "status": "pass",
+      "title": 1,
+      "heading_1": 3,
+      "heading_2": 7
+    },
+    "visible_internal_links": {
+      "status": "pass",
+      "count": 8,
+      "style": "underlined blue text with direct canonical OFFLIMITS destinations"
+    },
+    "content": {
+      "status": "pass",
+      "website_copy_word_count": 616,
+      "document_includes": ["website copy", "metadata handoff", "internal-link map", "SERP benchmark", "verification notes"]
+    }
+  }
+}
