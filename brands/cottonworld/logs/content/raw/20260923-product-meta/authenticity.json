@@ -1,0 +1,68 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T07:09:53+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 18.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T07:07:50+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://docs.google.com/spreadsheets/d/1QhlmGGJ7IJHA9UVI5xMVeLjRGIYsxya2FjFQ2YN1cH8/edit?gid=923202601"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld uses calm, practical language focused on natural fabrics, everyday comfort, work, travel and unhurried days.",
+        "Copy avoids hype, urgency and unsupported sustainability or performance claims."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The Cottonworld Shopify export supplied exact product titles, including gender, fabric, fit, garment type and colour, for 389 target URLs."
+      ],
+      "source_id": "cottonworld_product_export",
+      "source_ref": "brands/cottonworld/logs/audits/raw/20260922-batch1-status/export-product-statuses.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The three live pages identify men's 100% cotton regular fit shirts in khaki, olive and wine."
+      ],
+      "source_id": "cottonworld_live_product_pages",
+      "source_ref": "Firecrawl live reads on 2026-09-23 for m-shirts-50013-21749-khaki, m-shirts-50013-21749-olive and m-shirts-50013-21749-wine; captured in evidence.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The validated URL mapping identifies l-blouse-17539-21197-navy as a women's linen boxy fit blouse in navy and l-waistcoat-17574-21344-olive as a women's linen boxy fit waistcoat in olive."
+      ],
+      "source_id": "cottonworld_verified_url_mapping",
+      "source_ref": "outputs/cottonworld-url-validation-20260806/validation_records.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Titles use the product name followed by | Cottonworld and generally omit fit wording for brevity.",
+        "Descriptions keep the full product wording and connect it to everyday wear, work, travel and relaxed weekends."
+      ],
+      "source_id": "user_meta_examples",
+      "source_ref": "User-provided meta title and description examples in the Codex task on 2026-09-23",
+      "source_type": "human_context"
+    }
+  ]
+}
