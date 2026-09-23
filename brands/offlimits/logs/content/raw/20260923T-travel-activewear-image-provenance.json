@@ -10,5 +10,11 @@
     "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02",
     "https://offlimits.co.in/products/bomba-black-black-ocm-793-02"
   ],
-  "generation_note": "Product references informed the travel-ready performance-and-street-style direction; the final hero is an editorial image, not a literal product photograph."
+  "generation_note": "Product references informed the travel-ready performance-and-street-style direction; the final hero is an editorial image, not a literal product photograph.",
+  "replacement": {
+    "replaced_at": "2026-09-23T06:48:00+00:00",
+    "reason": "Avoid visual repetition with the preceding blog hero.",
+    "creative_direction": "Indian woman at an Indian railway terminal in a rust-orange hoodie, charcoal joggers and cream sneakers; no airport, male traveller or blue-and-grey tracksuit.",
+    "google_doc_object_id": "kix.gpxxtlo8wzq4"
+  }
 }
