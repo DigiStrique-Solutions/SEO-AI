@@ -1,0 +1,10 @@
+{
+  "run_id": "20260923-women-collection-content",
+  "target": {"url": "https://offlimits.co.in/collections/women", "status": 200, "canonical": "https://offlimits.co.in/collections/women", "h1": "WOMEN'S SHOES, SNEAKERS & ATHLEISURE", "visible_collection_description": false},
+  "serp": {"query": "women's shoes online India", "market": "India", "reviewed": [
+    {"brand": "Myntra", "url": "https://www.myntra.com/footwear-women-shoes", "tone": "filter-led marketplace catalogue", "length": "no meaningful editorial description above grid", "structure": "H1, category and attribute filters, product grid"},
+    {"brand": "PUMA India", "url": "https://in.puma.com/in/en/womens/womens-shoes", "tone": "product-led performance retail", "length": "no meaningful editorial description above grid", "structure": "H1, sort and filters, product grid"},
+    {"brand": "Nykaa Fashion", "url": "https://www.nykaafashion.com/women/footwear/c/3528", "tone": "broad category retail", "length": "no meaningful editorial description above grid", "structure": "H1, filters, product grid"}
+  ], "application": "Use a concise original introduction, then skimmable decision guidance after the grid. Do not make unsupported price, review or popularity claims."},
+  "internal_links": ["https://offlimits.co.in/collections/women-sneakers", "https://offlimits.co.in/collections/women-walking", "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03", "https://offlimits.co.in/collections/women-sandals-sliders", "https://offlimits.co.in/collections/women-tights", "https://offlimits.co.in/collections/women-tshirts-graphic-tees", "https://offlimits.co.in/collections/new-arrivals-2026", "https://offlimits.co.in/collections/women"]
+}

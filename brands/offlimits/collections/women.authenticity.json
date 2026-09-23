@@ -1,0 +1,102 @@
+{
+  "claims": [
+    {
+      "claim": "The target is an active women\u2019s shoes, sneakers and athleisure collection with footwear and activewear styles.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "Gladiator For Her Off White/Pink lists lace-up closure, Phylon/TPR sole and memory foam insock.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator-for-her"
+      ]
+    },
+    {
+      "claim": "The eight internal destinations were live and canonical.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal"
+      ]
+    },
+    {
+      "claim": "Fit, category and styling guidance is editorial assistance organised around customer need.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T14:18:34+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.96,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-23T14:19:06+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.97,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/women"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Live rendered check: HTTP 200, self-canonical, H1 \u2018WOMEN'S SHOES, SNEAKERS & ATHLEISURE\u2019, grid includes running-inspired pairs, sneakers, sandals and sliders, and activewear; no visible collection description.",
+      "source_id": "target",
+      "source_ref": "https://offlimits.co.in/collections/women",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page lists lace-up closure, Phylon/TPR sole and memory foam insock, and positions Gladiator For Her for running, workouts and regular movement.",
+      "source_id": "gladiator-for-her",
+      "source_ref": "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The eight destinations in the internal-link plan returned HTTP 200 and matched canonical URLs.",
+      "source_id": "internal",
+      "source_ref": "Rendered HTTP 200 and canonical checks on 2026-09-23",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand. Customer-facing content should organise verified product information around the shopper\u2019s need.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant organic category pages observed included Myntra, PUMA India and Nykaa Fashion. This is a search snapshot, not a ranking guarantee.",
+      "source_id": "serp",
+      "source_ref": "Google India query \u2018women's shoes online India\u2019 on 2026-09-23",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Live review: Myntra and PUMA are filter and product-grid led; Nykaa also uses a broad filter-led catalogue. OFFLIMITS should use an original concise introduction followed by practical navigation and decision guidance.",
+      "source_id": "competitors",
+      "source_ref": "https://www.myntra.com/footwear-women-shoes; https://in.puma.com/in/en/womens/womens-shoes; https://www.nykaafashion.com/women/footwear/c/3528",
+      "source_type": "competitor_page"
+    }
+  ]
+}
