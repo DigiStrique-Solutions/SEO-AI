@@ -26,6 +26,18 @@ Finding a recently added style in a larger size can take more time than it shoul
 
 If you are deciding between a running shoe and a training shoe, our [running versus gym shoes guide](https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes) explains the difference in the movement each category is designed around. It is a useful stop before choosing a new pair for a specific workout.
 
+## Compare fresh styles with the rest of your rotation
+
+A newly added shoe does not have to replace every pair you own. It can fill one useful gap: a cleaner option for casual days, a dedicated pair for training or a different colourway that works with the clothes already in your wardrobe. Before choosing, think about the shoes you reach for now and the moment when they are least useful. That is often the clearest reason to add something new.
+
+Use the collection filters to reduce the grid to the sizes, colours or categories that make sense for you. Then open a few product pages rather than trying to judge a pair from its image alone. A quick comparison of the upper, closure, sole and insock will tell you more about the details you will live with. For a lace-up shoe, consider the amount of adjustment you prefer; for any pair, check that the available size matches the fit you normally choose.
+
+It also helps to decide how much of the outfit you want the shoes to carry. A neutral sneaker can make room for a brighter tee or jacket. A more expressive colourway can be the focus of an otherwise simple outfit. Neither approach is more useful on its own; the better choice is the one you can picture wearing through an ordinary week.
+
+## Make the first wear an easy one
+
+When a new pair arrives, give yourself a lower-pressure first outing. Wear it around home or on a short familiar route, and make sure the fit feels secure before relying on it for a longer day. Check the product page for the care guidance and materials associated with the specific style. That small step helps you decide whether the pair belongs with your casual rotation, your workout kit or both.
+
 ## Let your routine narrow the new arrivals
 
 Fresh styles are most satisfying when they earn a place in your week. Start with your usual movement, your preferred fit and the clothes you already wear. Then browse [OFFLIMITS men’s new arrivals](https://offlimits.co.in/collections/men-new-releases) for the latest additions, or return to the [full men’s collection](https://offlimits.co.in/collections/men) when you want to compare every category.

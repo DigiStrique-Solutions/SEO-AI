@@ -1,0 +1,9 @@
+{
+  "run_id": "20260923-offlimits-collection-drafts-expanded",
+  "documents": [
+    {"target": "https://offlimits.co.in/collections/men-new-releases", "document_id": "13vAb1_3UgMswefT6Se7mn26y3MNt1Avta217Zsp1rkM", "repository_word_count": 872, "local_ai_pattern_risk": 9.32},
+    {"target": "https://offlimits.co.in/collections/mens-bestsellers", "document_id": "1Yg53OM6DuauSlRbS-AAGzMsaERMBEko7gkrar1W5-fw", "repository_word_count": 888, "local_ai_pattern_risk": 6.74},
+    {"target": "https://offlimits.co.in/collections/mens-shoes", "document_id": "140t8Cn2JR-fx3VQgilJI_jQMUrojuk7tBMCyobVkOS8", "repository_word_count": 858, "local_ai_pattern_risk": 6.57}
+  ],
+  "notes": "Each existing Google Doc was updated with the corresponding expansion and placement instruction. ZeroGPT checks were attempted for each revised draft; the connected check returned insufficient credits (403), so external results remain unavailable."
+}

@@ -1,7 +1,7 @@
 {
   "claims": [
     {
-      "claim": "The linked OFFLIMITS collection is named ‘BEST SELLING MEN'S SHOES & ATHLEISURE’; the draft uses ‘best sellers’ solely as that collection’s label.",
+      "claim": "The linked OFFLIMITS collection is named \u2018BEST SELLING MEN'S SHOES & ATHLEISURE\u2019; the draft uses \u2018best sellers\u2019 solely as that collection\u2019s label.",
       "claim_type": "best_top",
       "source_ids": [
         "internal"
@@ -44,6 +44,16 @@
       "max_score": 20.0,
       "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
       "score": 7.49,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-23T13:43:58+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.57,
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"

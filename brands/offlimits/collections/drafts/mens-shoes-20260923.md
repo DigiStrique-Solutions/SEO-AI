@@ -20,6 +20,18 @@ Lace-ups let you fine-tune the fit. Consider the socks you normally wear, leave 
 
 If you are deciding between a running shoe and a training shoe, the [running versus gym shoes guide](https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes) helps explain the different movement priorities behind each category. Use it to narrow your search before comparing specific models.
 
+## Give yourself a simple comparison routine
+
+When a collection has a wide range of footwear, filtering is only the first step. Shortlist a few pairs, open the details for each one and compare the features that affect the way you plan to wear them. The upper, closure, sole and insock are useful places to begin. They help you move from a visual preference to a more practical decision.
+
+Think about the setting first. A shoe for a regular workout may need to suit a different pattern of movement from a pair for a long day of casual plans. If you are buying footwear for a particular activity, start in the focused category and then return to the full range if you want to compare styling. That keeps the choice grounded in use without making the browse feel narrow.
+
+Fit deserves the same attention as the colourway. Check the live size selector, allow room for the socks you normally wear and think about the amount of toe room you prefer. Lace-ups give you some adjustment, but the right size is still the place to start. Individual colour and size availability can change, so make this check close to the time you add a pair to your bag.
+
+## Let the pair work with your wardrobe
+
+You do not need to rebuild an outfit around a new shoe. A neutral sneaker may be easy to repeat with jeans or joggers; a sport-inspired colourway may be the detail that changes a simple T-shirt-and-track-pants look. Picture the pair with the clothing you already reach for. The more situations you can see it working in, the easier it is to make it part of your rotation.
+
 ## Build outfits around a pair you will wear often
 
 Footwear earns its place in a rotation when it works with the items you already reach for. Pair a sport-inspired shoe with [men’s joggers and track pants](https://offlimits.co.in/collections/men-joggers-track-pants) for a relaxed training-day look, or use a sneaker with denim and a simple tee for ordinary plans. Start with the piece you will wear first; a useful wardrobe does not need to arrive all at once.
