@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "claim": "The Men's Sonic Tracksuit product page lists Light Grey/A Force, full sleeves, cut-and-sew, polyester-spandex and Wicktech.",
+      "source_ids": [
+        "sonic_product"
+      ]
+    },
+    {
+      "claim": "The Bomba Black/Black product page lists a synthetic upper, TPR sole and EVA insock.",
+      "source_ids": [
+        "bomba_product"
+      ]
+    },
+    {
+      "claim": "OFFLIMITS describes its men's joggers and track pants collection for workouts, travel and everyday wear and its men's sports shorts collection for workouts, running and training.",
+      "source_ids": [
+        "collections"
+      ]
+    },
+    {
+      "claim_id": "best-top-context",
+      "claim_type": "best_top",
+      "criteria": "The word best appears only in linked third-party/source titles and ordinary descriptive language, not as a product-superiority claim.",
+      "source_ids": [
+        "serp_benchmark"
+      ],
+      "statement": "No OFFLIMITS product is ranked or presented as the best."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T06:32:59+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T06:32:17+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/10-travel-friendly-activewear-essentials"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Use OFFLIMITS as the canonical brand form.",
+        "Customer-facing content must be product-led, conversational and conclude before CTA.",
+        "At least three live contextual internal links are required."
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant organic travel-activewear guides were reviewed on 2026-09-23."
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20260923T-travel-activewear-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Men's Sonic Tracksuit: Light Grey/A Force, full sleeves, cut-and-sew, polyester-spandex and Wicktech."
+      ],
+      "source_id": "sonic_product",
+      "source_ref": "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Bomba Black/Black: synthetic upper, TPR sole and EVA insock."
+      ],
+      "source_id": "bomba_product",
+      "source_ref": "https://offlimits.co.in/products/bomba-black-black-ocm-793-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Joggers collection is positioned for workouts, travel and everyday wear.",
+        "Shorts collection is positioned for workouts, running and training."
+      ],
+      "source_id": "collections",
+      "source_ref": "https://offlimits.co.in/collections/men-joggers-track-pants and https://offlimits.co.in/collections/men-shorts",
+      "source_type": "product_page"
+    }
+  ]
+}

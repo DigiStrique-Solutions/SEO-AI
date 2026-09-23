@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-23T06:41:00+00:00",
+  "asset": "blogs/creatives/travel-friendly-activewear-essentials/offlimits-travel-activewear-hero.png",
+  "purpose": "Google Doc hero image with the requested blog topic embedded in the artwork.",
+  "references": [
+    "blogs/creatives/travel-friendly-activewear-essentials/refs/sonic.jpg",
+    "blogs/creatives/travel-friendly-activewear-essentials/refs/bomba.jpg"
+  ],
+  "source_product_pages": [
+    "https://offlimits.co.in/products/mens-sonic-track-suit-otm-341-02",
+    "https://offlimits.co.in/products/bomba-black-black-ocm-793-02"
+  ],
+  "generation_note": "Product references informed the travel-ready performance-and-street-style direction; the final hero is an editorial image, not a literal product photograph."
+}
