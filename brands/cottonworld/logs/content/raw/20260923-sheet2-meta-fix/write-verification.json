@@ -1,0 +1,26 @@
+{
+  "run_id": "20260923-sheet2-meta-fix",
+  "captured_at": "2026-09-23T15:28:35+05:30",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "spreadsheet_title": "New Active list products",
+  "source_range": "Sheet1!C2:D395",
+  "target_range": "Sheet2!A2:B395",
+  "sheet2_gid": 2039213223,
+  "records": 394,
+  "cells_updated": 788,
+  "source_target_order_check": "pass",
+  "exact_readback_mismatches": 0,
+  "titles_with_buy_before": 249,
+  "titles_with_buy_after": 0,
+  "descriptions_copied_from_sheet1": 394,
+  "formatting_check": "pass",
+  "visual_browser_check": "blocked_by_google_sign_in_in_isolated_browser",
+  "connector_verification": "pass",
+  "authenticity_gate": {
+    "local_ai_pattern_risk_score": 16.8,
+    "threshold": "<20",
+    "status": "pass",
+    "zerogpt": "local_fallback_due_to_insufficient_credits"
+  }
+}
+

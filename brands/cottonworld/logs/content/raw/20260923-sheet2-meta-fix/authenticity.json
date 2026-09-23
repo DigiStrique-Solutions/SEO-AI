@@ -1,0 +1,62 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T09:56:35+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 16.8,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T09:55:18+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=2039213223"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Sheet1 contains the approved meta title and meta description pair for each of the 394 products in Sheet2, in the same row order.",
+        "The product titles in Sheet1 identify gender, material, fit, garment type and colour where available."
+      ],
+      "source_id": "sheet1_metadata",
+      "source_ref": "New Active list products, Sheet1!C2:D395, read through the connected Google Drive account on 2026-09-23",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Sheet2 contains 394 corresponding metadata rows in the same order as Sheet1.",
+        "Before editing, 249 Sheet2 meta titles contained the word Buy."
+      ],
+      "source_id": "sheet2_prewrite",
+      "source_ref": "New Active list products, Sheet2!A2:B395, read through the connected Google Drive account on 2026-09-23",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld uses calm, practical language focused on natural fabrics, everyday comfort, work, travel and unhurried days.",
+        "Copy avoids hype, urgency and unsupported sustainability or performance claims."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Sheet2 meta titles must not contain the word Buy.",
+        "Sheet2 meta titles and descriptions should follow the approved metadata in Sheet1."
+      ],
+      "source_id": "user_instruction",
+      "source_ref": "User instruction in the Codex task on 2026-09-23",
+      "source_type": "human_context"
+    }
+  ]
+}

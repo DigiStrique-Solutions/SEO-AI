@@ -1,0 +1,37 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 24.21,
+          "variation": 0.35
+        },
+        "name": "uniform_sentence_rhythm",
+        "points": 1.16
+      },
+      {
+        "evidence": {
+          "ratio": 0.37
+        },
+        "name": "repeated_sentence_starts",
+        "points": 9.64
+      },
+      {
+        "evidence": [],
+        "name": "generic_conclusion_heading",
+        "points": 6.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 16.8,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 12277
+  },
+  "errors": [],
+  "ok": true,
+  "output": "brands/cottonworld/logs/content/raw/20260923-sheet2-meta-fix/sheet2-approved.tsv",
+  "required_skill": "content-seo-authenticity",
+  "written": true
+}
