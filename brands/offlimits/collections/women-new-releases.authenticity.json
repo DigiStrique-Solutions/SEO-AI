@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim": "The target is an active women\u2019s new-arrivals collection with footwear and activewear listings.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "The target grid currently shows Skyline Select For Her, Sneakerina, Skyline For Her, a running tee, tracksuit, co-ord set and tights.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "Gladiator For Her Off White/Pink lists a KPU and synthetic upper, lace-up closure, Phylon/TPR sole and memory foam insock.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator-for-her"
+      ]
+    },
+    {
+      "claim": "The eight internal destinations were live and canonical during the rendered check.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal"
+      ]
+    },
+    {
+      "claim": "Fit, category and outfit guidance is editorial assistance organised around customer need.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T14:31:35+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.71,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/women-new-releases"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Rendered check on 2026-09-23: HTTP 200, self-canonical, H1 \u2018WOMEN'S NEW ARRIVALS\u2019, no visible descriptive collection copy, and a product grid including Skyline Select For Her, Sneakerina, Skyline For Her, a running tee, tracksuit, co-ord set and tights.",
+      "source_id": "target",
+      "source_ref": "https://offlimits.co.in/collections/women-new-releases",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page lists a KPU and synthetic upper, lace-up closure, Phylon/TPR sole and memory foam insock, and positions the pair for running, workouts, jogging and regular movement.",
+      "source_id": "gladiator-for-her",
+      "source_ref": "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "All eight destinations in the internal-link plan returned HTTP 200 and matched their canonical URLs.",
+      "source_id": "internal",
+      "source_ref": "Rendered HTTP 200 and canonical checks on 2026-09-23",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand. Customer-facing content should organise verified product information around the shopper\u2019s need.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant organic pages observed included Skechers India, Bata India and adidas India. This is a search snapshot, not a ranking guarantee.",
+      "source_id": "serp",
+      "source_ref": "Google India query \u2018new arrivals shoes for women India\u2019 on 2026-09-23",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Skechers and Bata use concise category headings with filters and large product grids. adidas uses a product grid, filters and an additional short use-case section. The OFFLIMITS draft uses original, product-linked decision guidance after the grid.",
+      "source_id": "competitors",
+      "source_ref": "https://www.skechers.in/women/featured/new-arrivals; https://www.bata.com/in/new/women/shoes/; https://www.adidas.co.in/women-shoes-new_arrivals",
+      "source_type": "competitor_page"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "20260923-women-new-releases-content",
+  "target_url": "https://offlimits.co.in/collections/women-new-releases",
+  "primary_topic": "Women’s new arrival shoes and athleisure",
+  "secondary_topics": ["new arrivals shoes for women", "women’s sneakers", "women’s walking shoes", "women’s activewear"],
+  "intent": "Commercial browsing: discover current women’s footwear and athleisure, then compare by activity, fit, features and everyday use.",
+  "title": "Women’s New Arrivals Shoes & Athleisure | OFFLIMITS",
+  "meta_description": "Explore OFFLIMITS women’s new arrivals in shoes, sneakers and athleisure. Compare current styles by movement, fit, features and your everyday routine.",
+  "h1": "Women’s New Arrivals",
+  "intro_placement": "Display the opening two paragraphs below the existing H1. Do not add a second H1.",
+  "read_more_placement": "Place the H2 sections after the product grid behind an accessible Read More / Read Less control.",
+  "internal_links": [
+    {"anchor": "women’s sneakers", "url": "https://offlimits.co.in/collections/women-sneakers"},
+    {"anchor": "women’s walking shoes", "url": "https://offlimits.co.in/collections/women-walking"},
+    {"anchor": "Gladiator For Her Off White/Pink", "url": "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03"},
+    {"anchor": "women’s tights and leggings", "url": "https://offlimits.co.in/collections/women-tights"},
+    {"anchor": "women’s graphic T-shirts", "url": "https://offlimits.co.in/collections/women-tshirts-graphic-tees"},
+    {"anchor": "women’s sandals and sliders", "url": "https://offlimits.co.in/collections/women-sandals-sliders"},
+    {"anchor": "women’s shoes, sneakers and athleisure", "url": "https://offlimits.co.in/collections/women"},
+    {"anchor": "OFFLIMITS new arrivals", "url": "https://offlimits.co.in/collections/new-arrivals-2026"}
+  ],
+  "publishing_status": "Unpublished review draft."
+}
