@@ -1,0 +1,27 @@
+{
+  "run_id": "cottonworld-batch3-batch4-active-product-codes-20260923",
+  "target_sheet": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+  "final_source": "https://docs.google.com/spreadsheets/d/1BOuVpv6Yk4un4d9gKPbrCKAJy62Nclvtf3QkU6doxUE/edit?gid=0",
+  "supplemental_product_export": "C:\\Users\\User\\Downloads\\Cottonworld verify",
+  "mapping_priority": [
+    "Final tab: exact New URL to product-code match",
+    "Shopify product export: exact URL handle to Style Code match"
+  ],
+  "targets": [
+    {
+      "sheet": "Batch 3",
+      "active_rows": "2:117",
+      "active_count": 116,
+      "unverified_rows": "118:250",
+      "unverified_count": 133
+    },
+    {
+      "sheet": "Batch 4",
+      "active_rows": "2:84",
+      "active_count": 83,
+      "unverified_rows": "85:170",
+      "unverified_count": 86
+    }
+  ],
+  "description_suffix": "Product ID: <full product code>"
+}

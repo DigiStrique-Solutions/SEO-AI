@@ -1,0 +1,39 @@
+{
+  "run_id": "cottonworld-batch3-batch4-active-product-codes-20260923",
+  "status": "ok",
+  "write_result": {
+    "active_rows_updated": 199,
+    "cells_written": 398,
+    "direct_final_tab_mappings": 15,
+    "exact_handle_to_style_code_fallback_mappings": 184
+  },
+  "readback": {
+    "Batch 3": {
+      "active_rows": 116,
+      "codes_present": 116,
+      "descriptions_ending_with_matching_product_id": 116,
+      "linked_urls_retained": 116,
+      "wrapped_descriptions": 116,
+      "literal_escape_sequences": 0,
+      "unverified_rows": 133,
+      "blank_unverified_codes": 133,
+      "unverified_description_id_lines": 0
+    },
+    "Batch 4": {
+      "active_rows": 83,
+      "codes_present": 83,
+      "descriptions_ending_with_matching_product_id": 83,
+      "linked_urls_retained": 83,
+      "wrapped_descriptions": 83,
+      "literal_escape_sequences": 0,
+      "unverified_rows": 86,
+      "blank_unverified_codes": 86,
+      "unverified_description_id_lines": 0
+    }
+  },
+  "visual_verification": {
+    "method": "Google Sheets rendered views",
+    "tabs": ["Batch 3", "Batch 4"],
+    "result": "Product codes, hyperlink formatting, and final Product ID paragraphs render correctly."
+  }
+}
