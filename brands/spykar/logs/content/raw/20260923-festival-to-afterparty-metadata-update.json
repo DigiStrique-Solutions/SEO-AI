@@ -1,0 +1,22 @@
+{
+  "run_id": "spykar-festival-to-afterparty-metadata-update-20260923",
+  "accessed_at": "2026-09-23",
+  "action": "add_missing_google_doc_seo_metadata",
+  "target": {
+    "document_id": "12Up1zWYb2ljnXlybAPG-b-gYpnNijIYW6BdFsuPy-Jk",
+    "document_url": "https://docs.google.com/document/d/12Up1zWYb2ljnXlybAPG-b-gYpnNijIYW6BdFsuPy-Jk/edit",
+    "tab_id": "t.0",
+    "title": "Festival-to-Afterparty: Outfit Ideas That Work Beyond the Celebration | Spykar"
+  },
+  "source": "brands/spykar/blogs/published/festival-to-afterparty-outfit-ideas.md",
+  "metadata_added": {
+    "meta_title": "Festival-to-Afterparty Outfit Ideas | Spykar",
+    "meta_description": "Festival-to-afterparty outfit ideas that keep denim polished for a home celebration, dinner and a late plan without a full wardrobe change.",
+    "file_name": "festival-to-afterparty-outfit-ideas.md"
+  },
+  "verification": {
+    "revision_id": "ANLCKQnaYLvqnFc0Qu5YqgnpAasp3f0pOGcLeiQ1Zdbbh9dag5HGNI6DWr6mEykaHUztzW1M453GbxcbaZBL0y4oUre3E7NPEVgTBIT3rRQ",
+    "top_paragraph_styles": ["NORMAL_TEXT", "NORMAL_TEXT", "NORMAL_TEXT", "TITLE"],
+    "result": "Metadata block precedes the unchanged article title."
+  }
+}
