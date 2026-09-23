@@ -1,0 +1,29 @@
+{
+  "run_id": "cottonworld-batch1-batch2-full-product-ids-20260923",
+  "status": "ok",
+  "cells_updated": 570,
+  "verification": {
+    "Batch 1": {
+      "rows_checked": "2:151",
+      "description_columns_checked": ["C", "E"],
+      "terminal_product_id_mismatches": 0,
+      "format_alerts": 0,
+      "separator_rows_152_153_preserved_blank": true,
+      "first_unverified_product_row_154_preserved_numeric_id": true
+    },
+    "Batch 2": {
+      "rows_checked": "2:136",
+      "description_columns_checked": ["C", "E"],
+      "terminal_product_id_mismatches": 0,
+      "format_alerts": 0,
+      "rich_text_runs_preserved": ["C72", "E72"],
+      "separator_rows_137_138_preserved_blank": true,
+      "first_unverified_product_row_139_preserved_numeric_id": true
+    },
+    "visual_check": {
+      "method": "Google Sheets rendered in browser",
+      "sheets": ["Batch 1", "Batch 2"],
+      "result": "Full product IDs display as the final paragraph without visible clipping or layout damage in the inspected views."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "run_id": "cottonworld-batch1-batch2-full-product-ids-20260923",
+  "source": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+  "action": "replace the terminal numeric Product ID with the full product code from column A",
+  "targets": [
+    {
+      "sheet": "Batch 1",
+      "ranges": ["C2:C151", "E2:E151"],
+      "populated_product_rows": 150,
+      "requested_boundary": "row 152",
+      "boundary_note": "Row 152 is blank, so it was retained as a separator."
+    },
+    {
+      "sheet": "Batch 2",
+      "ranges": ["C2:C136", "E2:E136"],
+      "populated_product_rows": 135
+    }
+  ],
+  "format": "Product ID: <full column-A product code>",
+  "examples": [
+    "m-shirts-50019-21293-natural",
+    "l-tshirt-17724-21552-lavender"
+  ]
+}
