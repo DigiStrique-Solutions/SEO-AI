@@ -1,0 +1,22 @@
+{
+  "run_id": "20260923-sheet2-remove-product-codes",
+  "captured_at": "2026-09-23T15:34:45+05:30",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "spreadsheet_title": "New Active list products",
+  "target_range": "Sheet2!B2:B395",
+  "sheet2_gid": 2039213223,
+  "records_checked": 394,
+  "descriptions_changed": 151,
+  "remaining_style_or_product_id_phrases": 0,
+  "remaining_numeric_product_codes": 0,
+  "suspicious_punctuation_joins": 0,
+  "formatting_check": "pass",
+  "connector_verification": "pass",
+  "authenticity_gate": {
+    "local_ai_pattern_risk_score": 16.88,
+    "threshold": "<20",
+    "status": "pass",
+    "zerogpt": "local_fallback_due_to_insufficient_credits"
+  }
+}
+
