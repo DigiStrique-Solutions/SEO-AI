@@ -1,0 +1,10 @@
+{
+  "run_id": "20260923-mens-shoes-content",
+  "target": {"url": "https://offlimits.co.in/collections/mens-shoes", "status": 200, "canonical": "https://offlimits.co.in/collections/mens-shoes", "h1": "MEN'S FOOTWEAR COLLECTION", "visible_collection_description": false},
+  "serp": {"query": "men's shoes online India", "market": "India", "reviewed": [
+    {"brand": "Myntra", "url": "https://www.myntra.com/mens-shoes", "tone": "catalogue-led", "length": "no meaningful editorial description above grid", "structure": "H1, large category and attribute filters, product grid"},
+    {"brand": "Foot Locker India", "url": "https://www.footlocker.co.in/men/footwear/c/6857", "tone": "minimal and product-led", "length": "no meaningful editorial description above grid", "structure": "H1, product count, grid, sort and filters"},
+    {"brand": "Zoom Shoes", "url": "https://www.zoomshoes.in/collections/men", "tone": "range-led with product benefits", "length": "about 50 words before grid", "structure": "H1, introductory paragraph, filters, product grid"}
+  ], "application": "Use a concise original introduction, then accessible decision guidance after the grid. Do not use unsupported price, rating or category-performance claims."},
+  "internal_links": ["https://offlimits.co.in/collections/mens-running-gym-shoes", "https://offlimits.co.in/collections/mens-sneakers", "https://offlimits.co.in/products/gladiator-off-white-orm-661-02", "https://offlimits.co.in/collections/men-walking", "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes", "https://offlimits.co.in/collections/men-joggers-track-pants", "https://offlimits.co.in/collections/big-tall", "https://offlimits.co.in/collections/men-new-releases", "https://offlimits.co.in/collections/mens-bestsellers"]
+}

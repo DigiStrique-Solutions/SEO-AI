@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "claim": "The linked OFFLIMITS collection is named ‘BEST SELLING MEN'S SHOES & ATHLEISURE’; the draft uses ‘best sellers’ solely as that collection’s label.",
+      "claim_type": "best_top",
+      "source_ids": [
+        "internal"
+      ]
+    },
+    {
+      "claim": "The target is an active broad men\u2019s footwear collection with sport-inspired, sneaker and everyday product styles.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "Gladiator Off White product details list a lace-up closure, Phylon/TPR sole and memory-foam insock.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "gladiator"
+      ]
+    },
+    {
+      "claim": "Big & Tall carries selected items in UK sizes 12, 13 and 14.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal"
+      ]
+    },
+    {
+      "claim": "Fit and category guidance is editorial advice, organised around customer need.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-23T13:38:31+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.49,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-23T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/mens-shoes"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Live rendered check: HTTP 200, self-canonical, H1 \u2018MEN'S FOOTWEAR COLLECTION\u2019, broad product grid and no visible collection description.",
+      "source_id": "target",
+      "source_ref": "https://offlimits.co.in/collections/mens-shoes",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page lists lace-up closure, Phylon/TPR sole and memory-foam insock, and positions the shoe for running, gym sessions and active days.",
+      "source_id": "gladiator",
+      "source_ref": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "The nine internal destinations in the handoff returned HTTP 200 and matched canonical URLs. Big & Tall includes UK size filters 12, 13 and 14.",
+      "source_id": "internal",
+      "source_ref": "Rendered HTTP 200 and canonical checks on 2026-09-23",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand. Copy must be customer-need-led and use verified product facts.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant organic category results observed included Myntra, Foot Locker India and Zoom Shoes. This is a search snapshot, not a ranking guarantee.",
+      "source_id": "serp",
+      "source_ref": "Google India query \u2018men's shoes online India\u2019 on 2026-09-23",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Live review: Myntra uses a large filter-led catalogue; Foot Locker leads with a compact H1 and grid; Zoom has a roughly 50-word range-and-use-case introduction before filters. OFFLIMITS should use original practical guidance without copying their language or layout.",
+      "source_id": "competitors",
+      "source_ref": "https://www.myntra.com/mens-shoes; https://www.footlocker.co.in/men/footwear/c/6857; https://www.zoomshoes.in/collections/men",
+      "source_type": "competitor_page"
+    }
+  ]
+}

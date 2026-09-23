@@ -1,0 +1,24 @@
+{
+  "run_id": "20260923-mens-shoes-content",
+  "target_url": "https://offlimits.co.in/collections/mens-shoes",
+  "primary_topic": "Men’s footwear",
+  "secondary_topics": ["men’s shoes online", "men’s sneakers", "men’s running and gym shoes", "men’s walking shoes"],
+  "intent": "Commercial browsing: compare men’s footwear by activity, fit and product details.",
+  "title": "Men’s Footwear: Sports Shoes & Sneakers | OFFLIMITS",
+  "meta_description": "Shop OFFLIMITS men’s footwear, from sneakers and running shoes to gym and walking styles. Compare shoes for movement, fit and everyday wear.",
+  "h1": "Men’s Footwear Collection",
+  "intro_placement": "Display the opening two paragraphs below the existing H1. Do not add a second H1.",
+  "read_more_placement": "Place the H2 sections after the product grid behind an accessible Read More / Read Less control.",
+  "internal_links": [
+    {"anchor": "men’s running and gym shoes", "url": "https://offlimits.co.in/collections/mens-running-gym-shoes"},
+    {"anchor": "men’s sneakers", "url": "https://offlimits.co.in/collections/mens-sneakers"},
+    {"anchor": "Gladiator Off White men’s sneakers", "url": "https://offlimits.co.in/products/gladiator-off-white-orm-661-02"},
+    {"anchor": "men’s walking shoes", "url": "https://offlimits.co.in/collections/men-walking"},
+    {"anchor": "running versus gym shoes guide", "url": "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes"},
+    {"anchor": "men’s joggers and track pants", "url": "https://offlimits.co.in/collections/men-joggers-track-pants"},
+    {"anchor": "Big & Tall sportswear for men", "url": "https://offlimits.co.in/collections/big-tall"},
+    {"anchor": "men’s new arrivals", "url": "https://offlimits.co.in/collections/men-new-releases"},
+    {"anchor": "men’s best sellers collection", "url": "https://offlimits.co.in/collections/mens-bestsellers"}
+  ],
+  "publishing_status": "Unpublished review draft."
+}
