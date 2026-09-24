@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-24",
+  "provider": "Firecrawl",
+  "requests": [
+    {
+      "row": 12,
+      "url": "https://cottonworld.net/products/l-blouse-17191-21556-brown",
+      "returned_page_title": "Cottonworld: Natural Cotton & Linen Clothes for Men & Women in India",
+      "observation": "Homepage content, no source product details"
+    },
+    {
+      "row": 13,
+      "url": "https://cottonworld.net/products/l-blouse-17191-21556-green",
+      "returned_page_title": "Cottonworld: Natural Cotton & Linen Clothes for Men & Women in India",
+      "observation": "Homepage content, no source product details"
+    },
+    {
+      "row": 14,
+      "url": "https://cottonworld.net/products/l-blouse-17211-21556-lilac",
+      "returned_page_title": "Cottonworld: Natural Cotton & Linen Clothes for Men & Women in India",
+      "observation": "Homepage content, no source product details"
+    },
+    {
+      "row": 184,
+      "url": "https://cottonworld.net/products/l-tshirt-17427-21617-white",
+      "returned_page_title": "Buy Women's 100% Organic Cotton Casual Regular Fit Tshirt|Cottonworld",
+      "extracted_product": {
+        "product_name": "Women's White 100% Organic Cotton Regular Fit Tshirt",
+        "occasion": "CASUAL",
+        "print": "SOLID",
+        "fabric": "100% ORGANIC COTTON",
+        "fit_type": "REGULAR FIT",
+        "pocket": "NO POCKETS",
+        "neck_collar": "ROUND NECK",
+        "sleeve": "SHORT SLEEVE",
+        "opening": "PULL ON",
+        "hemline": "STRAIGHT HEM"
+      }
+    }
+  ]
+}
+

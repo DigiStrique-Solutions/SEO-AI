@@ -1,0 +1,3109 @@
+{
+  "captured_at": "2026-09-24",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "sheet_name": "Boltworks sheet",
+  "source_range": "A1:G395",
+  "source_values": [
+    [
+      "Product URL",
+      "Updated Product URLs",
+      "Meta Title",
+      "Meta Description",
+      "Duplicate Found",
+      "URL vs Title Discrepancy"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-11180-21556-pink",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "Women’s Linen Regular Fit Blouse Pink – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse pink through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (2 & 43)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-11440-21770-black",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-black",
+      "Women’s Linen Cotton Regular Fit Blouse Black | Cottonworld",
+      "Explore Cottonworld’s women’s linen cotton regular fit blouse black for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-11440-21770-khaki",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-khaki",
+      "Women’s Linen Cotton Regular Fit Blouse Khaki | Cottonworld",
+      "Choose Cottonworld’s women’s linen cotton regular fit blouse khaki for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-11440-21770-peach",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-peach",
+      "Women’s Linen Cotton Regular Fit Blouse Peach | Cottonworld",
+      "Bring Cottonworld’s women’s linen cotton regular fit blouse peach into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-11440-21770-pink",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-pink",
+      "Women’s Linen Cotton Regular Fit Blouse Pink – Everyday | Cottonworld",
+      "Choose Cottonworld’s women’s linen cotton regular fit blouse pink for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (6 & 11)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-16403-21613-white",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white",
+      "Women’s Linen Regular Fit Blouse White – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit blouse white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (7, 22 & 55)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-16831-21556-maroon",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-maroon",
+      "Women’s Linen Regular Fit Blouse Maroon | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse maroon for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-16831-21556-mustard",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mustard",
+      "Women’s Linen Regular Fit Blouse Mustard – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse mustard for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (9 & 47)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17011-21693-blue",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue",
+      "Women’s Cotton Regular Fit Blouse Blue – Everyday | Cottonworld",
+      "Choose Cottonworld’s women’s cotton regular fit blouse blue for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (10 & 49)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17012-21687-pink",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-pink",
+      "Women’s Linen Cotton Regular Fit Blouse Pink – Workday | Cottonworld",
+      "Shop the women’s linen cotton regular fit blouse pink from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (6 & 11)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17191-21556-brown",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-brown",
+      "Women’s Linen Boxy Fit Blouse Brown – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit blouse brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (12 & 73)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17191-21556-green",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+      "Women’s Linen Boxy Fit Blouse Green – Everyday | Cottonworld",
+      "Choose Cottonworld’s women’s linen boxy fit blouse green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (13, 31 & 74)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17211-21556-lilac",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lilac",
+      "Women’s Linen Regular Fit Blouse Lilac – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit blouse lilac into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (14 & 21)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17211-21556-sky",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-sky",
+      "Women’s Linen Regular Fit Blouse Sky | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse sky through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17211-21556-yellow",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-yellow",
+      "Women’s Linen Regular Fit Blouse Yellow | Cottonworld",
+      "Add Cottonworld’s women’s linen regular fit blouse yellow to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17230-21730-rust",
+      "https://cottonworld.net/products/womens-tencel-linen-regular-fit-blouse-rust",
+      "Women’s Tencel Linen Regular Fit Blouse Rust | Cottonworld",
+      "Explore Cottonworld’s women’s tencel linen regular fit blouse rust for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17264-21513-maroon",
+      "https://cottonworld.net/products/womens-cotton-lycra-boxy-fit-blouse-maroon",
+      "Women’s Cotton Lycra Boxy Fit Blouse Maroon | Cottonworld",
+      "Wear Cottonworld’s women’s cotton lycra boxy fit blouse maroon through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17305-21639-red",
+      "https://cottonworld.net/products/womens-modal-viscose-relax-fit-blouse-red",
+      "Women’s Modal Viscose Relax Fit Blouse Red | Cottonworld",
+      "Wear Cottonworld’s women’s modal viscose relax fit blouse red through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17328-21687-brown",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-brown",
+      "Women’s Linen Cotton Regular Fit Blouse Brown | Cottonworld",
+      "Choose Cottonworld’s women’s linen cotton regular fit blouse brown for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17375-21556-lilac",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lilac",
+      "Women’s Linen Regular Fit Blouse Lilac – Workday | Cottonworld",
+      "Choose Cottonworld’s women’s linen regular fit blouse lilac for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (14 & 21)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17375-21559-white",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white",
+      "Women’s Linen Regular Fit Blouse White – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse white for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (7, 22 & 55)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17534-21687-green",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-green",
+      "Women’s Linen Cotton Regular Fit Blouse Green | Cottonworld",
+      "Choose Cottonworld’s women’s linen cotton regular fit blouse green for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17539-21197-navy",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-navy",
+      "Women’s Linen Boxy Fit Blouse Navy | Cottonworld",
+      "Add Cottonworld’s women’s linen boxy fit blouse navy to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17541-21639-red",
+      "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-red",
+      "Women’s Modal Viscose Regular Fit Blouse Red – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s modal viscose regular fit blouse red for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (25 & 70)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17592-21780-offwhite",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "Women’s Linen Boxy Fit Blouse Off White – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse off white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (26, 78 & 79)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17592-21781-beige",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+      "Women’s Linen Boxy Fit Blouse Beige – Everyday | Cottonworld",
+      "Shop the women’s linen boxy fit blouse beige from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (27, 28 & 77)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17592-21782-beige",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+      "Women’s Linen Boxy Fit Blouse Beige – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit blouse beige into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (27, 28 & 77)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17691-21616-coral",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-coral",
+      "Women’s Linen Boxy Fit Blouse Coral – Everyday | Cottonworld",
+      "Choose Cottonworld’s women’s linen boxy fit blouse coral for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (29 & 72)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17691-21685-black",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-black",
+      "Women’s Linen Boxy Fit Blouse Black | Cottonworld",
+      "Add Cottonworld’s women’s linen boxy fit blouse black to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17691-21688-green",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+      "Women’s Linen Boxy Fit Blouse Green – Workday | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse green through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (13, 31 & 74)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17692-21616-coral",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-coral",
+      "Women’s Linen Regular Fit Blouse Coral | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit blouse coral into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17692-21685-black",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-black",
+      "Women’s Linen Regular Fit Blouse Black | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse black for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17692-21688-green",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green",
+      "Women’s Linen Regular Fit Blouse Green – Everyday | Cottonworld",
+      "Add Cottonworld’s women’s linen regular fit blouse green to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (34, 45, 57 & 59)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17700-21632-offwhite",
+      "https://cottonworld.net/products/womens-cotton-polyester-boxy-fit-blouse-off-white",
+      "Women’s Cotton Polyester Boxy Fit Blouse Off White | Cottonworld",
+      "Add Cottonworld’s women’s cotton polyester boxy fit blouse off white to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "URL says \"Cotton Polyster\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17734-21639-red",
+      "https://cottonworld.net/products/womens-modal-viscose-boxy-fit-blouse-red",
+      "Women’s Modal Viscose Boxy Fit Blouse Red | Cottonworld",
+      "Wear Cottonworld’s women’s modal viscose boxy fit blouse red through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17778-21730-rust",
+      "https://cottonworld.net/products/womens-tencel-linen-relax-fit-blouse-rust",
+      "Women’s Tencel Linen Relax Fit Blouse Rust | Cottonworld",
+      "Add Cottonworld’s women’s tencel linen relax fit blouse rust to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17812-21632-offwhite",
+      "https://cottonworld.net/products/womens-cotton-polyester-regular-fit-blouse-off-white",
+      "Women’s Cotton Polyester Regular Fit Blouse Off White | Cottonworld",
+      "Choose Cottonworld’s women’s cotton polyester regular fit blouse off white for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "URL says \"Cotton Polyster\" but Title says \"Cotton\" and \"Fit type\" is missing"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17839-21603-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white",
+      "Women’s Cotton Regular Fit Blouse Off White – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit blouse off white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (39 & 68)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17853-21556-rose",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-rose",
+      "Women’s Linen Boxy Fit Blouse Rose | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse rose through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17853-21558-blue",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-blue",
+      "Women’s Linen Boxy Fit Blouse Blue | Cottonworld",
+      "Choose Cottonworld’s women’s linen boxy fit blouse blue for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17853-21559-white",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-white",
+      "Women’s Linen Boxy Fit Blouse White | Cottonworld",
+      "Choose Cottonworld’s women’s linen boxy fit blouse white for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17854-21556-pink",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "Women’s Linen Regular Fit Blouse Pink – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit blouse pink into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (2 & 43)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17854-21729-brown",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-blouse-brown",
+      "Women’s Viscose Regular Fit Blouse Brown | Cottonworld",
+      "Bring Cottonworld’s women’s viscose regular fit blouse brown into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17855-21556-green",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green",
+      "Women’s Linen Regular Fit Blouse Green – Workday | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse green through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (34, 45, 57 & 59)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17855-21556-rose",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose",
+      "Women’s Linen Regular Fit Blouse Rose – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse rose through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (46 & 48)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17862-21556-mustard",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mustard",
+      "Women’s Linen Regular Fit Blouse Mustard – Workday | Cottonworld",
+      "Shop the women’s linen regular fit blouse mustard from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (9 & 47)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17862-21556-rose",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose",
+      "Women’s Linen Regular Fit Blouse Rose – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit blouse rose into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (46 & 48)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17863-21693-blue",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue",
+      "Women’s Cotton Regular Fit Blouse Blue – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s cotton regular fit blouse blue for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (10 & 49)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17863-21693-yellow",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-yellow",
+      "Women’s Cotton Regular Fit Blouse Yellow | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit blouse yellow into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17863-21754-blue",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-blouse-blue",
+      "Women’s Viscose Regular Fit Blouse Blue | Cottonworld",
+      "Bring Cottonworld’s women’s viscose regular fit blouse blue into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17869-21711-white",
+      "https://cottonworld.net/products/womens-cotton-silk-boxy-fit-blouse-white",
+      "Women’s Cotton Silk Boxy Fit Blouse White | Cottonworld",
+      "Bring Cottonworld’s women’s cotton silk boxy fit blouse white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17869-21815-yellow",
+      "https://cottonworld.net/products/womens-cotton-silk-boxy-fit-blouse-yellow",
+      "Women’s Cotton Silk Boxy Fit Blouse Yellow | Cottonworld",
+      "Bring Cottonworld’s women’s cotton silk boxy fit blouse yellow into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17877-21661-grey",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-grey",
+      "Women’s Cotton Regular Fit Blouse Grey | Cottonworld",
+      "Shop the women’s cotton regular fit blouse grey from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17879-21613-white",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white",
+      "Women’s Linen Regular Fit Blouse White – Weekend | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse white for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (7, 22 & 55)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17879-21686-chambray-blue",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-chambray-blue",
+      "Women’s Linen Regular Fit Blouse Chambray Blue | Cottonworld",
+      "Shop the women’s linen regular fit blouse chambray blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17879-21688-green",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green",
+      "Women’s Linen Regular Fit Blouse Green – Weekend | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse green through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (34, 45, 57 & 59)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17879-21688-red",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-red",
+      "Women’s Linen Regular Fit Blouse Red | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit blouse red through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17882-21557-green",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green",
+      "Women’s Linen Regular Fit Blouse Green – Travel | Cottonworld",
+      "Shop the women’s linen regular fit blouse green from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (34, 45, 57 & 59)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17902-21557-multi",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-multi",
+      "Women’s Linen Boxy Fit Blouse Multi – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit blouse multi into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (60 & 75)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17909-21775-orange",
+      "https://cottonworld.net/products/womens-linen-relax-fit-blouse-orange",
+      "Women’s Linen Relax Fit Blouse Orange | Cottonworld",
+      "Explore Cottonworld’s women’s linen relax fit blouse orange for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17909-21775-pink",
+      "https://cottonworld.net/products/womens-linen-relax-fit-blouse-pink",
+      "Women’s Linen Relax Fit Blouse Pink | Cottonworld",
+      "Wear Cottonworld’s women’s linen relax fit blouse pink through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17909-21776-sage",
+      "https://cottonworld.net/products/womens-linen-relax-fit-blouse-sage",
+      "Women’s Linen Relax Fit Blouse Sage | Cottonworld",
+      "Shop the women’s linen relax fit blouse sage from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17910-21754-beige",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-blouse-beige",
+      "Women’s Viscose Regular Fit Blouse Beige | Cottonworld",
+      "Shop the women’s viscose regular fit blouse beige from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17913-21755-multi",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-multi",
+      "Women’s Cotton Regular Fit Blouse Multi | Cottonworld",
+      "Explore Cottonworld’s women’s cotton regular fit blouse multi for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17919-21778-denim",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-denim",
+      "Women’s Cotton Regular Fit Blouse Denim | Cottonworld",
+      "Add Cottonworld’s women’s cotton regular fit blouse denim to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17925-21513-maroon",
+      "https://cottonworld.net/products/womens-linen-a-line-blouse-maroon",
+      "Women’s Linen A Line Blouse Maroon | Cottonworld",
+      "Explore Cottonworld’s women’s linen a line blouse maroon for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17926-21603-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white",
+      "Women’s Cotton Regular Fit Blouse Off White – Workday | Cottonworld",
+      "Add Cottonworld’s women’s cotton regular fit blouse off white to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (39 & 68)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17930-21557-multi",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-multi",
+      "Women’s Linen Regular Fit Blouse Multi | Cottonworld",
+      "Shop the women’s linen regular fit blouse multi from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17930-21639-red",
+      "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-red",
+      "Women’s Modal Viscose Regular Fit Blouse Red – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s modal viscose regular fit blouse red for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (25 & 70)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17930-21756-pink",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-pink",
+      "Women’s Cotton Regular Fit Blouse Pink | Cottonworld",
+      "Choose Cottonworld’s women’s cotton regular fit blouse pink for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17943-21556-coral",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-coral",
+      "Women’s Linen Boxy Fit Blouse Coral – Workday | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse coral through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (29 & 72)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17943-21557-brown",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-brown",
+      "Women’s Linen Boxy Fit Blouse Brown – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit blouse brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (12 & 73)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17943-21557-green",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+      "Women’s Linen Boxy Fit Blouse Green – Weekend | Cottonworld",
+      "Choose Cottonworld’s women’s linen boxy fit blouse green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (13, 31 & 74)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17944-21557-multi",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-multi",
+      "Women’s Linen Boxy Fit Blouse Multi – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit blouse multi into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (60 & 75)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-peach",
+      "Women’s Cotton Regular Fit Blouse Peach | Cottonworld",
+      "Add Cottonworld’s women’s cotton regular fit blouse peach to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17952-21780-beige",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+      "Women’s Linen Boxy Fit Blouse Beige – Weekend | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse beige through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (27, 28 & 77)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17952-21781-offwhite",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "Women’s Linen Boxy Fit Blouse Off White – Workday | Cottonworld",
+      "Add Cottonworld’s women’s linen boxy fit blouse off white to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (26, 78 & 79)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17952-21782-offwhite",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "Women’s Linen Boxy Fit Blouse Off White – Weekend | Cottonworld",
+      "Wear Cottonworld’s women’s linen boxy fit blouse off white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (26, 78 & 79)"
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17973-21824-beige",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-beige",
+      "Women’s Linen Regular Fit Blouse Beige | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit blouse beige for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-17973-21824-light-blue",
+      "https://cottonworld.net/products/womens-linen-regular-fit-blouse-light-blue",
+      "Women’s Linen Regular Fit Blouse Light Blue | Cottonworld",
+      "Shop the women’s linen regular fit blouse light blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-18007-21824-offwhite",
+      "https://cottonworld.net/products/womens-linen-relax-fit-blouse-off-white",
+      "Women’s Linen Relax Fit Blouse Off White | Cottonworld",
+      "Add Cottonworld’s women’s linen relax fit blouse off white to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-blouse-18046-21711-white",
+      "https://cottonworld.net/products/womens-cotton-silk-regular-fit-blouse-white",
+      "Women’s Cotton Silk Regular Fit Blouse White | Cottonworld",
+      "Bring Cottonworld’s women’s cotton silk regular fit blouse white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21722-beige",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-beige",
+      "Women’s Cotton Lycra Regular Fit Culotte Beige – Everyday | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra regular fit culotte beige to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (84 & 86)"
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21722-black",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-black",
+      "Women’s Cotton Lycra Regular Fit Culotte Black – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s cotton lycra regular fit culotte black through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (85 & 87)"
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21861-beige",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-beige",
+      "Women’s Cotton Lycra Regular Fit Culotte Beige – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s cotton lycra regular fit culotte beige for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (84 & 86)"
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21861-black",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-black",
+      "Women’s Cotton Lycra Regular Fit Culotte Black – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s cotton lycra regular fit culotte black into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (85 & 87)"
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21861-brown",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-brown",
+      "Women’s Cotton Lycra Regular Fit Culotte Brown | Cottonworld",
+      "Choose Cottonworld’s women’s cotton lycra regular fit culotte brown for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-16778-21861-olive",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-olive",
+      "Women’s Cotton Lycra Regular Fit Culotte Olive | Cottonworld",
+      "Wear Cottonworld’s women’s cotton lycra regular fit culotte olive through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-17779-21513-maroon",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-maroon",
+      "Women’s Cotton Lycra Regular Fit Culotte Maroon | Cottonworld",
+      "Shop the women’s cotton lycra regular fit culotte maroon from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-17779-21655-brown",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-brown",
+      "Women’s Cotton Regular Fit Culotte Brown | Cottonworld",
+      "Explore Cottonworld’s women’s cotton regular fit culotte brown for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-culotte-17829-21656-denim",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-denim",
+      "Women’s Cotton Regular Fit Culotte Denim | Cottonworld",
+      "Wear Cottonworld’s women’s cotton regular fit culotte denim through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-14572-21663-lt-green",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-dress-light-green",
+      "Women’s Cotton Regular Fit Dress Light Green | Cottonworld",
+      "Explore Cottonworld’s women’s light green cotton regular fit dress for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17347-21660-multi",
+      "https://cottonworld.net/products/womens-modal-viscose-boxy-fit-dress-multi",
+      "Women’s Modal Viscose Boxy Fit Dress Multi | Cottonworld",
+      "Choose Cottonworld’s women’s modal viscose boxy fit dress multi for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17586-21512-off-white-win",
+      "https://cottonworld.net/products/womens-cotton-lycra-boxy-fit-dress-off-white-wine",
+      "Women’s Cotton Lycra Boxy Fit Dress Off White Wine | Cottonworld",
+      "Choose Cottonworld’s women’s off white wine cotton lycra boxy fit dress for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17589-21636-natural",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-dress-natural",
+      "Women’s Linen Cotton Regular Fit Dress Natural | Cottonworld",
+      "Explore Cottonworld’s women’s linen cotton regular fit dress natural for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17665-21603-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-dress-off-white",
+      "Women’s Cotton Regular Fit Dress Off White | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit dress off white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17683-21643-mustard",
+      "https://cottonworld.net/products/womens-modal-viscose-boxy-fit-dress-mustard",
+      "Women’s Modal Viscose Boxy Fit Dress Mustard | Cottonworld",
+      "Wear Cottonworld’s women’s modal viscose boxy fit dress mustard through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17786-21694-sage",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-dress-sage",
+      "Women’s Linen Viscose Regular Fit Dress Sage | Cottonworld",
+      "Explore Cottonworld’s women’s linen viscose regular fit dress sage for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17825-21603-brown",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-dress-brown",
+      "Women’s Cotton Regular Fit Dress Brown | Cottonworld",
+      "Explore Cottonworld’s women’s cotton regular fit dress brown for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17847-21714-blue",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-blue",
+      "Women’s Cotton Lycra Regular Fit Dress Blue | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra regular fit dress blue to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17858-21730-rust",
+      "https://cottonworld.net/products/womens-linen-viscose-relax-fit-dress-rust",
+      "Women’s Linen Viscose Relax Fit Dress Rust | Cottonworld",
+      "Choose Cottonworld’s women’s linen viscose relax fit dress rust for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17859-21656-denim",
+      "https://cottonworld.net/products/womens-cotton-boxy-fit-dress-denim",
+      "Women’s Cotton Boxy Fit Dress Denim | Cottonworld",
+      "Wear Cottonworld’s women’s cotton boxy fit dress denim through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17860-21512-wine",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-wine",
+      "Women’s Cotton Lycra Regular Fit Dress Wine | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra regular fit dress wine to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17860-21714-grey",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-grey",
+      "Women’s Cotton Lycra Regular Fit Dress Grey | Cottonworld",
+      "Choose Cottonworld’s women’s cotton lycra regular fit dress grey for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17860-21714-olive",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-olive",
+      "Women’s Cotton Lycra Regular Fit Dress Olive | Cottonworld",
+      "Choose Cottonworld’s women’s cotton lycra regular fit dress olive for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17875-21714-brown",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-brown",
+      "Women’s Cotton Lycra Regular Fit Dress Brown | Cottonworld",
+      "Bring Cottonworld’s women’s cotton lycra regular fit dress brown into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17880-21619-olive",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-dress-olive",
+      "Women’s Linen Cotton Regular Fit Dress Olive | Cottonworld",
+      "Add Cottonworld’s women’s linen cotton regular fit dress olive to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-dress-17894-21658-blue",
+      "https://cottonworld.net/products/womens-cotton-boxy-fit-dress-blue",
+      "Women’s Cotton Boxy Fit Dress Blue | Cottonworld",
+      "Explore Cottonworld’s women’s cotton boxy fit dress blue for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-jacket-17823-21633-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-jacket-off-white",
+      "Women’s Cotton Regular Fit Jacket Off White | Cottonworld",
+      "Wear Cottonworld’s women’s cotton regular fit jacket off white through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-jacket-17841-21621-navy",
+      "https://cottonworld.net/products/womens-cotton-linen-regular-fit-jacket-navy",
+      "Women’s Cotton Linen Regular Fit Jacket Navy | Cottonworld",
+      "Shop the women’s cotton linen regular fit jacket navy from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-jumpsuit-17891-21650-cream",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-jumpsuit-cream",
+      "Women’s Linen Viscose Regular Fit Jumpsuit Cream | Cottonworld",
+      "Add Cottonworld’s women’s linen viscose regular fit jumpsuit cream to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-jumpsuit-17891-21699-navy",
+      "https://cottonworld.net/products/womens-linen-regular-fit-jumpsuit-navy",
+      "Women’s Linen Regular Fit Jumpsuit Navy | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit jumpsuit navy for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-16266-21728-navy",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-knit-dress-navy",
+      "Women’s Cotton Elastane Regular Fit Knit Dress Navy | Cottonworld",
+      "Add Cottonworld’s women’s cotton elastane regular fit knit dress navy to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-16566-21726-wine",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-wine",
+      "Women’s Organic Cotton Regular Fit Knit Dress Wine | Cottonworld",
+      "Shop the women’s organic cotton regular fit knit dress wine from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-17526-21726-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-green",
+      "Women’s Organic Cotton Regular Fit Knit Dress Green | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit knit dress green for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-17546-21728-brick",
+      "https://cottonworld.net/products/womens-cotton-elastane-boxy-fit-knit-dress-brick",
+      "Women’s Cotton Elastane Boxy Fit Knit Dress Brick | Cottonworld",
+      "Explore Cottonworld’s women’s cotton elastane boxy fit knit dress brick for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "URL says \"Cotton Elastane\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-17546-21728-navy",
+      "https://cottonworld.net/products/womens-cotton-elastane-boxy-fit-knit-dress-navy",
+      "Women’s Cotton Elastane Boxy Fit Knit Dress Navy | Cottonworld",
+      "Add Cottonworld’s women’s cotton elastane boxy fit knit dress navy to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "URL says \"Cotton Elastane\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-17757-21727-brick",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-brick",
+      "Women’s Organic Cotton Regular Fit Knit Dress Brick | Cottonworld",
+      "Shop the women’s organic cotton regular fit knit dress brick from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kdress-17873-21727-natural",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-natural",
+      "Women’s Organic Cotton Regular Fit Knit Dress Natural | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit knit dress natural for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-black",
+      "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Black | Cottonworld",
+      "Wear Cottonworld’s women’s cotton bamboo elastane regular fit knit pant black through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kpants-16646-21723-brown",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-brown",
+      "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Brown | Cottonworld",
+      "Shop the women’s cotton bamboo elastane regular fit knit pant brown from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kpants-17946-21724-black",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-knit-pant-black",
+      "Women’s Cotton Elastane Regular Fit Knit Pant Black | Cottonworld",
+      "Choose Cottonworld’s women’s cotton elastane regular fit knit pant black for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kpants-17946-21724-navy",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-knit-pant-navy",
+      "Women’s Cotton Elastane Regular Fit Knit Pant Navy | Cottonworld",
+      "Wear Cottonworld’s women’s cotton elastane regular fit knit pant navy through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      null,
+      "URL says \"Cotton Elastane\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-kurta-17649-21685-black",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-kurta-black",
+      "Women’s Linen Boxy Fit Kurta Black | Cottonworld",
+      "Shop the women’s linen boxy fit kurta black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-kurta-17649-21685-brown",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-kurta-brown",
+      "Women’s Linen Boxy Fit Kurta Brown | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit kurta brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-kurta-17832-21637-natural",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-kurta-natural",
+      "Women’s Linen Viscose Regular Fit Kurta Natural | Cottonworld",
+      "Explore Cottonworld’s women’s linen viscose regular fit kurta natural for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-kurta-17889-21633-offwhite",
+      "https://cottonworld.net/products/womens-cotton-boxy-fit-kurta-off-white",
+      "Women’s Cotton Boxy Fit Kurta Off White | Cottonworld",
+      "Add Cottonworld’s women’s cotton boxy fit kurta off white to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17080-21722-beige",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-beige",
+      "Women’s Cotton Lycra Regular Fit Pant Beige – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s cotton lycra regular fit pant beige for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (129 & 144)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17080-21722-black",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-black",
+      "Women’s Cotton Lycra Regular Fit Pant Black | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra regular fit pant black to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17080-21722-olive",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-olive",
+      "Women’s Cotton Lycra Regular Fit Pant Olive | Cottonworld",
+      "Choose Cottonworld’s women’s cotton lycra regular fit pant olive for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17682-21737-white",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-white",
+      "Women’s Linen Viscose Regular Fit Pant White | Cottonworld",
+      "Add Cottonworld’s women’s linen viscose regular fit pant white to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17682-21737-yellow",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-yellow",
+      "Women’s Linen Viscose Regular Fit Pant Yellow – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s linen viscose regular fit pant yellow through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (133 & 136)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17753-21737-white",
+      "https://cottonworld.net/products/womens-linen-viscose-barrel-leg-pant-white",
+      "Women’s Linen Viscose Barrel Leg Pant White | Cottonworld",
+      "Wear Cottonworld’s women’s linen viscose barrel leg pant white through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17769-21737-sage",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sage",
+      "Women’s Linen Viscose Regular Fit Pant Sage – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen viscose regular fit pant sage into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (135 & 138)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17769-21737-yellow",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-yellow",
+      "Women’s Linen Viscose Regular Fit Pant Yellow – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s linen viscose regular fit pant yellow for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (133 & 136)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17813-21737-beige",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-beige",
+      "Women’s Linen Viscose Regular Fit Pant Beige | Cottonworld",
+      "Bring Cottonworld’s women’s linen viscose regular fit pant beige into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17813-21737-sage",
+      "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sage",
+      "Women’s Linen Viscose Regular Fit Pant Sage – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s linen viscose regular fit pant sage into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (135 & 138)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17826-21824-black",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-black",
+      "Women’s Linen Regular Fit Pant Black – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit pant black into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (139 & 149)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17830-21778-denim",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-pant-denim",
+      "Women’s Cotton Regular Fit Pant Denim | Cottonworld",
+      "Choose Cottonworld’s women’s cotton regular fit pant denim for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17833-21636-natural",
+      "https://cottonworld.net/products/womens-linen-cotton-regular-fit-pant-natural",
+      "Women’s Linen Cotton Regular Fit Pant Natural | Cottonworld",
+      "Choose Cottonworld’s women’s linen cotton regular fit pant natural for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17890-21633-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-pant-off-white",
+      "Women’s Cotton Regular Fit Pant Off White | Cottonworld",
+      "Explore Cottonworld’s women’s cotton regular fit pant off white for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17908-21621-navy",
+      "https://cottonworld.net/products/womens-cotton-linen-regular-fit-pant-navy",
+      "Women’s Cotton Linen Regular Fit Pant Navy | Cottonworld",
+      "Add Cottonworld’s women’s cotton linen regular fit pant navy to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-beige",
+      "Women’s Cotton Lycra Regular Fit Pant Beige – Workday | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra regular fit pant beige to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (129 & 144)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17922-21813-denim-blue",
+      "https://cottonworld.net/products/womens-cotton-straight-fit-pant-denim-blue",
+      "Women’s Cotton Straight Fit Pant Denim Blue | Cottonworld",
+      "Wear Cottonworld’s women’s cotton straight fit pant denim blue through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17934-21824-grey",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-grey",
+      "Women’s Linen Regular Fit Pant Grey – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s linen regular fit pant grey through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (146 & 152)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17934-21824-olive",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-olive",
+      "Women’s Linen Regular Fit Pant Olive | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit pant olive for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17939-21813-denim-blue",
+      "https://cottonworld.net/products/womens-cotton-wide-leg-pant-denim-blue",
+      "Women’s Cotton Wide Leg Pant Denim Blue | Cottonworld",
+      "Wear Cottonworld’s women’s cotton wide leg pant denim blue through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17940-21824-black",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-black",
+      "Women’s Linen Regular Fit Pant Black – Workday | Cottonworld",
+      "Add Cottonworld’s women’s linen regular fit pant black to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (139 & 149)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17941-21820-sage",
+      "https://cottonworld.net/products/womens-cotton-lycra-barrel-leg-pant-sage",
+      "Women’s Cotton Lycra Barrel Leg Pant Sage | Cottonworld",
+      "Add Cottonworld’s women’s cotton lycra barrel leg pant sage to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17972-21824-brown",
+      "https://cottonworld.net/products/womens-linen-barrel-leg-pant-brown",
+      "Women’s Linen Barrel Leg Pant Brown | Cottonworld",
+      "Add Cottonworld’s women’s linen barrel leg pant brown to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17972-21825-grey",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-grey",
+      "Women’s Linen Regular Fit Pant Grey – Workday | Cottonworld",
+      "Choose Cottonworld’s women’s linen regular fit pant grey for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (146 & 152)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17972-21825-rose",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-rose",
+      "Women’s Linen Regular Fit Pant Rose | Cottonworld",
+      "Add Cottonworld’s women’s linen regular fit pant rose to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pants-17972-21827-blue",
+      "https://cottonworld.net/products/womens-linen-regular-fit-pant-blue",
+      "Women’s Linen Regular Fit Pant Blue | Cottonworld",
+      "Bring Cottonworld’s women’s linen regular fit pant blue into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21665-blue",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-blue",
+      "Women’s Viscose Regular Fit Pyjama Blue – Everyday | Cottonworld",
+      "Shop the women’s viscose regular fit pyjama blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (155 & 158)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21665-cream",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-cream",
+      "Women’s Viscose Regular Fit Pyjama Cream | Cottonworld",
+      "Choose Cottonworld’s women’s viscose regular fit pyjama cream for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21665-navy",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-navy",
+      "Women’s Viscose Regular Fit Pyjama Navy | Cottonworld",
+      "Add Cottonworld’s women’s viscose regular fit pyjama navy to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21753-blue",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-blue",
+      "Women’s Viscose Regular Fit Pyjama Blue – Workday | Cottonworld",
+      "Add Cottonworld’s women’s viscose regular fit pyjama blue to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (155 & 158)"
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21753-green",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-green",
+      "Women’s Viscose Regular Fit Pyjama Green | Cottonworld",
+      "Explore Cottonworld’s women’s viscose regular fit pyjama green for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21753-pink",
+      "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-pink",
+      "Women’s Viscose Regular Fit Pyjama Pink | Cottonworld",
+      "Choose Cottonworld’s women’s viscose regular fit pyjama pink for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-pyjama-11960-21839-navy",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-pyjama-navy",
+      "Women’s Cotton Regular Fit Pyjama Navy | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit pyjama navy into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-shorts-17733-21755-multi",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-short-multi",
+      "Women’s Cotton Regular Fit Short Multi | Cottonworld",
+      "Shop the women’s cotton regular fit shorts multi from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-shorts-17733-21756-pink",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-short-pink",
+      "Women’s Cotton Regular Fit Short Pink | Cottonworld",
+      "Choose Cottonworld’s women’s cotton regular fit shorts pink for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-shorts-17733-21824-black",
+      "https://cottonworld.net/products/womens-linen-regular-fit-short-black",
+      "Women’s Linen Regular Fit Short Black | Cottonworld",
+      "Explore Cottonworld’s women’s linen regular fit shorts black for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/l-shorts-17733-21824-coffee",
+      "https://cottonworld.net/products/womens-linen-regular-fit-short-coffee",
+      "Women’s Linen Regular Fit Short Coffee | Cottonworld",
+      "Choose Cottonworld’s women’s linen regular fit shorts coffee for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/l-skirt-17850-21603-offwhite",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-skirt-off-white",
+      "Women’s Cotton Regular Fit Skirt Off White | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit skirt off white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21679-natural",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "Women’s Organic Cotton Regular Fit T-Shirt Natural – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt natural for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (167, 176, 190 & 192)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21682-ecru-melan",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-ecru-melan",
+      "Women’s Cotton Regular Fit T-Shirt Ecru Melan – Everyday | Cottonworld",
+      "Add Cottonworld’s women’s cotton regular fit t-shirt ecru melan to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (168 & 171)"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s organic cotton regular fit t-shirt black through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-blue",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-blue",
+      "Women’s Organic Cotton Regular Fit T-Shirt Blue | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt blue for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-ecru-melan",
+      "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-ecru-melan",
+      "Women’s Cotton Regular Fit T-Shirt Ecru Melan – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s cotton regular fit t-shirt ecru melan into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (168 & 171)"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Green – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s organic cotton regular fit t-shirt green into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (172, 177, 186 & 204)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-rust",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-rust",
+      "Women’s Organic Cotton Regular Fit T-Shirt Rust | Cottonworld",
+      "Add Cottonworld’s women’s organic cotton regular fit t-shirt rust to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-white",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "Women’s Organic Cotton Regular Fit T-Shirt White – Everyday | Cottonworld",
+      "Wear Cottonworld’s women’s organic cotton regular fit t-shirt white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (174, 178, 184, 195 & 212)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-11670-21689-wine",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-wine",
+      "Women’s Organic Cotton Regular Fit T-Shirt Wine – Everyday | Cottonworld",
+      "Bring Cottonworld’s women’s organic cotton regular fit t-shirt wine into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (175 & 191)",
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16727-21678-natural",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "Women’s Organic Cotton Regular Fit T-Shirt Natural – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt natural for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (167, 176, 190 & 192)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Green – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt green for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (172, 177, 186 & 204)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16727-21683-white",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "Women’s Organic Cotton Regular Fit T-Shirt White – Workday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt white for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (174, 178, 184, 195 & 212)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16752-21723-blue",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-relax-fit-tshirt-blue",
+      "Women’s Cotton Bamboo Elastane Relax Fit T-Shirt Blue | Cottonworld",
+      "Explore Cottonworld’s women’s cotton bamboo elastane relax fit t-shirt blue for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16752-21723-green",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-relax-fit-tshirt-green",
+      "Women’s Cotton Bamboo Elastane Relax Fit T-Shirt Green | Cottonworld",
+      "Shop the women’s cotton bamboo elastane relax fit t-shirt green from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16752-21723-natural",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-relax-fit-tshirt-natural",
+      "Women’s Cotton Bamboo Elastane Relax Fit T-Shirt Natural | Cottonworld",
+      "Choose Cottonworld’s women’s cotton bamboo elastane relax fit t-shirt natural for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16752-21723-pink",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-relax-fit-tshirt-pink",
+      "Women’s Cotton Bamboo Elastane Relax Fit T-Shirt Pink | Cottonworld",
+      "Bring Cottonworld’s women’s cotton bamboo elastane relax fit t-shirt pink into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-16752-21723-violet",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-relax-fit-tshirt-violet",
+      "Women’s Cotton Bamboo Elastane Relax Fit T-Shirt Violet | Cottonworld",
+      "Add Cottonworld’s women’s cotton bamboo elastane relax fit t-shirt violet to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21617-white",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "Women’s Organic Cotton Regular Fit T-Shirt White – Weekend | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt white for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (174, 178, 184, 195 & 212)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21628-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Workday | Cottonworld",
+      "Add Cottonworld’s women’s organic cotton regular fit t-shirt black to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21628-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Green – Weekend | Cottonworld",
+      "Shop the women’s organic cotton regular fit t-shirt green from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (172, 177, 186 & 204)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21725-brown",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+      "Women’s Organic Cotton Regular Fit T-Shirt Brown – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt brown for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (187, 200 & 202)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21725-dk-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Dark Green – Everyday | Cottonworld",
+      "Add Cottonworld’s women’s organic cotton regular fit t-shirt dk green to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (188 & 201)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21725-lavender",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-lavender",
+      "Women’s Organic Cotton Regular Fit T-Shirt Lavender | Cottonworld",
+      "Add Cottonworld’s women’s organic cotton regular fit t-shirt lavender to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21725-natural",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "Women’s Organic Cotton Regular Fit T-Shirt Natural – Weekend | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt natural for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (167, 176, 190 & 192)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21725-wine",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-wine",
+      "Women’s Organic Cotton Regular Fit T-Shirt Wine – Workday | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt wine for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (175 & 191)",
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21789-natural",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "Women’s Organic Cotton Regular Fit T-Shirt Natural – Travel | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt natural for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (167, 176, 190 & 192)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-olive",
+      "Women’s Organic Cotton Regular Fit T-Shirt Dark Olive | Cottonworld",
+      "Shop the women’s organic cotton regular fit t-shirt dk olive from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21791-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Weekend | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt black for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21794-white",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "Women’s Organic Cotton Regular Fit T-Shirt White – Travel | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt white for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (174, 178, 184, 195 & 212)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21840-navy",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-navy",
+      "Women’s Organic Cotton Regular Fit T-Shirt Navy | Cottonworld",
+      "Bring Cottonworld’s women’s organic cotton regular fit t-shirt navy into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21842-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Travel | Cottonworld",
+      "Add Cottonworld’s women’s organic cotton regular fit t-shirt black to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17427-21843-red",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-red",
+      "Women’s Organic Cotton Regular Fit T-Shirt Red – Everyday | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt red for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (198 & 205)"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17428-21725-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Relaxed | Cottonworld",
+      "Bring Cottonworld’s women’s organic cotton regular fit t-shirt black into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17428-21725-brown",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+      "Women’s Organic Cotton Regular Fit T-Shirt Brown – Workday | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt brown for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (187, 200 & 202)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17428-21725-dk-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Dark Green – Workday | Cottonworld",
+      "Bring Cottonworld’s women’s organic cotton regular fit t-shirt dk green into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (188 & 201)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17523-21765-brown",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+      "Women’s Organic Cotton Regular Fit T-Shirt Brown – Weekend | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt brown for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (187, 200 & 202)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17523-21765-pink",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-pink",
+      "Women’s Organic Cotton Regular Fit T-Shirt Pink | Cottonworld",
+      "Choose Cottonworld’s women’s organic cotton regular fit t-shirt pink for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17553-21628-green",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "Women’s Organic Cotton Regular Fit T-Shirt Green – Travel | Cottonworld",
+      "Shop the women’s organic cotton regular fit t-shirt green from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (172, 177, 186 & 204)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17553-21628-red",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-red",
+      "Women’s Organic Cotton Regular Fit T-Shirt Red – Workday | Cottonworld",
+      "Shop the women’s organic cotton regular fit t-shirt red from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (198 & 205)"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17721-21618-grey",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-grey",
+      "Women’s Cotton Elastane Regular Fit T-Shirt Grey | Cottonworld",
+      "Choose Cottonworld’s women’s cotton elastane regular fit t-shirt grey for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "URL says \"Cotton Elastane\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21723-brown",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-brown",
+      "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown | Cottonworld",
+      "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt brown for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21723-green",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-green",
+      "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Green | Cottonworld",
+      "Add Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt green to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21723-lavender",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+      "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender | Cottonworld",
+      "Shop the women’s cotton bamboo elastane regular fit t-shirt lavender from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\" and \"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21723-rust",
+      "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+      "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust | Cottonworld",
+      "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt rust for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21792-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Versatile | Cottonworld",
+      "Shop the women’s organic cotton regular fit t-shirt black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17724-21793-white",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "Women’s Organic Cotton Regular Fit T-Shirt White – Relaxed | Cottonworld",
+      "Explore Cottonworld’s women’s organic cotton regular fit t-shirt white for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (174, 178, 184, 195 & 212)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17772-21750-natural",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-natural",
+      "Women’s Cotton Elastane Regular Fit T-Shirt Natural | Cottonworld",
+      "Wear Cottonworld’s women’s cotton elastane regular fit t-shirt natural through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17772-21750-wine",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-wine",
+      "Women’s Cotton Elastane Regular Fit T-Shirt Wine | Cottonworld",
+      "Bring Cottonworld’s women’s cotton elastane regular fit t-shirt wine into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      null,
+      "URL says \"Cotton Elastane\" but Title says \"Cotton\""
+    ],
+    [
+      "https://cottonworld.net/products/l-tshirt-17780-21630-black",
+      "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "Women’s Organic Cotton Regular Fit T-Shirt Black – Comfort | Cottonworld",
+      "Wear Cottonworld’s women’s organic cotton regular fit t-shirt black through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (169, 185, 194, 197, 199, 211 & 215)",
+      "Also title include term like \"Shop\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/l-waistcoat-17574-21344-olive",
+      "https://cottonworld.net/products/womens-linen-boxy-fit-waistcoat-olive",
+      "Women’s Linen Boxy Fit Waistcoat Olive | Cottonworld",
+      "Bring Cottonworld’s women’s linen boxy fit waistcoat olive into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-kvest-17630-21723-grey",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-knit-vest-grey",
+      "Men’s Cotton Bamboo Elastane Regular Fit Knit Vest Grey | Cottonworld",
+      "Choose Cottonworld’s men’s cotton bamboo elastane regular fit knit vest grey for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-kvest-17630-21723-lavender",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-knit-vest-lavender",
+      "Men’s Cotton Bamboo Elastane Regular Fit Knit Vest Lavender | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit knit vest lavender to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "URL says \"Cotton Bamboo Elastane\" but Title says \"Cotton Bamboo\" and \"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-kvest-17632-21727-black",
+      "https://cottonworld.net/products/mens-organic-cotton-relax-fit-knit-vest-black",
+      "Men’s Organic Cotton Relax Fit Knit Vest Black | Cottonworld",
+      "Shop the men’s organic cotton relax fit knit vest black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-kvest-17632-21727-natural",
+      "https://cottonworld.net/products/mens-organic-cotton-relax-fit-knit-vest-natural",
+      "Men’s Organic Cotton Relax Fit Knit Vest Natural | Cottonworld",
+      "Shop the men’s organic cotton relax fit knit vest natural from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21487-olive",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive",
+      "Men’s Linen Regular Fit Pant Olive – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s linen regular fit pant olive through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (221, 246 & 249)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21751-beige",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-beige",
+      "Men’s Cotton Lycra Regular Fit Pant Beige | Cottonworld",
+      "Add Cottonworld’s men’s cotton lycra regular fit pant beige to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21751-dark-grey",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-dark-grey",
+      "Men’s Cotton Lycra Regular Fit Pant Dark Grey | Cottonworld",
+      "Shop the men’s cotton lycra regular fit pant dark grey from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21751-green",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-green",
+      "Men’s Cotton Lycra Regular Fit Pant Green | Cottonworld",
+      "Bring Cottonworld’s men’s cotton lycra regular fit pant green into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21751-khaki",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-khaki",
+      "Men’s Cotton Lycra Regular Fit Pant Khaki | Cottonworld",
+      "Add Cottonworld’s men’s cotton lycra regular fit pant khaki to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-11743-21751-navy",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-navy",
+      "Men’s Cotton Lycra Regular Fit Pant Navy | Cottonworld",
+      "Shop the men’s cotton lycra regular fit pant navy from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-13485-21772-blue",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-blue",
+      "Men’s Cotton Linen Regular Fit Pant Blue | Cottonworld",
+      "Shop the men’s cotton linen regular fit pant blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-13485-21772-green",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-green",
+      "Men’s Cotton Linen Regular Fit Pant Green | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit pant green into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-13485-21772-natural",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-natural",
+      "Men’s Cotton Linen Regular Fit Pant Natural | Cottonworld",
+      "Explore Cottonworld’s men’s cotton linen regular fit pant natural for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-13485-21772-white",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-white",
+      "Men’s Cotton Linen Regular Fit Pant White – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s cotton linen regular fit pant white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (230 & 241)"
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-15152-21772-black",
+      "https://cottonworld.net/products/mens-cotton-linen-slim-fit-pant-black",
+      "Men’s Cotton Linen Slim Fit Pant Black | Cottonworld",
+      "Choose Cottonworld’s men’s cotton linen slim fit pant black for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-15152-21772-green",
+      "https://cottonworld.net/products/mens-cotton-linen-slim-fit-pant-green",
+      "Men’s Cotton Linen Slim Fit Pant Green | Cottonworld",
+      "Add Cottonworld’s men’s cotton linen slim fit pant green to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-15152-21772-natural",
+      "https://cottonworld.net/products/mens-cotton-linen-slim-fit-pant-natural",
+      "Men’s Cotton Linen Slim Fit Pant Natural | Cottonworld",
+      "Choose Cottonworld’s men’s cotton linen slim fit pant natural for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16181-21751-beige",
+      "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-beige",
+      "Men’s Cotton Lycra Slim Fit Pant Beige | Cottonworld",
+      "Bring Cottonworld’s men’s cotton lycra slim fit pant beige into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16181-21751-dark-grey",
+      "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-dark-grey",
+      "Men’s Cotton Lycra Slim Fit Pant Dark Grey | Cottonworld",
+      "Explore Cottonworld’s men’s cotton lycra slim fit pant dark grey for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16181-21751-green",
+      "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-green",
+      "Men’s Cotton Lycra Slim Fit Pant Green | Cottonworld",
+      "Add Cottonworld’s men’s cotton lycra slim fit pant green to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16181-21751-khaki",
+      "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-khaki",
+      "Men’s Cotton Lycra Slim Fit Pant Khaki | Cottonworld",
+      "Bring Cottonworld’s men’s cotton lycra slim fit pant khaki into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16181-21751-navy",
+      "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-navy",
+      "Men’s Cotton Lycra Slim Fit Pant Navy | Cottonworld",
+      "Explore Cottonworld’s men’s cotton lycra slim fit pant navy for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16480-21752-grey",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-grey",
+      "Men’s Cotton Linen Regular Fit Pant Grey | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit pant grey into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16480-21752-navy",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-navy",
+      "Men’s Cotton Linen Regular Fit Pant Navy | Cottonworld",
+      "Choose Cottonworld’s men’s cotton linen regular fit pant navy for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-16480-21752-white",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-white",
+      "Men’s Cotton Linen Regular Fit Pant White – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s cotton linen regular fit pant white for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (230 & 241)"
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21603-offwhite",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-pant-off-white",
+      "Men’s Cotton Regular Fit Pant Off White | Cottonworld",
+      "Add Cottonworld’s men’s cotton regular fit pant off white to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21747-beige",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-pant-beige",
+      "Men’s Cotton Regular Fit Pant Beige | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit pant beige through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21748-brown",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-pant-brown",
+      "Men’s Cotton Regular Fit Pant Brown | Cottonworld",
+      "Choose Cottonworld’s men’s cotton regular fit pant brown for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural",
+      "Men’s Linen Regular Fit Pant Natural – Everyday | Cottonworld",
+      "Explore Cottonworld’s men’s linen regular fit pant natural for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (245 & 248)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21773-olive",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive",
+      "Men’s Linen Regular Fit Pant Olive – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s linen regular fit pant olive for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (221, 246 & 249)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-17138-21773-white",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-white",
+      "Men’s Linen Regular Fit Pant White | Cottonworld",
+      "Wear Cottonworld’s men’s linen regular fit pant white through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-18002-21773-natural",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural",
+      "Men’s Linen Regular Fit Pant Natural – Workday | Cottonworld",
+      "Add Cottonworld’s men’s linen regular fit pant natural to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (245 & 248)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-18002-21773-olive",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive",
+      "Men’s Linen Regular Fit Pant Olive – Weekend | Cottonworld",
+      "Shop the men’s linen regular fit pant olive from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (221, 246 & 249)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-pants-18002-21773-slate",
+      "https://cottonworld.net/products/mens-linen-regular-fit-pant-slate",
+      "Men’s Linen Regular Fit Pant Slate | Cottonworld",
+      "Shop the men’s linen regular fit pant slate from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-10521-21784-green",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-green",
+      "Men’s Tencel Linen Regular Fit Shirt Green – Everyday | Cottonworld",
+      "Bring Cottonworld’s men’s tencel linen regular fit shirt green into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (251 & 312)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-10521-21784-yellow",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-yellow",
+      "Men’s Tencel Linen Regular Fit Shirt Yellow | Cottonworld",
+      "Add Cottonworld’s men’s tencel linen regular fit shirt yellow to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-10521-21823-white",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-white",
+      "Men’s Cotton Regular Fit Shirt White | Cottonworld",
+      "Bring Cottonworld’s men’s cotton regular fit shirt white into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21610-black",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black",
+      "Men’s Cotton Regular Fit Shirt Black – Everyday | Cottonworld",
+      "Choose Cottonworld’s men’s cotton regular fit shirt black for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (254 & 255)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21611-black",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black",
+      "Men’s Cotton Regular Fit Shirt Black – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s cotton regular fit shirt black for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (254 & 255)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21611-offwhite",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white",
+      "Men’s Cotton Regular Fit Shirt Off White – Everyday | Cottonworld",
+      "Shop the men’s cotton regular fit shirt off white from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (256, 262 & 286)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21707-green",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-shirt-green",
+      "Men’s Cotton Lycra Regular Fit Shirt Green | Cottonworld",
+      "Bring Cottonworld’s men’s cotton lycra regular fit shirt green into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21707-navy",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-shirt-navy",
+      "Men’s Cotton Lycra Regular Fit Shirt Navy | Cottonworld",
+      "Choose Cottonworld’s men’s cotton lycra regular fit shirt navy for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21713-sand",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sand",
+      "Men’s Cotton Regular Fit Shirt Sand – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit shirt sand through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (259 & 263)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21713-sky",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sky",
+      "Men’s Cotton Regular Fit Shirt Sky – Everyday | Cottonworld",
+      "Add Cottonworld’s men’s cotton regular fit shirt sky to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (260 & 292)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21732-green",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green",
+      "Men’s Cotton Regular Fit Shirt Green – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit shirt green through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (261, 293, 304 & 319)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21732-offwhite",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white",
+      "Men’s Cotton Regular Fit Shirt Off White – Workday | Cottonworld",
+      "Shop the men’s cotton regular fit shirt off white from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (256, 262 & 286)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21732-sand",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sand",
+      "Men’s Cotton Regular Fit Shirt Sand – Workday | Cottonworld",
+      "Shop the men’s cotton regular fit shirt sand from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (259 & 263)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-13484-21806-navy",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy",
+      "Men’s Cotton Regular Fit Shirt Navy – Everyday | Cottonworld",
+      "Choose Cottonworld’s men’s cotton regular fit shirt navy for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (264, 285, 294, 305 & 320)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-16162-21745-natural",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural",
+      "Men’s Linen Regular Fit Shirt Natural – Everyday | Cottonworld",
+      "Explore Cottonworld’s men’s linen regular fit shirt natural for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (265 & 317)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-16563-21654-navy",
+      "https://cottonworld.net/products/mens-cotton-viscose-regular-fit-shirt-navy",
+      "Men’s Cotton Viscose Regular Fit Shirt Navy | Cottonworld",
+      "Choose Cottonworld’s men’s cotton viscose regular fit shirt navy for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-16731-21614-blue",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-blue",
+      "Men’s Linen Cotton Regular Fit Shirt Blue | Cottonworld",
+      "Explore Cottonworld’s men’s linen cotton regular fit shirt blue for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-16731-21614-plum",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-plum",
+      "Men’s Linen Cotton Regular Fit Shirt Plum | Cottonworld",
+      "Bring Cottonworld’s men’s linen cotton regular fit shirt plum into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-16731-21614-white",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white",
+      "Men’s Linen Cotton Regular Fit Shirt White – Everyday | Cottonworld",
+      "Choose Cottonworld’s men’s linen cotton regular fit shirt white for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (269, 271 & 274)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17214-21614-navy",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy",
+      "Men’s Linen Cotton Regular Fit Shirt Navy – Everyday | Cottonworld",
+      "Add Cottonworld’s men’s linen cotton regular fit shirt navy to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (270 & 282)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17214-21614-white",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white",
+      "Men’s Linen Cotton Regular Fit Shirt White – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s linen cotton regular fit shirt white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (269, 271 & 274)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17351-21614-black",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-black",
+      "Men’s Linen Cotton Regular Fit Shirt Black | Cottonworld",
+      "Bring Cottonworld’s men’s linen cotton regular fit shirt black into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-brown",
+      "Men’s Linen Cotton Regular Fit Shirt Brown | Cottonworld",
+      "Choose Cottonworld’s men’s linen cotton regular fit shirt brown for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17351-21614-white",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white",
+      "Men’s Linen Cotton Regular Fit Shirt White – Weekend | Cottonworld",
+      "Bring Cottonworld’s men’s linen cotton regular fit shirt white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (269, 271 & 274)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17489-21833-brown",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-brown",
+      "Men’s Cotton Linen Regular Fit Shirt Brown | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit shirt brown into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17489-21833-khaki",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-khaki",
+      "Men’s Cotton Linen Regular Fit Shirt Khaki | Cottonworld",
+      "Wear Cottonworld’s men’s cotton linen regular fit shirt khaki through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17489-21833-peach",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-shirt-peach",
+      "Men’s Cotton Linen Regular Fit Shirt Peach | Cottonworld",
+      "Add Cottonworld’s men’s cotton linen regular fit shirt peach to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17816-21784-natural",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-natural",
+      "Men’s Tencel Linen Regular Fit Shirt Natural | Cottonworld",
+      "Explore Cottonworld’s men’s tencel linen regular fit shirt natural for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17816-21784-white",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-white",
+      "Men’s Tencel Linen Regular Fit Shirt White | Cottonworld",
+      "Wear Cottonworld’s men’s tencel linen regular fit shirt white through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17818-21784-navy",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-navy",
+      "Men’s Tencel Linen Regular Fit Shirt Navy | Cottonworld",
+      "Choose Cottonworld’s men’s tencel linen regular fit shirt navy for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17818-21784-red",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-red",
+      "Men’s Tencel Linen Regular Fit Shirt Red | Cottonworld",
+      "Bring Cottonworld’s men’s tencel linen regular fit shirt red into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17819-21614-navy",
+      "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy",
+      "Men’s Linen Cotton Regular Fit Shirt Navy – Workday | Cottonworld",
+      "Wear Cottonworld’s men’s linen cotton regular fit shirt navy through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (270 & 282)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17887-21603-brown",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-kurta-shirt-brown",
+      "Men’s Cotton Regular Fit Kurta Shirt Brown | Cottonworld",
+      "Shop the men’s cotton regular fit kurta shirt brown from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17887-21662-brown",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brown",
+      "Men’s Cotton Regular Fit Shirt Brown | Cottonworld",
+      "Explore Cottonworld’s men’s cotton regular fit shirt brown for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17887-21662-navy",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy",
+      "Men’s Cotton Regular Fit Shirt Navy – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton regular fit shirt navy into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (264, 285, 294, 305 & 320)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17906-21633-offwhite",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white",
+      "Men’s Cotton Regular Fit Shirt Off White – Weekend | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit shirt off white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (256, 262 & 286)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-17907-21632-offwhite",
+      "https://cottonworld.net/products/mens-cotton-polyester-loose-fit-shirt-off-white",
+      "Men’s Cotton Polyester Loose Fit Shirt Off White | Cottonworld",
+      "Bring Cottonworld’s men’s cotton polyester loose fit shirt off white into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50006-21738-mint",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-mint",
+      "Men’s Cotton Regular Fit Shirt Mint | Cottonworld",
+      "Bring Cottonworld’s men’s cotton regular fit shirt mint into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50006-21738-pink",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink",
+      "Men’s Cotton Regular Fit Shirt Pink – Everyday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton regular fit shirt pink into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (289 & 298)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50006-21739-lilac",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-lilac",
+      "Men’s Oxford Cotton Regular Fit Shirt Lilac – Everyday | Cottonworld",
+      "Bring Cottonworld’s men’s oxford cotton regular fit shirt lilac into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (290 & 332)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50006-21739-navy",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-navy",
+      "Men’s Oxford Cotton Regular Fit Shirt Navy | Cottonworld",
+      "Choose Cottonworld’s men’s oxford cotton regular fit shirt navy for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50011-21808-sky",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sky",
+      "Men’s Cotton Regular Fit Shirt Sky – Workday | Cottonworld",
+      "Shop the men’s cotton regular fit shirt sky from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (260 & 292)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50011-21809-green",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green",
+      "Men’s Cotton Regular Fit Shirt Green – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s cotton regular fit shirt green for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (261, 293, 304 & 319)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50011-21809-navy",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy",
+      "Men’s Cotton Regular Fit Shirt Navy – Weekend | Cottonworld",
+      "Shop the men’s cotton regular fit shirt navy from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (264, 285, 294, 305 & 320)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50013-21749-khaki",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-khaki",
+      "Men’s Cotton Regular Fit Shirt Khaki | Cottonworld",
+      "Explore Cottonworld’s men’s cotton regular fit shirt khaki for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50013-21749-olive",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-olive",
+      "Men’s Cotton Regular Fit Shirt Olive | Cottonworld",
+      "Choose Cottonworld’s men’s cotton regular fit shirt olive for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50013-21749-wine",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-wine",
+      "Men’s Cotton Regular Fit Shirt Wine | Cottonworld",
+      "Shop the men’s cotton regular fit shirt wine from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50015-21731-pink",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink",
+      "Men’s Cotton Regular Fit Shirt Pink – Workday | Cottonworld",
+      "Choose Cottonworld’s men’s cotton regular fit shirt pink for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (289 & 298)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50015-21784-olive",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-olive",
+      "Men’s Tencel Linen Regular Fit Shirt Olive | Cottonworld",
+      "Bring Cottonworld’s men’s tencel linen regular fit shirt olive into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50015-21784-pink",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-pink",
+      "Men’s Tencel Linen Regular Fit Shirt Pink | Cottonworld",
+      "Shop the men’s tencel linen regular fit shirt pink from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50015-21784-sky",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-sky",
+      "Men’s Tencel Linen Regular Fit Shirt Sky | Cottonworld",
+      "Bring Cottonworld’s men’s tencel linen regular fit shirt sky into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-20972-sand",
+      "https://cottonworld.net/products/mens-cotton-viscose-regular-fit-shirt-sand",
+      "Men’s Cotton Viscose Regular Fit Shirt Sand | Cottonworld",
+      "Add Cottonworld’s men’s cotton viscose regular fit shirt sand to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-20972-sky",
+      "https://cottonworld.net/products/mens-cotton-viscose-regular-fit-shirt-sky",
+      "Men’s Cotton Viscose Regular Fit Shirt Sky | Cottonworld",
+      "Wear Cottonworld’s men’s cotton viscose regular fit shirt sky through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21612-green",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green",
+      "Men’s Cotton Regular Fit Shirt Green – Weekend | Cottonworld",
+      "Bring Cottonworld’s men’s cotton regular fit shirt green into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (261, 293, 304 & 319)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21612-navy",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy",
+      "Men’s Cotton Regular Fit Shirt Navy – Travel | Cottonworld",
+      "Add Cottonworld’s men’s cotton regular fit shirt navy to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (264, 285, 294, 305 & 320)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21691-natural",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-natural",
+      "Men’s Cotton Regular Fit Shirt Natural | Cottonworld",
+      "Shop the men’s cotton regular fit shirt natural from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21692-slate",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-slate",
+      "Men’s Cotton Regular Fit Shirt Slate | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit shirt slate through workdays, weekends and travel, with everyday comfort at the centre.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21701-navy",
+      "https://cottonworld.net/products/mens-modal-cotton-regular-fit-shirt-navy",
+      "Men’s Modal Cotton Regular Fit Shirt Navy | Cottonworld",
+      "Explore Cottonworld’s men’s modal cotton regular fit shirt navy for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21701-olive",
+      "https://cottonworld.net/products/mens-modal-cotton-regular-fit-shirt-olive",
+      "Men’s Modal Cotton Regular Fit Shirt Olive | Cottonworld",
+      "Choose Cottonworld’s men’s modal cotton regular fit shirt olive for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21702-natural",
+      "https://cottonworld.net/products/mens-modal-cotton-regular-fit-shirt-natural",
+      "Men’s Modal Cotton Regular Fit Shirt Natural | Cottonworld",
+      "Explore Cottonworld’s men’s modal cotton regular fit shirt natural for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21703-green",
+      "https://cottonworld.net/products/mens-modal-regular-fit-shirt-green",
+      "Men’s Modal Regular Fit Shirt Green | Cottonworld",
+      "Choose Cottonworld’s men’s modal regular fit shirt green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21704-green",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-green",
+      "Men’s Tencel Linen Regular Fit Shirt Green – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s tencel linen regular fit shirt green for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (251 & 312)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21704-multi",
+      "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-multi",
+      "Men’s Tencel Linen Regular Fit Shirt Multi | Cottonworld",
+      "Wear Cottonworld’s men’s tencel linen regular fit shirt multi through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21742-brick",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-brick",
+      "Men’s Linen Regular Fit Shirt Brick | Cottonworld",
+      "Explore Cottonworld’s men’s linen regular fit shirt brick for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21742-grape",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-grape",
+      "Men’s Linen Regular Fit Shirt Grape | Cottonworld",
+      "Bring Cottonworld’s men’s linen regular fit shirt grape into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21742-green",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-green",
+      "Men’s Linen Regular Fit Shirt Green | Cottonworld",
+      "Explore Cottonworld’s men’s linen regular fit shirt green for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21742-natural",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural",
+      "Men’s Linen Regular Fit Shirt Natural – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s linen regular fit shirt natural into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (265 & 317)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50019-21743-sky",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-sky",
+      "Men’s Linen Regular Fit Shirt Sky – Everyday | Cottonworld",
+      "Choose Cottonworld’s men’s linen regular fit shirt sky for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (318 & 328)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21612-green",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green",
+      "Men’s Cotton Regular Fit Shirt Green – Travel | Cottonworld",
+      "Wear Cottonworld’s men’s cotton regular fit shirt green through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (261, 293, 304 & 319)",
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21612-navy",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy",
+      "Men’s Cotton Regular Fit Shirt Navy – Relaxed | Cottonworld",
+      "Shop the men’s cotton regular fit shirt navy from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (264, 285, 294, 305 & 320)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21733-natural",
+      "https://cottonworld.net/products/mens-linen-lyocell-regular-fit-shirt-natural",
+      "Men’s Linen Lyocell Regular Fit Shirt Natural | Cottonworld",
+      "Bring Cottonworld’s men’s linen lyocell regular fit shirt natural into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21733-offwhite",
+      "https://cottonworld.net/products/mens-linen-lyocell-regular-fit-shirt-off-white",
+      "Men’s Linen Lyocell Regular Fit Shirt Off White | Cottonworld",
+      "Shop the men’s linen lyocell regular fit shirt off white from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\"",
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-black",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-black",
+      "Men’s Linen Regular Fit Shirt Black | Cottonworld",
+      "Shop the men’s linen regular fit shirt black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-brown",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-brown",
+      "Men’s Linen Regular Fit Shirt Brown | Cottonworld",
+      "Bring Cottonworld’s men’s linen regular fit shirt brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-dk-green",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-dark-green",
+      "Men’s Linen Regular Fit Shirt Dark Green | Cottonworld",
+      "Choose Cottonworld’s men’s linen regular fit shirt dk green for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-lilac",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-lilac",
+      "Men’s Linen Regular Fit Shirt Lilac | Cottonworld",
+      "Choose Cottonworld’s men’s linen regular fit shirt lilac for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-navy",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-navy",
+      "Men’s Linen Regular Fit Shirt Navy | Cottonworld",
+      "Bring Cottonworld’s men’s linen regular fit shirt navy into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-sky",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-sky",
+      "Men’s Linen Regular Fit Shirt Sky – Workday | Cottonworld",
+      "Add Cottonworld’s men’s linen regular fit shirt sky to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (318 & 328)",
+      "Also title include term like \"Online\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50020-21743-yellow",
+      "https://cottonworld.net/products/mens-linen-regular-fit-shirt-yellow",
+      "Men’s Linen Regular Fit Shirt Yellow | Cottonworld",
+      "Bring Cottonworld’s men’s linen regular fit shirt yellow into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      "Also title include term like \"Shop\""
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50021-21738-mint",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-mint",
+      "Men’s Oxford Cotton Regular Fit Shirt Mint | Cottonworld",
+      "Choose Cottonworld’s men’s oxford cotton regular fit shirt mint for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50021-21739-green",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-green",
+      "Men’s Oxford Cotton Regular Fit Shirt Green | Cottonworld",
+      "Choose Cottonworld’s men’s oxford cotton regular fit shirt green for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50021-21739-lilac",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-lilac",
+      "Men’s Oxford Cotton Regular Fit Shirt Lilac – Workday | Cottonworld",
+      "Choose Cottonworld’s men’s oxford cotton regular fit shirt lilac for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (290 & 332)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shirts-50021-21739-natural",
+      "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-natural",
+      "Men’s Oxford Cotton Regular Fit Shirt Natural | Cottonworld",
+      "Choose Cottonworld’s men’s oxford cotton regular fit shirt natural for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-16367-21752-grey",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-grey",
+      "Men’s Cotton Linen Regular Fit Short Grey | Cottonworld",
+      "Shop the men’s cotton linen regular fit shorts grey from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-16367-21752-natural",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural",
+      "Men’s Cotton Linen Regular Fit Short Natural – Everyday | Cottonworld",
+      "Add Cottonworld’s men’s cotton linen regular fit shorts natural to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (335 & 340)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-16367-21752-navy",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-navy",
+      "Men’s Cotton Linen Regular Fit Short Navy | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit shorts navy into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-16367-21752-white",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white",
+      "Men’s Cotton Linen Regular Fit Short White – Everyday | Cottonworld",
+      "Shop the men’s cotton linen regular fit shorts white from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (337 & 341)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17178-21772-black",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-black",
+      "Men’s Cotton Linen Regular Fit Short Black | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit shorts black into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17178-21772-blue",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-blue",
+      "Men’s Cotton Linen Regular Fit Short Blue | Cottonworld",
+      "Shop the men’s cotton linen regular fit shorts blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17178-21772-natural",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural",
+      "Men’s Cotton Linen Regular Fit Short Natural – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit shorts natural into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (335 & 340)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17178-21772-white",
+      "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white",
+      "Men’s Cotton Linen Regular Fit Short White – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton linen regular fit shorts white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (337 & 341)"
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17893-21700-beige",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-beige",
+      "Men’s Cotton Lycra Regular Fit Short Beige | Cottonworld",
+      "Bring Cottonworld’s men’s cotton lycra regular fit shorts beige into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-shorts-17893-21700-grey",
+      "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-grey",
+      "Men’s Cotton Lycra Regular Fit Short Grey | Cottonworld",
+      "Add Cottonworld’s men’s cotton lycra regular fit shorts grey to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-black",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+      "Men’s Organic Cotton Regular Fit T-Shirt Black – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s organic cotton regular fit t-shirt black through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (344, 353 & 358)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-blue",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Everyday | Cottonworld",
+      "Shop the men’s organic cotton regular fit t-shirt blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-brown",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+      "Men’s Organic Cotton Regular Fit T-Shirt Brown – Everyday | Cottonworld",
+      "Shop the men’s organic cotton regular fit t-shirt brown from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (346 & 384)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-darkgreen",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-dark-green",
+      "Men’s Organic Cotton Regular Fit T-Shirt Dark Green | Cottonworld",
+      "Explore Cottonworld’s men’s organic cotton regular fit t-shirt dark green for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-green",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-green",
+      "Men’s Organic Cotton Regular Fit T-Shirt Green | Cottonworld",
+      "Bring Cottonworld’s men’s organic cotton regular fit t-shirt green into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-khaki",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-khaki",
+      "Men’s Organic Cotton Regular Fit T-Shirt Khaki | Cottonworld",
+      "Add Cottonworld’s men’s organic cotton regular fit t-shirt khaki to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-pink",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-pink",
+      "Men’s Organic Cotton Regular Fit T-Shirt Pink | Cottonworld",
+      "Add Cottonworld’s men’s organic cotton regular fit t-shirt pink to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-white",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white",
+      "Men’s Organic Cotton Regular Fit T-Shirt White – Everyday | Cottonworld",
+      "Wear Cottonworld’s men’s organic cotton regular fit t-shirt white through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (351 & 357)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-15906-21725-wine",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-wine",
+      "Men’s Organic Cotton Regular Fit T-Shirt Wine | Cottonworld",
+      "Wear Cottonworld’s men’s organic cotton regular fit t-shirt wine through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21767-black",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+      "Men’s Organic Cotton Regular Fit T-Shirt Black – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s organic cotton regular fit t-shirt black for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (344, 353 & 358)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21768-blue",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Workday | Cottonworld",
+      "Shop the men’s organic cotton regular fit t-shirt blue from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21769-blue-1",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Weekend | Cottonworld",
+      "Explore Cottonworld’s men’s organic cotton regular fit t-shirt blue 1 for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21799-sand",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-sand",
+      "Men’s Organic Cotton Regular Fit T-Shirt Sand | Cottonworld",
+      "Choose Cottonworld’s men’s organic cotton regular fit t-shirt sand for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21803-white",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white",
+      "Men’s Organic Cotton Regular Fit T-Shirt White – Workday | Cottonworld",
+      "Explore Cottonworld’s men’s organic cotton regular fit t-shirt white for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (351 & 357)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21841-black",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+      "Men’s Organic Cotton Regular Fit T-Shirt Black – Weekend | Cottonworld",
+      "Bring Cottonworld’s men’s organic cotton regular fit t-shirt black into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (344, 353 & 358)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-16319-21844-navy",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-navy",
+      "Men’s Organic Cotton Regular Fit T-Shirt Navy | Cottonworld",
+      "Wear Cottonworld’s men’s organic cotton regular fit t-shirt navy through workdays, weekends and travel, with everyday comfort at the centre."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-black",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-black",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Black | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt black to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-darkgreen",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-dark-green",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Dark Green | Cottonworld",
+      "Choose Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt dark green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-khaki",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-khaki",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Khaki | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt khaki for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-navy",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-navy",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Navy | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt navy for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-teal",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-teal",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Teal | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt teal for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-white",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-white",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt White – Everyday | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt white to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (365 & 387)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21646-wine",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-wine",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Wine | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt wine to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-blue",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-blue",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Blue | Cottonworld",
+      "Bring Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt blue into an everyday wardrobe for work, travel and unhurried weekends.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-brick",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brick",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Brick | Cottonworld",
+      "Choose Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt brick for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-brown",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brown",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown – Everyday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (369 & 379)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-green",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-green",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Green | Cottonworld",
+      "Choose Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-natural",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-natural",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Natural – Everyday | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt natural to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (371 & 381)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-olive",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt olive to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21723-rust",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt rust for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21892-black",
+      "https://cottonworld.net/products/mens-bamboo-regular-fit-tshirt-black",
+      "Men’s Bamboo Regular Fit T-Shirt Black | Cottonworld",
+      "Bring Cottonworld’s men’s bamboo regular fit t-shirt black into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21892-brown",
+      "https://cottonworld.net/products/mens-bamboo-regular-fit-tshirt-brown",
+      "Men’s Bamboo Regular Fit T-Shirt Brown | Cottonworld",
+      "Choose Cottonworld’s men’s bamboo regular fit t-shirt brown for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21892-navy",
+      "https://cottonworld.net/products/mens-bamboo-regular-fit-tshirt-navy",
+      "Men’s Bamboo Regular Fit T-Shirt Navy | Cottonworld",
+      "Add Cottonworld’s men’s bamboo regular fit t-shirt navy to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21892-rust",
+      "https://cottonworld.net/products/mens-bamboo-regular-fit-tshirt-rust",
+      "Men’s Bamboo Regular Fit T-Shirt Rust | Cottonworld",
+      "Choose Cottonworld’s men’s bamboo regular fit t-shirt rust for easy workdays, travel and relaxed weekends, with comfort kept close."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17091-21892-white",
+      "https://cottonworld.net/products/mens-bamboo-regular-fit-tshirt-white",
+      "Men’s Bamboo Regular Fit T-Shirt White | Cottonworld",
+      "Bring Cottonworld’s men’s bamboo regular fit t-shirt white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17093-21723-brown",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brown",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown – Workday | Cottonworld",
+      "Wear Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt brown through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (369 & 379)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17093-21723-lavender",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender – Everyday | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt lavender for comfortable workdays, travel and relaxed weekends.",
+      "Need to add differentiator term (380 & 386)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17093-21723-natural",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-natural",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Natural – Workday | Cottonworld",
+      "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt natural to an everyday wardrobe for comfortable workdays, weekends and travel.",
+      "Need to add differentiator term (371 & 381)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17218-21119-green",
+      "https://cottonworld.net/products/mens-cotton-regular-fit-tshirt-green",
+      "Men’s Cotton Regular Fit T-Shirt Green | Cottonworld",
+      "Add Cottonworld’s men’s cotton regular fit t-shirt green to an everyday wardrobe for comfortable workdays, weekends and travel."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17444-21765-blue",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Travel | Cottonworld",
+      "Explore Cottonworld’s men’s organic cotton regular fit t-shirt blue for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17444-21765-brown",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+      "Men’s Organic Cotton Regular Fit T-Shirt Brown – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s organic cotton regular fit t-shirt brown into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (346 & 384)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17656-21723-grey",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-grey",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Grey | Cottonworld",
+      "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt grey for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+      null,
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17656-21723-lavender",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender – Workday | Cottonworld",
+      "Wear Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt lavender through workdays, weekends and travel, with everyday comfort at the centre.",
+      "Need to add differentiator term (380 & 386)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17656-21723-white",
+      "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-white",
+      "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt White – Workday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt white into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (365 & 387)",
+      null,
+      "\"Fit type\" is missing in itle"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17755-21740-navy",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-navy",
+      "Men’s Cotton Elastane Slim Fit T-Shirt Navy | Cottonworld",
+      "Explore Cottonworld’s men’s cotton elastane slim fit t-shirt navy for everyday wear. A practical option for work, weekends, travel and unhurried days."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17810-21657-blue",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Relaxed | Cottonworld",
+      "Choose Cottonworld’s men’s organic cotton regular fit t-shirt blue for easy workdays, travel and relaxed weekends, with comfort kept close.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17927-21740-black",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-black",
+      "Men’s Cotton Elastane Slim Fit T-Shirt Black – Everyday | Cottonworld",
+      "Bring Cottonworld’s men’s cotton elastane slim fit t-shirt black into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (390 & 392)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17927-21740-white",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-white",
+      "Men’s Cotton Elastane Slim Fit T-Shirt White | Cottonworld",
+      "Bring Cottonworld’s men’s cotton elastane slim fit t-shirt white into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17928-21740-black",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-black",
+      "Men’s Cotton Elastane Slim Fit T-Shirt Black – Workday | Cottonworld",
+      "Shop the men’s cotton elastane slim fit t-shirt black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+      "Need to add differentiator term (390 & 392)"
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17928-21740-brown",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-brown",
+      "Men’s Cotton Elastane Slim Fit T-Shirt Brown | Cottonworld",
+      "Bring Cottonworld’s men’s cotton elastane slim fit t-shirt brown into an everyday wardrobe for work, travel and unhurried weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17928-21740-wine",
+      "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-wine",
+      "Men’s Cotton Elastane Slim Fit T-Shirt Wine | Cottonworld",
+      "Shop the men’s cotton elastane slim fit t-shirt wine from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends."
+    ],
+    [
+      "https://cottonworld.net/products/m-tshirt-17977-21832-blue",
+      "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "Men’s Organic Cotton Regular Fit T-Shirt Blue – Versatile | Cottonworld",
+      "Bring Cottonworld’s men’s organic cotton regular fit t-shirt blue into an everyday wardrobe for work, travel and unhurried weekends.",
+      "Need to add differentiator term (345, 354, 355, 383, 389 & 395)"
+    ]
+  ],
+  "verified_title_changes": [
+    {
+      "row": 2,
+      "old_title": "Women’s Linen Regular Fit Blouse Pink – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Pink – Mandarin Collar | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-11180-21556-pink",
+      "source_attribute": "Mandarin Collar"
+    },
+    {
+      "row": 6,
+      "old_title": "Women’s Linen Cotton Regular Fit Blouse Pink – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Cotton Regular Fit Blouse Pink – Band Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-11440-21770-pink",
+      "source_attribute": "Band Neck"
+    },
+    {
+      "row": 9,
+      "old_title": "Women’s Linen Regular Fit Blouse Mustard – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Mustard – Two Front Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-16831-21556-mustard",
+      "source_attribute": "Two Front Pockets"
+    },
+    {
+      "row": 10,
+      "old_title": "Women’s Cotton Regular Fit Blouse Blue – Everyday | Cottonworld",
+      "new_title": "Women’s Cotton Regular Fit Blouse Blue – Round V Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17011-21693-blue",
+      "source_attribute": "Round V Neck"
+    },
+    {
+      "row": 11,
+      "old_title": "Women’s Linen Cotton Regular Fit Blouse Pink – Workday | Cottonworld",
+      "new_title": "Women’s Linen Cotton Regular Fit Blouse Pink – Boat Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17012-21687-pink",
+      "source_attribute": "Boat Neck"
+    },
+    {
+      "row": 25,
+      "old_title": "Women’s Modal Viscose Regular Fit Blouse Red – Everyday | Cottonworld",
+      "new_title": "Women’s Modal Viscose Regular Fit Blouse Red – V Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17541-21639-red",
+      "source_attribute": "V Neck"
+    },
+    {
+      "row": 34,
+      "old_title": "Women’s Linen Regular Fit Blouse Green – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Green – Lapel Collar | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17692-21688-green",
+      "source_attribute": "Lapel Collar"
+    },
+    {
+      "row": 43,
+      "old_title": "Women’s Linen Regular Fit Blouse Pink – Workday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Pink – V Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17854-21556-pink",
+      "source_attribute": "V Neck"
+    },
+    {
+      "row": 45,
+      "old_title": "Women’s Linen Regular Fit Blouse Green – Workday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Green – Two Front Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17855-21556-green",
+      "source_attribute": "Two Front Pockets"
+    },
+    {
+      "row": 46,
+      "old_title": "Women’s Linen Regular Fit Blouse Rose – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Rose – Two Front Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17855-21556-rose",
+      "source_attribute": "Two Front Pockets"
+    },
+    {
+      "row": 47,
+      "old_title": "Women’s Linen Regular Fit Blouse Mustard – Workday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Mustard – Sleeveless | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17862-21556-mustard",
+      "source_attribute": "Sleeveless"
+    },
+    {
+      "row": 48,
+      "old_title": "Women’s Linen Regular Fit Blouse Rose – Workday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Rose – Sleeveless | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17862-21556-rose",
+      "source_attribute": "Sleeveless"
+    },
+    {
+      "row": 49,
+      "old_title": "Women’s Cotton Regular Fit Blouse Blue – Workday | Cottonworld",
+      "new_title": "Women’s Cotton Regular Fit Blouse Blue – Round Neck | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17863-21693-blue",
+      "source_attribute": "Round Neck"
+    },
+    {
+      "row": 57,
+      "old_title": "Women’s Linen Regular Fit Blouse Green – Weekend | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Green – Sleeveless | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17879-21688-green",
+      "source_attribute": "Sleeveless"
+    },
+    {
+      "row": 59,
+      "old_title": "Women’s Linen Regular Fit Blouse Green – Travel | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Blouse Green – Shawl Collar | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17882-21557-green",
+      "source_attribute": "Shawl Collar"
+    },
+    {
+      "row": 60,
+      "old_title": "Women’s Linen Boxy Fit Blouse Multi – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Boxy Fit Blouse Multi – Side Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17902-21557-multi",
+      "source_attribute": "Side Pockets"
+    },
+    {
+      "row": 70,
+      "old_title": "Women’s Modal Viscose Regular Fit Blouse Red – Workday | Cottonworld",
+      "new_title": "Women’s Modal Viscose Regular Fit Blouse Red – Johnny Collar | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17930-21639-red",
+      "source_attribute": "Johnny Collar"
+    },
+    {
+      "row": 75,
+      "old_title": "Women’s Linen Boxy Fit Blouse Multi – Workday | Cottonworld",
+      "new_title": "Women’s Linen Boxy Fit Blouse Multi – Mandarin Collar | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-blouse-17944-21557-multi",
+      "source_attribute": "Mandarin Collar"
+    },
+    {
+      "row": 84,
+      "old_title": "Women’s Cotton Lycra Regular Fit Culotte Beige – Everyday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Culotte Beige – Mock Button Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-culotte-16778-21722-beige",
+      "source_attribute": "Mock Button Waist"
+    },
+    {
+      "row": 85,
+      "old_title": "Women’s Cotton Lycra Regular Fit Culotte Black – Everyday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Culotte Black – Mock Button Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-culotte-16778-21722-black",
+      "source_attribute": "Mock Button Waist"
+    },
+    {
+      "row": 86,
+      "old_title": "Women’s Cotton Lycra Regular Fit Culotte Beige – Workday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Culotte Beige – Elastic Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-culotte-16778-21861-beige",
+      "source_attribute": "Elastic Waist"
+    },
+    {
+      "row": 87,
+      "old_title": "Women’s Cotton Lycra Regular Fit Culotte Black – Workday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Culotte Black – Elastic Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-culotte-16778-21861-black",
+      "source_attribute": "Elastic Waist"
+    },
+    {
+      "row": 129,
+      "old_title": "Women’s Cotton Lycra Regular Fit Pant Beige – Everyday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Pant Beige – Pull On | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17080-21722-beige",
+      "source_attribute": "Pull On"
+    },
+    {
+      "row": 135,
+      "old_title": "Women’s Linen Viscose Regular Fit Pant Sage – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Viscose Regular Fit Pant Sage – Drawstring Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17769-21737-sage",
+      "source_attribute": "Drawstring Waist"
+    },
+    {
+      "row": 138,
+      "old_title": "Women’s Linen Viscose Regular Fit Pant Sage – Workday | Cottonworld",
+      "new_title": "Women’s Linen Viscose Regular Fit Pant Sage – Elastic Waist | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17813-21737-sage",
+      "source_attribute": "Elastic Waist"
+    },
+    {
+      "row": 139,
+      "old_title": "Women’s Linen Regular Fit Pant Black – Everyday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Pant Black – Zip Fly | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17826-21824-black",
+      "source_attribute": "Zip Fly"
+    },
+    {
+      "row": 144,
+      "old_title": "Women’s Cotton Lycra Regular Fit Pant Beige – Workday | Cottonworld",
+      "new_title": "Women’s Cotton Lycra Regular Fit Pant Beige – Side Buttons | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "source_attribute": "Side Buttons"
+    },
+    {
+      "row": 149,
+      "old_title": "Women’s Linen Regular Fit Pant Black – Workday | Cottonworld",
+      "new_title": "Women’s Linen Regular Fit Pant Black – Patch Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pants-17940-21824-black",
+      "source_attribute": "Patch Pockets"
+    },
+    {
+      "row": 155,
+      "old_title": "Women’s Viscose Regular Fit Pyjama Blue – Everyday | Cottonworld",
+      "new_title": "Women’s Viscose Regular Fit Pyjama Blue – Side Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pyjama-11960-21665-blue",
+      "source_attribute": "Side Pockets"
+    },
+    {
+      "row": 158,
+      "old_title": "Women’s Viscose Regular Fit Pyjama Blue – Workday | Cottonworld",
+      "new_title": "Women’s Viscose Regular Fit Pyjama Blue – No Pockets | Cottonworld",
+      "source_url": "https://cottonworld.net/products/l-pyjama-11960-21753-blue",
+      "source_attribute": "No Pockets"
+    }
+  ],
+  "findings": {
+    "duplicate_updated_url_groups": 60,
+    "arbitrary_title_differentiator_rows": 152,
+    "product_detail_fetch": {
+      "success": 64,
+      "not_found": 10,
+      "rate_limited": 78
+    },
+    "complete_groups_with_distinct_verified_features": 14,
+    "changed_rows_with_verified_features": 30,
+    "remaining_rows_with_generic_differentiators": 122,
+    "description_duplicate_groups": 20,
+    "updated_url_sample_status": {
+      "row": 2,
+      "http_status": 404,
+      "source_row_2_status": 200,
+      "source_row_43_status": 200
+    }
+  }
+}
+

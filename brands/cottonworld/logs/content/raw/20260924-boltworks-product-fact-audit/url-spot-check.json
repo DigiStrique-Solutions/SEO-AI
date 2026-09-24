@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-24T15:04:22.643432+00:00",
+  "requests": [
+    {
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "content_type": "text/html; charset=utf-8",
+      "body_excerpt": "<!doctype html>\n<html\n  \n  lang=\"en\"\n>\n  <head><link\n        rel=\"icon\"\n        type=\"image/png\"\n        href=\"//cottonworld.net/cdn/shop/files/favicon-cw.jpg?crop=center&height=32&v=1780757278&width="
+    },
+    {
+      "url": "https://cottonworld.net/products/l-blouse-11180-21556-pink",
+      "status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-11180-21556-pink",
+      "content_type": "text/html; charset=utf-8",
+      "body_excerpt": "<!doctype html>\n<html\n  \n  lang=\"en\"\n>\n  <head><link\n        rel=\"icon\"\n        type=\"image/png\"\n        href=\"//cottonworld.net/cdn/shop/files/favicon-cw.jpg?crop=center&height=32&v=1780757278&width="
+    },
+    {
+      "url": "https://cottonworld.net/products/l-blouse-17854-21556-pink",
+      "status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17854-21556-pink",
+      "content_type": "text/html; charset=utf-8",
+      "body_excerpt": "<!doctype html>\n<html\n  \n  lang=\"en\"\n>\n  <head><link\n        rel=\"icon\"\n        type=\"image/png\"\n        href=\"//cottonworld.net/cdn/shop/files/favicon-cw.jpg?crop=center&height=32&v=1780757278&width="
+    }
+  ]
+}

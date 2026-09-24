@@ -1,0 +1,61 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-24T15:02:47+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 19.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-24T15:02:21+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "The sheet contains 394 product rows, 60 groups with duplicate proposed updated URLs, and 152 titles with generic differentiator labels.",
+        "Twenty groups have duplicate meta descriptions."
+      ],
+      "source_id": "boltworks_sheet_prewrite",
+      "source_ref": "New Active list products, Boltworks sheet!A1:G395, connected Google Drive read on 2026-09-24; audit-plan.json",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Sixty-four original product pages returned product records with specific features such as collar, sleeve, pocket and opening.",
+        "Ten source URLs returned 404 and 78 requests were rate limited; those product features remain unverified.",
+        "Thirty titles in fourteen complete duplicate groups can be differentiated using verified product attributes."
+      ],
+      "source_id": "live_cottonworld_product_pages",
+      "source_ref": "Cottonworld public Shopify product JSON endpoint for 152 original source URLs on 2026-09-24; product-fetch.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Avoid invented product attributes and unsupported claims; use plain, specific product wording."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Meta titles and descriptions must not contain product codes."
+      ],
+      "source_id": "user_request",
+      "source_ref": "User request to check the completed Boltworks sheet again in the Codex task on 2026-09-24",
+      "source_type": "human_context"
+    }
+  ]
+}

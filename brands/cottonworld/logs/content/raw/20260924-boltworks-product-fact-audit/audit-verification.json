@@ -1,0 +1,105 @@
+{
+  "run_id": "20260924-boltworks-product-fact-audit",
+  "checked_at": "2026-09-24T20:34:03+05:30",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "sheet_name": "Boltworks sheet",
+  "sheet_gid": 1979343695,
+  "scope": "A1:G395; 394 product rows",
+  "result": "partial: material issues remain",
+  "changes": {
+    "verified_product_feature_titles_written": 30,
+    "verified_duplicate_groups_improved": 14,
+    "meta_description_cells_changed": 0,
+    "updated_url_cells_changed": 0
+  },
+  "checks": [
+    {
+      "item": "Rows and required fields",
+      "status": "pass",
+      "evidence": "Connected Sheets read A1:G395",
+      "result": "394 product rows; source URL, proposed URL, title and description present."
+    },
+    {
+      "item": "Product codes and sales filler in metadata",
+      "status": "pass",
+      "evidence": "Connected Sheets read after edits",
+      "result": "No numeric product codes in titles or descriptions; no Buy, Shop or Online in titles."
+    },
+    {
+      "item": "Exact title uniqueness",
+      "status": "pass",
+      "evidence": "Connected Sheets read after edits",
+      "result": "394 distinct titles across 394 rows."
+    },
+    {
+      "item": "Grounded product differentiation",
+      "status": "fail",
+      "evidence": "Original product page JSON in product-fetch.json and sheet feedback groups",
+      "result": "30 titles across 14 groups now use verified details; 122 titles still rely on generic occasion terms that do not establish a product distinction.",
+      "next_action": "Obtain current product details for the remaining rows and replace the generic labels with verified features."
+    },
+    {
+      "item": "Proposed updated URL uniqueness",
+      "status": "fail",
+      "evidence": "Connected Sheets read B2:B395",
+      "result": "Only 302 unique proposed updated URLs for 394 rows; 60 URL collision groups cover 152 rows.",
+      "next_action": "Assign distinct destination slugs or consolidate rows that refer to one destination before implementation."
+    },
+    {
+      "item": "Proposed updated URL availability",
+      "status": "not_checked_blocked",
+      "evidence": "url-spot-check.json; prior validation_records.json",
+      "result": "One sampled proposed URL returns HTTP 404 while its two source URLs return HTTP 200. The other proposed URLs were not freshly checked end to end.",
+      "blocker": "The site rate limited automated reads and the full set of 302 destinations was not tested.",
+      "next_action": "Validate all distinct proposed URLs when site access allows and implement or correct missing destinations."
+    },
+    {
+      "item": "Original source product facts",
+      "status": "not_checked_blocked",
+      "evidence": "product-fetch.json",
+      "result": "64 of 152 duplicate-group source pages returned product data; 10 returned 404 and 78 returned 429.",
+      "blocker": "Source pages unavailable or rate limited.",
+      "next_action": "Use an authorized complete product export or accessible source pages to verify remaining feature distinctions."
+    },
+    {
+      "item": "Meta description uniqueness",
+      "status": "fail",
+      "evidence": "Connected Sheets read D2:D395",
+      "result": "20 exact duplicate-description groups covering 42 rows.",
+      "next_action": "Rewrite only where product facts and destination mapping support a real distinction."
+    }
+  ],
+  "additional_risk": {
+    "titles_over_70_characters": 56,
+    "longest_title_characters": 82,
+    "descriptions_over_160_characters": 5,
+    "note": "Length is a display risk, not a fixed Google Search cutoff."
+  },
+  "examples": [
+    {
+      "rows": [
+        2,
+        43
+      ],
+      "source_urls_status": [
+        200,
+        200
+      ],
+      "proposed_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink",
+      "proposed_url_status": 404,
+      "verified_distinction": "Mandarin collar versus V neck."
+    },
+    {
+      "rows": [
+        27,
+        28
+      ],
+      "source_urls_status": [
+        200,
+        200
+      ],
+      "finding": "Parsed garment attributes are the same in both product descriptions; a distinct non-code feature was not verified."
+    }
+  ]
+}
+

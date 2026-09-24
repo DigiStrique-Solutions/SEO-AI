@@ -1,0 +1,37 @@
+{
+  "ai_text_risk": {
+    "features": [
+      {
+        "evidence": {
+          "average_words": 24.4,
+          "variation": 0.35
+        },
+        "name": "uniform_sentence_rhythm",
+        "points": 1.0
+      },
+      {
+        "evidence": {
+          "ratio": 0.42
+        },
+        "name": "repeated_sentence_starts",
+        "points": 12.0
+      },
+      {
+        "evidence": [],
+        "name": "generic_conclusion_heading",
+        "points": 6.0
+      }
+    ],
+    "max_score": 20.0,
+    "note": "Local AI-pattern risk score. This is an editorial signal, not proof of authorship.",
+    "score": 19.0,
+    "status": "pass",
+    "tool": "Strique local AI text risk gate",
+    "word_count": 12373
+  },
+  "errors": [],
+  "ok": true,
+  "output": "brands/cottonworld/logs/content/raw/20260924-boltworks-product-fact-audit/boltworks-approved.tsv",
+  "required_skill": "content-seo-authenticity",
+  "written": true
+}
