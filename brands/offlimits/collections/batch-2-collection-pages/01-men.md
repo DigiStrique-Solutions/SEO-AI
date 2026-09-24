@@ -61,5 +61,3 @@ Yes. The Big & Tall collection includes UK sizes 12, 13 and 14. Size options var
 Build your choice around your routine: workout shoes for training, casual styles for everyday outfits and a fit you feel comfortable moving in. Add the clothing that earns a place in your week.
 
 Explore the full [men’s footwear collection](https://offlimits.co.in/collections/mens-shoes) to find your next pair.
-
-

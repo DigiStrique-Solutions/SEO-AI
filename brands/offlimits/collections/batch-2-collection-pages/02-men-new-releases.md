@@ -41,5 +41,3 @@ When a new pair arrives, give yourself a lower-pressure first outing. Wear it ar
 ## Let your routine narrow the new arrivals
 
 Fresh styles are most satisfying when they earn a place in your week. Start with your usual movement, your preferred fit and the clothes you already wear. Then browse [OFFLIMITS men’s new arrivals](https://offlimits.co.in/collections/men-new-releases) for the latest additions, or return to the [full men’s collection](https://offlimits.co.in/collections/men) when you want to compare every category.
-
-

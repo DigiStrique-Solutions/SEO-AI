@@ -41,5 +41,3 @@ If you need extended sizing, browse the [Big & Tall sportswear for men](https://
 ## Find the pair that fits your next day
 
 The Best Sellers page is a practical way to begin, especially when you want options across sneakers, running and gym shoes, walking styles and athleisure. Filter the collection, open the details that matter and choose the pair that suits the day ahead. When you want a wider browse after that, return to the [full men’s collection](https://offlimits.co.in/collections/men).
-
-

@@ -41,5 +41,3 @@ Give a new pair an easy first outing when it arrives. Wear it around home or on 
 ## Find the next style for your routine
 
 The full women’s collection is the place to begin when you want shoes and activewear in one browse. Filter the current range, check the product details that matter and choose the pair that fits the day ahead. For recently added options, explore [OFFLIMITS new arrivals](https://offlimits.co.in/collections/new-arrivals-2026), then return to [women’s shoes, sneakers and athleisure](https://offlimits.co.in/collections/women) whenever you want to compare the wider collection.
-
-

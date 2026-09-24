@@ -13,4 +13,3 @@ This folder consolidates the finalized collection-page copy created in this chat
 | 07 | Men’s clothing | https://offlimits.co.in/collections/men-clothing | ../men-clothing.md | https://docs.google.com/document/d/1mEu0b8YwtS9M6Gpts3SbRCTHYtlyO_JKq-Hq-SHiMLs/edit |
 
 All pages are unpublished review drafts. Each source package carries its own SEO brief, authenticity record and research log.
-

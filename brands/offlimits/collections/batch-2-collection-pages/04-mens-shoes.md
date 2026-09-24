@@ -41,5 +41,3 @@ If you need extended sizing, the [Big & Tall sportswear for men](https://offlimi
 ## Find your next pair in the full range
 
 This collection is the broad place to begin when you want to compare men’s footwear across different uses. Filter by your routine, check the product details that matter and choose the pair that feels right for the day ahead. You can also browse [men’s new arrivals](https://offlimits.co.in/collections/men-new-releases) for recently added styles, or visit the [men’s best sellers collection](https://offlimits.co.in/collections/mens-bestsellers) for another curated starting point.
-
-

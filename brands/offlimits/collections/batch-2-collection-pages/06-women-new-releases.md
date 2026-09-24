@@ -39,5 +39,3 @@ The page currently groups footwear and apparel, so it can also work as a place t
 ## Keep exploring the current OFFLIMITS range
 
 For a broader view beyond recently listed pieces, return to [women’s shoes, sneakers and athleisure](https://offlimits.co.in/collections/women). It brings the wider women’s range together so you can compare footwear and activewear in one place. If you want to see new releases across the store, explore [OFFLIMITS new arrivals](https://offlimits.co.in/collections/new-arrivals-2026). Check the live details, choose the item that fits the day ahead and make the new addition part of a routine that already feels like yours.
-
-

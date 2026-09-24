@@ -41,5 +41,3 @@ It also helps to distinguish between training clothing and a casual layer you in
 If you are planning clothing around a pair you already own, the [men’s footwear collection](https://offlimits.co.in/collections/mens-shoes) lets you compare shoes, sneakers and sports styles in the same shopping journey. If you want to see recently listed footwear and apparel, visit [men’s new arrivals](https://offlimits.co.in/collections/men-new-releases). Both routes help you move from one clothing decision to the next without losing the purpose of the outfit.
 
 Return to [men’s clothing](https://offlimits.co.in/collections/men-clothing) when you want to compare the full apparel range. Filter by the activity or layer you need, check the live product details and choose the piece that makes the day ahead easier to move through.
-
-
