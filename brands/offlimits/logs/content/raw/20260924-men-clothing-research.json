@@ -1,0 +1,15 @@
+{
+  "run_id": "20260924-men-clothing-content",
+  "checked_at": "2026-09-24T10:00:00+05:30",
+  "target": {"url": "https://offlimits.co.in/collections/men-clothing", "status": 200, "canonical": "https://offlimits.co.in/collections/men-clothing", "h1": "MEN CLOTHING", "description_present": false, "categories": ["joggers and track pants", "T-shirts and graphic tees", "sweatshirts", "hoodies and jackets", "track suits", "shorts"], "observed_grid": ["MENS BOLT TRACKSUIT", "MENS SONIC TRACKSUIT", "MENS NORTHMAN TRACKSUIT", "MENS DT CNS RACING HOODIE", "MENS POL CNS MESH SHORTS", "OL CNS JOGGER"]},
+  "products": [
+    {"url": "https://offlimits.co.in/products/mens-dt-cns-racing-hoodie-otm-211-01", "status": 200, "canonical": "https://offlimits.co.in/products/mens-dt-cns-racing-hoodie-otm-211-01", "facts": ["full sleeves", "drawcord hood", "pocket", "300 GSM", "65% polyester/35% cotton"]},
+    {"url": "https://offlimits.co.in/products/mens-bolt-track-suit-otm-345-01", "status": 200, "canonical": "https://offlimits.co.in/products/mens-bolt-track-suit-otm-345-01", "facts": ["zipper neck", "full sleeves", "cut-and-sew pattern", "Wicktech", "90% polyester/10% spandex"]}
+  ],
+  "serp_benchmark": [
+    {"url": "https://www.myntra.com/men-sportswear", "tone": "transactional catalogue", "approx_visible_copy": "very short beyond category labels, filters and product cards", "structure": "breadcrumb, H1, filters, sorting and product grid"},
+    {"url": "https://www.jockey.in/collections/men-athleisure", "tone": "transactional catalogue", "approx_visible_copy": "very short beyond filters and product cards", "structure": "breadcrumb, item count, quick filters and product grid"},
+    {"url": "https://www.nykaaman.com/activewear-clothing/sports-athleisure/c/17902", "tone": "transactional catalogue", "approx_visible_copy": "very short beyond category labels, filters and product cards", "structure": "breadcrumb, H1, filters, sorting and product grid"}
+  ],
+  "internal_link_check": ["https://offlimits.co.in/collections/men-shorts", "https://offlimits.co.in/collections/men-joggers-track-pants", "https://offlimits.co.in/collections/men-tshirts-graphic-tees", "https://offlimits.co.in/collections/men-hoodies-jackets", "https://offlimits.co.in/collections/men-sweatshirts", "https://offlimits.co.in/products/mens-dt-cns-racing-hoodie-otm-211-01", "https://offlimits.co.in/products/mens-bolt-track-suit-otm-345-01", "https://offlimits.co.in/collections/mens-shoes", "https://offlimits.co.in/collections/men-new-releases", "https://offlimits.co.in/collections/men-clothing"]
+}

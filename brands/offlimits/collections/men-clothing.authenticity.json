@@ -1,0 +1,112 @@
+{
+  "claims": [
+    {
+      "claim": "The target is an active men\u2019s clothing collection with tracksuits, hoodies, sweatshirts, joggers, T-shirts and shorts.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "The target grid currently lists MENS BOLT TRACKSUIT, MENS SONIC TRACKSUIT and MENS NORTHMAN TRACKSUIT, alongside hoodie, short and jogger options.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "target"
+      ]
+    },
+    {
+      "claim": "MENS DT CNS RACING HOODIE lists full sleeves, a drawcord hood, pocket, 300 GSM construction and 65% polyester/35% cotton fabric.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "racing-hoodie"
+      ]
+    },
+    {
+      "claim": "MENS BOLT TRACKSUIT lists a zipper neck, full sleeves, cut-and-sew pattern, Wicktech technology and 90% polyester/10% spandex fabric.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "bolt-tracksuit"
+      ]
+    },
+    {
+      "claim": "The ten internal destinations were live and canonical during the rendered check.",
+      "claim_type": "product_fact",
+      "source_ids": [
+        "internal"
+      ]
+    },
+    {
+      "claim": "Fit, category and styling guidance is editorial assistance organised around customer need.",
+      "claim_type": "editorial_guidance",
+      "source_ids": [
+        "brand",
+        "internal"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-24T13:55:42+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 7.21,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-24T00:00:00+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/collections/men-clothing"
+  },
+  "sources": [
+    {
+      "extracted_facts": "Rendered check on 2026-09-24: HTTP 200, self-canonical, H1 \u2018MEN CLOTHING\u2019, no visible descriptive collection copy, filters for six apparel categories and a grid including MENS BOLT TRACKSUIT, MENS SONIC TRACKSUIT and MENS NORTHMAN TRACKSUIT.",
+      "source_id": "target",
+      "source_ref": "https://offlimits.co.in/collections/men-clothing",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page lists full sleeves, a drawcord hood, pocket, 300 GSM construction and 65% polyester/35% cotton fabric.",
+      "source_id": "racing-hoodie",
+      "source_ref": "https://offlimits.co.in/products/mens-dt-cns-racing-hoodie-otm-211-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live product page lists zipper neck, full sleeves, cut-and-sew pattern, Wicktech technology and 90% polyester/10% spandex fabric.",
+      "source_id": "bolt-tracksuit",
+      "source_ref": "https://offlimits.co.in/products/mens-bolt-track-suit-otm-345-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "All ten destinations in the internal-link plan returned HTTP 200 and matched their canonical URLs.",
+      "source_id": "internal",
+      "source_ref": "Rendered HTTP 200 and canonical checks on 2026-09-24",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "OFFLIMITS is an Indian D2C footwear and athleisure brand. Customer-facing content should organise verified product information around the shopper\u2019s need.",
+      "source_id": "brand",
+      "source_ref": "brands/offlimits/brand-dna.json; brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Relevant organic pages observed included Myntra, Jockey India and Nykaa Man. This is a search snapshot, not a ranking guarantee.",
+      "source_id": "serp",
+      "source_ref": "Google India query \u2018men\u2019s athleisure clothing India online\u2019 on 2026-09-24",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "The three benchmark pages use brief category labels with filters and product grids. The OFFLIMITS draft adds original product-linked guidance after the grid.",
+      "source_id": "competitors",
+      "source_ref": "https://www.myntra.com/men-sportswear; https://www.jockey.in/collections/men-athleisure; https://www.nykaaman.com/activewear-clothing/sports-athleisure/c/17902",
+      "source_type": "competitor_page"
+    }
+  ]
+}
