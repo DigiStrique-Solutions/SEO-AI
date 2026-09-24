@@ -1,0 +1,37 @@
+{
+  "run_id": "20260924-boltworks-remove-title-codes",
+  "captured_at": "2026-09-24T20:17:12+05:30",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "spreadsheet_title": "New Active list products",
+  "sheet_name": "Boltworks sheet",
+  "sheet_gid": 1979343695,
+  "records_checked": 394,
+  "titles_changed": 152,
+  "product_codes_removed_from_titles": 152,
+  "non_code_differentiators": [
+    "Everyday",
+    "Workday",
+    "Weekend",
+    "Travel",
+    "Relaxed",
+    "Versatile",
+    "Comfort"
+  ],
+  "verification": {
+    "unique_meta_titles": 394,
+    "duplicate_title_groups_remaining": 0,
+    "title_product_codes_remaining": 0,
+    "description_product_codes_remaining": 0,
+    "shop_online_buy_terms_remaining": 0,
+    "url_title_base_mismatches": 0,
+    "format_check": "pass",
+    "connector_readback": "pass"
+  },
+  "authenticity_gate": {
+    "local_ai_pattern_risk_score": 19.02,
+    "threshold": "<20",
+    "status": "pass",
+    "zerogpt": "local_fallback_due_to_insufficient_credits"
+  }
+}
+

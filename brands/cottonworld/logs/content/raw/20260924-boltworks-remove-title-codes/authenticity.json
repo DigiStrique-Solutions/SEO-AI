@@ -1,0 +1,53 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-24T14:46:28+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 19.02,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-24T14:46:02+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "The Boltworks sheet has 60 duplicate-title groups affecting 152 rows.",
+        "The current differentiators are numeric style identifiers and must be removed from the meta titles."
+      ],
+      "source_id": "boltworks_prewrite",
+      "source_ref": "New Active list products, Boltworks sheet!A2:G395, read through the connected Google Drive account on 2026-09-24",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Product codes must not appear in meta titles.",
+        "The titles still need non-code differentiators so the duplicate-title feedback remains resolved."
+      ],
+      "source_id": "user_clarification",
+      "source_ref": "User clarification in the Codex task on 2026-09-24",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld uses calm, practical language focused on everyday wear, workdays, weekends, travel, relaxed use, versatility and comfort.",
+        "Copy avoids hype, urgency and unsupported claims."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md; existing Sheet2 meta descriptions",
+      "source_type": "brand_dna"
+    }
+  ]
+}
