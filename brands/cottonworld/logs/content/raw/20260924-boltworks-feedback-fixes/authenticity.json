@@ -1,0 +1,61 @@
+{
+  "claims": [],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-24T14:39:02+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 19.02,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-24T14:38:35+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "The Boltworks sheet contains 394 product rows and feedback in columns E through G.",
+        "The feedback identifies 60 duplicate-title groups affecting 152 rows, 107 titles containing Shop or Online, and 88 title-versus-URL discrepancies, covering 243 unique rows.",
+        "There are no Google comment threads; the highlighted cells are the table and feedback headers."
+      ],
+      "source_id": "boltworks_feedback",
+      "source_ref": "New Active list products, Boltworks sheet!A1:G395, read through the connected Google Drive account on 2026-09-24",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Updated product URLs encode the intended gender, material, fit, garment type and colour wording for the meta title.",
+        "Original product URLs include numeric product identifiers that uniquely distinguish rows whose canonical product names are otherwise identical."
+      ],
+      "source_id": "sheet_product_urls",
+      "source_ref": "New Active list products, Boltworks sheet!A2:B395, read through the connected Google Drive account on 2026-09-24",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Cottonworld uses calm, practical language and avoids hype, urgency and unsupported claims."
+      ],
+      "source_id": "cottonworld_brand_context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Apply the feedback in the Boltworks sheet after thoroughly checking the sheet and its highlighted points."
+      ],
+      "source_id": "user_instruction",
+      "source_ref": "User instruction in the Codex task on 2026-09-24",
+      "source_type": "human_context"
+    }
+  ]
+}
