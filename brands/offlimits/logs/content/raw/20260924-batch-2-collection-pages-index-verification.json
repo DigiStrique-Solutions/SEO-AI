@@ -1,0 +1,9 @@
+{
+  "run_id": "20260924-batch-2-collection-pages-index",
+  "checked_at": "2026-09-24T19:45:00+05:30",
+  "document_id": "1NB6lQTFnd4Cd00yFQlpZFk0H0c0UTLwwbHzSdqu5pTI",
+  "document_url": "https://docs.google.com/document/d/1NB6lQTFnd4Cd00yFQlpZFk0H0c0UTLwwbHzSdqu5pTI/edit?usp=drivesdk",
+  "parent_folder_id": "1eM1-qJOg1e2XZ-_VKsHWg3xlWmz3ERMH",
+  "status": "pass",
+  "evidence": {"collection_page_count": 7, "section_heading_count": 7, "visible_link_count": 14, "link_style": "blue and underlined"}
+}
