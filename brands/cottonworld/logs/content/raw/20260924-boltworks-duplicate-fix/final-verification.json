@@ -1,0 +1,47 @@
+{
+  "run_id": "20260924-boltworks-duplicate-fix",
+  "verified_at_utc": "2026-09-25 06:07:01 UTC",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "summary": {
+    "rows": 394,
+    "duplicate_url_groups": 10,
+    "duplicate_url_rows": 28,
+    "duplicate_title_groups": 0,
+    "duplicate_description_groups": 0,
+    "title_product_codes": 0,
+    "description_product_codes": 0,
+    "feedback_rows": 88,
+    "feedback_unresolved": [],
+    "feedback_restored": true,
+    "review_status_rows": 205,
+    "generic_title_labels": 18,
+    "ban_buy_titles": 0
+  },
+  "proposed_url_spot_checks": [
+    {
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink-mandarin-collar",
+      "http_status": 404
+    },
+    {
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-ecru-melan",
+      "http_status": 404
+    },
+    {
+      "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural-drawstring-elastic-waist",
+      "http_status": 404
+    }
+  ],
+  "remaining_duplicate_urls": [
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+    "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white",
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown"
+  ],
+  "notes": "Column G contained 88 original feedback entries and was restored without loss. New review status is in column H. All 88 original title feedback cases were verified addressed; 21 required adding fit type to titles after shortening. Proposed descriptive URLs require publishing on cottonworld.net and are not live yet. Ten groups still have duplicate proposed slugs because 36 rows lack a verified differentiating detail."
+}

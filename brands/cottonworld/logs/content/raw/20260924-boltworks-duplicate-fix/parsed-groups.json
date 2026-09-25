@@ -1,0 +1,3401 @@
+{
+  "run_id": "20260924-boltworks-duplicate-fix",
+  "groups": {
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink": [
+      {
+        "row": 2,
+        "handle": "l-blouse-11180-21556-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "FRONT POCKET",
+          "NECKCOLLOR": "MANDARIN COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "FRONT OPEN",
+          "HEMLINE": "CURVED HEM"
+        },
+        "title": "Women's 100% Linen Regular Fit Blouse Pink"
+      },
+      {
+        "row": 43,
+        "handle": "l-blouse-17854-21556-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "V NECK",
+          "SLEEVE": "EXTENDED LONG SLEEVE",
+          "OPENING": "FRONT OPEN",
+          "HEMLINE": "CURVED HEM"
+        },
+        "title": "Women's Pink 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-pink": [
+      {
+        "row": 6,
+        "handle": "l-blouse-11440-21770-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "50% LINEN 50% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND NECK",
+          "SLEEVE": "3/4 SLEEVE",
+          "OPENING": "HALF OPEN WITH BUTTONS",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Pink Linen Cotton Regular Fit Blouse"
+      },
+      {
+        "row": 11,
+        "handle": "l-blouse-17012-21687-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "PRINT",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "60% LINEN 40% COTTON PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BOAT NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Pink Linen Cotton Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white": [
+      {
+        "row": 7,
+        "handle": "l-blouse-16403-21613-white",
+        "found": true,
+        "attrs": {},
+        "title": "Women's White 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 22,
+        "handle": "l-blouse-17375-21559-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND COLLAR WITH V NECK",
+          "SLEEVE": "3/4 SLEEVE WITH CUFF",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 55,
+        "handle": "l-blouse-17879-21613-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SLEEVELESS",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mustard": [
+      {
+        "row": 9,
+        "handle": "l-blouse-16831-21556-mustard",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "MUSTARD",
+          "POCKET": "2 FRONT POCKETS",
+          "NECKCOLLOR": "V NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "CURVED HEM"
+        },
+        "title": "Women's Mustard 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 47,
+        "handle": "l-blouse-17862-21556-mustard",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "MUSTARD",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SLEEVELESS",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Mustard 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue": [
+      {
+        "row": 10,
+        "handle": "l-blouse-17011-21693-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "BLOUSE",
+          "PRINT": "PRINT",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND V NECK",
+          "SLEEVE": "EXTENDED SHORT SLEEVE",
+          "OPENING": "FRONT YOKE",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Blue 100% Cotton Regular Fit Blouse"
+      },
+      {
+        "row": 49,
+        "handle": "l-blouse-17863-21693-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "PRINT",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's 100% Cotton Regular Fit Blouse Blue"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-brown": [
+      {
+        "row": 12,
+        "handle": "l-blouse-17191-21556-brown",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 73,
+        "handle": "l-blouse-17943-21557-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "SHIRT COLLAR",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Brown 100% Linen Boxy Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green": [
+      {
+        "row": 13,
+        "handle": "l-blouse-17191-21556-green",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 31,
+        "handle": "l-blouse-17691-21688-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "V NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "EMBROIDERED FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Linen Boxy Fit Blouse"
+      },
+      {
+        "row": 74,
+        "handle": "l-blouse-17943-21557-green",
+        "found": false,
+        "attrs": {},
+        "title": null
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lilac": [
+      {
+        "row": 14,
+        "handle": "l-blouse-17211-21556-lilac",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 21,
+        "handle": "l-blouse-17375-21556-lilac",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "LILAC",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND COLLAR WITH V NECK",
+          "SLEEVE": "3/4 SLEEVE WITH CUFF",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Lilac 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-red": [
+      {
+        "row": 25,
+        "handle": "l-blouse-17541-21639-red",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "PRINT",
+          "FABRIC": "MODAL VISCOSE",
+          "FABRIC COMPOSITION": "60% MODAL 40% VISCOSE PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "RED",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "V NECK",
+          "SLEEVE": "SLEEVELESS",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ASSYMETRIC HEMLINE"
+        },
+        "title": "Women's Red Modal Viscose Regular Fit Blouse"
+      },
+      {
+        "row": 70,
+        "handle": "l-blouse-17930-21639-red",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "PRINT",
+          "FABRIC": "MODAL VISCOSE",
+          "FABRIC COMPOSITION": "60% MODAL 40% VISCOSE PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "RED",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "JOHNNY COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ELASTICATED HEM"
+        },
+        "title": "Women's Modal Viscose Regular Fit Blouse Red"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white": [
+      {
+        "row": 26,
+        "handle": "l-blouse-17592-21780-offwhite",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 78,
+        "handle": "l-blouse-17952-21781-offwhite",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 79,
+        "handle": "l-blouse-17952-21782-offwhite",
+        "found": false,
+        "attrs": {},
+        "title": null
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige": [
+      {
+        "row": 27,
+        "handle": "l-blouse-17592-21781-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Beige 100% Linen Boxy Fit Blouse"
+      },
+      {
+        "row": 28,
+        "handle": "l-blouse-17592-21782-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Beige 100% Linen Boxy Fit Blouse"
+      },
+      {
+        "row": 77,
+        "handle": "l-blouse-17952-21780-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND COLLAR",
+          "SLEEVE": "3/4 SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Beige 100% Linen Boxy Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-coral": [
+      {
+        "row": 29,
+        "handle": "l-blouse-17691-21616-coral",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "CORAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "V NECK",
+          "SLEEVE": "3/4 SLEEVE",
+          "OPENING": "EMBROIDERED FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Coral 100% Linen Boxy Fit Blouse"
+      },
+      {
+        "row": 72,
+        "handle": "l-blouse-17943-21556-coral",
+        "found": false,
+        "attrs": {},
+        "title": null
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green": [
+      {
+        "row": 34,
+        "handle": "l-blouse-17692-21688-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "LAPEL COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "FRONT OPEN",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's 100% Linen Regular Fit Blouse Green"
+      },
+      {
+        "row": 45,
+        "handle": "l-blouse-17855-21556-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "2 FRONT POCKETS",
+          "NECKCOLLOR": "SHIRT COLLAR",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 57,
+        "handle": "l-blouse-17879-21688-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SLEEVELESS",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 59,
+        "handle": "l-blouse-17882-21557-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "SHAWL COLLAR WITH BACK BUTTON",
+          "SLEEVE": "EXTENDED SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM WITH BUTTON TAB"
+        },
+        "title": "Women's Green 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white": [
+      {
+        "row": 39,
+        "handle": "l-blouse-17839-21603-offwhite",
+        "found": false,
+        "attrs": {},
+        "title": null
+      },
+      {
+        "row": 68,
+        "handle": "l-blouse-17926-21603-offwhite",
+        "found": false,
+        "attrs": {},
+        "title": null
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose": [
+      {
+        "row": 46,
+        "handle": "l-blouse-17855-21556-rose",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "ROSE",
+          "POCKET": "2 FRONT POCKETS",
+          "NECKCOLLOR": "SHIRT COLLAR",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Rose 100% Linen Regular Fit Blouse"
+      },
+      {
+        "row": 48,
+        "handle": "l-blouse-17862-21556-rose",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "SEMI-FORMAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "ROSE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SLEEVELESS",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Rose 100% Linen Regular Fit Blouse"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-multi": [
+      {
+        "row": 60,
+        "handle": "l-blouse-17902-21557-multi",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "MULTI",
+          "POCKET": "SIDE SEAM POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "3/4 SLEEVE WITH CUFF",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's 100% Linen Boxy Fit Blouse Multi"
+      },
+      {
+        "row": 75,
+        "handle": "l-blouse-17944-21557-multi",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "BLOUSE",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN STRIPE WOVEN",
+          "FIT TYPE": "BOXY FIT",
+          "COLOR": "MULTI",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "MANDARIN COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "CONCEALED PLACKET",
+          "HEMLINE": "CURVED HEM"
+        },
+        "title": "Women's 100% Linen Boxy Fit Blouse Multi"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-beige": [
+      {
+        "row": 84,
+        "handle": "l-culotte-16778-21722-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "CULOTTE",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTICATED",
+          "OPENING": "FRONT MOCK BUTTONS",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Beige Cotton Lycra Regular Fit Culotte"
+      },
+      {
+        "row": 86,
+        "handle": "l-culotte-16778-21861-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "CULOTTE",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTICATED",
+          "OPENING": "ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Cotton Lycra Regular Fit Culotte Beige"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-black": [
+      {
+        "row": 85,
+        "handle": "l-culotte-16778-21722-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "CULOTTE",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTICATED",
+          "OPENING": "FRONT MOCK BUTTONS",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Black Cotton Lycra Regular Fit Culotte"
+      },
+      {
+        "row": 87,
+        "handle": "l-culotte-16778-21861-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "CULOTTE",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTICATED",
+          "OPENING": "ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Cotton Lycra Regular Fit Culotte Black"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-beige": [
+      {
+        "row": 129,
+        "handle": "l-pants-17080-21722-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "BACK ELASTIC",
+          "OPENING": "PULL ON",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Women's Beige Cotton Lycra Regular Fit Pant"
+      },
+      {
+        "row": 144,
+        "handle": "l-pants-17908-21722-beige",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LYCRA",
+          "FABRIC COMPOSITION": "97% COTTON 3% LYCRA SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BEIGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "FITTED WAIST",
+          "OPENING": "SIDE BUTTONS",
+          "LEG": "WIDE LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Beige Cotton Lycra Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-yellow": [
+      {
+        "row": 133,
+        "handle": "l-pants-17682-21737-yellow",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN VISCOSE",
+          "FABRIC COMPOSITION": "55% LINEN 45% VISCOSE SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "YELLOW",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTICATED WAIST WITH SIDE DRAWSTRINGS",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Yellow Linen Viscose Regular Fit Pant"
+      },
+      {
+        "row": 136,
+        "handle": "l-pants-17769-21737-yellow",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN VISCOSE",
+          "FABRIC COMPOSITION": "55% LINEN 45% VISCOSE SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "YELLOW",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Yellow Linen Viscose Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sage": [
+      {
+        "row": 135,
+        "handle": "l-pants-17769-21737-sage",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN VISCOSE",
+          "FABRIC COMPOSITION": "55% LINEN 45% VISCOSE SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SAGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Sage Linen Viscose Regular Fit Pant"
+      },
+      {
+        "row": 138,
+        "handle": "l-pants-17813-21737-sage",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN VISCOSE",
+          "FABRIC COMPOSITION": "55% LINEN 45% VISCOSE SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SAGE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTICATED",
+          "OPENING": "ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Sage Linen Viscose Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-pant-black": [
+      {
+        "row": 139,
+        "handle": "l-pants-17826-21824-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "1/2 ELASTIC",
+          "OPENING": "ZIP FLY",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Linen Regular Fit Pant"
+      },
+      {
+        "row": 149,
+        "handle": "l-pants-17940-21824-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "PATCH POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "FRONT OPEN",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Linen Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/womens-linen-regular-fit-pant-grey": [
+      {
+        "row": 146,
+        "handle": "l-pants-17934-21824-grey",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREY",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "1/2 ELASTIC",
+          "OPENING": "ZIP FLY",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Grey 100% Linen Regular Fit Pant"
+      },
+      {
+        "row": 152,
+        "handle": "l-pants-17972-21825-grey",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREY",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "ANKLE LENGTH",
+          "WAIST": "1/2 ELASTIC",
+          "OPENING": "ZIP FLY",
+          "LEG": "BARREL LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Grey 100% Linen Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-blue": [
+      {
+        "row": 155,
+        "handle": "l-pyjama-11960-21665-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "LOUNGE WEAR",
+          "TYPE": "PYJAMA",
+          "PRINT": "PRINT",
+          "FABRIC": "100% VISCOSE",
+          "FABRIC COMPOSITION": "100% VISCOSE PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT HEM"
+        },
+        "title": "Women's Blue 100% Viscose Regular Fit Pyjama"
+      },
+      {
+        "row": 158,
+        "handle": "l-pyjama-11960-21753-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "LOUNGE WEAR",
+          "TYPE": "PYJAMA",
+          "PRINT": "PRINT",
+          "FABRIC": "100% VISCOSE",
+          "FABRIC COMPOSITION": "100% VISCOSE PRINT WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Blue 100% Viscose Regular Fit Pyjama"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural": [
+      {
+        "row": 167,
+        "handle": "l-tshirt-11670-21679-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Natural 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 176,
+        "handle": "l-tshirt-16727-21678-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Natural 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 190,
+        "handle": "l-tshirt-17427-21725-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Natural 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 192,
+        "handle": "l-tshirt-17427-21789-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's 100% Organic Cotton Regular Fit Tshirt Natural"
+      }
+    ],
+    "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-ecru-melan": [
+      {
+        "row": 168,
+        "handle": "l-tshirt-11670-21682-ecru-melan",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "ECRU MELAN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Ecru Melan 100% Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 171,
+        "handle": "l-tshirt-11670-21689-ecru-melan",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "ECRU MELAN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Ecru Melan 100% Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black": [
+      {
+        "row": 169,
+        "handle": "l-tshirt-11670-21689-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 185,
+        "handle": "l-tshirt-17427-21628-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON STRIPE KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 194,
+        "handle": "l-tshirt-17427-21791-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's 100% Organic Cotton Regular Fit Tshirt Black"
+      },
+      {
+        "row": 197,
+        "handle": "l-tshirt-17427-21842-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 199,
+        "handle": "l-tshirt-17428-21725-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "EXTENDED SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 211,
+        "handle": "l-tshirt-17724-21792-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 215,
+        "handle": "l-tshirt-17780-21630-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON STRIPE KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green": [
+      {
+        "row": 172,
+        "handle": "l-tshirt-11670-21689-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Green 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 177,
+        "handle": "l-tshirt-16727-21681-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 186,
+        "handle": "l-tshirt-17427-21628-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON STRIPE KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 204,
+        "handle": "l-tshirt-17553-21628-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON STRIPE KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Green 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white": [
+      {
+        "row": 174,
+        "handle": "l-tshirt-11670-21689-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 178,
+        "handle": "l-tshirt-16727-21683-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 184,
+        "handle": "l-tshirt-17427-21617-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 195,
+        "handle": "l-tshirt-17427-21794-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 212,
+        "handle": "l-tshirt-17724-21793-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-wine": [
+      {
+        "row": 175,
+        "handle": "l-tshirt-11670-21689-wine",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WINE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Women's Wine 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 191,
+        "handle": "l-tshirt-17427-21725-wine",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WINE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Wine 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown": [
+      {
+        "row": 187,
+        "handle": "l-tshirt-17427-21725-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Brown 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 200,
+        "handle": "l-tshirt-17428-21725-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "EXTENDED SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Brown 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 202,
+        "handle": "l-tshirt-17523-21765-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "EXTENDED SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Brown 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-green": [
+      {
+        "row": 188,
+        "handle": "l-tshirt-17427-21725-dk-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "DK GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Dk Green 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 201,
+        "handle": "l-tshirt-17428-21725-dk-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "DK GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "EXTENDED SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT BOTTOM"
+        },
+        "title": "Women's Dk Green 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-red": [
+      {
+        "row": 198,
+        "handle": "l-tshirt-17427-21843-red",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "RED",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Red 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 205,
+        "handle": "l-tshirt-17553-21628-red",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "WOMEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "STRIPE",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON STRIPE KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "RED",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "SHORT SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Women's Red 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive": [
+      {
+        "row": 221,
+        "handle": "m-pants-11743-21487-olive",
+        "found": true,
+        "attrs": {},
+        "title": "Men's Olive 100% Linen Regular Fit Pant"
+      },
+      {
+        "row": 246,
+        "handle": "m-pants-17138-21773-olive",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "OLIVE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Olive 100% Linen Regular Fit Pant"
+      },
+      {
+        "row": 249,
+        "handle": "m-pants-18002-21773-olive",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "OLIVE",
+          "POCKET": "SIDE SEAM AND BACK POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "SIDE ELASTIC WITH BUTTON AND ZIPPER",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Olive 100% Linen Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-white": [
+      {
+        "row": 230,
+        "handle": "m-pants-13485-21772-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "50% COTTON 50% LINEN WOVEN SOLID",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "MID WAIST",
+          "OPENING": "DRAWSTRING",
+          "LEG": "STRAIGHT LEG",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's White Cotton Linen Regular Fit Pant"
+      },
+      {
+        "row": 241,
+        "handle": "m-pants-16480-21752-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "80% COTTON 20% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "SIDE SEAM AND BACK POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "WITH BELT LOOPS",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "REGULAR LEG",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's White Cotton Linen Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural": [
+      {
+        "row": 245,
+        "handle": "m-pants-17138-21773-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Natural 100% Linen Regular Fit Pant"
+      },
+      {
+        "row": 248,
+        "handle": "m-pants-18002-21773-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "PANTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "SIDE SEAM AND BACK POCKETS",
+          "LENGTH": "FULL LENGTH",
+          "WAIST": "SIDE ELASTIC WITH BUTTON AND ZIPPER",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Natural 100% Linen Regular Fit Pant"
+      }
+    ],
+    "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-green": [
+      {
+        "row": 251,
+        "handle": "m-shirts-10521-21784-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "TENCEL LINEN",
+          "FABRIC COMPOSITION": "65% TENCEL 35% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND NECK",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Green Tencel Linen Regular Fit Shirt"
+      },
+      {
+        "row": 312,
+        "handle": "m-shirts-50019-21704-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "PRINT",
+          "FABRIC": "TENCEL LINEN",
+          "FABRIC COMPOSITION": "65% TENCEL 35% LINEN WOVEN PRINT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "FOLDED PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Green Tencel Linen Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black": [
+      {
+        "row": 254,
+        "handle": "m-shirts-13484-21610-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "BUTTON FRONT",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Black 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 255,
+        "handle": "m-shirts-13484-21611-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Black 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white": [
+      {
+        "row": 256,
+        "handle": "m-shirts-13484-21611-offwhite",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "OFFWHITE",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Offwhite 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 262,
+        "handle": "m-shirts-13484-21732-offwhite",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "OFFWHITE",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Offwhite 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 286,
+        "handle": "m-shirts-17906-21633-offwhite",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "OFFWHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND V NECK",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT WITH SIDE SLIT"
+        },
+        "title": "Men's Offwhite 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sand": [
+      {
+        "row": 259,
+        "handle": "m-shirts-13484-21713-sand",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SAND",
+          "POCKET": "ONE  POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Sand"
+      },
+      {
+        "row": 263,
+        "handle": "m-shirts-13484-21732-sand",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SAND",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Sand 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sky": [
+      {
+        "row": 260,
+        "handle": "m-shirts-13484-21713-sky",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SKY",
+          "POCKET": "ONE  POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Sky"
+      },
+      {
+        "row": 292,
+        "handle": "m-shirts-50011-21808-sky",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SKY",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Sky"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green": [
+      {
+        "row": 261,
+        "handle": "m-shirts-13484-21732-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Green 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 293,
+        "handle": "m-shirts-50011-21809-green",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "GREEN",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Green"
+      },
+      {
+        "row": 304,
+        "handle": "m-shirts-50019-21612-green",
+        "found": true,
+        "attrs": {},
+        "title": "Men's Green 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 319,
+        "handle": "m-shirts-50020-21612-green",
+        "found": true,
+        "attrs": {},
+        "title": "Men's Green 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy": [
+      {
+        "row": 264,
+        "handle": "m-shirts-13484-21806-navy",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NAVY",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Navy"
+      },
+      {
+        "row": 285,
+        "handle": "m-shirts-17887-21662-navy",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NAVY",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "BAND COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Navy 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 294,
+        "handle": "m-shirts-50011-21809-navy",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "CHECK",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON CHECK WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NAVY",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's 100% Cotton Regular Fit Shirt Navy"
+      },
+      {
+        "row": 305,
+        "handle": "m-shirts-50019-21612-navy",
+        "found": true,
+        "attrs": {},
+        "title": "Men's Navy 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 320,
+        "handle": "m-shirts-50020-21612-navy",
+        "found": true,
+        "attrs": {},
+        "title": "Men's Navy 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural": [
+      {
+        "row": 265,
+        "handle": "m-shirts-16162-21745-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Natural 100% Linen Regular Fit Shirt"
+      },
+      {
+        "row": 317,
+        "handle": "m-shirts-50019-21742-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Natural 100% Linen Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white": [
+      {
+        "row": 269,
+        "handle": "m-shirts-16731-21614-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "55% LINEN 45% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "BAND COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "DETAILED PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's White Linen Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 271,
+        "handle": "m-shirts-17214-21614-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "55% LINEN 45% COTTON WOVEN SOLID",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "NECKCOLLOR": "HOODED",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "HALF OPEN WITH BUTTONS",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's White Linen Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 274,
+        "handle": "m-shirts-17351-21614-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "55% LINEN 45% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "2 FLAP POCKETS",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's White Linen Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy": [
+      {
+        "row": 270,
+        "handle": "m-shirts-17214-21614-navy",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "55% LINEN 45% COTTON WOVEN SOLID",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NAVY",
+          "POCKET": "SIDE SEAM POCKETS",
+          "NECKCOLLOR": "HOODED",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "HALF OPEN WITH BUTTONS",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Navy Linen Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 282,
+        "handle": "m-shirts-17819-21614-navy",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "LINEN COTTON",
+          "FABRIC COMPOSITION": "55% LINEN 45% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NAVY",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "PULL ON WITH BUTTON DETAIL",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Navy Linen Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink": [
+      {
+        "row": 289,
+        "handle": "m-shirts-50006-21738-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "BUTTON DOWN COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Pink 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 298,
+        "handle": "m-shirts-50015-21731-pink",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "PINK",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "BAND COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "FOLDED PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Pink 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-lilac": [
+      {
+        "row": 290,
+        "handle": "m-shirts-50006-21739-lilac",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "LILAC",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "BUTTON DOWN COLLAR",
+          "SLEEVE": "FULL SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Lilac Oxford 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "row": 332,
+        "handle": "m-shirts-50021-21739-lilac",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% COTTON",
+          "FABRIC COMPOSITION": "100% COTTON SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "LILAC",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "BUTTON DOWN COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Lilac Oxford 100% Cotton Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-linen-regular-fit-shirt-sky": [
+      {
+        "row": 318,
+        "handle": "m-shirts-50019-21743-sky",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SKY",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Sky 100% Linen Regular Fit Shirt"
+      },
+      {
+        "row": 328,
+        "handle": "m-shirts-50020-21743-sky",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "SHIRTS",
+          "PRINT": "SOLID",
+          "FABRIC": "100% LINEN",
+          "FABRIC COMPOSITION": "100% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "SKY",
+          "POCKET": "ONE POCKET",
+          "NECKCOLLOR": "REGULAR COLLAR",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "REGULAR PLACKET",
+          "HEMLINE": "ROUND HEM"
+        },
+        "title": "Men's Sky 100% Linen Regular Fit Shirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural": [
+      {
+        "row": 335,
+        "handle": "m-shorts-16367-21752-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHORTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "80% COTTON 20% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "KNEE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "REGULAR LEG",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Natural Cotton Linen Regular Fit Shorts"
+      },
+      {
+        "row": 340,
+        "handle": "m-shorts-17178-21772-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHORTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "50% COTTON 50% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "KNEE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's Natural Cotton Linen Regular Fit Shorts"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white": [
+      {
+        "row": 337,
+        "handle": "m-shorts-16367-21752-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHORTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "80% COTTON 20% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "KNEE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "DRAWSTRING WITH ELASTIC",
+          "LEG": "REGULAR LEG",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's White Cotton Linen Regular Fit Shorts"
+      },
+      {
+        "row": 341,
+        "handle": "m-shorts-17178-21772-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "SHORTS",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON LINEN",
+          "FABRIC COMPOSITION": "50% COTTON 50% LINEN SOLID WOVEN",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "SIDE SEAM POCKETS",
+          "LENGTH": "KNEE LENGTH",
+          "WAIST": "ELASTIC WAIST WITH DRAWSTRING",
+          "OPENING": "BUTTON AND ZIP",
+          "LEG": "",
+          "HEMLINE BOTTOM": "FOLDED HEM"
+        },
+        "title": "Men's White Cotton Linen Regular Fit Shorts"
+      }
+    ],
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black": [
+      {
+        "row": 344,
+        "handle": "m-tshirt-15906-21725-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 353,
+        "handle": "m-tshirt-16319-21767-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "PRINT",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON PRINT KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 358,
+        "handle": "m-tshirt-16319-21841-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "PRINT",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON PRINT KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's 100% Organic Cotton Regular Fit Tshirt Black"
+      }
+    ],
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue": [
+      {
+        "row": 345,
+        "handle": "m-tshirt-15906-21725-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Blue 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 354,
+        "handle": "m-tshirt-16319-21768-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "PRINT",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON PRINT KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Blue 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 355,
+        "handle": "m-tshirt-16319-21769-blue-1",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "PRINT",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON PRINT KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Blue 1 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 383,
+        "handle": "m-tshirt-17444-21765-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Blue 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 389,
+        "handle": "m-tshirt-17810-21657-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM WITH SLITS"
+        },
+        "title": "Men's Blue 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 395,
+        "handle": "m-tshirt-17977-21832-blue",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BLUE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO COLLAR",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "HALF OPEN",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's 100% Organic Cotton Regular Fit Tshirt Blue"
+      }
+    ],
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown": [
+      {
+        "row": 346,
+        "handle": "m-tshirt-15906-21725-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Brown 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 384,
+        "handle": "m-tshirt-17444-21765-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Brown 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white": [
+      {
+        "row": 351,
+        "handle": "m-tshirt-15906-21725-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "row": 357,
+        "handle": "m-tshirt-16319-21803-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "PRINT",
+          "FABRIC": "100% ORGANIC COTTON",
+          "FABRIC COMPOSITION": "100% ORGANIC COTTON PRINT KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's 100% Organic Cotton Regular Fit Tshirt White"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-white": [
+      {
+        "row": 365,
+        "handle": "m-tshirt-17091-21646-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's White Cotton Bamboo Elastane Regular Fit Tshirt"
+      },
+      {
+        "row": 387,
+        "handle": "m-tshirt-17656-21723-white",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "WHITE",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's White Cotton Bamboo Elastane Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brown": [
+      {
+        "row": 369,
+        "handle": "m-tshirt-17091-21723-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Brown Cotton Bamboo Elastane Regular Fit Tshirt"
+      },
+      {
+        "row": 379,
+        "handle": "m-tshirt-17093-21723-brown",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "BROWN",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "HALF OPEN WITH 02 BUTTONS",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Brown Cotton Bamboo Elastane Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-natural": [
+      {
+        "row": 371,
+        "handle": "m-tshirt-17091-21723-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "BASIC ROUND NECK",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Natural Cotton Bamboo Elastane Regular Fit Tshirt"
+      },
+      {
+        "row": 381,
+        "handle": "m-tshirt-17093-21723-natural",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "NATURAL",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "HALF OPEN WITH 02 BUTTONS",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Natural Cotton Bamboo Elastane Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender": [
+      {
+        "row": 380,
+        "handle": "m-tshirt-17093-21723-lavender",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "LAVENDER",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO",
+          "SLEEVE": "HALF SLEEVE",
+          "OPENING": "HALF OPEN WITH 02 BUTTONS",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Lavender Cotton Bamboo Elastane Regular Fit Tshirt"
+      },
+      {
+        "row": 386,
+        "handle": "m-tshirt-17656-21723-lavender",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON BAMBOO ELASTANE",
+          "FABRIC COMPOSITION": "49% COTTON 46% BAMBOO 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "REGULAR FIT",
+          "COLOR": "LAVENDER",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "FULL SLEEVE",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Lavender Cotton Bamboo Elastane Regular Fit Tshirt"
+      }
+    ],
+    "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-black": [
+      {
+        "row": 390,
+        "handle": "m-tshirt-17927-21740-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON ELASTANE",
+          "FABRIC COMPOSITION": "95% COTTON 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "SLIM FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "ROUND NECK",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "PULL ON",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Black Cotton Elastane Slim Fit Tshirt"
+      },
+      {
+        "row": 392,
+        "handle": "m-tshirt-17928-21740-black",
+        "found": true,
+        "attrs": {
+          "BRAND": "COTTONWORLD",
+          "CATEGORY": "MEN",
+          "OCCASION": "CASUAL WEAR",
+          "TYPE": "TSHIRT",
+          "PRINT": "SOLID",
+          "FABRIC": "COTTON ELASTANE",
+          "FABRIC COMPOSITION": "95% COTTON 5% ELASTANE SOLID KNIT",
+          "FIT TYPE": "SLIM FIT",
+          "COLOR": "BLACK",
+          "POCKET": "NO POCKETS",
+          "NECKCOLLOR": "POLO",
+          "SLEEVE": "HALF SLEEVES",
+          "OPENING": "HALF OPEN WITH 02 BUTTONS",
+          "HEMLINE": "STRAIGHT HEM"
+        },
+        "title": "Men's Black Cotton Elastane Slim Fit Tshirt"
+      }
+    ]
+  },
+  "summary": {
+    "groups": 60,
+    "complete_groups": 54,
+    "fully_distinct_attribute_groups": 46,
+    "indistinct_complete_groups": [
+      {
+        "rows": [
+          27,
+          28,
+          77
+        ],
+        "title": "Women's Beige 100% Linen Boxy Fit Blouse"
+      },
+      {
+        "rows": [
+          169,
+          185,
+          194,
+          197,
+          199,
+          211,
+          215
+        ],
+        "title": "Women's Black 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "rows": [
+          172,
+          177,
+          186,
+          204
+        ],
+        "title": "Women's Green 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "rows": [
+          174,
+          178,
+          184,
+          195,
+          212
+        ],
+        "title": "Women's White 100% Organic Cotton Regular Fit Tshirt"
+      },
+      {
+        "rows": [
+          256,
+          262,
+          286
+        ],
+        "title": "Men's Offwhite 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "rows": [
+          261,
+          293,
+          304,
+          319
+        ],
+        "title": "Men's Green 100% Cotton Regular Fit Shirt"
+      },
+      {
+        "rows": [
+          264,
+          285,
+          294,
+          305,
+          320
+        ],
+        "title": "Men's 100% Cotton Regular Fit Shirt Navy"
+      },
+      {
+        "rows": [
+          345,
+          354,
+          355,
+          383,
+          389,
+          395
+        ],
+        "title": "Men's Blue 100% Organic Cotton Regular Fit Tshirt"
+      }
+    ],
+    "incomplete_groups": [
+      {
+        "rows": [
+          12,
+          73
+        ],
+        "missing": [
+          12
+        ]
+      },
+      {
+        "rows": [
+          13,
+          31,
+          74
+        ],
+        "missing": [
+          13,
+          74
+        ]
+      },
+      {
+        "rows": [
+          14,
+          21
+        ],
+        "missing": [
+          14
+        ]
+      },
+      {
+        "rows": [
+          26,
+          78,
+          79
+        ],
+        "missing": [
+          26,
+          78,
+          79
+        ]
+      },
+      {
+        "rows": [
+          29,
+          72
+        ],
+        "missing": [
+          72
+        ]
+      },
+      {
+        "rows": [
+          39,
+          68
+        ],
+        "missing": [
+          39,
+          68
+        ]
+      }
+    ]
+  }
+}
