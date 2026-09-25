@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-09-25T13:43:01Z",
+  "sources": [
+    {
+      "source_id": "collection_page_example",
+      "source_type": "google_doc_example",
+      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "title": "Men's T-Shirt Collection Page",
+      "facts": [
+        "Example structure includes a search-focused page title, collection introduction, scannable subheadings, FAQs and related collection links.",
+        "Unverified fabric performance and sustainability claims in the example were not carried forward."
+      ]
+    },
+    {
+      "source_id": "women_tshirts_collection_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/women-tshirts",
+      "http_status": 200,
+      "facts": [
+        "Live collection heading: Women's T-Shirts; no visible descriptive collection copy was extracted.",
+        "Representative current listings include 100% organic cotton and cotton-elastane T-shirts.",
+        "Representative current listings include regular fit, round neck and half sleeves.",
+        "The collection provides filters including fabric type, fit, neck collar and sleeve type."
+      ]
+    },
+    {
+      "source_id": "women_organic_cotton_tshirt_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive",
+      "http_status": 200,
+      "facts": [
+        "Product page identifies a women's 100% organic cotton regular-fit T-shirt.",
+        "The product has a round neck, half sleeves, solid knit fabric, pull-on opening and straight hem.",
+        "Care instructions say machine wash cold, wash dark colours separately, do not bleach, remove promptly and dry in shade."
+      ]
+    },
+    {
+      "source_id": "brand_context",
+      "source_type": "brand_dna",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "facts": [
+        "Cottonworld's voice is calm, warm, plain and reassuring.",
+        "Brand guidance says life comes first and clothing enters as quiet, practical support.",
+        "Cottonworld's merchandising taxonomy includes women's T-shirts, tops, pants and natural-fabric ranges."
+      ]
+    },
+    {
+      "source_id": "women_tops_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "facts": ["Live women's tops collection page is available for contextual navigation."]
+    },
+    {
+      "source_id": "women_pants_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "http_status": 200,
+      "facts": ["Live women's pants collection page is available for contextual navigation."]
+    },
+    {
+      "source_id": "women_linen_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/all-linen-womens",
+      "http_status": 200,
+      "facts": ["Live women's linen collection page is available for contextual navigation."]
+    }
+  ]
+}
