@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "claim_type": "best_top",
+      "source_ids": ["women_tops_collection_live"],
+      "note": "The word 'tops' is used only as the site's collection category label, not to claim superiority or ranking."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-25T13:16:49+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-25T13:13:27+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/women-tops-1"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld's voice is calm, warm, plain and reassuring.",
+        "Brand guidance says life comes first and clothing enters as quiet, practical support.",
+        "The brand's taxonomy includes women's tops, shirts, pants and related natural-fabric collections."
+      ],
+      "source_id": "brand_context",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Live heading: Women's Tops.",
+        "Current product selection includes 100% cotton, 100% linen, linen-cotton and cotton-silk items.",
+        "The page's product filters include regular, boxy and A-line fit labels; multiple neckline and sleeve options are listed.",
+        "The current collection page has no visible descriptive collection copy."
+      ],
+      "source_id": "women_tops_collection_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-tops-phase-1-source-capture-20260925.json; https://cottonworld.net/collections/women-tops-1",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Product page identifies a women's 100% linen relaxed-fit blouse.",
+        "The item has a shirt collar, half sleeves, front opening, front pocket and curved hem.",
+        "Care instructions can vary by garment, so this content directs readers to the individual product page."
+      ],
+      "source_id": "women_linen_blouse_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-tops-phase-1-source-capture-20260925.json; https://cottonworld.net/products/l-blouse-17909-21775-orange",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The linked women's T-shirt collection page returned HTTP 200."
+      ],
+      "source_id": "women_tshirts_live",
+      "source_ref": "https://cottonworld.net/collections/women-tshirts",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The linked women's pants collection page returned HTTP 200."
+      ],
+      "source_id": "women_pants_live",
+      "source_ref": "https://cottonworld.net/collections/womens-pants",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The linked women's linen collection page returned HTTP 200."
+      ],
+      "source_id": "women_linen_live",
+      "source_ref": "https://cottonworld.net/collections/all-linen-womens",
+      "source_type": "product_page"
+    }
+  ]
+}

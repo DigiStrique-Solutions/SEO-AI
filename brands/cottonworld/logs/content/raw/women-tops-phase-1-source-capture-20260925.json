@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-09-25T13:13:27Z",
+  "sources": [
+    {
+      "source_id": "collection_page_example",
+      "source_type": "google_doc_example",
+      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "title": "Men's T-Shirt Collection Page",
+      "facts": [
+        "Example structure includes a search-focused page title, collection introduction, scannable subheadings, FAQs and related collection links.",
+        "Unverified fabric performance and sustainability claims in the example were not carried forward."
+      ]
+    },
+    {
+      "source_id": "women_tops_collection_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "facts": [
+        "Live heading: Women's Tops.",
+        "Current product selection includes 100% cotton, 100% linen, linen-cotton and cotton-silk items.",
+        "The page's product filters include regular, boxy and A-line fit labels; multiple neckline and sleeve options are listed.",
+        "The current collection page has no visible descriptive collection copy."
+      ]
+    },
+    {
+      "source_id": "women_linen_blouse_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/products/l-blouse-17909-21775-orange",
+      "http_status": 200,
+      "facts": [
+        "Product page identifies a women's 100% linen relaxed-fit blouse.",
+        "The item has a shirt collar, half sleeves, front opening, front pocket and curved hem.",
+        "Care instructions say machine wash cold, wash dark colours separately, do not bleach, remove promptly and dry in shade."
+      ]
+    },
+    {
+      "source_id": "brand_context",
+      "source_type": "brand_dna",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "facts": [
+        "Cottonworld's voice is calm, warm, plain and reassuring.",
+        "Brand guidance says life comes first and clothing enters as quiet, practical support.",
+        "The brand's taxonomy includes women's tops, shirts, pants and related natural-fabric collections."
+      ]
+    },
+    {
+      "source_id": "women_tshirts_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/women-tshirts",
+      "http_status": 200,
+      "facts": ["Live women's T-shirt collection page is available for contextual navigation."]
+    },
+    {
+      "source_id": "women_pants_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "http_status": 200,
+      "facts": ["Live women's pants collection page is available for contextual navigation."]
+    },
+    {
+      "source_id": "women_linen_live",
+      "source_type": "product_page",
+      "url": "https://cottonworld.net/collections/all-linen-womens",
+      "http_status": 200,
+      "facts": ["Live women's linen collection page is available for contextual navigation."]
+    }
+  ]
+}
