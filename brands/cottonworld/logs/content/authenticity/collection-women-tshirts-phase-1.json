@@ -2,18 +2,18 @@
   "claims": [],
   "detector_notes": [
     {
-      "checked_at": "2026-09-25T13:44:21+00:00",
+      "checked_at": "2026-09-25T15:05:47+00:00",
       "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
       "max_score": 20.0,
       "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
-      "score": 6.0,
+      "score": 6.08,
       "source": "local_fallback",
       "status": "pass",
       "tool": "zerogpt"
     }
   ],
   "metadata": {
-    "created_at": "2026-09-25T13:43:01+00:00",
+    "created_at": "2026-09-25T14:23:58+00:00",
     "required_ai_text_risk_skill": "ai-text-risk-gate",
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
@@ -26,7 +26,7 @@
       "extracted_facts": [
         "Cottonworld's voice is calm, warm, plain and reassuring.",
         "Brand guidance says life comes first and clothing enters as quiet, practical support.",
-        "Cottonworld's merchandising taxonomy includes women's T-shirts, tops, pants and natural-fabric ranges."
+        "Cottonworld's merchandising taxonomy includes women's T-shirts, tops, pants, travel and natural-fabric categories."
       ],
       "source_id": "brand_context",
       "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
@@ -34,10 +34,10 @@
     },
     {
       "extracted_facts": [
-        "Live collection heading: Women's T-Shirts; no visible descriptive collection copy was extracted.",
-        "Representative current listings include 100% organic cotton and cotton-elastane T-shirts.",
-        "Representative current listings include regular fit, round neck and half sleeves.",
-        "The collection provides filters including fabric type, fit, neck collar and sleeve type."
+        "Live heading: Women's T-Shirts; no visible descriptive collection copy was extracted.",
+        "Current filters list cotton, organic cotton, bamboo, cotton blends and cotton stretch.",
+        "Current fit filters include regular, loose, slim and relaxed; neckline and sleeve filters include additional choices.",
+        "The collection filter lists a range of color options, including white, black, olive, red, navy and wine."
       ],
       "source_id": "women_tshirts_collection_live",
       "source_ref": "brands/cottonworld/logs/content/raw/womens-tshirts-phase-1-source-capture-20260925.json; https://cottonworld.net/collections/women-tshirts",
@@ -46,12 +46,21 @@
     {
       "extracted_facts": [
         "Product page identifies a women's 100% organic cotton regular-fit T-shirt.",
-        "The product has a round neck, half sleeves, solid knit fabric, pull-on opening and straight hem.",
-        "Care instructions can vary by garment, so this content directs readers to the individual product page."
+        "The product lists a round neck, half sleeves, solid knit fabric, pull-on opening and straight hem.",
+        "Its care instructions say machine wash cold, dark colours separately, no bleach, remove promptly and dry in shade."
       ],
       "source_id": "women_organic_cotton_tshirt_live",
       "source_ref": "brands/cottonworld/logs/content/raw/womens-tshirts-phase-1-source-capture-20260925.json; https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive",
       "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "User asked for comparable depth and section coverage to the supplied example, measured at about 1,431 words with nine topic sections and scannable lists.",
+        "The example was used for structure and depth; its unsupported claims were not used as product facts."
+      ],
+      "source_id": "collection_page_example",
+      "source_ref": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "source_type": "human_context"
     },
     {
       "extracted_facts": [

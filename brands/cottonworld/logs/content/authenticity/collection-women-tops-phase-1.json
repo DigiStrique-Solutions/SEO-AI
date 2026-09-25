@@ -2,13 +2,15 @@
   "claims": [
     {
       "claim_type": "best_top",
-      "source_ids": ["women_tops_collection_live"],
-      "note": "The word 'tops' is used only as the site's collection category label, not to claim superiority or ranking."
+      "note": "The words 'women's tops' and 'top' identify the site's collection category and garments; no ranking or superiority claim is made.",
+      "source_ids": [
+        "women_tops_collection_live"
+      ]
     }
   ],
   "detector_notes": [
     {
-      "checked_at": "2026-09-25T13:16:49+00:00",
+      "checked_at": "2026-09-25T15:05:47+00:00",
       "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
       "max_score": 20.0,
       "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
@@ -19,7 +21,7 @@
     }
   ],
   "metadata": {
-    "created_at": "2026-09-25T13:13:27+00:00",
+    "created_at": "2026-09-25T14:23:58+00:00",
     "required_ai_text_risk_skill": "ai-text-risk-gate",
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
@@ -32,7 +34,7 @@
       "extracted_facts": [
         "Cottonworld's voice is calm, warm, plain and reassuring.",
         "Brand guidance says life comes first and clothing enters as quiet, practical support.",
-        "The brand's taxonomy includes women's tops, shirts, pants and related natural-fabric collections."
+        "The brand's taxonomy includes women's tops, shirts, pants, work, travel, brunch and natural-fabric categories."
       ],
       "source_id": "brand_context",
       "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
@@ -40,10 +42,10 @@
     },
     {
       "extracted_facts": [
-        "Live heading: Women's Tops.",
-        "Current product selection includes 100% cotton, 100% linen, linen-cotton and cotton-silk items.",
-        "The page's product filters include regular, boxy and A-line fit labels; multiple neckline and sleeve options are listed.",
-        "The current collection page has no visible descriptive collection copy."
+        "Live heading: Women's Tops; no visible descriptive collection copy was extracted.",
+        "Current listings and filters include cotton, linen, linen-cotton, cotton-silk, viscose, Tencel, modal and blended fabric options.",
+        "Current fit labels include regular, boxy and A-line; some product listings identify relaxed fit.",
+        "The page lists a range of colors, patterns, necklines, collars and sleeve details."
       ],
       "source_id": "women_tops_collection_live",
       "source_ref": "brands/cottonworld/logs/content/raw/women-tops-phase-1-source-capture-20260925.json; https://cottonworld.net/collections/women-tops-1",
@@ -52,12 +54,21 @@
     {
       "extracted_facts": [
         "Product page identifies a women's 100% linen relaxed-fit blouse.",
-        "The item has a shirt collar, half sleeves, front opening, front pocket and curved hem.",
-        "Care instructions can vary by garment, so this content directs readers to the individual product page."
+        "The item lists a shirt collar, half sleeves, front opening, front pocket and curved hem.",
+        "Its care instructions say machine wash cold, dark colours separately, no bleach, remove promptly and dry in shade."
       ],
       "source_id": "women_linen_blouse_live",
       "source_ref": "brands/cottonworld/logs/content/raw/women-tops-phase-1-source-capture-20260925.json; https://cottonworld.net/products/l-blouse-17909-21775-orange",
       "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "User asked for comparable depth and section coverage to the supplied example, measured at about 1,431 words with nine topic sections and scannable lists.",
+        "The example was used for structure and depth; its unsupported claims were not used as product facts."
+      ],
+      "source_id": "collection_page_example",
+      "source_ref": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "source_type": "human_context"
     },
     {
       "extracted_facts": [
@@ -81,6 +92,14 @@
       ],
       "source_id": "women_linen_live",
       "source_ref": "https://cottonworld.net/collections/all-linen-womens",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The linked women's dresses and jumpsuits collection page returned HTTP 200."
+      ],
+      "source_id": "women_dresses_live",
+      "source_ref": "https://cottonworld.net/collections/women-dresses-jumpsuits",
       "source_type": "product_page"
     }
   ]

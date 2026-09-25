@@ -1,26 +1,45 @@
 {
-  "captured_at": "2026-09-25T13:13:27Z",
+  "captured_at": "2026-09-25T14:23:58Z",
+  "reference": {
+    "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+    "title": "Men's T-Shirt Collection Page",
+    "tab_tree": [{"tab_id": "t.0", "title": "Tab 1", "order": 0, "parent": null}],
+    "word_count": 1431,
+    "headings": [
+      "Explore Our Collection",
+      "Why Natural Fabrics Matter",
+      "Shop by Colour",
+      "Styling Guide",
+      "Fabric for the Season",
+      "Care Guide",
+      "Complete Your Look",
+      "FAQs"
+    ],
+    "list_paragraphs": 24,
+    "heading_signature": "HEADING_3, 13 pt, bold",
+    "notes": "Used as a depth and section-coverage example. Unsupported product-performance, sustainability and superlative claims were not carried over."
+  },
   "sources": [
-    {
-      "source_id": "collection_page_example",
-      "source_type": "google_doc_example",
-      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
-      "title": "Men's T-Shirt Collection Page",
-      "facts": [
-        "Example structure includes a search-focused page title, collection introduction, scannable subheadings, FAQs and related collection links.",
-        "Unverified fabric performance and sustainability claims in the example were not carried forward."
-      ]
-    },
     {
       "source_id": "women_tops_collection_live",
       "source_type": "product_page",
       "url": "https://cottonworld.net/collections/women-tops-1",
       "http_status": 200,
-      "facts": [
-        "Live heading: Women's Tops.",
-        "Current product selection includes 100% cotton, 100% linen, linen-cotton and cotton-silk items.",
-        "The page's product filters include regular, boxy and A-line fit labels; multiple neckline and sleeve options are listed.",
-        "The current collection page has no visible descriptive collection copy."
+      "heading": "Women's Tops",
+      "visible_collection_copy": "No descriptive collection copy was extracted.",
+      "colors": ["Beige", "Black", "Blue", "Brown", "Chambray Blue", "Coral", "Denim", "Green", "Grey", "Ivory", "Khaki", "Lilac", "Maroon", "Multi", "Mustard", "Natural/Black", "Offwhite", "Olive", "Orange", "Peach", "Pink", "Red", "Rose", "Rust", "Sage", "White", "Yellow"],
+      "fabrics": ["Viscose", "Tencel", "100% Cotton", "100% Linen", "Modal", "Linen Blend", "Cotton Blend", "Cotton Stretch"],
+      "fits": ["Regular Fit", "Boxy Fit", "A line"],
+      "necklines": ["Round Neck", "Regular Collar", "Band Collar", "Shawl Collar", "V Neck", "Boat Neck"],
+      "sleeves": ["Full Sleeves", "Half Sleeves", "3/4 Sleeve", "Sleeveless", "Raglan Sleeves", "Elasticated Sleeves", "Extended Sleeves", "Straps"],
+      "patterns": ["Solid", "Print", "Striped", "Checked", "Hakoba", "Dobby"],
+      "representative_products": [
+        "Pink Linen Cotton Regular Fit Blouse",
+        "Pink 100% Cotton Regular Fit Blouse",
+        "Chambray Blue 100% Linen Regular Fit Blouse",
+        "Cotton Silk Boxy Fit Blouse Yellow",
+        "Coral 100% Linen Boxy Fit Blouse",
+        "Blue 100% Viscose Regular Fit Blouse"
       ]
     },
     {
@@ -30,8 +49,8 @@
       "http_status": 200,
       "facts": [
         "Product page identifies a women's 100% linen relaxed-fit blouse.",
-        "The item has a shirt collar, half sleeves, front opening, front pocket and curved hem.",
-        "Care instructions say machine wash cold, wash dark colours separately, do not bleach, remove promptly and dry in shade."
+        "The item lists a shirt collar, half sleeves, front opening, front pocket and curved hem.",
+        "Care instructions say machine wash cold, dark colours separately, no bleach, remove promptly and dry in shade."
       ]
     },
     {
@@ -41,29 +60,12 @@
       "facts": [
         "Cottonworld's voice is calm, warm, plain and reassuring.",
         "Brand guidance says life comes first and clothing enters as quiet, practical support.",
-        "The brand's taxonomy includes women's tops, shirts, pants and related natural-fabric collections."
+        "The brand's taxonomy includes women's tops, shirts, pants, work, travel, brunch, summer and natural-fabric categories."
       ]
     },
-    {
-      "source_id": "women_tshirts_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/women-tshirts",
-      "http_status": 200,
-      "facts": ["Live women's T-shirt collection page is available for contextual navigation."]
-    },
-    {
-      "source_id": "women_pants_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/womens-pants",
-      "http_status": 200,
-      "facts": ["Live women's pants collection page is available for contextual navigation."]
-    },
-    {
-      "source_id": "women_linen_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/all-linen-womens",
-      "http_status": 200,
-      "facts": ["Live women's linen collection page is available for contextual navigation."]
-    }
+    {"source_id":"women_tshirts_live","source_type":"product_page","url":"https://cottonworld.net/collections/women-tshirts","http_status":200,"facts":["Live women's T-shirt collection page is available for contextual navigation."]},
+    {"source_id":"women_pants_live","source_type":"product_page","url":"https://cottonworld.net/collections/womens-pants","http_status":200,"facts":["Live women's pants collection page is available for contextual navigation."]},
+    {"source_id":"women_linen_live","source_type":"product_page","url":"https://cottonworld.net/collections/all-linen-womens","http_status":200,"facts":["Live women's linen collection page is available for contextual navigation."]},
+    {"source_id":"women_dresses_live","source_type":"product_page","url":"https://cottonworld.net/collections/women-dresses-jumpsuits","http_status":200,"facts":["Live women's dresses and jumpsuits collection page is available for contextual navigation."]}
   ]
 }

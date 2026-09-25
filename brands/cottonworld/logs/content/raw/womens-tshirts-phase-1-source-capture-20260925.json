@@ -1,26 +1,44 @@
 {
-  "captured_at": "2026-09-25T13:43:01Z",
+  "captured_at": "2026-09-25T14:23:58Z",
+  "reference": {
+    "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+    "title": "Men's T-Shirt Collection Page",
+    "tab_tree": [{"tab_id": "t.0", "title": "Tab 1", "order": 0, "parent": null}],
+    "word_count": 1431,
+    "headings": [
+      "Explore Our Collection",
+      "Why Natural Fabrics Matter",
+      "Shop by Colour",
+      "Styling Guide",
+      "Fabric for the Season",
+      "Care Guide",
+      "Complete Your Look",
+      "FAQs"
+    ],
+    "list_paragraphs": 24,
+    "heading_signature": "HEADING_3, 13 pt, bold",
+    "notes": "Used as a depth and section-coverage example. Unsupported product-performance, sustainability and superlative claims were not carried over."
+  },
   "sources": [
-    {
-      "source_id": "collection_page_example",
-      "source_type": "google_doc_example",
-      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
-      "title": "Men's T-Shirt Collection Page",
-      "facts": [
-        "Example structure includes a search-focused page title, collection introduction, scannable subheadings, FAQs and related collection links.",
-        "Unverified fabric performance and sustainability claims in the example were not carried forward."
-      ]
-    },
     {
       "source_id": "women_tshirts_collection_live",
       "source_type": "product_page",
       "url": "https://cottonworld.net/collections/women-tshirts",
       "http_status": 200,
-      "facts": [
-        "Live collection heading: Women's T-Shirts; no visible descriptive collection copy was extracted.",
-        "Representative current listings include 100% organic cotton and cotton-elastane T-shirts.",
-        "Representative current listings include regular fit, round neck and half sleeves.",
-        "The collection provides filters including fabric type, fit, neck collar and sleeve type."
+      "heading": "Women's T-Shirts",
+      "visible_collection_copy": "No descriptive collection copy was extracted.",
+      "colors": ["Black", "Blue", "Brown", "Dark Brown", "Dark Green", "Dark Olive", "Ecru Melange", "Green", "Grey", "Khaki", "Lavender", "Light Blue", "Light Green", "Mustard", "Natural", "Navy", "Olive", "Pink", "Purple", "Red", "Rust", "Teal Blue", "Violet", "White", "Wine"],
+      "fabrics": ["Cotton", "100% Cotton", "Bamboo", "100% Organic Cotton", "Cotton Blend", "Cotton Stretch"],
+      "fits": ["Regular Fit", "Loose Fit", "Slim Fit", "Relax Fit"],
+      "necklines": ["Round Neck", "Polo Collar", "Boat Neck", "Hooded"],
+      "sleeves": ["Full Sleeves", "Half Sleeves", "Elasticated Sleeves", "Extended Sleeves"],
+      "representative_products": [
+        "Dk Olive 100% Organic Cotton Regular Fit Tshirt, round neck, half sleeves",
+        "Wine Cotton Elastane Regular Fit Tshirt, round neck, half sleeves",
+        "White 100% Organic Cotton Regular Fit Tshirt, round neck, half sleeves",
+        "Black 100% Organic Cotton Regular Fit Tshirt, round neck, half sleeves",
+        "Red 100% Organic Cotton Regular Fit Tshirt, round neck, half sleeves",
+        "Navy 100% Organic Cotton Regular Fit Tshirt"
       ]
     },
     {
@@ -30,8 +48,8 @@
       "http_status": 200,
       "facts": [
         "Product page identifies a women's 100% organic cotton regular-fit T-shirt.",
-        "The product has a round neck, half sleeves, solid knit fabric, pull-on opening and straight hem.",
-        "Care instructions say machine wash cold, wash dark colours separately, do not bleach, remove promptly and dry in shade."
+        "The product lists a round neck, half sleeves, solid knit fabric, pull-on opening and straight hem.",
+        "Care instructions say machine wash cold, dark colours separately, no bleach, remove promptly and dry in shade."
       ]
     },
     {
@@ -41,29 +59,11 @@
       "facts": [
         "Cottonworld's voice is calm, warm, plain and reassuring.",
         "Brand guidance says life comes first and clothing enters as quiet, practical support.",
-        "Cottonworld's merchandising taxonomy includes women's T-shirts, tops, pants and natural-fabric ranges."
+        "Cottonworld's merchandising taxonomy includes women's T-shirts, tops, pants, travel and natural-fabric categories."
       ]
     },
-    {
-      "source_id": "women_tops_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/women-tops-1",
-      "http_status": 200,
-      "facts": ["Live women's tops collection page is available for contextual navigation."]
-    },
-    {
-      "source_id": "women_pants_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/womens-pants",
-      "http_status": 200,
-      "facts": ["Live women's pants collection page is available for contextual navigation."]
-    },
-    {
-      "source_id": "women_linen_live",
-      "source_type": "product_page",
-      "url": "https://cottonworld.net/collections/all-linen-womens",
-      "http_status": 200,
-      "facts": ["Live women's linen collection page is available for contextual navigation."]
-    }
+    {"source_id":"women_tops_live","source_type":"product_page","url":"https://cottonworld.net/collections/women-tops-1","http_status":200,"facts":["The linked women's tops collection page is available for contextual navigation."]},
+    {"source_id":"women_pants_live","source_type":"product_page","url":"https://cottonworld.net/collections/womens-pants","http_status":200,"facts":["The linked women's pants collection page is available for contextual navigation."]},
+    {"source_id":"women_linen_live","source_type":"product_page","url":"https://cottonworld.net/collections/all-linen-womens","http_status":200,"facts":["The linked women's linen collection page is available for contextual navigation."]}
   ]
 }
