@@ -1,0 +1,23 @@
+{
+  "run_id": "20260925-batch-2-collection-pages-drive-folder",
+  "checked_at": "2026-09-25T00:00:00+05:30",
+  "folder": {
+    "id": "1ttZHuHM-ZQ2cWihuxo8x588Uh_MmoHDl",
+    "name": "Batch 2 Collection Pages Offlimit",
+    "url": "https://drive.google.com/drive/folders/1ttZHuHM-ZQ2cWihuxo8x588Uh_MmoHDl",
+    "parent_id": "1eM1-qJOg1e2XZ-_VKsHWg3xlWmz3ERMH"
+  },
+  "status": "pass",
+  "moved_file_count": 8,
+  "moved_files": [
+    "OFFLIMITS Men’s Collection — Content, Internal Links & SERP References",
+    "OFFLIMITS Men’s New Arrivals — Content, Internal Links & SERP References",
+    "OFFLIMITS Men’s Best Sellers — Collection Content & SEO Handoff",
+    "OFFLIMITS Men’s Footwear — Collection Content & SEO Handoff",
+    "OFFLIMITS Women’s Collection — Content & SEO Handoff",
+    "OFFLIMITS Women’s New Arrivals — Collection Content & SEO Handoff",
+    "OFFLIMITS Men’s Clothing — Collection Content & SEO Handoff",
+    "OFFLIMITS Batch 2 — Collection Pages Index"
+  ],
+  "verification": "A Drive folder listing returned all eight moved Google Docs."
+}
