@@ -1,0 +1,102 @@
+{
+  "claims": [
+    {
+      "claim_type": "best_top",
+      "note": "The phrase \u2018women\u2019s tops\u2019 identifies a related category and \u2018top layer\u2019 is a garment-layer description; neither makes a ranking or superiority claim.",
+      "source_ids": [
+        "brand_context"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-26T11:01:49+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-26T11:03:13+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-26T10:59:28+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/women-kurtas-tunics"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld voice is calm, warm, plain and reassuring.",
+        "Brand guidance puts everyday life first and clothing in a practical supporting role.",
+        "The brand's taxonomy includes work, travel, brunch, summer and natural-fabric categories.",
+        "The merchandising taxonomy includes women's tops and blouses as an apparel category."
+      ],
+      "source_id": "brand_context",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The live page returned HTTP 200 and its visible heading is Women's Kurtas.",
+        "At capture time, the page displayed two products, with filters for fabric, fit, colour, neckline, sleeve and other product details.",
+        "The visible products were a cotton kurta and a viscose kurta; availability and selection can change."
+      ],
+      "source_id": "women_kurtas_collection_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-kurtas-tunics-phase-1-source-capture-20260926.json; https://cottonworld.net/collections/women-kurtas-tunics",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The product lists 100% cotton gauze woven, regular fit, mustard, round neck and sleeveless construction.",
+        "It has a pull-on opening, side-seam pockets and straight hem.",
+        "Its care instructions say hand wash separately, no bleach, remove promptly and dry in shade."
+      ],
+      "source_id": "women_cotton_kurta_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-kurtas-tunics-phase-1-source-capture-20260926.json; https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The product lists a woven composition of 86% viscose and 14% nylon, regular fit, red print, round neck and three-quarter sleeves.",
+        "It has a pull-on opening, side-seam pockets and curved hem.",
+        "Its care instructions say cold machine wash, dark colours separately, no bleach, remove promptly, dry in shade and iron on low heat."
+      ],
+      "source_id": "women_viscose_kurta_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-kurtas-tunics-phase-1-source-capture-20260926.json; https://cottonworld.net/products/womens-viscose-regular-fit-kurta-red",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The supplied collection page is 1,431 words across nine main sections and was used as a depth and structure reference.",
+        "Unsupported product, quality and performance claims in the reference were not adopted as Cottonworld facts."
+      ],
+      "source_id": "collection_page_example",
+      "source_ref": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "The linked women's T-shirts, pants, linen, and dresses and jumpsuits collections returned HTTP 200 at capture time."
+      ],
+      "source_id": "linked_womens_collections_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/women-kurtas-tunics-phase-1-source-capture-20260926.json",
+      "source_type": "product_page"
+    }
+  ]
+}

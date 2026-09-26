@@ -1,0 +1,77 @@
+{
+  "run_id": "cottonworld-phase1-womens-kurtas-tunics-20260926",
+  "checked_at": "2026-09-26",
+  "provider": "firecrawl|google_drive",
+  "sources": [
+    {
+      "url": "https://cottonworld.net/collections/women-kurtas-tunics",
+      "status_code": 200,
+      "page_heading": "Women's Kurtas",
+      "current_item_count": 2,
+      "filters": ["Print", "Price", "Size", "Gender", "Product type", "Color", "Fabric Type", "Fit Type", "Neck Collar", "Sleeve Type", "Availability"],
+      "visible_products": [
+        "Women’s Viscose Regular Fit Kurta Red — 86% viscose, 14% nylon; regular fit; red; round neck; three-quarter sleeve; pull-on; curved hem; side-seam pockets; cold machine wash, dark colours separately, no bleach, remove promptly, dry in shade, low-heat iron.",
+        "Women’s Cotton Regular Fit Kurta Mustard — 100% cotton gauze woven; regular fit; mustard; round neck; sleeveless; pull-on; straight hem; side-seam pockets; hand wash separately, no bleach, remove promptly, dry in shade."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/products/womens-viscose-regular-fit-kurta-red",
+      "status_code": 200,
+      "facts": {
+        "composition": "86% viscose, 14% nylon; print woven",
+        "fit": "Regular fit",
+        "color": "Red",
+        "print": "Print",
+        "neckline": "Round neck",
+        "sleeve": "Three-quarter sleeve",
+        "opening": "Pull-on",
+        "hem": "Curved hem",
+        "pockets": "Side-seam pockets",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade; iron on low heat"
+      }
+    },
+    {
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard",
+      "status_code": 200,
+      "facts": {
+        "composition": "100% cotton gauze woven",
+        "fit": "Regular fit",
+        "color": "Mustard",
+        "print": "Solid",
+        "neckline": "Round neck",
+        "sleeve": "Sleeveless",
+        "opening": "Pull-on",
+        "hem": "Straight hem",
+        "pockets": "Side-seam pockets",
+        "care": "Hand wash separately; no bleach; remove promptly; dry in shade"
+      }
+    },
+    {
+      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "title": "Men’s T-Shirt Collection Page",
+      "word_count": 1431,
+      "headings": ["Buy Men’s T-Shirts Online – Premium Cotton T-Shirts for Everyday Comfort", "Explore Our Collection of Men’s T-Shirts", "Why Premium Natural Fabrics Matter", "Shop Men’s Cotton T-Shirts by Colour", "The Ultimate Styling Guide", "Finding the Right Fabric for the Season", "How to Make Your Cotton T-Shirts Last", "Complete Your Look", "Frequently Asked Questions (FAQs)"],
+      "use": "Depth and section coverage reference only; unsupported product and performance claims were not adopted."
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-tshirts",
+      "status_code": 200
+    },
+    {
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "status_code": 200
+    },
+    {
+      "url": "https://cottonworld.net/collections/all-linen-womens",
+      "status_code": 200
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "status_code": 200
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "status_code": 200
+    }
+  ]
+}
