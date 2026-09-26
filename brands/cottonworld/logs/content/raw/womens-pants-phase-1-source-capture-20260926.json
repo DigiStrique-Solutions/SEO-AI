@@ -1,0 +1,94 @@
+{
+  "run_id": "cottonworld-phase1-womens-pants-20260926",
+  "checked_at": "2026-09-26",
+  "provider": "firecrawl|google_drive",
+  "sources": [
+    {
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "status_code": 200,
+      "page_heading": "Women's Pants",
+      "current_item_count": 73,
+      "filters": ["Size", "Gender", "Product type", "By Color", "Fabric Type", "Fit Type", "Length", "Leg", "Availability"],
+      "visible_product_cards": [
+        "Women's Black 100% Linen Regular Fit Pant",
+        "Women's Sage Cotton Lycra Barrel Leg Pant",
+        "Women's Denim 100% Cotton Regular Fit Pant",
+        "Women's Beige Cotton Lycra Regular Fit Pant",
+        "Women's Navy Cotton Linen Regular Fit Pant",
+        "Women's Black Cotton Bamboo Elastane Regular Fit Knit Pant",
+        "Women's Grey 100% Linen Regular Fit Pant",
+        "Women's Olive 100% Linen Regular Fit Pant"
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/products/l-pants-17826-21824-black",
+      "status_code": 200,
+      "facts": {
+        "composition": "100% linen solid woven",
+        "fit": "Regular fit",
+        "color": "Black",
+        "leg": "Straight leg",
+        "length": "Full length",
+        "waist": "Half elastic",
+        "closure": "Zip fly",
+        "pockets": "Side seam pockets",
+        "care": "Machine wash cold, dark colours separately, no bleach, remove promptly, dry in shade"
+      }
+    },
+    {
+      "url": "https://cottonworld.net/products/l-pants-17941-21820-sage",
+      "status_code": 200,
+      "facts": {
+        "composition": "99% cotton, 1% Lycra",
+        "name/shape": "Cotton Lycra Barrel Leg Pant",
+        "color": "Sage",
+        "leg": "Barrel leg",
+        "length": "Ankle length",
+        "waist": "Half elastic",
+        "closure": "Zip fly",
+        "pockets": "Side seam pockets",
+        "care": "Machine wash cold, dark colours separately, no bleach, remove promptly, dry in shade"
+      }
+    },
+    {
+      "url": "https://cottonworld.net/products/l-pants-17830-21778-denim",
+      "status_code": 200,
+      "facts": {
+        "composition": "100% cotton solid woven",
+        "fit": "Regular fit",
+        "color": "Denim",
+        "leg": "Straight leg",
+        "length": "Full length",
+        "waist": "Elastic waist with drawstring",
+        "closure": "Elastic",
+        "pockets": "Side seam pockets",
+        "care": "Machine wash cold, dark colours separately, no bleach, remove promptly, dry in shade"
+      }
+    },
+    {
+      "url": "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "status_code": 200,
+      "facts": {
+        "composition": "49% cotton, 46% bamboo, 5% elastane solid knit",
+        "fit": "Regular fit",
+        "color": "Black",
+        "leg": "Regular leg",
+        "length": "Full length",
+        "waist": "Elastic waist with drawstring",
+        "pockets": "Two pockets",
+        "care": "Machine wash cold, dark colours separately, no bleach, remove promptly, dry in shade"
+      }
+    },
+    {
+      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "title": "Men’s T-Shirt Collection Page",
+      "word_count": 1431,
+      "use": "Depth and section-coverage reference only; unsupported product and performance claims were not adopted."
+    },
+    {"url":"https://cottonworld.net/collections/women-jackets-1","status_code":200},
+    {"url":"https://cottonworld.net/collections/women-tshirts","status_code":200},
+    {"url":"https://cottonworld.net/collections/women-tops-1","status_code":200},
+    {"url":"https://cottonworld.net/collections/all-linen-womens","status_code":200},
+    {"url":"https://cottonworld.net/collections/women-dresses-jumpsuits","status_code":200}
+  ]
+}
