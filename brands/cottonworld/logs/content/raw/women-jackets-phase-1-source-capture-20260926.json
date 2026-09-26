@@ -1,0 +1,37 @@
+{
+  "run_id": "cottonworld-phase1-womens-jackets-20260926",
+  "checked_at": "2026-09-26",
+  "provider": "firecrawl|google_drive",
+  "sources": [
+    {
+      "url": "https://cottonworld.net/collections/women-jackets-1",
+      "status_code": 200,
+      "page_heading": "Women's Jackets",
+      "current_item_count": 4,
+      "filters": ["Print", "Price", "Size", "Gender", "Product type", "Color", "Fabric Type", "Fit Type", "Neck Collar", "Sleeve Type", "Availability"],
+      "visible_products": [
+        "Women's Offwhite 100% Cotton Regular Fit Jacket — 100% cotton solid woven; regular fit; off-white; band collar; full sleeves; button front; straight hem; front patch pockets; cold machine wash, dark colours separately, no bleach, remove promptly, dry in shade.",
+        "Women's Cotton Linen Regular Fit Jacket Navy — 80% cotton, 20% linen solid woven; regular fit; navy; regular collar; full sleeves; front opening; straight hem; front pocket; cold machine wash, dark colours separately, no bleach, remove promptly, dry in shade.",
+        "Women's Cotton Boxy Fit Jacket Off-White — 100% cotton; boxy fit; off-white; round neck; sleeveless; zipper opening; elasticated hem; no pockets; cold machine wash, dark colours separately, no bleach, remove promptly, dry in shade.",
+        "Women's Cotton Boxy Fit Jacket Blue — 100% cotton solid woven; boxy fit; blue; high mandarin collar; long sleeve with tab on cuff; button front; straight hem; two front pockets; hand wash separately, no bleach, remove promptly, dry in shade."
+      ]
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-jackets",
+      "status_code": 404,
+      "note": "The no-suffix route in the earlier active-list table is not the current live collection route."
+    },
+    {
+      "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "title": "Men’s T-Shirt Collection Page",
+      "word_count": 1431,
+      "headings": ["Buy Men’s T-Shirts Online – Premium Cotton T-Shirts for Everyday Comfort", "Explore Our Collection of Men’s T-Shirts", "Why Premium Natural Fabrics Matter", "Shop Men’s Cotton T-Shirts by Colour", "The Ultimate Styling Guide", "Finding the Right Fabric for the Season", "How to Make Your Cotton T-Shirts Last", "Complete Your Look", "Frequently Asked Questions (FAQs)"],
+      "use": "Depth and section-coverage reference only; unsupported claims were not carried into the draft."
+    },
+    {"url":"https://cottonworld.net/collections/women-tshirts","status_code":200},
+    {"url":"https://cottonworld.net/collections/women-tops-1","status_code":200},
+    {"url":"https://cottonworld.net/collections/womens-pants","status_code":200},
+    {"url":"https://cottonworld.net/collections/all-linen-womens","status_code":200},
+    {"url":"https://cottonworld.net/collections/women-kurtas-tunics","status_code":200}
+  ]
+}
