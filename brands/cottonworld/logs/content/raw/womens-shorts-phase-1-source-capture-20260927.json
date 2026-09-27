@@ -1,0 +1,96 @@
+{
+  "captured_at": "2026-09-27T12:47:00+05:30",
+  "provider": "Firecrawl; Google Drive",
+  "purpose": "Phase 1 collection page draft for women's shorts",
+  "sources": [
+    {
+      "source_id": "women_shorts_collection_live",
+      "url": "https://cottonworld.net/collections/women-shorts-1",
+      "http_status": 200,
+      "visible_heading": "Women's Shorts",
+      "observed_item_count": 16,
+      "observed_filters": {
+        "product_type": ["Women's Shorts (16)"],
+        "fabric_type": ["100% Cotton (2)", "100% Linen (2)", "Linen Blend (2)", "Cotton Stretch (9)"],
+        "fit_type": ["Regular Fit (15)"],
+        "length": ["Regular Length (1)", "Short Length (14)"],
+        "leg": ["Straight Leg (15)"],
+        "print": ["Solid (13)", "Print (2)"],
+        "colors": ["Beige", "Black", "Brown", "Coffee", "Khaki", "Moss", "Multi", "Natural", "Navy", "Pink", "White"]
+      },
+      "notes": "Filters are dynamic and counts may not total the item count because filters, variants, and availability can change."
+    },
+    {
+      "source_id": "planned_route_check",
+      "url": "https://cottonworld.net/collections/women-shorts",
+      "http_status": 404,
+      "visible_heading": "Page not found",
+      "notes": "The live collection is currently served on the numbered handle women-shorts-1."
+    },
+    {
+      "source_id": "product_linen_coffee",
+      "url": "https://cottonworld.net/products/l-shorts-17733-21824-coffee",
+      "http_status": 200,
+      "extracted_product_data": {
+        "title": "Women's Coffee 100% Linen Regular Fit Shorts",
+        "composition": "100% linen; solid woven",
+        "fit_length_leg": "Regular fit; short length; straight leg",
+        "waist_closure": "Full elastic waist",
+        "pockets": "Side-seam pockets",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade"
+      }
+    },
+    {
+      "source_id": "product_cotton_pink",
+      "url": "https://cottonworld.net/products/l-shorts-17733-21756-pink",
+      "http_status": 200,
+      "extracted_product_data": {
+        "title": "Women's Pink 100% Cotton Regular Fit Shorts",
+        "composition": "100% cotton; print woven",
+        "fit_length_leg": "Regular fit; short length; straight leg",
+        "waist_closure": "Elastic waist with drawstring",
+        "pockets": "Side-seam pockets",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade"
+      }
+    },
+    {
+      "source_id": "product_cotton_lycra_brown",
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-brown",
+      "http_status": 200,
+      "extracted_product_data": {
+        "title": "Women's Cotton Lycra Regular Fit Short Brown",
+        "composition": "98% cotton; 2% Lycra",
+        "fit_length_leg": "Regular fit; short length; straight leg",
+        "waist_closure": "Mid waist; hook-and-eye and zipper",
+        "pockets": "Side-seam pockets",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade"
+      }
+    },
+    {
+      "source_id": "product_cotton_stretch_white",
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white",
+      "http_status": 200,
+      "extracted_product_data": {
+        "title": "Women's Cotton Elastane Regular Fit Short White",
+        "composition": "98% cotton; 2% Lycra",
+        "fit_length_leg": "Regular fit; short length; straight leg; straight hem",
+        "waist_closure": "Fitted waist; front zip",
+        "pockets": "Angled inseam pockets",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade"
+      }
+    },
+    {
+      "source_id": "copy_examples",
+      "refs": [
+        "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+        "https://docs.google.com/document/d/1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4/edit"
+      ],
+      "extracted_facts": [
+        "The supplied men's T-shirt example is 1,431 words and is used as a depth and structure reference.",
+        "A women's shorts example was not present in the reference folder; the men's shorts example informed category-specific coverage only.",
+        "Unsupported fabric performance, quality, sustainability, and ranking claims in examples were not carried into this draft."
+      ]
+    }
+  ],
+  "privacy_note": "Provider request tokens and unrelated session metadata were excluded from this sanitized evidence record."
+}

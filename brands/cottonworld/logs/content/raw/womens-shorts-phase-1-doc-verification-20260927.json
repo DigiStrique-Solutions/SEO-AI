@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-27T12:53:02+05:30",
+  "provider": "Google Drive Docs connector",
+  "document_id": "1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg",
+  "document_url": "https://docs.google.com/document/d/1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg/edit",
+  "document_type": "application/vnd.google-apps.document",
+  "readback": {
+    "tab_count": 1,
+    "word_count_including_metadata": 1621,
+    "body_word_count": 1580,
+    "heading_count": 18,
+    "main_sections": 10,
+    "faq_questions": 7,
+    "bullet_paragraphs": 10,
+    "blue_underlined_links": 9,
+    "markdown_residue": false,
+    "link_destinations": [
+      "https://cottonworld.net/collections/women-shorts-1",
+      "https://cottonworld.net/products/l-shorts-17733-21824-coffee",
+      "https://cottonworld.net/products/l-shorts-17733-21756-pink",
+      "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-brown",
+      "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white",
+      "https://cottonworld.net/collections/women-tshirts",
+      "https://cottonworld.net/collections/womens-pants",
+      "https://cottonworld.net/collections/all-linen-womens",
+      "https://cottonworld.net/collections/women-dresses-jumpsuits"
+    ]
+  }
+}
