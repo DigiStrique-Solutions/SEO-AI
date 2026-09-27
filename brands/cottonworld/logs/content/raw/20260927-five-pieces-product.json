@@ -1,0 +1,22 @@
+{
+  "run_id": "cottonworld-five-pieces-20260927",
+  "access_date": "2026-09-27",
+  "provider": "Live web page extraction",
+  "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+  "page_title": "Buy Men's Linen Cotton Casual Wear Regular Fit Shirts | Cottonworld",
+  "status": "page returned content",
+  "raw_relevant_output": {
+    "product_name": "Men's Brown Linen Cotton Regular Fit Shirt",
+    "listing_label": "Linen Blend • Regular Fit",
+    "material": "55% Linen 45% Cotton",
+    "description_fields": {
+      "fabric": "LINEN COTTON",
+      "fabric_composition": "55% LINEN 45% COTTON SOLID WOVEN",
+      "fit_type": "REGULAR FIT",
+      "color": "BROWN"
+    },
+    "source_lines": [193, 237, 286, 297, 304, 305, 306, 319]
+  },
+  "source_capture": "web open result turn6view0, lines 191-193, 237, 282-286, 295-307, 317-323",
+  "limitations": "Product page was live and returned current product details at capture. Price was not used in the draft."
+}

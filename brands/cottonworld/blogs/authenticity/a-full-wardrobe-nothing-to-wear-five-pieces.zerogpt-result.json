@@ -1,0 +1,24 @@
+{
+  "detector_note": {
+    "checked_at": "2026-09-27T22:24:20+05:30",
+    "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+    "max_score": 20.0,
+    "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+    "score": 6.0,
+    "source": "local_fallback",
+    "status": "pass",
+    "tool": "zerogpt"
+  },
+  "ok": true,
+  "recorded_to_authenticity": true,
+  "website_ui_result": {
+    "checked_at": "2026-09-27T17:08:30+00:00",
+    "url": "https://www.zerogpt.com/",
+    "score": 15.9,
+    "result_text": "Your Text is Human written",
+    "status": "pass",
+    "max_score": 20.0,
+    "draft_version": "Final source-backed version in a-full-wardrobe-nothing-to-wear-five-pieces.md",
+    "note": "Score is an editorial risk signal, not proof of authorship."
+  }
+}

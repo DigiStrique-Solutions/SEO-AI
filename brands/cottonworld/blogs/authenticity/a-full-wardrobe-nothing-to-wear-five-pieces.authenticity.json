@@ -1,0 +1,131 @@
+{
+  "claims": [],
+  "zerogpt_gate": {
+    "status": "pass",
+    "checked_at": "2026-09-27T17:08:30+00:00",
+    "score": 15.9,
+    "maximum_score": 20.0,
+    "source": "ZeroGPT website UI",
+    "url": "https://www.zerogpt.com/",
+    "result_text": "Your Text is Human written",
+    "reason": "Final source-backed draft checked in ZeroGPT website UI; score was below the strict 20% threshold. The score is an editorial risk signal, not proof of authorship.",
+    "next_action": "Retain the result with the final draft; recheck if substantive copy changes."
+  },
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-27T22:24:20+05:30",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-09-27T17:08:30+00:00",
+      "max_score": 20.0,
+      "note": "Final draft submitted through ZeroGPT website UI. The site displayed 'Your Text is Human written' and 15.9% AI GPT. Score is an editorial risk signal, not proof of authorship.",
+      "score": 15.9,
+      "source": "website_ui",
+      "status": "pass",
+      "tool": "zerogpt",
+      "url": "https://www.zerogpt.com/"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "women’s tops and shirts",
+      "purpose": "Contextual product/category link",
+      "url": "https://cottonworld.net/collections/women-topwear",
+      "verification": "Live rendered category page, relevant products present, 2026-09-27"
+    },
+    {
+      "anchor": "men’s shirts",
+      "purpose": "Contextual product/category link",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "verification": "Live rendered category page, relevant products present, 2026-09-27"
+    },
+    {
+      "anchor": "linen collection guide",
+      "purpose": "Supporting fabric/category resource",
+      "url": "https://cottonworld.net/pages/linen-collection",
+      "verification": "Live rendered page, relevant linen content present, 2026-09-27"
+    },
+    {
+      "anchor": "Cottonworld’s clothing collections",
+      "purpose": "Conclusion/CTA to commercial next step",
+      "url": "https://cottonworld.net/collections",
+      "verification": "Live rendered collection index, cotton and linen destinations present, 2026-09-27"
+    },
+    {
+      "anchor": "brown linen-cotton shirt",
+      "purpose": "Contextual product example grounded in current product details",
+      "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "verification": "Live product page; Men’s Brown Linen Cotton Regular Fit Shirt; page states 55% linen, 45% cotton, solid woven, regular fit; checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-product.json"
+    }
+  ],
+  "metadata": {
+    "brand_id": "cottonworld",
+    "created_at": "2026-09-27",
+    "intent": "informational",
+    "primary_keyword": "how to build a capsule wardrobe",
+    "required_skill": "content-seo-authenticity",
+    "status": "draft_passed",
+    "target": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
+    "target_title": "A Full Wardrobe, Nothing to Wear: Start With the Five Pieces You Reach For Most",
+    "google_doc": "https://docs.google.com/document/d/1gIwhS7jPtEiWbukVPs8A2X0KZAxIjRRcjJila1MeNHo/edit?usp=drivesdk",
+    "google_doc_verified": "Final draft and heading structure fetched successfully; five internal hyperlinks exported in visible blue underlined style."
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "extracted_facts": "Live Cottonworld product page for Men’s Brown Linen Cotton Regular Fit Shirt. Page identifies a woven fabric containing 55% linen and 45% cotton and regular fit. No price claim used.",
+      "source_id": "cottonworld-brown-linen-cotton-shirt",
+      "source_ref": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown; live page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-product.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Cottonworld's voice is calm, warm, plain and life-first. Slow living means practical intention, repeat wear and fewer unnecessary choices. Clothing supports daily life. Avoid unsupported environmental claims, invented product details, fashion hype and generic superlatives.",
+      "source_id": "cottonworld-brand-context",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Live Men's Shirts category with cotton, linen and blended fabric filters and shirt products. Used as a contextual product-category link only.",
+      "source_id": "cottonworld-mens-shirts",
+      "source_ref": "https://cottonworld.net/collections/mens-shirts; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live Women's Top Wear category with top and shirt products. Used as a contextual product-category link only.",
+      "source_id": "cottonworld-womens-topwear",
+      "source_ref": "https://cottonworld.net/collections/women-topwear; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live Cottonworld linen collection page, used as a relevant fabric/category resource. No general fibre-performance claim is attributed to the page.",
+      "source_id": "cottonworld-linen-guide",
+      "source_ref": "https://cottonworld.net/pages/linen-collection; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live collection index showing cotton, linen, bamboo and other shopping categories; used for the closing commercial next step.",
+      "source_id": "cottonworld-collections-index",
+      "source_ref": "https://cottonworld.net/collections; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Exact proposed-title query returned no relevant result. Broader live SERP research reviewed three relevant capsule/everyday-wardrobe blogs: Free People (about 1,960 words, stylist-led item guide), Capsulee Wardrobe (about 3,430 words, personal seven-step guide with FAQs), and Original Content Books (about 830 words, concise topic-led advice with outfit and actual-life sections). Accessed 2026-09-27. The draft keeps practical depth, uses the five-worn-pieces exercise as its own organizing idea, and avoids copying any result's wording or structure.",
+      "source_id": "serp-capsule-wardrobe-20260927",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Apply prior editorial learning: keep sections connected and paragraph-led, remove obvious setup, make the named garment/topic answer the reader's real routine, ground product mentions in live page evidence, and use a restrained CTA. Cottonworld's own voice guide remains authoritative.",
+      "source_id": "editorial-review-learnings",
+      "source_ref": "brands/cottonworld/logs/content/raw/two-blogs-paragraph-led-revision-20260729.json; brands/offlimits/blogs/womens-athleisure-india-capsule-wardrobe.authenticity.json; brands/spykar/blogs/september-jeans-every-plan.md",
+      "source_type": "human_context"
+    }
+  ]
+}
