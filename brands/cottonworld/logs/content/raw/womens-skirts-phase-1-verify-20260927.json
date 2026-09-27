@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-27T13:02:00+05:30",
+  "provider": "Firecrawl",
+  "checks": [
+    {"url": "https://cottonworld.net/collections/women-skirts-1", "status": 200, "result": "Live collection; heading Women's Skirts; one product displayed"},
+    {"url": "https://cottonworld.net/collections/women-skirts", "status": 404, "result": "Page not found"},
+    {"url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey", "status": 200, "result": "Targeted product metadata query returned title and garment details; markdown body extraction was blocked"},
+    {"url": "https://cottonworld.net/collections/women-tshirts", "status": 200, "result": "Live collection; heading Women's T-Shirts"},
+    {"url": "https://cottonworld.net/collections/womens-pants", "status": 200, "result": "Live collection; heading Women's Pants"},
+    {"url": "https://cottonworld.net/collections/all-linen-womens", "status": 200, "result": "Live collection; heading Women's Linen"},
+    {"url": "https://cottonworld.net/collections/women-dresses-jumpsuits", "status": 200, "result": "Live collection; heading Women's Dresses/Jumpsuits"}
+  ],
+  "content_review": {
+    "primary_keyword": "women's skirts",
+    "intent": "Commercial / transactional",
+    "draft_word_count_including_metadata": 1544,
+    "google_doc_word_count_including_metadata": 1527,
+    "google_doc_body_word_count": 1487,
+    "distinct_main_sections_excluding_faq": 10,
+    "faq_questions": 6,
+    "internal_collection_links": 5,
+    "product_links": 1,
+    "claims_limit": "Only the one current product's attributes are stated as product facts. General styling suggestions are presented as optional ideas."
+  }
+}

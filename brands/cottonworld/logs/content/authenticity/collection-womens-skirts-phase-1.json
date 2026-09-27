@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "claim_type": "best_top",
+      "note": "The word 'top' refers to an apparel category or garment in styling guidance, not a ranking or superiority claim.",
+      "source_ids": [
+        "brand_context",
+        "linked_womens_collections_live"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-27T07:33:31+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.81,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-27T07:31:31+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/women-skirts-1"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld's voice is calm, warm, plain and reassuring.",
+        "Brand guidance places everyday life before clothing and favors useful, repeatable choices.",
+        "The merchandising taxonomy includes women's skirts as an apparel category."
+      ],
+      "source_id": "brand_context",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The live women's skirts collection returned HTTP 200 at /collections/women-skirts-1 and displayed one product at capture time.",
+        "The visible listing is a dark grey printed skirt, and current filters identify 100% cotton and slim fit.",
+        "The active-list route /collections/women-skirts returned HTTP 404 at capture time."
+      ],
+      "source_id": "women_skirts_collection_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-skirts-phase-1-source-capture-20260927.json; https://cottonworld.net/collections/women-skirts-1",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The product page metadata identifies a 100% cotton knit print skirt in dark grey, slim fit, ankle length and mid waist, with a pull-on opening and no pockets.",
+        "The page's care directions are cold machine wash, separate dark colours, no bleach, remove promptly and dry in shade.",
+        "The targeted query exposed product attributes, while a separate markdown scrape of the page returned blocked rendered content; no claims about unobserved presentation are made."
+      ],
+      "source_id": "current_skirt_product",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-skirts-phase-1-source-capture-20260927.json; https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The supplied men's T-shirt collection page is 1,431 words and was used as a depth and structure reference.",
+        "A men's shorts example in the Drive folder was consulted for category coverage only; unsupported claims were not copied."
+      ],
+      "source_id": "collection_page_examples",
+      "source_ref": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit; https://docs.google.com/document/d/1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4/edit",
+      "source_type": "human_context"
+    },
+    {
+      "extracted_facts": [
+        "Women's T-shirts, women's pants, women's linen and women's dresses/jumpsuits collection routes each returned HTTP 200 at capture time."
+      ],
+      "source_id": "linked_womens_collections_live",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-skirts-phase-1-verify-20260927.json",
+      "source_type": "product_page"
+    }
+  ]
+}

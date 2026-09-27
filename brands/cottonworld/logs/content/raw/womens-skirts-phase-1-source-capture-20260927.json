@@ -1,0 +1,63 @@
+{
+  "captured_at": "2026-09-27T13:02:00+05:30",
+  "provider": "Firecrawl; Google Drive",
+  "purpose": "Phase 1 collection page draft for women's skirts",
+  "sources": [
+    {
+      "source_id": "women_skirts_collection_live",
+      "url": "https://cottonworld.net/collections/women-skirts-1",
+      "http_status": 200,
+      "visible_heading": "Women's Skirts",
+      "displayed_item_count": 1,
+      "visible_product": {
+        "title": "Women’s Cotton Slim Fit Skirt Dark Grey",
+        "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey"
+      },
+      "observed_filters": {
+        "print": ["Print (1)"],
+        "gender": ["Women (1)"],
+        "product_type": ["Women's Skirts (1)"],
+        "color": ["DARK GREY (1)"],
+        "fabric_type": ["100% Cotton (1)"],
+        "fit_type": ["Slim Fit (1)"],
+        "availability": ["In stock (1)", "Out of stock (1)"]
+      },
+      "notes": "Collection filters and the assortment are dynamic. The count records the collection response at capture time."
+    },
+    {
+      "source_id": "planned_route_check",
+      "url": "https://cottonworld.net/collections/women-skirts",
+      "http_status": 404,
+      "visible_heading": "Page not found",
+      "notes": "The current live collection uses the numbered handle women-skirts-1."
+    },
+    {
+      "source_id": "current_skirt_product",
+      "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey",
+      "http_status": 200,
+      "extracted_product_data": {
+        "title": "Women’s Cotton Slim Fit Skirt Dark Grey",
+        "composition_and_fabric": "100% cotton knit print cotton",
+        "print": "Print",
+        "fit": "Slim Fit",
+        "length": "Ankle Length",
+        "waist_and_opening": "Mid Waist; Pull On",
+        "pockets": "No Pocket",
+        "care": "Machine wash cold; wash dark colours separately; no bleach; remove promptly; dry in shade"
+      },
+      "extraction_note": "A targeted metadata query returned these product details. The separate markdown scrape returned HTTP 200 but its rendered body was blocked in extraction; no unobserved page layout or customer experience is claimed."
+    },
+    {
+      "source_id": "copy_examples",
+      "refs": [
+        "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+        "https://docs.google.com/document/d/1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4/edit"
+      ],
+      "extracted_facts": [
+        "The supplied men's T-shirt collection page is 1,431 words and was used as a depth and structure reference.",
+        "The men's shorts example informed category coverage only; unsupported product, fabric-performance, quality, and ranking claims were not carried into this draft."
+      ]
+    }
+  ],
+  "privacy_note": "Provider request tokens and unrelated session metadata were excluded from this sanitized evidence record."
+}
