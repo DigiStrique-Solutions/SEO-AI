@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-09-27T13:38:00+05:30",
+  "document_id": "1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo",
+  "document_url": "https://docs.google.com/document/d/1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo/edit",
+  "readback": {
+    "status": "success",
+    "word_count_including_metadata": 1581,
+    "section_heading_count": 11,
+    "faq_question_count": 6,
+    "bullet_count": 5,
+    "link_count": 8,
+    "all_links_blue_and_underlined": true,
+    "headings": [
+      "Explore women's dresses and jumpsuits",
+      "Start with the day ahead",
+      "Choose a fabric with care",
+      "Compare fit and length",
+      "Decide between a dress and a jumpsuit",
+      "Use pockets and closures practically",
+      "Build an outfit around what you own",
+      "Check colour and print",
+      "Read the care directions",
+      "Explore related women's styles",
+      "Frequently asked questions"
+    ],
+    "links": [
+      {"text": "grey cotton-Lycra dress", "url": "https://cottonworld.net/products/l-dress-17860-21714-grey"},
+      {"text": "natural linen-cotton dress", "url": "https://cottonworld.net/products/l-dress-17589-21636-natural"},
+      {"text": "cream linen-viscose jumpsuit", "url": "https://cottonworld.net/products/l-jumpsuit-17891-21650-cream"},
+      {"text": "wine organic cotton knit dress", "url": "https://cottonworld.net/products/l-kdress-16566-21726-wine"},
+      {"text": "women's T-shirts", "url": "https://cottonworld.net/collections/women-tshirts"},
+      {"text": "women's pants", "url": "https://cottonworld.net/collections/womens-pants"},
+      {"text": "women's linen styles", "url": "https://cottonworld.net/collections/all-linen-womens"},
+      {"text": "current women's dresses and jumpsuits collection", "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"}
+    ]
+  }
+}

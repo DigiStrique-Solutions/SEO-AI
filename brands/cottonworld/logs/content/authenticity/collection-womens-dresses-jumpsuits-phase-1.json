@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "claim_type": "best_top",
+      "note": "The word 'top' refers to the upper part of a garment or outfit, not a ranking or superiority claim.",
+      "source_ids": [
+        "live_collection",
+        "sampled_products"
+      ]
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-27T08:07:22+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-09-27T08:04:18+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Cottonworld voice guidance calls for calm, plain, reassuring copy.",
+        "Brand guidance places everyday life before clothing and favors practical, repeatable choices."
+      ],
+      "source_id": "brand_context",
+      "source_ref": "brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "The live collection returned HTTP 200 and displayed 31 items: 29 women's dresses and two women's jumpsuits.",
+        "Current filters included cotton, organic cotton, linen, linen blend, modal and cotton stretch; regular, loose, boxy and relaxed fits; and short through ankle lengths.",
+        "The assortment and filters are time-sensitive and described as a capture-time snapshot."
+      ],
+      "source_id": "live_collection",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-dresses-jumpsuits-phase-1-source-capture-20260927.json; https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Four currently reachable product pages supplied the linked dress and jumpsuit composition, fit, construction and care details.",
+        "The copy limits product specifications to named examples and directs readers to verify current product pages and garment labels."
+      ],
+      "source_id": "sampled_products",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-dresses-jumpsuits-phase-1-source-capture-20260927.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Women's T-shirts, women's pants and women's linen collection URLs each returned HTTP 200 when checked."
+      ],
+      "source_id": "linked_collections",
+      "source_ref": "brands/cottonworld/logs/content/raw/womens-dresses-jumpsuits-phase-1-source-capture-20260927.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "The user-supplied Cottonworld collection page was used as a guide for depth and section coverage; no wording was copied."
+      ],
+      "source_id": "collection_page_example",
+      "source_ref": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+      "source_type": "human_context"
+    }
+  ]
+}

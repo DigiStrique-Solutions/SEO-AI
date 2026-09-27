@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-09-27T13:35:00+05:30",
+  "run_id": "cottonworld-phase1-womens-dresses-jumpsuits-20260927",
+  "provider": "firecrawl",
+  "target": {
+    "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+    "http_status": 200,
+    "heading": "Women's Dresses/Jumpsuits",
+    "items": 31,
+    "product_types": {"women_dresses": 29, "women_jumpsuits": 2},
+    "filters": {
+      "fabric_type": ["Cotton", "100% Cotton", "100% Linen", "100% Organic Cotton", "Modal", "Linen Blend", "Cotton Stretch"],
+      "fit_type": ["Regular Fit", "Loose Fit", "Boxy Fit", "Relax Fit"],
+      "length": ["Ankle Length", "Full Length", "Knee Length", "Regular Length", "Short Length"],
+      "print": ["Solid", "Print", "Striped"]
+    }
+  },
+  "products": [
+    {
+      "url": "https://cottonworld.net/products/l-dress-17860-21714-grey",
+      "name": "Women's Grey Cotton Lycra Regular Fit Dress",
+      "facts": ["97% cotton, 3% Lycra", "solid woven", "regular fit", "side seam pockets", "regular collar", "full sleeves", "concealed placket and drawstring at waist", "care: cold machine wash, wash dark colours separately, no bleach, remove promptly, dry in shade"]
+    },
+    {
+      "url": "https://cottonworld.net/products/l-dress-17589-21636-natural",
+      "name": "Women's Natural Linen Cotton Regular Fit Dress",
+      "facts": ["55% linen, 45% cotton", "regular fit", "round neck with V shape at back", "sleeveless", "straight hem with fold", "care: cold machine wash, wash dark colours separately, no bleach, remove promptly, dry in shade"]
+    },
+    {
+      "url": "https://cottonworld.net/products/l-kdress-16566-21726-wine",
+      "name": "Women's Wine 100% Organic Cotton Regular Fit Knit Dress",
+      "facts": ["100% organic cotton solid knit", "regular fit", "no pockets", "round neck", "extended sleeves", "pull-on opening", "straight hem", "care: cold machine wash, wash dark colours separately, no bleach, remove promptly, dry in shade"]
+    },
+    {
+      "url": "https://cottonworld.net/products/l-jumpsuit-17891-21650-cream",
+      "name": "Women's Cream Linen Viscose Regular Fit Jumpsuit",
+      "facts": ["55% linen, 45% viscose", "regular fit", "V neck", "sleeveless", "side seam pockets", "zip fly", "straight hem", "care: cold machine wash, wash dark colours separately, no bleach, remove promptly, dry in shade"]
+    }
+  ],
+  "internal_collection_links": [
+    {"url": "https://cottonworld.net/collections/women-tshirts", "http_status": 200, "heading": "Women's T-Shirts", "items": 85},
+    {"url": "https://cottonworld.net/collections/womens-pants", "http_status": 200, "heading": "Women's Pants", "items": 73},
+    {"url": "https://cottonworld.net/collections/all-linen-womens", "http_status": 200, "items": 97}
+  ],
+  "content_reference": {
+    "url": "https://docs.google.com/document/d/14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8/edit",
+    "description": "User-supplied Cottonworld collection-page example; used for approximate depth and structure, not copied wording."
+  },
+  "limitations": [
+    "Product attributes were extracted from current page metadata and targeted page queries; only the listed fields are used.",
+    "Product assortment, filters, sizes, prices and care details can change after capture.",
+    "No broad fabric performance, environmental or superiority claims are made."
+  ]
+}
