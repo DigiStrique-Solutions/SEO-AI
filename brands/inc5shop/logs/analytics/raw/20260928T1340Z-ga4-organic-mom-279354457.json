@@ -1,0 +1,101 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/279354457",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 27701,
+    "totalUsers": 23219,
+    "newUsers": 20254,
+    "screenPageViews": 315124,
+    "engagedSessions": 24834,
+    "engagementRate": 0.8965019313
+  },
+  "aug": {
+    "sessions": 29225,
+    "totalUsers": 24707,
+    "newUsers": 22067,
+    "screenPageViews": 320909,
+    "engagedSessions": 25147,
+    "engagementRate": 0.8604619333
+  },
+  "source_rows": [
+    [
+      "bing / organic",
+      1105,
+      1679
+    ],
+    [
+      "duckduckgo / organic",
+      796,
+      1289
+    ],
+    [
+      "google / organic",
+      25885,
+      26338
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/collections/womens-wedges",
+      1155,
+      1358
+    ],
+    [
+      "/collections/womens-sandals",
+      2126,
+      2324
+    ],
+    [
+      "/collections/mens-formals",
+      137,
+      325
+    ],
+    [
+      "/",
+      4539,
+      4042
+    ],
+    [
+      "/collections/womens-flats",
+      1121,
+      942
+    ],
+    [
+      "/collections/womens-boots",
+      645,
+      487
+    ],
+    [
+      "/collections/mens-sandals",
+      789,
+      643
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

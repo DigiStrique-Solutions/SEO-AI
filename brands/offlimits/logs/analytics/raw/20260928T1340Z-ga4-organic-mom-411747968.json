@@ -1,0 +1,91 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/411747968",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 4720,
+    "totalUsers": 3980,
+    "newUsers": 3421,
+    "screenPageViews": 10762,
+    "engagedSessions": 1436,
+    "engagementRate": 0.3042372881
+  },
+  "aug": {
+    "sessions": 3661,
+    "totalUsers": 2795,
+    "newUsers": 2273,
+    "screenPageViews": 9132,
+    "engagedSessions": 1552,
+    "engagementRate": 0.4239278886
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      4117,
+      3576
+    ],
+    [
+      "duckduckgo / organic",
+      275,
+      2
+    ],
+    [
+      "bing / organic",
+      331,
+      77
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/collections/big-tall",
+      173,
+      223
+    ],
+    [
+      "/collections/size-13-shoes",
+      180,
+      217
+    ],
+    [
+      "/",
+      1041,
+      887
+    ],
+    [
+      "/collections/his-her",
+      85,
+      4
+    ],
+    [
+      "/products/oxford-dark-grey-ocm-643-05",
+      138,
+      77
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

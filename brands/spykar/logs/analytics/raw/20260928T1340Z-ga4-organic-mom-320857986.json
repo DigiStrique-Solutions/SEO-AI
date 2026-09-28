@@ -1,0 +1,101 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/320857986",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 24221,
+    "totalUsers": 20731,
+    "newUsers": 17285,
+    "screenPageViews": 164732,
+    "engagedSessions": 23833,
+    "engagementRate": 0.9839808431
+  },
+  "aug": {
+    "sessions": 29596,
+    "totalUsers": 24769,
+    "newUsers": 21192,
+    "screenPageViews": 201301,
+    "engagedSessions": 29093,
+    "engagementRate": 0.9830044601
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      21998,
+      26577
+    ],
+    [
+      "bing / organic",
+      1182,
+      1677
+    ],
+    [
+      "duckduckgo / organic",
+      916,
+      1241
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/",
+      4860,
+      6102
+    ],
+    [
+      "/collections/men-jeans",
+      2534,
+      3184
+    ],
+    [
+      "/collections/men-trousers-joggers",
+      399,
+      675
+    ],
+    [
+      "/collections/men-shirts",
+      702,
+      970
+    ],
+    [
+      "/collections/footwear",
+      173,
+      120
+    ],
+    [
+      "/collections/all-jeans",
+      568,
+      520
+    ],
+    [
+      "/collections/wardrobe-refresh-sale-jeans",
+      559,
+      512
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

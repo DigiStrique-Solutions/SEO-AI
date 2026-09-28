@@ -1,0 +1,96 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/313475286",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 25520,
+    "totalUsers": 18522,
+    "newUsers": 19563,
+    "screenPageViews": 230017,
+    "engagedSessions": 19542,
+    "engagementRate": 0.7657523511
+  },
+  "aug": {
+    "sessions": 27889,
+    "totalUsers": 21465,
+    "newUsers": 21520,
+    "screenPageViews": 255725,
+    "engagedSessions": 21474,
+    "engagementRate": 0.7699809961
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      24457,
+      27114
+    ],
+    [
+      "bing / organic",
+      651,
+      552
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/collections/women-pants-1",
+      133,
+      899
+    ],
+    [
+      "/collections/women-linen-pants",
+      126,
+      859
+    ],
+    [
+      "/collections/men-t-shirts-1",
+      245,
+      888
+    ],
+    [
+      "/",
+      7481,
+      8075
+    ],
+    [
+      "/collections/mens-pants-2",
+      1696,
+      909
+    ],
+    [
+      "/collections/mens-tshirts",
+      1253,
+      677
+    ],
+    [
+      "/collections/mens-shirts",
+      2185,
+      1757
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

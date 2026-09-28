@@ -1,0 +1,81 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/469898497",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "USD",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 97,
+    "totalUsers": 49,
+    "newUsers": 40,
+    "screenPageViews": 212,
+    "engagedSessions": 49,
+    "engagementRate": 0.5051546392
+  },
+  "aug": {
+    "sessions": 120,
+    "totalUsers": 69,
+    "newUsers": 54,
+    "screenPageViews": 334,
+    "engagedSessions": 67,
+    "engagementRate": 0.5583333333
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      95,
+      119
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/",
+      49,
+      63
+    ],
+    [
+      "/auth/sign-in",
+      3,
+      11
+    ],
+    [
+      "/google-day-2026",
+      0,
+      5
+    ],
+    [
+      "/pricing",
+      10,
+      3
+    ],
+    [
+      "/strique-catalog",
+      7,
+      1
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

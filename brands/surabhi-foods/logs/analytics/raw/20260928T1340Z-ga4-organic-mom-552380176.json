@@ -1,0 +1,74 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/552380176",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 696,
+    "totalUsers": 528,
+    "newUsers": 520,
+    "screenPageViews": 2336,
+    "engagedSessions": 462,
+    "engagementRate": 0.6637931034
+  },
+  "aug": null,
+  "source_rows": [
+    [
+      "google / organic",
+      687,
+      0
+    ],
+    [
+      "bing / organic",
+      5,
+      0
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/",
+      179,
+      0
+    ],
+    [
+      "/collections/jain-range",
+      98,
+      0
+    ],
+    [
+      "/collections/ketchups",
+      80,
+      0
+    ],
+    [
+      "/collections/shop-all",
+      50,
+      0
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

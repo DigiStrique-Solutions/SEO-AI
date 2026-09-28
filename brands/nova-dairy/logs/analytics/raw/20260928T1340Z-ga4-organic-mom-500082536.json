@@ -1,0 +1,91 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/500082536",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 1665,
+    "totalUsers": 1408,
+    "newUsers": 1349,
+    "screenPageViews": 3620,
+    "engagedSessions": 951,
+    "engagementRate": 0.5711711712
+  },
+  "aug": {
+    "sessions": 1748,
+    "totalUsers": 1456,
+    "newUsers": 1401,
+    "screenPageViews": 3655,
+    "engagedSessions": 937,
+    "engagementRate": 0.5360411899
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      1612,
+      1707
+    ],
+    [
+      "bing / organic",
+      48,
+      32
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/blog",
+      266,
+      393
+    ],
+    [
+      "/",
+      691,
+      761
+    ],
+    [
+      "(not set)",
+      63,
+      84
+    ],
+    [
+      "/products/skimmed-milk-powder",
+      109,
+      57
+    ],
+    [
+      "/products/cow-ghee",
+      34,
+      14
+    ],
+    [
+      "/products/dairy-whitener",
+      62,
+      46
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

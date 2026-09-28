@@ -1,0 +1,96 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/496800712",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 5248,
+    "totalUsers": 4166,
+    "newUsers": 3786,
+    "screenPageViews": 13405,
+    "engagedSessions": 3279,
+    "engagementRate": 0.6248094512
+  },
+  "aug": {
+    "sessions": 5977,
+    "totalUsers": 4277,
+    "newUsers": 3922,
+    "screenPageViews": 18751,
+    "engagedSessions": 3991,
+    "engagementRate": 0.6677262841
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      5085,
+      5793
+    ],
+    [
+      "duckduckgo / organic",
+      17,
+      33
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/",
+      786,
+      1567
+    ],
+    [
+      "/product/professional-studio-monitor-headphones-ath-m40x",
+      44,
+      131
+    ],
+    [
+      "(not set)",
+      368,
+      401
+    ],
+    [
+      "/product/wireless-over-ear-headphones-ath-m50xbt2",
+      61,
+      93
+    ],
+    [
+      "/product-category/turntables",
+      523,
+      477
+    ],
+    [
+      "/product/digital-smartmixer-atdm-0604a",
+      112,
+      83
+    ],
+    [
+      "/product/fully-automatic-belt-drive-turntable-at-lp60x",
+      115,
+      89
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}

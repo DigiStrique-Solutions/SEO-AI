@@ -1,0 +1,86 @@
+{
+  "run_id": "ga4-organic-mom-20260928",
+  "property": "properties/533748438",
+  "timezone": "Asia/Calcutta",
+  "comparison_period": {
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-27"
+  },
+  "current_period": {
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-27"
+  },
+  "dimensionFilter": {
+    "dimension": "sessionDefaultChannelGroup",
+    "matchType": "EXACT",
+    "value": "Organic Search"
+  },
+  "currency": "INR",
+  "report_metrics": [
+    "sessions",
+    "totalUsers",
+    "newUsers",
+    "screenPageViews",
+    "engagedSessions",
+    "engagementRate"
+  ],
+  "sep": {
+    "sessions": 656,
+    "totalUsers": 433,
+    "newUsers": 390,
+    "screenPageViews": 1703,
+    "engagedSessions": 419,
+    "engagementRate": 0.6387195122
+  },
+  "aug": {
+    "sessions": 797,
+    "totalUsers": 484,
+    "newUsers": 429,
+    "screenPageViews": 2398,
+    "engagedSessions": 534,
+    "engagementRate": 0.6700125471
+  },
+  "source_rows": [
+    [
+      "google / organic",
+      600,
+      777
+    ],
+    [
+      "bing / organic",
+      40,
+      15
+    ]
+  ],
+  "landing_page_rows": [
+    [
+      "/",
+      407,
+      482
+    ],
+    [
+      "(not set)",
+      39,
+      63
+    ],
+    [
+      "/pages/contact-us",
+      14,
+      31
+    ],
+    [
+      "/collections/chinese-sauces",
+      29,
+      45
+    ],
+    [
+      "/collections/combo-deals",
+      23,
+      3
+    ]
+  ],
+  "source_rows_note": "Selected source/medium rows ordered by session movement; pairs are September, August.",
+  "landing_rows_note": "Selected landing-page rows ordered by session movement; pairs are September, August.",
+  "full_response_ref": "/mnt/files/mex/gold.json",
+  "composio_log_id": "log_N5AkW5lBAlAi"
+}
