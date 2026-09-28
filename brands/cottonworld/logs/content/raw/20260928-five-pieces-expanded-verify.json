@@ -12,7 +12,7 @@
     "score": 6.0,
     "status": "pass",
     "tool": "Strique local AI text risk gate",
-    "word_count": 1503
+    "word_count": 1462
   },
   "errors": [
     "detector note 5 zerogpt score 39.5 meets or exceeds max AI detector score 20.0"
