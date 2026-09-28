@@ -1,0 +1,18 @@
+{
+  "run_id": "cottonworld-five-pieces-conversation-flow-20260928",
+  "checked_at": "2026-09-28T14:47:35+05:30",
+  "provider": "ZeroGPT website UI",
+  "url": "https://www.zerogpt.com/",
+  "draft": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
+  "result": {
+    "result_text": "Your Text is Human written",
+    "score_percent": 10.3,
+    "label": "AI GPT*",
+    "characters": 3531,
+    "words": 648
+  },
+  "status": "pass",
+  "threshold_percent": 20.0,
+  "interpretation": "The displayed score is below the strict 20% editorial threshold. Detector scores are weak signals and not proof of authorship. The revision was guided by the requested reference flow and Cottonworld voice, not a target score.",
+  "evidence_method": "Submitted the revised final article body through the visible ZeroGPT website UI and read the result from the page accessibility tree. The detector input matches the publishable body in the referenced draft, with Markdown link syntax reduced to its visible anchor text and headings submitted as plain lines."
+}

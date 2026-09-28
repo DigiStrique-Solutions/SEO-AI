@@ -1,0 +1,129 @@
+{
+  "run_id": "cottonworld-five-pieces-conversation-flow-20260928",
+  "access_date": "2026-09-28",
+  "location": "India",
+  "purpose": "Use user-supplied fashion-editorial references to improve pacing and conversational feel while preserving Cottonworld voice and originality.",
+  "proposed_title_query": "A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most",
+  "serp_query": "how to build a capsule wardrobe blog five pieces you wear most",
+  "exact_title_match": false,
+  "reference_pages": [
+    {
+      "url": "https://themomedit.com/how-to-build-a-capsule-wardrobe/",
+      "title": "How I Finally Made a Capsule Wardrobe Work",
+      "author": "Sarah Lemon",
+      "access_status": 200,
+      "approx_extracted_words": 3489,
+      "extracted_headings": [
+        "Making A Pinterest-Worthy Capsule Wardrobe…Practical",
+        "Why I Love The Idea of a Capsule Wardrobe",
+        "The Problems with Building a Capsule Wardrobe",
+        "My Year of Research (Methodology)",
+        "Style is What You Don’t Wear",
+        "My Constraints",
+        "The Missing Piece: Modules",
+        "My Completed Winter 2023-2024 Wardrobe",
+        "Module 1–3 outfit combinations",
+        "Managing the Rotation",
+        "But Did it Really Work?",
+        "Planning the Next Round"
+      ],
+      "tone_and_flow_observation": "Candid first-person narrative begins with the writer’s difficulty getting dressed, explains why the capsule idea appeals and where standard approaches failed, introduces a practical module method, shows its application, then reflects on rotation and results. Personal details are central to this source’s voice and are not imported into Cottonworld copy.",
+      "firecrawl_capture": {
+        "status_code": 200,
+        "markdown_characters": 31490,
+        "approx_words": 3489,
+        "date_published": "2026-04-27",
+        "reading_time_label": "16 minutes"
+      }
+    },
+    {
+      "url": "https://www.whowhatwear.com/uk/fashion/fall/autumn-capsule-wardrobe-2026",
+      "title": "I Built an Elegant Autumn Capsule Wardrobe With These 9 Staples",
+      "author": "Brittany Davy",
+      "access_status": 200,
+      "page_extraction": "Web open returned 515 lines. Firecrawl main-content scrape returned only 132 characters, so no extracted word count is recorded.",
+      "extracted_structure": [
+        "Personal editor-to-friend set-up and a clear promise",
+        "Nine staple-item sections",
+        "Each item receives a short personal style note followed by multiple shoppable products",
+        "Affiliate-led item progression and seasonal framing"
+      ],
+      "tone_and_flow_observation": "Conversational fashion-editor voice, direct opening, then a brisk item-by-item sequence. Useful pacing and concise asides informed the revision; seasonal UK product picks and shopping density were not carried over."
+    }
+  ],
+  "top_three_relevant_organic_results_from_keyword_query": [
+    {
+      "rank": 1,
+      "title": "10 Outfits from 5 Pieces: Build Your Capsule Wardrobe (2026 Guide)",
+      "url": "https://www.dressingwizard.com/looks/capsule-wardrobe-10-outfits-5-pieces",
+      "access_status": 200,
+      "approx_extracted_words": 2322,
+      "headings_and_flow": [
+        "Complete Look",
+        "Five individual staple sections",
+        "The 10-Outfit Matrix: Every Combination",
+        "How to Shop These 5 Pieces Without Wasting Money",
+        "Expanding the Capsule",
+        "Maintenance",
+        "FAQ"
+      ],
+      "tone": "Formula-led, confident and commercial; includes numerical and price claims not reused."
+    },
+    {
+      "rank": 2,
+      "title": "How to Build a Capsule Wardrobe With Five Core Pieces",
+      "url": "https://howtofashionedition.com/en/women/build/clothing/capsule-wardrobe-core-pieces/",
+      "access_status": 200,
+      "approx_extracted_words": 2127,
+      "headings_and_flow": [
+        "What you’ll need",
+        "Audit your actual life",
+        "Choose a neutral base",
+        "Select each of five pieces",
+        "How to know your capsule works",
+        "Questions at the mirror"
+      ],
+      "tone": "Direct, conversational checklist with advice followed by a five-piece selection method and fit test."
+    },
+    {
+      "rank": 3,
+      "title": "The First 5 Pieces of Your Capsule Wardrobe (Start Here)",
+      "url": "https://www.lindapaige.com/blog/first-5-pieces-capsule-wardrobe",
+      "access_status": 200,
+      "approx_extracted_words": 2529,
+      "headings_and_flow": [
+        "Why Do I Have So Many Clothes But Nothing to Wear?",
+        "What Are the Foundation Pieces?",
+        "Five item-by-item sections",
+        "How Do These 5 Pieces Actually Work Together?",
+        "What Comes Next?",
+        "Questions and action CTA"
+      ],
+      "tone": "Personal stylist/coaching voice, problem-first, item-by-item advice, then application and commercial next step."
+    }
+  ],
+  "benchmark_decision": "Lead with a recognisable getting-dressed moment; let the reader question fixed capsule rules; move from their own repeat choices to complete outfits and a small practical method; close with a decision about what, if anything, to add. Make the prose more reader-facing and conversational through natural questions, direct address and gentle asides. Keep Cottonworld’s calm, warm, life-first voice; do not imitate first-person anecdotes, fixed staple lists, seasonal framing or affiliate-heavy product blocks.",
+  "internal_link_recheck": [
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "status_code": 200,
+      "title": "Buy Men's Cotton Shirts: Classic & Casual Styles | Cottonworld"
+    },
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "status_code": 200,
+      "title": "Buy Men's Linen Cotton Casual Wear Regular Fit Shirts|Cottonworld",
+      "facts": "55% linen, 45% cotton; regular fit"
+    },
+    {
+      "url": "https://cottonworld.net/pages/linen-collection",
+      "status_code": 200,
+      "title": "Linen Collection: Explore Breathable Comfort | Cottonworld"
+    },
+    {
+      "url": "https://cottonworld.net/collections",
+      "status_code": 200,
+      "title": "Collections – Cottonworld"
+    }
+  ]
+}

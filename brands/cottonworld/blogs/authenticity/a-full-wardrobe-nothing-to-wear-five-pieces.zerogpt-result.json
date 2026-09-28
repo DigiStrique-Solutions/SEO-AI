@@ -12,17 +12,17 @@
   "ok": true,
   "recorded_to_authenticity": true,
   "website_ui_result": {
-    "checked_at": "2026-09-28T13:56:00+05:30",
+    "checked_at": "2026-09-28T14:47:35+05:30",
     "url": "https://www.zerogpt.com/",
-    "score": 17.2,
+    "score": 10.3,
     "result_text": "Your Text is Human written",
     "status": "pass",
     "max_score": 20.0,
-    "draft_version": "Final quality-revised version in a-full-wardrobe-nothing-to-wear-five-pieces.md",
-    "note": "Final article body submitted through the website UI; 17.2% AI GPT. Weak editorial signal, not proof of authorship. No changes were made to chase a lower score.",
-    "characters": 4315,
-    "words": 793,
-    "evidence": "brands/cottonworld/logs/content/raw/20260928-five-pieces-zerogpt-final-ui.json"
+    "draft_version": "Conversational-flow revision in a-full-wardrobe-nothing-to-wear-five-pieces.md",
+    "note": "Final article body submitted through the website UI; 10.3% AI GPT. Weak editorial signal, not proof of authorship.",
+    "characters": 3531,
+    "words": 648,
+    "evidence": "brands/cottonworld/logs/content/raw/20260928-five-pieces-conversation-flow-zerogpt-ui.json"
   },
   "previous_website_ui_attempt": {
     "checked_at": "2026-09-28T12:28:04+05:30",
@@ -31,6 +31,16 @@
     "status": "blocked",
     "note": "A full-screen ad interstitial obscured the result. Superseded by the final 17.2% check.",
     "evidence": "brands/cottonworld/logs/content/activity.jsonl"
+  },
+  "prior_flow_revision_result": {
+    "checked_at": "2026-09-28T13:56:00+05:30",
+    "url": "https://www.zerogpt.com/",
+    "score": 17.2,
+    "result_text": "Your Text is Human written",
+    "status": "pass",
+    "max_score": 20.0,
+    "note": "Superseded by the later conversational-flow revision.",
+    "evidence": "brands/cottonworld/logs/content/raw/20260928-five-pieces-zerogpt-final-ui.json"
   },
   "previous_website_ui_result": {
     "checked_at": "2026-09-27T17:08:30+00:00",
