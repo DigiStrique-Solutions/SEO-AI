@@ -1,11 +1,13 @@
 {
   "claims": [],
   "zerogpt_gate": {
-    "status": "blocked",
-    "checked_at": "2026-09-28T12:28:04+05:30",
+    "status": "pass",
+    "checked_at": "2026-09-28T13:56:00+05:30",
     "maximum_score": 20.0,
-    "reason": "The final rewritten draft was submitted on ZeroGPT, but a full-screen Google ad interstitial opened over the result area and no score or detection result could be verified.",
-    "next_action": "Recheck this exact final draft on the ZeroGPT website UI after the interstitial issue clears; do not publish until the displayed score is strictly below 20%."
+    "score": 17.2,
+    "result_text": "Your Text is Human written",
+    "reason": "Final quality-revised draft submitted through the ZeroGPT website UI. The displayed score was 17.2% AI GPT, below the strict 20% threshold. This is an editorial signal, not proof of authorship.",
+    "evidence": "brands/cottonworld/logs/content/raw/20260928-five-pieces-zerogpt-final-ui.json"
   },
   "detector_notes": [
     {
@@ -29,14 +31,23 @@
       "url": "https://www.zerogpt.com/"
     },
     {
-      "checked_at": "2026-09-28T12:28:04+05:30",
+      "checked_at": "2026-09-28T13:56:00+05:30",
       "max_score": 20.0,
-      "note": "Final rewritten draft submitted through ZeroGPT website UI. A full-screen ad interstitial blocked the result view; no score was recorded. The detector gate is blocked, not passed.",
-      "score": null,
+      "note": "Final quality-revised draft submitted through ZeroGPT website UI. The site displayed 'Your Text is Human written' and 17.2% AI GPT. This is an editorial risk signal, not proof of authorship. Content quality was prioritized; no edits were made to chase a lower score.",
+      "score": 17.2,
       "source": "website_ui",
-      "status": "blocked",
+      "status": "pass",
       "tool": "zerogpt",
       "url": "https://www.zerogpt.com/"
+    }
+  ],
+  "historical_attempts": [
+    {
+      "checked_at": "2026-09-28T12:28:04+05:30",
+      "status": "blocked",
+      "source": "website_ui",
+      "note": "A full-screen ad interstitial blocked the result view; no score was recorded. Superseded by the final UI check at 13:56, which returned 17.2%.",
+      "evidence": "brands/cottonworld/logs/content/activity.jsonl"
     }
   ],
   "internal_link_map": [
@@ -74,11 +85,11 @@
     "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
     "required_ai_text_risk_skill": "ai-text-risk-gate",
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
-    "status": "review_draft_blocked",
+    "status": "review_draft",
     "target": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
     "target_title": "A Full Wardrobe, Nothing to Wear: Start With the Five Pieces You Reach For Most",
     "google_doc": "https://docs.google.com/document/d/1gIwhS7jPtEiWbukVPs8A2X0KZAxIjRRcjJila1MeNHo/edit?usp=drivesdk",
-    "google_doc_verified": "Updated and read back on 2026-09-28. New flow present; four intended internal anchors visible in blue underline; review status note displayed."
+    "google_doc_verified": "Updated and read back on 2026-09-28 after the final quality revision. Verified the new opening, connected three-section flow, review note, and all four intended anchors visible in blue underline."
   },
   "schema_version": "1.0.0",
   "sources": [
@@ -147,6 +158,12 @@
       "source_id": "cottonworld-links-recheck-20260928",
       "source_ref": "brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
       "source_type": "internal_link_verification"
+    },
+    {
+      "extracted_facts": "Quality revision tightened the reader journey from the getting-dressed moment to the five-piece observation, outfit testing, friction diagnosis and gap-led shopping. Source-backed product details were retained, repeated set-up was reduced, and the close returns to the reader’s week. Final ZeroGPT website UI result was 17.2% on 2026-09-28; quality was prioritized over detector score.",
+      "source_id": "quality-revision-and-zerogpt-final-20260928",
+      "source_ref": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md; brands/cottonworld/logs/content/raw/20260928-five-pieces-zerogpt-final-ui.json",
+      "source_type": "editorial_review"
     }
   ]
 }
