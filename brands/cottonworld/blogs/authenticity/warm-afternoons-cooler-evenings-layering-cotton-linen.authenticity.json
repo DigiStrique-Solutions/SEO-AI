@@ -1,0 +1,114 @@
+{
+  "claims": [],
+  "zerogpt_gate": {
+    "status": "blocked",
+    "checked_at": "2026-09-28T11:11:14Z",
+    "maximum_score": 20.0,
+    "score": null,
+    "local_fallback_score": 6.0,
+    "result_text": "ZeroGPT did not return a score.",
+    "reason": "The ZeroGPT API returned HTTP 403 Not enough credits. The website UI accepted the text but did not return a result after submission. Local fallback is not an external ZeroGPT score, so the external gate remains blocked.",
+    "evidence": "brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-zerogpt-check.json; brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-zerogpt-submission.txt"
+  },
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-28T11:11:14Z",
+      "fallback_error": "ZeroGPT returned HTTP 403 Not enough credits.",
+      "max_score": 20.0,
+      "note": "Local AI-pattern fallback score is 6.0; it is not a verified ZeroGPT score. UI submission produced no result. External gate blocked.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "blocked",
+      "tool": "zerogpt"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "cotton-linen collection",
+      "purpose": "Contextual collection/category resource",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Cotton Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+    },
+    {
+      "anchor": "men\u2019s brown linen-cotton shirt",
+      "purpose": "Specific product example",
+      "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "verification": "Live rendered product returned HTTP 200 on 2026-09-28; product title Men's Brown Linen Cotton Regular Fit Shirt and listed blend 55% linen, 45% cotton. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+    },
+    {
+      "anchor": "linen collection",
+      "purpose": "Additional contextual linen category link",
+      "url": "https://cottonworld.net/collections/all-linen",
+      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+    },
+    {
+      "anchor": "Cottonworld’s cotton and linen clothing",
+      "purpose": "Conclusion commercial CTA",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Cotton Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+    }
+  ],
+  "metadata": {
+    "brand_id": "cottonworld",
+    "created_at": "2026-09-28",
+    "gsc_note": "The tracked keyword files do not contain this exact seasonal layering phrase. Search demand was not verified; no demand or ranking claim is made.",
+    "intent": "informational",
+    "primary_keyword": "layering cotton and linen",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "serp_research": "brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+    "status": "review_draft",
+    "target": "brands/cottonworld/blogs/drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+    "target_title": "Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe",
+    "word_count": 1539,
+    "google_doc": "https://docs.google.com/document/d/1R7JoJfzXdrZK9jCPQrw_SWv6JLivjXWeG9EEj8kMHLE/edit",
+    "google_doc_verified": "Native Google Doc created and read back on 2026-09-28. Verified title, metadata, editorial review-draft note, H2/H3 hierarchy, and five blue-underlined links (one external source and four internal destinations)."
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "extracted_facts": "Cottonworld is an Indian natural-clothing brand. Its voice is calm, warm, plain and life-first. Clothing supports daily life; practical intention, repeat wear and fewer unnecessary choices are relevant themes. Avoid unsupported fabric-performance, environmental, product or ranking claims.",
+      "source_id": "cottonworld-brand-context-layering",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "Live India SERP for the proposed title had no exact-title result. Three relevant organic blogs were reviewed: Angharad Jones Best (1,606 extracted words; personal weather situation to tips and outfits), Love Olive Co (1,934; item-by-item outfit guide with frequent product calls to action), and 40+style (3,408; detailed fabric/proportion advice followed by clothing-category examples and shopping content). Counts include some page furniture. The new outline uses comparable practical depth with a life-first opening, fabric/fit guidance, three daily-routine outfit examples, a wardrobe-use section and FAQs, without copying the competitors' wording or structure.",
+      "source_id": "serp-layering-cotton-linen-20260928",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "The extension page states cotton allows air to circulate and lists linen among summer fabric choices. The draft attributes this narrow point to the source and notes that garment weight, weave, fit and weather also matter.",
+      "source_id": "usu-extension-summer-clothing-20260928",
+      "source_ref": "https://extension.usu.edu/news_sections/home_family_and_food/summer-hydration; official Utah State University Extension page, opened 2026-09-28; evidence at section 'Dress wisely' and raw source note in brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+      "source_type": "competitor_page"
+    },
+    {
+      "extracted_facts": "Live Cotton Linen collection used as a contextual shopping path. No collection-wide comfort or performance claim is made.",
+      "source_id": "cottonworld-cotton-linen-collection-20260928",
+      "source_ref": "https://cottonworld.net/collections/cotton-linen; live rendered page checked 2026-09-28, HTTP 200; evidence brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Product page names a Men's Brown Linen Cotton Regular Fit Shirt and lists 55% linen, 45% cotton. The blog uses those details as a specific product example, not as a claim about all Cottonworld shirts.",
+      "source_id": "cottonworld-brown-linen-cotton-shirt-layering-20260928",
+      "source_ref": "https://cottonworld.net/products/m-shirts-17351-21614-brown; live rendered page checked 2026-09-28, HTTP 200; source capture brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Live Cottonworld Linen collection used as the conclusion's commercial next step.",
+      "source_id": "cottonworld-linen-collection-cta-20260928",
+      "source_ref": "https://cottonworld.net/collections/all-linen; live rendered page checked 2026-09-28, HTTP 200; evidence brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": "Maintain an editorial, non-chatty voice; a clear connected reader journey; practical depth similar to or above 1,000 words; helpful examples; source-backed product details; and a quiet close. The benchmark article was 1,361 words in detector count.",
+      "source_id": "user-established-cottonworld-blog-standard-20260928",
+      "source_ref": "Current conversation: user approved the expanded five-piece Cottonworld blog as the standard; reference article brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "source_type": "human_context"
+    }
+  ]
+}

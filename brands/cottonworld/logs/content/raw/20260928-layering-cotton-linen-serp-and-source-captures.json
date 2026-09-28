@@ -1,0 +1,64 @@
+{
+  "accessed_at": "2026-09-28",
+  "market": "India",
+  "queries": [
+    {
+      "query": "Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe",
+      "exact_title_match": false,
+      "organic_blog_results_reviewed": [
+        {
+          "position": 3,
+          "title": "How to layer in warm weather",
+          "url": "https://angharadjones.substack.com/p/how-to-layer-in-warm-weather",
+          "tone": "Personal and candid; begins with a specific hot-weather situation and retains first-person voice.",
+          "extracted_words": 1606,
+          "structure": ["How to Layer in Warm Weather", "Tips for layering in warm weather", "More outfits in action", "Ready for more?"],
+          "flow": "Weather situation and personal premise, then practical tips, outfit examples and a short continuation prompt."
+        },
+        {
+          "position": 4,
+          "title": "Layering 101: How to Style Outfits for Chilly Mornings & Warm Afternoons",
+          "url": "https://loveoliveco.com/blogs/news/layering-101-how-to-style-outfits-for-chilly-mornings-amp-warm-afternoons",
+          "tone": "Direct, commercial and seasonal; shopping prompts appear throughout.",
+          "extracted_words": 1934,
+          "structure": ["Start with a Strong Base Layer", "Add a Middle Layer for Style + Warmth", "Top It Off with an Outer Layer", "Dresses: The Unsung Heroes of Layering", "Overalls: Playful, Practical, and Perfect for Fall", "Play with Accessories", "Shoes to Balance Your Layers", "Choose the Right Fabrics", "Why Layering is a Must for Fall", "Final Thoughts"],
+          "flow": "Item-by-item outfit-building guide with clothing category examples, fabric advice and repeated shoppable calls to action."
+        },
+        {
+          "position": 8,
+          "title": "Spring layering and how to layer for spring",
+          "url": "https://40plusstyle.com/spring-layering/",
+          "tone": "Detailed, instructional and shopping-led, with product examples and affiliate links.",
+          "extracted_words": 3408,
+          "structure": ["Your fabric choice is super important", "Think about the lengths of your layers", "Think about how your outfit works…with or without your layer", "Start with a comfortable base", "Add a flowy tunic or shirt", "Use a lightweight jacket or cardigan", "Scarves, kimonos, and wraps", "Pants and leggings", "Layers go with shorts too", "You can layer under or over a dress", "Accessories", "Your spring layering capsule"],
+          "flow": "Broad fabric and proportion principles lead into clothing-category examples, accessories and a capsule summary."
+        }
+      ],
+      "raw_returned_top_results": [
+        {"position": 1, "title": "Fall mornings are chilly, afternoons are warm… layers are the only way ...", "url": "https://www.facebook.com/fashionablylatemom/posts/fall-mornings-are-chilly-afternoons-are-warm-layers-are-the-only-way-to-survive-/1633643408342705/"},
+        {"position": 2, "title": "Did you guess? Everyone overdresses for heat ...", "url": "https://www.instagram.com/reel/DavGi4psfrP/"},
+        {"position": 3, "title": "How to layer in warm weather", "url": "https://angharadjones.substack.com/p/how-to-layer-in-warm-weather"},
+        {"position": 4, "title": "Layering 101: How to Style Outfits for Chilly Mornings & Warm Afternoons", "url": "https://loveoliveco.com/blogs/news/layering-101-how-to-style-outfits-for-chilly-mornings-amp-warm-afternoons"},
+        {"position": 7, "title": "How to Dress for the In-Between Spring to Summer Weather", "url": "https://thefoldinglady.com/how-to-dress-for-the-in-between-spring-to-summer-weather-layering-for-unpredictable-days-womens-fashion/"},
+        {"position": 8, "title": "Spring layering and how to layer for spring", "url": "https://40plusstyle.com/spring-layering/"}
+      ]
+    },
+    {
+      "query": "layering cotton linen warm afternoon cool evening outfit guide fashion blog",
+      "note": "Broader topical query used as a relevance cross-check. It returned Love Olive Co at position 2, wit & whimsy at position 3, The Organico at position 8, plus social results and unrelated seasonal pages. The exact-title query supplied the three pages used for the tone/length/structure benchmark."
+    }
+  ],
+  "page_capture_method": "Firecrawl live scrape; markdown headings and extracted word counts stored above. Counts include site furniture and product links and are directional, not exact body-only lengths.",
+  "external_source": {
+    "title": "Ask an Expert: Six Tips for Staying Hydrated This Summer | USU",
+    "url": "https://extension.usu.edu/news_sections/home_family_and_food/summer-hydration",
+    "accessed_at": "2026-09-28",
+    "evidence": "Utah State University Extension's summer clothing section says cotton allows air to circulate and identifies linen as another summer fabric choice. The draft uses this narrowly and does not claim every garment or blend performs the same."
+  },
+  "internal_link_verification": [
+    {"url": "https://cottonworld.net/collections/cotton-linen", "status": 200, "page_title": "Cotton Linen", "role": "Contextual product/collection link; live collection page."},
+    {"url": "https://cottonworld.net/products/m-shirts-17351-21614-brown", "status": 200, "page_title": "Buy Men's Linen Cotton Casual Wear Regular Fit Shirts|Cottonworld", "role": "Specific product example; current page names Men's Brown Linen Cotton Regular Fit Shirt and lists 55% linen, 45% cotton."},
+    {"url": "https://cottonworld.net/collections/all-linen", "status": 200, "page_title": "Linen", "role": "Conclusion commercial next step; live linen collection."}
+  ],
+  "excluded_broken_destination": "https://cottonworld.net/collections/linen returned 404 in earlier validation; it is not used in the draft."
+}

@@ -43,6 +43,14 @@ The four intended titles gesture toward fabric education and slow style, but no 
 - capsule wardrobes and repeat-wear outfit planning;
 - product-linked fit, fabric and care guidance.
 
+## New draft — 2026-09-28
+
+| Title | Status | Word count | Google Doc | Workspace draft |
+|---|---|---:|---|---|
+| Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe | Review draft; ZeroGPT external score blocked by 403 Not enough credits | 1,539 | [Google Doc](https://docs.google.com/document/d/1R7JoJfzXdrZK9jCPQrw_SWv6JLivjXWeG9EEj8kMHLE/edit) | [draft](drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md) |
+
+The article follows the user-approved expanded five-piece blog standard. Live SERP notes, source captures, internal-link verification and the local authenticity report are in `../logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json` and related dated files. The external detector gate remains blocked until ZeroGPT returns a verifiable score.
+
 ## Recommended order
 
 1. Unpublish or replace the two JSW Defence/Lorem Ipsum posts immediately.

@@ -79,6 +79,10 @@ Slow living can appear as:
 - Weave products into the situation after their usefulness is clear.
 - Close with a reflection about thoughtful choices, repeat wear or the life the clothing supports; a relevant category path may follow without a sales push.
 
+## Approved long-form blog standard (2026-09-28)
+
+The expanded “A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most” article is the current approved depth and flow reference for new Cottonworld blogs. Keep the voice editorial, calm and useful rather than chatty. Give the reader a clear opening situation, answer the central need early, and move through practical advice in a connected sequence. Use concrete routine-based examples and FAQs where they help. Aim for at least 1,000 words when the subject warrants that depth; do not stretch a narrower topic with filler. Keep product details source-backed, links contextual, and the close low-pressure. The reference article's detector count was 1,361 words; treat that as a depth cue, not a required template or exact target.
+
 ## Example transformation
 
 Generic:
