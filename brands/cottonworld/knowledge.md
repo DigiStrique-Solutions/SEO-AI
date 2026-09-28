@@ -66,7 +66,7 @@ Before a blog is approved, confirm that it:
 - Exact-match GSC data is saved in `keywords/universe.csv` and `logs/keywords/raw/20260727T122353Z-gsc-refresh.json`.
 - Keyword Planner remains blocked because `GOOGLE_ADS_PLATFORM_ID` is unset; volume and difficulty fields are intentionally blank.
 - CrUX/PageSpeed field data remains blocked because `GOOGLE_API_KEY` is unset.
-- GA4 or another analytics stack is not confirmed. Do not assume GA4.
+- (2026-09-28) Read-only GA4 reporting is accessible through Composio for `properties/313475286` (“cottonworld.net - GA4”, Asia/Calcutta). This verifies report access, not complete tagging or ecommerce coverage; see `logs/analytics/` for the monthly traffic pull.
 
 ## Blog database
 
@@ -93,7 +93,7 @@ Before a blog is approved, confirm that it:
 
 - Exact store/customer counts
 - Current complete product count
-- GA4/analytics stack
+- GA4 event and tracking coverage
 - Brand-approved competitors
 - Leadership names and ownership details
 - Price tier by category

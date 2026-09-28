@@ -39,7 +39,7 @@ The site reports 20+ quality checks, three manufacturing plants, more than 26 la
 
 ## Measurement and tooling
 
-Google Search Console is connected for `https://steragro.com/` with siteOwner access. The onboarding pull returned 986 India query/page rows and 649 unique queries for 2025-04-01 through 2026-08-01; use `keywords/research-summary.json` and `logs/keywords/` for the exact provenance. No web analytics platform was verified. Do not assume GA4, PostHog or another analytics platform. Public-page evidence is logged under `logs/web_data/`.
+Google Search Console is connected for `https://steragro.com/` with siteOwner access. The onboarding pull returned 986 India query/page rows and 649 unique queries for 2025-04-01 through 2026-08-01; use `keywords/research-summary.json` and `logs/keywords/` for the exact provenance. (2026-09-28) Read-only GA4 reporting is now accessible through Composio for `properties/500082536` (“Nova Dairy”, Asia/Calcutta); this verifies report access, not complete tagging or conversion coverage. See `logs/analytics/`. Public-page evidence is logged under `logs/web_data/`.
 
 ## Open decisions
 
@@ -48,7 +48,7 @@ Google Search Console is connected for `https://steragro.com/` with siteOwner ac
 - What are the approved brand colors, fonts, logo assets and image rules?
 - Which product SKUs and pack sizes are currently available by market?
 - Which quantitative claims have approved substantiation?
-- Which web analytics property should be connected, and which conversion events are authoritative?
+- Which GA4 conversion events are authoritative, and is tracking complete across the site?
 
 ## Provenance
 

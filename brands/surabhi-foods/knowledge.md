@@ -90,7 +90,7 @@ Current site copy is warm, enthusiastic, sensory, and benefit-led. It commonly:
 
 - The storefront is Shopify.
 - Current evidence comes from Firecrawl and browser-rendered public pages.
-- GSC and analytics are not yet connected for this brand. Never state traffic, ranking, revenue, or conversion performance without connected-source evidence.
+- GSC remains unconnected. (2026-09-28) Read-only GA4 reporting is accessible through Composio for `properties/552380176` (“Surabhi Foods”, Asia/Calcutta), created 2026-09-02. It has September data but no August baseline; the older `properties/532737245` (“Surabhi”) returned no data in either comparison window. Confirm the correct property and tracking coverage before interpreting trends. See `logs/analytics/`.
 
 ## Open questions
 
@@ -98,7 +98,7 @@ Current site copy is warm, enthusiastic, sensory, and benefit-led. It commonly:
 2. What is the approved corporate relationship among Surabhi Foods, Surabhi Sauces, and Adinath Agro Processed Foods Private Limited?
 3. Which competitors should be tracked?
 4. What are the priority geographies, categories, and commercial segments?
-5. Which GSC and analytics properties belong to this storefront?
+5. Which GSC property belongs to this storefront, and is `properties/552380176` the complete GA4 implementation for it?
 6. Is current FSSC 22000 proof available, and which facility/products does it cover?
 
 ## Provenance

@@ -40,7 +40,7 @@
 
 - **Google Search Console** — site shows `google-site-verification` meta (verified). Connect via **Composio** for search performance, indexing, and page/query evidence. This is the priority evidence source.
 - **Google Ads Keyword Planner** via **Composio** → keyword demand research; scope to **India**.
-- **Analytics platform is NOT confirmed** (GA4 vs other) — do NOT assume GA4. Confirm the connected analytics before citing behavioral/conversion numbers. → open question.
+- **(2026-09-28) GA4 report access is now verified** through Composio for `properties/279354457` (“Inc 5 - GA4”, Asia/Calcutta). This confirms accessible traffic reports, not complete tagging or ecommerce coverage. The September comparison returned `dataLossFromOtherRow`; validate data quality before treating breakdowns as complete. See `logs/analytics/`.
 - Third-party stack observed (do not treat as SEO analytics): Shopify (platform), **GoKwik** (checkout), **ClickPost** (order tracking + returns, on `inc5shop.clickpost.in`), **Judge.me** (reviews, ~1,758 reviews), **LimeChat / Shiprocket Engage** (WhatsApp chat).
 
 ## Technical / SEO notes (to verify in audits)
@@ -74,7 +74,7 @@
 ## Open Questions / To Confirm
 
 - Exact brand hex values, typography, canonical vector logo.
-- Connected analytics platform (GA4 or other).
+- GA4 event definitions, tagging coverage and ecommerce measurement.
 - Approved competitor set & primary positioning.
 - Priority growth category for SEO (women's vs men's/Privo vs handbags).
 - Index hygiene decision on dated/dark collections.
