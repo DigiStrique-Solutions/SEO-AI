@@ -1,0 +1,39 @@
+{
+  "run_id": "cottonworld-five-pieces-links-20260928",
+  "checked_at": "2026-09-28T12:28:04+05:30",
+  "provider": "Firecrawl rendered page extraction",
+  "checks": [
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "title": "Buy Men's Cotton Shirts: Classic & Casual Styles | Cottonworld",
+      "chars_extracted": 51953,
+      "anchor": "men’s shirts",
+      "relevance": "Men’s shirt category linked contextually from the shopping-gap example."
+    },
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "http_status": 200,
+      "title": "Buy Men's Linen Cotton Casual Wear Regular Fit Shirts|Cottonworld",
+      "chars_extracted": 34436,
+      "anchor": "brown linen-cotton shirt",
+      "relevance": "Product matches the example; product page identifies 55% linen, 45% cotton and regular fit."
+    },
+    {
+      "url": "https://cottonworld.net/pages/linen-collection",
+      "http_status": 200,
+      "title": "Linen Collection: Explore Breathable Comfort | Cottonworld",
+      "chars_extracted": 4948,
+      "anchor": "linen collection guide",
+      "relevance": "Relevant fabric collection resource following the product example."
+    },
+    {
+      "url": "https://cottonworld.net/collections",
+      "http_status": 200,
+      "title": "Collections – Cottonworld",
+      "chars_extracted": 8900,
+      "anchor": "Cottonworld’s clothing collections",
+      "relevance": "Commercial next step in the article conclusion."
+    }
+  ]
+}

@@ -9,9 +9,19 @@
     "status": "pass",
     "tool": "zerogpt"
   },
-  "ok": true,
+  "ok": false,
   "recorded_to_authenticity": true,
   "website_ui_result": {
+    "checked_at": "2026-09-28T12:28:04+05:30",
+    "url": "https://www.zerogpt.com/",
+    "score": null,
+    "result_text": null,
+    "status": "blocked",
+    "max_score": 20.0,
+    "draft_version": "Rewritten final source-backed version in a-full-wardrobe-nothing-to-wear-five-pieces.md",
+    "note": "Draft submitted through the website UI. A full-screen ad interstitial obscured the result; no percentage could be verified. This is not a pass."
+  },
+  "previous_website_ui_result": {
     "checked_at": "2026-09-27T17:08:30+00:00",
     "url": "https://www.zerogpt.com/",
     "score": 15.9,

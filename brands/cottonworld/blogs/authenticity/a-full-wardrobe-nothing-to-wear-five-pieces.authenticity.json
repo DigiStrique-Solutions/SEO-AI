@@ -1,15 +1,11 @@
 {
   "claims": [],
   "zerogpt_gate": {
-    "status": "pass",
-    "checked_at": "2026-09-27T17:08:30+00:00",
-    "score": 15.9,
+    "status": "blocked",
+    "checked_at": "2026-09-28T12:28:04+05:30",
     "maximum_score": 20.0,
-    "source": "ZeroGPT website UI",
-    "url": "https://www.zerogpt.com/",
-    "result_text": "Your Text is Human written",
-    "reason": "Final source-backed draft checked in ZeroGPT website UI; score was below the strict 20% threshold. The score is an editorial risk signal, not proof of authorship.",
-    "next_action": "Retain the result with the final draft; recheck if substantive copy changes."
+    "reason": "The final rewritten draft was submitted on ZeroGPT, but a full-screen Google ad interstitial opened over the result area and no score or detection result could be verified.",
+    "next_action": "Recheck this exact final draft on the ZeroGPT website UI after the interstitial issue clears; do not publish until the displayed score is strictly below 20%."
   },
   "detector_notes": [
     {
@@ -23,7 +19,7 @@
       "tool": "zerogpt"
     },
     {
-      "checked_at": "2026-09-27T17:08:30+00:00",
+      "checked_at": "2026-09-27T22:38:30+05:30",
       "max_score": 20.0,
       "note": "Final draft submitted through ZeroGPT website UI. The site displayed 'Your Text is Human written' and 15.9% AI GPT. Score is an editorial risk signal, not proof of authorship.",
       "score": 15.9,
@@ -31,38 +27,42 @@
       "status": "pass",
       "tool": "zerogpt",
       "url": "https://www.zerogpt.com/"
+    },
+    {
+      "checked_at": "2026-09-28T12:28:04+05:30",
+      "max_score": 20.0,
+      "note": "Final rewritten draft submitted through ZeroGPT website UI. A full-screen ad interstitial blocked the result view; no score was recorded. The detector gate is blocked, not passed.",
+      "score": null,
+      "source": "website_ui",
+      "status": "blocked",
+      "tool": "zerogpt",
+      "url": "https://www.zerogpt.com/"
     }
   ],
   "internal_link_map": [
     {
-      "anchor": "women’s tops and shirts",
-      "purpose": "Contextual product/category link",
-      "url": "https://cottonworld.net/collections/women-topwear",
-      "verification": "Live rendered category page, relevant products present, 2026-09-27"
-    },
-    {
       "anchor": "men’s shirts",
       "purpose": "Contextual product/category link",
       "url": "https://cottonworld.net/collections/mens-shirts",
-      "verification": "Live rendered category page, relevant products present, 2026-09-27"
+      "verification": "Live rendered category page; HTTP 200; title Buy Men's Cotton Shirts: Classic & Casual Styles | Cottonworld; checked 2026-09-28; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json"
     },
     {
       "anchor": "linen collection guide",
       "purpose": "Supporting fabric/category resource",
       "url": "https://cottonworld.net/pages/linen-collection",
-      "verification": "Live rendered page, relevant linen content present, 2026-09-27"
+      "verification": "Live rendered page; HTTP 200; title Linen Collection: Explore Breathable Comfort | Cottonworld; checked 2026-09-28; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json"
     },
     {
       "anchor": "Cottonworld’s clothing collections",
       "purpose": "Conclusion/CTA to commercial next step",
       "url": "https://cottonworld.net/collections",
-      "verification": "Live rendered collection index, cotton and linen destinations present, 2026-09-27"
+      "verification": "Live rendered collection index; HTTP 200; title Collections – Cottonworld; checked 2026-09-28; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json"
     },
     {
       "anchor": "brown linen-cotton shirt",
       "purpose": "Contextual product example grounded in current product details",
       "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
-      "verification": "Live product page; Men’s Brown Linen Cotton Regular Fit Shirt; page states 55% linen, 45% cotton, solid woven, regular fit; checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-product.json"
+      "verification": "Live rendered product page; HTTP 200; title Buy Men's Linen Cotton Casual Wear Regular Fit Shirts|Cottonworld; page states 55% linen, 45% cotton, regular fit; checked 2026-09-28; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json"
     }
   ],
   "metadata": {
@@ -71,18 +71,21 @@
     "intent": "informational",
     "primary_keyword": "how to build a capsule wardrobe",
     "required_skill": "content-seo-authenticity",
-    "status": "draft_passed",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "status": "review_draft_blocked",
     "target": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
     "target_title": "A Full Wardrobe, Nothing to Wear: Start With the Five Pieces You Reach For Most",
     "google_doc": "https://docs.google.com/document/d/1gIwhS7jPtEiWbukVPs8A2X0KZAxIjRRcjJila1MeNHo/edit?usp=drivesdk",
-    "google_doc_verified": "Final draft and heading structure fetched successfully; five internal hyperlinks exported in visible blue underlined style."
+    "google_doc_verified": "Updated and read back on 2026-09-28. New flow present; four intended internal anchors visible in blue underline; review status note displayed."
   },
   "schema_version": "1.0.0",
   "sources": [
     {
       "extracted_facts": "Live Cottonworld product page for Men’s Brown Linen Cotton Regular Fit Shirt. Page identifies a woven fabric containing 55% linen and 45% cotton and regular fit. No price claim used.",
       "source_id": "cottonworld-brown-linen-cotton-shirt",
-      "source_ref": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown; live page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-product.json",
+      "source_ref": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown; live rendered page checked 2026-09-28, HTTP 200; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
       "source_type": "product_page"
     },
     {
@@ -94,7 +97,7 @@
     {
       "extracted_facts": "Live Men's Shirts category with cotton, linen and blended fabric filters and shirt products. Used as a contextual product-category link only.",
       "source_id": "cottonworld-mens-shirts",
-      "source_ref": "https://cottonworld.net/collections/mens-shirts; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_ref": "https://cottonworld.net/collections/mens-shirts; live rendered page checked 2026-09-28, HTTP 200; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
       "source_type": "product_page"
     },
     {
@@ -106,13 +109,13 @@
     {
       "extracted_facts": "Live Cottonworld linen collection page, used as a relevant fabric/category resource. No general fibre-performance claim is attributed to the page.",
       "source_id": "cottonworld-linen-guide",
-      "source_ref": "https://cottonworld.net/pages/linen-collection; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_ref": "https://cottonworld.net/pages/linen-collection; live rendered page checked 2026-09-28, HTTP 200; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
       "source_type": "product_page"
     },
     {
       "extracted_facts": "Live collection index showing cotton, linen, bamboo and other shopping categories; used for the closing commercial next step.",
       "source_id": "cottonworld-collections-index",
-      "source_ref": "https://cottonworld.net/collections; live rendered page checked 2026-09-27; raw capture brands/cottonworld/logs/content/raw/20260927-five-pieces-research.json",
+      "source_ref": "https://cottonworld.net/collections; live rendered page checked 2026-09-28, HTTP 200; raw capture brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
       "source_type": "product_page"
     },
     {
@@ -126,6 +129,24 @@
       "source_id": "editorial-review-learnings",
       "source_ref": "brands/cottonworld/logs/content/raw/two-blogs-paragraph-led-revision-20260729.json; brands/offlimits/blogs/womens-athleisure-india-capsule-wardrobe.authenticity.json; brands/spykar/blogs/september-jeans-every-plan.md",
       "source_type": "human_context"
+    },
+    {
+      "extracted_facts": "Live SERP recheck for the capsule-wardrobe target and full-closet/nothing-to-wear phrasing. Capsule results ranged from a category formula guide to an observation-first method and a color-led guide. The closely related nothing-to-wear results first diagnose outfit coordination, fit or occasion, then offer a practical fix. Six full page captures, headings, approximate word counts, tone and structure are recorded.",
+      "source_id": "serp-flow-recheck-20260928",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260928-five-pieces-serp-flow.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Exact proposed title searched live on 2026-09-28. No exact-title match was returned. The three most relevant organic results were Dressing Wizard (five-item outfit matrix, 2,368 extracted words), Crafted Idea (commercial capsule checklist and product picks, 5,637 extracted words), and HannaBanna Clothing (five wardrobe foundations with outfit examples and a capsule method, 11,105 extracted words; extraction includes substantial site/navigation text).",
+      "source_id": "serp-title-query-20260928",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260928-five-pieces-title-serp.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": "Revalidated the four destinations used in the rewritten blog: men’s shirts category, brown linen-cotton shirt product, linen collection guide, and clothing collections index. Each rendered successfully with HTTP 200 and was relevant to its anchor.",
+      "source_id": "cottonworld-links-recheck-20260928",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260928-five-pieces-links-verification.json",
+      "source_type": "internal_link_verification"
     }
   ]
 }
