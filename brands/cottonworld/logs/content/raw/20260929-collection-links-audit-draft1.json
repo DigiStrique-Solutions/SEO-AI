@@ -1,0 +1,1625 @@
+{
+  "run_id": "20260929-collection-links-audit-draft1",
+  "date": "2026-09-29",
+  "scope": "Inventory all three batches; edit Draft 1 only",
+  "parent_folder": "1En-wu_K2kjbJoP1kh-lPAgvSYdsGwDJE",
+  "connector": "mcp__codex_apps__google_drive",
+  "response_projection": "Document identifiers and raw hyperlink text/destinations; no credentials or account metadata",
+  "documents": [
+    {
+      "id": "1ymnmpyEZhWeYqHjLDlxF_LgE7xApxo-1H_bX27FxuYc",
+      "title": "Buy Men’s Brunch Outfits Online",
+      "batch": 1,
+      "linkRuns": 17,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Polo",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1ays_7PIRVOeJPLiKUGAlx18Yxvixb0xaj13td4O5WNQ",
+      "title": "Buy Men’s Travel Clothing Online",
+      "batch": 1,
+      "linkRuns": 19,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Jacket",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Polo",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+      "title": "Men’s T-Shirt Collection Page",
+      "batch": 1,
+      "linkRuns": 17,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": " ",
+          "url": "https://cottonworld.net/collections/cotton-mens"
+        },
+        {
+          "text": "Organic Cotton Collection",
+          "url": "https://cottonworld.net/collections/cotton-mens"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Kurtas",
+          "url": "https://cottonworld.net/collections/men-kurtas"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1OQs9jLsIdq52S5KW0lotQfB3wU6x_SKZbdrkVS1ZlNo",
+      "title": "Buy Men’s Cotton Clothing Online – Corrected Links",
+      "batch": 1,
+      "linkRuns": 17,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1vquzVApMEj4TdacBg4tzo9M9oHc5Hh7u_XUfj1gNfUg",
+      "title": "Buy Men’s Linen",
+      "batch": 1,
+      "linkRuns": 15,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "19HiqAA08AnwW8pG0xtAtpYljZ9E0lAUq9BOHJawcZrE",
+      "title": "Buy Men’s Pants",
+      "batch": 1,
+      "linkRuns": 14,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Cotton Pants",
+          "url": "https://cottonworld.net/collections/mens-cotton-pants"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1CxisoNCtzVHxI2P6pqLDUse9ef5kHpvaVX9ZQEgfszo",
+      "title": "Buy Men’s Shirts",
+      "batch": 1,
+      "linkRuns": 17,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Jacket",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1u49lMP8VtaBqg8W0FUWJYJgvl0pchDRJoZPrewnudU4",
+      "title": "Buy Men’s Shorts",
+      "batch": 1,
+      "linkRuns": 13,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Polo",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        },
+        {
+          "text": "Men’s Shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        }
+      ]
+    },
+    {
+      "id": "1D_Tf6oi8JkuDEe3QTjB7JewYohz2RYnAI2qqiwRv8Lc",
+      "title": "Buy Men’s Summer Clothing",
+      "batch": 1,
+      "linkRuns": 19,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s T-Shirt",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Linen Shirt",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Polo",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s T-Shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        }
+      ]
+    },
+    {
+      "id": "1oGr0lqmCpm0UPbpA5R5PwX-IyTCvlOBZqn78i6QiNzw",
+      "title": "Buy Men’s Workwear",
+      "batch": 1,
+      "linkRuns": 16,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Polo",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "Men’s Polos",
+          "url": "https://cottonworld.net/collections/polo-collar"
+        },
+        {
+          "text": "Men’s Pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "Men’s Chinos",
+          "url": "https://cottonworld.net/collections/mens-chinos"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        },
+        {
+          "text": "Men’s Jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "Men’s Bestsellers",
+          "url": "https://cottonworld.net/collections/best-sellers-mens"
+        },
+        {
+          "text": "Men’s Linen Shirts",
+          "url": "https://cottonworld.net/collections/men-linen-shirts"
+        }
+      ]
+    },
+    {
+      "id": "1k4IdHt9XxYyVbXBULheVF0Dhi1sl5cyX175BI8V2nQc",
+      "title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        }
+      ]
+    },
+    {
+      "id": "1Sp4k7Qo41KwEYKPRX7g6KyRRv3RuaVnTsoDDIolxhqI",
+      "title": "Buy Men's Bestsellers Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "1KxHPWKUwnDPRej2goF1rI99ocqHg96Bep1-b5JI7GPA",
+      "title": "Buy Men's Clothing Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        }
+      ]
+    },
+    {
+      "id": "19_FHo9A-WxTZZKdUJwUCn7oTLVcAYnn3yI2SHj55YfE",
+      "title": "Buy Men's Co-ord Sets Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "1dlUmjnZcApR28gro8vs1zEZTT6viLHnGi9qUUXBPruA",
+      "title": "Buy Men's Monsoon Clothing Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "1mKMvgsFEsnwr35AJN_N3zh2Vt0ZIP6qQCpWAzhuS2A8",
+      "title": "Buy Men's New Arrivals Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "1yfMbZWhEfwg7KwAuOrDMHai5b4LhYNxCqPpNRRh71bE",
+      "title": "Buy Men's Shirts, T-Shirts & Jackets Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's jackets",
+          "url": "https://cottonworld.net/collections/men-jackets"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        }
+      ]
+    },
+    {
+      "id": "1wHEGsNM8_7a7d99t7eyCwSU482VeVqn3Gac5z5BarRk",
+      "title": "Shop Men's Looks Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 7,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        }
+      ]
+    },
+    {
+      "id": "1X29IsGv1uhr2EJs3KylGabqR2f_eMndcYks_As9953M",
+      "title": "Buy Men's Bottom Wear Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        }
+      ]
+    },
+    {
+      "id": "17_WGxhBnlfs0RDcVl6FDWm0dJpnOUDokl4cEDmcpxzc",
+      "title": "Buy Men's Jackets Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's travel clothing",
+          "url": "https://cottonworld.net/collections/travel-for-men"
+        }
+      ]
+    },
+    {
+      "id": "12YGukzL81HKqYGDoxrtqn5HKY8AtU_fruPJrF48OZUY",
+      "title": "Buy Men's Kurtas Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's travel clothing",
+          "url": "https://cottonworld.net/collections/travel-for-men"
+        }
+      ]
+    },
+    {
+      "id": "1ge6NQdYaubiM-BhsfGpaWZbmsOgoJhOMhx7EzwS3GiY",
+      "title": "Buy Men's Lounge Wear Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "men's co-ord sets",
+          "url": "https://cottonworld.net/collections/co-ord-sets-mens"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        }
+      ]
+    },
+    {
+      "id": "1oKAO6JxLteg46t1NCSUBCa-mg9JebtreB0wXLJfH5O0",
+      "title": "Buy Men's Round-Neck Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "linkRuns": 4,
+      "productLinks": [],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "men's T-shirts",
+          "url": "https://cottonworld.net/collections/mens-tshirts"
+        },
+        {
+          "text": "men's pants",
+          "url": "https://cottonworld.net/collections/mens-pants-2"
+        },
+        {
+          "text": "men's shorts",
+          "url": "https://cottonworld.net/collections/mens-shorts"
+        },
+        {
+          "text": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts"
+        }
+      ]
+    },
+    {
+      "id": "1dxidTAD5EtoHXCZbzJg78SXMf5pjSDXNZx6HYmspKcY",
+      "title": "Women's Skirts Collection Page",
+      "batch": 3,
+      "linkRuns": 6,
+      "productLinks": [
+        {
+          "text": "Women's Cotton Slim Fit Skirt in Dark Grey",
+          "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "https://cottonworld.net/collections/women-skirts-1",
+          "url": "https://cottonworld.net/collections/women-skirts-1"
+        },
+        {
+          "text": "Women's Cotton Slim Fit Skirt in Dark Grey",
+          "url": "https://cottonworld.net/products/womens-cotton-slim-fit-skirt-dark-grey"
+        },
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ]
+    },
+    {
+      "id": "1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg",
+      "title": "Women's Shorts Collection Page",
+      "batch": 3,
+      "linkRuns": 9,
+      "productLinks": [
+        {
+          "text": "coffee-colour 100% linen short",
+          "url": "https://cottonworld.net/products/l-shorts-17733-21824-coffee"
+        },
+        {
+          "text": "pink 100% cotton short",
+          "url": "https://cottonworld.net/products/l-shorts-17733-21756-pink"
+        },
+        {
+          "text": "brown cotton-Lycra short",
+          "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-brown"
+        },
+        {
+          "text": "white cotton-elastane style",
+          "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "https://cottonworld.net/collections/women-shorts-1",
+          "url": "https://cottonworld.net/collections/women-shorts-1"
+        },
+        {
+          "text": "coffee-colour 100% linen short",
+          "url": "https://cottonworld.net/products/l-shorts-17733-21824-coffee"
+        },
+        {
+          "text": "pink 100% cotton short",
+          "url": "https://cottonworld.net/products/l-shorts-17733-21756-pink"
+        },
+        {
+          "text": "brown cotton-Lycra short",
+          "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-short-brown"
+        },
+        {
+          "text": "white cotton-elastane style",
+          "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-short-white"
+        },
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ]
+    },
+    {
+      "id": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+      "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+      "batch": 3,
+      "linkRuns": 7,
+      "productLinks": [
+        {
+          "text": "A dark olive regular-fit T-shirt",
+          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+        },
+        {
+          "text": "100% organic cotton T-shirt",
+          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Women's T-Shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "A dark olive regular-fit T-shirt",
+          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "100% organic cotton T-shirt",
+          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+        },
+        {
+          "text": "women's tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        }
+      ]
+    },
+    {
+      "id": "1EsjguUHjYq5kda5b_XREC1aGGDiwWkkGwFK3y_kAPI4",
+      "title": "Cottonworld Collection Page — Women's Tops (Phase 1)",
+      "batch": 3,
+      "linkRuns": 6,
+      "productLinks": [
+        {
+          "text": "women's 100% linen relaxed-fit blouse",
+          "url": "https://cottonworld.net/products/l-blouse-17909-21775-orange"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Women's Tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women's 100% linen relaxed-fit blouse",
+          "url": "https://cottonworld.net/products/l-blouse-17909-21775-orange"
+        },
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ]
+    },
+    {
+      "id": "1NtmQO_e_hlSBgvcRuaRTvIp9tCEIohV0GYxQqk8PXCE",
+      "title": "Cottonworld Collection Page — Women’s Jackets (Phase 1)",
+      "batch": 3,
+      "linkRuns": 10,
+      "productLinks": [
+        {
+          "text": "off-white regular-fit jacket",
+          "url": "https://cottonworld.net/products/l-jacket-17823-21633-offwhite"
+        },
+        {
+          "text": "boxy off-white jacket",
+          "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-offwhite"
+        },
+        {
+          "text": "boxy blue jacket",
+          "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-blue"
+        },
+        {
+          "text": "navy regular-fit jacket",
+          "url": "https://cottonworld.net/products/l-jacket-17841-21621-navy"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Women’s Jackets",
+          "url": "https://cottonworld.net/collections/women-jackets-1"
+        },
+        {
+          "text": "off-white regular-fit jacket",
+          "url": "https://cottonworld.net/products/l-jacket-17823-21633-offwhite"
+        },
+        {
+          "text": "boxy off-white jacket",
+          "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-offwhite"
+        },
+        {
+          "text": "boxy blue jacket",
+          "url": "https://cottonworld.net/products/womens-cotton-boxy-fit-jacket-blue"
+        },
+        {
+          "text": "navy regular-fit jacket",
+          "url": "https://cottonworld.net/products/l-jacket-17841-21621-navy"
+        },
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s kurtas and tunics",
+          "url": "https://cottonworld.net/collections/women-kurtas-tunics"
+        }
+      ]
+    },
+    {
+      "id": "1LOiCjVpl4ADizpC8Lkd4M-5Bklob6TxniBn_w2iIqS4",
+      "title": "Cottonworld Collection Page — Women’s Kurtas & Tunics (Phase 1)",
+      "batch": 3,
+      "linkRuns": 8,
+      "productLinks": [
+        {
+          "text": "100% cotton gauze-woven kurta in mustard",
+          "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard"
+        },
+        {
+          "text": "red printed viscose kurta",
+          "url": "https://cottonworld.net/products/womens-viscose-regular-fit-kurta-red"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Women’s Kurtas & Tunics",
+          "url": "https://cottonworld.net/collections/women-kurtas-tunics"
+        },
+        {
+          "text": "100% cotton gauze-woven kurta in mustard",
+          "url": "https://cottonworld.net/products/womens-cotton-regular-fit-kurta-mustard"
+        },
+        {
+          "text": "red printed viscose kurta",
+          "url": "https://cottonworld.net/products/womens-viscose-regular-fit-kurta-red"
+        },
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ]
+    },
+    {
+      "id": "148Tl3_fpDh0wZMzKU4_SSzu8j0cB9Mm4kGQIDuhQBBE",
+      "title": "Cottonworld Collection Page — Women’s Pants (Phase 1)",
+      "batch": 3,
+      "linkRuns": 10,
+      "productLinks": [
+        {
+          "text": "black 100% linen regular-fit pant",
+          "url": "https://cottonworld.net/products/l-pants-17826-21824-black"
+        },
+        {
+          "text": "denim-colour 100% cotton pant",
+          "url": "https://cottonworld.net/products/l-pants-17830-21778-denim"
+        },
+        {
+          "text": "sage Cotton Lycra barrel-leg pant",
+          "url": "https://cottonworld.net/products/l-pants-17941-21820-sage"
+        },
+        {
+          "text": "black cotton-bamboo-elastane knit pant",
+          "url": "https://cottonworld.net/products/l-kpants-16646-21723-black"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "Women’s Pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "black 100% linen regular-fit pant",
+          "url": "https://cottonworld.net/products/l-pants-17826-21824-black"
+        },
+        {
+          "text": "denim-colour 100% cotton pant",
+          "url": "https://cottonworld.net/products/l-pants-17830-21778-denim"
+        },
+        {
+          "text": "sage Cotton Lycra barrel-leg pant",
+          "url": "https://cottonworld.net/products/l-pants-17941-21820-sage"
+        },
+        {
+          "text": "black cotton-bamboo-elastane knit pant",
+          "url": "https://cottonworld.net/products/l-kpants-16646-21723-black"
+        },
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ]
+    },
+    {
+      "id": "1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo",
+      "title": "Cottonworld Women's Dresses and Jumpsuits Collection Page — Phase 1",
+      "batch": 3,
+      "linkRuns": 7,
+      "productLinks": [
+        {
+          "text": "grey cotton linen dress",
+          "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-dress-grey"
+        },
+        {
+          "text": "natural linen-cotton dress",
+          "url": "https://cottonworld.net/products/l-dress-17589-21636-natural"
+        },
+        {
+          "text": "cream linen-viscose jumpsuit",
+          "url": "https://cottonworld.net/products/l-jumpsuit-17891-21650-cream"
+        },
+        {
+          "text": "wine organic cotton knit dress",
+          "url": "https://cottonworld.net/products/l-kdress-16566-21726-wine"
+        }
+      ],
+      "productTextUrls": [],
+      "links": [
+        {
+          "text": "grey cotton linen dress",
+          "url": "https://cottonworld.net/products/womens-cotton-linen-regular-fit-dress-grey"
+        },
+        {
+          "text": "natural linen-cotton dress",
+          "url": "https://cottonworld.net/products/l-dress-17589-21636-natural"
+        },
+        {
+          "text": "cream linen-viscose jumpsuit",
+          "url": "https://cottonworld.net/products/l-jumpsuit-17891-21650-cream"
+        },
+        {
+          "text": "wine organic cotton knit dress",
+          "url": "https://cottonworld.net/products/l-kdress-16566-21726-wine"
+        },
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        }
+      ]
+    }
+  ],
+  "edited_document": {
+    "id": "14qbyPg07VZF9mg_SyC179vJutGpD4-ubfYBRpfhzNz8",
+    "title": "Men’s T-Shirt Collection Page",
+    "before": "Organic Cotton T-Shirts: Woven from 100% responsibly sourced organic cotton, these tees are ridiculously soft and breathable. Because they are grown without harsh pesticides, they're kind to the environment and super gentle on sensitive skin. Go check out our full Organic Cotton Collection if sustainable choices are your thing.",
+    "after": "Cotton T-Shirts: A cotton T-shirt is an easy starting point for everyday outfits. Wear yours with chinos for a casual workday, or pair it with shorts for a relaxed weekend. Explore our Men’s Cotton Collection to find shirts and trousers to wear alongside your favourite tees, with colours you can mix throughout the week.",
+    "link_label": "Men’s Cotton Collection",
+    "link_url": "https://cottonworld.net/collections/cotton-mens",
+    "metrics": {
+      "before": {
+        "paragraphs": 59,
+        "headings": 9,
+        "bullets": 24,
+        "words": 1431
+      },
+      "after": {
+        "paragraphs": 59,
+        "headings": 9,
+        "bullets": 24,
+        "words": 1436
+      }
+    },
+    "remaining_product_links": 0,
+    "style_preserved": true
+  },
+  "collection_verification": {
+    "tool": "web.open",
+    "checked": [
+      {
+        "url": "https://cottonworld.net/collections/mens-tshirts",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/mens-pants-2",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/cotton-mens",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/mens-shorts",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/polo-collar",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/mens-chinos",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/men-linen-shirts",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/mens-shirts",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/men-kurtas",
+        "result": "Collection page content returned"
+      },
+      {
+        "url": "https://cottonworld.net/collections/best-sellers-mens",
+        "result": "Collection page content returned"
+      }
+    ],
+    "unconfirmed": [
+      {
+        "url": "https://cottonworld.net/collections/mens-pants",
+        "result": "web.open internal error; not used as replacement"
+      }
+    ]
+  },
+  "pending": {
+    "batch1_product_links": 0,
+    "batch2_product_links": 0,
+    "batch3_product_links": 22,
+    "batch3_documents": 8
+  }
+}
