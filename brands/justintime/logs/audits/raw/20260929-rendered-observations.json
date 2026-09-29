@@ -1,0 +1,20 @@
+{
+  "run_id":"jt-audit-20260929-rendered",
+  "tool":"Playwright DOM evaluation",
+  "date":"2026-09-29",
+  "homepage":{
+    "url":"https://justintime.in/","viewport":"desktop sample","title_length":105,"description_length":161,"canonical":"https://justintime.in/",
+    "h1":[""],"image_elements":438,"empty_alt":88,"schema_types":["WebSite","WebPage","Organization"],"jsonld_parse_errors":0,"console_errors":0,"console_warnings":1
+  },
+  "collection":{
+    "url":"https://justintime.in/collections/mens-watches","title_length":104,"description_length":191,"canonical":"https://justintime.in/collections/mens-watches",
+    "h1":["Men's Watches","Watches for Men: Stylish, Classic & Luxury Timepieces","Watches for Men: Stylish, Classic & Luxury Timepieces"],
+    "image_elements":487,"empty_alt":175,"schema_types":["CollectionPage","ItemList","BreadcrumbList","Organization"],"collectionpage_url":"https://justintime.in/collections/mens-watches","itemlist_url":"https://justintime.in/collections/citizen-watches","jsonld_parse_errors":0,"console_errors":0,"console_warnings":2
+  },
+  "product":{
+    "url":"https://justintime.in/products/tissot-prx-unisex-quartz-blue-dial-analog-stainless-steel-watch-t1372101104100","title_length":91,"description_length":222,
+    "h1":["PRX Unisex Quartz Blue Dial Analog Stainless Steel Watch T1372101104100"],"image_elements":300,"empty_alt":76,"howto_name":"How to Set Time on Citizen Eco-Drive Chronograph Watch",
+    "jsonld_parse_errors":0,"viewport":"390x844 CSS px","horizontal_overflow":false,"broken_images":1,"console_errors":0,"console_warnings":7
+  },
+  "scope_note":"Representative templates only; no full mobile/accessibility or sitewide crawl."
+}

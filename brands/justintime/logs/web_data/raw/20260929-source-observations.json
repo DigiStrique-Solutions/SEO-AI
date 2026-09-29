@@ -1,0 +1,16 @@
+{
+  "run_id":"jt-audit-20260929-public-site","captured_at":"2026-09-29T16:10:00Z",
+  "pages":[
+    {"url":"https://justintime.in/","http_status":200,"title_length":105,"meta_description_length":161,"h1":[""],"canonical":"https://justintime.in/","robots_meta":"index,follow","images":438,"images_without_alt":88,"schema_types":["WebSite","WebPage","Organization"],"console_errors":0},
+    {"url":"https://justintime.in/pages/about-us","http_status":200,"claim":"100+ stores across India","note":"Named founder note visible."},
+    {"url":"https://justintime.in/collections/mens-watches","http_status":200,"title_length":104,"meta_description_length":191,"h1":["Men's Watches","Watches for Men: Stylish, Classic & Luxury Timepieces","Watches for Men: Stylish, Classic & Luxury Timepieces"],"canonical":"https://justintime.in/collections/mens-watches","images":487,"images_without_alt":175,"schema_types":["CollectionPage","ItemList","BreadcrumbList","Organization"],"item_list_name":"Men&#39;s Watches","item_list_url":"https://justintime.in/collections/citizen-watches","invalid_jsonld_objects":0,"console_errors":0},
+    {"url":"https://justintime.in/products/tissot-prx-unisex-quartz-blue-dial-analog-stainless-steel-watch-t1372101104100","http_status":200,"title_length":91,"meta_description_length":222,"h1":["PRX Unisex Quartz Blue Dial Analog Stainless Steel Watch T1372101104100"],"canonical":"https://justintime.in/products/tissot-prx-unisex-quartz-blue-dial-analog-stainless-steel-watch-t1372101104100","images":300,"images_without_alt":76,"schema_types":["Product","ImageObject","HowTo","LocalBusiness","MerchantReturnPolicy","BreadcrumbList","Organization","ProductGroup","FAQPage"],"how_to_name":"How to Set Time on Citizen Eco-Drive Chronograph Watch","invalid_jsonld_objects":0,"viewport":"390x844 CSS px","horizontal_overflow":false,"broken_images":1},
+    {"url":"https://justintime.in/blogs/news","http_status":200,"note":"Watch style/brand article links visible; no post sampled."}
+  ],
+  "technical_endpoints":[
+    {"url":"https://justintime.in/robots.txt","http_status":200,"raw_file":"logs/web_data/raw/20260929-robots.txt","note":"Public paths allowed; sitemap reference present."},
+    {"url":"https://justintime.in/sitemap.xml","http_status":200,"raw_file":"logs/web_data/raw/20260929-sitemap.xml","note":"Product shards plus page, collection and blog sitemap files listed."},
+    {"url":"https://justintime.in/llms.txt","http_status":200,"raw_file":"logs/web_data/raw/20260929-llms.txt","note":"75+ stores claim conflicts with About Us 100+ claim."}
+  ],
+  "limitations":["Firecrawl depth-2, 60-URL crawl timed out after 300 seconds.","No verified GSC property for justintime.in in connected property inventory.","Analytics platform/property and keyword/SERP scope unconfirmed.","CWV data covers homepage on mobile only."]
+}

@@ -1,0 +1,7 @@
+{
+  "run_id":"jt-audit-20260929-audit","brand_id":"justintime","run_date":"2026-09-29",
+  "audit_files":["generic-on-page.json","content-seo.json","site-architecture.json","core-web-vitals.json","structured-data.json","ai-seo-aeo-geo.json"],
+  "totals":{"items":38,"pass":14,"fail":8,"not_applicable":0,"not_checked_blocked":16},
+  "overall_score":null,
+  "notes":["Partial representative sample; no score assigned because material evidence is blocked.","CrUX field and Lighthouse lab values kept distinct.","Five URLs sampled; findings are not sitewide issue counts."]
+}

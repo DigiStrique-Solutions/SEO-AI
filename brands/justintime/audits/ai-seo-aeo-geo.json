@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0.0","brand_id":"justintime","audit_id":"ai-seo-aeo-geo","audit_ref":"audit-library/ai-seo-aeo-geo.json","target_url":"https://justintime.in/","run_date":"2026-09-29","score":null,
+  "counts":{"items":6,"pass":3,"fail":0,"not_applicable":0,"not_checked_blocked":3},
+  "rows":[
+    {"item_id":"direct-answers","section_id":"answerability","status":"pass","severity":"high","result":"Men’s collection states its category purpose near the page start before product discovery.","next_action":"Keep collection summary direct and visible early.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#content-pages"},
+    {"item_id":"structured-answers","section_id":"answerability","status":"pass","severity":"medium","result":"Collection has headed buying sections and FAQ content in rendered page.","next_action":"Keep FAQs useful and visible; validate schema separately.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#content-pages"},
+    {"item_id":"entity-clarity","section_id":"entity-authority","status":"pass","severity":"high","result":"Homepage Organization/WebSite schema uses Just In Time Trading Private Limited and social profiles; store-count conflict remains.","next_action":"Verify and standardize approved public facts.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#schema-home"},
+    {"item_id":"citations-sources","section_id":"entity-authority","status":"not_checked_blocked","severity":"medium","result":"Third-party source coverage and independent brand citations were not researched.","next_action":"Review target-market source/citation coverage before authority claims.","evidence_ref":"logs/web_data/raw/20260929-source-observations.json#source-gaps"},
+    {"item_id":"ai-crawler-access","section_id":"ai-visibility","status":"not_checked_blocked","severity":"low","result":"robots allows public pages and llms.txt returns 200, but llms.txt says 75+ stores while About Us says 100+.","next_action":"Verify store count and align llms.txt, homepage, About Us and schema.","evidence_ref":"logs/web_data/raw/20260929-source-observations.json#ai-crawler"},
+    {"item_id":"ai-mentions","section_id":"ai-visibility","status":"not_checked_blocked","severity":"medium","result":"No manual answer-engine prompt/citation sampling performed.","next_action":"Test a defined India query set and preserve dated results.","evidence_ref":"logs/web_data/raw/20260929-source-observations.json#source-gaps"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version":"1.0.0",
+  "brand_id":"justintime",
+  "run_date":"2026-09-29",
+  "target_url":"https://justintime.in/",
+  "status":"partial",
+  "overall_score":null,
+  "scoring_note":"No score assigned because scope/evidence is incomplete and blocked checklist rows remain.",
+  "totals":{"items":38,"pass":14,"fail":8,"not_applicable":0,"not_checked_blocked":16},
+  "audits":[
+    {"audit_id":"generic-on-page","title":"Generic On-Page SEO","score":null,"items":7,"pass":2,"fail":4,"not_applicable":0,"not_checked_blocked":1,"file":"generic-on-page.json"},
+    {"audit_id":"content-seo","title":"Content SEO","score":null,"items":7,"pass":3,"fail":0,"not_applicable":0,"not_checked_blocked":4,"file":"content-seo.json"},
+    {"audit_id":"site-architecture","title":"Site Architecture & Technical SEO","score":null,"items":7,"pass":3,"fail":0,"not_applicable":0,"not_checked_blocked":4,"file":"site-architecture.json"},
+    {"audit_id":"core-web-vitals","title":"Core Web Vitals & Performance","score":null,"items":6,"pass":1,"fail":3,"not_applicable":0,"not_checked_blocked":2,"file":"core-web-vitals.json"},
+    {"audit_id":"structured-data","title":"Structured Data & Schema","score":null,"items":5,"pass":2,"fail":1,"not_applicable":0,"not_checked_blocked":2,"file":"structured-data.json"},
+    {"audit_id":"ai-seo-aeo-geo","title":"AI SEO / AEO / GEO","score":null,"items":6,"pass":3,"fail":0,"not_applicable":0,"not_checked_blocked":3,"file":"ai-seo-aeo-geo.json"}
+  ],
+  "top_fixes":[
+    {"audit_id":"structured-data","item_id":"content-type-schema","severity":"medium","action":"Correct the men’s collection ItemList URL and remove unrelated Citizen Eco-Drive HowTo markup from the Tissot product page."},
+    {"audit_id":"core-web-vitals","item_id":"lcp","severity":"high","action":"Improve homepage mobile LCP; field p75 is 3.444 s and lab LCP is 10.5 s."},
+    {"audit_id":"core-web-vitals","item_id":"inp","severity":"high","action":"Reduce homepage mobile interaction latency; field p75 is 259 ms."},
+    {"audit_id":"generic-on-page","item_id":"single-h1","severity":"high","action":"Add visible homepage H1 and reduce the men’s collection template to one H1."},
+    {"audit_id":"generic-on-page","item_id":"title-present","severity":"high","action":"Shorten and differentiate sampled title tags."},
+    {"audit_id":"generic-on-page","item_id":"meta-description","severity":"medium","action":"Rewrite the three sampled descriptions concisely."},
+    {"audit_id":"site-architecture","item_id":"indexation-coverage","severity":"high","action":"Obtain verified GSC property access and complete indexing/performance review."},
+    {"audit_id":"content-seo","item_id":"author-eeat","severity":"medium","action":"Verify and standardize 75+ vs 100+ store-count claims."}
+  ],
+  "blockers":[
+    "Firecrawl depth-2/60-URL crawl timed out after 300 seconds; only five content URLs were individually sampled.",
+    "No verified GSC property for justintime.in was present in the connected property inventory.",
+    "Analytics source/property, keyword demand and SERP scope were not confirmed.",
+    "CWV field/lab data covers the homepage on mobile only."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0.0","brand_id":"justintime","audit_id":"structured-data","audit_ref":"audit-library/structured-data.json","target_url":"https://justintime.in/","run_date":"2026-09-29","score":null,
+  "counts":{"items":5,"pass":2,"fail":1,"not_applicable":0,"not_checked_blocked":2},
+  "rows":[
+    {"item_id":"org-website-schema","section_id":"coverage","status":"pass","severity":"high","result":"Homepage rendered WebSite, WebPage and Organization JSON-LD; Organization includes logo and sameAs. Presence sample only.","next_action":"Validate property accuracy and required fields after factual cleanup.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#schema-home"},
+    {"item_id":"breadcrumb-schema","section_id":"coverage","status":"pass","severity":"low","result":"Rendered men’s collection and Tissot product expose BreadcrumbList.","next_action":"Validate names and targets across templates.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#schema-breadcrumbs"},
+    {"item_id":"content-type-schema","section_id":"coverage","status":"fail","severity":"medium","result":"Men’s CollectionPage URL matches its page, but ItemList URL points to /collections/citizen-watches. Tissot page outputs Citizen Eco-Drive HowTo.","next_action":"Bind schema to current page data; suppress unrelated HowTo and recheck.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#schema-mismatches"},
+    {"item_id":"schema-valid","section_id":"validity","status":"not_checked_blocked","severity":"high","result":"JSON-LD parses on three samples (0 syntax errors); semantic/Rich Results validation not run.","next_action":"Run schema/Rich Results validation after correcting mismatches.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#schema-syntax"},
+    {"item_id":"rich-result-eligible","section_id":"validity","status":"not_checked_blocked","severity":"medium","result":"Rich-result eligibility and GSC enhancement reports unavailable.","next_action":"Validate product/breadcrumb eligibility when tools/property are available.","evidence_ref":"logs/web_data/raw/20260929-source-observations.json#source-gaps"}
+  ]
+}

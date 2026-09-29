@@ -1,0 +1,263 @@
+{
+  "ok": true,
+  "report": {
+    "checked_at": "2026-09-29T15:36:34+00:00",
+    "crux": {
+      "checked_at": "2026-09-29T15:37:20+00:00",
+      "collection_period": {
+        "firstDate": {
+          "day": 31,
+          "month": 8,
+          "year": 2026
+        },
+        "lastDate": {
+          "day": 27,
+          "month": 9,
+          "year": 2026
+        }
+      },
+      "form_factor": "PHONE",
+      "key": {
+        "formFactor": "PHONE",
+        "url": "https://justintime.in/"
+      },
+      "metrics": {
+        "cumulative_layout_shift": {
+          "histogram": [
+            {
+              "density": 0.952,
+              "end": "0.10",
+              "start": "0.00"
+            },
+            {
+              "density": 0.0222,
+              "end": "0.25",
+              "start": "0.10"
+            },
+            {
+              "density": 0.0259,
+              "start": "0.25"
+            }
+          ],
+          "p75": "0.00"
+        },
+        "experimental_time_to_first_byte": {
+          "histogram": [
+            {
+              "density": 0.3974,
+              "end": 800,
+              "start": 0
+            },
+            {
+              "density": 0.3465,
+              "end": 1800,
+              "start": 800
+            },
+            {
+              "density": 0.2561,
+              "start": 1800
+            }
+          ],
+          "p75": 1825
+        },
+        "first_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.4746,
+              "end": 1800,
+              "start": 0
+            },
+            {
+              "density": 0.2598,
+              "end": 3000,
+              "start": 1800
+            },
+            {
+              "density": 0.2656,
+              "start": 3000
+            }
+          ],
+          "p75": 3108
+        },
+        "interaction_to_next_paint": {
+          "histogram": [
+            {
+              "density": 0.6677,
+              "end": 200,
+              "start": 0
+            },
+            {
+              "density": 0.2226,
+              "end": 500,
+              "start": 200
+            },
+            {
+              "density": 0.1097,
+              "start": 500
+            }
+          ],
+          "p75": 259
+        },
+        "largest_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.6045,
+              "end": 2500,
+              "start": 0
+            },
+            {
+              "density": 0.2027,
+              "end": 4000,
+              "start": 2500
+            },
+            {
+              "density": 0.1928,
+              "start": 4000
+            }
+          ],
+          "p75": 3444
+        },
+        "largest_contentful_paint_image_element_render_delay": {
+          "histogram": [],
+          "p75": 527
+        },
+        "largest_contentful_paint_image_resource_load_delay": {
+          "histogram": [],
+          "p75": 781
+        },
+        "largest_contentful_paint_image_resource_load_duration": {
+          "histogram": [],
+          "p75": 597
+        },
+        "largest_contentful_paint_image_time_to_first_byte": {
+          "histogram": [],
+          "p75": 1694
+        },
+        "round_trip_time": {
+          "histogram": [
+            {
+              "density": 0.2054,
+              "end": 75,
+              "start": 0
+            },
+            {
+              "density": 0.616,
+              "end": 275,
+              "start": 75
+            },
+            {
+              "density": 0.1786,
+              "start": 275
+            }
+          ],
+          "p75": 216
+        }
+      },
+      "queried": "https://justintime.in/",
+      "scope": "url",
+      "service": "crux"
+    },
+    "pagespeed": {
+      "category_scores": {
+        "accessibility": 80,
+        "best-practices": 92,
+        "performance": 29,
+        "seo": 92
+      },
+      "checked_at": "2026-09-29T15:37:20+00:00",
+      "field_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 0
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "SLOW",
+            "percentile": 1825
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "SLOW",
+            "percentile": 3108
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "AVERAGE",
+            "percentile": 259
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "AVERAGE",
+            "percentile": 3444
+          }
+        },
+        "overall_category": "SLOW"
+      },
+      "final_url": "https://justintime.in/",
+      "lab_core_web_vitals": {
+        "cumulative-layout-shift": {
+          "display_value": "0.194",
+          "numeric_value": 0.1936705841991115,
+          "score": 0.63
+        },
+        "first-contentful-paint": {
+          "display_value": "4.8\u00a0s",
+          "numeric_value": 4801.019118889114,
+          "score": 0.11
+        },
+        "interactive": {
+          "display_value": "31.7\u00a0s",
+          "numeric_value": 31674.05485945486,
+          "score": 0
+        },
+        "largest-contentful-paint": {
+          "display_value": "10.5\u00a0s",
+          "numeric_value": 10490.0430175005,
+          "score": 0
+        },
+        "max-potential-fid": {
+          "display_value": "320\u00a0ms",
+          "numeric_value": 322,
+          "score": 0.3
+        },
+        "speed-index": {
+          "display_value": "7.1\u00a0s",
+          "numeric_value": 7074.016588362899,
+          "score": 0.31
+        },
+        "total-blocking-time": {
+          "display_value": "910\u00a0ms",
+          "numeric_value": 910.5,
+          "score": 0.31
+        }
+      },
+      "origin_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 0
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "AVERAGE",
+            "percentile": 1018
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "AVERAGE",
+            "percentile": 1995
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "AVERAGE",
+            "percentile": 277
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 2223
+          }
+        },
+        "overall_category": "AVERAGE"
+      },
+      "service": "pagespeed",
+      "strategy": "mobile",
+      "url": "https://justintime.in/"
+    },
+    "service": "core_web_vitals",
+    "url": "https://justintime.in/"
+  }
+}

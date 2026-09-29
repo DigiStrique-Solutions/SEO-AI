@@ -1,0 +1,19 @@
+{
+  "run_id": "jt-audit-20260929-audit",
+  "status": "ok",
+  "verified_at": "2026-09-29T16:10:00Z",
+  "google_doc": {
+    "title": "Just In Time SEO Audit Summary — 2026-09-29",
+    "id": "1OA-oDUb9Fo1dRsVuWQQ8x1PEIL5dKyDpdfDKLHyCSnY",
+    "url": "https://docs.google.com/document/d/1OA-oDUb9Fo1dRsVuWQQ8x1PEIL5dKyDpdfDKLHyCSnY/edit",
+    "native_document_verified": true
+  },
+  "google_sheet": {
+    "title": "Just_In_Time_SEO_Audit_2026-09-29",
+    "id": "1QeqTqmbRwnHrfLZqwXYmStWjxW5BjaswZRCB8Unsam0",
+    "url": "https://docs.google.com/spreadsheets/d/1QeqTqmbRwnHrfLZqwXYmStWjxW5BjaswZRCB8Unsam0/edit",
+    "native_spreadsheet_verified": true,
+    "tabs": ["Priority Action Plan", "URL Evidence", "Structured Data", "Performance", "Coverage & Sources"]
+  },
+  "notes": "The document's native Google Sheets rich link and date chip were verified. Spreadsheet tabs and cell values were read back after XLSX import."
+}

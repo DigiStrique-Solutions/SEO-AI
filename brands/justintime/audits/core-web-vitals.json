@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0.0","brand_id":"justintime","audit_id":"core-web-vitals","audit_ref":"audit-library/core-web-vitals.json","target_url":"https://justintime.in/","run_date":"2026-09-29","score":null,
+  "counts":{"items":6,"pass":1,"fail":3,"not_applicable":0,"not_checked_blocked":2},
+  "rows":[
+    {"item_id":"lcp","section_id":"loading","status":"fail","severity":"high","result":"Homepage mobile CrUX field p75 LCP 3.444 s (>2.5); Lighthouse mobile lab LCP 10.5 s. Field/lab are distinct.","next_action":"Prioritize LCP element/request chain; optimize hero asset/delivery and remeasure.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"},
+    {"item_id":"ttfb","section_id":"loading","status":"fail","severity":"medium","result":"Homepage mobile CrUX experimental TTFB p75 1,825 ms (>800 ms reference); separate lab TTFB not captured.","next_action":"Investigate server/edge response and app/theme overhead; report lab and field separately.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"},
+    {"item_id":"inp","section_id":"interactivity","status":"fail","severity":"high","result":"Homepage mobile CrUX field p75 INP 259 ms (>200 ms).","next_action":"Profile long tasks and third-party/theme scripts; defer or remove non-critical work.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"},
+    {"item_id":"render-blocking","section_id":"interactivity","status":"not_checked_blocked","severity":"medium","result":"PageSpeed summary retained scores/CWV but not individual render-blocking audit rows.","next_action":"Inspect detailed Lighthouse diagnostics for critical-path CSS/JS.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"},
+    {"item_id":"cls","section_id":"stability","status":"pass","severity":"high","result":"Homepage mobile CrUX CLS p75 0.00 (≤0.10); lab CLS is 0.194.","next_action":"Use lab trace to locate shifts while preserving good field CLS.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"},
+    {"item_id":"image-optimization","section_id":"stability","status":"not_checked_blocked","severity":"low","result":"Mobile run: performance 29, LCP 10.5 s, TBT 910 ms; individual asset diagnostics unavailable.","next_action":"Inspect asset diagnostics; optimize above-fold assets and verify below-fold lazy loading.","evidence_ref":"logs/audits/raw/20260929-mobile-cwv.json"}
+  ]
+}

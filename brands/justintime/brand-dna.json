@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0.0","brand_id":"justintime","updated_at":"2026-09-29T16:10:00Z",
+  "brand_name":"Just In Time Trading Private Limited","website_url":"https://justintime.in/",
+  "logo":{"description":"Logo observed on About Us page; homepage Organization schema references this logo.","icon_url":"https://justintime.in/cdn/shop/files/JIT_logo-website_1.svg?v=1746179773&width=500"},
+  "business_description":"Public site presents Just In Time as an Indian multi-brand watch retailer with ecommerce, stores and watch-service paths.",
+  "business_model":"Shopify ecommerce storefront plus physical retail/service presence (per first-party pages).",
+  "brand_colors":{"status":"not assessed"},"brand_aesthetic":"Premium watch retail; product imagery, editorial collections, specifications, gifting and store/service discovery.",
+  "brand_voice":{"description":"Aspirational retail language paired with direct product and shopping information.","voice_patterns":["watch/style descriptors","purchase and gifting language","product specification detail","store and service reassurance"]},
+  "brand_values":["Authenticity and authorized retail (brand-published claim; verify wording)","Personalized service","Broad selection of international watch brands"],
+  "target_audience":{"primary":["Watch shoppers in India browsing men’s, women’s and unisex watches","Gift buyers and collectors (inferred from site pathways)"],"roles":[],"secondary_verticals":["Consumer ecommerce","Physical watch retail","Watch servicing"]},
+  "competitors":[],"competitor_alternative_categories":["Online multi-brand watch retailers","Brand-owned watch ecommerce stores","Local retailers and marketplaces"],
+  "primary_business_goal":"Drive watch purchases and store/service discovery (inferred from public calls to action).","primary_conversion":["Online purchase (inferred)","Store locator or service inquiry (inferred)"],
+  "site_type":"Shopify ecommerce storefront with product, collection, store/service and blog content.",
+  "measurement_and_connected_sources":["Public site: Firecrawl and Playwright","PageSpeed Insights and CrUX: mobile homepage sample available","GSC: connected property inventory did not include justintime.in","Analytics property/platform: unconfirmed"],
+  "open_questions":["Homepage metadata and llms.txt say 75+ stores; About Us says 100+. Verify approved current count.","Confirm analytics platform/property; do not assume GA4 or PostHog.","Identify competitors and priority queries before keyword/SERP analysis.","Confirm approved proof and wording for authorized-retailer/service claims.","Complete URL inventory, GSC index coverage and sitewide link/redirect audit are outstanding."]
+}

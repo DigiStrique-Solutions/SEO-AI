@@ -1,0 +1,6 @@
+{
+  "run_id":"jt-audit-20260929-public-site","provider":"firecrawl","action":"crawl","url":"https://justintime.in/",
+  "input":{"limit":60,"maxDiscoveryDepth":2,"sitemap":"include","allowSubdomains":false},
+  "status":"partial","error":"tool call error: timed out awaiting tools/call after 300s",
+  "fallback":"Direct Firecrawl fetches of five key URLs and rendered Playwright checks completed; sitewide crawl checks remain blocked."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "justintime",
+  "audit_id": "generic-on-page",
+  "audit_ref": "audit-library/generic-on-page.json",
+  "target_url": "https://justintime.in/",
+  "run_date": "2026-09-29",
+  "score": null,
+  "counts": {"items": 7, "pass": 2, "fail": 4, "not_applicable": 0, "not_checked_blocked": 1},
+  "rows": [
+    {"item_id":"title-present","section_id":"titles-meta","status":"fail","severity":"high","result":"Rendered titles are 105 characters (home), 104 (men’s collection), 91 (Tissot product); all exceed 30–60 target.","next_action":"Rewrite unique page titles around page entity and intent; inspect more templates after a full crawl.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#page-metadata"},
+    {"item_id":"meta-description","section_id":"titles-meta","status":"fail","severity":"medium","result":"Rendered descriptions are 161, 191 and 222 characters on the same samples; all exceed 70–160 target.","next_action":"Write distinct concise descriptions and validate rendered template values.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#page-metadata"},
+    {"item_id":"single-h1","section_id":"headings","status":"fail","severity":"high","result":"Homepage contains one empty H1; men’s collection has three H1s, two identical; product sample has one populated H1.","next_action":"Add a visible homepage H1; keep one H1 per collection template and demote repeated headings.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#headings"},
+    {"item_id":"heading-order","section_id":"headings","status":"fail","severity":"low","result":"Homepage has no populated H1 before H2 sections; collection has repeated H1s. Representative templates only.","next_action":"Recheck rendered heading hierarchy after H1 fixes.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#headings"},
+    {"item_id":"image-alt","section_id":"media-links","status":"not_checked_blocked","severity":"medium","result":"88/438 home, 175/487 collection and 76/300 product image elements lack alt text; decorative and meaningful images were not classified.","next_action":"Classify image purpose, then repair missing/non-descriptive alt text on meaningful images.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#images"},
+    {"item_id":"canonical","section_id":"media-links","status":"pass","severity":"high","result":"Homepage, men’s collection and Tissot product rendered self-referencing HTTPS canonical URLs.","next_action":"Verify more templates and query variants in a full crawl.","evidence_ref":"logs/audits/raw/20260929-rendered-observations.json#canonical"},
+    {"item_id":"status-200","section_id":"media-links","status":"pass","severity":"high","result":"Five sampled public pages plus robots.txt and sitemap.xml returned HTTP 200; sample only.","next_action":"Run a segmented crawl for sitewide response-code issues.","evidence_ref":"logs/web_data/raw/20260929-source-observations.json#http-status"}
+  ]
+}
