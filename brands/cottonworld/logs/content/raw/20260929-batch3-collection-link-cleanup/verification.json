@@ -1,0 +1,276 @@
+{
+  "run_id": "20260929-batch3-collection-link-cleanup",
+  "date": "2026-09-29",
+  "folder": "https://drive.google.com/drive/folders/1-zEJJpYkaxbQzEK5MM4yox_agbeLFOWi",
+  "scope": "Replace product links and product-specific surrounding examples across all eight Batch 3 documents",
+  "results": [
+    {
+      "id": "1dxidTAD5EtoHXCZbzJg78SXMf5pjSDXNZx6HYmspKcY",
+      "title": "Women's Skirts Collection Page",
+      "before": {
+        "paragraphs": 98,
+        "headings": 16,
+        "bullets": 5,
+        "words": 1397,
+        "links": 6,
+        "products": 1,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "after": {
+        "paragraphs": 98,
+        "headings": 16,
+        "bullets": 5,
+        "words": 1444,
+        "links": 6,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg",
+      "title": "Women's Shorts Collection Page",
+      "before": {
+        "paragraphs": 111,
+        "headings": 17,
+        "bullets": 10,
+        "words": 1549,
+        "links": 9,
+        "products": 4,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": [
+          "sampled",
+          "sampled",
+          "Sampled",
+          "sampled"
+        ]
+      },
+      "after": {
+        "paragraphs": 111,
+        "headings": 17,
+        "bullets": 10,
+        "words": 1579,
+        "links": 9,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+      "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+      "before": {
+        "paragraphs": 57,
+        "headings": 16,
+        "bullets": 14,
+        "words": 1381,
+        "links": 7,
+        "products": 2,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "after": {
+        "paragraphs": 57,
+        "headings": 16,
+        "bullets": 14,
+        "words": 1385,
+        "links": 7,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1EsjguUHjYq5kda5b_XREC1aGGDiwWkkGwFK3y_kAPI4",
+      "title": "Cottonworld Collection Page — Women's Tops (Phase 1)",
+      "before": {
+        "paragraphs": 58,
+        "headings": 17,
+        "bullets": 14,
+        "words": 1440,
+        "links": 6,
+        "products": 1,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "after": {
+        "paragraphs": 58,
+        "headings": 17,
+        "bullets": 14,
+        "words": 1424,
+        "links": 6,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1NtmQO_e_hlSBgvcRuaRTvIp9tCEIohV0GYxQqk8PXCE",
+      "title": "Cottonworld Collection Page — Women’s Jackets (Phase 1)",
+      "before": {
+        "paragraphs": 105,
+        "headings": 17,
+        "bullets": 11,
+        "words": 1486,
+        "links": 10,
+        "products": 4,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": [
+          "during review",
+          "at the time of review",
+          "during review"
+        ]
+      },
+      "after": {
+        "paragraphs": 105,
+        "headings": 17,
+        "bullets": 11,
+        "words": 1531,
+        "links": 8,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1LOiCjVpl4ADizpC8Lkd4M-5Bklob6TxniBn_w2iIqS4",
+      "title": "Cottonworld Collection Page — Women’s Kurtas & Tunics (Phase 1)",
+      "before": {
+        "paragraphs": 104,
+        "headings": 17,
+        "bullets": 9,
+        "words": 1505,
+        "links": 8,
+        "products": 2,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": [
+          "during review",
+          "At the time of review",
+          "during review"
+        ]
+      },
+      "after": {
+        "paragraphs": 104,
+        "headings": 17,
+        "bullets": 9,
+        "words": 1580,
+        "links": 8,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "148Tl3_fpDh0wZMzKU4_SSzu8j0cB9Mm4kGQIDuhQBBE",
+      "title": "Cottonworld Collection Page — Women’s Pants (Phase 1)",
+      "before": {
+        "paragraphs": 111,
+        "headings": 18,
+        "bullets": 10,
+        "words": 1556,
+        "links": 10,
+        "products": 4,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": [
+          "sampled",
+          "sampled",
+          "sampled",
+          "sampled"
+        ]
+      },
+      "after": {
+        "paragraphs": 111,
+        "headings": 18,
+        "bullets": 10,
+        "words": 1647,
+        "links": 10,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo",
+      "title": "Cottonworld Women's Dresses and Jumpsuits Collection Page — Phase 1",
+      "before": {
+        "paragraphs": 105,
+        "headings": 11,
+        "bullets": 5,
+        "words": 1455,
+        "links": 7,
+        "products": 4,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": [
+          "sampled",
+          "snapshots",
+          "At capture",
+          "sampled"
+        ]
+      },
+      "after": {
+        "paragraphs": 105,
+        "headings": 11,
+        "bullets": 5,
+        "words": 1467,
+        "links": 7,
+        "products": 0,
+        "rawProductUrls": 0,
+        "liveWord": 0,
+        "editorialReferences": []
+      },
+      "issues": [],
+      "verificationStatus": "pass"
+    }
+  ],
+  "collection_destinations_verified": [
+    "https://cottonworld.net/collections/women-skirts-1",
+    "https://cottonworld.net/collections/women-shorts-1",
+    "https://cottonworld.net/collections/women-tshirts",
+    "https://cottonworld.net/collections/women-tops-1",
+    "https://cottonworld.net/collections/women-jackets-1",
+    "https://cottonworld.net/collections/women-kurtas-tunics",
+    "https://cottonworld.net/collections/womens-pants",
+    "https://cottonworld.net/collections/all-linen-womens",
+    "https://cottonworld.net/collections/cotton-womens",
+    "https://cottonworld.net/collections/women-bamboo-clothes",
+    "https://cottonworld.net/collections/women-dresses-jumpsuits"
+  ],
+  "notes": [
+    "22 product hyperlink occurrences removed; 20 collection hyperlinks inserted, consolidating three product examples into one cotton collection link in Jackets.",
+    "All retained and inserted hyperlink destinations are Cottonworld collection URLs.",
+    "Numbered collection slugs retained when the page loaded successfully; women-top returned a web tool error and was not substituted.",
+    "All paragraph counts, heading roles, list IDs/nesting, effective bullet styling and existing unaffected runs preserved.",
+    "No standalone live or editorial snapshot references remain.",
+    "This was a link and adjacent copy revision, not a complete new publication-readiness audit."
+  ]
+}

@@ -1,0 +1,3582 @@
+{
+  "run_id": "20260929-batch3-collection-link-cleanup",
+  "source": "Google Docs connector response projection",
+  "before": {
+    "documentId": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+    "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+    "revisionId": "ANLCKQkUspaf3F-zbRlFhz-MLE0Cg41XPKBpvTLqxpQtTe_nibA3htAFdIr81_Fc9mw1JPX7K0ZNw36FWr-HOErE03qP8lImUMRJwgw7c3M",
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 47,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 47,
+                    "textRun": {
+                      "content": "Buy Women's T-Shirts Online for Everyday Wear\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ksxm3hbfxmic",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 47,
+              "endIndex": 83,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 47,
+                    "endIndex": 66,
+                    "textRun": {
+                      "content": "Target collection: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 66,
+                    "endIndex": 82,
+                    "textRun": {
+                      "content": "Women's T-Shirts",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/women-tshirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 82,
+                    "endIndex": 83,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 83,
+              "endIndex": 133,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 83,
+                    "endIndex": 94,
+                    "textRun": {
+                      "content": "Meta title:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 94,
+                    "endIndex": 133,
+                    "textRun": {
+                      "content": " Women's Cotton T-Shirts | Cottonworld\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 133,
+              "endIndex": 285,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 133,
+                    "endIndex": 150,
+                    "textRun": {
+                      "content": "Meta description:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 150,
+                    "endIndex": 285,
+                    "textRun": {
+                      "content": " Browse women's T-shirts in organic cotton, cotton and blends. Compare fits, necklines, sleeves and colours to find an everyday style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 285,
+              "endIndex": 324,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 285,
+                    "endIndex": 324,
+                    "textRun": {
+                      "content": "Explore the women's T-shirt collection\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.4fk7jqueshpz",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 324,
+              "endIndex": 745,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 324,
+                    "endIndex": 745,
+                    "textRun": {
+                      "content": "Some mornings are busy before the day has properly begun. A familiar T-shirt can make one part of getting dressed feel simpler. Cottonworld's women's T-shirt collection brings together options in cotton and other listed fabric compositions, with different fits, necklines, sleeve lengths and colours. The current products include regular-fit, round-neck, half-sleeve styles, alongside other choices shown in the filters.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 745,
+              "endIndex": 1001,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 745,
+                    "endIndex": 1001,
+                    "textRun": {
+                      "content": "Use the collection to compare the available styles, then open each product page before making a choice. The product page gives the garment's exact composition and fit details. Those can differ between two T-shirts that look similar in the collection grid.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1001,
+              "endIndex": 1035,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1001,
+                    "endIndex": 1035,
+                    "textRun": {
+                      "content": "Find a fit that feels comfortable\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.d9g69ylncuyg",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1035,
+              "endIndex": 1341,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1035,
+                    "endIndex": 1341,
+                    "textRun": {
+                      "content": "Fit changes the feel of an outfit and how a T-shirt sits with the pieces you already wear. Cottonworld's current collection filters include regular, loose, slim and relaxed fits. Product pages provide the details for each style, so use the label as a starting point and review the garment before ordering.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1341,
+              "endIndex": 1484,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1341,
+                    "endIndex": 1353,
+                    "textRun": {
+                      "content": "Regular fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1353,
+                    "endIndex": 1484,
+                    "textRun": {
+                      "content": " Current product listings include regular-fit T-shirts. This can be a familiar shape to compare with the garments you already own.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1484,
+              "endIndex": 1619,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1484,
+                    "endIndex": 1494,
+                    "textRun": {
+                      "content": "Loose fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1494,
+                    "endIndex": 1619,
+                    "textRun": {
+                      "content": " Look for this label if you prefer a roomier outline. Check the product measurements and fit notes for the individual style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1619,
+              "endIndex": 1752,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1619,
+                    "endIndex": 1628,
+                    "textRun": {
+                      "content": "Slim fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1628,
+                    "endIndex": 1752,
+                    "textRun": {
+                      "content": " This is another option in the current filter. Review the fit details to decide whether that shape matches your preference.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1752,
+              "endIndex": 1874,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1752,
+                    "endIndex": 1764,
+                    "textRun": {
+                      "content": "Relaxed fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1764,
+                    "endIndex": 1874,
+                    "textRun": {
+                      "content": " The collection filter also lists relaxed-fit styles. Compare the description and size guide before choosing.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1874,
+              "endIndex": 2168,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1874,
+                    "endIndex": 2168,
+                    "textRun": {
+                      "content": "There is no single fit that works for everyone. Consider how you want a tee to sit through the shoulders and body, whether you will tuck it in, and what you plan to wear over it. If you are unsure, compare the size guide and any product-specific fit note rather than relying on the name alone.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2168,
+              "endIndex": 2200,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2168,
+                    "endIndex": 2200,
+                    "textRun": {
+                      "content": "Compare fabrics and composition\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.erqra42rkqgr",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2200,
+              "endIndex": 2527,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2200,
+                    "endIndex": 2527,
+                    "textRun": {
+                      "content": "The collection includes more than one fabric option. Its filters currently list cotton, 100% cotton, 100% organic cotton, bamboo, cotton blend and cotton stretch. Product listings also include cotton-elastane styles. Composition is garment-specific, so read the product details when a particular fibre or blend matters to you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2527,
+              "endIndex": 2691,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2527,
+                    "endIndex": 2547,
+                    "textRun": {
+                      "content": "100% organic cotton:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2547,
+                    "endIndex": 2612,
+                    "textRun": {
+                      "content": " Several current products are identified as 100% organic cotton. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2612,
+                    "endIndex": 2644,
+                    "textRun": {
+                      "content": "A dark olive regular-fit T-shirt",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2644,
+                    "endIndex": 2691,
+                    "textRun": {
+                      "content": " is listed with a round neck and half sleeves.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2691,
+              "endIndex": 2833,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2691,
+                    "endIndex": 2698,
+                    "textRun": {
+                      "content": "Cotton:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2698,
+                    "endIndex": 2833,
+                    "textRun": {
+                      "content": " The page also lists cotton styles. Check the exact product composition instead of assuming every cotton T-shirt uses the same fabric.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2833,
+              "endIndex": 2985,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2833,
+                    "endIndex": 2868,
+                    "textRun": {
+                      "content": "Cotton-elastane and cotton-stretch:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2868,
+                    "endIndex": 2985,
+                    "textRun": {
+                      "content": " These options appear in current listings and filters. The product page identifies the specific blend for each item.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2985,
+              "endIndex": 3105,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2985,
+                    "endIndex": 3009,
+                    "textRun": {
+                      "content": "Bamboo and other blends:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3009,
+                    "endIndex": 3105,
+                    "textRun": {
+                      "content": " Browse bamboo and cotton blend options, then check each product page for the full composition.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3105,
+              "endIndex": 3365,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3105,
+                    "endIndex": 3365,
+                    "textRun": {
+                      "content": "The product name, fabric filter and product description work together. Use the filter to narrow the range, then check the full listing for the item you have in mind. This makes it easier to compare like with like when you are choosing between colours or fits.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3365,
+              "endIndex": 3402,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3365,
+                    "endIndex": 3402,
+                    "textRun": {
+                      "content": "Choose a neckline, sleeve and colour\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.76uecp59l48e",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3402,
+              "endIndex": 3712,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3402,
+                    "endIndex": 3712,
+                    "textRun": {
+                      "content": "Round necks and half sleeves appear in the current product listings. The collection filters also show polo collars, boat necks and hooded styles, alongside other sleeve variations. If you have a preferred neckline or sleeve, use the filters to narrow the selection and confirm the details on the product page.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3712,
+              "endIndex": 3986,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3712,
+                    "endIndex": 3986,
+                    "textRun": {
+                      "content": "The colour filter currently includes neutrals and deeper shades, along with brighter options. Visible examples include white, black, natural, ecru melange, dark olive, green, blue, red, navy and wine. Browse the colour filter to see the shades available in this collection.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3986,
+              "endIndex": 4295,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3986,
+                    "endIndex": 4295,
+                    "textRun": {
+                      "content": "A colour you already wear often can be a useful starting point. You might choose a neutral for repeat outfits or select a brighter shade when you want the T-shirt to lead the look. These are styling choices, not rules. Let the product images help you judge how a colour fits alongside your existing wardrobe.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4295,
+              "endIndex": 4321,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4295,
+                    "endIndex": 4321,
+                    "textRun": {
+                      "content": "A practical styling guide\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.p46lks75ol8i",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4321,
+              "endIndex": 4481,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4321,
+                    "endIndex": 4481,
+                    "textRun": {
+                      "content": "T-shirts can be part of different outfits without needing complicated styling. Begin with the plan for the day and the clothes you already feel comfortable in.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4481,
+              "endIndex": 4648,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4481,
+                    "endIndex": 4502,
+                    "textRun": {
+                      "content": "For everyday errands:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4502,
+                    "endIndex": 4535,
+                    "textRun": {
+                      "content": " Pair a regular-fit T-shirt with ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4535,
+                    "endIndex": 4548,
+                    "textRun": {
+                      "content": "women's pants",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/womens-pants"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4548,
+                    "endIndex": 4648,
+                    "textRun": {
+                      "content": ". Choose a colour that works with more than one bottom if you want a straightforward repeat outfit.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4648,
+              "endIndex": 4834,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4648,
+                    "endIndex": 4662,
+                    "textRun": {
+                      "content": "For a workday:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4662,
+                    "endIndex": 4834,
+                    "textRun": {
+                      "content": " If your setting allows a casual layer, wear a simple tee beneath an open shirt or a light outer layer. Check the neckline and sleeve so the layers sit the way you prefer.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4834,
+              "endIndex": 4986,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4834,
+                    "endIndex": 4853,
+                    "textRun": {
+                      "content": "For a relaxed plan:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4853,
+                    "endIndex": 4986,
+                    "textRun": {
+                      "content": " A coloured or printed tee can be the main detail in an otherwise familiar outfit. Keep the rest simple if that feels more like you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4986,
+              "endIndex": 5151,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4986,
+                    "endIndex": 4997,
+                    "textRun": {
+                      "content": "For travel:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4997,
+                    "endIndex": 5151,
+                    "textRun": {
+                      "content": " Choose a tee that can pair with several pieces already in your bag. Fit and fabric preference matter more than packing a different option for every day.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5151,
+              "endIndex": 5306,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5151,
+                    "endIndex": 5164,
+                    "textRun": {
+                      "content": "For layering:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5164,
+                    "endIndex": 5306,
+                    "textRun": {
+                      "content": " Compare the tee's fit and sleeve with the shirt, cardigan or jacket you plan to wear over it. A layer should feel comfortable when you move.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5306,
+              "endIndex": 5477,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5306,
+                    "endIndex": 5322,
+                    "textRun": {
+                      "content": "For repeat wear:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5322,
+                    "endIndex": 5477,
+                    "textRun": {
+                      "content": " Repeating a favourite is a practical choice. Change the layer or bottom when you want variety, and keep the T-shirt that already feels right in rotation.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5477,
+              "endIndex": 5636,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5477,
+                    "endIndex": 5636,
+                    "textRun": {
+                      "content": "The collection is a place to compare options, not a checklist to complete. A few considered choices can make everyday dressing feel less like a separate task.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5636,
+              "endIndex": 5664,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5636,
+                    "endIndex": 5664,
+                    "textRun": {
+                      "content": "Choose for the day you have\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.o9rdx464zeqi",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5664,
+              "endIndex": 5948,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5664,
+                    "endIndex": 5948,
+                    "textRun": {
+                      "content": "Sleeve length can help narrow the selection. The current filters include full and half sleeves, plus several other sleeve options. Think about the activities and layers in your day, then choose the details you prefer. The product page shows the construction of each particular style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5948,
+              "endIndex": 6284,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5948,
+                    "endIndex": 6284,
+                    "textRun": {
+                      "content": "Fabric is another way to make the choice more personal. Some shoppers start with a fibre they already like. Others begin with fit, colour or how they plan to wear the tee. There is no need to make every decision at once: filter by one detail, compare a few product pages, and then decide which option belongs in your everyday rotation.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6284,
+              "endIndex": 6316,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6284,
+                    "endIndex": 6316,
+                    "textRun": {
+                      "content": "Care for the individual garment\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.noz9a9st145i",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6316,
+              "endIndex": 6624,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6316,
+                    "endIndex": 6385,
+                    "textRun": {
+                      "content": "Care directions can differ between fabrics and products. One current ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6385,
+                    "endIndex": 6412,
+                    "textRun": {
+                      "content": "100% organic cotton T-shirt",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/products/l-tshirt-17427-21790-dk-olive"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6412,
+                    "endIndex": 6624,
+                    "textRun": {
+                      "content": " lists machine washing in cold water, washing dark colours separately, avoiding bleach, removing promptly and drying in shade. Follow the instructions shown for the item you buy, together with the garment label.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6624,
+              "endIndex": 6835,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6624,
+                    "endIndex": 6835,
+                    "textRun": {
+                      "content": "Checking care information before choosing can also help you compare two otherwise similar styles. Do not assume that one T-shirt's instructions apply to every cotton, bamboo or blended option in the collection.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6835,
+              "endIndex": 6853,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6835,
+                    "endIndex": 6853,
+                    "textRun": {
+                      "content": "Complete the look\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.39erdjz5v6kc",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6853,
+              "endIndex": 7130,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6853,
+                    "endIndex": 6860,
+                    "textRun": {
+                      "content": "Browse ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6860,
+                    "endIndex": 6872,
+                    "textRun": {
+                      "content": "women's tops",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/women-tops-1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6872,
+                    "endIndex": 6908,
+                    "textRun": {
+                      "content": " for blouse styles, or look through ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6908,
+                    "endIndex": 6921,
+                    "textRun": {
+                      "content": "women's pants",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/womens-pants"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6921,
+                    "endIndex": 6999,
+                    "textRun": {
+                      "content": " for an easy pairing. For another fabric direction across categories, explore ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6999,
+                    "endIndex": 7019,
+                    "textRun": {
+                      "content": "women's linen styles",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/all-linen-womens"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 7019,
+                    "endIndex": 7130,
+                    "textRun": {
+                      "content": ". Choose the next piece around how you plan to wear the T-shirt, and keep the outfit useful for the day ahead.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7130,
+              "endIndex": 7157,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7130,
+                    "endIndex": 7157,
+                    "textRun": {
+                      "content": "Frequently asked questions\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.awo0ndegflh6",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7157,
+              "endIndex": 7217,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7157,
+                    "endIndex": 7217,
+                    "textRun": {
+                      "content": "What fabrics are available in Cottonworld women's T-shirts?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.x1xewnb9qhrg",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7217,
+              "endIndex": 7400,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7217,
+                    "endIndex": 7400,
+                    "textRun": {
+                      "content": "Current filters include cotton, organic cotton, bamboo, cotton blends and cotton stretch. Product pages list the exact composition for each T-shirt, including cotton-elastane styles.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7400,
+              "endIndex": 7431,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7400,
+                    "endIndex": 7431,
+                    "textRun": {
+                      "content": "Which T-shirt fits can I find?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.sgj0l6bu85iq",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7431,
+              "endIndex": 7595,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7431,
+                    "endIndex": 7595,
+                    "textRun": {
+                      "content": "The collection currently lists regular, loose, slim and relaxed fits in its filters. Check each product's fit notes and size guide to compare the specific garment.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7595,
+              "endIndex": 7644,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7595,
+                    "endIndex": 7644,
+                    "textRun": {
+                      "content": "What necklines and sleeve options are available?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.41ez13pvzh4f",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7644,
+              "endIndex": 7810,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7644,
+                    "endIndex": 7810,
+                    "textRun": {
+                      "content": "Round necks and half sleeves appear in current product listings. Collection filters also include other neckline and sleeve options. Availability can vary by product.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7810,
+              "endIndex": 7838,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7810,
+                    "endIndex": 7838,
+                    "textRun": {
+                      "content": "Which colours can I browse?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.djdqe94dicz2",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7838,
+              "endIndex": 7983,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7838,
+                    "endIndex": 7983,
+                    "textRun": {
+                      "content": "Choose from shades such as white, black, natural, olive, green, blue, red, navy and wine. Browse the collection to find a colour that suits you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7983,
+              "endIndex": 8024,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7983,
+                    "endIndex": 8024,
+                    "textRun": {
+                      "content": "How should I care for a women's T-shirt?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.8ijpth3vjow4",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8024,
+              "endIndex": 8216,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8024,
+                    "endIndex": 8216,
+                    "textRun": {
+                      "content": "Follow the care details on the product page and garment label. For example, one organic cotton style lists a cold machine wash and drying in shade. Instructions may differ for other garments.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8216,
+              "endIndex": 8261,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8216,
+                    "endIndex": 8261,
+                    "textRun": {
+                      "content": "How do I choose a T-shirt for everyday wear?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.tv12i3sjcxin",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8261,
+              "endIndex": 8432,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8261,
+                    "endIndex": 8432,
+                    "textRun": {
+                      "content": "Start with how you prefer the fit, which fabric you want to explore and what you plan to wear it with. Product details can help you compare those choices before ordering.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8432,
+              "endIndex": 8529,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8432,
+                    "endIndex": 8529,
+                    "textRun": {
+                      "content": "Browse the collection, compare the details and choose a T-shirt that fits your everyday routine.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8529,
+              "endIndex": 8530,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8529,
+                    "endIndex": 8530,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "after": {
+    "documentId": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+    "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+    "revisionId": "ANLCKQl7dvzV7ggHmkeY_cGAdIZTFl7ZkfVnZ2-B8Ni-TeWWlTElfvmcMD6I2A3Q-7_yF7Hb6MrCHZrOsf15OFuKr8N9SSgbVECUy7J7Mng",
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 47,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 47,
+                    "textRun": {
+                      "content": "Buy Women's T-Shirts Online for Everyday Wear\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.ksxm3hbfxmic",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 47,
+              "endIndex": 83,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 47,
+                    "endIndex": 66,
+                    "textRun": {
+                      "content": "Target collection: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 66,
+                    "endIndex": 82,
+                    "textRun": {
+                      "content": "Women's T-Shirts",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/women-tshirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 82,
+                    "endIndex": 83,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 83,
+              "endIndex": 133,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 83,
+                    "endIndex": 94,
+                    "textRun": {
+                      "content": "Meta title:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 94,
+                    "endIndex": 133,
+                    "textRun": {
+                      "content": " Women's Cotton T-Shirts | Cottonworld\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 133,
+              "endIndex": 285,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 133,
+                    "endIndex": 150,
+                    "textRun": {
+                      "content": "Meta description:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 150,
+                    "endIndex": 285,
+                    "textRun": {
+                      "content": " Browse women's T-shirts in organic cotton, cotton and blends. Compare fits, necklines, sleeves and colours to find an everyday style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 285,
+              "endIndex": 324,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 285,
+                    "endIndex": 324,
+                    "textRun": {
+                      "content": "Explore the women's T-shirt collection\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.4fk7jqueshpz",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 324,
+              "endIndex": 745,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 324,
+                    "endIndex": 745,
+                    "textRun": {
+                      "content": "Some mornings are busy before the day has properly begun. A familiar T-shirt can make one part of getting dressed feel simpler. Cottonworld's women's T-shirt collection brings together options in cotton and other listed fabric compositions, with different fits, necklines, sleeve lengths and colours. The current products include regular-fit, round-neck, half-sleeve styles, alongside other choices shown in the filters.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 745,
+              "endIndex": 1001,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 745,
+                    "endIndex": 1001,
+                    "textRun": {
+                      "content": "Use the collection to compare the available styles, then open each product page before making a choice. The product page gives the garment's exact composition and fit details. Those can differ between two T-shirts that look similar in the collection grid.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1001,
+              "endIndex": 1035,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1001,
+                    "endIndex": 1035,
+                    "textRun": {
+                      "content": "Find a fit that feels comfortable\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.d9g69ylncuyg",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1035,
+              "endIndex": 1341,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1035,
+                    "endIndex": 1341,
+                    "textRun": {
+                      "content": "Fit changes the feel of an outfit and how a T-shirt sits with the pieces you already wear. Cottonworld's current collection filters include regular, loose, slim and relaxed fits. Product pages provide the details for each style, so use the label as a starting point and review the garment before ordering.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1341,
+              "endIndex": 1484,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1341,
+                    "endIndex": 1353,
+                    "textRun": {
+                      "content": "Regular fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1353,
+                    "endIndex": 1484,
+                    "textRun": {
+                      "content": " Current product listings include regular-fit T-shirts. This can be a familiar shape to compare with the garments you already own.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1484,
+              "endIndex": 1619,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1484,
+                    "endIndex": 1494,
+                    "textRun": {
+                      "content": "Loose fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1494,
+                    "endIndex": 1619,
+                    "textRun": {
+                      "content": " Look for this label if you prefer a roomier outline. Check the product measurements and fit notes for the individual style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1619,
+              "endIndex": 1752,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1619,
+                    "endIndex": 1628,
+                    "textRun": {
+                      "content": "Slim fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1628,
+                    "endIndex": 1752,
+                    "textRun": {
+                      "content": " This is another option in the current filter. Review the fit details to decide whether that shape matches your preference.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1752,
+              "endIndex": 1874,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1752,
+                    "endIndex": 1764,
+                    "textRun": {
+                      "content": "Relaxed fit:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1764,
+                    "endIndex": 1874,
+                    "textRun": {
+                      "content": " The collection filter also lists relaxed-fit styles. Compare the description and size guide before choosing.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.hyth1xmk4s5j",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1874,
+              "endIndex": 2168,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1874,
+                    "endIndex": 2168,
+                    "textRun": {
+                      "content": "There is no single fit that works for everyone. Consider how you want a tee to sit through the shoulders and body, whether you will tuck it in, and what you plan to wear over it. If you are unsure, compare the size guide and any product-specific fit note rather than relying on the name alone.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2168,
+              "endIndex": 2200,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2168,
+                    "endIndex": 2200,
+                    "textRun": {
+                      "content": "Compare fabrics and composition\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.erqra42rkqgr",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2200,
+              "endIndex": 2527,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2200,
+                    "endIndex": 2527,
+                    "textRun": {
+                      "content": "The collection includes more than one fabric option. Its filters currently list cotton, 100% cotton, 100% organic cotton, bamboo, cotton blend and cotton stretch. Product listings also include cotton-elastane styles. Composition is garment-specific, so read the product details when a particular fibre or blend matters to you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2527,
+              "endIndex": 2736,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2527,
+                    "endIndex": 2547,
+                    "textRun": {
+                      "content": "100% organic cotton:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2547,
+                    "endIndex": 2578,
+                    "textRun": {
+                      "content": " Use the fabric filters in our ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2578,
+                    "endIndex": 2604,
+                    "textRun": {
+                      "content": "women's T-shirt collection",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/women-tshirts"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2604,
+                    "endIndex": 2735,
+                    "textRun": {
+                      "content": " to explore organic cotton options. Compare the fit, neckline and sleeves to find a tee you can wear with your everyday favourites.",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2735,
+                    "endIndex": 2736,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 2736,
+              "endIndex": 2878,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2736,
+                    "endIndex": 2743,
+                    "textRun": {
+                      "content": "Cotton:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2743,
+                    "endIndex": 2878,
+                    "textRun": {
+                      "content": " The page also lists cotton styles. Check the exact product composition instead of assuming every cotton T-shirt uses the same fabric.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2878,
+              "endIndex": 3030,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2878,
+                    "endIndex": 2913,
+                    "textRun": {
+                      "content": "Cotton-elastane and cotton-stretch:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2913,
+                    "endIndex": 3030,
+                    "textRun": {
+                      "content": " These options appear in current listings and filters. The product page identifies the specific blend for each item.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3030,
+              "endIndex": 3150,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3030,
+                    "endIndex": 3054,
+                    "textRun": {
+                      "content": "Bamboo and other blends:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3054,
+                    "endIndex": 3150,
+                    "textRun": {
+                      "content": " Browse bamboo and cotton blend options, then check each product page for the full composition.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.a3e5wnspglca",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3150,
+              "endIndex": 3410,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3150,
+                    "endIndex": 3410,
+                    "textRun": {
+                      "content": "The product name, fabric filter and product description work together. Use the filter to narrow the range, then check the full listing for the item you have in mind. This makes it easier to compare like with like when you are choosing between colours or fits.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3410,
+              "endIndex": 3447,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3410,
+                    "endIndex": 3447,
+                    "textRun": {
+                      "content": "Choose a neckline, sleeve and colour\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.76uecp59l48e",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3447,
+              "endIndex": 3757,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3447,
+                    "endIndex": 3757,
+                    "textRun": {
+                      "content": "Round necks and half sleeves appear in the current product listings. The collection filters also show polo collars, boat necks and hooded styles, alongside other sleeve variations. If you have a preferred neckline or sleeve, use the filters to narrow the selection and confirm the details on the product page.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3757,
+              "endIndex": 4031,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3757,
+                    "endIndex": 4031,
+                    "textRun": {
+                      "content": "The colour filter currently includes neutrals and deeper shades, along with brighter options. Visible examples include white, black, natural, ecru melange, dark olive, green, blue, red, navy and wine. Browse the colour filter to see the shades available in this collection.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4031,
+              "endIndex": 4340,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4031,
+                    "endIndex": 4340,
+                    "textRun": {
+                      "content": "A colour you already wear often can be a useful starting point. You might choose a neutral for repeat outfits or select a brighter shade when you want the T-shirt to lead the look. These are styling choices, not rules. Let the product images help you judge how a colour fits alongside your existing wardrobe.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4340,
+              "endIndex": 4366,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4340,
+                    "endIndex": 4366,
+                    "textRun": {
+                      "content": "A practical styling guide\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.p46lks75ol8i",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4366,
+              "endIndex": 4526,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4366,
+                    "endIndex": 4526,
+                    "textRun": {
+                      "content": "T-shirts can be part of different outfits without needing complicated styling. Begin with the plan for the day and the clothes you already feel comfortable in.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4526,
+              "endIndex": 4693,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4526,
+                    "endIndex": 4547,
+                    "textRun": {
+                      "content": "For everyday errands:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4547,
+                    "endIndex": 4580,
+                    "textRun": {
+                      "content": " Pair a regular-fit T-shirt with ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4580,
+                    "endIndex": 4593,
+                    "textRun": {
+                      "content": "women's pants",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/womens-pants"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4593,
+                    "endIndex": 4693,
+                    "textRun": {
+                      "content": ". Choose a colour that works with more than one bottom if you want a straightforward repeat outfit.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4693,
+              "endIndex": 4879,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4693,
+                    "endIndex": 4707,
+                    "textRun": {
+                      "content": "For a workday:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4707,
+                    "endIndex": 4879,
+                    "textRun": {
+                      "content": " If your setting allows a casual layer, wear a simple tee beneath an open shirt or a light outer layer. Check the neckline and sleeve so the layers sit the way you prefer.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4879,
+              "endIndex": 5031,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4879,
+                    "endIndex": 4898,
+                    "textRun": {
+                      "content": "For a relaxed plan:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4898,
+                    "endIndex": 5031,
+                    "textRun": {
+                      "content": " A coloured or printed tee can be the main detail in an otherwise familiar outfit. Keep the rest simple if that feels more like you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5031,
+              "endIndex": 5196,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5031,
+                    "endIndex": 5042,
+                    "textRun": {
+                      "content": "For travel:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5042,
+                    "endIndex": 5196,
+                    "textRun": {
+                      "content": " Choose a tee that can pair with several pieces already in your bag. Fit and fabric preference matter more than packing a different option for every day.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5196,
+              "endIndex": 5351,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5196,
+                    "endIndex": 5209,
+                    "textRun": {
+                      "content": "For layering:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5209,
+                    "endIndex": 5351,
+                    "textRun": {
+                      "content": " Compare the tee's fit and sleeve with the shirt, cardigan or jacket you plan to wear over it. A layer should feel comfortable when you move.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5351,
+              "endIndex": 5522,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5351,
+                    "endIndex": 5367,
+                    "textRun": {
+                      "content": "For repeat wear:",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5367,
+                    "endIndex": 5522,
+                    "textRun": {
+                      "content": " Repeating a favourite is a practical choice. Change the layer or bottom when you want variety, and keep the T-shirt that already feels right in rotation.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  }
+                },
+                "bullet": {
+                  "listId": "kix.60e9g4qlg1jg",
+                  "textStyle": {
+                    "underline": false
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5522,
+              "endIndex": 5681,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5522,
+                    "endIndex": 5681,
+                    "textRun": {
+                      "content": "The collection is a place to compare options, not a checklist to complete. A few considered choices can make everyday dressing feel less like a separate task.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5681,
+              "endIndex": 5709,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5681,
+                    "endIndex": 5709,
+                    "textRun": {
+                      "content": "Choose for the day you have\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.o9rdx464zeqi",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5709,
+              "endIndex": 5993,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5709,
+                    "endIndex": 5993,
+                    "textRun": {
+                      "content": "Sleeve length can help narrow the selection. The current filters include full and half sleeves, plus several other sleeve options. Think about the activities and layers in your day, then choose the details you prefer. The product page shows the construction of each particular style.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5993,
+              "endIndex": 6329,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5993,
+                    "endIndex": 6329,
+                    "textRun": {
+                      "content": "Fabric is another way to make the choice more personal. Some shoppers start with a fibre they already like. Others begin with fit, colour or how they plan to wear the tee. There is no need to make every decision at once: filter by one detail, compare a few product pages, and then decide which option belongs in your everyday rotation.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6329,
+              "endIndex": 6361,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6329,
+                    "endIndex": 6361,
+                    "textRun": {
+                      "content": "Care for the individual garment\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.noz9a9st145i",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6361,
+              "endIndex": 6665,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6361,
+                    "endIndex": 6521,
+                    "textRun": {
+                      "content": "Look after your tee according to its garment label. Washing method, temperature and drying instructions can vary across fabrics and finishes. When browsing our ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6521,
+                    "endIndex": 6546,
+                    "textRun": {
+                      "content": "women's cotton collection",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/cotton-womens"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6546,
+                    "endIndex": 6665,
+                    "textRun": {
+                      "content": ", consider care alongside fit and composition, so the pieces you choose work with the way you look after your clothes.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6665,
+              "endIndex": 6876,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6665,
+                    "endIndex": 6876,
+                    "textRun": {
+                      "content": "Checking care information before choosing can also help you compare two otherwise similar styles. Do not assume that one T-shirt's instructions apply to every cotton, bamboo or blended option in the collection.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6876,
+              "endIndex": 6894,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6876,
+                    "endIndex": 6894,
+                    "textRun": {
+                      "content": "Complete the look\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.39erdjz5v6kc",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6894,
+              "endIndex": 7171,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6894,
+                    "endIndex": 6901,
+                    "textRun": {
+                      "content": "Browse ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6901,
+                    "endIndex": 6913,
+                    "textRun": {
+                      "content": "women's tops",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/women-tops-1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6913,
+                    "endIndex": 6949,
+                    "textRun": {
+                      "content": " for blouse styles, or look through ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6949,
+                    "endIndex": 6962,
+                    "textRun": {
+                      "content": "women's pants",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/womens-pants"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6962,
+                    "endIndex": 7040,
+                    "textRun": {
+                      "content": " for an easy pairing. For another fabric direction across categories, explore ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 7040,
+                    "endIndex": 7060,
+                    "textRun": {
+                      "content": "women's linen styles",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.05882353,
+                              "green": 0.32941177,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://cottonworld.net/collections/all-linen-womens"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 7060,
+                    "endIndex": 7171,
+                    "textRun": {
+                      "content": ". Choose the next piece around how you plan to wear the T-shirt, and keep the outfit useful for the day ahead.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7171,
+              "endIndex": 7198,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7171,
+                    "endIndex": 7198,
+                    "textRun": {
+                      "content": "Frequently asked questions\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.awo0ndegflh6",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7198,
+              "endIndex": 7258,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7198,
+                    "endIndex": 7258,
+                    "textRun": {
+                      "content": "What fabrics are available in Cottonworld women's T-shirts?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.x1xewnb9qhrg",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7258,
+              "endIndex": 7441,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7258,
+                    "endIndex": 7441,
+                    "textRun": {
+                      "content": "Current filters include cotton, organic cotton, bamboo, cotton blends and cotton stretch. Product pages list the exact composition for each T-shirt, including cotton-elastane styles.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7441,
+              "endIndex": 7472,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7441,
+                    "endIndex": 7472,
+                    "textRun": {
+                      "content": "Which T-shirt fits can I find?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.sgj0l6bu85iq",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7472,
+              "endIndex": 7636,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7472,
+                    "endIndex": 7636,
+                    "textRun": {
+                      "content": "The collection currently lists regular, loose, slim and relaxed fits in its filters. Check each product's fit notes and size guide to compare the specific garment.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7636,
+              "endIndex": 7685,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7636,
+                    "endIndex": 7685,
+                    "textRun": {
+                      "content": "What necklines and sleeve options are available?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.41ez13pvzh4f",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7685,
+              "endIndex": 7851,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7685,
+                    "endIndex": 7851,
+                    "textRun": {
+                      "content": "Round necks and half sleeves appear in current product listings. Collection filters also include other neckline and sleeve options. Availability can vary by product.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7851,
+              "endIndex": 7879,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7851,
+                    "endIndex": 7879,
+                    "textRun": {
+                      "content": "Which colours can I browse?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.djdqe94dicz2",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7879,
+              "endIndex": 8024,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7879,
+                    "endIndex": 8024,
+                    "textRun": {
+                      "content": "Choose from shades such as white, black, natural, olive, green, blue, red, navy and wine. Browse the collection to find a colour that suits you.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8024,
+              "endIndex": 8065,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8024,
+                    "endIndex": 8065,
+                    "textRun": {
+                      "content": "How should I care for a women's T-shirt?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.8ijpth3vjow4",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8065,
+              "endIndex": 8236,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8065,
+                    "endIndex": 8236,
+                    "textRun": {
+                      "content": "Follow the garment label for washing, drying and ironing. Check the directions before the first wash, and treat each T-shirt according to its own fabric and construction.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8236,
+              "endIndex": 8281,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8236,
+                    "endIndex": 8281,
+                    "textRun": {
+                      "content": "How do I choose a T-shirt for everyday wear?\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.tv12i3sjcxin",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8281,
+              "endIndex": 8452,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8281,
+                    "endIndex": 8452,
+                    "textRun": {
+                      "content": "Start with how you prefer the fit, which fabric you want to explore and what you plan to wear it with. Product details can help you compare those choices before ordering.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8452,
+              "endIndex": 8549,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8452,
+                    "endIndex": 8549,
+                    "textRun": {
+                      "content": "Browse the collection, compare the details and choose a T-shirt that fits your everyday routine.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 8549,
+              "endIndex": 8550,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8549,
+                    "endIndex": 8550,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "changes": [
+    {
+      "start": 2527,
+      "old": "100% organic cotton: Several current products are identified as 100% organic cotton. A dark olive regular-fit T-shirt is listed with a round neck and half sleeves.",
+      "text": "100% organic cotton: Use the fabric filters in our women's T-shirt collection to explore organic cotton options. Compare the fit, neckline and sleeves to find a tee you can wear with your everyday favourites.",
+      "links": [
+        {
+          "label": "women's T-shirt collection",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        }
+      ]
+    },
+    {
+      "start": 6316,
+      "old": "Care directions can differ between fabrics and products. One current 100% organic cotton T-shirt lists machine washing in cold water, washing dark colours separately, avoiding bleach, removing promptly and drying in shade. Follow the instructions shown for the item you buy, together with the garment label.",
+      "text": "Look after your tee according to its garment label. Washing method, temperature and drying instructions can vary across fabrics and finishes. When browsing our women's cotton collection, consider care alongside fit and composition, so the pieces you choose work with the way you look after your clothes.",
+      "links": [
+        {
+          "label": "women's cotton collection",
+          "url": "https://cottonworld.net/collections/cotton-womens"
+        }
+      ]
+    },
+    {
+      "start": 8024,
+      "old": "Follow the care details on the product page and garment label. For example, one organic cotton style lists a cold machine wash and drying in shade. Instructions may differ for other garments.",
+      "text": "Follow the garment label for washing, drying and ironing. Check the directions before the first wash, and treat each T-shirt according to its own fabric and construction.",
+      "links": []
+    }
+  ],
+  "verification": {
+    "id": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+    "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+    "before": {
+      "paragraphs": 57,
+      "headings": 16,
+      "bullets": 14,
+      "words": 1381,
+      "links": 7,
+      "products": 2,
+      "rawProductUrls": 0,
+      "liveWord": 0,
+      "editorialReferences": []
+    },
+    "after": {
+      "paragraphs": 57,
+      "headings": 16,
+      "bullets": 14,
+      "words": 1385,
+      "links": 7,
+      "products": 0,
+      "rawProductUrls": 0,
+      "liveWord": 0,
+      "editorialReferences": []
+    },
+    "issues": [],
+    "verificationStatus": "pass"
+  }
+}
