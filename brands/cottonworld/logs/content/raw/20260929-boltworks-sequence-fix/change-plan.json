@@ -1,0 +1,1062 @@
+{
+  "run_id": "20260929-boltworks-sequence-fix",
+  "rule": "Place the verified differentiator immediately before the colour in proposed URL and meta title; preserve meta descriptions and other cells.",
+  "changes": [
+    {
+      "row": 2,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink-mandarin-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-pink",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Pink – Mandarin Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Mandarin Collar Pink | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 9,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mustard-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-v-neck-mustard",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Mustard – V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse V-Neck Mustard | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 10,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue-round-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-round-v-neck-blue",
+      "titleBefore": "Women’s Cotton Regular Fit Blouse Blue – Round V-Neck | Cottonworld",
+      "titleAfter": "Women’s Cotton Regular Fit Blouse Round V-Neck Blue | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 11,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-pink-boat-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-cotton-regular-fit-blouse-boat-neck-pink",
+      "titleBefore": "Women’s Linen Cotton Regular Fit Blouse Pink – Boat Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Cotton Regular Fit Blouse Boat Neck Pink | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 21,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lilac-band-collar-with-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-lilac",
+      "titleBefore": "Women’s Linen Blouse Lilac – Band Collar With V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Blouse Band Collar With V-Neck Lilac | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 22,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white-band-collar-with-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-white",
+      "titleBefore": "Women’s Linen Blouse White – Band Collar With V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Blouse Band Collar With V-Neck White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 25,
+      "urlBefore": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-red-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-v-neck-red",
+      "titleBefore": "Women’s Modal Viscose Regular Fit Blouse Red – V-Neck | Cottonworld",
+      "titleAfter": "Women’s Modal Viscose Regular Fit Blouse V-Neck Red | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 28,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Beige – Workday | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Workday Beige | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 29,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-coral-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-v-neck-coral",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Coral – V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse V-Neck Coral | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 31,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-v-neck-green",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Green – V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse V-Neck Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 34,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green-lapel-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-lapel-collar-green",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Green – Lapel Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Lapel Collar Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 43,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-pink-v-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-v-neck-pink",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Pink – V-Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse V-Neck Pink | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 45,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green-shirt-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-shirt-collar-green",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Green – Shirt Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Shirt Collar Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 46,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose-shirt-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-shirt-collar-rose",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Rose – Shirt Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Shirt Collar Rose | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 47,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mustard-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-round-neck-mustard",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Mustard – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Round Neck Mustard | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 48,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-rose-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-round-neck-rose",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Rose – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Round Neck Rose | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 49,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-blue-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-round-neck-blue",
+      "titleBefore": "Women’s Cotton Regular Fit Blouse Blue – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Cotton Regular Fit Blouse Round Neck Blue | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 55,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-white-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-round-neck-white",
+      "titleBefore": "Women’s Linen Regular Fit Blouse White – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Round Neck White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 57,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-round-neck-green",
+      "titleBefore": "Women’s Linen Regular Fit Blouse Green – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Blouse Round Neck Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 59,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-green-shawl-collar-with-back-button",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-shawl-collar-with-back-button-green",
+      "titleBefore": "Women’s Linen Blouse Green – Shawl Collar With Back Button | Cottonworld",
+      "titleAfter": "Women’s Linen Blouse Shawl Collar With Back Button Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 60,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-multi-round-neck",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-round-neck-multi",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Multi – Round Neck | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Round Neck Multi | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 68,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-off-white",
+      "titleBefore": "Women’s Cotton Regular Fit Blouse Off White – Workday | Cottonworld",
+      "titleAfter": "Women’s Cotton Regular Fit Blouse Workday Off White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 70,
+      "urlBefore": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-red-johnny-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-johnny-collar-red",
+      "titleBefore": "Women’s Modal Viscose Blouse Red – Johnny Collar | Cottonworld",
+      "titleAfter": "Women’s Modal Viscose Blouse Johnny Collar Red | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 73,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-brown-shirt-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-shirt-collar-brown",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Brown – Shirt Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Shirt Collar Brown | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 74,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Green – Weekend | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Weekend Green | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 75,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-multi-mandarin-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-mandarin-collar-multi",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Multi – Mandarin Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Mandarin Collar Multi | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 77,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige-band-collar",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-band-collar-beige",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Beige – Band Collar | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Band Collar Beige | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 78,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Off White – Workday | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Workday Off White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 79,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+      "titleBefore": "Women’s Linen Boxy Fit Blouse Off White – Weekend | Cottonworld",
+      "titleAfter": "Women’s Linen Boxy Fit Blouse Weekend Off White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 84,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-beige-mock-buttons",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-mock-buttons-beige",
+      "titleBefore": "Women’s Cotton Lycra Culotte Beige – Mock Buttons | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Culotte Mock Buttons Beige | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 85,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-black-mock-buttons",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-mock-buttons-black",
+      "titleBefore": "Women’s Cotton Lycra Culotte Black – Mock Buttons | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Culotte Mock Buttons Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 86,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-beige-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-beige",
+      "titleBefore": "Women’s Cotton Lycra Culotte Beige – Elastic Waist | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Culotte Elastic Waist Beige | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 87,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-black-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-black",
+      "titleBefore": "Women’s Cotton Lycra Culotte Black – Elastic Waist | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Culotte Elastic Waist Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 129,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-beige-pull-on",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-pull-on-beige",
+      "titleBefore": "Women’s Cotton Lycra Regular Fit Pant Beige – Pull-On | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Regular Fit Pant Pull-On Beige | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 133,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-yellow-full-length",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-full-length-yellow",
+      "titleBefore": "Women’s Linen Viscose Pant Yellow – Full Length | Cottonworld",
+      "titleAfter": "Women’s Linen Viscose Pant Full Length Yellow | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 135,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sage-drawstring-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-sage",
+      "titleBefore": "Women’s Linen Viscose Pant Sage – Drawstring Elastic Waist | Cottonworld",
+      "titleAfter": "Women’s Linen Viscose Pant Drawstring Elastic Waist Sage | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 136,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-yellow-ankle-length",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-ankle-length-yellow",
+      "titleBefore": "Women’s Linen Viscose Pant Yellow – Ankle Length | Cottonworld",
+      "titleAfter": "Women’s Linen Viscose Pant Ankle Length Yellow | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 138,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-sage-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-elastic-waist-sage",
+      "titleBefore": "Women’s Linen Viscose Pant Sage – Elastic Waist | Cottonworld",
+      "titleAfter": "Women’s Linen Viscose Pant Elastic Waist Sage | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 139,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-pant-black-side-pockets",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-pant-side-pockets-black",
+      "titleBefore": "Women’s Linen Regular Fit Pant Black – Side Pockets | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Pant Side Pockets Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 144,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-beige-side-buttons",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-side-buttons-beige",
+      "titleBefore": "Women’s Cotton Lycra Pant Beige – Side Buttons | Cottonworld",
+      "titleAfter": "Women’s Cotton Lycra Pant Side Buttons Beige | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 146,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-pant-grey-straight-leg",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-pant-straight-leg-grey",
+      "titleBefore": "Women’s Linen Regular Fit Pant Grey – Straight Leg | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Pant Straight Leg Grey | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 149,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-pant-black-patch-pockets",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-pant-patch-pockets-black",
+      "titleBefore": "Women’s Linen Regular Fit Pant Black – Patch Pockets | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Pant Patch Pockets Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 152,
+      "urlBefore": "https://cottonworld.net/products/womens-linen-regular-fit-pant-grey-barrel-leg",
+      "urlAfter": "https://cottonworld.net/products/womens-linen-regular-fit-pant-barrel-leg-grey",
+      "titleBefore": "Women’s Linen Regular Fit Pant Grey – Barrel Leg | Cottonworld",
+      "titleAfter": "Women’s Linen Regular Fit Pant Barrel Leg Grey | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 155,
+      "urlBefore": "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-blue-side-pockets",
+      "urlAfter": "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-side-pockets-blue",
+      "titleBefore": "Women’s Viscose Regular Fit Pyjama Blue – Side Pockets | Cottonworld",
+      "titleAfter": "Women’s Viscose Regular Fit Pyjama Side Pockets Blue | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 158,
+      "urlBefore": "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-blue-no-pockets",
+      "urlAfter": "https://cottonworld.net/products/womens-viscose-regular-fit-pyjama-no-pockets-blue",
+      "titleBefore": "Women’s Viscose Regular Fit Pyjama Blue – No Pockets | Cottonworld",
+      "titleAfter": "Women’s Viscose Regular Fit Pyjama No Pockets Blue | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 167,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural-round-hem",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-hem-natural",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Natural – Round Hem | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Round Hem Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 168,
+      "urlBefore": "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-ecru-melan-pull-on",
+      "urlAfter": "https://cottonworld.net/products/womens-cotton-regular-fit-tshirt-pull-on-ecru-melan",
+      "titleBefore": "Women’s Cotton Regular Fit T-Shirt Ecru Melan – Pull-On | Cottonworld",
+      "titleAfter": "Women’s Cotton Regular Fit T-Shirt Pull-On Ecru Melan | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 169,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black-round-hem",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-hem-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Round Hem | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Round Hem Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 172,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green-round-hem",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-hem-green",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Green – Round Hem | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Round Hem Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 174,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white-round-hem",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-hem-white",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt White – Round Hem | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Round Hem White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 175,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-wine-round-hem",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-hem-wine",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Wine – Round Hem | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Round Hem Wine | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 177,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green-solid-pull-on",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-solid-pull-on-green",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Green – Solid Pull-On | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Solid Pull-On Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 184,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt White – Weekend | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Weekend White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 187,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown-short-sleeve",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-short-sleeve-brown",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Brown – Short Sleeve | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve Brown | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 188,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-green-short-sleeve",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-short-sleeve-dark-green",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Dark Green – Short Sleeve | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve Dark Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 190,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Natural – Weekend | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Weekend Natural | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 191,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-wine-pull-on",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-pull-on-wine",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Wine – Pull-On | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Pull-On Wine | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 192,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-half-sleeve-natural",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Natural – Half Sleeve | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Half Sleeve Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 194,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Weekend | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Weekend Black | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 195,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt White – Travel | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Travel White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 197,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Travel | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Travel Black | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 198,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-red-solid",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-solid-red",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Red – Solid | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Solid Red | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 199,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black-extended-sleeve",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-extended-sleeve-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Extended Sleeve | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Extended Sleeve Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 201,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-green-extended-sleeve",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-extended-sleeve-dark-green",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Dark Green – Extended Sleeve | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Extended Sleeve Dark Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 202,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown-regular-length",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-regular-length-brown",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Brown – Regular Length | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Regular Length Brown | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 204,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Green – Travel | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Travel Green | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 205,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-red-striped",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-striped-red",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Red – Striped | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Striped Red | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 211,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Versatile | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Versatile Black | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 212,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt White – Relaxed | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Relaxed White | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 215,
+      "urlBefore": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "urlAfter": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+      "titleBefore": "Women’s Organic Cotton Regular Fit T-Shirt Black – Comfort | Cottonworld",
+      "titleAfter": "Women’s Organic Cotton Regular Fit T-Shirt Comfort Black | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 221,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive-straight-leg",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-pant-straight-leg-olive",
+      "titleBefore": "Men’s Linen Regular Fit Pant Olive – Straight Leg | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Pant Straight Leg Olive | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 230,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-white-side-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-side-pockets-white",
+      "titleBefore": "Men’s Cotton Linen Regular Fit Pant White – Side Pockets | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Regular Fit Pant Side Pockets White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 241,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-white-side-and-back-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-side-and-back-pockets-white",
+      "titleBefore": "Men’s Cotton Linen Pant White – Side and Back Pockets | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Pant Side and Back Pockets White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 245,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural-side-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-pockets-natural",
+      "titleBefore": "Men’s Linen Regular Fit Pant Natural – Side Pockets | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Pant Side Pockets Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 246,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive-side-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-pockets-olive",
+      "titleBefore": "Men’s Linen Regular Fit Pant Olive – Side Pockets | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Pant Side Pockets Olive | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 248,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-pant-natural-side-and-back-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-natural",
+      "titleBefore": "Men’s Linen Pant Natural – Side and Back Pockets | Cottonworld",
+      "titleAfter": "Men’s Linen Pant Side and Back Pockets Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 249,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-pant-olive-side-and-back-pockets",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-olive",
+      "titleBefore": "Men’s Linen Pant Olive – Side and Back Pockets | Cottonworld",
+      "titleAfter": "Men’s Linen Pant Side and Back Pockets Olive | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 251,
+      "urlBefore": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-green-band-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-band-neck-green",
+      "titleBefore": "Men’s Tencel Linen Regular Fit Shirt Green – Band Neck | Cottonworld",
+      "titleAfter": "Men’s Tencel Linen Regular Fit Shirt Band Neck Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 254,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black-button-front",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-button-front-black",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Black – Button Front | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Button Front Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 255,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-black-button-placket",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-button-placket-black",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Black – Button Placket | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Button Placket Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 259,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sand-solid",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-solid-sand",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Sand – Solid | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Solid Sand | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 260,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sky-solid",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-solid-sky",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Sky – Solid | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Solid Sky | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 261,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green-regular-collar-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-green",
+      "titleBefore": "Men’s Cotton Shirt Green – Regular Collar Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Collar Full Sleeve Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 262,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white-regular-length",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-off-white",
+      "titleBefore": "Men’s Cotton Shirt Off White – Regular Length | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Length Off White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 263,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sand-checked",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-checked-sand",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Sand – Checked | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Checked Sand | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 264,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy-regular-collar-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-navy",
+      "titleBefore": "Men’s Cotton Shirt Navy – Regular Collar Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Collar Full Sleeve Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 265,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-full-sleeve-natural",
+      "titleBefore": "Men’s Linen Regular Fit Shirt Natural – Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Shirt Full Sleeve Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 269,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white-band-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-band-collar-white",
+      "titleBefore": "Men’s Linen Cotton Regular Fit Shirt White – Band Collar | Cottonworld",
+      "titleAfter": "Men’s Linen Cotton Regular Fit Shirt Band Collar White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 270,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy-hooded",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-hooded-navy",
+      "titleBefore": "Men’s Linen Cotton Regular Fit Shirt Navy – Hooded | Cottonworld",
+      "titleAfter": "Men’s Linen Cotton Regular Fit Shirt Hooded Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 271,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white-hooded",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-hooded-white",
+      "titleBefore": "Men’s Linen Cotton Regular Fit Shirt White – Hooded | Cottonworld",
+      "titleAfter": "Men’s Linen Cotton Regular Fit Shirt Hooded White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 274,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-white-regular-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-white",
+      "titleBefore": "Men’s Linen Cotton Shirt White – Regular Collar | Cottonworld",
+      "titleAfter": "Men’s Linen Cotton Shirt Regular Collar White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 282,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-navy-regular-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-navy",
+      "titleBefore": "Men’s Linen Cotton Shirt Navy – Regular Collar | Cottonworld",
+      "titleAfter": "Men’s Linen Cotton Shirt Regular Collar Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 285,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy-band-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-band-collar-navy",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Navy – Band Collar | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Band Collar Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 286,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-off-white-round-v-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-round-v-neck-off-white",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Off White – Round V-Neck | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Round V-Neck Off White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 289,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink-button-down-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-button-down-collar-pink",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Pink – Button Down Collar | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Button Down Collar Pink | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 290,
+      "urlBefore": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-lilac-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-full-sleeve-lilac",
+      "titleBefore": "Men’s Oxford Cotton Shirt Lilac – Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Oxford Cotton Shirt Full Sleeve Lilac | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 292,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-sky-checked",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-checked-sky",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Sky – Checked | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Checked Sky | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 293,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green-regular-collar-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-green",
+      "titleBefore": "Men’s Cotton Shirt Green – Regular Collar Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Collar Half Sleeve Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 294,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy-regular-collar-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-navy",
+      "titleBefore": "Men’s Cotton Shirt Navy – Regular Collar Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Collar Half Sleeve Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 298,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-pink-band-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-band-collar-pink",
+      "titleBefore": "Men’s Cotton Regular Fit Shirt Pink – Band Collar | Cottonworld",
+      "titleAfter": "Men’s Cotton Regular Fit Shirt Band Collar Pink | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 304,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-green-regular-length-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-green",
+      "titleBefore": "Men’s Cotton Shirt Green – Regular Length Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Length Half Sleeve Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 305,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy-regular-length-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-navy",
+      "titleBefore": "Men’s Cotton Shirt Navy – Regular Length Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Length Half Sleeve Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 312,
+      "urlBefore": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-green-regular-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-regular-collar-green",
+      "titleBefore": "Men’s Tencel Linen Shirt Green – Regular Collar | Cottonworld",
+      "titleAfter": "Men’s Tencel Linen Shirt Regular Collar Green | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 317,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-natural-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-half-sleeve-natural",
+      "titleBefore": "Men’s Linen Regular Fit Shirt Natural – Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Shirt Half Sleeve Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 318,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-sky-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-half-sleeve-sky",
+      "titleBefore": "Men’s Linen Regular Fit Shirt Sky – Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Shirt Half Sleeve Sky | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 320,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-navy-regular-length-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-full-sleeve-navy",
+      "titleBefore": "Men’s Cotton Shirt Navy – Regular Length Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Shirt Regular Length Full Sleeve Navy | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 328,
+      "urlBefore": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-sky-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-full-sleeve-sky",
+      "titleBefore": "Men’s Linen Regular Fit Shirt Sky – Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Linen Regular Fit Shirt Full Sleeve Sky | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 332,
+      "urlBefore": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-lilac-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-half-sleeve-lilac",
+      "titleBefore": "Men’s Oxford Cotton Shirt Lilac – Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Oxford Cotton Shirt Half Sleeve Lilac | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 335,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural-drawstring-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-natural",
+      "titleBefore": "Men’s Cotton Linen Short Natural – Drawstring Elastic Waist | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Short Drawstring Elastic Waist Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 337,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white-drawstring-elastic-waist",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-white",
+      "titleBefore": "Men’s Cotton Linen Short White – Drawstring Elastic Waist | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Short Drawstring Elastic Waist White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 340,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-natural-button-and-zip",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-natural",
+      "titleBefore": "Men’s Cotton Linen Short Natural – Button and Zip | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Short Button and Zip Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 341,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-white-button-and-zip",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-white",
+      "titleBefore": "Men’s Cotton Linen Short White – Button and Zip | Cottonworld",
+      "titleAfter": "Men’s Cotton Linen Short Button and Zip White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 344,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black-solid",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-solid-black",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Black – Solid | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Solid Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 351,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white-solid",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-solid-white",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt White – Solid | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Solid White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 354,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Blue – Workday | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Workday Blue | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 355,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Blue – Weekend | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Weekend Blue | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 357,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-white-printed",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-printed-white",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt White – Printed | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Printed White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 358,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black-pull-on",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-pull-on-black",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Black – Pull-On | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Pull-On Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 365,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-white-half-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-half-sleeve-white",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt White – Half Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Half Sleeve White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 369,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brown-round-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-round-neck-brown",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown – Round Neck | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Round Neck Brown | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 371,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-natural-round-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-round-neck-natural",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Natural – Round Neck | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Round Neck Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 379,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-brown-polo",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-brown",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown – Polo | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Brown | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 380,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender-polo",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-lavender",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender – Polo | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Lavender | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 381,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-natural-polo",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-natural",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Natural – Polo | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Natural | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 383,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Blue – Travel | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Travel Blue | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 384,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Brown – Workday | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Workday Brown | Cottonworld",
+      "urlChanged": false
+    },
+    {
+      "row": 386,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-lavender-round-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-round-neck-lavender",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender – Round Neck | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Round Neck Lavender | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 387,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-white-full-sleeve",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-full-sleeve-white",
+      "titleBefore": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt White – Full Sleeve | Cottonworld",
+      "titleAfter": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Full Sleeve White | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 389,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue-polo",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-polo-blue",
+      "titleBefore": "Men’s Organic Cotton Regular Fit T-Shirt Blue – Polo | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton Regular Fit T-Shirt Polo Blue | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 390,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-black-round-neck",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-round-neck-black",
+      "titleBefore": "Men’s Cotton Elastane Slim Fit T-Shirt Black – Round Neck | Cottonworld",
+      "titleAfter": "Men’s Cotton Elastane Slim Fit T-Shirt Round Neck Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 392,
+      "urlBefore": "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-black-polo",
+      "urlAfter": "https://cottonworld.net/products/mens-cotton-elastane-slim-fit-tshirt-polo-black",
+      "titleBefore": "Men’s Cotton Elastane Slim Fit T-Shirt Black – Polo | Cottonworld",
+      "titleAfter": "Men’s Cotton Elastane Slim Fit T-Shirt Polo Black | Cottonworld",
+      "urlChanged": true
+    },
+    {
+      "row": 395,
+      "urlBefore": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue-polo-collar",
+      "urlAfter": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-polo-collar-blue",
+      "titleBefore": "Men’s Organic Cotton T-Shirt Blue – Polo Collar | Cottonworld",
+      "titleAfter": "Men’s Organic Cotton T-Shirt Polo Collar Blue | Cottonworld",
+      "urlChanged": true
+    }
+  ]
+}

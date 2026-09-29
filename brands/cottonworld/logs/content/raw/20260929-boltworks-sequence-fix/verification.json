@@ -1,0 +1,29 @@
+{
+  "run_id": "20260929-boltworks-sequence-fix",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "rows": 394,
+  "changed_cells_by_column": {
+    "A": 0,
+    "B": 114,
+    "C": 132,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "H": 0
+  },
+  "after": {
+    "title_suffix_differentiators": 0,
+    "color_not_final_in_title_or_url": [],
+    "duplicate_title_groups": 0,
+    "duplicate_description_groups": 0,
+    "duplicate_proposed_url_groups": 10,
+    "titles_with_numeric_product_codes": 0,
+    "titles_with_buy": 0
+  },
+  "example": {
+    "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-v-neck-mustard",
+    "meta_title": "Women’s Linen Regular Fit Blouse V-Neck Mustard | Cottonworld"
+  },
+  "notes": "Column B and C were updated only where the differentiator followed the colour. Row 6 was already in the requested order. The 10 duplicate proposed URL groups reflect previously flagged products lacking verified distinguishing details."
+}
