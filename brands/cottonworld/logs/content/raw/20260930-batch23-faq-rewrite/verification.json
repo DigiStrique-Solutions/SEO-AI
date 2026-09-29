@@ -1,0 +1,283 @@
+{
+  "run_id": "20260930-batch23-faq-rewrite",
+  "date": "2026-09-30",
+  "status": "complete",
+  "documents": 21,
+  "faq_pairs": 116,
+  "batches": [
+    {
+      "batch": 2,
+      "documents": 13,
+      "faq_pairs": 65,
+      "folder": "https://drive.google.com/drive/folders/1tJj8oOPnKb1BsTYIdclmuHTY6D8AOWVB"
+    },
+    {
+      "batch": 3,
+      "documents": 8,
+      "faq_pairs": 51,
+      "folder": "https://drive.google.com/drive/folders/1-zEJJpYkaxbQzEK5MM4yox_agbeLFOWi"
+    }
+  ],
+  "scope": "FAQs only; other copy and all collection hyperlink text, destinations and styling unchanged.",
+  "editorial_review": {
+    "question_answer_alignment": "pass",
+    "specific_shopper_guidance": "pass",
+    "unsupported_commercial_or_performance_claims": "none added",
+    "faq_live_or_snapshot_language": "none",
+    "product_links": "none"
+  },
+  "verification": [
+    {
+      "id": "1k4IdHt9XxYyVbXBULheVF0Dhi1sl5cyX175BI8V2nQc",
+      "index": 0,
+      "title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 253,
+      "documentWords": 1019,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1Sp4k7Qo41KwEYKPRX7g6KyRRv3RuaVnTsoDDIolxhqI",
+      "index": 1,
+      "title": "Buy Men's Bestsellers Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 253,
+      "documentWords": 1006,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1KxHPWKUwnDPRej2goF1rI99ocqHg96Bep1-b5JI7GPA",
+      "index": 2,
+      "title": "Buy Men's Clothing Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 263,
+      "documentWords": 1041,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "19_FHo9A-WxTZZKdUJwUCn7oTLVcAYnn3yI2SHj55YfE",
+      "index": 3,
+      "title": "Buy Men's Co-ord Sets Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 260,
+      "documentWords": 1005,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1dlUmjnZcApR28gro8vs1zEZTT6viLHnGi9qUUXBPruA",
+      "index": 4,
+      "title": "Buy Men's Monsoon Clothing Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 263,
+      "documentWords": 1030,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1mKMvgsFEsnwr35AJN_N3zh2Vt0ZIP6qQCpWAzhuS2A8",
+      "index": 5,
+      "title": "Buy Men's New Arrivals Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 263,
+      "documentWords": 1068,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1yfMbZWhEfwg7KwAuOrDMHai5b4LhYNxCqPpNRRh71bE",
+      "index": 6,
+      "title": "Buy Men's Shirts, T-Shirts & Jackets Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 257,
+      "documentWords": 1054,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1wHEGsNM8_7a7d99t7eyCwSU482VeVqn3Gac5z5BarRk",
+      "index": 7,
+      "title": "Shop Men's Looks Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 252,
+      "documentWords": 1159,
+      "collectionLinks": 7,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1X29IsGv1uhr2EJs3KylGabqR2f_eMndcYks_As9953M",
+      "index": 8,
+      "title": "Buy Men's Bottom Wear Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 257,
+      "documentWords": 1001,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "17_WGxhBnlfs0RDcVl6FDWm0dJpnOUDokl4cEDmcpxzc",
+      "index": 9,
+      "title": "Buy Men's Jackets Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 261,
+      "documentWords": 1049,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "12YGukzL81HKqYGDoxrtqn5HKY8AtU_fruPJrF48OZUY",
+      "index": 10,
+      "title": "Buy Men's Kurtas Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 255,
+      "documentWords": 1064,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1ge6NQdYaubiM-BhsfGpaWZbmsOgoJhOMhx7EzwS3GiY",
+      "index": 11,
+      "title": "Buy Men's Lounge Wear Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 253,
+      "documentWords": 1060,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1oKAO6JxLteg46t1NCSUBCa-mg9JebtreB0wXLJfH5O0",
+      "index": 12,
+      "title": "Buy Men's Round-Neck Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "qaPairs": 5,
+      "faqWords": 255,
+      "documentWords": 1067,
+      "collectionLinks": 4,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo",
+      "index": 13,
+      "title": "Cottonworld Women's Dresses and Jumpsuits Collection Page — Phase 1",
+      "batch": 3,
+      "qaPairs": 5,
+      "faqWords": 260,
+      "documentWords": 1539,
+      "collectionLinks": 7,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "148Tl3_fpDh0wZMzKU4_SSzu8j0cB9Mm4kGQIDuhQBBE",
+      "index": 14,
+      "title": "Cottonworld Collection Page — Women’s Pants (Phase 1)",
+      "batch": 3,
+      "qaPairs": 7,
+      "faqWords": 359,
+      "documentWords": 1770,
+      "collectionLinks": 10,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1LOiCjVpl4ADizpC8Lkd4M-5Bklob6TxniBn_w2iIqS4",
+      "index": 15,
+      "title": "Cottonworld Collection Page — Women’s Kurtas & Tunics (Phase 1)",
+      "batch": 3,
+      "qaPairs": 7,
+      "faqWords": 358,
+      "documentWords": 1693,
+      "collectionLinks": 8,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1NtmQO_e_hlSBgvcRuaRTvIp9tCEIohV0GYxQqk8PXCE",
+      "index": 16,
+      "title": "Cottonworld Collection Page — Women’s Jackets (Phase 1)",
+      "batch": 3,
+      "qaPairs": 7,
+      "faqWords": 349,
+      "documentWords": 1652,
+      "collectionLinks": 8,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1EsjguUHjYq5kda5b_XREC1aGGDiwWkkGwFK3y_kAPI4",
+      "index": 17,
+      "title": "Cottonworld Collection Page — Women's Tops (Phase 1)",
+      "batch": 3,
+      "qaPairs": 7,
+      "faqWords": 361,
+      "documentWords": 1522,
+      "collectionLinks": 6,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+      "index": 18,
+      "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+      "batch": 3,
+      "qaPairs": 6,
+      "faqWords": 320,
+      "documentWords": 1505,
+      "collectionLinks": 7,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg",
+      "index": 19,
+      "title": "Women's Shorts Collection Page",
+      "batch": 3,
+      "qaPairs": 7,
+      "faqWords": 352,
+      "documentWords": 1711,
+      "collectionLinks": 9,
+      "productLinks": 0,
+      "issues": []
+    },
+    {
+      "id": "1dxidTAD5EtoHXCZbzJg78SXMf5pjSDXNZx6HYmspKcY",
+      "index": 20,
+      "title": "Women's Skirts Collection Page",
+      "batch": 3,
+      "qaPairs": 5,
+      "faqWords": 258,
+      "documentWords": 1514,
+      "collectionLinks": 6,
+      "productLinks": 0,
+      "issues": []
+    }
+  ]
+}

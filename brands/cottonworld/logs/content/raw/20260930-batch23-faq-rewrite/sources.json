@@ -1,0 +1,157 @@
+{
+  "run_id": "20260930-batch23-faq-rewrite",
+  "date": "2026-09-30",
+  "scope": "Rewrite all 116 FAQ pairs across 13 Batch 2 and 8 Batch 3 collection drafts",
+  "sources": [
+    {
+      "ref": "brands/cottonworld/knowledge.md",
+      "use": "Plain, calm everyday styling voice; no unsupported product, sustainability or performance claims"
+    },
+    {
+      "ref": "brands/cottonworld/context.md",
+      "use": "Brand scope and relevant source inventory"
+    },
+    {
+      "ref": "https://cottonworld.net/collections/men-bamboo-clothes",
+      "use": "Collection reviewed for context; no fibre-percentage or performance claim added"
+    },
+    {
+      "ref": "https://cottonworld.net/collections/all-mens-clothing",
+      "use": "Men's garment categories"
+    },
+    {
+      "ref": "https://cottonworld.net/collections/co-ord-sets-mens",
+      "use": "Coordinated clothing context"
+    }
+  ],
+  "document_sources": [
+    {
+      "document_id": "1k4IdHt9XxYyVbXBULheVF0Dhi1sl5cyX175BI8V2nQc",
+      "title": "Buy Men's Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1Sp4k7Qo41KwEYKPRX7g6KyRRv3RuaVnTsoDDIolxhqI",
+      "title": "Buy Men's Bestsellers Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1KxHPWKUwnDPRej2goF1rI99ocqHg96Bep1-b5JI7GPA",
+      "title": "Buy Men's Clothing Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "19_FHo9A-WxTZZKdUJwUCn7oTLVcAYnn3yI2SHj55YfE",
+      "title": "Buy Men's Co-ord Sets Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1dlUmjnZcApR28gro8vs1zEZTT6viLHnGi9qUUXBPruA",
+      "title": "Buy Men's Monsoon Clothing Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1mKMvgsFEsnwr35AJN_N3zh2Vt0ZIP6qQCpWAzhuS2A8",
+      "title": "Buy Men's New Arrivals Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1yfMbZWhEfwg7KwAuOrDMHai5b4LhYNxCqPpNRRh71bE",
+      "title": "Buy Men's Shirts, T-Shirts & Jackets Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1wHEGsNM8_7a7d99t7eyCwSU482VeVqn3Gac5z5BarRk",
+      "title": "Shop Men's Looks Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1X29IsGv1uhr2EJs3KylGabqR2f_eMndcYks_As9953M",
+      "title": "Buy Men's Bottom Wear Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "17_WGxhBnlfs0RDcVl6FDWm0dJpnOUDokl4cEDmcpxzc",
+      "title": "Buy Men's Jackets Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "12YGukzL81HKqYGDoxrtqn5HKY8AtU_fruPJrF48OZUY",
+      "title": "Buy Men's Kurtas Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1ge6NQdYaubiM-BhsfGpaWZbmsOgoJhOMhx7EzwS3GiY",
+      "title": "Buy Men's Lounge Wear Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1oKAO6JxLteg46t1NCSUBCa-mg9JebtreB0wXLJfH5O0",
+      "title": "Buy Men's Round-Neck Bamboo T-Shirts Online – Collection Page Content",
+      "batch": 2,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo",
+      "title": "Cottonworld Women's Dresses and Jumpsuits Collection Page — Phase 1",
+      "batch": 3,
+      "faq_pairs": 5
+    },
+    {
+      "document_id": "148Tl3_fpDh0wZMzKU4_SSzu8j0cB9Mm4kGQIDuhQBBE",
+      "title": "Cottonworld Collection Page — Women’s Pants (Phase 1)",
+      "batch": 3,
+      "faq_pairs": 7
+    },
+    {
+      "document_id": "1LOiCjVpl4ADizpC8Lkd4M-5Bklob6TxniBn_w2iIqS4",
+      "title": "Cottonworld Collection Page — Women’s Kurtas & Tunics (Phase 1)",
+      "batch": 3,
+      "faq_pairs": 7
+    },
+    {
+      "document_id": "1NtmQO_e_hlSBgvcRuaRTvIp9tCEIohV0GYxQqk8PXCE",
+      "title": "Cottonworld Collection Page — Women’s Jackets (Phase 1)",
+      "batch": 3,
+      "faq_pairs": 7
+    },
+    {
+      "document_id": "1EsjguUHjYq5kda5b_XREC1aGGDiwWkkGwFK3y_kAPI4",
+      "title": "Cottonworld Collection Page — Women's Tops (Phase 1)",
+      "batch": 3,
+      "faq_pairs": 7
+    },
+    {
+      "document_id": "1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4",
+      "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+      "batch": 3,
+      "faq_pairs": 6
+    },
+    {
+      "document_id": "1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg",
+      "title": "Women's Shorts Collection Page",
+      "batch": 3,
+      "faq_pairs": 7
+    },
+    {
+      "document_id": "1dxidTAD5EtoHXCZbzJg78SXMf5pjSDXNZx6HYmspKcY",
+      "title": "Women's Skirts Collection Page",
+      "batch": 3,
+      "faq_pairs": 5
+    }
+  ],
+  "editorial_method": "Replace repetitive filter summaries and product-page deferrals with direct garment-specific shopper advice. Styling suggestions are editorial guidance. Care follows the garment label. No new product links, unsupported stock guarantees or commercial-policy claims.",
+  "review_scope": "FAQ content and document structure; not a full publication-readiness audit"
+}
