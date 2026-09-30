@@ -1,0 +1,940 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "documentId": "1AzgjNxunYsSUIbf8xqaXNfY0C6Zk2bPDi1NYc2xyiro",
+    "title": "Cottonworld — Expanded PDP descriptions, batches 2–4",
+    "revisionId": "ANLCKQmpVN9IQujeVL2DVsxrN1m3TK-gqUTrAG30nFgTQh4oXHy4QEmZRaZzXdSfXmTZ7Ke2EJ3Jz-jgkvEuxCkCFVLfIpWBXeD5Z4Uho_w",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "url": null,
+    "body": null,
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "parentTabId": null,
+        "index": 0,
+        "nestingLevel": null,
+        "iconEmoji": null,
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 38,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 38,
+                    "textRun": {
+                      "content": "Cottonworld: fuller PDP descriptions\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.w55b0bd9vd56",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 38,
+              "endIndex": 148,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 38,
+                    "endIndex": 148,
+                    "textRun": {
+                      "content": "All 333 active descriptions in Batches 2–4 have been expanded in the existing tracker, starting with Batch 2.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 148,
+              "endIndex": 175,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 148,
+                    "endIndex": 173,
+                    "textRun": {
+                      "content": "Updated PDP spreadsheet: ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 173,
+                    "endIndex": 174,
+                    "richLink": {
+                      "richLinkId": "kix.4sp4pjt3ar45",
+                      "textStyle": {},
+                      "richLinkProperties": {
+                        "title": "PDP PAGES with Product Codes",
+                        "uri": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+                        "mimeType": "application/vnd.google-apps.ritz"
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 174,
+                    "endIndex": 175,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 175,
+              "endIndex": 203,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 175,
+                    "endIndex": 203,
+                    "textRun": {
+                      "content": "Depth compared with Batch 1\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.gwzkcsqtqxbv",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 203,
+              "endIndex": 256,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 203,
+                    "endIndex": 256,
+                    "textRun": {
+                      "content": "Batch 1 benchmark: median 121 words per description.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 256,
+              "endIndex": 316,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 256,
+                    "endIndex": 316,
+                    "textRun": {
+                      "content": "Batch 2: 135 descriptions; median 119 words, previously 53.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 316,
+              "endIndex": 376,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 316,
+                    "endIndex": 376,
+                    "textRun": {
+                      "content": "Batch 3: 116 descriptions; median 120 words, previously 54.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 376,
+              "endIndex": 435,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 376,
+                    "endIndex": 435,
+                    "textRun": {
+                      "content": "Batch 4: 82 descriptions; median 119 words, previously 55.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 435,
+              "endIndex": 531,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 435,
+                    "endIndex": 531,
+                    "textRun": {
+                      "content": "Word counts exclude the Product ID line. The expanded descriptions range from 106 to 130 words.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 531,
+              "endIndex": 544,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 531,
+                    "endIndex": 544,
+                    "textRun": {
+                      "content": "What changed\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.9y1exp82jbnq",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 544,
+              "endIndex": 833,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 544,
+                    "endIndex": 833,
+                    "textRun": {
+                      "content": "Each description keeps the product introduction, construction paragraph, styling note and Product ID. The copy now gives fuller outfit suggestions, with fabric composition, fit and garment details retained. Product-specific care instructions add useful information from the source export.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 833,
+              "endIndex": 1024,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 833,
+                    "endIndex": 1024,
+                    "textRun": {
+                      "content": "The earlier corrections remain: no repeated fabric names or product colours in a description, no consecutive duplicate words, and no identical description bodies across the 333 revised rows.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1024,
+              "endIndex": 1043,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1024,
+                    "endIndex": 1043,
+                    "textRun": {
+                      "content": "Sources and checks\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.21t96zml9hmg",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1043,
+              "endIndex": 1266,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1043,
+                    "endIndex": 1266,
+                    "textRun": {
+                      "content": "Product facts and care instructions are drawn from the Cottonworld verify product export used in the preceding correction pass. Batch 1 supplies the depth and tone benchmark. Styling combinations are editorial suggestions.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1266,
+              "endIndex": 1533,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1266,
+                    "endIndex": 1533,
+                    "textRun": {
+                      "content": "All 333 saved descriptions were read back and matched against the approved local copy. Product codes, URLs, feedback columns, inactive sections and cell notes were preserved. The existing red Product ID highlight in Batch 3 C22 was retained at its new text position.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1533,
+              "endIndex": 1748,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1533,
+                    "endIndex": 1748,
+                    "textRun": {
+                      "content": "The duplicate-product note on Batch 4 C6 remains: this product also appears in Batch 1 and should only be implemented once. Active status follows the tracker’s active sections; this was not a fresh inventory audit.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1748,
+              "endIndex": 1978,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1748,
+                    "endIndex": 1978,
+                    "textRun": {
+                      "content": "Browser access timed out, so rendered row fit could not be rechecked. Text wrapping and cell formats were verified through the Sheets connector. This is an editorial update, without a new AI-detector or publication certification.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1978,
+              "endIndex": 1979,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1978,
+                    "endIndex": 1979,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        },
+        "headers": null,
+        "footers": null,
+        "footnotes": null,
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "suggestedDocumentStyleChanges": null,
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 115,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "COLLAPSE_LISTS",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "fontSize": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.2627451,
+                      "green": 0.2627451,
+                      "blue": 0.2627451
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 26,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 3,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 15,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "suggestedNamedStylesChanges": null,
+        "lists": null,
+        "namedRanges": null,
+        "inlineObjects": null,
+        "positionedObjects": null,
+        "documentId": "1AzgjNxunYsSUIbf8xqaXNfY0C6Zk2bPDi1NYc2xyiro",
+        "document_url": "https://docs.google.com/document/d/1AzgjNxunYsSUIbf8xqaXNfY0C6Zk2bPDi1NYc2xyiro"
+      }
+    ],
+    "document_url": "https://docs.google.com/document/d/1AzgjNxunYsSUIbf8xqaXNfY0C6Zk2bPDi1NYc2xyiro"
+  },
+  "isError": false
+}

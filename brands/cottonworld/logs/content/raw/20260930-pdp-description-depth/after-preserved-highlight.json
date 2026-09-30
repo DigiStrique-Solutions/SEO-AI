@@ -1,0 +1,74 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "spreadsheetId": "1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+    "properties": {
+      "title": "PDP PAGES with Product Codes",
+      "locale": "en_US",
+      "timeZone": "Asia/Calcutta"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 1510684996,
+          "title": "Batch 3",
+          "index": 3,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1002,
+            "columnCount": 15,
+            "frozenRowCount": 1,
+            "frozenColumnCount": 1
+          }
+        },
+        "data": [
+          {
+            "startRow": 21,
+            "startColumn": 2,
+            "rowData": [
+              {
+                "values": [
+                  {
+                    "userEnteredValue": {
+                      "stringValue": "For casual lunches and time away from the weekday routine, these men's light green shorts offer a regular fit. The woven fabric is 98% cotton and 2% Lycra. The solid finish is easy to coordinate with the rest of your wardrobe.\n\nThey have a mid-rise waist and a button-and-zip fastening. The design includes side-seam and back pockets; the legs finish with folded hems. The length falls at the knee. Machine wash cold and wash dark colours separately. Do not bleach; remove promptly and dry in the shade.\n\nStyling note - Wear them with an off-white short-sleeve shirt and sandals for a casual afternoon. For a walk or a day of errands, switch to a plain crew-neck T-shirt and canvas trainers, keeping the rest of the outfit simple.\n\nProduct ID: m-shorts-16124-21532-light gree"
+                    },
+                    "userEnteredFormat": {
+                      "verticalAlignment": "BOTTOM",
+                      "wrapStrategy": "WRAP",
+                      "textFormat": {
+                        "fontFamily": "Arial"
+                      }
+                    },
+                    "textFormatRuns": [
+                      {},
+                      {
+                        "startIndex": 771,
+                        "format": {
+                          "foregroundColor": {
+                            "red": 1
+                          },
+                          "foregroundColorStyle": {
+                            "rgbColor": {
+                              "red": 1
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isError": false
+}
