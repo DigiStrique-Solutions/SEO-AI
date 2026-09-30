@@ -1,0 +1,94 @@
+{
+  "run_id": "spykar-progress-20260930",
+  "source_reads": [
+    {
+      "type": "google_slides",
+      "title": "Monthly SEO Report | Spykar - April'26",
+      "id": "1IJ1FTnwgWnyDO4wRUrx7a5sRCbtLhDorG9B3vUvBXOw",
+      "used": {
+        "reported_blog_topics": 8,
+        "reported_blog_content": 8,
+        "reported_blog_banners": 8,
+        "technical_and_redirect_issues": "shared with development",
+        "ga4_organic_sessions": 22698,
+        "gsc_clicks": 20498,
+        "gsc_impressions": 1334771
+      }
+    },
+    {
+      "type": "google_slides",
+      "title": "Monthly SEO Report | Spykar - May'26",
+      "id": "107-5lcBQLk31XQ6_IDO-dNXNhCv3cWXlWYnBYvudqSg",
+      "used": {
+        "ga4_organic_sessions": 20676,
+        "gsc_clicks": 16373,
+        "gsc_impressions": 1225700
+      },
+      "note": "Task Done slide appears copied from April and was not used as May delivery proof."
+    },
+    {
+      "type": "google_slides",
+      "title": "Monthly SEO Report | Spykar - June'26",
+      "id": "1LW-mDmFsxl6Hnf6FeAjdsQ1iKcnCQi6JT8OQSCx479k",
+      "used": {
+        "ga4_organic_sessions": 22901,
+        "gsc_clicks": 18729,
+        "gsc_impressions": 1733889
+      },
+      "note": "Narrative on GA4 slide contains stale figures; directly queried values were used."
+    },
+    {
+      "type": "repo_source",
+      "path": "brands/spykar/logs/audits/raw/2026-08-04-july-monthly-seo-report/source-data.json",
+      "used": {
+        "keyword_universe": 44,
+        "prioritised_keywords": 28,
+        "keyword_clusters": 9,
+        "seo_blog_drafts": 2
+      }
+    },
+    {
+      "type": "repo_source",
+      "path": "brands/spykar/logs/audits/raw/2026-09-03-august-monthly-seo-report/source-data.json",
+      "used": {
+        "blog_packages": 9,
+        "technical_audit_status": "partial"
+      }
+    },
+    {
+      "type": "google_doc",
+      "title": "Spykar Technical SEO Audit — 18 Aug 2026",
+      "id": "1W80L1ZzkPR3Z6KCp8rSYTb97HYPsYuQ9ManmV5TCxuA",
+      "used": {
+        "gsc_clicks_change_vs_prior_six_months_percent": -50.5,
+        "ga4_organic_sessions_change_vs_prior_six_months_percent": -49.1
+      }
+    },
+    {
+      "type": "repo_source",
+      "path": "brands/spykar/logs/analytics/raw/20260928T1340Z-ga4-organic-mom-320857986.json",
+      "used": {
+        "homepage_sessions_sep": 4860,
+        "homepage_sessions_aug": 6102,
+        "men_jeans_sessions_sep": 2534,
+        "men_jeans_sessions_aug": 3184
+      }
+    }
+  ],
+  "output": {
+    "google_doc_id": "1TFJCi2dDUlu0IKV_fUB6HKA0vBZJFneCEHiLrueNHWk",
+    "url": "https://docs.google.com/document/d/1TFJCi2dDUlu0IKV_fUB6HKA0vBZJFneCEHiLrueNHWk/edit",
+    "verification": {
+      "native_google_doc": true,
+      "paragraphs": 33,
+      "date_chips": 2,
+      "rich_links": 4,
+      "headings": 7
+    }
+  },
+  "limitations": [
+    "Historical deck delivery statuses are reported, not independently implementation verified.",
+    "September data through 2026-09-27; no full September claim.",
+    "Technical audit is partial; no new render or CWV validation performed."
+  ]
+}

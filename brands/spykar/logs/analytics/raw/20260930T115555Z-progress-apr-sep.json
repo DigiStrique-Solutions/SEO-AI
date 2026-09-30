@@ -1,0 +1,150 @@
+{
+  "run_id": "spykar-progress-20260930",
+  "queried_at_utc": "2026-09-30T11:55:55Z",
+  "provider": "composio/google_analytics + composio/google_search_console",
+  "ga4": {
+    "property": "properties/320857986",
+    "timezone": "Asia/Calcutta",
+    "dimension_filter": {
+      "fieldName": "sessionDefaultChannelGroup",
+      "matchType": "EXACT",
+      "value": "Organic Search"
+    },
+    "metrics": [
+      "sessions",
+      "totalUsers",
+      "newUsers",
+      "ecommercePurchases",
+      "purchaseRevenue"
+    ],
+    "monthly": [
+      {
+        "month": "2026-04",
+        "sessions": 22698,
+        "totalUsers": 18056,
+        "newUsers": 14766,
+        "ecommercePurchases": 298,
+        "purchaseRevenue": 690060.559283
+      },
+      {
+        "month": "2026-05",
+        "sessions": 20676,
+        "totalUsers": 16978,
+        "newUsers": 14240,
+        "ecommercePurchases": 252,
+        "purchaseRevenue": 628363.890852
+      },
+      {
+        "month": "2026-06",
+        "sessions": 22901,
+        "totalUsers": 18995,
+        "newUsers": 16021,
+        "ecommercePurchases": 276,
+        "purchaseRevenue": 814041.699809
+      },
+      {
+        "month": "2026-07",
+        "sessions": 28029,
+        "totalUsers": 24305,
+        "newUsers": 20773,
+        "ecommercePurchases": 412,
+        "purchaseRevenue": 921249.798578
+      },
+      {
+        "month": "2026-08",
+        "sessions": 33744,
+        "totalUsers": 28176,
+        "newUsers": 24012,
+        "ecommercePurchases": 432,
+        "purchaseRevenue": 910961.880651
+      }
+    ],
+    "partial_periods": [
+      {
+        "startDate": "2026-08-01",
+        "endDate": "2026-08-27",
+        "sessions": 29596,
+        "totalUsers": 24769,
+        "newUsers": 21192,
+        "ecommercePurchases": 418,
+        "purchaseRevenue": 882817.560716
+      },
+      {
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-27",
+        "sessions": 24221,
+        "totalUsers": 20731,
+        "newUsers": 17285,
+        "ecommercePurchases": 147,
+        "purchaseRevenue": 363464.169666
+      }
+    ]
+  },
+  "gsc": {
+    "site_url": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "aggregation_type": "byProperty",
+    "dimensions": [],
+    "monthly": [
+      {
+        "month": "2026-04",
+        "clicks": 20498,
+        "impressions": 1334771,
+        "ctr": 0.015356941377959215,
+        "position": 10.511746209649445
+      },
+      {
+        "month": "2026-05",
+        "clicks": 16373,
+        "impressions": 1225700,
+        "ctr": 0.013358081096516277,
+        "position": 9.737589132740474
+      },
+      {
+        "month": "2026-06",
+        "clicks": 18729,
+        "impressions": 1733889,
+        "ctr": 0.010801729522478083,
+        "position": 8.391734418985298
+      },
+      {
+        "month": "2026-07",
+        "clicks": 22376,
+        "impressions": 2385606,
+        "ctr": 0.009379587408817718,
+        "position": 8.679884691772237
+      },
+      {
+        "month": "2026-08",
+        "clicks": 27206,
+        "impressions": 2885961,
+        "ctr": 0.009427015818994088,
+        "position": 9.20081629654732
+      }
+    ],
+    "partial_periods": [
+      {
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-27",
+        "clicks": 23816,
+        "impressions": 2568146,
+        "ctr": 0.00927361606388422,
+        "position": 9.171642889461891
+      },
+      {
+        "start_date": "2026-09-01",
+        "end_date": "2026-09-27",
+        "clicks": 19697,
+        "impressions": 1996479,
+        "ctr": 0.009865868862131782,
+        "position": 9.376850946090592
+      }
+    ]
+  },
+  "notes": [
+    "Monthly GA4 users in the April and May legacy decks differ from current totalUsers query; the report uses directly queried sessions, purchases, revenue and GSC totals.",
+    "September compared only on equal 27-day windows.",
+    "Previous GA4 report flagged dataLossFromOtherRow and unusually high engagement rate; attribution requires validation."
+  ]
+}
