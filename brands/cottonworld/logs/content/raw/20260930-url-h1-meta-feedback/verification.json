@@ -1,0 +1,33 @@
+{
+  "rows": 392,
+  "plannedRows": 58,
+  "writeRequests": 77,
+  "unexpectedCellDifferences": 0,
+  "urlH1Mismatches": [],
+  "h1TitleMismatches": [],
+  "duplicateURLGroups": [],
+  "duplicateH1Groups": [],
+  "duplicateTitleGroups": [],
+  "duplicateDescriptionGroups": [],
+  "productCodeOrBuyInTitles": [],
+  "productCodeOrBuyInDescriptions": [],
+  "descriptionsOver160": [],
+  "merchantProductsMatched": 370,
+  "merchantAttributeConflicts": [169, 370],
+  "proposedHandlesPresentInCatalog": 26,
+  "proposedHandlesTotal": 392,
+  "sampleLiveHttpStatuses": {
+    "200": [8, 370],
+    "404": [2, 28, 72, 169, 381]
+  },
+  "conflictStatuses": [
+    {
+      "row": 169,
+      "status": "Merchant title/body say cotton; tag says organic cotton—confirm fabric before publishing"
+    },
+    {
+      "row": 370,
+      "status": "Merchant body says brown; title/tags say olive—confirm colour before publishing"
+    }
+  ]
+}

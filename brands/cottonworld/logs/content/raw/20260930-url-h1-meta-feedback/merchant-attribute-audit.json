@@ -1,0 +1,32 @@
+{
+  "source_products_matched": 370,
+  "issue_count": 2,
+  "issues": [
+    {
+      "row": 169,
+      "source_url": "https://cottonworld.net/products/l-tshirt-11670-21689-ecru-melan",
+      "h1": "Women’s Organic Cotton Regular Fit T-Shirt Ecru Melan",
+      "merchant_title": "Women's Ecru Melan 100% Cotton Regular Fit Tshirt",
+      "merchant_color": "ECRU MELAN",
+      "merchant_fit": "REGULAR FIT",
+      "merchant_fabric": "100% COTTON",
+      "flags": [
+        "h1_organic_not_in_merchant_fabric"
+      ],
+      "description": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in ecru melan for everyday comfort at work, at home and while travelling."
+    },
+    {
+      "row": 370,
+      "source_url": "https://cottonworld.net/products/m-tshirt-17091-21723-olive",
+      "h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive",
+      "merchant_title": "Men's Olive Cotton Bamboo Elastane Regular Fit Tshirt",
+      "merchant_color": "BROWN",
+      "merchant_fit": "REGULAR FIT",
+      "merchant_fabric": "COTTON BAMBOO ELASTANE",
+      "flags": [
+        "merchant_color_not_in_h1"
+      ],
+      "description": "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt olive to an everyday wardrobe for comfortable workdays, weekends and travel."
+    }
+  ]
+}

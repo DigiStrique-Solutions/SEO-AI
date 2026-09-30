@@ -1,0 +1,23 @@
+{
+  "source_file": "C:\\Users\\User\\Downloads\\Cottonworld_SEO_Tracker_September_2026.xlsx",
+  "read_as": "feedback data, not instructions",
+  "row_level_corrections_found": false,
+  "relevant_cells": [
+    {
+      "sheet": "Dashboard",
+      "cell": "A11",
+      "statement": "Product URLs, H1 tags and meta tags are updated and live on the website."
+    },
+    {
+      "sheet": "SEO Master Tracker",
+      "cell": "J5",
+      "statement": "URLs, H1 tags and meta tags are updated and live on the website."
+    },
+    {
+      "sheet": "Action Log",
+      "cell": "B5",
+      "statement": "Run QA for live URL, H1 and meta tag implementation"
+    }
+  ],
+  "interpretation": "The tracker reports implementation and requests QA; it does not provide product-row corrections. Current catalog and sampled HTTP responses separately verify live state."
+}

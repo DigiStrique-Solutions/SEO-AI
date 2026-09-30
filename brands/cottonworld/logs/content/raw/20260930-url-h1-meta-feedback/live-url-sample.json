@@ -1,0 +1,44 @@
+[
+  {
+    "row": 2,
+    "proposed_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-pink",
+    "http_status": 404,
+    "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-pink"
+  },
+  {
+    "row": 8,
+    "proposed_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-maroon",
+    "http_status": 200,
+    "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-maroon"
+  },
+  {
+    "row": 28,
+    "proposed_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-contrast-pinstripe-beige",
+    "http_status": 404,
+    "final_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-contrast-pinstripe-beige"
+  },
+  {
+    "row": 72,
+    "proposed_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-striped-green",
+    "http_status": 404,
+    "final_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-striped-green"
+  },
+  {
+    "row": 169,
+    "proposed_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-ecru-melan",
+    "http_status": 404,
+    "final_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-ecru-melan"
+  },
+  {
+    "row": 370,
+    "proposed_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+    "http_status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive"
+  },
+  {
+    "row": 381,
+    "proposed_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-light-blue",
+    "http_status": 404,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-light-blue"
+  }
+]

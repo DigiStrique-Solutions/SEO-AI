@@ -1,0 +1,1168 @@
+{
+  "source": "Boltworks sheet; September 2026 Cottonworld SEO tracker; Cottonworld public product catalog",
+  "sheetId": 1979343695,
+  "spreadsheetId": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "changes": [
+    {
+      "row": 21,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-lilac",
+        "h1": "Women’s Linen Regular Fit  Blouse Band Collar With V-Neck Lilac",
+        "metaTitle": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck Lilac | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen regular fit blouse lilac with band collar with v-neck for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-lilac",
+        "h1": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck Lilac",
+        "metaTitle": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck Lilac | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen regular fit blouse lilac with band collar with v-neck for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Normalize spacing between H1 and meta title"
+      ]
+    },
+    {
+      "row": 22,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-white",
+        "h1": "Women’s Linen Regular Fit  Blouse Band Collar With V-Neck White",
+        "metaTitle": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s linen regular fit blouse white with band collar with v-neck into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-band-collar-with-v-neck-white",
+        "h1": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck White",
+        "metaTitle": "Women’s Linen Regular Fit Blouse Band Collar With V-Neck White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s linen regular fit blouse white with band collar with v-neck into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Normalize spacing between H1 and meta title"
+      ]
+    },
+    {
+      "row": 28,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-beige",
+        "h1": "Women’s Linen Boxy Fit Blouse Round Neck Beige",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Round Neck Beige | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s linen boxy fit blouse beige into an everyday wardrobe for work, travel and unhurried weekends.",
+        "status": "Needs verified distinguishing product detail before URL change"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-contrast-pinstripe-beige",
+        "h1": "Women’s Linen Boxy Fit Blouse Contrast Pinstripe Beige",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Contrast Pinstripe Beige | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen boxy fit blouse in beige with contrast pinstripes for easy workdays, travel and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 68,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-johnny-collar-red",
+        "h1": "Women’s Modal Viscose Blouse Johnny Collar Red",
+        "metaTitle": "Women’s Modal Viscose Blouse Johnny Collar Red | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s modal viscose regular fit blouse red with johnny collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-modal-viscose-regular-fit-blouse-johnny-collar-red",
+        "h1": "Women’s Modal Viscose Regular Fit Blouse Johnny Collar Red",
+        "metaTitle": "Women’s Modal Viscose Regular Fit Blouse Johnny Collar Red | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s modal viscose regular fit blouse red with johnny collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 72,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-green",
+        "h1": "Women’s Linen Boxy Fit Blouse Weekend Green",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Weekend Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen boxy fit blouse green for everyday wear, from work to relaxed weekends.",
+        "status": "Source product unavailable; confirm active product and attributes"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-striped-green",
+        "h1": "Women’s Linen Boxy Fit Blouse Striped Green",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Striped Green | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s linen boxy fit blouse in green with a striped finish. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 76,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+        "h1": "Women’s Linen Boxy Fit Blouse Workday Off White",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Workday Off White | Cottonworld",
+        "metaDescription": "Add Cottonworld’s women’s linen boxy fit blouse off white to an everyday wardrobe for comfortable workdays, weekends and travel.",
+        "status": "Source product unavailable; confirm active product and attributes"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-grid-stripe-off-white",
+        "h1": "Women’s Linen Boxy Fit Blouse Grid Stripe Off White",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Grid Stripe Off White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen boxy fit blouse in off white with grid stripes for easy workdays, travel and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 77,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-off-white",
+        "h1": "Women’s Linen Boxy Fit Blouse Weekend Off White",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Weekend Off White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen boxy fit blouse off white for everyday wear, from work to relaxed weekends.",
+        "status": "Source product unavailable; confirm active product and attributes"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-vertical-stripe-off-white",
+        "h1": "Women’s Linen Boxy Fit Blouse Vertical Stripe Off White",
+        "metaTitle": "Women’s Linen Boxy Fit Blouse Vertical Stripe Off White | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s linen boxy fit blouse in off white with vertical stripes through workdays, weekends and travel.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 84,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-beige",
+        "h1": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Beige",
+        "metaTitle": "Women’s Cotton Lycra  Regular Fit Culotte Elastic Waist Beige | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s cotton lycra regular fit culotte beige with elastic waist into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-beige",
+        "h1": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Beige",
+        "metaTitle": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Beige | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s cotton lycra regular fit culotte beige with elastic waist into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Normalize spacing between H1 and meta title"
+      ]
+    },
+    {
+      "row": 85,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-black",
+        "h1": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Black",
+        "metaTitle": "Women’s Cotton Lycra  Regular Fit Culotte Elastic Waist Black | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s cotton lycra regular fit culotte black with elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-elastic-waist-black",
+        "h1": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Black",
+        "metaTitle": "Women’s Cotton Lycra Regular Fit Culotte Elastic Waist Black | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s cotton lycra regular fit culotte black with elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Normalize spacing between H1 and meta title"
+      ]
+    },
+    {
+      "row": 120,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-brown",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Brown",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Brown | Cottonworld",
+        "metaDescription": "Shop the women’s cotton bamboo elastane regular fit knit pant brown from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-brown",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Brown",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Brown | Cottonworld",
+        "metaDescription": "Shop Cottonworld’s women’s cotton bamboo elastane regular fit knit pant in brown for everyday wear, travel and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Shorten meta description to 160 characters"
+      ]
+    },
+    {
+      "row": 131,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-full-length-yellow",
+        "h1": "Women’s Linen Viscose Pant Full Length Yellow",
+        "metaTitle": "Women’s Linen Viscose Pant Full Length Yellow | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen viscose regular fit pant yellow with full length for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-full-length-yellow",
+        "h1": "Women’s Linen Viscose Regular Fit Pant Full Length Yellow",
+        "metaTitle": "Women’s Linen Viscose Regular Fit Pant Full Length Yellow | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s linen viscose regular fit pant yellow with full length for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 133,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-sage",
+        "h1": "Women’s Linen Viscose Pant Drawstring Elastic Waist Sage",
+        "metaTitle": "Women’s Linen Viscose Pant Drawstring Elastic Waist Sage | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s linen viscose regular fit pant sage with drawstring elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-sage",
+        "h1": "Women’s Linen Viscose Regular Fit Pant Drawstring Elastic Waist Sage",
+        "metaTitle": "Women’s Linen Viscose Regular Fit Pant Drawstring Elastic Waist Sage | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s linen viscose regular fit pant sage with drawstring elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 134,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-ankle-length-yellow",
+        "h1": "Women’s Linen Viscose Pant Ankle Length Yellow",
+        "metaTitle": "Women’s Linen Viscose Pant Ankle Length Yellow | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s linen viscose regular fit pant yellow with ankle length. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-ankle-length-yellow",
+        "h1": "Women’s Linen Viscose Regular Fit Pant Ankle Length Yellow",
+        "metaTitle": "Women’s Linen Viscose Regular Fit Pant Ankle Length Yellow | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s linen viscose regular fit pant yellow with ankle length. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 136,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-elastic-waist-sage",
+        "h1": "Women’s Linen Viscose Pant Elastic Waist Sage",
+        "metaTitle": "Women’s Linen Viscose Pant Elastic Waist Sage | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s linen viscose regular fit pant sage with elastic waist into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-elastic-waist-sage",
+        "h1": "Women’s Linen Viscose Regular Fit Pant Elastic Waist Sage",
+        "metaTitle": "Women’s Linen Viscose Regular Fit Pant Elastic Waist Sage | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s linen viscose regular fit pant sage with elastic waist into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 142,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-side-pockets-beige",
+        "h1": "Women’s Cotton Lycra Pant Side pockets Beige",
+        "metaTitle": "Women’s Cotton Lycra Pant Side pockets Beige | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton lycra regular fit pant beige with side pockets. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-pant-side-pockets-beige",
+        "h1": "Women’s Cotton Lycra Regular Fit Pant Side pockets Beige",
+        "metaTitle": "Women’s Cotton Lycra Regular Fit Pant Side pockets Beige | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton lycra regular fit pant beige with side pockets. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 169,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-ecru-melan",
+        "h1": "Women’s Organic Cotton T-Shirt Ecru Melan",
+        "metaTitle": "Women’s Organic Cotton T-Shirt Ecru Melan | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in ecru melan for everyday comfort at work, at home and while travelling.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-ecru-melan",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Ecru Melan",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Ecru Melan | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in ecru melan for everyday comfort at work, at home and while travelling.",
+        "status": "Merchant title/body say cotton; tag says organic cotton—confirm fabric before publishing"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it",
+        "Merchant material sources conflict"
+      ]
+    },
+    {
+      "row": 174,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Natural",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt natural for comfortable workdays, travel and relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-floral-graphic-natural",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Floral Graphic Natural",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Floral Graphic Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in natural with a floral graphic. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 182,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt white Short Sleeve for everyday wear, from work to relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-short-sleeve-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Short Sleeve White | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s organic cotton regular fit t-shirt in white with short sleeves through workdays, weekends and travel.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 188,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-natural",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Weekend Natural",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Weekend Natural | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt natural for everyday wear, from work to relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-plain-natural",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Plain Natural",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Plain Natural | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s organic cotton regular fit t-shirt in natural with a plain finish through workdays, weekends and travel.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 191,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-olive",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Dark Olive",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Dark Olive | Cottonworld",
+        "metaDescription": "Shop the women’s organic cotton regular fit t-shirt dk olive from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-dark-olive",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Dark Olive",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Dark Olive | Cottonworld",
+        "metaDescription": "Shop the women’s organic cotton regular fit t-shirt dark olive from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Use the same colour wording as URL, H1 and meta title"
+      ]
+    },
+    {
+      "row": 192,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Black | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt black round neck for comfortable workdays, travel and relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-multicolour-graphic-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Multicolour Graphic Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Multicolour Graphic Black | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in black with a multicolour graphic. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 193,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Travel White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Travel White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt white for easy workdays, travel and relaxed weekends, with comfort kept close.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-abstract-graphic-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Abstract Graphic White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Abstract Graphic White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt in white with an abstract graphic for easy workdays, travel and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 195,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Travel Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Travel Black | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt black for everyday wear, from work to relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white-floral-graphic-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt White Floral Graphic Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt White Floral Graphic Black | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in black with a white floral graphic. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 202,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-green",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Travel Green",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Travel Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt green for everyday wear, from work to relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-broad-stripe-green",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Broad Stripe Green",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Broad Stripe Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt in green with broad stripes for easy workdays, travel and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 205,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-brown",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt brown for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-brown",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Brown | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt in brown for work, weekends and travel.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Shorten meta description to 160 characters"
+      ]
+    },
+    {
+      "row": 207,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender | Cottonworld",
+        "metaDescription": "Shop the women’s cotton bamboo elastane regular fit t-shirt lavender from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Lavender | Cottonworld",
+        "metaDescription": "Shop Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt in lavender for everyday wear and relaxed weekends.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Shorten meta description to 160 characters"
+      ]
+    },
+    {
+      "row": 208,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt rust for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-rust",
+        "h1": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust",
+        "metaTitle": "Women’s Cotton Bamboo Elastane Regular Fit T-Shirt Rust | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s cotton bamboo elastane regular fit t-shirt in rust for work, weekends and travel.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Shorten meta description to 160 characters"
+      ]
+    },
+    {
+      "row": 209,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Versatile Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Versatile Black | Cottonworld",
+        "metaDescription": "Shop the women’s organic cotton regular fit t-shirt black from Cottonworld. A straightforward choice for everyday dressing, travel and relaxed weekends.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-cartoon-graphic-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Cartoon Graphic Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Cartoon Graphic Black | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s organic cotton regular fit t-shirt in black with a cartoon graphic through workdays, weekends and travel.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 210,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Relaxed White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Relaxed White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s women’s organic cotton regular fit t-shirt white into your wardrobe for work, travel and unhurried days.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-landscape-graphic-white",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Landscape Graphic White",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Landscape Graphic White | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in white with a landscape graphic. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 213,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Comfort Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Comfort Black | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s women’s organic cotton regular fit t-shirt black through workdays, weekends and travel, with everyday comfort at the centre.",
+        "status": "Title feedback addressed; needs verified detail for unique URL"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-striped-half-sleeve-black",
+        "h1": "Women’s Organic Cotton Regular Fit T-Shirt Striped Half Sleeve Black",
+        "metaTitle": "Women’s Organic Cotton Regular Fit T-Shirt Striped Half Sleeve Black | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s women’s organic cotton regular fit t-shirt in black with stripes and half sleeves. A practical choice for work, travel and weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 239,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-side-and-back-pockets-white",
+        "h1": "Men’s Cotton Linen Pant Side and Back Pockets White",
+        "metaTitle": "Men’s Cotton Linen Pant Side and Back Pockets White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit pant white with side and back pockets for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-side-and-back-pockets-white",
+        "h1": "Men’s Cotton Linen Regular Fit Pant Side and Back Pockets White",
+        "metaTitle": "Men’s Cotton Linen Regular Fit Pant Side and Back Pockets White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit pant white with side and back pockets for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 246,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-natural",
+        "h1": "Men’s Linen Pant Side and Back Pockets Natural",
+        "metaTitle": "Men’s Linen Pant Side and Back Pockets Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s linen regular fit pant natural with side and back pockets. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-natural",
+        "h1": "Men’s Linen Regular Fit Pant Side and Back Pockets Natural",
+        "metaTitle": "Men’s Linen Regular Fit Pant Side and Back Pockets Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s linen regular fit pant natural with side and back pockets. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 247,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-olive",
+        "h1": "Men’s Linen Pant Side and Back Pockets Olive",
+        "metaTitle": "Men’s Linen Pant Side and Back Pockets Olive | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s linen regular fit pant olive with side and back pockets for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-pant-side-and-back-pockets-olive",
+        "h1": "Men’s Linen Regular Fit Pant Side and Back Pockets Olive",
+        "metaTitle": "Men’s Linen Regular Fit Pant Side and Back Pockets Olive | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s linen regular fit pant olive with side and back pockets for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 259,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-green",
+        "h1": "Men’s Cotton Shirt Regular Collar Full Sleeve Green",
+        "metaTitle": "Men’s Cotton Shirt Regular Collar Full Sleeve Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt green with regular collar full sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-green",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Collar Full Sleeve Green",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Collar Full Sleeve Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt green with regular collar full sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 260,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-off-white",
+        "h1": "Men’s Cotton Shirt Regular Length Off White",
+        "metaTitle": "Men’s Cotton Shirt Regular Length Off White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s cotton regular fit shirt off white with regular length into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-off-white",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Length Off White",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Length Off White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s cotton regular fit shirt off white with regular length into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 262,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-navy",
+        "h1": "Men’s Cotton Shirt Regular Collar Full Sleeve Navy",
+        "metaTitle": "Men’s Cotton Shirt Regular Collar Full Sleeve Navy | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt navy with regular collar full sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-full-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Collar Full Sleeve Navy",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Collar Full Sleeve Navy | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt navy with regular collar full sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 272,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-white",
+        "h1": "Men’s Linen Cotton Shirt Regular Collar White",
+        "metaTitle": "Men’s Linen Cotton Shirt Regular Collar White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s linen cotton regular fit shirt white with regular collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-white",
+        "h1": "Men’s Linen Cotton Regular Fit Shirt Regular Collar White",
+        "metaTitle": "Men’s Linen Cotton Regular Fit Shirt Regular Collar White | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s linen cotton regular fit shirt white with regular collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 280,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-navy",
+        "h1": "Men’s Linen Cotton Shirt Regular Collar Navy",
+        "metaTitle": "Men’s Linen Cotton Shirt Regular Collar Navy | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s linen cotton regular fit shirt navy with regular collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-navy",
+        "h1": "Men’s Linen Cotton Regular Fit Shirt Regular Collar Navy",
+        "metaTitle": "Men’s Linen Cotton Regular Fit Shirt Regular Collar Navy | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s linen cotton regular fit shirt navy with regular collar into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 288,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-full-sleeve-lilac",
+        "h1": "Men’s Oxford Cotton Shirt Full Sleeve Lilac",
+        "metaTitle": "Men’s Oxford Cotton Shirt Full Sleeve Lilac | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s oxford cotton regular fit shirt lilac with full sleeve into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-full-sleeve-lilac",
+        "h1": "Men’s Oxford Cotton Regular Fit Shirt Full Sleeve Lilac",
+        "metaTitle": "Men’s Oxford Cotton Regular Fit Shirt Full Sleeve Lilac | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s oxford cotton regular fit shirt lilac with full sleeve into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 291,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-green",
+        "h1": "Men’s Cotton Shirt Regular Collar Half Sleeve Green",
+        "metaTitle": "Men’s Cotton Shirt Regular Collar Half Sleeve Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt green with regular collar half sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-green",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Collar Half Sleeve Green",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Collar Half Sleeve Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt green with regular collar half sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 292,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-navy",
+        "h1": "Men’s Cotton Shirt Regular Collar Half Sleeve Navy",
+        "metaTitle": "Men’s Cotton Shirt Regular Collar Half Sleeve Navy | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s cotton regular fit shirt navy with regular collar half sleeve into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-collar-half-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Collar Half Sleeve Navy",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Collar Half Sleeve Navy | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s cotton regular fit shirt navy with regular collar half sleeve into an everyday wardrobe for work and time off.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 302,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-green",
+        "h1": "Men’s Cotton Shirt Regular Length Half Sleeve Green",
+        "metaTitle": "Men’s Cotton Shirt Regular Length Half Sleeve Green | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt green with regular length half sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-green",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Length Half Sleeve Green",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Length Half Sleeve Green | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt green with regular length half sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 303,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-navy",
+        "h1": "Men’s Cotton Shirt Regular Length Half Sleeve Navy",
+        "metaTitle": "Men’s Cotton Shirt Regular Length Half Sleeve Navy | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt navy with regular length half sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-half-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Length Half Sleeve Navy",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Length Half Sleeve Navy | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton regular fit shirt navy with regular length half sleeve for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 310,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-regular-collar-green",
+        "h1": "Men’s Tencel Linen Shirt Regular Collar Green",
+        "metaTitle": "Men’s Tencel Linen Shirt Regular Collar Green | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s tencel linen regular fit shirt green with regular collar. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-regular-collar-green",
+        "h1": "Men’s Tencel Linen Regular Fit Shirt Regular Collar Green",
+        "metaTitle": "Men’s Tencel Linen Regular Fit Shirt Regular Collar Green | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s tencel linen regular fit shirt green with regular collar. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 318,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-full-sleeve-navy",
+        "h1": "Men’s Cotton Shirt Regular Length Full Sleeve Navy",
+        "metaTitle": "Men’s Cotton Shirt Regular Length Full Sleeve Navy | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt navy with regular length full sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-regular-length-full-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Regular Length Full Sleeve Navy",
+        "metaTitle": "Men’s Cotton Regular Fit Shirt Regular Length Full Sleeve Navy | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton regular fit shirt navy with regular length full sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 323,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-dark-green",
+        "h1": "Men’s Linen Regular Fit Shirt Dark Green",
+        "metaTitle": "Men’s Linen Regular Fit Shirt Dark Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s linen regular fit shirt dk green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+        "status": ""
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-dark-green",
+        "h1": "Men’s Linen Regular Fit Shirt Dark Green",
+        "metaTitle": "Men’s Linen Regular Fit Shirt Dark Green | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s linen regular fit shirt dark green for easy workdays, travel and relaxed weekends, with comfort kept close.",
+        "status": ""
+      },
+      "reasons": [
+        "Use the same colour wording as URL, H1 and meta title"
+      ]
+    },
+    {
+      "row": 330,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-half-sleeve-lilac",
+        "h1": "Men’s Oxford Cotton Shirt Half Sleeve Lilac",
+        "metaTitle": "Men’s Oxford Cotton Shirt Half Sleeve Lilac | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s oxford cotton regular fit shirt lilac with half sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-oxford-cotton-regular-fit-shirt-half-sleeve-lilac",
+        "h1": "Men’s Oxford Cotton Regular Fit Shirt Half Sleeve Lilac",
+        "metaTitle": "Men’s Oxford Cotton Regular Fit Shirt Half Sleeve Lilac | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s oxford cotton regular fit shirt lilac with half sleeve. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 333,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-natural",
+        "h1": "Men’s Cotton Linen Short Drawstring Elastic Waist Natural",
+        "metaTitle": "Men’s Cotton Linen Short Drawstring Elastic Waist Natural | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s men’s cotton linen regular fit short natural with drawstring elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-natural",
+        "h1": "Men’s Cotton Linen Regular Fit Short Drawstring Elastic Waist Natural",
+        "metaTitle": "Men’s Cotton Linen Regular Fit Short Drawstring Elastic Waist Natural | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s men’s cotton linen regular fit short natural with drawstring elastic waist through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 335,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-white",
+        "h1": "Men’s Cotton Linen Short Drawstring Elastic Waist White",
+        "metaTitle": "Men’s Cotton Linen Short Drawstring Elastic Waist White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit short white with drawstring elastic waist for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-drawstring-elastic-waist-white",
+        "h1": "Men’s Cotton Linen Regular Fit Short Drawstring Elastic Waist White",
+        "metaTitle": "Men’s Cotton Linen Regular Fit Short Drawstring Elastic Waist White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit short white with drawstring elastic waist for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 338,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-natural",
+        "h1": "Men’s Cotton Linen Short Button and Zip Natural",
+        "metaTitle": "Men’s Cotton Linen Short Button and Zip Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton linen regular fit short natural with button and zip. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-natural",
+        "h1": "Men’s Cotton Linen Regular Fit Short Button and Zip Natural",
+        "metaTitle": "Men’s Cotton Linen Regular Fit Short Button and Zip Natural | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton linen regular fit short natural with button and zip. A practical choice for everyday wear, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 339,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-white",
+        "h1": "Men’s Cotton Linen Short Button and Zip White",
+        "metaTitle": "Men’s Cotton Linen Short Button and Zip White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit short white with button and zip for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-button-and-zip-white",
+        "h1": "Men’s Cotton Linen Regular Fit Short Button and Zip White",
+        "metaTitle": "Men’s Cotton Linen Regular Fit Short Button and Zip White | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s cotton linen regular fit short white with button and zip for easy workdays, travel and relaxed weekends.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    },
+    {
+      "row": 352,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Round Neck Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Round Neck Blue | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s organic cotton regular fit t-shirt blue for everyday wear, from work to relaxed weekends.",
+        "status": "Needs verified distinguishing product detail before URL change"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-cassette-graphic-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Cassette Graphic Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Cassette Graphic Blue | Cottonworld",
+        "metaDescription": "Choose Cottonworld’s men’s organic cotton regular fit t-shirt in blue with a cassette graphic for easy workdays, travel and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 353,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Half Sleeves Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Half Sleeves Blue | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s organic cotton regular fit t-shirt blue 1 for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+        "status": "Needs verified distinguishing product detail before URL change"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-astronaut-graphic-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Astronaut Graphic Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Astronaut Graphic Blue | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s men’s organic cotton regular fit t-shirt in blue with an astronaut graphic through workdays, weekends and travel.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 360,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-khaki",
+        "h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Khaki",
+        "metaTitle": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Khaki | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt khaki for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-khaki",
+        "h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Khaki",
+        "metaTitle": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Khaki | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt in khaki for work, weekends and travel.",
+        "status": "Title feedback addressed"
+      },
+      "reasons": [
+        "Shorten meta description to 160 characters"
+      ]
+    },
+    {
+      "row": 370,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+        "h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive",
+        "metaTitle": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive | Cottonworld",
+        "metaDescription": "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt olive to an everyday wardrobe for comfortable workdays, weekends and travel.",
+        "status": "Title feedback addressed"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+        "h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive",
+        "metaTitle": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Olive | Cottonworld",
+        "metaDescription": "Add Cottonworld’s men’s cotton bamboo elastane regular fit t-shirt olive to an everyday wardrobe for comfortable workdays, weekends and travel.",
+        "status": "Merchant body says brown; title/tags say olive—confirm colour before publishing"
+      },
+      "reasons": [
+        "Merchant colour sources conflict"
+      ]
+    },
+    {
+      "row": 381,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Travel Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Travel Blue | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s organic cotton regular fit t-shirt blue for everyday wear. A practical option for work, weekends, travel and unhurried days.",
+        "status": "Needs verified distinguishing product detail before URL change"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-light-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Light Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Light Blue | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s organic cotton regular fit t-shirt in light blue for everyday wear, work and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 382,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Workday Brown",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Workday Brown | Cottonworld",
+        "metaDescription": "Bring Cottonworld’s men’s organic cotton regular fit t-shirt brown into an everyday wardrobe for work, travel and unhurried weekends.",
+        "status": "Needs verified distinguishing product detail before URL change"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-chocolate-brown",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Chocolate Brown",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Chocolate Brown | Cottonworld",
+        "metaDescription": "Explore Cottonworld’s men’s organic cotton regular fit t-shirt in chocolate brown for everyday wear, work and relaxed weekends.",
+        "status": "Visual/product detail verified; publish proposed URL on site before use"
+      },
+      "reasons": [
+        "Differentiator verified against current product image or catalog"
+      ]
+    },
+    {
+      "row": 393,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-polo-collar-blue",
+        "h1": "Men’s Organic Cotton T-Shirt Polo Collar Blue",
+        "metaTitle": "Men’s Organic Cotton T-Shirt Polo Collar Blue | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s men’s organic cotton regular fit t-shirt blue with polo collar through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-polo-collar-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Polo Collar Blue",
+        "metaTitle": "Men’s Organic Cotton Regular Fit T-Shirt Polo Collar Blue | Cottonworld",
+        "metaDescription": "Wear Cottonworld’s men’s organic cotton regular fit t-shirt blue with polo collar through workdays, weekends and travel.",
+        "status": "Source-backed distinction drafted; publish URL on site before use"
+      },
+      "reasons": [
+        "Catalog confirms regular fit; URL already includes it"
+      ]
+    }
+  ]
+}
