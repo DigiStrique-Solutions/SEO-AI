@@ -1,0 +1,42 @@
+{
+  "run_id": "spykar-apr-aug-progress-20260930",
+  "created_at_utc": "2026-09-30T12:17:23Z",
+  "action": "create_google_doc_progress_summary",
+  "source_run_id": "spykar-progress-20260930",
+  "source_ref": "brands/spykar/logs/analytics/raw/20260930T115555Z-progress-apr-sep.json",
+  "output": {
+    "id": "14QP8JacmC11ne4ghwnR7-Mxhf_xJ3egzS2RdvSmvqBY",
+    "url": "https://docs.google.com/document/d/14QP8JacmC11ne4ghwnR7-Mxhf_xJ3egzS2RdvSmvqBY/edit",
+    "mime_type": "application/vnd.google-apps.document",
+    "parent_folder_id": "1eM1-qJOg1e2XZ-_VKsHWg3xlWmz3ERMH"
+  },
+  "verified": {
+    "paragraphs": 13,
+    "sections": [
+      "Growth at a glance",
+      "Progress summary",
+      "Source and definition"
+    ],
+    "organic_sessions": {
+      "april": 22698,
+      "august": 33744,
+      "growth_percent": 48.67
+    },
+    "organic_total_users": {
+      "april": 18056,
+      "august": 28176,
+      "growth_percent": 56.05
+    },
+    "gsc_impressions": {
+      "april": 1334771,
+      "august": 2885961,
+      "growth_percent": 116.21
+    },
+    "gsc_clicks": {
+      "april": 20498,
+      "august": 27206,
+      "growth_percent": 32.73
+    }
+  },
+  "note": "Original April monthly deck shows 15,731 under users; direct consistent GA4 totalUsers query gives 18,056. This difference is disclosed in the document."
+}
