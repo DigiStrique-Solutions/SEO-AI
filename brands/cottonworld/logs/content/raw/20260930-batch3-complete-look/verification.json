@@ -1,0 +1,599 @@
+{
+  "run_id": "20260930-batch3-complete-look",
+  "checked_at": "2026-09-30",
+  "source": "Google Docs get_document and batch_update_document; Cottonworld HTTP GET",
+  "folder_url": "https://drive.google.com/drive/folders/1-zEJJpYkaxbQzEK5MM4yox_agbeLFOWi",
+  "documents": [
+    {
+      "title": "Cottonworld Women's Dresses and Jumpsuits Collection Page — Phase 1",
+      "url": "https://docs.google.com/document/d/1DJQ6riCs-pq2eDVWWv5GSyrfNyzLS27lARGmM9urGOo/edit",
+      "paragraph_index": 79,
+      "old_text": "If you are comparing one-piece outfits with separates, browse women's T-shirts and women's pants for pieces you can combine. You can also explore women's linen styles to see linen and linen-blend garments across categories. Explore these collections to compare styles, sizes and fabrics.",
+      "new_text": "A dress or jumpsuit often needs just one extra layer. Wear a women's jacket over it when the day turns cooler, choosing a length that works with the outfit. For a sleeveless style, a button-front women's top can also be worn open as a light layer. Let the neckline and sleeve shape guide the pairing.",
+      "old_links": [
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.2784314,
+                "blue": 0.6313726
+              }
+            }
+          }
+        },
+        {
+          "text": "women's top",
+          "url": "https://cottonworld.net/collections/women-tops-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.2784314,
+                "blue": 0.6313726
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 6,
+      "revision_id": "ANLCKQmjB9T_5z7bRmBgSkrD7-269U4vSnzbgajKphdPMuWKORuMMMya6OjWtRUOSiD6N6S7G8_NHgAu2SJnjtOp2w9vrxsG_oiyTc53uNs"
+    },
+    {
+      "title": "Cottonworld Collection Page — Women’s Pants (Phase 1)",
+      "url": "https://docs.google.com/document/d/148Tl3_fpDh0wZMzKU4_SSzu8j0cB9Mm4kGQIDuhQBBE/edit",
+      "paragraph_index": 78,
+      "old_text": "For an easy upper layer, browse women’s tops or women’s T-shirts. Add a women’s jacket, explore women’s linen styles, or look through women’s dresses and jumpsuits for another part of your wardrobe.",
+      "new_text": "Pair your pants with a women's top for a workday or a women's T-shirt for relaxed plans. Add a women's jacket when you need another layer. Choose the top length and shape around the waistband and leg cut, so the outfit feels comfortable when you sit and move.",
+      "old_links": [
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's top",
+          "url": "https://cottonworld.net/collections/women-tops-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's T-shirt",
+          "url": "https://cottonworld.net/collections/women-tshirts",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 8,
+      "revision_id": "ANLCKQk3fnGrsfYTDElyPcMIWkZPC_ZltBAwRaExzXkF7tIXRVJJIewr736Fbisg1nvnKNb8n5gDu_LCYZYg6jQTJ7TanXNzUFANaUKWmiw"
+    },
+    {
+      "title": "Cottonworld Collection Page — Women’s Kurtas & Tunics (Phase 1)",
+      "url": "https://docs.google.com/document/d/1LOiCjVpl4ADizpC8Lkd4M-5Bklob6TxniBn_w2iIqS4/edit",
+      "paragraph_index": 71,
+      "old_text": "For another easy top layer, browse women’s tops or women’s T-shirts. Pair a kurta with women’s pants for a familiar combination, or explore women’s linen styles and women’s dresses and jumpsuits for other pieces to consider.",
+      "new_text": "Wear a kurta or tunic with women's pants for a simple everyday outfit. Women's leggings offer a closer shape beneath a longer or roomier top. Consider the kurta's hem and your preferred coverage when choosing between them, then finish with footwear that suits the day.",
+      "old_links": [
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "Women's leggings",
+          "url": "https://cottonworld.net/collections/women-leggings",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 5,
+      "revision_id": "ANLCKQnEgPLTaH6PR8SbZj8_2-BIUvGBNl0CWK-flO9zHFZ5Rswi6GDIcmhdUWl2hlP7E3UPHvAB8ff0iIm-aRMj-X6wHhYndWl0117y7HI"
+    },
+    {
+      "title": "Cottonworld Collection Page — Women’s Jackets (Phase 1)",
+      "url": "https://docs.google.com/document/d/1NtmQO_e_hlSBgvcRuaRTvIp9tCEIohV0GYxQqk8PXCE/edit",
+      "paragraph_index": 72,
+      "old_text": "For a simple base layer, browse women’s T-shirts or women’s tops. Pair a jacket with women’s pants, or explore women’s linen styles and women’s kurtas and tunics for other pieces to wear through the week.",
+      "new_text": "Layer a jacket over women's T-shirts for relaxed days or women's tops when you want a blouse underneath. Pair it with women's pants, or wear it over a dress or jumpsuit when the lengths work together. Leave enough room in the jacket to move comfortably over the base layer.",
+      "old_links": [
+        {
+          "text": "women’s T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women’s tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women’s pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women’s linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women’s kurtas and tunics",
+          "url": "https://cottonworld.net/collections/women-kurtas-tunics"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's tops",
+          "url": "https://cottonworld.net/collections/women-tops-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "dress or jumpsuit",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 7,
+      "revision_id": "ANLCKQkzKNUEhNjWgHsx9PNCxgJPJ8QVz121xardAhRHvLhN64SnNq74YSTfru1QrxORyNQ69rg62L-VwJ8Lpvl_WJLLC-s_PDBePkFTmZQ"
+    },
+    {
+      "title": "Cottonworld Collection Page — Women's Tops (Phase 1)",
+      "url": "https://docs.google.com/document/d/1EsjguUHjYq5kda5b_XREC1aGGDiwWkkGwFK3y_kAPI4/edit",
+      "paragraph_index": 40,
+      "old_text": "For a more relaxed option, browse women's T-shirts. To pair a blouse with an everyday bottom, explore women's pants. \u000b\u000bYou can also browse women's linen styles or women's dresses and jumpsuits for another part of your wardrobe.",
+      "new_text": "Pair a blouse with women's pants for work or women's skirts for a different everyday shape. On a warmer, relaxed day, try women's shorts. Add a women's jacket when you want another layer. Choose the bottom around the blouse's length and whether you like to tuck it in.",
+      "old_links": [
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's skirts",
+          "url": "https://cottonworld.net/collections/women-skirts-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's shorts",
+          "url": "https://cottonworld.net/collections/women-shorts-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 6,
+      "revision_id": "ANLCKQmYIODQkaBPQQfkVWlfDnX-qFOnKB15uEOh7liN4xbPjaFzvriUOkHfZwc7G_9asJhR1pvnKfHqtxhi4Rak_OYTdwl63cagb3aTYd8"
+    },
+    {
+      "title": "Cottonworld Collection Page — Women's T-Shirts (Phase 1)",
+      "url": "https://docs.google.com/document/d/1pNz7ju4t3n_6PSVkqZrYXCXrQ96n3Nrb9J1nsZtYIU4/edit",
+      "paragraph_index": 41,
+      "old_text": "Browse women's tops for blouse styles, or look through women's pants for an easy pairing. For another fabric direction across categories, explore women's linen styles. Choose the next piece around how you plan to wear the T-shirt, and keep the outfit useful for the day ahead.",
+      "new_text": "Wear a T-shirt with women's pants for a workday that allows casual dressing, or with women's skirts or women's shorts for relaxed plans. A women's jacket adds a layer when needed. Let the T-shirt's fit and length guide whether you tuck it in or wear it loose.",
+      "old_links": [
+        {
+          "text": "women's tops",
+          "url": "https://cottonworld.net/collections/women-tops-1"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's skirts",
+          "url": "https://cottonworld.net/collections/women-skirts-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's shorts",
+          "url": "https://cottonworld.net/collections/women-shorts-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        },
+        {
+          "text": "women's jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.05882353,
+                "green": 0.32941177,
+                "blue": 0.8
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 8,
+      "revision_id": "ANLCKQmjDQY7x027Mwanp8r3j15M0vw2KibKppUAQUkxbTX3eN4dXpTDUJmdgRySUk1TZwBC9C3BncWO5-ThBn5qbME5RJ69XZfBhYvLzTA"
+    },
+    {
+      "title": "Women's Shorts Collection Page",
+      "url": "https://docs.google.com/document/d/1andGSWPZWR2DS5No6O8LMGNtmqduUXmgdIm90kqibVg/edit",
+      "paragraph_index": 76,
+      "old_text": "For an easy pairing, browse women's T-shirts or compare women's pants for another everyday bottom. You can also explore women's linen styles or women's dresses and jumpsuits. Choose the next piece around the plans you have, and keep the outfit useful for the day ahead.",
+      "new_text": "Pair shorts with a women's T-shirt for an easy day out, or choose a women's top when you want a blouse. A plain top works well with printed shorts; a coloured top can lift a neutral pair. Consider the waist and hem of the shorts when choosing the length of the top.",
+      "old_links": [
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's T-shirt",
+          "url": "https://cottonworld.net/collections/women-tshirts",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.050980393,
+                "green": 0.32941177,
+                "blue": 0.6509804
+              }
+            }
+          }
+        },
+        {
+          "text": "women's top",
+          "url": "https://cottonworld.net/collections/women-tops-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.050980393,
+                "green": 0.32941177,
+                "blue": 0.6509804
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 7,
+      "revision_id": "ANLCKQmbsgcCLKkHUxgZCB2-B955OeZkvuh30DkBn04MoZASItAZqWAscdlDYAgia1eAKrCb2z0Uhw174DPpQlilKFU-VfVLJAokhKoYTPM"
+    },
+    {
+      "title": "Women's Skirts Collection Page",
+      "url": "https://docs.google.com/document/d/1dxidTAD5EtoHXCZbzJg78SXMf5pjSDXNZx6HYmspKcY/edit",
+      "paragraph_index": 72,
+      "old_text": "For an easy upper layer, explore women's T-shirts. You can also compare women's pants, browse women's linen styles, or look through women's dresses and jumpsuits. Choose around the day ahead and the clothes you already enjoy wearing.",
+      "new_text": "Pair a skirt with a women's T-shirt for a relaxed day or a women's top when you want a blouse. Add a women's jacket for another layer. With a printed skirt, choose a plain top in a colour you already wear; with a solid skirt, try a print if it suits your style.",
+      "old_links": [
+        {
+          "text": "women's T-shirts",
+          "url": "https://cottonworld.net/collections/women-tshirts"
+        },
+        {
+          "text": "women's pants",
+          "url": "https://cottonworld.net/collections/womens-pants"
+        },
+        {
+          "text": "women's linen styles",
+          "url": "https://cottonworld.net/collections/all-linen-womens"
+        },
+        {
+          "text": "women's dresses and jumpsuits",
+          "url": "https://cottonworld.net/collections/women-dresses-jumpsuits"
+        }
+      ],
+      "new_links": [
+        {
+          "text": "women's T-shirt",
+          "url": "https://cottonworld.net/collections/women-tshirts",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.050980393,
+                "green": 0.32941177,
+                "blue": 0.6509804
+              }
+            }
+          }
+        },
+        {
+          "text": "women's top",
+          "url": "https://cottonworld.net/collections/women-tops-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.050980393,
+                "green": 0.32941177,
+                "blue": 0.6509804
+              }
+            }
+          }
+        },
+        {
+          "text": "women's jacket",
+          "url": "https://cottonworld.net/collections/women-jackets-1",
+          "underline": true,
+          "color": {
+            "color": {
+              "rgbColor": {
+                "red": 0.050980393,
+                "green": 0.32941177,
+                "blue": 0.6509804
+              }
+            }
+          }
+        }
+      ],
+      "all_link_count": 5,
+      "revision_id": "ANLCKQnRk9s_PyKS6LNR8fK4PUF4jWwA8gLZ9i3O0s0QgPj0DcyEWPTmx3ZfFEMJIQj541V_GBX-mHyXGSfkoWFMtNA0dXceMm_8KM302j0"
+    }
+  ],
+  "link_status": {
+    "https://cottonworld.net/collections/women-jackets-1": 200,
+    "https://cottonworld.net/collections/women-tops-1": 200,
+    "https://cottonworld.net/collections/women-tshirts": 200,
+    "https://cottonworld.net/collections/womens-pants": 200,
+    "https://cottonworld.net/collections/women-leggings": 200,
+    "https://cottonworld.net/collections/women-dresses-jumpsuits": 200,
+    "https://cottonworld.net/collections/women-skirts-1": 200,
+    "https://cottonworld.net/collections/women-shorts-1": 200
+  },
+  "verification": {
+    "all_eight_revised": true,
+    "one_paragraph_changed_per_document": true,
+    "all_other_paragraph_text_links_and_paragraph_styles_unchanged": true,
+    "all_link_anchors_match_plan": true,
+    "all_new_links_underlined_and_colored": true,
+    "no_product_links_in_any_document": true
+  },
+  "note": "Previous user-proposed /collections/women-top now returns HTTP 404; current /collections/women-tops-1 returns 200. Likewise /collections/women-jackets returns 404 while /collections/women-jackets-1 returns 200."
+}
