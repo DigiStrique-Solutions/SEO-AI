@@ -1,0 +1,86 @@
+[
+  {
+    "batch": 2,
+    "row": 9,
+    "field": "leg",
+    "source": "STRAIGHT LEG",
+    "action": "Omitted cut claim: source title conflicts with structured leg field."
+  },
+  {
+    "batch": 2,
+    "row": 11,
+    "field": "leg",
+    "source": "STRAIGHT LEG",
+    "action": "Omitted cut claim: source title conflicts with structured leg field."
+  },
+  {
+    "batch": 2,
+    "row": 31,
+    "field": "neck",
+    "source": "BUTTON FRONT",
+    "action": "Omitted unrecognized/misplaced collar value."
+  },
+  {
+    "batch": 2,
+    "row": 32,
+    "field": "neck",
+    "source": "BUTTON FRONT",
+    "action": "Omitted unrecognized/misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 12,
+    "field": "neck",
+    "source": "FRONT TIES",
+    "action": "Omitted unrecognized/misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 32,
+    "field": "sleeve",
+    "source": "REGULAR COLLAR",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 33,
+    "field": "sleeve",
+    "source": "MANILLA COLLAR",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 34,
+    "field": "sleeve",
+    "source": "BAND COLLAR",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 35,
+    "field": "sleeve",
+    "source": "REGULAR COLLAR",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 36,
+    "field": "sleeve",
+    "source": "HOODED",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 37,
+    "field": "sleeve",
+    "source": "HOODED",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  },
+  {
+    "batch": 4,
+    "row": 38,
+    "field": "sleeve",
+    "source": "SHIRT COLLAR",
+    "action": "Used valid sleeve metafield; discarded misplaced collar value."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "run_id": "20260930-pdp-batches234-review",
+  "brand": "cottonworld",
+  "date": "2026-09-30",
+  "source_export": "C:\\Users\\User\\Downloads\\Cottonworld verify",
+  "source_sha256": "d4460840fa151b66a4addd298682b9f9c7b25010534b5f3943512fb77d524729",
+  "source_status_scope": "Snapshot used for product facts; active scope selected from current sheet sections, not a live stock audit.",
+  "workbook": "https://docs.google.com/spreadsheets/d/1g8ZO-R-7CPX_v6AdBA56mH72ky2Q3fi4rGyjI9-LXyM/edit",
+  "benchmark": "Batch 1",
+  "guidance": [
+    "brands/cottonworld/context.md",
+    "brands/cottonworld/knowledge.md"
+  ],
+  "feedback": [
+    "Batch 3!D2",
+    "Batch 3!D3",
+    "Batch 3!D5",
+    "Batch 3!D7"
+  ],
+  "status": "editorial corrections complete",
+  "detector": "Not run; no publication-readiness claim",
+  "raw_refs": [
+    "before-batch1.json",
+    "before-batch2.json",
+    "before-batch3.json",
+    "before-batch4.json",
+    "records.json",
+    "proposals.json",
+    "editorial-qa.json",
+    "source-issues.json",
+    "verification.json",
+    "api-responses.json",
+    "review-document.json"
+  ],
+  "review_document": "https://docs.google.com/document/d/1XgkjUV5sV_dYT4cJCSXJdzBGgEqzjLeZQg_ha-UscyE/edit"
+}

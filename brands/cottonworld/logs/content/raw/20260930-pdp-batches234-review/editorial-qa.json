@@ -1,0 +1,3004 @@
+{
+  "rows": 333,
+  "failed": [],
+  "exact_duplicate_bodies": [],
+  "checks": [
+    {
+      "batch": 2,
+      "row": 2,
+      "code": "l-kdress-17548-21456-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 3,
+      "code": "l-blouse-17125-21274-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 4,
+      "code": "m-pant-11743-21484-slate",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 5,
+      "code": "m-pant-11743-21484-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 6,
+      "code": "m-pant-11743-21484-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 7,
+      "code": "l-short-09776-21378-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 8,
+      "code": "l-short-09776-21378-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 9,
+      "code": "l-pant-8015-21378-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 10,
+      "code": "l-pant-17304-21377-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 11,
+      "code": "l-pant-17304-21377-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 12,
+      "code": "l-pant-17304-21377-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 13,
+      "code": "l-pant-16130-21377-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 14,
+      "code": "l-pant-16130-21377-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 15,
+      "code": "l-pant-16130-21377-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 16,
+      "code": "m-shirts-50020-21500-lilac",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 17,
+      "code": "m-shirts-50019-21397-sky",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 18,
+      "code": "m-shirts-50019-21397-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 19,
+      "code": "m-shirts-17404-21145-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 20,
+      "code": "m-shirts-17404-21145-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 21,
+      "code": "m-shirts-10521-21308-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 22,
+      "code": "m-shirts-10521-21308-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 23,
+      "code": "l-blouse-17507-21274-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 24,
+      "code": "m-short-17596-21402-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 25,
+      "code": "m-short-16367-21486-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 26,
+      "code": "m-short-16367-21486-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 27,
+      "code": "l-culotte-17065-21274-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 28,
+      "code": "m-tshirt-17470-21248-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 29,
+      "code": "m-tshirt-17470-21248-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 30,
+      "code": "m-tshirt-17470-21248-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 31,
+      "code": "m-tshirt-17437-21248-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 32,
+      "code": "m-tshirt-17437-21248-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 33,
+      "code": "m-tshirt-17223-21248-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 34,
+      "code": "m-shirts-16160-21296-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 35,
+      "code": "l-blouse-17107-21353-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 36,
+      "code": "m-pant-11743-21465-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 37,
+      "code": "m-pant-11743-21465-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 38,
+      "code": "m-pant-11743-21465-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 39,
+      "code": "m-tshirt-17439-21247-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 40,
+      "code": "m-tshirt-17439-21247-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 41,
+      "code": "m-tshirt-16906-21374-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 42,
+      "code": "m-shirts-50006-21287-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 43,
+      "code": "m-shirts-50006-21287-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 44,
+      "code": "m-shirts-16159-21303-yellow",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 45,
+      "code": "m-shirts-50019-21316-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 46,
+      "code": "m-shirts-50015-21303-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 47,
+      "code": "m-shirts-50015-21303-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 48,
+      "code": "m-pant-17597-21483-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 49,
+      "code": "m-pant-17597-21483-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 50,
+      "code": "l-pant-10578-21378-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 51,
+      "code": "l-pant-10578-21378-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 52,
+      "code": "m-shirts-50006-21303-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 53,
+      "code": "m-shirts-50006-21303-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 54,
+      "code": "m-shirts-50000-21350-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 55,
+      "code": "m-shirts-50019-21348-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 56,
+      "code": "m-shirts-50019-21348-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 57,
+      "code": "m-shirts-50019-21348-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 58,
+      "code": "m-pant-17575-21347-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 59,
+      "code": "m-pant-11743-21385-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 60,
+      "code": "m-short-16299-21349-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 61,
+      "code": "m-tshirt-17501-21281-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 62,
+      "code": "m-shirts-17529-21286-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 63,
+      "code": "m-shirts-17529-21286-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 64,
+      "code": "m-tshirt-17499-21281-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 65,
+      "code": "l-tshirt-11670-21325-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 66,
+      "code": "l-tshirt-11670-21325-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 67,
+      "code": "m-pant-16405-21357-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 68,
+      "code": "m-pant-16405-21326-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 69,
+      "code": "m-shirts-16913-21023-brick",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 70,
+      "code": "m-shirts-17287-20841-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 71,
+      "code": "l-blouse-17379-21065-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 72,
+      "code": "l-blouse-17377-21165-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 73,
+      "code": "l-blouse-17314-21036-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 74,
+      "code": "m-short-16761-20630-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 75,
+      "code": "m-short-16761-20630-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 76,
+      "code": "m-short-16761-20630-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 77,
+      "code": "m-short-16761-20630-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 78,
+      "code": "m-short-16367-21042-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 79,
+      "code": "m-short-16299-20997-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 80,
+      "code": "m-tshirt-16319-20950-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 81,
+      "code": "m-short-16299-20997-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 82,
+      "code": "l-pant-10578-20921-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 83,
+      "code": "m-short-16299-20961-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 84,
+      "code": "m-short-16299-20961-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 85,
+      "code": "m-pant-16181-20961-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 86,
+      "code": "m-pant-16181-20961-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 87,
+      "code": "m-short-17053-20774-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 88,
+      "code": "l-pant-16733-20631-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 89,
+      "code": "l-short-09776-20605-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 90,
+      "code": "l-pant-11273-20631-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 91,
+      "code": "l-pant-16733-20541-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 92,
+      "code": "l-pant-08015-20536-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 93,
+      "code": "m-shirts-16751-21614-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 94,
+      "code": "m-shirts-16751-21614-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 95,
+      "code": "m-shirts-17588-21614-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 96,
+      "code": "m-tshirt-17395-21634-teal",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 97,
+      "code": "m-pant-17138-21621-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 98,
+      "code": "m-pant-17138-21621-avenue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 99,
+      "code": "m-tshirt-16631-21634-orange",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 100,
+      "code": "m-tshirt-16631-21634-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 101,
+      "code": "m-shirts-17836-21656-denim-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 102,
+      "code": "m-jackets-17886-21621-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 103,
+      "code": "m-jackets-17886-21621-avenue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 104,
+      "code": "m-short-17881-21656-denim-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 105,
+      "code": "m-pant-17867-21656-denim-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 106,
+      "code": "m-tshirt-17805-21622-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 107,
+      "code": "m-tshirt-17802-21618-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 108,
+      "code": "m-tshirt-17802-21618-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 109,
+      "code": "m-tshirt-17395-21634-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 110,
+      "code": "m-tshirt-17207-21624-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 111,
+      "code": "m-tshirt-17207-21624-light-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 112,
+      "code": "m-shirts-50019-21627-white-a",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 113,
+      "code": "m-short-17806-21531-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 114,
+      "code": "m-short-17806-21531-slate",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 115,
+      "code": "m-kshort-17765-21629-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 116,
+      "code": "m-kshort-17765-21629-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 117,
+      "code": "l-tshirt-17528-21620-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 118,
+      "code": "l-tshirt-17528-21620-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 119,
+      "code": "l-blouse-17709-21642-multi",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 120,
+      "code": "m-tshirt-17756-21623-peach",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 121,
+      "code": "m-tshirt-17756-21623-lavender",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 122,
+      "code": "l-tshirt-11670-21569-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 123,
+      "code": "l-dress-17786-21561-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 124,
+      "code": "l-dress-17775-21563-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 125,
+      "code": "l-pant-17815-21560-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 126,
+      "code": "m-shirts-17820-21608-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 127,
+      "code": "m-short-17622-21479-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 128,
+      "code": "m-pant-17623-21479-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 129,
+      "code": "m-shirts-50000-21502-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 130,
+      "code": "m-shirts-17739-21502-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 131,
+      "code": "m-tshirt-17634-21554-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 132,
+      "code": "m-tshirt-17634-21554-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 133,
+      "code": "m-shirts-17588-21445-brick",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 134,
+      "code": "m-shirts-17404-21306-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 135,
+      "code": "l-tshirt-17724-21552-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 2,
+      "row": 136,
+      "code": "l-tshirt-17724-21552-lavender",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 2,
+      "code": "l-tshirt-17719-21552-lavender",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 3,
+      "code": "l-tshirt-17629-21554-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 4,
+      "code": "l-tshirt-17629-21554-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 5,
+      "code": "l-kdress-17609-21549-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 6,
+      "code": "l-kdress-17609-21549-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 7,
+      "code": "m-kshorts-17414-21551-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 8,
+      "code": "m-kshorts-17414-21551-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 9,
+      "code": "l-culotte-16778-21449-sand",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 10,
+      "code": "m-tshirt-17501-21514-dark brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 11,
+      "code": "m-tshirt-17500-21514-light grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 12,
+      "code": "m-tshirt-17443-21554-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 13,
+      "code": "m-tshirt-17443-21554-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 14,
+      "code": "m-shirts-10521-21390-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 15,
+      "code": "m-shirts-10521-21390-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 16,
+      "code": "l-waistcoat-17574-21344-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 17,
+      "code": "l-kurta-17649-21295-naturalblack",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 18,
+      "code": "m-shorts-16367-21533-lt brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 19,
+      "code": "m-shorts-16299-21489-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 20,
+      "code": "m-shorts-16299-21489-darkoliveg",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 21,
+      "code": "m-shorts-16299-21489-avenue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 22,
+      "code": "m-shorts-16124-21532-light gree",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 23,
+      "code": "m-shorts-16124-21532-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 24,
+      "code": "m-pants-17544-21564-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 25,
+      "code": "l-pants-17080-21295-naturalblack",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 26,
+      "code": "m-tshirt-15906-21550-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 27,
+      "code": "m-tshirt-15906-21550-lavender",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 28,
+      "code": "m-tshirt-17656-21491-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 29,
+      "code": "m-tshirt-17220-21507-chalk",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 30,
+      "code": "m-shirts-50019-21522-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 31,
+      "code": "m-shirts-50002-21501-lilac",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 32,
+      "code": "m-shirts-13484-21382-sky/olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 33,
+      "code": "l-tshirt-11670-21548-violet",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 34,
+      "code": "l-tshirt-11670-21548-teal blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 35,
+      "code": "l-tshirt-11670-21548-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 36,
+      "code": "l-tshirt-11670-21548-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 37,
+      "code": "l-tshirt-11670-21548-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 38,
+      "code": "l-tshirt-11670-21548-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 39,
+      "code": "l-kurta-17598-21334-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 40,
+      "code": "l-dress-17323-20959-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 41,
+      "code": "l-dress-17260-21440-multi",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 42,
+      "code": "m-shorts-16299-21494-avenue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 43,
+      "code": "m-pants-17696-21485-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 44,
+      "code": "m-pants-17696-21485-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 45,
+      "code": "l-shorts-17382-21449-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 46,
+      "code": "l-shorts-17382-21449-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 47,
+      "code": "l-pyjama suit-17650-21481-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 48,
+      "code": "l-pants-17080-21334-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 49,
+      "code": "l-culotte-17572-21440-multi",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 50,
+      "code": "m-shirts-50000-21322-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 51,
+      "code": "m-shirts-50000-21322-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 52,
+      "code": "l-dress-17683-21275-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 53,
+      "code": "l-dress-17586-21199-lilac",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 54,
+      "code": "m-pants-17686-21486-offwhite",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 55,
+      "code": "m-pants-15152-21494-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 56,
+      "code": "m-pants-15152-21494-avenue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 57,
+      "code": "l-skirt-17161-21275-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 58,
+      "code": "l-pyjama suit-17227-21481-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 59,
+      "code": "m-shirts-50019-21304-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 60,
+      "code": "m-shirts-16162-21292-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 61,
+      "code": "m-shorts-17648-21485-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 62,
+      "code": "m-pants-11743-21493-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 63,
+      "code": "m-pants-11743-21493-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 64,
+      "code": "m-pants-11743-21493-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 65,
+      "code": "l-pyjama-17652-21523-orange",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 66,
+      "code": "l-pyjama-17652-21523-multi",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 67,
+      "code": "l-pyjama-17652-21523-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 68,
+      "code": "m-pants-13485-21488-slate grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 69,
+      "code": "m-pants-13485-21488-cream",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 70,
+      "code": "l-pants-17504-21448-wine",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 71,
+      "code": "l-pants-17504-21448-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 72,
+      "code": "l-pants-12039-21448-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 73,
+      "code": "l-pants-12039-21448-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 74,
+      "code": "l-pants-12039-21448-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 75,
+      "code": "m-shirts-50020-21444-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 76,
+      "code": "m-shirts-50019-21444-lime",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 77,
+      "code": "m-shirts-50019-21293-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 78,
+      "code": "l-tshirt-11670-21499-purple",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 79,
+      "code": "l-tshirt-11670-21499-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 80,
+      "code": "l-tshirt-11670-21499-ecru melan",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 81,
+      "code": "l-shorts-17382-21378-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 82,
+      "code": "l-shorts-17382-21377-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 83,
+      "code": "l-culotte-16778-21377-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 84,
+      "code": "l-culotte-16778-21377-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 85,
+      "code": "l-culotte-16778-21377-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 86,
+      "code": "l-culotte-16778-21377-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 87,
+      "code": "m-tshirt-17440-21495-marine",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 88,
+      "code": "l-tshirt-17554-21456-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 89,
+      "code": "l-tshirt-17554-21456-dark brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 90,
+      "code": "l-blouse-17568-21314-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 91,
+      "code": "m-pants-17612-21447-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 92,
+      "code": "m-pants-17612-21447-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 93,
+      "code": "m-pants-16181-21465-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 94,
+      "code": "m-shirts-17819-21607-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 95,
+      "code": "l-kdress-17548-21456-wine",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 96,
+      "code": "l-blouse-17567-21342-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 97,
+      "code": "l-shorts-09776-21378-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 98,
+      "code": "l-pants-17304-21377-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 99,
+      "code": "l-pants-16130-21377-light grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 100,
+      "code": "l-blouse-17543-21088-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 101,
+      "code": "m-shorts-17596-21402-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 102,
+      "code": "m-tshirt-17223-21248-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 103,
+      "code": "m-tshirt-17223-21248-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 104,
+      "code": "l-blouse-17376-21327-ivory",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 105,
+      "code": "m-pants-11743-21465-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 106,
+      "code": "m-shirts-17316-21302-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 107,
+      "code": "m-shirts-10521-21318-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 108,
+      "code": "l-kurta-17512-21268-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 109,
+      "code": "l-dress-14540-21022-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 110,
+      "code": "m-pants-17597-21483-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 111,
+      "code": "l-pants-17473-21271-white/black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 112,
+      "code": "l-culotte-17572-21270-white/black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 113,
+      "code": "m-kshorts-17434-21266-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 114,
+      "code": "m-kshorts-17434-21266-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 115,
+      "code": "m-tshirt-17217-21244-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 116,
+      "code": "m-tshirt-17217-21244-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 3,
+      "row": 117,
+      "code": "m-shirts-50021-21303-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 2,
+      "code": "m-shirts-13484-21317-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 3,
+      "code": "m-pants-17575-21347-lt.olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 4,
+      "code": "m-pants-17575-21347-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 5,
+      "code": "m-kpants-17430-21266-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 6,
+      "code": "m-pants-17623-21479-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 7,
+      "code": "m-shorts-17431-21244-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 8,
+      "code": "m-shorts-17431-21244-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 9,
+      "code": "m-tshirt-17466-21244-light gree",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 10,
+      "code": "m-shirts-17503-21131-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 11,
+      "code": "m-shirts-16751-21311-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 12,
+      "code": "l-blouse-17519-21054-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 13,
+      "code": "m-pants-16405-21326-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 14,
+      "code": "m-tshirt-17466-21244-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 15,
+      "code": "m-tshirt-17465-21244-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 16,
+      "code": "m-tshirt-17465-21244-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 17,
+      "code": "m-shirts-17404-21130-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 18,
+      "code": "m-shirts-17404-21130-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 19,
+      "code": "l-tshirt-17463-21244-lt green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 20,
+      "code": "l-tshirt-17463-21244-light blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 21,
+      "code": "l-jacket-17533-21328-offwhite",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 22,
+      "code": "l-jacket-17354-21065-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 23,
+      "code": "l-blouse-17013-21021-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 24,
+      "code": "m-jackets-17563-21286-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 25,
+      "code": "m-jackets-17563-21286-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 26,
+      "code": "l-tshirt-17497-21282-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 27,
+      "code": "l-tshirt-17497-21282-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 28,
+      "code": "l-tshirt-17464-21245-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 29,
+      "code": "l-tshirt-17464-21245-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 30,
+      "code": "l-tshirt-17302-21240-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 31,
+      "code": "m-tshirt-17502-21281-dark-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 32,
+      "code": "m-shirts-50019-21112-white/navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 33,
+      "code": "m-shirts-17505-21205-orange",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 34,
+      "code": "m-shirts-16751-21305-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 35,
+      "code": "m-jackets-17530-21280-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 36,
+      "code": "l-tshirt-17462-21244-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 37,
+      "code": "l-tshirt-17462-21244-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 38,
+      "code": "l-blouse-17376-21194-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 39,
+      "code": "m-tshirt-17502-21281-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 40,
+      "code": "m-tshirt-17501-21281-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 41,
+      "code": "l-waistcoat-17380-21065-rust",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 42,
+      "code": "l-waistcoat-17380-21065-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 43,
+      "code": "l-blouse-17151-21037-midnight blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 44,
+      "code": "m-pants-17472-21034-sky",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 45,
+      "code": "m-pants-17472-21023-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 46,
+      "code": "m-shirts-50006-21196-navy",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 47,
+      "code": "l-kurta-17363-21065-mustard",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 48,
+      "code": "m-shirts-50019-21051-brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 49,
+      "code": "m-shirts-50019-21049-olive/black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 50,
+      "code": "l-pants-17149-21014-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 51,
+      "code": "l-pants-17149-21013-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 52,
+      "code": "l-ktights-16745-21177-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 53,
+      "code": "l-waistcoat-17380-20935-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 54,
+      "code": "l-pants-16883-21166-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 55,
+      "code": "m-shorts-16299-21041-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 56,
+      "code": "l-pants-17080-20939-natural",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 57,
+      "code": "l-pyjama suit-17227-21071-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 58,
+      "code": "l-pyjama suit-17227-21071-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 59,
+      "code": "l-shorts-09776-20921-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 60,
+      "code": "l-shorts-17188-20878-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 61,
+      "code": "m-shorts-16299-20961-lt brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 62,
+      "code": "m-shorts-16299-20961-khaki",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 63,
+      "code": "m-shorts-16299-20961-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 64,
+      "code": "m-pants-16181-20961-lt brown",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 65,
+      "code": "m-pants-16181-20961-grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 66,
+      "code": "l-kskirt-17059-20894-dark grey",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 67,
+      "code": "l-kshorts-17070-20894-moss",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 68,
+      "code": "m-pants-11743-20961-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 69,
+      "code": "m-track-pant-17052-20779-black",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 70,
+      "code": "l-ktights-16745-20856-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 71,
+      "code": "l-dress-17047-20822-wine",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 72,
+      "code": "l-dress-17047-20822-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 73,
+      "code": "m-shorts-17053-20815-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 74,
+      "code": "l-pants-11273-20761-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 75,
+      "code": "l-pants-16733-20631-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 76,
+      "code": "l-pants-16733-20631-pink",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 77,
+      "code": "l-pants-11273-20631-green",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 78,
+      "code": "l-pants-08015-20631-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 79,
+      "code": "l-shorts-09776-20541-beige",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 80,
+      "code": "l-pants-16733-20500-blue",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 81,
+      "code": "l-pants-08015-20536-maroon-red",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 82,
+      "code": "l-pants-11273-20536-white",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    },
+    {
+      "batch": 4,
+      "row": 83,
+      "code": "l-ktights-16745-20354-olive",
+      "status": "pass",
+      "problems": [],
+      "evidence": "proposals.json; records.json exact product-code/handle match",
+      "scope": "editorial and automated consistency QA; not an external AI-detector test"
+    }
+  ]
+}
