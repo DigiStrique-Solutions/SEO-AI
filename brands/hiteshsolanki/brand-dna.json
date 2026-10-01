@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "hiteshsolanki",
+  "updated_at": "2026-10-01T13:15:08.555Z",
+  "brand_name": "Hitesh Solanki",
+  "website_url": "https://hiteshsolanki.com/",
+  "logo": {
+    "description": "HS initials avatar",
+    "icon_url": "https://hiteshsolanki.com/icon.svg"
+  },
+  "business_description": "Personal portfolio of a software engineer showing full-stack products, AI agent systems, professional experience, projects, writing, and a resume.",
+  "business_model": "Personal portfolio; commercial arrangement is not stated on the site.",
+  "brand_colors": {
+    "primary": "#9b4819"
+  },
+  "brand_aesthetic": "Portfolio with project case studies and technical writing.",
+  "brand_voice": {
+    "description": "First-person, direct, technical, and focused on shipping products.",
+    "voice_patterns": [
+      "Clarity, ownership, and strong execution",
+      "Concrete project and stack descriptions"
+    ]
+  },
+  "brand_values": [
+    "clarity",
+    "ownership",
+    "strong execution"
+  ],
+  "target_audience": {
+    "primary": [
+      "prospective employers",
+      "prospective freelance clients",
+      "potential collaborators"
+    ],
+    "roles": [],
+    "secondary_verticals": []
+  },
+  "competitors": [],
+  "competitor_alternative_categories": [],
+  "primary_business_goal": "Invite contact about roles, freelance work, or collaboration.",
+  "primary_conversion": "Contact through the site's listed contact paths; no conversion analytics verified.",
+  "site_type": "personal portfolio",
+  "measurement_and_connected_sources": [],
+  "open_questions": [
+    "Are there any brand-specific SEO goals or target markets?",
+    "Which analytics and Search Console properties are connected?",
+    "Are the 50 sitemap URLs intended to be indexed on hiteshsolanki.com?",
+    "Are there relevant peer sites to benchmark?",
+    "What is the preferred primary conversion channel?",
+    "Canonical tags and structured data could not be verified through the browser due to a connection timeout."
+  ],
+  "source_refs": [
+    "logs/web_data/activity.jsonl#hiteshsolanki-crawl-20261001",
+    "logs/web_data/raw/2026-10-01T13-15-08-555Z-crawl.json",
+    "logs/web_data/raw/2026-10-01T13-15-08-555Z-sample-0.json"
+  ]
+}

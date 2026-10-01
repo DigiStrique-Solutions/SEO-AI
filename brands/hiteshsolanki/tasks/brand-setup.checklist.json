@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "brand_id": "hiteshsolanki",
+  "started_at": "2026-10-01T13:15:08.555Z",
+  "updated_at": "2026-10-01T13:15:08.555Z",
+  "scope_note": "Crawl-only request. Keyword research, blog import, and full audits were not requested.",
+  "phases": [
+    {
+      "phase": "1-crawl-brand-dna",
+      "status": "done",
+      "items": [
+        {
+          "id": "p1.crawl-ok",
+          "status": "done",
+          "severity": "high",
+          "note": "20 pages fetched, each HTTP 200; crawl reached 20-page cap and is not a full-site audit.",
+          "log_ref": "logs/web_data/activity.jsonl"
+        },
+        {
+          "id": "p1.brand-name",
+          "status": "done",
+          "severity": "high",
+          "note": "Name and URL identified on homepage.",
+          "log_ref": "logs/web_data/raw/2026-10-01T13-15-08-555Z-crawl.json"
+        },
+        {
+          "id": "p1.core-fields",
+          "status": "done",
+          "severity": "medium",
+          "note": "Core fields recorded from homepage and contact page; unverified details remain in open_questions.",
+          "log_ref": "logs/web_data/raw/2026-10-01T13-15-08-555Z-crawl.json"
+        },
+        {
+          "id": "p1.competitors",
+          "status": "failed",
+          "severity": "medium",
+          "note": "No competitor evidence supplied or established from this crawl.",
+          "log_ref": "logs/web_data/raw/2026-10-01T13-15-08-555Z-crawl.json"
+        },
+        {
+          "id": "p1.dna-valid",
+          "status": "done",
+          "severity": "high",
+          "note": "JSON parsed locally.",
+          "log_ref": "brand-dna.json"
+        },
+        {
+          "id": "p1.knowledge",
+          "status": "done",
+          "severity": "low",
+          "note": "Crawl-specific knowledge seeded.",
+          "log_ref": "knowledge.md"
+        }
+      ]
+    },
+    {
+      "phase": "2-keyword-research",
+      "status": "pending",
+      "items": []
+    },
+    {
+      "phase": "3-existing-blogs",
+      "status": "pending",
+      "items": []
+    },
+    {
+      "phase": "4-seo-audits",
+      "status": "pending",
+      "items": []
+    },
+    {
+      "phase": "5-finalize",
+      "status": "pending",
+      "items": []
+    }
+  ]
+}
