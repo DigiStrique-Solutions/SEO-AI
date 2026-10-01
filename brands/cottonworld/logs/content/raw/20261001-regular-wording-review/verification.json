@@ -1,0 +1,51 @@
+{
+  "run_id": "20261001-regular-wording-review",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "rows_audited": 392,
+  "rows_changed": [
+    132,
+    146,
+    148,
+    149,
+    203,
+    260,
+    261,
+    262,
+    272,
+    280,
+    290,
+    291,
+    292,
+    302,
+    303,
+    310,
+    318,
+    353,
+    355
+  ],
+  "source_snapshot": "source-sheet.json.gz",
+  "final_snapshot": "final-sheet.json.gz",
+  "catalog_source": "20261001-url-h1-meta-reaudit/catalog.json.gz",
+  "catalog_fresh_fetch": "Timed out; same-day prior catalog snapshot used",
+  "url_h1_title_mismatches": 0,
+  "repeated_h1_wording": 0,
+  "duplicate_url_h1_title_description_groups": 0,
+  "print_grammar_errors": 0,
+  "product_codes_in_meta": 0,
+  "buy_in_meta_title": 0,
+  "unexpected_cell_changes": 0,
+  "print_named_rows_checked": 30,
+  "print_direct_merchant_match": 23,
+  "graphic_prints_supported_by_photos_despite_generic_solid_field": [
+    174,
+    192,
+    193,
+    195,
+    209,
+    210
+  ],
+  "source_unavailable_print_not_verified": [
+    175
+  ],
+  "limitations": "Proposed URLs are a content plan; this check does not establish publication or live redirects. Row 175's source product was unavailable for print verification."
+}

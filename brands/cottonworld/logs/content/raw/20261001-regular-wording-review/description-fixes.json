@@ -1,0 +1,26 @@
+[
+  {
+    "row": 203,
+    "before": "Choose Cottonworld’s women’s organic cotton regular fit t-shirt red with striped for easy workdays, travel and relaxed weekends.",
+    "after": "Choose Cottonworld’s women’s organic cotton regular fit striped t-shirt in red for easy workdays, travel and relaxed weekends.",
+    "evidence": "Merchant print field: STRIPE; H1: Women’s Organic Cotton Regular Fit T-Shirt Striped Red"
+  },
+  {
+    "row": 261,
+    "before": "Wear Cottonworld’s men’s cotton regular fit shirt sand with checked through workdays, weekends and travel.",
+    "after": "Wear Cottonworld’s men’s cotton regular fit checked shirt in sand through workdays, weekends and travel.",
+    "evidence": "Merchant print field: CHECK; H1: Men’s Cotton Regular Fit Shirt Checked Sand"
+  },
+  {
+    "row": 290,
+    "before": "Explore Cottonworld’s men’s cotton regular fit shirt sky with checked. A practical choice for everyday wear, weekends and travel.",
+    "after": "Explore Cottonworld’s men’s cotton regular fit checked shirt in sky for everyday wear, weekends and travel.",
+    "evidence": "Merchant print field: CHECK; H1: Men’s Cotton Regular Fit Shirt Checked Sky"
+  },
+  {
+    "row": 355,
+    "before": "Choose Cottonworld’s men’s organic cotton regular fit t-shirt white with printed for easy workdays, travel and relaxed weekends.",
+    "after": "Choose Cottonworld’s men’s organic cotton regular fit printed t-shirt in white for easy workdays, travel and relaxed weekends.",
+    "evidence": "Merchant print field: PRINT; H1: Men’s Organic Cotton Regular Fit T-Shirt Printed White"
+  }
+]

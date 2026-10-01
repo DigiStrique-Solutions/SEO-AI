@@ -1,0 +1,7 @@
+{
+  "attempted_source": "https://cottonworld.net/products.json?limit=250&page=1",
+  "result": "Fresh catalog fetch timed out/interrupted after approximately 90 seconds",
+  "fallback_source": "../20261001-url-h1-meta-reaudit/catalog.json.gz",
+  "fallback_date": "2026-10-01",
+  "scope": "Fact checks of merchant attributes and images; source sheet itself was read live."
+}

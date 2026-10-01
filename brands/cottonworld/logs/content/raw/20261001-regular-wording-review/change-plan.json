@@ -1,0 +1,245 @@
+{
+  "source": "Live Boltworks sheet and 2026-10-01 Cottonworld product catalog snapshot",
+  "changes": [
+    {
+      "row": 132,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-barrel-leg-pant-white",
+        "h1": "Women’s Linen Viscose Regular Fit Barrel Leg Pant White",
+        "title": "Women’s Linen Viscose Regular Fit Barrel Leg Pant White | Cottonworld",
+        "description": "Wear Cottonworld’s women’s linen viscose regular fit barrel leg pant white through workdays, weekends and travel, with everyday comfort at the centre."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-viscose-barrel-leg-pant-white",
+        "h1": "Women’s Linen Viscose Barrel Leg Pant White",
+        "title": "Women’s Linen Viscose Barrel Leg Pant White | Cottonworld",
+        "description": "Explore Cottonworld’s women’s linen viscose barrel leg pant in white for workdays, weekends and travel."
+      },
+      "source": "https://cottonworld.net/products/l-pants-17753-21737-white"
+    },
+    {
+      "row": 146,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-wide-leg-fit-pant-denim-blue",
+        "h1": "Women’s Cotton Wide Leg Fit Pant Denim Blue",
+        "title": "Women’s Cotton Wide Leg Fit Pant Denim Blue | Cottonworld",
+        "description": "Wear Cottonworld’s women’s cotton wide leg fit pant denim blue through workdays, weekends and travel, with everyday comfort at the centre."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-wide-leg-pant-denim-blue",
+        "h1": "Women’s Cotton Wide Leg Pant Denim Blue",
+        "title": "Women’s Cotton Wide Leg Pant Denim Blue | Cottonworld",
+        "description": "Wear Cottonworld’s women’s cotton wide leg pant in denim blue through workdays, weekends and travel."
+      },
+      "source": "https://cottonworld.net/products/l-pants-17939-21813-denim-blue"
+    },
+    {
+      "row": 148,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-barrel-fit-leg-pant-sage",
+        "h1": "Women’s Cotton Lycra Barrel Fit Leg Pant Sage",
+        "title": "Women’s Cotton Lycra Barrel Leg Fit Pant Sage | Cottonworld",
+        "description": "Add Cottonworld’s women’s cotton lycra barrel leg fit pant sage to an everyday wardrobe for comfortable workdays, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-cotton-lycra-barrel-leg-pant-sage",
+        "h1": "Women’s Cotton Lycra Barrel Leg Pant Sage",
+        "title": "Women’s Cotton Lycra Barrel Leg Pant Sage | Cottonworld",
+        "description": "Add Cottonworld’s women’s cotton lycra barrel leg pant in sage to an everyday wardrobe for workdays and weekends."
+      },
+      "source": "https://cottonworld.net/products/l-pants-17941-21820-sage"
+    },
+    {
+      "row": 149,
+      "before": {
+        "url": "https://cottonworld.net/products/womens-linen-barrel-leg-fit-pant-brown",
+        "h1": "Women’s Linen Barrel Leg Fit Pant Brown",
+        "title": "Women’s Linen Barrel Leg Fit Pant Brown | Cottonworld",
+        "description": "Add Cottonworld’s women’s linen barrel leg pant fit brown to an everyday wardrobe for comfortable workdays, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/womens-linen-barrel-leg-pant-brown",
+        "h1": "Women’s Linen Barrel Leg Pant Brown",
+        "title": "Women’s Linen Barrel Leg Pant Brown | Cottonworld",
+        "description": "Add Cottonworld’s women’s linen barrel leg pant in brown to an everyday wardrobe for workdays and weekends."
+      },
+      "source": "https://cottonworld.net/products/l-pants-17972-21824-brown"
+    },
+    {
+      "row": 260,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-length-off-white",
+        "h1": "Men’s Cotton Regular Fit Shirt Length Off White",
+        "title": "Men’s Cotton Regular Fit Shirt Length Off White | Cottonworld",
+        "description": "Bring Cottonworld’s men’s cotton regular fit shirt off white with length into an everyday wardrobe for work and time off."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-windowpane-check-shirt-off-white",
+        "h1": "Men’s Cotton Regular Fit Windowpane Check Shirt Off White",
+        "title": "Men’s Cotton Regular Fit Windowpane Check Shirt Off White | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit shirt in off white with a windowpane check for work, travel and relaxed weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-13484-21732-offwhite"
+    },
+    {
+      "row": 262,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-collar-full-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Collar Full Sleeve Navy",
+        "title": "Men’s Cotton Regular Fit Shirt Collar Full Sleeve Navy | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit shirt navy with collar full sleeve. A practical choice for everyday wear, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-full-sleeve-checked-shirt-navy",
+        "h1": "Men’s Cotton Regular Fit Full Sleeve Checked Shirt Navy",
+        "title": "Men’s Cotton Regular Fit Full Sleeve Checked Shirt Navy | Cottonworld",
+        "description": "Wear Cottonworld’s men’s cotton regular fit full sleeve checked shirt in navy for workdays, travel and relaxed weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-13484-21806-navy"
+    },
+    {
+      "row": 272,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-collar-white",
+        "h1": "Men’s Linen Cotton Regular Fit Shirt Collar White",
+        "title": "Men’s Linen Cotton Regular Fit Shirt Collar White | Cottonworld",
+        "description": "Bring Cottonworld’s men’s linen cotton regular fit shirt white with collar into an everyday wardrobe for work and time off."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-two-flap-pocket-shirt-white",
+        "h1": "Men’s Linen Cotton Regular Fit Two Flap Pocket Shirt White",
+        "title": "Men’s Linen Cotton Regular Fit Two Flap Pocket Shirt White | Cottonworld",
+        "description": "Explore Cottonworld’s men’s linen cotton regular fit shirt in white with two flap pockets for work and relaxed weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-17351-21614-white"
+    },
+    {
+      "row": 280,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-collar-navy",
+        "h1": "Men’s Linen Cotton Regular Fit Shirt Collar Navy",
+        "title": "Men’s Linen Cotton Regular Fit Shirt Collar Navy | Cottonworld",
+        "description": "Bring Cottonworld’s men’s linen cotton fit shirt navy with regular collar into an everyday wardrobe for work and time off."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-pullover-shirt-navy",
+        "h1": "Men’s Linen Cotton Regular Fit Pullover Shirt Navy",
+        "title": "Men’s Linen Cotton Regular Fit Pullover Shirt Navy | Cottonworld",
+        "description": "Wear Cottonworld’s men’s linen cotton regular fit pullover shirt in navy for workdays and relaxed weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-17819-21614-navy"
+    },
+    {
+      "row": 291,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-collar-half-sleeve-green",
+        "h1": "Men’s Cotton Regular Fit Shirt Collar Half Sleeve Green",
+        "title": "Men’s Cotton Regular Fit Shirt Collar Half Sleeve Green | Cottonworld",
+        "description": "Choose Cottonworld’s men’s cotton regular fit shirt green with collar half sleeve for easy workdays, travel and relaxed weekends."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-checked-shirt-green",
+        "h1": "Men’s Cotton Regular Fit Half Sleeve Checked Shirt Green",
+        "title": "Men’s Cotton Regular Fit Half Sleeve Checked Shirt Green | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit half sleeve checked shirt in green for everyday wear and travel."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50011-21809-green"
+    },
+    {
+      "row": 292,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-collar-half-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Collar Half Sleeve Navy",
+        "title": "Men’s Cotton Regular Fit Shirt Collar Half Sleeve Navy | Cottonworld",
+        "description": "Bring Cottonworld’s men’s cotton regular fit shirt navy with collar half sleeve into an everyday wardrobe for work and time off."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-half-sleeve-checked-shirt-navy",
+        "h1": "Men’s Cotton Regular Fit Half Sleeve Checked Shirt Navy",
+        "title": "Men’s Cotton Regular Fit Half Sleeve Checked Shirt Navy | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit half sleeve checked shirt in navy for everyday wear and travel."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50011-21809-navy"
+    },
+    {
+      "row": 302,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-half-sleeve-green",
+        "h1": "Men’s Cotton Regular Fit Shirt Half Sleeve Green",
+        "title": "Men’s Cotton Regular Fit Shirt Half Sleeve Green | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit shirt green with regular length half sleeve. A practical choice for everyday wear, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-folded-placket-half-sleeve-shirt-green",
+        "h1": "Men’s Cotton Regular Fit Folded Placket Half Sleeve Shirt Green",
+        "title": "Men’s Cotton Regular Fit Folded Placket Half Sleeve Shirt Green | Cottonworld",
+        "description": "Choose Cottonworld’s men’s cotton regular fit half sleeve shirt in green with a folded placket for work and weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50019-21612-green"
+    },
+    {
+      "row": 303,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-half-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Half Sleeve Navy",
+        "title": "Men’s Cotton Regular Fit Shirt Half Sleeve Navy | Cottonworld",
+        "description": "Choose Cottonworld’s men’s cotton regular fit shirt navy with half sleeve for easy workdays, travel and relaxed weekends."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-folded-placket-half-sleeve-shirt-navy",
+        "h1": "Men’s Cotton Regular Fit Folded Placket Half Sleeve Shirt Navy",
+        "title": "Men’s Cotton Regular Fit Folded Placket Half Sleeve Shirt Navy | Cottonworld",
+        "description": "Choose Cottonworld’s men’s cotton regular fit half sleeve shirt in navy with a folded placket for work and weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50019-21612-navy"
+    },
+    {
+      "row": 310,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-collar-green",
+        "h1": "Men’s Tencel Linen Regular Fit Shirt Collar Green",
+        "title": "Men’s Tencel Linen Regular Fit Shirt Collar Green | Cottonworld",
+        "description": "Explore Cottonworld’s men’s tencel linen regular fit shirt green with collar. A practical choice for everyday wear, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-leaf-print-shirt-green",
+        "h1": "Men’s Tencel Linen Regular Fit Leaf Print Shirt Green",
+        "title": "Men’s Tencel Linen Regular Fit Leaf Print Shirt Green | Cottonworld",
+        "description": "Explore Cottonworld’s men’s tencel linen regular fit leaf print shirt in green for travel, work and relaxed weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50019-21704-green"
+    },
+    {
+      "row": 318,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-full-sleeve-navy",
+        "h1": "Men’s Cotton Regular Fit Shirt Full Sleeve Navy",
+        "title": "Men’s Cotton Regular Fit Shirt Full Sleeve Navy | Cottonworld",
+        "description": "Explore Cottonworld’s men’s cotton regular fit shirt navy with full sleeve. A practical choice for everyday wear, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-cotton-regular-fit-folded-placket-full-sleeve-shirt-navy",
+        "h1": "Men’s Cotton Regular Fit Folded Placket Full Sleeve Shirt Navy",
+        "title": "Men’s Cotton Regular Fit Folded Placket Full Sleeve Shirt Navy | Cottonworld",
+        "description": "Wear Cottonworld’s men’s cotton regular fit full sleeve shirt in navy with a folded placket for work and weekends."
+      },
+      "source": "https://cottonworld.net/products/m-shirts-50020-21612-navy"
+    },
+    {
+      "row": 353,
+      "before": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-Vinyl-Record-graphic-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Vinyl Record Graphic Blue",
+        "title": "Men’s Organic Cotton Regular Fit T-Shirt Vinyl Record Graphic Blue | Cottonworld",
+        "description": "Wear Cottonworld’s men’s organic cotton regular fit t-shirt in blue with an astronaut graphic through workdays, weekends and travel."
+      },
+      "after": {
+        "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-vinyl-record-graphic-blue",
+        "h1": "Men’s Organic Cotton Regular Fit T-Shirt Vinyl Record Graphic Blue",
+        "title": "Men’s Organic Cotton Regular Fit T-Shirt Vinyl Record Graphic Blue | Cottonworld",
+        "description": "Wear Cottonworld’s men’s organic cotton regular fit t-shirt in blue with a vinyl record graphic through workdays and weekends."
+      },
+      "source": "https://cottonworld.net/products/m-tshirt-16319-21769-blue-1"
+    }
+  ]
+}
