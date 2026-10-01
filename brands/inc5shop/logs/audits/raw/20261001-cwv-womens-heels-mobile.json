@@ -1,0 +1,263 @@
+{
+  "ok": true,
+  "report": {
+    "checked_at": "2026-10-01T11:06:32+00:00",
+    "crux": {
+      "checked_at": "2026-10-01T11:07:53+00:00",
+      "collection_period": {
+        "firstDate": {
+          "day": 1,
+          "month": 9,
+          "year": 2026
+        },
+        "lastDate": {
+          "day": 28,
+          "month": 9,
+          "year": 2026
+        }
+      },
+      "form_factor": "PHONE",
+      "key": {
+        "formFactor": "PHONE",
+        "url": "https://inc5shop.com/collections/womens-heels"
+      },
+      "metrics": {
+        "cumulative_layout_shift": {
+          "histogram": [
+            {
+              "density": 0.9789,
+              "end": "0.10",
+              "start": "0.00"
+            },
+            {
+              "density": 0.0206,
+              "end": "0.25",
+              "start": "0.10"
+            },
+            {
+              "density": 0.0005,
+              "start": "0.25"
+            }
+          ],
+          "p75": "0.04"
+        },
+        "experimental_time_to_first_byte": {
+          "histogram": [
+            {
+              "density": 0.8792,
+              "end": 800,
+              "start": 0
+            },
+            {
+              "density": 0.0802,
+              "end": 1800,
+              "start": 800
+            },
+            {
+              "density": 0.0406,
+              "start": 1800
+            }
+          ],
+          "p75": 310
+        },
+        "first_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.9154,
+              "end": 1800,
+              "start": 0
+            },
+            {
+              "density": 0.0594,
+              "end": 3000,
+              "start": 1800
+            },
+            {
+              "density": 0.0252,
+              "start": 3000
+            }
+          ],
+          "p75": 1069
+        },
+        "interaction_to_next_paint": {
+          "histogram": [
+            {
+              "density": 0.8592,
+              "end": 200,
+              "start": 0
+            },
+            {
+              "density": 0.1054,
+              "end": 500,
+              "start": 200
+            },
+            {
+              "density": 0.0354,
+              "start": 500
+            }
+          ],
+          "p75": 145
+        },
+        "largest_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.8911,
+              "end": 2500,
+              "start": 0
+            },
+            {
+              "density": 0.0692,
+              "end": 4000,
+              "start": 2500
+            },
+            {
+              "density": 0.0397,
+              "start": 4000
+            }
+          ],
+          "p75": 1681
+        },
+        "largest_contentful_paint_image_element_render_delay": {
+          "histogram": [],
+          "p75": 404
+        },
+        "largest_contentful_paint_image_resource_load_delay": {
+          "histogram": [],
+          "p75": 1238
+        },
+        "largest_contentful_paint_image_resource_load_duration": {
+          "histogram": [],
+          "p75": 272
+        },
+        "largest_contentful_paint_image_time_to_first_byte": {
+          "histogram": [],
+          "p75": 322
+        },
+        "round_trip_time": {
+          "histogram": [
+            {
+              "density": 0.2595,
+              "end": 75,
+              "start": 0
+            },
+            {
+              "density": 0.626,
+              "end": 275,
+              "start": 75
+            },
+            {
+              "density": 0.1145,
+              "start": 275
+            }
+          ],
+          "p75": 171
+        }
+      },
+      "queried": "https://inc5shop.com/collections/womens-heels",
+      "scope": "url",
+      "service": "crux"
+    },
+    "pagespeed": {
+      "category_scores": {
+        "accessibility": 78,
+        "best-practices": 54,
+        "performance": 46,
+        "seo": 92
+      },
+      "checked_at": "2026-10-01T11:07:52+00:00",
+      "field_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 4
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 310
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1069
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "FAST",
+            "percentile": 145
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1681
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "final_url": "https://inc5shop.com/collections/womens-heels",
+      "lab_core_web_vitals": {
+        "cumulative-layout-shift": {
+          "display_value": "0",
+          "numeric_value": 0.0001647085732397159,
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "display_value": "2.6\u00a0s",
+          "numeric_value": 2633.865274553345,
+          "score": 0.62
+        },
+        "interactive": {
+          "display_value": "25.8\u00a0s",
+          "numeric_value": 25827.524512681663,
+          "score": 0
+        },
+        "largest-contentful-paint": {
+          "display_value": "17.6\u00a0s",
+          "numeric_value": 17551.042572633472,
+          "score": 0
+        },
+        "max-potential-fid": {
+          "display_value": "740\u00a0ms",
+          "numeric_value": 736,
+          "score": 0.01
+        },
+        "speed-index": {
+          "display_value": "9.0\u00a0s",
+          "numeric_value": 9008.20393377461,
+          "score": 0.14
+        },
+        "total-blocking-time": {
+          "display_value": "680\u00a0ms",
+          "numeric_value": 679,
+          "score": 0.44
+        }
+      },
+      "origin_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 7
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 442
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1176
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "FAST",
+            "percentile": 170
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1707
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "service": "pagespeed",
+      "strategy": "mobile",
+      "url": "https://inc5shop.com/collections/womens-heels"
+    },
+    "service": "core_web_vitals",
+    "url": "https://inc5shop.com/collections/womens-heels"
+  }
+}

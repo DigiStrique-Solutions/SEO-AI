@@ -1,0 +1,263 @@
+{
+  "ok": true,
+  "report": {
+    "checked_at": "2026-10-01T11:05:09+00:00",
+    "crux": {
+      "checked_at": "2026-10-01T11:06:05+00:00",
+      "collection_period": {
+        "firstDate": {
+          "day": 1,
+          "month": 9,
+          "year": 2026
+        },
+        "lastDate": {
+          "day": 28,
+          "month": 9,
+          "year": 2026
+        }
+      },
+      "form_factor": "PHONE",
+      "key": {
+        "formFactor": "PHONE",
+        "url": "https://inc5shop.com/"
+      },
+      "metrics": {
+        "cumulative_layout_shift": {
+          "histogram": [
+            {
+              "density": 0.9647,
+              "end": "0.10",
+              "start": "0.00"
+            },
+            {
+              "density": 0.0339,
+              "end": "0.25",
+              "start": "0.10"
+            },
+            {
+              "density": 0.0015,
+              "start": "0.25"
+            }
+          ],
+          "p75": "0.04"
+        },
+        "experimental_time_to_first_byte": {
+          "histogram": [
+            {
+              "density": 0.8169,
+              "end": 800,
+              "start": 0
+            },
+            {
+              "density": 0.1182,
+              "end": 1800,
+              "start": 800
+            },
+            {
+              "density": 0.065,
+              "start": 1800
+            }
+          ],
+          "p75": 602
+        },
+        "first_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.8638,
+              "end": 1800,
+              "start": 0
+            },
+            {
+              "density": 0.0797,
+              "end": 3000,
+              "start": 1800
+            },
+            {
+              "density": 0.0564,
+              "start": 3000
+            }
+          ],
+          "p75": 1267
+        },
+        "interaction_to_next_paint": {
+          "histogram": [
+            {
+              "density": 0.8426,
+              "end": 200,
+              "start": 0
+            },
+            {
+              "density": 0.1409,
+              "end": 500,
+              "start": 200
+            },
+            {
+              "density": 0.0165,
+              "start": 500
+            }
+          ],
+          "p75": 161
+        },
+        "largest_contentful_paint": {
+          "histogram": [
+            {
+              "density": 0.8859,
+              "end": 2500,
+              "start": 0
+            },
+            {
+              "density": 0.0657,
+              "end": 4000,
+              "start": 2500
+            },
+            {
+              "density": 0.0484,
+              "start": 4000
+            }
+          ],
+          "p75": 1593
+        },
+        "largest_contentful_paint_image_element_render_delay": {
+          "histogram": [],
+          "p75": 239
+        },
+        "largest_contentful_paint_image_resource_load_delay": {
+          "histogram": [],
+          "p75": 603
+        },
+        "largest_contentful_paint_image_resource_load_duration": {
+          "histogram": [],
+          "p75": 224
+        },
+        "largest_contentful_paint_image_time_to_first_byte": {
+          "histogram": [],
+          "p75": 601
+        },
+        "round_trip_time": {
+          "histogram": [
+            {
+              "density": 0.3085,
+              "end": 75,
+              "start": 0
+            },
+            {
+              "density": 0.5932,
+              "end": 275,
+              "start": 75
+            },
+            {
+              "density": 0.0983,
+              "start": 275
+            }
+          ],
+          "p75": 155
+        }
+      },
+      "queried": "https://inc5shop.com/",
+      "scope": "url",
+      "service": "crux"
+    },
+    "pagespeed": {
+      "category_scores": {
+        "accessibility": 92,
+        "best-practices": 54,
+        "performance": 47,
+        "seo": 92
+      },
+      "checked_at": "2026-10-01T11:06:04+00:00",
+      "field_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 4
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 602
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1267
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "FAST",
+            "percentile": 161
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1593
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "final_url": "https://inc5shop.com/",
+      "lab_core_web_vitals": {
+        "cumulative-layout-shift": {
+          "display_value": "0",
+          "numeric_value": 0.0002049741727525481,
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "display_value": "2.7\u00a0s",
+          "numeric_value": 2709.201765245432,
+          "score": 0.6
+        },
+        "interactive": {
+          "display_value": "20.8\u00a0s",
+          "numeric_value": 20836.10925719879,
+          "score": 0.02
+        },
+        "largest-contentful-paint": {
+          "display_value": "8.5\u00a0s",
+          "numeric_value": 8492.052923011177,
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "display_value": "600\u00a0ms",
+          "numeric_value": 599,
+          "score": 0.04
+        },
+        "speed-index": {
+          "display_value": "7.4\u00a0s",
+          "numeric_value": 7408.583826491906,
+          "score": 0.27
+        },
+        "total-blocking-time": {
+          "display_value": "670\u00a0ms",
+          "numeric_value": 673.5,
+          "score": 0.44
+        }
+      },
+      "origin_loading_experience": {
+        "metrics": {
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": {
+            "category": "FAST",
+            "percentile": 7
+          },
+          "EXPERIMENTAL_TIME_TO_FIRST_BYTE": {
+            "category": "FAST",
+            "percentile": 442
+          },
+          "FIRST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1176
+          },
+          "INTERACTION_TO_NEXT_PAINT": {
+            "category": "FAST",
+            "percentile": 170
+          },
+          "LARGEST_CONTENTFUL_PAINT_MS": {
+            "category": "FAST",
+            "percentile": 1707
+          }
+        },
+        "overall_category": "FAST"
+      },
+      "service": "pagespeed",
+      "strategy": "mobile",
+      "url": "https://inc5shop.com/"
+    },
+    "service": "core_web_vitals",
+    "url": "https://inc5shop.com/"
+  }
+}
