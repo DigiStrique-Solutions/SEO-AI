@@ -1,0 +1,310 @@
+[
+  {
+    "row": 8,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/l-blouse-16831-21556-maroon",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/l-blouse-16831-21556-maroon"
+  },
+  {
+    "row": 8,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-maroon",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-maroon"
+  },
+  {
+    "row": 69,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/l-blouse-17930-21756-pink",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/l-blouse-17930-21756-pink"
+  },
+  {
+    "row": 69,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-pink",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/womens-cotton-regular-fit-blouse-pink"
+  },
+  {
+    "row": 87,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/l-culotte-16778-21861-olive",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/l-culotte-16778-21861-olive"
+  },
+  {
+    "row": 87,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-olive",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-culotte-olive"
+  },
+  {
+    "row": 198,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/l-tshirt-17428-21725-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/l-tshirt-17428-21725-brown"
+  },
+  {
+    "row": 198,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-brown"
+  },
+  {
+    "row": 207,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/l-tshirt-17724-21723-lavender",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/l-tshirt-17724-21723-lavender"
+  },
+  {
+    "row": 207,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-tshirt-lavender"
+  },
+  {
+    "row": 232,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-pants-16181-21751-beige",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-pants-16181-21751-beige"
+  },
+  {
+    "row": 232,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-beige",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-beige"
+  },
+  {
+    "row": 238,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-pants-16480-21752-navy",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-pants-16480-21752-navy"
+  },
+  {
+    "row": 238,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-navy",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-pant-navy"
+  },
+  {
+    "row": 265,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shirts-16731-21614-blue",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shirts-16731-21614-blue"
+  },
+  {
+    "row": 265,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-blue",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-blue"
+  },
+  {
+    "row": 270,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shirts-17351-21614-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shirts-17351-21614-black"
+  },
+  {
+    "row": 270,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-black"
+  },
+  {
+    "row": 282,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shirts-17887-21662-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shirts-17887-21662-brown"
+  },
+  {
+    "row": 282,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-brown"
+  },
+  {
+    "row": 314,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shirts-50019-21742-green",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shirts-50019-21742-green"
+  },
+  {
+    "row": 314,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-green",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-green"
+  },
+  {
+    "row": 324,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shirts-50020-21743-lilac",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shirts-50020-21743-lilac"
+  },
+  {
+    "row": 324,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-lilac",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-lilac"
+  },
+  {
+    "row": 334,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shorts-16367-21752-navy",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shorts-16367-21752-navy"
+  },
+  {
+    "row": 334,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-navy",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-linen-regular-fit-short-navy"
+  },
+  {
+    "row": 340,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shorts-17893-21700-beige",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shorts-17893-21700-beige"
+  },
+  {
+    "row": 340,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-beige",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-beige"
+  },
+  {
+    "row": 341,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-shorts-17893-21700-grey",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-shorts-17893-21700-grey"
+  },
+  {
+    "row": 341,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-grey",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-short-grey"
+  },
+  {
+    "row": 344,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-15906-21725-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-15906-21725-brown"
+  },
+  {
+    "row": 344,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-brown"
+  },
+  {
+    "row": 346,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-15906-21725-green",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-15906-21725-green"
+  },
+  {
+    "row": 346,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-green",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-green"
+  },
+  {
+    "row": 347,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-15906-21725-khaki",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-15906-21725-khaki"
+  },
+  {
+    "row": 347,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-khaki",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-khaki"
+  },
+  {
+    "row": 351,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-16319-21767-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-16319-21767-black"
+  },
+  {
+    "row": 351,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-black"
+  },
+  {
+    "row": 354,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-16319-21799-sand",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-16319-21799-sand"
+  },
+  {
+    "row": 354,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-sand",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-sand"
+  },
+  {
+    "row": 358,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-17091-21646-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-17091-21646-black"
+  },
+  {
+    "row": 358,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-black",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-black"
+  },
+  {
+    "row": 370,
+    "kind": "original",
+    "url": "https://cottonworld.net/products/m-tshirt-17091-21723-olive",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/m-tshirt-17091-21723-olive"
+  },
+  {
+    "row": 370,
+    "kind": "proposed",
+    "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive",
+    "status": 200,
+    "final_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-olive"
+  }
+]

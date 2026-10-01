@@ -1,0 +1,342 @@
+{
+  "source_absent_count": 23,
+  "proposed_absent_count": 366,
+  "results": [
+    {
+      "kind": "original_absent",
+      "row": 7,
+      "url": "https://cottonworld.net/products/l-blouse-16403-21613-white",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-16403-21613-white"
+    },
+    {
+      "kind": "original_absent",
+      "row": 9,
+      "url": "https://cottonworld.net/products/l-blouse-16831-21556-mustard",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-16831-21556-mustard"
+    },
+    {
+      "kind": "original_absent",
+      "row": 10,
+      "url": "https://cottonworld.net/products/l-blouse-17011-21693-blue",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-17011-21693-blue"
+    },
+    {
+      "kind": "original_absent",
+      "row": 14,
+      "url": "https://cottonworld.net/products/l-blouse-17211-21556-lilac",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-17211-21556-lilac"
+    },
+    {
+      "kind": "original_absent",
+      "row": 16,
+      "url": "https://cottonworld.net/products/l-blouse-17211-21556-yellow",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-17211-21556-yellow"
+    },
+    {
+      "kind": "original_absent",
+      "row": 22,
+      "url": "https://cottonworld.net/products/l-blouse-17375-21559-white",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-17375-21559-white"
+    },
+    {
+      "kind": "original_absent",
+      "row": 24,
+      "url": "https://cottonworld.net/products/l-blouse-17539-21197-navy",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-blouse-17539-21197-navy"
+    },
+    {
+      "kind": "original_absent",
+      "row": 90,
+      "url": "https://cottonworld.net/products/l-culotte-17829-21656-denim",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-culotte-17829-21656-denim"
+    },
+    {
+      "kind": "original_absent",
+      "row": 103,
+      "url": "https://cottonworld.net/products/l-dress-17860-21714-grey",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-dress-17860-21714-grey"
+    },
+    {
+      "kind": "original_absent",
+      "row": 106,
+      "url": "https://cottonworld.net/products/l-dress-17880-21619-olive",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-dress-17880-21619-olive"
+    },
+    {
+      "kind": "original_absent",
+      "row": 107,
+      "url": "https://cottonworld.net/products/l-dress-17894-21658-blue",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-dress-17894-21658-blue"
+    },
+    {
+      "kind": "original_absent",
+      "row": 133,
+      "url": "https://cottonworld.net/products/l-pants-17769-21737-sage",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-pants-17769-21737-sage"
+    },
+    {
+      "kind": "original_absent",
+      "row": 165,
+      "url": "https://cottonworld.net/products/l-tshirt-11670-21679-natural",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-11670-21679-natural"
+    },
+    {
+      "kind": "original_absent",
+      "row": 166,
+      "url": "https://cottonworld.net/products/l-tshirt-11670-21682-ecru-melan",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-11670-21682-ecru-melan"
+    },
+    {
+      "kind": "original_absent",
+      "row": 175,
+      "url": "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-16727-21681-green"
+    },
+    {
+      "kind": "original_absent",
+      "row": 176,
+      "url": "https://cottonworld.net/products/l-tshirt-16727-21683-white",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-16727-21683-white"
+    },
+    {
+      "kind": "original_absent",
+      "row": 184,
+      "url": "https://cottonworld.net/products/l-tshirt-17427-21628-green",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-17427-21628-green"
+    },
+    {
+      "kind": "original_absent",
+      "row": 199,
+      "url": "https://cottonworld.net/products/l-tshirt-17428-21725-dk-green",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-17428-21725-dk-green"
+    },
+    {
+      "kind": "original_absent",
+      "row": 201,
+      "url": "https://cottonworld.net/products/l-tshirt-17523-21765-pink",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-tshirt-17523-21765-pink"
+    },
+    {
+      "kind": "original_absent",
+      "row": 214,
+      "url": "https://cottonworld.net/products/l-waistcoat-17574-21344-olive",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/l-waistcoat-17574-21344-olive"
+    },
+    {
+      "kind": "original_absent",
+      "row": 219,
+      "url": "https://cottonworld.net/products/m-pants-11743-21487-olive",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/m-pants-11743-21487-olive"
+    },
+    {
+      "kind": "original_absent",
+      "row": 240,
+      "url": "https://cottonworld.net/products/m-pants-17138-21603-offwhite",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/m-pants-17138-21603-offwhite"
+    },
+    {
+      "kind": "original_absent",
+      "row": 380,
+      "url": "https://cottonworld.net/products/m-tshirt-17218-21119-green",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/m-tshirt-17218-21119-green"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 2,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-pink",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-pink"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 18,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-boxy-fit-blouse-maroon",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-lycra-boxy-fit-blouse-maroon"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 32,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-coral",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-coral"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 46,
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-shirt-collar-rose",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-shirt-collar-rose"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 60,
+      "url": "https://cottonworld.net/products/womens-linen-relax-fit-blouse-orange",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-relax-fit-blouse-orange"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 75,
+      "url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-band-collar-beige",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-boxy-fit-blouse-band-collar-beige"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 90,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-denim",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-regular-fit-culotte-denim"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 104,
+      "url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-olive",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-lycra-regular-fit-dress-olive"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 118,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-natural",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-knit-dress-natural"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 132,
+      "url": "https://cottonworld.net/products/womens-linen-viscose-barrel-leg-pant-white",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-linen-viscose-barrel-leg-pant-white"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 146,
+      "url": "https://cottonworld.net/products/womens-cotton-wide-leg-pant-denim-blue",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-wide-leg-pant-denim-blue"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 160,
+      "url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-multi",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-regular-fit-short-multi"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 174,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-floral-graphic-natural",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-floral-graphic-natural"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 188,
+      "url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-plain-natural",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-plain-natural"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 204,
+      "url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-grey",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/womens-cotton-elastane-regular-fit-tshirt-grey"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 220,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-beige",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-cotton-lycra-regular-fit-pant-beige"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 235,
+      "url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-khaki",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-cotton-lycra-slim-fit-pant-khaki"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 250,
+      "url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-yellow",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-tencel-linen-regular-fit-shirt-yellow"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 264,
+      "url": "https://cottonworld.net/products/mens-cotton-viscose-regular-fit-shirt-navy",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-cotton-viscose-regular-fit-shirt-navy"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 280,
+      "url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-navy",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-linen-cotton-regular-fit-shirt-regular-collar-navy"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 295,
+      "url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-wine",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-cotton-regular-fit-shirt-wine"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 309,
+      "url": "https://cottonworld.net/products/mens-modal-regular-fit-shirt-green",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-modal-regular-fit-shirt-green"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 325,
+      "url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-navy",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-linen-regular-fit-shirt-navy"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 342,
+      "url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-solid-black",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-organic-cotton-regular-fit-tshirt-solid-black"
+    },
+    {
+      "kind": "proposed_absent_sample",
+      "row": 362,
+      "url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-teal",
+      "status": 404,
+      "final_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-teal"
+    }
+  ]
+}

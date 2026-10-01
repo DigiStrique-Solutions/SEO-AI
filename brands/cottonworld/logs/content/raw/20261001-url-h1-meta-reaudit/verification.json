@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-01",
+  "sheet": "Boltworks sheet",
+  "spreadsheetId": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "rowsAudited": 392,
+  "inSheetDuplicateGroups": {
+    "originalURLs": 0,
+    "proposedURLs": 0,
+    "h1": 0,
+    "metaTitles": 0,
+    "metaDescriptions": 0
+  },
+  "urlH1Mismatches": 0,
+  "h1MetaTitleMismatches": 0,
+  "malformedProposedURLs": 0,
+  "productCodesOrBuyInTitles": 0,
+  "productCodesInDescriptions": 0,
+  "descriptionsOver160": 0,
+  "sourceProductsInCurrentCatalog": 369,
+  "proposedHandlesInCurrentCatalog": 26,
+  "originalUrls404": {
+    "count": 23,
+    "rows": [
+      7,
+      9,
+      10,
+      14,
+      16,
+      22,
+      24,
+      90,
+      103,
+      106,
+      107,
+      133,
+      165,
+      166,
+      175,
+      176,
+      184,
+      199,
+      201,
+      214,
+      219,
+      240,
+      380
+    ]
+  },
+  "proposedHandlesAbsentFromCurrentCatalog": 366,
+  "absentProposedSample": {
+    "tested": 25,
+    "http404": 25
+  },
+  "occupiedProposedHandles": {
+    "count": 22,
+    "rows": [
+      8,
+      69,
+      87,
+      198,
+      207,
+      232,
+      238,
+      265,
+      270,
+      282,
+      314,
+      324,
+      334,
+      340,
+      341,
+      344,
+      346,
+      347,
+      351,
+      354,
+      358,
+      370
+    ],
+    "bothOriginalAndProposedHttp200": 22,
+    "differentProductIds": 22,
+    "sharedImagePairs": 0,
+    "sharedSkuPairs": 0
+  },
+  "merchantAttributeConflicts": [
+    {
+      "row": 169,
+      "issue": "Title/body say cotton; tag says organic cotton"
+    },
+    {
+      "row": 370,
+      "issue": "Body says brown; title/tags say olive"
+    }
+  ],
+  "staleOriginalUnavailableStatusesCorrected": [
+    12,
+    13,
+    26,
+    39,
+    70
+  ],
+  "reviewStatusesUpdated": 50,
+  "reviewStatusColumnVisible": true,
+  "visualCheck": "Google Sheets at 100% zoom: Review status header and wrapped QA flags visible in column I; neighboring columns preserved.",
+  "postwriteUnexpectedCellChanges": 0,
+  "unchangedColumns": "A:H",
+  "nextAction": "Merchant/site owner must assign unique product-specific handles for occupied URLs, verify products at 404 originals, publish or redirect approved handles, and resolve source fact conflicts."
+}
