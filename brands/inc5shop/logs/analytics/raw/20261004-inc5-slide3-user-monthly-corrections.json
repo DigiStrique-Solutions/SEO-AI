@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-04T14:15:14.625Z",
+  "source": "User instruction in current Codex chat",
+  "brand": "inc5shop",
+  "artifact": "Google Slides presentation 1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8, slide hd0eeda7b567eeae_1_0",
+  "scope": "2026 Organic Search monthly total users",
+  "status": "user_supplied_unverified",
+  "values": {
+    "February": 19567,
+    "March": 21323,
+    "April": 23376,
+    "May": 18700,
+    "September": 27200
+  },
+  "interpretation_note": "User wrote 'Match', interpreted as March because it appears in the month sequence.",
+  "calculation": "Monthly YoY recalculated against unchanged GA4 2025 monthly values. GA4 reported period totals left unchanged because distinct users are non-additive across months."
+}
