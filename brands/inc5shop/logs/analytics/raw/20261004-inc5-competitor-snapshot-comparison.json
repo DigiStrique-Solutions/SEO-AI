@@ -1,0 +1,82 @@
+{
+  "captured_at": "2026-10-04T17:17:09.223Z",
+  "brand": "inc5shop",
+  "source": "two images supplied by the user in the current chat",
+  "source_files": [
+    "codex-clipboard-020278a6-7b41-4b17-baa3-3f262e96aa49.png",
+    "codex-clipboard-d24a331a-1aab-4a24-997c-b939f9c409ff.png"
+  ],
+  "artifact": "Google Slides 1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8 slide p3",
+  "snapshot_labels": [
+    "2025",
+    "2026"
+  ],
+  "date_precision": "year labels only; no capture dates or six-month interval shown",
+  "common_brands": [
+    {
+      "brand": "Inc5",
+      "year2025": {
+        "authority": 35,
+        "organic_traffic_k": 239,
+        "ranking_keywords_k": 7.7
+      },
+      "year2026": {
+        "authority": 42,
+        "organic_traffic_k": 308.5,
+        "ranking_keywords_k": 15
+      },
+      "change": {
+        "authority_points": 7,
+        "organic_traffic_k": 69.5,
+        "organic_traffic_percent": 29.1,
+        "ranking_keywords_k": 7.3,
+        "ranking_keywords_percent": 94.8
+      }
+    },
+    {
+      "brand": "Mochi",
+      "year2025": {
+        "authority": 51,
+        "organic_traffic_k": 938.6,
+        "ranking_keywords_k": 51.7
+      },
+      "year2026": {
+        "authority": 48,
+        "organic_traffic_k": 739.9,
+        "ranking_keywords_k": 35
+      },
+      "change": {
+        "authority_points": -3,
+        "organic_traffic_k": -198.7,
+        "organic_traffic_percent": -21.2,
+        "ranking_keywords_k": -16.7,
+        "ranking_keywords_percent": -32.3
+      }
+    },
+    {
+      "brand": "Metro",
+      "year2025": {
+        "authority": 48,
+        "organic_traffic_k": 563.6,
+        "ranking_keywords_k": 26.5
+      },
+      "year2026": {
+        "authority": 48,
+        "organic_traffic_k": 589.5,
+        "ranking_keywords_k": 36
+      },
+      "change": {
+        "authority_points": 0,
+        "organic_traffic_k": 25.9,
+        "organic_traffic_percent": 4.6,
+        "ranking_keywords_k": 9.5,
+        "ranking_keywords_percent": 35.8
+      }
+    }
+  ],
+  "year2026_only_brands": [
+    "Eridani",
+    "The Cai Store"
+  ],
+  "method": "Traffic and keyword values are screenshot estimates; changes computed as (2026 - 2025) / 2025 for brands with both snapshots. No six-month trend is inferred."
+}
