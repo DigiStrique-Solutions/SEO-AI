@@ -1,0 +1,29 @@
+{
+  "captured_at": "2026-10-04T14:20:46.668Z",
+  "brand": "inc5shop",
+  "artifact": "Google Slides 1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8 slide hd0eeda7b567eeae_1_0",
+  "source_refs": [
+    "raw/20261004-inc5-organic-users-yoy.json",
+    "raw/20261004-inc5-slide3-user-monthly-corrections.json"
+  ],
+  "metric": "Organic Search total users, all countries",
+  "calculation_type": "user_requested_adjusted_estimate",
+  "ga4_2026_jan_sep_distinct_users": 201073,
+  "monthly_changes": {
+    "February": 1232,
+    "March": 979,
+    "April": 4105,
+    "May": 592,
+    "September": 1910
+  },
+  "sum_monthly_changes": 8818,
+  "adjusted_2026_estimate": 209891,
+  "ga4_2025_full_year_distinct_users": 233524,
+  "ga4_2025_jan_sep_distinct_users": 169621,
+  "insights": {
+    "full_year_2025_reached_percent": 89.9,
+    "remaining_to_match_2025_full_year": 23633,
+    "adjusted_jan_sep_yoy_percent": 23.7
+  },
+  "limitation": "Monthly totalUsers counts overlap across months. Adding monthly deltas to a distinct-user period total does not produce a deduplicated GA4 total. The adjusted 2026 figure and dependent insights are estimates, not reported GA4 metrics."
+}
