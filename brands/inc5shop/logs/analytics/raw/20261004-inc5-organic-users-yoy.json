@@ -1,0 +1,498 @@
+{
+  "captured_at": "2026-10-04T14:04:45.210Z",
+  "property": "properties/279354457",
+  "channel_filter": {
+    "sessionDefaultChannelGroup": "Organic Search"
+  },
+  "geography": "all countries (no country filter)",
+  "source": "Composio GOOGLE_ANALYTICS_RUN_REPORT",
+  "queries": [
+    {
+      "period": "2025-01-01..2025-12-31",
+      "dimensions": [
+        "month"
+      ],
+      "metrics": [
+        "totalUsers",
+        "sessions"
+      ],
+      "metricAggregations": [
+        "TOTAL"
+      ],
+      "response": {
+        "successful": true,
+        "data": {
+          "dimensionHeaders": [
+            {
+              "name": "month"
+            }
+          ],
+          "kind": "analyticsData#runReport",
+          "metadata": {
+            "currencyCode": "INR",
+            "timeZone": "Asia/Calcutta"
+          },
+          "metricHeaders": [
+            {
+              "name": "totalUsers",
+              "type": "TYPE_INTEGER"
+            },
+            {
+              "name": "sessions",
+              "type": "TYPE_INTEGER"
+            }
+          ],
+          "rowCount": 12,
+          "rows": [
+            {
+              "dimensionValues": [
+                {
+                  "value": "04"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "26769"
+                },
+                {
+                  "value": "33554"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "12"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "26212"
+                },
+                {
+                  "value": "34293"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "01"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "23837"
+                },
+                {
+                  "value": "32990"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "11"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "22450"
+                },
+                {
+                  "value": "27980"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "03"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "22172"
+                },
+                {
+                  "value": "27051"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "05"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "19324"
+                },
+                {
+                  "value": "24882"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "02"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "18395"
+                },
+                {
+                  "value": "24064"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "08"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "18197"
+                },
+                {
+                  "value": "24720"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "06"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "18058"
+                },
+                {
+                  "value": "23588"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "10"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "17537"
+                },
+                {
+                  "value": "20337"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "07"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "15706"
+                },
+                {
+                  "value": "21037"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "09"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "15013"
+                },
+                {
+                  "value": "19837"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "dimensionValues": [
+                {
+                  "value": "RESERVED_TOTAL"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "233524"
+                },
+                {
+                  "value": "318184"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "period": "2026-01-01..2026-09-30",
+      "dimensions": [
+        "month"
+      ],
+      "metrics": [
+        "totalUsers",
+        "sessions"
+      ],
+      "metricAggregations": [
+        "TOTAL"
+      ],
+      "response": {
+        "successful": true,
+        "data": {
+          "dimensionHeaders": [
+            {
+              "name": "month"
+            }
+          ],
+          "kind": "analyticsData#runReport",
+          "metadata": {
+            "currencyCode": "INR",
+            "timeZone": "Asia/Calcutta"
+          },
+          "metricHeaders": [
+            {
+              "name": "totalUsers",
+              "type": "TYPE_INTEGER"
+            },
+            {
+              "name": "sessions",
+              "type": "TYPE_INTEGER"
+            }
+          ],
+          "rowCount": 9,
+          "rows": [
+            {
+              "dimensionValues": [
+                {
+                  "value": "08"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "28257"
+                },
+                {
+                  "value": "33905"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "07"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "27037"
+                },
+                {
+                  "value": "32952"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "09"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "25290"
+                },
+                {
+                  "value": "30247"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "01"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "24724"
+                },
+                {
+                  "value": "32125"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "06"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "23976"
+                },
+                {
+                  "value": "28324"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "03"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "20344"
+                },
+                {
+                  "value": "24176"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "04"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "19271"
+                },
+                {
+                  "value": "22205"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "02"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "18335"
+                },
+                {
+                  "value": "23160"
+                }
+              ]
+            },
+            {
+              "dimensionValues": [
+                {
+                  "value": "05"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "18108"
+                },
+                {
+                  "value": "21493"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "dimensionValues": [
+                {
+                  "value": "RESERVED_TOTAL"
+                }
+              ],
+              "metricValues": [
+                {
+                  "value": "201073"
+                },
+                {
+                  "value": "245455"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "period": "2025-01-01..2025-09-30",
+      "dimensions": [],
+      "metrics": [
+        "totalUsers",
+        "sessions"
+      ],
+      "metricAggregations": [
+        "TOTAL"
+      ],
+      "response": {
+        "successful": true,
+        "data": {
+          "kind": "analyticsData#runReport",
+          "metadata": {
+            "currencyCode": "INR",
+            "timeZone": "Asia/Calcutta"
+          },
+          "metricHeaders": [
+            {
+              "name": "totalUsers",
+              "type": "TYPE_INTEGER"
+            },
+            {
+              "name": "sessions",
+              "type": "TYPE_INTEGER"
+            }
+          ],
+          "rowCount": 1,
+          "rows": [
+            {
+              "metricValues": [
+                {
+                  "value": "169621"
+                },
+                {
+                  "value": "235892"
+                }
+              ]
+            }
+          ],
+          "totals": [
+            {
+              "metricValues": [
+                {
+                  "value": "169621"
+                },
+                {
+                  "value": "235892"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
