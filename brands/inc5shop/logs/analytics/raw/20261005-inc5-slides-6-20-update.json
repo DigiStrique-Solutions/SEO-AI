@@ -1,0 +1,35 @@
+{
+  "captured_at": "2026-10-04T18:40:04Z",
+  "run_id": "inc5shop-slides-6-20-update-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "source_refs": [
+    "Google Slides Inc5 SEO Report 2026, native slide objects and rendered thumbnails",
+    "brands/inc5shop/logs/analytics/raw/20261004-inc5-keyword-slides-5-9-comparison.json",
+    "brands/inc5shop/logs/analytics/raw/20261004-inc5-competitor-snapshot-comparison.json",
+    "brands/inc5shop/logs/audits/raw/20261001-cwv-home-mobile.json",
+    "brands/inc5shop/logs/audits/raw/20261001-cwv-womens-heels-mobile.json",
+    "https://web.dev/articles/vitals",
+    "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+    "https://developers.google.com/search/docs/essentials/spam-policies"
+  ],
+  "slide_updates": [
+    { "slide": 6, "object_id": "h1acdf22918428ac0_0_595", "action": "restyle", "note": "Recolored existing content to purple deck palette and reproduced the existing strike-zone text in a native purple panel. The 27.17% search visibility value was retained pending the user's replacement value." },
+    { "slide": 11, "object_id": "h1acdf22918428ac0_13_0", "action": "add_insights_keep_layout_screenshot", "note": "Rendered layout contains supplied Lighthouse and GTmetrix screenshot, even though slide pageElements is empty. Added CrUX mobile field p75 status and kept screenshot visible." },
+    { "slide": 12, "object_id": "p4", "action": "replace_stale_analysis", "note": "Used the slide 5 sample: 12/15 top-three and 8/15 number-one positions; highlighted five supplied commercial terms." },
+    { "slide": 13, "object_id": "p5", "action": "replace_stale_analysis", "note": "Used slide 4 modeled organic traffic and keyword snapshot: Inc5 15K/308.5K, Mochi 35K/739.9K, Metro 36K/589.5K." },
+    { "slide": 15, "object_id": "p7", "action": "reframe_keyword_overlap", "note": "Retained and displayed supplied Semrush overlap screenshot; removed unsupported traffic-per-keyword superiority claim." },
+    { "slide": 16, "object_id": "g3c4ab971a6d_0_0", "action": "restyle_ai_visibility", "note": "Kept three supplied screenshots. Separated 430-mention summary panel from 331-mention distribution view rather than combining their totals." },
+    { "slide": 17, "object_id": "h1acdf22918428ac0_0_2", "action": "annotate_chatgpt_journey", "note": "Kept three supplied ChatGPT screenshots and labeled the best heels for women prompt, Inc5 shortlist mention, and follow-up product consideration as one captured conversation." },
+    { "slide": 18, "object_id": "p8", "action": "replace_stale_projection", "note": "Replaced unsupported fixed traffic forecast with proposed 90-day category and measurement plan." },
+    { "slide": 19, "object_id": "p9", "action": "paid_pr_plan", "note": "Added editorial, paid PR and earned-link plan. Paid links are qualified with rel=sponsored or nofollow in line with Google Search Central." },
+    { "slide": 20, "object_id": "inc5_final_thankyou", "action": "add_closing_slide", "note": "Duplicated title-slide design and added Thank you page at the end." }
+  ],
+  "cwv_mobile_field_p75": {
+    "period": "2026-09-01 to 2026-09-28",
+    "homepage": { "lcp_ms": 1593, "inp_ms": 161, "cls": 0.04, "status": "good" },
+    "womens_heels_collection": { "lcp_ms": 1681, "inp_ms": 145, "cls": 0.04, "status": "good" },
+    "lab_caveat": "Mobile Lighthouse performance was 47 on the homepage and 46 on the heels collection in the 2026-10-01 runs. Field and lab measurements are distinct."
+  },
+  "verification": "Connector slide outline confirmed 20 slides and final Thank you at position 20. Rendered thumbnails of slides 6, 11, 12, 13, 15, 16, 17, 18, 19 and 20 were inspected after edits.",
+  "pending": "User said they will provide a replacement search visibility percentage for slide 6; current displayed value remains 27.17%."
+}
