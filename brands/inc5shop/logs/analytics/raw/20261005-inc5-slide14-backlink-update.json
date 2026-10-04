@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-04T19:16:59Z",
+  "run_id": "inc5shop-slide14-backlink-update-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "slide_object_id": "p6",
+  "source_image": "20261005-inc5-backlink-competitor-screenshot.png",
+  "source_image_sha256": "AEA0A4E52658F3ACC95A388118D7F124A07BE989F411E372A3D4B49676DD0FC5",
+  "source_image_backlink_counts": {
+    "Inc5": "2.3K",
+    "Mochi": "10.7K",
+    "Metro": "473K",
+    "Eridani": "1.8K",
+    "The Cai Store": "4.3K"
+  },
+  "user_supplied_updated_inc5_backlink_count": "7.5K",
+  "change": "Replaced stale slide 14 comparison table and commentary with the supplied Semrush screenshot, a prominent user-provided 7.5K Inc5 backlink count, and a note distinguishing the screenshot's earlier 2.3K capture.",
+  "verification": "Google Slides get_slide readback confirmed the screenshot and 7.5K text; fresh slide thumbnail was visually inspected.",
+  "provenance_status": "7.5K is user supplied and has no corroborating updated Semrush export"
+}
