@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-10-04T19:44:44Z",
+  "run_id": "inc5shop-slides-16-18-ai-reconciliation-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "source_image": "20261005-inc5-ai-visibility-dashboard.png",
+  "source_image_sha256": "B49E2E3D03B7DB192B8E1BC7E3DDAC6ED10FBA5955C908A4DCE1D21D0E1DD3F7",
+  "source_values": {
+    "ai_visibility_score": "38/100",
+    "visibility_label": "Medium",
+    "monthly_audience": "260.2K",
+    "mentions": 430,
+    "cited_pages": 128,
+    "mentions_by_platform": {
+      "ChatGPT": 103,
+      "AI Overview": 12,
+      "AI Mode": 35,
+      "Gemini": 280
+    }
+  },
+  "slide_updates": [
+    {
+      "slide": 16,
+      "object_id": "g3c4ab971a6d_0_0",
+      "change": "Removed two older images reporting 331 mentions, 744 citations and 444 cited pages. Preserved the supplied 430-mention screenshot and created native summary and distribution charts from it; aligned the side text and source note."
+    },
+    {
+      "slide": 18,
+      "object_id": "p8",
+      "change": "Updated the 90-day plan baseline with the slide 16 AI snapshot and the user-reported 7.5K backlink figure from slide 14; adjusted actions and measurement to include AI citations and validated referring domains."
+    }
+  ],
+  "other_baselines": {
+    "ranking_terms": "15K (slide 4 competitor snapshot)",
+    "estimated_organic_visits": "308.5K (slide 4 competitor snapshot)",
+    "backlinks": "7.5K (user supplied; underlying updated export not yet verified)"
+  },
+  "verification": "The four platform mention counts sum to 430. Google Slides readback found one screenshot on slide 16, no residual 331 or 744 text, and 430 on slides 16 and 18. Fresh LARGE thumbnails of both slides were visually inspected."
+}
