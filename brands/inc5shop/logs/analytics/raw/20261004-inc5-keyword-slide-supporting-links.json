@@ -1,0 +1,50 @@
+{
+  "captured_at": "2026-10-04T17:49:45Z",
+  "run_id": "inc5shop-keyword-slide-supporting-links-20261004",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "source": "Eight user-supplied Semrush Organic Positions XLSX exports",
+  "method": "Converted each XLSX to a native Google Sheet. Created one Google Doc per competitor with the six rows displayed in each slide view, the original export filenames, and native links to both complete Sheets. Added a clickable supporting-document link to each matching slide.",
+  "verified": "Slide link targets and document source links confirmed through Google Slides and Docs connector readback; spreadsheet titles and tabs confirmed through Google Sheets metadata readback.",
+  "slides": [
+    {
+      "slide": 6,
+      "brand": "Mochi",
+      "slide_object_id": "hd0eeda7b567eeae_8_17",
+      "document_url": "https://docs.google.com/document/d/1qp3o2wN8Bm2bFB99TrACfFZx5hNOSzejMZrJyojF4kQ/edit",
+      "volume_source_file": "mochishoes.com-organic.Positions-in-20261003-2026-10-04T07_20_39Z.xlsx",
+      "volume_sheet_url": "https://docs.google.com/spreadsheets/d/1MGQWxdUPZ5WqiiCN-wY2qP_Rt3TelWHzvHrAzva1MAE/edit",
+      "ranking_source_file": "mochishoes.com-organic.Positions-in-20261003-2026-10-04T07_21_39Z.xlsx",
+      "ranking_sheet_url": "https://docs.google.com/spreadsheets/d/1DmFX6ef3f7TGz7oB2r9qTuqF_xIYLz06T4Ogo0U7kns/edit"
+    },
+    {
+      "slide": 7,
+      "brand": "Metro",
+      "slide_object_id": "hd0eeda7b567eeae_8_25",
+      "document_url": "https://docs.google.com/document/d/193PSbxw1FVwUWRmw1BbcwkH9eF8y7gYE2-O4-fMjDyg/edit",
+      "volume_source_file": "metroshoes.com-organic.Positions-in-20261003-2026-10-04T07_16_28Z.xlsx",
+      "volume_sheet_url": "https://docs.google.com/spreadsheets/d/1OzqgfU4sjcS7gnxlYB6CMHs3mlaNQtR98100HtB0hsQ/edit",
+      "ranking_source_file": "https___www.metroshoes.com_-organic.Positions-in-20261003-2026-10-04T07_26_07Z.xlsx",
+      "ranking_sheet_url": "https://docs.google.com/spreadsheets/d/1vZLrywlM2nSuS3zPCXGPwDmCzCCxdyz7GUU1AuInORY/edit"
+    },
+    {
+      "slide": 8,
+      "brand": "Eridani",
+      "slide_object_id": "hd0eeda7b567eeae_8_43",
+      "document_url": "https://docs.google.com/document/d/1q1ZR7oueadbuL3xhm96ofjNslcgc_bNHxc0PYqHhAak/edit",
+      "volume_source_file": "https___eridani.in_-organic.Positions-in-20261003-2026-10-04T07_28_18Z.xlsx",
+      "volume_sheet_url": "https://docs.google.com/spreadsheets/d/1AMYZnPyfAUDiliKBqiMXhyF7P7jFsDeG02Rr7VH_ylw/edit",
+      "ranking_source_file": "https___eridani.in_-organic.Positions-in-20261003-2026-10-04T07_29_01Z.xlsx",
+      "ranking_sheet_url": "https://docs.google.com/spreadsheets/d/1oW3t9vCVOpKbCUhiO4HsNUlnMrXVsr5eicrfAHE3io0/edit"
+    },
+    {
+      "slide": 9,
+      "brand": "The Cai Store",
+      "slide_object_id": "hd0eeda7b567eeae_8_34",
+      "document_url": "https://docs.google.com/document/d/1X7YbxxxdEjkuQH4OZrtg2JHK8UBy30BS7GXiFHh7z1c/edit",
+      "volume_source_file": "https___thecaistore.com_-organic.Positions-in-20261003-2026-10-04T07_34_19Z.xlsx",
+      "volume_sheet_url": "https://docs.google.com/spreadsheets/d/1-xdGxKXcL_RBGR7fRhqyRK6gnKxnGuixpgp157P-nL4/edit",
+      "ranking_source_file": "https___thecaistore.com_-organic.Positions-in-20261003-2026-10-04T07_35_03Z.xlsx",
+      "ranking_sheet_url": "https://docs.google.com/spreadsheets/d/1Z4i87xBdTR7ZEh-q6uzqPN7K4li0-38CAn_ocPy_4VQ/edit"
+    }
+  ]
+}
