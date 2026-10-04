@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-04T18:45:15Z",
+  "run_id": "inc5shop-slide6-visibility-override-20261005",
+  "source": "User-provided value in current conversation",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "slide_object_id": "h1acdf22918428ac0_0_595",
+  "metric_object_id": "h1acdf22918428ac0_0_614",
+  "metric": "Search visibility",
+  "previous_displayed_value": "27.17%",
+  "new_displayed_value": "38%",
+  "verification": "Google Slides replaceAllText reported one occurrence changed; get_slide readback returned 38% in the metric object.",
+  "provenance_status": "user_supplied; underlying calculation not independently verified"
+}
