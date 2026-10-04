@@ -1,0 +1,439 @@
+{
+  "captured_at": "2026-10-04T17:34:02.773Z",
+  "brand": "inc5shop",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "source": {
+    "slide5_workbook": "C:/Users/User/Downloads/Inc5 vs Comp Keywords.xlsx",
+    "slide5_image_ref": "raw/20261004-keyword-slide-images/inc5_slide5_before.png",
+    "competitor_image_refs": {
+      "Mochi": {
+        "volume": "raw/20261004-keyword-slide-images/inc5_slide6_img1.png",
+        "rank": "raw/20261004-keyword-slide-images/inc5_slide6_img2.png"
+      },
+      "Metro": {
+        "rank": "raw/20261004-keyword-slide-images/inc5_slide7_img1.png",
+        "volume": "raw/20261004-keyword-slide-images/inc5_slide7_img2.png"
+      },
+      "Eridani": {
+        "rank": "raw/20261004-keyword-slide-images/inc5_slide8_img1.png",
+        "volume": "raw/20261004-keyword-slide-images/inc5_slide8_img2.png"
+      },
+      "The Cai Store": {
+        "rank": "raw/20261004-keyword-slide-images/inc5_slide9_img1.png",
+        "volume": "raw/20261004-keyword-slide-images/inc5_slide9_img2.png"
+      }
+    }
+  },
+  "slide5": {
+    "slide_object_id": "hd0eeda7b567eeae_8_0",
+    "rows": [
+      {
+        "keyword": "heels for women",
+        "inc5": 1,
+        "mochi": 27,
+        "metro": 29,
+        "eridani": 1,
+        "volume": 201000
+      },
+      {
+        "keyword": "womens sandals",
+        "inc5": 1,
+        "mochi": 1,
+        "metro": 3,
+        "eridani": "-",
+        "volume": 201000
+      },
+      {
+        "keyword": "boots for women",
+        "inc5": 2,
+        "mochi": 1,
+        "metro": 27,
+        "eridani": "-",
+        "volume": 135000
+      },
+      {
+        "keyword": "sandals for women",
+        "inc5": 3,
+        "mochi": 1,
+        "metro": 21,
+        "eridani": "-",
+        "volume": 110000
+      },
+      {
+        "keyword": "flats for women",
+        "inc5": 5,
+        "mochi": 27,
+        "metro": 19,
+        "eridani": "-",
+        "volume": 74000
+      },
+      {
+        "keyword": "footwear for women",
+        "inc5": 2,
+        "mochi": 23,
+        "metro": 27,
+        "eridani": "-",
+        "volume": 60500
+      },
+      {
+        "keyword": "wedges for women",
+        "inc5": 1,
+        "mochi": 15,
+        "metro": 1,
+        "eridani": 1,
+        "volume": 49500
+      },
+      {
+        "keyword": "mens leather sandals",
+        "inc5": 6,
+        "mochi": 17,
+        "metro": 14,
+        "eridani": "-",
+        "volume": 40500
+      },
+      {
+        "keyword": "transparent heels",
+        "inc5": 1,
+        "mochi": "-",
+        "metro": "-",
+        "eridani": 8,
+        "volume": 27100
+      },
+      {
+        "keyword": "women footwear",
+        "inc5": 2,
+        "mochi": 15,
+        "metro": 19,
+        "eridani": 36,
+        "volume": 27100
+      },
+      {
+        "keyword": "womens footwear",
+        "inc5": 1,
+        "mochi": 12,
+        "metro": 8,
+        "eridani": "-",
+        "volume": 27100
+      },
+      {
+        "keyword": "mens slip on shoes",
+        "inc5": 9,
+        "mochi": 1,
+        "metro": 14,
+        "eridani": "-",
+        "volume": 22200
+      },
+      {
+        "keyword": "platform heel shoes",
+        "inc5": 1,
+        "mochi": 1,
+        "metro": 1,
+        "eridani": 29,
+        "volume": 22200
+      },
+      {
+        "keyword": "platform heels",
+        "inc5": 1,
+        "mochi": 1,
+        "metro": 4,
+        "eridani": 6,
+        "volume": 22200
+      },
+      {
+        "keyword": "platform heels for women",
+        "inc5": 1,
+        "mochi": 1,
+        "metro": 1,
+        "eridani": 19,
+        "volume": 22200
+      }
+    ],
+    "insights": {
+      "inc5_top3_count": 12,
+      "inc5_rank1_count": 8
+    }
+  },
+  "competitor_slides": [
+    {
+      "slide_number": 6,
+      "slide_object_id": "hd0eeda7b567eeae_8_17",
+      "brand": "Mochi",
+      "high_volume_rows": [
+        [
+          "shoes for men",
+          550000,
+          18
+        ],
+        [
+          "slippers for men",
+          368000,
+          4
+        ],
+        [
+          "shoes",
+          301000,
+          29
+        ],
+        [
+          "shoes for women",
+          246000,
+          32
+        ],
+        [
+          "mens boots",
+          165000,
+          13
+        ],
+        [
+          "slippers for girls",
+          165000,
+          5
+        ]
+      ],
+      "rank1_rows": [
+        [
+          "chappals for womens",
+          40500,
+          1
+        ],
+        [
+          "juti for men",
+          22200,
+          1
+        ],
+        [
+          "juti",
+          14800,
+          1
+        ],
+        [
+          "kolhapuri chappal for men",
+          14800,
+          1
+        ],
+        [
+          "leather slippers for men",
+          14800,
+          1
+        ],
+        [
+          "brown shoes for men",
+          12100,
+          1
+        ]
+      ],
+      "insight": "High-volume terms shown rank #4–#32. The #1-ranking sample tops out at 40.5K volume, far below “shoes for men” (550K, #18)."
+    },
+    {
+      "slide_number": 7,
+      "slide_object_id": "hd0eeda7b567eeae_8_25",
+      "brand": "Metro",
+      "high_volume_rows": [
+        [
+          "shoes for men",
+          550000,
+          19
+        ],
+        [
+          "slippers for men",
+          368000,
+          18
+        ],
+        [
+          "shoes",
+          301000,
+          6
+        ],
+        [
+          "mens sandals",
+          246000,
+          3
+        ],
+        [
+          "shoes for women",
+          246000,
+          22
+        ],
+        [
+          "slippers for girls",
+          165000,
+          11
+        ]
+      ],
+      "rank1_rows": [
+        [
+          "shoes store near me",
+          4400,
+          1
+        ],
+        [
+          "winter footwear for ladies",
+          4400,
+          1
+        ],
+        [
+          "party wear heels",
+          2900,
+          1
+        ],
+        [
+          "non marking shoes meaning",
+          2400,
+          1
+        ],
+        [
+          "mens white formal shoes",
+          2400,
+          1
+        ],
+        [
+          "nearest shoe shop near me",
+          1600,
+          1
+        ]
+      ],
+      "insight": "“Mens sandals” reaches #3 at 246K volume, while “shoes for men” sits at #19 despite 550K demand. The shown #1 terms have 1.6K–4.4K volume."
+    },
+    {
+      "slide_number": 8,
+      "slide_object_id": "hd0eeda7b567eeae_8_43",
+      "brand": "Eridani",
+      "high_volume_rows": [
+        [
+          "heels for women",
+          165000,
+          9
+        ],
+        [
+          "heel sandal",
+          110000,
+          22
+        ],
+        [
+          "heel sandals for girls",
+          90500,
+          6
+        ],
+        [
+          "heels for girls",
+          90500,
+          17
+        ],
+        [
+          "kolhapuri chappal",
+          74000,
+          5
+        ],
+        [
+          "flats for women",
+          60500,
+          19
+        ]
+      ],
+      "rank1_rows": [
+        [
+          "kolhapuri chappal for women",
+          12100,
+          1
+        ],
+        [
+          "office shoes for women",
+          5400,
+          1
+        ],
+        [
+          "black loafers women",
+          4400,
+          1
+        ],
+        [
+          "belly shoes for women",
+          3600,
+          1
+        ],
+        [
+          "women footwear brands",
+          2400,
+          1
+        ],
+        [
+          "shoe bite remedy",
+          1300,
+          1
+        ]
+      ],
+      "insight": "Shown high-volume terms rank #5–#22. Its #1 sample is led by “kolhapuri chappal for women” at 12.1K volume."
+    },
+    {
+      "slide_number": 9,
+      "slide_object_id": "hd0eeda7b567eeae_8_34",
+      "brand": "The Cai Store",
+      "high_volume_rows": [
+        [
+          "shoes for women",
+          246000,
+          26
+        ],
+        [
+          "heels for women",
+          165000,
+          3
+        ],
+        [
+          "boots for women",
+          135000,
+          27
+        ],
+        [
+          "heel sandal",
+          110000,
+          18
+        ],
+        [
+          "ladies flats",
+          90500,
+          3
+        ],
+        [
+          "womens flats",
+          90500,
+          9
+        ]
+      ],
+      "rank1_rows": [
+        [
+          "ladies flats",
+          90500,
+          1
+        ],
+        [
+          "heel slippers for womens",
+          12100,
+          1
+        ],
+        [
+          "flat footwear for womens",
+          8100,
+          1
+        ],
+        [
+          "heel shoes for women",
+          6600,
+          1
+        ],
+        [
+          "flat women",
+          5400,
+          1
+        ],
+        [
+          "flat sandals",
+          5400,
+          1
+        ]
+      ],
+      "insight": "“Ladies flats” appears at #3 in the volume view and #1 in the ranking view; check URL-level overlap. Broad “shoes for women” ranks #26 at 246K volume."
+    }
+  ],
+  "method": "Slides 6–9 show the first six relevant rows visible in each of the two source images. Each view is a sample. Crocs references are excluded. Positions can vary by URL; no traffic forecast is derived."
+}
