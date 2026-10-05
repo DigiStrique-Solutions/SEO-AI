@@ -1,0 +1,12 @@
+{
+  "run_id": "audio-technica-india-september-premium-redesign-20261005",
+  "date_utc": "2026-10-05",
+  "report_url": "https://docs.google.com/presentation/d/1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk/edit",
+  "reference_url": "https://docs.google.com/presentation/d/1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8/edit",
+  "source_data_ref": "brands/audio-technica-india/logs/analytics/raw/2026-10-05T1347Z-september-monthly-report.json",
+  "method": "Native Google Slides shapes and text, blue palette, serif editorial headings, KPI cards, striped data tables, three-card action plan; slide thumbnails reviewed after edits.",
+  "slide_count": 14,
+  "slide_ids": ["at_sep_cover", "at_sep_summary", "at_sep_acquisition", "at_sep_engagement", "at_sep_keywords", "at_sep_landing", "at_sep_landing_aug", "at_sep_landing_sep", "at_sep_gsc", "at_sep_gsc_trend", "at_sep_gsc_pages", "at_sep_action", "at_sep_action_detail", "at_sep_end"],
+  "comparison": "August to September 2026 for monthly deltas; July included for three-month trend context",
+  "verification": "Google Slides presentation outline confirmed 14 slides in intended order; rendered thumbnails reviewed for cover, summary, acquisition, engagement, keyword rankings, landing comparison, September landing detail, GSC KPIs, top search pages, action plan, and action detail."
+}
