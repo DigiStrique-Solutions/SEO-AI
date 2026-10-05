@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-10-05T06:24:40Z",
+  "run_id": "inc5shop-slide21-pr-reference-links-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "slide_number": 21,
+  "slide_object_id": "p9",
+  "references": [
+    {
+      "slide_label": "Low budget sites",
+      "user_url": "https://docs.google.com/spreadsheets/d/1z2EVz_bwCaj_c9iew2Vn1-bPq5pU969j/edit#gid=424423834",
+      "user_description": "Updated Low Budget Guest Posting Sites List 2026 (September)",
+      "drive_metadata_title": "Low Budget List October 2026🔥Backlinks House🔥.xlsx"
+    },
+    {
+      "slide_label": "Quality sites",
+      "user_url": "https://docs.google.com/spreadsheets/d/18SG8gnfRJhkDwjTDh6Drpd5_1uW1jL7X/edit#gid=1009858098",
+      "user_description": "Update Quality Guest Posting Sites List 2026 (September)",
+      "drive_metadata_title": "High-Authority List October 2026🔥Backlinks House🔥.xlsx"
+    }
+  ],
+  "date_discrepancy": "The user described both links as September 2026 lists, while Google Drive metadata names both as October 2026 files. Slide labels omit the month.",
+  "verification": "Google Slides get_slide readback returned the exact two user URLs as link styles. A fresh LARGE thumbnail of slide 21 was visually inspected."
+}
