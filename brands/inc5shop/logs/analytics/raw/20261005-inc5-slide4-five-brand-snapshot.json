@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-05T06:13:33Z",
+  "run_id": "inc5shop-slide4-five-brand-snapshot-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "slide_object_id": "p3",
+  "source": "User-provided Eridani and The Cai Store metrics in current conversation",
+  "added_2026_rows": [
+    {
+      "brand": "Eridani",
+      "authority_score": 34,
+      "estimated_organic_traffic": "63.4K",
+      "ranking_keywords": "4.5K"
+    },
+    {
+      "brand": "The Cai Store",
+      "authority_score": 31,
+      "estimated_organic_traffic": "77.9K",
+      "ranking_keywords": "3K"
+    }
+  ],
+  "scope_note": "These two brands have 2026 snapshot values only; no 2025 comparison or growth rate was inferred.",
+  "change": "Compressed the three existing comparison rows, added two 2026-only rows, and revised title, subtitle and source note to distinguish snapshots from year-over-year comparisons.",
+  "verification": "Google Slides get_slide readback matched all eight new brand/metric cells. Fresh LARGE slide thumbnail was visually inspected after a one-line The Cai Store label repair."
+}
