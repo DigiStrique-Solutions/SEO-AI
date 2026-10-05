@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-05T06:20:00Z",
+  "run_id": "inc5shop-slide14-cell-correction-20261005",
+  "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+  "slide_object_id": "p6",
+  "source_capture": "20261005-inc5-backlink-competitor-screenshot.png",
+  "original_inc5_backlink_cell": "2.3K",
+  "user_supplied_updated_value": "7.5K",
+  "change": "Added native white cell patch and blue 7.5K text over the displayed Inc5 backlink cell; revised nearby notes to identify the number as a user-supplied update to the earlier source capture.",
+  "original_capture_preserved": true,
+  "verification": "Fresh Google Slides LARGE thumbnail visually shows 7.5K in the Inc5 backlink cell and the user-supplied disclosure below it.",
+  "provenance_status": "The displayed 7.5K has no corroborating updated Semrush export."
+}
