@@ -1,0 +1,46 @@
+{
+  "run_id": "20261005-variant-consistency",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "rows_audited": 392,
+  "variant_families_audited": 83,
+  "variant_rows_audited": 241,
+  "inconsistent_variant_families_before": 44,
+  "inconsistent_variant_families_after": 0,
+  "rows_corrected": 101,
+  "review_status_rows_corrected": 19,
+  "url_h1_title_mismatches_after": 0,
+  "duplicate_url_h1_title_description_groups_after": 0,
+  "unexpected_live_cell_changes_after_readback": 0,
+  "proposed_urls_404": 101,
+  "source_fact_conflicts": [
+    {
+      "rows": [
+        253,
+        254
+      ],
+      "issue": "Merchant PRINT field says CHECK; current product photos show solid black and off-white shirts.",
+      "evidence": [
+        "m-shirts-13484-21611-black.jpg",
+        "m-shirts-13484-21611-offwhite.jpg",
+        "print-variant-comparison.jpg"
+      ],
+      "next_action": "Correct merchant print data and confirm before publishing."
+    }
+  ],
+  "source_unavailable_inferred_variant_detail": [
+    201
+  ],
+  "limitations": "The changed proposed URLs return 404 and require storefront publication. Row 201's source product is unavailable; standard length is inferred from its same-style brown variant and needs identity confirmation.",
+  "source_snapshot": "source-sheet.json.gz",
+  "final_snapshot": "final-sheet.json.gz",
+  "catalog_snapshot": "../20261001-url-h1-meta-reaudit/catalog.json.gz",
+  "current_public_page_checked": [
+    "https://cottonworld.net/products/m-shirts-13484-21611-black",
+    "https://cottonworld.net/products/m-shirts-13484-21611-offwhite"
+  ],
+  "current_public_page_raw": [
+    "m-shirts-13484-21611-black.html.gz",
+    "m-shirts-13484-21611-offwhite.html.gz"
+  ],
+  "visual_contact_sheet": "print-variant-comparison.jpg"
+}
