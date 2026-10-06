@@ -1,0 +1,13 @@
+{
+  "rows": 392,
+  "unique_product_ids": 392,
+  "unique_urls": 392,
+  "body_word_min_median_max": [
+    82,
+    111.0,
+    122
+  ],
+  "errors": [],
+  "warnings": [],
+  "duplicate_bodies": []
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "sheet_rows": 392,
+  "sheet_changed_rows": 389,
+  "sheet_unchanged_rows": [
+    35,
+    38,
+    219
+  ],
+  "source_columns_preserved": true,
+  "all_descriptions_match": true,
+  "copy_qa_errors": 0,
+  "copy_qa_warnings": 0,
+  "review_doc_updated": true,
+  "colour_discrepancy": "row 370: merchant colour field brown; title and URLs olive; copy now olive"
+}

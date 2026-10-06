@@ -1,0 +1,22 @@
+{
+  "run_id": "20261006-added-active-pdp-copyedit",
+  "date": "2026-10-06",
+  "brand": "cottonworld",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0/edit?gid=1979343695",
+  "sheet_name": "Boltworks sheet",
+  "description_range": "C2:C393",
+  "previous_source_backed_copy": "../20261006-added-active-pdp/proposals.json",
+  "previous_product_records": "../20261006-added-active-pdp/records.json",
+  "raw_current_sheet_before": "before-sheet.json",
+  "copyedit_script": "review_copy.py",
+  "revised_copy": "revised.json",
+  "change_register": "changes.json",
+  "copy_checks": "qa.json",
+  "raw_write_response": "write-response.json",
+  "raw_current_sheet_after": "after-sheet.json",
+  "review_doc_url": "https://docs.google.com/document/d/1CM7eTVio_zv0DcN1dcGfcr2BW1gwHxassON8GnQ7IyQ/edit",
+  "raw_review_doc_before": "review-doc-before.json",
+  "raw_review_doc_final": "review-doc-final.json",
+  "final_verification": "verification.json",
+  "row_370_colour_resolution": "Merchant colour metadata was brown, but product title and both supplied URLs were olive. Corrected copy to olive; merchant field needs confirmation."
+}
