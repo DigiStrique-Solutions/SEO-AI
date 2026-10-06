@@ -1,0 +1,15 @@
+{
+  "rows": 392,
+  "source_counts": {
+    "product_export": 388,
+    "url_only": 1,
+    "merchant_variant": 3
+  },
+  "body_words": {
+    "min": 89,
+    "median": 115.0,
+    "max": 127
+  },
+  "issues": [],
+  "duplicate_bodies": []
+}

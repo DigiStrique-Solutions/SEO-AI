@@ -1,0 +1,22 @@
+{
+  "run_id": "20261006-added-active-pdp",
+  "rows_written": 392,
+  "range": "Boltworks sheet!C2:C393",
+  "exact_readback": true,
+  "source_columns_preserved": true,
+  "header_style_matches_existing": true,
+  "wrap_verified": true,
+  "rendered_sheet_checked": true,
+  "source_export_sha256": "d4460840fa151b66a4addd298682b9f9c7b25010534b5f3943512fb77d524729",
+  "source_counts": {
+    "product_export": 388,
+    "historical_merchant_variant": 3,
+    "url_only": 1
+  },
+  "source_limitations": [
+    "C24 product export absent; linen and boxy fit come from supplied URL, no composition percentage stated.",
+    "C293:C295 export absent; earlier merchant variant attributes support their descriptions. Proposed URLs for all four unmatched products returned 404 during verification."
+  ],
+  "editorial_qa": "qa.json: zero flagged issues and zero exact duplicate description bodies.",
+  "google_doc": "https://docs.google.com/document/d/1CM7eTVio_zv0DcN1dcGfcr2BW1gwHxassON8GnQ7IyQ/edit"
+}
