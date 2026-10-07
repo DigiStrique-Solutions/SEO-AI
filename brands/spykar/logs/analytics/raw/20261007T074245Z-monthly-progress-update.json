@@ -1,0 +1,112 @@
+{
+  "run_id": "spykar-monthly-progress-update-20261007",
+  "queried_at_utc": "2026-10-07T07:42:45Z",
+  "provider": "composio/google_analytics + composio/google_search_console",
+  "historical_source_ref": "brands/spykar/logs/analytics/raw/20260930T115555Z-progress-apr-sep.json",
+  "ga4": {
+    "property": "properties/320857986",
+    "timezone": "Asia/Calcutta",
+    "dimension_filter": {
+      "fieldName": "sessionDefaultChannelGroup",
+      "matchType": "EXACT",
+      "value": "Organic Search"
+    },
+    "metrics": [
+      "sessions",
+      "totalUsers"
+    ],
+    "september": {
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "sessions": 26923,
+      "totalUsers": 22799
+    },
+    "october_final_aligned": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-04",
+      "sessions": 3916,
+      "totalUsers": 3444
+    },
+    "october_daily_check": [
+      {
+        "date": "2026-10-01",
+        "sessions": 854,
+        "totalUsers": 780
+      },
+      {
+        "date": "2026-10-02",
+        "sessions": 1069,
+        "totalUsers": 980
+      },
+      {
+        "date": "2026-10-03",
+        "sessions": 934,
+        "totalUsers": 859
+      },
+      {
+        "date": "2026-10-04",
+        "sessions": 1084,
+        "totalUsers": 993
+      },
+      {
+        "date": "2026-10-05",
+        "sessions": 931,
+        "totalUsers": 824
+      },
+      {
+        "date": "2026-10-06",
+        "sessions": 347,
+        "totalUsers": 303
+      }
+    ]
+  },
+  "gsc": {
+    "site_url": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "aggregation_type": "byProperty",
+    "september": {
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30",
+      "clicks": 21836,
+      "impressions": 2189040,
+      "ctr": 0.009975148923729124,
+      "position": 9.339964093849359
+    },
+    "october_final_aligned": {
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-04",
+      "clicks": 3529,
+      "impressions": 325256,
+      "ctr": 0.010849915143763681,
+      "position": 8.935223331775585
+    },
+    "october_final_daily": [
+      {
+        "date": "2026-10-01",
+        "clicks": 780,
+        "impressions": 73579
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 974,
+        "impressions": 83858
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 783,
+        "impressions": 80826
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 992,
+        "impressions": 86993
+      }
+    ]
+  },
+  "notes": [
+    "GSC final date-dimension response returned rows only through 2026-10-04. October GA4 was re-aggregated to the same cut-off; daily totalUsers values were not summed.",
+    "April-August values are sourced from the prior direct-query run, with totalUsers used consistently.",
+    "October is partial and is not compared against full months."
+  ]
+}

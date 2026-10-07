@@ -1,0 +1,44 @@
+{
+  "run_id": "spykar-monthly-progress-update-20261007",
+  "updated_at_utc": "2026-10-07T07:43:31Z",
+  "source_ref": "brands/spykar/logs/analytics/raw/20261007T074245Z-monthly-progress-update.json",
+  "historical_source_ref": "brands/spykar/logs/analytics/raw/20260930T115555Z-progress-apr-sep.json",
+  "google_doc": {
+    "id": "14QP8JacmC11ne4ghwnR7-Mxhf_xJ3egzS2RdvSmvqBY",
+    "title": "Spykar organic search progress | April to October 2026",
+    "url": "https://docs.google.com/document/d/14QP8JacmC11ne4ghwnR7-Mxhf_xJ3egzS2RdvSmvqBY/edit",
+    "tab_id": "t.0",
+    "monthly_table": {
+      "rows": 8,
+      "columns": 5,
+      "months": [
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October MTD"
+      ],
+      "metrics": [
+        "organic sessions",
+        "organic total users",
+        "GSC impressions",
+        "GSC clicks"
+      ]
+    },
+    "october_cutoff": "2026-10-04",
+    "data_note": "October is partial; September is latest complete month."
+  },
+  "verification": {
+    "native_table_readback": "passed",
+    "paragraph_and_title_readback": "passed",
+    "date_chip_readback": "passed",
+    "pdf_export": "succeeded",
+    "pdf_page_visual_inspection": "not_completed"
+  },
+  "limitations": [
+    "File-backed Google Docs trusted-read bridge could not run on this Windows host; direct connector structural readback was used.",
+    "PDF export returned a file reference, but no local page raster was available for visual inspection."
+  ]
+}
