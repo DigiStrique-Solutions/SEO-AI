@@ -1,0 +1,57 @@
+{
+  "access_date": "2026-10-07",
+  "proposed_title_query": "A Full Wardrobe, Nothing to Wear? Start With What You Wear Most",
+  "exact_title_result": "No exact-title organic blog match was returned by the live web search.",
+  "broader_query": "wardrobe full of clothes nothing to wear why what to do blog",
+  "serp_surface": "Live web search organic results; ranked relevant results below exclude videos, Reddit, product pages, news and irrelevant furniture results.",
+  "top_three_relevant_organic_blogs": [
+    {
+      "rank": 1,
+      "url": "https://svetstylist.com/en/blog/nothing-to-wear",
+      "approx_extracted_words": 661,
+      "tone": "Direct stylist advice with a concise client example and short, reassuring explanations.",
+      "structure": "Problem and answer up front; three specific causes; questions to identify the reader's cause; short FAQ.",
+      "evidence": "captures.json; svet_stylist.txt and svet_stylist.html.gz"
+    },
+    {
+      "rank": 2,
+      "url": "https://www.petitefashion.org/closet-full-of-clothes-but-nothing-to-wear-heres-why-and-how-to-fix-it/",
+      "approx_extracted_words": 891,
+      "tone": "Friendly and practical, with direct questions and examples; more checklist-like than Cottonworld's preferred editorial voice.",
+      "structure": "Familiar opening; several short diagnosis sections on fit, disconnected purchases and lifestyle; five questions; action summary.",
+      "evidence": "captures.json; petite_fashion.txt and petite_fashion.html.gz"
+    },
+    {
+      "rank": 3,
+      "url": "https://www.karimaelhakkaoui.com/blog/i-have-a-closet-full-of-clothes-but-nothing-to-wear-what-do-i-do",
+      "approx_extracted_words": 1339,
+      "tone": "Conversational and emphatic, framed as a stylist answering recurring reader questions.",
+      "structure": "The central problem, why dressing feels difficult, editing and capsule questions, buying decisions, and a final pre-shopping question.",
+      "evidence": "captures.json; karima.txt and karima.html.gz"
+    }
+  ],
+  "user_supplied_flow_references": [
+    {
+      "url": "https://www.thefemaleceo.com/blog/a-wardrobe-full-of-clothes-and-nothing-to-wear",
+      "approx_extracted_words": 1211,
+      "tone": "Warm and practical, organized around recognisable reasons clothes do not get worn.",
+      "structure": "Direct reader question, diagnosis-led sections, examples, final reflection.",
+      "evidence": "captures.json; female_ceo.txt and female_ceo.html.gz"
+    },
+    {
+      "url": "https://tamarakalinic.substack.com/p/closet-full-of-clothes-and-nothing",
+      "accessible_words": 262,
+      "tone": "Vivid, personal, humorous opening that begins in a getting-dressed moment.",
+      "structure": "Only the introduction was accessible; the remainder is behind the site's continue-reading gate, so full structure and length were not inferred.",
+      "evidence": "captures.json; tamara.txt and tamara.html.gz"
+    },
+    {
+      "url": "https://inspo.thedrobe.com/foundations/15-reasons-full-wardrobe-and-nothing-to-wear/",
+      "accessible_words": null,
+      "tone": "Search-indexed excerpt is highly conversational and first person; live fetch returned unrelated page content, so full-page tone was not verified.",
+      "structure": "Search-indexed result indicates a numbered diagnosis of 15 reasons with practical advice; full heading flow and length unavailable from the live page.",
+      "evidence": "Live web search excerpt accessed 2026-10-07; captures.json; drobe.html.gz shows the live fetch mismatch"
+    }
+  ],
+  "editorial_application": "Use the shared pattern of a specific getting-dressed moment, a short diagnosis, and actionable changes. Keep Cottonworld's calm, life-first voice, a five-piece observation as the article's own organising idea, and original heading/paragraph flow. Do not borrow the references' personal anecdotes, exact wording, fixed capsule lists or numbered structure."
+}

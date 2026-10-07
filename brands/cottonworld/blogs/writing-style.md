@@ -81,7 +81,7 @@ Slow living can appear as:
 
 ## Approved long-form blog standard (2026-09-28)
 
-The expanded “A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most” article is the current approved depth and flow reference for new Cottonworld blogs. Keep the voice editorial, calm and useful rather than chatty. Give the reader a clear opening situation, answer the central need early, and move through practical advice in a connected sequence. Use concrete routine-based examples and FAQs where they help. Aim for at least 1,000 words when the subject warrants that depth; do not stretch a narrower topic with filler. Keep product details source-backed, links contextual, and the close low-pressure. The reference article's detector count was 1,361 words; treat that as a depth cue, not a required template or exact target.
+The revised “A Full Wardrobe, Nothing to Wear? Start With What You Wear Most” article is the current depth and flow reference for new Cottonworld blogs. Keep the voice editorial, calm and useful rather than chatty. Give the reader a clear opening situation, answer the central need early, and move through practical advice in a connected sequence. Use concrete routine-based examples, and add FAQs only when they help the reader. Aim for at least 1,000 words when the subject warrants that depth; do not stretch a narrower topic with filler. Keep product details source-backed, links contextual, and the close low-pressure. The current body is about 1,287 words; treat that as a depth cue, not a required template or exact target. It remains a review draft until the publication gate passes.
 
 ## Example transformation
 

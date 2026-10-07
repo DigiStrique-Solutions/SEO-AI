@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-07",
+  "site": "https://www.zerogpt.com/",
+  "submission": "Exact plain-text body of the current first blog, including H2 text and excluding SEO handoff metadata and the H1.",
+  "body_file": "brands/cottonworld/logs/content/raw/20261007-first-blog-refine/zerogpt-body.txt",
+  "body_sha256": "02f8651267f0c76f266a82fbd3cda184c83a08eba62f157bee707e3b89a537f5",
+  "characters_reported_by_site": 7022,
+  "words_reported_by_site": 1287,
+  "result_text": "Your File Content is AI/GPT Generated",
+  "ai_gpt_percent": 89.0,
+  "gate_threshold": "strictly below 20%",
+  "gate_result": "fail",
+  "evidence": "Website UI accessibility result and screenshot visually inspected on 2026-10-07. Detector output is an editorial risk signal, not proof of authorship."
+}

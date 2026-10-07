@@ -51,7 +51,7 @@ The four intended titles gesture toward fabric education and slow style, but no 
 
 | Title | Status | Approx. body words | Current Google Doc | Workspace draft |
 |---|---|---:|---|---|
-| A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most | Review draft; ZeroGPT UI 86.9% exceeds publication gate | 1,255 | [refined Google Doc](https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit) | [draft](drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md) |
+| A Full Wardrobe, Nothing to Wear? Start With What You Wear Most | Review draft; ZeroGPT UI 89% exceeds publication gate | 1,287 | [refined Google Doc](https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit) | [draft](drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md) |
 | Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe | Review draft; ZeroGPT UI 91.0% exceeds publication gate | 1,339 | [refined Google Doc](https://docs.google.com/document/d/1taPykz2elffvZWOSKw7jGNQ6lV61eJxgMSYuD_grN3o/edit) | [draft](drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md) |
 | One Bag, Two Climates: What to Pack for a Short Trip in India | New review draft; ZeroGPT UI 87.8% exceeds publication gate | 1,530 | [editorial Google Doc](https://docs.google.com/document/d/1LzSFlSeweOqN864WGQNE78jKRwvwfKxysbRrg-lUBNs/edit) | [draft](drafts/one-bag-two-climates-short-trip-india.md) |
 
@@ -73,3 +73,5 @@ The article follows the user-approved expanded five-piece blog standard. Live SE
 4. Publish new fabric and care content only after the four indexed broken URLs are repaired.
 
 Provenance: `../logs/blogs/raw/20260727T122353Z-blog-refresh.json`
+
+First article revised again on 2026-10-07 using the user-supplied Female CEO, Tamara Kalinic and The 'drobe references for pacing and grammar, plus a fresh three-result organic SERP benchmark. Its Google Doc was updated in place. The exact revised body returned 89% on ZeroGPT, so it remains a review draft. Evidence: `../logs/content/raw/20261007-first-blog-refine/`.
