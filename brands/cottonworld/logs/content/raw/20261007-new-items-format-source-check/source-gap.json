@@ -1,0 +1,364 @@
+{
+  "run_id": "20261007-new-items-format-source-check",
+  "date": "2026-10-07",
+  "sheet": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "rows": [
+    {
+      "row": 394,
+      "sku": "L-BLOUSE-11180-21760-PEACH",
+      "current_url": "https://cottonworld.net/products/womens-linen-regular-fit-blouse-mandarin-collar-peach",
+      "current_h1": "Women’s Linen Regular Fit Blouse Mandarin Collar Peach",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 395,
+      "sku": "L-BLOUSE-17698-21864-PEACH",
+      "current_url": "https://cottonworld.net/products/womens-blouse-peach",
+      "current_h1": "Women’s Blouse Peach",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 396,
+      "sku": "L-BLOUSE-17751-21834-NAVY",
+      "current_url": "https://cottonworld.net/products/womens-regular-fit-blouse-sleeveless-navy",
+      "current_h1": "Women’s Regular Fit Blouse Sleeveless Navy",
+      "review_status": "Provisional: fit and sleeve inferred from an older listing of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 397,
+      "sku": "L-BLOUSE-17751-21846-WHITE",
+      "current_url": "https://cottonworld.net/products/womens-regular-fit-blouse-sleeveless-white",
+      "current_h1": "Women’s Regular Fit Blouse Sleeveless White",
+      "review_status": "Provisional: fit and sleeve inferred from an older listing of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 398,
+      "sku": "L-BLOUSE-17912-21762-DENIM",
+      "current_url": "https://cottonworld.net/products/womens-blouse-denim",
+      "current_h1": "Women’s Blouse Denim",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 399,
+      "sku": "L-BLOUSE-18008-21759-BROWN",
+      "current_url": "https://cottonworld.net/products/womens-blouse-brown",
+      "current_h1": "Women’s Blouse Brown",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 400,
+      "sku": "L-DRESS-17452-21709-NAVY 1",
+      "current_url": "https://cottonworld.net/products/womens-dress-navy",
+      "current_h1": "Women’s Dress Navy",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 401,
+      "sku": "L-DRESS-17453-21708-BLUE",
+      "current_url": "https://cottonworld.net/products/womens-dress-blue",
+      "current_h1": "Women’s Dress Blue",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 402,
+      "sku": "L-DRESS-17994-21762-DENIM",
+      "current_url": "https://cottonworld.net/products/womens-dress-denim",
+      "current_h1": "Women’s Dress Denim",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 403,
+      "sku": "L-KPANTS-16646-21892-BLACK",
+      "current_url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-elastic-waist-black",
+      "current_h1": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Elastic Waist Black",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 119; confirm the distinguishing product detail."
+    },
+    {
+      "row": 404,
+      "sku": "L-KPANTS-16646-21892-BROWN",
+      "current_url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-elastic-waist-brown",
+      "current_h1": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Elastic Waist Brown",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 120; confirm the distinguishing product detail."
+    },
+    {
+      "row": 405,
+      "sku": "L-KPANTS-16646-21892-NAVY",
+      "current_url": "https://cottonworld.net/products/womens-cotton-bamboo-elastane-regular-fit-knit-pant-elastic-waist-navy",
+      "current_h1": "Women’s Cotton Bamboo Elastane Regular Fit Knit Pant Elastic Waist Navy",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 406,
+      "sku": "L-PANTS-17769-21805-MAROON",
+      "current_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-maroon",
+      "current_h1": "Women’s Linen Viscose Regular Fit Pant Drawstring Elastic Waist Maroon",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 407,
+      "sku": "L-PANTS-17769-21805-NAVY",
+      "current_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-navy",
+      "current_h1": "Women’s Linen Viscose Regular Fit Pant Drawstring Elastic Waist Navy",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 408,
+      "sku": "L-PANTS-17769-21805-OFFWHITE",
+      "current_url": "https://cottonworld.net/products/womens-linen-viscose-regular-fit-pant-drawstring-elastic-waist-off-white",
+      "current_h1": "Women’s Linen Viscose Regular Fit Pant Drawstring Elastic Waist Off White",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 409,
+      "sku": "L-PANTS-17922-21822-MUSTARD",
+      "current_url": "https://cottonworld.net/products/womens-cotton-straight-fit-pant-mustard",
+      "current_h1": "Women’s Cotton Straight Fit Pant Mustard",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 410,
+      "sku": "L-PANTS-17922-21822-NAVY",
+      "current_url": "https://cottonworld.net/products/womens-cotton-straight-fit-pant-navy",
+      "current_h1": "Women’s Cotton Straight Fit Pant Navy",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 411,
+      "sku": "L-PANTS-17922-21822-OLIVE",
+      "current_url": "https://cottonworld.net/products/womens-cotton-straight-fit-pant-olive",
+      "current_h1": "Women’s Cotton Straight Fit Pant Olive",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 412,
+      "sku": "L-SKIRT-17888-21762-DENIM",
+      "current_url": "https://cottonworld.net/products/womens-skirt-denim",
+      "current_h1": "Women’s Skirt Denim",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 413,
+      "sku": "L-TSHIRT-17427-21911-LAVENDER",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-lavender",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Lavender",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 187; confirm the distinguishing product detail."
+    },
+    {
+      "row": 414,
+      "sku": "L-TSHIRT-17427-21911-LT GREEN",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-light-green",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Light Green",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 415,
+      "sku": "L-TSHIRT-17427-21911-WHITE",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-white",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck White",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in rows 182 and 193; confirm the distinguishing product detail."
+    },
+    {
+      "row": 416,
+      "sku": "L-TSHIRT-17427-21911-WINE",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-wine",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Wine",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 189; confirm the distinguishing product detail."
+    },
+    {
+      "row": 417,
+      "sku": "L-TSHIRT-17428-21911-BROWN",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-extended-sleeve-brown",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Extended Sleeve Brown",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 198; confirm the distinguishing product detail."
+    },
+    {
+      "row": 418,
+      "sku": "L-TSHIRT-17428-21911-NAVY",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-extended-sleeve-navy",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Extended Sleeve Navy",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 419,
+      "sku": "L-TSHIRT-17428-21911-WINE",
+      "current_url": "https://cottonworld.net/products/womens-organic-cotton-regular-fit-tshirt-round-neck-extended-sleeve-wine",
+      "current_h1": "Women’s Organic Cotton Regular Fit T-Shirt Round Neck Extended Sleeve Wine",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 420,
+      "sku": "M-SHIRTS-11409-21391-OFFWHITE",
+      "current_url": "https://cottonworld.net/products/mens-shirt-off-white",
+      "current_h1": "Men’s Shirt Off White",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    },
+    {
+      "row": 421,
+      "sku": "M-SHIRTS-16162-21880-WHITE",
+      "current_url": "https://cottonworld.net/products/mens-regular-fit-shirt-white",
+      "current_h1": "Men’s Regular Fit Shirt White",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 422,
+      "sku": "M-SHIRTS-16162-21903-NATURAL",
+      "current_url": "https://cottonworld.net/products/mens-regular-fit-shirt-natural",
+      "current_h1": "Men’s Regular Fit Shirt Natural",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 263; confirm the distinguishing product detail."
+    },
+    {
+      "row": 423,
+      "sku": "M-SHIRTS-50020-21882-WHITE",
+      "current_url": "https://cottonworld.net/products/mens-regular-fit-shirt-full-sleeve-white",
+      "current_h1": "Men’s Regular Fit Shirt Full Sleeve White",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 424,
+      "sku": "M-SHIRTS-50020-21901-AQUA",
+      "current_url": "https://cottonworld.net/products/mens-regular-fit-shirt-full-sleeve-aqua",
+      "current_h1": "Men’s Regular Fit Shirt Full Sleeve Aqua",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 425,
+      "sku": "M-SHIRTS-50020-21902-GREEN",
+      "current_url": "https://cottonworld.net/products/mens-regular-fit-shirt-full-sleeve-green",
+      "current_h1": "Men’s Regular Fit Shirt Full Sleeve Green",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing. Same style and colour also occur in row 317; confirm the distinguishing product detail."
+    },
+    {
+      "row": 426,
+      "sku": "M-TSHIRT-17093-21892-DARK GREY",
+      "current_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-dark-grey",
+      "current_h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Dark Grey",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 427,
+      "sku": "M-TSHIRT-17093-21892-NAVY",
+      "current_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-navy",
+      "current_h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Navy",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 428,
+      "sku": "M-TSHIRT-17093-21892-WINE",
+      "current_url": "https://cottonworld.net/products/mens-cotton-bamboo-elastane-regular-fit-tshirt-polo-wine",
+      "current_h1": "Men’s Cotton Bamboo Elastane Regular Fit T-Shirt Polo Wine",
+      "review_status": "Provisional: traits inferred from earlier public listings of this style; confirm this SKU’s fabric, fit and print before publishing."
+    },
+    {
+      "row": 429,
+      "sku": "M-TSHIRT-17963-21893-BLACK",
+      "current_url": "https://cottonworld.net/products/mens-tshirt-black",
+      "current_h1": "Men’s T-Shirt Black",
+      "review_status": "Provisional: only gender, product type and colour follow the SKU; confirm fabric, fit and print before publishing."
+    }
+  ],
+  "drive_searches": [
+    {
+      "query": "17698-21864",
+      "response": {
+        "results": [
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "title": "New Active list products",
+            "id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+            "mime_type": "application/vnd.google-apps.spreadsheet",
+            "size": "45424",
+            "file_or_folder": "file",
+            "created_at": "2026-09-23T09:22:40.733Z",
+            "updated_at": "2026-10-07T07:17:27.199Z",
+            "viewedByMeTime": "2026-10-07T07:17:27.199Z",
+            "display_title": "New Active list products",
+            "display_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "parent_ids": [
+              "0AKeY05d7agUGUk9PVA"
+            ],
+            "shared": true
+          }
+        ]
+      }
+    },
+    {
+      "query": "17427-21911",
+      "response": {
+        "results": [
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "title": "New Active list products",
+            "id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+            "mime_type": "application/vnd.google-apps.spreadsheet",
+            "size": "45424",
+            "file_or_folder": "file",
+            "created_at": "2026-09-23T09:22:40.733Z",
+            "updated_at": "2026-10-07T07:17:27.199Z",
+            "viewedByMeTime": "2026-10-07T07:17:27.199Z",
+            "display_title": "New Active list products",
+            "display_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "parent_ids": [
+              "0AKeY05d7agUGUk9PVA"
+            ],
+            "shared": true
+          }
+        ]
+      }
+    },
+    {
+      "query": "50020-21882",
+      "response": {
+        "results": [
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "title": "New Active list products",
+            "id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+            "mime_type": "application/vnd.google-apps.spreadsheet",
+            "size": "45424",
+            "file_or_folder": "file",
+            "created_at": "2026-09-23T09:22:40.733Z",
+            "updated_at": "2026-10-07T07:17:27.199Z",
+            "viewedByMeTime": "2026-10-07T07:17:27.199Z",
+            "display_title": "New Active list products",
+            "display_url": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?usp=drivesdk",
+            "parent_ids": [
+              "0AKeY05d7agUGUk9PVA"
+            ],
+            "shared": true
+          }
+        ]
+      }
+    }
+  ],
+  "generic_name_collisions": [
+    {
+      "name": "Women’s Blouse Peach",
+      "rows": [
+        394,
+        395
+      ]
+    },
+    {
+      "name": "Women’s Pant Navy",
+      "rows": [
+        407,
+        410
+      ]
+    },
+    {
+      "name": "Women’s T-Shirt Wine",
+      "rows": [
+        416,
+        419
+      ]
+    },
+    {
+      "name": "Men’s Shirt White",
+      "rows": [
+        421,
+        423
+      ]
+    }
+  ],
+  "conclusion": "A complete uniform Fabric-Fit-Type-Differentiator-Colour format is not source-supported for these unpublished SKUs. Removing unsupported attributes produces four duplicate name/URL groups. Existing proposals remain provisional; no new product attributes were invented."
+}
