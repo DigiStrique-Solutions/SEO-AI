@@ -1,0 +1,28 @@
+{
+  "run_id": "20261007-new-pages",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "sheet": "Boltworks sheet",
+  "rows_updated": "394:429",
+  "count": 36,
+  "source": {
+    "public_catalog_pages": 4,
+    "public_product_count": 857,
+    "matching_new_skus": 0,
+    "style_precedent_ref": "../20261001-url-h1-meta-reaudit/catalog.json.gz",
+    "raw_refs": [
+      "catalog-page-1.json.gz",
+      "catalog-page-2.json.gz",
+      "catalog-page-3.json.gz",
+      "catalog-page-4.json.gz"
+    ]
+  },
+  "checks": {
+    "all_requested_cells_match_plan": true,
+    "updated_url_matches_h1": true,
+    "new_urls_have_no_duplicates_in_sheet": true,
+    "meta_titles_have_no_buy_or_product_codes": true,
+    "meta_descriptions_have_no_product_codes": true,
+    "max_description_length": 147
+  },
+  "limitation": "New SKU records are not public; fabric, fit and print details inherited from prior style records or omitted and marked provisional in review status."
+}
