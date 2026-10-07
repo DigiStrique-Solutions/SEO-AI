@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-september-update-context-20261007",
+  "checked_at_utc": "2026-10-07T08:04:15Z",
+  "source": "Google Search Console via Composio; Google Search Status Dashboard",
+  "property": "https://spykar.com/",
+  "gsc_request": {
+    "search_type": "web",
+    "data_state": "final",
+    "dimensions": [],
+    "aggregation_type": "byProperty"
+  },
+  "gsc_windows": [
+    {"start_date": "2026-08-01", "end_date": "2026-08-23", "clicks": 20505, "impressions": 2187764, "ctr": 0.009372583148822267, "position": 9.11816768170607},
+    {"start_date": "2026-09-01", "end_date": "2026-09-23", "clicks": 16602, "impressions": 1695393, "ctr": 0.009792419810627978, "position": 9.489810327163083},
+    {"start_date": "2026-08-24", "end_date": "2026-08-30", "clicks": 5901, "impressions": 617106, "ctr": 0.009562376641938338, "position": 9.438428730234351},
+    {"start_date": "2026-09-24", "end_date": "2026-09-30", "clicks": 5234, "impressions": 493647, "ctr": 0.010602718136644202, "position": 8.825328625515803}
+  ],
+  "official_update": {
+    "name": "September 2026 spam update",
+    "start": "2026-09-24 09:15 PDT",
+    "url": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+    "ranking_history_url": "https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history?product=marketing",
+    "note": "Google does not list a September 2026 core update."
+  },
+  "interpretation": "For September 1–23, clicks were 19.0% and impressions 22.5% below the aligned August 1–23 period. The decline preceded the 24 September spam update, so the monthly drop cannot be attributed to that update from these observations alone.",
+  "document": "https://docs.google.com/document/d/14QP8JacmC11ne4ghwnR7-Mxhf_xJ3egzS2RdvSmvqBY/edit",
+  "composio_execution_log": "log_LCzwvrZZnItT"
+}
