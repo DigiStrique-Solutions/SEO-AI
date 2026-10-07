@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "claims": [],
+  "metadata": {
+    "brand_id": "cottonworld",
+    "status": "review_draft",
+    "created_at": "2026-09-29",
+    "updated_at": "2026-10-07",
+    "target": "brands/cottonworld/blogs/drafts/timeless-wardrobes-clothes-last-seasons-replacement.md",
+    "word_count": 1337,
+    "google_doc": "https://docs.google.com/document/d/1QHzLiML98JxZs3p2aPMfwwbKb5iqNuv2DeLzYc4t4As/edit",
+    "google_doc_verified": "Native Google Doc read back on 2026-10-07. Heading hierarchy and every in-body link were verified; linked anchors are visibly blue and underlined."
+  },
+  "zerogpt_gate": {
+    "status": "blocked",
+    "checked_at": "2026-09-29T17:32:34+00:00",
+    "maximum_score": 20.0,
+    "score": null,
+    "local_fallback_score": 6.0,
+    "result_text": "ZeroGPT API returned 403 Not enough credits.",
+    "reason": "No external score was returned for the exact draft body; local fallback is not a ZeroGPT pass.",
+    "evidence": "brands/cottonworld/logs/content/raw/20260929-zero-gpt-review/timeless-wardrobes-clothes-last-seasons-replacement.json; brands/cottonworld/logs/content/raw/20260929-zero-gpt-review/timeless-wardrobes-clothes-last-seasons-replacement.txt"
+  },
+  "detector_notes": [
+    {
+      "checked_at": "2026-09-29T17:32:34+00:00",
+      "source": "local_fallback",
+      "status": "blocked",
+      "score": 6.0,
+      "note": "External ZeroGPT unavailable; local score is editorial signal only."
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "purpose": "Contextual product, category or guide",
+      "verification": "HTTP 200 without redirect on 2026-09-29; evidence brands/cottonworld/logs/content/raw/20260929-all-draft-internal-link-final.json"
+    },
+    {
+      "anchor": "women's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "purpose": "Contextual product, category or guide",
+      "verification": "HTTP 200 without redirect on 2026-09-29; evidence brands/cottonworld/logs/content/raw/20260929-all-draft-internal-link-final.json"
+    },
+    {
+      "anchor": "men's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "purpose": "Contextual product, category or guide",
+      "verification": "HTTP 200 without redirect on 2026-09-29; evidence brands/cottonworld/logs/content/raw/20260929-all-draft-internal-link-final.json"
+    },
+    {
+      "anchor": "cotton and linen clothing",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "purpose": "Conclusion commercial step",
+      "verification": "HTTP 200 without redirect on 2026-09-29; evidence brands/cottonworld/logs/content/raw/20260929-all-draft-internal-link-final.json"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "cottonworld-brand-context",
+      "source_type": "brand_dna",
+      "source_ref": "brands/cottonworld/context.md; brands/cottonworld/knowledge.md; brands/cottonworld/blogs/writing-style.md",
+      "extracted_facts": "Cottonworld voice and brand-specific content boundaries."
+    },
+    {
+      "source_id": "live-blog-and-semrush-review-20260929",
+      "source_type": "live_page",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260929-semrush-and-live-post-captures.json",
+      "extracted_facts": "The corresponding live post was placeholder or empty; Semrush editorial guidance informed the quality review."
+    },
+    {
+      "source_id": "serp-benchmark-20260929",
+      "source_type": "serp",
+      "source_ref": "brands/cottonworld/logs/content/raw/20260929-all-blogs-serp-benchmark-captures.json",
+      "extracted_facts": "Three relevant organic blog results for the replacement topic were compared for tone, extracted length and section flow."
+    }
+  ]
+}

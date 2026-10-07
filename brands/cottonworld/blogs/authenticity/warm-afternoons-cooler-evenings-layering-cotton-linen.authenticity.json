@@ -2,13 +2,13 @@
   "claims": [],
   "zerogpt_gate": {
     "status": "blocked",
-    "checked_at": "2026-09-28T11:11:14Z",
+    "checked_at": "2026-10-07T10:58:32+00:00",
     "maximum_score": 20.0,
     "score": null,
     "local_fallback_score": 6.0,
-    "result_text": "ZeroGPT did not return a score.",
-    "reason": "The ZeroGPT API returned HTTP 403 Not enough credits. The website UI accepted the text but did not return a result after submission. Local fallback is not an external ZeroGPT score, so the external gate remains blocked.",
-    "evidence": "brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-zerogpt-check.json; brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-zerogpt-submission.txt"
+    "result_text": "ZeroGPT API returned 403 Not enough credits for the exact current body.",
+    "reason": "No verified external percentage was returned; the local fallback is an editorial risk signal only and does not satisfy the strictly-below-20% gate.",
+    "evidence": "brands/cottonworld/logs/content/raw/20261007-zero-gpt-review/warm-afternoons-cooler-evenings-layering-cotton-linen.json; brands/cottonworld/logs/content/raw/20261007-zero-gpt-review/warm-afternoons-cooler-evenings-layering-cotton-linen.txt"
   },
   "detector_notes": [
     {
@@ -20,32 +20,47 @@
       "source": "local_fallback",
       "status": "blocked",
       "tool": "zerogpt"
+    },
+    {
+      "checked_at": "2026-10-07T10:58:32+00:00",
+      "max_score": 20.0,
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "blocked",
+      "tool": "zerogpt",
+      "note": "The exact current body was submitted; ZeroGPT API returned 403 Not enough credits. The local value is not an external score."
     }
   ],
   "internal_link_map": [
     {
-      "anchor": "cotton-linen collection",
-      "purpose": "Contextual collection/category resource",
-      "url": "https://cottonworld.net/collections/cotton-linen",
-      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Cotton Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+      "anchor": "fabric guide",
+      "purpose": "Supporting fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "verification": "HTTP 200 with no redirect on 2026-10-07; evidence brands/cottonworld/logs/content/raw/20261007-refined-two-link-and-gate-check.json"
     },
     {
-      "anchor": "men\u2019s brown linen-cotton shirt",
-      "purpose": "Specific product example",
-      "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
-      "verification": "Live rendered product returned HTTP 200 on 2026-09-28; product title Men's Brown Linen Cotton Regular Fit Shirt and listed blend 55% linen, 45% cotton. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+      "anchor": "cotton-linen collection",
+      "purpose": "Contextual collection or closing commercial next step",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "verification": "HTTP 200 with no redirect on 2026-10-07; evidence brands/cottonworld/logs/content/raw/20261007-refined-two-link-and-gate-check.json"
     },
     {
       "anchor": "linen collection",
-      "purpose": "Additional contextual linen category link",
+      "purpose": "Contextual category",
       "url": "https://cottonworld.net/collections/all-linen",
-      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+      "verification": "HTTP 200 with no redirect on 2026-10-07; evidence brands/cottonworld/logs/content/raw/20261007-refined-two-link-and-gate-check.json"
     },
     {
-      "anchor": "Cottonworld’s cotton and linen clothing",
-      "purpose": "Conclusion commercial CTA",
+      "anchor": "brown linen-cotton shirt",
+      "purpose": "Specific product example",
+      "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "verification": "HTTP 200 with no redirect on 2026-10-07; evidence brands/cottonworld/logs/content/raw/20261007-refined-two-link-and-gate-check.json"
+    },
+    {
+      "anchor": "cotton and linen clothing",
+      "purpose": "Closing commercial next step",
       "url": "https://cottonworld.net/collections/cotton-linen",
-      "verification": "Live rendered collection returned HTTP 200 on 2026-09-28; page title Cotton Linen. Evidence: brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json"
+      "verification": "HTTP 200 with no redirect on 2026-10-07; evidence brands/cottonworld/logs/content/raw/20261007-refined-two-link-and-gate-check.json"
     }
   ],
   "metadata": {
@@ -58,13 +73,14 @@
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "required_skill": "content-seo-authenticity",
     "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
-    "serp_research": "brands/cottonworld/logs/content/raw/20260928-layering-cotton-linen-serp-and-source-captures.json",
+    "serp_research": "brands/cottonworld/logs/content/raw/20261007-refined-blogs-serp-captures.json",
     "status": "review_draft",
     "target": "brands/cottonworld/blogs/drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md",
     "target_title": "Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe",
-    "word_count": 1539,
-    "google_doc": "https://docs.google.com/document/d/1R7JoJfzXdrZK9jCPQrw_SWv6JLivjXWeG9EEj8kMHLE/edit",
-    "google_doc_verified": "Native Google Doc created and read back on 2026-09-28. Verified title, metadata, editorial review-draft note, H2/H3 hierarchy, and five blue-underlined links (one external source and four internal destinations)."
+    "word_count": 1339,
+    "google_doc": "https://docs.google.com/document/d/1taPykz2elffvZWOSKw7jGNQ6lV61eJxgMSYuD_grN3o/edit",
+    "google_doc_verified": "Current body read back from native Google Doc on 2026-10-07; headings and all in-body links verified with visible blue-underlined styling.",
+    "updated_at": "2026-10-07"
   },
   "schema_version": "1.0.0",
   "sources": [
@@ -109,6 +125,12 @@
       "source_id": "user-established-cottonworld-blog-standard-20260928",
       "source_ref": "Current conversation: user approved the expanded five-piece Cottonworld blog as the standard; reference article brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
       "source_type": "human_context"
+    },
+    {
+      "source_id": "warm-afternoons-cooler-evenings-layering-cotton-linen-refined-serp-20261007",
+      "source_type": "serp",
+      "source_ref": "brands/cottonworld/logs/content/raw/20261007-refined-blogs-serp-captures.json",
+      "extracted_facts": "Exact-title live SERP search and three relevant organic blog comparisons informed tone, depth and section flow; wording and structure remained original."
     }
   ]
 }

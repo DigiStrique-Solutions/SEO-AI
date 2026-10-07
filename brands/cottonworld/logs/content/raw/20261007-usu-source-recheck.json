@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-07",
+  "url": "https://extension.usu.edu/news_sections/home_family_and_food/summer-hydration",
+  "provider": "web.run open/find",
+  "result": "accessible",
+  "page_title": "Ask an Expert: Six Tips for Staying Hydrated This Summer | USU",
+  "evidence_location": "Dress wisely section, line 69 in extracted page",
+  "supported_point": "The university extension article says cotton allows air to circulate and lists linen among summer fabric choices.",
+  "note": "A separate automated HTTP request disconnected earlier on 2026-10-07. The page and cited passage were independently accessible in the live web fetch on the same date."
+}

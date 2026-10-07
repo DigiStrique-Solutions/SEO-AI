@@ -1,0 +1,728 @@
+{
+  "checked_at_utc": "2026-09-29T17:40:15.991847+00:00",
+  "targets": [
+    {
+      "url": "https://cottonworld.net/collections",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections",
+      "redirected": false,
+      "bytes": 615847
+    },
+    {
+      "url": "https://cottonworld.net/collections/all-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/all-linen",
+      "redirected": false,
+      "bytes": 1741881
+    },
+    {
+      "url": "https://cottonworld.net/collections/brunch-for-men",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/brunch-for-men",
+      "redirected": false,
+      "bytes": 1665857
+    },
+    {
+      "url": "https://cottonworld.net/collections/brunch-for-women",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/brunch-for-women",
+      "redirected": false,
+      "bytes": 1209343
+    },
+    {
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "redirected": false,
+      "bytes": 1645546
+    },
+    {
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "redirected": false,
+      "bytes": 1808993
+    },
+    {
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "redirected": false,
+      "bytes": 1765041
+    },
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "redirected": false,
+      "bytes": 1696351
+    },
+    {
+      "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "redirected": false,
+      "bytes": 1368743
+    },
+    {
+      "url": "https://cottonworld.net/collections/travel-for-men",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-men",
+      "redirected": false,
+      "bytes": 1714560
+    },
+    {
+      "url": "https://cottonworld.net/collections/travel-for-women",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-women",
+      "redirected": false,
+      "bytes": 1007342
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-culottes-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-culottes-1",
+      "redirected": false,
+      "bytes": 1417815
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "redirected": false,
+      "bytes": 1604210
+    },
+    {
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "redirected": false,
+      "bytes": 1643916
+    },
+    {
+      "url": "https://cottonworld.net/pages/about-us",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/about-us",
+      "redirected": false,
+      "bytes": 621039
+    },
+    {
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "redirected": false,
+      "bytes": 550010
+    },
+    {
+      "url": "https://cottonworld.net/pages/linen-collection",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/linen-collection",
+      "redirected": false,
+      "bytes": 535924
+    },
+    {
+      "url": "https://cottonworld.net/products/l-blouse-17264-21513-maroon",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17264-21513-maroon",
+      "redirected": false,
+      "bytes": 1338401
+    },
+    {
+      "url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "redirected": false,
+      "bytes": 1340617
+    },
+    {
+      "url": "https://cottonworld.net/products/l-culotte-17779-21513-maroon",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-culotte-17779-21513-maroon",
+      "redirected": false,
+      "bytes": 1321736
+    },
+    {
+      "url": "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "redirected": false,
+      "bytes": 1352034
+    },
+    {
+      "url": "https://cottonworld.net/products/l-pants-17833-21636-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-pants-17833-21636-natural",
+      "redirected": false,
+      "bytes": 1340908
+    },
+    {
+      "url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "redirected": false,
+      "bytes": 1327058
+    },
+    {
+      "url": "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "redirected": false,
+      "bytes": 1334609
+    },
+    {
+      "url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "redirected": false,
+      "bytes": 1388577
+    },
+    {
+      "url": "https://cottonworld.net/products/m-shirts-10521-21823-white",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-10521-21823-white",
+      "redirected": false,
+      "bytes": 1360411
+    },
+    {
+      "url": "https://cottonworld.net/products/m-shirts-17214-21614-navy",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-17214-21614-navy",
+      "redirected": false,
+      "bytes": 1370744
+    },
+    {
+      "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "redirected": false,
+      "bytes": 1366717
+    },
+    {
+      "url": "https://cottonworld.net/products/m-shirts-50006-21739-navy",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-50006-21739-navy",
+      "redirected": false,
+      "bytes": 1359941
+    },
+    {
+      "url": "https://cottonworld.net/products/m-shirts-50020-21733-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-50020-21733-natural",
+      "redirected": false,
+      "bytes": 1362999
+    },
+    {
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-black",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-black",
+      "redirected": false,
+      "bytes": 1163027
+    }
+  ],
+  "link_map": [
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "100% cotton",
+      "url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "ankle-length pant uses cotton with lycra",
+      "url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "women's culottes",
+      "url": "https://cottonworld.net/collections/women-culottes-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-culottes-1",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "regular-fit knit pant",
+      "url": "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-kpants-16646-21723-black",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "short-sleeve T-shirt",
+      "url": "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-tshirt-16727-21681-green",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "cotton clothing for men",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "8-relaxed-outfit-ideas-for-humid-rainy-days.md",
+      "anchor": "cotton clothing for women",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "anchor": "men’s shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "error": null
+    },
+    {
+      "draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "anchor": "brown linen-cotton shirt",
+      "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+      "error": null
+    },
+    {
+      "draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "anchor": "linen collection guide",
+      "url": "https://cottonworld.net/pages/linen-collection",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/linen-collection",
+      "error": null
+    },
+    {
+      "draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "anchor": "Cottonworld’s clothing collections",
+      "url": "https://cottonworld.net/collections",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections",
+      "error": null
+    },
+    {
+      "draft": "comfort-meets-style-everyday-fashion-replacement.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "comfort-meets-style-everyday-fashion-replacement.md",
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "error": null
+    },
+    {
+      "draft": "comfort-meets-style-everyday-fashion-replacement.md",
+      "anchor": "cotton clothing for women",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "comfort-meets-style-everyday-fashion-replacement.md",
+      "anchor": "cotton clothing for men",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "women's dresses",
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "white cotton regular-fit shirt",
+      "url": "https://cottonworld.net/products/m-shirts-10521-21823-white",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-10521-21823-white",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "natural linen regular-fit pant",
+      "url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "natural linen-cotton pant",
+      "url": "https://cottonworld.net/products/l-pants-17833-21636-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-pants-17833-21636-natural",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "black linen regular-fit dress",
+      "url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-black",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/womens-linen-regular-fit-dress-black",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "navy linen-cotton shirt",
+      "url": "https://cottonworld.net/products/m-shirts-17214-21614-navy",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-17214-21614-navy",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "Brunch collection for women",
+      "url": "https://cottonworld.net/collections/brunch-for-women",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/brunch-for-women",
+      "error": null
+    },
+    {
+      "draft": "comfortable-date-outfits-brunch-walk-dinner.md",
+      "anchor": "Brunch collection for men",
+      "url": "https://cottonworld.net/collections/brunch-for-men",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/brunch-for-men",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "100% cotton regular-fit blouse",
+      "url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17950-21760-peach",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "cotton-lycra regular-fit ankle-length pant",
+      "url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-pants-17908-21722-beige",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "women's culottes",
+      "url": "https://cottonworld.net/collections/women-culottes-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-culottes-1",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "Oxford 100% cotton regular-fit shirt",
+      "url": "https://cottonworld.net/products/m-shirts-50006-21739-navy",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-50006-21739-navy",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "cotton-linen collection",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "cotton clothing for men",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "from-commute-to-office-monsoon-workwear.md",
+      "anchor": "cotton clothing for women",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "natural linen regular-fit pant",
+      "url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-pants-17138-21773-natural",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "natural cotton-lyocell shirt",
+      "url": "https://cottonworld.net/products/m-shirts-50020-21733-natural",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-50020-21733-natural",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "maroon cotton-lycra blouse",
+      "url": "https://cottonworld.net/products/l-blouse-17264-21513-maroon",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-blouse-17264-21513-maroon",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "maroon cotton-lycra culotte",
+      "url": "https://cottonworld.net/products/l-culotte-17779-21513-maroon",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/l-culotte-17779-21513-maroon",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "women's dresses",
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "Travel collection for men",
+      "url": "https://cottonworld.net/collections/travel-for-men",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-men",
+      "error": null
+    },
+    {
+      "draft": "long-weekend-packing-list-9-comfortable-pieces-travel-india.md",
+      "anchor": "Travel collection for women",
+      "url": "https://cottonworld.net/collections/travel-for-women",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-women",
+      "error": null
+    },
+    {
+      "draft": "slow-living-everyday-style-replacement.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "slow-living-everyday-style-replacement.md",
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "error": null
+    },
+    {
+      "draft": "slow-living-everyday-style-replacement.md",
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "error": null
+    },
+    {
+      "draft": "slow-living-everyday-style-replacement.md",
+      "anchor": "women's cotton clothing",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "slow-living-everyday-style-replacement.md",
+      "anchor": "men's cotton clothing",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "about page",
+      "url": "https://cottonworld.net/pages/about-us",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/about-us",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "men's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "women's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "women's cotton clothing",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "story-of-natural-cotton-fabric-matters-replacement.md",
+      "anchor": "men's cotton clothing",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "timeless-wardrobes-clothes-last-seasons-replacement.md",
+      "anchor": "fabric guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "error": null
+    },
+    {
+      "draft": "timeless-wardrobes-clothes-last-seasons-replacement.md",
+      "anchor": "women's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-womens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-womens",
+      "error": null
+    },
+    {
+      "draft": "timeless-wardrobes-clothes-last-seasons-replacement.md",
+      "anchor": "men's cotton collection",
+      "url": "https://cottonworld.net/collections/cotton-mens",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-mens",
+      "error": null
+    },
+    {
+      "draft": "timeless-wardrobes-clothes-last-seasons-replacement.md",
+      "anchor": "cotton and linen clothing",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "error": null
+    },
+    {
+      "draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "anchor": "cotton-linen collection",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "error": null
+    },
+    {
+      "draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "anchor": "men’s brown linen-cotton shirt",
+      "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+      "error": null
+    },
+    {
+      "draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "anchor": "linen collection",
+      "url": "https://cottonworld.net/collections/all-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/all-linen",
+      "error": null
+    },
+    {
+      "draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "anchor": "Cottonworld’s cotton and linen clothing",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "error": null
+    }
+  ]
+}

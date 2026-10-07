@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-10-07T10:51:26.862366+00:00",
+  "articles": [
+    {
+      "file": "brands\\cottonworld\\blogs\\drafts\\a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "body_words": 1255,
+      "links": [
+        {
+          "anchor": "men's shirts",
+          "url": "https://cottonworld.net/collections/mens-shirts",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections/mens-shirts"
+        },
+        {
+          "anchor": "brown linen-cotton shirt",
+          "url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections/mens-shirts/products/m-shirts-17351-21614-brown"
+        },
+        {
+          "anchor": "linen collection guide",
+          "url": "https://cottonworld.net/pages/linen-collection",
+          "status": 200,
+          "final_url": "https://cottonworld.net/pages/linen-collection"
+        },
+        {
+          "anchor": "Cottonworld's clothing collections",
+          "url": "https://cottonworld.net/collections",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections"
+        }
+      ],
+      "zerogpt_result": "brands\\cottonworld\\logs\\content\\raw\\20261007-zero-gpt-review\\a-full-wardrobe-nothing-to-wear-five-pieces.json"
+    },
+    {
+      "file": "brands\\cottonworld\\blogs\\drafts\\warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "body_words": 1339,
+      "links": [
+        {
+          "anchor": "fabric guide",
+          "url": "https://cottonworld.net/pages/fabrics",
+          "status": 200,
+          "final_url": "https://cottonworld.net/pages/fabrics"
+        },
+        {
+          "anchor": "Utah State University Extension's summer clothing guidance",
+          "url": "https://extension.usu.edu/news_sections/home_family_and_food/summer-hydration",
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+        },
+        {
+          "anchor": "cotton-linen collection",
+          "url": "https://cottonworld.net/collections/cotton-linen",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections/cotton-linen"
+        },
+        {
+          "anchor": "linen collection",
+          "url": "https://cottonworld.net/collections/all-linen",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections/all-linen"
+        },
+        {
+          "anchor": "brown linen-cotton shirt",
+          "url": "https://cottonworld.net/products/m-shirts-17351-21614-brown",
+          "status": 200,
+          "final_url": "https://cottonworld.net/products/m-shirts-17351-21614-brown"
+        },
+        {
+          "anchor": "cotton and linen clothing",
+          "url": "https://cottonworld.net/collections/cotton-linen",
+          "status": 200,
+          "final_url": "https://cottonworld.net/collections/cotton-linen"
+        }
+      ],
+      "zerogpt_result": "brands\\cottonworld\\logs\\content\\raw\\20261007-zero-gpt-review\\warm-afternoons-cooler-evenings-layering-cotton-linen.json",
+      "copy_updated_at": "2026-10-07 after link target check; link URLs unchanged; Google Doc read-back verified"
+    }
+  ]
+}

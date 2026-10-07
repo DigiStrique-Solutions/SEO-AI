@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-07",
+  "provider": "google_drive.create_file + get_document + batch_update_document + get_document_text + get_document",
+  "review_report": {
+    "url": "https://docs.google.com/document/d/11deSYq8vji6aYfrIoFR4fs6H_N_jRShkwSL51d1xDMQ/edit",
+    "headings_verified": 7,
+    "links_verified": 7,
+    "link_style": "blue and underlined"
+  },
+  "articles": [
+    {"draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md", "url": "https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit", "headings_verified": 6, "links_verified": 4, "link_style": "blue and underlined"},
+    {"draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md", "url": "https://docs.google.com/document/d/1taPykz2elffvZWOSKw7jGNQ6lV61eJxgMSYuD_grN3o/edit", "headings_verified": 9, "links_verified": 6, "link_style": "blue and underlined", "copy_replacements_verified": 4},
+    {"draft": "comfort-meets-style-everyday-fashion-replacement.md", "url": "https://docs.google.com/document/d/1qqxHCzDkc5hJyJZEZq5grMeh-GIUFCKOdXX6CGbPHjg/edit", "headings_verified": 10, "links_verified": 4, "link_style": "blue and underlined"},
+    {"draft": "story-of-natural-cotton-fabric-matters-replacement.md", "url": "https://docs.google.com/document/d/1lRnaZN98Q50c-8hMzQRh1nLM_NHaF0EEoAmUmLsF5DY/edit", "headings_verified": 10, "links_verified": 7, "link_style": "blue and underlined"},
+    {"draft": "slow-living-everyday-style-replacement.md", "url": "https://docs.google.com/document/d/1iaUbZVsoyOEvTz4ub_CLMvjGkSRlwWkrkUMNv1u_tEA/edit", "headings_verified": 10, "links_verified": 5, "link_style": "blue and underlined"},
+    {"draft": "timeless-wardrobes-clothes-last-seasons-replacement.md", "url": "https://docs.google.com/document/d/1QHzLiML98JxZs3p2aPMfwwbKb5iqNuv2DeLzYc4t4As/edit", "headings_verified": 11, "links_verified": 4, "link_style": "blue and underlined"}
+  ],
+  "note": "Review draft status remains because the exact external ZeroGPT score is unavailable. This receipt records document structure and link styling, not CMS publication."
+}
