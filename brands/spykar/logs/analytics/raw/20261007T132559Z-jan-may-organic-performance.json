@@ -1,0 +1,35 @@
+{
+  "run_id": "spykar-jan-may-organic-performance-20261007",
+  "checked_at_utc": "2026-10-07T13:25:59Z",
+  "composio_execution_logs": ["log_EJVoPWfVmP7h", "log_2V--Jmvpa0dl"],
+  "ga4": {
+    "property": "properties/320857986",
+    "time_zone": "Asia/Calcutta",
+    "filter": {"fieldName": "sessionDefaultChannelGroup", "matchType": "EXACT", "value": "Organic Search"},
+    "metric_headers": ["sessions", "totalUsers"],
+    "monthly_rows": [
+      {"start_date": "2026-01-01", "end_date": "2026-01-31", "metric_values": ["45206", "32236"]},
+      {"start_date": "2026-02-01", "end_date": "2026-02-28", "metric_values": ["40218", "28999"]},
+      {"start_date": "2026-03-01", "end_date": "2026-03-31", "metric_values": ["32100", "25194"]},
+      {"start_date": "2026-04-01", "end_date": "2026-04-30", "metric_values": ["22698", "18056"]},
+      {"start_date": "2026-05-01", "end_date": "2026-05-31", "metric_values": ["20676", "16978"]}
+    ],
+    "full_period": {"start_date": "2026-01-01", "end_date": "2026-05-31", "metric_values": ["161235", "116178"]},
+    "note": "Directly queried full-period sessions differ from the sum of monthly sessions (160898); use the direct range query for the range total. Full-period totalUsers are distinct users for the complete range and must not be summed from monthly rows."
+  },
+  "gsc": {
+    "property": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "dimensions": [],
+    "aggregation_type": "byProperty",
+    "monthly_rows": [
+      {"start_date": "2026-01-01", "end_date": "2026-01-31", "clicks": 42859, "impressions": 2626577, "ctr": 0.01631743520178544, "position": 11.62920142832287},
+      {"start_date": "2026-02-01", "end_date": "2026-02-28", "clicks": 38337, "impressions": 2303362, "ctr": 0.016643931783193438, "position": 10.537042375449452},
+      {"start_date": "2026-03-01", "end_date": "2026-03-31", "clicks": 32279, "impressions": 2539636, "ctr": 0.0127100891623839, "position": 9.567516762244669},
+      {"start_date": "2026-04-01", "end_date": "2026-04-30", "clicks": 20498, "impressions": 1334771, "ctr": 0.015356941377959215, "position": 10.511746209649445},
+      {"start_date": "2026-05-01", "end_date": "2026-05-31", "clicks": 16373, "impressions": 1225700, "ctr": 0.013358081096516277, "position": 9.737589132740474}
+    ],
+    "full_period": {"start_date": "2026-01-01", "end_date": "2026-05-31", "clicks": 150346, "impressions": 10030046, "ctr": 0.01498956236093035, "position": 10.476498612269575}
+  }
+}
