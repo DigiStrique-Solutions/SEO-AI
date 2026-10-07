@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-07",
+  "provider": "ZeroGPT website UI via Codex in-app browser",
+  "url": "https://www.zerogpt.com/",
+  "method": "Upload each exact plain-text article body. Read the visible result and word count from the site accessibility tree; the layering result was also visually inspected.",
+  "results": [
+    {
+      "draft": "a-full-wardrobe-nothing-to-wear-five-pieces.md",
+      "submitted_text_ref": "raw/20261007-zero-gpt-review/a-full-wardrobe-nothing-to-wear-five-pieces.txt",
+      "site_words": 1256,
+      "site_ai_percent": 86.9,
+      "site_result_text": "Your File Content is AI/GPT Generated",
+      "gate_status": "fail"
+    },
+    {
+      "draft": "warm-afternoons-cooler-evenings-layering-cotton-linen.md",
+      "submitted_text_ref": "raw/20261007-zero-gpt-review/warm-afternoons-cooler-evenings-layering-cotton-linen.txt",
+      "site_words": 1339,
+      "site_ai_percent": 91.0,
+      "site_result_text": "Your File Content is AI/GPT Generated",
+      "gate_status": "fail"
+    },
+    {
+      "draft": "one-bag-two-climates-short-trip-india.md",
+      "submitted_text_ref": "raw/20261007-third-blog-zerogpt/one-bag-two-climates-short-trip-india.txt",
+      "site_words": 1530,
+      "site_ai_percent": 87.8,
+      "site_result_text": "Your File Content is AI/GPT Generated",
+      "gate_status": "fail"
+    }
+  ],
+  "interpretation": "The detector percentages are weak editorial risk signals, not proof of authorship. All three exceed the workspace's strictly-below-20% publication threshold. Content quality and source accuracy are retained; these are review drafts, not publish-ready copy."
+}

@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-07",
+  "provider": "requests HTTP GET",
+  "results": [
+    {
+      "slug": "travel-men",
+      "url": "https://cottonworld.net/collections/travel-for-men",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-men",
+      "title": "Men's Travel\n – Cottonworld",
+      "bytes": 1714963,
+      "raw_html": "travel-men.html.gz"
+    },
+    {
+      "slug": "travel-women",
+      "url": "https://cottonworld.net/collections/travel-for-women",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/travel-for-women",
+      "title": "Women's Travel\n – Cottonworld",
+      "bytes": 1163703,
+      "raw_html": "travel-women.html.gz"
+    },
+    {
+      "slug": "fabric-guide",
+      "url": "https://cottonworld.net/pages/fabrics",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/pages/fabrics",
+      "title": "Fabrics\n – Cottonworld",
+      "bytes": 551964,
+      "raw_html": "fabric-guide.html.gz"
+    },
+    {
+      "slug": "cotton-linen",
+      "url": "https://cottonworld.net/collections/cotton-linen",
+      "http_status": 200,
+      "final_url": "https://cottonworld.net/collections/cotton-linen",
+      "title": "Cotton Linen\n – Cottonworld",
+      "bytes": 1636879,
+      "raw_html": "cotton-linen.html.gz"
+    },
+    {
+      "slug": "indus-india-guide",
+      "url": "https://aviator.indus.travel/india-packing-list/",
+      "http_status": 200,
+      "final_url": "https://aviator.indus.travel/india-packing-list/",
+      "title": "What to Pack for India: Season-by-Season Packing List",
+      "bytes": 159353,
+      "raw_html": "indus-india-guide.html.gz"
+    }
+  ]
+}

@@ -47,14 +47,15 @@ The four intended titles gesture toward fabric education and slow style, but no 
 - capsule wardrobes and repeat-wear outfit planning;
 - product-linked fit, fabric and care guidance.
 
-## Refined editorial drafts — 2026-10-07
+## Three-topic editorial drafts — 2026-10-07
 
 | Title | Status | Approx. body words | Current Google Doc | Workspace draft |
 |---|---|---:|---|---|
-| A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most | Review draft; external ZeroGPT score blocked by 403 Not enough credits | 1,255 | [refined Google Doc](https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit) | [draft](drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md) |
-| Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe | Review draft; external ZeroGPT score blocked by 403 Not enough credits | 1,339 | [refined Google Doc](https://docs.google.com/document/d/1taPykz2elffvZWOSKw7jGNQ6lV61eJxgMSYuD_grN3o/edit) | [draft](drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md) |
+| A Full Wardrobe, Nothing to Wear? Start With the Five Pieces You Reach For Most | Review draft; ZeroGPT UI 86.9% exceeds publication gate | 1,255 | [refined Google Doc](https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit) | [draft](drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md) |
+| Warm Afternoons, Cooler Evenings: Layering Cotton and Linen Without Rebuilding Your Wardrobe | Review draft; ZeroGPT UI 91.0% exceeds publication gate | 1,339 | [refined Google Doc](https://docs.google.com/document/d/1taPykz2elffvZWOSKw7jGNQ6lV61eJxgMSYuD_grN3o/edit) | [draft](drafts/warm-afternoons-cooler-evenings-layering-cotton-linen.md) |
+| One Bag, Two Climates: What to Pack for a Short Trip in India | New review draft; ZeroGPT UI 87.8% exceeds publication gate | 1,530 | [editorial Google Doc](https://docs.google.com/document/d/1LzSFlSeweOqN864WGQNE78jKRwvwfKxysbRrg-lUBNs/edit) | [draft](drafts/one-bag-two-climates-short-trip-india.md) |
 
-These two current drafts replace the 2026-09-28 document versions. Their exact-title SERP captures, link checks and external detector failures are in `../logs/content/raw/20261007-refined-blogs-serp-captures.json`, `../logs/content/raw/20261007-refined-two-link-and-gate-check.json` and `../logs/content/raw/20261007-zero-gpt-review/`. The local fallback score is not a ZeroGPT pass.
+The first two current drafts replace the 2026-09-28 document versions. The third is the approved topic from the three-topic shortlist, now drafted in full. Their SERP captures, link checks and website detector results are in `../logs/content/raw/20261007-refined-blogs-serp-captures.json`, `../logs/content/raw/20261007-third-blog-serp/benchmark.json`, `../logs/content/raw/20261007-refined-two-link-and-gate-check.json`, `../logs/content/raw/20261007-third-blog-links/verification.json` and `../logs/content/raw/20261007-zero-gpt-website-ui-review.json`. The detector result is an editorial risk signal, not proof of authorship; the drafts are not publish-ready under the current gate.
 
 ## Earlier draft — 2026-09-28
 

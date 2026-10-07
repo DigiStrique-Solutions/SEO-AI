@@ -1,0 +1,39 @@
+{
+  "access_date": "2026-10-07",
+  "proposed_title": "One Bag, Two Climates: What to Pack for a Short Trip in India",
+  "exact_title_serp_result": "No exact-title organic article matched; the live topical query 'India packing list two climates short trip blog' was used to identify the first three relevant organic blog results.",
+  "top_three_relevant_organic_blogs": [
+    {
+      "rank": 1,
+      "url": "https://packzup.com/india-packing-list/",
+      "tone": "Direct, broad travel checklist",
+      "extracted_words_approx": 729,
+      "structure": "Packing premise, climate and weather, must-have items, travel tips and FAQ. Useful as a concise scope cue, but the article is not focused on a short two-stop journey.",
+      "raw_ref": "packzup-india.html.gz; packzup-india.txt"
+    },
+    {
+      "rank": 2,
+      "url": "https://www.gadventures.com/blog/india-packing-list/",
+      "tone": "Lively travel editorial with practical clothing advice and commercial tour examples",
+      "extracted_words_approx": 1254,
+      "structure": "Itinerary-dependent opening, what to wear, season and activity sections, then a short packing list. The approximate article length comes from the live web extraction because the direct HTTP response did not expose the article body.",
+      "raw_ref": "g-adventures-india.html.gz; g-adventures-web-extract.json"
+    },
+    {
+      "rank": 3,
+      "url": "https://luxindiatours.com/blog/india-packing-list-season-by-season",
+      "tone": "Practical and region-specific",
+      "extracted_words_approx": 1069,
+      "structure": "Shared essentials, regional sections, footwear, packing mistakes, working checklist and FAQ. It shows how climate changes the list but covers a much wider trip than the proposed post.",
+      "raw_ref": "lux-india-tours.html.gz; lux-india-tours.txt"
+    }
+  ],
+  "supplemental_dual_climate_reference": {
+    "url": "https://ladylighttravel.com/2012/09/15/packing-for-two-or-more-climates/",
+    "extracted_words_approx": 1078,
+    "use": "Confirmed that a shared base and removable layers answer the two-climate packing intent; not used as a model for Cottonworld's wording or section order.",
+    "raw_ref": "lady-light-travel.html.gz; lady-light-travel.txt"
+  },
+  "editorial_benchmark": "Target roughly 1,200-1,600 useful words. Start with a real short-trip packing tension, move from route and forecast to a shared clothing base, then a conditional cooler layer, clean-clothes planning and a final bag check. Keep Cottonworld's calm Indian everyday voice. No competitor wording, list or section structure was copied.",
+  "limitations": "Extracted word counts are approximate and may include page furniture; G Adventures required a separate web text fetch. Search demand and fixed rankings were not verified."
+}
