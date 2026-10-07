@@ -1,0 +1,1045 @@
+[
+  {
+    "row": 10,
+    "code": "l-blouse-17011-21693-blue",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 11,
+    "code": "l-blouse-17012-21687-pink",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 17,
+    "code": "l-blouse-17230-21730-rust",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 18,
+    "code": "l-blouse-17264-21513-maroon",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 19,
+    "code": "l-blouse-17305-21639-red",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 20,
+    "code": "l-blouse-17328-21687-brown",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 23,
+    "code": "l-blouse-17534-21687-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 25,
+    "code": "l-blouse-17541-21639-red",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 26,
+    "code": "l-blouse-17592-21780-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 27,
+    "code": "l-blouse-17592-21781-beige",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 28,
+    "code": "l-blouse-17592-21782-beige",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 35,
+    "code": "l-blouse-17700-21632-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 36,
+    "code": "l-blouse-17734-21639-red",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 37,
+    "code": "l-blouse-17778-21730-rust",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 38,
+    "code": "l-blouse-17812-21632-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 41,
+    "code": "l-blouse-17853-21558-blue",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 44,
+    "code": "l-blouse-17854-21729-brown",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 49,
+    "code": "l-blouse-17863-21693-blue",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 50,
+    "code": "l-blouse-17863-21693-yellow",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 51,
+    "code": "l-blouse-17863-21754-blue",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 52,
+    "code": "l-blouse-17869-21711-white",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 53,
+    "code": "l-blouse-17869-21815-yellow",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 59,
+    "code": "l-blouse-17902-21557-multi",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 62,
+    "code": "l-blouse-17909-21776-sage",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 63,
+    "code": "l-blouse-17910-21754-beige",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 64,
+    "code": "l-blouse-17913-21755-multi",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 66,
+    "code": "l-blouse-17925-21513-maroon",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 67,
+    "code": "l-blouse-17930-21557-multi",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 68,
+    "code": "l-blouse-17930-21639-red",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 69,
+    "code": "l-blouse-17930-21756-pink",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 71,
+    "code": "l-blouse-17943-21557-brown",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 72,
+    "code": "l-blouse-17943-21557-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 73,
+    "code": "l-blouse-17944-21557-multi",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 74,
+    "code": "l-blouse-17950-21760-peach",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 75,
+    "code": "l-blouse-17952-21780-beige",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 76,
+    "code": "l-blouse-17952-21781-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 77,
+    "code": "l-blouse-17952-21782-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 81,
+    "code": "l-blouse-18046-21711-white",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 82,
+    "code": "l-culotte-16778-21722-beige",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 83,
+    "code": "l-culotte-16778-21722-black",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 86,
+    "code": "l-culotte-16778-21861-brown",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 87,
+    "code": "l-culotte-16778-21861-olive",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 90,
+    "code": "l-culotte-17829-21656-denim",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 119,
+    "code": "l-kpants-16646-21723-black",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 122,
+    "code": "l-kpants-17946-21724-navy",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 127,
+    "code": "l-pants-17080-21722-beige",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 130,
+    "code": "l-pants-17682-21737-white",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 131,
+    "code": "l-pants-17682-21737-yellow",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 134,
+    "code": "l-pants-17769-21737-yellow",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 135,
+    "code": "l-pants-17813-21737-beige",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 138,
+    "code": "l-pants-17830-21778-denim",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 139,
+    "code": "l-pants-17833-21636-natural",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 142,
+    "code": "l-pants-17908-21722-beige",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 143,
+    "code": "l-pants-17922-21813-denim-blue",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 146,
+    "code": "l-pants-17939-21813-denim-blue",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 147,
+    "code": "l-pants-17940-21824-black",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 150,
+    "code": "l-pants-17972-21825-grey",
+    "reasons": [
+      "accessories compared with extra layers"
+    ]
+  },
+  {
+    "row": 151,
+    "code": "l-pants-17972-21825-rose",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 183,
+    "code": "l-tshirt-17427-21628-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 184,
+    "code": "l-tshirt-17427-21628-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 202,
+    "code": "l-tshirt-17553-21628-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 203,
+    "code": "l-tshirt-17553-21628-red",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 213,
+    "code": "l-tshirt-17780-21630-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 219,
+    "code": "m-pants-11743-21487-olive",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 220,
+    "code": "m-pants-11743-21751-beige",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 222,
+    "code": "m-pants-11743-21751-green",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 223,
+    "code": "m-pants-11743-21751-khaki",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 224,
+    "code": "m-pants-11743-21751-navy",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 226,
+    "code": "m-pants-13485-21772-green",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 227,
+    "code": "m-pants-13485-21772-natural",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 228,
+    "code": "m-pants-13485-21772-white",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 230,
+    "code": "m-pants-15152-21772-green",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 231,
+    "code": "m-pants-15152-21772-natural",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 232,
+    "code": "m-pants-16181-21751-beige",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 234,
+    "code": "m-pants-16181-21751-green",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 235,
+    "code": "m-pants-16181-21751-khaki",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 236,
+    "code": "m-pants-16181-21751-navy",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 238,
+    "code": "m-pants-16480-21752-navy",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 239,
+    "code": "m-pants-16480-21752-white",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 240,
+    "code": "m-pants-17138-21603-offwhite",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 242,
+    "code": "m-pants-17138-21748-brown",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 243,
+    "code": "m-pants-17138-21773-natural",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 244,
+    "code": "m-pants-17138-21773-olive",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 246,
+    "code": "m-pants-18002-21773-natural",
+    "reasons": [
+      "accessories compared with extra layers",
+      "mens trouser outfit: generic knit top and flat shoes",
+      "shirt suggested twice"
+    ]
+  },
+  {
+    "row": 247,
+    "code": "m-pants-18002-21773-olive",
+    "reasons": [
+      "bag compared with clothing layer"
+    ]
+  },
+  {
+    "row": 248,
+    "code": "m-pants-18002-21773-slate",
+    "reasons": [
+      "mens trouser outfit: generic top and flat sandals"
+    ]
+  },
+  {
+    "row": 250,
+    "code": "m-shirts-10521-21784-yellow",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 252,
+    "code": "m-shirts-13484-21610-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 253,
+    "code": "m-shirts-13484-21611-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 254,
+    "code": "m-shirts-13484-21611-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 255,
+    "code": "m-shirts-13484-21707-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 256,
+    "code": "m-shirts-13484-21707-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 258,
+    "code": "m-shirts-13484-21713-sky",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 259,
+    "code": "m-shirts-13484-21732-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 260,
+    "code": "m-shirts-13484-21732-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 261,
+    "code": "m-shirts-13484-21732-sand",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 262,
+    "code": "m-shirts-13484-21806-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 264,
+    "code": "m-shirts-16563-21654-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 266,
+    "code": "m-shirts-16731-21614-plum",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 270,
+    "code": "m-shirts-17351-21614-black",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 274,
+    "code": "m-shirts-17489-21833-khaki",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 278,
+    "code": "m-shirts-17818-21784-navy",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 281,
+    "code": "m-shirts-17887-21603-brown",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 282,
+    "code": "m-shirts-17887-21662-brown",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 286,
+    "code": "m-shirts-50006-21738-mint",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 290,
+    "code": "m-shirts-50011-21808-sky",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 291,
+    "code": "m-shirts-50011-21809-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 292,
+    "code": "m-shirts-50011-21809-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 294,
+    "code": "m-shirts-50013-21749-olive",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 298,
+    "code": "m-shirts-50015-21784-pink",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 300,
+    "code": "m-shirts-50019-20972-sand",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 301,
+    "code": "m-shirts-50019-20972-sky",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 302,
+    "code": "m-shirts-50019-21612-green",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 304,
+    "code": "m-shirts-50019-21691-natural",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 305,
+    "code": "m-shirts-50019-21692-slate",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 306,
+    "code": "m-shirts-50019-21701-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 307,
+    "code": "m-shirts-50019-21701-olive",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 308,
+    "code": "m-shirts-50019-21702-natural",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 309,
+    "code": "m-shirts-50019-21703-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 310,
+    "code": "m-shirts-50019-21704-green",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 311,
+    "code": "m-shirts-50019-21704-multi",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 314,
+    "code": "m-shirts-50019-21742-green",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 318,
+    "code": "m-shirts-50020-21612-navy",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 319,
+    "code": "m-shirts-50020-21733-natural",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 320,
+    "code": "m-shirts-50020-21733-offwhite",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 322,
+    "code": "m-shirts-50020-21743-brown",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 326,
+    "code": "m-shirts-50020-21743-sky",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 330,
+    "code": "m-shirts-50021-21739-lilac",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 342,
+    "code": "m-tshirt-15906-21725-black",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 346,
+    "code": "m-tshirt-15906-21725-green",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 350,
+    "code": "m-tshirt-15906-21725-wine",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 351,
+    "code": "m-tshirt-16319-21767-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 352,
+    "code": "m-tshirt-16319-21768-blue",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 353,
+    "code": "m-tshirt-16319-21769-blue-1",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 354,
+    "code": "m-tshirt-16319-21799-sand",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 355,
+    "code": "m-tshirt-16319-21803-white",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 356,
+    "code": "m-tshirt-16319-21841-black",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 357,
+    "code": "m-tshirt-16319-21844-navy",
+    "reasons": [
+      "unintroduced jacket in styling note"
+    ]
+  },
+  {
+    "row": 358,
+    "code": "m-tshirt-17091-21646-black",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 362,
+    "code": "m-tshirt-17091-21646-teal",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 366,
+    "code": "m-tshirt-17091-21723-brick",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 370,
+    "code": "m-tshirt-17091-21723-olive",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 374,
+    "code": "m-tshirt-17091-21892-navy",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 378,
+    "code": "m-tshirt-17093-21723-lavender",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 382,
+    "code": "m-tshirt-17444-21765-brown",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 386,
+    "code": "m-tshirt-17755-21740-navy",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  },
+  {
+    "row": 390,
+    "code": "m-tshirt-17928-21740-black",
+    "reasons": [
+      "mens top outfit: generic flat shoes"
+    ]
+  }
+]

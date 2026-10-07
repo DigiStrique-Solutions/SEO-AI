@@ -1,0 +1,26 @@
+{
+  "run_id": "20261007-added-active-pdp-final-review",
+  "date": "2026-10-07",
+  "brand": "cottonworld",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0/edit?gid=1979343695",
+  "review_doc_url": "https://docs.google.com/document/d/1CM7eTVio_zv0DcN1dcGfcr2BW1gwHxassON8GnQ7IyQ/edit",
+  "product_record_ref": "../20261006-added-active-pdp/records.json",
+  "prior_copy_ref": "../20261006-added-active-pdp-copyedit/revised.json",
+  "sheet_read_before": "before-sheet.json",
+  "sheet_comments_read": "sheet-comments.json",
+  "source_audit_script": "audit_sources.py",
+  "source_audit_flags": "source-flags.json",
+  "copy_revision_script": "refine.py",
+  "copy_revisions": "revised.json",
+  "change_register": "changes.json",
+  "copy_checks": "qa.json",
+  "sheet_write_response": "write-response.json",
+  "sheet_read_after": "after-sheet.json",
+  "review_doc_read_before": "review-doc-before.json",
+  "review_doc_read_after": "review-doc-final.json",
+  "final_verification": "verification.json",
+  "source_limitations": [
+    "Row 370 merchant colour field says brown; product title and both supplied URLs say olive. Copy follows olive; merchant field needs confirmation.",
+    "Rows 24 and 293–295 lack matching full current product export records."
+  ]
+}

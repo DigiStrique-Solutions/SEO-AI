@@ -1,0 +1,14 @@
+{
+  "rows": 392,
+  "changed": 147,
+  "unique_ids": 392,
+  "unique_urls": 392,
+  "body_word_min_median_max": [
+    82,
+    110.0,
+    121
+  ],
+  "issues": [],
+  "duplicate_bodies": [],
+  "colour_only_duplicate_bodies": []
+}

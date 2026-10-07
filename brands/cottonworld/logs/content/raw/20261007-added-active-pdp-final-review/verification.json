@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "sheet_rows_checked": 392,
+  "descriptions_changed": 147,
+  "source_url_columns_preserved": true,
+  "all_descriptions_match_revisions": true,
+  "copy_issues": 0,
+  "exact_or_colour_only_duplicate_bodies": 0,
+  "review_doc_updated": true,
+  "remaining_source_discrepancy": "Row 370 merchant colour field brown vs title and both supplied URLs olive",
+  "other_source_limitations": "Rows 24 and 293–295 have incomplete current product records"
+}
