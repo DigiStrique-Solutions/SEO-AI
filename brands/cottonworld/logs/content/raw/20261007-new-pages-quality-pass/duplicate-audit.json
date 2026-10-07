@@ -1,0 +1,66 @@
+{
+  "run_id": "20261007-new-pages-quality-pass",
+  "sheet": "Boltworks sheet",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "scope": "all 428 data rows",
+  "duplicate_check": "case-insensitive trimmed values with whitespace collapsed",
+  "exact_duplicates": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "E": []
+  },
+  "same_style_and_colour_needing_merchant_confirmation": [
+    {
+      "new_row": 403,
+      "prior_rows": [
+        119
+      ]
+    },
+    {
+      "new_row": 404,
+      "prior_rows": [
+        120
+      ]
+    },
+    {
+      "new_row": 413,
+      "prior_rows": [
+        187
+      ]
+    },
+    {
+      "new_row": 415,
+      "prior_rows": [
+        182,
+        193
+      ]
+    },
+    {
+      "new_row": 416,
+      "prior_rows": [
+        189
+      ]
+    },
+    {
+      "new_row": 417,
+      "prior_rows": [
+        198
+      ]
+    },
+    {
+      "new_row": 422,
+      "prior_rows": [
+        263
+      ]
+    },
+    {
+      "new_row": 425,
+      "prior_rows": [
+        317
+      ]
+    }
+  ],
+  "interpretation": "The proposed URLs and copy are unique; repeated style-and-colour combinations may still represent similar products until merchant attributes for the unpublished SKUs are supplied."
+}

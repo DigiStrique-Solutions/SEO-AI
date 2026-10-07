@@ -1,0 +1,26 @@
+{
+  "run_id": "20261007-new-pages-quality-pass",
+  "date": "2026-10-07",
+  "source_sheet": "https://docs.google.com/spreadsheets/d/1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw/edit?gid=1979343695",
+  "public_catalog_ref": "../20261007-new-pages/catalog-page-{1,2,3,4}.json.gz",
+  "public_products_checked": 857,
+  "new_skus_in_public_catalog": 0,
+  "older_style_evidence": [
+    {
+      "style": "L-BLOUSE-17751",
+      "older_sku": "L-BLOUSE-17751-21497-DENIM",
+      "handle": "womens-tencel-regular-fit-sleeveless-blouse-denim",
+      "supported_inference": "Regular fit and sleeveless shape; new SKU fabric and print unverified."
+    },
+    {
+      "style": "M-SHIRTS-16162",
+      "older_skus": [
+        "M-SHIRTS-16162-21745-NATURAL",
+        "M-SHIRTS-16162-21292-BLACK",
+        "M-SHIRTS-16162-21451-WHITE"
+      ],
+      "finding": "Older products use different fabrics and collars; removed inherited linen and regular-collar claims from new SKU titles."
+    }
+  ],
+  "limitation": "Eight new rows have the same style and colour as earlier rows. Distinguishing print/fabric cannot be verified until merchant records for new SKUs are available."
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "20261007-new-pages-quality-pass",
+  "spreadsheet_id": "1IlMiV6ccSfYyngMLuWyrEd3HD94wP4hbwcWQhOPnqcw",
+  "sheet": "Boltworks sheet",
+  "rows_revised": "394:429",
+  "copy_rows_revised": 36,
+  "url_h1_title_rows_revised": [
+    396,
+    397,
+    421,
+    422
+  ],
+  "review_overlap_rows": [
+    403,
+    404,
+    413,
+    415,
+    416,
+    417,
+    422,
+    425
+  ],
+  "checks": {
+    "all_428_data_rows_no_exact_duplicates_A_to_E": true,
+    "all_new_urls_match_h1": true,
+    "all_new_meta_titles_end_with_brand": true,
+    "no_new_meta_titles_contain_buy_or_product_codes": true,
+    "no_new_meta_descriptions_contain_product_codes": true,
+    "max_new_description_length": 129
+  },
+  "status": "pass_with_merchant_attribute_followup"
+}
