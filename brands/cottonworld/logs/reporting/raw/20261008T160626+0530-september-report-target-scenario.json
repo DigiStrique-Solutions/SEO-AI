@@ -1,0 +1,59 @@
+{
+  "run_id": "cottonworld-september-report-target-scenario-20261008",
+  "prepared_at": "2026-10-08T16:06:26+05:30",
+  "brand": "cottonworld",
+  "source_presentation": "https://docs.google.com/presentation/d/1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144/edit",
+  "target_presentation": "https://docs.google.com/presentation/d/12bsqmYfE9VRa34K74ISDQFuVzcu-oqby_WDd06UdpTM/edit",
+  "sources": {
+    "august_full_month_report": {
+      "source_file": "brands/cottonworld/logs/reporting/raw/20260902-slide-updates.json",
+      "ga4_organic_users": 25603,
+      "ga4_organic_sessions": 32176
+    },
+    "september_report_actuals": {
+      "source_file": "brands/cottonworld/logs/reporting/raw/20261008T083800Z-september-2026-performance.json",
+      "ga4_comparable_period": "2026-08-01..2026-08-27 vs 2026-09-01..2026-09-27",
+      "ga4": {
+        "august_users_partial_period": 24603,
+        "september_users_partial_period": 20306,
+        "august_sessions_partial_period": 32176,
+        "september_sessions_partial_period": 27948,
+        "august_engagement_rate": 0.7606911984,
+        "september_engagement_rate": 0.7663517962
+      },
+      "gsc": {
+        "august_clicks": 21895,
+        "september_clicks": 18536,
+        "august_impressions": 1441092,
+        "september_impressions": 1079768,
+        "august_ctr": 0.0151933395,
+        "september_ctr": 0.0171666506,
+        "august_average_position": 9.18667,
+        "september_average_position": 8.32021
+      }
+    }
+  },
+  "target_scenario": {
+    "uplift": "10-12% vs August baseline; targets only, not measured September results",
+    "ga4_users_from_august_report_baseline_25603": [28164, 28675],
+    "ga4_sessions_from_august_baseline_32176": [35394, 36037],
+    "gsc_clicks_from_august_baseline_21895": [24085, 24522],
+    "gsc_impressions_from_august_baseline_1441092": [1585201, 1614023],
+    "gsc_ctr_target_relative_uplift_from_1_52_percent": [1.67, 1.70],
+    "gsc_average_position_target_10_to_12_percent_improvement_from_9_19": [8.09, 8.27]
+  },
+  "edits": {
+    "slide_3": "Rewrote GA4 commentary to distinguish comparable Aug 1-27/Sep 1-27 actuals from August full-month report baseline (25,603 users), and added 10-12% target ranges for users and sessions. Existing actual table remains unchanged.",
+    "slide_6": "Rewrote GSC commentary to preserve September actual performance and add a clearly labeled illustrative 10-12% target scenario for clicks, impressions, CTR, and average position. Existing actual table remains unchanged."
+  },
+  "verification": {
+    "save_status": "Saved to Drive",
+    "visible_readback": "Confirmed updated slide 3 and slide 6 commentary and target ranges in browser editor",
+    "visual_review": "Both narrative boxes remained within their existing text frames; GSC target copy retained the existing highlighted style"
+  },
+  "limitations": [
+    "The source August deck was previously edited in error and is not a clean original deck; the August 25,603 users baseline is grounded in the saved August reporting log.",
+    "10-12% target ranges are planning scenarios and must not be presented as actual September performance.",
+    "August full-month users (25,603) differ from the like-for-like partial-period August comparison (24,603); the slide narrative explains the distinction."
+  ]
+}
