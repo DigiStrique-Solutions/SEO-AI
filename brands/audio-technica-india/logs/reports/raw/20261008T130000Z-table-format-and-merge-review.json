@@ -1,0 +1,17 @@
+{
+  "run_id": "audio-technica-india-table-format-and-merge-review-20261008",
+  "run_at": "2026-10-08T13:00:00Z",
+  "target_deck": "13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY",
+  "request": "Merge slides 3–4 and improve the styling of slides 8–9.",
+  "observed_current_slide_4": {
+    "title": "Keyword Ranking Comparison - (June vs July 2026)",
+    "table_shape": "19 rows × 3 columns",
+    "preservation_reason": "Merging it with the July–September slide would either omit 16 keyword rows or introduce blank September values; no supported mapping was specified."
+  },
+  "completed": {
+    "slide_3": "Restored the July–September keyword-ranking table after merge review.",
+    "slides_8_9": "Applied the report's dark-blue header, white bold header typography, and compact 10pt body typography to the September GSC and GA4 detail tables.",
+    "verification": "Retrieved fresh large thumbnails for slides 3, 8, and 9 after write."
+  },
+  "pending_decision": "Whether slide 4's 19 June–July keyword rows should be retained in an appendix, condensed, or replaced by the July–September table."
+}
