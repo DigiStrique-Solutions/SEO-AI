@@ -1,0 +1,23 @@
+{
+  "run_id": "cottonworld-september-2026-reference-alignment-20261008",
+  "retrieved_at_utc": "2026-10-08T09:30:58Z",
+  "property": "https://cottonworld.net/",
+  "ga4": {
+    "provider": "Google Analytics 4 via Composio",
+    "execution_log_id": "log_ENfUX-ug5rgN",
+    "property": "properties/313475286",
+    "time_zone": "Asia/Calcutta",
+    "channel": "Organic Search",
+    "landing_page_sessions": {
+      "august_2026": {"/": 9195, "/collections/mens-shirts": 2046, "/collections/mens-pants-2": 1063, "/collections/men-t-shirts-1": 1052, "/collections/women-pants-1": 1021, "/collections/women-linen-pants": 956, "/collections/mens-tshirts": 776, "/collections/women-tops-1": 768, "/pages/sca-store-locator": 752, "/collections/women-tshirts": 695, "(not set)": 620, "/collections/mens-shorts": 677, "/collections/men-bamboo-clothes": 561, "/collections/linen-tops-shirts": 618},
+      "september_2026": {"/": 8253, "/collections/mens-shirts": 2408, "/collections/mens-pants-2": 1904, "/collections/mens-tshirts": 1424, "/collections/women-tops-1": 820, "/pages/sca-store-locator": 819, "/collections/women-tshirts": 720, "(not set)": 638, "/collections/mens-shorts": 576, "/collections/men-bamboo-clothes": 535, "/collections/women-linen-pants": 126, "/collections/women-pants-1": 133}
+    }
+  },
+  "report": {
+    "google_doc_url": "https://docs.google.com/document/d/1jyvK-ZJmgE5aZw0GQ8cRzFUsFPZ9yojJDYEQ5yexZMY/edit",
+    "structure_reference": "https://docs.google.com/presentation/d/1RAk4Y1teKq9ImYnSa6I24oXZ6zpeXMykscNHzawY144/edit",
+    "updated_to_follow_reference_sections": ["focused query performance", "GA4 organic traffic", "GA4 top organic landing pages", "GSC top pages", "GSC site performance", "backlink activity", "September work completed", "October plan of action"],
+    "update_execution_log_id": "log_hoc4FoJW_TaQ",
+    "verification_execution_log_id": "log_6IFWsPCxs6ic"
+  }
+}
