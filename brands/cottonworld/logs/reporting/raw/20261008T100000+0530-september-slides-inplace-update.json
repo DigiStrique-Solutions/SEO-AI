@@ -17,7 +17,8 @@
   },
   "limitations": [
     "September rank-tracker export and backlink tracker were not supplied; the deck labels these data gaps.",
-    "Visual review found a stray overlapping text artifact on slide 4 and slide 9. Most slide content remains readable; these two layouts need a final cleanup pass.",
+    "Visual review found stray overlapping text artifacts on slides 4 and 9. The August landing-page comparison on slide 4 also has mismatched row labels and session values; the September table is updated, but the August comparison needs correction.",
+    "The October plan slide retains one stale Article Submission row from the August template; replace it in the final cleanup pass.",
     "Google Slides document title in the Drive header still displays August 2026; the cover slide displays September 2026."
   ],
   "save_state": "Google Slides displayed Saved to Drive after edits; slide content readback confirmed updated metrics."
