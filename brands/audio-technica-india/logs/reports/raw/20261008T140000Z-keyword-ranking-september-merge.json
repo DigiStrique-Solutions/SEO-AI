@@ -1,0 +1,34 @@
+{
+  "run_id": "audio-technica-india-keyword-ranking-september-merge-20261008",
+  "run_at": "2026-10-08T14:00:00Z",
+  "target_deck": "13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY",
+  "source": {
+    "provider": "Google Search Console via Composio",
+    "site_url": "https://audio-technica.co.in/",
+    "period": "2026-09-01 to 2026-09-30",
+    "search_type": "web",
+    "aggregation_type": "byProperty"
+  },
+  "action": "Merged the duplicate keyword-ranking slides by retaining the detailed June–July table, adding a September column, then removing the shorter duplicate July–September slide.",
+  "september_average_positions": {
+    "audio technica": 3.75,
+    "vinyl player": 5.28,
+    "audio technica india": 1.01,
+    "audio-technica": 4.0,
+    "audio technica headphones": 1.9,
+    "audio technica m50x": 1.85,
+    "record player": 6.15,
+    "audio technica turntable": 3.71,
+    "audiotechnica": 3.45,
+    "audio technica earbuds": 3.77,
+    "audio technica vinyl player": 1.7,
+    "audio technica earphones": 2.98,
+    "audio-technica india": 1.0,
+    "audio-technica ath-m20x": 3.13,
+    "audio technica m20x": 3.83,
+    "vinyl record player": 4.98,
+    "audio technica at2020": 1.92,
+    "audio-technica ath-m50x": 2.71
+  },
+  "verification": "Re-read the 19-row, 4-column merged table and retrieved a fresh slide thumbnail after the update."
+}
