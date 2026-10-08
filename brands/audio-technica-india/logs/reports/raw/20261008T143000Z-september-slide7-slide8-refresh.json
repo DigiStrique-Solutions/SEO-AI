@@ -1,0 +1,22 @@
+{
+  "run_id": "audio-technica-india-september-slide7-slide8-refresh-20261008",
+  "run_at": "2026-10-08T14:30:00Z",
+  "target_deck": "13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY",
+  "source": {
+    "ga4_property": "properties/496800712",
+    "ga4_filter": "sessionDefaultChannelGroup = Organic Search",
+    "gsc_site_url": "https://audio-technica.co.in/",
+    "gsc_period": "2026-09-01 to 2026-09-30",
+    "search_type": "web"
+  },
+  "slide_7": {
+    "title": "GA4 Top Organic Landing Pages — August to September 2026",
+    "august": [["/",1700],["/product-category/turntables",555],["(not set)",460],["/product/professional-monitor-headphones-ath-m50x",284],["/product/professional-monitor-headphones-ath-m20x",208],["/product/professional-studio-monitor-headphones-ath-m40x",148],["/product-category/headphones/type/in-ear",119],["/product/cardioid-condenser-microphone-at2020",115],["/support",114],["/product/fully-automatic-belt-drive-turntable-at-lp60x",106]],
+    "september": [["/",883],["/product-category/turntables",582],["(not set)",435],["/product/professional-monitor-headphones-ath-m50x",250],["/product/professional-monitor-headphones-ath-m20x",188],["/product/digital-smartmixer-atdm-0604a",128],["/product/fully-automatic-belt-drive-turntable-at-lp60x",126],["/product/cardioid-condenser-microphone-at2020",111],["/product-category/headphones/type/in-ear",106],["/support",92]]
+  },
+  "slide_8": {
+    "title": "Google Search Console: Top Pages — September 2026",
+    "top_pages": [["/",929,28456,0.0326468934,7.1209938],["/product-category/turntables/",683,62758,0.0108830747,5.3727334],["/product/professional-monitor-headphones-ath-m50x/",281,11504,0.0244262865,3.2604312],["/product/professional-monitor-headphones-ath-m20x/",209,13266,0.0157545605,3.6935022],["/product/fully-automatic-belt-drive-turntable-at-lp60x/",134,4551,0.0294440782,4.7765326],["/product-category/headphones/type/in-ear/",126,4638,0.0271668823,4.1498491],["/product/cardioid-condenser-microphone-at2020/",126,8269,0.0152376345,3.8038457],["/product/digital-smartmixer-atdm-0604a/",125,1215,0.1028806584,3.6106996],["/support/",112,1334,0.08395802099,5.4370315],["/product-category/headphones/type/wired-type/",89,14029,0.0063440017,6.5821513]]
+  },
+  "verification": "Re-read the two tables and retrieved fresh slide thumbnails after the update."
+}
