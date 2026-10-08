@@ -1,0 +1,20 @@
+{
+  "run_id": "audio-technica-india-aug-sep-change-update-20261008",
+  "updated_at": "2026-10-08T12:00:00Z",
+  "brand_id": "audio-technica-india",
+  "report_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit?usp=drivesdk",
+  "source": "User-supplied revised September values in slide 2; matching September figures already present in slides 4–6",
+  "scope": "Slides 2, 4, 5 and 6",
+  "changes": {
+    "table_columns": ["August 2026", "September 2026", "Aug–Sep change"],
+    "insights": "Rewritten to explain each calculated August-to-September change, including declines and lower-is-better average-position improvement.",
+    "gsc_kpi_cards": "Updated to reflect the revised August-to-September comparison."
+  },
+  "calculated_changes": {
+    "organic_traffic": {"users": "+11.81%", "new_users": "+10.62%", "sessions": "+2.81%"},
+    "landing_pages": {"homepage": "-39.76%", "turntables_category": "+21.62%", "not_set": "+9.78%"},
+    "engagement": {"engagement_rate": "+8.95%", "page_views": "-15.29%", "average_session_duration": "+4.86%"},
+    "search_console": {"clicks": "-4.15%", "impressions": "-2.42%", "ctr": "+13.84%", "average_position": "-34.06% (improved; lower is better)"}
+  },
+  "qa": {"table_readback": "pass", "visual_review": "pass"}
+}
