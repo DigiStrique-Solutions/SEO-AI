@@ -1,0 +1,32 @@
+{
+  "run_id": "audio-technica-india-q3-report-refresh-20261008",
+  "generated_at": "2026-10-08T10:57:48Z",
+  "brand_id": "audio-technica-india",
+  "report_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit?usp=drivesdk",
+  "reference_deck": "https://docs.google.com/presentation/d/13ILPEmJ3Z2JC6_bdzGhrj3j7w7a7Blp7nTvRq8RjGPs/edit",
+  "period": "2026-07-01 to 2026-09-30",
+  "sources": {
+    "gsc_property": "https://audio-technica.co.in/",
+    "gsc_search_type": "web",
+    "gsc_dimensions": ["page"]
+  },
+  "q3_top_pages": [
+    {"page": "https://audio-technica.co.in/", "clicks": 5244, "impressions": 83726, "ctr": 0.0626328739, "position": 7.059073645},
+    {"page": "https://audio-technica.co.in/product-category/turntables/", "clicks": 1919, "impressions": 166238, "ctr": 0.0115436904, "position": 5.499055571},
+    {"page": "https://audio-technica.co.in/product/professional-monitor-headphones-ath-m50x/", "clicks": 902, "impressions": 39310, "ctr": 0.0229458153, "position": 4.524650217},
+    {"page": "https://audio-technica.co.in/product/professional-monitor-headphones-ath-m20x/", "clicks": 658, "impressions": 35641, "ctr": 0.0184618838, "position": 3.834544485},
+    {"page": "https://audio-technica.co.in/product-category/headphones/type/in-ear/", "clicks": 429, "impressions": 11517, "ctr": 0.0372492837, "position": 5.437961275},
+    {"page": "https://audio-technica.co.in/product/fully-automatic-belt-drive-turntable-at-lp60x/", "clicks": 423, "impressions": 13860, "ctr": 0.0305194805, "position": 6.487878788},
+    {"page": "https://audio-technica.co.in/product/cardioid-condenser-microphone-at2020/", "clicks": 420, "impressions": 25814, "ctr": 0.016270241, "position": 4.398814597}
+  ],
+  "modeled_recovery_targets": {
+    "label": "September recovery target (+16%)",
+    "status": "scenario_not_actual",
+    "notes": "Actual September values remain visible in slides 2, 4, 5 and 6. Average position target is 16% lower because lower is better."
+  },
+  "qa": {
+    "structure_readback": "pass",
+    "table_readback": "pass",
+    "visual_review": "pass after two consolidated formatting repair passes"
+  }
+}
