@@ -1,0 +1,33 @@
+{
+  "run_id": "audio-technica-india-q3-seo-report-20261008",
+  "generated_at": "2026-10-08T10:00:00Z",
+  "brand_id": "audio-technica-india",
+  "period": "2026-07-01 to 2026-09-30",
+  "report": {
+    "source_deck": "https://docs.google.com/presentation/d/1-J6R2witIxHQBeMo_1svCySUU_8MXrLJTRhtZK11ezI/edit",
+    "output_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit?usp=drivesdk",
+    "title": "Audio-Technica India Quarterly SEO Report — July to September 2026",
+    "slides": 9
+  },
+  "sources": {
+    "ga4_property": "properties/496800712",
+    "gsc_property": "https://audio-technica.co.in/",
+    "ga4_filter": "sessionDefaultChannelGroup = Organic Search",
+    "gsc_search_type": "web"
+  },
+  "ga4_organic_monthly": {
+    "july_2026": {"users": 4856, "new_users": 4538, "sessions": 6679, "engagement_rate": 0.6551879024, "page_views": 18857, "average_session_duration_seconds": 244.2969819},
+    "august_2026": {"users": 4852, "new_users": 4474, "sessions": 6754, "engagement_rate": 0.6661237785, "page_views": 20845, "average_session_duration_seconds": 246.6995914},
+    "september_2026": {"users": 4677, "new_users": 4266, "sessions": 5986, "engagement_rate": 0.6256264617, "page_views": 15179, "average_session_duration_seconds": 223.2604934}
+  },
+  "gsc_web_monthly": {
+    "july_2026": {"clicks": 7464, "impressions": 362469, "ctr": 0.0205921058, "position": 6.3172519581},
+    "august_2026": {"clicks": 7392, "impressions": 330128, "ctr": 0.0223913149, "position": 7.8387261911},
+    "september_2026": {"clicks": 6108, "impressions": 277706, "ctr": 0.0219944834, "position": 6.1581960779}
+  },
+  "qa": {
+    "structure_readback": "pass",
+    "table_readback": "pass",
+    "visual_review": "pass after one repair pass; removed stale inherited August screenshot from the Q3 page-view slide"
+  }
+}
