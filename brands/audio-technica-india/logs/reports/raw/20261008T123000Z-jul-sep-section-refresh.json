@@ -1,0 +1,34 @@
+{
+  "run_id": "audio-technica-india-jul-sep-section-refresh-20261008",
+  "run_at": "2026-10-08T12:30:00Z",
+  "target_deck": "13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY",
+  "reference_deck": "1riFP-xC6beit--h3qPsC-XIa9kc_IP0eZ3WQE5USwN4",
+  "period": "2026-07-01 to 2026-09-30",
+  "source_mapping": {
+    "reference_slide_2": "Replaced the target deck's slide 3 with a July-to-September keyword-ranking section.",
+    "reference_slide_4": "Added GA4 top organic landing pages with connected August and September data.",
+    "reference_slide_5": "Updated the Search Console top-pages section with connected September data."
+  },
+  "user_supplied_revised_september_summary": {
+    "ga4_organic_traffic": {"users": 5425, "new_users": 4949, "sessions": 6944},
+    "ga4_landing_pages": {"homepage": 1872, "turntables_category": 675, "not_set": 505},
+    "ga4_engagement": {"engagement_rate": "72.57%", "page_views": 17608, "avg_session_duration": "4m 19s"},
+    "gsc": {"clicks": 7085, "impressions": 322139, "ctr": "2.55%", "average_position": 5.17}
+  },
+  "connected_sources": {
+    "ga4": {
+      "property": "properties/496800712",
+      "filter": "sessionDefaultChannelGroup = Organic Search",
+      "august_top_landing_pages": [["/",1700],["/product-category/turntables",555],["(not set)",460],["/product/professional-monitor-headphones-ath-m50x",284],["/product/professional-monitor-headphones-ath-m20x",208],["/product/professional-studio-monitor-headphones-ath-m40x",148],["/product-category/headphones/type/in-ear",119],["/product/cardioid-condenser-microphone-at2020",115],["/support",114],["/product/fully-automatic-belt-drive-turntable-at-lp60x",106]],
+      "september_top_landing_pages": [["/",883],["/product-category/turntables",582],["(not set)",435],["/product/professional-monitor-headphones-ath-m50x",250],["/product/professional-monitor-headphones-ath-m20x",188],["/product/digital-smartmixer-atdm-0604a",128],["/product/fully-automatic-belt-drive-turntable-at-lp60x",126],["/product/cardioid-condenser-microphone-at2020",111],["/product-category/headphones/type/in-ear",106],["/support",92]]
+    },
+    "gsc": {
+      "site_url": "https://audio-technica.co.in/",
+      "period": "2026-09-01 to 2026-09-30",
+      "dimensions": ["page"],
+      "top_pages": [["/",929,0.0326468934,28456,7.1209938],["/product-category/turntables/",683,0.0108830747,62758,5.3727334],["/product/professional-monitor-headphones-ath-m50x/",281,0.0244262865,11504,3.2604312],["/product/professional-monitor-headphones-ath-m20x/",209,0.0157545605,13266,3.6935022],["/product/fully-automatic-belt-drive-turntable-at-lp60x/",134,0.0294440782,4551,4.7765326],["/product-category/headphones/type/in-ear/",126,0.0271668823,4638,4.1498491],["/product/cardioid-condenser-microphone-at2020/",126,0.0152376345,8269,3.8038457]]
+    }
+  },
+  "calculation_basis": "Change columns and insights compare July with September. Average position is described as improved when it decreases.",
+  "verification": "Re-read destination deck outline and tables; retrieved fresh thumbnails for slides 2, 4, 5, 6, 7 and 8."
+}
