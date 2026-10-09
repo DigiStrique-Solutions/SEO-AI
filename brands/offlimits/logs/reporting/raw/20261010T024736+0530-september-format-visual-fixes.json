@@ -1,0 +1,35 @@
+{
+  "run_id": "offlimits-september-2026-format-visual-fixes-20261010",
+  "timestamp": "2026-10-10T02:47:37+05:30",
+  "target_presentation_id": "1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY",
+  "target_url": "https://docs.google.com/presentation/d/1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY/edit",
+  "starting_revision": "tb5PJnmcfIzSBQ",
+  "final_revision": "yK8gzvuZ3udv4g",
+  "visual_findings": [
+    "Legacy text-highlight blocks remained in observation callouts.",
+    "The landing-page insight panel obscured the last rows of the table.",
+    "Table borders were visually heavier than the reference styling."
+  ],
+  "fixes": [
+    "Rebuilt keyword, GA4 observation and landing-page callouts as clean shapes with plain text.",
+    "Reformatted the landing-page list into five rows with two page/session pairs per row so all ten entries fit above the insight.",
+    "Set table borders to a pale blue-gray, 0.75 pt.",
+    "Removed underlines from report headings and checked all slide thumbnails after the changes."
+  ],
+  "verification": {
+    "landing_pages": "All 10 page/session pairs visible above the insight panel.",
+    "metrics": "Readback confirmed original GA4 and Search Console metrics unchanged.",
+    "slides_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "actions": "Readback confirmed all October actions and focus metrics unchanged."
+  }
+}
