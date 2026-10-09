@@ -1,0 +1,41 @@
+{
+  "run_id": "spykar-september-monthly-report-20261009",
+  "created_at_utc": "2026-10-09T11:17:46Z",
+  "reporting_period": "2026-09-01..2026-09-30",
+  "comparison_period": "2026-08-01..2026-08-31",
+  "reference_presentation": {
+    "id": "19rOkD5BZ5M3kufiRBp19sTKtPyk-MIF86apA35YjtQY",
+    "title": "Monthly SEO Report | Spykar - August'26",
+    "slide_count": 9,
+    "structure": ["cover", "keyword ranking performance", "GA4 organic traffic", "GA4 top landing pages", "GSC top pages", "GSC monthly KPIs", "tasks done", "next-month action plan", "thank you"],
+    "interpretation": "Used as a structural and comparison reference. Its August facts were verified through direct GA4/GSC queries before use; its prior-month volume/rank values were not carried forward as September facts."
+  },
+  "analytics_output_ref": "brands/spykar/logs/analytics/raw/20261009T111746Z-september-monthly-report.json",
+  "update_context_output_ref": "brands/spykar/logs/analytics/raw/20261007T080415Z-september-update-context.json",
+  "official_update": {
+    "url": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+    "title": "September 2026 spam update",
+    "began": "2026-09-24 09:15 PDT",
+    "completed": "2026-10-08 01:00 PDT",
+    "interpretation": "The full-month decline cannot be attributed to this rollout because aligned GSC declines were visible before it began."
+  },
+  "september_work_sources": [
+    "brands/spykar/logs/content/activity.jsonl",
+    "brands/spykar/logs/content/raw/20260915T073000Z-ganesh-chaturthi-denim-looks-blog.json",
+    "brands/spykar/logs/content/raw/20260915T141000Z-ganesh-to-navratri-blog.json",
+    "brands/spykar/logs/content/raw/20260919T084000Z-modern-festive-outfits.json",
+    "brands/spykar/logs/content/20260919T094000Z-dressy-denim-write.json",
+    "brands/spykar/logs/content/raw/20260920-festival-to-afterparty-blog.json",
+    "brands/spykar/logs/content/raw/20260920-september-jeans-every-plan-blog.json",
+    "brands/spykar/logs/content/raw/20260921-light-blue-black-dark-wash-jeans-september-blog.json",
+    "brands/spykar/logs/content/raw/20260921-baggy-jeans-men-2026-styling-guide.json"
+  ],
+  "work_status": "Eight draft/document packages were recorded. ZeroGPT returned insufficient credits and no live sub-20% check or site publication was verified; the report does not call these publish-ready or published.",
+  "deliverable": {
+    "type": "native_google_doc",
+    "id": "1kiEM_2CCUO4Gh28Z0c5GGrwEAiFuNGju9SVjWflP-3M",
+    "url": "https://docs.google.com/document/d/1kiEM_2CCUO4Gh28Z0c5GGrwEAiFuNGju9SVjWflP-3M/edit",
+    "folder": "ChatGPT",
+    "qa": "Local DOCX title sanitizer passed. LibreOffice renderer unavailable on host; Word COM PDF render and all three rasterized pages were visually inspected. Native Google Doc readback confirmed seven section headings and six tables with expected rows and cells; native PDF export succeeded but a local raster of that export was unavailable."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "run_id": "spykar-september-monthly-report-20261009",
+  "queried_at_utc": "2026-10-09T11:17:46Z",
+  "composio_execution_logs": ["log_jGqvvDmDfweu", "log_KDU4popoYznI", "log_Yjrj-bgCqJ1F", "log_fWEr3Lbe0kVp"],
+  "ga4": {
+    "property": "properties/320857986",
+    "timezone": "Asia/Calcutta",
+    "filter": {"fieldName": "sessionDefaultChannelGroup", "matchType": "EXACT", "value": "Organic Search"},
+    "metric_headers": ["totalUsers", "newUsers", "sessions"],
+    "monthly_totals": {
+      "2026-08": ["28176", "24012", "33744"],
+      "2026-09": ["22799", "18956", "26923"]
+    },
+    "landing_page_session_rows": [
+      {"page": "/", "august": 7015, "september": 5432},
+      {"page": "/collections/men-jeans", "august": 3683, "september": 2819},
+      {"page": "/collections/men-shirts", "august": 1102, "september": 783},
+      {"page": "/collections/men-trousers-joggers", "august": 707, "september": 432},
+      {"page": "/collections/men-t-shirts", "august": 680, "september": 528},
+      {"page": "/collections/wardrobe-refresh-sale-jeans", "august": 614, "september": 650},
+      {"page": "/collections/all-jeans", "august": 599, "september": 645},
+      {"page": "/collections/cargo", "august": 414, "september": 327},
+      {"page": "/collections/women-jeans", "august": 376, "september": 195}
+    ]
+  },
+  "gsc": {
+    "property": "https://spykar.com/",
+    "search_type": "web",
+    "data_state": "final",
+    "monthly_totals": {
+      "2026-08": {"clicks": 27206, "impressions": 2885961, "ctr": 0.009427015818994088, "position": 9.20081629654732},
+      "2026-09": {"clicks": 21836, "impressions": 2189040, "ctr": 0.009975148923729124, "position": 9.339964093849359}
+    },
+    "september_top_pages": [
+      {"page": "https://spykar.com/", "clicks": 5652, "impressions": 174248, "ctr": 0.03243652724851935, "position": 6.343269363206464},
+      {"page": "https://spykar.com/collections/men-jeans", "clicks": 3287, "impressions": 191388, "ctr": 0.017174535498568354, "position": 7.887667983363638},
+      {"page": "https://spykar.com/collections/men-shirts", "clicks": 940, "impressions": 51877, "ctr": 0.018119783333654604, "position": 3.945968348208262},
+      {"page": "https://spykar.com/collections/men-t-shirts", "clicks": 591, "impressions": 34191, "ctr": 0.017285250504518734, "position": 3.989734140563306},
+      {"page": "https://spykar.com/collections/all-jeans", "clicks": 474, "impressions": 70885, "ctr": 0.006686887211680891, "position": 5.705001058051774},
+      {"page": "https://spykar.com/collections/men-trousers-joggers", "clicks": 399, "impressions": 125876, "ctr": 0.003169786138739712, "position": 9.59822364867012},
+      {"page": "https://spykar.com/collections/cargo", "clicks": 342, "impressions": 44437, "ctr": 0.007696289128429012, "position": 9.161171996309381},
+      {"page": "https://spykar.com/collections/cargo-pant", "clicks": 306, "impressions": 61071, "ctr": 0.005010561477624405, "position": 12.102077909318663},
+      {"page": "https://spykar.com/collections/footwear", "clicks": 260, "impressions": 7927, "ctr": 0.032799293553677306, "position": 8.127034186955974},
+      {"page": "https://spykar.com/collections/men-jackets", "clicks": 249, "impressions": 23819, "ctr": 0.010453839371929972, "position": 8.276334019060414}
+    ],
+    "priority_page_comparisons": [
+      {"page": "https://spykar.com/", "august_clicks": 7663, "september_clicks": 5652},
+      {"page": "https://spykar.com/collections/men-jeans", "august_clicks": 4205, "september_clicks": 3287},
+      {"page": "https://spykar.com/collections/women-jeans", "august_clicks": 396, "august_impressions": 198194, "september_clicks": 206, "september_impressions": 56681, "september_ctr": 0.00363437483460066, "september_position": 10.566027416594626}
+    ],
+    "exact_query_average_position_rows": [
+      {"query": "denim jean jacket for ladies", "august": {"impressions": 24, "position": 5.5}, "september": {"impressions": 5, "position": 6.4}},
+      {"query": "light blue denim", "august": {"impressions": 10, "position": 14.5}, "september": {"impressions": 383, "position": 8.297650130548302}},
+      {"query": "women's skinny fit jeans", "august": {"impressions": 31, "position": 9.774193548387096}, "september": {"impressions": 41, "position": 10.390243902439025}},
+      {"query": "denim check shirts for men", "august": null, "september": null},
+      {"query": "branded jeans for men", "august": {"impressions": 4762, "position": 7.985090298194036}, "september": {"impressions": 5248, "position": 9.484756097560975}},
+      {"query": "denim for women", "august": {"impressions": 872, "position": 10.340596330275229}, "september": {"impressions": 199, "position": 11.407035175879397}},
+      {"query": "branded jackets for ladies", "august": null, "september": null},
+      {"query": "denim jacket for women with hood", "august": {"impressions": 8, "position": 12.125}, "september": null},
+      {"query": "denim jeans for women", "august": {"impressions": 250, "position": 15.052}, "september": {"impressions": 120, "position": 17.641666666666666}},
+      {"query": "light denim", "august": null, "september": {"impressions": 22, "position": 8.636363636363637}},
+      {"query": "mens jeans", "august": {"impressions": 1229, "position": 11.013832384052074}, "september": {"impressions": 5835, "position": 8.114481576692373}},
+      {"query": "women's summer fashion", "august": null, "september": null}
+    ]
+  },
+  "note": "Rows are direct GA4/GSC API values or exact-query no-data outcomes. Percentage changes and display rounding are derived in the user-facing report. Full Composio response payloads are referenced by execution log IDs."
+}

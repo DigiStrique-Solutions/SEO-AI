@@ -66,7 +66,7 @@ Current research frame: Killer Jeans, Levi’s India and Pepe Jeans India. These
 ## Measurement and tooling
 
 - (2026-09-28) Read-only GA4 reporting is accessible through Composio for `properties/320857986` (`www.spykar.com - GA4`, Asia/Calcutta); the second accessible property `properties/303381371` (`login-with-mobile-cffff`) returned no data for the comparison window. The active property’s report has `dataLossFromOtherRow` and an unusually high 98.9% engagement rate, so validate tracking before treating channel splits as complete. See `logs/analytics/`.
-- GSC and revenue data access remain unverified.
+- GSC owner access to `https://spykar.com/` is verified through Composio, with web-search performance queried through September 2026. Revenue reporting remains unverified. See `logs/analytics/` for the query provenance.
 - Keyword demand should use the permitted Keyword Planner flow and record any access blocker.
 - Keep lab Lighthouse/PageSpeed data separate from field CrUX data.
 
