@@ -1,0 +1,2354 @@
+[
+  {
+    "row": 2,
+    "code": "l-blouse-11180-21556-pink",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 3,
+    "code": "l-blouse-11440-21770-black",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 4,
+    "code": "l-blouse-11440-21770-khaki",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 5,
+    "code": "l-blouse-11440-21770-peach",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 6,
+    "code": "l-blouse-11440-21770-pink",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 7,
+    "code": "l-blouse-16403-21613-white",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 8,
+    "code": "l-blouse-16831-21556-maroon",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 9,
+    "code": "l-blouse-16831-21556-mustard",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 10,
+    "code": "l-blouse-17011-21693-blue",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 11,
+    "code": "l-blouse-17012-21687-pink",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 12,
+    "code": "l-blouse-17191-21556-brown",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 13,
+    "code": "l-blouse-17191-21556-green",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 14,
+    "code": "l-blouse-17211-21556-lilac",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 15,
+    "code": "l-blouse-17211-21556-sky",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 16,
+    "code": "l-blouse-17211-21556-yellow",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 17,
+    "code": "l-blouse-17230-21730-rust",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 18,
+    "code": "l-blouse-17264-21513-maroon",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 19,
+    "code": "l-blouse-17305-21639-red",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 20,
+    "code": "l-blouse-17328-21687-brown",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 21,
+    "code": "l-blouse-17375-21556-lilac",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 22,
+    "code": "l-blouse-17375-21559-white",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 23,
+    "code": "l-blouse-17534-21687-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 24,
+    "code": "l-blouse-17539-21197-navy",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 25,
+    "code": "l-blouse-17541-21639-red",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 26,
+    "code": "l-blouse-17592-21780-offwhite",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 27,
+    "code": "l-blouse-17592-21781-beige",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 28,
+    "code": "l-blouse-17592-21782-beige",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 29,
+    "code": "l-blouse-17691-21616-coral",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 30,
+    "code": "l-blouse-17691-21685-black",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 31,
+    "code": "l-blouse-17691-21688-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 32,
+    "code": "l-blouse-17692-21616-coral",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 33,
+    "code": "l-blouse-17692-21685-black",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 34,
+    "code": "l-blouse-17692-21688-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 35,
+    "code": "l-blouse-17700-21632-offwhite",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 36,
+    "code": "l-blouse-17734-21639-red",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 37,
+    "code": "l-blouse-17778-21730-rust",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 38,
+    "code": "l-blouse-17812-21632-offwhite",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 39,
+    "code": "l-blouse-17839-21603-offwhite",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 40,
+    "code": "l-blouse-17853-21556-rose",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 41,
+    "code": "l-blouse-17853-21558-blue",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 42,
+    "code": "l-blouse-17853-21559-white",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 43,
+    "code": "l-blouse-17854-21556-pink",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 44,
+    "code": "l-blouse-17854-21729-brown",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 45,
+    "code": "l-blouse-17855-21556-green",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 46,
+    "code": "l-blouse-17855-21556-rose",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 47,
+    "code": "l-blouse-17862-21556-mustard",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 48,
+    "code": "l-blouse-17862-21556-rose",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 49,
+    "code": "l-blouse-17863-21693-blue",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 50,
+    "code": "l-blouse-17863-21693-yellow",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 51,
+    "code": "l-blouse-17863-21754-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 52,
+    "code": "l-blouse-17869-21711-white",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 53,
+    "code": "l-blouse-17869-21815-yellow",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 54,
+    "code": "l-blouse-17877-21661-grey",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 55,
+    "code": "l-blouse-17879-21613-white",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 56,
+    "code": "l-blouse-17879-21686-chambray-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 57,
+    "code": "l-blouse-17879-21688-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 58,
+    "code": "l-blouse-17879-21688-red",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 59,
+    "code": "l-blouse-17902-21557-multi",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 60,
+    "code": "l-blouse-17909-21775-orange",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 61,
+    "code": "l-blouse-17909-21775-pink",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 62,
+    "code": "l-blouse-17909-21776-sage",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 63,
+    "code": "l-blouse-17910-21754-beige",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 64,
+    "code": "l-blouse-17913-21755-multi",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 65,
+    "code": "l-blouse-17919-21778-denim",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 66,
+    "code": "l-blouse-17925-21513-maroon",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 67,
+    "code": "l-blouse-17930-21557-multi",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 68,
+    "code": "l-blouse-17930-21639-red",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 69,
+    "code": "l-blouse-17930-21756-pink",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 70,
+    "code": "l-blouse-17943-21556-coral",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 71,
+    "code": "l-blouse-17943-21557-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 72,
+    "code": "l-blouse-17943-21557-green",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 73,
+    "code": "l-blouse-17944-21557-multi",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 74,
+    "code": "l-blouse-17950-21760-peach",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 75,
+    "code": "l-blouse-17952-21780-beige",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 76,
+    "code": "l-blouse-17952-21781-offwhite",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 77,
+    "code": "l-blouse-17952-21782-offwhite",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 78,
+    "code": "l-blouse-17973-21824-beige",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 79,
+    "code": "l-blouse-17973-21824-light-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 80,
+    "code": "l-blouse-18007-21824-offwhite",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 81,
+    "code": "l-blouse-18046-21711-white",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 82,
+    "code": "l-culotte-16778-21722-beige",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 83,
+    "code": "l-culotte-16778-21722-black",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 84,
+    "code": "l-culotte-16778-21861-beige",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 85,
+    "code": "l-culotte-16778-21861-black",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 86,
+    "code": "l-culotte-16778-21861-brown",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 87,
+    "code": "l-culotte-16778-21861-olive",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 88,
+    "code": "l-culotte-17779-21513-maroon",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 89,
+    "code": "l-culotte-17779-21655-brown",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 90,
+    "code": "l-culotte-17829-21656-denim",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 91,
+    "code": "l-dress-14572-21663-lt-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 92,
+    "code": "l-dress-17347-21660-multi",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 93,
+    "code": "l-dress-17586-21512-off-white-win",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 94,
+    "code": "l-dress-17589-21636-natural",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 95,
+    "code": "l-dress-17665-21603-offwhite",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 96,
+    "code": "l-dress-17683-21643-mustard",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 97,
+    "code": "l-dress-17786-21694-sage",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 98,
+    "code": "l-dress-17825-21603-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 99,
+    "code": "l-dress-17847-21714-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 100,
+    "code": "l-dress-17858-21730-rust",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 101,
+    "code": "l-dress-17859-21656-denim",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 102,
+    "code": "l-dress-17860-21512-wine",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 103,
+    "code": "l-dress-17860-21714-grey",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 104,
+    "code": "l-dress-17860-21714-olive",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 105,
+    "code": "l-dress-17875-21714-brown",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 106,
+    "code": "l-dress-17880-21619-olive",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 107,
+    "code": "l-dress-17894-21658-blue",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 108,
+    "code": "l-jacket-17823-21633-offwhite",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 109,
+    "code": "l-jacket-17841-21621-navy",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 110,
+    "code": "l-jumpsuit-17891-21650-cream",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 111,
+    "code": "l-jumpsuit-17891-21699-navy",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 112,
+    "code": "l-kdress-16266-21728-navy",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 113,
+    "code": "l-kdress-16566-21726-wine",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 114,
+    "code": "l-kdress-17526-21726-green",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 115,
+    "code": "l-kdress-17546-21728-brick",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 116,
+    "code": "l-kdress-17546-21728-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 117,
+    "code": "l-kdress-17757-21727-brick",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 118,
+    "code": "l-kdress-17873-21727-natural",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 119,
+    "code": "l-kpants-16646-21723-black",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 120,
+    "code": "l-kpants-16646-21723-brown",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 121,
+    "code": "l-kpants-17946-21724-black",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 122,
+    "code": "l-kpants-17946-21724-navy",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 123,
+    "code": "l-kurta-17649-21685-black",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 124,
+    "code": "l-kurta-17649-21685-brown",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 125,
+    "code": "l-kurta-17832-21637-natural",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 126,
+    "code": "l-kurta-17889-21633-offwhite",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 127,
+    "code": "l-pants-17080-21722-beige",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 128,
+    "code": "l-pants-17080-21722-black",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 129,
+    "code": "l-pants-17080-21722-olive",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 130,
+    "code": "l-pants-17682-21737-white",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 131,
+    "code": "l-pants-17682-21737-yellow",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 132,
+    "code": "l-pants-17753-21737-white",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 133,
+    "code": "l-pants-17769-21737-sage",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 134,
+    "code": "l-pants-17769-21737-yellow",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 135,
+    "code": "l-pants-17813-21737-beige",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 136,
+    "code": "l-pants-17813-21737-sage",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 137,
+    "code": "l-pants-17826-21824-black",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 138,
+    "code": "l-pants-17830-21778-denim",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 139,
+    "code": "l-pants-17833-21636-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 140,
+    "code": "l-pants-17890-21633-offwhite",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 141,
+    "code": "l-pants-17908-21621-navy",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 142,
+    "code": "l-pants-17908-21722-beige",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 143,
+    "code": "l-pants-17922-21813-denim-blue",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 144,
+    "code": "l-pants-17934-21824-grey",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 145,
+    "code": "l-pants-17934-21824-olive",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 146,
+    "code": "l-pants-17939-21813-denim-blue",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 147,
+    "code": "l-pants-17940-21824-black",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 148,
+    "code": "l-pants-17941-21820-sage",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 149,
+    "code": "l-pants-17972-21824-brown",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 150,
+    "code": "l-pants-17972-21825-grey",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 151,
+    "code": "l-pants-17972-21825-rose",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 152,
+    "code": "l-pants-17972-21827-blue",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 153,
+    "code": "l-pyjama-11960-21665-blue",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 154,
+    "code": "l-pyjama-11960-21665-cream",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 155,
+    "code": "l-pyjama-11960-21665-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 156,
+    "code": "l-pyjama-11960-21753-blue",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 157,
+    "code": "l-pyjama-11960-21753-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 158,
+    "code": "l-pyjama-11960-21753-pink",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 159,
+    "code": "l-pyjama-11960-21839-navy",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 160,
+    "code": "l-shorts-17733-21755-multi",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 161,
+    "code": "l-shorts-17733-21756-pink",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 162,
+    "code": "l-shorts-17733-21824-black",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 163,
+    "code": "l-shorts-17733-21824-coffee",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 164,
+    "code": "l-skirt-17850-21603-offwhite",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 165,
+    "code": "l-tshirt-11670-21679-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 166,
+    "code": "l-tshirt-11670-21682-ecru-melan",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 167,
+    "code": "l-tshirt-11670-21689-black",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 168,
+    "code": "l-tshirt-11670-21689-blue",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 169,
+    "code": "l-tshirt-11670-21689-ecru-melan",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 170,
+    "code": "l-tshirt-11670-21689-green",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 171,
+    "code": "l-tshirt-11670-21689-rust",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 172,
+    "code": "l-tshirt-11670-21689-white",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 173,
+    "code": "l-tshirt-11670-21689-wine",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 174,
+    "code": "l-tshirt-16727-21678-natural",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 175,
+    "code": "l-tshirt-16727-21681-green",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 176,
+    "code": "l-tshirt-16727-21683-white",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 177,
+    "code": "l-tshirt-16752-21723-blue",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 178,
+    "code": "l-tshirt-16752-21723-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 179,
+    "code": "l-tshirt-16752-21723-natural",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 180,
+    "code": "l-tshirt-16752-21723-pink",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 181,
+    "code": "l-tshirt-16752-21723-violet",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 182,
+    "code": "l-tshirt-17427-21617-white",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 183,
+    "code": "l-tshirt-17427-21628-black",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 184,
+    "code": "l-tshirt-17427-21628-green",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 185,
+    "code": "l-tshirt-17427-21725-brown",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 186,
+    "code": "l-tshirt-17427-21725-dk-green",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 187,
+    "code": "l-tshirt-17427-21725-lavender",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 188,
+    "code": "l-tshirt-17427-21725-natural",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 189,
+    "code": "l-tshirt-17427-21725-wine",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 190,
+    "code": "l-tshirt-17427-21789-natural",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 191,
+    "code": "l-tshirt-17427-21790-dk-olive",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 192,
+    "code": "l-tshirt-17427-21791-black",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 193,
+    "code": "l-tshirt-17427-21794-white",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 194,
+    "code": "l-tshirt-17427-21840-navy",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 195,
+    "code": "l-tshirt-17427-21842-black",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 196,
+    "code": "l-tshirt-17427-21843-red",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 197,
+    "code": "l-tshirt-17428-21725-black",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 198,
+    "code": "l-tshirt-17428-21725-brown",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 199,
+    "code": "l-tshirt-17428-21725-dk-green",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 200,
+    "code": "l-tshirt-17523-21765-brown",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 201,
+    "code": "l-tshirt-17523-21765-pink",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 202,
+    "code": "l-tshirt-17553-21628-green",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 203,
+    "code": "l-tshirt-17553-21628-red",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 204,
+    "code": "l-tshirt-17721-21618-grey",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 205,
+    "code": "l-tshirt-17724-21723-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 206,
+    "code": "l-tshirt-17724-21723-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 207,
+    "code": "l-tshirt-17724-21723-lavender",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 208,
+    "code": "l-tshirt-17724-21723-rust",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 209,
+    "code": "l-tshirt-17724-21792-black",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 210,
+    "code": "l-tshirt-17724-21793-white",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 211,
+    "code": "l-tshirt-17772-21750-natural",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 212,
+    "code": "l-tshirt-17772-21750-wine",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 213,
+    "code": "l-tshirt-17780-21630-black",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 214,
+    "code": "l-waistcoat-17574-21344-olive",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 215,
+    "code": "m-kvest-17630-21723-grey",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 216,
+    "code": "m-kvest-17630-21723-lavender",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 217,
+    "code": "m-kvest-17632-21727-black",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 218,
+    "code": "m-kvest-17632-21727-natural",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 219,
+    "code": "m-pants-11743-21487-olive",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 220,
+    "code": "m-pants-11743-21751-beige",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 221,
+    "code": "m-pants-11743-21751-dark-grey",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 222,
+    "code": "m-pants-11743-21751-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 223,
+    "code": "m-pants-11743-21751-khaki",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 224,
+    "code": "m-pants-11743-21751-navy",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 225,
+    "code": "m-pants-13485-21772-blue",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 226,
+    "code": "m-pants-13485-21772-green",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 227,
+    "code": "m-pants-13485-21772-natural",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 228,
+    "code": "m-pants-13485-21772-white",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 229,
+    "code": "m-pants-15152-21772-black",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 230,
+    "code": "m-pants-15152-21772-green",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 231,
+    "code": "m-pants-15152-21772-natural",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 232,
+    "code": "m-pants-16181-21751-beige",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 233,
+    "code": "m-pants-16181-21751-dark-grey",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 234,
+    "code": "m-pants-16181-21751-green",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 235,
+    "code": "m-pants-16181-21751-khaki",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 236,
+    "code": "m-pants-16181-21751-navy",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 237,
+    "code": "m-pants-16480-21752-grey",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 238,
+    "code": "m-pants-16480-21752-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 239,
+    "code": "m-pants-16480-21752-white",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 240,
+    "code": "m-pants-17138-21603-offwhite",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 241,
+    "code": "m-pants-17138-21747-beige",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 242,
+    "code": "m-pants-17138-21748-brown",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 243,
+    "code": "m-pants-17138-21773-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 244,
+    "code": "m-pants-17138-21773-olive",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 245,
+    "code": "m-pants-17138-21773-white",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 246,
+    "code": "m-pants-18002-21773-natural",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 247,
+    "code": "m-pants-18002-21773-olive",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 248,
+    "code": "m-pants-18002-21773-slate",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 249,
+    "code": "m-shirts-10521-21784-green",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 250,
+    "code": "m-shirts-10521-21784-yellow",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 251,
+    "code": "m-shirts-10521-21823-white",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 252,
+    "code": "m-shirts-13484-21610-black",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 253,
+    "code": "m-shirts-13484-21611-black",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 254,
+    "code": "m-shirts-13484-21611-offwhite",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 255,
+    "code": "m-shirts-13484-21707-green",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 256,
+    "code": "m-shirts-13484-21707-navy",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 257,
+    "code": "m-shirts-13484-21713-sand",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 258,
+    "code": "m-shirts-13484-21713-sky",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 259,
+    "code": "m-shirts-13484-21732-green",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 260,
+    "code": "m-shirts-13484-21732-offwhite",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 261,
+    "code": "m-shirts-13484-21732-sand",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 262,
+    "code": "m-shirts-13484-21806-navy",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 263,
+    "code": "m-shirts-16162-21745-natural",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 264,
+    "code": "m-shirts-16563-21654-navy",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 265,
+    "code": "m-shirts-16731-21614-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 266,
+    "code": "m-shirts-16731-21614-plum",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 267,
+    "code": "m-shirts-16731-21614-white",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 268,
+    "code": "m-shirts-17214-21614-navy",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 269,
+    "code": "m-shirts-17214-21614-white",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 270,
+    "code": "m-shirts-17351-21614-black",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 271,
+    "code": "m-shirts-17351-21614-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 272,
+    "code": "m-shirts-17351-21614-white",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 273,
+    "code": "m-shirts-17489-21833-brown",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 274,
+    "code": "m-shirts-17489-21833-khaki",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 275,
+    "code": "m-shirts-17489-21833-peach",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 276,
+    "code": "m-shirts-17816-21784-natural",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 277,
+    "code": "m-shirts-17816-21784-white",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 278,
+    "code": "m-shirts-17818-21784-navy",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 279,
+    "code": "m-shirts-17818-21784-red",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 280,
+    "code": "m-shirts-17819-21614-navy",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 281,
+    "code": "m-shirts-17887-21603-brown",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 282,
+    "code": "m-shirts-17887-21662-brown",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 283,
+    "code": "m-shirts-17887-21662-navy",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 284,
+    "code": "m-shirts-17906-21633-offwhite",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 285,
+    "code": "m-shirts-17907-21632-offwhite",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 286,
+    "code": "m-shirts-50006-21738-mint",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 287,
+    "code": "m-shirts-50006-21738-pink",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 288,
+    "code": "m-shirts-50006-21739-lilac",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 289,
+    "code": "m-shirts-50006-21739-navy",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 290,
+    "code": "m-shirts-50011-21808-sky",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 291,
+    "code": "m-shirts-50011-21809-green",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 292,
+    "code": "m-shirts-50011-21809-navy",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 293,
+    "code": "m-shirts-50013-21749-khaki",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 294,
+    "code": "m-shirts-50013-21749-olive",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 295,
+    "code": "m-shirts-50013-21749-wine",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 296,
+    "code": "m-shirts-50015-21731-pink",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 297,
+    "code": "m-shirts-50015-21784-olive",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 298,
+    "code": "m-shirts-50015-21784-pink",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 299,
+    "code": "m-shirts-50015-21784-sky",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 300,
+    "code": "m-shirts-50019-20972-sand",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 301,
+    "code": "m-shirts-50019-20972-sky",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 302,
+    "code": "m-shirts-50019-21612-green",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 303,
+    "code": "m-shirts-50019-21612-navy",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 304,
+    "code": "m-shirts-50019-21691-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 305,
+    "code": "m-shirts-50019-21692-slate",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 306,
+    "code": "m-shirts-50019-21701-navy",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 307,
+    "code": "m-shirts-50019-21701-olive",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 308,
+    "code": "m-shirts-50019-21702-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 309,
+    "code": "m-shirts-50019-21703-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 310,
+    "code": "m-shirts-50019-21704-green",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 311,
+    "code": "m-shirts-50019-21704-multi",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 312,
+    "code": "m-shirts-50019-21742-brick",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 313,
+    "code": "m-shirts-50019-21742-grape",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 314,
+    "code": "m-shirts-50019-21742-green",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 315,
+    "code": "m-shirts-50019-21742-natural",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 316,
+    "code": "m-shirts-50019-21743-sky",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 317,
+    "code": "m-shirts-50020-21612-green",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 318,
+    "code": "m-shirts-50020-21612-navy",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 319,
+    "code": "m-shirts-50020-21733-natural",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 320,
+    "code": "m-shirts-50020-21733-offwhite",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 321,
+    "code": "m-shirts-50020-21743-black",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 322,
+    "code": "m-shirts-50020-21743-brown",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 323,
+    "code": "m-shirts-50020-21743-dk-green",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 324,
+    "code": "m-shirts-50020-21743-lilac",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 325,
+    "code": "m-shirts-50020-21743-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 326,
+    "code": "m-shirts-50020-21743-sky",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 327,
+    "code": "m-shirts-50020-21743-yellow",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 328,
+    "code": "m-shirts-50021-21738-mint",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 329,
+    "code": "m-shirts-50021-21739-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 330,
+    "code": "m-shirts-50021-21739-lilac",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 331,
+    "code": "m-shirts-50021-21739-natural",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 332,
+    "code": "m-shorts-16367-21752-grey",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 333,
+    "code": "m-shorts-16367-21752-natural",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 334,
+    "code": "m-shorts-16367-21752-navy",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 335,
+    "code": "m-shorts-16367-21752-white",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 336,
+    "code": "m-shorts-17178-21772-black",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 337,
+    "code": "m-shorts-17178-21772-blue",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 338,
+    "code": "m-shorts-17178-21772-natural",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 339,
+    "code": "m-shorts-17178-21772-white",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 340,
+    "code": "m-shorts-17893-21700-beige",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 341,
+    "code": "m-shorts-17893-21700-grey",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 342,
+    "code": "m-tshirt-15906-21725-black",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 343,
+    "code": "m-tshirt-15906-21725-blue",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 344,
+    "code": "m-tshirt-15906-21725-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 345,
+    "code": "m-tshirt-15906-21725-darkgreen",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 346,
+    "code": "m-tshirt-15906-21725-green",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 347,
+    "code": "m-tshirt-15906-21725-khaki",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 348,
+    "code": "m-tshirt-15906-21725-pink",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 349,
+    "code": "m-tshirt-15906-21725-white",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 350,
+    "code": "m-tshirt-15906-21725-wine",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 351,
+    "code": "m-tshirt-16319-21767-black",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 352,
+    "code": "m-tshirt-16319-21768-blue",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 353,
+    "code": "m-tshirt-16319-21769-blue-1",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 354,
+    "code": "m-tshirt-16319-21799-sand",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 355,
+    "code": "m-tshirt-16319-21803-white",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 356,
+    "code": "m-tshirt-16319-21841-black",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 357,
+    "code": "m-tshirt-16319-21844-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 358,
+    "code": "m-tshirt-17091-21646-black",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 359,
+    "code": "m-tshirt-17091-21646-darkgreen",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 360,
+    "code": "m-tshirt-17091-21646-khaki",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 361,
+    "code": "m-tshirt-17091-21646-navy",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 362,
+    "code": "m-tshirt-17091-21646-teal",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 363,
+    "code": "m-tshirt-17091-21646-white",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 364,
+    "code": "m-tshirt-17091-21646-wine",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 365,
+    "code": "m-tshirt-17091-21723-blue",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 366,
+    "code": "m-tshirt-17091-21723-brick",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 367,
+    "code": "m-tshirt-17091-21723-brown",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 368,
+    "code": "m-tshirt-17091-21723-green",
+    "template": "feature-paired",
+    "feature_moved": true
+  },
+  {
+    "row": 369,
+    "code": "m-tshirt-17091-21723-natural",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 370,
+    "code": "m-tshirt-17091-21723-olive",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 371,
+    "code": "m-tshirt-17091-21723-rust",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 372,
+    "code": "m-tshirt-17091-21892-black",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 373,
+    "code": "m-tshirt-17091-21892-brown",
+    "template": "comes-in",
+    "feature_moved": false
+  },
+  {
+    "row": 374,
+    "code": "m-tshirt-17091-21892-navy",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 375,
+    "code": "m-tshirt-17091-21892-rust",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 376,
+    "code": "m-tshirt-17091-21892-white",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 377,
+    "code": "m-tshirt-17093-21723-brown",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 378,
+    "code": "m-tshirt-17093-21723-lavender",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 379,
+    "code": "m-tshirt-17093-21723-natural",
+    "template": "feature-combined",
+    "feature_moved": true
+  },
+  {
+    "row": 380,
+    "code": "m-tshirt-17218-21119-green",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 381,
+    "code": "m-tshirt-17444-21765-blue",
+    "template": "feature-first",
+    "feature_moved": true
+  },
+  {
+    "row": 382,
+    "code": "m-tshirt-17444-21765-brown",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 383,
+    "code": "m-tshirt-17656-21723-grey",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 384,
+    "code": "m-tshirt-17656-21723-lavender",
+    "template": "feature-cut",
+    "feature_moved": true
+  },
+  {
+    "row": 385,
+    "code": "m-tshirt-17656-21723-white",
+    "template": "designed-with",
+    "feature_moved": false
+  },
+  {
+    "row": 386,
+    "code": "m-tshirt-17755-21740-navy",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 387,
+    "code": "m-tshirt-17810-21657-blue",
+    "template": "cut-for",
+    "feature_moved": false
+  },
+  {
+    "row": 388,
+    "code": "m-tshirt-17927-21740-black",
+    "template": "fit-shapes",
+    "feature_moved": false
+  },
+  {
+    "row": 389,
+    "code": "m-tshirt-17927-21740-white",
+    "template": "fit-defines",
+    "feature_moved": false
+  },
+  {
+    "row": 390,
+    "code": "m-tshirt-17928-21740-black",
+    "template": "feature-in-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 391,
+    "code": "m-tshirt-17928-21740-brown",
+    "template": "feature-after-fit",
+    "feature_moved": true
+  },
+  {
+    "row": 392,
+    "code": "m-tshirt-17928-21740-wine",
+    "template": "direct-fit",
+    "feature_moved": false
+  },
+  {
+    "row": 393,
+    "code": "m-tshirt-17977-21832-blue",
+    "template": "feature-combined",
+    "feature_moved": true
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "spreadsheet_id": "1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0",
+  "sheet_name": "PDP Descriptions",
+  "sheet_id": 1979343695,
+  "range": "C2:C393",
+  "description_rows_changed": 392,
+  "url_columns_unchanged": true,
+  "first_sentences_unique": 392,
+  "copy_issues": 0,
+  "sha256_descriptions": "fb1e5e68becd0a383c1828e21c9347478fc33392e0829aced252b90fab609cef",
+  "source_ref": "brands/cottonworld/logs/content/raw/20261007-added-active-pdp-final-review/revised.json",
+  "before_ref": "brands/cottonworld/logs/content/raw/20261009-pdp-intro-variation/before-sheet.json",
+  "readback_ref": "brands/cottonworld/logs/content/raw/20261009-pdp-intro-variation/verified-sheet.json"
+}

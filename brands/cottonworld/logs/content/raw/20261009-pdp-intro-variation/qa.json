@@ -1,0 +1,23 @@
+{
+  "rows": 392,
+  "unique_first_sentences": 392,
+  "first_sentence_patterns": {
+    "feature-combined": 40,
+    "feature-after-fit": 45,
+    "fit-shapes": 24,
+    "designed-with": 26,
+    "direct-fit": 27,
+    "cut-for": 26,
+    "feature-cut": 41,
+    "feature-in-fit": 30,
+    "feature-paired": 38,
+    "fit-defines": 34,
+    "feature-first": 39,
+    "comes-in": 22
+  },
+  "feature_sentences_moved": 233,
+  "body_word_min": 74,
+  "body_word_median": 101,
+  "body_word_max": 114,
+  "issues": []
+}
