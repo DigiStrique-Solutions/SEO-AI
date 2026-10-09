@@ -1,0 +1,106 @@
+{
+  "run_id": "inc5shop-bags-seo-plan-20261009",
+  "retrieved_at": "2026-10-09T07:13:00Z",
+  "deliverable": {
+    "type": "google_doc",
+    "title": "Inc.5 Bags SEO Plan — Month 1 Collection Priorities",
+    "url": "https://docs.google.com/document/d/16nx-fWa11f-uTB7PD-F-t4_7cJnBU3ll3wkVBn81Ndo/edit",
+    "readback_verified": true,
+    "source_hyperlinks_verified": 44
+  },
+  "market": "India",
+  "sources": [
+    {
+      "type": "Google Search Console Search Analytics",
+      "property": "https://inc5shop.com/",
+      "search_type": "web",
+      "country_filter": "IND",
+      "window": { "start_date": "2026-07-01", "end_date": "2026-10-06" },
+      "dimensions": ["page"],
+      "filter": "Bag-category collection URLs only",
+      "metrics_note": "Clicks, impressions, CTR and impression-weighted average position."
+    },
+    {
+      "type": "Google Search Console Search Analytics",
+      "property": "https://inc5shop.com/",
+      "search_type": "web",
+      "country_filter": "IND",
+      "window": { "start_date": "2026-07-01", "end_date": "2026-10-06" },
+      "dimensions": ["query"],
+      "filter": "Bag-category terms",
+      "metrics_note": "Clicks, impressions, CTR and impression-weighted average position. Query rows returned were capped at 5,000; this is not treated as an exhaustive query universe."
+    }
+  ],
+  "collection_page_metrics": [
+    { "url": "https://inc5shop.com/collections/all-bags", "clicks": 630, "impressions": 148477, "ctr": 0.004243, "position": 9.5423 },
+    { "url": "https://inc5shop.com/collections/sling-bags", "clicks": 158, "impressions": 120980, "ctr": 0.001306, "position": 7.3698 },
+    { "url": "https://inc5shop.com/collections/backpack-bags", "clicks": 16, "impressions": 16181, "ctr": 0.000989, "position": 8.98 },
+    { "url": "https://inc5shop.com/collections/shoulder-bags", "clicks": 52, "impressions": 10788, "ctr": 0.004820, "position": 6.72 },
+    { "url": "https://inc5shop.com/collections/inc-5-handbags", "clicks": 116, "impressions": 8798, "ctr": 0.013185, "position": 4.69 },
+    { "url": "https://inc5shop.com/collections/shop-handbags", "clicks": 22, "impressions": 7816, "ctr": 0.002814, "position": 6.86 },
+    { "url": "https://inc5shop.com/collections/bags", "clicks": 5, "impressions": 5225, "ctr": 0.000957, "position": 10.83 },
+    { "url": "https://inc5shop.com/collections/all-handbags", "clicks": 13, "impressions": 3992, "ctr": 0.003257, "position": 11.35 },
+    { "url": "https://inc5shop.com/collections/clutch-bags", "clicks": 13, "impressions": 1968, "ctr": 0.006606, "position": 12.54 },
+    { "url": "https://inc5shop.com/collections/wallets", "clicks": 29, "impressions": 1246, "ctr": 0.023274, "position": 6.34 },
+    { "url": "https://inc5shop.com/collections/tote-bags", "clicks": 6, "impressions": 886, "ctr": 0.006772, "position": 14.11 }
+  ],
+  "india_query_examples": [
+    { "query": "bag", "clicks": 52, "impressions": 70666, "ctr": 0.000736, "position": 10.98 },
+    { "query": "shoulder bags for women", "clicks": 10, "impressions": 44728, "ctr": 0.000224, "position": 5.89 },
+    { "query": "sling bag", "clicks": 3, "impressions": 26929, "ctr": 0.000111, "position": 5.61 },
+    { "query": "sling bag women", "clicks": 8, "impressions": 24285, "ctr": 0.000329, "position": 6.37 },
+    { "query": "handbag", "clicks": 71, "impressions": 22451, "ctr": 0.003162, "position": 9.19 },
+    { "query": "handbags", "clicks": 77, "impressions": 16672, "ctr": 0.004618, "position": 7.44 },
+    { "query": "sling bags women", "clicks": 15, "impressions": 9067, "ctr": 0.001655, "position": 9.84 },
+    { "query": "bags", "clicks": 21, "impressions": 8491, "ctr": 0.002473, "position": 11.76 },
+    { "query": "clutch bags for women", "clicks": 0, "impressions": 2360, "ctr": 0, "position": 8.57 },
+    { "query": "backpack for women stylish", "clicks": 6, "impressions": 2608, "ctr": 0.002301, "position": 5.61 }
+  ],
+  "live_site_observations": [
+    {
+      "url": "https://inc5shop.com/collections/bags",
+      "observed": "H1 is 'BAGS'; rendered collection showed 64 products in the sampled result. Global footer had Shop, About Us, Bestsellers (footwear links only), Contact, social links and email subscription."
+    },
+    {
+      "url": "https://inc5shop.com/collections/all-bags",
+      "observed": "Search result showed 347 products and a handbags-led title ('Handbags - Buy Stylish Handbags for Women Online in India | Inc5'). Popular Collections included Sling Bags, Clutch Bags, Shoulder Bags, Wallets, Backpacks and Tote Bag."
+    },
+    {
+      "url": "https://inc5shop.com/collections/sling-bags",
+      "observed": "125 products in rendered result. Existing lower-page copy is lengthy and repetitive and contains unverified claims about materials, compartments/pockets, stitching and durability."
+    },
+    {
+      "url": "https://inc5shop.com/collections/shoulder-bags",
+      "observed": "70 products in rendered result."
+    },
+    {
+      "url": "https://inc5shop.com/collections/clutch-bags",
+      "observed": "50 products in rendered result. Existing lower-page copy contains unsupported material and longevity claims and repetitive promotional phrasing."
+    },
+    {
+      "url": "https://inc5shop.com/collections/tote-bags",
+      "observed": "Search result showed a keyword-specific H1 and long lower-page content. Claims of laptop fit and carrying 5–10 kg need validation against SKU data before retention."
+    }
+  ],
+  "serp_comparison": [
+    {
+      "url": "https://miraggiolife.com/collections/tote-bags",
+      "observed": "H1 'Tote Bags for Women'; concise category intro before product grid; filters expose purpose (work/formal, everyday, travel), laptop compatibility, carry style, color and availability; 230 product count in fetched result. Footer text was not exposed in the rendered extraction."
+    },
+    {
+      "url": "https://www.nykaafashion.com/women/bags/tote-bags/c/407",
+      "observed": "H1 'Buy Tote Bags For Women Online'; live count varied between 4,464 and 5,717 across fetched snapshots; category shopping facets include brand, price, color, material, capacity, occasion, pattern, water resistance and warranty. Footer has Help, Quicklinks (including Sitemap and Style Files), Women/Men category links and support/legal sections."
+    },
+    {
+      "url": "https://www.charleskeith.in/in/bags/totebags",
+      "observed": "Supplied URL resolves in live search to the current women's bags listing. Current listing has a short use-case intro, direct category links (including tote bags), product counts and filters for colour, size, material and price. Footer has help links (order status, FAQ, contact, size guide, product care), About Us, Shopping With Us, Legal and email signup."
+    }
+  ],
+  "keyword_volume_status": "No Google Ads Keyword Planner volume call was made: the configured Keyword Planner tool/platform id was not available in this run. Use GSC impressions as site visibility evidence only; do not label them monthly search volumes.",
+  "limitations": [
+    "Search Console is a site-performance source, not an independent market-volume estimate.",
+    "The live storefront and rendered product counts can change with stock and merchandising; counts above are snapshots.",
+    "The tote page's product count and current SKU support for laptop-fit/capacity claims were not verified from the page's product records in this run.",
+    "The supplied Charles & Keith tote URL did not remain the current live destination in the search result; the current women's bags page was compared instead."
+  ]
+}
