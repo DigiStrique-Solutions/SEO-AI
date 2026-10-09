@@ -1,0 +1,152 @@
+{
+  "run_id": "audio-technica-ga4-pageviews-april-20261009",
+  "retrieved_at": "2026-10-09T06:59:25Z",
+  "provider": "composio/google_analytics",
+  "property": {
+    "name": "properties/496800712",
+    "displayName": "Audio-Technica (India)",
+    "timezone": "Asia/Calcutta",
+    "currencyCode": "INR"
+  },
+  "request": {
+    "dateRanges": [
+      {
+        "endDate": "2026-04-30",
+        "startDate": "2026-04-01"
+      }
+    ],
+    "dimensions": [
+      {
+        "name": "sessionDefaultChannelGroup"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "screenPageViews"
+      }
+    ],
+    "metricAggregations": [
+      "TOTAL"
+    ],
+    "limit": 20
+  },
+  "response": {
+    "dimensionHeaders": [
+      {
+        "name": "sessionDefaultChannelGroup"
+      }
+    ],
+    "kind": "analyticsData#runReport",
+    "metadata": {
+      "currencyCode": "INR",
+      "timeZone": "Asia/Calcutta"
+    },
+    "metricHeaders": [
+      {
+        "name": "screenPageViews",
+        "type": "TYPE_INTEGER"
+      }
+    ],
+    "rowCount": 7,
+    "rows": [
+      {
+        "metricValues": [
+          {
+            "value": "9657"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Organic Search"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "3017"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Direct"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "974"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Organic Social"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "726"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Unassigned"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "667"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Referral"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "105"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Organic Shopping"
+          }
+        ]
+      },
+      {
+        "metricValues": [
+          {
+            "value": "1"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "Paid Search"
+          }
+        ]
+      }
+    ],
+    "totals": [
+      {
+        "metricValues": [
+          {
+            "value": "15147"
+          }
+        ],
+        "dimensionValues": [
+          {
+            "value": "RESERVED_TOTAL"
+          }
+        ]
+      }
+    ]
+  }
+}
