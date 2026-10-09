@@ -1,0 +1,32 @@
+{
+  "run_id": "cottonworld-september-deck-format-alignment-20261009",
+  "changed_at_utc": "2026-10-09T14:51:10Z",
+  "target_presentation_id": "1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs",
+  "target_presentation_url": "https://docs.google.com/presentation/d/1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs/edit",
+  "reference_presentation_id": "1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk",
+  "reference_slide_id": "at_sep_engagement",
+  "reference_style": {
+    "headline": "Georgia serif, muted gray",
+    "section_label": "pale blue pill with blue uppercase text",
+    "tables": "navy header, pale blue and white alternating rows, compact Arial text",
+    "readout": "rounded navy panel with white text",
+    "footnote": "small muted gray source note"
+  },
+  "slides_updated": [1,2,3,4,5,6,7,8,9,10],
+  "changes": [
+    "Applied the reference headline, table, and readout styling to KPI and data slides; retained the existing report content and user-adjusted September figures.",
+    "Restyled the cover and closing title typography and removed outlines around the cover title, site URL, and logo images.",
+    "Replaced the lengthy backlink heading with 'September backlink targets' and removed four visibly overlapping text objects from the October action slide.",
+    "Corrected slide 6 impressions change from +5.2% to +5.5%: (1,520,434 - 1,441,092) / 1,441,092 = 5.505%, rounded to one decimal place."
+  ],
+  "verification": {
+    "slides_api_write": "success",
+    "revision_id": "CxADZ13Ozrc0tw",
+    "saved_state": "readback_verified",
+    "visual_reviewed_slides": [1,2,3,4,5,6,7,8,9,10],
+    "metrics_readback": {
+      "slide_3": {"users": "25,603 to 28,931 (+13.0%)", "engagement_rate": "76.07% to 78% (+2.54% relative; +1.93 pp)", "organic_sessions": "32,176 to 35,359 (+9.9%)"},
+      "slide_6": {"clicks": "21,895 to 24,341 (+11.2%)", "impressions": "1,441,092 to 1,520,434 (+5.5%)", "ctr": "1.52% to 1.72% (+13.2% relative; +0.20 pp)", "average_position": "9.19 to 7.81 (+15.0% improvement)"}
+    }
+  }
+}
