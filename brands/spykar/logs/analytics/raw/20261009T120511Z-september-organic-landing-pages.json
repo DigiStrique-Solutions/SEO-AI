@@ -1,0 +1,26 @@
+{
+  "run_id": "spykar-september-organic-landing-pages-20261009",
+  "queried_at_utc": "2026-10-09T12:05:11Z",
+  "provider": "composio/google_analytics",
+  "execution_log_id": "log_XyMIyjY6AgVJ",
+  "property": "properties/320857986",
+  "request": {"date_start": "2026-09-01", "date_end": "2026-09-30", "dimension": "landingPage", "metric": "sessions", "filter": "sessionDefaultChannelGroup = Organic Search", "order": "sessions descending", "limit": 15},
+  "rows": [
+    ["/", 5432],
+    ["/collections/men-jeans", 2819],
+    ["/collections/men-shirts", 783],
+    ["/collections/wardrobe-refresh-sale-jeans", 650],
+    ["/collections/all-jeans", 645],
+    ["/collections/men-t-shirts", 528],
+    ["(not set)", 520],
+    ["/collections/men-trousers-joggers", 432],
+    ["/collections/cargo", 327],
+    ["/collections/all-shirts", 315],
+    ["/collections/cargo-pant", 302],
+    ["/search", 245],
+    ["/collections/men-jackets", 239],
+    ["/collections/men", 222],
+    ["/collections/new-arrivals", 214]
+  ],
+  "presentation_note": "The slide lists the top ten resolved landing-page paths and excludes the (not set) row."
+}

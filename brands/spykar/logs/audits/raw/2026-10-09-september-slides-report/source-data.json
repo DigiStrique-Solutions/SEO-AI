@@ -1,0 +1,19 @@
+{
+  "run_id": "spykar-september-slides-report-20261009",
+  "created_at_utc": "2026-10-09T12:05:11Z",
+  "action": "adapt_and_verify_native_google_slides",
+  "reference_deck": "https://docs.google.com/presentation/d/19rOkD5BZ5M3kufiRBp19sTKtPyk-MIF86apA35YjtQY/edit",
+  "deliverable_deck": "https://docs.google.com/presentation/d/1PaKenh1gwvtlQ7erclllLRoAx5JmAb8OlHPyzL-2wPc/edit",
+  "period": "2026-09-01..2026-09-30",
+  "comparison": "2026-08-01..2026-08-31",
+  "source_refs": [
+    "brands/spykar/logs/analytics/raw/20261009T111746Z-september-monthly-report.json",
+    "brands/spykar/logs/analytics/raw/20261009T120511Z-september-organic-landing-pages.json",
+    "brands/spykar/logs/audits/raw/2026-10-09-september-monthly-seo-report/source-data.json"
+  ],
+  "slide_count": 9,
+  "slide_object_ids": ["p1", "p2", "p5", "p6", "p8", "p7", "p10", "p11", "p12"],
+  "slide_topics": ["cover", "tracked keyword rankings", "GA4 organic traffic", "GA4 top landing pages", "GSC top pages", "GSC KPIs", "work recorded", "October action plan", "thank you"],
+  "method": "Copied the August Google Slides deck and replaced month-specific text and table cells in the native slide elements, retaining its nine-slide sequence, images, logos, cards, tables, and closing slide.",
+  "qa": "Read back all nine native slides, exported to PDF, rendered every slide, inspected the contact sheet and full-size slides 5 and 6, then shortened those headings to remove overlaps. No remaining title overlap seen."
+}
