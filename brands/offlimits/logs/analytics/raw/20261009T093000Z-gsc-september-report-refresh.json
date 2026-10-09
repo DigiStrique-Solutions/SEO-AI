@@ -1,0 +1,38 @@
+{
+  "run_id": "offlimits-gsc-september-report-refresh-20261009",
+  "source": "Google Search Console https://offlimits.co.in/",
+  "provider": "composio/google_search_console",
+  "executions": ["log_zVZrGdt-km6b", "log_4NzP1pXTNGhV"],
+  "periods": {
+    "comparison": "2026-08-01..2026-08-31",
+    "current": "2026-09-01..2026-09-30"
+  },
+  "totals": {
+    "august": {"clicks": 3402, "impressions": 335647, "ctr": 0.010135648464, "average_position": 11.6364662875},
+    "september": {"clicks": 3625, "impressions": 307374, "ctr": 0.011793450324, "average_position": 10.592366303}
+  },
+  "september_top_pages": [
+    {"page": "https://offlimits.co.in/", "clicks": 1186, "impressions": 29374, "ctr": 0.040376, "average_position": 4.2984},
+    {"page": "https://offlimits.co.in/collections/size-13-shoes", "clicks": 211, "impressions": 9922, "ctr": 0.021266, "average_position": 6.4815},
+    {"page": "https://offlimits.co.in/collections/big-tall", "clicks": 160, "impressions": 16387, "ctr": 0.009764, "average_position": 8.2255},
+    {"page": "https://offlimits.co.in/collections/mens-collection-uk14", "clicks": 128, "impressions": 5365, "ctr": 0.023858, "average_position": 5.9849},
+    {"page": "https://offlimits.co.in/pages/about-us", "clicks": 126, "impressions": 11456, "ctr": 0.010999, "average_position": 2.0608}
+  ],
+  "tracked_query_positions": {
+    "size 14 shoes": {"august": 6.466, "september": 7.535},
+    "mens size 14 shoes": {"august": 5.4643, "september": 8.76},
+    "big shoes": {"august": 6.8398, "september": 8.1217},
+    "big size shoes": {"august": 7.1657, "september": 12.5939},
+    "mens size 14 sneakers": {"august": 11.0833, "september": 9.7576},
+    "size 13 mens shoes": {"august": 7.3059, "september": 8.4118},
+    "shoes full black": {"august": 12.1429, "september": 14.2727},
+    "soft foam shoes": {"august": 17.5, "september": 17.8182},
+    "basket ball shoes for men": {"august": 17, "september": 17.25},
+    "running shoes for women": {"august": 22.9362, "september": 49.3333},
+    "basketball shoes for men": {"august": 19.4431, "september": 17.1479},
+    "basketball shoes": {"august": 21.3085, "september": 17.6875}
+  },
+  "deck": "https://docs.google.com/presentation/d/1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY/edit",
+  "updated_slides": [2, 5, 6, 7, 8],
+  "note": "Corrects the earlier report run which marked GSC unavailable. Keyword-volume fields remain unverified because Google Ads Keyword Planner is not configured."
+}

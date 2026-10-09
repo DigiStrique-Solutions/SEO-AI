@@ -22,14 +22,14 @@ Read this first for any task about this brand, then load **only** the files the 
 
 - **Shopify · India (INR).** Fixes must fit Shopify; targeting is India-scoped.
 - **Standardize the brand name** — site mixes `OFF LIMITS` / `Offlimits` / `Off Limits`.
-- **No GSC/GA4 in our workspace** — indexation, field CWV, query data are `not_checked_blocked`, never assumed (the brand runs its own GSC; it's just not connected here).
+- **Read-only GSC and GA4 reporting are connected** — use the validated GSC property `https://offlimits.co.in/` and GA4 `properties/411747968` for current reporting. Field CWV and indexation coverage remain separately unavailable, so keep those `not_checked_blocked` unless a dedicated source is connected.
 - **Keyword demand is estimated/blocked** — Keyword Planner platform-id unset; volumes in `keywords/` are blank by design.
 - **Analytics partially broken** — GoKwik analytics script fails DNS; tracking may be incomplete.
 - **Voice:** motivational, gutsy, inclusive, value-conscious ("OFF LIMITS Tribe"); pair performance with affordability + made-in-India; cite verified tech names (Flexiknit, Athlite®, Super-Memory Tech, Glovefit®, Advanced Memory Foam, Wicktech and Recomat®).
 
 ## Known blockers to unblock later
 
-Connect **GSC** + a **PageSpeed/CrUX key** via Composio, and set **`GOOGLE_ADS_PLATFORM_ID`**, to close: field Core Web Vitals, indexation coverage, AI-mention testing, and real keyword volumes.
+Connect a **PageSpeed/CrUX key** via Composio, and set **`GOOGLE_ADS_PLATFORM_ID`**, to close: field Core Web Vitals, indexation coverage, AI-mention testing, and real keyword volumes.
 
 ## Schemas & tool map
 

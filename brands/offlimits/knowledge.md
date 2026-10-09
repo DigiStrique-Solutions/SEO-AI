@@ -18,8 +18,8 @@
 
 - **Platform is Shopify · Market is India (INR).** Fixes must fit Shopify theme/metafields/apps; targeting is India-scoped (₹ price points, "…in India").
 - **Standardize the brand name.** Site is inconsistent: `Offlimits` (schema), `OFF LIMITS` (title/og:site_name = OFFLIMITS), `Off Limits` (collection titles). Pick one canonical form before customer-facing copy or schema edits.
-- **GSC remains unconnected.** On 2026-09-28, read-only GA4 reporting became accessible through Composio for `properties/411747968` (`offlimits.com - GA4`, Asia/Calcutta). Treat the data as incomplete: the comparison has very high Direct/Unassigned traffic, a large `(not set)` landing-page row, and sharply lower engagement. See `logs/analytics/`.
-- **Keyword demand is unverified** — `GOOGLE_ADS_PLATFORM_ID` unset (Keyword Planner blocked) and no GSC fallback. Volumes in `keywords/` are **blank/estimated**, not measured. Do not present them as real numbers.
+- **Read-only GA4 and GSC reporting are connected.** GA4 is available through Composio for `properties/411747968` (`offlimits.com - GA4`, Asia/Calcutta); its data remains incomplete because of very high Direct/Unassigned traffic, a large `(not set)` landing-page row, and sharply lower engagement. The owner-level GSC property `https://offlimits.co.in/` was verified on 2026-10-09 and may be used for query, page and performance reporting. See `logs/analytics/`.
+- **Keyword demand is unverified** — `GOOGLE_ADS_PLATFORM_ID` is unset (Keyword Planner blocked). GSC can supply search performance and average position, but not reliable market search volume; volumes in `keywords/` are **blank/estimated**, not measured. Do not present them as real numbers.
 - **Analytics is partially broken** — `analytics.gokwik.co` fails DNS on-site. Don't assume tracking data is complete.
 - **Voice:** motivational, gutsy, inclusive, value-conscious ("OFF LIMITS Tribe", "push limits not excuses"). Pair performance claims with affordability + made-in-India. Avoid generic hype; cite real tech names and sizing inclusivity.
 
