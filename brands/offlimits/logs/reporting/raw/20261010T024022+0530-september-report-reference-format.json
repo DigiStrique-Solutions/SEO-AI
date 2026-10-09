@@ -1,0 +1,67 @@
+{
+  "run_id": "offlimits-september-2026-report-reference-format-20261010",
+  "timestamp": "2026-10-10T02:40:22+05:30",
+  "target_presentation_id": "1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY",
+  "target_url": "https://docs.google.com/presentation/d/1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY/edit",
+  "format_reference_presentation_id": "1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs",
+  "reference_design_source": "User-requested matching style from the previously formatted Cottonworld report; design originally follows supplied Monthly SEO reference deck.",
+  "source_revision_id": "xnvWG1MCFHGshw",
+  "final_revision_id": "tb5PJnmcfIzSBQ",
+  "source_snapshot": {
+    "slide_count": 9,
+    "brand": "OFFLIMITS",
+    "report_month": "September 2026",
+    "ga4_organic": {
+      "new_users": "2,626 to 3,716 (+41.51%)",
+      "sessions": "4,199 to 5,143 (+22.48%)",
+      "users": "3,207 to 4,317 (+34.61%)"
+    },
+    "gsc": {
+      "clicks": "3,402 to 3,625 (+6.55%)",
+      "ctr": "1.01% to 1.18% (+0.17 pp)",
+      "average_position": "11.64 to 10.59 (1.04 improved)",
+      "impressions": "335,647 to 307,374 (-8.42%)"
+    },
+    "landing_pages": {
+      "/collections/big-tall": "180",
+      "/collections/mens-collection-uk14": "109",
+      "/collections/women-track-suits": "81",
+      "/": "1,131",
+      "/products/oxford-dark-grey-ocm-643-05": "159",
+      "(not set)": "115",
+      "/collections/size-13-shoes": "189",
+      "/collections/his-her": "94",
+      "/pages/about-us": "115",
+      "/collections/men-track-suits": "82"
+    }
+  },
+  "changes": [
+    {
+      "slide": 1,
+      "action": "Rebuilt cover with navy left panel, blue accent, white report title area, and clear OFFLIMITS and reporting-period labels."
+    },
+    {
+      "action": "Unified table typography, navy headers, alternating pale-blue rows, callout fills and card styling.",
+      "slides": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "slide": 4,
+      "action": "Rebuilt landing-page data as a full-width two-column September sessions table; preserved all 10 page/session rows and the existing observation."
+    },
+    {
+      "slide": 8,
+      "action": "Replaced the October action table with three pale-blue priority cards, retaining each listed action and its supplied metric or focus."
+    },
+    {
+      "slide": 9,
+      "action": "Set a navy closing background and Georgia thank-you heading."
+    }
+  ],
+  "verification": "Google Slides outline readback confirmed all 9 slides, original GA4/GSC values, all landing-page rows, task status content, and October priorities. Thumbnail renders fetched after edits."
+}
