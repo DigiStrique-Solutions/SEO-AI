@@ -1,0 +1,15 @@
+{
+  "run_id": "offlimits-september-monthly-seo-report-20261009",
+  "run_at": "2026-10-09T00:00:00+05:30",
+  "reporting_period": {"current": "2026-09-01 to 2026-09-30", "comparison": "2026-08-01 to 2026-08-31", "timezone": "Asia/Calcutta"},
+  "output_deck": {"id": "1oq3aDefVHhqzUO25GWOjQYId7GJwxhWgyKbdUwdLCxY", "title": "OFFLIMITS | Monthly SEO Report - September'26"},
+  "ga4": {
+    "property": "properties/411747968",
+    "filter": "sessionDefaultChannelGroup = Organic Search",
+    "august": {"users": 3207, "new_users": 2626, "sessions": 4199, "engagement_rate": 0.4146225292, "page_views": 10272, "average_session_duration_seconds": 148.5103531},
+    "september": {"users": 4317, "new_users": 3716, "sessions": 5143, "engagement_rate": 0.30488042, "page_views": 11748, "average_session_duration_seconds": 122.0153773},
+    "top_landing_pages_september": [["/",1131],["/collections/size-13-shoes",189],["/collections/big-tall",180],["/products/oxford-dark-grey-ocm-643-05",159],["(not set)",115],["/pages/about-us",115],["/collections/mens-collection-uk14",109],["/collections/his-her",94],["/collections/men-track-suits",82],["/collections/women-track-suits",81]]
+  },
+  "limitations": ["Google Search Console ranks, page data and KPIs were not used because no validated GSC source is connected for OFFLIMITS.", "Keyword Planner volume is not verified because the platform ID is unset.", "Known GoKwik analytics DNS failure may make GA4 directional rather than complete."],
+  "verification": "Copied the Monthly SEO Performance Report template, populated the September report, re-read the tables/slide outline, and fetched fresh slide thumbnails."
+}
