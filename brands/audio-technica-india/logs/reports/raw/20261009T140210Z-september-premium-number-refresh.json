@@ -1,0 +1,23 @@
+{
+  "run_id": "audio-technica-india-september-premium-number-refresh-20261009",
+  "checked_at_utc": "2026-10-09T14:02:10Z",
+  "source_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit",
+  "target_deck": "https://docs.google.com/presentation/d/1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk/edit",
+  "user_choices": ["Use supplied deck values even though they conflict with connected GA4 and GSC", "Where supplied deck conflicts with itself, use its summary tables for landing-page top three and GSC CTR"],
+  "september_values_used": {
+    "organic_users": 5425,
+    "new_users": 4949,
+    "sessions": 6944,
+    "organic_page_views": 17608,
+    "engagement_rate_percent": 72.57,
+    "average_session_duration": "4m 19s",
+    "landing_page_sessions": {"/": 1872, "/product-category/turntables": 675, "(not set)": 505, "/product/professional-monitor-headphones-ath-m50x": 350, "/product/digital-smartmixer-atdm-0604a": 168},
+    "gsc_web": {"clicks": 7585, "impressions": 360139, "ctr_percent_as_supplied": 3.55, "average_position": 5.17}
+  },
+  "august_to_september_comparisons": {"users_percent": 12.79, "new_users_percent": 10.62, "sessions_percent": 2.81, "organic_page_views_percent": -15.53, "engagement_rate_pp": 5.96, "average_session_duration_percent": 4.86, "gsc_clicks_percent": 2.61, "gsc_impressions_percent": 9.09, "gsc_ctr_pp": 1.31, "gsc_position_improvement": 2.67, "homepage_sessions_percent": 10.12, "turntables_sessions_percent": 21.62, "not_set_sessions_percent": 9.78},
+  "preserved": "July and August values in the premium monthly deck; September GSC top-page table and historical keyword-ranking slide because the supplied deck did not provide comparable replacements",
+  "affected_slide_ids": ["at_sep_summary", "at_sep_acquisition", "at_sep_engagement", "at_sep_landing", "at_sep_landing_sep", "at_sep_gsc", "at_sep_gsc_trend", "at_sep_action", "at_sep_action_detail"],
+  "validation": "All 66 scoped text replacements matched once; structural outline re-read and eight changed slides rendered for visual QA; positive deltas recolored green; long callouts shortened.",
+  "discrepancy": "Supplied GSC CTR 3.55% does not equal supplied clicks divided by impressions (7,585 / 360,139 = 2.11%). Deck footnotes disclose non-reconciliation. Connected GA4/GSC also differ; first-party verification is recorded in brands/audio-technica-india/logs/analytics/raw/20261009T135823Z-september-source-reconciliation.json.",
+  "target_revision_after_updates": "p3Kq33HJ8FnuiA"
+}

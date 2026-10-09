@@ -1,0 +1,26 @@
+{
+  "run_id": "audio-technica-september-source-reconciliation-20261009",
+  "checked_at_utc": "2026-10-09T13:58:23Z",
+  "source_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit",
+  "target_deck": "https://docs.google.com/presentation/d/1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk/edit",
+  "source_deck_september": {
+    "ga4_organic_traffic_slide": {"users": 5425, "new_users": 4949, "sessions": 6944},
+    "ga4_organic_engagement_slide": {"engagement_rate_percent": 72.57, "page_views": 17608, "average_session_duration": "4m 19s"},
+    "landing_summary_slide": {"homepage_sessions": 1872, "turntables_sessions": 675, "not_set_sessions": 505},
+    "landing_detail_slide": {"homepage_sessions": 1670, "turntables_sessions": 582, "not_set_sessions": 435},
+    "gsc_summary_table": {"clicks": 7585, "impressions": 360139, "ctr_percent": 3.55, "average_position": 5.17},
+    "gsc_kpi_cards": {"clicks_approx": "7.58K", "impressions_approx": "360.19K", "ctr_percent": 2.55, "average_position": 5.17}
+  },
+  "first_party_api_september": {
+    "ga4_property": "properties/496800712",
+    "timezone": "Asia/Calcutta",
+    "channel_filter": "sessionDefaultChannelGroup = Organic Search",
+    "ga4_totals": {"activeUsers": 4604, "totalUsers": 4677, "newUsers": 4266, "sessions": 5986, "screenPageViews": 15179, "engagementRate": 0.62562646174406955, "averageSessionDurationSeconds": 223.26049338055461},
+    "ga4_top_landing_sessions": {"/": 883, "/product-category/turntables": 582, "(not set)": 435, "/product/professional-monitor-headphones-ath-m50x": 250},
+    "gsc_property": "https://audio-technica.co.in/",
+    "gsc_web_totals": {"clicks": 6108, "impressions": 277706, "ctr": 0.02199448337450397, "position": 6.158196077866521}
+  },
+  "calculation_checks": {"source_gsc_clicks_divided_by_impressions_percent": 2.1061, "source_gsc_table_ctr_percent": 3.55, "source_gsc_card_ctr_percent": 2.55},
+  "tool_execution_log": "log_NXMkcT075g2g",
+  "decision": "No report edits until user resolves whether supplied deck values override verified first-party figures and which conflicting source-deck values to use."
+}
