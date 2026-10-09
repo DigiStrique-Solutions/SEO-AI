@@ -1,0 +1,21 @@
+{
+  "run_id": "cottonworld-september-slides-3-6-growth-readout-20261009",
+  "changed_at_utc": "2026-10-09T08:16:03Z",
+  "target_presentation_id": "12bsqmYfE9VRa34K74ISDQFuVzcu-oqby_WDd06UdpTM",
+  "target_presentation_url": "https://docs.google.com/presentation/d/12bsqmYfE9VRa34K74ISDQFuVzcu-oqby_WDd06UdpTM/edit",
+  "august_to_september_comparisons": {
+    "slide_3_ga4": {
+      "users": {"august": 24603, "september": 28306, "growth_percent": 15.1},
+      "engagement_rate_percent": {"august": 76.07, "september": 76.64, "change_percentage_points": 0.57, "relative_growth_percent": 0.75},
+      "organic_sessions": {"august": 32176, "september": 36358, "growth_percent": 13.0}
+    },
+    "slide_6_gsc": {
+      "clicks": {"august": 21895, "september": 18536, "change_percent": -15.3},
+      "impressions": {"august": 1441092, "september": 1079768, "change_percent": -25.1},
+      "ctr_percent": {"august": 1.52, "september": 1.72, "change_percentage_points": 0.20, "relative_growth_percent": 13.2},
+      "average_position": {"august": 9.19, "september": 8.32, "absolute_change": -0.87, "improvement_percent": 9.5, "direction": "lower is better"}
+    }
+  },
+  "update": "Updated only growth/change columns and insight text on slides 3 and 6 using the user-adjusted table values.",
+  "verification": {"slides_api_write": "success", "revision_id": "Td3zruhSmHm6xg", "browser_status": "Saved to Drive", "visual_review": [3, 6]}
+}
