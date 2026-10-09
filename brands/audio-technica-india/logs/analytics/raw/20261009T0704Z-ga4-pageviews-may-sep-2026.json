@@ -1,0 +1,172 @@
+{
+  "run_id": "audio-technica-ga4-pageviews-may-sep-20261009",
+  "retrieved_at": "2026-10-09T07:04:34Z",
+  "provider": "composio/google_analytics",
+  "property": {
+    "name": "properties/496800712",
+    "displayName": "Audio-Technica (India)",
+    "timezone": "Asia/Calcutta",
+    "currencyCode": "INR"
+  },
+  "request": {
+    "dateRanges": [
+      {
+        "startDate": "2026-05-01",
+        "endDate": "2026-09-30"
+      }
+    ],
+    "dimensions": [
+      {
+        "name": "month"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "screenPageViews"
+      }
+    ],
+    "limit": 100
+  },
+  "response": {
+    "dimensionHeaders": [
+      {
+        "name": "month"
+      }
+    ],
+    "kind": "analyticsData#runReport",
+    "metadata": {
+      "currencyCode": "INR",
+      "timeZone": "Asia/Calcutta"
+    },
+    "metricHeaders": [
+      {
+        "name": "screenPageViews",
+        "type": "TYPE_INTEGER"
+      }
+    ],
+    "rowCount": 5,
+    "rows": [
+      {
+        "dimensionValues": [
+          {
+            "value": "05"
+          }
+        ],
+        "metricValues": [
+          {
+            "value": "17583"
+          }
+        ]
+      },
+      {
+        "dimensionValues": [
+          {
+            "value": "06"
+          }
+        ],
+        "metricValues": [
+          {
+            "value": "19629"
+          }
+        ]
+      },
+      {
+        "dimensionValues": [
+          {
+            "value": "07"
+          }
+        ],
+        "metricValues": [
+          {
+            "value": "25689"
+          }
+        ]
+      },
+      {
+        "dimensionValues": [
+          {
+            "value": "08"
+          }
+        ],
+        "metricValues": [
+          {
+            "value": "51055"
+          }
+        ]
+      },
+      {
+        "dimensionValues": [
+          {
+            "value": "09"
+          }
+        ],
+        "metricValues": [
+          {
+            "value": "71132"
+          }
+        ]
+      }
+    ]
+  },
+  "supplemental_report": {
+    "request": {
+      "dateRanges": [
+        {
+          "startDate": "2026-05-01",
+          "endDate": "2026-09-30"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "month"
+        },
+        {
+          "name": "sessionDefaultChannelGroup"
+        }
+      ],
+      "dimensionFilter": {
+        "filter": {
+          "fieldName": "sessionDefaultChannelGroup",
+          "stringFilter": {
+            "matchType": "EXACT",
+            "value": "Organic Search"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": "screenPageViews"
+        }
+      ],
+      "limit": 100
+    },
+    "excluded_from_slide": "Organic Search only; the user clarified that slide actuals must use total views across all channels.",
+    "rows": [
+      {
+        "month": "05",
+        "sessionDefaultChannelGroup": "Organic Search",
+        "screenPageViews": "12052"
+      },
+      {
+        "month": "06",
+        "sessionDefaultChannelGroup": "Organic Search",
+        "screenPageViews": "14764"
+      },
+      {
+        "month": "07",
+        "sessionDefaultChannelGroup": "Organic Search",
+        "screenPageViews": "18857"
+      },
+      {
+        "month": "08",
+        "sessionDefaultChannelGroup": "Organic Search",
+        "screenPageViews": "20845"
+      },
+      {
+        "month": "09",
+        "sessionDefaultChannelGroup": "Organic Search",
+        "screenPageViews": "15179"
+      }
+    ]
+  }
+}
