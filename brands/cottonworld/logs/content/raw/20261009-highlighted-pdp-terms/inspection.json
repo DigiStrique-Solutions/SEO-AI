@@ -1,0 +1,110 @@
+{
+  "spreadsheet_id": "1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0",
+  "sheet": "PDP Descriptions",
+  "inspection_date": "2026-10-09",
+  "highlighted_rows": [
+    132,
+    146,
+    148,
+    149
+  ],
+  "highlight_type": "whole-row background colour; no term-level textFormatRuns or notes in description cells",
+  "comments_count": 0,
+  "row132_before": "These women's white trousers are cut for a barrel-leg cut. The woven fabric is 55% linen and 45% viscose. The plain finish leaves room for another texture or print.\n\nThey have an elasticated waist. The design includes front and side pockets; the legs finish with a straight hem. Machine wash cold and wash dark colours separately. Do not bleach; remove promptly and dry in the shade.\n\nStyling note - Try them with a plain navy top and flat sandals for daytime plans. Add a short jacket and switch to loafers for dinner, keeping the layers simple so the proportions stay clear.\n\nProduct ID: l-pants-17753-21737-white",
+  "row132_after": "These women's white trousers have a barrel-leg shape. The woven fabric is 55% linen and 45% viscose. The plain finish leaves room for another texture or print.\n\nThey have an elasticated waist. The design includes front and side pockets; the legs finish with a straight hem. Machine wash cold and wash dark colours separately. Do not bleach; remove promptly and dry in the shade.\n\nStyling note - Try them with a plain navy top and flat sandals for daytime plans. Add a short jacket and switch to loafers for dinner, keeping the layers simple so the proportions stay clear.\n\nProduct ID: l-pants-17753-21737-white",
+  "row132_readback": {
+    "spreadsheetId": "1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0/edit",
+    "properties": {
+      "title": "New Active list products PDP Descriptions",
+      "locale": "en_US",
+      "timeZone": "Asia/Calcutta"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 1979343695,
+          "title": "PDP Descriptions",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 998,
+            "columnCount": 19,
+            "frozenRowCount": 1
+          }
+        },
+        "data": [
+          {
+            "startRow": 131,
+            "rowData": [
+              {
+                "values": [
+                  {
+                    "formattedValue": "https://cottonworld.net/products/l-pants-17753-21737-white",
+                    "userEnteredValue": {
+                      "stringValue": "https://cottonworld.net/products/l-pants-17753-21737-white"
+                    },
+                    "userEnteredFormat": {
+                      "backgroundColor": {
+                        "red": 0.7882353,
+                        "green": 0.85490197,
+                        "blue": 0.972549
+                      },
+                      "backgroundColorStyle": {
+                        "rgbColor": {
+                          "red": 0.7882353,
+                          "green": 0.85490197,
+                          "blue": 0.972549
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "https://cottonworld.net/products/womens-linen-viscose-barrel-fit-pant-white",
+                    "userEnteredValue": {
+                      "stringValue": "https://cottonworld.net/products/womens-linen-viscose-barrel-fit-pant-white"
+                    },
+                    "userEnteredFormat": {
+                      "backgroundColor": {
+                        "red": 0.7882353,
+                        "green": 0.85490197,
+                        "blue": 0.972549
+                      },
+                      "backgroundColorStyle": {
+                        "rgbColor": {
+                          "red": 0.7882353,
+                          "green": 0.85490197,
+                          "blue": 0.972549
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "formattedValue": "These women's white trousers have a barrel-leg shape. The woven fabric is 55% linen and 45% viscose. The plain finish leaves room for another texture or print.\n\nThey have an elasticated waist. The design includes front and side pockets; the legs finish with a straight hem. Machine wash cold and wash dark colours separately. Do not bleach; remove promptly and dry in the shade.\n\nStyling note - Try them with a plain navy top and flat sandals for daytime plans. Add a short jacket and switch to loafers for dinner, keeping the layers simple so the proportions stay clear.\n\nProduct ID: l-pants-17753-21737-white",
+                    "userEnteredValue": {
+                      "stringValue": "These women's white trousers have a barrel-leg shape. The woven fabric is 55% linen and 45% viscose. The plain finish leaves room for another texture or print.\n\nThey have an elasticated waist. The design includes front and side pockets; the legs finish with a straight hem. Machine wash cold and wash dark colours separately. Do not bleach; remove promptly and dry in the shade.\n\nStyling note - Try them with a plain navy top and flat sandals for daytime plans. Add a short jacket and switch to loafers for dinner, keeping the layers simple so the proportions stay clear.\n\nProduct ID: l-pants-17753-21737-white"
+                    },
+                    "userEnteredFormat": {
+                      "backgroundColor": {
+                        "red": 0.7882353,
+                        "green": 0.85490197,
+                        "blue": 0.972549
+                      },
+                      "backgroundColorStyle": {
+                        "rgbColor": {
+                          "red": 0.7882353,
+                          "green": 0.85490197,
+                          "blue": 0.972549
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
