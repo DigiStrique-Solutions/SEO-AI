@@ -1,0 +1,29 @@
+{
+  "run_id": "cottonworld-september-reference-format-fix-20261010",
+  "timestamp": "2026-10-10T02:22:23+05:30",
+  "target_presentation_id": "1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs",
+  "target_url": "https://docs.google.com/presentation/d/1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs/edit",
+  "reference_presentation_id": "1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk",
+  "reference_slide_id": "at_sep_engagement",
+  "source": "User request to improve formatting to match earlier reference; existing Cottonworld September report and supplied reference deck",
+  "changes": [
+    {
+      "action": "Rebuilt the cover using a navy left panel, blue accent, white report title area, Georgia heading, and concise period/site labels.",
+      "slide": 1
+    },
+    {
+      "action": "Replaced two side-by-side landing-page tables with one full-width August and September comparison table using navy header and alternating pale-blue rows.",
+      "slide": 4
+    },
+    {
+      "action": "Replaced the dense action table with three pale-blue priority cards for visibility, technical, and content/link work while preserving the listed actions and counts.",
+      "slide": 9
+    }
+  ],
+  "metrics_preserved": [
+    "Slide 3: users 25,603 to 28,931 (+13.0%); engagement rate 76.07% to 78% (+2.54% relative); organic sessions 32,176 to 35,359 (+9.9%).",
+    "Slide 6: clicks 21,895 to 24,341 (+11.2%); impressions 1,441,092 to 1,520,434 (+5.5%); average CTR 1.52% to 1.72% (+13.2% relative); average position 9.19 to 7.81 (+15.0% improvement)."
+  ],
+  "final_revision_id": "Q1EA_M6TMGbFHg",
+  "verification": "Google Slides API readback confirmed cover, landing-page comparison, October action-plan text and retained slide 3/6 metrics. Thumbnail renders fetched after slide edits."
+}
