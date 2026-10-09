@@ -1,0 +1,52 @@
+{
+  "run_id": "cottonworld-september-2026-growth-target-slide-update-20261009",
+  "changed_at_utc": "2026-10-09T06:03:42Z",
+  "brand": "cottonworld",
+  "report_period": "September 2026 planning scenario",
+  "target_presentation_id": "12bsqmYfE9VRa34K74ISDQFuVzcu-oqby_WDd06UdpTM",
+  "target_presentation_url": "https://docs.google.com/presentation/d/12bsqmYfE9VRa34K74ISDQFuVzcu-oqby_WDd06UdpTM/edit",
+  "source_refs": [
+    "raw/20260902-slide-updates.json",
+    "raw/20261008T083800Z-september-2026-performance.json",
+    "raw/20261008T093100Z-september-reference-aligned-data.json"
+  ],
+  "target_method": {
+    "uplift": "13-15% over August baselines",
+    "count_rounding": "nearest whole number",
+    "rate_rounding": "two decimal places after relative uplift",
+    "average_position": "13-15% improvement, lower value is better",
+    "scenario_label": "Targets are projections, not measured September results"
+  },
+  "august_baselines": {
+    "ga4_report_users": 25603,
+    "ga4_organic_sessions": 32176,
+    "ga4_organic_engagement_rate_percent": 76.07,
+    "gsc_clicks": 21895,
+    "gsc_impressions": 1441092,
+    "gsc_ctr_percent": 1.52,
+    "gsc_average_position": 9.19,
+    "recorded_backlink_placements": 51
+  },
+  "slide_updates": {
+    "1": "Restored the original-fit September cover title.",
+    "2": "Removed unsourced September query results; retained August keyword baselines and noted missing September rank export.",
+    "3": "Aligned to August report users 25,603 and added 13-15% target ranges for users, engagement rate and organic sessions.",
+    "4": "Aligned August landing-page baseline rows with the reference-aligned GA4 source and replaced September actuals with per-page target ranges.",
+    "5": "Replaced September GSC actuals with page-level click, impression and CTR target ranges where an August GSC baseline exists; marked other pages as no baseline; adjusted column widths for readability.",
+    "6": "Replaced September actuals with 13-15% GSC click, impression and CTR target ranges and an average-position improvement target.",
+    "7": "Updated August recorded-placement counts into a clearly labeled September planning target (58-59 aggregate; channel counts rounded individually).",
+    "8": "Kept verified work-completed counts and labeled them as activity outputs, separate from performance targets.",
+    "9": "Added the 13-15% KPI goal to the October action plan."
+  },
+  "limitations": [
+    "No August page-level GSC baselines were available in the supplied extract for five displayed URLs, so no page targets are shown for those rows.",
+    "No September rank-tracker export or backlink tracker was supplied; the slides do not claim query-level ranking outcomes or delivered September backlinks."
+  ],
+  "verification": {
+    "slides_api_write": "success",
+    "presentation_revision_after_write": "hca3ctv2Y_h5aw",
+    "browser_status": "Saved to Drive",
+    "visual_review": ["slide 3 GA4 target table", "slide 5 page-level GSC target table"],
+    "readback": "Slides API readback confirmed target tables and insights; September performance actuals were replaced by labeled target scenarios."
+  }
+}
