@@ -1,0 +1,25 @@
+{
+  "run_id": "cottonworld-september-final-deck-slides-3-6-growth-update-20261009",
+  "changed_at_utc": "2026-10-09T10:44:19Z",
+  "target_presentation_id": "1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs",
+  "target_presentation_url": "https://docs.google.com/presentation/d/1DG365KElnhVCo89CjmtNFBiR-yQVYA5iNG-VLSqniqs/edit",
+  "august_to_september_comparisons": {
+    "slide_3_ga4": {
+      "users": {"august": 25603, "september": 28931, "growth_percent": 13.0},
+      "engagement_rate_percent": {"august": 76.07, "september": 78.0, "change_percentage_points": 1.93, "relative_growth_percent": 2.54},
+      "organic_sessions": {"august": 32176, "september": 35359, "growth_percent": 9.9}
+    },
+    "slide_6_gsc": {
+      "clicks": {"august": 21895, "september": 24341, "change_percent": 11.2},
+      "impressions": {"august": 1441092, "september_displayed": "1,52,434", "september_numeric_interpretation": 152434, "change_percent": -89.4},
+      "ctr_percent": {"august": 1.52, "september": 1.72, "change_percentage_points": 0.20, "relative_growth_percent": 13.2},
+      "average_position": {"august": 9.19, "september": 7.81, "absolute_change": -1.38, "improvement_percent": 15.0, "direction": "lower is better"}
+    }
+  },
+  "update": "Updated only growth/change percentages and insight text on slides 3 and 6, using the user-adjusted metric values already in the deck.",
+  "insights": {
+    "slide_3": "Against August, the September targets shown imply users +13.0% (25,603 to 28,931), organic sessions +9.9% (32,176 to 35,359), and engagement rate +2.54% relative (+1.93 pp, 76.07% to 78%). Users meet the stated +13% floor; sessions and engagement remain below it. Align targets before sign-off.",
+    "slide_6": "Using the September values shown, clicks rise 11.2% (21,895 to 24,341), while impressions fall 89.4% (1,441,092 to 1,52,434). CTR improves 13.2% relative (+0.20 pp), and average position improves 15.0% (9.19 to 7.81; lower is better). Recover eligible impressions while preserving ranking and CTR gains."
+  },
+  "verification": {"slides_api_write": "success", "revision_id": "xNpvdGznkPlYpw", "browser_status": "Saved to Drive", "visual_review": [3, 6]}
+}
