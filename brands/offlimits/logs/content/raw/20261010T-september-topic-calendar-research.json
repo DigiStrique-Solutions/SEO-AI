@@ -8,8 +8,8 @@
       "observed": "Existing blog index includes recently published monsoon, gym-shoe, athleisure and travel-adjacent content."
     },
     {
-      "source": "https://offlimits.co.in/collections/men-sandals-sliders",
-      "observed": "Live collection supports a sandals/sliders content gap and includes Big & Tall product options."
+      "source": "https://offlimits.co.in/sitemap_articles_1.xml",
+      "observed": "Live sitemap returned 76 article URLs. The complete URL list is stored in 20261010T-live-article-sitemap-urls.txt and was reviewed for exact-title, slug and close-topic duplication."
     },
     {
       "source": "brands/offlimits/blogs/summary.md",
@@ -17,15 +17,20 @@
     }
   ],
   "constraints": [
-    "Only 20 of 68 historical posts are tracked in the workspace; each final title requires a full duplicate check.",
+    "The live sitemap is the current duplicate-check source; no exact title or URL-slug match was found for the revised topics.",
     "Keyword volumes are unavailable because Keyword Planner demand data is blocked."
   ],
   "selected_topics": [
-    "Walking Shoes vs Running Shoes for Daily Steps: Which Pair Should You Buy?",
-    "How to Choose Men’s Sliders for Gym, Travel and Rest Days",
-    "Your First 5K Shoe Checklist: 6 Things to Check Before Training Starts",
-    "College-to-Commute Sneakers: A Practical Sportstyle Rotation for Everyday Wear",
-    "After the Monsoon: How to Clean, Dry and Store Your Sports Shoes",
-    "Big & Tall Sandals and Sliders: Finding a Comfortable Fit in Sizes 12–15"
+    "Your Daily Walk Has Outgrown Your Old Sneakers: How to Choose a Pair That Keeps Up",
+    "Thinking About Your First 5K? Start With This No-Stress Shoe Checklist",
+    "The 6 AM-to-6 PM Activewear Edit: What to Wear When Your Gym Session Comes Before Work",
+    "The Sneaker Rotation That Saves Your Week: A Pair for Training, a Pair for Commutes, a Pair for Weekends",
+    "The Bedroom Fit Test: Five Things to Check Before You Commit to New Shoes",
+    "Not Every Workout Needs the Same Outfit: A Beginner’s Guide to Building a Better Gym Bag"
+  ],
+  "rejected_for_close_overlap": [
+    "Men’s sliders for gym, travel and rest days — close to the existing casual-sandals article.",
+    "Post-monsoon sports-shoe care — close to the existing gym-shoe-maintenance article.",
+    "Big & Tall sandals and sliders — close to existing Big & Tall footwear coverage."
   ]
 }
