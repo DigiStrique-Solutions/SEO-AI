@@ -1,0 +1,16 @@
+{
+  "run_id": "audio-technica-india-quarterly-report-format-20261010",
+  "checked_at_utc": "2026-10-10T07:09:16Z",
+  "target_deck": "https://docs.google.com/presentation/d/13EmJdVEzKEPiWJpav58j6f-96n-GtSL2-GUp9tThRUY/edit",
+  "reference_deck": "https://docs.google.com/presentation/d/1fWXAz98XFJ67PDtxt8PH1iSkip1vVPo58n5lh_0SQxk/edit",
+  "revision_before": "duPqbe-yNSyIog",
+  "revision_after": "rqVxEvzz7g_usg",
+  "scope": "Formatting only. Applied the reference navy and pale-blue palette, Georgia headings, consistent table headers and banding, insight callouts, and cover/title spacing. Preserved all slide text, table cells, metrics, and existing narrative.",
+  "formatted_slide_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "table_styling": {"tables": 10, "header_fill": "#09264A", "header_text": "#FFFFFF", "alternating_fills": ["#EAF2F9", "#F6F9FC"], "cell_text": "#24364B"},
+  "layout_repairs": ["Removed cover title/link borders and aligned the partner mark to the lower-right footer", "Reduced the slide 11 landing-page comparison title to fit one line", "Reduced slide 12 and 13 titles to prevent wrapping into the data area", "Recolored slide 10 KPI cards to match the table palette"],
+  "content_integrity": {"all_slide_text_and_table_cell_text_unchanged": true, "metrics_edited": false},
+  "visual_qa": "Reviewed all 15 slides in the native Slides editor. Re-rendered the updated cover, KPI, keyword, GA4, GSC, landing-page, projection, and action-plan slides after styling; checked title fit and table/callout bounds.",
+  "preserved_source_discrepancies": ["Slide 10's CTR KPI/insight shows 2.55% while its September table cell shows 3.55%.", "Slide 11's insight references the homepage falling to 883, while the September comparison table shows 1,670."],
+  "method": "Google Slides native batchUpdate; read back the full deck and verified text/table-cell content was unchanged."
+}
