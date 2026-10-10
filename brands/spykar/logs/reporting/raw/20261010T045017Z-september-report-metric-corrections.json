@@ -1,0 +1,53 @@
+{
+  "run_id": "spykar-september-report-metric-corrections-20261010",
+  "ts": "2026-10-10T04:50:17Z",
+  "presentation_id": "1PaKenh1gwvtlQ7erclllLRoAx5JmAb8OlHPyzL-2wPc",
+  "presentation_url": "https://docs.google.com/presentation/d/1PaKenh1gwvtlQ7erclllLRoAx5JmAb8OlHPyzL-2wPc/edit",
+  "revision_id": "65gKgBBEhgf4gw",
+  "changes": [
+    {
+      "slide": 2,
+      "field": "September impressions",
+      "query": "light blue denim",
+      "previous_display": "4,8",
+      "corrected_value": 383,
+      "evidence": "brands/spykar/logs/analytics/raw/20261009T111746Z-september-monthly-report.json exact_query_average_position_rows"
+    },
+    {
+      "slide": 3,
+      "metric": "Users",
+      "august": 28176,
+      "september": 24799,
+      "calculation": "(24799 - 28176) / 28176 * 100",
+      "correct_change_percent": -11.985,
+      "displayed_change": "−12.0%"
+    },
+    {
+      "slide": 3,
+      "metric": "New Users",
+      "august": 24012,
+      "september": 21956,
+      "calculation": "(21956 - 24012) / 24012 * 100",
+      "correct_change_percent": -8.562,
+      "displayed_change": "−8.6%"
+    },
+    {
+      "slide": 3,
+      "metric": "Sessions",
+      "august": 33744,
+      "september": 26923,
+      "displayed_change": "−20.2%",
+      "unchanged": true
+    }
+  ],
+  "insights_updated": [
+    "Observation card updated with recalculated user and new-user declines.",
+    "Narrative updated from 22,799 to 24,799 September users."
+  ],
+  "verification": {
+    "slide2_rendered": true,
+    "slide3_rendered": true,
+    "slide2_impressions_value_visible": true,
+    "slide3_percentages_match_values": true
+  }
+}
