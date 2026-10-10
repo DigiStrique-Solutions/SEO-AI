@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-10-10T00:00:00+05:30",
+  "brand": "offlimits",
+  "task": "September blog-topic calendar",
+  "sources": [
+    {
+      "source": "https://offlimits.co.in/blogs/blogs",
+      "observed": "Existing blog index includes recently published monsoon, gym-shoe, athleisure and travel-adjacent content."
+    },
+    {
+      "source": "https://offlimits.co.in/collections/men-sandals-sliders",
+      "observed": "Live collection supports a sandals/sliders content gap and includes Big & Tall product options."
+    },
+    {
+      "source": "brands/offlimits/blogs/summary.md",
+      "observed": "Tracked inventory has explicit footwear and apparel gaps, including sandals/sliders, walking/recovery and seasonal care."
+    }
+  ],
+  "constraints": [
+    "Only 20 of 68 historical posts are tracked in the workspace; each final title requires a full duplicate check.",
+    "Keyword volumes are unavailable because Keyword Planner demand data is blocked."
+  ],
+  "selected_topics": [
+    "Walking Shoes vs Running Shoes for Daily Steps: Which Pair Should You Buy?",
+    "How to Choose Men’s Sliders for Gym, Travel and Rest Days",
+    "Your First 5K Shoe Checklist: 6 Things to Check Before Training Starts",
+    "College-to-Commute Sneakers: A Practical Sportstyle Rotation for Everyday Wear",
+    "After the Monsoon: How to Clean, Dry and Store Your Sports Shoes",
+    "Big & Tall Sandals and Sliders: Finding a Comfortable Fit in Sizes 12–15"
+  ]
+}
