@@ -1,0 +1,26 @@
+{
+  "run_id": "inc5shop-slide5-regal-keyword-positions-20261012",
+  "checked_at_utc": "2026-10-12T06:55:47Z",
+  "source": "Semrush Organic Search Analytics resource_organic via connected Semrush tool",
+  "query": {"target": "regalshoes.in", "database": "in", "display_filter": "keyword equals exact slide-5 term", "display_limit": 10, "export_columns": ["keyword", "position", "volume", "url", "timestamp"]},
+  "report_url": "https://www.semrush.com/analytics/organic/positions/?db=in&q=regalshoes.in",
+  "responses": [
+    {"keyword": "heels for women", "csv": "Keyword;Position;Search Volume;Url;Timestamp\nheels for women;23;165000;https://www.regalshoes.in/collections/women-heels;1790453635\n"},
+    {"keyword": "womens sandals", "csv": "Keyword;Position;Search Volume;Url;Timestamp\nwomens sandals;27;1900;https://www.regalshoes.in/collections/women-sandals;1791206305\n"},
+    {"keyword": "boots for women", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "sandals for women", "csv": "Keyword;Position;Search Volume;Url;Timestamp\nsandals for women;41;110000;https://www.regalshoes.in/collections/women-sandals;1790295985\n"},
+    {"keyword": "flats for women", "csv": "Keyword;Position;Search Volume;Url;Timestamp\nflats for women;32;60500;https://www.regalshoes.in/collections/women-flats;1791393221\n"},
+    {"keyword": "footwear for women", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "wedges for women", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "mens leather sandals", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "transparent heels", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "women footwear", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "womens footwear", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "mens slip on shoes", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "platform heel shoes", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "platform heels", "error": "ERROR 50 :: NOTHING FOUND"},
+    {"keyword": "platform heels for women", "csv": "Keyword;Position;Search Volume;Url;Timestamp\nplatform heels for women;18;14800;https://www.regalshoes.in/collections/platform-heels-for-women;1791322583\n"}
+  ],
+  "interpretation": "A dash on slide 5 means this exact keyword returned no result in the Semrush India organic top-100 report. It is not a claim about all Google results.",
+  "slide_update": {"presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8", "slide_object_id": "hd0eeda7b567eeae_8_0", "added_column": "Regal", "corrected_insight": "6 at #1 (count of displayed Inc5 rows)", "verified_by": ["native slide readback", "large rendered thumbnail"]}
+}
