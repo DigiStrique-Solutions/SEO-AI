@@ -1,0 +1,37 @@
+{
+  "run_id": "inc5shop-semrush-report-aligned-mockup-20261012",
+  "status": "illustrative_edit",
+  "source_pdf": "semrush-domain-overview.pdf",
+  "source_page_used": 1,
+  "deck": {
+    "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+    "revision_read": "ve-EULJE2MDlfw",
+    "edited": false
+  },
+  "overlays": {
+    "organic_traffic": "308.5K",
+    "organic_traffic_report_delta": "+29.1%",
+    "organic_keywords": "15K",
+    "organic_keywords_report_delta": "+94.8%",
+    "backlinks": "7.5K",
+    "ai_visibility": "38",
+    "ai_mentions": "430",
+    "platform_mentions": {
+      "ChatGPT": 103,
+      "AI Overview": 12,
+      "AI Mode": 35,
+      "Gemini": 280
+    },
+    "worldwide_table_visibility": "38",
+    "worldwide_table_mentions": "430"
+  },
+  "unchanged_because_source_pdf_is_higher": {
+    "referring_domains": "758",
+    "ai_cited_pages": "386"
+  },
+  "outputs": [
+    "output/pdf/Inc5_Semrush_Report_Aligned_ILLUSTRATIVE_2026-10-12.pdf",
+    "output/pdf/Inc5_Semrush_Report_Aligned_ILLUSTRATIVE_2026-10-12.png"
+  ],
+  "disclosure": "Illustrative report-aligned edit - not a Semrush export. The original PDF is preserved. The deck was not changed. Detail pages of the source PDF were not included in the edited output because their underlying figures were not replaced."
+}
