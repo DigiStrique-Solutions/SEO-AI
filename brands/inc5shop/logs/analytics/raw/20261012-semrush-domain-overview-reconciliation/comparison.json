@@ -1,0 +1,51 @@
+{
+  "run_id": "inc5shop-semrush-pdf-deck-reconciliation-20261012",
+  "source": {
+    "file": "semrush-domain-overview.pdf",
+    "page": 1,
+    "captured_date": "2026-10-12",
+    "domain": "inc5shop.com",
+    "overview_scope": "Worldwide",
+    "organic_research_keyword_scope": "India",
+    "type": "user-supplied Semrush Domain Overview screenshot"
+  },
+  "observed": {
+    "authority_score": 42,
+    "organic_traffic_estimate": 303700,
+    "organic_keywords": 8800,
+    "referring_domains": 758,
+    "backlinks": 2500,
+    "ai_search_worldwide": {
+      "visibility_score": 31,
+      "mentions": 335,
+      "cited_pages": 386,
+      "platform_mentions": {
+        "ChatGPT": 100,
+        "AI Overview": 86,
+        "AI Mode": 56,
+        "Gemini": 93
+      }
+    },
+    "ai_search_india": {
+      "visibility_score": 38,
+      "mentions": 316
+    },
+    "india_organic_keywords": {
+      "heels for women": {
+        "position": 2,
+        "volume_estimate": 165000
+      },
+      "boots for women": {
+        "position": 1,
+        "volume_estimate": 135000
+      }
+    }
+  },
+  "deck": {
+    "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+    "updated_slides": [4, 5, 6, 13, 14, 15, 17, 21],
+    "slide_6_visibility_note": "38% was supplied by the user in an earlier instruction; it is a separate Search Visibility metric and is not equated to the PDF's AI Visibility score.",
+    "competitor_note": "Competitor figures remain from earlier supplied snapshots and are labelled as such; the PDF contains no like-for-like competitor refresh.",
+    "comparison_note": "Prior-to-latest Inc5 changes are directional estimates because the earlier snapshot's scope was not documented. GA4 users and GSC average positions are not interchangeable with Semrush organic traffic or keyword position estimates."
+  }
+}
