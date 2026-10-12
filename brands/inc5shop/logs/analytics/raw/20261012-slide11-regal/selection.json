@@ -1,0 +1,32 @@
+{
+  "run_id": "inc5shop-slide11-regal-comparison-20261012",
+  "checked_at_utc": "2026-10-12T11:56:30Z",
+  "source": "Two user-supplied Semrush Organic Positions XLSX exports for regalshoes.in, India, 11–12 October 2026",
+  "files": [
+    {"name": "regalshoes.in-organic.Positions-in-20261011-2026-10-12T11_43_44Z.xlsx", "purpose": "high-volume view", "data_rows": 100, "sha256": "63163939418E3B847A04DB474022B896F3E4C1461403B9A30E5D8D21FD8EE1F8"},
+    {"name": "regalshoes.in-organic.Positions-in-20261011-2026-10-12T11_44_58Z.xlsx", "purpose": "position-one view", "data_rows": 100, "sha256": "FD0299613C68DDDEC895201EE79F2E087E10FED7F7497D3DD76BACC404F33ECF"}
+  ],
+  "method": "Show six commercial collection-page terms from each export. Keep the best standard Organic position where a keyword appears more than once. Exclude Crocs references, size-chart and informational URLs, and AI Overview or other SERP-feature positions. Search volume is a Semrush estimate. The selected rows are a sample, not the full domain keyword portfolio.",
+  "high_volume": [
+    {"keyword": "shoes for men", "volume": 550000, "position": 22, "url": "https://www.regalshoes.in/collections/men"},
+    {"keyword": "slippers for men", "volume": 368000, "position": 8, "url": "https://www.regalshoes.in/collections/slippers-for-men"},
+    {"keyword": "shoes", "volume": 301000, "position": 15, "url": "https://www.regalshoes.in/collections/men"},
+    {"keyword": "mens sandals", "volume": 246000, "position": 11, "url": "https://www.regalshoes.in/collections/men-sandals"},
+    {"keyword": "shoes for women", "volume": 246000, "position": 30, "url": "https://www.regalshoes.in/collections/women"},
+    {"keyword": "chelsea boots", "volume": 246000, "position": 36, "url": "https://www.regalshoes.in/collections/men-boots"}
+  ],
+  "position_one": [
+    {"keyword": "wedding footwear for ladies", "volume": 1600, "position": 1, "url": "https://www.regalshoes.in/collections/wedding-footwear-for-ladies"},
+    {"keyword": "beach footwear for men", "volume": 1000, "position": 1, "url": "https://www.regalshoes.in/collections/mens-beach-sandals"},
+    {"keyword": "marriage footwear", "volume": 720, "position": 1, "url": "https://www.regalshoes.in/collections/wedding-footwear-for-men"},
+    {"keyword": "womens mules sandals", "volume": 590, "position": 1, "url": "https://www.regalshoes.in/collections/women-mules"},
+    {"keyword": "footwear under kurta pajama", "volume": 260, "position": 1, "url": "https://www.regalshoes.in/collections/men-ethnic"},
+    {"keyword": "office formal shoes for women", "volume": 170, "position": 1, "url": "https://www.regalshoes.in/collections/women-formal-shoes"}
+  ],
+  "outputs": {
+    "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+    "slide_object_id": "h750d33a04dfee1c6_1_6",
+    "source_doc_url": "https://docs.google.com/document/d/1I-e7sknOQJ7DyeZws0uKhpXJaZkwCymGy2Z1626NdhY/edit"
+  },
+  "verification": ["Google Slides native text readback", "Google Slides rendered thumbnail", "Google Docs text readback", "slide hyperlink readback"]
+}
