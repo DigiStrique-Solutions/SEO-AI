@@ -1,0 +1,19 @@
+{
+  "run_id": "inc5shop-slide4-regal-metrics-20261012",
+  "ts": "2026-10-12T12:35:32Z",
+  "source": "User-provided figures in this task",
+  "metrics": {
+    "brand": "Regal Shoes",
+    "authority_score": 32,
+    "organic_traffic_estimate": 157000,
+    "ranking_keywords_estimate": 11400,
+    "comparison_period": "2026 snapshot",
+    "prior_year_baseline_provided": false
+  },
+  "output": {
+    "presentation_id": "1VOnW6Y5-XIVJ8uoV-0vd9aFcbjET3hkRt39H4gXC0K8",
+    "slide_object_id": "p3",
+    "displayed_values": ["32", "157K", "11.4K"],
+    "verification": ["Google Slides native text readback", "large rendered thumbnail"]
+  }
+}
