@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-10-12T12:15:31.045345+00:00",
+  "source": "Direct GET of Cottonworld categories; see captures.json and category text captures",
+  "body_link_count": 15,
+  "distinct_target_count": 11,
+  "contains_unwanted_all_collections_link": false,
+  "roles": {
+    "contextual_product_or_collection": "T-shirt categories in piece 1",
+    "supporting_category": "Shirts, tops, pants and other relevant categories in pieces 2–5",
+    "commercial_next_step": "Specific top and pants categories in the conclusion"
+  },
+  "links": [
+    {
+      "anchor": "women's T-shirts",
+      "url": "https://cottonworld.net/collections/women-tshirts",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-tshirts",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-tshirts",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's T-shirts",
+      "url": "https://cottonworld.net/collections/mens-tshirts",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/mens-tshirts",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/mens-tshirts",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-tops-1",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/mens-shirts",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's pants",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/womens-pants",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/womens-pants",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's pants",
+      "url": "https://cottonworld.net/collections/mens-pants-2",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/mens-pants-2",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/mens-pants-2",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's kurtas and tunics",
+      "url": "https://cottonworld.net/collections/women-kurtas-tunics",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-kurtas-tunics",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-kurtas-tunics",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's kurtas",
+      "url": "https://cottonworld.net/collections/men-kurtas",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/men-kurtas",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/men-kurtas",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's dresses and jumpsuits",
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's jackets",
+      "url": "https://cottonworld.net/collections/women-jackets-1",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-jackets-1",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-jackets-1",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's jackets",
+      "url": "https://cottonworld.net/collections/men-jackets",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/men-jackets",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/men-jackets",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/women-tops-1",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/women-tops-1",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/mens-shirts",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/mens-shirts",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "women's pants",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/womens-pants",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/womens-pants",
+      "verified_live_direct_canonical": true
+    },
+    {
+      "anchor": "men's pants",
+      "url": "https://cottonworld.net/collections/mens-pants-2",
+      "status_code": 200,
+      "final_url": "https://cottonworld.net/collections/mens-pants-2",
+      "verified_live_and_direct": true,
+      "canonical_url": "https://cottonworld.net/collections/mens-pants-2",
+      "verified_live_direct_canonical": true
+    }
+  ],
+  "canonical_check_at": "2026-10-12T12:20:43.284327+00:00",
+  "all_targets_direct_canonical": true
+}

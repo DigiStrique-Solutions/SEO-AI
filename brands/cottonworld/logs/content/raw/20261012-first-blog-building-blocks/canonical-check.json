@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://cottonworld.net/collections/men-jackets",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/men-jackets",
+    "canonical_url": "https://cottonworld.net/collections/men-jackets",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/men-kurtas",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/men-kurtas",
+    "canonical_url": "https://cottonworld.net/collections/men-kurtas",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/mens-pants-2",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/mens-pants-2",
+    "canonical_url": "https://cottonworld.net/collections/mens-pants-2",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/mens-shirts",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/mens-shirts",
+    "canonical_url": "https://cottonworld.net/collections/mens-shirts",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/mens-tshirts",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/mens-tshirts",
+    "canonical_url": "https://cottonworld.net/collections/mens-tshirts",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+    "canonical_url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/women-jackets-1",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/women-jackets-1",
+    "canonical_url": "https://cottonworld.net/collections/women-jackets-1",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/women-kurtas-tunics",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/women-kurtas-tunics",
+    "canonical_url": "https://cottonworld.net/collections/women-kurtas-tunics",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/women-tops-1",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/women-tops-1",
+    "canonical_url": "https://cottonworld.net/collections/women-tops-1",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/women-tshirts",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/women-tshirts",
+    "canonical_url": "https://cottonworld.net/collections/women-tshirts",
+    "direct_canonical_target": true
+  },
+  {
+    "url": "https://cottonworld.net/collections/womens-pants",
+    "status_code": 200,
+    "final_url": "https://cottonworld.net/collections/womens-pants",
+    "canonical_url": "https://cottonworld.net/collections/womens-pants",
+    "direct_canonical_target": true
+  }
+]

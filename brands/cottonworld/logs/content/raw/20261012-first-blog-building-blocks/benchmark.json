@@ -1,0 +1,38 @@
+{
+  "query": "A Full Wardrobe, Nothing to Wear? Five Everyday Pieces to Start With",
+  "access_date": "2026-10-12",
+  "captured_at": "2026-10-12T12:15:31.045345+00:00",
+  "selection": "Live web search; first three relevant organic blog results after excluding news, shopping pages, and forum posts",
+  "results": [
+    {
+      "rank_among_relevant_organic_blogs": 1,
+      "url": "https://www.lindapaige.com/blog/first-5-pieces-capsule-wardrobe",
+      "tone": "Direct, empathetic coaching; speaks to the closet-full problem and recommends foundations.",
+      "approx_page_main_words": 2460,
+      "structure": "Problem opening, why foundations matter, five named pieces, how pieces work together, next steps and questions.",
+      "source_capture": "serp_1.txt"
+    },
+    {
+      "rank_among_relevant_organic_blogs": 2,
+      "url": "https://www.dressingwizard.com/looks/capsule-wardrobe-10-outfits-5-pieces",
+      "tone": "Formula-led and instructional, with a strong outfit-combination focus and US shopping context.",
+      "approx_page_main_words": 2251,
+      "structure": "Explains the premise, introduces five pieces, maps ten outfits, then covers shopping, expansion, maintenance and FAQs.",
+      "source_capture": "serp_2.txt"
+    },
+    {
+      "rank_among_relevant_organic_blogs": 3,
+      "url": "https://cosmosandclover.com/blogs/style-trends/how-to-build-10-outfits-from-5-pieces-without-a-closet-full-of-clothes",
+      "tone": "Conversational and boutique-led, with immediate product examples.",
+      "approx_page_main_words": 913,
+      "structure": "Short problem opening, five linked garments, ten numbered outfits and a shopping close.",
+      "source_capture": "serp_3.txt"
+    }
+  ],
+  "editorial_application": "Aim for a 1,200–1,700 word Cottonworld article with a real-life opening, five concrete roles, outfit combinations and targeted shopping paths. Preserve Cottonworld's calm first-person brand voice; do not reproduce another article's wording or exact structure.",
+  "user_supplied_flow_references_also_considered": [
+    "https://www.thefemaleceo.com/blog/a-wardrobe-full-of-clothes-and-nothing-to-wear",
+    "https://tamarakalinic.substack.com/p/closet-full-of-clothes-and-nothing",
+    "https://inspo.thedrobe.com/foundations/15-reasons-full-wardrobe-and-nothing-to-wear/"
+  ]
+}

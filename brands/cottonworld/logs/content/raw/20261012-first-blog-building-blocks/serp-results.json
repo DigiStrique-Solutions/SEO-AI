@@ -1,0 +1,19 @@
+{
+  "query": "A Full Wardrobe, Nothing to Wear? Five Everyday Pieces to Start With",
+  "access_date": "2026-10-12",
+  "organic_results_used": [
+    {
+      "rank_relevant": 1,
+      "url": "https://www.lindapaige.com/blog/first-5-pieces-capsule-wardrobe"
+    },
+    {
+      "rank_relevant": 2,
+      "url": "https://www.dressingwizard.com/looks/capsule-wardrobe-10-outfits-5-pieces"
+    },
+    {
+      "rank_relevant": 3,
+      "url": "https://cosmosandclover.com/blogs/style-trends/how-to-build-10-outfits-from-5-pieces-without-a-closet-full-of-clothes"
+    }
+  ],
+  "search_observation": "Live title query surfaced these three relevant organic blog guides after news and non-blog results; comparison is in benchmark.json. Search ranking is a point-in-time observation."
+}

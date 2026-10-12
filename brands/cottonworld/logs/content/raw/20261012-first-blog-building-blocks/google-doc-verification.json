@@ -1,0 +1,11 @@
+{
+  "verified_at": "2026-10-12T17:48:25.108661+05:30",
+  "url": "https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit",
+  "readback_exact_text_match": true,
+  "title": "A Full Wardrobe, Nothing to Wear? Five Pieces to Build Around",
+  "title_style": "TITLE",
+  "heading_2_count": 8,
+  "linked_text_runs": 15,
+  "blue_underlined_linked_text_runs": 15,
+  "method": "Google Docs get_document after batch_update_document, compared normalized plain text and inspected text styles."
+}

@@ -79,9 +79,9 @@ Slow living can appear as:
 - Weave products into the situation after their usefulness is clear.
 - Close with a reflection about thoughtful choices, repeat wear or the life the clothing supports; a relevant category path may follow without a sales push.
 
-## Approved long-form blog standard (2026-09-28)
+## Long-form blog working standard (updated 2026-10-12)
 
-The revised “A Full Wardrobe, Nothing to Wear? Start With What You Wear Most” article is the current depth and flow reference for new Cottonworld blogs. Keep the voice editorial, calm and useful rather than chatty. Give the reader a clear opening situation, answer the central need early, and move through practical advice in a connected sequence. Use concrete routine-based examples, and add FAQs only when they help the reader. Aim for at least 1,000 words when the subject warrants that depth; do not stretch a narrower topic with filler. Keep product details source-backed, links contextual, and the close low-pressure. The current body is about 1,287 words; treat that as a depth cue, not a required template or exact target. It remains a review draft until the publication gate passes.
+The previous “Start With What You Wear Most” draft did not meet the user's expectation of a customer-facing guide to wardrobe basics. The current “Five Pieces to Build Around” rewrite is a stronger working reference: begin with an everyday dressing problem, name concrete pieces the reader can use, show how those pieces form outfits, and link to the relevant live categories in our own brand voice. Keep the prose calm and connected rather than chatty or modular. Aim for at least 1,000 words when the topic warrants it; the current body is about 1,524 words, which is a depth cue, not a fixed target. Product and category facts need live evidence. The draft remains in editorial review because its ZeroGPT score is above the publication gate.
 
 ## Example transformation
 

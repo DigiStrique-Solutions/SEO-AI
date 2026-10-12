@@ -2,12 +2,12 @@
   "claims": [],
   "zerogpt_gate": {
     "status": "fail",
-    "checked_at": "2026-10-07",
+    "checked_at": "2026-10-12T17:48:25.108661+05:30",
     "maximum_score": 20.0,
-    "score": 89.0,
+    "score": 90.5,
     "result_text": "Your File Content is AI/GPT Generated",
-    "reason": "The exact revised body exceeds the strict below-20% publication gate. This remains an editorial review draft; the score is a weak editorial signal, not proof of authorship.",
-    "evidence": "brands/cottonworld/logs/content/raw/20261007-first-blog-refine/detector-result.json"
+    "reason": "Exact revised body exceeds the strictly-below-20% publication gate. This remains an editorial review draft; the score is a weak risk signal, not proof of authorship.",
+    "evidence": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/detector-result.json"
   },
   "detector_notes": [
     {
@@ -88,6 +88,17 @@
       "url": "https://www.zerogpt.com/",
       "note": "Exact revised plain-text body submitted through the website UI: 7,022 characters and 1,287 words. The displayed result was 89% AI GPT. No awkward or unsupported changes were made to chase the detector.",
       "evidence": "brands/cottonworld/logs/content/raw/20261007-first-blog-refine/detector-result.json"
+    },
+    {
+      "checked_at": "2026-10-12T17:48:25.108661+05:30",
+      "source": "website_ui",
+      "status": "fail",
+      "score": 90.5,
+      "max_score": 20.0,
+      "tool": "zerogpt",
+      "url": "https://www.zerogpt.com/",
+      "note": "Exact 8,283-character final body uploaded and scored. Editorial quality took priority over detector gaming.",
+      "evidence": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/detector-result.json"
     }
   ],
   "historical_attempts": [
@@ -101,28 +112,94 @@
   ],
   "internal_link_map": [
     {
-      "anchor": "guide to its fabrics",
-      "purpose": "Supporting fabric guide",
-      "url": "https://cottonworld.net/pages/fabrics",
-      "verification": "HTTP 200, no redirect on 2026-10-07; raw evidence brands/cottonworld/logs/content/raw/20261007-first-blog-refine/internal-links.json"
+      "anchor": "women's T-shirts",
+      "url": "https://cottonworld.net/collections/women-tshirts",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
     },
     {
-      "anchor": "women's top wear",
-      "purpose": "Contextual collection",
-      "url": "https://cottonworld.net/collections/women-topwear",
-      "verification": "HTTP 200, no redirect on 2026-10-07; raw evidence brands/cottonworld/logs/content/raw/20261007-first-blog-refine/internal-links.json"
+      "anchor": "men's T-shirts",
+      "url": "https://cottonworld.net/collections/mens-tshirts",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
     },
     {
       "anchor": "men's shirts",
-      "purpose": "Contextual collection",
       "url": "https://cottonworld.net/collections/mens-shirts",
-      "verification": "HTTP 200, no redirect on 2026-10-07; raw evidence brands/cottonworld/logs/content/raw/20261007-first-blog-refine/internal-links.json"
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
     },
     {
-      "anchor": "Cottonworld's clothing collections",
-      "purpose": "Closing commercial next step",
-      "url": "https://cottonworld.net/collections",
-      "verification": "HTTP 200, no redirect on 2026-10-07; raw evidence brands/cottonworld/logs/content/raw/20261007-first-blog-refine/internal-links.json"
+      "anchor": "women's pants",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "men's pants",
+      "url": "https://cottonworld.net/collections/mens-pants-2",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's kurtas and tunics",
+      "url": "https://cottonworld.net/collections/women-kurtas-tunics",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "men's kurtas",
+      "url": "https://cottonworld.net/collections/men-kurtas",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's dresses and jumpsuits",
+      "url": "https://cottonworld.net/collections/women-dresses-jumpsuits",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's jackets",
+      "url": "https://cottonworld.net/collections/women-jackets-1",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "men's jackets",
+      "url": "https://cottonworld.net/collections/men-jackets",
+      "purpose": "Contextual category",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's tops",
+      "url": "https://cottonworld.net/collections/women-tops-1",
+      "purpose": "Conclusion commercial next step",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "men's shirts",
+      "url": "https://cottonworld.net/collections/mens-shirts",
+      "purpose": "Conclusion commercial next step",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "women's pants",
+      "url": "https://cottonworld.net/collections/womens-pants",
+      "purpose": "Conclusion commercial next step",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
+    },
+    {
+      "anchor": "men's pants",
+      "url": "https://cottonworld.net/collections/mens-pants-2",
+      "purpose": "Conclusion commercial next step",
+      "verification": "Direct HTTP 200 and same final URL on 2026-10-12; evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/internal-link-map.json"
     }
   ],
   "metadata": {
@@ -136,12 +213,12 @@
     "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
     "status": "review_draft",
     "target": "brands/cottonworld/blogs/drafts/a-full-wardrobe-nothing-to-wear-five-pieces.md",
-    "target_title": "A Full Wardrobe, Nothing to Wear? Start With What You Wear Most",
+    "target_title": "A Full Wardrobe, Nothing to Wear? Five Pieces to Build Around",
     "google_doc": "https://docs.google.com/document/d/1Jw4TuMCqLxueBf2KiFLPjDOEbQ6-bKDrt8PBEMowh-M/edit",
-    "google_doc_verified": "Current body read back from the native Google Doc on 2026-10-07 with exact text match, five H2s, and four blue-underlined in-body links; evidence brands/cottonworld/logs/content/raw/20261007-first-blog-refine/google-doc-verification.json.",
-    "word_count": 1287,
-    "serp_research": "brands/cottonworld/logs/content/raw/20261007-first-blog-refine/benchmark.json",
-    "updated_at": "2026-10-07",
+    "google_doc_verified": "Exact body read back on 2026-10-12; TITLE, eight H2 headings and 15 blue-underlined in-body links. Evidence brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/google-doc-verification.json.",
+    "word_count": 1524,
+    "serp_research": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/benchmark.json",
+    "updated_at": "2026-10-12",
     "primary_search_theme": "wardrobe full of clothes but nothing to wear"
   },
   "schema_version": "1.0.0",
@@ -277,6 +354,18 @@
       "source_type": "internal_link_verification",
       "source_ref": "brands/cottonworld/logs/content/raw/20261007-first-blog-refine/internal-links.json; brands/cottonworld/logs/content/raw/20261007-first-blog-refine/google-doc-verification.json",
       "extracted_facts": "All four in-body internal destinations returned HTTP 200 with no redirect and matched their surrounding sentences. The Google Doc readback confirmed exact body text, heading styles and blue-underlined links."
+    },
+    {
+      "source_id": "cottonworld-building-blocks-categories-20261012",
+      "source_type": "live_collection_pages",
+      "source_ref": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/captures.json",
+      "extracted_facts": "Direct HTTP 200 category pages for women's and men's T-shirts, tops/shirts, pants, kurtas, jackets, and women's dresses. Category headings and current products confirm relevance; individual item availability and composition must be checked at purchase time."
+    },
+    {
+      "source_id": "building-blocks-serp-20261012",
+      "source_type": "live_serp_and_blog_pages",
+      "source_ref": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/benchmark.json",
+      "extracted_facts": "Three relevant organic blog guides were compared for tone, approximate length, and section flow before the rewrite. The draft uses its own structure and wording."
     }
   ]
 }

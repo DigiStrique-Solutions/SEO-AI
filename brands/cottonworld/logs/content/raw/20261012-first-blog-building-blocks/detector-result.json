@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-12T17:48:25.108661+05:30",
+  "url": "https://www.zerogpt.com/",
+  "source": "website_ui",
+  "method": "Uploaded exact final-body.txt; ZeroGPT displayed the same 8,283-character input and a result of 90.5% AI GPT.",
+  "input_ref": "brands/cottonworld/logs/content/raw/20261012-first-blog-building-blocks/final-body.txt",
+  "input_sha256": "5bd98fb5d1da39e06bffd9f7c06434bc7a8a9067f6cbbda7ed210e39fbe5221f",
+  "input_characters": 8283,
+  "input_words_local": 1535,
+  "result_text": "Your File Content is AI/GPT Generated",
+  "score_ai_gpt_percent": 90.5,
+  "publication_gate": "fail",
+  "threshold": "strictly below 20%",
+  "editorial_note": "Detector score is a weak risk signal, not proof of authorship. No errors, filler or unsupported claims were added to chase the score."
+}
