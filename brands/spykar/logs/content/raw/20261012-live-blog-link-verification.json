@@ -1,0 +1,28 @@
+{
+  "run_id": "spykar-live-blog-link-verification-20261012",
+  "accessed_at": "2026-10-12",
+  "scope": "Spykar tracker topics from April through October 2026",
+  "method": "Followed each known blog URL and checked the final HTTP response. Exact-title site searches resolved three tracker slugs that no longer matched their published URLs.",
+  "result": {
+    "april_to_september_tracker_entries": 46,
+    "verified_live_entries": 46,
+    "unique_live_urls": 45,
+    "october_tracker_entries": 8,
+    "october_live_entries": 0,
+    "note": "The July humid-monsoon cotton-jeans entry and its August late-monsoon refresh share one live URL."
+  },
+  "published_slug_corrections": [
+    {"tracker_title": "10 Stylish Denim Outfit Ideas for Summer (Men & Women)", "tracker_slug_status": 404, "live_url": "https://spykar.com/blogs/blog/stylish-denim-outfits-summer", "status": 200},
+    {"tracker_title": "Casual Summer Outfits for Men: Lightweight and Comfortable Styles", "tracker_slug_status": 404, "live_url": "https://spykar.com/blogs/blog/lightweight-summer-outfits-men", "status": 200},
+    {"tracker_title": "Festival-to-Afterparty: Outfit Ideas That Work Beyond the Celebration", "tracker_slug_status": 404, "live_url": "https://spykar.com/blogs/blog/festival-to-afterparty-outfit-ideas-that-work-beyond-the-celebration", "status": 200}
+  ],
+  "live_urls_by_month": {
+    "April": ["stylish-denim-outfits-summer", "lightweight-summer-outfits-men", "denim-for-every-occasion-day-to-night-styling-tips", "the-evolution-of-denim-why-it-never-goes-out-of-style", "style-guide-oversized-tshirts-modern-denim-fits", "spykar-roots-of-now-campaign", "summer-wardrobe-essentials-every-fashion-lover-needs", "summer-denim-outfits-for-women-chic-comfortable-looks"],
+    "May": ["latest-denim-jeans-styles-for-men", "womens-linen-summer-outfits-guide", "summer-linen-fashion-trends-2026", "elevate-your-denim-collection-with-dark-and-rinse-wash-jeans", "best-womens-jeans-styles-guide", "everyday-denim-style-with-ikemen-jeans", "mens-denim-jeans-colours-wardrobe-essentials", "casual-summer-fashion-essentials-every-wardrobe-needs"],
+    "June": ["stylish-monsoon-outfits-for-men", "monsoon-fashion-for-women", "fashion-lightweight-denim-styles-summer-monsoon", "how-to-style-cargo-pants-casual-streetwear-looks", "straight-vs-slim-fit-jeans-guide", "essential-womens-tops-for-everyday-wear", "monsoon-travel-style-guide", "relaxed-fit-denim-style-inspired-by-vidyut-jammwal"],
+    "July": ["cotton-jeans-for-men-comfort-guide-humid-monsoon-weather", "how-to-style-light-blue-jeans-monsoon-outfit-ideas", "why-ankle-length-jeans-rainy-day-commutes", "black-jeans-men-monsoon-smart-casual-looks", "how-to-style-jeans-with-shirts-smart-casual-outfit-ideas", "back-to-college-monsoon-denim-outfits-men-women"],
+    "August": ["dark-wash-denim-festive-transition-smart-casual-looks", "independence-day-outfit-ideas-tricolour-denim", "raksha-bandhan-outfit-ideas-smart-casual-siblings", "denim-on-denim-outfits-2026-styling-guide", "white-jeans-for-men-beyond-summer", "womens-jeans-every-plan", "cotton-jeans-for-men-comfort-guide-humid-monsoon-weather", "how-to-find-best-jeans-fit-in-store"],
+    "September": ["modern-festive-outfit-ideas-men-women", "dressy-festive-denim-ideas", "festival-to-afterparty-outfit-ideas-that-work-beyond-the-celebration", "september-jeans-every-plan", "light-blue-black-dark-wash-jeans-september", "baggy-jeans-men-2026-styling-guide", "ganesh-chaturthi-denim-looks", "ganesh-to-navratri-modern-festive-wardrobe"]
+  },
+  "status": "complete"
+}
