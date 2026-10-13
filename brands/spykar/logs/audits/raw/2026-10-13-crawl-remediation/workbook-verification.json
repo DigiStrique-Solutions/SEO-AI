@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-13T14:00:39.184950+00:00",
+  "workbook": "outputs/spykar-technical-seo-20261013/Spykar_Technical_SEO_Fix_Register_2026-10-13.xlsx",
+  "sha256": "a1cab5c3c8d52131acbc85ee8e15e18904d3fbf203086826375fd2a0134d35e8",
+  "sheets": {
+    "Fix register": 25,
+    "URL evidence": 6040,
+    "Sources": 12
+  },
+  "source_run_id": "spykar-crawl-remediation-20261013",
+  "validation": "Opened with openpyxl; checked table ranges, freeze panes and record counts; inspected three rendered previews."
+}
