@@ -1,0 +1,130 @@
+{
+  "detector_notes": [
+    {
+      "checked_at": "2026-10-13T11:13:36+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "Men Ikemen loose-fit dark blue jeans",
+      "purpose": "Men's dark-denim product example",
+      "url": "https://spykar.com/products/mdact2bf347darkblue",
+      "verification": "Opened live product page on 2026-10-13; current page returned product title and fit details."
+    },
+    {
+      "anchor": "women\u2019s jeans collection",
+      "purpose": "Women's collection reference",
+      "url": "https://spykar.com/collections/women-jeans",
+      "verification": "Live collection scrape on 2026-10-13; page showed product cards and dark-colour fits."
+    },
+    {
+      "anchor": "guide to styling jeans with shirts",
+      "purpose": "Relevant supporting blog",
+      "url": "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "verification": "Opened live Spykar blog on 2026-10-13; page title and content visible."
+    },
+    {
+      "anchor": "men\u2019s jeans",
+      "purpose": "Conclusion commercial CTA",
+      "url": "https://spykar.com/collections/men-jeans",
+      "verification": "Live collection scrape on 2026-10-13; listing contains men's jeans products."
+    },
+    {
+      "anchor": "women\u2019s jeans",
+      "purpose": "Conclusion commercial CTA",
+      "url": "https://spykar.com/collections/women-jeans",
+      "verification": "Live collection scrape on 2026-10-13; listing contains women's jeans products."
+    }
+  ],
+  "limitations": [
+    "Keyword volume was not supplied or queried; keyword choice is based on the brief and current search result language.",
+    "The AW26 tagline and campaign meaning are user-provided and were not independently verified on a public collection page.",
+    "Product availability can change; the article avoids stock and price promises."
+  ],
+  "primary_keyword": "Diwali office party outfit ideas",
+  "run_id": "spykar-content-20261013-diwali-office-party-outfit-ideas-denim-men-women",
+  "search_intent": "Informational with commercial investigation; outfit advice for an office Diwali celebration, with a relevant denim collection path.",
+  "secondary_keywords": [
+    "Diwali office party outfit for men",
+    "Diwali office party outfit for women",
+    "smart casual Diwali outfits",
+    "festive denim outfit",
+    "dark jeans for office party"
+  ],
+  "serp_benchmark_adaptation": "The article uses a direct dress-code check, gender-specific outfit suggestions and practical fit/transition guidance, informed by the three ranking pages. It focuses on smart-casual denim and office constraints, keeping it distinct from broad festive wardrobe or after-party coverage. Wording and section flow are original.",
+  "sources": [
+    {
+      "extracted_facts": "Spykar is a denim-led Indian casualwear brand. Blog voice is conversational, fit-led, practical and Indian English. Style guide requires the canonical Google Doc layout, a unique 4:3 banner, product images, natural internal links, metadata and FAQs.",
+      "source_id": "spykar_brand_context",
+      "source_ref": "brands/spykar/knowledge.md; brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "User supplied the AW26 tagline \u2018Denim For All Moments\u2019 and specified its meaning: festive plans, outings, friend catch-ups, first job, first day of college and reunion parties.",
+      "source_id": "user_aw26_campaign_direction",
+      "source_ref": "User instruction dated 2026-10-13",
+      "source_type": "human_context"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "A roughly 1,000-word, 8-minute article with a practical conversational tone. Structure: quick answer, office formats, women's ideas, men's ideas, colours, fabrics, details, transition plan, CTA and FAQs. It stresses matching the written dress code and day-long comfort.",
+      "source_id": "serp_elara_office_diwali",
+      "source_ref": "https://joinelara.com/blog/diwali-office-party-outfits-2026",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "A short article of roughly 400 words, conversational and opinionated. Structure: opening dress-code problem, workday base/festive finish formula, three outfit ideas, practical notes and commercial/read-next links. It uses one printed item to add festivity while retaining workday wearability.",
+      "source_id": "serp_print_factory_office_diwali",
+      "source_ref": "https://theprintfactory727.com/blogs/journal/office-diwali-party-outfit-ideas",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "A roughly 900-word practical Indian retail guide. Structure: quick answer, occasion table, numbered outfit categories, colour combinations, fit guidance and FAQs. It separates office-party wear from family puja and friend gatherings.",
+      "source_id": "serp_pointer_diwali_menswear",
+      "source_ref": "https://pointerjeans.in/blogs/news/diwali-outfit-ideas-for-men",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live page identifies Men Ikemen Jeans Loose Fit Dark Blue Low Rise and describes a loose silhouette and movement for everyday wear; page showed selectable sizes and limited stock during review. No price, stock or performance claim was included in the article.",
+      "source_id": "spykar_men_dark_indigo_product",
+      "source_ref": "https://spykar.com/products/mdact2bf347darkblue",
+      "source_type": "product_page"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live collection page shows jeans in dark blue and black, including wide-leg, bootcut, straight, slim and other fits. The embedded product image comes from a dark-blue women's jeans listing.",
+      "source_id": "spykar_women_collection",
+      "source_ref": "https://spykar.com/collections/women-jeans",
+      "source_type": "product_page"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live Spykar styling article on shirt-and-jeans combinations for men and women; selected as a relevant supporting internal link.",
+      "source_id": "spykar_supporting_shirt_jeans_blog",
+      "source_ref": "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+      "source_type": "competitor_page"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live Spykar men's jeans collection containing dark and blue-denim options; used as a commercial CTA destination.",
+      "source_id": "spykar_mens_collection",
+      "source_ref": "https://spykar.com/collections/men-jeans",
+      "source_type": "product_page"
+    }
+  ],
+  "target": "diwali-office-party-outfit-ideas-denim-men-women",
+  "publishability": {
+    "status": "blocked",
+    "reason": "Required live ZeroGPT percentage could not be verified because the service returned a not-enough-credits response. The local AI-pattern risk score is 6%, but it is not a substitute for the external check."
+  }
+}

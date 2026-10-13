@@ -59,6 +59,10 @@ Avoid:
 
 The Spring/Summer 2026 “Roots of Now” collection blends Indian cultural and natural inspiration with contemporary silhouettes. Its content emphasizes heritage plus hustle, earthy and sunlit colors, breathable materials, relaxed shapes, individualism and movement.
 
+### October 2026 editorial requirement
+
+For every Spykar blog drafted in October 2026, incorporate the AW26 Collection tagline **“Denim For All Moments”** and explain its intended range of occasions: festive plans, outings, catch-ups with friends, a first job, the first day of college and reunion parties. Connect the topic's moment naturally to this wider denim use case; do not force a campaign mention into unrelated advice.
+
 ## Competitor frame
 
 Current research frame: Killer Jeans, Levi’s India and Pepe Jeans India. These are evidence-backed working competitors because they overlap on denim, casualwear, youth/fashion demand and the Indian retail market. The brand should confirm its approved commercial competitor set.

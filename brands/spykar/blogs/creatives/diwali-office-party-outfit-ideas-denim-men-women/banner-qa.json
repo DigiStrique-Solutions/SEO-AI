@@ -1,0 +1,19 @@
+{
+  "asset": "diwali-office-party-outfit-ideas-banner.png",
+  "web_asset": "diwali-office-party-outfit-ideas-banner-800x600.jpg",
+  "generated_at": "2026-10-13",
+  "tool": "built-in image_gen",
+  "prompt_summary": "Bright modern Indian office atrium with two adult colleagues in dark denim and festive smart-casual tops; subtle Diwali decor; candid full-length conversation; clean headline panel.",
+  "headline_exact": "WORKDAY MEETS DIWALI",
+  "master_dimensions_px": "1448x1086",
+  "web_dimensions_px": "800x600",
+  "visual_checks": {
+    "topic_and_garment_immediately_visible": "pass",
+    "adult_models_and_plausible_anatomy": "pass",
+    "headline_spelling_legibility_and_safe_margins": "pass",
+    "no_logo_watermark_or_unapproved_copy": "pass",
+    "distinct_from_recent_dark_evening_festive_creative": "pass",
+    "800x600_export_sharp_and_readable": "pass"
+  },
+  "review_note": "The brighter office setting, walking conversation, lower-left cream type panel and full-length framing clearly differ from recent dark restaurant/evening festive creatives."
+}

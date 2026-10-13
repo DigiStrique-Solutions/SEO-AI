@@ -1,0 +1,68 @@
+{
+  "run_id": "spykar-content-20261013-diwali-office-party-outfit-ideas-denim-men-women",
+  "accessed_at": "2026-10-13T00:00:00+05:30",
+  "serp_query": "Diwali office party outfit ideas smart casual denim men women blog",
+  "serp_results_reviewed": [
+    {
+      "position": 1,
+      "title": "Diwali Office Party Outfits 2026: What to Wear to Work Celebrations",
+      "url": "https://joinelara.com/blog/diwali-office-party-outfits-2026",
+      "length_estimate": "approximately 1,000 words; publisher labels it an 8-minute read",
+      "tone": "practical, direct, conversational",
+      "structure": ["quick answer", "office dress-code formats", "women's looks", "men's looks", "colour choices", "fabrics", "small details", "CTA", "FAQs"],
+      "observations": "Strong office-specific framing; stresses reading the event format, day-long comfort and one clear festive detail."
+    },
+    {
+      "position": 2,
+      "title": "The Office Diwali Party Edit: Festive Without the Costume Change",
+      "url": "https://theprintfactory727.com/blogs/journal/office-diwali-party-outfit-ideas",
+      "length_estimate": "approximately 400 words",
+      "tone": "conversational, punchy, opinion-led",
+      "structure": ["dress-code tension", "workday base/festive finish", "three outfit ideas", "practical notes", "commercial links", "read-next link"],
+      "observations": "Uses a printed top and a small evening adjustment to bridge office and celebration."
+    },
+    {
+      "position": 3,
+      "title": "Diwali Outfit Ideas for Men: Pants, Jeans and Colour Combinations",
+      "url": "https://pointerjeans.in/blogs/news/diwali-outfit-ideas-for-men",
+      "length_estimate": "approximately 900 words",
+      "tone": "practical Indian retail guide, straightforward",
+      "structure": ["quick answer", "occasion-by-occasion table", "numbered outfit sections", "colour-pairing table", "fit advice", "FAQs"],
+      "observations": "Separates office parties from home puja and friend gatherings; uses concrete colour and occasion combinations."
+    }
+  ],
+  "spykar_product_sources": [
+    {
+      "url": "https://spykar.com/products/mdact2bf347darkblue",
+      "title": "Men Ikemen Jeans Loose Fit Dark Blue Low Rise",
+      "image_url": "https://cdn.shopify.com/s/files/1/0608/7874/9892/files/MDACT2BF347DARK_BLUE_5.png?v=1788329430",
+      "checked": "Public live product page opened; product title and fit details observed."
+    },
+    {
+      "url": "https://spykar.com/collections/women-jeans",
+      "title": "Women Jeans",
+      "image_url": "https://cdn.shopify.com/s/files/1/0608/7874/9892/files/WDYNR2BF276Dark_Blue_1_400x.jpg?v=1790766641",
+      "checked": "Public collection scrape showed dark blue wide-leg product card, alongside other dark and black fits."
+    }
+  ],
+  "spykar_internal_destinations": [
+    "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+    "https://spykar.com/collections/men-jeans",
+    "https://spykar.com/collections/women-jeans"
+  ],
+  "notes": "SERP observations were used as a benchmark only; no competitor wording was reproduced. The draft differentiates around office dress codes and denim-led styling for both men and women.",
+  "delivery": {
+    "google_doc": "https://docs.google.com/document/d/1gwEOlsNxxqxmSESqejAyG2nu1eeSFr6CLec5j_4X77c/edit",
+    "template_source": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0",
+    "native_readback": "Verified one native tab, SEO metadata, title, 8 main section headings, 12 subsection and FAQ headings, 4 native bullets, 5 blue-underlined link destinations, and 3 inline images. Image alt text is included in the visible metadata block for CMS handoff.",
+    "banner_master": "brands/spykar/blogs/creatives/diwali-office-party-outfit-ideas-denim-men-women/diwali-office-party-outfit-ideas-banner.png",
+    "banner_web": "brands/spykar/blogs/creatives/diwali-office-party-outfit-ideas-denim-men-women/diwali-office-party-outfit-ideas-banner-800x600.jpg",
+    "banner_qa": "brands/spykar/blogs/creatives/diwali-office-party-outfit-ideas-denim-men-women/banner-qa.json",
+    "meta_title_characters": 52,
+    "meta_description_characters": 152,
+    "rendered_pdf_qa": "pass — exported and inspected all 8 pages; title remains with its banner, headings stay with following text, product images are legible, link styling is visible, and no text is clipped. SEO metadata occupies its own opening page by design/template order.",
+    "local_ai_pattern_risk": 6,
+    "zerogpt": "blocked — live detector returned HTTP 403 Not enough credits; local fallback was not treated as a ZeroGPT result.",
+    "publishability": "blocked_external_detector"
+  }
+}
