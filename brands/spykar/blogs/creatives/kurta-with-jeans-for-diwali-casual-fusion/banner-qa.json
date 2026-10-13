@@ -1,0 +1,19 @@
+{
+  "run_id": "spykar-content-20261013-kurta-with-jeans-for-diwali-casual-fusion",
+  "asset": "kurta-with-jeans-diwali-banner-800x600.jpg",
+  "master": "kurta-with-jeans-diwali-banner.png",
+  "dimensions_master": "1448x1086",
+  "dimensions_web": "800x600",
+  "format_web": "JPEG",
+  "headline_exact": "KURTA MEETS DENIM",
+  "qa": {
+    "topic_and_garment_visible": "pass — both adult subjects wear kurta/kurti with jeans; denim silhouettes are visible.",
+    "headline_text_and_safe_margins": "pass — exact three-word headline is legible in the upper-left safe area.",
+    "anatomy_and_clothing": "pass — reviewed master and 800x600 JPG; body proportions, hands and clothing folds are plausible.",
+    "branding_and_claims": "pass — no logo, watermark, third-party mark, price, discount or unsupported claim.",
+    "distinct_from_recent_creative": "pass — warm home courtyard at twilight with seated/standing asymmetrical poses, unlike the prior office atrium walking composition.",
+    "web_export": "pass — 800x600 output remains sharp and headline readable."
+  },
+  "generation_mode": "Built-in image generation",
+  "prompt_summary": "Photorealistic editorial Diwali evening home entrance; two adult Indian friends in kurtas and dark jeans, one seated and one standing; exact headline KURTA MEETS DENIM; warm but restrained festive details; no logos."
+}

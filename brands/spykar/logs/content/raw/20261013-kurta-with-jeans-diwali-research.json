@@ -1,0 +1,83 @@
+{
+  "run_id": "spykar-content-20261013-kurta-with-jeans-for-diwali-casual-fusion",
+  "accessed_at": "2026-10-13T00:00:00+05:30",
+  "serp_query": "How to style a kurta with jeans for Diwali casual fusion looks blog",
+  "serp_benchmark": [
+    {
+      "position": 1,
+      "title": "How to Style a Kurta for Diwali: 10 Festive Outfit Ideas for Men",
+      "url": "https://jompers.com/blogs/just-talking/how-to-style-kurta-diwali-outfit-ideas-men",
+      "access_date": "2026-10-13",
+      "content_length": "approximately 1,500 words of article content; raw scrape includes storefront UI",
+      "tone": "Practical, direct retail guide",
+      "structure": ["occasion framing", "ten numbered outfit ideas", "colour and layering choices", "conclusion", "FAQs"],
+      "observation": "Broad men’s festive kurta coverage, mostly traditional pairings; useful benchmark for occasion framing and practical outfit details."
+    },
+    {
+      "position": 2,
+      "title": "How to Style Kurti with Jeans: 10 Effortless Looks For Every Occasion",
+      "url": "https://www.ownd.in/blogs/fashion/how-to-style-kurti-with-jeans",
+      "access_date": "2026-10-13",
+      "content_length": "approximately 1,500 words of article content; raw scrape includes commerce/checkout UI",
+      "tone": "Casual, youthful, slang-forward",
+      "structure": ["personal Diwali wardrobe hook", "quick pairing table", "ten occasion-led looks", "fit/fabric basics", "takeaway", "FAQs"],
+      "observation": "Covers many occasions and women’s kurti silhouettes; supports clear proportions but is more casual in language than Spykar’s voice."
+    },
+    {
+      "position": 3,
+      "title": "Kurta with Jeans for Men: How to Wear It for Puja, Diwali and Weddings",
+      "url": "https://pointerjeans.in/blogs/news/kurta-with-jeans-for-men",
+      "access_date": "2026-10-13",
+      "content_length": "approximately 450 words of main advice, excluding storefront UI",
+      "tone": "Concise, product-centric, straightforward",
+      "structure": ["jeans-fit options", "colour-pairing table", "kurta length and fit", "footwear", "alternative bottoms", "FAQs"],
+      "observation": "Compact men’s guide; clear fit and colour navigation, but no women’s styling."
+    }
+  ],
+  "site_coverage_check": {
+    "status": "partial_overlap_not_exact_duplicate",
+    "evidence": [
+      "Spykar’s Ganesh Chaturthi guide already includes a short kurta with dark jeans and a short kurti with straight jeans: https://spykar.com/blogs/blog/ganesh-chaturthi-denim-looks",
+      "Spykar’s festive wardrobe guide also mentions a short kurta as an option: https://spykar.com/blogs/blog/modern-festive-outfit-ideas-men-women"
+    ],
+    "differentiation": "Focus this Diwali article on garment-length-to-jeans-fit, wash, footwear and dress-code checks for casual/fusion settings, rather than another broad festive look list."
+  },
+  "spykar_product_sources": [
+    {
+      "url": "https://spykar.com/products/mdynr1bf149carbonblack",
+      "title": "Men Chico Jeans Relaxed Fit Black Mid Rise",
+      "image_url": "https://spykar.com/cdn/shop/files/MDYNR1BF149CARBONBLACK_1.webp?v=1772529562&width=2048",
+      "checked": "Live Firecrawl scrape on 2026-10-13; HTTP 200; product title verified."
+    },
+    {
+      "url": "https://spykar.com/collections/women-jeans/products/wdynr2bf276darkblue",
+      "title": "Women Bella-Wide Jeans Wide Leg Dark Blue High Rise",
+      "image_url": "https://spykar.com/cdn/shop/files/WDYNR2BF276Dark_Blue_5.jpg?v=1790766641&width=2048",
+      "checked": "Live Firecrawl scrape on 2026-10-13; HTTP 200; product title verified."
+    }
+  ],
+  "internal_destinations_verified": [
+    "https://spykar.com/blogs/blog/ganesh-chaturthi-denim-looks",
+    "https://spykar.com/blogs/blog/how-to-style-jeans-with-shirts-smart-casual-outfit-ideas",
+    "https://spykar.com/collections/men-jeans",
+    "https://spykar.com/collections/women-jeans",
+    "https://spykar.com/products/mdynr1bf149carbonblack",
+    "https://spykar.com/collections/women-jeans/products/wdynr2bf276darkblue"
+  ],
+  "notes": "SERP observations are a benchmark only; no competitor wording or exact section sequence was copied. The title topic has partial overlap with existing Spykar festive content, recorded as an editorial limitation.",
+  "delivery": {
+    "google_doc": "https://docs.google.com/document/d/1BHcwMBpqEFoPGJxddku-pK8jZp4VC9XvLSBqIZBFaSU/edit",
+    "template_source": "https://docs.google.com/document/d/14KeuCm59xpxFwaUYvhnZTflaNmOMeN02v_buS9EPA04/edit?tab=t.0",
+    "native_readback": "Verified SEO metadata, requested title, 8 main section headings, 5 FAQ headings, 3 native bullets, 6 blue-underlined live link destinations, 3 inline images, no placeholders, and campaign language. Image alt descriptions are included visibly in metadata for CMS handoff; image object alt properties were not verified.",
+    "banner_master": "brands/spykar/blogs/creatives/kurta-with-jeans-for-diwali-casual-fusion/kurta-with-jeans-diwali-banner.png",
+    "banner_web": "brands/spykar/blogs/creatives/kurta-with-jeans-for-diwali-casual-fusion/kurta-with-jeans-diwali-banner-800x600.jpg",
+    "banner_qa": "brands/spykar/blogs/creatives/kurta-with-jeans-for-diwali-casual-fusion/banner-qa.json",
+    "meta_title_characters": 55,
+    "meta_description_characters": 149,
+    "word_count": 1234,
+    "local_authenticity_gate": "pass; no errors; local AI-pattern risk 6% (editorial signal only)",
+    "zerogpt": "blocked — ZeroGPT returned HTTP 403 Not enough credits; local fallback score is not a ZeroGPT result.",
+    "rendered_pdf_qa": "pass — exported and inspected all 6 pages; title and banner are together, headings are visually distinct, product images and links render legibly, no clipping observed.",
+    "publishability": "blocked_external_detector; draft is not represented as publish-ready or live on Spykar."
+  }
+}
