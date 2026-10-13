@@ -1,0 +1,21 @@
+{
+  "run_id": "spykar-content-20261013-black-jeans-outfit-ideas-women-dinner-evening",
+  "created_at": "2026-10-13T12:51:40Z",
+  "generator": "built-in image_gen",
+  "prompt_summary": "Photorealistic Indian women's fashion editorial at a contemporary city restaurant terrace at blue hour; one model in black high-rise jeans, wine blouse and a cropped jacket; placed right with quiet navy negative space on left; no brand marks or text in generated source.",
+  "headline_overlay": "BLACK DENIM, AFTER DARK",
+  "files": {
+    "master": {"path":"brands/spykar/blogs/creatives/black-jeans-outfit-ideas-women-dinner-evening/banner-master.png","width":1200,"height":900,"format":"PNG"},
+    "web": {"path":"brands/spykar/blogs/creatives/black-jeans-outfit-ideas-women-dinner-evening/banner-800x600.jpg","width":800,"height":600,"format":"JPEG","quality":92}
+  },
+  "visual_checks": {
+    "topic_and_garment_visible":"pass",
+    "anatomy_and_clothing_plausible":"pass",
+    "headline_exact_and_legible":"pass",
+    "safe_margins":"pass",
+    "logos_watermarks_or_accidental_text":"none",
+    "distinct_from_recent_spykar_banner":"pass — solo evening city scene and lower-left headline panel; recent Diwali kurta banner used a two-model festive porch composition with upper-left type",
+    "web_export_sharp_and_readable":"pass"
+  },
+  "status":"pass"
+}

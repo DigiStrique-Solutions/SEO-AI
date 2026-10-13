@@ -1,0 +1,130 @@
+{
+  "detector_notes": [
+    {
+      "checked_at": "2026-10-13T12:44:59+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "internal_link_map": [
+    {
+      "anchor": "Alexa super-skinny high-rise jeans in jet black",
+      "purpose": "Contextual product example and collection-fit comparison.",
+      "url": "https://spykar.com/products/wdale1bf301jetblack",
+      "verification": "Live Firecrawl scrape on 2026-10-13; HTTP 200, product title and fit/rise visible."
+    },
+    {
+      "anchor": "Bella straight-fit high-rise black jeans",
+      "purpose": "Contextual second product example showing another silhouette.",
+      "url": "https://spykar.com/products/wdynr2bd068jetblack",
+      "verification": "Live Firecrawl scrape on 2026-10-13; HTTP 200, product title and fit/rise visible."
+    },
+    {
+      "anchor": "women\u2019s jeans for workdays, weekends and festive evenings",
+      "purpose": "Supporting Spykar editorial page for outfit rotation beyond dinner/evening plans.",
+      "url": "https://spykar.com/blogs/blog/womens-jeans-every-plan",
+      "verification": "Live Firecrawl scrape on 2026-10-13; HTTP 200, article title and relevant coverage visible."
+    },
+    {
+      "anchor": "Spykar\u2019s women\u2019s black-jeans collection",
+      "purpose": "Commercial collection CTA in body and conclusion.",
+      "url": "https://spykar.com/collections/black-jeans-women",
+      "verification": "Fresh Firecrawl scrape on 2026-10-13; HTTP 200, collection title and women's black-jeans listing visible."
+    }
+  ],
+  "internal_link_verification": {
+    "note": "Both product pages, the supporting Spykar blog and the women's black-jeans collection were freshly fetched on 2026-10-13 and returned HTTP 200.",
+    "status": "pass",
+    "verified_targets": 4
+  },
+  "limitations": [
+    "No keyword search-volume data was provided or queried; keyword selection follows the user\u2019s title and current search phrasing.",
+    "One adjacent SERP result about evening jeans has partial access only because its live page showed a cookie/privacy screen; full article length and headings were not independently confirmed.",
+    "Spykar's AW26 campaign tagline and occasion list are user-provided campaign direction and are not independently confirmed on a public collection page.",
+    "The topic partially overlaps the live \u2018Women\u2019s Jeans for Every Plan\u2019 Spykar article; this piece focuses only on eight dinner/evening formulas and excludes the existing black bootcut plus red satin combination."
+  ],
+  "primary_keyword": "black jeans outfit ideas for women",
+  "publishability": {
+    "reason": "The local authenticity harness passed at 6% AI-pattern risk and all four internal destinations returned HTTP 200. ZeroGPT returned HTTP 403 Not enough credits; its score could not be verified. Under the required gate, this remains a draft and is not publish-ready.",
+    "status": "blocked"
+  },
+  "run_id": "spykar-content-20261013-black-jeans-outfit-ideas-women-dinner-evening",
+  "search_intent": "Informational styling guidance for women choosing polished black-jeans looks for dinner and evening plans, with a relevant Spykar product/collection path.",
+  "secondary_keywords": [
+    "black jeans for women",
+    "black jeans dinner outfit",
+    "black jeans evening outfit",
+    "black denim outfit ideas",
+    "women's dinner outfits"
+  ],
+  "serp_benchmark_adaptation": "Use the compact, outfit-by-outfit specificity of the evening-denim editorial result, retain the useful fit/hem and shoe coordination found in broader guides, and keep each recommendation concrete. Unlike the two long competitor catalogues, this article intentionally gives eight dinner/evening combinations only. It preserves Spykar's practical brand voice and avoids copied wording or the competitors' section flow.",
+  "sources": [
+    {
+      "extracted_facts": "Spykar is an India-focused denim-led casualwear brand. Its blog voice is youthful, practical, direct and Indian English. The canonical doc format calls for metadata, a topic-specific 4:3 banner, practical styling sections, relevant internal links, two verified Spykar product images, five FAQs and matching FAQPage schema in the repository handoff.",
+      "source_id": "spykar_brand_context_style_guide",
+      "source_ref": "brands/spykar/context.md; brands/spykar/knowledge.md; brands/spykar/style-guide.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": "October 2026 Spykar blogs should include the AW26 tagline \u2018Denim For All Moments\u2019 and connect it to festive plans, outings, catch-ups with friends, a first job, the first day of college and reunion parties.",
+      "source_id": "user_aw26_campaign_direction",
+      "source_ref": "User instruction dated 2026-10-13",
+      "source_type": "human_context"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live result: \u20187 Ways to Wear Black Jeans: Outfit Ideas for 2026\u2019. Approx. 4,218 words from live main-content scrape. Its flow groups looks into casual, dressy, seasonal, footwear, colour, layering and outfit formulas before additional fit/care FAQs. Conversational first-person voice with practical silhouette notes, but substantially longer and affiliate-heavy.",
+      "source_id": "serp_her_vogue_black_jeans",
+      "source_ref": "https://hervoguelife.com/black-jeans-outfits/",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live result: \u201835 Black Jeans Outfit Ideas for Women to Rock Daily\u2019. Approx. 4,505 words from live main-content scrape; a long numbered look catalogue, each with garment, shoe and accessory pairings and occasion notes. Useful head-to-toe specificity, but the scope is far broader than this brief and includes many seasonal/off-topic looks.",
+      "source_id": "serp_sew_mama_sew_black_jeans",
+      "source_ref": "https://www.sewmamasew.com/35-black-jeans-outfit-ideas-for-women/",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live search/open result: \u20187 Evening Outfits With Jeans I\u2019m Copying for Nights Out\u2019. Indexed article text presents seven compact evening outfit formulas with \u2018Style Notes\u2019 on fits, layers, shoes and accessories, in a fashion-editor first-person tone. The page is about blue jeans rather than black jeans; direct full-page scrape was blocked by a cookie/privacy screen, so complete article length and full heading list could not be verified. Used as an adjacent format benchmark only.",
+      "source_id": "serp_who_what_wear_evening_denim",
+      "source_ref": "https://www.whowhatwear.com/evening-outfits-with-jeans",
+      "source_type": "serp"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live Spykar article already covers women's jeans across work, weekend and festive occasions and includes black high-rise bootcut jeans with a red satin shirt for dinner. This new article narrows to eight evening-specific formulas across other tops, textures, silhouettes and footwear, and deliberately does not repeat that bootcut-plus-satin look.",
+      "source_id": "spykar_existing_womens_jeans_every_plan",
+      "source_ref": "https://spykar.com/blogs/blog/womens-jeans-every-plan",
+      "source_type": "brand_dna"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live Spykar page returns HTTP 200 and identifies Women Alexa Jeans Super Skinny Fit Jet Black High Rise. Page image gallery provides official Spykar product imagery. Copy uses only product name, colour, fit and rise; no price or stock claim.",
+      "source_id": "spykar_alexa_jet_black_product",
+      "source_ref": "https://spykar.com/products/wdale1bf301jetblack",
+      "source_type": "product_page"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Live Spykar page returns HTTP 200 and identifies Women Bella Jeans Straight Fit Black High Rise. Product page identifies a clean, dark black look and official Spykar product imagery. Copy uses only product name, colour, fit and rise; no price or stock claim.",
+      "source_id": "spykar_bella_black_straight_product",
+      "source_ref": "https://spykar.com/products/wdynr2bd068jetblack",
+      "source_type": "product_page"
+    },
+    {
+      "access_date": "2026-10-13",
+      "extracted_facts": "Spykar collection destination returned in live search and displays women's black-denim products; the destination is used as a commercial CTA. Product availability may change and is not asserted.",
+      "source_id": "spykar_black_womens_jeans_collection",
+      "source_ref": "https://spykar.com/collections/black-jeans-women",
+      "source_type": "product_page"
+    }
+  ],
+  "target": "black-jeans-outfit-ideas-women-dinner-evening"
+}

@@ -1,0 +1,70 @@
+{
+  "run_id": "spykar-content-20261013-black-jeans-outfit-ideas-women-dinner-evening",
+  "captured_at": "2026-10-13T12:25:00+05:30",
+  "search_query": "Black Jeans Outfit Ideas for Women: 8 Polished Looks for Dinner and Evening Plans",
+  "serp_results": [
+    {
+      "position_relevant": 1,
+      "title": "7 Ways to Wear Black Jeans: Outfit Ideas for 2026",
+      "url": "https://hervoguelife.com/black-jeans-outfits/",
+      "published": "2026-08-15",
+      "live_status": 200,
+      "word_count_approx": 4218,
+      "headings": ["Casual Outfits", "Dressy Outfits", "Seasonal Styling", "Footwear Options", "Color Combinations", "Layering Techniques", "Outfit Formulas", "FAQs"],
+      "observations": "Conversational, first-person styling notes; groups looks by styling problem, discusses proportion/fit, black-wash care and accessories; affiliate carousel content makes it much longer than needed."
+    },
+    {
+      "position_relevant": 2,
+      "title": "35 Black Jeans Outfit Ideas for Women to Rock Daily",
+      "url": "https://www.sewmamasew.com/35-black-jeans-outfit-ideas-for-women/",
+      "published": "2026 (search result: 5 months ago)",
+      "live_status": 200,
+      "word_count_approx": 4505,
+      "headings": ["Numbered outfit formulas: white tee and sneakers; blazer; graphic tee and leather jacket; trench; denim jacket; black tank; chunky knit; button-down; crop top; camel coat; flannel; silk blouse; hoodie; bodysuit; leather blazer; striped shirt; shacket; turtleneck; cardigan; oversized shirt; peplum; moto jacket; bomber; satin cami; and further ideas"],
+      "observations": "Very expansive catalogue, head-to-toe garment/shoe/accessory descriptions plus occasion notes. Some generic hyperbole and strongly US-autumn seasonal framing. Useful as a specificity benchmark, not a suitable outline to duplicate."
+    },
+    {
+      "position_relevant": 3,
+      "title": "7 Evening Outfits With Jeans I’m Copying for Nights Out",
+      "url": "https://www.whowhatwear.com/evening-outfits-with-jeans",
+      "live_status": "indexed result/page open; full scrape blocked by privacy/cookie screen",
+      "word_count_approx": null,
+      "headings": "Seven compact evening outfit formulas; indexed lines use ‘Style Notes’ and discuss dark-wash fit, heel, earring, shirt, leather layer and bag pairings.",
+      "observations": "Adjacent benchmark about blue denim rather than black. Fashion-editor first-person tone and short, occasion-led look blocks; whole-page outline and length remain unverified."
+    }
+  ],
+  "spykar_overlap_check": {
+    "exact_title_serp": "No result with the exact proposed title was returned in the live search.",
+    "existing_article": {
+      "title": "Women’s Jeans for Every Plan: Workdays, Weekends and Festive Evenings",
+      "url": "https://spykar.com/blogs/blog/womens-jeans-every-plan",
+      "status": 200,
+      "overlap_detail": "That live article covers multiple weekly occasions and contains one black high-rise bootcut jeans plus red satin shirt look for dinner. New article is limited to eight specific evening looks, uses separate style formulas and explicitly avoids that existing pairing."
+    }
+  },
+  "product_facts": [
+    {
+      "url": "https://spykar.com/products/wdale1bf301jetblack",
+      "http_status": 200,
+      "title": "Women Alexa Jeans Super Skinny Fit Jet Black High Rise",
+      "image": "https://spykar.com/cdn/shop/files/WDALE1BF301JETBLACK.webp?v=1777620794&width=1200",
+      "source_evidence": "Live Firecrawl scrape 2026-10-13; official product title and image gallery visible."
+    },
+    {
+      "url": "https://spykar.com/products/wdynr2bd068jetblack",
+      "http_status": 200,
+      "title": "Women Bella Jeans Straight Fit Black High Rise",
+      "image": "https://spykar.com/cdn/shop/files/WDYNR2BD068JETBLACK_5_6fe26adf-c1a0-4c43-abcd-aa91083dd26f.jpg?v=1755851234&width=1200",
+      "source_evidence": "Live Firecrawl scrape 2026-10-13; official product title and image gallery visible."
+    }
+  ],
+  "internal_links": [
+    {"url":"https://spykar.com/blogs/blog/womens-jeans-every-plan","http_status":200,"purpose":"Supporting Spykar blog; relevant wider rotation context."},
+    {"url":"https://spykar.com/collections/black-jeans-women","http_status":200,"purpose":"Black-jeans collection CTA.","verification":"Fresh Firecrawl scrape 2026-10-13; title ‘Buy Black Jeans for Women Online at Spykar’ and collection listing returned."}
+  ],
+  "research_limits": [
+    "Keyword volume/demand was not sourced.",
+    "Who What Wear main article content is obscured by a cookie/privacy panel in direct scraping; indexed result text used for limited tone/structure observations only.",
+    "Google Docs API image insertion was used for all three images; alt text is surfaced as descriptive metadata and visible captions for the product images."
+  ]
+}

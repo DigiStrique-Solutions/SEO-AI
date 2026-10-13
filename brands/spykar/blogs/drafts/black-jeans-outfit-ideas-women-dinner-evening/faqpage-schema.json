@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What tops go with black jeans for dinner?","acceptedAnswer":{"@type":"Answer","text":"Try a jewel-colour blouse, a crisp shirt, a fine knit or a simple fitted top with one distinctive accessory."}},
+    {"@type":"Question","name":"How do I make black jeans look more polished for evening?","acceptedAnswer":{"@type":"Answer","text":"Start with a clean-looking pair, balance the top with the leg shape and finish with a considered shoe and one focal accessory."}},
+    {"@type":"Question","name":"Can I wear black jeans to a festive dinner?","acceptedAnswer":{"@type":"Answer","text":"For an informal festive plan, black jeans can work with a textured or softly embellished top. Follow the host’s dress code if the event is more formal."}},
+    {"@type":"Question","name":"Which shoes work with black jeans at night?","acceptedAnswer":{"@type":"Answer","text":"Pointed flats, slingbacks, block heels and heeled sandals can all work. Choose by venue, walking distance and the jeans’ hem length."}},
+    {"@type":"Question","name":"What jacket should I wear with black jeans for dinner?","acceptedAnswer":{"@type":"Answer","text":"A short structured jacket sharpens a simple base, while a longer relaxed layer can work when the outfit beneath it stays neat and balanced."}}
+  ]
+}
