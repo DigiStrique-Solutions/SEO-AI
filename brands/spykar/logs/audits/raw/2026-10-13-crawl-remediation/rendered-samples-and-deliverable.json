@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-13",
+  "provider": "Playwright browser rendered DOM",
+  "samples": [
+    {
+      "url": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humidmonsoon-weather",
+      "rendered_h1_count": 11,
+      "faq_question_count": 3,
+      "faq_question_names": [
+        null,
+        null,
+        null
+      ],
+      "faq_answer_texts": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "url": "https://spykar.com/blogs/blog/how-to-find-best-jeans-fit-in-store",
+      "rendered_h1_count": 9,
+      "faq_question_count": 3,
+      "faq_question_names": [
+        null,
+        null,
+        null
+      ],
+      "faq_answer_texts": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "url": "https://spykar.com/pages/about-us",
+      "rendered_h1_count": 0,
+      "canonical": "https://spykar.com/pages/about-us"
+    }
+  ],
+  "document_url": "https://docs.google.com/document/d/1SJ2pj3hJkPq1ioKdu6QRZySKEtaL9OV4osSzz-8Y3MI/edit?usp=drivesdk"
+}

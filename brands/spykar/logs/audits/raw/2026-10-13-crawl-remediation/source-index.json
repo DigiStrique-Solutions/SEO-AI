@@ -1,0 +1,126 @@
+[
+  {
+    "file": "spykar.com_duplicate_content_20261013.xlsx",
+    "sha256": "6d5bf110bd53780cb27e0a809ce3e8dff9ea59367a8996b404706134edfe41fa",
+    "row_count": 34,
+    "headers": [
+      "Page URL",
+      "Similar pages",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_duplicate_meta_description_20261013.xlsx",
+    "sha256": "ede86cd9780d51173dc05cc1c76dda7822647b21112f958c68b455aa4f30dc2e",
+    "row_count": 49,
+    "headers": [
+      "Page URL",
+      "Pages with same meta description",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_duplicate_title_tag_20261013.xlsx",
+    "sha256": "102551ffe3bc16bfa04be7c16d074044e0c837f9b6fc300cbb6b695b3b013bf8",
+    "row_count": 52,
+    "headers": [
+      "Page URL",
+      "Page Title",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_h1_and_title_tags_have_duplicate_content_20261013.xlsx",
+    "sha256": "1987d473731c0c0a95442b3c5afec4f507a0f272837d9b6ebef5b71b8f7e7adf",
+    "row_count": 4692,
+    "headers": [
+      "Page URL",
+      "Title",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_http_4xx_client_errors_20261013.xlsx",
+    "sha256": "21f6493cb3c4da8de4e1f17d128e7dea35fa29bbe4fe8c5d04a985ad886f0681",
+    "row_count": 1,
+    "headers": [
+      "Page URL",
+      "HTTP Code",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_internal_broken_links_20261013.xlsx",
+    "sha256": "d120669fc259bfb844beb9ac2362b902df66db0e4017ff9d44840b5d496f10c4",
+    "row_count": 1,
+    "headers": [
+      "Page URL",
+      "Broken Link URL",
+      "HTTP Code",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_issues_20261013.xlsx",
+    "sha256": "593db0a59b5442662152883e6968c73d39e2cae680de029f8ccc90f1da7a05d2",
+    "row_count": 101,
+    "headers": [
+      "Issue Id",
+      "Issue Type",
+      "Issue",
+      "Failed checks",
+      "Total checks",
+      "Changed from last audit"
+    ]
+  },
+  {
+    "file": "spykar.com_missing_h1_heading_20261013.xlsx",
+    "sha256": "ba8264f6dd97a63fe9ffae939fca04c106e9c85b4de62733e83f044d48dd07ff",
+    "row_count": 7,
+    "headers": [
+      "Page URL",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_structured_data_that_contains_markup_errors_20261013.xlsx",
+    "sha256": "cb994d7f042cf6156b15d859deb4f33fd52b1caaeb4b45935658dff397c0e921",
+    "row_count": 2,
+    "headers": [
+      "Page URL",
+      "Structured data",
+      "Field",
+      "Issue description",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_the_meta_description_tag_is_missing_20261013.xlsx",
+    "sha256": "742c9b2e9e999f3261852e03553afd143ce7fc6392d07a81e21c4234fc4c8ac4",
+    "row_count": 226,
+    "headers": [
+      "Page URL",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_title_element_is_too_long_20261013.xlsx",
+    "sha256": "36ed3cd8190f37a09572aa2715987171a4f7a45796ac0aa5c07ea6b4ee69f996",
+    "row_count": 900,
+    "headers": [
+      "Page URL",
+      "Title",
+      "Discovered"
+    ]
+  },
+  {
+    "file": "spykar.com_title_element_is_too_short_20261013.xlsx",
+    "sha256": "af333efa36983a8cc61eb6cc8b1fafa27075483dbaa7f92a20ca9c682bb76e2b",
+    "row_count": 76,
+    "headers": [
+      "Page URL",
+      "Title",
+      "Discovered"
+    ]
+  }
+]

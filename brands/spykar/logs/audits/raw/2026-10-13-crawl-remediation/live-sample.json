@@ -1,0 +1,221 @@
+[
+  {
+    "url": "https://spykar.com/",
+    "status": 200,
+    "final_url": "https://spykar.com/",
+    "title": "Spykar: India’s Leading Denim & Casual Wear Brand for Youth",
+    "canonical": "https://spykar.com/",
+    "meta_description": "Welcome to our world, where staying young at heart and having a restless spirit are the only rules worth following! Give yourself the best you deserve.",
+    "h1": [
+      "Spykar Lifestyles"
+    ],
+    "faq_schema": [],
+    "store_links": [
+      {
+        "href": "https://spykar.com/a/storelocator",
+        "text": "Find Store"
+      },
+      {
+        "href": "https://spykar.com/pages/store-locator",
+        "text": "Store Locator"
+      },
+      {
+        "href": "https://spykar.com/pages/store-locator",
+        "text": "Store Locator"
+      }
+    ]
+  },
+  {
+    "url": "https://spykar.com/a/storelocator",
+    "status": 404,
+    "final_url": "https://spykar.com/a/storelocator",
+    "title": null,
+    "canonical": null,
+    "meta_description": null,
+    "h1": [],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/pages/store-locator",
+    "status": 200,
+    "final_url": "https://spykar.com/pages/store-locator",
+    "title": "Store Locator",
+    "canonical": "https://spykar.com/pages/store-locator",
+    "meta_description": "Autocomplete Radius 100 Tags Countries List Map",
+    "h1": [
+      "Store Locator"
+    ],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/pages/about-us",
+    "status": 200,
+    "final_url": "https://spykar.com/pages/about-us",
+    "title": "About Us",
+    "canonical": "https://spykar.com/pages/about-us",
+    "meta_description": null,
+    "h1": [],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humidmonsoon-weather",
+    "status": 200,
+    "final_url": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humidmonsoon-weather",
+    "title": "Cotton Jeans for Men in Late-Monsoon Humidity | Spykar",
+    "canonical": "https://spykar.com/blogs/blog/cotton-jeans-for-men-comfort-guide-humidmonsoon-weather",
+    "meta_description": "Choose cotton jeans for men for late-monsoon humidity. Compare fit, fabric and wash, then use practical outfit, drying, rotation and storage tips.",
+    "h1": [
+      "Cotton Jeans for Men: A Comfort Guide for Late-Monsoon Humidity",
+      "What tends to work when the rain becomes irregular",
+      "Why late monsoon needs a different denim plan",
+      "How to read the fabric label without overpromising comfort",
+      "Two current Spykar options to compare",
+      "Five outfits for the weather between forecasts",
+      "Fit, rise and hem: the three-minute trial-room test",
+      "A practical drying and storage routine",
+      "Your late-monsoon buying checklist",
+      "Choose for the second half of the day",
+      "Frequently asked questions"
+    ],
+    "faq_schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          },
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          },
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          }
+        ]
+      }
+    ],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/blogs/blog/how-to-find-best-jeans-fit-in-store",
+    "status": 200,
+    "final_url": "https://spykar.com/blogs/blog/how-to-find-best-jeans-fit-in-store",
+    "title": "Spykar Store Near Me: Find Your Best Jeans Fit | Guide",
+    "canonical": "https://spykar.com/blogs/blog/how-to-find-best-jeans-fit-in-store",
+    "meta_description": "Find a Spykar store near you and use this 10-minute trial-room routine to compare waist, rise, thigh, leg shape, hem and movement before buying jeans.",
+    "h1": [
+      "How to Find Your Best Jeans Fit In-Store in 10 Minutes",
+      "Before the clock starts: arrive with one useful reference",
+      "Your 10-minute denim fit guide",
+      "Two current Spykar fits to use as comparison points",
+      "How to choose jeans fit without falling for the mirror-only test",
+      "Trial-room red flags worth acting on",
+      "What to ask at a Spykar showroom",
+      "Leave with a fit note, not another guess",
+      "Frequently asked questions"
+    ],
+    "faq_schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          },
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          },
+          {
+            "@type": "Question",
+            "name": null,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": null
+            }
+          }
+        ]
+      }
+    ],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/collections/actif",
+    "status": 200,
+    "final_url": "https://spykar.com/collections/actif",
+    "title": "Actif",
+    "canonical": "https://spykar.com/collections/actif",
+    "meta_description": "Buy stylish branded jeans pants for men and women by Spykar. Made of premium quality cotton and available in attractive colours and trending styles. Buy Now",
+    "h1": [
+      "Actif"
+    ],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/products/mdact1bd249midblue",
+    "status": 200,
+    "final_url": "https://spykar.com/products/mdact1bd249midblue",
+    "title": "Men Low Rise Slim Fit Blue Jeans",
+    "canonical": "https://spykar.com/products/mdact1bd249midblue",
+    "meta_description": "Buy Spykar Low Rise Slim Fit Blue Jeans For Men Online at spykar. We are known for our superlative product quality and great fits.",
+    "h1": [
+      "Men Jeans Slim Fit Blue Low Rise"
+    ],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/policies/privacy-policy",
+    "status": 200,
+    "final_url": "https://spykar.com/policies/privacy-policy",
+    "title": "Privacy policy",
+    "canonical": "https://spykar.com/policies/privacy-policy",
+    "meta_description": null,
+    "h1": [
+      "Privacy policy"
+    ],
+    "faq_schema": [],
+    "store_links": []
+  },
+  {
+    "url": "https://spykar.com/pages/privacy-policy",
+    "status": 200,
+    "final_url": "https://spykar.com/pages/privacy-policy",
+    "title": "Privacy Policy",
+    "canonical": "https://spykar.com/pages/privacy-policy",
+    "meta_description": "Protecting your privacy is very important to us. We have accordingly developed this Privacy Policy to protect your personal information and keep it confidential. We endeavour to comply with laws of other countries but cannot and do not warrant that we do. We do everything we reasonably can to protect your rights of pri",
+    "h1": [
+      "Privacy Policy"
+    ],
+    "faq_schema": [],
+    "store_links": []
+  }
+]
