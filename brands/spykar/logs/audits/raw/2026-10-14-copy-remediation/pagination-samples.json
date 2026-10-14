@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://spykar.com/blogs/blog?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/blogs/blog?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:04.527541+00:00"
+  },
+  {
+    "url": "https://spykar.com/blogs/blog?page=3",
+    "http_status": 200,
+    "canonical": "https://spykar.com/blogs/blog?page=3",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:04.941175+00:00"
+  },
+  {
+    "url": "https://spykar.com/blogs/blog?page=12",
+    "http_status": 200,
+    "canonical": "https://spykar.com/blogs/blog?page=12",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:05.457728+00:00"
+  },
+  {
+    "url": "https://spykar.com/collections/clearance?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/collections/clearance?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:06.156139+00:00"
+  },
+  {
+    "url": "https://spykar.com/collections/denim?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/collections/denim?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:06.870527+00:00"
+  },
+  {
+    "url": "https://spykar.com/collections/new-arrivals-jeans?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/collections/new-arrivals-jeans?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:07.505647+00:00"
+  },
+  {
+    "url": "https://spykar.com/collections/straight-fit-1?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/collections/straight-fit-1?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:07.990448+00:00"
+  },
+  {
+    "url": "https://spykar.com/collections/women-bootcut?page=2",
+    "http_status": 200,
+    "canonical": "https://spykar.com/collections/women-bootcut?page=2",
+    "robots": null,
+    "checked_at_utc": "2026-10-14T13:29:08.643162+00:00"
+  }
+]

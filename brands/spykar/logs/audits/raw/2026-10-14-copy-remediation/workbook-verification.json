@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-10-14T13:32:43.835886+00:00",
+  "run_id": "spykar-exact-copy-remediation-20261014",
+  "workbook": "outputs/spykar-technical-seo-20261013/Spykar_Technical_SEO_Fix_Register_2026-10-13.xlsx",
+  "sha256": "9cab8ed80c453b4e5349b70e37670712fef3afe41bfdd7b87630805b13856425",
+  "sheets": {
+    "Fix register": {
+      "rows": 30,
+      "columns": 13,
+      "tables": [
+        "SpykarFixRegister"
+      ]
+    },
+    "URL evidence": {
+      "rows": 6045,
+      "columns": 10,
+      "tables": [
+        "SpykarUrlEvidence"
+      ]
+    },
+    "Sources": {
+      "rows": 29,
+      "columns": 4,
+      "tables": [
+        "SpykarSources"
+      ]
+    },
+    "Proposed fixes": {
+      "rows": 587,
+      "columns": 12,
+      "tables": [
+        "SpykarProposedFixes"
+      ]
+    }
+  },
+  "proposal_rows": 581,
+  "proposal_fields": {
+    "Meta description": 275,
+    "Title tag": 260,
+    "H1": 7,
+    "Internal link href": 1,
+    "FAQPage JSON-LD": 2,
+    "Article heading hierarchy": 2,
+    "Body content / canonical": 34
+  },
+  "blank_proposed_values": 43,
+  "duplicate_meta_alternatives": 49,
+  "duplicate_meta_alternatives_unique": true,
+  "live_source_pages": 461,
+  "pagination_samples": 8
+}
