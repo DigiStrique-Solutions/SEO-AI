@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-10-14T00:00:00+05:30",
+  "topic": "Thinking About Your First 5K? Start With This No-Stress Shoe Checklist",
+  "benchmark": [
+    {
+      "url": "https://www.racesindia.com/blog/first-5k-race-guide-india",
+      "accessed_at": "2026-10-14",
+      "tone": "friendly, reassuring beginner-race guidance",
+      "length": "about 5 minutes",
+      "structure": "race choice, preparation, simple plan, race week and experience"
+    },
+    {
+      "url": "https://in.puma.com/in/en/running-guides/best-running-shoes-for-beginners",
+      "accessed_at": "2026-10-14",
+      "tone": "commercial and explanatory",
+      "length": "about 6 minutes",
+      "structure": "beginner need, shoe terminology, comparison, fit/comfort, surface, FAQs"
+    },
+    {
+      "url": "https://paceandpavement.com/couch-to-5k/how-to-choose-running-shoes",
+      "accessed_at": "2026-10-14",
+      "tone": "plain, methodical checklist",
+      "length": "long-form guide",
+      "structure": "seven-step checklist, purpose, fit, width, cushioning, comfort test and buying guidance"
+    }
+  ],
+  "application": "The OFFLIMITS draft uses a reassuring beginner voice, a fit-first seven-check flow and concise product comparison. It does not reproduce any benchmark wording or structure verbatim.",
+  "internal_link_validation": [
+    {"url":"https://offlimits.co.in/collections/men-running-shoes","status":200},
+    {"url":"https://offlimits.co.in/collections/women-running-shoes","status":200},
+    {"url":"https://offlimits.co.in/products/gladiator-black-orm-661-01","status":"429 during direct validation; previously verified product source retained and live link required to be rechecked before publish"},
+    {"url":"https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02","status":"429 during direct validation; previously verified product source retained and live link required to be rechecked before publish"},
+    {"url":"https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes","status":"429 during direct validation; live link required to be rechecked before publish"},
+    {"url":"https://offlimits.co.in/blogs/blogs/7-signs-it-s-time-to-replace-your-workout-shoes","status":"429 during direct validation; live link required to be rechecked before publish"}
+  ]
+}

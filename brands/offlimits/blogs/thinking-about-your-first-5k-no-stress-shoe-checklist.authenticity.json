@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "claim": "OFFLIMITS Gladiator in Black lists a knitted upper, KPU overlay, memory-foam insole and Phylon rubber sole.",
+      "source_ids": [
+        "gladiator_product"
+      ]
+    },
+    {
+      "claim": "OFFLIMITS Pulse X For Her in Black/Dark Grey lists a mesh upper, PU-moulded insock and Phylon/TPR sole.",
+      "source_ids": [
+        "pulse_product"
+      ]
+    },
+    {
+      "claim": "The OFFLIMITS men\u2019s and women\u2019s running collections are live contextual destinations for a first-5K guide.",
+      "source_ids": [
+        "running_collections"
+      ]
+    },
+    {
+      "claim_id": "best-top-context",
+      "claim_type": "best_top",
+      "criteria": "The phrase best first 5K shoe describes a fit-and-comfort decision, not product superiority. No OFFLIMITS model is ranked or presented as best.",
+      "source_ids": [
+        "serp_benchmark",
+        "brand_rules"
+      ],
+      "statement": "No product-superiority claim is made."
+    }
+  ],
+  "detector_notes": [
+    {
+      "checked_at": "2026-10-14T12:25:27+00:00",
+      "fallback_error": "ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}",
+      "max_score": 20.0,
+      "note": "ZeroGPT unreachable (ZeroGPT returned an unexpected payload: {'success': False, 'code': 403, 'message': 'Not enough credits', 'data': None}). Fell back to the local AI-pattern risk score; this was NOT checked against ZeroGPT.",
+      "score": 6.0,
+      "source": "local_fallback",
+      "status": "pass",
+      "tool": "zerogpt"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-10-14T12:24:47+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/thinking-about-your-first-5k-no-stress-shoe-checklist"
+  },
+  "sources": [
+    {
+      "extracted_facts": [
+        "Use OFFLIMITS as the canonical brand form.",
+        "Customer-facing guides must be conversational, product-led and conclude before CTA.",
+        "At least three live contextual internal links are required."
+      ],
+      "source_id": "brand_rules",
+      "source_ref": "brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md",
+      "source_type": "brand_dna"
+    },
+    {
+      "extracted_facts": [
+        "Three relevant first-5K and beginner-running guides were benchmarked on 2026-10-14."
+      ],
+      "source_id": "serp_benchmark",
+      "source_ref": "brands/offlimits/logs/content/raw/20261014T-first-5k-serp-research.json",
+      "source_type": "serp"
+    },
+    {
+      "extracted_facts": [
+        "Knitted upper, KPU overlay, memory-foam insole and Phylon rubber sole."
+      ],
+      "source_id": "gladiator_product",
+      "source_ref": "https://offlimits.co.in/products/gladiator-black-orm-661-01",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Mesh upper, PU-moulded insock and Phylon/TPR sole."
+      ],
+      "source_id": "pulse_product",
+      "source_ref": "https://offlimits.co.in/products/pulse-x-for-her-black-dk-grey-orw-887-02",
+      "source_type": "product_page"
+    },
+    {
+      "extracted_facts": [
+        "Both collection URLs returned HTTP 200 in live verification on 2026-10-14."
+      ],
+      "source_id": "running_collections",
+      "source_ref": "https://offlimits.co.in/collections/men-running-shoes and https://offlimits.co.in/collections/women-running-shoes",
+      "source_type": "product_page"
+    }
+  ]
+}
