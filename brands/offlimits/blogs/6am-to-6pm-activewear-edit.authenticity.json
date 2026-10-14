@@ -1,0 +1,14 @@
+{
+  "claims": [{"claim":"Gladiator in Black lists a knitted upper, KPU overlay, memory-foam insole and Phylon rubber sole.","source_ids":["gladiator"]},{"claim_id":"best-top-context","claim_type":"best_top","criteria":"No product is ranked as best; best is used only in generic editorial wording.","source_ids":["brand_rules"],"statement":"No product-superiority claim is made."}],
+  "detector_notes": [],
+  "metadata": {
+    "created_at": "2026-10-14T12:33:44+00:00",
+    "required_ai_text_risk_skill": "ai-text-risk-gate",
+    "required_ai_text_risk_skill_ref": ".agents/skills/ai-text-risk-gate/SKILL.md",
+    "required_skill": "content-seo-authenticity",
+    "required_skill_ref": ".agents/skills/content-seo-authenticity/SKILL.md",
+    "status": "draft",
+    "target": "https://offlimits.co.in/blogs/blogs/6am-to-6pm-activewear-edit"
+  },
+  "sources": [{"source_id":"brand_rules","source_type":"brand_dna","source_ref":"brands/offlimits/knowledge.md and brands/offlimits/fundamentals.md","extracted_facts":["Product-led, conversational content; three contextual internal links required."]},{"source_id":"gladiator","source_type":"product_page","source_ref":"https://offlimits.co.in/products/gladiator-black-orm-661-01","extracted_facts":["Knitted upper, KPU overlay, memory-foam insole and Phylon rubber sole."]}]
+}
