@@ -1,0 +1,67 @@
+{
+  "run_date": "2026-10-14",
+  "run_type": "editorial_revision",
+  "brand": "offlimits",
+  "topics": [
+    "Thinking About Your First 5K? Start With This No-Stress Shoe Checklist",
+    "The 6 AM-to-6 PM Activewear Edit: What to Wear When Your Gym Session Comes Before Work"
+  ],
+  "five_k_serp_benchmark_ref": "20261014T-first-5k-serp-research.json",
+  "six_am_serp_query": "gym to work activewear outfit morning workout office blog what to wear",
+  "six_am_serp_access_date": "2026-10-14",
+  "six_am_serp_benchmark": [
+    {
+      "url": "https://thebearable.com/blogs/news/versatile-gym-to-office-casual-wear",
+      "tone": "practical and commercially oriented",
+      "content_length": "approximately 650-750 article words from rendered text",
+      "structure": "business-casual definition, transition steps, outfit examples, capsule considerations, FAQ",
+      "evidence": "live search organic result and rendered article lines 11-84"
+    },
+    {
+      "url": "https://www.baleaf.com/blogs/all-blogs/how-to-style-activewear-to-the-office",
+      "tone": "upbeat styling advice with product mentions",
+      "content_length": "approximately 900-1100 article words from rendered text",
+      "structure": "office-appropriate rules followed by garment-by-garment styling ideas and closing CTA",
+      "evidence": "live search organic result and rendered article lines 20-109"
+    },
+    {
+      "url": "https://www.musedailystyle.com/how-to-style-activewear-for-errands-work-and-the-gym-one-outfit-three-ways",
+      "tone": "concise, conversational fashion advice",
+      "content_length": "three-minute read, approximately 400-500 article words",
+      "structure": "quick answer, base outfit, gym/errands/office scenarios, mistakes and takeaways",
+      "evidence": "live search organic result and rendered article lines 11-57"
+    }
+  ],
+  "benchmark_application": "The rewrite uses a chronological workout-to-work flow and a dress-code decision before outfit suggestions. It avoids copying competitor language or section sequence and grounds product mentions in OFFLIMITS product pages.",
+  "product_fact_checks": [
+    {"url": "https://offlimits.co.in/products/gladiator-black-orm-661-01", "result": "live product; running/gym; memory-foam insock; Phylon/TPR sole; current page conflicts with the old draft's knitted-upper/Phylon-rubber phrasing"},
+    {"url": "https://offlimits.co.in/products/gladiator-for-her-black-white-orw-678-01", "result": "live product; running/workouts; memory-foam insock; Phylon/TPR sole"},
+    {"url": "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03", "result": "live product; running/workouts; memory-foam insock; Phylon/TPR sole"}
+  ],
+  "verified_internal_targets": [
+    "https://offlimits.co.in/collections/men-running-shoes",
+    "https://offlimits.co.in/collections/women-running-shoes",
+    "https://offlimits.co.in/blogs/blogs/running-vs-gym-shoes-uncover-the-difference-between-running-vs-gym-shoes",
+    "https://offlimits.co.in/blogs/blogs/7-signs-it-s-time-to-replace-your-workout-shoes",
+    "https://offlimits.co.in/products/gladiator-black-orm-661-01",
+    "https://offlimits.co.in/products/gladiator-for-her-black-white-orw-678-01",
+    "https://offlimits.co.in/products/gladiator-for-her-off-white-pink-orw-678-03",
+    "https://offlimits.co.in/collections/men-shorts",
+    "https://offlimits.co.in/collections/women-tights",
+    "https://offlimits.co.in/collections/men-joggers-track-pants"
+  ],
+  "link_verification": "Each listed destination opened as a live OFFLIMITS collection, product or blog page via web browse on 2026-10-14. Both revised Google Docs were checked to contain eight blue-underlined internal anchor instances and one inline hero image.",
+  "hero_revision": {
+    "old": "offlimits-6am-6pm-hero.png",
+    "new": "offlimits-6am-6pm-hero-v2.png",
+    "model_difference": "New woman has short curly hair, deeper complexion and a plum jacket with black trousers; the earlier image showed a high ponytail, pale sleeveless top and grey joggers.",
+    "product_reference": "brands/offlimits/blogs/creatives/womens-athleisure-capsule/refs/gladiator-shoes.jpg",
+    "note": "AI-generated editorial image; shoes are inspired by the official OFFLIMITS reference, not an exact product photograph."
+  },
+  "zerogpt": {
+    "status": "blocked",
+    "reason": "403 Not enough credits",
+    "local_pattern_score_percent": {"first_5k": 6.0, "six_am": 6.0},
+    "evidence": ["20261014-5k-revision-zerogpt.json", "20261014-6am-revision-zerogpt.json"]
+  }
+}
