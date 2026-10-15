@@ -1,0 +1,24 @@
+{
+  "spreadsheetId": "1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1yZt5VrfS04g9Uz6rDkB6AtO5VYUsLK_h42sHg3gJow0/edit",
+  "properties": {
+    "title": "New Active list products PDP Descriptions",
+    "locale": "en_US",
+    "timeZone": "Asia/Calcutta"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 1979343695,
+        "title": "PDP Descriptions",
+        "index": 0,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 998,
+          "columnCount": 19,
+          "frozenRowCount": 1
+        }
+      }
+    }
+  ]
+}

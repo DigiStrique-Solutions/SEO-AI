@@ -1,0 +1,128 @@
+[
+  {
+    "row": 3,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 4,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 5,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 6,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 14,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 15,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 16,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 18,
+    "attribute": "sleeve",
+    "source": "EXTENDED 3/4 SLEEVE WITH CUFF",
+    "prior": "3/4 SLEEVE"
+  },
+  {
+    "row": 43,
+    "attribute": "sleeve",
+    "source": "EXTENDED LONG SLEEVE",
+    "prior": "EXTENDED SLEEVES"
+  },
+  {
+    "row": 44,
+    "attribute": "sleeve",
+    "source": "EXTENDED 3/4 SLEEVE",
+    "prior": "3/4 SLEEVE"
+  },
+  {
+    "row": 51,
+    "attribute": "sleeve",
+    "source": "EXTENDED SHORT SLEEVE WITH TIES",
+    "prior": "HALF SLEEVES"
+  },
+  {
+    "row": 80,
+    "attribute": "sleeve",
+    "source": "EXTENDED 3/4 SLEEVE",
+    "prior": ""
+  },
+  {
+    "row": 91,
+    "attribute": "sleeve",
+    "source": "SHORT SLEEVE WITH FOLD",
+    "prior": "HALF SLEEVES"
+  },
+  {
+    "row": 93,
+    "attribute": "sleeve",
+    "source": "EXTENDED SHORT SLEEVE WITH CUFF",
+    "prior": "HALF SLEEVES"
+  },
+  {
+    "row": 94,
+    "attribute": "neck",
+    "source": "ROUND NECK WITH V SHAPE AT BACK",
+    "prior": ""
+  },
+  {
+    "row": 118,
+    "attribute": "sleeve",
+    "source": "EXTENDED SLEEVES",
+    "prior": ""
+  },
+  {
+    "row": 200,
+    "attribute": "sleeve",
+    "source": "EXTENDED SLEEVES",
+    "prior": "HALF SLEEVES"
+  },
+  {
+    "row": 249,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 250,
+    "attribute": "neck",
+    "source": "BAND NECK",
+    "prior": ""
+  },
+  {
+    "row": 278,
+    "attribute": "neck",
+    "source": "SHAWL COLLAR",
+    "prior": ""
+  },
+  {
+    "row": 279,
+    "attribute": "neck",
+    "source": "SHAWL COLLAR",
+    "prior": ""
+  }
+]

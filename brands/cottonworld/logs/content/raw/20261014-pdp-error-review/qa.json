@@ -1,0 +1,2769 @@
+{
+  "rows_checked": 392,
+  "rows_changed": 261,
+  "unique_opening_sentences": 392,
+  "unique_full_descriptions": 392,
+  "word_range": [
+    77,
+    103.0,
+    116
+  ],
+  "errors": [],
+  "source_warnings": [
+    [
+      255,
+      "Current title and fabric composition conflict; exact percentages withheld pending merchant confirmation"
+    ],
+    [
+      256,
+      "Current title and fabric composition conflict; exact percentages withheld pending merchant confirmation"
+    ]
+  ],
+  "sentence_word_repetitions_for_review": [],
+  "row_checks": [
+    {
+      "row": 2,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 3,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 4,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 5,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 6,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 7,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 8,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 9,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 10,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 11,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 12,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 13,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 14,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 15,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 16,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 17,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 18,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 19,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 20,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 21,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 22,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 23,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 24,
+      "identity": "pass",
+      "fabric_percentages": "not_checked_blocked",
+      "source": "url_only",
+      "construction_source_present": false
+    },
+    {
+      "row": 25,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 26,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 27,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 28,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 29,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 30,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 31,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 32,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 33,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 34,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 35,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 36,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 37,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 38,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 39,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 40,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 41,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 42,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 43,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 44,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 45,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 46,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 47,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 48,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 49,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 50,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 51,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 52,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 53,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 54,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 55,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 56,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 57,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 58,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 59,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 60,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 61,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 62,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 63,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 64,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 65,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 66,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 67,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 68,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 69,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 70,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 71,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 72,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 73,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 74,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 75,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 76,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 77,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 78,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 79,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 80,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 81,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 82,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 83,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 84,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 85,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 86,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 87,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 88,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 89,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 90,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 91,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 92,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 93,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 94,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 95,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 96,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 97,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 98,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 99,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 100,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 101,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 102,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 103,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 104,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 105,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 106,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 107,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 108,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 109,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 110,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 111,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 112,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 113,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 114,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 115,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 116,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 117,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 118,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 119,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 120,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 121,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 122,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 123,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 124,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 125,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 126,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 127,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 128,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 129,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 130,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 131,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 132,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 133,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 134,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 135,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 136,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 137,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 138,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 139,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 140,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 141,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 142,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 143,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 144,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 145,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 146,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 147,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 148,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 149,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 150,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 151,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 152,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 153,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 154,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 155,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 156,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 157,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 158,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 159,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 160,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 161,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 162,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 163,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 164,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 165,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 166,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 167,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 168,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 169,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 170,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 171,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 172,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 173,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 174,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 175,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 176,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 177,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 178,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 179,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 180,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 181,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 182,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 183,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 184,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 185,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 186,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 187,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 188,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 189,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 190,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 191,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 192,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 193,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 194,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 195,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 196,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 197,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 198,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 199,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 200,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 201,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 202,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 203,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 204,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 205,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 206,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 207,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 208,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 209,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 210,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 211,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 212,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 213,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 214,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 215,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 216,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 217,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 218,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 219,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": false
+    },
+    {
+      "row": 220,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 221,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 222,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 223,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 224,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 225,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 226,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 227,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 228,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 229,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 230,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 231,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 232,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 233,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 234,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 235,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 236,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 237,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 238,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 239,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 240,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 241,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 242,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 243,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 244,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 245,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 246,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 247,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 248,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 249,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 250,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 251,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 252,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 253,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 254,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 255,
+      "identity": "pass",
+      "fabric_percentages": "not_checked_blocked",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 256,
+      "identity": "pass",
+      "fabric_percentages": "not_checked_blocked",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 257,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 258,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 259,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 260,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 261,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 262,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 263,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 264,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 265,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 266,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 267,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 268,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 269,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 270,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 271,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 272,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 273,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 274,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 275,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 276,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 277,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 278,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 279,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 280,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 281,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 282,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 283,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 284,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 285,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 286,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 287,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 288,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 289,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 290,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 291,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 292,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 293,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 294,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 295,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 296,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 297,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 298,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 299,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 300,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 301,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 302,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 303,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 304,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 305,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 306,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 307,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 308,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 309,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 310,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 311,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 312,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 313,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 314,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 315,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 316,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 317,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 318,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 319,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 320,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 321,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 322,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 323,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 324,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 325,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 326,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 327,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 328,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 329,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 330,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 331,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 332,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 333,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 334,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 335,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 336,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 337,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 338,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 339,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 340,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 341,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 342,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 343,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 344,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 345,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 346,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 347,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 348,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 349,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 350,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 351,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 352,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 353,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 354,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 355,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 356,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 357,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 358,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 359,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 360,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 361,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 362,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 363,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 364,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 365,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 366,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 367,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 368,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 369,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 370,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "live_product",
+      "construction_source_present": true
+    },
+    {
+      "row": 371,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 372,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 373,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 374,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 375,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 376,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 377,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 378,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 379,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 380,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 381,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 382,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 383,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 384,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 385,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 386,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 387,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 388,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 389,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 390,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 391,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 392,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    },
+    {
+      "row": 393,
+      "identity": "pass",
+      "fabric_percentages": "pass",
+      "source": "product_export",
+      "construction_source_present": true
+    }
+  ]
+}

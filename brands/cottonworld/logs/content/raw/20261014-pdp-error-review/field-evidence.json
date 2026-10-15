@@ -1,0 +1,5098 @@
+[
+  {
+    "row": 2,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=2",
+    "attributes": {
+      "neck": "MANDARIN COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "FRONT POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 3,
+    "source_ref": "live-products.json#row=3",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 4,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=4",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 5,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=5",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 6,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=6",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 7,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=7",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 8,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=8",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "CURVED HEM",
+      "pocket": "2 FRONT POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 9,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=9",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "CURVED HEM",
+      "pocket": "2 FRONT POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 10,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=10",
+    "attributes": {
+      "neck": "ROUND V NECK",
+      "sleeve": "EXTENDED SHORT SLEEVE",
+      "opening": "FRONT YOKE",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 11,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=11",
+    "attributes": {
+      "neck": "BOAT NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 12,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=12",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "PULL ON",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 13,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=13",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "PULL ON",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 14,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=14",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 15,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=15",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 16,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=16",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 17,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=17",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SLEEVELESS",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 18,
+    "source_ref": "live-products.json#row=18",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "EXTENDED 3/4 SLEEVE WITH CUFF",
+      "opening": "BUTTON FRONT",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 19,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=19",
+    "attributes": {
+      "neck": "JOHNNY COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 20,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=20",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 21,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=21",
+    "attributes": {
+      "neck": "BAND COLLAR WITH V NECK",
+      "sleeve": "3/4 SLEEVE WITH CUFF",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 22,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=22",
+    "attributes": {
+      "neck": "BAND COLLAR WITH V NECK",
+      "sleeve": "3/4 SLEEVE WITH CUFF",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 23,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=23",
+    "attributes": {
+      "neck": "ROUND V NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 24,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=24",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "",
+      "hem": "",
+      "pocket": "",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 25,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=25",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "ASSYMETRIC HEMLINE",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 26,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=26",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 27,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=27",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 28,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=28",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 29,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=29",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "EMBROIDERED FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 30,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=30",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "EMBROIDERED FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 31,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=31",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "EMBROIDERED FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 32,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=32",
+    "attributes": {
+      "neck": "LAPEL COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 33,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=33",
+    "attributes": {
+      "neck": "LAPEL COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 34,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=34",
+    "attributes": {
+      "neck": "LAPEL COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 35,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=35",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "STRAPS",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 36,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=36",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 37,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=37",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 38,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=38",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "FRONT POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 39,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=39",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE WITH CUFF",
+      "opening": "FRONT OPEN",
+      "hem": "ELASTICATED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 40,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=40",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 41,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=41",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 42,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=42",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 43,
+    "source_ref": "live-products.json#row=43",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "EXTENDED LONG SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 44,
+    "source_ref": "live-products.json#row=44",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "EXTENDED 3/4 SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 45,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=45",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "2 FRONT POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 46,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=46",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "2 FRONT POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 47,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=47",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 48,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=48",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 49,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=49",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 50,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=50",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 51,
+    "source_ref": "live-products.json#row=51",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SHORT SLEEVE WITH TIES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 52,
+    "source_ref": "live-products.json#row=52",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 53,
+    "source_ref": "live-products.json#row=53",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 54,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=54",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "ZIPPER OPENING",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 55,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=55",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 56,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=56",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 57,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=57",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 58,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=58",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 59,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=59",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "3/4 SLEEVE WITH CUFF",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 60,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=60",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "FRONT POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 61,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=61",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "FRONT POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 62,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=62",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 63,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=63",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "3/4 SLEEVE WITH CUFF",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 64,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=64",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 65,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=65",
+    "attributes": {
+      "neck": "ROUND V NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "PULL ON WITH SHIRRING ON SHOULDERS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 66,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=66",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 67,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=67",
+    "attributes": {
+      "neck": "JOHNNY COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ELASTICATED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 68,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=68",
+    "attributes": {
+      "neck": "JOHNNY COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ELASTICATED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 69,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=69",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ELASTICATED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 70,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=70",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 71,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=71",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 72,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=72",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 73,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=73",
+    "attributes": {
+      "neck": "MANDARIN COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "CONCEALED PLACKET",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 74,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=74",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PLEATED FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 75,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=75",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 76,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=76",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 77,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=77",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 78,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=78",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 79,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=79",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 80,
+    "source_ref": "live-products.json#row=80",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED 3/4 SLEEVE",
+      "opening": "COLOUR BLOCK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 81,
+    "source_ref": "live-products.json#row=81",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "RAGLAN SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 82,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=82",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FRONT MOCK BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 83,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=83",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FRONT MOCK BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 84,
+    "source_ref": "live-products.json#row=84",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 85,
+    "source_ref": "live-products.json#row=85",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 86,
+    "source_ref": "live-products.json#row=86",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 87,
+    "source_ref": "live-products.json#row=87",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 88,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=88",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 89,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=89",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 90,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=90",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "ASSYMETRIC HEMLINE",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "FITTED WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 91,
+    "source_ref": "live-products.json#row=91",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE WITH FOLD",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 92,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=92",
+    "attributes": {
+      "neck": "JOHNNY COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 93,
+    "source_ref": "live-products.json#row=93",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "EXTENDED SHORT SLEEVE WITH CUFF",
+      "opening": "BUTTON AND ZIP CLOSURE",
+      "hem": "ASSYMETRIC HEMLINE",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 94,
+    "source_ref": "live-products.json#row=94",
+    "attributes": {
+      "neck": "ROUND NECK WITH V SHAPE AT BACK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM WITH FOLD",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 95,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=95",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 96,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=96",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "EXTENDED SHORT SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "CURVED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 97,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=97",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BACK ZIPPER",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 98,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=98",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 99,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=99",
+    "attributes": {
+      "neck": "JOHNNY COLLAR",
+      "sleeve": "EXTENDED SHORT SLEEVE",
+      "opening": "FRONT OPEN",
+      "hem": "ASSYMETRIC HEMLINE",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 100,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=100",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BUTTON FRONT / BELT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 101,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=101",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 102,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=102",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "CONCEALED PLACKET /DRAWSTRING AT WAIST",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 103,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=103",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "CONCEALED PLACKET /DRAWSTRING AT WAIST",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 104,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=104",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "CONCEALED PLACKET /DRAWSTRING AT WAIST",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 105,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=105",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "BACK ZIPPER",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 106,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=106",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 107,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=107",
+    "attributes": {
+      "neck": "LAPEL COLLAR",
+      "sleeve": "EXTENDED SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 108,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=108",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "FRONT PATCH POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 109,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=109",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "FRONT POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 110,
+    "source_ref": "live-products.json#row=110",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 111,
+    "source_ref": "live-products.json#row=111",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 112,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=112",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 113,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=113",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 114,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=114",
+    "attributes": {
+      "neck": "",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 115,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=115",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "BAT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 116,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=116",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "BAT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 117,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=117",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 118,
+    "source_ref": "live-products.json#row=118",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 119,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=119",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "",
+      "hem": "STRAIGHT HEM",
+      "pocket": "2 POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 120,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=120",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "",
+      "hem": "STRAIGHT HEM",
+      "pocket": "2 POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 121,
+    "source_ref": "live-products.json#row=121",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "ELASTICATED WAIST BAND",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 122,
+    "source_ref": "live-products.json#row=122",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "ELASTICATED WAIST BAND",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 123,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=123",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 124,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=124",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "CONCEALED PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 125,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=125",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "3/4 SLEEVE",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 126,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=126",
+    "attributes": {
+      "neck": "SHIRT COLLAR",
+      "sleeve": "LONG SLEEVE WITH CUFF",
+      "opening": "BUTTON FRONT",
+      "hem": "CURVED HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 127,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=127",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "BACK ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 128,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=128",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "BACK ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 129,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=129",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "PULL ON",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "BACK ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 130,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=130",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED WAIST WITH SIDE DRAWSTRINGS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 131,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=131",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED WAIST WITH SIDE DRAWSTRINGS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 132,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=132",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "FRONT AND SIDE POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 133,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=133",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 134,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=134",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 135,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=135",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 136,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=136",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 137,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=137",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 138,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=138",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "BUBBLE HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 139,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=139",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 140,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=140",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTICATED",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 141,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=141",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "SIDE BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 142,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=142",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "SIDE BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "FITTED WAIST",
+      "leg": "WIDE LEG"
+    }
+  },
+  {
+    "row": 143,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=143",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 144,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=144",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 145,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=145",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 146,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=146",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "WIDE LEG"
+    }
+  },
+  {
+    "row": 147,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=147",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "PATCH POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 148,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=148",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 149,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=149",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 150,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=150",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 151,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=151",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 152,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=152",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "1/2 ELASTIC",
+      "leg": "BARREL LEG"
+    }
+  },
+  {
+    "row": 153,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=153",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 154,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=154",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 155,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=155",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 156,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=156",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 157,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=157",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 158,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=158",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 159,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=159",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FRONT OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 160,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=160",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 161,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=161",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 162,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=162",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "FULL ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 163,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=163",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ELASTIC",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "FULL ELASTIC",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 164,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=164",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BACK ZIPPER",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "FITTED WAIST",
+      "leg": ""
+    }
+  },
+  {
+    "row": 165,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=165",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 166,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=166",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 167,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=167",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 168,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=168",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 169,
+    "source_ref": "live-products.json#row=169",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 170,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=170",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 171,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=171",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 172,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=172",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 173,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=173",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 174,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=174",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 175,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=175",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 176,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=176",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 177,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=177",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "ELASTICATED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 178,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=178",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "ELASTICATED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 179,
+    "source_ref": "live-products.json#row=179",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "ELASTICATED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 180,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=180",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "ELASTICATED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 181,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=181",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "ELASTICATED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 182,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=182",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 183,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=183",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 184,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=184",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 185,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=185",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 186,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=186",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 187,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=187",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 188,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=188",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 189,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=189",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 190,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=190",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 191,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=191",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 192,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=192",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 193,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=193",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 194,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=194",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 195,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=195",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 196,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=196",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 197,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=197",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 198,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=198",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 199,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=199",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 200,
+    "source_ref": "live-products.json#row=200",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 201,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=201",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "EXTENDED SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 202,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=202",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 203,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=203",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 204,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=204",
+    "attributes": {
+      "neck": "BOAT NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 205,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=205",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 206,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=206",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 207,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=207",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 208,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=208",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT BOTTOM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 209,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=209",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 210,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=210",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 211,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=211",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 212,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=212",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 213,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=213",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SHORT SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 214,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=214",
+    "attributes": {
+      "neck": "V NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "OPEN FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "2 FRONT POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 215,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=215",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 216,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=216",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 217,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=217",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 218,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=218",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "SLEEVELESS",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 219,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=219",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "",
+      "hem": "",
+      "pocket": "",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 220,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=220",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 221,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=221",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 222,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=222",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 223,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=223",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 224,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=224",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "ZIP FLY",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 225,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=225",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 226,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=226",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 227,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=227",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 228,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=228",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "MID WAIST",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 229,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=229",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": ""
+    }
+  },
+  {
+    "row": 230,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=230",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": ""
+    }
+  },
+  {
+    "row": 231,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=231",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": ""
+    }
+  },
+  {
+    "row": 232,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=232",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 233,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=233",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 234,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=234",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 235,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=235",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 236,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=236",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "STRAIGHT HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "STRAIGHT LEG"
+    }
+  },
+  {
+    "row": 237,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=237",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 238,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=238",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 239,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=239",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 240,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=240",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND SINGLE BACK POCKET",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 241,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=241",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 242,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=242",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 243,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=243",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 244,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=244",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 245,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=245",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 246,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=246",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "SIDE ELASTIC WITH BUTTON AND ZIPPER",
+      "leg": ""
+    }
+  },
+  {
+    "row": 247,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=247",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "SIDE ELASTIC WITH BUTTON AND ZIPPER",
+      "leg": ""
+    }
+  },
+  {
+    "row": 248,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=248",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM AND BACK POCKETS",
+      "waist": "SIDE ELASTIC WITH BUTTON AND ZIPPER",
+      "leg": ""
+    }
+  },
+  {
+    "row": 249,
+    "source_ref": "live-products.json#row=249",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 250,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=250",
+    "attributes": {
+      "neck": "BAND NECK",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 251,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=251",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 252,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=252",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "BUTTON FRONT",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 253,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=253",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 254,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=254",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 255,
+    "source_ref": "live-products.json#row=255",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 256,
+    "source_ref": "live-products.json#row=256",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 257,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=257",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 258,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=258",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 259,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=259",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 260,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=260",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 261,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=261",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 262,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=262",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 263,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=263",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "PULL ON",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 264,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=264",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 265,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=265",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "DETAILED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 266,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=266",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "DETAILED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 267,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=267",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "DETAILED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 268,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=268",
+    "attributes": {
+      "neck": "HOODED",
+      "sleeve": "FULL SLEEVES",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "ROUND HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 269,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=269",
+    "attributes": {
+      "neck": "HOODED",
+      "sleeve": "FULL SLEEVES",
+      "opening": "HALF OPEN WITH BUTTONS",
+      "hem": "ROUND HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 270,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=270",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "2 FLAP POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 271,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=271",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "2 FLAP POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 272,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=272",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "2 FLAP POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 273,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=273",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 274,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=274",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 275,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=275",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 276,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=276",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 277,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=277",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 278,
+    "source_ref": "live-products.json#row=278",
+    "attributes": {
+      "neck": "SHAWL COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 279,
+    "source_ref": "live-products.json#row=279",
+    "attributes": {
+      "neck": "SHAWL COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 280,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=280",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON WITH BUTTON DETAIL",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 281,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=281",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 282,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=282",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 283,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=283",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 284,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=284",
+    "attributes": {
+      "neck": "ROUND V NECK",
+      "sleeve": "FULL SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT WITH SIDE SLIT",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 285,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=285",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 286,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=286",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 287,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=287",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 288,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=288",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 289,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=289",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 290,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=290",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 291,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=291",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 292,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=292",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 293,
+    "source_ref": "live-products.json#row=293",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 294,
+    "source_ref": "live-products.json#row=294",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 295,
+    "source_ref": "live-products.json#row=295",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 296,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=296",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 297,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=297",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 298,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=298",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 299,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=299",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 300,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=300",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 301,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=301",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 302,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=302",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 303,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=303",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 304,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=304",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 305,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=305",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 306,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=306",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 307,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=307",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 308,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=308",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 309,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=309",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 310,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=310",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 311,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=311",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 312,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=312",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 313,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=313",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 314,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=314",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 315,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=315",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 316,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=316",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 317,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=317",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 318,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=318",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "FOLDED PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 319,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=319",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 320,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=320",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 321,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=321",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 322,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=322",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 323,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=323",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 324,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=324",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 325,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=325",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 326,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=326",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 327,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=327",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "FULL SLEEVE",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 328,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=328",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 329,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=329",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 330,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=330",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 331,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=331",
+    "attributes": {
+      "neck": "BUTTON DOWN COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "REGULAR PLACKET",
+      "hem": "ROUND HEM",
+      "pocket": "ONE POCKET",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 332,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=332",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 333,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=333",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 334,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=334",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 335,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=335",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "DRAWSTRING WITH ELASTIC",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 336,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=336",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 337,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=337",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 338,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=338",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 339,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=339",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "SIDE SEAM POCKETS",
+      "waist": "ELASTIC WAIST WITH DRAWSTRING",
+      "leg": ""
+    }
+  },
+  {
+    "row": 340,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=340",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "CARGO POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 341,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=341",
+    "attributes": {
+      "neck": "",
+      "sleeve": "",
+      "opening": "BUTTON AND ZIP",
+      "hem": "FOLDED HEM",
+      "pocket": "CARGO POCKETS",
+      "waist": "WITH BELT LOOPS",
+      "leg": "REGULAR LEG"
+    }
+  },
+  {
+    "row": 342,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=342",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 343,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=343",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 344,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=344",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 345,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=345",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 346,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=346",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 347,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=347",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 348,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=348",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 349,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=349",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 350,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=350",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 351,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=351",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 352,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=352",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 353,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=353",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 354,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=354",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 355,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=355",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 356,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=356",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 357,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=357",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 358,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=358",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 359,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=359",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 360,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=360",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 361,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=361",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 362,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=362",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 363,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=363",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 364,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=364",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 365,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=365",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 366,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=366",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 367,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=367",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 368,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=368",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 369,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=369",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 370,
+    "source_ref": "live-products.json#row=370",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 371,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=371",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVE",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 372,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=372",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 373,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=373",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 374,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=374",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 375,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=375",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 376,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=376",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 377,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=377",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVE",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 378,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=378",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVE",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 379,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=379",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVE",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 380,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=380",
+    "attributes": {
+      "neck": "REGULAR COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BUTTON FRONT",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 381,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=381",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 382,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=382",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "BASIC ROUND NECK",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 383,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=383",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "FULL SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 384,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=384",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "FULL SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 385,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=385",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "FULL SLEEVE",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 386,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=386",
+    "attributes": {
+      "neck": "BAND COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 387,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=387",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM WITH SLITS",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 388,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=388",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 389,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=389",
+    "attributes": {
+      "neck": "ROUND NECK",
+      "sleeve": "HALF SLEEVES",
+      "opening": "PULL ON",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 390,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=390",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 391,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=391",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 392,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=392",
+    "attributes": {
+      "neck": "POLO",
+      "sleeve": "HALF SLEEVES",
+      "opening": "HALF OPEN WITH 02 BUTTONS",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  },
+  {
+    "row": 393,
+    "source_ref": "../20261006-added-active-pdp/records.json#row=393",
+    "attributes": {
+      "neck": "POLO COLLAR",
+      "sleeve": "HALF SLEEVES",
+      "opening": "HALF OPEN",
+      "hem": "STRAIGHT HEM",
+      "pocket": "NO POCKETS",
+      "waist": "",
+      "leg": ""
+    }
+  }
+]

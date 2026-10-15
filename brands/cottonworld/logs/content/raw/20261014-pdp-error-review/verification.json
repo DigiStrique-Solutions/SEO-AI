@@ -1,0 +1,18 @@
+{
+  "run_id": "20261014-pdp-error-review",
+  "verified_at": "2026-10-14T07:36:58.121Z",
+  "rows_reviewed": 392,
+  "descriptions_changed": 261,
+  "source_notes_added": 5,
+  "source_note_rows": [
+    24,
+    219,
+    255,
+    256,
+    370
+  ],
+  "readback_matches_all_intended_values": true,
+  "original_urls_updated_urls_headers_and_cell_formats_preserved": true,
+  "visual_render_checked": false,
+  "errors": []
+}
